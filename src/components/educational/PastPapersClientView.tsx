@@ -38,7 +38,7 @@ export const PastPapersClientView: React.FC<PastPapersClientViewProps> = ({
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
-      <main className="flex-1 py-10 px-4 sm:px-6 max-w-6xl mx-auto w-full">
+      <main className="page-main flex-1">
         {/* Breadcrumb */}
         <nav className="breadcrumb">
           <Link href="/">Home</Link>
@@ -64,7 +64,7 @@ export const PastPapersClientView: React.FC<PastPapersClientViewProps> = ({
         </div>
 
         {/* Header */}
-        <div className="mb-8">
+        <div className="page-intro mb-8">
           <div className="inline-flex items-center gap-2 mb-2">
             <span className="badge-primary">{currentClass?.title}</span>
             <span className="badge-accent">{currentSubject?.title}</span>

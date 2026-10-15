@@ -75,7 +75,7 @@ export default function ClassDetailsPage({ params }: PageProps) {
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
-      <main className="flex-1 py-10 px-4 sm:px-6 max-w-6xl mx-auto w-full">
+      <main className="page-main flex-1">
         {/* Schema */}
         <script
           type="application/ld+json"

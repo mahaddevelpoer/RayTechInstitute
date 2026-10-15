@@ -42,7 +42,7 @@ export default function ResultsGazettesPage() {
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
-      <main className="flex-1 py-10 px-4 sm:px-6 max-w-6xl mx-auto w-full">
+      <main className="page-main flex-1">
         {/* Structured Data */}
         <script
           type="application/ld+json"

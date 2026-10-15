@@ -23,7 +23,7 @@ export function ClassesClientView() {
       </nav>
 
       {/* Header */}
-      <div className="mb-8">
+      <div className="page-intro mb-8">
         <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
           Intermediate Classes (11th &amp; 12th)
         </h1>

@@ -52,7 +52,7 @@ export function ResultsGazettesClientView() {
       </nav>
 
       {/* Header */}
-      <div className="mb-8">
+      <div className="page-intro mb-8">
         <div className="inline-flex items-center gap-1.5 badge-highlight mb-2">
           <Award className="w-3.5 h-3.5" />
           <span>Official Board Results</span>

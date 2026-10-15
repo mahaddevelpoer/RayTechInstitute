@@ -80,6 +80,51 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+::selection {
+  background: var(--primary-light);
+  color: var(--primary-hover);
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--primary) 38%, transparent);
+  outline-offset: 3px;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Shared page rhythm for the public learning surfaces. */
+.page-main {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding: 3rem 1rem 4.5rem;
+}
+
+.page-intro {
+  max-width: 46rem;
+  margin-bottom: 2rem;
+}
+
+.page-intro h1 {
+  letter-spacing: -0.025em;
+}
+
+.page-intro p {
+  max-width: 65ch;
+  color: var(--text-sub);
+  line-height: 1.75;
+}
+
+.resource-grid {
+  align-items: stretch;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
@@ -99,25 +144,25 @@ body {
 /* Card Style - High Visibility & Clickable */
 .edu-card {
   background: var(--bg-card);
-  border: 1.5px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
 .edu-card:hover {
-  border-color: var(--primary);
-  box-shadow: 0 4px 14px rgba(27, 79, 155, 0.12);
-  transform: translateY(-1px);
+  border-color: color-mix(in srgb, var(--primary) 45%, var(--border));
+  box-shadow: 0 10px 28px rgba(15, 51, 103, 0.09);
+  transform: translateY(-2px);
 }
 
 /* Section Title */
 .section-title {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-main);
-  border-left: 4px solid var(--primary);
-  padding-left: 12px;
+  border-left: 3px solid var(--primary);
+  padding-left: 11px;
   margin-bottom: 12px;
 }
 
@@ -160,15 +205,16 @@ body {
   gap: 6px;
   background-color: var(--primary);
   color: #FFFFFF !important;
-  padding: 9px 18px;
-  border-radius: 6px;
+  min-height: 40px;
+  padding: 9px 16px;
+  border-radius: 8px;
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
   border: 1.5px solid var(--primary);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  transition: all 0.15s ease;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .btn-primary:hover {
@@ -190,8 +236,9 @@ body {
   gap: 6px;
   background-color: #FFFFFF;
   color: var(--primary) !important;
-  padding: 8px 18px;
-  border-radius: 6px;
+  min-height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
@@ -244,7 +291,8 @@ html.dark .btn-outline {
   gap: 6px;
   font-size: 13px;
   color: var(--text-muted);
-  margin-bottom: 16px;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
 }
 
 .breadcrumb a {
@@ -296,7 +344,9 @@ html.dark .btn-outline {
   right: 1rem;
   left: 1rem;
   width: auto;
-  max-width: 42rem;
+  max-width: min(42rem, calc(100vw - 2rem));
+  max-height: min(32rem, calc(100dvh - 6rem));
+  overflow-y: auto;
   margin-inline: auto;
   animation: navMenuIn 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
@@ -307,7 +357,7 @@ html.dark .btn-outline {
   align-items: center;
   gap: 8px;
   min-height: 48px;
-  border-radius: 8px;
+  border-radius: 9px;
   padding: 9px 10px;
   transition: background-color 160ms ease, transform 160ms ease;
 }
@@ -365,6 +415,23 @@ html.dark .btn-outline {
   font-weight: 600;
 }
 
+@media (min-width: 640px) {
+  .page-main {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .page-main {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .edu-card:hover {
+    transform: none;
+  }
+}
+
 .mobile-nav-link {
   padding: 0 8px;
 }
@@ -393,6 +460,19 @@ html.dark .btn-outline {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
   .nav-mega-menu,
   .nav-mobile-panel,
   .nav-link,
