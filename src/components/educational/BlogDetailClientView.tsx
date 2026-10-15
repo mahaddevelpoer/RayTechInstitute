@@ -14,6 +14,7 @@ interface BlogDetailClientViewProps {
 
 export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientViewProps) {
   const post = initialPost || null;
+  const fallbackImage = 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80';
 
   if (!post) {
     return (
@@ -172,6 +173,10 @@ export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientView
           width={800}
           height={450}
           className="w-full h-full object-cover"
+          onError={(event) => {
+            event.currentTarget.onerror = null;
+            event.currentTarget.src = fallbackImage;
+          }}
         />
       </div>
 

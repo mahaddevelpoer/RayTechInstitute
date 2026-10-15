@@ -68,6 +68,25 @@ function saveToStorage<T>(key: string, data: T): void {
   } catch {}
 }
 
+// Ask the deployed Edge Function to start the static rebuild immediately after
+// an admin mutation. The database webhook remains a server-side backup, while
+// this path gives the admin panel a deterministic publish trigger.
+async function requestStaticRebuild(table: string, id?: string): Promise<void> {
+  try {
+    const { data, error } = await supabase.functions.invoke('secure-dispatch', {
+      body: {
+        action: 'trigger_static_rebuild',
+        payload: { table, id: id || null },
+      },
+    });
+    if (error || !data?.success) {
+      console.warn('[static-publish] Rebuild trigger failed:', error?.message || data?.error || 'Unknown error');
+    }
+  } catch (error) {
+    console.warn('[static-publish] Rebuild trigger unavailable:', error);
+  }
+}
+
 export const EducationalStore = {
   /**
    * Immediately invalidates the 15-minute cache.
@@ -275,6 +294,7 @@ export const EducationalStore = {
       is_active: item.isActive,
     });
     if (error) throw new Error(`Failed to save class: ${error.message}`);
+    await requestStaticRebuild('classes', item.id);
     this.invalidateCache();
   },
 
@@ -308,6 +328,7 @@ export const EducationalStore = {
       description: item.description,
     });
     if (error) throw new Error(`Failed to save subject: ${error.message}`);
+    await requestStaticRebuild('subjects', item.id);
     this.invalidateCache();
   },
   async deleteSubject(id: string): Promise<void> {
@@ -350,6 +371,7 @@ export const EducationalStore = {
       action_button_url: item.actionButtonUrl || null,
     });
     if (error) throw new Error(`Failed to save note: ${error.message}`);
+    await requestStaticRebuild('notes', item.id);
     this.invalidateCache();
   },
   async deleteNote(id: string): Promise<void> {
@@ -387,6 +409,7 @@ export const EducationalStore = {
       explanation: item.explanation,
     });
     if (error) throw new Error(`Failed to save MCQ: ${error.message}`);
+    await requestStaticRebuild('mcqs', item.id);
     this.invalidateCache();
   },
   async deleteMCQ(id: string): Promise<void> {
@@ -421,6 +444,7 @@ export const EducationalStore = {
       pdf_url: item.pdfUrl,
     });
     if (error) throw new Error(`Failed to save past paper: ${error.message}`);
+    await requestStaticRebuild('past_papers', item.id);
     this.invalidateCache();
   },
   async deletePastPaper(id: string): Promise<void> {
@@ -462,6 +486,7 @@ export const EducationalStore = {
       content: item.content || null,
     });
     if (error) throw new Error(`Failed to save gazette: ${error.message}`);
+    await requestStaticRebuild('gazettes', item.id);
     this.invalidateCache();
   },
   async deleteGazette(id: string): Promise<void> {
@@ -501,6 +526,7 @@ export const EducationalStore = {
       action_button_url: item.actionButtonUrl || null,
     });
     if (error) throw new Error(`Failed to save blog: ${error.message}`);
+    await requestStaticRebuild('blogs', item.id);
     this.invalidateCache();
   },
   async deleteBlog(id: string): Promise<void> {
@@ -538,6 +564,7 @@ export const EducationalStore = {
       explanation: item.explanation,
     });
     if (error) throw new Error(`Failed to save video MCQ: ${error.message}`);
+    await requestStaticRebuild('video_mcqs', item.id);
     this.invalidateCache();
   },
   async deleteVideoMCQ(id: string): Promise<void> {

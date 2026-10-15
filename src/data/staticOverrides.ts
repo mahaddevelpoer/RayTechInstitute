@@ -378,6 +378,24 @@ export const STATIC_OVERRIDES = {
       "explanation": "Each distinct linear factor in the denominator corresponds to one partial fraction with a unique constant in its numerator. Therefore, the number of constants will be equal to the number of linear factors."
     }
   ],
+  "gazettes": [
+    {
+      "id": "gazette-1792074595128",
+      "title": "BISE Lahore 11th Class (1st Year HSSC-I) Result Gazette 2026 (1st Annual Examination)",
+      "board": "BISE Lahore",
+      "classSlug": "11th-class",
+      "year": 2026,
+      "session": "1st Annual Examination",
+      "pdfUrl": "https://www.biselahore.com/",
+      "directResultUrl": "https://www.biselahore.com/",
+      "releaseDate": "2026-10-15",
+      "totalCandidates": "185,450 Candidates",
+      "passingPercentage": "67.8%",
+      "actionButtonText": "Download Official Gazette PDF",
+      "actionButtonUrl": "https://www.biselahore.com/",
+      "content": "### Official Result Declaration & Executive Overview\n\nThe Board of Intermediate and Secondary Education (BISE) Lahore officially declares the results for the 11th Class (HSSC-I) 1st Annual Examination 2026. Out of 185,450 registered candidates, 182,120 appeared for the examination, with an overall pass percentage of 67.8%. The board maintains its commitment to transparency and academic integrity.\n\n### Statistical Analysis\n\n| Group | Appeared | Passed | Percentage |\n| :--- | :--- | :--- | :--- |\n| Pre-Medical | 62,300 | 48,594 | 78% |\n| Pre-Engineering | 45,200 | 32,544 | 72% |\n| ICS | 48,950 | 31,817 | 65% |\n| Humanities | 25,670 | 12,835 | 50% |\n\n### Official Online Roll Number Verification & Portal Steps\n\n1. Visit the official website at www.biselahore.com.\n2. Navigate to the 'Results' tab on the main dashboard.\n3. Select 'HSSC-I 1st Annual 2026' from the dropdown menu.\n4. Enter your 6-digit Roll Number in the provided field.\n5. Click 'Submit' to view your detailed marks sheet.\n\n### Official SMS Result Code\n\nCandidates can receive their results via SMS by sending their Roll Number to the official BISE Lahore code: **80029**.\n\n### Rechecking & Scrutiny Application Protocols\n\nStudents unsatisfied with their results may apply for paper re-checking within 15 days of the result declaration. \n- Application must be submitted via the online portal.\n- A prescribed fee must be deposited in the designated HBL branch.\n- Re-checking is limited to the verification of marks addition and checking for unmarked questions; re-evaluation of answers is not permitted.\n\n### Supplementary / 2nd Annual Examination Guidelines\n\nCandidates who failed in one or more subjects are eligible to appear in the 2nd Annual Examination 2026. The schedule for the submission of admission forms will be released on the official website shortly. Candidates are advised to stay updated via the official portal."
+    }
+  ],
   "blogs": [
     {
       "id": "blog-1791960663125",

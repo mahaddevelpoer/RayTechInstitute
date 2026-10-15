@@ -267,6 +267,18 @@ async function callGeminiCascade(
   throw new Error(`All Gemini models failed. Last error: ${lastErrorText}`);
 }
 
+function wordCount(value: unknown): number {
+  return typeof value === 'string' ? value.trim().split(/\s+/).filter(Boolean).length : 0;
+}
+
+async function expandIfTooShort(apiKey: string, item: any, minimumWords: number, label: string): Promise<any> {
+  if (wordCount(item?.content) >= minimumWords) return item;
+  const expansionPrompt = `Expand the following ${label} into a complete, publication-ready Pakistani board education guide. Return ONLY valid JSON with the same fields. Keep all factual details, but replace content with at least ${minimumWords} words. Use rich Markdown headings, substantial explanatory paragraphs, tables where useful, practical examples, student checklists, and FAQs. Never return a short summary and never truncate content.\n\nCURRENT JSON:\n${JSON.stringify(item)}`;
+  const expandedRaw = await callGeminiCascade(apiKey, `You are a meticulous senior academic editor. Content length and completeness are mandatory.`, expansionPrompt, 24576, 0.25);
+  const expanded = extractAndParseJson(expandedRaw);
+  return wordCount(expanded?.content) > wordCount(item?.content) ? { ...item, ...expanded } : item;
+}
+
 // OpenCode Zen caller with error capture
 async function callOpenCode(
   apiKey: string,
@@ -301,6 +313,38 @@ async function callOpenCode(
   return null;
 }
 
+async function dispatchStaticRebuild(record: any = {}) {
+  const token = Deno.env.get('GITHUB_DISPATCH_TOKEN');
+  const repository = Deno.env.get('GITHUB_REPOSITORY') || 'mahaddevelpoer/RayTechInstitute';
+  if (!token) throw new Error('GITHUB_DISPATCH_TOKEN is not configured in Supabase Secrets.');
+
+  const response = await fetch(`https://api.github.com/repos/${repository}/dispatches`, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${token}`,
+      'X-GitHub-Api-Version': '2022-11-28',
+      'Content-Type': 'application/json',
+      'User-Agent': 'RayTech-static-publisher',
+    },
+    body: JSON.stringify({
+      event_type: 'content-published',
+      client_payload: {
+        source: 'supabase',
+        table: record.table || record.entity || 'content',
+        operation: record.operation || record.eventType || 'upsert',
+        id: record.record?.id || record.new_record?.id || record.id || null,
+      },
+    }),
+  });
+
+  if (!response.ok) {
+    const message = await response.text();
+    throw new Error(`GitHub repository dispatch failed (${response.status}): ${message}`);
+  }
+  return { success: true, repository, eventType: 'content-published' };
+}
+
 serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
@@ -332,6 +376,29 @@ serve(async (req) => {
 
     const currentDate = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
     const currentYear = new Date().getFullYear();
+
+    // Supabase Database Webhooks post their event envelope directly. This
+    // bridge turns every admin content change into repository_dispatch.
+    if (!action && (body.table || body.type || body.record || body.new_record)) {
+      const expectedSecret = Deno.env.get('CONTENT_WEBHOOK_SECRET');
+      const suppliedSecret = req.headers.get('x-content-webhook-secret');
+      if (!expectedSecret || suppliedSecret !== expectedSecret) {
+        return respond({ success: false, error: 'Invalid content webhook secret.' }, 401);
+      }
+      try {
+        return respond(await dispatchStaticRebuild(body));
+      } catch (error: any) {
+        return respond({ success: false, error: error.message }, 502);
+      }
+    }
+
+    if (action === 'trigger_static_rebuild') {
+      try {
+        return respond(await dispatchStaticRebuild({ ...payload, operation: 'manual' }));
+      } catch (error: any) {
+        return respond({ success: false, error: error.message }, 502);
+      }
+    }
 
     // ─────────────────────────────────────────────────────────────
     // 1. ACTION: AI BLOG GENERATOR (Pillar Authority SEO Content)
@@ -375,7 +442,7 @@ STRICT MANDATORY RULES (ZERO EXCEPTIONS):
   "slug": "url-friendly-slug-with-hyphens",
   "category": "${category || 'date-sheets'}",
   "excerpt": "40-60 word factual summary for Google AI Overviews and meta description",
-  "content": "Massive in-depth markdown content containing all 7 mandatory sections, multiple complete tables, checklists, FAQs, and roadmaps without truncation",
+  "content": "Massive in-depth markdown content of at least 2,500 words containing all 7 mandatory sections, multiple complete tables, checklists, FAQs, practical examples, official-source notes, and roadmaps without truncation",
   "featuredImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
   "author": "Academic Coordination Cell",
   "readTime": "12 min read",
@@ -401,12 +468,12 @@ Reference Notes / Context: ${userNotes || "None"}
 Reference Links / Circulars: ${referenceLinks || "None"}
 
 Task:
-Write a massive, complete, ultimate pillar guide of at least 3,000+ words incorporating all reference notes and circulars. You MUST produce all 7 required sections in rich, deep detail without brevity or truncation.`;
+Write a complete ultimate pillar guide of at least 2,500 words (target 3,000-3,500 words) incorporating all reference notes and circulars. You MUST produce all 7 required sections in rich, deep detail. Each section must contain several substantial paragraphs, concrete Pakistani board examples, tables or checklists where useful, and must never be reduced to a short summary or truncated.`;
       }
 
       try {
-        const rawText = await callGeminiCascade(geminiApiKey, systemPrompt, userPrompt, 16384, 0.35);
-        const parsedArticle = extractAndParseJson(rawText);
+        const rawText = await callGeminiCascade(geminiApiKey, systemPrompt, userPrompt, 24576, 0.35);
+        const parsedArticle = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 2500, 'article');
         return respond({ success: true, article: parsedArticle });
       } catch (err: any) {
         return respond({
@@ -566,8 +633,8 @@ Return response STRICTLY as a valid JSON object matching:
 }`;
 
       try {
-        const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate official gazette result notification in JSON.", 8192, 0.3);
-        const parsedGazette = extractAndParseJson(rawText);
+        const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate an exhaustive official gazette result notification in JSON, with at least 1,800 words in content. Do not summarize; include complete headings, tables, procedures, verification steps, rechecking rules, and student guidance.", 16384, 0.3);
+        const parsedGazette = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 1800, 'result gazette');
         return respond({ success: true, gazette: parsedGazette });
       } catch (err: any) {
         return respond({
@@ -632,8 +699,8 @@ STRICT MANDATORY RULES:
 }`;
 
       try {
-        const rawText = await callGeminiCascade(geminiApiKey, notesSystemPrompt, "Generate chapter notes study guide in JSON format. Do not use unescaped double quotes inside content.", 16384, 0.3);
-        const parsedNote = extractAndParseJson(rawText);
+        const rawText = await callGeminiCascade(geminiApiKey, notesSystemPrompt, "Generate a complete chapter notes study guide in JSON format with at least 2,500 words in content. Do not use unescaped double quotes inside content and do not shorten any mandatory section.", 24576, 0.3);
+        const parsedNote = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 2500, 'chapter study guide');
         return respond({ success: true, note: parsedNote });
       } catch (err: any) {
         return respond({

@@ -7,6 +7,7 @@ import { BlogPostItem } from '@/types/educational';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
 export function BlogsClientView() {
+  const fallbackImage = 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80';
   // 1. Instant 0ms Static First Render (Zero DB wait, Zero flicker)
   const [blogs, setBlogs] = useState<BlogPostItem[]>(() => EducationalStore.getBlogs());
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -83,6 +84,10 @@ export function BlogsClientView() {
                   alt={post.title}
                   className="w-full h-full object-cover"
                   loading="lazy"
+                  onError={(event) => {
+                    event.currentTarget.onerror = null;
+                    event.currentTarget.src = fallbackImage;
+                  }}
                 />
                 <span className="absolute top-2 left-2 badge-primary">
                   {post.category}

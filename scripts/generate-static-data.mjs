@@ -13,6 +13,43 @@ const env = Object.fromEntries(
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || env.NEXT_PUBLIC_SUPABASE_URL;
 const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const output = path.join(root, 'src', 'data', 'staticOverrides.ts');
+const sitemapOutput = path.join(root, 'public', 'sitemap.xml');
+const siteUrl = 'https://raytechinstitute.firebaseapp.com';
+const fallbackBlogImage = 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80';
+
+const slug = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const escapeXml = (value) => String(value).replace(/[<>&'\"]/g, (char) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[char]));
+
+function buildSitemap(overrides) {
+  const urls = [
+    ['/', 'daily', '1.0'], ['/classes/', 'weekly', '0.9'], ['/results-gazettes/', 'daily', '0.9'],
+    ['/blogs/', 'daily', '0.8'], ['/privacy-policy/', 'monthly', '0.3'], ['/terms-and-conditions/', 'monthly', '0.3'],
+    // Bundled seed routes remain indexable even when a protected Supabase
+    // table is temporarily unavailable during a build.
+    ['/classes/11th-class/', 'weekly', '0.8'], ['/classes/12th-class/', 'weekly', '0.8'],
+    ['/classes/11th-class/computer-science/', 'weekly', '0.8'], ['/classes/11th-class/physics/', 'weekly', '0.8'],
+    ['/classes/11th-class/mathematics/', 'weekly', '0.8'], ['/classes/12th-class/computer-science/', 'weekly', '0.8'],
+    ['/classes/12th-class/physics/', 'weekly', '0.8'], ['/classes/12th-class/chemistry/', 'weekly', '0.8'],
+    ['/classes/11th-class/computer-science/notes/', 'weekly', '0.8'], ['/classes/11th-class/computer-science/mcqs/', 'weekly', '0.8'],
+    ['/classes/11th-class/computer-science/past-papers/', 'weekly', '0.8'], ['/classes/12th-class/computer-science/notes/', 'weekly', '0.8'],
+    ['/classes/12th-class/computer-science/mcqs/', 'weekly', '0.8'], ['/classes/12th-class/computer-science/past-papers/', 'weekly', '0.8'],
+  ];
+  for (const item of overrides.classes || []) urls.push([`/classes/${item.slug}/`, 'weekly', '0.8']);
+  for (const item of overrides.subjects || []) urls.push([`/classes/${item.classSlug}/${item.slug}/`, 'weekly', '0.8']);
+  for (const item of overrides.notes || []) {
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/notes/`, 'weekly', '0.8']);
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/notes/${slug(item.id)}/`, 'weekly', '0.7']);
+  }
+  for (const item of overrides.pastPapers || []) {
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/past-papers/`, 'weekly', '0.8']);
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/past-papers/${slug(item.id)}/`, 'weekly', '0.7']);
+  }
+  for (const item of overrides.gazettes || []) urls.push([`/results-gazettes/${slug(item.id)}/`, 'weekly', '0.7']);
+  for (const item of overrides.blogs || []) urls.push([`/blogs/${item.slug}/`, 'weekly', '0.7']);
+  const uniqueUrls = [...new Map(urls.map((entry) => [entry[0], entry])).values()];
+  const lastmod = new Date().toISOString().slice(0, 10);
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${uniqueUrls.map(([route, changefreq, priority]) => `  <url>\n    <loc>${escapeXml(siteUrl + route)}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`).join('\n')}\n</urlset>\n`;
+}
 
 if (!supabaseUrl || !anonKey) {
   console.warn('[static-data] Supabase environment not available; keeping existing snapshot.');
@@ -26,7 +63,7 @@ const map = {
   mcqs: (m) => ({ id: m.id, classSlug: m.class_slug, subjectSlug: m.subject_slug, chapterNumber: m.chapter_number, question: m.question, codeSnippet: m.code_snippet || undefined, options: m.options, correctIndex: m.correct_index, explanation: m.explanation }),
   pastPapers: (p) => ({ id: p.id, classSlug: p.class_slug, subjectSlug: p.subject_slug, board: p.board, year: p.year, session: p.session, pdfUrl: p.pdf_url, description: p.description || undefined, content: p.content || undefined }),
   gazettes: (g) => ({ id: g.id, title: g.title, board: g.board, classSlug: g.class_slug, year: g.year, session: g.session, pdfUrl: g.pdf_url, directResultUrl: g.direct_result_url, releaseDate: g.release_date, totalCandidates: g.total_candidates, passingPercentage: g.passing_percentage, actionButtonText: g.action_button_text || undefined, actionButtonUrl: g.action_button_url || undefined, content: g.content || undefined }),
-  blogs: (b) => ({ id: b.id, title: b.title, slug: b.slug, category: b.category, excerpt: b.excerpt, content: b.content, featuredImage: b.featured_image, author: b.author, datePublished: b.date_published, readTime: b.read_time, tags: Array.isArray(b.tags) ? b.tags : [], actionButtonText: b.action_button_text || undefined, actionButtonUrl: b.action_button_url || undefined }),
+  blogs: (b) => ({ id: b.id, title: b.title, slug: b.slug, category: b.category, excerpt: b.excerpt, content: b.content, featuredImage: b.featured_image || fallbackBlogImage, author: b.author, datePublished: b.date_published, readTime: b.read_time, tags: Array.isArray(b.tags) ? b.tags : [], actionButtonText: b.action_button_text || undefined, actionButtonUrl: b.action_button_url || undefined }),
   videoMcqs: (v) => ({ id: v.id, videoId: v.video_id, videoTitle: v.video_title, timestampSeconds: Number(v.timestamp_seconds) || 0, timestampFormatted: v.timestamp_formatted || '00:00', topic: v.topic, question: v.question, codeSnippet: v.code_snippet || undefined, options: v.options, correctIndex: Number(v.correct_index) || 0, explanation: v.explanation }),
 };
 
@@ -43,4 +80,6 @@ for (const [table, transform] of Object.entries(map)) {
 
 const source = `import { BlogPostItem, ClassItem, GazetteItem, MCQItem, NoteItem, PastPaperItem, SubjectItem, VideoInteractiveMCQ } from '@/types/educational';\n\nexport const STATIC_OVERRIDES = ${JSON.stringify(overrides, null, 2)} as {\n  classes?: ClassItem[]; subjects?: SubjectItem[]; notes?: NoteItem[]; mcqs?: MCQItem[]; pastPapers?: PastPaperItem[]; gazettes?: GazetteItem[]; blogs?: BlogPostItem[]; videoMcqs?: VideoInteractiveMCQ[];\n};\n`;
 await fs.writeFile(output, source, 'utf8');
+await fs.writeFile(sitemapOutput, buildSitemap(overrides), 'utf8');
 console.log(`[static-data] Generated ${Object.keys(overrides).length} catalog sections.`);
+console.log('[static-data] Generated sitemap with dynamic detail URLs.');
