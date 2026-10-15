@@ -9,6 +9,7 @@ import {
   GazetteItem,
   BlogPostItem,
   VideoInteractiveMCQ,
+  ChapterItem,
 } from '@/types/educational';
 import {
   INITIAL_CLASSES,
@@ -19,6 +20,7 @@ import {
   INITIAL_GAZETTES,
   INITIAL_BLOGS,
   INITIAL_VIDEO_MCQS,
+  INITIAL_CHAPTERS,
 } from './staticCatalog';
 import { supabase } from '@/lib/supabase';
 
@@ -31,6 +33,7 @@ export {
   INITIAL_GAZETTES,
   INITIAL_BLOGS,
   INITIAL_VIDEO_MCQS,
+  INITIAL_CHAPTERS,
 };
 
 const STORAGE_KEYS = {
@@ -42,6 +45,7 @@ const STORAGE_KEYS = {
   GAZETTES: 'raytech_edu_gazettes',
   BLOGS: 'raytech_edu_blogs',
   VIDEO_MCQS: 'raytech_edu_video_mcqs',
+  CHAPTERS: 'raytech_edu_chapters',
 };
 
 const SYNC_TIMESTAMP_KEY = 'raytech_edu_last_sync_time_v2';
@@ -87,6 +91,13 @@ async function requestStaticRebuild(table: string, id?: string): Promise<void> {
   }
 }
 
+async function mutateContent(table: string, operation: 'upsert' | 'delete', record?: Record<string, unknown>, filter?: Record<string, unknown>): Promise<void> {
+  const { data, error } = await supabase.functions.invoke('secure-dispatch', {
+    body: { action: 'mutate_content', payload: { table, operation, record, filter } },
+  });
+  if (error || !data?.success) throw new Error(data?.error || error?.message || `Failed to ${operation} ${table}.`);
+}
+
 export const EducationalStore = {
   /**
    * Immediately invalidates the 15-minute cache.
@@ -119,6 +130,7 @@ export const EducationalStore = {
       const [
         { data: classesData },
         { data: subjectsData },
+        { data: chaptersData },
         { data: notesData },
         { data: mcqsData },
         { data: pastPapersData },
@@ -128,6 +140,7 @@ export const EducationalStore = {
       ] = await Promise.all([
         supabase.from('classes').select('*'),
         supabase.from('subjects').select('*'),
+        supabase.from('chapters').select('*'),
         supabase.from('notes').select('*'),
         supabase.from('mcqs').select('*'),
         supabase.from('past_papers').select('*'),
@@ -158,6 +171,19 @@ export const EducationalStore = {
           description: s.description,
         }));
         saveToStorage(STORAGE_KEYS.SUBJECTS, mappedSubjects);
+      }
+
+      if (chaptersData && chaptersData.length > 0) {
+        const mappedChapters: ChapterItem[] = chaptersData.map((c: any) => ({
+          id: c.id,
+          classSlug: c.class_slug,
+          subjectSlug: c.subject_slug,
+          chapterNumber: c.chapter_number,
+          title: c.title,
+          description: c.description || undefined,
+          isActive: c.is_active !== false,
+        }));
+        saveToStorage(STORAGE_KEYS.CHAPTERS, mappedChapters);
       }
 
       if (notesData && notesData.length > 0) {
@@ -285,7 +311,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.CLASSES, list);
 
-    const { error } = await supabase.from('classes').upsert({
+    await mutateContent('classes', 'upsert', {
       id: item.id,
       slug: item.slug,
       title: item.title,
@@ -293,7 +319,6 @@ export const EducationalStore = {
       description: item.description,
       is_active: item.isActive,
     });
-    if (error) throw new Error(`Failed to save class: ${error.message}`);
     await requestStaticRebuild('classes', item.id);
     this.invalidateCache();
   },
@@ -301,8 +326,8 @@ export const EducationalStore = {
   async deleteClass(slug: string): Promise<void> {
     const list = this.getClasses().filter((c) => c.slug !== slug);
     saveToStorage(STORAGE_KEYS.CLASSES, list);
-    const { error } = await supabase.from('classes').delete().eq('slug', slug);
-    if (error) throw new Error(`Failed to delete class: ${error.message}`);
+    await mutateContent('classes', 'delete', undefined, { slug });
+    await requestStaticRebuild('classes', slug);
     this.invalidateCache();
   },
 
@@ -319,7 +344,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.SUBJECTS, list);
 
-    const { error } = await supabase.from('subjects').upsert({
+    await mutateContent('subjects', 'upsert', {
       id: item.id,
       class_slug: item.classSlug,
       slug: item.slug,
@@ -327,15 +352,44 @@ export const EducationalStore = {
       icon_name: item.iconName,
       description: item.description,
     });
-    if (error) throw new Error(`Failed to save subject: ${error.message}`);
     await requestStaticRebuild('subjects', item.id);
     this.invalidateCache();
   },
   async deleteSubject(id: string): Promise<void> {
     const list = this.getSubjects().filter((s) => s.id !== id);
     saveToStorage(STORAGE_KEYS.SUBJECTS, list);
-    const { error } = await supabase.from('subjects').delete().eq('id', id);
-    if (error) throw new Error(`Failed to delete subject: ${error.message}`);
+    await mutateContent('subjects', 'delete', undefined, { id });
+    await requestStaticRebuild('subjects', id);
+    this.invalidateCache();
+  },
+
+  // 2.5 Chapters (named chapter catalog used by MCQs and study resources)
+  getChapters(classSlug?: string, subjectSlug?: string): ChapterItem[] {
+    let list = getFromStorage(STORAGE_KEYS.CHAPTERS, INITIAL_CHAPTERS);
+    if (classSlug) list = list.filter((chapter) => chapter.classSlug === classSlug);
+    if (subjectSlug) list = list.filter((chapter) => chapter.subjectSlug === subjectSlug);
+    return [...list].filter((chapter) => chapter.isActive !== false).sort((a, b) => a.chapterNumber - b.chapterNumber);
+  },
+  async saveChapter(item: ChapterItem): Promise<void> {
+    const list = this.getChapters().filter((chapter) => chapter.id !== item.id);
+    list.push(item);
+    saveToStorage(STORAGE_KEYS.CHAPTERS, list);
+    await mutateContent('chapters', 'upsert', {
+      id: item.id,
+      class_slug: item.classSlug,
+      subject_slug: item.subjectSlug,
+      chapter_number: item.chapterNumber,
+      title: item.title,
+      description: item.description || null,
+      is_active: item.isActive,
+    });
+    await requestStaticRebuild('chapters', item.id);
+    this.invalidateCache();
+  },
+  async deleteChapter(id: string): Promise<void> {
+    saveToStorage(STORAGE_KEYS.CHAPTERS, this.getChapters().filter((chapter) => chapter.id !== id));
+    await mutateContent('chapters', 'delete', undefined, { id });
+    await requestStaticRebuild('chapters', id);
     this.invalidateCache();
   },
 
@@ -353,7 +407,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.NOTES, list);
 
-    const { error } = await supabase.from('notes').upsert({
+    await mutateContent('notes', 'upsert', {
       id: item.id,
       class_slug: item.classSlug,
       subject_slug: item.subjectSlug,
@@ -370,15 +424,14 @@ export const EducationalStore = {
       action_button_text: item.actionButtonText || null,
       action_button_url: item.actionButtonUrl || null,
     });
-    if (error) throw new Error(`Failed to save note: ${error.message}`);
     await requestStaticRebuild('notes', item.id);
     this.invalidateCache();
   },
   async deleteNote(id: string): Promise<void> {
     const list = this.getNotes().filter((n) => n.id !== id);
     saveToStorage(STORAGE_KEYS.NOTES, list);
-    const { error } = await supabase.from('notes').delete().eq('id', id);
-    if (error) throw new Error(`Failed to delete note: ${error.message}`);
+    await mutateContent('notes', 'delete', undefined, { id });
+    await requestStaticRebuild('notes', id);
     this.invalidateCache();
   },
 
@@ -397,7 +450,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.MCQS, list);
 
-    const { error } = await supabase.from('mcqs').upsert({
+    await mutateContent('mcqs', 'upsert', {
       id: item.id,
       class_slug: item.classSlug,
       subject_slug: item.subjectSlug,
@@ -408,15 +461,14 @@ export const EducationalStore = {
       correct_index: item.correctIndex,
       explanation: item.explanation,
     });
-    if (error) throw new Error(`Failed to save MCQ: ${error.message}`);
     await requestStaticRebuild('mcqs', item.id);
     this.invalidateCache();
   },
   async deleteMCQ(id: string): Promise<void> {
     const list = this.getMCQs().filter((m) => m.id !== id);
     saveToStorage(STORAGE_KEYS.MCQS, list);
-    const { error } = await supabase.from('mcqs').delete().eq('id', id);
-    if (error) throw new Error(`Failed to delete MCQ: ${error.message}`);
+    await mutateContent('mcqs', 'delete', undefined, { id });
+    await requestStaticRebuild('mcqs', id);
     this.invalidateCache();
   },
 
@@ -434,7 +486,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.PAST_PAPERS, list);
 
-    const { error } = await supabase.from('past_papers').upsert({
+    await mutateContent('past_papers', 'upsert', {
       id: item.id,
       class_slug: item.classSlug,
       subject_slug: item.subjectSlug,
@@ -443,15 +495,14 @@ export const EducationalStore = {
       session: item.session,
       pdf_url: item.pdfUrl,
     });
-    if (error) throw new Error(`Failed to save past paper: ${error.message}`);
     await requestStaticRebuild('past_papers', item.id);
     this.invalidateCache();
   },
   async deletePastPaper(id: string): Promise<void> {
     const list = this.getPastPapers().filter((p) => p.id !== id);
     saveToStorage(STORAGE_KEYS.PAST_PAPERS, list);
-    const { error } = await supabase.from('past_papers').delete().eq('id', id);
-    if (error) throw new Error(`Failed to delete past paper: ${error.message}`);
+    await mutateContent('past_papers', 'delete', undefined, { id });
+    await requestStaticRebuild('past_papers', id);
     this.invalidateCache();
   },
 
@@ -469,7 +520,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.GAZETTES, list);
 
-    const { error } = await supabase.from('gazettes').upsert({
+    await mutateContent('gazettes', 'upsert', {
       id: item.id,
       title: item.title,
       board: item.board,
@@ -485,15 +536,14 @@ export const EducationalStore = {
       action_button_url: item.actionButtonUrl || null,
       content: item.content || null,
     });
-    if (error) throw new Error(`Failed to save gazette: ${error.message}`);
     await requestStaticRebuild('gazettes', item.id);
     this.invalidateCache();
   },
   async deleteGazette(id: string): Promise<void> {
     const list = this.getGazettes().filter((g) => g.id !== id);
     saveToStorage(STORAGE_KEYS.GAZETTES, list);
-    const { error } = await supabase.from('gazettes').delete().eq('id', id);
-    if (error) throw new Error(`Failed to delete gazette: ${error.message}`);
+    await mutateContent('gazettes', 'delete', undefined, { id });
+    await requestStaticRebuild('gazettes', id);
     this.invalidateCache();
   },
 
@@ -510,7 +560,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.BLOGS, list);
 
-    const { error } = await supabase.from('blogs').upsert({
+    await mutateContent('blogs', 'upsert', {
       id: item.id,
       title: item.title,
       slug: item.slug,
@@ -525,15 +575,14 @@ export const EducationalStore = {
       action_button_text: item.actionButtonText || null,
       action_button_url: item.actionButtonUrl || null,
     });
-    if (error) throw new Error(`Failed to save blog: ${error.message}`);
     await requestStaticRebuild('blogs', item.id);
     this.invalidateCache();
   },
   async deleteBlog(id: string): Promise<void> {
     const list = this.getBlogs().filter((b) => b.id !== id && b.slug !== id);
     saveToStorage(STORAGE_KEYS.BLOGS, list);
-    const { error } = await supabase.from('blogs').delete().or(`id.eq.${id},slug.eq.${id}`);
-    if (error) throw new Error(`Failed to delete blog: ${error.message}`);
+    await mutateContent('blogs', 'delete', undefined, { id });
+    await requestStaticRebuild('blogs', id);
     this.invalidateCache();
   },
 
@@ -550,7 +599,7 @@ export const EducationalStore = {
     else list.push(item);
     saveToStorage(STORAGE_KEYS.VIDEO_MCQS, list);
 
-    const { error } = await supabase.from('video_mcqs').upsert({
+    await mutateContent('video_mcqs', 'upsert', {
       id: item.id,
       video_id: item.videoId,
       video_title: item.videoTitle,
@@ -563,15 +612,14 @@ export const EducationalStore = {
       correct_index: item.correctIndex,
       explanation: item.explanation,
     });
-    if (error) throw new Error(`Failed to save video MCQ: ${error.message}`);
     await requestStaticRebuild('video_mcqs', item.id);
     this.invalidateCache();
   },
   async deleteVideoMCQ(id: string): Promise<void> {
     const list = this.getVideoMCQs().filter((m) => m.id !== id);
     saveToStorage(STORAGE_KEYS.VIDEO_MCQS, list);
-    const { error } = await supabase.from('video_mcqs').delete().eq('id', id);
-    if (error) throw new Error(`Failed to delete video MCQ: ${error.message}`);
+    await mutateContent('video_mcqs', 'delete', undefined, { id });
+    await requestStaticRebuild('video_mcqs', id);
     this.invalidateCache();
   },
 };

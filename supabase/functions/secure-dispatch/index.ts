@@ -351,6 +351,30 @@ async function dispatchStaticRebuild(record: any = {}) {
   return { success: true, repository, eventType: 'content-published' };
 }
 
+async function mutateContent(serviceRoleKey: string, payload: any) {
+  const allowedTables = new Set(['classes', 'subjects', 'chapters', 'notes', 'mcqs', 'past_papers', 'gazettes', 'blogs', 'video_mcqs']);
+  const table = String(payload?.table || '');
+  const operation = payload?.operation;
+  if (!allowedTables.has(table)) throw new Error('Unsupported content table.');
+  if (operation !== 'upsert' && operation !== 'delete') throw new Error('Unsupported content operation.');
+
+  const supabaseUrl = Deno.env.get('SUPABASE_URL');
+  if (!supabaseUrl) throw new Error('SUPABASE_URL is not configured.');
+  const headers = { apikey: serviceRoleKey, Authorization: `Bearer ${serviceRoleKey}`, 'Content-Type': 'application/json', Prefer: 'resolution=merge-duplicates,return=minimal' };
+  let url = `${supabaseUrl}/rest/v1/${table}`;
+  const options: RequestInit = { method: operation === 'upsert' ? 'POST' : 'DELETE', headers };
+  if (operation === 'upsert') options.body = JSON.stringify(payload.record || {});
+  else {
+    const filter = payload.filter || {};
+    const key = Object.keys(filter)[0];
+    if (!key) throw new Error('Delete filter is required.');
+    url += `?${encodeURIComponent(key)}=eq.${encodeURIComponent(String(filter[key]))}`;
+  }
+  const response = await fetch(url, options);
+  if (!response.ok) throw new Error(`Supabase ${operation} failed (${response.status}): ${await response.text()}`);
+  return { success: true, table, operation };
+}
+
 serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
@@ -403,6 +427,15 @@ serve(async (req) => {
         return respond(await dispatchStaticRebuild({ ...payload, operation: 'manual' }));
       } catch (error: any) {
         return respond({ success: false, error: error.message }, 502);
+      }
+    }
+
+    if (action === 'mutate_content') {
+      if (!serviceRoleKey) return respond({ success: false, error: 'Service role key is not configured.' }, 500);
+      try {
+        return respond(await mutateContent(serviceRoleKey, payload));
+      } catch (error: any) {
+        return respond({ success: false, error: error.message }, 400);
       }
     }
 

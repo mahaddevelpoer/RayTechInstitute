@@ -16,6 +16,16 @@ export interface SubjectItem {
   description: string;
 }
 
+export interface ChapterItem {
+  id: string;
+  classSlug: string;
+  subjectSlug: string;
+  chapterNumber: number;
+  title: string;
+  description?: string;
+  isActive: boolean;
+}
+
 export interface NoteItem {
   id: string;
   classSlug: string;

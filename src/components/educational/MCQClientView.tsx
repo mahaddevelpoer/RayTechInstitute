@@ -1,274 +1,66 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { EducationalStore, INITIAL_SUBJECTS, INITIAL_CLASSES } from '@/data/educationalStore';
+import { ArrowLeft, CheckCircle2, ChevronLeft, ChevronRight, HelpCircle, RotateCcw, Shuffle, XCircle } from 'lucide-react';
+import { EducationalStore, INITIAL_CHAPTERS, INITIAL_CLASSES, INITIAL_SUBJECTS } from '@/data/educationalStore';
 import { MCQItem } from '@/types/educational';
-import {
-  HelpCircle,
-  CheckCircle2,
-  XCircle,
-  RotateCcw,
-  ArrowLeft,
-  Code,
-} from 'lucide-react';
 
-interface MCQClientViewProps {
-  classSlug: string;
-  subjectSlug: string;
+interface MCQClientViewProps { classSlug: string; subjectSlug: string; }
+type QuizQuestion = MCQItem & { quizOptions: [string, string, string, string]; quizCorrectIndex: number };
+type Answer = { selectedIndex: number; correct: boolean };
+
+function shuffle<T>(items: T[]): T[] {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [result[i], result[j]] = [result[j], result[i]]; }
+  return result;
+}
+
+function makeQuiz(items: MCQItem[]): QuizQuestion[] {
+  return shuffle(items).map((item) => {
+    const indexed = shuffle(item.options.map((text, index) => ({ text, index })));
+    return { ...item, quizOptions: indexed.map((option) => option.text) as QuizQuestion['quizOptions'], quizCorrectIndex: indexed.findIndex((option) => option.index === item.correctIndex) };
+  });
 }
 
 export const MCQClientView: React.FC<MCQClientViewProps> = ({ classSlug, subjectSlug }) => {
   const [mcqs, setMCQs] = useState<MCQItem[]>([]);
-  const [selectedAnswers, setSelectedAnswers] = useState<Record<string, number>>({});
-  const [score, setScore] = useState({ correct: 0, total: 0 });
+  const [quiz, setQuiz] = useState<QuizQuestion[]>([]);
+  const [answers, setAnswers] = useState<Record<string, Answer>>({});
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedChapter, setSelectedChapter] = useState<number | 'all'>('all');
+  const [started, setStarted] = useState(false);
+  const [finished, setFinished] = useState(false);
+  const currentClass = INITIAL_CLASSES.find((item) => item.slug === classSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
 
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
-  const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
-  );
+  useEffect(() => { setMCQs(EducationalStore.getMCQs(classSlug, subjectSlug)); setQuiz([]); setStarted(false); setFinished(false); setAnswers({}); setCurrentIndex(0); }, [classSlug, subjectSlug]);
 
-  useEffect(() => {
-    setMCQs(EducationalStore.getMCQs(classSlug, subjectSlug));
-  }, [classSlug, subjectSlug]);
+  const chapterCatalog = useMemo(() => {
+    const named = INITIAL_CHAPTERS.filter((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug);
+    const numbers = Array.from(new Set(mcqs.map((item) => item.chapterNumber))).sort((a, b) => a - b);
+    return numbers.map((number) => named.find((item) => item.chapterNumber === number) || { id: `fallback-${number}`, classSlug, subjectSlug, chapterNumber: number, title: `Chapter ${number}`, isActive: true });
+  }, [classSlug, subjectSlug, mcqs]);
+  const currentQuestion = quiz[currentIndex];
+  const currentAnswer = currentQuestion ? answers[currentQuestion.id] : undefined;
+  const score = Object.values(answers).filter((answer) => answer.correct).length;
 
-  const filteredMCQs =
-    selectedChapter === 'all'
-      ? mcqs
-      : mcqs.filter((m) => m.chapterNumber === selectedChapter);
-
-  const handleSelectOption = (mcqId: string, optionIdx: number, correctIdx: number) => {
-    if (selectedAnswers[mcqId] !== undefined) return;
-
-    setSelectedAnswers((prev) => ({ ...prev, [mcqId]: optionIdx }));
-    setScore((prev) => ({
-      correct: optionIdx === correctIdx ? prev.correct + 1 : prev.correct,
-      total: prev.total + 1,
-    }));
+  const startQuiz = (chapter: number | 'all' = selectedChapter) => {
+    const source = chapter === 'all' ? mcqs : mcqs.filter((item) => item.chapterNumber === chapter);
+    setSelectedChapter(chapter); setQuiz(makeQuiz(source)); setAnswers({}); setCurrentIndex(0); setStarted(true); setFinished(false);
   };
+  const chooseAnswer = (optionIndex: number) => { if (!currentQuestion || currentAnswer) return; setAnswers((previous) => ({ ...previous, [currentQuestion.id]: { selectedIndex: optionIndex, correct: optionIndex === currentQuestion.quizCorrectIndex } })); };
+  const nextQuestion = () => { if (!currentAnswer) return; if (currentIndex >= quiz.length - 1) setFinished(true); else setCurrentIndex((index) => index + 1); };
 
-  const handleResetQuiz = () => {
-    setSelectedAnswers({});
-    setScore({ correct: 0, total: 0 });
-  };
+  return <div className="min-h-screen bg-white text-slate-800 flex flex-col"><div className="flex-1 py-10 px-4 sm:px-6 max-w-5xl mx-auto w-full">
+    <nav className="breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/classes">Classes</Link><span>/</span><Link href={`/classes/${classSlug}`}>{currentClass?.title || classSlug}</Link><span>/</span><Link href={`/classes/${classSlug}/${subjectSlug}`}>{currentSubject?.title || subjectSlug}</Link><span>/</span><span className="text-slate-700">MCQs Quiz</span></nav>
+    <div className="mb-5"><Link href={`/classes/${classSlug}/${subjectSlug}`} className="inline-flex items-center gap-1.5 text-xs text-navy-600 font-semibold"><ArrowLeft className="w-3.5 h-3.5" /> Back to {currentSubject?.title || 'Subject'} Hub</Link></div>
+    <div className="edu-card p-5 bg-slate-50 border-slate-200 mb-6"><div className="flex flex-col md:flex-row md:items-center justify-between gap-3"><div><div className="flex gap-2 mb-1"><span className="badge-primary">{currentClass?.title}</span><span className="badge-accent">{currentSubject?.title}</span></div><h1 className="text-xl sm:text-2xl font-bold text-navy-900">Chapter-wise MCQs Practice</h1><p className="text-xs text-slate-600 mt-1">Chapter select karein. Questions aur options har attempt mein random order mein aayenge.</p></div>{started && !finished && <div className="text-xs font-semibold text-slate-600">Question {currentIndex + 1} / {quiz.length}<span className="mx-2">·</span>{score} correct</div>}</div></div>
 
-  const chapters = Array.from(new Set(mcqs.map((m) => m.chapterNumber))).sort((a, b) => a - b);
+    {!started && <section className="space-y-4"><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"><button onClick={() => startQuiz('all')} disabled={!mcqs.length} className="p-4 rounded-lg border-2 border-navy-200 bg-navy-50 text-left hover:border-navy-500"><div className="font-bold text-navy-900">All Chapters</div><div className="text-xs text-slate-600 mt-1">{mcqs.length} MCQs · Random practice</div></button>{chapterCatalog.map((chapter) => { const count = mcqs.filter((item) => item.chapterNumber === chapter.chapterNumber).length; return <button key={chapter.id} onClick={() => startQuiz(chapter.chapterNumber)} disabled={!count} className="p-4 rounded-lg border border-slate-200 bg-white text-left hover:border-navy-400 disabled:opacity-50"><div className="font-bold text-navy-900">Chapter {chapter.chapterNumber}: {chapter.title}</div><div className="text-xs text-slate-600 mt-1">{count} MCQs</div></button>; })}</div>{!mcqs.length && <p className="p-4 rounded bg-amber-50 border border-amber-200 text-xs text-amber-800">Is subject ke liye abhi MCQs available nahi hain.</p>}</section>}
 
-  return (
-    <div className="min-h-screen bg-white text-slate-800 flex flex-col">
-      <Header />
+    {started && !finished && currentQuestion && <section className="max-w-3xl mx-auto"><div className="flex flex-wrap items-center gap-2 mb-4">{chapterCatalog.map((chapter) => <button key={chapter.id} onClick={() => startQuiz(chapter.chapterNumber)} className={`text-xs px-3 py-1.5 rounded border ${selectedChapter === chapter.chapterNumber ? 'bg-navy-600 text-white border-navy-600' : 'bg-white text-slate-700 border-slate-200'}`}>Ch {chapter.chapterNumber}</button>)}<button onClick={() => startQuiz('all')} className={`text-xs px-3 py-1.5 rounded border ${selectedChapter === 'all' ? 'bg-navy-600 text-white border-navy-600' : 'bg-white text-slate-700 border-slate-200'}`}>All</button></div><div className="edu-card p-5 sm:p-7 space-y-5"><div className="flex items-start justify-between gap-3"><div><span className="text-xs text-slate-500">Question {currentIndex + 1}</span><h2 className="text-base sm:text-lg font-bold text-navy-900 mt-1 leading-relaxed">{currentQuestion.question}</h2></div><Shuffle className="w-5 h-5 text-navy-500 shrink-0" /></div>{currentQuestion.codeSnippet && <pre className="p-3 bg-slate-50 border border-slate-200 rounded text-xs overflow-x-auto whitespace-pre-wrap">{currentQuestion.codeSnippet}</pre>}<div className="grid gap-3">{currentQuestion.quizOptions.map((option, index) => { const selected = currentAnswer?.selectedIndex === index; return <button key={`${currentQuestion.id}-${index}`} onClick={() => chooseAnswer(index)} className={`p-3 rounded border text-left text-sm transition-colors ${selected ? 'bg-navy-50 border-navy-500 text-navy-900 font-semibold' : 'bg-white border-slate-200 text-slate-700 hover:border-navy-300'}`}><span className="inline-flex w-6 h-6 items-center justify-center rounded bg-slate-100 text-xs font-bold mr-2">{String.fromCharCode(65 + index)}</span>{option}</button>; })}</div><div className="flex justify-between items-center pt-2 border-t border-slate-100"><button onClick={() => setCurrentIndex((index) => Math.max(0, index - 1))} disabled={currentIndex === 0} className="inline-flex items-center gap-1 text-xs font-semibold text-slate-600 disabled:opacity-40"><ChevronLeft className="w-4 h-4" /> Previous</button><span className="text-[11px] text-slate-500">Answer result final score par show hoga</span><button onClick={nextQuestion} disabled={!currentAnswer} className="inline-flex items-center gap-1 px-4 py-2 rounded bg-navy-600 text-white text-xs font-semibold disabled:opacity-40">{currentIndex === quiz.length - 1 ? 'View Result' : 'Next'} <ChevronRight className="w-4 h-4" /></button></div></div></section>}
 
-      <main className="flex-1 py-10 px-4 sm:px-6 max-w-5xl mx-auto w-full">
-        {/* Breadcrumb */}
-        <nav className="breadcrumb">
-          <Link href="/">Home</Link>
-          <span>/</span>
-          <Link href="/classes">Classes</Link>
-          <span>/</span>
-          <Link href={`/classes/${classSlug}`}>{currentClass?.title || classSlug}</Link>
-          <span>/</span>
-          <Link href={`/classes/${classSlug}/${subjectSlug}`}>{currentSubject?.title || subjectSlug}</Link>
-          <span>/</span>
-          <span className="text-slate-700">MCQs Quiz</span>
-        </nav>
-
-        {/* Back link */}
-        <div className="mb-4">
-          <Link
-            href={`/classes/${classSlug}/${subjectSlug}`}
-            className="inline-flex items-center gap-1.5 text-xs text-navy-600 hover:text-navy-800 font-semibold"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" />
-            <span>Back to {currentSubject?.title || 'Subject'} Hub</span>
-          </Link>
-        </div>
-
-        {/* Header & Score bar */}
-        <div className="edu-card p-5 bg-slate-50 border-slate-200 mb-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div>
-            <div className="inline-flex items-center gap-2 mb-1">
-              <span className="badge-primary">{currentClass?.title}</span>
-              <span className="badge-accent">{currentSubject?.title}</span>
-            </div>
-            <h1 className="text-xl sm:text-2xl font-bold text-navy-900">
-              Online MCQs Practice Test
-            </h1>
-            <p className="text-xs text-slate-600 mt-1">
-              Click any option to see instant answer verification and chapter explanation.
-            </p>
-          </div>
-
-          {/* Live Score Counter */}
-          <div className="flex items-center gap-4 bg-white border border-slate-200 px-4 py-2.5 rounded shadow-sm shrink-0 text-xs">
-            <div>
-              <div className="text-[10px] text-slate-500 uppercase font-semibold">Attempted</div>
-              <div className="text-sm font-bold text-slate-800">{score.total} / {filteredMCQs.length}</div>
-            </div>
-            <div className="h-7 w-px bg-slate-200" />
-            <div>
-              <div className="text-[10px] text-emerald-700 uppercase font-semibold">Score</div>
-              <div className="text-sm font-bold text-emerald-700">
-                {score.correct} Correct
-              </div>
-            </div>
-            {score.total > 0 && (
-              <button
-                onClick={handleResetQuiz}
-                className="ml-2 p-1 text-slate-400 hover:text-navy-700 transition-colors"
-                title="Reset Quiz"
-                aria-label="Reset Quiz"
-              >
-                <RotateCcw className="w-4 h-4" />
-              </button>
-            )}
-          </div>
-        </div>
-
-        {/* Chapter Tabs */}
-        {chapters.length > 1 && (
-          <div className="flex flex-wrap gap-1.5 mb-6">
-            <button
-              onClick={() => setSelectedChapter('all')}
-              className={`text-xs px-3 py-1.5 rounded font-medium transition-colors ${
-                selectedChapter === 'all'
-                  ? 'bg-navy-600 text-white'
-                  : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
-              }`}
-            >
-              All Chapters ({mcqs.length})
-            </button>
-            {chapters.map((ch) => (
-              <button
-                key={ch}
-                onClick={() => setSelectedChapter(ch)}
-                className={`text-xs px-3 py-1.5 rounded font-medium transition-colors ${
-                  selectedChapter === ch
-                    ? 'bg-navy-600 text-white'
-                    : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
-                }`}
-              >
-                Chapter {ch}
-              </button>
-            ))}
-          </div>
-        )}
-
-        {/* Questions List */}
-        <div className="space-y-4">
-          {filteredMCQs.map((mcq, idx) => {
-            const hasAnswered = selectedAnswers[mcq.id] !== undefined;
-            const chosenIdx = selectedAnswers[mcq.id];
-            const isCorrect = chosenIdx === mcq.correctIndex;
-
-            return (
-              <div
-                key={mcq.id}
-                className="edu-card p-5 bg-white space-y-3"
-              >
-                {/* Question */}
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex items-start gap-2.5">
-                    <span className="w-6 h-6 rounded bg-navy-50 text-navy-700 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">
-                      {idx + 1}
-                    </span>
-                    <h2 className="text-sm sm:text-base font-semibold text-navy-900 leading-snug">
-                      {mcq.question}
-                    </h2>
-                  </div>
-                  <span className="text-[10px] px-2 py-0.5 bg-slate-100 text-slate-600 rounded font-medium shrink-0">
-                    Ch {mcq.chapterNumber}
-                  </span>
-                </div>
-
-                {/* Optional Code Snippet */}
-                {mcq.codeSnippet && (
-                  <div className="bg-slate-50 border border-slate-200 rounded p-3 text-xs">
-                    <pre className="text-slate-800 font-mono overflow-x-auto whitespace-pre-wrap leading-relaxed">
-                      {mcq.codeSnippet}
-                    </pre>
-                  </div>
-                )}
-
-                {/* 4 Multiple Choice Options */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
-                  {mcq.options.map((option, optIdx) => {
-                    const isSelected = chosenIdx === optIdx;
-                    const isThisTheCorrectAnswer = mcq.correctIndex === optIdx;
-
-                    let btnStyles = 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300';
-
-                    if (hasAnswered) {
-                      if (isThisTheCorrectAnswer) {
-                        btnStyles = 'bg-emerald-50 border-emerald-500 text-emerald-800 font-semibold';
-                      } else if (isSelected && !isCorrect) {
-                        btnStyles = 'bg-red-50 border-red-500 text-red-800 font-semibold';
-                      } else {
-                        btnStyles = 'bg-slate-50 border-slate-200 text-slate-400 opacity-60';
-                      }
-                    }
-
-                    return (
-                      <button
-                        key={optIdx}
-                        disabled={hasAnswered}
-                        onClick={() => handleSelectOption(mcq.id, optIdx, mcq.correctIndex)}
-                        className={`p-3 rounded border text-left text-xs transition-colors flex items-center justify-between ${btnStyles}`}
-                      >
-                        <div className="flex items-center gap-2">
-                          <span className="w-5 h-5 rounded bg-slate-100 flex items-center justify-center text-[10px] font-bold text-slate-600">
-                            {String.fromCharCode(65 + optIdx)}
-                          </span>
-                          <span>{option}</span>
-                        </div>
-
-                        {hasAnswered && (
-                          <span>
-                            {isThisTheCorrectAnswer ? (
-                              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                            ) : isSelected ? (
-                              <XCircle className="w-4 h-4 text-red-600 shrink-0" />
-                            ) : null}
-                          </span>
-                        )}
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {/* Explanation */}
-                {hasAnswered && (
-                  <div
-                    className={`p-3.5 rounded border text-xs leading-relaxed flex items-start gap-2.5 ${
-                      isCorrect
-                        ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
-                        : 'bg-orange-50 border-orange-200 text-orange-900'
-                    }`}
-                  >
-                    <div className="shrink-0 mt-0.5">
-                      {isCorrect ? (
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                      ) : (
-                        <HelpCircle className="w-4 h-4 text-orange-600" />
-                      )}
-                    </div>
-                    <div>
-                      <div className="font-bold text-xs uppercase mb-0.5">
-                        {isCorrect ? 'Correct Answer!' : 'Explanation:'}
-                      </div>
-                      <p>{mcq.explanation}</p>
-                    </div>
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      </main>
-
-      <Footer />
-    </div>
-  );
+    {finished && <section className="max-w-3xl mx-auto space-y-5"><div className="edu-card p-7 text-center bg-emerald-50 border-emerald-200"><CheckCircle2 className="w-10 h-10 mx-auto text-emerald-600 mb-2" /><h2 className="text-2xl font-bold text-navy-900">Quiz Complete</h2><p className="text-sm text-slate-700 mt-2">Aap ka score: <strong>{score} / {quiz.length}</strong></p><button onClick={() => startQuiz(selectedChapter)} className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded bg-navy-600 text-white text-xs font-semibold"><RotateCcw className="w-4 h-4" /> Dobara Random Quiz</button></div><div className="space-y-3">{quiz.map((question, index) => { const answer = answers[question.id]; const correct = answer?.correct; return <div key={question.id} className={`p-4 rounded border ${correct ? 'border-emerald-200 bg-emerald-50' : 'border-red-200 bg-red-50'}`}><div className="flex gap-2"><span className="font-bold text-xs">{index + 1}.</span><div className="text-sm font-semibold text-navy-900">{question.question}<div className="mt-2 text-xs font-normal text-slate-700">Your answer: {question.quizOptions[answer.selectedIndex]}</div><div className="text-xs font-semibold text-emerald-800 mt-1">Correct answer: {question.quizOptions[question.quizCorrectIndex]}</div><div className="text-xs text-slate-600 mt-2"><HelpCircle className="inline w-3.5 h-3.5 mr-1" />{question.explanation}</div></div>{correct ? <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" /> : <XCircle className="w-4 h-4 text-red-600 shrink-0" />}</div></div>; })}</div></section>}
+  </div></div>;
 };

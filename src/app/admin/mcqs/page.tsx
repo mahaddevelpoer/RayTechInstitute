@@ -15,7 +15,7 @@ import {
   AlertCircle,
 } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
-import { ClassItem, SubjectItem, MCQItem } from '@/types/educational';
+import { ChapterItem, ClassItem, SubjectItem, MCQItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
 import { getFirebaseIdToken } from '@/utils/security';
 
@@ -23,6 +23,7 @@ export default function AdminMCQsPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
   const [subjects, setSubjects] = useState<SubjectItem[]>([]);
   const [mcqs, setMCQs] = useState<MCQItem[]>([]);
+  const [chapters, setChapters] = useState<ChapterItem[]>([]);
 
   const [selectedClass, setSelectedClass] = useState('11th-class');
   const [selectedSubject, setSelectedSubject] = useState('computer-science');
@@ -54,6 +55,7 @@ export default function AdminMCQsPage() {
     await EducationalStore.syncFromSupabase();
     setClasses(EducationalStore.getClasses());
     setSubjects(EducationalStore.getSubjects());
+    setChapters(EducationalStore.getChapters());
     setMCQs(EducationalStore.getMCQs());
     setIsSyncing(false);
   };
@@ -64,6 +66,8 @@ export default function AdminMCQsPage() {
 
   const availableSubjects = subjects.filter((s) => s.classSlug === selectedClass);
   const aiAvailableSubjects = subjects.filter((s) => s.classSlug === aiClass);
+  const availableChapters = chapters.filter((chapter) => chapter.classSlug === selectedClass && chapter.subjectSlug === selectedSubject);
+  const aiAvailableChapters = chapters.filter((chapter) => chapter.classSlug === aiClass && chapter.subjectSlug === aiSubject);
 
   const handleSaveMCQ = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -300,15 +304,9 @@ export default function AdminMCQsPage() {
               <div className="grid grid-cols-2 gap-3">
                 <div>
                   <label className="block font-semibold text-slate-700 mb-1">Chapter #</label>
-                  <input
-                    type="number"
-                    value={aiChapter}
-                    onChange={(e) => setAiChapter(Number(e.target.value))}
-                    min={1}
-                    max={20}
-                    className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
-                    required
-                  />
+                  <select value={aiChapter} onChange={(e) => setAiChapter(Number(e.target.value))} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none" required>
+                    {aiAvailableChapters.length ? aiAvailableChapters.map((chapter) => <option key={chapter.id} value={chapter.chapterNumber}>Chapter {chapter.chapterNumber}: {chapter.title}</option>) : <option value={aiChapter}>Chapter {aiChapter} (add it in Classes)</option>}
+                  </select>
                 </div>
 
                 <div>
@@ -437,14 +435,9 @@ export default function AdminMCQsPage() {
 
             <div>
               <label className="block font-semibold text-slate-700 mb-1">Chapter #</label>
-              <input
-                type="number"
-                value={chapterNumber}
-                onChange={(e) => setChapterNumber(Number(e.target.value))}
-                min={1}
-                className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
-                required
-              />
+                <select value={chapterNumber} onChange={(e) => setChapterNumber(Number(e.target.value))} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none" required>
+                  {availableChapters.length ? availableChapters.map((chapter) => <option key={chapter.id} value={chapter.chapterNumber}>Chapter {chapter.chapterNumber}: {chapter.title}</option>) : <option value={chapterNumber}>Chapter {chapterNumber} (add it in Classes)</option>}
+                </select>
             </div>
 
             <div>

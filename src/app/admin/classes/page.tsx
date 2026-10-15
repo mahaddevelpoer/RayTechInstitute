@@ -3,10 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import { GraduationCap, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
-import { ClassItem } from '@/types/educational';
+import { ChapterItem, ClassItem, SubjectItem } from '@/types/educational';
 
 export default function AdminClassesPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
+  const [subjects, setSubjects] = useState<SubjectItem[]>([]);
+  const [chapters, setChapters] = useState<ChapterItem[]>([]);
   const [title, setTitle] = useState('');
   const [slug, setSlug] = useState('');
   const [numericGrade, setNumericGrade] = useState<number>(11);
@@ -14,12 +16,63 @@ export default function AdminClassesPage() {
   const [successMsg, setSuccessMsg] = useState('');
   const [editingId, setEditingId] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
+  const [chapterClass, setChapterClass] = useState('11th-class');
+  const [chapterSubject, setChapterSubject] = useState('computer-science');
+  const [chapterNumber, setChapterNumber] = useState(1);
+  const [chapterTitle, setChapterTitle] = useState('');
+  const [chapterDescription, setChapterDescription] = useState('');
+  const [editingChapterId, setEditingChapterId] = useState<string | null>(null);
 
   const loadData = async () => {
     setIsSyncing(true);
     await EducationalStore.syncFromSupabase();
     setClasses(EducationalStore.getClasses());
+    setSubjects(EducationalStore.getSubjects());
+    setChapters(EducationalStore.getChapters());
     setIsSyncing(false);
+  };
+
+  const handleSaveChapter = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!chapterTitle.trim() || !chapterClass || !chapterSubject || chapterNumber < 1) return;
+    const chapter: ChapterItem = {
+      id: editingChapterId || `chapter-${chapterClass}-${chapterSubject}-${chapterNumber}`,
+      classSlug: chapterClass,
+      subjectSlug: chapterSubject,
+      chapterNumber: Number(chapterNumber),
+      title: chapterTitle.trim(),
+      description: chapterDescription.trim() || undefined,
+      isActive: true,
+    };
+    await EducationalStore.saveChapter(chapter);
+    setChapters(EducationalStore.getChapters());
+    resetChapterForm();
+    setSuccessMsg(editingChapterId ? `Chapter "${chapter.title}" updated successfully!` : `Chapter "${chapter.title}" added successfully!`);
+    setTimeout(() => setSuccessMsg(''), 4000);
+  };
+
+  const resetChapterForm = () => {
+    setEditingChapterId(null);
+    setChapterNumber(1);
+    setChapterTitle('');
+    setChapterDescription('');
+  };
+
+  const handleEditChapter = (chapter: ChapterItem) => {
+    setEditingChapterId(chapter.id);
+    setChapterClass(chapter.classSlug);
+    setChapterSubject(chapter.subjectSlug);
+    setChapterNumber(chapter.chapterNumber);
+    setChapterTitle(chapter.title);
+    setChapterDescription(chapter.description || '');
+  };
+
+  const handleDeleteChapter = async (chapter: ChapterItem) => {
+    if (!confirm(`Delete chapter "${chapter.title}" permanently?`)) return;
+    await EducationalStore.deleteChapter(chapter.id);
+    setChapters(EducationalStore.getChapters());
+    setSuccessMsg(`Chapter "${chapter.title}" deleted permanently!`);
+    setTimeout(() => setSuccessMsg(''), 4000);
   };
 
   useEffect(() => {
@@ -223,6 +276,42 @@ export default function AdminClassesPage() {
           ))}
         </div>
       </div>
+
+      <section className="border-t border-slate-200 pt-6 space-y-4">
+        <div>
+          <h2 className="text-lg font-bold text-navy-900">Manage Subject Chapters</h2>
+          <p className="text-xs text-slate-500 mt-1">Chapter number and name yahan define karein. Yehi chapters MCQ generation aur user quiz mein show honge.</p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+          <form onSubmit={handleSaveChapter} className="bg-white border border-slate-200 p-5 rounded-lg shadow-sm space-y-3 text-xs">
+            <div className="flex items-center justify-between">
+              <h3 className="font-bold text-navy-900">{editingChapterId ? 'Edit Chapter' : 'Add Chapter'}</h3>
+              {editingChapterId && <button type="button" onClick={resetChapterForm} className="text-slate-500 hover:text-slate-800">Cancel</button>}
+            </div>
+            <select value={chapterClass} onChange={(e) => { setChapterClass(e.target.value); setChapterSubject(''); }} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" required>
+              <option value="">Select class</option>
+              {classes.map((item) => <option key={item.id} value={item.slug}>{item.title}</option>)}
+            </select>
+            <select value={chapterSubject} onChange={(e) => setChapterSubject(e.target.value)} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" required>
+              <option value="">Select subject</option>
+              {subjects.filter((item) => item.classSlug === chapterClass).map((item) => <option key={item.id} value={item.slug}>{item.title}</option>)}
+            </select>
+            <input type="number" min={1} value={chapterNumber} onChange={(e) => setChapterNumber(Number(e.target.value))} placeholder="Chapter number" className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" required />
+            <input value={chapterTitle} onChange={(e) => setChapterTitle(e.target.value)} placeholder="e.g. Problem Solving" className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" required />
+            <textarea value={chapterDescription} onChange={(e) => setChapterDescription(e.target.value)} placeholder="Short chapter description" rows={3} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" />
+            <button type="submit" className="w-full py-2 bg-navy-600 hover:bg-navy-700 text-white font-semibold rounded">{editingChapterId ? 'Update Chapter' : 'Save Chapter'}</button>
+          </form>
+          <div className="lg:col-span-2 space-y-2">
+            {chapters.length === 0 && <p className="text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded p-4">Abhi koi named chapter nahi hai. Pehla chapter add karein.</p>}
+            {chapters.map((chapter) => (
+              <div key={chapter.id} className="bg-white border border-slate-200 rounded-lg p-4 flex items-start justify-between gap-3">
+                <div><div className="text-sm font-bold text-navy-900">Chapter {chapter.chapterNumber}: {chapter.title}</div><div className="text-[11px] text-slate-500 mt-1">{chapter.classSlug} · {chapter.subjectSlug}</div>{chapter.description && <p className="text-xs text-slate-600 mt-1">{chapter.description}</p>}</div>
+                <div className="flex gap-1"><button type="button" onClick={() => handleEditChapter(chapter)} className="p-1.5 text-slate-600 hover:text-navy-600" title="Edit chapter"><Edit2 className="w-4 h-4" /></button><button type="button" onClick={() => handleDeleteChapter(chapter)} className="p-1.5 text-slate-500 hover:text-red-600" title="Delete chapter"><Trash2 className="w-4 h-4" /></button></div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -59,6 +59,7 @@ if (!supabaseUrl || !anonKey) {
 const map = {
   classes: (c) => ({ id: c.id, slug: c.slug, title: c.title, numericGrade: c.numeric_grade, description: c.description, isActive: c.is_active }),
   subjects: (s) => ({ id: s.id, classSlug: s.class_slug, slug: s.slug, title: s.title, iconName: s.icon_name, description: s.description }),
+  chapters: (c) => ({ id: c.id, classSlug: c.class_slug, subjectSlug: c.subject_slug, chapterNumber: c.chapter_number, title: c.title, description: c.description || undefined, isActive: c.is_active !== false }),
   notes: (n) => ({ id: n.id, classSlug: n.class_slug, subjectSlug: n.subject_slug, chapterNumber: n.chapter_number, chapterTitle: n.chapter_title, title: n.title, description: n.description, pdfUrl: n.pdf_url, fileSize: n.file_size, downloadCount: n.download_count || 0, lastUpdated: n.last_updated, content: n.content || undefined, previewPdfUrl: n.preview_pdf_url || undefined, actionButtonText: n.action_button_text || undefined, actionButtonUrl: n.action_button_url || undefined }),
   mcqs: (m) => ({ id: m.id, classSlug: m.class_slug, subjectSlug: m.subject_slug, chapterNumber: m.chapter_number, question: m.question, codeSnippet: m.code_snippet || undefined, options: m.options, correctIndex: m.correct_index, explanation: m.explanation }),
   pastPapers: (p) => ({ id: p.id, classSlug: p.class_slug, subjectSlug: p.subject_slug, board: p.board, year: p.year, session: p.session, pdfUrl: p.pdf_url, description: p.description || undefined, content: p.content || undefined }),
@@ -78,7 +79,7 @@ for (const [table, transform] of Object.entries(map)) {
   if (Array.isArray(rows) && rows.length > 0) overrides[table] = rows.map(transform);
 }
 
-const source = `import { BlogPostItem, ClassItem, GazetteItem, MCQItem, NoteItem, PastPaperItem, SubjectItem, VideoInteractiveMCQ } from '@/types/educational';\n\nexport const STATIC_OVERRIDES = ${JSON.stringify(overrides, null, 2)} as {\n  classes?: ClassItem[]; subjects?: SubjectItem[]; notes?: NoteItem[]; mcqs?: MCQItem[]; pastPapers?: PastPaperItem[]; gazettes?: GazetteItem[]; blogs?: BlogPostItem[]; videoMcqs?: VideoInteractiveMCQ[];\n};\n`;
+const source = `import { BlogPostItem, ChapterItem, ClassItem, GazetteItem, MCQItem, NoteItem, PastPaperItem, SubjectItem, VideoInteractiveMCQ } from '@/types/educational';\n\nexport const STATIC_OVERRIDES = ${JSON.stringify(overrides, null, 2)} as {\n  classes?: ClassItem[]; subjects?: SubjectItem[]; chapters?: ChapterItem[]; notes?: NoteItem[]; mcqs?: MCQItem[]; pastPapers?: PastPaperItem[]; gazettes?: GazetteItem[]; blogs?: BlogPostItem[]; videoMcqs?: VideoInteractiveMCQ[];\n};\n`;
 await fs.writeFile(output, source, 'utf8');
 await fs.writeFile(sitemapOutput, buildSitemap(overrides), 'utf8');
 console.log(`[static-data] Generated ${Object.keys(overrides).length} catalog sections.`);
