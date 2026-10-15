@@ -1,0 +1,341 @@
+'use client';
+
+import React, { useState, useEffect, useRef } from 'react';
+import { Terminal, Play, RotateCcw, Minus, X, Move, Loader2 } from 'lucide-react';
+import { useTheme } from '@/hooks/useTheme';
+
+declare global {
+  interface Window {
+    loadPyodide?: (config: { indexURL: string }) => Promise<any>;
+    pyodideInstance?: any;
+  }
+}
+
+interface PythonCompilerProps {
+  initialCode?: string;
+  autoOpen?: boolean;
+}
+
+export const PythonCompiler: React.FC<PythonCompilerProps> = ({
+  initialCode = '# Write or paste Python code here\nprint("Welcome to RayTech Python Compiler!")\n\nfor i in range(1, 6):\n    print(f"Step {i}: Square is {i**2}")\n',
+  autoOpen = false,
+}) => {
+  const { theme } = useTheme();
+  const [isOpen, setIsOpen] = useState(autoOpen);
+  const [isMinimized, setIsMinimized] = useState(true);
+  const [code, setCode] = useState(initialCode);
+  const [output, setOutput] = useState<string>('Console idle. Click "Run Code" to compile.');
+  const [isRunning, setIsRunning] = useState(false);
+  const [isEngineReady, setIsEngineReady] = useState(false);
+  const [engineStatus, setEngineStatus] = useState<string>('Engine not initialized');
+
+  // Dragging state: using top & left coordinates for natural 1:1 mouse movement
+  const [position, setPosition] = useState({ x: 80, y: 120 });
+  const [isDragging, setIsDragging] = useState(false);
+  const dragStartRef = useRef({ mouseX: 0, mouseY: 0, posX: 0, posY: 0 });
+
+  useEffect(() => {
+    if (initialCode) {
+      setCode(initialCode);
+      if (autoOpen) {
+        setIsMinimized(false);
+        setIsOpen(true);
+      }
+    }
+  }, [initialCode, autoOpen]);
+
+  // Load Pyodide WebAssembly asynchronously
+  const initPyodide = async () => {
+    if (window.pyodideInstance) {
+      setIsEngineReady(true);
+      setEngineStatus('Ready (Pyodide Wasm)');
+      return;
+    }
+
+    setEngineStatus('Loading Pyodide WebAssembly...');
+    try {
+      if (!window.loadPyodide) {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/pyodide/v0.25.1/full/pyodide.js';
+        script.async = true;
+        document.body.appendChild(script);
+
+        await new Promise((resolve, reject) => {
+          script.onload = resolve;
+          script.onerror = () => reject(new Error('Failed to load Pyodide CDN'));
+        });
+      }
+
+      if (window.loadPyodide) {
+        const pyodide = await window.loadPyodide({
+          indexURL: 'https://cdn.jsdelivr.net/pyodide/v0.25.1/full/',
+        });
+        window.pyodideInstance = pyodide;
+        setIsEngineReady(true);
+        setEngineStatus('Ready (In-Browser Python 3)');
+      }
+    } catch (err: any) {
+      setEngineStatus('Failed to load Pyodide');
+      setOutput(`Engine initialization error: ${err?.message || 'Network blocked Pyodide CDN'}`);
+    }
+  };
+
+  useEffect(() => {
+    if (isOpen && !isMinimized && !isEngineReady) {
+      initPyodide();
+    }
+  }, [isOpen, isMinimized, isEngineReady]);
+
+  // Drag handler: Natural cursor tracking (moving right increases left position, moving down increases top position)
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setIsDragging(true);
+    dragStartRef.current = {
+      mouseX: e.clientX,
+      mouseY: e.clientY,
+      posX: position.x,
+      posY: position.y,
+    };
+  };
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!isDragging) return;
+      const deltaX = e.clientX - dragStartRef.current.mouseX;
+      const deltaY = e.clientY - dragStartRef.current.mouseY;
+
+      const modalWidth = 540;
+      const modalHeight = 380;
+      const maxX = Math.max(10, window.innerWidth - modalWidth - 20);
+      const maxY = Math.max(10, window.innerHeight - modalHeight - 20);
+
+      // Natural direction: cursor right -> window moves right, cursor down -> window moves down
+      const newX = Math.min(Math.max(10, dragStartRef.current.posX + deltaX), maxX);
+      const newY = Math.min(Math.max(10, dragStartRef.current.posY + deltaY), maxY);
+
+      setPosition({ x: newX, y: newY });
+    };
+
+    const handleMouseUp = () => {
+      setIsDragging(false);
+    };
+
+    if (isDragging) {
+      window.addEventListener('mousemove', handleMouseMove);
+      window.addEventListener('mouseup', handleMouseUp);
+    }
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isDragging]);
+
+  const handleRunCode = async () => {
+    if (!window.pyodideInstance) {
+      setOutput('Python engine is still loading... Please wait a few seconds and click Run again.');
+      return;
+    }
+
+    setIsRunning(true);
+    setOutput('Running script in Pyodide sandbox...');
+
+    try {
+      const pyodide = window.pyodideInstance;
+      pyodide.runPython(`
+import sys
+import io
+sys.stdout = io.StringIO()
+sys.stderr = io.StringIO()
+      `);
+
+      await pyodide.runPythonAsync(code);
+
+      const stdout = pyodide.runPython('sys.stdout.getvalue()');
+      const stderr = pyodide.runPython('sys.stderr.getvalue()');
+
+      let combinedOutput = '';
+      if (stdout) combinedOutput += stdout;
+      if (stderr) combinedOutput += '\n[Errors]:\n' + stderr;
+
+      setOutput(combinedOutput.trim() || 'Process finished successfully (no print output).');
+    } catch (err: any) {
+      setOutput(`Traceback (most recent call last):\n${err?.message || String(err)}`);
+    } finally {
+      setIsRunning(false);
+    }
+  };
+
+  const handleReset = () => {
+    setCode(initialCode);
+    setOutput('Code reset to default.');
+  };
+
+  // Minimized Trigger Button
+  if (isMinimized) {
+    return (
+      <div className="fixed bottom-6 right-6 z-50">
+        <button
+          onClick={() => {
+            setIsMinimized(false);
+            setIsOpen(true);
+          }}
+          className="flex items-center gap-2 px-4 py-2.5 bg-navy-600 hover:bg-navy-700 text-white font-bold text-xs rounded-lg shadow-lg border-2 border-white transition-all transform hover:scale-105"
+          title="Open Python Compiler"
+          aria-label="Open Python Compiler"
+        >
+          <Terminal className="w-4 h-4" />
+          <span>Python Compiler</span>
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+        </button>
+      </div>
+    );
+  }
+
+  // Expanded Window - Dynamic Theme Responsive
+  const isDark = theme === 'dark';
+
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        top: `${position.y}px`,
+        left: `${position.x}px`,
+        zIndex: 60,
+      }}
+      className={`w-[94vw] sm:w-[520px] md:w-[560px] rounded-lg border-2 shadow-2xl flex flex-col overflow-hidden transition-colors ${
+        isDark
+          ? 'bg-slate-900 border-slate-700 text-slate-100'
+          : 'bg-white border-slate-300 text-slate-800'
+      }`}
+    >
+      {/* Draggable Header */}
+      <div
+        onMouseDown={handleMouseDown}
+        className={`px-4 py-2.5 border-b flex items-center justify-between cursor-move select-none ${
+          isDark
+            ? 'bg-slate-800 border-slate-700 text-white'
+            : 'bg-navy-700 border-navy-800 text-white'
+        }`}
+      >
+        <div className="flex items-center gap-2">
+          <Move className="w-3.5 h-3.5 opacity-70" />
+          <Terminal className="w-4 h-4 text-emerald-400" />
+          <span className="text-xs font-bold tracking-wide">
+            Python 3.11 Compiler
+          </span>
+          <span className="text-[10px] px-1.5 py-0.5 rounded bg-white/20 text-white font-semibold">
+            In-Browser Wasm
+          </span>
+        </div>
+
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={() => setIsMinimized(true)}
+            className="p-1 hover:bg-white/20 rounded text-white transition-colors"
+            title="Minimize"
+          >
+            <Minus className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={() => setIsMinimized(true)}
+            className="p-1 hover:bg-red-500 rounded text-white transition-colors"
+            title="Close"
+          >
+            <X className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      </div>
+
+      {/* Editor Sub-Bar */}
+      <div
+        className={`px-3 py-2 border-b flex items-center justify-between text-xs ${
+          isDark
+            ? 'bg-slate-850 border-slate-800 text-slate-300'
+            : 'bg-slate-50 border-slate-200 text-slate-600'
+        }`}
+      >
+        <div className="flex items-center gap-1.5 text-[11px]">
+          <span className="w-2 h-2 rounded-full bg-emerald-500" />
+          <span>{engineStatus}</span>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleReset}
+            className={`px-2.5 py-1 rounded text-xs font-semibold flex items-center gap-1 border transition-colors ${
+              isDark
+                ? 'bg-slate-800 border-slate-700 hover:bg-slate-700 text-slate-200'
+                : 'bg-white border-slate-300 hover:bg-slate-100 text-slate-700'
+            }`}
+            title="Reset code"
+          >
+            <RotateCcw className="w-3 h-3" />
+            <span>Reset</span>
+          </button>
+
+          <button
+            onClick={handleRunCode}
+            disabled={isRunning}
+            className="px-3.5 py-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded text-xs flex items-center gap-1 shadow-sm transition-colors disabled:opacity-50"
+            title="Run Code (Ctrl + Enter)"
+          >
+            {isRunning ? (
+              <>
+                <Loader2 className="w-3 h-3 animate-spin" />
+                <span>Running...</span>
+              </>
+            ) : (
+              <>
+                <Play className="w-3 h-3 fill-current" />
+                <span>Run Code</span>
+              </>
+            )}
+          </button>
+        </div>
+      </div>
+
+      {/* Code Textarea */}
+      <div className="p-2.5">
+        <label className="sr-only" htmlFor="python-code-input">
+          Python Code Input
+        </label>
+        <textarea
+          id="python-code-input"
+          value={code}
+          onChange={(e) => setCode(e.target.value)}
+          onKeyDown={(e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+              e.preventDefault();
+              handleRunCode();
+            }
+          }}
+          rows={7}
+          spellCheck={false}
+          className={`w-full font-mono text-xs p-3 rounded border focus:outline-none focus:ring-2 focus:ring-navy-600 leading-relaxed resize-y ${
+            isDark
+              ? 'bg-slate-950 text-emerald-300 border-slate-800'
+              : 'bg-slate-50 text-slate-900 border-slate-300'
+          }`}
+          placeholder="# Write Python code here and click Run..."
+        />
+      </div>
+
+      {/* Terminal Output */}
+      <div className={`p-3 border-t flex flex-col gap-1 ${
+        isDark ? 'bg-slate-950 border-slate-800' : 'bg-slate-100 border-slate-200'
+      }`}>
+        <div className="flex items-center justify-between text-[11px] font-semibold text-slate-500">
+          <span>Terminal Output:</span>
+          <span>Press Ctrl+Enter to Run</span>
+        </div>
+        <pre className={`w-full max-h-32 overflow-y-auto font-mono text-xs p-2.5 rounded border whitespace-pre-wrap select-text ${
+          isDark
+            ? 'bg-black text-slate-200 border-slate-800'
+            : 'bg-white text-slate-900 border-slate-300'
+        }`}>
+          {output}
+        </pre>
+      </div>
+    </div>
+  );
+};

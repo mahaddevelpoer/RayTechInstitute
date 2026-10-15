@@ -1,0 +1,206 @@
+import React from 'react';
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_NOTES, INITIAL_MCQS, INITIAL_PAST_PAPERS } from '@/data/staticCatalog';
+import { BookOpen, FileText, HelpCircle, FileCode, ArrowRight, ArrowLeft } from 'lucide-react';
+
+export function generateStaticParams() {
+  return INITIAL_SUBJECTS.map((s) => ({
+    classSlug: s.classSlug,
+    subjectSlug: s.slug,
+  }));
+}
+
+interface PageProps {
+  params: {
+    classSlug: string;
+    subjectSlug: string;
+  };
+}
+
+export function generateMetadata({ params }: PageProps): Metadata {
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+  const currentSubject = INITIAL_SUBJECTS.find(
+    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+  );
+  if (!currentClass || !currentSubject) return {};
+
+  return {
+    title: `${currentClass.title} ${currentSubject.title} Study Material | RayTech`,
+    description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
+    alternates: {
+      canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/`,
+    },
+    openGraph: {
+      title: `${currentClass.title} ${currentSubject.title} Study Material | RayTech`,
+      description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
+      url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/`,
+      type: 'website',
+    },
+  };
+}
+
+export default function SubjectHubPage({ params }: PageProps) {
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+  const currentSubject = INITIAL_SUBJECTS.find(
+    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+  );
+
+  if (!currentClass || !currentSubject) {
+    notFound();
+  }
+
+  const subjectNotes = INITIAL_NOTES.filter(
+    (n) => n.classSlug === params.classSlug && n.subjectSlug === params.subjectSlug
+  );
+  const subjectMCQs = INITIAL_MCQS.filter(
+    (m) => m.classSlug === params.classSlug && m.subjectSlug === params.subjectSlug
+  );
+  const subjectPastPapers = INITIAL_PAST_PAPERS.filter(
+    (p) => p.classSlug === params.classSlug && p.subjectSlug === params.subjectSlug
+  );
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://raytechinstitute.firebaseapp.com/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Classes',
+        item: 'https://raytechinstitute.firebaseapp.com/classes/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: currentClass.title,
+        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: currentSubject.title,
+        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/`,
+      },
+    ],
+  };
+
+  return (
+    <div className="min-h-screen bg-white text-slate-800 flex flex-col">
+      <Header />
+
+      <main className="flex-1 py-10 px-4 sm:px-6 max-w-6xl mx-auto w-full">
+        {/* Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+
+        {/* Breadcrumb */}
+        <nav className="breadcrumb">
+          <Link href="/">Home</Link>
+          <span>/</span>
+          <Link href="/classes">Classes</Link>
+          <span>/</span>
+          <Link href={`/classes/${currentClass.slug}`}>{currentClass.title}</Link>
+          <span>/</span>
+          <span className="text-slate-700">{currentSubject.title}</span>
+        </nav>
+
+        {/* Header */}
+        <div className="mb-8">
+          <div className="inline-flex items-center gap-2 mb-2">
+            <span className="badge-primary">{currentClass.title}</span>
+            <span className="badge-accent">Course Unit</span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
+            {currentSubject.title}
+          </h1>
+          <p className="text-slate-600 text-sm">
+            {currentSubject.description}
+          </p>
+        </div>
+
+        {/* 3 Main Study Resources */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Notes */}
+          <Link
+            href={`/classes/${currentClass.slug}/${currentSubject.slug}/notes`}
+            className="edu-card p-6 flex flex-col justify-between group"
+          >
+            <div>
+              <div className="w-10 h-10 rounded bg-navy-50 text-navy-600 flex items-center justify-center mb-4">
+                <FileText className="w-5 h-5" />
+              </div>
+              <h2 className="text-base font-bold text-navy-900 mb-1 group-hover:text-navy-600 transition-colors">
+                Chapter Notes (PDF)
+              </h2>
+              <p className="text-xs text-slate-600 leading-relaxed mb-6">
+                Solved short questions, long answers, and chapter-wise study notes for board exams.
+              </p>
+            </div>
+            <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-navy-600">
+              <span>{subjectNotes.length} Chapters Available</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* MCQs */}
+          <Link
+            href={`/classes/${currentClass.slug}/${currentSubject.slug}/mcqs`}
+            className="edu-card p-6 flex flex-col justify-between group"
+          >
+            <div>
+              <div className="w-10 h-10 rounded bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
+                <HelpCircle className="w-5 h-5" />
+              </div>
+              <h2 className="text-base font-bold text-navy-900 mb-1 group-hover:text-navy-600 transition-colors">
+                Interactive MCQs Quiz
+              </h2>
+              <p className="text-xs text-slate-600 leading-relaxed mb-6">
+                Online multiple choice test with instant scores and answer explanations.
+              </p>
+            </div>
+            <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-700">
+              <span>{subjectMCQs.length} MCQs Questions</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* Past Papers */}
+          <Link
+            href={`/classes/${currentClass.slug}/${currentSubject.slug}/past-papers`}
+            className="edu-card p-6 flex flex-col justify-between group"
+          >
+            <div>
+              <div className="w-10 h-10 rounded bg-orange-50 text-orange-600 flex items-center justify-center mb-4">
+                <FileCode className="w-5 h-5" />
+              </div>
+              <h2 className="text-base font-bold text-navy-900 mb-1 group-hover:text-navy-600 transition-colors">
+                Board Past Papers
+              </h2>
+              <p className="text-xs text-slate-600 leading-relaxed mb-6">
+                Past 5-year board question papers from BISE Lahore, Gujranwala, Rawalpindi, and FBISE.
+              </p>
+            </div>
+            <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-orange-700">
+              <span>{subjectPastPapers.length} Board Papers</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}

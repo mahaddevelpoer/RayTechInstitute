@@ -1,0 +1,19 @@
+import { notFound } from 'next/navigation';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
+import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_PAST_PAPERS } from '@/data/staticCatalog';
+
+const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+export function generateStaticParams() {
+  return INITIAL_PAST_PAPERS.map((paper) => ({ classSlug: paper.classSlug, subjectSlug: paper.subjectSlug, paperSlug: slug(paper.id) }));
+}
+
+export default function PastPaperDetailPage({ params }: { params: { classSlug: string; subjectSlug: string; paperSlug: string } }) {
+  const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.paperSlug);
+  const currentClass = INITIAL_CLASSES.find((item) => item.slug === params.classSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+  if (!paper || !currentClass || !currentSubject) notFound();
+  return <div className="flex min-h-screen flex-col bg-white text-slate-800"><Header /><PdfDetailClientView backHref={`/classes/${params.classSlug}/${params.subjectSlug}/past-papers`} backLabel="Back to past papers" eyebrow={`${paper!.board} · ${paper!.year}`} title={`${currentSubject!.title} ${paper!.session} Past Paper`} description={paper!.description || `Official ${currentSubject!.title} past paper for ${currentClass!.title}, including the board pattern and questions students should practise.`} content={paper!.content} pdfUrl={paper!.pdfUrl} metadata={[currentClass!.title, currentSubject!.title, paper!.board, `${paper!.year}`, paper!.session]} /><Footer /></div>;
+}
