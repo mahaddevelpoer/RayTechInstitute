@@ -273,10 +273,16 @@ function wordCount(value: unknown): number {
 
 async function expandIfTooShort(apiKey: string, item: any, minimumWords: number, label: string): Promise<any> {
   if (wordCount(item?.content) >= minimumWords) return item;
-  const expansionPrompt = `Expand the following ${label} into a complete, publication-ready Pakistani board education guide. Return ONLY valid JSON with the same fields. Keep all factual details, but replace content with at least ${minimumWords} words. Use rich Markdown headings, substantial explanatory paragraphs, tables where useful, practical examples, student checklists, and FAQs. Never return a short summary and never truncate content.\n\nCURRENT JSON:\n${JSON.stringify(item)}`;
-  const expandedRaw = await callGeminiCascade(apiKey, `You are a meticulous senior academic editor. Content length and completeness are mandatory.`, expansionPrompt, 24576, 0.25);
-  const expanded = extractAndParseJson(expandedRaw);
-  return wordCount(expanded?.content) > wordCount(item?.content) ? { ...item, ...expanded } : item;
+  let best = item;
+  for (let attempt = 1; attempt <= 3 && wordCount(best?.content) < minimumWords; attempt++) {
+    const currentWords = wordCount(best?.content);
+    const expansionPrompt = `Expand the following ${label} into a complete, publication-ready Pakistani board education guide. This is expansion attempt ${attempt}. Return ONLY valid JSON with the same fields. Keep all factual details, but replace content with at least ${minimumWords} words; the current draft has only ${currentWords} words. Use rich Markdown headings, substantial explanatory paragraphs, tables where useful, practical examples, student checklists, and FAQs. Never return a short summary and never truncate content.\n\nCURRENT JSON:\n${JSON.stringify(best)}`;
+    const expandedRaw = await callGeminiCascade(apiKey, `You are a meticulous senior academic editor. The minimum word count is a hard acceptance requirement, not a suggestion.`, expansionPrompt, 24576, 0.25);
+    const expanded = extractAndParseJson(expandedRaw);
+    if (wordCount(expanded?.content) > wordCount(best?.content)) best = { ...best, ...expanded };
+    else break;
+  }
+  return best;
 }
 
 // OpenCode Zen caller with error capture
