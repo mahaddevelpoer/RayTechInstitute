@@ -27,15 +27,10 @@ export function BlogsClientView() {
     { id: 'career-guides', label: 'Career Guides' },
   ];
 
-  const STATIC_BLOG_SLUGS = [
-    'punjab-boards-inter-date-sheet-2026',
-    'fast-nuces-punjab-university-admissions-2026',
-    'computer-science-vs-software-engineering-career-guide',
-  ];
-
-  const getBlogHref = (slug: string) => {
-    return STATIC_BLOG_SLUGS.includes(slug) ? `/blogs/${slug}` : `/blogs/post?slug=${encodeURIComponent(slug)}`;
-  };
+  // Every published blog is generated at its own slug URL during the build.
+  // Keeping one route for all posts prevents newly added articles from being
+  // sent to the editor/preview page (`/blogs/post`) by mistake.
+  const getBlogHref = (slug: string) => `/blogs/${encodeURIComponent(slug)}`;
 
   return (
     <>

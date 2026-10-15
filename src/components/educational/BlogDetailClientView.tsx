@@ -1,12 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
-import { Calendar, Clock, User, ArrowLeft, ShieldCheck, Loader2, Download, ExternalLink } from 'lucide-react';
-import { EducationalStore } from '@/data/educationalStore';
+import { Calendar, Clock, User, ArrowLeft, ShieldCheck, Download, ExternalLink } from 'lucide-react';
 import { BlogPostItem } from '@/types/educational';
 import { MarkdownRenderer } from '@/components/MarkdownRenderer';
-import { supabase } from '@/lib/supabase';
 import { sanitizeUrl } from '@/utils/security';
 
 interface BlogDetailClientViewProps {
@@ -15,65 +13,7 @@ interface BlogDetailClientViewProps {
 }
 
 export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientViewProps) {
-  const [post, setPost] = useState<BlogPostItem | null>(initialPost || null);
-  const [loading, setLoading] = useState(!initialPost);
-
-  useEffect(() => {
-    // 1. First check local store / cache
-    const allBlogs = EducationalStore.getBlogs();
-    const foundLocal = allBlogs.find((b) => b.slug === slug);
-    if (foundLocal) {
-      setPost(foundLocal);
-      setLoading(false);
-      return;
-    }
-
-    // 2. If not in local store, fetch directly from Supabase
-    async function fetchFromSupabase() {
-      try {
-        if (!supabase) return;
-        const { data, error } = await supabase
-          .from('blogs')
-          .select('*')
-          .eq('slug', slug)
-          .maybeSingle();
-
-        if (data && !error) {
-          const fetchedBlog: BlogPostItem = {
-            id: data.id,
-            title: data.title,
-            slug: data.slug,
-            category: data.category,
-            excerpt: data.excerpt,
-            content: data.content,
-            featuredImage: data.featured_image || 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80',
-            author: data.author || 'RayTech Academic Cell',
-            datePublished: data.date_published || new Date().toISOString().split('T')[0],
-            readTime: data.read_time || '4 min read',
-            tags: Array.isArray(data.tags) ? data.tags : [],
-          };
-          // Cache in local store so subsequent navigations are instant
-          EducationalStore.saveBlog(fetchedBlog);
-          setPost(fetchedBlog);
-        }
-      } catch (err) {
-        console.error('Error fetching blog from Supabase:', err);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchFromSupabase();
-  }, [slug]);
-
-  if (loading) {
-    return (
-      <div className="py-20 text-center flex flex-col items-center justify-center">
-        <Loader2 className="w-8 h-8 text-navy-600 animate-spin mb-3" />
-        <p className="text-xs text-slate-500">Loading educational article...</p>
-      </div>
-    );
-  }
+  const post = initialPost || null;
 
   if (!post) {
     return (
