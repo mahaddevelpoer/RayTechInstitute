@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { sanitizeUrl } from '@/utils/security';
 
 interface MarkdownRendererProps {
   content: string;
@@ -15,9 +16,9 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
         remarkPlugins={[remarkGfm]}
         components={{
           h1: ({ children }) => (
-            <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2">
+            <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2">
               {children}
-            </h1>
+            </h2>
           ),
           h2: ({ children }) => (
             <h2 className="text-xl sm:text-2xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2">
@@ -86,16 +87,20 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
               {children}
             </td>
           ),
-          a: ({ href, children }) => (
+          a: ({ href, children }) => {
+            const safeHref = sanitizeUrl(href);
+            const isExternal = /^https?:\/\//i.test(safeHref);
+            return (
             <a
-              href={href}
-              target={href?.startsWith('http') ? '_blank' : undefined}
-              rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
+              href={safeHref || undefined}
+              target={isExternal ? '_blank' : undefined}
+              rel={isExternal ? 'noopener noreferrer nofollow' : undefined}
               className="text-navy-600 hover:text-navy-800 font-semibold underline underline-offset-2 transition-colors"
             >
               {children}
             </a>
-          ),
+            );
+          },
           code: ({ children }) => (
             <code className="px-1.5 py-0.5 rounded bg-slate-100 text-navy-800 font-mono text-xs border border-slate-200">
               {children}

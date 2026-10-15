@@ -2,11 +2,22 @@
 
 **Platform**: RayTech Institute Educational Portal  
 **Document**: Continuous Maintenance and Scalability Action Plan  
-**Date**: October 10, 2026  
+**Date**: October 15, 2026
 
 ---
 
 ## 1. Action Items by Priority and Impact
+
+### Current Verification Gates
+- [x] **Static SEO regression gate**: `npm run audit:seo` checks every generated public HTML page for title, description, canonical, JSON-LD and exactly one H1.
+- [x] **Admin action authorization**: Browser-triggered AI, mutation, rebuild and broadcast actions require a verified Firebase ID token in the Edge Function.
+- [x] **Compiler interaction quality**: Python compiler is resizable, viewport constrained, draggable and keyboard-friendly while remaining excluded from blogs and admin.
+- [x] **AI response acceptance**: MCQs are schema-validated and article, gazette and notes content must meet minimum word thresholds before the admin UI receives it.
+
+### Verification Still Requiring External Evidence
+- [ ] Run Lighthouse or PageSpeed against the live Firebase domain and record LCP, CLS and INP. Source inspection cannot prove Core Web Vitals.
+- [ ] Submit the current sitemap in Google Search Console and review coverage, canonical selection and rich-result warnings.
+- [ ] Configure `ADMIN_EMAILS` in Supabase Secrets with the exact verified administrator email(s). When configured, the Edge Function enforces the allowlist in addition to Firebase token verification.
 
 ### Immediate / Completed (Priority P0 - High Impact, Zero Effort Remaining)
 - [x] **Full Static Export Build**: All 48 pages generated with Next.js SSG (`npm run build` exits 0).

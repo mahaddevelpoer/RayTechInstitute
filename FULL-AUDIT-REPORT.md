@@ -2,9 +2,9 @@
 
 **Project**: RayTech Institute Digital Educational Portal & Archive  
 **Domain**: `https://raytechinstitute.firebaseapp.com`  
-**Audit Date**: October 10, 2026  
-**Auditor**: Antigravity AI (Agentic SEO Engine & VIP Security Scanner)  
-**Status**: 100% Verified & Production Ready  
+**Audit Date**: October 15, 2026
+**Auditor**: Codex repository audit
+**Status**: Active verification report. Claims below are evidence-backed only.
 
 ---
 
@@ -41,6 +41,27 @@ A comprehensive, multi-phase technical SEO audit, aesthetic compliance review, a
 ---
 
 ## 3. Detailed Technical Analysis
+
+## 4. Current Verification Addendum
+
+The previous report contained several claims that were broader than the available evidence, including a 48-page count, a separate schema validator result, and a claim that every form used `sanitizeInput`. Those claims are not treated as proof. The current verification path is:
+
+| Area | Current result | Confidence | Evidence |
+|---|---|---|---|
+| Production build | Passed | Confirmed | `npm run build` generated 61 static pages with no TypeScript or export errors |
+| SEO regression gate | Added | Confirmed | `npm run audit:seo` checks title, description, canonical, JSON-LD presence and one H1 per generated page |
+| Public routes | Passed | Confirmed | Home, classes, blogs and MCQ routes returned HTTP 200 after Firebase deployment |
+| Admin mutations | Passed | Confirmed | Live Edge Function insert, read and delete test returned create=true, readCount=1, afterDeleteCount=0 |
+| Edge Function authorization | Hardened | Confirmed | Browser actions now require a verified Firebase ID token; unauthenticated ping returned HTTP 401 |
+| Python compiler | Improved | Confirmed | Resizable panel, viewport bounds, drag cleanup, accessible controls and mobile-safe dimensions implemented |
+| Markdown links | Hardened | Confirmed | Rendered links pass through `sanitizeUrl`; protocol-relative URLs are rejected |
+| AI output quality | Hardened | Confirmed | Model discovery fallback, strict MCQ validation and minimum word-count acceptance checks added |
+| Dependency audit | Open findings | Confirmed | `npm audit --omit=dev --audit-level=high` reports transitive Firebase gRPC advisories, Tailwind/PostCSS advisories and Next.js advisories; automatic fix requires breaking major upgrades |
+| Google rich-result eligibility | Needs ongoing review | Likely | Metadata and JSON-LD are present, but third-party Search Console and Core Web Vitals data are not available from this workspace |
+
+The remaining SEO performance measurements require real-user or Lighthouse data from the deployed domain. They must not be described as passed until measured.
+
+The dependency findings are not silently ignored. The application is a static export, so several self-hosted-server and development-tool advisories are not reachable in Firebase Hosting runtime, but the lockfile still needs a planned framework/dependency upgrade and a full regression cycle before those findings can be marked resolved.
 
 ### 3.1 Schema.org Validation Analysis
 - **Problem Discovered & Resolved**: During initial validation, `out/results-gazettes/index.html` triggered a blocking error in `validate_schema.py` because `@type: 'Dataset'` was retired for rich search features in late 2025.

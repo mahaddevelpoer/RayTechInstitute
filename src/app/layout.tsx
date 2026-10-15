@@ -10,10 +10,10 @@ import NotificationPrompt from '@/components/NotificationPrompt';
 export const metadata: Metadata = {
   metadataBase: new URL('https://raytechinstitute.firebaseapp.com'),
   title: {
-    default: '11th & 12th Class Computer Science Notes, MCQs & Gazettes | RayTech Institute',
-    template: '%s | RayTech Institute',
+    default: '11th & 12th Computer Science Resources | RayTech',
+    template: '%s',
   },
-  description: 'Download 11th and 12th class computer science notes in PDF, attempt chapter-wise MCQs tests, access Punjab Board past papers and official result gazettes for BISE Lahore, Gujranwala, and FBISE.',
+  description: 'Study 11th and 12th class computer science with notes, chapter-wise MCQs, Punjab Board past papers, and official result gazettes.',
   keywords: [
     'RayTech Institute',
     '11th Class Computer Science Notes',
@@ -96,6 +96,7 @@ export default function RootLayout({
     name: 'RayTech Institute',
     url: 'https://raytechinstitute.firebaseapp.com/',
     description: 'Free study resources for 11th and 12th class computer science students in Pakistan.',
+    inLanguage: 'en-PK',
     publisher: {
       '@type': 'EducationalOrganization',
       name: channelData.name,
@@ -114,6 +115,7 @@ export default function RootLayout({
     logo: 'https://raytechinstitute.firebaseapp.com/android-chrome-192x192.png',
     sameAs: [channelData.youtubeUrl],
     knowsAbout: channelData.contentAreas,
+    areaServed: 'Pakistan',
   };
 
   return (

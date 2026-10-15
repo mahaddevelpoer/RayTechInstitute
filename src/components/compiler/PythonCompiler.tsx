@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Terminal, Play, RotateCcw, Minus, X, Move, Loader2 } from 'lucide-react';
+import { Terminal, Play, RotateCcw, Minus, X, Move, Loader2, Maximize2 } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
 
 declare global {
@@ -32,7 +32,10 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
   // Dragging state: using top & left coordinates for natural 1:1 mouse movement
   const [position, setPosition] = useState({ x: 80, y: 120 });
   const [isDragging, setIsDragging] = useState(false);
+  const [isResizing, setIsResizing] = useState(false);
+  const [size, setSize] = useState({ width: 560, height: 560 });
   const dragStartRef = useRef({ mouseX: 0, mouseY: 0, posX: 0, posY: 0 });
+  const resizeStartRef = useRef({ mouseX: 0, mouseY: 0, width: 560, height: 560 });
 
   useEffect(() => {
     if (initialCode) {
@@ -130,6 +133,57 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
     };
   }, [isDragging]);
 
+  useEffect(() => {
+    const handlePointerMove = (event: PointerEvent) => {
+      if (!isResizing) return;
+      const minWidth = 320;
+      const minHeight = 360;
+      const maxWidth = Math.max(minWidth, window.innerWidth - 16);
+      const maxHeight = Math.max(minHeight, window.innerHeight - 16);
+      setSize({
+        width: Math.min(maxWidth, Math.max(minWidth, resizeStartRef.current.width + event.clientX - resizeStartRef.current.mouseX)),
+        height: Math.min(maxHeight, Math.max(minHeight, resizeStartRef.current.height + event.clientY - resizeStartRef.current.mouseY)),
+      });
+    };
+
+    const handlePointerUp = () => setIsResizing(false);
+    if (isResizing) {
+      document.body.style.userSelect = 'none';
+      window.addEventListener('pointermove', handlePointerMove);
+      window.addEventListener('pointerup', handlePointerUp);
+    }
+    return () => {
+      document.body.style.userSelect = '';
+      window.removeEventListener('pointermove', handlePointerMove);
+      window.removeEventListener('pointerup', handlePointerUp);
+    };
+  }, [isResizing]);
+
+  useEffect(() => {
+    const keepInViewport = () => {
+      const maxX = Math.max(8, window.innerWidth - Math.min(size.width, window.innerWidth - 16) - 8);
+      const maxY = Math.max(8, window.innerHeight - Math.min(size.height, window.innerHeight - 16) - 8);
+      setPosition((current) => ({
+        x: Math.min(Math.max(8, current.x), maxX),
+        y: Math.min(Math.max(8, current.y), maxY),
+      }));
+    };
+    window.addEventListener('resize', keepInViewport);
+    return () => window.removeEventListener('resize', keepInViewport);
+  }, [size.width, size.height]);
+
+  const handleResizeStart = (event: React.PointerEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    event.stopPropagation();
+    resizeStartRef.current = {
+      mouseX: event.clientX,
+      mouseY: event.clientY,
+      width: size.width,
+      height: size.height,
+    };
+    setIsResizing(true);
+  };
+
   const handleRunCode = async () => {
     if (!window.pyodideInstance) {
       setOutput('Python engine is still loading... Please wait a few seconds and click Run again.');
@@ -200,9 +254,15 @@ sys.stderr = io.StringIO()
         position: 'fixed',
         top: `${position.y}px`,
         left: `${position.x}px`,
+        width: `${size.width}px`,
+        height: `${size.height}px`,
+        minWidth: '320px',
+        minHeight: '360px',
+        maxWidth: 'calc(100vw - 1rem)',
+        maxHeight: 'calc(100dvh - 1rem)',
         zIndex: 60,
       }}
-      className={`w-[94vw] sm:w-[520px] md:w-[560px] rounded-lg border-2 shadow-2xl flex flex-col overflow-hidden transition-colors ${
+      className={`relative rounded-xl border shadow-2xl flex flex-col overflow-hidden transition-colors ${
         isDark
           ? 'bg-slate-900 border-slate-700 text-slate-100'
           : 'bg-white border-slate-300 text-slate-800'
@@ -231,15 +291,17 @@ sys.stderr = io.StringIO()
         <div className="flex items-center gap-1.5">
           <button
             onClick={() => setIsMinimized(true)}
-            className="p-1 hover:bg-white/20 rounded text-white transition-colors"
+            className="min-h-9 min-w-9 p-2 hover:bg-white/20 rounded text-white transition-colors"
             title="Minimize"
+            aria-label="Minimize Python compiler"
           >
             <Minus className="w-3.5 h-3.5" />
           </button>
           <button
             onClick={() => setIsMinimized(true)}
-            className="p-1 hover:bg-red-500 rounded text-white transition-colors"
+            className="min-h-9 min-w-9 p-2 hover:bg-red-500 rounded text-white transition-colors"
             title="Close"
+            aria-label="Close Python compiler"
           >
             <X className="w-3.5 h-3.5" />
           </button>
@@ -309,7 +371,7 @@ sys.stderr = io.StringIO()
               handleRunCode();
             }
           }}
-          rows={7}
+          rows={9}
           spellCheck={false}
           className={`w-full font-mono text-xs p-3 rounded border focus:outline-none focus:ring-2 focus:ring-navy-600 leading-relaxed resize-y ${
             isDark
@@ -336,6 +398,16 @@ sys.stderr = io.StringIO()
           {output}
         </pre>
       </div>
+
+      <button
+        type="button"
+        onPointerDown={handleResizeStart}
+        className="absolute bottom-1 right-1 z-10 flex h-8 w-8 cursor-se-resize items-end justify-end rounded-br-lg p-1 text-slate-400 hover:text-navy-600"
+        title="Resize compiler window"
+        aria-label="Resize compiler window"
+      >
+        <Maximize2 className="h-3.5 w-3.5 rotate-90" aria-hidden="true" />
+      </button>
     </div>
   );
 };

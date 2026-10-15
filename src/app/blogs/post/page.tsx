@@ -177,6 +177,7 @@ function BlogPostContent() {
 export default function BlogPostPage() {
   return (
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
+      <meta name="robots" content="noindex, nofollow, noarchive" />
       <Header />
       <main className="flex-1 py-10 px-4 sm:px-6">
         <Suspense

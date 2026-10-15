@@ -91,6 +91,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
+      <meta name="robots" content="noindex, nofollow, noarchive" />
       {/* Top Bar */}
       <header className="h-12 bg-navy-700 text-white px-4 flex items-center justify-between z-40 text-xs">
         <div className="flex items-center gap-3">

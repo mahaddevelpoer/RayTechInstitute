@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/generate-static-data.mjs && next build",
+    "audit:seo": "node scripts/audit-seo.mjs",
     "start": "next start",
     "lint": "next lint"
   },

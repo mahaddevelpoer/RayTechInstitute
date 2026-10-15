@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
@@ -8,6 +9,20 @@ const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').
 
 export function generateStaticParams() {
   return INITIAL_GAZETTES.map((gazette) => ({ gazetteSlug: slug(gazette.id) }));
+}
+
+export function generateMetadata({ params }: { params: { gazetteSlug: string } }): Metadata {
+  const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === params.gazetteSlug);
+  const title = gazette ? `${gazette.board} ${gazette.year} Result Gazette | RayTech` : 'Result Gazette Details | RayTech';
+  const description = gazette
+    ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette with board context and PDF preview.`
+    : 'View official intermediate result gazette details and PDF resources.';
+  return {
+    title,
+    description,
+    alternates: { canonical: `https://raytechinstitute.firebaseapp.com/results-gazettes/${params.gazetteSlug}/` },
+    robots: { index: Boolean(gazette), follow: Boolean(gazette) },
+  };
 }
 
 export default function GazetteDetailPage({ params }: { params: { gazetteSlug: string } }) {

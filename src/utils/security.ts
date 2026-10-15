@@ -37,6 +37,11 @@ export function sanitizeUrl(url?: string | null): string {
     return '';
   }
 
+  // Protocol-relative URLs (//host) are external URLs, not safe local paths.
+  if (trimmed.startsWith('//')) {
+    return '';
+  }
+
   if (trimmed.startsWith('/') || trimmed.startsWith('#')) {
     return trimmed;
   }

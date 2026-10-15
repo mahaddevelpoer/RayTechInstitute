@@ -29,15 +29,20 @@ export function generateMetadata({ params }: PageProps): Metadata {
     };
   }
 
+  const seoTitle = `${post.title.slice(0, 48).trimEnd()}${post.title.length > 48 ? '...' : ''} | RayTech`;
+  const seoDescription = post.excerpt.length > 155
+    ? `${post.excerpt.slice(0, 152).replace(/\s+\S*$/, '')}...`
+    : post.excerpt;
+
   return {
-    title: `${post.title} | RayTech Institute`,
-    description: post.excerpt,
+    title: seoTitle,
+    description: seoDescription,
     alternates: {
       canonical: `https://raytechinstitute.firebaseapp.com/blogs/${params.slug}/`,
     },
     openGraph: {
-      title: `${post.title} | RayTech Institute`,
-      description: post.excerpt,
+      title: seoTitle,
+      description: seoDescription,
       url: `https://raytechinstitute.firebaseapp.com/blogs/${params.slug}/`,
       images: [
         {

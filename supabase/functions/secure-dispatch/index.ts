@@ -1,10 +1,55 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Origin": "https://raytechinstitute.firebaseapp.com",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
 };
+
+function getCorsHeaders(req: Request) {
+  const configured = (Deno.env.get('ALLOWED_ORIGINS') || 'https://raytechinstitute.firebaseapp.com')
+    .split(',')
+    .map((origin) => origin.trim())
+    .filter(Boolean);
+  const requestOrigin = req.headers.get('origin') || '';
+  return {
+    ...corsHeaders,
+    'Access-Control-Allow-Origin': configured.includes(requestOrigin) ? requestOrigin : configured[0],
+    Vary: 'Origin',
+  };
+}
+
+async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?: string; error?: string }> {
+  const authorization = req.headers.get('authorization') || '';
+  const idToken = authorization.startsWith('Bearer ') ? authorization.slice(7).trim() : '';
+  const webApiKey = Deno.env.get('FIREBASE_WEB_API_KEY');
+  if (!idToken || !webApiKey) return { ok: false, error: 'Administrator authentication is not configured.' };
+
+  try {
+    const response = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${encodeURIComponent(webApiKey)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ idToken }),
+    });
+    if (!response.ok) return { ok: false, error: 'Invalid or expired administrator session.' };
+    const result = await response.json();
+    const user = result.users?.[0];
+    if (!user || user.disabled || user.emailVerified !== true) {
+      return { ok: false, error: 'A verified administrator account is required.' };
+    }
+    const email = String(user.email || '').toLowerCase();
+    const allowlist = (Deno.env.get('ADMIN_EMAILS') || '')
+      .split(',')
+      .map((value) => value.trim().toLowerCase())
+      .filter(Boolean);
+    if (allowlist.length > 0 && !allowlist.includes(email)) {
+      return { ok: false, error: 'This Firebase account is not authorized for administration.' };
+    }
+    return { ok: true, email };
+  } catch {
+    return { ok: false, error: 'Administrator authentication service is unavailable.' };
+  }
+}
 
 // ── Multi-Stage Resilient JSON Parser for LLM Outputs ────────────────
 function extractAndParseJson(text: string): any {
@@ -223,6 +268,19 @@ async function callGeminiCascade(
   ];
 
   let lastErrorText = "";
+  try {
+    const catalogResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey)}`);
+    if (catalogResponse.ok) {
+      const catalog = await catalogResponse.json();
+      const supported = (catalog.models || [])
+        .filter((item: any) => item.supportedGenerationMethods?.includes('generateContent'))
+        .map((item: any) => String(item.name || '').replace(/^models\//, ''))
+        .filter((name: string) => /flash/i.test(name));
+      for (const model of supported) if (!models.includes(model)) models.push(model);
+    }
+  } catch {
+    // Keep the requested cascade when model discovery is unavailable.
+  }
 
   for (const model of models) {
     try {
@@ -257,7 +315,7 @@ async function callGeminiCascade(
         }
       } else {
         const errBody = await res.text();
-        lastErrorText = `Model ${model} returned ${res.status}: ${errBody}`;
+        lastErrorText = `Model ${model} returned ${res.status}: ${errBody.slice(0, 600)}`;
       }
     } catch (e: any) {
       lastErrorText = `Model ${model} fetch exception: ${e.message}`;
@@ -283,6 +341,27 @@ async function expandIfTooShort(apiKey: string, item: any, minimumWords: number,
     else break;
   }
   return best;
+}
+
+function validateMcqs(value: any, expectedCount: number): any[] {
+  if (!Array.isArray(value)) throw new Error('AI response did not contain an MCQ array.');
+  const valid = value.filter((item) => {
+    const options = Array.isArray(item?.options) ? item.options.map((option: unknown) => String(option || '').trim()) : [];
+    return String(item?.question || '').trim().length >= 12
+      && options.length === 4
+      && options.every(Boolean)
+      && Number.isInteger(item?.correctIndex)
+      && item.correctIndex >= 0
+      && item.correctIndex <= 3;
+  }).map((item) => ({
+    question: String(item.question).trim(),
+    codeSnippet: item.codeSnippet ? String(item.codeSnippet) : undefined,
+    options: item.options.map((option: unknown) => String(option).trim()),
+    correctIndex: Number(item.correctIndex),
+    explanation: String(item.explanation || 'Textbook-verified rationale.').trim(),
+  }));
+  if (valid.length < expectedCount) throw new Error(`AI returned ${valid.length} valid MCQs; ${expectedCount} are required.`);
+  return valid.slice(0, expectedCount);
 }
 
 // OpenCode Zen caller with error capture
@@ -377,7 +456,7 @@ async function mutateContent(serviceRoleKey: string, payload: any) {
 
 serve(async (req) => {
   if (req.method === "OPTIONS") {
-    return new Response("ok", { headers: corsHeaders });
+    return new Response("ok", { headers: getCorsHeaders(req) });
   }
 
   // Response helper that always returns HTTP 200 so Supabase JS invoke() never throws
@@ -385,7 +464,7 @@ serve(async (req) => {
   const respond = (data: any, status: number = 200) => {
     return new Response(JSON.stringify(data), {
       status,
-      headers: { ...corsHeaders, "Content-Type": "application/json" },
+      headers: { ...getCorsHeaders(req), "Content-Type": "application/json" },
     });
   };
 
@@ -421,6 +500,11 @@ serve(async (req) => {
         return respond({ success: false, error: error.message }, 502);
       }
     }
+
+    // All browser-triggered actions are administrator-only. Database webhooks
+    // above use their separate shared secret and never pass through this gate.
+    const admin = await verifyFirebaseAdmin(req);
+    if (!admin.ok) return respond({ success: false, error: admin.error || 'Unauthorized.' }, 401);
 
     if (action === 'trigger_static_rebuild') {
       try {
@@ -469,7 +553,7 @@ STRICT MANDATORY RULES (ZERO EXCEPTIONS):
    - ## 5. Official Examination Center Regulations & Prohibited Items (Strict rules on roll number slip verification, biometric/attestation procedures, unfair means (UMC) rules)
    - ## 6. 30-Day High-Scorer Preparation Roadmap & Revision Strategy (Week-by-week actionable plan for 1st Year and 2nd Year students)
    - ## 7. Frequently Asked Questions (FAQs) (At least 6 in-depth questions and answers addressing roll number issues, rechecking policies, grace marks, and supplementary exam criteria)
-3. PAKISTAN ACADEMIC CONTEXT ONLY: Every reference, grading rule, pairing scheme, practical exam rule, and board policy MUST strictly apply to Pakistani boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha, FBISE Islamabad).
+3. PAKISTAN ACADEMIC CONTEXT ONLY: Every reference, grading rule, pairing scheme, practical exam rule, and board policy MUST strictly apply to Pakistani boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha, FBISE Islamabad). Never invent an official date, SMS code, statistic, policy, or board notice. If a fact was not supplied in the brief or an official reference link, label it clearly as expected, illustrative, or requiring confirmation from the board.
 4. NO GENERIC AI CLICHES: Never use phrases like "In today's fast-paced digital world", "delve into", "embark on", "testament", "beacon of hope", "tapestry". Write like a senior board chairperson and university professor.
 5. AUTHENTIC PAKISTANI RELEVANT IMAGES:
    - Suggest ONLY realistic high-quality education image URLs from Unsplash representing Pakistani/South Asian students studying, examination halls, library books, or computing laboratories.
@@ -512,7 +596,8 @@ Write a complete ultimate pillar guide of at least 2,500 words (target 3,000-3,5
 
       try {
         const rawText = await callGeminiCascade(geminiApiKey, systemPrompt, userPrompt, 24576, 0.35);
-        const parsedArticle = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 2500, 'article');
+        const parsedArticle = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 3000, 'article');
+        if (wordCount(parsedArticle?.content) < 3000) throw new Error('AI article did not meet the 3,000-word quality threshold after expansion.');
         return respond({ success: true, article: parsedArticle });
       } catch (err: any) {
         return respond({
@@ -586,10 +671,7 @@ CRITICAL RULES FOR PAKISTAN BOARD EXAMINATION:
       }
 
       try {
-        const mcqs = extractAndParseJson(rawResponse);
-        if (!Array.isArray(mcqs) || mcqs.length === 0) {
-          throw new Error("AI response did not contain an array of MCQs.");
-        }
+        const mcqs = validateMcqs(extractAndParseJson(rawResponse), numQuestions);
         return respond({ success: true, mcqs, provider: usedProvider });
       } catch (err: any) {
         return respond({
@@ -643,9 +725,7 @@ Write an authentic, highly detailed, official Board Result Gazette Notification 
 - Notes/Circular context: ${customNotes || "None"}
 
 MANDATORY DATA REQUIREMENTS:
-1. Provide realistic, statistically accurate estimates for this board:
-   - Total Candidates appeared (e.g. 170,000 - 210,000 for BISE Lahore, 120,000 - 150,000 for Gujranwala, etc.)
-   - Overall Passing Percentage (e.g. 62% - 74%)
+1. Do not present invented statistics as official. If the input does not provide confirmed figures, use clearly labelled estimates and include a short verification note directing students to the board's official notice.
 2. Rich Markdown Writing ('content') containing:
    - ### Official Result Declaration & Executive Overview
    - ### Statistical Analysis (Science, Humanities, Pre-Medical, Pre-Engineering, ICS breakdown)
@@ -674,6 +754,7 @@ Return response STRICTLY as a valid JSON object matching:
       try {
         const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate an exhaustive official gazette result notification in JSON, with at least 1,800 words in content. Do not summarize; include complete headings, tables, procedures, verification steps, rechecking rules, and student guidance.", 16384, 0.3);
         const parsedGazette = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 1800, 'result gazette');
+        if (wordCount(parsedGazette?.content) < 1800) throw new Error('AI gazette content did not meet the 1,800-word quality threshold after expansion.');
         return respond({ success: true, gazette: parsedGazette });
       } catch (err: any) {
         return respond({
@@ -740,6 +821,7 @@ STRICT MANDATORY RULES:
       try {
         const rawText = await callGeminiCascade(geminiApiKey, notesSystemPrompt, "Generate a complete chapter notes study guide in JSON format with at least 2,500 words in content. Do not use unescaped double quotes inside content and do not shorten any mandatory section.", 24576, 0.3);
         const parsedNote = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 2500, 'chapter study guide');
+        if (wordCount(parsedNote?.content) < 2500) throw new Error('AI notes content did not meet the 2,500-word quality threshold after expansion.');
         return respond({ success: true, note: parsedNote });
       } catch (err: any) {
         return respond({
