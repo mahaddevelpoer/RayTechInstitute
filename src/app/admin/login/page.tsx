@@ -105,7 +105,7 @@ export default function AdminLoginPage() {
         } else if (error.code === 'auth/too-many-requests') {
           setErrorMsg('Access temporarily blocked due to repeated attempts. Please try later.');
         } else {
-          setErrorMsg(error.message || 'Login failed. Please verify credentials.');
+          setErrorMsg('Login could not be completed. Please verify your credentials and try again.');
         }
       }
     } finally {
