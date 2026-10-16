@@ -10,7 +10,7 @@ import { BlogPostItem } from '@/types/educational';
 import { Calendar, Clock, ArrowLeft, Tag } from 'lucide-react';
 import Link from 'next/link';
 
-// The 3 hardcoded slugs that have their own static pages — redirect to them
+// The 3 hardcoded slugs that have their own static pages: redirect to them
 const STATIC_BLOG_SLUGS = [
   'punjab-boards-inter-date-sheet-2026',
   'fast-nuces-punjab-university-admissions-2026',

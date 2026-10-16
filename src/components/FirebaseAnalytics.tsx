@@ -5,7 +5,7 @@ import Cookies from 'js-cookie';
 import { initAnalytics } from '@/lib/firebase';
 
 /**
- * FirebaseAnalytics — boots Firebase Analytics only when cookie consent allows it.
+ * FirebaseAnalytics: boots Firebase Analytics only when cookie consent allows it.
  * Respects user GDPR/ePrivacy choices stored in js-cookie.
  */
 export const FirebaseAnalytics: React.FC = () => {

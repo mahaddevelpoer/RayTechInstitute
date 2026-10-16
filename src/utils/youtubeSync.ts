@@ -78,7 +78,7 @@ export function extractKeyConcepts(desc: string, title: string): string[] {
 
   // Fallback concepts synthesized from title keywords
   const titleConcepts: string[] = [];
-  const parts = title.split(/[|–—]/).map((p) => p.trim());
+  const parts = title.split(/[|–-]/).map((p) => p.trim());
   parts.forEach((p) => {
     if (p.length > 4 && !p.toLowerCase().includes('raytech') && !titleConcepts.includes(p)) {
       titleConcepts.push(p);
@@ -268,7 +268,7 @@ export async function syncYouTubeFeedInBackground(apiKeyOverride?: string): Prom
           (vData.items || []).forEach((v: any) => videoDetailsMap.set(v.id, v));
         }
       } catch (e) {
-        // Video details fallback — playlist items data will still be used
+        // Video details fallback: playlist item data will still be used
       }
     }
 
