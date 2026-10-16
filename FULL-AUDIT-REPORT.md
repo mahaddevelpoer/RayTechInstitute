@@ -14,7 +14,7 @@ A comprehensive, multi-phase technical SEO audit, aesthetic compliance review, a
 
 - **Structured-data coverage**: JSON-LD is present on the generated public pages; semantic rich-result eligibility still needs Google Rich Results Test/Search Console evidence.
 - **Core Web Vitals Target**: INP $\le 200\text{ ms}$ (Google modern interactivity standard), LCP $\le 2.5\text{ s}$, CLS $\le 0.1$.
-- **Security Hardening**: Enterprise-grade credential containment, SHA-256 salted password hashing, brute-force lockout, XSS sanitization, and strict security headers.
+- **Security Hardening**: Credential containment, verified admin authorization, brute-force lockout, XSS-safe rendering, and strict security headers.
 - **Brand Compliance**: 0 purple gradients, 0 pill buttons (`rounded-full`), 0 emojis, 0 em dashes (`—`), 0 fake metrics.
 
 ---
@@ -27,15 +27,15 @@ A comprehensive, multi-phase technical SEO audit, aesthetic compliance review, a
 | **Structured Data** | Deprecated / Retired Schema Removal | **PASSED** | Confirmed | Retired `Dataset` schema removed and replaced with modern `CollectionPage` + `LearningResource` |
 | **Structured Data** | Restricted Schema Avoidance | **PASSED** | Confirmed | Zero unauthorized `FAQPage` or `HowTo` tags across all routes |
 | **On-Page SEO** | Self-Referential Canonical URLs | **PASSED** | Confirmed | Explicit `<link rel="canonical" href="..." />` rendered on every page |
-| **On-Page SEO** | Title Tag Length & Syntax | **WARNING** | Confirmed | Required titles exist; the current gate reports 14 title-length warnings for long, descriptive route titles |
-| **On-Page SEO** | Meta Description Length | **WARNING** | Confirmed | Required descriptions exist; short legal/gazette descriptions remain to be improved |
+| **On-Page SEO** | Title Tag Length & Syntax | **PASSED** | Confirmed | Current generated public pages use descriptive titles within the repository gate's 30-65 character range |
+| **On-Page SEO** | Meta Description Length | **PASSED** | Confirmed | Current generated public pages use descriptions within the repository gate's 100-165 character range |
 | **On-Page SEO** | Single `<h1>` Hierarchy | **PASSED** | Confirmed | Strict nesting (`<h1>` $\rightarrow$ `<h2>` $\rightarrow$ `<h3>`) without multiple H1 tags |
 | **AEO / GEO** | AI Overview Summaries | **PARTIAL** | Likely | Summary blocks exist on content pages; search-engine display cannot be guaranteed from source inspection |
 | **Interactivity** | INP Metric Compliance | **NOT MEASURED** | Open | Requires Lighthouse or real-user data from the deployed site |
 | **Brand Identity** | Anti-Vibe Aesthetic Standards | **PASSED** | Confirmed | Navy/Charcoal `#0F172A`/`#1E293B`, crisp copper/teal accents, professional `rounded-md`/`rounded-lg` buttons |
-| **Architecture** | Python Compiler Isolation | **PASSED** | Confirmed | Pyodide WebAssembly sandboxed; strictly excluded from `/blogs/*` and `/admin/*` via `CompilerMount.tsx` |
+| **Architecture** | Python Compiler Isolation | **PASSED** | Confirmed | Pyodide WebAssembly runs in-browser; strictly excluded from `/blogs/*` and `/admin/*` via `CompilerMount.tsx` |
 | **Security** | Secret & API Key Containment | **PASSED** | Confirmed | Supabase and private variables locked in `.env.local`; `.gitignore` blocks `.env*`, `*.key`, `*.pem`, `out/` |
-| **Security** | Admin Authentication Barrier | **PASSED** | Confirmed | Dynamic SHA-256 salt hashing with 60-second rate-limiting lockout after 5 failed attempts |
+| **Security** | Admin Authentication Barrier | **PASSED** | Confirmed | Firebase ID token verification, verified-email check, configured admin allowlist, and client login rate limiting |
 | **Security** | HTTP Security Headers | **PASSED** | Confirmed | `X-Frame-Options: SAMEORIGIN`, `nosniff`, `HSTS`, `Referrer-Policy` defined in `firebase.json` |
 
 ---
@@ -57,12 +57,12 @@ The previous report contained several claims that were broader than the availabl
 | Markdown links | Hardened | Confirmed | Rendered links pass through `sanitizeUrl`; protocol-relative URLs are rejected |
 | Inline structured data | Hardened | Confirmed | JSON-LD now uses `serializeJsonLd`, escaping script-breaking characters before insertion into inline `<script>` blocks |
 | AI output quality | Hardened | Confirmed | Model discovery fallback, strict MCQ validation and minimum word-count acceptance checks added |
-| Dependency audit | Open findings | Confirmed | `npm audit --omit=dev --audit-level=high` reports transitive Firebase gRPC advisories, Tailwind/PostCSS advisories and Next.js advisories; automatic fix requires breaking major upgrades |
+| Dependency audit | Current production dependency scan | Passed | `npm audit --omit=dev --audit-level=high` reports `0 vulnerabilities` |
 | Google rich-result eligibility | Needs ongoing review | Likely | Metadata and JSON-LD are present, but third-party Search Console and Core Web Vitals data are not available from this workspace |
 
 The remaining SEO performance measurements require real-user or Lighthouse data from the deployed domain. They must not be described as passed until measured.
 
-The dependency findings are not silently ignored. The application is a static export, so several self-hosted-server and development-tool advisories are not reachable in Firebase Hosting runtime, but the lockfile still needs a planned framework/dependency upgrade and a full regression cycle before those findings can be marked resolved.
+The production dependency scan is currently clean. Re-run it after dependency upgrades because audit results are time-sensitive.
 
 ### 4.1 Seobility Review
 
@@ -94,4 +94,4 @@ The report's duplicate-heading warning is now covered by `npm run audit:seo`, wh
 ### 3.3 Core Web Vitals & Asset Optimization
 - **LCP Target ($\le 2.5\text{ s}$)**: System font stack and Google Fonts preconnect (`fonts.googleapis.com`, `fonts.gstatic.com`).
 - **CLS Target ($\le 0.1$)**: Explicit aspect-ratios (`aspect-[16/9]`, `aspect-[4/3]`) defined on all featured cards, previews, and modals.
-- **INP Target ($\le 200\text{ ms}$)**: Pyodide execution runs via WebAssembly web worker / deferred runtime, ensuring user UI interactions remain snappy with zero input delay.
+- **INP Target ($\le 200\text{ ms}$)**: The compiler is deferred until opened and uses in-browser WebAssembly. Real-user or Lighthouse measurement is still required before claiming the target is met.
