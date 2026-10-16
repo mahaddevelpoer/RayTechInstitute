@@ -545,14 +545,12 @@ TODAY'S OFFICIAL DATE: ${currentDate} (Current Academic Cycle: ${currentYear})
 
 STRICT MANDATORY RULES (ZERO EXCEPTIONS):
 1. LENGTH & DEPTH MANDATE: Do NOT write short articles! You MUST write an EXHAUSTIVE, ULTIMATE AUTHORITY PILLAR ARTICLE (minimum 3,000+ words, comprehensive). Every section must be elaborated thoroughly with paragraphs of analysis, breakdown, practical examples, and official board citations.
-2. MANDATORY 7-SECTION STRUCTURE (EVERY SECTION MUST BE FULLY ELABORATED):
-   - ## 1. Executive Summary & Overview (40-60 word direct GEO answer block + detailed intro paragraphs)
-   - ## 2. Official Timelines, Dates & Schedule Analysis (Must include a detailed 6-column Markdown schedule table: Date, Day, Class/Group, Morning Subject 08:30 AM, Evening Subject 01:30 PM, Key Board Rules)
-   - ## 3. Subject-Wise Pairing Schemes & Mark Distributions (Must include comprehensive breakdown tables for Computer Science, Physics, Chemistry, Math, Biology with Chapter-by-Chapter Weightage)
-   - ## 4. Practical Examinations Protocols & Lab Criteria (Lab viva rules, practical copy checking standards, external examiner protocols)
-   - ## 5. Official Examination Center Regulations & Prohibited Items (Strict rules on roll number slip verification, biometric/attestation procedures, unfair means (UMC) rules)
-   - ## 6. 30-Day High-Scorer Preparation Roadmap & Revision Strategy (Week-by-week actionable plan for 1st Year and 2nd Year students)
-   - ## 7. Frequently Asked Questions (FAQs) (At least 6 in-depth questions and answers addressing roll number issues, rechecking policies, grace marks, and supplementary exam criteria)
+2. TOPIC-ADAPTIVE STRUCTURE (EVERY SECTION MUST BE FULLY ELABORATED):
+   - Begin with a 40-60 word direct answer block for the exact search intent, followed by a factual introduction.
+   - Use 5-8 descriptive Markdown headings selected for the topic and category. Date-sheet topics need schedules and exam rules; admission topics need eligibility, deadlines, application steps, fees, documents, and selection; career topics need comparison criteria, skills, pathways, costs, and outcomes.
+   - Add tables, checklists, examples, and a practical student action plan only where they genuinely clarify the topic. Do not force unrelated board sections or repeat generic headings.
+   - Include an official-source and verification section. Separate confirmed facts from estimates, expectations, and items that must be checked on the relevant board or institution website.
+   - End with at least 6 useful, topic-specific FAQs with direct answers. Every section must contain substantial explanation rather than filler.
 3. PAKISTAN ACADEMIC CONTEXT ONLY: Every reference, grading rule, pairing scheme, practical exam rule, and board policy MUST strictly apply to Pakistani boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha, FBISE Islamabad). Never invent an official date, SMS code, statistic, policy, or board notice. If a fact was not supplied in the brief or an official reference link, label it clearly as expected, illustrative, or requiring confirmation from the board.
 4. NO GENERIC AI CLICHES: Never use phrases like "In today's fast-paced digital world", "delve into", "embark on", "testament", "beacon of hope", "tapestry". Write like a senior board chairperson and university professor.
 5. AUTHENTIC PAKISTANI RELEVANT IMAGES:
@@ -565,7 +563,7 @@ STRICT MANDATORY RULES (ZERO EXCEPTIONS):
   "slug": "url-friendly-slug-with-hyphens",
   "category": "${category || 'date-sheets'}",
   "excerpt": "40-60 word factual summary for Google AI Overviews and meta description",
-  "content": "Massive in-depth markdown content of at least 2,500 words containing all 7 mandatory sections, multiple complete tables, checklists, FAQs, practical examples, official-source notes, and roadmaps without truncation",
+  "content": "Massive topic-specific Markdown content of at least 3,000 words containing a direct answer block, relevant headings, complete tables or checklists where useful, official-source notes, a practical action plan, FAQs, and no filler or truncation",
   "featuredImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
   "author": "Academic Coordination Cell",
   "readTime": "12 min read",
@@ -581,7 +579,7 @@ Category: ${category}
 Audience: ${targetAudience || "11th & 12th Class Students (Punjab Boards & FBISE)"}
 
 Task:
-Write a massive, complete, ultimate pillar guide of at least 3,000+ words on this topic. You MUST produce all 7 required sections in rich, deep detail. Do NOT skip, abbreviate, or use placeholders like 'etc.' or 'more details follow'. Every table must be completely filled with realistic exam data, dates, and subjects.`;
+Write a massive, complete, topic-specific pillar guide of at least 3,000 words. Select the structure that best answers this topic and category. Do NOT skip important user questions, abbreviate, or use placeholders like 'etc.' or 'more details follow'. Never invent dates, statistics, policies, fees, or official claims. Use an explicit verification label whenever the brief does not provide a confirmed source.`;
       } else {
         userPrompt = `Detailed Custom Mode:
 Current Date: ${currentDate}
@@ -591,7 +589,7 @@ Reference Notes / Context: ${userNotes || "None"}
 Reference Links / Circulars: ${referenceLinks || "None"}
 
 Task:
-Write a complete ultimate pillar guide of at least 2,500 words (target 3,000-3,500 words) incorporating all reference notes and circulars. You MUST produce all 7 required sections in rich, deep detail. Each section must contain several substantial paragraphs, concrete Pakistani board examples, tables or checklists where useful, and must never be reduced to a short summary or truncated.`;
+Write a complete topic-specific pillar guide of at least 3,000 words (target 3,000-3,500 words) using the supplied notes and circulars. Choose headings that match the topic, include several substantial paragraphs, concrete Pakistani context, tables or checklists where useful, and never reduce the article to a short summary or truncate it. Do not invent facts that are absent from the supplied sources.`;
       }
 
       try {
@@ -730,7 +728,7 @@ MANDATORY DATA REQUIREMENTS:
    - ### Official Result Declaration & Executive Overview
    - ### Statistical Analysis (Science, Humanities, Pre-Medical, Pre-Engineering, ICS breakdown)
    - ### Official Online Roll Number Verification & Portal Steps
-   - ### Official SMS Result Code for ${targetBoard} (e.g. BISE Lahore: 80029, BISE Gujranwala: 800299, BISE Rawalpindi: 800296, BISE Faisalabad: 800240, BISE Multan: 800293, BISE Sahiwal: 800292, BISE Bahawalpur: 800298, BISE DG Khan: 800295, BISE Sargodha: 800290, FBISE: 5050)
+   - ### Result Verification & SMS Guidance (include an SMS code only when it is confirmed by the supplied official source; otherwise direct students to the current board portal and clearly mark the code as requiring verification)
    - ### Rechecking & Scrutiny Application Protocols (Dates, bank challan submission, re-counting rules)
    - ### Supplementary / 2nd Annual Examination Guidelines
 3. CRITICAL JSON FORMATTING: In the 'content' string, NEVER use unescaped double quotes ("). Always use single quotes (') or code formatting when referencing terms or quotes inside markdown.
@@ -742,8 +740,8 @@ Return response STRICTLY as a valid JSON object matching:
   "classSlug": "${classSlug || '11th-class'}",
   "year": ${targetYear},
   "session": "${targetSession}",
-  "totalCandidates": "185,450 Candidates",
-  "passingPercentage": "67.8%",
+  "totalCandidates": "Not provided - verify from the official board notice",
+  "passingPercentage": "Not provided - verify from the official board notice",
   "pdfUrl": "${defaultPortal}",
   "directResultUrl": "${defaultPortal}",
   "actionButtonText": "${actionButtonText || 'Download Official Gazette PDF'}",
