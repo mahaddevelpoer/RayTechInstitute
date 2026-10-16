@@ -15,32 +15,38 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
+function safeNotificationUrl(value) {
+  try {
+    const url = new URL(String(value || '/'), self.location.origin);
+    return url.origin === self.location.origin ? url.href : self.location.origin + '/';
+  } catch {
+    return self.location.origin + '/';
+  }
+}
+
 let messaging;
 try {
   messaging = firebase.messaging();
 
   messaging.onBackgroundMessage(function (payload) {
-    console.log('[firebase-messaging-sw.js] Received background notification: ', payload);
-    const notificationTitle = payload.notification?.title || payload.data?.title || 'RayTech Educational Update';
+    const notificationTitle = String(payload.notification?.title || payload.data?.title || 'RayTech Educational Update').slice(0, 120);
     const notificationOptions = {
-      body: payload.notification?.body || payload.data?.body || 'New educational material is available on RayTech Institute.',
+      body: String(payload.notification?.body || payload.data?.body || 'New educational material is available on RayTech Institute.').slice(0, 300),
       icon: payload.notification?.icon || '/apple-touch-icon.png',
       badge: '/favicon-32x32.png',
       data: {
-        url: payload.data?.url || payload.fcmOptions?.link || '/',
+        url: safeNotificationUrl(payload.data?.url || payload.fcmOptions?.link || '/'),
       },
     };
 
     self.registration.showNotification(notificationTitle, notificationOptions);
   });
-} catch (err) {
-  console.log('Firebase messaging not initialized in SW:', err);
-}
+} catch {}
 
 // Handle notification click to open relevant link
 self.addEventListener('notificationclick', function (event) {
   event.notification.close();
-  const urlToOpen = event.notification.data?.url || '/';
+  const urlToOpen = safeNotificationUrl(event.notification.data?.url || '/');
 
   event.waitUntil(
     clients.matchAll({ type: 'window', includeUncontrolled: true }).then(function (clientList) {

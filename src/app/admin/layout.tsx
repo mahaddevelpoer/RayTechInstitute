@@ -101,7 +101,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
-      <meta name="robots" content="noindex, nofollow, noarchive" />
       {/* Top Bar */}
       <header className="h-12 bg-navy-700 text-white px-4 flex items-center justify-between z-40 text-xs">
         <div className="flex items-center gap-3">
@@ -136,7 +135,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           </div>
           <button
             onClick={handleLogout}
-            className="flex items-center gap-1 text-white hover:bg-navy-800 transition-colors text-xs px-2.5 py-1 bg-navy-800/80 rounded"
+            className="flex min-h-12 items-center gap-1 text-white hover:bg-navy-800 transition-colors text-xs px-2.5 py-1 bg-navy-800/80 rounded"
           >
             <LogOut className="w-3 h-3" />
             <span>Logout</span>
@@ -164,7 +163,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                     key={item.href}
                     href={item.href}
                     onClick={() => setSidebarOpen(false)}
-                    className={`flex items-center gap-2.5 px-3 py-2 rounded transition-colors font-medium ${
+                    className={`flex min-h-12 items-center gap-2.5 px-3 py-2 rounded transition-colors font-medium ${
                       isActive
                         ? 'bg-navy-600 text-white'
                         : 'text-slate-700 hover:bg-slate-100 hover:text-navy-700'

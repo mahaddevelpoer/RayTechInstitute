@@ -216,8 +216,7 @@ CREATE POLICY "Public Read Blogs" ON public.blogs
 CREATE POLICY "Public Read Video MCQs" ON public.video_mcqs
     FOR SELECT TO anon, authenticated USING (true);
 
--- ── Notification Subscribers: Anonymous Insert/Update Allowed ─────────────────
-CREATE POLICY "Public Insert Notification Subscribers" ON public.notification_subscribers
-    FOR INSERT TO anon, authenticated WITH CHECK (true);
+-- Notification subscriber writes are handled by secure-dispatch with the
+-- service role. No anonymous insert policy is created here.
 
 -- End of Migration

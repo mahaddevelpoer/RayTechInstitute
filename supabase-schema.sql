@@ -131,8 +131,5 @@ CREATE POLICY "Public Read Past Papers" ON public.past_papers FOR SELECT TO anon
 CREATE POLICY "Public Read Gazettes" ON public.gazettes FOR SELECT TO anon, authenticated USING (TRUE);
 CREATE POLICY "Public Read Blogs" ON public.blogs FOR SELECT TO anon, authenticated USING (TRUE);
 CREATE POLICY "Public Read Video MCQs" ON public.video_mcqs FOR SELECT TO anon, authenticated USING (TRUE);
-CREATE POLICY "Public Insert Notification Subscribers" ON public.notification_subscribers
-  FOR INSERT TO anon, authenticated WITH CHECK (TRUE);
-
 -- No anon/authenticated INSERT, UPDATE, or DELETE policies are intentional.
 -- The secure-dispatch Edge Function uses the service role for admin mutations.

@@ -3,6 +3,8 @@ import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://raytechinstitute.web.app',
   'https://raytechinstitute.firebaseapp.com',
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
 ];
 
 const corsHeaders = {
@@ -11,15 +13,34 @@ const corsHeaders = {
   "Access-Control-Allow-Methods": "POST, OPTIONS",
 };
 
-function getCorsHeaders(req: Request) {
-  const configured = (Deno.env.get('ALLOWED_ORIGINS') || DEFAULT_ALLOWED_ORIGINS.join(','))
+function getAllowedOrigins() {
+  return (Deno.env.get('ALLOWED_ORIGINS') || DEFAULT_ALLOWED_ORIGINS.join(','))
     .split(',').map((origin) => origin.trim()).filter(Boolean);
+}
+
+function getCorsHeaders(req: Request) {
+  const configured = getAllowedOrigins();
   const requestOrigin = req.headers.get('origin') || '';
   return {
     ...corsHeaders,
     'Access-Control-Allow-Origin': configured.includes(requestOrigin) ? requestOrigin : configured[0],
     Vary: 'Origin',
   };
+}
+
+const notificationRateLimits = new Map<string, { count: number; resetAt: number }>();
+
+function canAcceptNotificationSubscription(req: Request): boolean {
+  const origin = req.headers.get('origin') || 'unknown-origin';
+  const now = Date.now();
+  const current = notificationRateLimits.get(origin);
+  if (!current || current.resetAt <= now) {
+    notificationRateLimits.set(origin, { count: 1, resetAt: now + 60_000 });
+    return true;
+  }
+  if (current.count >= 20) return false;
+  current.count += 1;
+  return true;
 }
 
 async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?: string; error?: string }> {
@@ -481,6 +502,35 @@ async function mutateContent(serviceRoleKey: string, payload: any) {
   return { success: true, table, operation };
 }
 
+async function subscribeNotifications(serviceRoleKey: string, payload: any) {
+  const token = String(payload?.token || '').trim();
+  const userAgent = String(payload?.userAgent || '').trim().slice(0, 512);
+  if (token.length < 20 || token.length > 4096) {
+    throw new Error('Invalid notification subscription token.');
+  }
+
+  const supabaseUrl = Deno.env.get('SUPABASE_URL');
+  if (!supabaseUrl) throw new Error('SUPABASE_URL is not configured.');
+
+  const response = await fetch(`${supabaseUrl}/rest/v1/notification_subscribers`, {
+    method: 'POST',
+    headers: {
+      apikey: serviceRoleKey,
+      Authorization: `Bearer ${serviceRoleKey}`,
+      'Content-Type': 'application/json',
+      Prefer: 'resolution=merge-duplicates,return=minimal',
+    },
+    body: JSON.stringify({
+      token,
+      user_agent: userAgent || null,
+      subscribed_at: new Date().toISOString(),
+    }),
+  });
+
+  if (!response.ok) throw new Error(`Notification subscription failed (${response.status}).`);
+  return { success: true };
+}
+
 serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: getCorsHeaders(req) });
@@ -512,6 +562,24 @@ serve(async (req) => {
 
     const currentDate = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
     const currentYear = new Date().getFullYear();
+
+    // Public notification registration is intentionally isolated from all
+    // administrator actions and writes through the service role only.
+    if (action === 'subscribe_notifications') {
+      const origin = req.headers.get('origin') || '';
+      if (!origin || !getAllowedOrigins().includes(origin)) {
+        return respond({ success: false, error: 'Origin is not allowed.' }, 403);
+      }
+      if (!canAcceptNotificationSubscription(req)) {
+        return respond({ success: false, error: 'Too many subscription attempts. Try again later.' }, 429);
+      }
+      if (!serviceRoleKey) return respond({ success: false, error: 'Notification service is not configured.' }, 503);
+      try {
+        return respond(await subscribeNotifications(serviceRoleKey, payload));
+      } catch (error: any) {
+        return respond({ success: false, error: error.message || 'Unable to save notification subscription.' }, 400);
+      }
+    }
 
     // Supabase Database Webhooks post their event envelope directly. This
     // bridge turns every admin content change into repository_dispatch.

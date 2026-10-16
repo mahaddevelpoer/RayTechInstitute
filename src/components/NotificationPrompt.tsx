@@ -5,15 +5,18 @@ import { Bell, CheckCircle2, X } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 
 const DISMISSED_NOTIFICATION_KEY = 'raytech_notif_prompt_dismissed';
+const FIREBASE_VAPID_KEY = process.env.NEXT_PUBLIC_FIREBASE_VAPID_KEY || '';
 
 export default function NotificationPrompt() {
   const [permission, setPermission] = useState<NotificationPermission>('default');
   const [isVisible, setIsVisible] = useState(false);
   const [isSubscribing, setIsSubscribing] = useState(false);
   const [subscribedSuccess, setSubscribedSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   useEffect(() => {
     if (typeof window === 'undefined' || !('Notification' in window)) return;
+    if (!FIREBASE_VAPID_KEY) return;
 
     setPermission(Notification.permission);
 
@@ -36,6 +39,7 @@ export default function NotificationPrompt() {
     }
 
     setIsSubscribing(true);
+    setErrorMessage('');
 
     try {
       const result = await Notification.requestPermission();
@@ -60,29 +64,23 @@ export default function NotificationPrompt() {
           if (supported) {
             const { app } = await import('@/lib/firebase');
             const messaging = getMessaging(app);
-            // Default vapidKey or FCM token retrieval
             fcmToken = await getToken(messaging, {
-              vapidKey: 'BEl62iUYgUivxIkv69yViEuiBIa-Ib9-SkvMeAtA3LFgD zkL8-mZ2mJ9h2kK3q3r_dummy', // Or standard FCM token
+              vapidKey: FIREBASE_VAPID_KEY,
             }).catch(() => '');
           }
         } catch {
           // Token retrieval optional
         }
 
-        const fallbackToken = fcmToken || `web_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
+        if (!fcmToken) throw new Error('Push notifications are not available in this browser.');
 
-        // Save subscriber to Supabase notification_subscribers table
-        if (supabase) {
-          try {
-            await supabase.from('notification_subscribers').upsert({
-              token: fallbackToken,
-              user_agent: navigator.userAgent,
-              subscribed_at: new Date().toISOString(),
-            }, { onConflict: 'token' });
-          } catch {
-            // silent ignore
-          }
-        }
+        const { data, error } = await supabase.functions.invoke('secure-dispatch', {
+          body: {
+            action: 'subscribe_notifications',
+            payload: { token: fcmToken, userAgent: navigator.userAgent },
+          },
+        });
+        if (error || !data?.success) throw new Error(data?.error || error?.message || 'Unable to save notification subscription.');
 
         setSubscribedSuccess(true);
         setTimeout(() => {
@@ -91,8 +89,8 @@ export default function NotificationPrompt() {
       } else {
         setIsVisible(false);
       }
-    } catch {
-      setIsVisible(false);
+    } catch (error) {
+      setErrorMessage(error instanceof Error ? error.message : 'Notifications could not be enabled right now.');
     } finally {
       setIsSubscribing(false);
     }
@@ -157,6 +155,7 @@ export default function NotificationPrompt() {
               </button>
             </div>
           )}
+          {errorMessage && <p className="mt-2 text-[11px] leading-relaxed text-red-700" role="alert">{errorMessage}</p>}
         </div>
       </div>
     </aside>
