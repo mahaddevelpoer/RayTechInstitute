@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INITIAL_SUBJECTS, INITIAL_CLASSES, INITIAL_MCQS } from '@/data/staticCatalog';
 import { MCQClientView } from '@/components/educational/MCQClientView';
+import { serializeJsonLd } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_SUBJECTS.map((s) => ({
@@ -80,7 +81,7 @@ export default function SubjectMCQsServerPage({ params }: PageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
       <MCQClientView classSlug={params.classSlug} subjectSlug={params.subjectSlug} />
     </>

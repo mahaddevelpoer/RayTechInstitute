@@ -13,6 +13,7 @@
 - [x] **Admin action authorization**: Browser-triggered AI, mutation, rebuild and broadcast actions require a verified Firebase ID token in the Edge Function.
 - [x] **Compiler interaction quality**: Python compiler is resizable, viewport constrained, draggable and keyboard-friendly while remaining excluded from blogs and admin.
 - [x] **AI response acceptance**: MCQs are schema-validated and article, gazette and notes content must meet minimum word thresholds before the admin UI receives it.
+- [x] **Inline JSON-LD XSS hardening**: Structured-data strings are escaped before being inserted into inline script elements.
 
 ### Verification Still Requiring External Evidence
 - [ ] Run Lighthouse or PageSpeed against the live Firebase domain and record LCP, CLS and INP. Source inspection cannot prove Core Web Vitals.

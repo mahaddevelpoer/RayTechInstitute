@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS } from '@/data/staticCatalog';
 import { BookOpen, FileText, HelpCircle, FileCode, ArrowRight, ArrowLeft } from 'lucide-react';
+import { serializeJsonLd } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_CLASSES.map((c) => ({
@@ -80,7 +81,7 @@ export default function ClassDetailsPage({ params }: PageProps) {
         {/* Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
         {/* Breadcrumb */}

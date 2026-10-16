@@ -6,6 +6,7 @@ import { Calendar, Clock, User, ArrowLeft, ShieldCheck, Download, ExternalLink }
 import { BlogPostItem } from '@/types/educational';
 import { MarkdownRenderer } from '@/components/MarkdownRenderer';
 import { sanitizeUrl } from '@/utils/security';
+import { serializeJsonLd } from '@/utils/seo';
 
 interface BlogDetailClientViewProps {
   slug: string;
@@ -82,11 +83,11 @@ export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientView
       {/* Schema Scripts */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbLd) }}
       />
 
       {/* Breadcrumb */}

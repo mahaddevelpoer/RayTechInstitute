@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { channelData } from '@/data/channel';
+import { serializeJsonLd } from '@/utils/seo';
 import { ThemeProvider } from '@/hooks/useTheme';
 import { FirebaseAnalytics } from '@/components/FirebaseAnalytics';
 import { CompilerMount } from '@/components/compiler/CompilerMount';
@@ -148,11 +149,11 @@ export default function RootLayout({
         {/* Structured Data: WebSite & EducationalOrganization */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(websiteSchema) }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(orgSchema) }}
         />
       </head>
       <body className="bg-white text-slate-800 antialiased min-h-screen" suppressHydrationWarning>

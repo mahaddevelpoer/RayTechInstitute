@@ -55,6 +55,7 @@ The previous report contained several claims that were broader than the availabl
 | Edge Function authorization | Hardened | Confirmed | Browser actions now require a verified Firebase ID token; unauthenticated ping returned HTTP 401 |
 | Python compiler | Improved | Confirmed | Resizable panel, viewport bounds, drag cleanup, accessible controls and mobile-safe dimensions implemented |
 | Markdown links | Hardened | Confirmed | Rendered links pass through `sanitizeUrl`; protocol-relative URLs are rejected |
+| Inline structured data | Hardened | Confirmed | JSON-LD now uses `serializeJsonLd`, escaping script-breaking characters before insertion into inline `<script>` blocks |
 | AI output quality | Hardened | Confirmed | Model discovery fallback, strict MCQ validation and minimum word-count acceptance checks added |
 | Dependency audit | Open findings | Confirmed | `npm audit --omit=dev --audit-level=high` reports transitive Firebase gRPC advisories, Tailwind/PostCSS advisories and Next.js advisories; automatic fix requires breaking major upgrades |
 | Google rich-result eligibility | Needs ongoing review | Likely | Metadata and JSON-LD are present, but third-party Search Console and Core Web Vitals data are not available from this workspace |

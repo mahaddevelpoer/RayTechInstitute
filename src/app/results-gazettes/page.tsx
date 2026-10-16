@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { ResultsGazettesClientView } from '@/components/educational/ResultsGazettesClientView';
 import { INITIAL_GAZETTES } from '@/data/staticCatalog';
+import { serializeJsonLd } from '@/utils/seo';
 
 export const metadata: Metadata = {
   title: '11th & 12th Class Result Gazettes | RayTech',
@@ -46,7 +47,7 @@ export default function ResultsGazettesPage() {
         {/* Structured Data */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
         <ResultsGazettesClientView />

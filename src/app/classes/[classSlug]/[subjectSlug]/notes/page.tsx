@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INITIAL_SUBJECTS, INITIAL_CLASSES } from '@/data/staticCatalog';
 import { NotesClientView } from '@/components/educational/NotesClientView';
+import { serializeJsonLd } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_SUBJECTS.map((s) => ({
@@ -80,7 +81,7 @@ export default function SubjectNotesServerPage({ params }: PageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
       <NotesClientView classSlug={params.classSlug} subjectSlug={params.subjectSlug} />
     </>

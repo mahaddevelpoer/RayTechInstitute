@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { ClassesClientView } from '@/components/educational/ClassesClientView';
+import { serializeJsonLd } from '@/utils/seo';
 
 export const metadata: Metadata = {
   title: '11th & 12th Class Notes & Past Papers | RayTech',
@@ -46,7 +47,7 @@ export default function ClassesIndexPage() {
         {/* SEO Breadcrumbs Structured Data */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
         <ClassesClientView />

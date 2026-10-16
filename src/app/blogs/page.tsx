@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { BlogsClientView } from '@/components/educational/BlogsClientView';
 import { INITIAL_BLOGS } from '@/data/staticCatalog';
+import { serializeJsonLd } from '@/utils/seo';
 
 export const metadata: Metadata = {
   title: 'Date Sheets, Admissions & Academic Updates | RayTech',
@@ -45,7 +46,7 @@ export default function BlogsIndexPage() {
         {/* SEO Blog Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
         <BlogsClientView />
