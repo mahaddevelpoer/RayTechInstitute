@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { channelData } from '@/data/channel';
 import { BookOpen, FileText, Youtube, Award } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 export const Hero: React.FC = () => {
   return (
@@ -58,7 +59,7 @@ export const Hero: React.FC = () => {
                 Result Gazettes
               </Link>
               <a
-                href={channelData.youtubeUrl}
+                href={sanitizeUrl(channelData.youtubeUrl)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold rounded transition-colors"

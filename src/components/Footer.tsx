@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { channelData, hasValidTikTokUrl } from '@/data/channel';
 import { Youtube, ExternalLink, ArrowUp, Lock, BookOpen, Award } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 export const Footer: React.FC = () => {
   const showTikTok = hasValidTikTokUrl(channelData.tiktokUrl);
@@ -96,7 +97,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-1.5 text-xs text-slate-400">
               <li>
                 <a
-                  href={channelData.youtubeUrl}
+                  href={sanitizeUrl(channelData.youtubeUrl)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 text-red-400 hover:text-red-300 transition-colors"
@@ -108,7 +109,7 @@ export const Footer: React.FC = () => {
               {showTikTok && (
                 <li>
                   <a
-                    href={channelData.tiktokUrl}
+                    href={sanitizeUrl(channelData.tiktokUrl)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"

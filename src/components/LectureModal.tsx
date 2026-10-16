@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import { Lecture } from '@/types';
 import { InteractiveVideoPlayer } from './InteractiveVideoPlayer';
 import { X, ExternalLink, Clock, ChevronLeft, ChevronRight } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 interface LectureModalProps {
   lecture: Lecture | null;
@@ -103,7 +104,7 @@ export const LectureModal: React.FC<LectureModalProps> = ({
             </div>
 
             <a
-              href={lecture.youtubeUrl}
+              href={sanitizeUrl(lecture.youtubeUrl)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-red-600 hover:text-red-700 font-semibold"

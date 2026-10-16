@@ -3,6 +3,7 @@
 import React from 'react';
 import { channelData } from '@/data/channel';
 import { Youtube, ExternalLink, CheckCircle } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 interface FollowArchiveProps {
   videoCount?: number;
@@ -42,7 +43,7 @@ export const FollowArchive: React.FC<FollowArchiveProps> = ({ videoCount }) => {
           </div>
 
           <a
-            href={channelData.youtubeUrl}
+            href={sanitizeUrl(channelData.youtubeUrl)}
             target="_blank"
             rel="noopener noreferrer"
             className="flex-shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-red-600 hover:bg-red-700 text-white font-semibold text-xs rounded transition-colors shadow-sm"

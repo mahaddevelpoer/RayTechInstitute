@@ -3,6 +3,7 @@
 import React from 'react';
 import { channelData, hasValidTikTokUrl } from '@/data/channel';
 import { ExternalLink, Smartphone } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 export const TikTokSection: React.FC = () => {
   const isConfigured = hasValidTikTokUrl(channelData.tiktokUrl);
@@ -28,7 +29,7 @@ export const TikTokSection: React.FC = () => {
           </div>
 
           <a
-            href={channelData.tiktokUrl}
+              href={sanitizeUrl(channelData.tiktokUrl)}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline text-xs py-2 px-4"

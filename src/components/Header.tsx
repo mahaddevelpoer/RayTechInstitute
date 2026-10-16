@@ -18,6 +18,7 @@ import {
   Trophy,
   X,
 } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 type MenuKey = 'classes' | 'notes' | 'mcqs' | 'results' | 'blogs';
 
@@ -123,7 +124,7 @@ export const Header: React.FC = () => {
           </nav>
 
           <div className="hidden items-center gap-2 lg:flex">
-            <a href={channelData.youtubeUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-red-600 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-red-700"><PlayCircle className="h-3.5 w-3.5" aria-hidden="true" /> YouTube</a>
+            <a href={sanitizeUrl(channelData.youtubeUrl)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-red-600 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-red-700"><PlayCircle className="h-3.5 w-3.5" aria-hidden="true" /> YouTube</a>
             <Link href="/admin/login/" className="rounded-md p-2 text-slate-500 transition-colors hover:bg-slate-100 hover:text-navy-600" title="Admin Login" aria-label="Admin Login"><Lock className="h-4 w-4" aria-hidden="true" /></Link>
           </div>
 
@@ -149,7 +150,7 @@ export const Header: React.FC = () => {
               </div>
             );
           })}
-          <div className="mt-3 flex items-center gap-2 border-t border-slate-200 pt-3"><a href={channelData.youtubeUrl} target="_blank" rel="noopener noreferrer" className="flex flex-1 items-center justify-center gap-1.5 rounded-md bg-red-600 px-3 py-2 text-xs font-semibold text-white"><PlayCircle className="h-3.5 w-3.5" aria-hidden="true" /> YouTube Channel</a><Link href="/admin/login/" onClick={closeMenus} className="flex items-center gap-1 rounded-md px-3 py-2 text-xs font-medium text-slate-600 hover:bg-slate-100"><Lock className="h-3.5 w-3.5" aria-hidden="true" /> Admin</Link></div>
+          <div className="mt-3 flex items-center gap-2 border-t border-slate-200 pt-3"><a href={sanitizeUrl(channelData.youtubeUrl)} target="_blank" rel="noopener noreferrer" className="flex flex-1 items-center justify-center gap-1.5 rounded-md bg-red-600 px-3 py-2 text-xs font-semibold text-white"><PlayCircle className="h-3.5 w-3.5" aria-hidden="true" /> YouTube Channel</a><Link href="/admin/login/" onClick={closeMenus} className="flex items-center gap-1 rounded-md px-3 py-2 text-xs font-medium text-slate-600 hover:bg-slate-100"><Lock className="h-3.5 w-3.5" aria-hidden="true" /> Admin</Link></div>
         </div>
       )}
     </header>
