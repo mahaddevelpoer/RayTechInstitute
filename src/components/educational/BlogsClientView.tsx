@@ -82,6 +82,8 @@ export function BlogsClientView() {
                 <img
                   src={post.featuredImage}
                   alt={post.title}
+                  width={800}
+                  height={450}
                   className="w-full h-full object-cover"
                   loading="lazy"
                   onError={(event) => {

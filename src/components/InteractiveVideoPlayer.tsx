@@ -196,6 +196,8 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
           <img
             src={imgSrc}
             alt={title}
+            width={640}
+            height={360}
             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02] filter brightness-[0.9] group-hover:brightness-95"
             loading="lazy"
           />

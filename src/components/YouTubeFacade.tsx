@@ -58,6 +58,8 @@ export const YouTubeFacade: React.FC<YouTubeFacadeProps> = ({
       <img
         src={imgSrc}
         alt={title}
+        width={640}
+        height={360}
         onError={() => setImgSrc(`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`)}
         className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02] filter brightness-[0.88] group-hover:brightness-95"
         loading="lazy"

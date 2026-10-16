@@ -154,6 +154,8 @@ export const LectureArchive: React.FC<LectureArchiveProps> = ({
                     <img
                       src={lec.thumbnail}
                       alt={lec.title}
+                      width={640}
+                      height={360}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
                       loading="lazy"
                     />

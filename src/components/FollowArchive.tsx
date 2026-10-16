@@ -20,6 +20,8 @@ export const FollowArchive: React.FC<FollowArchiveProps> = ({ videoCount }) => {
               <img
                 src={channelData.profileImage}
                 alt={channelData.name}
+                width={64}
+                height={64}
                 className="w-full h-full object-cover"
               />
             </div>
