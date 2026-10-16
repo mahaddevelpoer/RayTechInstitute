@@ -358,12 +358,16 @@ function validateMcqs(value: any, expectedCount: number): any[] {
   if (!Array.isArray(value)) throw new Error('AI response did not contain an MCQ array.');
   const valid = value.filter((item) => {
     const options = Array.isArray(item?.options) ? item.options.map((option: unknown) => String(option || '').trim()) : [];
+    const distinctOptions = new Set(options.map((option) => option.toLocaleLowerCase().replace(/\s+/g, ' ')));
+    const explanation = String(item?.explanation || '').trim();
     return String(item?.question || '').trim().length >= 12
       && options.length === 4
       && options.every(Boolean)
+      && distinctOptions.size === 4
       && Number.isInteger(item?.correctIndex)
       && item.correctIndex >= 0
-      && item.correctIndex <= 3;
+      && item.correctIndex <= 3
+      && explanation.length >= 20;
   }).map((item) => ({
     question: String(item.question).trim(),
     codeSnippet: item.codeSnippet ? String(item.codeSnippet) : undefined,
