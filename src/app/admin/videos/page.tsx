@@ -231,6 +231,8 @@ export default function AdminVideosInteractiveMCQPage() {
                       <img
                         src={lec.thumbnail}
                         alt={lec.title}
+                        width={160}
+                        height={90}
                         className="w-full h-full object-cover"
                       />
                       <span className="absolute bottom-0.5 right-0.5 bg-black/80 text-white text-[9px] px-1 rounded font-mono">
