@@ -19,7 +19,7 @@
 - [ ] Run Lighthouse or PageSpeed against the live Firebase domain and record LCP, CLS and INP. Source inspection cannot prove Core Web Vitals.
 - [ ] Submit the current sitemap in Google Search Console and review coverage, canonical selection and rich-result warnings.
 - [ ] Configure `ADMIN_EMAILS` in Supabase Secrets with the exact verified administrator email(s). When configured, the Edge Function enforces the allowlist in addition to Firebase token verification.
-- [ ] Choose one Firebase default domain as the SEO primary (`firebaseapp.com` or `web.app`), configure the alternate host redirect in Firebase Hosting/Console, and submit only the chosen host's sitemap to Search Console. Seobility checked `web.app`, while current canonicals use `firebaseapp.com`.
+- [ ] Configure the alternate `firebaseapp.com` Firebase host redirect/exclusion in Firebase Hosting/Console and submit only `https://raytechinstitute.web.app/sitemap.xml` to Search Console. Code-level canonicals now use the Firebase CLI default `web.app` host.
 - [ ] Re-run Seobility's full website audit after the host redirect is active; review its duplicate-heading, internal-anchor, backlink and social-sharing findings separately from the static HTML gate.
 
 ### Immediate / Completed (Priority P0 - High Impact, Zero Effort Remaining)
@@ -50,4 +50,4 @@
 2. **Supabase Realtime Sync (Optional Expansion)**:
    - Client store is currently pre-seeded and cached in browser storage with instant fallback. If multi-device synchronization is desired, Supabase table listener hooks can be enabled with the stored credentials.
 3. **Search Console & Sitemaps**:
-   - Submit `https://raytechinstitute.firebaseapp.com/sitemap.xml` directly to Google Search Console after the primary Firebase host is selected, then review coverage and canonical selection for the 61 prerendered pages.
+   - Submit `https://raytechinstitute.web.app/sitemap.xml` directly to Google Search Console, then review coverage and canonical selection for the 61 prerendered pages.

@@ -14,11 +14,22 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || env.NEXT_PUBLIC_SUPA
 const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const output = path.join(root, 'src', 'data', 'staticOverrides.ts');
 const sitemapOutput = path.join(root, 'public', 'sitemap.xml');
-const siteUrl = 'https://raytechinstitute.firebaseapp.com';
+const siteUrl = 'https://raytechinstitute.web.app';
 const fallbackBlogImage = 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80';
+const seedSource = await fs.readFile(path.join(root, 'src', 'data', 'educationalData.ts'), 'utf8').catch(() => '');
 
 const slug = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const escapeXml = (value) => String(value).replace(/[<>&'\"]/g, (char) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[char]));
+
+function readSeedRouteItems(exportName) {
+  const section = seedSource.match(new RegExp(`export const ${exportName}[\\s\\S]*?= \\[([\\s\\S]*?)\\n\\];`))?.[1] || '';
+  const items = [];
+  const itemPattern = /\{\s*id:\s*'([^']+)'[\s\S]*?classSlug:\s*'([^']+)'[\s\S]*?subjectSlug:\s*'([^']+)'/g;
+  for (const match of section.matchAll(itemPattern)) {
+    items.push({ id: match[1], classSlug: match[2], subjectSlug: match[3] });
+  }
+  return items;
+}
 
 function buildSitemap(overrides) {
   const urls = [
@@ -40,7 +51,15 @@ function buildSitemap(overrides) {
     urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/notes/`, 'weekly', '0.8']);
     urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/notes/${slug(item.id)}/`, 'weekly', '0.7']);
   }
+  for (const item of readSeedRouteItems('INITIAL_NOTES')) {
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/notes/`, 'weekly', '0.8']);
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/notes/${slug(item.id)}/`, 'weekly', '0.7']);
+  }
   for (const item of overrides.pastPapers || []) {
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/past-papers/`, 'weekly', '0.8']);
+    urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/past-papers/${slug(item.id)}/`, 'weekly', '0.7']);
+  }
+  for (const item of readSeedRouteItems('INITIAL_PAST_PAPERS')) {
     urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/past-papers/`, 'weekly', '0.8']);
     urls.push([`/classes/${item.classSlug}/${item.subjectSlug}/past-papers/${slug(item.id)}/`, 'weekly', '0.7']);
   }

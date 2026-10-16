@@ -9,7 +9,7 @@ import CookieConsentBanner from '@/components/CookieConsentBanner';
 import NotificationPrompt from '@/components/NotificationPrompt';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://raytechinstitute.firebaseapp.com'),
+  metadataBase: new URL('https://raytechinstitute.web.app'),
   title: {
     default: '11th & 12th Computer Science Resources | RayTech',
     template: '%s',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   creator: channelData.name,
   publisher: channelData.name,
   alternates: {
-    canonical: 'https://raytechinstitute.firebaseapp.com/',
+    canonical: 'https://raytechinstitute.web.app/',
   },
   icons: {
     icon: [
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_PK',
-    url: 'https://raytechinstitute.firebaseapp.com/',
+    url: 'https://raytechinstitute.web.app/',
     title: '11th & 12th Class Computer Science Notes, MCQs & Gazettes | RayTech Institute',
     description: 'Download 11th & 12th class computer science notes, past papers, MCQs test bank, and official Punjab board result gazettes.',
     siteName: 'RayTech Institute',
@@ -95,14 +95,14 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'RayTech Institute',
-    url: 'https://raytechinstitute.firebaseapp.com/',
+    url: 'https://raytechinstitute.web.app/',
     description: 'Free study resources for 11th and 12th class computer science students in Pakistan.',
     inLanguage: 'en-PK',
     publisher: {
       '@type': 'EducationalOrganization',
       name: channelData.name,
       url: channelData.youtubeUrl,
-      logo: 'https://raytechinstitute.firebaseapp.com/android-chrome-192x192.png',
+      logo: 'https://raytechinstitute.web.app/android-chrome-192x192.png',
     },
   };
 
@@ -112,8 +112,8 @@ export default function RootLayout({
     name: channelData.name,
     alternateName: channelData.handle,
     description: channelData.statement,
-    url: 'https://raytechinstitute.firebaseapp.com/',
-    logo: 'https://raytechinstitute.firebaseapp.com/android-chrome-192x192.png',
+    url: 'https://raytechinstitute.web.app/',
+    logo: 'https://raytechinstitute.web.app/android-chrome-192x192.png',
     sameAs: [channelData.youtubeUrl],
     knowsAbout: channelData.contentAreas,
     areaServed: 'Pakistan',

@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title: '11th & 12th Class Notes & Past Papers | RayTech',
   description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
   alternates: {
-    canonical: 'https://raytechinstitute.firebaseapp.com/classes/',
+    canonical: 'https://raytechinstitute.web.app/classes/',
   },
   openGraph: {
     title: '11th & 12th Class Notes & Past Papers | RayTech',
     description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
-    url: 'https://raytechinstitute.firebaseapp.com/classes/',
+    url: 'https://raytechinstitute.web.app/classes/',
     type: 'website',
   },
 };
@@ -28,13 +28,13 @@ export default function ClassesIndexPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://raytechinstitute.firebaseapp.com/',
+        item: 'https://raytechinstitute.web.app/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Academic Classes',
-        item: 'https://raytechinstitute.firebaseapp.com/classes/',
+        item: 'https://raytechinstitute.web.app/classes/',
       },
     ],
   };

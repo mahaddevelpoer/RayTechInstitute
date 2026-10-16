@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: '11th & 12th Class Result Gazettes | RayTech',
   description: 'Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.',
   alternates: {
-    canonical: 'https://raytechinstitute.firebaseapp.com/results-gazettes/',
+    canonical: 'https://raytechinstitute.web.app/results-gazettes/',
   },
   openGraph: {
     title: '11th & 12th Class Result Gazettes | RayTech',
     description: 'Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.',
-    url: 'https://raytechinstitute.firebaseapp.com/results-gazettes/',
+    url: 'https://raytechinstitute.web.app/results-gazettes/',
     type: 'website',
   },
 };

@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
@@ -8,6 +9,20 @@ const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').
 
 export function generateStaticParams() {
   return INITIAL_NOTES.map((note) => ({ classSlug: note.classSlug, subjectSlug: note.subjectSlug, noteSlug: slug(note.id) }));
+}
+
+export function generateMetadata({ params }: { params: { classSlug: string; subjectSlug: string; noteSlug: string } }): Metadata {
+  const note = INITIAL_NOTES.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.noteSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+  if (!note || !currentSubject) return {};
+  const title = `${currentSubject.title} Chapter ${note.chapterNumber} Notes PDF | RayTech`;
+  const description = note.description || `Chapter ${note.chapterNumber} ${currentSubject.title} notes in PDF format for intermediate students.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/${params.noteSlug}/` },
+    openGraph: { title, description, url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/${params.noteSlug}/`, type: 'article' },
+  };
 }
 
 export default function NoteDetailPage({ params }: { params: { classSlug: string; subjectSlug: string; noteSlug: string } }) {

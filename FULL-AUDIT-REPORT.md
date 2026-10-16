@@ -1,7 +1,7 @@
 # Full Audit Report: Educational Platform & Agentic SEO Verification
 
 **Project**: RayTech Institute Digital Educational Portal & Archive  
-**Domain**: `https://raytechinstitute.firebaseapp.com`  
+**Domain**: `https://raytechinstitute.web.app`
 **Audit Date**: October 15, 2026
 **Auditor**: Codex repository audit
 **Status**: Active verification report. Claims below are evidence-backed only.
@@ -66,7 +66,7 @@ The dependency findings are not silently ignored. The application is a static ex
 
 ### 4.1 Seobility Review
 
-Seobility was run against `https://raytechinstitute.web.app/` while the application currently declares `https://raytechinstitute.firebaseapp.com` as its canonical production host. The report's canonical mismatch and redirect warnings are therefore host-selection findings, not evidence of missing canonical tags: the generated pages consistently point to the Firebase Appspot host. One host must be selected as the public SEO identity, then the alternate Firebase default host should be redirected or excluded from indexing in Firebase Console. This cannot be enforced by a path-only static-hosting rule in `firebase.json`.
+Seobility was run against `https://raytechinstitute.web.app/`, which Firebase CLI identifies as this project's default hosting URL. The canonical host is now standardized to `web.app` across metadata, structured data, robots.txt, and the generated sitemap. The alternate `firebaseapp.com` alias should still be excluded or redirected in Firebase/Search Console where host-level controls are available; this cannot be enforced by a path-only static-hosting rule in `firebase.json`.
 
 The report's duplicate-heading warning is now covered by `npm run audit:seo`, which reports duplicate heading text per page as a warning. The current generated homepage has one H1 and no duplicate heading text. Seobility's remaining recommendations about backlinks, social sharing and a full external crawl require third-party data and are not claimed as completed by this repository audit.
 

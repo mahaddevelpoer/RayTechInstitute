@@ -24,7 +24,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       title: 'Educational Bulletin & Update | RayTech Institute',
       description: 'Official board examination alerts, admissions schedules, and academic news.',
       alternates: {
-        canonical: `https://raytechinstitute.firebaseapp.com/blogs/${params.slug}/`,
+        canonical: `https://raytechinstitute.web.app/blogs/${params.slug}/`,
       },
     };
   }
@@ -38,12 +38,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: seoTitle,
     description: seoDescription,
     alternates: {
-      canonical: `https://raytechinstitute.firebaseapp.com/blogs/${params.slug}/`,
+      canonical: `https://raytechinstitute.web.app/blogs/${params.slug}/`,
     },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
-      url: `https://raytechinstitute.firebaseapp.com/blogs/${params.slug}/`,
+      url: `https://raytechinstitute.web.app/blogs/${params.slug}/`,
       images: [
         {
           url: post.featuredImage,

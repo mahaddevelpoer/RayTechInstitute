@@ -29,12 +29,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} Study Resources & Notes | RayTech`,
     description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
     alternates: {
-      canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
     },
     openGraph: {
       title: `${className} Study Resources & Notes | RayTech`,
       description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
-      url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
       type: 'website',
     },
   };
@@ -56,19 +56,19 @@ export default function ClassDetailsPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://raytechinstitute.firebaseapp.com/',
+        item: 'https://raytechinstitute.web.app/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Classes',
-        item: 'https://raytechinstitute.firebaseapp.com/classes/',
+        item: 'https://raytechinstitute.web.app/classes/',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: currentClass.title,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
       },
     ],
   };

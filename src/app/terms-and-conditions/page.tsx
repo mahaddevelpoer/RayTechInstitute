@@ -8,7 +8,7 @@ export const metadata = {
   title: 'Terms & Conditions | RayTech Institute Educational Archive',
   description: 'Read the terms, content-use rules, source-link guidance, and educational disclaimer for the RayTech Institute study archive.',
   alternates: {
-    canonical: 'https://raytechinstitute.firebaseapp.com/terms-and-conditions/',
+    canonical: 'https://raytechinstitute.web.app/terms-and-conditions/',
   },
 };
 

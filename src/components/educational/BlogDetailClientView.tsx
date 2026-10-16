@@ -49,7 +49,7 @@ export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientView
     image: post.featuredImage,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://raytechinstitute.firebaseapp.com/blogs/${slug}/`,
+      '@id': `https://raytechinstitute.web.app/blogs/${slug}/`,
     },
   };
 
@@ -61,19 +61,19 @@ export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientView
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://raytechinstitute.firebaseapp.com/',
+        item: 'https://raytechinstitute.web.app/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Updates & Bulletins',
-        item: 'https://raytechinstitute.firebaseapp.com/blogs/',
+        item: 'https://raytechinstitute.web.app/blogs/',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: post.title,
-        item: `https://raytechinstitute.firebaseapp.com/blogs/${slug}/`,
+        item: `https://raytechinstitute.web.app/blogs/${slug}/`,
       },
     ],
   };

@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: 'Date Sheets, Admissions & Academic Updates | RayTech',
   description: 'Verified educational news, board examination date sheets, college and university admissions notifications, and intermediate career counseling roadmaps.',
   alternates: {
-    canonical: 'https://raytechinstitute.firebaseapp.com/blogs/',
+    canonical: 'https://raytechinstitute.web.app/blogs/',
   },
   openGraph: {
     title: 'Date Sheets, Admissions & Academic Updates | RayTech',
     description: 'Verified educational news, board examination date sheets, college and university admissions notifications, and intermediate career counseling roadmaps.',
-    url: 'https://raytechinstitute.firebaseapp.com/blogs/',
+    url: 'https://raytechinstitute.web.app/blogs/',
     type: 'website',
   },
 };

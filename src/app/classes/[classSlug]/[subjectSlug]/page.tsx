@@ -34,12 +34,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} Study Material | RayTech`,
     description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
     alternates: {
-      canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/`,
+      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} Study Material | RayTech`,
       description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
-      url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/`,
+      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/`,
       type: 'website',
     },
   };
@@ -73,25 +73,25 @@ export default function SubjectHubPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://raytechinstitute.firebaseapp.com/',
+        item: 'https://raytechinstitute.web.app/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Classes',
-        item: 'https://raytechinstitute.firebaseapp.com/classes/',
+        item: 'https://raytechinstitute.web.app/classes/',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: currentClass.title,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
       },
       {
         '@type': 'ListItem',
         position: 4,
         name: currentSubject.title,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/`,
       },
     ],
   };

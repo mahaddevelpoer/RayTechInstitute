@@ -20,7 +20,7 @@ export function generateMetadata({ params }: { params: { gazetteSlug: string } }
   return {
     title,
     description,
-    alternates: { canonical: `https://raytechinstitute.firebaseapp.com/results-gazettes/${params.gazetteSlug}/` },
+    alternates: { canonical: `https://raytechinstitute.web.app/results-gazettes/${params.gazetteSlug}/` },
     robots: { index: Boolean(gazette), follow: Boolean(gazette) },
   };
 }

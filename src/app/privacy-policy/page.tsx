@@ -8,7 +8,7 @@ export const metadata = {
   title: 'Privacy Policy | RayTech Institute Educational Archive',
   description: 'Official privacy policy regarding educational materials, user data protection, and cookie compliance.',
   alternates: {
-    canonical: 'https://raytechinstitute.firebaseapp.com/privacy-policy/',
+    canonical: 'https://raytechinstitute.web.app/privacy-policy/',
   },
 };
 

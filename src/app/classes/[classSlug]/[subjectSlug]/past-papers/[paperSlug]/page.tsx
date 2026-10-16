@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
@@ -8,6 +9,20 @@ const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').
 
 export function generateStaticParams() {
   return INITIAL_PAST_PAPERS.map((paper) => ({ classSlug: paper.classSlug, subjectSlug: paper.subjectSlug, paperSlug: slug(paper.id) }));
+}
+
+export function generateMetadata({ params }: { params: { classSlug: string; subjectSlug: string; paperSlug: string } }): Metadata {
+  const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.paperSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+  if (!paper || !currentSubject) return {};
+  const title = `${currentSubject.title} ${paper.year} Past Paper PDF | RayTech`;
+  const description = paper.description || `View the ${paper.board} ${paper.year} ${currentSubject.title} past paper PDF for intermediate exam practice, revision, and board-style preparation.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/${params.paperSlug}/` },
+    openGraph: { title, description, url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/${params.paperSlug}/`, type: 'article' },
+  };
 }
 
 export default function PastPaperDetailPage({ params }: { params: { classSlug: string; subjectSlug: string; paperSlug: string } }) {

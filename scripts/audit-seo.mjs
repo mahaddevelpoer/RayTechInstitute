@@ -21,6 +21,7 @@ walk(root);
 const failures = [];
 const warnings = [];
 const canonicalHosts = new Map();
+const expectedCanonicalHost = 'raytechinstitute.web.app';
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
@@ -51,6 +52,7 @@ for (const file of htmlFiles) {
   try {
     const host = new URL(canonical).host;
     canonicalHosts.set(host, (canonicalHosts.get(host) || 0) + 1);
+    if (host !== expectedCanonicalHost) failures.push(`${relative}: canonical host must be ${expectedCanonicalHost}, found ${host}`);
   } catch {
     failures.push(`${relative}: invalid canonical URL`);
   }
@@ -58,6 +60,21 @@ for (const file of htmlFiles) {
 
 console.log(`[seo] audited ${htmlFiles.length} public HTML pages`);
 if (canonicalHosts.size > 1) warnings.push(`[site] canonical URLs use multiple hosts: ${[...canonicalHosts.keys()].join(', ')}`);
+const sitemapPath = path.resolve('public', 'sitemap.xml');
+if (!fs.existsSync(sitemapPath)) {
+  failures.push('public/sitemap.xml: missing sitemap file');
+} else {
+  const sitemap = fs.readFileSync(sitemapPath, 'utf8');
+  const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gi)].map((match) => match[1]);
+  if (!sitemapUrls.length) failures.push('public/sitemap.xml: no URLs found');
+  for (const url of sitemapUrls) {
+    try {
+      if (new URL(url).host !== expectedCanonicalHost) failures.push(`public/sitemap.xml: non-canonical host in ${url}`);
+    } catch {
+      failures.push(`public/sitemap.xml: invalid URL ${url}`);
+    }
+  }
+}
 if (warnings.length) console.log(`[seo] warnings (${warnings.length})\n${warnings.join('\n')}`);
 if (failures.length) {
   console.error(`[seo] failures (${failures.length})\n${failures.join('\n')}`);

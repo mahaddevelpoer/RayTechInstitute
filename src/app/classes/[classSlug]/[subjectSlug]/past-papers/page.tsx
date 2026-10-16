@@ -31,12 +31,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} Past Papers | RayTech`,
     description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
     alternates: {
-      canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
+      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} Past Papers | RayTech`,
       description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
-      url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
+      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
       type: 'website',
     },
   };
@@ -60,19 +60,19 @@ export default function SubjectPastPapersServerPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://raytechinstitute.firebaseapp.com/',
+        item: 'https://raytechinstitute.web.app/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: currentClass.title,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: `${currentSubject.title} Past Papers`,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
       },
     ],
   };

@@ -31,12 +31,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
     description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
     alternates: {
-      canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
+      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
       description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
-      url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
+      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
       type: 'website',
     },
   };

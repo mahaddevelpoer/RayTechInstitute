@@ -31,12 +31,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
     description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
     alternates: {
-      canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
+      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
       description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
-      url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
+      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
       type: 'website',
     },
   };
@@ -60,19 +60,19 @@ export default function SubjectNotesServerPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://raytechinstitute.firebaseapp.com/',
+        item: 'https://raytechinstitute.web.app/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: currentClass.title,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: `${currentSubject.title} Notes`,
-        item: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
+        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
       },
     ],
   };

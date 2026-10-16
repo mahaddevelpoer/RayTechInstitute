@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /admin/*
 
-Sitemap: https://raytechinstitute.firebaseapp.com/sitemap.xml
+Sitemap: https://raytechinstitute.web.app/sitemap.xml
