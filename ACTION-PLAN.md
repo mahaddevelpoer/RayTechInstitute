@@ -18,7 +18,7 @@
 ### Verification Still Requiring External Evidence
 - [ ] Run Lighthouse or PageSpeed against the live Firebase domain and record LCP, CLS and INP. Source inspection cannot prove Core Web Vitals.
 - [ ] Submit the current sitemap in Google Search Console and review coverage, canonical selection and rich-result warnings.
-- [ ] Configure `ADMIN_EMAILS` in Supabase Secrets with the exact verified administrator email(s). When configured, the Edge Function enforces the allowlist in addition to Firebase token verification.
+- [x] Configure `ADMIN_EMAILS` in Supabase Secrets with the verified project administrator email. The Edge Function now enforces the allowlist in addition to Firebase token verification.
 - [ ] Configure the alternate `firebaseapp.com` Firebase host redirect/exclusion in Firebase Hosting/Console and submit only `https://raytechinstitute.web.app/sitemap.xml` to Search Console. Code-level canonicals now use the Firebase CLI default `web.app` host.
 - [ ] Re-run Seobility's full website audit after the host redirect is active; review its duplicate-heading, internal-anchor, backlink and social-sharing findings separately from the static HTML gate.
 

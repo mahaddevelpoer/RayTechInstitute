@@ -52,7 +52,7 @@ The previous report contained several claims that were broader than the availabl
 | SEO regression gate | Added | Confirmed | `npm run audit:seo` checks title, description, canonical, JSON-LD presence and one H1 per generated page |
 | Public routes | Passed | Confirmed | Home, classes, blogs and MCQ routes returned HTTP 200 after Firebase deployment |
 | Admin mutations | Passed | Confirmed | Live Edge Function insert, read and delete test returned create=true, readCount=1, afterDeleteCount=0 |
-| Edge Function authorization | Hardened | Confirmed | Browser actions now require a verified Firebase ID token; unauthenticated ping returned HTTP 401 |
+| Edge Function authorization | Hardened | Confirmed | Browser actions require a verified Firebase ID token and the configured `ADMIN_EMAILS` allowlist; unauthenticated ping returned HTTP 401 |
 | Python compiler | Improved | Confirmed | Resizable panel, viewport bounds, drag cleanup, accessible controls and mobile-safe dimensions implemented |
 | Markdown links | Hardened | Confirmed | Rendered links pass through `sanitizeUrl`; protocol-relative URLs are rejected |
 | Inline structured data | Hardened | Confirmed | JSON-LD now uses `serializeJsonLd`, escaping script-breaking characters before insertion into inline `<script>` blocks |
