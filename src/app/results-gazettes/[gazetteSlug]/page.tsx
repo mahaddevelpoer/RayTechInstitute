@@ -11,8 +11,9 @@ export function generateStaticParams() {
   return INITIAL_GAZETTES.map((gazette) => ({ gazetteSlug: slug(gazette.id) }));
 }
 
-export function generateMetadata({ params }: { params: { gazetteSlug: string } }): Metadata {
-  const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === params.gazetteSlug);
+export async function generateMetadata({ params }: { params: Promise<{ gazetteSlug: string }> }): Promise<Metadata> {
+  const { gazetteSlug } = await params;
+  const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === gazetteSlug);
   const title = gazette ? `${gazette.board} ${gazette.year} Result Gazette | RayTech` : 'Result Gazette Details | RayTech';
   const description = gazette
     ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, and PDF preview for students.`
@@ -20,13 +21,14 @@ export function generateMetadata({ params }: { params: { gazetteSlug: string } }
   return {
     title,
     description,
-    alternates: { canonical: `https://raytechinstitute.web.app/results-gazettes/${params.gazetteSlug}/` },
+    alternates: { canonical: `https://raytechinstitute.web.app/results-gazettes/${gazetteSlug}/` },
     robots: { index: Boolean(gazette), follow: Boolean(gazette) },
   };
 }
 
-export default function GazetteDetailPage({ params }: { params: { gazetteSlug: string } }) {
-  const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === params.gazetteSlug);
+export default async function GazetteDetailPage({ params }: { params: Promise<{ gazetteSlug: string }> }) {
+  const { gazetteSlug } = await params;
+  const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === gazetteSlug);
   const currentClass = INITIAL_CLASSES.find((item) => item.slug === gazette?.classSlug);
   if (!gazette) notFound();
   return <div className="flex min-h-screen flex-col bg-white text-slate-800"><Header /><PdfDetailClientView backHref="/results-gazettes" backLabel="Back to result gazettes" eyebrow={`${gazette!.board} · ${gazette!.year}`} title={gazette!.title} description={`${gazette!.session} result gazette for ${currentClass?.title || 'Intermediate students'}, with official result context and board verification details.`} content={gazette!.content} pdfUrl={gazette!.pdfUrl} metadata={[gazette!.board, currentClass?.title || 'Intermediate', `${gazette!.year}`, gazette!.session, gazette!.passingPercentage || 'Official result']} /><Footer /></div>;

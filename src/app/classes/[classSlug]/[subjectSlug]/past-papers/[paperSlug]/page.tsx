@@ -11,24 +11,26 @@ export function generateStaticParams() {
   return INITIAL_PAST_PAPERS.map((paper) => ({ classSlug: paper.classSlug, subjectSlug: paper.subjectSlug, paperSlug: slug(paper.id) }));
 }
 
-export function generateMetadata({ params }: { params: { classSlug: string; subjectSlug: string; paperSlug: string } }): Metadata {
-  const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.paperSlug);
-  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+export async function generateMetadata({ params }: { params: Promise<{ classSlug: string; subjectSlug: string; paperSlug: string }> }): Promise<Metadata> {
+  const { classSlug, subjectSlug, paperSlug } = await params;
+  const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug && slug(item.id) === paperSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
   if (!paper || !currentSubject) return {};
   const title = `${currentSubject.title} ${paper.year} Past Paper PDF | RayTech`;
   const description = paper.description || `View the ${paper.board} ${paper.year} ${currentSubject.title} past paper PDF for intermediate exam practice, revision, and board-style preparation.`;
   return {
     title,
     description,
-    alternates: { canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/${params.paperSlug}/` },
-    openGraph: { title, description, url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/${params.paperSlug}/`, type: 'article' },
+    alternates: { canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/${paperSlug}/` },
+    openGraph: { title, description, url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/${paperSlug}/`, type: 'article' },
   };
 }
 
-export default function PastPaperDetailPage({ params }: { params: { classSlug: string; subjectSlug: string; paperSlug: string } }) {
-  const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.paperSlug);
-  const currentClass = INITIAL_CLASSES.find((item) => item.slug === params.classSlug);
-  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+export default async function PastPaperDetailPage({ params }: { params: Promise<{ classSlug: string; subjectSlug: string; paperSlug: string }> }) {
+  const { classSlug, subjectSlug, paperSlug } = await params;
+  const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug && slug(item.id) === paperSlug);
+  const currentClass = INITIAL_CLASSES.find((item) => item.slug === classSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
   if (!paper || !currentClass || !currentSubject) notFound();
-  return <div className="flex min-h-screen flex-col bg-white text-slate-800"><Header /><PdfDetailClientView backHref={`/classes/${params.classSlug}/${params.subjectSlug}/past-papers`} backLabel="Back to past papers" eyebrow={`${paper!.board} · ${paper!.year}`} title={`${currentSubject!.title} ${paper!.session} Past Paper`} description={paper!.description || `Official ${currentSubject!.title} past paper for ${currentClass!.title}, including the board pattern and questions students should practise.`} content={paper!.content} pdfUrl={paper!.pdfUrl} metadata={[currentClass!.title, currentSubject!.title, paper!.board, `${paper!.year}`, paper!.session]} /><Footer /></div>;
+  return <div className="flex min-h-screen flex-col bg-white text-slate-800"><Header /><PdfDetailClientView backHref={`/classes/${classSlug}/${subjectSlug}/past-papers`} backLabel="Back to past papers" eyebrow={`${paper!.board} · ${paper!.year}`} title={`${currentSubject!.title} ${paper!.session} Past Paper`} description={paper!.description || `Official ${currentSubject!.title} past paper for ${currentClass!.title}, including the board pattern and questions students should practise.`} content={paper!.content} pdfUrl={paper!.pdfUrl} metadata={[currentClass!.title, currentSubject!.title, paper!.board, `${paper!.year}`, paper!.session]} /><Footer /></div>;
 }

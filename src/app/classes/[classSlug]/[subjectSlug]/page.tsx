@@ -16,16 +16,17 @@ export function generateStaticParams() {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     classSlug: string;
     subjectSlug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
@@ -34,21 +35,22 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} Study Material | RayTech`,
     description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/`,
+      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} Study Material | RayTech`,
       description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
-      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/`,
+      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
       type: 'website',
     },
   };
 }
 
-export default function SubjectHubPage({ params }: PageProps) {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export default async function SubjectHubPage({ params }: PageProps) {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
 
   if (!currentClass || !currentSubject) {
@@ -56,13 +58,13 @@ export default function SubjectHubPage({ params }: PageProps) {
   }
 
   const subjectNotes = INITIAL_NOTES.filter(
-    (n) => n.classSlug === params.classSlug && n.subjectSlug === params.subjectSlug
+    (n) => n.classSlug === classSlug && n.subjectSlug === subjectSlug
   );
   const subjectMCQs = INITIAL_MCQS.filter(
-    (m) => m.classSlug === params.classSlug && m.subjectSlug === params.subjectSlug
+    (m) => m.classSlug === classSlug && m.subjectSlug === subjectSlug
   );
   const subjectPastPapers = INITIAL_PAST_PAPERS.filter(
-    (p) => p.classSlug === params.classSlug && p.subjectSlug === params.subjectSlug
+    (p) => p.classSlug === classSlug && p.subjectSlug === subjectSlug
   );
 
   const jsonLd = {
@@ -85,13 +87,13 @@ export default function SubjectHubPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 3,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
       },
       {
         '@type': 'ListItem',
         position: 4,
         name: currentSubject.title,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
       },
     ],
   };

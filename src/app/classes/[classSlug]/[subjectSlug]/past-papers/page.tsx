@@ -13,16 +13,17 @@ export function generateStaticParams() {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     classSlug: string;
     subjectSlug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
@@ -31,21 +32,22 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} Past Papers | RayTech`,
     description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
+      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} Past Papers | RayTech`,
       description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
-      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
+      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
       type: 'website',
     },
   };
 }
 
-export default function SubjectPastPapersServerPage({ params }: PageProps) {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export default async function SubjectPastPapersServerPage({ params }: PageProps) {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
 
   if (!currentClass || !currentSubject) {
@@ -66,13 +68,13 @@ export default function SubjectPastPapersServerPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 2,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: `${currentSubject.title} Past Papers`,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
       },
     ],
   };
@@ -83,7 +85,7 @@ export default function SubjectPastPapersServerPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
-      <PastPapersClientView classSlug={params.classSlug} subjectSlug={params.subjectSlug} />
+      <PastPapersClientView classSlug={classSlug} subjectSlug={subjectSlug} />
     </>
   );
 }

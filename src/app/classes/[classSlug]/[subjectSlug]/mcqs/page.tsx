@@ -13,16 +13,17 @@ export function generateStaticParams() {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     classSlug: string;
     subjectSlug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
@@ -31,21 +32,22 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
     description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
+      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/mcqs/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
       description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
-      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
+      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/mcqs/`,
       type: 'website',
     },
   };
 }
 
-export default function SubjectMCQsServerPage({ params }: PageProps) {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export default async function SubjectMCQsServerPage({ params }: PageProps) {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
 
   if (!currentClass || !currentSubject) {
@@ -53,7 +55,7 @@ export default function SubjectMCQsServerPage({ params }: PageProps) {
   }
 
   const subjectMCQs = INITIAL_MCQS.filter(
-    (m) => m.classSlug === params.classSlug && m.subjectSlug === params.subjectSlug
+    (m) => m.classSlug === classSlug && m.subjectSlug === subjectSlug
   );
 
   const jsonLd = {
@@ -83,7 +85,7 @@ export default function SubjectMCQsServerPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
-      <MCQClientView classSlug={params.classSlug} subjectSlug={params.subjectSlug} />
+      <MCQClientView classSlug={classSlug} subjectSlug={subjectSlug} />
     </>
   );
 }

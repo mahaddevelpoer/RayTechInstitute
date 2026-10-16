@@ -15,13 +15,14 @@ export function generateStaticParams() {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     classSlug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { classSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   if (!currentClass) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
@@ -29,24 +30,25 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} Study Resources & Notes | RayTech`,
     description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
+      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/`,
     },
     openGraph: {
       title: `${className} Study Resources & Notes | RayTech`,
       description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
-      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
+      url: `https://raytechinstitute.web.app/classes/${classSlug}/`,
       type: 'website',
     },
   };
 }
 
-export default function ClassDetailsPage({ params }: PageProps) {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export default async function ClassDetailsPage({ params }: PageProps) {
+  const { classSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   if (!currentClass) {
     notFound();
   }
 
-  const subjects = INITIAL_SUBJECTS.filter((s) => s.classSlug === params.classSlug);
+  const subjects = INITIAL_SUBJECTS.filter((s) => s.classSlug === classSlug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -68,7 +70,7 @@ export default function ClassDetailsPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 3,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
       },
     ],
   };

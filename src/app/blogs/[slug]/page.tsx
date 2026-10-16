@@ -12,19 +12,20 @@ export function generateStaticParams() {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const post = INITIAL_BLOGS.find((b) => b.slug === params.slug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = INITIAL_BLOGS.find((b) => b.slug === slug);
   if (!post) {
     return {
       title: 'Educational Bulletin & Update | RayTech Institute',
       description: 'Official board examination alerts, admissions schedules, and academic news.',
       alternates: {
-        canonical: `https://raytechinstitute.web.app/blogs/${params.slug}/`,
+        canonical: `https://raytechinstitute.web.app/blogs/${slug}/`,
       },
     };
   }
@@ -38,12 +39,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: seoTitle,
     description: seoDescription,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/blogs/${params.slug}/`,
+      canonical: `https://raytechinstitute.web.app/blogs/${slug}/`,
     },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
-      url: `https://raytechinstitute.web.app/blogs/${params.slug}/`,
+      url: `https://raytechinstitute.web.app/blogs/${slug}/`,
       images: [
         {
           url: post.featuredImage,
@@ -59,15 +60,16 @@ export function generateMetadata({ params }: PageProps): Metadata {
   };
 }
 
-export default function BlogDetailPage({ params }: PageProps) {
-  const initialPost = INITIAL_BLOGS.find((b) => b.slug === params.slug);
+export default async function BlogDetailPage({ params }: PageProps) {
+  const { slug } = await params;
+  const initialPost = INITIAL_BLOGS.find((b) => b.slug === slug);
 
   return (
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
       <main className="flex-1 py-10 px-4 sm:px-6 max-w-4xl mx-auto w-full">
-        <BlogDetailClientView slug={params.slug} initialPost={initialPost} />
+        <BlogDetailClientView slug={slug} initialPost={initialPost} />
       </main>
 
       <Footer />

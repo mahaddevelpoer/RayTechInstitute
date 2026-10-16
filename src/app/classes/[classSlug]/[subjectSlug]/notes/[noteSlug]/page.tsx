@@ -11,24 +11,26 @@ export function generateStaticParams() {
   return INITIAL_NOTES.map((note) => ({ classSlug: note.classSlug, subjectSlug: note.subjectSlug, noteSlug: slug(note.id) }));
 }
 
-export function generateMetadata({ params }: { params: { classSlug: string; subjectSlug: string; noteSlug: string } }): Metadata {
-  const note = INITIAL_NOTES.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.noteSlug);
-  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+export async function generateMetadata({ params }: { params: Promise<{ classSlug: string; subjectSlug: string; noteSlug: string }> }): Promise<Metadata> {
+  const { classSlug, subjectSlug, noteSlug } = await params;
+  const note = INITIAL_NOTES.find((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug && slug(item.id) === noteSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
   if (!note || !currentSubject) return {};
   const title = `${currentSubject.title} Chapter ${note.chapterNumber} Notes PDF | RayTech`;
   const description = note.description || `Chapter ${note.chapterNumber} ${currentSubject.title} notes in PDF format for intermediate students.`;
   return {
     title,
     description,
-    alternates: { canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/${params.noteSlug}/` },
-    openGraph: { title, description, url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/${params.noteSlug}/`, type: 'article' },
+    alternates: { canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/` },
+    openGraph: { title, description, url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`, type: 'article' },
   };
 }
 
-export default function NoteDetailPage({ params }: { params: { classSlug: string; subjectSlug: string; noteSlug: string } }) {
-  const note = INITIAL_NOTES.find((item) => item.classSlug === params.classSlug && item.subjectSlug === params.subjectSlug && slug(item.id) === params.noteSlug);
-  const currentClass = INITIAL_CLASSES.find((item) => item.slug === params.classSlug);
-  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === params.classSlug && item.slug === params.subjectSlug);
+export default async function NoteDetailPage({ params }: { params: Promise<{ classSlug: string; subjectSlug: string; noteSlug: string }> }) {
+  const { classSlug, subjectSlug, noteSlug } = await params;
+  const note = INITIAL_NOTES.find((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug && slug(item.id) === noteSlug);
+  const currentClass = INITIAL_CLASSES.find((item) => item.slug === classSlug);
+  const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
   if (!note || !currentClass || !currentSubject) notFound();
-  return <div className="flex min-h-screen flex-col bg-white text-slate-800"><Header /><PdfDetailClientView backHref={`/classes/${params.classSlug}/${params.subjectSlug}/notes`} backLabel="Back to notes" eyebrow={`Chapter ${note!.chapterNumber} · ${note!.chapterTitle}`} title={note!.title} description={note!.description} content={note!.content} pdfUrl={note!.previewPdfUrl || note!.pdfUrl} metadata={[currentClass!.title, currentSubject!.title, `Chapter ${note!.chapterNumber}`, note!.fileSize || 'PDF resource']} /><Footer /></div>;
+  return <div className="flex min-h-screen flex-col bg-white text-slate-800"><Header /><PdfDetailClientView backHref={`/classes/${classSlug}/${subjectSlug}/notes`} backLabel="Back to notes" eyebrow={`Chapter ${note!.chapterNumber} · ${note!.chapterTitle}`} title={note!.title} description={note!.description} content={note!.content} pdfUrl={note!.previewPdfUrl || note!.pdfUrl} metadata={[currentClass!.title, currentSubject!.title, `Chapter ${note!.chapterNumber}`, note!.fileSize || 'PDF resource']} /><Footer /></div>;
 }

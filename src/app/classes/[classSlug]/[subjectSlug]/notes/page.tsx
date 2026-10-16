@@ -13,16 +13,17 @@ export function generateStaticParams() {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     classSlug: string;
     subjectSlug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
@@ -31,21 +32,22 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
     description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
+      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/`,
     },
     openGraph: {
       title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
       description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
-      url: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
+      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/`,
       type: 'website',
     },
   };
 }
 
-export default function SubjectNotesServerPage({ params }: PageProps) {
-  const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
+export default async function SubjectNotesServerPage({ params }: PageProps) {
+  const { classSlug, subjectSlug } = await params;
+  const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug
   );
 
   if (!currentClass || !currentSubject) {
@@ -66,13 +68,13 @@ export default function SubjectNotesServerPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 2,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: `${currentSubject.title} Notes`,
-        item: `https://raytechinstitute.web.app/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
+        item: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/`,
       },
     ],
   };
@@ -83,7 +85,7 @@ export default function SubjectNotesServerPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
-      <NotesClientView classSlug={params.classSlug} subjectSlug={params.subjectSlug} />
+      <NotesClientView classSlug={classSlug} subjectSlug={subjectSlug} />
     </>
   );
 }
