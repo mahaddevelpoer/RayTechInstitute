@@ -16,3 +16,14 @@ const originalInvoke = supabase.functions.invoke.bind(supabase.functions);
   if (token) headers.Authorization = `Bearer ${token}`;
   return originalInvoke(name, { ...options, headers });
 };
+
+export async function verifyAdminAccess(): Promise<{ ok: boolean; email?: string }> {
+  try {
+    const { data, error } = await supabase.functions.invoke('secure-dispatch', {
+      body: { action: 'verify_admin', payload: {} },
+    });
+    return { ok: !error && data?.success === true, email: data?.email };
+  } catch {
+    return { ok: false };
+  }
+}

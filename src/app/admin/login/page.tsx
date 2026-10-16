@@ -6,6 +6,8 @@ import Link from 'next/link';
 import { Lock, Mail, ShieldCheck, ArrowRight, AlertCircle, Clock } from 'lucide-react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
+import { signOut } from 'firebase/auth';
+import { verifyAdminAccess } from '@/lib/supabase';
 import {
   getRateLimitStatus,
   recordFailedAttempt,
@@ -24,10 +26,16 @@ export default function AdminLoginPage() {
 
   useEffect(() => {
     // Check if already authenticated via Firebase
-    const unsubscribe = auth.onAuthStateChanged((user) => {
+    const unsubscribe = auth.onAuthStateChanged(async (user) => {
       if (user) {
-        setAdminSession(user.uid);
-        router.push('/admin');
+        const access = await verifyAdminAccess();
+        if (access.ok) {
+          setAdminSession(user.uid);
+          router.push('/admin');
+        } else {
+          await signOut(auth).catch(() => undefined);
+          setErrorMsg('This Firebase account is not authorized for administration.');
+        }
       }
     });
 
@@ -73,6 +81,13 @@ export default function AdminLoginPage() {
       const userCredential = await signInWithEmailAndPassword(auth, email.trim(), password);
       const user = userCredential.user;
       const token = await user.getIdToken();
+
+      const access = await verifyAdminAccess();
+      if (!access.ok) {
+        await signOut(auth).catch(() => undefined);
+        setErrorMsg('This Firebase account is not authorized for administration.');
+        return;
+      }
 
       resetRateLimit();
       setAdminSession(token || user.uid);

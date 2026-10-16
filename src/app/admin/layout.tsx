@@ -19,9 +19,10 @@ import {
   Menu,
   X,
 } from 'lucide-react';
-import { isAdminAuthenticated, clearAdminSession } from '@/utils/security';
+import { clearAdminSession } from '@/utils/security';
 import { auth } from '@/lib/firebase';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
+import { verifyAdminAccess } from '@/lib/supabase';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -36,14 +37,23 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       return;
     }
 
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (!user && !isAdminAuthenticated()) {
+    const unsubscribe = onAuthStateChanged(auth, async (user) => {
+      if (!user) {
         setIsAuthenticated(false);
         setIsChecking(false);
         router.push('/admin/login');
       } else {
-        setIsAuthenticated(true);
-        setIsChecking(false);
+        const access = await verifyAdminAccess();
+        if (!access.ok) {
+          await signOut(auth).catch(() => undefined);
+          clearAdminSession();
+          setIsAuthenticated(false);
+          setIsChecking(false);
+          router.push('/admin/login');
+        } else {
+          setIsAuthenticated(true);
+          setIsChecking(false);
+        }
       }
     });
 

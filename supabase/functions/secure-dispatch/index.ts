@@ -517,6 +517,10 @@ serve(async (req) => {
     const admin = await verifyFirebaseAdmin(req);
     if (!admin.ok) return respond({ success: false, error: admin.error || 'Unauthorized.' }, 401);
 
+    if (action === 'verify_admin') {
+      return respond({ success: true, email: admin.email });
+    }
+
     if (action === 'trigger_static_rebuild') {
       try {
         return respond(await dispatchStaticRebuild({ ...payload, operation: 'manual' }));
