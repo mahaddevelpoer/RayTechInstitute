@@ -4,6 +4,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { Lecture } from '@/types';
 import { lecturesData } from '@/data/lectures';
 import { Search, Play, Clock } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 interface LectureArchiveProps {
   lectures?: Lecture[];
@@ -152,7 +153,7 @@ export const LectureArchive: React.FC<LectureArchiveProps> = ({
                   {/* Thumbnail */}
                   <div className="relative aspect-video bg-slate-100 overflow-hidden">
                     <img
-                      src={lec.thumbnail}
+                      src={sanitizeUrl(lec.thumbnail)}
                       alt={lec.title}
                       width={640}
                       height={360}

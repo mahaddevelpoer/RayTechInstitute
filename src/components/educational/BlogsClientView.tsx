@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { EducationalStore } from '@/data/educationalStore';
 import { BlogPostItem } from '@/types/educational';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 export function BlogsClientView() {
   const fallbackImage = 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80';
@@ -80,7 +81,7 @@ export function BlogsClientView() {
               {/* Cover Image */}
               <div className="relative aspect-video bg-slate-100 overflow-hidden">
                 <img
-                  src={post.featuredImage}
+                  src={sanitizeUrl(post.featuredImage) || fallbackImage}
                   alt={post.title}
                   width={800}
                   height={450}

@@ -169,7 +169,7 @@ export function BlogDetailClientView({ slug, initialPost }: BlogDetailClientView
       {/* Featured Image */}
       <div className="aspect-[16/9] w-full rounded overflow-hidden bg-slate-100 mb-8 border border-slate-200">
         <img
-          src={post.featuredImage}
+          src={sanitizeUrl(post.featuredImage) || fallbackImage}
           alt={post.title}
           width={800}
           height={450}

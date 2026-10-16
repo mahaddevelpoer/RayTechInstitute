@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { EducationalStore } from '@/data/educationalStore';
 import { VideoInteractiveMCQ } from '@/types/educational';
 import { Play, CheckCircle2, XCircle, Award, RotateCcw, ArrowRight, HelpCircle } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 declare global {
   interface Window {
@@ -177,7 +178,7 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
 
   // Thumbnail Facade View (Before play button is pressed)
   if (!isPlaying) {
-    const imgSrc = thumbnail || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+    const imgSrc = sanitizeUrl(thumbnail) || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
     return (
       <div className={`space-y-2 ${className}`}>
         <div

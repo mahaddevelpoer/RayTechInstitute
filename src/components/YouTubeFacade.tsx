@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Play } from 'lucide-react';
+import { sanitizeUrl } from '@/utils/security';
 
 interface YouTubeFacadeProps {
   videoId: string;
@@ -20,9 +21,8 @@ export const YouTubeFacade: React.FC<YouTubeFacadeProps> = ({
   className = '',
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [imgSrc, setImgSrc] = useState(
-    thumbnail || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`
-  );
+  const fallbackThumbnail = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+  const [imgSrc, setImgSrc] = useState(sanitizeUrl(thumbnail) || fallbackThumbnail);
 
   const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=${autoPlayOnClick ? '1' : '0'}&rel=0&modestbranding=1`;
 
@@ -60,7 +60,7 @@ export const YouTubeFacade: React.FC<YouTubeFacadeProps> = ({
         alt={title}
         width={640}
         height={360}
-        onError={() => setImgSrc(`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`)}
+        onError={() => setImgSrc(fallbackThumbnail)}
         className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02] filter brightness-[0.88] group-hover:brightness-95"
         loading="lazy"
       />
