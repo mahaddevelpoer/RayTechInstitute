@@ -177,8 +177,9 @@ export default function AdminVideosInteractiveMCQPage() {
             <span>{isSyncing ? 'Syncing Channel...' : `${lectures.length} Videos Live`}</span>
           </span>
           <Link
-            href="/"
-            target="_blank"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
             className="btn-outline text-xs py-1.5 px-3 flex items-center gap-1"
           >
             <span>Preview Player</span>

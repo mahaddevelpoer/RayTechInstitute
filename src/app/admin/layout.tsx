@@ -121,6 +121,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <Link
             href="/"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1 text-slate-200 hover:text-white transition-colors text-xs ml-3"
           >
             <span>Visit Live Website</span>
