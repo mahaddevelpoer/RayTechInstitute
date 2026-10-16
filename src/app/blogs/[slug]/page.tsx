@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { INITIAL_BLOGS } from '@/data/staticCatalog';
 import { BlogDetailClientView } from '@/components/educational/BlogDetailClientView';
+import { buildSeoTitle } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_BLOGS.map((b) => ({
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = INITIAL_BLOGS.find((b) => b.slug === slug);
   if (!post) {
     return {
-      title: 'Educational Bulletin & Update | RayTech Institute',
+      title: buildSeoTitle('Educational Bulletin and Update'),
       description: 'Official board examination alerts, admissions schedules, and academic news.',
       alternates: {
         canonical: `https://raytechinstitute.web.app/blogs/${slug}/`,
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const seoTitle = `${post.title.slice(0, 42).trimEnd()}${post.title.length > 42 ? '...' : ''} | RayTech`;
+  const seoTitle = buildSeoTitle(post.title);
   const seoDescription = post.excerpt.length > 155
     ? `${post.excerpt.slice(0, 152).replace(/\s+\S*$/, '')}...`
     : post.excerpt;

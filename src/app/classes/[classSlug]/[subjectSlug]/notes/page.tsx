@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INITIAL_SUBJECTS, INITIAL_CLASSES } from '@/data/staticCatalog';
 import { NotesClientView } from '@/components/educational/NotesClientView';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_SUBJECTS.map((s) => ({
@@ -29,13 +29,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
+    title: buildSeoTitle(`${className} ${currentSubject.title} Notes PDF`),
     description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
     alternates: {
       canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/`,
     },
     openGraph: {
-      title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
+      title: buildSeoTitle(`${className} ${currentSubject.title} Notes PDF`),
       description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
       url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/notes/`,
       type: 'website',

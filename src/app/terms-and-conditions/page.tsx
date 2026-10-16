@@ -3,9 +3,10 @@ import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Shield, ArrowLeft } from 'lucide-react';
+import { buildSeoTitle } from '@/utils/seo';
 
 export const metadata = {
-  title: 'Terms & Conditions | RayTech Institute Educational Archive',
+  title: buildSeoTitle('Terms and Conditions for RayTech students'),
   description: 'Read the terms, content-use rules, source-link guidance, and educational disclaimer for the RayTech Institute study archive.',
   alternates: {
     canonical: 'https://raytechinstitute.web.app/terms-and-conditions/',

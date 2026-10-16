@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { channelData } from '@/data/channel';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 import { ThemeProvider } from '@/hooks/useTheme';
 import { FirebaseAnalytics } from '@/components/FirebaseAnalytics';
 import { CompilerMount } from '@/components/compiler/CompilerMount';
@@ -11,7 +11,7 @@ import NotificationPrompt from '@/components/NotificationPrompt';
 export const metadata: Metadata = {
   metadataBase: new URL('https://raytechinstitute.web.app'),
   title: {
-    default: '11th & 12th Computer Science Resources | RayTech',
+    default: buildSeoTitle('11th and 12th Computer Science Resources'),
     template: '%s',
   },
   description: 'Study 11th and 12th class computer science with notes, chapter-wise MCQs, Punjab Board past papers, and official result gazettes.',

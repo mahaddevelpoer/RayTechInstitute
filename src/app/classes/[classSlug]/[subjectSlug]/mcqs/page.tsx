@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INITIAL_SUBJECTS, INITIAL_CLASSES, INITIAL_MCQS } from '@/data/staticCatalog';
 import { MCQClientView } from '@/components/educational/MCQClientView';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_SUBJECTS.map((s) => ({
@@ -29,13 +29,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
+    title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
     description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
     alternates: {
       canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/mcqs/`,
     },
     openGraph: {
-      title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
+      title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
       description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
       url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/mcqs/`,
       type: 'website',

@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { ClassesClientView } from '@/components/educational/ClassesClientView';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 
 export const metadata: Metadata = {
-  title: '11th & 12th Class Notes & Past Papers | RayTech',
+  title: buildSeoTitle('11th and 12th Class Notes and Past Papers'),
   description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
   alternates: {
     canonical: 'https://raytechinstitute.web.app/classes/',
   },
   openGraph: {
-    title: '11th & 12th Class Notes & Past Papers | RayTech',
+    title: buildSeoTitle('11th and 12th Class Notes and Past Papers'),
     description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
     url: 'https://raytechinstitute.web.app/classes/',
     type: 'website',

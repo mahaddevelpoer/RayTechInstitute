@@ -6,7 +6,7 @@ import { Shield, ArrowLeft } from 'lucide-react';
 
 export const metadata = {
   title: 'Privacy Policy | RayTech Institute Educational Archive',
-  description: 'Official privacy policy regarding educational materials, user data protection, and cookie compliance.',
+  description: 'Official privacy policy regarding educational materials, user data protection, cookie compliance, and transparent site operations.',
   alternates: {
     canonical: 'https://raytechinstitute.web.app/privacy-policy/',
   },

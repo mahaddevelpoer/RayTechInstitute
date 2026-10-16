@@ -7,6 +7,7 @@ import { Footer } from '@/components/Footer';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS } from '@/data/staticCatalog';
 import { BookOpen, FileText, HelpCircle, FileCode, ArrowRight, ArrowLeft } from 'lucide-react';
 import { serializeJsonLd } from '@/utils/seo';
+import { buildSeoTitle } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_CLASSES.map((c) => ({
@@ -27,13 +28,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${className} Study Resources & Notes | RayTech`,
+    title: buildSeoTitle(`${className} Study Resources & Notes`),
     description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
     alternates: {
       canonical: `https://raytechinstitute.web.app/classes/${classSlug}/`,
     },
     openGraph: {
-      title: `${className} Study Resources & Notes | RayTech`,
+      title: buildSeoTitle(`${className} Study Resources & Notes`),
       description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
       url: `https://raytechinstitute.web.app/classes/${classSlug}/`,
       type: 'website',

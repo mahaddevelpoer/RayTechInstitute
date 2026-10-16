@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
 import { INITIAL_CLASSES, INITIAL_GAZETTES } from '@/data/staticCatalog';
+import { buildSeoTitle } from '@/utils/seo';
 
 const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -14,9 +15,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ gazetteSlug: string }> }): Promise<Metadata> {
   const { gazetteSlug } = await params;
   const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === gazetteSlug);
-  const title = gazette ? `${gazette.board} ${gazette.year} Result Gazette | RayTech` : 'Result Gazette Details | RayTech';
+  const title = buildSeoTitle(gazette ? `${gazette.board} ${gazette.year} Result Gazette` : 'Result Gazette Details');
   const description = gazette
-    ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, and PDF preview for students.`
+    ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, PDF preview, and verification guidance for students.`
     : 'View official intermediate result gazette details and PDF resources.';
   return {
     title,

@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_PAST_PAPERS } from '@/data/staticCatalog';
+import { buildSeoTitle } from '@/utils/seo';
 
 const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ classSlug
   const paper = INITIAL_PAST_PAPERS.find((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug && slug(item.id) === paperSlug);
   const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
   if (!paper || !currentSubject) return {};
-  const title = `${currentSubject.title} ${paper.year} Past Paper PDF | RayTech`;
+  const title = buildSeoTitle(`${currentSubject.title} ${paper.year} Past Paper PDF`);
   const description = paper.description || `View the ${paper.board} ${paper.year} ${currentSubject.title} past paper PDF for intermediate exam practice, revision, and board-style preparation.`;
   return {
     title,

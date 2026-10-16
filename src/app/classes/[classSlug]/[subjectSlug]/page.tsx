@@ -6,7 +6,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_NOTES, INITIAL_MCQS, INITIAL_PAST_PAPERS } from '@/data/staticCatalog';
 import { BookOpen, FileText, HelpCircle, FileCode, ArrowRight, ArrowLeft } from 'lucide-react';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_SUBJECTS.map((s) => ({
@@ -32,14 +32,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${className} ${currentSubject.title} Study Material | RayTech`,
-    description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
+    title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
+    description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title} for exam revision.`,
     alternates: {
       canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
     },
     openGraph: {
-      title: `${className} ${currentSubject.title} Study Material | RayTech`,
-      description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title}.`,
+      title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
+      description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title} for exam revision.`,
       url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
       type: 'website',
     },

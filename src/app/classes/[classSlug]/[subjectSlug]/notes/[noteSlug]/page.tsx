@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { PdfDetailClientView } from '@/components/educational/PdfDetailClientView';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_NOTES } from '@/data/staticCatalog';
+import { buildSeoTitle } from '@/utils/seo';
 
 const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ classSlug
   const note = INITIAL_NOTES.find((item) => item.classSlug === classSlug && item.subjectSlug === subjectSlug && slug(item.id) === noteSlug);
   const currentSubject = INITIAL_SUBJECTS.find((item) => item.classSlug === classSlug && item.slug === subjectSlug);
   if (!note || !currentSubject) return {};
-  const title = `${currentSubject.title} Chapter ${note.chapterNumber} Notes PDF | RayTech`;
+  const title = buildSeoTitle(`${currentSubject.title} Chapter ${note.chapterNumber} Notes PDF`);
   const description = note.description || `Chapter ${note.chapterNumber} ${currentSubject.title} notes in PDF format for intermediate students.`;
   return {
     title,

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INITIAL_SUBJECTS, INITIAL_CLASSES } from '@/data/staticCatalog';
 import { PastPapersClientView } from '@/components/educational/PastPapersClientView';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 
 export function generateStaticParams() {
   return INITIAL_SUBJECTS.map((s) => ({
@@ -29,13 +29,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${className} ${currentSubject.title} Past Papers | RayTech`,
+    title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
     description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
     alternates: {
       canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
     },
     openGraph: {
-      title: `${className} ${currentSubject.title} Past Papers | RayTech`,
+      title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
       description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
       url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
       type: 'website',

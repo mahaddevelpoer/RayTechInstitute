@@ -4,16 +4,16 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { ResultsGazettesClientView } from '@/components/educational/ResultsGazettesClientView';
 import { INITIAL_GAZETTES } from '@/data/staticCatalog';
-import { serializeJsonLd } from '@/utils/seo';
+import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
 
 export const metadata: Metadata = {
-  title: '11th & 12th Class Result Gazettes | RayTech',
+  title: buildSeoTitle('11th and 12th Class Result Gazettes'),
   description: 'Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.',
   alternates: {
     canonical: 'https://raytechinstitute.web.app/results-gazettes/',
   },
   openGraph: {
-    title: '11th & 12th Class Result Gazettes | RayTech',
+    title: buildSeoTitle('11th and 12th Class Result Gazettes'),
     description: 'Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.',
     url: 'https://raytechinstitute.web.app/results-gazettes/',
     type: 'website',

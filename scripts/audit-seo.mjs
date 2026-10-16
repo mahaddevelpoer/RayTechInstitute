@@ -23,13 +23,23 @@ const warnings = [];
 const canonicalHosts = new Map();
 const expectedCanonicalHost = 'raytechinstitute.web.app';
 
+function decodeHtml(value) {
+  return value
+    .replaceAll('&amp;', '&')
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#x27;', "'")
+    .replaceAll('&#39;', "'")
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>');
+}
+
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
   const relative = `/${path.relative(root, file).replaceAll(path.sep, '/')}`.replace(/\/index\.html$/, '/');
   if (relative.startsWith('/admin/')) continue;
   if (relative === '/blogs/post/') continue;
-  const title = html.match(/<title>([^<]*)<\/title>/i)?.[1]?.trim() || '';
-  const description = html.match(/<meta[^>]+name="description"[^>]+content="([^"]*)"/i)?.[1]?.trim() || '';
+  const title = decodeHtml(html.match(/<title>([^<]*)<\/title>/i)?.[1]?.trim() || '');
+  const description = decodeHtml(html.match(/<meta[^>]+name="description"[^>]+content="([^"]*)"/i)?.[1]?.trim() || '');
   const canonical = html.match(/<link[^>]+rel="canonical"[^>]+href="([^"]+)"/i)?.[1] || '';
   const robots = html.match(/<meta[^>]+name="robots"[^>]+content="([^"]*)"/i)?.[1] || '';
   const h1Count = (html.match(/<h1\b/gi) || []).length;
@@ -47,8 +57,8 @@ for (const file of htmlFiles) {
   if (h1Count !== 1) failures.push(`${relative}: expected 1 h1, found ${h1Count}`);
   if (jsonLdCount === 0) warnings.push(`${relative}: no JSON-LD block detected`);
   if (duplicateHeadings.length) warnings.push(`${relative}: duplicate heading text (${duplicateHeadings.slice(0, 3).join(' | ')})`);
-  if (title.length < 30 || title.length > 65) warnings.push(`${relative}: title length ${title.length}`);
-  if (description.length < 100 || description.length > 165) warnings.push(`${relative}: description length ${description.length}`);
+  if (title.length < 50 || title.length > 60) failures.push(`${relative}: title length ${title.length}; expected 50-60`);
+  if (description.length < 120 || description.length > 155) failures.push(`${relative}: description length ${description.length}; expected 120-155`);
   try {
     const host = new URL(canonical).host;
     canonicalHosts.set(host, (canonicalHosts.get(host) || 0) + 1);
