@@ -329,6 +329,17 @@ function wordCount(value: unknown): number {
   return typeof value === 'string' ? value.trim().split(/\s+/).filter(Boolean).length : 0;
 }
 
+function validateLongFormContent(item: any, minimumWords: number, label: string, minimumHeadings: number): any {
+  if (!item || typeof item !== 'object') throw new Error(`AI returned an invalid ${label} object.`);
+  const title = String(item.title || '').trim();
+  const content = String(item.content || '').trim();
+  const headingCount = (content.match(/^#{2,6}\s+\S.+$/gm) || []).length;
+  if (title.length < 12) throw new Error(`AI ${label} is missing a useful title.`);
+  if (wordCount(content) < minimumWords) throw new Error(`AI ${label} must contain at least ${minimumWords} words.`);
+  if (headingCount < minimumHeadings) throw new Error(`AI ${label} must contain at least ${minimumHeadings} structured Markdown headings.`);
+  return { ...item, title, content };
+}
+
 async function expandIfTooShort(apiKey: string, item: any, minimumWords: number, label: string): Promise<any> {
   if (wordCount(item?.content) >= minimumWords) return item;
   let best = item;
@@ -595,8 +606,8 @@ Write a complete topic-specific pillar guide of at least 3,000 words (target 3,0
       try {
         const rawText = await callGeminiCascade(geminiApiKey, systemPrompt, userPrompt, 24576, 0.35);
         const parsedArticle = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 3000, 'article');
-        if (wordCount(parsedArticle?.content) < 3000) throw new Error('AI article did not meet the 3,000-word quality threshold after expansion.');
-        return respond({ success: true, article: parsedArticle });
+        const validatedArticle = validateLongFormContent(parsedArticle, 3000, 'article', 4);
+        return respond({ success: true, article: validatedArticle });
       } catch (err: any) {
         return respond({
           success: false,
@@ -752,8 +763,8 @@ Return response STRICTLY as a valid JSON object matching:
       try {
         const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate an exhaustive official gazette result notification in JSON, with at least 1,800 words in content. Do not summarize; include complete headings, tables, procedures, verification steps, rechecking rules, and student guidance.", 16384, 0.3);
         const parsedGazette = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 1800, 'result gazette');
-        if (wordCount(parsedGazette?.content) < 1800) throw new Error('AI gazette content did not meet the 1,800-word quality threshold after expansion.');
-        return respond({ success: true, gazette: parsedGazette });
+        const validatedGazette = validateLongFormContent(parsedGazette, 1800, 'result gazette', 4);
+        return respond({ success: true, gazette: validatedGazette });
       } catch (err: any) {
         return respond({
           success: false,
@@ -819,8 +830,8 @@ STRICT MANDATORY RULES:
       try {
         const rawText = await callGeminiCascade(geminiApiKey, notesSystemPrompt, "Generate a complete chapter notes study guide in JSON format with at least 2,500 words in content. Do not use unescaped double quotes inside content and do not shorten any mandatory section.", 24576, 0.3);
         const parsedNote = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 2500, 'chapter study guide');
-        if (wordCount(parsedNote?.content) < 2500) throw new Error('AI notes content did not meet the 2,500-word quality threshold after expansion.');
-        return respond({ success: true, note: parsedNote });
+        const validatedNote = validateLongFormContent(parsedNote, 2500, 'chapter study guide', 6);
+        return respond({ success: true, note: validatedNote });
       } catch (err: any) {
         return respond({
           success: false,
