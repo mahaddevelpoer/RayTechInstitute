@@ -29,6 +29,13 @@ for (const file of files) {
     }
   }
 
+  for (const match of source.matchAll(/<a\b[\s\S]*?>/g)) {
+    const tag = match[0];
+    if (/target=["']_blank["']/.test(tag) && !/noopener/.test(tag)) {
+      failures.push(`${file}: target=_blank anchor is missing rel=noopener`);
+    }
+  }
+
   if (/href=\{\s*(?:channelData\.|lecture\.)/.test(source) && !source.includes('sanitizeUrl')) {
     failures.push(`${file}: dynamic external href must use sanitizeUrl`);
   }
