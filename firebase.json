@@ -58,6 +58,10 @@
           {
             "key": "Strict-Transport-Security",
             "value": "max-age=31536000; includeSubDomains; preload"
+          },
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://images.unsplash.com https://i.ytimg.com https://yt3.googleusercontent.com https://encrypted-tbn0.gstatic.com; font-src 'self' data:; connect-src 'self' https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests"
           }
         ]
       }
