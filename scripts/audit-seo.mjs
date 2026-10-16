@@ -33,6 +33,20 @@ function decodeHtml(value) {
     .replaceAll('&gt;', '>');
 }
 
+function resolveInternalTarget(href) {
+  const withoutFragment = href.split('#')[0].split('?')[0];
+  if (!withoutFragment || !withoutFragment.startsWith('/') || withoutFragment.startsWith('//')) return null;
+  if (withoutFragment.startsWith('/_next/') || withoutFragment.startsWith('/assets/')) return null;
+  return decodeURIComponent(withoutFragment).replace(/\/+$/, '') || '/';
+}
+
+function exportedPathExists(route) {
+  if (route === '/') return fs.existsSync(path.join(root, 'index.html'));
+  const relative = route.replace(/^\//, '');
+  if (path.extname(relative)) return fs.existsSync(path.join(root, relative));
+  return fs.existsSync(path.join(root, relative, 'index.html'));
+}
+
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
   const relative = `/${path.relative(root, file).replaceAll(path.sep, '/')}`.replace(/\/index\.html$/, '/');
@@ -48,6 +62,13 @@ for (const file of htmlFiles) {
     .map((match) => match[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase())
     .filter(Boolean);
   const duplicateHeadings = [...new Set(headings.filter((heading, index) => headings.indexOf(heading) !== index))];
+
+  for (const match of html.matchAll(/\bhref="([^"]+)"/gi)) {
+    const target = resolveInternalTarget(decodeHtml(match[1]));
+    if (target && !exportedPathExists(target)) {
+      failures.push(`${relative}: broken internal link ${target}`);
+    }
+  }
 
   if (/noindex/i.test(robots)) continue;
 
