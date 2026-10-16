@@ -362,11 +362,14 @@ async function expandIfTooShort(apiKey: string, item: any, minimumWords: number,
 
 function validateMcqs(value: any, expectedCount: number): any[] {
   if (!Array.isArray(value)) throw new Error('AI response did not contain an MCQ array.');
+  const seenQuestions = new Set<string>();
   const valid = value.filter((item) => {
+    const question = String(item?.question || '').trim();
     const options = Array.isArray(item?.options) ? item.options.map((option: unknown) => String(option || '').trim()) : [];
     const distinctOptions = new Set(options.map((option) => option.toLocaleLowerCase().replace(/\s+/g, ' ')));
     const explanation = String(item?.explanation || '').trim();
-    return String(item?.question || '').trim().length >= 12
+    const normalizedQuestion = question.toLocaleLowerCase().replace(/\s+/g, ' ');
+    const isValid = question.length >= 12
       && options.length === 4
       && options.every(Boolean)
       && distinctOptions.size === 4
@@ -374,6 +377,9 @@ function validateMcqs(value: any, expectedCount: number): any[] {
       && item.correctIndex >= 0
       && item.correctIndex <= 3
       && explanation.length >= 20;
+    if (!isValid || seenQuestions.has(normalizedQuestion)) return false;
+    seenQuestions.add(normalizedQuestion);
+    return true;
   }).map((item) => ({
     question: String(item.question).trim(),
     codeSnippet: item.codeSnippet ? String(item.codeSnippet) : undefined,
