@@ -48,9 +48,9 @@ export default function NotificationPrompt() {
         if ('serviceWorker' in navigator) {
           try {
             await navigator.serviceWorker.register('/firebase-messaging-sw.js');
-          } catch (e) {
-            console.log('SW registration error:', e);
-          }
+            } catch {
+              // Notification support is optional; continue without the worker.
+            }
         }
 
         // Try getting token from Firebase Messaging if available
