@@ -48,7 +48,7 @@ The previous report contained several claims that were broader than the availabl
 
 | Area | Current result | Confidence | Evidence |
 |---|---|---|---|
-| Production build | Passed | Confirmed | `npm run build` generated 61 static pages with no TypeScript or export errors |
+| Production build | Passed | Confirmed | `npm run build` generated 61 static pages, then ran the strict SEO and exported-link audit with no failures |
 | SEO regression gate | Added | Confirmed | `npm run audit:seo` checks title, description, canonical, JSON-LD presence and one H1 per generated page |
 | Public routes | Passed | Confirmed | Home, classes, blogs and MCQ routes returned HTTP 200 after Firebase deployment |
 | Admin mutations | Passed | Confirmed | Live Edge Function insert, read and delete test returned create=true, readCount=1, afterDeleteCount=0 |
@@ -56,7 +56,8 @@ The previous report contained several claims that were broader than the availabl
 | Python compiler | Improved | Confirmed | Resizable panel, viewport bounds, drag cleanup, accessible controls and mobile-safe dimensions implemented |
 | Markdown links | Hardened | Confirmed | Rendered links pass through `sanitizeUrl`; protocol-relative URLs are rejected |
 | Inline structured data | Hardened | Confirmed | JSON-LD now uses `serializeJsonLd`, escaping script-breaking characters before insertion into inline `<script>` blocks |
-| AI output quality | Hardened | Confirmed | Model discovery fallback, strict MCQ validation and minimum word-count acceptance checks added |
+| AI output quality | Hardened | Confirmed | Model discovery fallback, minimum word-count acceptance, unique-question MCQ validation, distinct options, and explanation-length checks added |
+| Exported navigation | Passed | Confirmed | The build audit resolves every internal HTML link against an exported route or asset and fails on missing targets |
 | Dependency audit | Current production dependency scan | Passed | `npm audit --omit=dev --audit-level=high` reports `0 vulnerabilities` |
 | Google rich-result eligibility | Needs ongoing review | Likely | Metadata and JSON-LD are present, but third-party Search Console and Core Web Vitals data are not available from this workspace |
 
