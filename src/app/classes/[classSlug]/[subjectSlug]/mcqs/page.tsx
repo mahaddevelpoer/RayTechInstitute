@@ -1,6 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
 import { INITIAL_SUBJECTS, INITIAL_CLASSES, INITIAL_MCQS } from '@/data/staticCatalog';
 import { MCQClientView } from '@/components/educational/MCQClientView';
 import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
@@ -80,12 +82,14 @@ export default async function SubjectMCQsServerPage({ params }: PageProps) {
   };
 
   return (
-    <>
+    <div className="min-h-screen bg-white text-slate-800 flex flex-col">
+      <Header />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
       <MCQClientView classSlug={classSlug} subjectSlug={subjectSlug} />
-    </>
+      <Footer />
+    </div>
   );
 }
