@@ -84,10 +84,12 @@ async function requestStaticRebuild(table: string, id?: string): Promise<void> {
       },
     });
     if (error || !data?.success) {
-      console.warn('[static-publish] Rebuild trigger failed:', error?.message || data?.error || 'Unknown error');
+      // The database mutation has already completed. Publishing is retried by
+      // the webhook, so do not expose transport details in the browser console.
+      return;
     }
-  } catch (error) {
-    console.warn('[static-publish] Rebuild trigger unavailable:', error);
+  } catch {
+    // Best effort only: the database webhook remains the reliable fallback.
   }
 }
 
