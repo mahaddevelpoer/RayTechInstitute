@@ -287,12 +287,15 @@ async function callGeminiCascade(
   maxOutputTokens: number = 8192,
   temperature: number = 0.3
 ): Promise<string> {
-  // Requested Gemini Flash Lite fallback cascade
-  const models = [
+  // Preferred production models. The API catalog below filters this list to
+  // models actually enabled for the current key before any generation call.
+  const preferredModels = [
     "gemini-3.1-flash-lite",
     "gemini-2.5-flash-lite",
-    "gemini-3.6-flash-lite",
+    "gemini-3.5-flash-lite",
+    "gemini-3.6-flash",
   ];
+  let models = [...preferredModels];
 
   let lastErrorText = "";
   try {
@@ -303,7 +306,8 @@ async function callGeminiCascade(
         .filter((item: any) => item.supportedGenerationMethods?.includes('generateContent'))
         .map((item: any) => String(item.name || '').replace(/^models\//, ''))
         .filter((name: string) => /flash/i.test(name));
-      for (const model of supported) if (!models.includes(model)) models.push(model);
+      const preferredSupported = preferredModels.filter((model) => supported.includes(model));
+      models = [...preferredSupported, ...supported.filter((model: string) => !preferredSupported.includes(model))];
     }
   } catch {
     // Keep the requested cascade when model discovery is unavailable.
