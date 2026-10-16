@@ -172,6 +172,15 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
     return () => window.removeEventListener('resize', keepInViewport);
   }, [size.width, size.height]);
 
+  useEffect(() => {
+    if (isMinimized) return;
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setIsMinimized(true);
+    };
+    window.addEventListener('keydown', handleEscape);
+    return () => window.removeEventListener('keydown', handleEscape);
+  }, [isMinimized]);
+
   const handleResizeStart = (event: React.PointerEvent<HTMLButtonElement>) => {
     event.preventDefault();
     event.stopPropagation();
@@ -182,6 +191,27 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
       height: size.height,
     };
     setIsResizing(true);
+  };
+
+  const handleResizeKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
+    const directions: Record<string, { width: number; height: number }> = {
+      ArrowRight: { width: 1, height: 0 },
+      ArrowLeft: { width: -1, height: 0 },
+      ArrowDown: { width: 0, height: 1 },
+      ArrowUp: { width: 0, height: -1 },
+    };
+    const direction = directions[event.key];
+    if (!direction) return;
+    event.preventDefault();
+    const step = event.shiftKey ? 50 : 10;
+    const minWidth = Math.min(320, Math.max(240, window.innerWidth - 16));
+    const minHeight = Math.min(360, Math.max(240, window.innerHeight - 16));
+    const maxWidth = Math.max(minWidth, window.innerWidth - 16);
+    const maxHeight = Math.max(minHeight, window.innerHeight - 16);
+    setSize((current) => ({
+      width: Math.min(maxWidth, Math.max(minWidth, current.width + direction.width * step)),
+      height: Math.min(maxHeight, Math.max(minHeight, current.height + direction.height * step)),
+    }));
   };
 
   const handleRunCode = async () => {
@@ -250,6 +280,8 @@ sys.stderr = io.StringIO()
 
   return (
     <div
+      role="dialog"
+      aria-label="RayTech Python compiler"
       style={{
         position: 'fixed',
         top: `${position.y}px`,
@@ -402,9 +434,10 @@ sys.stderr = io.StringIO()
       <button
         type="button"
         onPointerDown={handleResizeStart}
-        className="absolute bottom-1 right-1 z-10 flex h-8 w-8 cursor-se-resize items-end justify-end rounded-br-lg p-1 text-slate-400 hover:text-navy-600"
+        onKeyDown={handleResizeKeyDown}
+        className="absolute bottom-1 right-1 z-10 flex h-8 w-8 cursor-se-resize items-end justify-end rounded-br-lg p-1 text-slate-400 hover:text-navy-600 focus:outline-none focus:ring-2 focus:ring-navy-500"
         title="Resize compiler window"
-        aria-label="Resize compiler window"
+        aria-label="Resize compiler window. Use arrow keys to resize, or hold Shift for larger steps."
       >
         <Maximize2 className="h-3.5 w-3.5 rotate-90" aria-hidden="true" />
       </button>
