@@ -323,7 +323,7 @@ sys.stderr = io.StringIO()
         <div className="flex items-center gap-1.5">
           <button
             onClick={() => setIsMinimized(true)}
-            className="min-h-9 min-w-9 p-2 hover:bg-white/20 rounded text-white transition-colors"
+            className="min-h-12 min-w-12 p-2 hover:bg-white/20 rounded text-white transition-colors"
             title="Minimize"
             aria-label="Minimize Python compiler"
           >
@@ -331,7 +331,7 @@ sys.stderr = io.StringIO()
           </button>
           <button
             onClick={() => setIsMinimized(true)}
-            className="min-h-9 min-w-9 p-2 hover:bg-red-500 rounded text-white transition-colors"
+            className="min-h-12 min-w-12 p-2 hover:bg-red-500 rounded text-white transition-colors"
             title="Close"
             aria-label="Close Python compiler"
           >
@@ -435,7 +435,7 @@ sys.stderr = io.StringIO()
         type="button"
         onPointerDown={handleResizeStart}
         onKeyDown={handleResizeKeyDown}
-        className="absolute bottom-1 right-1 z-10 flex h-8 w-8 cursor-se-resize items-end justify-end rounded-br-lg p-1 text-slate-400 hover:text-navy-600 focus:outline-none focus:ring-2 focus:ring-navy-500"
+        className="absolute bottom-0 right-0 z-10 flex h-12 w-12 cursor-se-resize items-end justify-end rounded-br-lg p-2 text-slate-400 hover:text-navy-600 focus:outline-none focus:ring-2 focus:ring-navy-500"
         title="Resize compiler window"
         aria-label="Resize compiler window. Use arrow keys to resize, or hold Shift for larger steps."
       >
