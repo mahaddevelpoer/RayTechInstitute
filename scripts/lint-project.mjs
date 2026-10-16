@@ -36,6 +36,16 @@ for (const file of files) {
     }
   }
 
+  let insideForm = false;
+  for (const match of source.matchAll(/<\/?form\b[^>]*>|<button\b[^>]*>/g)) {
+    const tag = match[0];
+    if (/^<form\b/.test(tag)) insideForm = true;
+    else if (/^<\/form/.test(tag)) insideForm = false;
+    else if (insideForm && !/\btype\s*=/.test(tag)) {
+      failures.push(`${file}: form button is missing an explicit type`);
+    }
+  }
+
   if (/href=\{\s*(?:channelData\.|lecture\.)/.test(source) && !source.includes('sanitizeUrl')) {
     failures.push(`${file}: dynamic external href must use sanitizeUrl`);
   }
