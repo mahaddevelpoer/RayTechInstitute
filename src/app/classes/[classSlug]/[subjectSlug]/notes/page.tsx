@@ -24,15 +24,16 @@ export function generateMetadata({ params }: PageProps): Metadata {
     (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${currentClass.title} ${currentSubject.title} Notes (PDF) | RayTech`,
+    title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
     description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
     alternates: {
       canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
     },
     openGraph: {
-      title: `${currentClass.title} ${currentSubject.title} Notes (PDF) | RayTech`,
+      title: `${className} ${currentSubject.title} Notes PDF | RayTech`,
       description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
       url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/notes/`,
       type: 'website',

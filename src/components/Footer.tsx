@@ -19,9 +19,9 @@ export const Footer: React.FC = () => {
           
           {/* Col 1: Institute About */}
           <div className="md:col-span-1 space-y-3">
-            <h3 className="font-bold text-white text-base">
+            <p className="font-bold text-white text-base">
               {channelData.name}
-            </h3>
+            </p>
             <p className="text-slate-400 text-xs leading-relaxed">
               {channelData.tagline}
             </p>

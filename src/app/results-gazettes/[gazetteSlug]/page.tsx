@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { gazetteSlug: string } }
   const gazette = INITIAL_GAZETTES.find((item) => slug(item.id) === params.gazetteSlug);
   const title = gazette ? `${gazette.board} ${gazette.year} Result Gazette | RayTech` : 'Result Gazette Details | RayTech';
   const description = gazette
-    ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette with board context and PDF preview.`
+    ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, and PDF preview for students.`
     : 'View official intermediate result gazette details and PDF resources.';
   return {
     title,

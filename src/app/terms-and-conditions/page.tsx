@@ -6,7 +6,7 @@ import { Shield, ArrowLeft } from 'lucide-react';
 
 export const metadata = {
   title: 'Terms & Conditions | RayTech Institute Educational Archive',
-  description: 'Terms of service and user agreements for RayTech Institute educational platform.',
+  description: 'Read the terms, content-use rules, source-link guidance, and educational disclaimer for the RayTech Institute study archive.',
   alternates: {
     canonical: 'https://raytechinstitute.firebaseapp.com/terms-and-conditions/',
   },

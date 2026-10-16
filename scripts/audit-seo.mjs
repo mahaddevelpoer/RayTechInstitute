@@ -20,6 +20,7 @@ if (!fs.existsSync(root)) {
 walk(root);
 const failures = [];
 const warnings = [];
+const canonicalHosts = new Map();
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
@@ -32,6 +33,10 @@ for (const file of htmlFiles) {
   const robots = html.match(/<meta[^>]+name="robots"[^>]+content="([^"]*)"/i)?.[1] || '';
   const h1Count = (html.match(/<h1\b/gi) || []).length;
   const jsonLdCount = (html.match(/application\/ld\+json/gi) || []).length;
+  const headings = [...html.matchAll(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/gi)]
+    .map((match) => match[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase())
+    .filter(Boolean);
+  const duplicateHeadings = [...new Set(headings.filter((heading, index) => headings.indexOf(heading) !== index))];
 
   if (/noindex/i.test(robots)) continue;
 
@@ -40,11 +45,19 @@ for (const file of htmlFiles) {
   if (!canonical) failures.push(`${relative}: missing canonical`);
   if (h1Count !== 1) failures.push(`${relative}: expected 1 h1, found ${h1Count}`);
   if (jsonLdCount === 0) warnings.push(`${relative}: no JSON-LD block detected`);
+  if (duplicateHeadings.length) warnings.push(`${relative}: duplicate heading text (${duplicateHeadings.slice(0, 3).join(' | ')})`);
   if (title.length < 30 || title.length > 65) warnings.push(`${relative}: title length ${title.length}`);
   if (description.length < 100 || description.length > 165) warnings.push(`${relative}: description length ${description.length}`);
+  try {
+    const host = new URL(canonical).host;
+    canonicalHosts.set(host, (canonicalHosts.get(host) || 0) + 1);
+  } catch {
+    failures.push(`${relative}: invalid canonical URL`);
+  }
 }
 
 console.log(`[seo] audited ${htmlFiles.length} public HTML pages`);
+if (canonicalHosts.size > 1) warnings.push(`[site] canonical URLs use multiple hosts: ${[...canonicalHosts.keys()].join(', ')}`);
 if (warnings.length) console.log(`[seo] warnings (${warnings.length})\n${warnings.join('\n')}`);
 if (failures.length) {
   console.error(`[seo] failures (${failures.length})\n${failures.join('\n')}`);

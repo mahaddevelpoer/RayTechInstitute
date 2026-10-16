@@ -6,13 +6,13 @@ import { ResultsGazettesClientView } from '@/components/educational/ResultsGazet
 import { INITIAL_GAZETTES } from '@/data/staticCatalog';
 
 export const metadata: Metadata = {
-  title: 'BISE Punjab & FBISE Result Gazettes (11th & 12th) | RayTech',
+  title: '11th & 12th Class Result Gazettes | RayTech',
   description: 'Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.',
   alternates: {
     canonical: 'https://raytechinstitute.firebaseapp.com/results-gazettes/',
   },
   openGraph: {
-    title: 'BISE Punjab & FBISE Result Gazettes (11th & 12th) | RayTech',
+    title: '11th & 12th Class Result Gazettes | RayTech',
     description: 'Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.',
     url: 'https://raytechinstitute.firebaseapp.com/results-gazettes/',
     type: 'website',

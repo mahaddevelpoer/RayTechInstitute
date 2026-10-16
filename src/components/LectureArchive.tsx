@@ -175,9 +175,9 @@ export const LectureArchive: React.FC<LectureArchiveProps> = ({
                         <span className="badge-accent text-[10px]">{lec.subCategory}</span>
                       )}
                     </div>
-                    <h3 className="font-semibold text-navy-900 text-sm line-clamp-2 mb-2 group-hover:text-navy-600 transition-colors">
+                    <p className="font-semibold text-navy-900 text-sm line-clamp-2 mb-2 group-hover:text-navy-600 transition-colors">
                       {lec.title}
-                    </h3>
+                    </p>
                     <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
                       {lec.description}
                     </p>

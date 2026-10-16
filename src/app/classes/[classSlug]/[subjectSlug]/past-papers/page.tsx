@@ -24,15 +24,16 @@ export function generateMetadata({ params }: PageProps): Metadata {
     (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${currentClass.title} ${currentSubject.title} Past Papers | RayTech`,
+    title: `${className} ${currentSubject.title} Past Papers | RayTech`,
     description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
     alternates: {
       canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
     },
     openGraph: {
-      title: `${currentClass.title} ${currentSubject.title} Past Papers | RayTech`,
+      title: `${className} ${currentSubject.title} Past Papers | RayTech`,
       description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
       url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/past-papers/`,
       type: 'website',

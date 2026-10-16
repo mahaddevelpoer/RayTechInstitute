@@ -5,13 +5,13 @@ import { Footer } from '@/components/Footer';
 import { ClassesClientView } from '@/components/educational/ClassesClientView';
 
 export const metadata: Metadata = {
-  title: '11th & 12th Class Study Resources, Notes & Past Papers | RayTech',
+  title: '11th & 12th Class Notes & Past Papers | RayTech',
   description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
   alternates: {
     canonical: 'https://raytechinstitute.firebaseapp.com/classes/',
   },
   openGraph: {
-    title: '11th & 12th Class Study Resources, Notes & Past Papers | RayTech',
+    title: '11th & 12th Class Notes & Past Papers | RayTech',
     description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
     url: 'https://raytechinstitute.firebaseapp.com/classes/',
     type: 'website',

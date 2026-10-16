@@ -22,15 +22,16 @@ interface PageProps {
 export function generateMetadata({ params }: PageProps): Metadata {
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === params.classSlug);
   if (!currentClass) return {};
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${currentClass.title} Study Resources & Notes | RayTech`,
+    title: `${className} Study Resources & Notes | RayTech`,
     description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
     alternates: {
       canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
     },
     openGraph: {
-      title: `${currentClass.title} Study Resources & Notes | RayTech`,
+      title: `${className} Study Resources & Notes | RayTech`,
       description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
       url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/`,
       type: 'website',

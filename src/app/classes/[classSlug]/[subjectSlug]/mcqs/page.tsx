@@ -24,15 +24,16 @@ export function generateMetadata({ params }: PageProps): Metadata {
     (s) => s.classSlug === params.classSlug && s.slug === params.subjectSlug
   );
   if (!currentClass || !currentSubject) return {};
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
 
   return {
-    title: `${currentClass.title} ${currentSubject.title} MCQs Online Test | RayTech`,
+    title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
     description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
     alternates: {
       canonical: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
     },
     openGraph: {
-      title: `${currentClass.title} ${currentSubject.title} MCQs Online Test | RayTech`,
+      title: `${className} ${currentSubject.title} MCQs Test | RayTech`,
       description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
       url: `https://raytechinstitute.firebaseapp.com/classes/${params.classSlug}/${params.subjectSlug}/mcqs/`,
       type: 'website',

@@ -10,9 +10,9 @@
 
 ## 1. Executive Summary
 
-A comprehensive, multi-phase technical SEO audit, aesthetic compliance review, and VIP security audit was executed across the entire codebase and static production build (48 generated routes).
+A comprehensive, multi-phase technical SEO audit, aesthetic compliance review, and security audit was executed across the entire codebase and static production build (61 generated routes in the current build).
 
-- **Schema.org Validation**: **100% Pass** across all 48 pages (`validate_schema.py` returned zero errors).
+- **Structured-data coverage**: JSON-LD is present on the generated public pages; semantic rich-result eligibility still needs Google Rich Results Test/Search Console evidence.
 - **Core Web Vitals Target**: INP $\le 200\text{ ms}$ (Google modern interactivity standard), LCP $\le 2.5\text{ s}$, CLS $\le 0.1$.
 - **Security Hardening**: Enterprise-grade credential containment, SHA-256 salted password hashing, brute-force lockout, XSS sanitization, and strict security headers.
 - **Brand Compliance**: 0 purple gradients, 0 pill buttons (`rounded-full`), 0 emojis, 0 em dashes (`—`), 0 fake metrics.
@@ -23,15 +23,15 @@ A comprehensive, multi-phase technical SEO audit, aesthetic compliance review, a
 
 | Area | Check Item | Status | Confidence | Evidence & Verification |
 |---|---|---|---|---|
-| **Structured Data** | JSON-LD Syntax & Format | **PASSED** | Confirmed | `ALL_48_PAGES_SCHEMA_VERIFIED_100_PERCENT_SUCCESS` via `validate_schema.py` |
+| **Structured Data** | JSON-LD presence | **PASSED** | Confirmed | `npm run audit:seo` detected JSON-LD blocks on the generated public pages; external rich-result validation remains open |
 | **Structured Data** | Deprecated / Retired Schema Removal | **PASSED** | Confirmed | Retired `Dataset` schema removed and replaced with modern `CollectionPage` + `LearningResource` |
 | **Structured Data** | Restricted Schema Avoidance | **PASSED** | Confirmed | Zero unauthorized `FAQPage` or `HowTo` tags across all routes |
 | **On-Page SEO** | Self-Referential Canonical URLs | **PASSED** | Confirmed | Explicit `<link rel="canonical" href="..." />` rendered on every page |
-| **On-Page SEO** | Title Tag Length & Syntax | **PASSED** | Confirmed | 50–60 character titles adhering to `Primary Keyword - Value / Topic \| Brand` |
-| **On-Page SEO** | Active Voice Meta Descriptions | **PASSED** | Confirmed | 120–155 character summaries with clear user intent |
+| **On-Page SEO** | Title Tag Length & Syntax | **WARNING** | Confirmed | Required titles exist; the current gate reports 14 title-length warnings for long, descriptive route titles |
+| **On-Page SEO** | Meta Description Length | **WARNING** | Confirmed | Required descriptions exist; short legal/gazette descriptions remain to be improved |
 | **On-Page SEO** | Single `<h1>` Hierarchy | **PASSED** | Confirmed | Strict nesting (`<h1>` $\rightarrow$ `<h2>` $\rightarrow$ `<h3>`) without multiple H1 tags |
-| **AEO / GEO** | AI Overview Summaries | **PASSED** | Confirmed | 40–60 word key takeaway blocks implemented on blog and resource pages |
-| **Interactivity** | INP Metric Compliance | **PASSED** | Confirmed | Zero FID references; all event handlers keep main thread idle time minimal |
+| **AEO / GEO** | AI Overview Summaries | **PARTIAL** | Likely | Summary blocks exist on content pages; search-engine display cannot be guaranteed from source inspection |
+| **Interactivity** | INP Metric Compliance | **NOT MEASURED** | Open | Requires Lighthouse or real-user data from the deployed site |
 | **Brand Identity** | Anti-Vibe Aesthetic Standards | **PASSED** | Confirmed | Navy/Charcoal `#0F172A`/`#1E293B`, crisp copper/teal accents, professional `rounded-md`/`rounded-lg` buttons |
 | **Architecture** | Python Compiler Isolation | **PASSED** | Confirmed | Pyodide WebAssembly sandboxed; strictly excluded from `/blogs/*` and `/admin/*` via `CompilerMount.tsx` |
 | **Security** | Secret & API Key Containment | **PASSED** | Confirmed | Supabase and private variables locked in `.env.local`; `.gitignore` blocks `.env*`, `*.key`, `*.pem`, `out/` |
@@ -63,9 +63,15 @@ The remaining SEO performance measurements require real-user or Lighthouse data 
 
 The dependency findings are not silently ignored. The application is a static export, so several self-hosted-server and development-tool advisories are not reachable in Firebase Hosting runtime, but the lockfile still needs a planned framework/dependency upgrade and a full regression cycle before those findings can be marked resolved.
 
+### 4.1 Seobility Review
+
+Seobility was run against `https://raytechinstitute.web.app/` while the application currently declares `https://raytechinstitute.firebaseapp.com` as its canonical production host. The report's canonical mismatch and redirect warnings are therefore host-selection findings, not evidence of missing canonical tags: the generated pages consistently point to the Firebase Appspot host. One host must be selected as the public SEO identity, then the alternate Firebase default host should be redirected or excluded from indexing in Firebase Console. This cannot be enforced by a path-only static-hosting rule in `firebase.json`.
+
+The report's duplicate-heading warning is now covered by `npm run audit:seo`, which reports duplicate heading text per page as a warning. The current generated homepage has one H1 and no duplicate heading text. Seobility's remaining recommendations about backlinks, social sharing and a full external crawl require third-party data and are not claimed as completed by this repository audit.
+
 ### 3.1 Schema.org Validation Analysis
 - **Problem Discovered & Resolved**: During initial validation, `out/results-gazettes/index.html` triggered a blocking error in `validate_schema.py` because `@type: 'Dataset'` was retired for rich search features in late 2025.
-- **Remediation**: The schema was updated to a valid `CollectionPage` with nested `LearningResource` entities. The automated re-test completed with zero errors on all 48 pages.
+- **Remediation**: The schema was updated to a valid `CollectionPage` with nested `LearningResource` entities. The current repository gate checks JSON-LD presence; semantic validation remains an external verification item.
 - **Implemented Schemas**:
   - Homepage: `EducationalOrganization` + `WebSite`
   - Classes Directory: `BreadcrumbList`
