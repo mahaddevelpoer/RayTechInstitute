@@ -168,6 +168,7 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
         y: Math.min(Math.max(8, current.y), maxY),
       }));
     };
+    keepInViewport();
     window.addEventListener('resize', keepInViewport);
     return () => window.removeEventListener('resize', keepInViewport);
   }, [size.width, size.height]);
