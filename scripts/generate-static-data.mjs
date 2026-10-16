@@ -88,14 +88,34 @@ const map = {
 };
 
 const overrides = {};
-for (const [table, transform] of Object.entries(map)) {
-  const response = await fetch(`${supabaseUrl}/rest/v1/${table === 'pastPapers' ? 'past_papers' : table === 'videoMcqs' ? 'video_mcqs' : table}?select=*`, { headers: { apikey: anonKey, Authorization: `Bearer ${anonKey}` } });
-  if (!response.ok) {
-    console.warn(`[static-data] ${table} unavailable (${response.status}); using bundled seed data.`);
-    continue;
+async function fetchTableRows(table) {
+  const endpoint = `${supabaseUrl}/rest/v1/${table}?select=*`;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 8000);
+  try {
+    const response = await fetch(endpoint, {
+      headers: { apikey: anonKey, Authorization: `Bearer ${anonKey}` },
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      console.warn(`[static-data] ${table} unavailable (${response.status}); using bundled seed data.`);
+      return [];
+    }
+    const rows = await response.json();
+    return Array.isArray(rows) ? rows : [];
+  } catch (error) {
+    const reason = error?.name === 'AbortError' ? 'request timed out' : 'request failed';
+    console.warn(`[static-data] ${table} ${reason}; using bundled seed data.`);
+    return [];
+  } finally {
+    clearTimeout(timeout);
   }
-  const rows = await response.json();
-  if (Array.isArray(rows) && rows.length > 0) overrides[table] = rows.map(transform);
+}
+
+for (const [table, transform] of Object.entries(map)) {
+  const tableName = table === 'pastPapers' ? 'past_papers' : table === 'videoMcqs' ? 'video_mcqs' : table;
+  const rows = await fetchTableRows(tableName);
+  if (rows.length > 0) overrides[table] = rows.map(transform);
 }
 
 const source = `import { BlogPostItem, ChapterItem, ClassItem, GazetteItem, MCQItem, NoteItem, PastPaperItem, SubjectItem, VideoInteractiveMCQ } from '@/types/educational';\n\nexport const STATIC_OVERRIDES = ${JSON.stringify(overrides, null, 2)} as {\n  classes?: ClassItem[]; subjects?: SubjectItem[]; chapters?: ChapterItem[]; notes?: NoteItem[]; mcqs?: MCQItem[]; pastPapers?: PastPaperItem[]; gazettes?: GazetteItem[]; blogs?: BlogPostItem[]; videoMcqs?: VideoInteractiveMCQ[];\n};\n`;
