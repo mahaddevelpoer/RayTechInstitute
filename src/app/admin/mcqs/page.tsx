@@ -142,9 +142,6 @@ export default function AdminMCQsPage() {
 
     try {
       const { data, error } = await supabase.functions.invoke('secure-dispatch', {
-        headers: {
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ0eHJraHd5dWd6bGlzd3pua3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE2MzUwMTAsImV4cCI6MjEwNzIxMTAxMH0.VQ0mmf_6a2swpSyyEMBUpWtgt9CZ3hkBCH_l2fISwD4'}`,
-        },
         body: {
           action: 'generate_mcqs',
           payload: {
