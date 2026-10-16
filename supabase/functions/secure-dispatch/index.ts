@@ -1,16 +1,19 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
+const DEFAULT_ALLOWED_ORIGINS = [
+  'https://raytechinstitute.web.app',
+  'https://raytechinstitute.firebaseapp.com',
+];
+
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "https://raytechinstitute.firebaseapp.com",
+  "Access-Control-Allow-Origin": DEFAULT_ALLOWED_ORIGINS[0],
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
 };
 
 function getCorsHeaders(req: Request) {
-  const configured = (Deno.env.get('ALLOWED_ORIGINS') || 'https://raytechinstitute.firebaseapp.com')
-    .split(',')
-    .map((origin) => origin.trim())
-    .filter(Boolean);
+  const configured = (Deno.env.get('ALLOWED_ORIGINS') || DEFAULT_ALLOWED_ORIGINS.join(','))
+    .split(',').map((origin) => origin.trim()).filter(Boolean);
   const requestOrigin = req.headers.get('origin') || '';
   return {
     ...corsHeaders,
@@ -42,7 +45,10 @@ async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?:
       .split(',')
       .map((value) => value.trim().toLowerCase())
       .filter(Boolean);
-    if (allowlist.length > 0 && !allowlist.includes(email)) {
+    if (allowlist.length === 0) {
+      return { ok: false, error: 'Administrator access is not configured.' };
+    }
+    if (!allowlist.includes(email)) {
       return { ok: false, error: 'This Firebase account is not authorized for administration.' };
     }
     return { ok: true, email };
