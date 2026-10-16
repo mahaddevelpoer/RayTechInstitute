@@ -29,7 +29,7 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
   const [isEngineReady, setIsEngineReady] = useState(false);
   const [engineStatus, setEngineStatus] = useState<string>('Engine not initialized');
 
-  // Dragging state: using top & left coordinates for natural 1:1 mouse movement
+  // Dragging state: top/left coordinates keep the panel inside the viewport.
   const [position, setPosition] = useState({ x: 80, y: 120 });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState(false);
@@ -89,8 +89,10 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
     }
   }, [isOpen, isMinimized, isEngineReady]);
 
-  // Drag handler: Natural cursor tracking (moving right increases left position, moving down increases top position)
-  const handleMouseDown = (e: React.MouseEvent) => {
+  // Pointer input supports mouse, touch and pen. Header controls are excluded
+  // so clicking Minimize/Close never moves the panel.
+  const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if ((e.target as HTMLElement).closest('button')) return;
     setIsDragging(true);
     dragStartRef.current = {
       mouseX: e.clientX,
@@ -101,15 +103,13 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
   };
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
+    const handlePointerMove = (e: PointerEvent) => {
       if (!isDragging) return;
       const deltaX = e.clientX - dragStartRef.current.mouseX;
       const deltaY = e.clientY - dragStartRef.current.mouseY;
 
-      const modalWidth = 540;
-      const modalHeight = 380;
-      const maxX = Math.max(10, window.innerWidth - modalWidth - 20);
-      const maxY = Math.max(10, window.innerHeight - modalHeight - 20);
+      const maxX = Math.max(8, window.innerWidth - Math.min(size.width, window.innerWidth - 16) - 8);
+      const maxY = Math.max(8, window.innerHeight - Math.min(size.height, window.innerHeight - 16) - 8);
 
       // Natural direction: cursor right -> window moves right, cursor down -> window moves down
       const newX = Math.min(Math.max(10, dragStartRef.current.posX + deltaX), maxX);
@@ -118,26 +118,26 @@ export const PythonCompiler: React.FC<PythonCompilerProps> = ({
       setPosition({ x: newX, y: newY });
     };
 
-    const handleMouseUp = () => {
+    const handlePointerUp = () => {
       setIsDragging(false);
     };
 
     if (isDragging) {
-      window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
+      window.addEventListener('pointermove', handlePointerMove);
+      window.addEventListener('pointerup', handlePointerUp);
     }
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('pointermove', handlePointerMove);
+      window.removeEventListener('pointerup', handlePointerUp);
     };
-  }, [isDragging]);
+  }, [isDragging, size.width, size.height]);
 
   useEffect(() => {
     const handlePointerMove = (event: PointerEvent) => {
       if (!isResizing) return;
-      const minWidth = 320;
-      const minHeight = 360;
+      const minWidth = Math.min(320, Math.max(240, window.innerWidth - 16));
+      const minHeight = Math.min(360, Math.max(240, window.innerHeight - 16));
       const maxWidth = Math.max(minWidth, window.innerWidth - 16);
       const maxHeight = Math.max(minHeight, window.innerHeight - 16);
       setSize({
@@ -256,8 +256,8 @@ sys.stderr = io.StringIO()
         left: `${position.x}px`,
         width: `${size.width}px`,
         height: `${size.height}px`,
-        minWidth: '320px',
-        minHeight: '360px',
+        minWidth: 'min(320px, calc(100vw - 1rem))',
+        minHeight: 'min(360px, calc(100dvh - 1rem))',
         maxWidth: 'calc(100vw - 1rem)',
         maxHeight: 'calc(100dvh - 1rem)',
         zIndex: 60,
@@ -270,8 +270,8 @@ sys.stderr = io.StringIO()
     >
       {/* Draggable Header */}
       <div
-        onMouseDown={handleMouseDown}
-        className={`px-4 py-2.5 border-b flex items-center justify-between cursor-move select-none ${
+        onPointerDown={handlePointerDown}
+        className={`px-4 py-2.5 border-b flex items-center justify-between cursor-move select-none touch-none ${
           isDark
             ? 'bg-slate-800 border-slate-700 text-white'
             : 'bg-navy-700 border-navy-800 text-white'
