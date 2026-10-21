@@ -5,12 +5,14 @@ Deno.serve(createLearningQAHandler(Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || 
   const check = new URL(request.url).searchParams.get('check');
   const key = Deno.env.get('GEMINI_API_KEY') || '';
   if (!key) return { configured: false };
-  const diagnostics: { endpoint: string; status: number; message?: string }[] = [];
+  const diagnostics: { endpoint: string; status: number; message?: string; details?: unknown[] }[] = [];
   const fetcher: typeof fetch = async (input, init) => {
     const response = await fetch(input, init);
     if (!response.ok) {
       const result = await response.clone().json().catch(() => ({}));
-      diagnostics.push({ endpoint: String(input).split('?')[0], status: response.status, message: String(result.error?.message || '').replace(/AIza[\w-]+/g, '[redacted]').slice(0, 500) });
+      const details = (Array.isArray(result.error?.details) ? result.error.details : []).filter((d: { '@type'?: string }) => /(?:QuotaFailure|RetryInfo|ErrorInfo)$/.test(d['@type'] || ''));
+      const safeDetails = JSON.parse(JSON.stringify(details).replace(/AIza[\w-]+/g, '[redacted]').slice(0, 12000) || '[]');
+      diagnostics.push({ endpoint: String(input).split('?')[0], status: response.status, message: String(result.error?.message || '').replace(/AIza[\w-]+/g, '[redacted]').slice(0, 1600), details: safeDetails });
     }
     return response;
   };
@@ -40,7 +42,7 @@ Deno.serve(createLearningQAHandler(Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || 
     if (check === 'tts-en' || check === 'tts-hi') {
       const speech = await generateCodiSpeech(key, check === 'tts-hi' ? 'hi' : 'en', 'A variable is a name that refers to a value. In Python, score equals three.', fetcher);
       const pcm = atob(speech.audio); let nonzero = false; for (let i = 0; i < pcm.length; i++) if (pcm.charCodeAt(i)) { nonzero = true; break; }
-      return { check, success: pcm.length > 1000 && nonzero, bytes: pcm.length, rate: speech.rate, diagnostics };
+      return { check, success: pcm.length > 1000 && nonzero, bytes: pcm.length, rate: speech.rate, model: speech.model, transcript: 'transcript' in speech ? speech.transcript : undefined, diagnostics };
     }
     return { error: 'Unknown check' };
   } catch (error) { return { check, success: false, message: error instanceof Error ? error.message : 'Probe failed', diagnostics }; }

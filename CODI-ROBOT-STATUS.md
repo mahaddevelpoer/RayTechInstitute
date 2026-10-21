@@ -2,6 +2,25 @@
 
 ## Click-to-read regression fixes (21 October 2026)
 
+### Verified upstream quota diagnosis and Native Audio recovery
+
+Protected QA using the deployed Supabase `GEMINI_API_KEY` received Google's
+`GenerateRequestsPerDayPerProjectPerModel-FreeTier` violation for
+`gemini-2.5-flash-tts`, limit 10, with a retry interval over 17 hours. This is
+specific upstream evidence, not an inference from the old generic error or
+proof that the user's AI Studio screenshot shows the same project/filter.
+
+The same secret successfully generated Native Audio. Reading now falls back
+from a TTS HTTP 429 to a one-use, source-locked Native Audio recitation session.
+Protected QA produced 316,800 bytes of 24 kHz PCM, with the transcript exactly
+matching the test passage. No billing, key rotation or private key exposure
+was needed. Native Audio has its own availability and rate limits; the existing
+English device fallback remains available if both Google paths fail.
+
+Provider errors now distinguish daily limits, per-minute limits, key/model
+access denial and unavailable models without exposing raw provider responses.
+The browser accepts and caches WAV audio from either approved Google model.
+
 - Granting consent now resumes the pending clicked text without a second click.
   Consent is retained only in the current tab's session storage; it never starts
   speech automatically on a new lesson. Turning it off removes that preference.

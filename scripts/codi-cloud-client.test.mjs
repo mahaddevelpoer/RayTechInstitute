@@ -39,6 +39,13 @@ test('guest requests need no Firebase token, while cancelled requests never call
   await f.codiCloudRequest({action:'read'},new AbortController().signal);assert.equal(f.calls.length,1);assert.equal(f.calls[0].init.headers.Authorization,undefined);assert.match(JSON.parse(f.calls[0].init.body).guestId,/^[a-f0-9-]{36}$/);
   const a=new AbortController();a.abort();await assert.rejects(f.codiCloudRequest({},a.signal),/Stopped/);
 });
+
+test('reading accepts and caches Native Audio PCM but rejects unknown provider models',async()=>{
+ const f=fixture();f.setFetch(async()=>Response.json({audio:'AAABAA==',rate:24000,model:'gemini-2.5-flash-native-audio-preview-12-2025'}));
+ assert.equal((await f.codiCloudReading('A variable.','en',new AbortController().signal)).type,'audio/wav');
+ await f.codiCloudReading('A variable.','en',new AbortController().signal);assert.equal(f.calls.length,1);
+ f.setFetch(async()=>Response.json({audio:'AAABAA==',rate:24000,model:'unexpected-model'}));await assert.rejects(f.codiCloudReading('Another line.','en',new AbortController().signal),/Unexpected voice format/);
+});
 test('Live streams audio and transcript, waits for playback and closes credentials',async()=>{
   const f=fixture(),a=new AbortController();let speaking=0,transcript='';
   const result=f.codiCloudExplain('variable','Published source','en',f.context,a.signal,()=>speaking++,v=>{transcript=v;});await tick();

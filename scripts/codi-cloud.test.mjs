@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { loadTypescript } from './load-typescript.mjs';
-const { createCodiCloudHandler, mintCodiToken, generateCodiSpeech } = await loadTypescript('supabase/functions/_shared/codi-cloud.ts');
+const { createCodiCloudHandler, mintCodiToken, generateCodiSpeech, codiProviderError } = await loadTypescript('supabase/functions/_shared/codi-cloud.ts');
 const guestId = '12345678-1234-4123-8123-123456789abc';
 const origin = 'https://raytechinstitute.web.app';
 const read = { action: 'read', language: 'en', text: 'A variable names a value.', consent: true, guestId };
@@ -39,9 +39,35 @@ test('Live token is single-use, short-lived, source-bound and model locked', asy
   assert.match(p.bidiGenerateContentSetup.systemInstruction.parts[0].text, /A variable names a value/); assert.doesNotMatch(JSON.stringify(p), /test-student/);
 });
 test('provider error bodies and incomplete speech never leak or become success', async () => {
-  await assert.rejects(mintCodiToken('secret', 'en', 'source', async () => new Response('private failure', { status: 429 })), /quota/);
+  await assert.rejects(mintCodiToken('secret', 'en', 'source', async () => new Response('private failure', { status: 429 })), /rate-limit/);
   await assert.rejects(generateCodiSpeech('secret', 'en', 'read', async () => Response.json({ candidates: [{ finishReason: 'MAX_TOKENS' }] })), /complete playable/);
   await assert.rejects(mintCodiToken('secret', 'en', 'source', async () => Response.json({ name: 'not-a-token' })), /invalid session/);
+});
+
+test('provider failures distinguish daily, minute, access and unavailable-model errors without raw bodies',async()=>{
+ for(const [status,id,expected] of [[429,'GenerateRequestsPerDayPerProjectPerModel-FreeTier',/daily/],[429,'GenerateRequestsPerMinutePerProjectPerModel-FreeTier',/per-minute/],[403,'',/access was denied/],[404,'',/model is unavailable/],[503,'',/temporarily unavailable/]]){
+  const error=await codiProviderError(Response.json({error:{message:'private credential must never leak',details:[{violations:[{quotaId:id}]}]}},{status}),'speech');assert.match(error.message,expected);assert.doesNotMatch(error.message,/private credential/);
+ }
+});
+
+test('TTS 429 uses source-locked Native Audio recitation and returns actual PCM rather than a device substitution',async()=>{
+ const calls=[];let socket;
+ const fetcher=async(url,init)=>{calls.push({url:String(url),body:JSON.parse(init.body)});return String(url).endsWith('auth_tokens')?Response.json({name:'auth_tokens/recitation-test'}):Response.json({error:{message:'Daily limit reached'}},{status:429});};
+ const connect=url=>{socket={url,sent:[],send(raw){this.sent.push(JSON.parse(raw));},close(){this.closed=true;}};return socket;};
+ const pending=generateCodiSpeech('private-fixture','en','A variable stores a value.',fetcher,connect);
+ const tick=()=>new Promise(r=>setImmediate(r));await tick();socket.onopen();socket.onmessage({data:JSON.stringify({setupComplete:{}})});await tick();
+ assert.equal(calls.length,2);assert.match(calls[1].body.bidiGenerateContentSetup.systemInstruction.parts[0].text,/Recite ONLY.*A variable stores a value\./s);
+ assert.doesNotMatch(calls[1].body.bidiGenerateContentSetup.systemInstruction.parts[0].text,/Explain the learner/);assert.equal(calls[1].body.uses,1);
+ assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/Read the complete quoted passage/);
+ socket.onmessage({data:JSON.stringify({serverContent:{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAABAA=='}}]},outputTranscription:{text:'A variable stores a value.'},turnComplete:true}})});
+ const result=await pending;assert.equal(result.audio,'AAABAA==');assert.equal(result.model,'gemini-2.5-flash-native-audio-preview-12-2025');assert.equal(result.transcript,'A variable stores a value.');assert.ok(socket.closed);assert.doesNotMatch(JSON.stringify(result),/private-fixture|auth_tokens/);
+});
+
+test('Native Audio fallback rejects empty, interrupted and malformed readings',async()=>{
+ for(const content of [{turnComplete:true},{interrupted:true},{modelTurn:{parts:[{inlineData:{mimeType:'audio/not-pcm',data:'AAABAA=='}}]},turnComplete:true}]){
+  let socket;const pending=generateCodiSpeech('fixture','en','A variable.',async url=>String(url).endsWith('auth_tokens')?Response.json({name:'auth_tokens/test'}):new Response('',{status:429}),()=>socket={send(){},close(){this.closed=true;}});
+  const rejected=assert.rejects(pending,/no playable|incomplete or invalid/);await new Promise(r=>setImmediate(r));socket.onmessage({data:JSON.stringify({serverContent:content})});await rejected;assert.ok(socket.closed);
+ }
 });
 test('Hindi is translated as text before the speech model recites it', async () => {
   const urls = []; let prompt;

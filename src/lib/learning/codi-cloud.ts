@@ -33,7 +33,7 @@ export async function codiCloudReading(text: string, language: Language, signal:
   let cache: Cache | undefined;
   try { if ('caches' in globalThis) { cache = await caches.open(cacheName); const found = await cache.match(key); if (found && found.headers.get('content-type') === 'audio/wav') { const blob = await found.blob(); if (blob.size >= 44 && blob.size <= 4400000) return blob; } } } catch { /* Storage can be disabled; playback must still work. */ }
   const data = await codiCloudRequest({ action: 'read', language, text }, signal);
-  if (data.rate !== 24000 || data.model !== model) throw new Error('Unexpected voice format.');
+  if (data.rate !== 24000 || ![model, 'gemini-2.5-flash-native-audio-preview-12-2025'].includes(data.model)) throw new Error('Unexpected voice format.');
   const blob = new Blob([codiWav(decodePcm(data.audio), 24000) as BlobPart], { type: 'audio/wav' });
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
   try { if (cache) { const entries = await cache.keys(); for (const entry of entries.slice(0, Math.max(0, entries.length - 23))) await cache.delete(entry); await cache.put(key, new Response(blob, { headers: { 'Content-Type': 'audio/wav' } })); } } catch { /* Quota failure must not prevent audio. */ }
