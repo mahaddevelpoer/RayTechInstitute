@@ -123,6 +123,10 @@ interface Dependencies {
   key: string; origins: string[]; enabled: boolean;
   reserve: (uid: string, kind: 'live' | 'read') => Promise<boolean>;
   fetcher?: typeof fetch;
+  recordings?: {
+    get: (language: CodiLanguage, text: string) => Promise<{ audio: string; rate: number; model: string } | null>;
+    run: (language: CodiLanguage, text: string, produce: () => Promise<{ audio: string; rate: number; model: string }>, authorize: () => Promise<void>) => Promise<{ audio: string; rate: number; model: string; cacheSaved: boolean }>;
+  };
 }
 export function createCodiCloudHandler(deps: Dependencies) {
   return async (request: Request) => {
@@ -134,7 +138,6 @@ export function createCodiCloudHandler(deps: Dependencies) {
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers });
     if (request.method !== 'POST') return reply(405, { error: 'Use POST for Codi voice.' });
     try {
-      if (!deps.enabled || !deps.key) throw new StudentRequestError(503, 'Codi cloud voice is not enabled yet. Lessons and practice remain available.');
       const fetcher = deps.fetcher || fetch;
       if (!request.headers.get('content-type')?.startsWith('application/json')) throw new StudentRequestError(415, 'Send JSON only.');
       const reader = request.body?.getReader(); if (!reader) throw new StudentRequestError(400, 'Missing voice request.');
@@ -142,11 +145,25 @@ export function createCodiCloudHandler(deps: Dependencies) {
       const timer = setTimeout(() => { void reader.cancel(); }, 8000);
       try { while (true) { const part = await reader.read(); if (part.done) break; size += part.value.byteLength; if (size > 24000) { await reader.cancel(); throw new StudentRequestError(413, 'Voice request is too large.'); } raw += decoder.decode(part.value, { stream: true }); } raw += decoder.decode(); } finally { clearTimeout(timer); reader.releaseLock(); }
       let body; try { body = JSON.parse(raw); } catch { throw new StudentRequestError(400, 'Invalid voice request.'); }
-      if (!body || typeof body !== 'object' || Array.isArray(body) || Object.keys(body).some(k => !['action', 'language', 'text', 'context', 'consent', 'guestId'].includes(k)) || typeof body.guestId !== 'string' || !/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(body.guestId) || !['read', 'live'].includes(body.action) || !['en', 'ur'].includes(body.language) || body.consent !== true || typeof body.text !== 'string' || !body.text.trim() || body.text.length > (body.action === 'read' ? 420 : 2000) || (body.action === 'live' && (typeof body.context !== 'string' || !body.context.trim() || body.context.length > 12000))) throw new StudentRequestError(400, 'Provide a supported action, language, lesson text, browser session and voice consent.');
+      if (!body || typeof body !== 'object' || Array.isArray(body) || Object.keys(body).some(k => !['action', 'language', 'text', 'context', 'consent', 'guestId'].includes(k)) || typeof body.guestId !== 'string' || !/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(body.guestId) || !['read', 'live', 'cached'].includes(body.action) || !['en', 'ur'].includes(body.language) || (body.action !== 'cached' && body.consent !== true) || typeof body.text !== 'string' || !body.text.trim() || body.text.length > (body.action === 'live' ? 2000 : 420) || (body.action === 'live' && (typeof body.context !== 'string' || !body.context.trim() || body.context.length > 12000))) throw new StudentRequestError(400, 'Provide a supported action, language, lesson text, browser session and voice consent.');
+      if (body.action === 'cached') {
+        const saved = await deps.recordings?.get(body.language, body.text);
+        return reply(200, saved ? { ...saved, cacheSaved: true } : { cached: false });
+      }
       // This ID is not authentication and can be rotated by a client. The SQL
       // global caps, not the best-effort per-browser bucket, bound public usage.
-      if (!await deps.reserve(`guest:${body.guestId.toLowerCase()}`, body.action)) throw new StudentRequestError(429, 'Codi has reached its shared free voice allowance. Please try later; lessons and practice remain available.');
-      const result = body.action === 'live' ? await mintCodiToken(deps.key, body.language, body.context, fetcher) : await generateCodiSpeech(deps.key, body.language, body.text, fetcher);
+      const authorize = async () => {
+        if (!deps.enabled || !deps.key) throw new StudentRequestError(503, 'Codi cloud voice is not enabled yet. Lessons and practice remain available.');
+        if (!await deps.reserve(`guest:${body.guestId.toLowerCase()}`, body.action)) throw new StudentRequestError(429, 'Codi has reached its shared free voice allowance. Please try later; lessons and practice remain available.');
+      };
+      let result;
+      if (body.action === 'read' && deps.recordings) {
+        try { result = await deps.recordings.run(body.language, body.text, () => generateCodiSpeech(deps.key, body.language, body.text, fetcher), authorize); }
+        catch (error) {
+          if (error instanceof Error && error.message === 'Recording is already being prepared. Please try this sentence again shortly.') throw new StudentRequestError(409, error.message);
+          throw error;
+        }
+      } else { await authorize(); result = body.action === 'live' ? await mintCodiToken(deps.key, body.language, body.context, fetcher) : await generateCodiSpeech(deps.key, body.language, body.text, fetcher); }
       return reply(200, result);
     } catch (error) {
       return error instanceof StudentRequestError ? reply(error.status, { error: error.message.replace('submitting your assignment', 'using cloud voice') }) : reply(503, { error: 'Codi cloud voice is temporarily unavailable. No paid fallback was used.' });

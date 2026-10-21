@@ -5,6 +5,13 @@ const { createCodiCloudHandler, mintCodiToken, generateCodiSpeech, codiProviderE
 const guestId = '12345678-1234-4123-8123-123456789abc';
 const origin = 'https://raytechinstitute.web.app';
 const read = { action: 'read', language: 'en', text: 'A variable names a value.', consent: true, guestId };
+test('shared cache reads bypass AI, quota and disabled generation; misses never generate',async()=>{
+ const saved={audio:'AAABAA==',rate:24000,model:'gemini-2.5-flash-preview-tts'};
+ const s=setup({enabled:false,recordings:{get:async()=>saved,run:async()=>{throw Error('Unexpected generation');}}});
+ assert.equal((await (await s.send({...read,action:'cached',consent:false})).json()).audio,saved.audio);
+ assert.equal(s.calls.ai,0);assert.equal(s.calls.quota,0);
+ const miss=setup({recordings:{get:async()=>null}});assert.deepEqual(await(await miss.send({...read,action:'cached',consent:false})).json(),{cached:false});assert.equal(miss.calls.ai,0);
+});
 const voice = { candidates: [{ finishReason: 'STOP', content: { parts: [{ inlineData: { mimeType: 'audio/L16;codec=pcm;rate=24000', data: Buffer.from([0,0,1,0]).toString('base64') } }] } }] };
 function setup(override = {}) {
   const calls = { quota: 0, ai: 0, payload: null };

@@ -19,14 +19,21 @@ function fixture() {
   }
   const context = { currentTime:0,destination:{}, createBuffer(_channels,length,rate) { return {duration:length/rate,getChannelData:()=>new Float32Array(length)}; }, createBufferSource() { const n={connect(){},disconnect(){this.disconnected=true;},start(){this.started=true;},stop(){this.stopped=true;}};nodes.push(n);return n;} };
   let resolveFetch;
-  let preparedReady=[];const staticCalls=[];
-  const fetcher=async(url,init)=>{if(String(url).startsWith('/codi/audio/')){staticCalls.push(url);if(url.endsWith('index.json'))return Response.json({schema:1,ready:preparedReady});return new Response(new Uint8Array(200),{headers:{'Content-Type':'audio/mpeg'}});}calls.push({url,init}); if(resolveFetch)return resolveFetch(url,init);const action=JSON.parse(init.body).action; return Response.json(action==='live'?{endpoint:'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContentConstrained',model:'gemini-2.5-flash-native-audio-preview-12-2025',token:'auth_tokens/fixture'}:{audio:Buffer.from([0,0,1,0]).toString('base64'),rate:24000,model:'gemini-2.5-flash-preview-tts'});};
+  let preparedReady=[];const staticCalls=[];let sharedAudio=null;const sharedCalls=[];
+  const fetcher=async(url,init)=>{if(String(url).startsWith('/codi/audio/')){staticCalls.push(url);if(url.endsWith('index.json'))return Response.json({schema:1,ready:preparedReady});return new Response(new Uint8Array(200),{headers:{'Content-Type':'audio/mpeg'}});}const action=JSON.parse(init.body).action;if(action==='cached'){sharedCalls.push(JSON.parse(init.body));return Response.json(sharedAudio||{cached:false});}calls.push({url,init}); if(resolveFetch)return resolveFetch(url,init);return Response.json(action==='live'?{endpoint:'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContentConstrained',model:'gemini-2.5-flash-native-audio-preview-12-2025',token:'auth_tokens/fixture'}:{audio:Buffer.from([0,0,1,0]).toString('base64'),rate:24000,model:'gemini-2.5-flash-preview-tts'});};
   const cache={match:async k=>store.get(k)?.clone(),put:async(k,v)=>store.set(k,v),keys:async()=>[...store.keys()],delete:async k=>store.delete(k)};
   const module={exports:{}};
-  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:id==='./codi-sentences'?sentence:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetcher,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
-  return {...module.exports,store,calls,sockets,nodes,context,auth,staticCalls,setReady:r=>{preparedReady=r;},setFetch:f=>{resolveFetch=f;}};
+  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:id==='./codi-sentences'?sentence:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,AbortSignal,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetcher,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
+  return {...module.exports,store,calls,sockets,nodes,context,auth,staticCalls,sharedCalls,setShared:r=>{sharedAudio=r;},setReady:r=>{preparedReady=r;},setFetch:f=>{resolveFetch=f;}};
 }
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
+
+test('a new device reuses shared speech without consent, generation or a second cache download',async()=>{
+ const f=fixture();f.setShared({audio:'AAABAA==',rate:24000,model:'gemini-2.5-flash-preview-tts',cacheSaved:true});
+ assert.equal(await f.hasPreparedCodiReading(['Shared sentence.'],'en'),true);
+ assert.equal((await f.codiCloudReading('Shared sentence.','en',new AbortController().signal,false)).type,'audio/wav');
+ assert.equal(f.calls.length,0);assert.equal(f.sharedCalls.length,1);assert.equal(f.sharedCalls[0].consent,false);
+});
 test('reading caches bounded WAV audio, never tokens, and separates languages',async()=>{
   const f=fixture(),signal=new AbortController().signal;
   assert.equal((await f.codiCloudReading('A variable names a value.','en',signal)).type,'audio/wav');

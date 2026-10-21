@@ -21,6 +21,8 @@ import type { LearningLanguage, LearningTopic } from '@/types/learning';
 export function LearningWorkspace({ language, topic, topics, mode = 'lesson', lessonBlocks }: { language: LearningLanguage; topic: LearningTopic; topics: Pick<LearningTopic, 'id' | 'title' | 'slug' | 'order'>[]; mode?: 'lesson' | 'quiz' | 'assignment'; lessonBlocks?: LessonBlock[] }) {
   const [mobilePanel, setMobilePanel] = useState<'lesson' | 'practice'>('lesson');
   const [codiRunSignal, setCodiRunSignal] = useState(0);
+  const [topicsOpen, setTopicsOpen] = useState(true);
+  const [practiceOpen, setPracticeOpen] = useState(true);
   const dialog = useRef<HTMLDialogElement>(null);
   const practicePane = useRef<HTMLElement>(null);
   const lessonPane = useRef<HTMLElement>(null);
@@ -31,15 +33,16 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
   const tryCode = (code: string) => {
     const current = state.code[codeKey];
     if (current && current !== starterCode && current !== code && !window.confirm('Replace your current practice code with this example?')) return;
-    dispatch({ type: 'code', key: codeKey, code }); setMobilePanel('practice');
+    dispatch({ type: 'code', key: codeKey, code }); setPracticeOpen(true); setMobilePanel('practice');
     requestAnimationFrame(() => practicePane.current?.focus());
   };
   const topicList = <nav aria-label={`${language.title} topics`} className="learning-topic-links">{topics.map(t => <Link key={t.id} href={`/learn/${language.slug}/${t.slug}/`} aria-current={t.id === topic.id ? 'page' : undefined} onClick={() => dialog.current?.close()}><span className="text-xs opacity-60">{t.order}</span><span>{t.title}</span></Link>)}</nav>;
   return <div className="learning-page">
     <Header scrollContainer={lessonPane} />
-    <div className="learning-mobile-controls"><button className="learn-button" onClick={() => dialog.current?.showModal()}><List size={16} />Topics</button><button className="learn-button" aria-pressed={mobilePanel === 'lesson'} onClick={() => setMobilePanel('lesson')}><BookOpen size={16} />Lesson</button><button className="learn-button" aria-pressed={mobilePanel === 'practice'} onClick={() => setMobilePanel('practice')}><Code2 size={16} />Practice</button></div>
-    <main id="main-content" className="learning-workspace" data-mobile-panel={mobilePanel}>
-      <aside className="learning-topics"><div className="learning-panel-toolbar"><Link className="font-semibold" href={`/learn/${language.slug}/`}>{language.title}</Link><span className="text-xs">{topics.length} topics</span></div>{topicList}<Link className="learn-button m-3" href="/courses/">All courses</Link></aside>
+    <div className="learning-desktop-controls" aria-label="Workspace panels"><button className="learn-button" aria-expanded={topicsOpen} aria-controls="learning-topics-panel" onClick={() => setTopicsOpen(value => !value)}><List size={16}/>{topicsOpen ? 'Hide topics' : 'Show topics'}</button><button className="learn-button" aria-expanded={practiceOpen} aria-controls="learning-practice-panel" onClick={() => setPracticeOpen(value => !value)}><Code2 size={16}/>{practiceOpen ? 'Hide compiler' : 'Show compiler'}</button></div>
+    <div className="learning-mobile-controls"><button className="learn-button" onClick={() => dialog.current?.showModal()}><List size={16} />Topics</button><button className="learn-button learning-mobile-lesson" aria-pressed={mobilePanel === 'lesson'} onClick={() => setMobilePanel('lesson')}><BookOpen size={16} />Lesson</button><button className="learn-button learning-mobile-practice" aria-pressed={mobilePanel === 'practice'} onClick={() => { setPracticeOpen(true); setMobilePanel('practice'); }}><Code2 size={16} />Practice</button><button className="learn-button learning-tablet-compiler" aria-expanded={practiceOpen} aria-controls="learning-practice-panel" onClick={() => setPracticeOpen(value => !value)}>{practiceOpen ? 'Hide compiler' : 'Show compiler'}</button></div>
+    <main id="main-content" className="learning-workspace" data-mobile-panel={mobilePanel} data-topics-open={topicsOpen} data-practice-open={practiceOpen}>
+      <aside id="learning-topics-panel" className="learning-topics"><div className="learning-panel-toolbar"><Link className="font-semibold" href={`/learn/${language.slug}/`}>{language.title}</Link><span className="text-xs">{topics.length} topics</span></div>{topicList}<Link className="learn-button m-3" href="/courses/">All courses</Link></aside>
       <article ref={lessonPane} className="learning-lesson" tabIndex={0} aria-label="Lesson content">
         <nav className="mb-6 text-xs" aria-label="Breadcrumb"><Link href="/courses/">Courses</Link><span className="px-2">/</span><Link href={`/learn/${language.slug}/`}>{language.title}</Link></nav>
         <h1 className="mb-4 text-3xl font-bold tracking-tight">{mode==='lesson'?<CodiSentences text={topic.title}/>:topic.title}{mode === 'quiz' ? ': topic test' : mode === 'assignment' ? ': assignment' : ''}</h1>
@@ -55,7 +58,7 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
         <nav className="mt-10 flex flex-wrap justify-between gap-3 border-t border-[var(--border)] pt-6" aria-label="Lesson navigation">{position > 0 ? <Link className="learn-button" href={`/learn/${language.slug}/${topics[position - 1].slug}/`}><ArrowLeft size={16} />Previous topic</Link> : <span />}{position < topics.length - 1 && <Link className="learn-button" href={`/learn/${language.slug}/${topics[position + 1].slug}/`}>Next topic<ArrowRight size={16} /></Link>}</nav>
         <p className="mt-8 text-xs leading-relaxed text-[var(--text-muted)]">Lessons, practice, tests and Codi voice are open to everyone. Cloud voice requires consent and shares a limited free allowance. Sign-in is required for AI assignment feedback and is optional for saving progress. Guest work clears on reload; signed-in students can restore their last saved checkpoint.</p>
       </article>
-      <aside ref={practicePane} tabIndex={-1} className="learning-practice-pane" aria-label="Practice code"><BrowserPractice key={`${topic.id}@${topic.version}:${mode}`} language={language.runtime} starterCode={starterCode} code={state.code[codeKey] ?? starterCode} onCodeChange={code => dispatch({ type: 'code', key: codeKey, code })} onRunStart={() => setCodiRunSignal(value => value + 1)} /></aside>
+      <aside id="learning-practice-panel" ref={practicePane} tabIndex={-1} className="learning-practice-pane" aria-label="Practice code"><BrowserPractice key={`${topic.id}@${topic.version}:${mode}`} language={language.runtime} starterCode={starterCode} code={state.code[codeKey] ?? starterCode} onCodeChange={code => dispatch({ type: 'code', key: codeKey, code })} onRunStart={() => setCodiRunSignal(value => value + 1)} /></aside>
     </main>
     {mode === 'lesson' && process.env.NEXT_PUBLIC_CODI_ENABLED !== 'false' && <CodiReader key={topic.id} content={lessonPane} compiler={practicePane} runSignal={codiRunSignal} fullText={`${topic.title}\n\n${topic.content}`} languageSlug={language.slug} currentLesson={{ id: topic.id, title: topic.title, slug: topic.slug, order: topic.order, content: topic.content }} />}
     <footer className="learning-footer"><span>RayTech Institute</span><div className="flex gap-4"><Link href="/privacy-policy/">Privacy</Link><Link href="/terms-and-conditions/">Terms</Link></div></footer>

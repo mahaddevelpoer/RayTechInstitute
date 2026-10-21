@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Validate source and catalog behaviour
-        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs
+        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs scripts/codi-audio-cache.test.mjs scripts/learning-workspace.test.mjs
 
       - name: Use Java 21 for local Firestore rules tests
         uses: actions/setup-java@v4
@@ -79,4 +79,4 @@ jobs:
         run: node scripts/verify-live-export.mjs
 
       - name: Verify ready MP3 plays on desktop and mobile without an AI call
-        run: node --max-old-space-size=384 scripts/verify-prepared-audio.mjs
+        run: node --max-old-space-size=384 scripts/verify-prepared-audio.mjs && node --max-old-space-size=384 scripts/verify-learning-panels.mjs

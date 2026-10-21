@@ -5,6 +5,7 @@ const cacheName = 'codi-gemini-reading-v2';
 const model = 'gemini-2.5-flash-preview-tts';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://btxrkhwyugzliswznkpx.supabase.co';
 let guestId: string;
+const sharedMisses = new Map<string, number>();
 let prepared: Promise<Set<string>> | undefined; let preparedAt = 0;
 async function preparedIndex() {
   if(!prepared || Date.now()-preparedAt>60000){preparedAt=Date.now();prepared=(async()=>{try{const response=await fetch('/codi/audio/index.json',{credentials:'omit'});if(!response.ok)return new Set<string>();const data=await response.json();if(data.schema!==1||!Array.isArray(data.ready)||data.ready.length>30000)return new Set<string>();return new Set<string>(data.ready.filter((key: unknown)=>typeof key==='string'&&/^[a-f0-9]{64}$/.test(key)));}catch{return new Set<string>();}})();}return prepared;
@@ -13,7 +14,12 @@ async function audioHash(text: string,language: Language) {
   const digest=new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(codiAudioKeyMaterial(text,language))));return Array.from(digest,b=>b.toString(16).padStart(2,'0')).join('');
 }
 export async function hasPreparedCodiReading(chunks: string[],language: Language) {
-  if(!chunks.length)return false;const ready=await preparedIndex();for(const chunk of chunks)if(!ready.has(await audioHash(chunk,language)))return false;return true;
+  if(!chunks.length)return false;const ready=await preparedIndex();
+  for(const chunk of chunks)if(!ready.has(await audioHash(chunk,language))){
+    // Long lessons ask once instead of probing hundreds of missing sentences.
+    if(chunks.length>4)return false;
+    try { await codiCloudReading(chunk,language,AbortSignal.timeout(15000),false); } catch { return false; }
+  }return true;
 }
 function codiGuestId() {
   if (guestId) return guestId;
@@ -24,7 +30,7 @@ function codiGuestId() {
 }
 export async function codiCloudRequest(body: Record<string, unknown>, signal: AbortSignal) {
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
-  const response = await fetch(`${supabaseUrl}/functions/v1/codi-voice`, { method: 'POST', signal, credentials: 'omit', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...body, guestId: codiGuestId(), consent: true }) });
+  const response = await fetch(`${supabaseUrl}/functions/v1/codi-voice`, { method: 'POST', signal, credentials: 'omit', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...body, guestId: codiGuestId(), consent: body.action === 'cached' ? false : true }) });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(typeof data.error === 'string' ? data.error.slice(0, 250) : 'Codi cloud voice is unavailable.');
   return data;
@@ -36,7 +42,8 @@ function decodePcm(data: string): Float32Array {
   for (let i = 0; i < samples.length; i++) { const value = raw.charCodeAt(i * 2) | raw.charCodeAt(i * 2 + 1) << 8; samples[i] = (value > 32767 ? value - 65536 : value) / 32768; }
   return samples;
 }
-/** Bounded, local audio cache only. Tokens and Firebase identity are never cached. */
+/** Static audio, browser cache, then shared server cache. Only a consented read
+ * action can generate speech. Tokens and identity are never cached. */
 export async function codiCloudReading(text: string, language: Language, signal: AbortSignal, allowCloud = true): Promise<Blob> {
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
   const hash = await audioHash(text,language);
@@ -48,8 +55,16 @@ export async function codiCloudReading(text: string, language: Language, signal:
   const key = `${location.origin}/codi/audio-cache/${hash}.wav`;
   let cache: Cache | undefined;
   try { if ('caches' in globalThis) { cache = await caches.open(cacheName); const found = await cache.match(key); if (found && found.headers.get('content-type') === 'audio/wav') { const blob = await found.blob(); if (blob.size >= 44 && blob.size <= 4400000) return blob; } } } catch { /* Storage can be disabled; playback must still work. */ }
-  if(!allowCloud)throw new Error('This sentence has no prepared recording yet. Allow live voice to generate it.');
-  const data = await codiCloudRequest({ action: 'read', language, text }, signal);
+  let data;
+  if(!allowCloud){
+    if((sharedMisses.get(hash)||0)>Date.now())throw new Error('This sentence has no prepared recording yet. Allow live voice to generate it.');
+    data=await codiCloudRequest({action:'cached',language,text,consent:false},signal);
+    if(data.cached===false){
+      if(sharedMisses.size>=64)sharedMisses.delete(sharedMisses.keys().next().value!);
+      sharedMisses.set(hash,Date.now()+15000);
+      throw new Error('This sentence has no prepared recording yet. Allow live voice to generate it.');
+    }
+  }else data=await codiCloudRequest({ action: 'read', language, text }, signal);
   if (data.rate !== 24000 || ![model, 'gemini-2.5-flash-native-audio-preview-12-2025'].includes(data.model)) throw new Error('Unexpected voice format.');
   const blob = new Blob([codiWav(decodePcm(data.audio), 24000) as BlobPart], { type: 'audio/wav' });
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
