@@ -6,6 +6,7 @@ const model = 'gemini-2.5-flash-preview-tts';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://btxrkhwyugzliswznkpx.supabase.co';
 let guestId: string;
 const sharedMisses = new Map<string, number>();
+let storageUnavailableUntil = 0;
 let prepared: Promise<Set<string>> | undefined; let preparedAt = 0;
 async function preparedIndex() {
   if(!prepared || Date.now()-preparedAt>60000){preparedAt=Date.now();prepared=(async()=>{try{const response=await fetch('/codi/audio/index.json',{credentials:'omit'});if(!response.ok)return new Set<string>();const data=await response.json();if(data.schema!==1||!Array.isArray(data.ready)||data.ready.length>30000)return new Set<string>();return new Set<string>(data.ready.filter((key: unknown)=>typeof key==='string'&&/^[a-f0-9]{64}$/.test(key)));}catch{return new Set<string>();}})();}return prepared;
@@ -56,7 +57,14 @@ export async function codiCloudReading(text: string, language: Language, signal:
   let cache: Cache | undefined;
   try { if ('caches' in globalThis) { cache = await caches.open(cacheName); const found = await cache.match(key); if (found && found.headers.get('content-type') === 'audio/wav') { const blob = await found.blob(); if (blob.size >= 44 && blob.size <= 4400000) return blob; } } } catch { /* Storage can be disabled; playback must still work. */ }
   let data;
-  if(!allowCloud){
+  // Public, content-addressed lesson audio can be served by Storage's CDN
+  // directly, avoiding an Edge cold start and GitHub's download redirect.
+  if(Date.now()>=storageUnavailableUntil)try {
+    const response=await fetch(`${supabaseUrl}/storage/v1/object/public/codi-lesson-audio/${hash}.json`,{credentials:'omit',signal:AbortSignal.any([signal,AbortSignal.timeout(2500)])});
+    if(response.status>=500||response.status===429)storageUnavailableUntil=Date.now()+30000;
+    if(response.ok){const raw=await response.text();if(raw.length<=6000000){const saved=JSON.parse(raw);if(saved?.rate===24000&&[model,'gemini-2.5-flash-native-audio-preview-12-2025'].includes(saved.model)&&typeof saved.audio==='string'){decodePcm(saved.audio);data=saved;}}}
+  }catch(error){if(signal.aborted)throw error;storageUnavailableUntil=Date.now()+30000;}
+  if(!data && !allowCloud){
     if((sharedMisses.get(hash)||0)>Date.now())throw new Error('This sentence has no prepared recording yet. Allow live voice to generate it.');
     data=await codiCloudRequest({action:'cached',language,text,consent:false},signal);
     if(data.cached===false){
@@ -64,7 +72,7 @@ export async function codiCloudReading(text: string, language: Language, signal:
       sharedMisses.set(hash,Date.now()+15000);
       throw new Error('This sentence has no prepared recording yet. Allow live voice to generate it.');
     }
-  }else data=await codiCloudRequest({ action: 'read', language, text }, signal);
+  }else if(!data) data=await codiCloudRequest({ action: 'read', language, text }, signal);
   if (data.rate !== 24000 || ![model, 'gemini-2.5-flash-native-audio-preview-12-2025'].includes(data.model)) throw new Error('Unexpected voice format.');
   const blob = new Blob([codiWav(decodePcm(data.audio), 24000) as BlobPart], { type: 'audio/wav' });
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');

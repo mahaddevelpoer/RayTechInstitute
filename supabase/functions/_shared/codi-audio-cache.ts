@@ -14,7 +14,7 @@ function validRecording(value: unknown): value is CodiRecording {
   const r = value as CodiRecording;
   return !!r && r.rate === 24000 && ['gemini-2.5-flash-preview-tts', 'gemini-2.5-flash-native-audio-preview-12-2025'].includes(r.model) && typeof r.audio === 'string' && r.audio.length >= 4 && r.audio.length <= 5800000 && /^[A-Za-z0-9+/]+={0,2}$/.test(r.audio) && atob(r.audio).length % 2 === 0;
 }
-export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetch) {
+export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetch, hot?: {get(hash: string): Promise<CodiRecording | null>; put(hash: string, recording: CodiRecording): Promise<boolean>}) {
   let catalog: { until: number; hashes: Set<string> } | undefined;
   let releaseId = 0;
   const active = new Map<string, Promise<CodiRecording & { cacheSaved: boolean }>>();
@@ -37,11 +37,13 @@ export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetc
   }
   // A known public release URL avoids listing thousands of assets on each click.
   async function lookup(hash: string) {
+    const cached = await hot?.get(hash).catch(() => null); if (cached) return cached;
     const response = await fetcher(`https://github.com/${repository}/releases/download/${tag}/${hash}.json?cache=${Math.floor(Date.now() / 15000)}`, { signal: AbortSignal.timeout(10000) });
     if (response.status === 404) return null;
     if (!response.ok) throw Error('Shared recording unavailable');
     const raw = await response.text(); if (raw.length > 6000000) throw Error('Shared recording too large');
     const data = JSON.parse(raw); if (!validRecording(data)) throw Error('Invalid shared recording');
+    await hot?.put(hash, data).catch(() => false);
     return data;
   }
   async function get(language: Language, text: string) {
@@ -91,6 +93,7 @@ export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetc
         const recording = await produce(); if (!validRecording(recording)) throw Error('Invalid generated recording');
         const saved = await upload(id, `${hash}.json`, JSON.stringify(recording));
         if (!saved.ok && saved.status !== 422) return { ...recording, cacheSaved: false };
+        await hot?.put(hash, recording).catch(() => false);
         return { ...recording, cacheSaved: true };
       } finally { await api(`/releases/assets/${lockId}`, { method: 'DELETE' }).catch(() => undefined); }
     })();

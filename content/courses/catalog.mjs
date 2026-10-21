@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import { understandMdx } from './understand.mjs';
+import { companionSections } from './reading-companions.mjs';
 
 // Original repository-authored lessons. No remote authoring service is called.
 const q = (question, options, answer, explanation) => ({ question, options: options.map((text, index) => ({ id: String.fromCharCode(97 + index), text })), correctOptionId: String.fromCharCode(97 + answer), explanation });
@@ -96,14 +97,22 @@ const tracks = [
   },
 ];
 
-export async function authoredFoundationTopics({ interactive = true, guided = true, experiment = true } = {}) {
+export async function authoredFoundationTopics({ interactive = true, guided = true, experiment = true, enriched = true } = {}) {
   return Promise.all(tracks.map(async track => ({
     id: `authored-${track.id}-001`, languageId: track.id, slug: track.slug, title: track.title, summary: track.summary,
     order: 1, version: 1, state: 'draft', objectives: track.objectives, prerequisiteIds: [], videoIds: [],
-    content: (await fs.readFile(new URL(`./${track.id}/${track.file.replace(/\.md$/, interactive ? '.mdx' : '.md')}`, import.meta.url), 'utf8')) + (interactive && guided ? understandMdx(track.id, { experiment }) : ''), starterCode: track.starterCode,
+    content: enrichFoundation(track.id, (await fs.readFile(new URL(`./${track.id}/${track.file.replace(/\.md$/, interactive ? '.mdx' : '.md')}`, import.meta.url), 'utf8')), interactive && enriched) + (interactive && guided ? understandMdx(track.id, { experiment }) : ''), starterCode: track.starterCode,
     questions: track.questions.map((question, index) => ({ id: `q${index + 1}`, ...question })), questionsPerAttempt: 4,
     assignment: { instructions: track.instructions, hints: ['Review the three worked examples before changing your own program.', 'Run a small version first and compare its output with your prediction.'],
       requiredConcepts: track.concepts, allowedConcepts: track.concepts, prohibitedConcepts: [], starterCode: track.starterCode,
       rubric: [{ id: 'requirements', description: 'Meet the stated task requirements using the taught concepts.', points: 40 }, { id: 'behaviour', description: 'Produce the required output or visible page behaviour.', points: 35 }, { id: 'clarity', description: 'Use readable structure, meaningful names and a clear explanation.', points: 25 }] },
   })));
+}
+
+function enrichFoundation(language, source, enabled) {
+ const note=enabled&&companionSections(`authored-${language}-001`);if(!note)return source;
+ // Put a prediction near the start without changing its answer or duplicating it.
+ const prediction=source.match(/^<PredictOutput .*?\/>$/m)?.[0];
+ if(prediction)source=source.replace(prediction,'');
+ return [note.opening,prediction||'',source,note.reasoning,note.practice].join('\n\n')+'\n';
 }

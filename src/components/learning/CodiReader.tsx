@@ -177,7 +177,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
       const size = viewport(); const old = previous.current;
       if (manual.current || dock === 'free') { placeFloating(old.x, old.y, true); return; }
       let element = dock === 'compiler' ? compiler?.current : content.current;
-      if (!element?.getBoundingClientRect().width) element = content.current?.getBoundingClientRect().width ? content.current : compiler?.current;
+      if (!element?.getBoundingClientRect().width || element.dataset.codiCollapsed === 'true') element = content.current?.getBoundingClientRect().width ? content.current : compiler?.current;
       if (!element) { setPosition(value => ({ ...value, ready: false })); return; }
       const point = codiDockPoint(element.getBoundingClientRect(), size);
       if (old.ready && old.x === point.x && old.y === point.y && old.dock === dock) { setPosition(value => value.width === size.width && value.height === size.height ? value : { ...value, ...size }); return; }

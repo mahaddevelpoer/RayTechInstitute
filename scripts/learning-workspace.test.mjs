@@ -28,13 +28,13 @@ test('independent panel toggles retain compiler state and examples reopen the co
  const code=ts.transpileModule(await fs.readFile('src/components/learning/LearningWorkspace.tsx','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;
  const module={exports:{}};vm.runInNewContext(code,{module,exports:module.exports,require:id=>mocks[id]||require(id),requestAnimationFrame:fn=>fn(),process:{env:{NEXT_PUBLIC_CODI_ENABLED:'false'}},window:dom.window});
  const root=createRoot(document.getElementById('root'));
- const click=async text=>{const b=[...document.querySelector('.learning-desktop-controls').querySelectorAll('button')].find(b=>b.textContent===text);assert.ok(b,text);await act(async()=>b.click());};
+ const click=async text=>{const b=document.querySelector(`button[aria-label="${text}"]`);assert.ok(b,text);assert.ok(b.closest('aside'),'toggle belongs to its panel');await act(async()=>b.click());};
  try{
   await act(async()=>root.render(React.createElement(module.exports.LearningWorkspace,{language:{slug:'python',title:'Python',runtime:'python'},topic:{id:'t',version:1,title:'Names',summary:'Learn names.',content:'Text',objectives:[],videoIds:[],starterCode:'original',slug:'names'},topics:[{id:'t',slug:'names',title:'Names',order:1}]})));
   const editor=document.querySelector('input');await act(async()=>{editor.value='keep this code';editor.dispatchEvent(new dom.window.Event('input',{bubbles:true}));});
   await click('Hide topics');assert.equal(document.querySelector('main').dataset.topicsOpen,'false');
   await click('Hide compiler');assert.equal(document.querySelector('main').dataset.practiceOpen,'false');
-  assert.equal(document.querySelector('[aria-controls="learning-practice-panel"]').getAttribute('aria-expanded'),'false');
+  assert.equal(document.querySelector('[aria-controls="learning-practice-body"]').getAttribute('aria-expanded'),'false');assert.equal(document.querySelector('#learning-practice-body').inert,true);
   await click('Show topics');assert.equal(document.querySelector('main').dataset.topicsOpen,'true');
   await click('Show compiler');assert.equal(document.querySelector('input'),editor);assert.equal(editor.value,'keep this code');assert.equal(mounts,1);assert.equal(unmounts,0);
   await click('Hide compiler');await act(async()=>[...document.querySelectorAll('button')].find(b=>b.textContent==='Try example').click());
