@@ -5,6 +5,7 @@ const { codiSpeechChunks, codiNarration, findCodiExplanation, codiDockPoint, cod
 test('clicked visible code is not mistaken for Markdown or HTML markup',()=>{
   assert.deepEqual(codiSpeechChunks('<div class="my_card">','text'),['<div class="my_card">']);
   assert.deepEqual(codiSpeechChunks('total_score = first_value * 2','text'),['total_score = first_value * 2']);
+  assert.deepEqual(codiSpeechChunks('A sentence.\n\n<h1>Hello</h1>\n\ntotal_score = first_value * 2','text'),['A sentence.','<h1>Hello</h1>','total_score = first_value * 2']);
   assert.match(codiNarration('Use `my_name` here.\n```html\n<h1>Hello</h1>\n```'),/my_name/);
   assert.match(codiNarration('```html\n<h1>Hello</h1>\n```'),/<h1>Hello<\/h1>/);
 });

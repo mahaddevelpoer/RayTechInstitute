@@ -34,6 +34,11 @@ function button(children: Node[], text: string): Node { return {type:'element',t
 function hasLink(node: Node): boolean { return node.tagName==='a' || (node.children || []).some(hasLink); }
 function linkedButtons(node: Node, sentence: string): Node {
   if (node.tagName==='a') return node;
+  if(node.type==='text'){
+    const value=node.value || '';const trimmed=value.trim();if(!trimmed)return node;
+    const leading=value.match(/^\s*/)?.[0] || '',trailing=value.match(/\s*$/)?.[0] || '';
+    return {type:'element',tagName:'span',children:[{type:'text',value:leading},button([{type:'text',value:trimmed}],sentence),{type:'text',value:trailing}]};
+  }
   if (!hasLink(node)) return textOf(node).trim() ? button([node],sentence) : node;
   return {...node,children:(node.children || []).map(child=>linkedButtons(child,sentence))};
 }

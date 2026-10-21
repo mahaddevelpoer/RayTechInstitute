@@ -11,6 +11,7 @@ export function codiNarration(markdown: string): string {
 /** Queue the complete text. Each neural voice request remains small and bounded. */
 export function codiSpeechChunks(text: string, format: 'markdown' | 'text' = 'markdown'): string[] {
   const clean = format === 'text' ? text.trim() : codiNarration(text); if (!clean || clean.length > 200000) return [];
+  if(format==='text' && /\n\s*\n/.test(clean))return clean.split(/\n\s*\n/).flatMap(unit=>codiSpeechChunks(unit,'text'));
   if (format === 'markdown') return clean.split(/\n\s*\n/).flatMap(block => codiSentences(block).flatMap(sentence => codiSpeechChunks(sentence, 'text')));
   const chunks: string[] = []; let buffer = '';
   for (const word of clean.split(/\s+/)) {
