@@ -37,7 +37,7 @@ function linkedButtons(node: Node, sentence: string): Node {
   if(node.type==='text'){
     const value=node.value || '';const trimmed=value.trim();if(!trimmed)return node;
     const leading=value.match(/^\s*/)?.[0] || '',trailing=value.match(/\s*$/)?.[0] || '';
-    return {type:'element',tagName:'span',children:[{type:'text',value:leading},button([{type:'text',value:trimmed}],sentence),{type:'text',value:trailing}]};
+    return {type:'element',tagName:'span',properties:{},children:[{type:'text',value:leading},button([{type:'text',value:trimmed}],sentence),{type:'text',value:trailing}]};
   }
   if (!hasLink(node)) return textOf(node).trim() ? button([node],sentence) : node;
   return {...node,children:(node.children || []).map(child=>linkedButtons(child,sentence))};
