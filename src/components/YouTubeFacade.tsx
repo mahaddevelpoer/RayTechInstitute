@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { Play } from 'lucide-react';
 import { sanitizeUrl } from '@/utils/security';
 

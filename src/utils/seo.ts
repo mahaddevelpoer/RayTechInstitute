@@ -16,9 +16,9 @@ export function buildSeoTitle(primary: string): string {
   const suffix = ' | RayTech Institute';
   const maxPrimaryLength = 60 - suffix.length;
   const minPrimaryLength = 50 - suffix.length;
-  let value = primary.replace(/\s+/g, ' ').trim();
+  let value = primary.replace(/\s+/g, ' ').trim() || 'Learning Resources';
 
-  for (const addition of [' Resources', ' Guide', ' Online']) {
+  for (const addition of [' Resources', ' Guide', ' Online', ' Study Notes']) {
     if (value.length >= minPrimaryLength) break;
     value += addition;
   }
@@ -27,4 +27,24 @@ export function buildSeoTitle(primary: string): string {
     value = `${value.slice(0, maxPrimaryLength - 1).trimEnd()}…`;
   }
   return `${value}${suffix}`;
+}
+
+/** Short editorial summaries are valid; metadata must still fit the build contract. */
+export function buildLessonDescription(summary: string, context: string): string {
+  const normalize = (value: string) => value.replace(/\s+/g, ' ').trim();
+  const text = normalize(summary);
+  const label = normalize(context);
+  let value = label && text ? `${label}: ${text}` : label || text || 'Learn this programming topic.';
+  for (const sentence of [
+    'Practice in your browser and check your understanding with a topic test.',
+    'Review the lesson before completing the coding assignment.',
+  ]) {
+    if (value.length >= 120) break;
+    value += `${/[.!?]$/.test(value) ? '' : '.'} ${sentence}`;
+  }
+  if (value.length <= 155) return value;
+  let shortened = value.slice(0, 154);
+  const boundary = shortened.lastIndexOf(' ');
+  if (boundary >= 120) shortened = shortened.slice(0, boundary);
+  return `${shortened.trimEnd()}…`;
 }

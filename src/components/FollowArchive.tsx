@@ -9,7 +9,7 @@ interface FollowArchiveProps {
   videoCount?: number;
 }
 
-export const FollowArchive: React.FC<FollowArchiveProps> = ({ videoCount }) => {
+export const FollowArchive: React.FC<FollowArchiveProps> = () => {
   return (
     <section id="youtube" className="py-12 bg-white border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

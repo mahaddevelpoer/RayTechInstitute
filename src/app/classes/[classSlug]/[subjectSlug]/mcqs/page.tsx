@@ -1,17 +1,26 @@
-import React from 'react';
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { INITIAL_SUBJECTS, INITIAL_CLASSES, INITIAL_MCQS } from '@/data/staticCatalog';
-import { MCQClientView } from '@/components/educational/MCQClientView';
-import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
+import { staticExportParams } from "@/utils/staticExport";
+import { siteUrl } from "@/lib/site";
+import React from "react";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import {
+  INITIAL_SUBJECTS,
+  INITIAL_CLASSES,
+  INITIAL_MCQS,
+} from "@/data/staticCatalog";
+import { MCQClientView } from "@/components/educational/MCQClientView";
+import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export function generateStaticParams() {
-  return INITIAL_SUBJECTS.map((s) => ({
-    classSlug: s.classSlug,
-    subjectSlug: s.slug,
-  }));
+  return staticExportParams(
+    INITIAL_SUBJECTS.map((s) => ({
+      classSlug: s.classSlug,
+      subjectSlug: s.slug,
+    })),
+    ["classSlug", "subjectSlug"],
+  );
 }
 
 interface PageProps {
@@ -21,26 +30,30 @@ interface PageProps {
   }>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { classSlug, subjectSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
   if (!currentClass || !currentSubject) return {};
-  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
     description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/mcqs/`,
+      canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
     },
     openGraph: {
-      title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
+      title: buildSeoTitle(
+        `${className} ${currentSubject.title} MCQs Practice`,
+      ),
       description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
-      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/mcqs/`,
-      type: 'website',
+      url: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
+      type: "website",
     },
   };
 }
@@ -49,7 +62,7 @@ export default async function SubjectMCQsServerPage({ params }: PageProps) {
   const { classSlug, subjectSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
 
   if (!currentClass || !currentSubject) {
@@ -57,25 +70,25 @@ export default async function SubjectMCQsServerPage({ params }: PageProps) {
   }
 
   const subjectMCQs = INITIAL_MCQS.filter(
-    (m) => m.classSlug === classSlug && m.subjectSlug === subjectSlug
+    (m) => m.classSlug === classSlug && m.subjectSlug === subjectSlug,
   );
 
   const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Quiz',
+    "@context": "https://schema.org",
+    "@type": "Quiz",
     name: `${currentClass.title} ${currentSubject.title} MCQs Practice Examination`,
     description: `Interactive multiple choice questions for ${currentClass.title} ${currentSubject.title} with real-time verification.`,
     educationalLevel: currentClass.title,
     hasPart: subjectMCQs.map((m) => ({
-      '@type': 'Question',
+      "@type": "Question",
       name: m.question,
       suggestedAnswer: m.options.map((opt, i) => ({
-        '@type': 'Answer',
+        "@type": "Answer",
         text: opt,
         position: i + 1,
       })),
       acceptedAnswer: {
-        '@type': 'Answer',
+        "@type": "Answer",
         text: m.options[m.correctIndex],
       },
     })),

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { FileCode, Plus, CheckCircle, ExternalLink, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { ClassItem, SubjectItem, PastPaperItem } from '@/types/educational';
 
 export default function AdminPastPapersPage() {
@@ -35,7 +36,7 @@ export default function AdminPastPapersPage() {
 
   const availableSubjects = subjects.filter((s) => s.classSlug === selectedClass);
 
-  const handleSavePastPaper = async (e: React.FormEvent) => {
+  const handleSavePastPaper = adminOperation('past-papers:handleSavePastPaper', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!pdfUrl.trim() || !board.trim()) return;
 
@@ -54,7 +55,7 @@ export default function AdminPastPapersPage() {
     resetForm();
     setSuccessMsg(editingId ? `Past Paper (${board} ${year}) updated successfully!` : `Past Paper (${board} ${year}) added successfully!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const handleEdit = (p: PastPaperItem) => {
     setEditingId(p.id);
@@ -74,7 +75,7 @@ export default function AdminPastPapersPage() {
     setSession('Annual');
   };
 
-  const handleDelete = async (id: string, boardName: string, yr: number) => {
+  const handleDelete = adminOperation('past-papers:handleDelete', async (id: string, boardName: string, yr: number) => {
     if (!confirm(`Are you sure you want to permanently delete "${boardName} ${yr}" past paper? This will delete it from Supabase.`)) {
       return;
     }
@@ -82,7 +83,7 @@ export default function AdminPastPapersPage() {
     setPastPapers(EducationalStore.getPastPapers());
     setSuccessMsg(`Past Paper deleted permanently!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const BOARDS = [
     'BISE Lahore',

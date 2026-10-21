@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function owner(uid) {
+      return request.auth != null && request.auth.uid == uid
+        && request.auth.token.firebase.sign_in_provider != 'anonymous';
+    }
+    match /students/{uid}/learningProgress/{key} {
+      function valid() {
+        let data = request.resource.data;
+        return data.keys().hasAll(['topicId', 'version', 'revision', 'payload', 'updatedAt'])
+          && data.keys().hasOnly(['topicId', 'version', 'revision', 'payload', 'updatedAt'])
+          && data.topicId is string && data.topicId.matches('^[a-zA-Z0-9_-]{1,100}$')
+          && data.version is int && data.version > 0 && data.version <= 1000000
+          && key == data.topicId + '@' + string(data.version)
+          && data.revision is int && data.revision > 0
+          && data.payload is string && data.payload.size() <= 200000
+          && data.updatedAt == request.time;
+      }
+      allow get: if owner(uid);
+      allow list: if false;
+      allow create: if owner(uid) && valid() && request.resource.data.revision == 1;
+      allow update: if owner(uid) && valid() && request.resource.data.revision == resource.data.revision + 1
+        && request.resource.data.topicId == resource.data.topicId && request.resource.data.version == resource.data.version;
+      allow delete: if owner(uid);
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

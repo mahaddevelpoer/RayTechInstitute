@@ -1,40 +1,43 @@
-import React from 'react';
-import { Metadata } from 'next';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { ClassesClientView } from '@/components/educational/ClassesClientView';
-import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
+import { siteUrl } from "@/lib/site";
+import React from "react";
+import { Metadata } from "next";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { ClassesClientView } from "@/components/educational/ClassesClientView";
+import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export const metadata: Metadata = {
-  title: buildSeoTitle('11th and 12th Class Notes and Past Papers'),
-  description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
+  title: buildSeoTitle("11th and 12th Class Notes and Past Papers"),
+  description:
+    "Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.",
   alternates: {
-    canonical: 'https://raytechinstitute.web.app/classes/',
+    canonical: siteUrl("/classes/"),
   },
   openGraph: {
-    title: buildSeoTitle('11th and 12th Class Notes and Past Papers'),
-    description: 'Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.',
-    url: 'https://raytechinstitute.web.app/classes/',
-    type: 'website',
+    title: buildSeoTitle("11th and 12th Class Notes and Past Papers"),
+    description:
+      "Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.",
+    url: siteUrl("/classes/"),
+    type: "website",
   },
 };
 
 export default function ClassesIndexPage() {
   const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     itemListElement: [
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 1,
-        name: 'Home',
-        item: 'https://raytechinstitute.web.app/',
+        name: "Home",
+        item: siteUrl("/"),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 2,
-        name: 'Academic Classes',
-        item: 'https://raytechinstitute.web.app/classes/',
+        name: "Academic Classes",
+        item: siteUrl("/classes/"),
       },
     ],
   };
@@ -43,7 +46,7 @@ export default function ClassesIndexPage() {
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
-      <main className="page-main flex-1">
+      <main id="main-content" tabIndex={-1} className="page-main flex-1">
         {/* SEO Breadcrumbs Structured Data */}
         <script
           type="application/ld+json"

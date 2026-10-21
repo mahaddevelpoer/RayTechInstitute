@@ -1,0 +1,19 @@
+{
+  "name": "raytech-codi-speech-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.1",
+    "ephone": "1.0.2",
+    "onnxruntime-web": "1.31.0-dev.20260914-8d85527a0",
+    "raytech-institute-archive": "file:../.."
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

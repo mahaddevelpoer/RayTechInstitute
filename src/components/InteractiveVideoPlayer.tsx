@@ -3,8 +3,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { EducationalStore } from '@/data/educationalStore';
 import { VideoInteractiveMCQ } from '@/types/educational';
-import { Play, CheckCircle2, XCircle, Award, RotateCcw, ArrowRight, HelpCircle } from 'lucide-react';
+import { Play, CheckCircle2, XCircle, Award, ArrowRight, HelpCircle } from 'lucide-react';
 import { sanitizeUrl } from '@/utils/security';
+import { loadLessonYouTubeAPI } from '@/lib/learning/youtube-player';
 
 declare global {
   interface Window {
@@ -29,12 +30,11 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
   className = '',
 }) => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
-  const [playerReady, setPlayerReady] = useState<boolean>(false);
   const [activeMCQ, setActiveMCQ] = useState<VideoInteractiveMCQ | null>(null);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [answeredMCQs, setAnsweredMCQs] = useState<Record<string, boolean>>({});
   const [showFeedback, setShowFeedback] = useState<boolean>(false);
-  const [currentPlaybackTime, setCurrentPlaybackTime] = useState<number>(0);
+  const [playerError, setPlayerError] = useState('');
 
   const containerId = useRef<string>(`yt-player-${videoId}-${Math.random().toString(36).substring(2, 7)}`);
   const playerRef = useRef<any>(null);
@@ -53,15 +53,11 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
   useEffect(() => {
     if (!isPlaying) return;
 
-    if (!window.YT) {
-      const tag = document.createElement('script');
-      tag.src = 'https://www.youtube.com/iframe_api';
-      const firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag?.parentNode?.insertBefore(tag, firstScriptTag);
-    }
+    let disposed = false;
+    setPlayerError('');
 
     const initPlayer = () => {
-      if (!window.YT || !window.YT.Player) return;
+      if (disposed || !window.YT || !window.YT.Player) return;
       if (playerRef.current) return;
 
       playerRef.current = new window.YT.Player(containerId.current, {
@@ -69,12 +65,12 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
         playerVars: {
           autoplay: autoPlayOnClick ? 1 : 0,
           rel: 0,
-          modestbranding: 1,
+          origin: window.location.origin,
+          playsinline: 1,
           enablejsapi: 1,
         },
         events: {
           onReady: () => {
-            setPlayerReady(true);
           },
           onStateChange: (event: any) => {
             // YT.PlayerState.PLAYING is 1
@@ -88,13 +84,12 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
       });
     };
 
-    if (window.YT && window.YT.Player) {
-      initPlayer();
-    } else {
-      window.onYouTubeIframeAPIReady = initPlayer;
-    }
+    void loadLessonYouTubeAPI().then(initPlayer).catch(() => {
+      if (!disposed) setPlayerError('The interactive player could not load. You can open this video on YouTube.');
+    });
 
     return () => {
+      disposed = true;
       stopTimeTracker();
       if (playerRef.current && playerRef.current.destroy) {
         try {
@@ -111,7 +106,6 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
       if (!playerRef.current || typeof playerRef.current.getCurrentTime !== 'function') return;
 
       const currentTime = Math.floor(playerRef.current.getCurrentTime());
-      setCurrentPlaybackTime(currentTime);
 
       // Check if current time matches any pending MCQ checkpoint
       const currentMCQs = EducationalStore.getVideoMCQs(videoId);
@@ -250,6 +244,7 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
   // Active Player View with Live Interactive Overlay
   return (
     <div className={`space-y-3 ${className}`}>
+      {playerError && <p role="status" className="text-sm">{playerError} <a href={`https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`} target="_blank" rel="noopener noreferrer" className="underline">Open on YouTube</a></p>}
       <div className="relative w-full aspect-video bg-black overflow-hidden border border-slate-300 rounded-md shadow-md">
         {/* YouTube Container */}
         <div id={containerId.current} className="w-full h-full" />

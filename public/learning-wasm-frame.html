@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'wasm-unsafe-eval' blob:; worker-src blob:; connect-src 'none'; img-src 'none'; style-src 'none'; form-action 'none'; base-uri 'none'"><title>Isolated coding runtime</title></head><body><script>
+let worker;
+let objectUrl;
+let deadline;
+function stop() {
+  clearTimeout(deadline);
+  worker?.terminate(); worker = null;
+  if (objectUrl) URL.revokeObjectURL(objectUrl);
+  objectUrl = null;
+}
+addEventListener('message', event => {
+  if (event.source !== parent) return;
+  const message = event.data;
+  if (message?.type === 'stop') { stop(); return; }
+  if (message?.type !== 'run' || !['python', 'php'].includes(message.language)
+    || typeof message.code !== 'string' || message.code.length > 20000
+    || typeof message.stdin !== 'string' || message.stdin.length > 10000
+    || typeof message.workerSource !== 'string' || message.workerSource.length > 3000000
+    || typeof message.runId !== 'string') return;
+  stop();
+  const runId = message.runId;
+  let size = 0;
+  let started = false;
+  function finish(text = '') { parent.postMessage({ type: 'done', runId, text: String(text).slice(0, 4000) }, '*'); stop(); }
+  try {
+    objectUrl = URL.createObjectURL(new Blob([message.workerSource], { type: 'text/javascript' }));
+    worker = new Worker(objectUrl);
+    const active = worker;
+    deadline = setTimeout(() => finish('Runtime loading timed out. Check your connection and try again.'), 90000);
+    worker.onmessage = event => {
+      if (worker !== active) return;
+      const result = event.data;
+      if (result?.type === 'ready' && !started) {
+        started = true; clearTimeout(deadline);
+        deadline = setTimeout(() => finish('Stopped after the 10-second execution limit.'), 10000);
+        parent.postMessage({ type: 'executing', runId }, '*');
+      } else if (result?.type === 'output') {
+        const text = String(result.text).slice(0, 20000 - size); size += text.length;
+        if (text) parent.postMessage({ type: 'output', runId, text }, '*');
+        if (size >= 20000) finish('Output limit reached.');
+      } else if (result?.type === 'done') finish(result.text || '');
+    };
+    worker.onerror = event => { if (worker === active) finish(event.message || 'The coding runtime could not start. Please try again.'); };
+    worker.postMessage({ code: message.code, stdin: message.stdin, assets: message.assets });
+  } catch { finish('The coding runtime could not start in this browser. Please try again.'); }
+});
+</script></body></html>

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React, { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 import {
   LayoutDashboard,
   GraduationCap,
@@ -18,21 +18,43 @@ import {
   Shield,
   Menu,
   X,
-} from 'lucide-react';
-import { clearAdminSession } from '@/utils/security';
-import { auth } from '@/lib/firebase';
-import { onAuthStateChanged, signOut } from 'firebase/auth';
-import { verifyAdminAccess } from '@/lib/supabase';
+} from "lucide-react";
+import { clearAdminSession } from "@/utils/security";
+import { auth } from "@/lib/firebase";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { verifyAdminAccess } from "@/lib/supabase";
 
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
+export default function AdminLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const pathname = usePathname();
   const router = useRouter();
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isChecking, setIsChecking] = useState(true);
+  const [operationError, setOperationError] = useState('');
+  useEffect(() => {
+    const show = (event: Event) => setOperationError(String((event as CustomEvent).detail || 'The operation failed. Please retry.').slice(0, 500));
+    const clear = () => setOperationError('');
+    window.addEventListener('raytech-admin-error', show);
+    window.addEventListener('raytech-admin-operation-start', clear);
+    return () => { window.removeEventListener('raytech-admin-error', show); window.removeEventListener('raytech-admin-operation-start', clear); };
+  }, []);
+  const [publishStatus, setPublishStatus] = useState<{
+    status: string;
+    message: string;
+  } | null>(null);
+  useEffect(() => {
+    const update = (event: Event) =>
+      setPublishStatus((event as CustomEvent).detail);
+    window.addEventListener("raytech-publish-status", update);
+    return () => window.removeEventListener("raytech-publish-status", update);
+  }, []);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
-    if (pathname === '/admin/login' || pathname === '/admin/login/') {
+    if (pathname === "/admin/login" || pathname === "/admin/login/") {
       setIsChecking(false);
       return;
     }
@@ -41,15 +63,15 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       if (!user) {
         setIsAuthenticated(false);
         setIsChecking(false);
-        router.push('/admin/login');
+        router.push("/admin/login");
       } else {
         const access = await verifyAdminAccess();
         if (!access.ok) {
-          await signOut(auth).catch(() => undefined);
+          if (access.reason === 'unauthorized') await signOut(auth).catch(() => undefined);
           clearAdminSession();
           setIsAuthenticated(false);
           setIsChecking(false);
-          router.push('/admin/login');
+          router.push("/admin/login");
         } else {
           setIsAuthenticated(true);
           setIsChecking(false);
@@ -60,7 +82,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     return () => unsubscribe();
   }, [pathname, router]);
 
-  if (pathname === '/admin/login' || pathname === '/admin/login/') {
+  if (pathname === "/admin/login" || pathname === "/admin/login/") {
     return <>{children}</>;
   }
 
@@ -84,19 +106,21 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       // ignore
     }
     clearAdminSession();
-    router.push('/admin/login');
+    router.push("/admin/login");
   };
 
   const navItems = [
-    { label: 'Dashboard', href: '/admin', icon: LayoutDashboard },
-    { label: 'Classes', href: '/admin/classes', icon: GraduationCap },
-    { label: 'Subjects', href: '/admin/subjects', icon: BookOpen },
-    { label: 'Notes Manager', href: '/admin/notes', icon: FileText },
-    { label: 'MCQs Builder', href: '/admin/mcqs', icon: HelpCircle },
-    { label: 'Past Papers', href: '/admin/past-papers', icon: FileCode },
-    { label: 'Gazettes & Results', href: '/admin/gazettes', icon: Award },
-    { label: 'Blogs & Updates', href: '/admin/blogs', icon: Newspaper },
-    { label: 'Video Quizzes', href: '/admin/videos', icon: Video },
+    { label: "Dashboard", href: "/admin", icon: LayoutDashboard },
+    { label: "Classes", href: "/admin/classes", icon: GraduationCap },
+    { label: "Courses & Lessons", href: "/admin/courses", icon: BookOpen },
+    { label: "Health & Release Review", href: "/admin/health", icon: Shield },
+    { label: "Subjects", href: "/admin/subjects", icon: BookOpen },
+    { label: "Notes Manager", href: "/admin/notes", icon: FileText },
+    { label: "MCQs Builder", href: "/admin/mcqs", icon: HelpCircle },
+    { label: "Past Papers", href: "/admin/past-papers", icon: FileCode },
+    { label: "Gazettes & Results", href: "/admin/gazettes", icon: Award },
+    { label: "Blogs & Updates", href: "/admin/blogs", icon: Newspaper },
+    { label: "Video Quizzes", href: "/admin/videos", icon: Video },
   ];
 
   return (
@@ -109,12 +133,14 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             className="md:hidden text-white hover:text-slate-200 p-1"
             aria-label="Toggle menu"
           >
-            {sidebarOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
+            {sidebarOpen ? (
+              <X className="w-4 h-4" />
+            ) : (
+              <Menu className="w-4 h-4" />
+            )}
           </button>
           <div className="flex items-center gap-2">
-            <span className="font-bold text-sm">
-              RayTech Admin Panel
-            </span>
+            <span className="font-bold text-sm">RayTech Admin Panel</span>
           </div>
 
           <Link
@@ -147,7 +173,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         {/* Sidebar */}
         <aside
           className={`fixed inset-y-12 left-0 z-30 w-56 bg-white border-r border-slate-200 transform transition-transform duration-200 ease-in-out md:translate-x-0 md:static ${
-            sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+            sidebarOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <div className="p-3">
@@ -165,8 +191,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                     onClick={() => setSidebarOpen(false)}
                     className={`flex min-h-12 items-center gap-2.5 px-3 py-2 rounded transition-colors font-medium ${
                       isActive
-                        ? 'bg-navy-600 text-white'
-                        : 'text-slate-700 hover:bg-slate-100 hover:text-navy-700'
+                        ? "bg-navy-600 text-white"
+                        : "text-slate-700 hover:bg-slate-100 hover:text-navy-700"
                     }`}
                   >
                     <Icon className="w-4 h-4 shrink-0" />
@@ -179,8 +205,31 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         </aside>
 
         {/* Main Content Pane */}
-        <main className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8 bg-slate-50">
-          <div className="max-w-6xl mx-auto">{children}</div>
+        <main
+          id="main-content"
+          tabIndex={-1}
+          className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8 bg-slate-50"
+        >
+          <div className="max-w-6xl mx-auto">
+            {operationError && <div role="alert" className="mb-5 rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-900"><p>{operationError}</p><button type="button" className="mt-2 min-h-12 rounded-md border border-red-300 px-3 font-semibold" onClick={() => setOperationError('')}>Dismiss error</button></div>}
+            {publishStatus && (
+              <div
+                role="status"
+                className={`mb-5 rounded-lg border p-4 text-sm ${publishStatus.status === "error" ? "border-amber-300 bg-amber-50 text-amber-950" : "border-navy-200 bg-navy-50 text-navy-900"}`}
+              >
+                <p>{publishStatus.message}</p>
+                <a
+                  href="https://github.com/mahaddevelpoer/RayTechInstitute/actions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex min-h-12 items-center font-semibold underline"
+                >
+                  Check publishing status
+                </a>
+              </div>
+            )}
+            {children}
+          </div>
         </main>
       </div>
     </div>

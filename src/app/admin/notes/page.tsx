@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import { FileText, Plus, CheckCircle, ExternalLink, Download, Trash2, Edit2, X, RefreshCw, Eye, Sparkles, Link2, AlertCircle, BookOpen } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { ClassItem, SubjectItem, NoteItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
-import { getFirebaseIdToken } from '@/utils/security';
 
 export default function AdminNotesPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
@@ -78,7 +78,7 @@ export default function AdminNotesPage() {
     return url;
   };
 
-  const handleSaveNote = async (e: React.FormEvent) => {
+  const handleSaveNote = adminOperation('notes:handleSaveNote', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim() || !chapterTitle.trim() || !pdfUrl.trim()) return;
 
@@ -121,7 +121,7 @@ export default function AdminNotesPage() {
       setAiError(msg);
       setTimeout(() => setAiError(''), 8000);
     }
-  };
+  });
 
   const handleEdit = (n: NoteItem) => {
     setEditingId(n.id);
@@ -156,7 +156,7 @@ export default function AdminNotesPage() {
     setChapterNumber(1);
   };
 
-  const handleDelete = async (id: string, noteTitle: string) => {
+  const handleDelete = adminOperation('notes:handleDelete', async (id: string, noteTitle: string) => {
     if (!confirm(`Are you sure you want to permanently delete "${noteTitle}"? This will delete it from Supabase and the platform.`)) {
       return;
     }
@@ -164,7 +164,7 @@ export default function AdminNotesPage() {
     setNotes(EducationalStore.getNotes());
     setSuccessMsg(`Note "${noteTitle}" deleted permanently!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   // ── AI Notes Writer Handler ──
   const handleGenerateNotesWithAI = async () => {

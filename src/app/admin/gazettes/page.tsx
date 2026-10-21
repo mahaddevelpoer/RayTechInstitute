@@ -17,10 +17,9 @@ import {
   AlertCircle,
 } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { GazetteItem } from '@/types/educational';
-import { MarkdownRenderer } from '@/components/MarkdownRenderer';
 import { supabase } from '@/lib/supabase';
-import { getFirebaseIdToken } from '@/utils/security';
 
 function normalizeUrl(url?: string): string {
   if (!url) return '';
@@ -88,7 +87,7 @@ export default function AdminGazettesPage() {
     'Federal Board (FBISE)',
   ];
 
-  const handleSaveGazette = async (e: React.FormEvent) => {
+  const handleSaveGazette = adminOperation('gazettes:handleSaveGazette', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim() || !pdfUrl.trim()) return;
 
@@ -118,7 +117,7 @@ export default function AdminGazettesPage() {
         : `Gazette "${newGazette.title}" published successfully!`
     );
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const handleEdit = (g: GazetteItem) => {
     setEditingId(g.id);
@@ -157,7 +156,7 @@ export default function AdminGazettesPage() {
     setActionButtonUrl('');
   };
 
-  const handleDelete = async (id: string, gTitle: string) => {
+  const handleDelete = adminOperation('gazettes:handleDelete', async (id: string, gTitle: string) => {
     if (
       !confirm(
         `Are you sure you want to permanently delete "${gTitle}"? This will delete it from Supabase.`
@@ -169,7 +168,7 @@ export default function AdminGazettesPage() {
     setGazettes(EducationalStore.getGazettes());
     setSuccessMsg(`Gazette deleted permanently!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   // ── AI Gazette Generator Handler ───────────────────────────
   const handleGenerateGazetteWithAI = async (e: React.FormEvent) => {

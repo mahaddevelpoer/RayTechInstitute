@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { EducationalStore } from '@/data/educationalStore';
 import { ClassItem } from '@/types/educational';
-import { ArrowRight, BookOpen } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export function ClassesClientView() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
@@ -33,6 +33,7 @@ export function ClassesClientView() {
       </div>
 
       {/* Classes Grid */}
+      <section className="mb-8 rounded-lg border border-[var(--border)] bg-[var(--bg-soft)] p-5"><h2 className="text-xl font-semibold">Programming courses</h2><p className="mt-2 text-sm text-[var(--text-sub)]">Study language topics with lessons and browser-based practice alongside your class resources.</p><Link href="/courses/" className="learn-button mt-4">Browse courses<ArrowRight size={16} /></Link></section>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {classes.map((cls) => {
           const subjects = EducationalStore.getSubjects(cls.slug);

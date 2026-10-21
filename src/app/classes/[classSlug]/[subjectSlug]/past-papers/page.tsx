@@ -1,17 +1,22 @@
-import React from 'react';
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { INITIAL_SUBJECTS, INITIAL_CLASSES } from '@/data/staticCatalog';
-import { PastPapersClientView } from '@/components/educational/PastPapersClientView';
-import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
+import { staticExportParams } from "@/utils/staticExport";
+import { siteUrl } from "@/lib/site";
+import React from "react";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { INITIAL_SUBJECTS, INITIAL_CLASSES } from "@/data/staticCatalog";
+import { PastPapersClientView } from "@/components/educational/PastPapersClientView";
+import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export function generateStaticParams() {
-  return INITIAL_SUBJECTS.map((s) => ({
-    classSlug: s.classSlug,
-    subjectSlug: s.slug,
-  }));
+  return staticExportParams(
+    INITIAL_SUBJECTS.map((s) => ({
+      classSlug: s.classSlug,
+      subjectSlug: s.slug,
+    })),
+    ["classSlug", "subjectSlug"],
+  );
 }
 
 interface PageProps {
@@ -21,35 +26,39 @@ interface PageProps {
   }>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { classSlug, subjectSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
   if (!currentClass || !currentSubject) return {};
-  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
     description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
+      canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
     },
     openGraph: {
       title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
       description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
-      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
-      type: 'website',
+      url: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
+      type: "website",
     },
   };
 }
 
-export default async function SubjectPastPapersServerPage({ params }: PageProps) {
+export default async function SubjectPastPapersServerPage({
+  params,
+}: PageProps) {
   const { classSlug, subjectSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
 
   if (!currentClass || !currentSubject) {
@@ -57,26 +66,26 @@ export default async function SubjectPastPapersServerPage({ params }: PageProps)
   }
 
   const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     itemListElement: [
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 1,
-        name: 'Home',
-        item: 'https://raytechinstitute.web.app/',
+        name: "Home",
+        item: siteUrl("/"),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 2,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
+        item: siteUrl(`/classes/${classSlug}/`),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 3,
         name: `${currentSubject.title} Past Papers`,
-        item: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/past-papers/`,
+        item: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
       },
     ],
   };

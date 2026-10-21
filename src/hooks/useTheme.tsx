@@ -19,22 +19,37 @@ const ThemeContext = createContext<ThemeContextType>({
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setThemeState] = useState<Theme>('light');
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     try {
       const savedTheme = localStorage.getItem('raytech_theme') as Theme | null;
       if (savedTheme === 'dark' || savedTheme === 'light') {
         setThemeState(savedTheme);
         applyTheme(savedTheme);
       } else {
-        setThemeState('light');
-        applyTheme('light');
+        const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        setThemeState(preferred);
+        applyTheme(preferred);
       }
     } catch {
-      applyTheme('light');
+      const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      setThemeState(preferred);
+      applyTheme(preferred);
     }
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
+    const restore = () => {
+      let saved: string | null = null;
+      try { saved = localStorage.getItem('raytech_theme'); } catch { /* Use the system choice. */ }
+      const next = saved === 'dark' || saved === 'light' ? saved : media.matches ? 'dark' : 'light';
+      setThemeState(next); applyTheme(next);
+    };
+    const storage = (event: StorageEvent) => { if (event.key === 'raytech_theme' || event.key === null) restore(); };
+    media.addEventListener('change', restore);
+    window.addEventListener('storage', storage);
+    return () => { media.removeEventListener('change', restore); window.removeEventListener('storage', storage); };
   }, []);
 
   const applyTheme = (newTheme: Theme) => {
@@ -75,10 +90,11 @@ export const ThemeToggle: React.FC<{ className?: string }> = ({ className = '' }
 
   return (
     <button
+      type="button"
       onClick={toggleTheme}
-      className={`p-2 rounded border border-slate-300 bg-white hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-200 text-slate-700 transition-colors ${className}`}
+      className={`inline-flex min-h-12 min-w-12 items-center justify-center p-2 rounded-md border border-slate-300 bg-white hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-200 text-slate-700 transition-colors ${className}`}
       title={theme === 'dark' ? 'Switch to Light Theme' : 'Switch to Dark Theme'}
-      aria-label="Toggle visual theme"
+      aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
     >
       {theme === 'dark' ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-slate-600" />}
     </button>

@@ -1,26 +1,26 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import { Header } from '@/components/Header';
-import { Hero } from '@/components/Hero';
-import { TheWork } from '@/components/TheWork';
-import { SubjectMap } from '@/components/SubjectMap';
-import { FeaturedLecture } from '@/components/FeaturedLecture';
-import { LectureArchive } from '@/components/LectureArchive';
-import { LectureModal } from '@/components/LectureModal';
-import { Classroom } from '@/components/Classroom';
-import { Workbench } from '@/components/Workbench';
-import { Approach } from '@/components/Approach';
-import { FollowArchive } from '@/components/FollowArchive';
-import { TikTokSection } from '@/components/TikTokSection';
-import { ContactSection } from '@/components/ContactSection';
-import { Footer } from '@/components/Footer';
-import { useYouTubeSync } from '@/hooks/useYouTubeSync';
+import React, { useState } from "react";
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { TheWork } from "@/components/TheWork";
+import { SubjectMap } from "@/components/SubjectMap";
+import { FeaturedLecture } from "@/components/FeaturedLecture";
+import { LectureArchive } from "@/components/LectureArchive";
+import { LectureModal } from "@/components/LectureModal";
+import { Classroom } from "@/components/Classroom";
+import { Workbench } from "@/components/Workbench";
+import { FollowArchive } from "@/components/FollowArchive";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
+import { useYouTubeSync } from "@/hooks/useYouTubeSync";
+import { AdReservation } from '@/components/AdReservation';
 
 export default function HomePage() {
   const { lectures, isLiveConnected, isSyncing } = useYouTubeSync();
   const [activeLectureId, setActiveLectureId] = useState<string | null>(null);
-  const [selectedCategoryFilter, setSelectedCategoryFilter] = useState<string>('ALL');
+  const [selectedCategoryFilter, setSelectedCategoryFilter] =
+    useState<string>("ALL");
 
   const selectedLecture = activeLectureId
     ? lectures.find((l) => l.id === activeLectureId) || null
@@ -44,7 +44,7 @@ export default function HomePage() {
       <Header />
 
       {/* Main Educational Sections */}
-      <main className="flex-1">
+      <main id="main-content" tabIndex={-1} className="flex-1">
         {/* Hero Banner */}
         <Hero />
 
@@ -73,6 +73,7 @@ export default function HomePage() {
           onFilterChange={(cat) => setSelectedCategoryFilter(cat)}
         />
 
+        <AdReservation placement="home" />
         {/* Student FAQs */}
         <Classroom />
 
@@ -80,13 +81,11 @@ export default function HomePage() {
         <Workbench />
 
         {/* 3 Step Method */}
-        <Approach />
 
         {/* YouTube Channel Banner */}
         <FollowArchive videoCount={lectures.length} />
 
         {/* TikTok Channel (if configured) */}
-        <TikTokSection />
 
         {/* Contact Form */}
         <ContactSection />

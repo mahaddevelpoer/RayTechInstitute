@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import {
-  HelpCircle,
   Plus,
   CheckCircle,
   Trash2,
@@ -15,9 +14,9 @@ import {
   AlertCircle,
 } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { ChapterItem, ClassItem, SubjectItem, MCQItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
-import { getFirebaseIdToken } from '@/utils/security';
 
 export default function AdminMCQsPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
@@ -69,7 +68,7 @@ export default function AdminMCQsPage() {
   const availableChapters = chapters.filter((chapter) => chapter.classSlug === selectedClass && chapter.subjectSlug === selectedSubject);
   const aiAvailableChapters = chapters.filter((chapter) => chapter.classSlug === aiClass && chapter.subjectSlug === aiSubject);
 
-  const handleSaveMCQ = async (e: React.FormEvent) => {
+  const handleSaveMCQ = adminOperation('mcqs:handleSaveMCQ', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!question.trim() || !opt0.trim() || !opt1.trim() || !opt2.trim() || !opt3.trim()) return;
 
@@ -94,7 +93,7 @@ export default function AdminMCQsPage() {
         : 'New MCQ added successfully to the testing bank!'
     );
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const handleEdit = (m: MCQItem) => {
     setEditingId(m.id);
@@ -124,7 +123,7 @@ export default function AdminMCQsPage() {
     setCorrectIndex(0);
   };
 
-  const handleDelete = async (id: string) => {
+  const handleDelete = adminOperation('mcqs:handleDelete', async (id: string) => {
     if (!confirm('Are you sure you want to permanently delete this MCQ? This will delete it from Supabase.')) {
       return;
     }
@@ -132,7 +131,7 @@ export default function AdminMCQsPage() {
     setMCQs(EducationalStore.getMCQs());
     setSuccessMsg('MCQ deleted permanently!');
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   // ── AI MCQs Generation Handler (OpenCode Big Pickle) ───────
   const handleGenerateMCQsWithAI = async (e: React.FormEvent) => {

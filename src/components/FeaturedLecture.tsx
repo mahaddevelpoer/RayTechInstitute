@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { Lecture } from '@/types';
-import { lecturesData } from '@/data/lectures';
-import { InteractiveVideoPlayer } from './InteractiveVideoPlayer';
-import { Clock, BookOpen, Play } from 'lucide-react';
+import React from "react";
+import { Lecture } from "@/types";
+import { lecturesData } from "@/data/lectures";
+import { InteractiveVideoPlayer } from "./InteractiveVideoPlayer";
+import { Clock, Play } from "lucide-react";
 
 interface FeaturedLectureProps {
   lectures?: Lecture[];
@@ -15,18 +15,19 @@ export const FeaturedLecture: React.FC<FeaturedLectureProps> = ({
   lectures = lecturesData,
   onOpenModal,
 }) => {
-  const featured = lectures.find((l) => l.featured) || lectures[0] || lecturesData[0];
+  const featured =
+    lectures.find((l) => l.featured) || lectures[0] || lecturesData[0];
 
   return (
-    <section id="featured" className="py-12 bg-slate-50 border-b border-slate-200">
+    <section
+      id="featured"
+      className="py-12 bg-slate-50 border-b border-slate-200"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        
         {/* Section Header */}
         <div className="mb-6 flex items-center justify-between">
           <div>
-            <h2 className="section-title mb-1">
-              Featured Video Lecture
-            </h2>
+            <h2 className="section-title mb-1">Featured Video Lecture</h2>
             <p className="text-slate-600 text-xs">
               Selected key topic lecture for intermediate board syllabus.
             </p>
@@ -39,7 +40,6 @@ export const FeaturedLecture: React.FC<FeaturedLectureProps> = ({
         {/* Card */}
         <div className="edu-card overflow-hidden bg-white p-5 sm:p-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-            
             {/* Video */}
             <div className="lg:col-span-7">
               <InteractiveVideoPlayer
@@ -72,13 +72,21 @@ export const FeaturedLecture: React.FC<FeaturedLectureProps> = ({
                 </h3>
 
                 <p className="text-slate-600 text-xs leading-relaxed mb-4">
-                  {featured.description}
+                  {featured.description
+                    .split(/\\n|\n/)
+                    .find((line) => line.trim().length > 30)
+                    ?.replace(/[*#]/g, "")
+                    .slice(0, 300) ||
+                    "Watch this lecture and practise the examples with your textbook."}
                 </p>
 
                 {featured.tags && featured.tags.length > 0 && (
                   <div className="flex flex-wrap gap-1 mb-4">
                     {featured.tags.slice(0, 4).map((tag, i) => (
-                      <span key={i} className="text-[11px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded">
+                      <span
+                        key={i}
+                        className="text-[11px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded"
+                      >
                         #{tag}
                       </span>
                     ))}
@@ -105,7 +113,6 @@ export const FeaturedLecture: React.FC<FeaturedLectureProps> = ({
                 </a>
               </div>
             </div>
-
           </div>
         </div>
       </div>

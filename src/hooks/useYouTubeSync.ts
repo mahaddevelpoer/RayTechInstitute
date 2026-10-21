@@ -1,65 +1,28 @@
 'use client';
-
-import { useState, useEffect, useRef } from 'react';
-import { Lecture } from '@/types';
-import { lecturesData } from '@/data/lectures';
-import { getInitialLectures, syncYouTubeFeedInBackground } from '@/utils/youtubeSync';
+import { useEffect, useState } from 'react';
+import type { Lecture } from '@/types';
+import { lectureSnapshot } from '@/data/lectureSnapshot';
+import { learningAdminRequest } from '@/lib/learning/admin';
 
 export function useYouTubeSync() {
-  // 1. Instant 0ms Render: Always initialize with static catalog so Server and Client hydration match 100%
-  const [lectures, setLectures] = useState<Lecture[]>(lecturesData);
-  const [isLiveConnected, setIsLiveConnected] = useState<boolean>(false);
-  const [isSyncing, setIsSyncing] = useState<boolean>(false);
-  const isMountedRef = useRef<boolean>(true);
-
+  const [lectures, setLectures] = useState<Lecture[]>(lectureSnapshot);
+  const [isLiveConnected, setConnected] = useState(false);
+  const [isSyncing, setSyncing] = useState(false);
+  const [syncError, setSyncError] = useState('');
   useEffect(() => {
-    isMountedRef.current = true;
-
-    // After hydration completes on client, load cached data from localStorage if available
-    const initialCached = getInitialLectures();
-    if (initialCached && initialCached.length > 0) {
-      setLectures(initialCached);
-    }
-
-    // 2. Immediate non-blocking background sync on every page reload/visit
-    const triggerSync = () => {
-      const apiKey = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY;
-      if (!apiKey || apiKey === 'PASTE_YOUTUBE_API_KEY_HERE') {
-        return;
-      }
-
-      setIsSyncing(true);
-      syncYouTubeFeedInBackground()
-        .then((result) => {
-          if (!isMountedRef.current) return;
-          if (result.isLive) {
-            setIsLiveConnected(true);
-            if (result.lectures && result.lectures.length > 0) {
-              setLectures(result.lectures);
-            }
-          }
-        })
-        .catch(() => {
-          // Graceful fallback to cached catalog
-        })
-        .finally(() => {
-          if (isMountedRef.current) {
-            setIsSyncing(false);
-          }
-        });
-    };
-
-    // Execute immediately without delay so new videos are fetched instantly
-    triggerSync();
-
-    return () => {
-      isMountedRef.current = false;
-    };
+    if (!window.location.pathname.startsWith('/admin/')) return;
+    let active = true;
+    setSyncing(true);
+    learningAdminRequest('learning_videos', {}).then(result => {
+      if (!Array.isArray(result.videos)) throw new Error('The video service returned an invalid list.');
+      const latest: Lecture[] = result.videos.map((video: { id: string; title: string }, index: number) => {
+        if (!/^[a-zA-Z0-9_-]{11}$/.test(video.id) || typeof video.title !== 'string') throw new Error('Invalid video metadata.');
+        const known = lectureSnapshot.find(item => item.videoId === video.id);
+        return known ? { ...known, title: video.title } : { id: video.id, videoId: video.id, title: video.title, number: String(index + 1), youtubeUrl: `https://www.youtube.com/watch?v=${video.id}`, thumbnail: `https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`, category: 'Programming', chapter: 'Core Curriculum', lectureNo: 'Lecture', duration: 'Duration unavailable', description: '', tags: [], keyConcepts: [] };
+      });
+      if (active) { setLectures([...latest, ...lectureSnapshot.filter(item => !latest.some(video => video.videoId === item.videoId))]); setConnected(true); }
+    }).catch(() => { if (active) setSyncError('Latest videos could not refresh. The saved catalog remains available; reload to retry.'); }).finally(() => { if (active) setSyncing(false); });
+    return () => { active = false; };
   }, []);
-
-  return {
-    lectures,
-    isLiveConnected,
-    isSyncing,
-  };
+  return { lectures, isLiveConnected, isSyncing, syncError };
 }

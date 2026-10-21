@@ -1,4 +1,13 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
+import { handleLearningAdmin } from '../_shared/learning-admin.ts';
+import { createLearningRepository } from '../_shared/learning-repository.ts';
+import { generateNextLearningTopic } from '../_shared/learning-authoring.ts';
+import { generateLearningDots } from '../_shared/learning-dots.ts';
+import { learningGenerationResponse } from '../_shared/learning-stream.ts';
+import { createLearningAiSettings } from '../_shared/learning-ai-settings.ts';
+import { listLearningVideos, verifyLearningVideos, learningYouTubeKey } from '../_shared/learning-videos.ts';
+import { collectLearningHealth } from '../_shared/learning-health.ts';
+import { studentReviewKey } from '../_shared/student-review-config.ts';
 
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://raytechinstitute.web.app',
@@ -29,6 +38,7 @@ function getCorsHeaders(req: Request) {
 }
 
 const notificationRateLimits = new Map<string, { count: number; resetAt: number }>();
+let cachedLearningHealth: { at: number; origin: string; report: Awaited<ReturnType<typeof collectLearningHealth>> } | null = null;
 
 function canAcceptNotificationSubscription(req: Request): boolean {
   const origin = req.headers.get('origin') || 'unknown-origin';
@@ -43,23 +53,27 @@ function canAcceptNotificationSubscription(req: Request): boolean {
   return true;
 }
 
-async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?: string; error?: string }> {
+async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?: string; error?: string; status?: number }> {
   const authorization = req.headers.get('authorization') || '';
   const idToken = authorization.startsWith('Bearer ') ? authorization.slice(7).trim() : '';
   const webApiKey = Deno.env.get('FIREBASE_WEB_API_KEY');
-  if (!idToken || !webApiKey) return { ok: false, error: 'Administrator authentication is not configured.' };
+  if (!webApiKey) return { ok: false, status: 503, error: 'Administrator authentication is not configured.' };
+  if (!idToken) return { ok: false, status: 401, error: 'Sign in with an administrator account.' };
 
   try {
     const response = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${encodeURIComponent(webApiKey)}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ idToken }),
+      signal: AbortSignal.timeout(8000),
     });
-    if (!response.ok) return { ok: false, error: 'Invalid or expired administrator session.' };
+    if (!response.ok) return response.status >= 500 || response.status === 429
+      ? { ok: false, status: 503, error: 'Administrator authentication service is unavailable.' }
+      : { ok: false, status: 401, error: 'Invalid or expired administrator session.' };
     const result = await response.json();
     const user = result.users?.[0];
     if (!user || user.disabled || user.emailVerified !== true) {
-      return { ok: false, error: 'A verified administrator account is required.' };
+      return { ok: false, status: 403, error: 'A verified administrator account is required.' };
     }
     const email = String(user.email || '').toLowerCase();
     const allowlist = (Deno.env.get('ADMIN_EMAILS') || '')
@@ -67,14 +81,14 @@ async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?:
       .map((value) => value.trim().toLowerCase())
       .filter(Boolean);
     if (allowlist.length === 0) {
-      return { ok: false, error: 'Administrator access is not configured.' };
+      return { ok: false, status: 503, error: 'Administrator access is not configured.' };
     }
     if (!allowlist.includes(email)) {
-      return { ok: false, error: 'This Firebase account is not authorized for administration.' };
+      return { ok: false, status: 403, error: 'This Firebase account is not authorized for administration.' };
     }
     return { ok: true, email };
   } catch {
-    return { ok: false, error: 'Administrator authentication service is unavailable.' };
+    return { ok: false, status: 503, error: 'Administrator authentication service is unavailable.' };
   }
 }
 
@@ -188,7 +202,7 @@ function extractKnownSchemaFields(raw: string): any {
             codeSnippet: codeMatch ? codeMatch[1].replace(/\\"/g, '"').replace(/\\n/g, "\n") : undefined,
             options,
             correctIndex: idxMatch ? Number(idxMatch[1]) : 0,
-            explanation: expMatch ? expMatch[1].replace(/\\"/g, '"').replace(/\\n/g, "\n") : "Textbook verified rationale.",
+            explanation: expMatch ? expMatch[1].replace(/\\"/g, '"').replace(/\\n/g, "\n") : "Review this answer against the relevant textbook.",
           });
         }
       }
@@ -285,7 +299,8 @@ async function callGeminiCascade(
   systemPrompt: string,
   userPrompt: string,
   maxOutputTokens: number = 8192,
-  temperature: number = 0.3
+  temperature: number = 0.3,
+  deadlineAt: number = Number.POSITIVE_INFINITY
 ): Promise<string> {
   // Preferred production models. The API catalog below filters this list to
   // models actually enabled for the current key before any generation call.
@@ -299,7 +314,7 @@ async function callGeminiCascade(
 
   let lastErrorText = "";
   try {
-    const catalogResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey)}`);
+    const catalogResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey)}`, { signal: AbortSignal.timeout(Math.max(1, Math.min(8000, deadlineAt - Date.now()))) });
     if (catalogResponse.ok) {
       const catalog = await catalogResponse.json();
       const supported = (catalog.models || [])
@@ -314,10 +329,12 @@ async function callGeminiCascade(
   }
 
   for (const model of models) {
+    if (Date.now() >= deadlineAt) throw new Error('Lesson generation timed out before completion. No incomplete lesson was saved; please retry.');
     try {
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
       const res = await fetch(url, {
         method: "POST",
+        signal: AbortSignal.timeout(Math.max(1, Math.min(60000, deadlineAt - Date.now()))),
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           contents: [
@@ -325,7 +342,7 @@ async function callGeminiCascade(
               role: "user",
               parts: [
                 {
-                  text: `${systemPrompt}\n\n${userPrompt}\n\nIMPORTANT: Output ONLY valid JSON matching the requested schema. Do not enclose in markdown ticks, just raw JSON.`,
+                  text: `${systemPrompt}\n\nSOURCE INTEGRITY: You are an independent educational assistant. Never impersonate a board official. Do not invent statistics, marks, result dates, deadlines, fees, SMS codes, citations, PDF URLs or official status. Use current-session factual claims only from sources supplied in the prompt; otherwise clearly state that official confirmation is required. Length requirements never justify inventing or repeating facts.\n\n${userPrompt}\n\nIMPORTANT: Output ONLY valid JSON matching the requested schema. Do not enclose in markdown ticks, just raw JSON.`,
                 },
               ],
             },
@@ -390,7 +407,7 @@ function validateMcqs(value: any, expectedCount: number): any[] {
   const seenQuestions = new Set<string>();
   const valid = value.filter((item) => {
     const question = String(item?.question || '').trim();
-    const options = Array.isArray(item?.options) ? item.options.map((option: unknown) => String(option || '').trim()) : [];
+    const options: string[] = Array.isArray(item?.options) ? item.options.map((option: unknown) => String(option || '').trim()) : [];
     const distinctOptions = new Set(options.map((option) => option.toLocaleLowerCase().replace(/\s+/g, ' ')));
     const explanation = String(item?.explanation || '').trim();
     const normalizedQuestion = question.toLocaleLowerCase().replace(/\s+/g, ' ');
@@ -410,7 +427,7 @@ function validateMcqs(value: any, expectedCount: number): any[] {
     codeSnippet: item.codeSnippet ? String(item.codeSnippet) : undefined,
     options: item.options.map((option: unknown) => String(option).trim()),
     correctIndex: Number(item.correctIndex),
-    explanation: String(item.explanation || 'Textbook-verified rationale.').trim(),
+    explanation: String(item.explanation || 'Review this answer against the relevant textbook.').trim(),
   }));
   if (valid.length < expectedCount) throw new Error(`AI returned ${valid.length} valid MCQs; ${expectedCount} are required.`);
   return valid.slice(0, expectedCount);
@@ -603,10 +620,62 @@ serve(async (req) => {
     // All browser-triggered actions are administrator-only. Database webhooks
     // above use their separate shared secret and never pass through this gate.
     const admin = await verifyFirebaseAdmin(req);
-    if (!admin.ok) return respond({ success: false, error: admin.error || 'Unauthorized.' }, 401);
+    if (!admin.ok) return respond({ success: false, error: admin.error || 'Unauthorized.' }, admin.status || 401);
 
     if (action === 'verify_admin') {
       return respond({ success: true, email: admin.email });
+    }
+
+    if (action === 'learning_health') {
+      const origin = req.headers.get('origin') || getAllowedOrigins()[0] || '';
+      if (cachedLearningHealth && cachedLearningHealth.origin === origin && Date.now() - cachedLearningHealth.at < 30000) return respond({ ...cachedLearningHealth.report, cached: true });
+      const report = await collectLearningHealth({
+        databaseUrl: Deno.env.get('SUPABASE_URL') || '', serviceKey: serviceRoleKey || '',
+        geminiKey: geminiApiKey || '', openRouterKey: studentReviewKey(name => Deno.env.get(name)), youtubeKey: learningYouTubeKey(name => Deno.env.get(name)),
+        githubToken: Deno.env.get('GITHUB_DISPATCH_TOKEN') || '', repository: Deno.env.get('GITHUB_REPOSITORY') || 'mahaddevelpoer/RayTechInstitute',
+        origin,
+      });
+      cachedLearningHealth = { at: Date.now(), origin, report };
+      return respond(report);
+    }
+
+    if (action === 'learning_ai_settings' || action === 'learning_ai_set_enabled') {
+      try {
+        const settings = createLearningAiSettings(Deno.env.get('SUPABASE_URL') || '', serviceRoleKey || '');
+        const value = action === 'learning_ai_settings' ? await settings.read() : await settings.set(payload.enabled, payload.expectedUpdatedAt);
+        return respond({ success: true, settings: value, message: value.enabled ? 'AI topic generation is on.' : 'AI topic generation is off. Manual editing and public lessons are unchanged.' });
+      } catch (error) { return respond({ success: false, error: error instanceof Error ? error.message : 'AI settings could not be saved.' }, 400); }
+    }
+
+    if (action === 'learning_generate_next') {
+      const aiSettings = createLearningAiSettings(Deno.env.get('SUPABASE_URL') || '', serviceRoleKey || '');
+      try { await aiSettings.requireEnabled(); }
+      catch (error) { return respond({ success: false, error: error instanceof Error ? error.message : 'AI generation is disabled.' }, 403); }
+      const openRouterKey = studentReviewKey(name => Deno.env.get(name));
+      if (!serviceRoleKey || !openRouterKey) return respond({ success: false, error: 'OpenRouter course generation or learning storage is not configured.' }, 503);
+      return learningGenerationResponse(getCorsHeaders(req), async (emit, signal) => {
+        const repository = createLearningRepository(Deno.env.get('SUPABASE_URL') || '', serviceRoleKey, async () => {});
+        const guarded = { ...repository, write: async (...args: Parameters<typeof repository.write>) => { signal.throwIfAborted(); await aiSettings.requireEnabled(); signal.throwIfAborted(); await repository.write(...args); } };
+        return await generateNextLearningTopic(payload, guarded,
+          (system, prompt, kind) => generateLearningDots(openRouterKey, system, prompt, kind, emit, signal), 'openrouter');
+      });
+    }
+
+    if (action === 'learning_videos') {
+      try { return respond(await listLearningVideos(learningYouTubeKey(name => Deno.env.get(name)), payload.pageToken || '')); }
+      catch (error) { return respond({ success: false, error: error instanceof Error ? error.message : 'Video selection failed.' }, 400); }
+    }
+
+    if (['learning_catalog', 'learning_save_draft', 'learning_publish', 'learning_delete', 'learning_discard_draft', 'learning_registry_state'].includes(action)) {
+      if (!serviceRoleKey) return respond({ success: false, error: 'Learning storage is not configured.' }, 503);
+      try {
+        const repository = createLearningRepository(Deno.env.get('SUPABASE_URL') || '', serviceRoleKey,
+          () => dispatchStaticRebuild({ table: 'learning_topics', operation: action }), fetch,
+          ids => verifyLearningVideos(ids, learningYouTubeKey(name => Deno.env.get(name))));
+        return respond(await handleLearningAdmin(action, payload, repository));
+      } catch (error) {
+        return respond({ success: false, error: error instanceof Error ? error.message : 'Learning update failed.' }, 400);
+      }
     }
 
     if (action === 'trigger_static_rebuild') {
@@ -814,7 +883,7 @@ CRITICAL RULES FOR PAKISTAN BOARD EXAMINATION:
 
       const defaultPortal = boardPortalMap[targetBoard] || "https://www.biselahore.com/";
 
-      const gazetteSystemPrompt = `You are the Official Public Relations & Examination Controller Representative for Educational Boards across Pakistan (PBCC - Punjab Boards Committee of Chairmen and Federal Board FBISE).
+      const gazetteSystemPrompt = `You are an independent educational editor at RayTech Institute. You do not represent PBCC, any BISE board, or FBISE. Never claim to announce, certify, or issue results.
 Current Date: ${currentDate}
 
 TASK:
@@ -826,7 +895,7 @@ Write an authentic, highly detailed, official Board Result Gazette Notification 
 - Notes/Circular context: ${customNotes || "None"}
 
 MANDATORY DATA REQUIREMENTS:
-1. Do not present invented statistics as official. If the input does not provide confirmed figures, use clearly labelled estimates and include a short verification note directing students to the board's official notice.
+1. Do not present invented statistics as official. If the input does not provide confirmed figures, omit the statistics entirely. Never estimate pass percentages, candidate counts, fees, dates, or release times. Explain how to verify these with the original notice.
 2. Rich Markdown Writing ('content') containing:
    - ### Official Result Declaration & Executive Overview
    - ### Statistical Analysis (Science, Humanities, Pre-Medical, Pre-Engineering, ICS breakdown)
@@ -845,15 +914,15 @@ Return response STRICTLY as a valid JSON object matching:
   "session": "${targetSession}",
   "totalCandidates": "Not provided - verify from the official board notice",
   "passingPercentage": "Not provided - verify from the official board notice",
-  "pdfUrl": "${defaultPortal}",
+  "pdfUrl": "",
   "directResultUrl": "${defaultPortal}",
-  "actionButtonText": "${actionButtonText || 'Download Official Gazette PDF'}",
+  "actionButtonText": "${actionButtonText || 'Visit Board Website'}",
   "actionButtonUrl": "${actionButtonUrl || defaultPortal}",
   "content": "Rich Markdown text with full headings, statistics tables, SMS codes, and rechecking instructions..."
 }`;
 
       try {
-        const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate an exhaustive official gazette result notification in JSON, with at least 1,800 words in content. Do not summarize; include complete headings, tables, procedures, verification steps, rechecking rules, and student guidance.", 16384, 0.3);
+        const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate a detailed independent result verification guide in JSON, with at least 1,800 words in content. Do not summarize; include complete headings, tables, procedures, verification steps, rechecking rules, and student guidance.", 16384, 0.3);
         const parsedGazette = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 1800, 'result gazette');
         const validatedGazette = validateLongFormContent(parsedGazette, 1800, 'result gazette', 4);
         return respond({ success: true, gazette: validatedGazette });

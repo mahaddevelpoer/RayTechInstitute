@@ -1,8 +1,12 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { usePathname } from 'next/navigation';
-import { PythonCompiler } from './PythonCompiler';
+import React from "react";
+import { usePathname } from "next/navigation";
+import dynamic from "next/dynamic";
+const PythonCompiler = dynamic(
+  () => import("./PythonCompiler").then((module) => module.PythonCompiler),
+  { ssr: false },
+);
 
 export const CompilerMount: React.FC = () => {
   const pathname = usePathname();
@@ -10,9 +14,7 @@ export const CompilerMount: React.FC = () => {
   // Strict Exclusivity Gate: Completely unmount compiler on Blogs, Updates, and Admin
   if (
     !pathname ||
-    pathname.startsWith('/blogs') ||
-    pathname.startsWith('/updates') ||
-    pathname.startsWith('/admin')
+    !/^\/(classes|mcqs|notes|past-papers|practice)(\/|$)/.test(pathname)
   ) {
     return null;
   }

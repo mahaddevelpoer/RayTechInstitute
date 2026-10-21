@@ -1,32 +1,51 @@
-'use client';
+"use client";
 
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import { sanitizeUrl } from '@/utils/security';
+import React from "react";
+import { articleSections } from "@/utils/editorial";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { sanitizeUrl } from "@/utils/security";
 
 interface MarkdownRendererProps {
   content: string;
+  practiceLanguage?: string;
+  onTryCode?: (code: string) => void;
 }
 
-export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
+export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
+  content,
+  practiceLanguage,
+  onTryCode,
+}) => {
+  const sections = articleSections(content);
+  const headingId = (line?: number) =>
+    sections.find((s) => s.line === line)?.id;
   return (
     <div className="markdown-article text-slate-800 leading-relaxed space-y-4">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
-          h1: ({ children }) => (
-            <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2">
+          h1: ({ children, node }) => (
+            <h2
+              id={headingId(node?.position?.start.line)}
+              className="text-2xl sm:text-3xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2"
+            >
               {children}
             </h2>
           ),
-          h2: ({ children }) => (
-            <h2 className="text-xl sm:text-2xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2">
+          h2: ({ children, node }) => (
+            <h2
+              id={headingId(node?.position?.start.line)}
+              className="text-xl sm:text-2xl font-bold text-navy-900 mt-6 mb-3 border-b border-slate-200 pb-2"
+            >
               {children}
             </h2>
           ),
-          h3: ({ children }) => (
-            <h3 className="text-lg font-bold text-navy-800 mt-5 mb-2">
+          h3: ({ children, node }) => (
+            <h3
+              id={headingId(node?.position?.start.line)}
+              className="text-lg font-bold text-navy-800 mt-5 mb-2"
+            >
               {children}
             </h3>
           ),
@@ -45,11 +64,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
               {children}
             </ol>
           ),
-          li: ({ children }) => (
-            <li className="leading-relaxed">
-              {children}
-            </li>
-          ),
+          li: ({ children }) => <li className="leading-relaxed">{children}</li>,
           blockquote: ({ children }) => (
             <blockquote className="p-4 bg-navy-50 border-l-4 border-navy-600 rounded-r text-sm text-slate-700 italic my-4">
               {children}
@@ -73,9 +88,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
             </tbody>
           ),
           tr: ({ children }) => (
-            <tr className="hover:bg-slate-50 transition-colors">
-              {children}
-            </tr>
+            <tr className="hover:bg-slate-50 transition-colors">{children}</tr>
           ),
           th: ({ children }) => (
             <th className="px-4 py-3 font-semibold text-slate-800 border-b border-slate-200">
@@ -91,33 +104,35 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
             const safeHref = sanitizeUrl(href);
             const isExternal = /^https?:\/\//i.test(safeHref);
             return (
-            <a
-              href={safeHref || undefined}
-              target={isExternal ? '_blank' : undefined}
-              rel={isExternal ? 'noopener noreferrer nofollow' : undefined}
-              className="text-navy-600 hover:text-navy-800 font-semibold underline underline-offset-2 transition-colors"
-            >
-              {children}
-            </a>
+              <a
+                href={safeHref || undefined}
+                target={isExternal ? "_blank" : undefined}
+                rel={isExternal ? "noopener noreferrer" : undefined}
+                className="text-navy-600 hover:text-navy-800 font-semibold underline underline-offset-2 transition-colors"
+              >
+                {children}
+              </a>
             );
           },
-          code: ({ children }) => (
-            <code className="px-1.5 py-0.5 rounded bg-slate-100 text-navy-800 font-mono text-xs border border-slate-200">
+          code: ({ children, className }) => (
+            <code className={`${className || ''} px-1.5 py-0.5 rounded bg-slate-100 text-navy-800 font-mono text-xs border border-slate-200`}>
               {children}
             </code>
           ),
-          pre: ({ children }) => (
-            <pre className="p-4 rounded-lg bg-slate-900 text-slate-100 overflow-x-auto text-xs font-mono my-4 border border-slate-800">
-              {children}
-            </pre>
-          ),
-          hr: () => (
-            <hr className="my-6 border-slate-200" />
-          ),
+          pre: ({ children }) => {
+            const child = React.Children.toArray(children).find(React.isValidElement) as React.ReactElement<{ className?: string; children?: React.ReactNode }> | undefined;
+            const tag = child?.props.className?.match(/language-([a-z0-9-]+)/i)?.[1]?.toLowerCase();
+            const text = typeof child?.props.children === 'string' ? child.props.children.replace(/\n$/, '') : '';
+            if (tag === 'hint' || tag === 'solution') return <details className="my-4 rounded-md border border-slate-300 bg-slate-50 p-4"><summary className="min-h-12 cursor-pointer font-semibold">{tag === 'hint' ? 'Show hint' : 'Show solution'}</summary><div className="whitespace-pre-wrap break-words pt-3 text-sm">{text}</div></details>;
+            const language = ({ py: 'python', python: 'python', js: 'javascript', javascript: 'javascript', html: 'html', css: 'css', php: 'php' } as Record<string, string>)[tag || ''];
+            return <div className="my-4 min-w-0 rounded-lg border border-slate-800 bg-slate-900 text-slate-100">
+              {onTryCode && language && language === practiceLanguage && text.trim() && text.length <= 20000 && <div className="flex justify-end border-b border-slate-700 px-3 py-2"><button type="button" className="min-h-12 rounded-md border border-slate-500 px-3 text-sm font-semibold text-white hover:bg-slate-700" onClick={() => onTryCode(text)}>Try this example</button></div>}
+              <pre className="m-0 overflow-x-auto p-4 text-xs font-mono"><code className="block whitespace-pre font-mono text-inherit">{text || children}</code></pre>
+            </div>;
+          },
+          hr: () => <hr className="my-6 border-slate-200" />,
           strong: ({ children }) => (
-            <strong className="font-bold text-slate-900">
-              {children}
-            </strong>
+            <strong className="font-bold text-slate-900">{children}</strong>
           ),
         }}
       >

@@ -1,26 +1,26 @@
-'use client';
+"use client";
 
-import React, { useEffect, useState, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { MarkdownRenderer } from '@/components/MarkdownRenderer';
-import { EducationalStore } from '@/data/educationalStore';
-import { BlogPostItem } from '@/types/educational';
-import { Calendar, Clock, ArrowLeft, Tag } from 'lucide-react';
-import Link from 'next/link';
+import React, { useEffect, useState, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { MarkdownRenderer } from "@/components/MarkdownRenderer";
+import { EducationalStore } from "@/data/educationalStore";
+import { BlogPostItem } from "@/types/educational";
+import { Calendar, Clock, ArrowLeft, Tag } from "lucide-react";
+import Link from "next/link";
 
 // The 3 hardcoded slugs that have their own static pages: redirect to them
 const STATIC_BLOG_SLUGS = [
-  'punjab-boards-inter-date-sheet-2026',
-  'fast-nuces-punjab-university-admissions-2026',
-  'computer-science-vs-software-engineering-career-guide',
+  "punjab-boards-inter-date-sheet-2026",
+  "fast-nuces-punjab-university-admissions-2026",
+  "computer-science-vs-software-engineering-career-guide",
 ];
 
 function BlogPostContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const slug = searchParams.get('slug') ?? '';
+  const slug = searchParams.get("slug") ?? "";
 
   const [post, setPost] = useState<BlogPostItem | null>(null);
   const [loading, setLoading] = useState(true);
@@ -28,7 +28,7 @@ function BlogPostContent() {
 
   useEffect(() => {
     if (!slug) {
-      router.replace('/blogs');
+      router.replace("/blogs");
       return;
     }
 
@@ -76,7 +76,9 @@ function BlogPostContent() {
   if (notFound || !post) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-2xl font-bold text-navy-900 mb-2">Article Not Found</h1>
+        <h1 className="text-2xl font-bold text-navy-900 mb-2">
+          Article Not Found
+        </h1>
         <p className="text-slate-500 text-sm mb-6">
           This article may have been removed or the link is incorrect.
         </p>
@@ -99,7 +101,9 @@ function BlogPostContent() {
         <span>/</span>
         <Link href="/blogs">Blogs</Link>
         <span>/</span>
-        <span className="text-slate-700 truncate max-w-[200px]">{post.title}</span>
+        <span className="text-slate-700 truncate max-w-[200px]">
+          {post.title}
+        </span>
       </nav>
 
       {/* Back link */}
@@ -122,7 +126,9 @@ function BlogPostContent() {
             height={450}
             loading="eager"
           />
-          <span className="absolute top-3 left-3 badge-primary">{post.category}</span>
+          <span className="absolute top-3 left-3 badge-primary">
+            {post.category}
+          </span>
         </div>
       )}
 
@@ -179,7 +185,11 @@ export default function BlogPostPage() {
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <meta name="robots" content="noindex, nofollow, noarchive" />
       <Header />
-      <main className="flex-1 py-10 px-4 sm:px-6">
+      <main
+        id="main-content"
+        tabIndex={-1}
+        className="flex-1 py-10 px-4 sm:px-6"
+      >
         <Suspense
           fallback={
             <div className="min-h-[60vh] flex items-center justify-center">

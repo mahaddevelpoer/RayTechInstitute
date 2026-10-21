@@ -1,18 +1,29 @@
-import React from 'react';
-import { Metadata } from 'next';
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { INITIAL_CLASSES, INITIAL_SUBJECTS } from '@/data/staticCatalog';
-import { BookOpen, FileText, HelpCircle, FileCode, ArrowRight, ArrowLeft } from 'lucide-react';
-import { serializeJsonLd } from '@/utils/seo';
-import { buildSeoTitle } from '@/utils/seo';
+import { staticExportParams } from "@/utils/staticExport";
+import { siteUrl } from "@/lib/site";
+import React from "react";
+import { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { INITIAL_CLASSES, INITIAL_SUBJECTS } from "@/data/staticCatalog";
+import {
+  BookOpen,
+  FileText,
+  HelpCircle,
+  FileCode,
+  ArrowRight,
+} from "lucide-react";
+import { serializeJsonLd } from "@/utils/seo";
+import { buildSeoTitle } from "@/utils/seo";
 
 export function generateStaticParams() {
-  return INITIAL_CLASSES.map((c) => ({
-    classSlug: c.slug,
-  }));
+  return staticExportParams(
+    INITIAL_CLASSES.map((c) => ({
+      classSlug: c.slug,
+    })),
+    ["classSlug"],
+  );
 }
 
 interface PageProps {
@@ -21,23 +32,25 @@ interface PageProps {
   }>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { classSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   if (!currentClass) return {};
-  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
 
   return {
     title: buildSeoTitle(`${className} Study Resources & Notes`),
     description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/`,
+      canonical: siteUrl(`/classes/${classSlug}/`),
     },
     openGraph: {
       title: buildSeoTitle(`${className} Study Resources & Notes`),
       description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
-      url: `https://raytechinstitute.web.app/classes/${classSlug}/`,
-      type: 'website',
+      url: siteUrl(`/classes/${classSlug}/`),
+      type: "website",
     },
   };
 }
@@ -52,26 +65,26 @@ export default async function ClassDetailsPage({ params }: PageProps) {
   const subjects = INITIAL_SUBJECTS.filter((s) => s.classSlug === classSlug);
 
   const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     itemListElement: [
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 1,
-        name: 'Home',
-        item: 'https://raytechinstitute.web.app/',
+        name: "Home",
+        item: siteUrl("/"),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 2,
-        name: 'Classes',
-        item: 'https://raytechinstitute.web.app/classes/',
+        name: "Classes",
+        item: siteUrl("/classes/"),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 3,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
+        item: siteUrl(`/classes/${classSlug}/`),
       },
     ],
   };
@@ -80,7 +93,7 @@ export default async function ClassDetailsPage({ params }: PageProps) {
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
-      <main className="page-main flex-1">
+      <main id="main-content" tabIndex={-1} className="page-main flex-1">
         {/* Schema */}
         <script
           type="application/ld+json"
@@ -99,14 +112,14 @@ export default async function ClassDetailsPage({ params }: PageProps) {
         {/* Header */}
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 mb-2">
-            <span className="badge-primary">Grade {currentClass.numericGrade} Syllabus</span>
+            <span className="badge-primary">
+              Grade {currentClass.numericGrade} Syllabus
+            </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
             {currentClass.title} Study Resources
           </h1>
-          <p className="text-slate-600 text-sm">
-            {currentClass.description}
-          </p>
+          <p className="text-slate-600 text-sm">{currentClass.description}</p>
         </div>
 
         {/* Subjects Grid */}

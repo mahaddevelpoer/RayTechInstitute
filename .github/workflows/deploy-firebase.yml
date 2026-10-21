@@ -22,20 +22,44 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Use Node.js 22
+      - name: Use Node.js 24 LTS
         uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate source and catalog behaviour
+        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs
+
+      - name: Use Java 21 for local Firestore rules tests
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Verify private student progress rules
+        run: npm run test:rules
+
       - name: Build static catalog and website
         env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: npm run build
+
+      - name: Block incomplete or mismatched exports
+        run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs
+
+      - name: Retain release manifest for diagnosis
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-manifest
+          path: out/deployment.json
 
       - name: Deploy to Firebase Hosting live channel
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -43,3 +67,6 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RAYTECHINSTITUTE }}
           projectId: raytechinstitute
           channelId: live
+
+      - name: Verify deployed pages match this exact export
+        run: node scripts/verify-live-export.mjs

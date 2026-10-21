@@ -2,8 +2,6 @@
 
 import React from 'react';
 import { Lecture } from '@/types';
-import { subjectsData } from '@/data/subjects';
-import { lecturesData } from '@/data/lectures';
 import { BookOpen, Code, Terminal, Layers } from 'lucide-react';
 import Link from 'next/link';
 
@@ -13,7 +11,6 @@ interface SubjectMapProps {
 }
 
 export const SubjectMap: React.FC<SubjectMapProps> = ({
-  lectures = lecturesData,
   onSelectCategory,
 }) => {
   const categories = [

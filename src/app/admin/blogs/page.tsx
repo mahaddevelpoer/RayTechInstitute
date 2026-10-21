@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   Newspaper,
   Plus,
@@ -17,47 +17,58 @@ import {
   FileText,
   Loader2,
   AlertCircle,
-} from 'lucide-react';
-import { EducationalStore } from '@/data/educationalStore';
-import { BlogPostItem, BlogCategory } from '@/types/educational';
-import { MarkdownRenderer } from '@/components/MarkdownRenderer';
-import { supabase } from '@/lib/supabase';
-import { getFirebaseIdToken } from '@/utils/security';
+} from "lucide-react";
+import { EducationalStore } from "@/data/educationalStore";
+import { BlogPostItem, BlogCategory } from "@/types/educational";
+import { MarkdownRenderer } from "@/components/MarkdownRenderer";
+import { supabase } from "@/lib/supabase";
+import { readingMinutes } from "@/utils/editorial";
 
 export default function AdminBlogsPage() {
   const [blogs, setBlogs] = useState<BlogPostItem[]>([]);
-  const [title, setTitle] = useState('');
-  const [slug, setSlug] = useState('');
-  const [category, setCategory] = useState<BlogCategory>('date-sheets');
-  const [excerpt, setExcerpt] = useState('');
-  const [content, setContent] = useState('');
+  const [title, setTitle] = useState("");
+  const [slug, setSlug] = useState("");
+  const [category, setCategory] = useState<BlogCategory>("date-sheets");
+  const [excerpt, setExcerpt] = useState("");
+  const [content, setContent] = useState("");
   const [featuredImage, setFeaturedImage] = useState(
-    'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80'
+    "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
   );
-  const [author, setAuthor] = useState('Academic Coordination Committee');
-  const [tags, setTags] = useState('Date Sheet, 11th Class, 12th Class, BISE Lahore');
-  const [successMsg, setSuccessMsg] = useState('');
-  const [errorMsg, setErrorMsg] = useState('');
-  const [activeTab, setActiveTab] = useState<'write' | 'preview'>('write');
+  const [author, setAuthor] = useState("Academic Coordination Committee");
+  const [tags, setTags] = useState(
+    "Date Sheet, 11th Class, 12th Class, BISE Lahore",
+  );
+  const [successMsg, setSuccessMsg] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
+  const [activeTab, setActiveTab] = useState<"write" | "preview">("write");
   const [editingId, setEditingId] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
 
   // ── Optional Action / Download Button State ────────────────
   const [hasActionButton, setHasActionButton] = useState(false);
-  const [actionButtonText, setActionButtonText] = useState('Download Official PDF');
-  const [actionButtonUrl, setActionButtonUrl] = useState('');
+  const [actionButtonText, setActionButtonText] = useState(
+    "Download Official PDF",
+  );
+  const [actionButtonUrl, setActionButtonUrl] = useState("");
 
   // ── AI Generator Modal State ───────────────────────────────
   const [aiModalOpen, setAiModalOpen] = useState(false);
-  const [aiMode, setAiMode] = useState<'search_and_write' | 'custom_details'>('search_and_write');
-  const [aiTopic, setAiTopic] = useState('');
-  const [aiCategory, setAiCategory] = useState<BlogCategory>('date-sheets');
-  const [aiAudience, setAiAudience] = useState('11th & 12th Class Students (Punjab Boards & FBISE)');
-  const [aiUserNotes, setAiUserNotes] = useState('');
-  const [aiReferenceLinks, setAiReferenceLinks] = useState('');
+  const [aiMode, setAiMode] = useState<"search_and_write" | "custom_details">(
+    "search_and_write",
+  );
+  const [aiTopic, setAiTopic] = useState("");
+  const [aiCategory, setAiCategory] = useState<BlogCategory>("date-sheets");
+  const [aiAudience, setAiAudience] = useState(
+    "11th & 12th Class Students (Punjab Boards & FBISE)",
+  );
+  const [aiUserNotes, setAiUserNotes] = useState("");
+  const [aiReferenceLinks, setAiReferenceLinks] = useState("");
   const [aiEnableActionButton, setAiEnableActionButton] = useState(false);
-  const [aiActionButtonText, setAiActionButtonText] = useState('Download Official Notification PDF');
-  const [aiActionButtonUrl, setAiActionButtonUrl] = useState('');
+  const [aiActionButtonText, setAiActionButtonText] = useState(
+    "Download Official Notification PDF",
+  );
+  const [aiActionButtonUrl, setAiActionButtonUrl] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
 
   const loadData = async () => {
@@ -73,36 +84,53 @@ export default function AdminBlogsPage() {
 
   const handleSaveBlog = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!title.trim() || !slug.trim() || !content.trim()) return;
+    if (isSaving || !title.trim() || !slug.trim() || !content.trim()) return;
+    setIsSaving(true);
+    setErrorMsg("");
+    setSuccessMsg("");
+    try {
+      const blogItem: BlogPostItem = {
+        id: editingId || `blog-${Date.now()}`,
+        title: title.trim(),
+        slug: slug.trim().toLowerCase().replace(/\s+/g, "-"),
+        category,
+        excerpt: excerpt.trim() || title.trim(),
+        content: content.trim(),
+        featuredImage: featuredImage.trim(),
+        author: author.trim() || "RayTech Academic Cell",
+        datePublished:
+          blogs.find((item) => item.id === editingId)?.datePublished ||
+          new Date().toISOString().split("T")[0],
+        readTime: `${readingMinutes(content)} min read`,
+        tags: tags
+          .split(",")
+          .map((t) => t.trim())
+          .filter(Boolean),
+        actionButtonText:
+          hasActionButton && actionButtonText.trim()
+            ? actionButtonText.trim()
+            : undefined,
+        actionButtonUrl:
+          hasActionButton && actionButtonUrl.trim()
+            ? actionButtonUrl.trim()
+            : undefined,
+      };
 
-    const blogItem: BlogPostItem = {
-      id: editingId || `blog-${Date.now()}`,
-      title: title.trim(),
-      slug: slug.trim().toLowerCase().replace(/\s+/g, '-'),
-      category,
-      excerpt: excerpt.trim() || title.trim(),
-      content: content.trim(),
-      featuredImage: featuredImage.trim(),
-      author: author.trim() || 'RayTech Academic Cell',
-      datePublished: new Date().toISOString().split('T')[0],
-      readTime: '4 min read',
-      tags: tags
-        .split(',')
-        .map((t) => t.trim())
-        .filter(Boolean),
-      actionButtonText: hasActionButton && actionButtonText.trim() ? actionButtonText.trim() : undefined,
-      actionButtonUrl: hasActionButton && actionButtonUrl.trim() ? actionButtonUrl.trim() : undefined,
-    };
-
-    await EducationalStore.saveBlog(blogItem);
-    setBlogs(EducationalStore.getBlogs());
-    resetForm();
-    setSuccessMsg(
-      editingId
-        ? `Article "${blogItem.title}" updated successfully!`
-        : `Article "${blogItem.title}" published to live blog!`
-    );
-    setTimeout(() => setSuccessMsg(''), 4000);
+      await EducationalStore.saveBlog(blogItem);
+      setBlogs(EducationalStore.getBlogs());
+      resetForm();
+      setSuccessMsg(
+        `Article "${blogItem.title}" saved. Check the rebuild status above; it appears publicly after a successful deployment.`,
+      );
+    } catch (error) {
+      setErrorMsg(
+        error instanceof Error
+          ? error.message
+          : "Could not save the article. Please retry.",
+      );
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   const handleEdit = (b: BlogPostItem) => {
@@ -114,43 +142,54 @@ export default function AdminBlogsPage() {
     setContent(b.content);
     setFeaturedImage(b.featuredImage);
     setAuthor(b.author);
-    setTags(b.tags.join(', '));
+    setTags(b.tags.join(", "));
     if (b.actionButtonText && b.actionButtonUrl) {
       setHasActionButton(true);
       setActionButtonText(b.actionButtonText);
       setActionButtonUrl(b.actionButtonUrl);
     } else {
       setHasActionButton(false);
-      setActionButtonText('Download Official PDF');
-      setActionButtonUrl('');
+      setActionButtonText("Download Official PDF");
+      setActionButtonUrl("");
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const resetForm = () => {
     setEditingId(null);
-    setTitle('');
-    setSlug('');
-    setExcerpt('');
-    setContent('');
+    setTitle("");
+    setSlug("");
+    setExcerpt("");
+    setContent("");
     setHasActionButton(false);
-    setActionButtonText('Download Official PDF');
-    setActionButtonUrl('');
-    setActiveTab('write');
+    setActionButtonText("Download Official PDF");
+    setActionButtonUrl("");
+    setActiveTab("write");
   };
 
   const handleDelete = async (id: string, blogTitle: string) => {
     if (
       !confirm(
-        `Are you sure you want to permanently delete "${blogTitle}"? This will delete it from Supabase.`
+        `Are you sure you want to permanently delete "${blogTitle}"? This will delete it from Supabase.`,
       )
     ) {
       return;
     }
-    await EducationalStore.deleteBlog(id);
-    setBlogs(EducationalStore.getBlogs());
-    setSuccessMsg(`Blog post deleted permanently!`);
-    setTimeout(() => setSuccessMsg(''), 4000);
+    setErrorMsg("");
+    try {
+      await EducationalStore.deleteBlog(id);
+      setBlogs(EducationalStore.getBlogs());
+      if (editingId === id) resetForm();
+      setSuccessMsg(
+        "Article deleted from the database. The public page disappears after a successful rebuild.",
+      );
+    } catch (error) {
+      setErrorMsg(
+        error instanceof Error
+          ? error.message
+          : "Could not delete the article. Please retry.",
+      );
+    }
   };
 
   // ── AI Autonomous Generation Handler ───────────────────────
@@ -159,25 +198,32 @@ export default function AdminBlogsPage() {
     if (!aiTopic.trim()) return;
 
     setIsGenerating(true);
-    setErrorMsg('');
+    setErrorMsg("");
 
     try {
-      const { data, error } = await supabase.functions.invoke('secure-dispatch', {
-        body: {
-          action: 'generate_blog',
-          payload: {
-            mode: aiMode,
-            topic: aiTopic.trim(),
-            category: aiCategory,
-            targetAudience: aiAudience.trim(),
-            userNotes: aiUserNotes.trim(),
-            referenceLinks: aiReferenceLinks.trim(),
+      const { data, error } = await supabase.functions.invoke(
+        "secure-dispatch",
+        {
+          body: {
+            action: "generate_blog",
+            payload: {
+              mode: aiMode,
+              topic: aiTopic.trim(),
+              category: aiCategory,
+              targetAudience: aiAudience.trim(),
+              userNotes: aiUserNotes.trim(),
+              referenceLinks: aiReferenceLinks.trim(),
+            },
           },
         },
-      });
+      );
 
       if (error || !data?.success) {
-        throw new Error(data?.error || error?.message || 'Failed to generate article from AI.');
+        throw new Error(
+          data?.error ||
+            error?.message ||
+            "Failed to generate article from AI.",
+        );
       }
 
       const generated = data.article;
@@ -186,31 +232,35 @@ export default function AdminBlogsPage() {
         generated.slug ||
           generated.title
             ?.toLowerCase()
-            .replace(/[^a-z0-9]+/g, '-')
-            .replace(/(^-|-$)+/g, '') ||
-          `article-${Date.now()}`
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/(^-|-$)+/g, "") ||
+          `article-${Date.now()}`,
       );
       setCategory(generated.category || aiCategory);
-      setExcerpt(generated.excerpt || '');
-      setContent(generated.content || '');
+      setExcerpt(generated.excerpt || "");
+      setContent(generated.content || "");
       if (generated.featuredImage) setFeaturedImage(generated.featuredImage);
       if (generated.author) setAuthor(generated.author);
-      if (Array.isArray(generated.tags)) setTags(generated.tags.join(', '));
+      if (Array.isArray(generated.tags)) setTags(generated.tags.join(", "));
 
       if (aiEnableActionButton) {
         setHasActionButton(true);
-        setActionButtonText(aiActionButtonText.trim() || 'Download Official Notification PDF');
-        setActionButtonUrl(aiActionButtonUrl.trim() || '');
+        setActionButtonText(
+          aiActionButtonText.trim() || "Download Official Notification PDF",
+        );
+        setActionButtonUrl(aiActionButtonUrl.trim() || "");
       } else {
         setHasActionButton(false);
       }
 
       setAiModalOpen(false);
-      setActiveTab('preview'); // Show live preview immediately
-      setSuccessMsg(`AI Article generated successfully! Review below and click "Publish".`);
-      setTimeout(() => setSuccessMsg(''), 5000);
+      setActiveTab("preview"); // Show live preview immediately
+      setSuccessMsg(
+        `AI Article generated successfully! Review below and click "Publish".`,
+      );
+      setTimeout(() => setSuccessMsg(""), 5000);
     } catch (err: any) {
-      setErrorMsg(err.message || 'Error occurred while contacting AI service.');
+      setErrorMsg(err.message || "Error occurred while contacting AI service.");
     } finally {
       setIsGenerating(false);
     }
@@ -225,7 +275,8 @@ export default function AdminBlogsPage() {
             Educational Blogs &amp; Updates Manager
           </h1>
           <p className="text-xs text-slate-500 mt-1">
-            Write, edit, and publish rich Markdown articles with AI search and live Supabase cloud sync.
+            Write, edit, and publish rich Markdown articles with AI search and
+            live Supabase cloud sync.
           </p>
         </div>
 
@@ -243,8 +294,10 @@ export default function AdminBlogsPage() {
             disabled={isSyncing}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
           >
-            <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
-            <span>{isSyncing ? 'Syncing...' : 'Sync Supabase'}</span>
+            <RefreshCw
+              className={`w-3.5 h-3.5 ${isSyncing ? "animate-spin" : ""}`}
+            />
+            <span>{isSyncing ? "Syncing..." : "Sync Supabase"}</span>
           </button>
         </div>
       </div>
@@ -277,7 +330,8 @@ export default function AdminBlogsPage() {
                     AI Academic Article Creator (Gemini Flash)
                   </h2>
                   <p className="text-xs text-slate-500">
-                    Auto-search or craft in-depth academic guides without AI fingerprinting.
+                    Auto-search or craft in-depth academic guides without AI
+                    fingerprinting.
                   </p>
                 </div>
               </div>
@@ -293,11 +347,11 @@ export default function AdminBlogsPage() {
             <div className="grid grid-cols-2 gap-2 p-1 bg-slate-100 rounded text-xs">
               <button
                 type="button"
-                onClick={() => setAiMode('search_and_write')}
+                onClick={() => setAiMode("search_and_write")}
                 className={`py-2 px-3 rounded font-semibold transition-all flex items-center justify-center gap-1.5 ${
-                  aiMode === 'search_and_write'
-                    ? 'bg-white text-navy-900 shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                  aiMode === "search_and_write"
+                    ? "bg-white text-navy-900 shadow-xs"
+                    : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 <Search className="w-3.5 h-3.5 text-emerald-600" />
@@ -305,11 +359,11 @@ export default function AdminBlogsPage() {
               </button>
               <button
                 type="button"
-                onClick={() => setAiMode('custom_details')}
+                onClick={() => setAiMode("custom_details")}
                 className={`py-2 px-3 rounded font-semibold transition-all flex items-center justify-center gap-1.5 ${
-                  aiMode === 'custom_details'
-                    ? 'bg-white text-navy-900 shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                  aiMode === "custom_details"
+                    ? "bg-white text-navy-900 shadow-xs"
+                    : "text-slate-600 hover:text-slate-900"
                 }`}
               >
                 <FileText className="w-3.5 h-3.5 text-navy-600" />
@@ -320,16 +374,17 @@ export default function AdminBlogsPage() {
             <form onSubmit={handleGenerateWithAI} className="space-y-4 text-xs">
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">
-                  Topic / Headline Intent <span className="text-red-500">*</span>
+                  Topic / Headline Intent{" "}
+                  <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
                   value={aiTopic}
                   onChange={(e) => setAiTopic(e.target.value)}
                   placeholder={
-                    aiMode === 'search_and_write'
-                      ? 'e.g. BISE Lahore 11th Class Date Sheet 2026 or FAST CS Admissions 2026'
-                      : 'e.g. Complete 12th Class Computer Science Pairing Scheme and Chapter Weightage'
+                    aiMode === "search_and_write"
+                      ? "e.g. BISE Lahore 11th Class Date Sheet 2026 or FAST CS Admissions 2026"
+                      : "e.g. Complete 12th Class Computer Science Pairing Scheme and Chapter Weightage"
                   }
                   className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                   required
@@ -338,10 +393,14 @@ export default function AdminBlogsPage() {
 
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <label className="block font-semibold text-slate-700 mb-1">Target Category</label>
+                  <label className="block font-semibold text-slate-700 mb-1">
+                    Target Category
+                  </label>
                   <select
                     value={aiCategory}
-                    onChange={(e) => setAiCategory(e.target.value as BlogCategory)}
+                    onChange={(e) =>
+                      setAiCategory(e.target.value as BlogCategory)
+                    }
                     className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                   >
                     <option value="date-sheets">Date Sheets</option>
@@ -351,7 +410,9 @@ export default function AdminBlogsPage() {
                 </div>
 
                 <div>
-                  <label className="block font-semibold text-slate-700 mb-1">Target Audience</label>
+                  <label className="block font-semibold text-slate-700 mb-1">
+                    Target Audience
+                  </label>
                   <input
                     type="text"
                     value={aiAudience}
@@ -361,14 +422,17 @@ export default function AdminBlogsPage() {
                 </div>
               </div>
 
-              {aiMode === 'search_and_write' ? (
+              {aiMode === "search_and_write" ? (
                 <div className="p-3 bg-emerald-50/70 border border-emerald-200 rounded text-[11px] text-emerald-900 space-y-1">
                   <div className="font-bold flex items-center gap-1 text-emerald-800">
                     <Search className="w-3.5 h-3.5" />
                     <span>Autonomous Search Active</span>
                   </div>
                   <p className="leading-relaxed">
-                    AI will research recent Pakistani board notifications, official exam timelines, guidelines, and admission criteria. It writes 100% human-like educational prose with structured comparison tables and no AI clichés.
+                    AI will research recent Pakistani board notifications,
+                    official exam timelines, guidelines, and admission criteria.
+                    It writes 100% human-like educational prose with structured
+                    comparison tables and no AI clichés.
                   </p>
                 </div>
               ) : (
@@ -481,8 +545,12 @@ export default function AdminBlogsPage() {
         <div className="lg:col-span-7 bg-white border border-slate-200 p-5 rounded-lg shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-sm font-bold text-navy-900 flex items-center space-x-2">
-              {editingId ? <Edit2 className="w-4 h-4 text-navy-600" /> : <Plus className="w-4 h-4 text-navy-600" />}
-              <span>{editingId ? 'Edit Article' : 'Compose New Article'}</span>
+              {editingId ? (
+                <Edit2 className="w-4 h-4 text-navy-600" />
+              ) : (
+                <Plus className="w-4 h-4 text-navy-600" />
+              )}
+              <span>{editingId ? "Edit Article" : "Compose New Article"}</span>
             </h2>
             {editingId && (
               <button
@@ -510,8 +578,8 @@ export default function AdminBlogsPage() {
                     setSlug(
                       e.target.value
                         .toLowerCase()
-                        .replace(/[^a-z0-9]+/g, '-')
-                        .replace(/(^-|-$)+/g, '')
+                        .replace(/[^a-z0-9]+/g, "-")
+                        .replace(/(^-|-$)+/g, ""),
                     );
                   }
                 }}
@@ -574,11 +642,11 @@ export default function AdminBlogsPage() {
                 <div className="inline-flex rounded border border-slate-200 overflow-hidden text-[11px]">
                   <button
                     type="button"
-                    onClick={() => setActiveTab('write')}
+                    onClick={() => setActiveTab("write")}
                     className={`px-3 py-1 font-medium transition-colors ${
-                      activeTab === 'write'
-                        ? 'bg-navy-600 text-white'
-                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                      activeTab === "write"
+                        ? "bg-navy-600 text-white"
+                        : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                     }`}
                   >
                     <Edit3 className="w-3 h-3 inline mr-1" />
@@ -586,11 +654,11 @@ export default function AdminBlogsPage() {
                   </button>
                   <button
                     type="button"
-                    onClick={() => setActiveTab('preview')}
+                    onClick={() => setActiveTab("preview")}
                     className={`px-3 py-1 font-medium transition-colors ${
-                      activeTab === 'preview'
-                        ? 'bg-navy-600 text-white'
-                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                      activeTab === "preview"
+                        ? "bg-navy-600 text-white"
+                        : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                     }`}
                   >
                     <Eye className="w-3 h-3 inline mr-1" />
@@ -599,7 +667,7 @@ export default function AdminBlogsPage() {
                 </div>
               </div>
 
-              {activeTab === 'write' ? (
+              {activeTab === "write" ? (
                 <textarea
                   value={content}
                   onChange={(e) => setContent(e.target.value)}
@@ -631,7 +699,7 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
                         </span>
                       </div>
                       <span className="px-3 py-1.5 bg-emerald-700 text-white font-semibold rounded text-xs shadow-sm">
-                        {actionButtonText || 'Download File'}
+                        {actionButtonText || "Download File"}
                       </span>
                     </div>
                   )}
@@ -640,7 +708,8 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
                     <MarkdownRenderer content={content} />
                   ) : (
                     <p className="text-slate-400 italic">
-                      Nothing to preview yet. Type markdown in the Write tab or use "✨ Write Article with AI".
+                      Nothing to preview yet. Type markdown in the Write tab or
+                      use "✨ Write Article with AI".
                     </p>
                   )}
                 </div>
@@ -660,7 +729,7 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
                   <span>Attach Action / Download Button (Optional)</span>
                 </label>
                 <span className="text-[10px] text-slate-400 font-medium">
-                  {hasActionButton ? '✓ Enabled' : '○ Disabled'}
+                  {hasActionButton ? "✓ Enabled" : "○ Disabled"}
                 </span>
               </div>
 
@@ -739,10 +808,21 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
 
             <button
               type="submit"
-              className="w-full py-2.5 bg-navy-600 hover:bg-navy-700 text-white font-semibold rounded flex items-center justify-center space-x-1.5 transition-colors"
+              disabled={isSaving}
+              className="disabled:opacity-50 w-full py-2.5 bg-navy-600 hover:bg-navy-700 text-white font-semibold rounded flex items-center justify-center space-x-1.5 transition-colors"
             >
-              {editingId ? <Edit2 className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
-              <span>{editingId ? 'Update & Save Article' : 'Publish Article to Live Website'}</span>
+              {editingId ? (
+                <Edit2 className="w-4 h-4" />
+              ) : (
+                <Plus className="w-4 h-4" />
+              )}
+              <span>
+                {isSaving
+                  ? "Saving article..."
+                  : editingId
+                    ? "Save Article Changes"
+                    : "Save Article & Request Rebuild"}
+              </span>
             </button>
           </form>
         </div>
@@ -766,10 +846,14 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
                   <div className="flex items-start gap-2">
                     <Newspaper className="w-4 h-4 text-navy-600 shrink-0 mt-0.5" />
                     <div>
-                      <h3 className="text-sm font-bold text-navy-900 leading-snug">{b.title}</h3>
+                      <h3 className="text-sm font-bold text-navy-900 leading-snug">
+                        {b.title}
+                      </h3>
                       <div className="text-[11px] text-slate-500 mt-0.5">
-                        <span className="font-semibold text-navy-700">{b.category}</span> &bull;{' '}
-                        {b.datePublished}
+                        <span className="font-semibold text-navy-700">
+                          {b.category}
+                        </span>{" "}
+                        &bull; {b.datePublished}
                       </div>
                     </div>
                   </div>
@@ -792,7 +876,9 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
                   </div>
                 </div>
 
-                <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">{b.excerpt}</p>
+                <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
+                  {b.excerpt}
+                </p>
 
                 <div className="flex items-center justify-between pt-2 border-t border-slate-100 text-[11px] text-slate-500">
                   <div className="flex flex-wrap gap-1">
@@ -808,9 +894,9 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
                   <a
                     href={
                       [
-                        'punjab-boards-inter-date-sheet-2026',
-                        'fast-nuces-punjab-university-admissions-2026',
-                        'computer-science-vs-software-engineering-career-guide',
+                        "punjab-boards-inter-date-sheet-2026",
+                        "fast-nuces-punjab-university-admissions-2026",
+                        "computer-science-vs-software-engineering-career-guide",
                       ].includes(b.slug)
                         ? `/blogs/${b.slug}`
                         : `/blogs/post?slug=${encodeURIComponent(b.slug)}`

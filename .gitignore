@@ -49,3 +49,15 @@ coverage/
 *.tgz
 .publish-webhook-secret.txt
 supabase/.temp/
+public/learning-runtimes/
+public/codi/runtime/
+public/codi/worker.js
+public/codi/source/
+public/codi/lessons/
+scripts/codi-source/node_modules/
+scripts/codi-source/dist/
+artifacts/
+# Retired local-speech/animal preview assets, not used by the cloud robot.
+public/codi/fox*
+public/codi/FOX-CREDITS.txt
+public/codi/phonemizer-LICENSE.txt

@@ -11,7 +11,7 @@ export const YOUTUBE_UPLOADS_PLAYLIST_ID = 'UUvrHqZtn6MSx_OXJB1cm1OA';
  * Parses ISO 8601 duration (e.g. PT10M26S, PT1H2M3S) into clean human-readable format (10m 26s).
  */
 export function formatDuration(pt?: string): string {
-  if (!pt) return '10m 00s';
+  if (!pt) return 'Duration unavailable';
   const m = pt.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
   if (!m) return pt;
   const hours = parseInt(m[1] || '0', 10);
@@ -213,7 +213,8 @@ export async function syncYouTubeFeedInBackground(apiKeyOverride?: string): Prom
   isLive: boolean;
   error?: string;
 }> {
-  const rawKey = typeof apiKeyOverride === 'string' ? apiKeyOverride : process.env.NEXT_PUBLIC_YOUTUBE_API_KEY;
+  // Build-only callers supply the server key explicitly. Never bundle a public-env API secret.
+  const rawKey = typeof apiKeyOverride === 'string' ? apiKeyOverride : '';
 
   if (!rawKey || typeof rawKey !== 'string' || rawKey === 'PASTE_YOUTUBE_API_KEY_HERE' || rawKey.trim() === '') {
     return {
@@ -229,7 +230,7 @@ export async function syncYouTubeFeedInBackground(apiKeyOverride?: string): Prom
   try {
     // Step 1: Fetch upload playlist items
     const playlistUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${YOUTUBE_UPLOADS_PLAYLIST_ID}&maxResults=50&key=${key}`;
-    const pRes = await fetch(playlistUrl);
+    const pRes = await fetch(playlistUrl, { signal: AbortSignal.timeout(15000) });
 
     if (!pRes.ok) {
       const errJson = await pRes.json().catch(() => ({}));
@@ -262,7 +263,7 @@ export async function syncYouTubeFeedInBackground(apiKeyOverride?: string): Prom
     if (videoIds.length > 0) {
       try {
         const videosUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails&id=${videoIds.slice(0, 50).join(',')}&key=${key}`;
-        const vRes = await fetch(videosUrl);
+        const vRes = await fetch(videosUrl, { signal: AbortSignal.timeout(15000) });
         if (vRes.ok) {
           const vData = await vRes.json();
           (vData.items || []).forEach((v: any) => videoDetailsMap.set(v.id, v));
@@ -305,7 +306,7 @@ export async function syncYouTubeFeedInBackground(apiKeyOverride?: string): Prom
           ...existing,
           title: title || existing.title,
           thumbnail: thumb || existing.thumbnail,
-          duration: exactDuration && exactDuration !== '10m 00s' ? exactDuration : existing.duration,
+          duration: exactDuration && exactDuration !== 'Duration unavailable' ? exactDuration : existing.duration,
           description: desc.trim().length > 30 ? desc.trim() : existing.description,
         });
       } else {

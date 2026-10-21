@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { ClassItem, SubjectItem } from '@/types/educational';
 
 export default function AdminSubjectsPage() {
@@ -33,7 +34,7 @@ export default function AdminSubjectsPage() {
     loadData();
   }, []);
 
-  const handleSaveSubject = async (e: React.FormEvent) => {
+  const handleSaveSubject = adminOperation('subjects:handleSaveSubject', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim() || !slug.trim() || !selectedClass) return;
 
@@ -51,7 +52,7 @@ export default function AdminSubjectsPage() {
     resetForm();
     setSuccessMsg(editingId ? `Subject "${newSubject.title}" updated successfully!` : `Subject "${newSubject.title}" added to ${selectedClass} successfully!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const handleEdit = (subj: SubjectItem) => {
     setEditingId(subj.id);
@@ -71,7 +72,7 @@ export default function AdminSubjectsPage() {
     setIconName('Code');
   };
 
-  const handleDelete = async (id: string, subjTitle: string) => {
+  const handleDelete = adminOperation('subjects:handleDelete', async (id: string, subjTitle: string) => {
     if (!confirm(`Are you sure you want to permanently delete "${subjTitle}"? This will delete it from Supabase and the platform.`)) {
       return;
     }
@@ -79,7 +80,7 @@ export default function AdminSubjectsPage() {
     setSubjects(EducationalStore.getSubjects());
     setSuccessMsg(`Subject "${subjTitle}" deleted permanently!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   return (
     <div className="space-y-6">

@@ -3,7 +3,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Lecture } from '@/types';
 import { lecturesData } from '@/data/lectures';
-import { Search, Play, Clock } from 'lucide-react';
+import { Search, Play } from 'lucide-react';
 import { sanitizeUrl } from '@/utils/security';
 
 interface LectureArchiveProps {
@@ -17,8 +17,6 @@ interface LectureArchiveProps {
 
 export const LectureArchive: React.FC<LectureArchiveProps> = ({
   lectures = lecturesData,
-  isLiveConnected = false,
-  isSyncing = false,
   onOpenModal,
   selectedCategoryFilter = 'ALL',
   onFilterChange,

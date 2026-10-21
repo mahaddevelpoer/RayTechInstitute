@@ -1,193 +1,174 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { EducationalStore } from '@/data/educationalStore';
-import { GazetteItem } from '@/types/educational';
-import { Award, ExternalLink, Search } from 'lucide-react';
-import { sanitizeUrl } from '@/utils/security';
-import { PdfResourceActions } from '@/components/educational/PdfResourceActions';
-
+import React, { useState } from "react";
+import Link from "next/link";
+import { INITIAL_GAZETTES } from "@/data/staticCatalog";
+import { BOARDS } from "@/data/boards";
+import { BoardDirectory } from "./BoardDirectory";
+import { PdfResourceActions } from "./PdfResourceActions";
+import { sanitizeUrl } from "@/utils/security";
 
 export function ResultsGazettesClientView() {
-  const [gazettes, setGazettes] = useState<GazetteItem[]>([]);
-  const [selectedBoard, setSelectedBoard] = useState('all');
-  const [selectedClass, setSelectedClass] = useState('all');
-  const [searchQuery, setSearchQuery] = useState('');
-
-  useEffect(() => {
-    setGazettes(EducationalStore.getGazettes());
-  }, []);
-
-  const BOARDS = [
-    'BISE Lahore',
-    'BISE Gujranwala',
-    'BISE Rawalpindi',
-    'BISE Faisalabad',
-    'BISE Multan',
-    'BISE Sahiwal',
-    'BISE Bahawalpur',
-    'BISE DG Khan',
-    'BISE Sargodha',
-    'Federal Board (FBISE)',
-  ];
-
-  const filteredGazettes = gazettes.filter((gz) => {
-    const matchesBoard = selectedBoard === 'all' || gz.board === selectedBoard;
-    const matchesClass = selectedClass === 'all' || gz.classSlug === selectedClass;
-    const matchesSearch =
-      searchQuery.trim() === '' ||
-      gz.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      gz.board.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesBoard && matchesClass && matchesSearch;
-  });
-
+  const [board, setBoard] = useState("all");
+  const [grade, setGrade] = useState("all");
+  const [year, setYear] = useState("all");
+  const [query, setQuery] = useState("");
+  const years = Array.from(new Set(INITIAL_GAZETTES.map((g) => g.year))).sort(
+    (a, b) => b - a,
+  );
+  const gazettes = INITIAL_GAZETTES.filter(
+    (g) =>
+      (board === "all" || g.board === board) &&
+      (grade === "all" || g.classSlug === grade) &&
+      (year === "all" || String(g.year) === year) &&
+      `${g.title} ${g.board} ${g.year}`
+        .toLowerCase()
+        .includes(query.trim().toLowerCase()),
+  ).sort((a, b) => b.year - a.year);
+  const reset = () => {
+    setBoard("all");
+    setGrade("all");
+    setYear("all");
+    setQuery("");
+  };
   return (
     <>
-      {/* Breadcrumb */}
-      <nav className="breadcrumb">
+      <nav className="breadcrumb" aria-label="Breadcrumb">
         <Link href="/">Home</Link>
         <span>/</span>
-        <span className="text-slate-700">Result Gazettes</span>
+        <span aria-current="page">Results &amp; Gazettes</span>
       </nav>
-
-      {/* Header */}
-      <div className="page-intro mb-8">
-        <div className="inline-flex items-center gap-1.5 badge-highlight mb-2">
-          <Award className="w-3.5 h-3.5" />
-          <span>Official Board Results</span>
-        </div>
-        <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
-          Punjab Boards &amp; FBISE Result Gazettes
-        </h1>
-        <p className="text-slate-600 text-sm">
-          Download complete official result gazettes (PDF) and verify marks for 11th and 12th class examinations.
-        </p>
-      </div>
-
-      {/* Filter and Search Box */}
-      <div className="bg-slate-50 border border-slate-200 rounded p-4 mb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-          {/* Search */}
-          <div className="relative">
+      <h1 className="text-3xl font-bold text-navy-900">
+        Punjab Boards &amp; FBISE Result Gazettes
+      </h1>
+      <p className="mt-3 text-base leading-7 text-slate-600">
+        Find your board, open available gazettes and follow the original board
+        link to check marks.
+      </p>
+      <Link
+        href="/results-gazettes/first-year-result/"
+        className="my-6 flex items-center justify-between gap-4 rounded-lg border border-navy-200 bg-navy-50 p-5 text-navy-900"
+      >
+        <span>
+          <strong className="block text-lg">1st year result 2026 guide</strong>
+          <span className="mt-1 block text-sm">
+            Board links, date verification, roll-number steps and help after
+            results.
+          </span>
+        </span>
+        <span aria-hidden="true">→</span>
+      </Link>
+      <BoardDirectory />
+      <section aria-labelledby="gazette-filter-title">
+        <h2
+          id="gazette-filter-title"
+          className="text-xl font-bold text-navy-900"
+        >
+          Find a gazette
+        </h2>
+        <div className="my-5 grid gap-3 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:grid-cols-2 lg:grid-cols-4">
+          <label className="text-sm font-semibold">
+            Search
             <input
-              type="text"
-              placeholder="Search board or year..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full text-xs bg-white border border-slate-300 rounded px-3 py-2 pl-8 focus:outline-none focus:border-navy-600 text-slate-800"
+              className="study-input mt-2"
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Board, title or year"
             />
-            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5" />
-          </div>
-
-          {/* Filter Board */}
-          <div>
+          </label>
+          <label className="text-sm font-semibold">
+            Board
             <select
-              value={selectedBoard}
-              onChange={(e) => setSelectedBoard(e.target.value)}
-              className="w-full text-xs bg-white border border-slate-300 rounded px-3 py-2 focus:outline-none focus:border-navy-600 text-slate-800"
+              className="study-input mt-2"
+              value={board}
+              onChange={(e) => setBoard(e.target.value)}
             >
-              <option value="all">All Punjab Boards &amp; FBISE</option>
+              <option value="all">All boards</option>
               {BOARDS.map((b) => (
-                <option key={b} value={b}>
-                  {b}
-                </option>
+                <option key={b.name}>{b.name}</option>
               ))}
             </select>
-          </div>
-
-          {/* Filter Class */}
-          <div>
+          </label>
+          <label className="text-sm font-semibold">
+            Class
             <select
-              value={selectedClass}
-              onChange={(e) => setSelectedClass(e.target.value)}
-              className="w-full text-xs bg-white border border-slate-300 rounded px-3 py-2 focus:outline-none focus:border-navy-600 text-slate-800"
+              className="study-input mt-2"
+              value={grade}
+              onChange={(e) => setGrade(e.target.value)}
             >
-              <option value="all">All Classes (11th &amp; 12th)</option>
-              <option value="11th-class">11th Class (1st Year)</option>
-              <option value="12th-class">12th Class (2nd Year)</option>
+              <option value="all">All classes</option>
+              <option value="11th-class">11th class (1st year)</option>
+              <option value="12th-class">12th class (2nd year)</option>
             </select>
+          </label>
+          <label className="text-sm font-semibold">
+            Year
+            <select
+              className="study-input mt-2"
+              value={year}
+              onChange={(e) => setYear(e.target.value)}
+            >
+              <option value="all">All years</option>
+              {years.map((y) => (
+                <option key={y}>{y}</option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <p role="status" className="text-sm text-slate-600">
+            {gazettes.length} matching{" "}
+            {gazettes.length === 1 ? "gazette" : "gazettes"}
+          </p>
+          <button type="button" onClick={reset} className="btn-outline text-sm">
+            Clear filters
+          </button>
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          {gazettes.map((g) => {
+            const href = `/results-gazettes/${g.id.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/`;
+            return (
+              <article key={g.id} className="edu-card p-5">
+                <p className="text-sm font-semibold text-navy-700">{g.board}</p>
+                <h3 className="my-2 text-lg font-bold text-navy-900">
+                  <Link href={href}>{g.title}</Link>
+                </h3>
+                <p className="mb-4 text-sm text-slate-600">
+                  {g.year} · Session: {g.session}
+                </p>
+                <PdfResourceActions
+                  pdfUrl={g.pdfUrl}
+                  title={g.title}
+                  detailHref={href}
+                />
+                {sanitizeUrl(g.directResultUrl) && (
+                  <a
+                    className="mt-4 inline-flex min-h-12 items-center text-sm font-semibold text-navy-700 underline"
+                    href={sanitizeUrl(g.directResultUrl)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit result source
+                  </a>
+                )}
+              </article>
+            );
+          })}
+        </div>
+        {!gazettes.length && (
+          <div className="rounded-lg border border-slate-200 p-6 text-sm leading-7 text-slate-600">
+            <h3 className="font-bold text-navy-900">
+              No matching gazette has been added
+            </h3>
+            <p>
+              Try clearing the filters or visit your board using the directory
+              above. A missing PDF here does not mean the board has not
+              announced a result.
+            </p>
           </div>
-        </div>
-      </div>
-
-      {/* Gazettes Table / List */}
-      <div className="edu-card overflow-hidden">
-        <div className="overflow-x-auto">
-          <table className="edu-table">
-            <thead>
-              <tr>
-                <th>Board Name</th>
-                <th>Examination Title</th>
-                <th>Year</th>
-                <th>File Size</th>
-                <th>Downloads &amp; Links</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredGazettes.length === 0 ? (
-                <tr>
-                  <td colSpan={5} className="text-center py-8 text-slate-500">
-                    No result gazette found for this selection.
-                  </td>
-                </tr>
-              ) : (
-                filteredGazettes.map((gz) => (
-                  <tr key={gz.id}>
-                    <td className="font-semibold text-navy-900 whitespace-nowrap">
-                      {gz.board}
-                    </td>
-                    <td>
-                      <Link href={`/results-gazettes/${gz.id.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} className="font-medium text-slate-800 hover:text-navy-700">{gz.title}</Link>
-                      <div className="text-[11px] text-slate-500">
-                        Total Candidates: {gz.totalCandidates || 'Official Gazette'}
-                      </div>
-                    </td>
-                    <td className="whitespace-nowrap font-medium text-slate-700">
-                      {gz.year}
-                    </td>
-                    <td className="whitespace-nowrap text-xs text-slate-500 font-mono">
-                      {gz.session}
-                    </td>
-                    <td>
-                      <div className="flex min-w-[260px] flex-wrap items-center gap-2">
-                        <PdfResourceActions
-                          pdfUrl={gz.pdfUrl}
-                          title={`${gz.board} ${gz.year} result gazette`}
-                          downloadLabel="Download gazette"
-                          className="[&>*]:whitespace-nowrap"
-                        />
-                        {gz.actionButtonText && gz.actionButtonUrl && !gz.actionButtonUrl.includes('example.com') ? (
-                          <a
-                            href={sanitizeUrl(gz.actionButtonUrl)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn-primary text-xs py-1.5 px-3 flex items-center gap-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded font-medium"
-                          >
-                            <span>{gz.actionButtonText}</span>
-                          </a>
-                        ) : null}
-
-                        {gz.directResultUrl && !gz.directResultUrl.includes('example.com') && (
-                          <a
-                            href={sanitizeUrl(gz.directResultUrl)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn-outline text-xs py-1.5 px-3"
-                          >
-                            <span>Official Portal</span>
-                            <ExternalLink className="w-3 h-3" />
-                          </a>
-                        )}
-                      </div>
-                    </td>
-                  </tr>
-                ))
-              )}
-            </tbody>
-          </table>
-        </div>
-      </div>
+        )}
+      </section>
     </>
   );
 }

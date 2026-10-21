@@ -1,14 +1,14 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useYouTubeSync } from '@/hooks/useYouTubeSync';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { VideoInteractiveMCQ, MCQItem } from '@/types/educational';
 import { Lecture } from '@/types';
 import {
   Video,
-  Play,
   PlusCircle,
   Clock,
   HelpCircle,
@@ -16,15 +16,13 @@ import {
   Edit,
   Save,
   CheckCircle2,
-  RefreshCw,
   ExternalLink,
   BookOpen,
-  ArrowRight,
   Sparkles,
 } from 'lucide-react';
 
 export default function AdminVideosInteractiveMCQPage() {
-  const { lectures, isLiveConnected, isSyncing } = useYouTubeSync();
+  const { lectures, isLiveConnected, isSyncing, syncError } = useYouTubeSync();
   const [selectedVideo, setSelectedVideo] = useState<Lecture | null>(null);
   const [videoMCQs, setVideoMCQs] = useState<VideoInteractiveMCQ[]>([]);
   const [existingMCQs, setExistingMCQs] = useState<MCQItem[]>([]);
@@ -92,7 +90,7 @@ export default function AdminVideosInteractiveMCQPage() {
     window.scrollTo({ top: 300, behavior: 'smooth' });
   };
 
-  const handleDeleteMCQ = async (id: string) => {
+  const handleDeleteMCQ = adminOperation('videos:handleDeleteMCQ', async (id: string) => {
     if (!window.confirm('Are you sure you want to delete this interactive timeline checkpoint?')) return;
     await EducationalStore.deleteVideoMCQ(id);
     if (selectedVideo) {
@@ -100,7 +98,7 @@ export default function AdminVideosInteractiveMCQPage() {
     }
     setStatusMessage('Checkpoint deleted successfully.');
     setTimeout(() => setStatusMessage(''), 3000);
-  };
+  });
 
   const handleImportExistingMCQ = (mcqId: string) => {
     setImportMCQId(mcqId);
@@ -117,7 +115,7 @@ export default function AdminVideosInteractiveMCQPage() {
     }
   };
 
-  const handleSaveCheckpoint = async (e: React.FormEvent) => {
+  const handleSaveCheckpoint = adminOperation('videos:handleSaveCheckpoint', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!selectedVideo) {
       alert('Please select a video first.');
@@ -153,10 +151,11 @@ export default function AdminVideosInteractiveMCQPage() {
     setStatusMessage(editingId ? 'Checkpoint updated!' : 'Interactive checkpoint attached to timeline!');
     resetForm();
     setTimeout(() => setStatusMessage(''), 3500);
-  };
+  });
 
   return (
     <div className="space-y-6">
+      {syncError && <p role="status" className="rounded-md border border-[var(--border)] bg-[var(--bg-soft)] p-4 text-sm text-[var(--text-main)]">{syncError}</p>}
       {/* Page Header */}
       <div className="bg-white border border-slate-200 p-6 rounded-lg shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
@@ -174,7 +173,7 @@ export default function AdminVideosInteractiveMCQPage() {
         <div className="flex items-center gap-2 text-xs">
           <span className="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
-            <span>{isSyncing ? 'Syncing Channel...' : `${lectures.length} Videos Live`}</span>
+            <span>{isSyncing ? 'Refreshing channel...' : `${lectures.length} videos: ${isLiveConnected ? 'refreshed' : 'saved catalog'}`}</span>
           </span>
           <Link
                     href="/"
@@ -529,7 +528,7 @@ export default function AdminVideosInteractiveMCQPage() {
                   </div>
                 ) : (
                   <div className="space-y-3">
-                    {videoMCQs.map((item, idx) => (
+                    {videoMCQs.map((item) => (
                       <div
                         key={item.id}
                         className="p-4 bg-slate-50 border border-slate-200 rounded flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 hover:border-slate-300 transition-colors"

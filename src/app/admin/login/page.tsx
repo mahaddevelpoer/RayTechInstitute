@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Lock, Mail, ShieldCheck, ArrowRight, AlertCircle, Clock } from 'lucide-react';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
 import { signOut } from 'firebase/auth';
 import { verifyAdminAccess } from '@/lib/supabase';
@@ -23,19 +23,35 @@ export default function AdminLoginPage() {
   const [isLocked, setIsLocked] = useState(false);
   const [remainingSec, setRemainingSec] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+  const [accessUnavailable, setAccessUnavailable] = useState(false);
+  const [needsVerification, setNeedsVerification] = useState(false);
+  const [verificationMessage, setVerificationMessage] = useState('');
+
+  async function checkAccess() {
+    const user = auth.currentUser;
+    if (!user) return;
+    if (!user.emailVerified) { setNeedsVerification(true); return; }
+    setNeedsVerification(false);
+    const access = await verifyAdminAccess();
+    if (auth.currentUser?.uid !== user.uid) return;
+    if (access.ok) {
+      resetRateLimit(); setAdminSession(user.uid); router.push('/admin');
+    } else if (access.reason === 'unauthorized') {
+      await signOut(auth).catch(() => undefined);
+      setErrorMsg('This Firebase account is not authorized for administration.');
+    } else {
+      setAccessUnavailable(true);
+      setErrorMsg('Administrator access could not be checked. Your sign-in is still active. Check your connection and retry.');
+    }
+  }
 
   useEffect(() => {
     // Check if already authenticated via Firebase
     const unsubscribe = auth.onAuthStateChanged(async (user) => {
       if (user) {
-        const access = await verifyAdminAccess();
-        if (access.ok) {
-          setAdminSession(user.uid);
-          router.push('/admin');
-        } else {
-          await signOut(auth).catch(() => undefined);
-          setErrorMsg('This Firebase account is not authorized for administration.');
-        }
+        await checkAccess();
+      } else {
+        setNeedsVerification(false);
       }
     });
 
@@ -78,20 +94,8 @@ export default function AdminLoginPage() {
     setIsLoading(true);
 
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, email.trim(), password);
-      const user = userCredential.user;
-      const token = await user.getIdToken();
-
-      const access = await verifyAdminAccess();
-      if (!access.ok) {
-        await signOut(auth).catch(() => undefined);
-        setErrorMsg('This Firebase account is not authorized for administration.');
-        return;
-      }
-
-      resetRateLimit();
-      setAdminSession(token || user.uid);
-      router.push('/admin');
+      await signInWithEmailAndPassword(auth, email.trim(), password);
+      await checkAccess();
     } catch (err: unknown) {
       const attemptStatus = recordFailedAttempt();
       if (attemptStatus.isLocked) {
@@ -135,7 +139,26 @@ export default function AdminLoginPage() {
           </div>
         )}
 
-        {isLocked ? (
+        {accessUnavailable && <button type="button" className="mb-4 min-h-12 w-full rounded-md border border-slate-300 px-4 py-3 text-sm font-semibold" onClick={() => window.location.reload()}>Retry access check</button>}
+        {needsVerification ? <section className="space-y-4 text-sm" aria-label="Verify administrator email">
+          <p>Verify your account email before administrator access can be checked. Verification alone does not grant administrator permissions.</p>
+          <button type="button" disabled={isLoading} className="min-h-12 w-full rounded-md bg-navy-700 px-4 py-3 font-semibold text-white" onClick={async () => {
+            const user = auth.currentUser; if (!user || user.emailVerified) return;
+            setIsLoading(true); setErrorMsg('');
+            try { await sendEmailVerification(user); setVerificationMessage('Verification email sent. Check your inbox and spam folder, open the link, then select Check verification.'); }
+            catch { setErrorMsg('The verification email could not be sent. Wait a moment and try again.'); }
+            finally { setIsLoading(false); }
+          }}>Send verification email</button>
+          <button type="button" disabled={isLoading} className="min-h-12 w-full rounded-md border border-slate-300 px-4 py-3 font-semibold" onClick={async () => {
+            const user = auth.currentUser; if (!user) return;
+            setIsLoading(true); setErrorMsg('');
+            try { await user.reload(); await user.getIdToken(true); if (!user.emailVerified) setErrorMsg('Your email has not been verified yet. Open the link in your verification email first.'); else await checkAccess(); }
+            catch { setErrorMsg('Verification could not be checked. Please try again.'); }
+            finally { setIsLoading(false); }
+          }}>Check verification</button>
+          <button type="button" disabled={isLoading} className="min-h-12 w-full rounded-md border border-slate-300 px-4 py-3" onClick={async () => { try { await signOut(auth); } catch { setErrorMsg('Could not sign out. Please try again.'); } }}>Use another account</button>
+          {verificationMessage && <p role="status">{verificationMessage}</p>}
+        </section> : isLocked ? (
           <div className="p-4 bg-slate-50 border border-slate-200 rounded text-center space-y-2">
             <Clock className="w-6 h-6 text-orange-600 mx-auto animate-pulse" />
             <p className="text-xs text-slate-600">

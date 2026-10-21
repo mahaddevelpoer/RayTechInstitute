@@ -1,20 +1,17 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { channelData } from '@/data/channel';
-import { BookOpen, FileText, Youtube, Award } from 'lucide-react';
-import { sanitizeUrl } from '@/utils/security';
+import React from "react";
+import Link from "next/link";
+
+import { channelData } from "@/data/channel";
+import { BookOpen, FileText, Award } from "lucide-react";
 
 export const Hero: React.FC = () => {
   return (
     <section className="bg-white py-8 border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
         {/* Hero content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-
           {/* Left: Text content */}
           <div>
             {/* Category badge */}
@@ -27,62 +24,24 @@ export const Hero: React.FC = () => {
               11th &amp; 12th Class Computer Science Notes, MCQs &amp; Gazettes
             </h1>
 
-            <p className="text-slate-600 text-base leading-relaxed mb-2">
-              {channelData.tagline}
-            </p>
-
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
-              Free study resources for 11th and 12th class students - Notes, MCQs, Past Papers, Video Lectures, and Result Gazettes for all Punjab Boards.
+              Study chapter notes, practise MCQs and find board results in one
+              place.
             </p>
 
             {/* Quick links */}
             <div className="flex flex-wrap gap-3 mb-6">
-              <Link
-                href="/classes"
-                className="btn-primary"
-              >
+              <Link href="/classes" className="btn-primary">
                 <BookOpen className="w-4 h-4" />
                 Study Material
               </Link>
               <Link
-                href="/classes/11th-class/computer-science/mcqs"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold rounded transition-colors"
-              >
-                <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
-                Python IDE &amp; MCQs Test
-              </Link>
-              <Link
-                href="/results-gazettes"
+                href="/results-gazettes/first-year-result/"
                 className="btn-outline"
               >
                 <Award className="w-4 h-4" />
-                Result Gazettes
+                1st Year Results
               </Link>
-              <a
-                href={sanitizeUrl(channelData.youtubeUrl)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold rounded transition-colors"
-              >
-                <Youtube className="w-4 h-4" />
-                YouTube Channel
-              </a>
-            </div>
-
-            {/* Quick stats */}
-            <div className="flex flex-wrap gap-4 text-sm text-slate-600 border-t border-slate-200 pt-4">
-              <span className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-navy-600 inline-block"></span>
-                Computer Science (11th &amp; 12th)
-              </span>
-              <span className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-emerald-600 inline-block"></span>
-                Python, C, C++, HTML
-              </span>
-              <span className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-orange-600 inline-block"></span>
-                All Punjab Boards + FBISE
-              </span>
             </div>
           </div>
 
@@ -112,8 +71,12 @@ export const Hero: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <div className="font-semibold text-navy-800 text-sm">{channelData.name}</div>
-                  <div className="text-slate-500 text-xs">Computer Science Instructor - Pakistan</div>
+                  <div className="font-semibold text-navy-800 text-sm">
+                    {channelData.name}
+                  </div>
+                  <div className="text-slate-500 text-xs">
+                    Computer Science Instructor - Pakistan
+                  </div>
                 </div>
               </div>
             </div>
@@ -150,7 +113,6 @@ export const Hero: React.FC = () => {
               </Link>
             </div>
           </div>
-
         </div>
       </div>
     </section>

@@ -1,0 +1,101 @@
+import { auth } from '@/lib/firebase';
+import { supabaseUrl } from '@/lib/supabase';
+import { codiWav } from './codi-line';
+type Language = 'en' | 'hi';
+const cacheName = 'codi-gemini-reading-v1';
+const model = 'gemini-2.5-flash-preview-tts';
+export async function codiVoiceSignIn() {
+  if (auth.currentUser && !auth.currentUser.isAnonymous) return;
+  const { GoogleAuthProvider, signInWithPopup } = await import('firebase/auth');
+  try { await signInWithPopup(auth, new GoogleAuthProvider()); }
+  catch { throw new Error('Sign-in did not finish. Allow the Google sign-in window and retry.'); }
+}
+export async function codiCloudRequest(body: Record<string, unknown>, signal: AbortSignal) {
+  await auth.authStateReady();
+  if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
+  const user = auth.currentUser;
+  if (!user || user.isAnonymous) throw new Error('Sign in to use Gemini cloud voice, or choose Device voice.');
+  const token = await user.getIdToken();
+  const response = await fetch(`${supabaseUrl}/functions/v1/codi-voice`, { method: 'POST', signal, credentials: 'omit', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ ...body, consent: true }) });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(typeof data.error === 'string' ? data.error.slice(0, 250) : 'Codi cloud voice is unavailable.');
+  return data;
+}
+function decodePcm(data: string): Float32Array {
+  if (typeof data !== 'string' || data.length > 5800000 || !/^[A-Za-z0-9+/]+={0,2}$/.test(data)) throw new Error('Invalid voice audio.');
+  const raw = atob(data); if (raw.length % 2) throw new Error('Invalid voice samples.');
+  const samples = new Float32Array(raw.length / 2);
+  for (let i = 0; i < samples.length; i++) { const value = raw.charCodeAt(i * 2) | raw.charCodeAt(i * 2 + 1) << 8; samples[i] = (value > 32767 ? value - 65536 : value) / 32768; }
+  return samples;
+}
+/** Bounded, local audio cache only. Tokens and Firebase identity are never cached. */
+export async function codiCloudReading(text: string, language: Language, signal: AbortSignal): Promise<Blob> {
+  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${model}:Kore:${language}:${text}`)));
+  const hash = Array.from(digest, b => b.toString(16).padStart(2, '0')).join('');
+  const key = `${location.origin}/codi/audio-cache/${hash}.wav`;
+  let cache: Cache | undefined;
+  try { if ('caches' in globalThis) { cache = await caches.open(cacheName); const found = await cache.match(key); if (found && found.headers.get('content-type') === 'audio/wav') { const blob = await found.blob(); if (blob.size >= 44 && blob.size <= 4400000) return blob; } } } catch { /* Storage can be disabled; playback must still work. */ }
+  const data = await codiCloudRequest({ action: 'read', language, text }, signal);
+  if (data.rate !== 24000 || data.model !== model) throw new Error('Unexpected voice format.');
+  const blob = new Blob([codiWav(decodePcm(data.audio), 24000) as BlobPart], { type: 'audio/wav' });
+  if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
+  try { if (cache) { const entries = await cache.keys(); for (const entry of entries.slice(0, Math.max(0, entries.length - 23))) await cache.delete(entry); await cache.put(key, new Response(blob, { headers: { 'Content-Type': 'audio/wav' } })); } } catch { /* Quota failure must not prevent audio. */ }
+  return blob;
+}
+/** One short-lived session per explanation. No microphone access, tools or SDK bundle. */
+export async function codiCloudExplain(text: string, context: string, language: Language, audio: AudioContext, signal: AbortSignal, onSpeaking: () => void, onTranscript: (text: string) => void): Promise<void> {
+  const session = await codiCloudRequest({ action: 'live', text: text.slice(0, 2000), context: context.slice(0, 12000), language }, signal);
+  const endpoint = 'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContentConstrained';
+  if (session.endpoint !== endpoint || session.model !== 'gemini-2.5-flash-native-audio-preview-12-2025' || typeof session.token !== 'string' || !session.token.startsWith('auth_tokens/')) throw new Error('Invalid voice session.');
+  if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
+  return new Promise<void>((resolve, reject) => {
+    const socket = new WebSocket(`${endpoint}?access_token=${encodeURIComponent(session.token)}`);
+    const playing = new Set<AudioBufferSourceNode>();
+    let nextTime = audio.currentTime; let transcript = ''; let received = false; let settled = false; let completing = false; let samplesTotal = 0;
+    let chain = Promise.resolve(); let deadline: ReturnType<typeof setTimeout>;
+    const finish = (error?: Error) => {
+      if (settled) return; settled = true; clearTimeout(deadline); signal.removeEventListener('abort', abort);
+      socket.onclose = null; socket.onerror = null; socket.close();
+      playing.forEach(node => { node.onended = null; try { node.stop(); } catch {} node.disconnect(); }); playing.clear();
+      if (error) reject(error); else resolve();
+    };
+    const abort = () => finish(new DOMException('Stopped', 'AbortError'));
+    deadline = setTimeout(() => finish(new Error('Codi voice connection took too long. Please retry.')), 45000);
+    signal.addEventListener('abort', abort, { once: true });
+    if (signal.aborted) { abort(); return; }
+    socket.onopen = () => socket.send(JSON.stringify({ setup: { model: `models/${session.model}` } }));
+    socket.onerror = () => finish(new Error('Gemini Live could not connect. Check your connection and voice allowance.'));
+    socket.onclose = () => { if (!completing) finish(new Error('Gemini Live disconnected before the explanation finished.')); };
+    socket.onmessage = event => {
+      chain = chain.then(async () => {
+        if (settled) return;
+        const raw = typeof event.data === 'string' ? event.data : await (event.data as Blob).text();
+        if (raw.length > 6000000) throw new Error('Voice response is too large.');
+        const msg = JSON.parse(raw);
+        if (msg.error) throw new Error('Gemini Live rejected this session. Please retry later.');
+        if (msg.setupComplete) socket.send(JSON.stringify({ clientContent: { turns: [{ role: 'user', parts: [{ text: `Explain this selected concept using the provided lesson source: ${text}` }] }], turnComplete: true } }));
+        const content = msg.serverContent;
+        if (!content) return;
+        if (content.interrupted) throw new Error('The explanation was interrupted. Select the text again.');
+        for (const part of content.modelTurn?.parts || []) if (part.inlineData) {
+          const inline = part.inlineData;
+          if (!/^audio\/pcm;rate=24000$/.test(inline.mimeType)) throw new Error('Unsupported live voice format.');
+          const samples = decodePcm(inline.data); samplesTotal += samples.length;
+          if (samplesTotal > 24000 * 120) throw new Error('Voice explanation exceeded its limit.');
+          const buffer = audio.createBuffer(1, samples.length, 24000); buffer.getChannelData(0).set(samples);
+          const node = audio.createBufferSource(); node.buffer = buffer; node.connect(audio.destination); playing.add(node);
+          node.onended = () => { node.disconnect(); playing.delete(node); if (completing && !playing.size) finish(); };
+          nextTime = Math.max(nextTime, audio.currentTime + .03); node.start(nextTime); nextTime += buffer.duration;
+          received = true; onSpeaking();
+        }
+        if (content.outputTranscription?.text) { transcript = (transcript + content.outputTranscription.text).slice(0, 10000); onTranscript(transcript); }
+        if (content.turnComplete) {
+          if (!received) throw new Error('Gemini returned no playable explanation.');
+          completing = true; clearTimeout(deadline); socket.onclose = null; socket.close();
+          deadline = setTimeout(() => finish(new Error('Audio playback could not finish.')), Math.max(1000, (nextTime - audio.currentTime) * 1000 + 5000));
+          if (!playing.size) finish();
+        }
+      }).catch(error => finish(error instanceof Error ? error : new Error('Invalid voice response.')));
+    };
+  });
+}

@@ -42,7 +42,6 @@ export const Approach: React.FC = () => {
         {/* 3 Step Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {steps.map((s) => {
-            const Icon = s.icon;
             return (
               <div
                 key={s.num}

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { GraduationCap, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminOperation } from '@/utils/admin-operation';
 import { ChapterItem, ClassItem, SubjectItem } from '@/types/educational';
 
 export default function AdminClassesPage() {
@@ -32,7 +33,7 @@ export default function AdminClassesPage() {
     setIsSyncing(false);
   };
 
-  const handleSaveChapter = async (e: React.FormEvent) => {
+  const handleSaveChapter = adminOperation('classes:handleSaveChapter', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!chapterTitle.trim() || !chapterClass || !chapterSubject || chapterNumber < 1) return;
     const chapter: ChapterItem = {
@@ -49,7 +50,7 @@ export default function AdminClassesPage() {
     resetChapterForm();
     setSuccessMsg(editingChapterId ? `Chapter "${chapter.title}" updated successfully!` : `Chapter "${chapter.title}" added successfully!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const resetChapterForm = () => {
     setEditingChapterId(null);
@@ -67,19 +68,19 @@ export default function AdminClassesPage() {
     setChapterDescription(chapter.description || '');
   };
 
-  const handleDeleteChapter = async (chapter: ChapterItem) => {
+  const handleDeleteChapter = adminOperation('classes:handleDeleteChapter', async (chapter: ChapterItem) => {
     if (!confirm(`Delete chapter "${chapter.title}" permanently?`)) return;
     await EducationalStore.deleteChapter(chapter.id);
     setChapters(EducationalStore.getChapters());
     setSuccessMsg(`Chapter "${chapter.title}" deleted permanently!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   useEffect(() => {
     loadData();
   }, []);
 
-  const handleSaveClass = async (e: React.FormEvent) => {
+  const handleSaveClass = adminOperation('classes:handleSaveClass', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim() || !slug.trim()) return;
 
@@ -97,7 +98,7 @@ export default function AdminClassesPage() {
     resetForm();
     setSuccessMsg(editingId ? `Class "${classData.title}" updated successfully!` : `Class "${classData.title}" registered successfully!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   const handleEdit = (cls: ClassItem) => {
     setEditingId(cls.id);
@@ -116,7 +117,7 @@ export default function AdminClassesPage() {
     setDescription('');
   };
 
-  const handleDelete = async (classSlug: string, classTitle: string) => {
+  const handleDelete = adminOperation('classes:handleDelete', async (classSlug: string, classTitle: string) => {
     if (!confirm(`Are you sure you want to permanently delete "${classTitle}"? This will delete it from Supabase and the platform.`)) {
       return;
     }
@@ -124,7 +125,7 @@ export default function AdminClassesPage() {
     setClasses(EducationalStore.getClasses());
     setSuccessMsg(`Class "${classTitle}" deleted permanently!`);
     setTimeout(() => setSuccessMsg(''), 4000);
-  };
+  });
 
   return (
     <div className="space-y-6">

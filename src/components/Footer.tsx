@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { channelData, hasValidTikTokUrl } from '@/data/channel';
-import { Youtube, ExternalLink, ArrowUp, Lock, BookOpen, Award } from 'lucide-react';
+import { Youtube, ArrowUp, Lock } from 'lucide-react';
 import { sanitizeUrl } from '@/utils/security';
 
 export const Footer: React.FC = () => {

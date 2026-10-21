@@ -1,6 +1,130 @@
 import { BlogPostItem, ChapterItem, ClassItem, GazetteItem, MCQItem, NoteItem, PastPaperItem, SubjectItem, VideoInteractiveMCQ } from '@/types/educational';
 
 export const STATIC_OVERRIDES = {
+  "chapters": [],
+  "notes": [],
+  "classes": [
+    {
+      "id": "class-11",
+      "slug": "11th-class",
+      "title": "11th Class (1st Year HSSC-I)",
+      "numericGrade": 11,
+      "description": "Chapter notes, MCQs and past papers for Intermediate Part I.",
+      "isActive": true
+    },
+    {
+      "id": "class-12",
+      "slug": "12th-class",
+      "title": "12th Class (2nd Year HSSC-II)",
+      "numericGrade": 12,
+      "description": "Chapter notes, MCQs and past papers for Intermediate Part II.",
+      "isActive": true
+    }
+  ],
+  "videoMcqs": [
+    {
+      "id": "vmcq-1792079656352",
+      "videoId": "Lf9O64T7RwA",
+      "videoTitle": "Python Input Operations | User Input in Python | 11th Computer - Ch 2 - Lec 4",
+      "timestampSeconds": 90,
+      "timestampFormatted": "01:30",
+      "topic": "Chapter 1 Concept Review",
+      "question": "What type of software is designed to operate the computer hardware and provide a platform for running application software?",
+      "options": [
+        "Application Software",
+        "Utility Software",
+        "System Software",
+        "Custom Software"
+      ],
+      "correctIndex": 2,
+      "explanation": "System software, such as operating systems and device drivers, interfaces directly with computer hardware to provide services and a platform for application software."
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subj-11-cs",
+      "classSlug": "11th-class",
+      "slug": "computer-science",
+      "title": "Computer Science",
+      "iconName": "Code",
+      "description": "Computing concepts and programming practice. Follow your current board textbook."
+    },
+    {
+      "id": "subj-11-math",
+      "classSlug": "11th-class",
+      "slug": "mathematics",
+      "title": "Mathematics",
+      "iconName": "Calculator",
+      "description": "First-year mathematics study resources."
+    },
+    {
+      "id": "subj-11-phy",
+      "classSlug": "11th-class",
+      "slug": "physics",
+      "title": "Physics",
+      "iconName": "Atom",
+      "description": "First-year physics study resources."
+    },
+    {
+      "id": "subj-12-chem",
+      "classSlug": "12th-class",
+      "slug": "chemistry",
+      "title": "Chemistry",
+      "iconName": "FlaskConical",
+      "description": "Second-year chemistry study resources."
+    },
+    {
+      "id": "subj-12-cs",
+      "classSlug": "12th-class",
+      "slug": "computer-science",
+      "title": "Computer Science",
+      "iconName": "Code",
+      "description": "Second-year computer science study resources."
+    },
+    {
+      "id": "subj-12-phy",
+      "classSlug": "12th-class",
+      "slug": "physics",
+      "title": "Physics",
+      "iconName": "Atom",
+      "description": "Second-year physics study resources."
+    }
+  ],
+  "gazettes": [
+    {
+      "id": "gazette-1792074595128",
+      "title": "BISE Lahore 11th Class (1st Year HSSC-I) Result Gazette 2026 (1st Annual Examination)",
+      "board": "BISE Lahore",
+      "classSlug": "11th-class",
+      "year": 2026,
+      "session": "1st Annual Examination",
+      "pdfUrl": "https://www.biselahore.com/",
+      "directResultUrl": "https://www.biselahore.com/",
+      "releaseDate": "2026-10-15",
+      "totalCandidates": "185,450 Candidates",
+      "passingPercentage": "67.8%",
+      "actionButtonText": "Download Official Gazette PDF",
+      "actionButtonUrl": "https://www.biselahore.com/",
+      "content": "### Official Result Declaration & Executive Overview\n\nThe Board of Intermediate and Secondary Education (BISE) Lahore officially declares the results for the 11th Class (HSSC-I) 1st Annual Examination 2026. Out of 185,450 registered candidates, 182,120 appeared for the examination, with an overall pass percentage of 67.8%. The board maintains its commitment to transparency and academic integrity.\n\n### Statistical Analysis\n\n| Group | Appeared | Passed | Percentage |\n| :--- | :--- | :--- | :--- |\n| Pre-Medical | 62,300 | 48,594 | 78% |\n| Pre-Engineering | 45,200 | 32,544 | 72% |\n| ICS | 48,950 | 31,817 | 65% |\n| Humanities | 25,670 | 12,835 | 50% |\n\n### Official Online Roll Number Verification & Portal Steps\n\n1. Visit the official website at www.biselahore.com.\n2. Navigate to the 'Results' tab on the main dashboard.\n3. Select 'HSSC-I 1st Annual 2026' from the dropdown menu.\n4. Enter your 6-digit Roll Number in the provided field.\n5. Click 'Submit' to view your detailed marks sheet.\n\n### Official SMS Result Code\n\nCandidates can receive their results via SMS by sending their Roll Number to the official BISE Lahore code: **80029**.\n\n### Rechecking & Scrutiny Application Protocols\n\nStudents unsatisfied with their results may apply for paper re-checking within 15 days of the result declaration. \n- Application must be submitted via the online portal.\n- A prescribed fee must be deposited in the designated HBL branch.\n- Re-checking is limited to the verification of marks addition and checking for unmarked questions; re-evaluation of answers is not permitted.\n\n### Supplementary / 2nd Annual Examination Guidelines\n\nCandidates who failed in one or more subjects are eligible to appear in the 2nd Annual Examination 2026. The schedule for the submission of admission forms will be released on the official website shortly. Candidates are advised to stay updated via the official portal."
+    },
+    {
+      "id": "gazette-1792079412437",
+      "title": "BISE DG Khan 11th Class (1st Year HSSC-I) Result Gazette 2026 (1st Annual Examination)",
+      "board": "BISE DG Khan",
+      "classSlug": "11th-class",
+      "year": 2026,
+      "session": "1st Annual Examination",
+      "pdfUrl": "https://www.bisedgkhan.edu.pk/",
+      "directResultUrl": "https://www.bisedgkhan.edu.pk/",
+      "releaseDate": "2026-10-15",
+      "totalCandidates": "185,450 Candidates",
+      "passingPercentage": "67.8%",
+      "actionButtonText": "Download Official Gazette PDF",
+      "actionButtonUrl": "https://www.bisedgkhan.edu.pk/",
+      "content": "# Comprehensive Guide: BISE DG Khan 11th Class (HSSC-I) 2026 Results\n\n## 1. Executive Overview of the 2026 Academic Session\n\nThe Board of Intermediate and Secondary Education (BISE) DG Khan has officially released the results for the 11th Class (HSSC-I) 1st Annual Examination 2026. This milestone marks the conclusion of a rigorous academic cycle. As the Examination Controller, I certify that the results have been compiled with the highest standards of integrity, utilizing advanced OMR (Optical Mark Recognition) technology and a centralized, secure marking system to ensure absolute transparency and accuracy. A total of 185,450 candidates appeared for the examinations across the districts of DG Khan, Muzaffargarh, Layyah, and Rajanpur. The overall pass percentage stands at 67.8%. This year, the board has prioritized the timely declaration of results to facilitate the seamless academic progression of students into the 12th grade.\n\n## 2. Statistical Performance Analysis\n\nThe performance metrics for the 2026 session reflect a diverse academic landscape across various disciplines. The board has observed a significant shift in student performance, particularly in the STEM fields. Below is the detailed breakdown of candidate performance:\n\n| Discipline | Appeared | Passed | Pass Percentage |\n| :--- | :--- | :--- | :--- |\n| Pre-Medical | 65,200 | 48,248 | 74.0% |\n| Pre-Engineering | 42,150 | 29,083 | 69.0% |\n| ICS | 38,600 | 25,476 | 66.0% |\n| Humanities | 39,500 | 22,515 | 57.0% |\n\nScience groups have shown a consistent upward trend in performance, particularly in the Pre-Medical stream, which remains the most competitive group. The Humanities group, while showing a lower percentage, has seen a significant improvement in student engagement compared to the previous academic year, reflecting the effectiveness of new curriculum implementation strategies.\n\n## 3. Official Online Result Verification Portal\n\nTo verify your result, follow these official steps to ensure you are accessing the authentic database:\n1. **Access the Portal:** Visit the official website at [https://www.bisedgkhan.edu.pk/](https://www.bisedgkhan.edu.pk/).\n2. **Navigate:** Locate the 'Result' section prominently displayed on the homepage.\n3. **Select Session:** Choose 'HSSC-I 1st Annual Examination 2026' from the dropdown menu.\n4. **Input Data:** Enter your 6-digit Roll Number accurately. Ensure no leading zeros are missed.\n5. **Verification:** Click 'Search' to view your detailed marks sheet (DMC).\n6. **Institutional Access:** Principals may log in to the 'Institution Portal' using their assigned credentials to download the consolidated result gazette for their respective colleges.\n\n## 4. SMS Result Retrieval Service\n\nFor candidates residing in areas with limited internet connectivity, the board provides a 24/7 SMS service. \n- **Procedure:** Send your Roll Number to the official code: **800295**.\n- **Important Note:** Standard network charges apply. Ensure your mobile balance is sufficient to receive the automated reply from the BISE DG Khan server. The response will include your total marks and status (Pass/Fail).\n\n## 5. Understanding Your Result: A Student Checklist\n\nUpon receiving your result, we recommend following this checklist to ensure your academic records are in order:\n- [ ] **Verify Personal Details:** Check your name, father's name, and date of birth on the online DMC.\n- [ ] **Subject-wise Marks:** Review marks for each subject to identify areas of strength and weakness.\n- [ ] **Status Check:** Confirm your 'Pass' status. If you have failed in one or more subjects, note the specific subjects for the 2nd Annual Examination.\n- [ ] **Download/Print:** Save a digital copy and print at least three hard copies of your result for college admission purposes.\n\n## 6. Rechecking and Scrutiny Protocols\n\nCandidates dissatisfied with their marks may apply for 'Paper Rechecking' (Scrutiny). It is vital to understand that 'Rechecking' does not imply 'Re-evaluation' of the answer script. The process is strictly limited to:\n1. **Totaling Verification:** Ensuring all marks awarded by the examiner are correctly summed.\n2. **Unmarked Questions:** Checking for any questions that were inadvertently left unmarked by the examiner.\n3. **Transcription Accuracy:** Ensuring the marks awarded on the script are correctly transcribed to the final result sheet.\n\n**Application Guidelines:**\n- **Deadline:** Applications must be submitted within 15 days of the result declaration.\n- **Procedure:** Submit the online application form via the BISE DG Khan portal.\n- **Fee:** Deposit the prescribed fee in the designated HBL/NBP branch.\n- **Submission:** Upload the scanned copy of the paid bank challan to the portal for processing.\n\n## 7. Supplementary / 2nd Annual Examination Guidelines\n\nCandidates who failed in one or more subjects or wish to improve their grades are eligible to appear in the 2nd Annual Examination 2026. \n- **Registration:** The portal for the 2nd Annual Examination will open 10 days after the declaration of the 1st Annual result.\n- **Eligibility:** All candidates who appeared in the 1st Annual Examination are eligible to apply.\n- **Policy:** The board allows candidates to retain their best marks in subjects where they have appeared multiple times. This policy is designed to reduce academic pressure and encourage excellence.\n\n## 8. Frequently Asked Questions (FAQs)\n\n**Q: What is the difference between the 1st and 2nd Annual Examination?**\n*A: The 1st Annual Examination is the primary exam for regular and private students. The 2nd Annual Examination is a supplementary opportunity for those who failed or wish to improve their grades.* \n\n**Q: Can I apply for rechecking if I am unhappy with my grade?**\n*A: Yes, but remember that rechecking only covers clerical errors. Your answer scripts will not be re-evaluated by a new examiner.* \n\n**Q: When will the original DMCs be issued?**\n*A: Original DMCs are dispatched to the respective institutions within 30 days of the result declaration. Private candidates will receive theirs via post at their registered addresses.*\n\n**Q: Is the online result considered an official document?**\n*A: The online result is for information purposes. For official admissions and legal requirements, the board-issued DMC is mandatory.*\n\n## 9. Conclusion\n\nWe congratulate all successful candidates on their achievements. To those who did not meet their expectations, remember that the 2nd Annual Examination is a vital pathway to academic success. The board remains committed to supporting the student community through every stage of their educational journey. For further inquiries, please contact the BISE DG Khan helpdesk during office hours."
+    }
+  ],
+  "pastPapers": [],
   "mcqs": [
     {
       "id": "mcq-1791959684546-sn62b",
@@ -378,40 +502,6 @@ export const STATIC_OVERRIDES = {
       "explanation": "Each distinct linear factor in the denominator corresponds to one partial fraction with a unique constant in its numerator. Therefore, the number of constants will be equal to the number of linear factors."
     }
   ],
-  "gazettes": [
-    {
-      "id": "gazette-1792074595128",
-      "title": "BISE Lahore 11th Class (1st Year HSSC-I) Result Gazette 2026 (1st Annual Examination)",
-      "board": "BISE Lahore",
-      "classSlug": "11th-class",
-      "year": 2026,
-      "session": "1st Annual Examination",
-      "pdfUrl": "https://www.biselahore.com/",
-      "directResultUrl": "https://www.biselahore.com/",
-      "releaseDate": "2026-10-15",
-      "totalCandidates": "185,450 Candidates",
-      "passingPercentage": "67.8%",
-      "actionButtonText": "Download Official Gazette PDF",
-      "actionButtonUrl": "https://www.biselahore.com/",
-      "content": "### Official Result Declaration & Executive Overview\n\nThe Board of Intermediate and Secondary Education (BISE) Lahore officially declares the results for the 11th Class (HSSC-I) 1st Annual Examination 2026. Out of 185,450 registered candidates, 182,120 appeared for the examination, with an overall pass percentage of 67.8%. The board maintains its commitment to transparency and academic integrity.\n\n### Statistical Analysis\n\n| Group | Appeared | Passed | Percentage |\n| :--- | :--- | :--- | :--- |\n| Pre-Medical | 62,300 | 48,594 | 78% |\n| Pre-Engineering | 45,200 | 32,544 | 72% |\n| ICS | 48,950 | 31,817 | 65% |\n| Humanities | 25,670 | 12,835 | 50% |\n\n### Official Online Roll Number Verification & Portal Steps\n\n1. Visit the official website at www.biselahore.com.\n2. Navigate to the 'Results' tab on the main dashboard.\n3. Select 'HSSC-I 1st Annual 2026' from the dropdown menu.\n4. Enter your 6-digit Roll Number in the provided field.\n5. Click 'Submit' to view your detailed marks sheet.\n\n### Official SMS Result Code\n\nCandidates can receive their results via SMS by sending their Roll Number to the official BISE Lahore code: **80029**.\n\n### Rechecking & Scrutiny Application Protocols\n\nStudents unsatisfied with their results may apply for paper re-checking within 15 days of the result declaration. \n- Application must be submitted via the online portal.\n- A prescribed fee must be deposited in the designated HBL branch.\n- Re-checking is limited to the verification of marks addition and checking for unmarked questions; re-evaluation of answers is not permitted.\n\n### Supplementary / 2nd Annual Examination Guidelines\n\nCandidates who failed in one or more subjects are eligible to appear in the 2nd Annual Examination 2026. The schedule for the submission of admission forms will be released on the official website shortly. Candidates are advised to stay updated via the official portal."
-    },
-    {
-      "id": "gazette-1792079412437",
-      "title": "BISE DG Khan 11th Class (1st Year HSSC-I) Result Gazette 2026 (1st Annual Examination)",
-      "board": "BISE DG Khan",
-      "classSlug": "11th-class",
-      "year": 2026,
-      "session": "1st Annual Examination",
-      "pdfUrl": "https://www.bisedgkhan.edu.pk/",
-      "directResultUrl": "https://www.bisedgkhan.edu.pk/",
-      "releaseDate": "2026-10-15",
-      "totalCandidates": "185,450 Candidates",
-      "passingPercentage": "67.8%",
-      "actionButtonText": "Download Official Gazette PDF",
-      "actionButtonUrl": "https://www.bisedgkhan.edu.pk/",
-      "content": "# Comprehensive Guide: BISE DG Khan 11th Class (HSSC-I) 2026 Results\n\n## 1. Executive Overview of the 2026 Academic Session\n\nThe Board of Intermediate and Secondary Education (BISE) DG Khan has officially released the results for the 11th Class (HSSC-I) 1st Annual Examination 2026. This milestone marks the conclusion of a rigorous academic cycle. As the Examination Controller, I certify that the results have been compiled with the highest standards of integrity, utilizing advanced OMR (Optical Mark Recognition) technology and a centralized, secure marking system to ensure absolute transparency and accuracy. A total of 185,450 candidates appeared for the examinations across the districts of DG Khan, Muzaffargarh, Layyah, and Rajanpur. The overall pass percentage stands at 67.8%. This year, the board has prioritized the timely declaration of results to facilitate the seamless academic progression of students into the 12th grade.\n\n## 2. Statistical Performance Analysis\n\nThe performance metrics for the 2026 session reflect a diverse academic landscape across various disciplines. The board has observed a significant shift in student performance, particularly in the STEM fields. Below is the detailed breakdown of candidate performance:\n\n| Discipline | Appeared | Passed | Pass Percentage |\n| :--- | :--- | :--- | :--- |\n| Pre-Medical | 65,200 | 48,248 | 74.0% |\n| Pre-Engineering | 42,150 | 29,083 | 69.0% |\n| ICS | 38,600 | 25,476 | 66.0% |\n| Humanities | 39,500 | 22,515 | 57.0% |\n\nScience groups have shown a consistent upward trend in performance, particularly in the Pre-Medical stream, which remains the most competitive group. The Humanities group, while showing a lower percentage, has seen a significant improvement in student engagement compared to the previous academic year, reflecting the effectiveness of new curriculum implementation strategies.\n\n## 3. Official Online Result Verification Portal\n\nTo verify your result, follow these official steps to ensure you are accessing the authentic database:\n1. **Access the Portal:** Visit the official website at [https://www.bisedgkhan.edu.pk/](https://www.bisedgkhan.edu.pk/).\n2. **Navigate:** Locate the 'Result' section prominently displayed on the homepage.\n3. **Select Session:** Choose 'HSSC-I 1st Annual Examination 2026' from the dropdown menu.\n4. **Input Data:** Enter your 6-digit Roll Number accurately. Ensure no leading zeros are missed.\n5. **Verification:** Click 'Search' to view your detailed marks sheet (DMC).\n6. **Institutional Access:** Principals may log in to the 'Institution Portal' using their assigned credentials to download the consolidated result gazette for their respective colleges.\n\n## 4. SMS Result Retrieval Service\n\nFor candidates residing in areas with limited internet connectivity, the board provides a 24/7 SMS service. \n- **Procedure:** Send your Roll Number to the official code: **800295**.\n- **Important Note:** Standard network charges apply. Ensure your mobile balance is sufficient to receive the automated reply from the BISE DG Khan server. The response will include your total marks and status (Pass/Fail).\n\n## 5. Understanding Your Result: A Student Checklist\n\nUpon receiving your result, we recommend following this checklist to ensure your academic records are in order:\n- [ ] **Verify Personal Details:** Check your name, father's name, and date of birth on the online DMC.\n- [ ] **Subject-wise Marks:** Review marks for each subject to identify areas of strength and weakness.\n- [ ] **Status Check:** Confirm your 'Pass' status. If you have failed in one or more subjects, note the specific subjects for the 2nd Annual Examination.\n- [ ] **Download/Print:** Save a digital copy and print at least three hard copies of your result for college admission purposes.\n\n## 6. Rechecking and Scrutiny Protocols\n\nCandidates dissatisfied with their marks may apply for 'Paper Rechecking' (Scrutiny). It is vital to understand that 'Rechecking' does not imply 'Re-evaluation' of the answer script. The process is strictly limited to:\n1. **Totaling Verification:** Ensuring all marks awarded by the examiner are correctly summed.\n2. **Unmarked Questions:** Checking for any questions that were inadvertently left unmarked by the examiner.\n3. **Transcription Accuracy:** Ensuring the marks awarded on the script are correctly transcribed to the final result sheet.\n\n**Application Guidelines:**\n- **Deadline:** Applications must be submitted within 15 days of the result declaration.\n- **Procedure:** Submit the online application form via the BISE DG Khan portal.\n- **Fee:** Deposit the prescribed fee in the designated HBL/NBP branch.\n- **Submission:** Upload the scanned copy of the paid bank challan to the portal for processing.\n\n## 7. Supplementary / 2nd Annual Examination Guidelines\n\nCandidates who failed in one or more subjects or wish to improve their grades are eligible to appear in the 2nd Annual Examination 2026. \n- **Registration:** The portal for the 2nd Annual Examination will open 10 days after the declaration of the 1st Annual result.\n- **Eligibility:** All candidates who appeared in the 1st Annual Examination are eligible to apply.\n- **Policy:** The board allows candidates to retain their best marks in subjects where they have appeared multiple times. This policy is designed to reduce academic pressure and encourage excellence.\n\n## 8. Frequently Asked Questions (FAQs)\n\n**Q: What is the difference between the 1st and 2nd Annual Examination?**\n*A: The 1st Annual Examination is the primary exam for regular and private students. The 2nd Annual Examination is a supplementary opportunity for those who failed or wish to improve their grades.* \n\n**Q: Can I apply for rechecking if I am unhappy with my grade?**\n*A: Yes, but remember that rechecking only covers clerical errors. Your answer scripts will not be re-evaluated by a new examiner.* \n\n**Q: When will the original DMCs be issued?**\n*A: Original DMCs are dispatched to the respective institutions within 30 days of the result declaration. Private candidates will receive theirs via post at their registered addresses.*\n\n**Q: Is the online result considered an official document?**\n*A: The online result is for information purposes. For official admissions and legal requirements, the board-issued DMC is mandatory.*\n\n## 9. Conclusion\n\nWe congratulate all successful candidates on their achievements. To those who did not meet their expectations, remember that the 2nd Annual Examination is a vital pathway to academic success. The board remains committed to supporting the student community through every stage of their educational journey. For further inquiries, please contact the BISE DG Khan helpdesk during office hours."
-    }
-  ],
   "blogs": [
     {
       "id": "blog-1791960663125",
@@ -488,25 +578,6 @@ export const STATIC_OVERRIDES = {
         "FBISE",
         "Academic Roadmap"
       ]
-    }
-  ],
-  "videoMcqs": [
-    {
-      "id": "vmcq-1792079656352",
-      "videoId": "Lf9O64T7RwA",
-      "videoTitle": "Python Input Operations | User Input in Python | 11th Computer - Ch 2 - Lec 4",
-      "timestampSeconds": 90,
-      "timestampFormatted": "01:30",
-      "topic": "Chapter 1 Concept Review",
-      "question": "What type of software is designed to operate the computer hardware and provide a platform for running application software?",
-      "options": [
-        "Application Software",
-        "Utility Software",
-        "System Software",
-        "Custom Software"
-      ],
-      "correctIndex": 2,
-      "explanation": "System software, such as operating systems and device drivers, interfaces directly with computer hardware to provide services and a platform for application software."
     }
   ]
 } as {

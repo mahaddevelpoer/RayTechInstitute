@@ -1,8 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import { channelData } from '@/data/channel';
+import { useForm } from '@formspree/react';
 import { Send, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 
 const FORMSPREE_ID = 'moevylgd';

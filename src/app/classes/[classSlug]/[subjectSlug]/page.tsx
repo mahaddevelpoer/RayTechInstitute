@@ -1,18 +1,34 @@
-import React from 'react';
-import { Metadata } from 'next';
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_NOTES, INITIAL_MCQS, INITIAL_PAST_PAPERS } from '@/data/staticCatalog';
-import { BookOpen, FileText, HelpCircle, FileCode, ArrowRight, ArrowLeft } from 'lucide-react';
-import { serializeJsonLd, buildSeoTitle } from '@/utils/seo';
+import { staticExportParams } from "@/utils/staticExport";
+import { siteUrl } from "@/lib/site";
+import React from "react";
+import { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import {
+  INITIAL_CLASSES,
+  INITIAL_SUBJECTS,
+  INITIAL_NOTES,
+  INITIAL_MCQS,
+  INITIAL_PAST_PAPERS,
+} from "@/data/staticCatalog";
+import {
+  FileText,
+  HelpCircle,
+  FileCode,
+  ArrowRight,
+} from "lucide-react";
+import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export function generateStaticParams() {
-  return INITIAL_SUBJECTS.map((s) => ({
-    classSlug: s.classSlug,
-    subjectSlug: s.slug,
-  }));
+  return staticExportParams(
+    INITIAL_SUBJECTS.map((s) => ({
+      classSlug: s.classSlug,
+      subjectSlug: s.slug,
+    })),
+    ["classSlug", "subjectSlug"],
+  );
 }
 
 interface PageProps {
@@ -22,26 +38,30 @@ interface PageProps {
   }>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { classSlug, subjectSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
   if (!currentClass || !currentSubject) return {};
-  const className = currentClass.title.replace(/\s*\([^)]*\)/, '');
+  const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
     description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title} for exam revision.`,
     alternates: {
-      canonical: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
+      canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
     },
     openGraph: {
-      title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
+      title: buildSeoTitle(
+        `${className} ${currentSubject.title} Study Material`,
+      ),
       description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title} for exam revision.`,
-      url: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
-      type: 'website',
+      url: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
+      type: "website",
     },
   };
 }
@@ -50,7 +70,7 @@ export default async function SubjectHubPage({ params }: PageProps) {
   const { classSlug, subjectSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
-    (s) => s.classSlug === classSlug && s.slug === subjectSlug
+    (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
 
   if (!currentClass || !currentSubject) {
@@ -58,42 +78,42 @@ export default async function SubjectHubPage({ params }: PageProps) {
   }
 
   const subjectNotes = INITIAL_NOTES.filter(
-    (n) => n.classSlug === classSlug && n.subjectSlug === subjectSlug
+    (n) => n.classSlug === classSlug && n.subjectSlug === subjectSlug,
   );
   const subjectMCQs = INITIAL_MCQS.filter(
-    (m) => m.classSlug === classSlug && m.subjectSlug === subjectSlug
+    (m) => m.classSlug === classSlug && m.subjectSlug === subjectSlug,
   );
   const subjectPastPapers = INITIAL_PAST_PAPERS.filter(
-    (p) => p.classSlug === classSlug && p.subjectSlug === subjectSlug
+    (p) => p.classSlug === classSlug && p.subjectSlug === subjectSlug,
   );
 
   const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     itemListElement: [
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 1,
-        name: 'Home',
-        item: 'https://raytechinstitute.web.app/',
+        name: "Home",
+        item: siteUrl("/"),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 2,
-        name: 'Classes',
-        item: 'https://raytechinstitute.web.app/classes/',
+        name: "Classes",
+        item: siteUrl("/classes/"),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 3,
         name: currentClass.title,
-        item: `https://raytechinstitute.web.app/classes/${classSlug}/`,
+        item: siteUrl(`/classes/${classSlug}/`),
       },
       {
-        '@type': 'ListItem',
+        "@type": "ListItem",
         position: 4,
         name: currentSubject.title,
-        item: `https://raytechinstitute.web.app/classes/${classSlug}/${subjectSlug}/`,
+        item: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
       },
     ],
   };
@@ -102,11 +122,11 @@ export default async function SubjectHubPage({ params }: PageProps) {
     <div className="min-h-screen bg-white text-slate-800 flex flex-col">
       <Header />
 
-          <main className="page-main flex-1">
+      <main id="main-content" tabIndex={-1} className="page-main flex-1">
         {/* Schema */}
         <script
           type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
         {/* Breadcrumb */}
@@ -115,7 +135,9 @@ export default async function SubjectHubPage({ params }: PageProps) {
           <span>/</span>
           <Link href="/classes">Classes</Link>
           <span>/</span>
-          <Link href={`/classes/${currentClass.slug}`}>{currentClass.title}</Link>
+          <Link href={`/classes/${currentClass.slug}`}>
+            {currentClass.title}
+          </Link>
           <span>/</span>
           <span className="text-slate-700">{currentSubject.title}</span>
         </nav>
@@ -129,9 +151,7 @@ export default async function SubjectHubPage({ params }: PageProps) {
           <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
             {currentSubject.title}
           </h1>
-          <p className="text-slate-600 text-sm">
-            {currentSubject.description}
-          </p>
+          <p className="text-slate-600 text-sm">{currentSubject.description}</p>
         </div>
 
         {/* 3 Main Study Resources */}
@@ -149,7 +169,8 @@ export default async function SubjectHubPage({ params }: PageProps) {
                 Chapter Notes (PDF)
               </h2>
               <p className="text-xs text-slate-600 leading-relaxed mb-6">
-                Solved short questions, long answers, and chapter-wise study notes for board exams.
+                Solved short questions, long answers, and chapter-wise study
+                notes for board exams.
               </p>
             </div>
             <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-navy-600">
@@ -171,7 +192,8 @@ export default async function SubjectHubPage({ params }: PageProps) {
                 Interactive MCQs Quiz
               </h2>
               <p className="text-xs text-slate-600 leading-relaxed mb-6">
-                Online multiple choice test with instant scores and answer explanations.
+                Online multiple choice test with instant scores and answer
+                explanations.
               </p>
             </div>
             <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-700">
@@ -193,7 +215,8 @@ export default async function SubjectHubPage({ params }: PageProps) {
                 Board Past Papers
               </h2>
               <p className="text-xs text-slate-600 leading-relaxed mb-6">
-                Past 5-year board question papers from BISE Lahore, Gujranwala, Rawalpindi, and FBISE.
+                Past 5-year board question papers from BISE Lahore, Gujranwala,
+                Rawalpindi, and FBISE.
               </p>
             </div>
             <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-orange-700">

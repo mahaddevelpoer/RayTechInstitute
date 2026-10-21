@@ -1,50 +1,57 @@
-'use client';
+import Link from "next/link";
 
-import React from 'react';
-import { classroomCommentsData } from '@/data/comments';
-import { HelpCircle, MessageSquare } from 'lucide-react';
-
-export const Classroom: React.FC = () => {
+const questions = [
+  {
+    question: "How should I use notes, MCQs and past papers together?",
+    answer:
+      "Read one chapter and make a short summary. Attempt its MCQs without looking at the answers, review mistakes, then practise related past-paper questions with your textbook.",
+  },
+  {
+    question: "Can I change an answer before submitting the quiz?",
+    answer:
+      "Yes. Use Previous to return to a question and select a different answer. Correct answers and explanations are shown after you finish the attempt.",
+  },
+  {
+    question: "Which syllabus should I follow?",
+    answer:
+      "Use the textbook and examination syllabus assigned by your college and board for your current session. Check the class, chapter and year before using an older resource.",
+  },
+  {
+    question: "Where can I check my 1st-year result?",
+    answer:
+      "Use the board name on your roll-number slip to find its official website in our result guide. RayTech does not issue marks or ask you to submit a roll number.",
+  },
+];
+export function Classroom() {
   return (
-    <section id="classroom" className="py-12 bg-slate-50 border-b border-slate-200">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        
-        {/* Section Header */}
-        <div className="mb-8">
-          <h2 className="section-title">
-            Student FAQs &amp; Inquiries
-          </h2>
-          <p className="text-slate-600 text-sm">
-            Common questions asked by intermediate students in our lectures and comment sections.
-          </p>
-        </div>
-
-        {/* Selected Inquiries List */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {classroomCommentsData.map((inquiry, idx) => (
-            <div
-              key={inquiry.id}
-              className="edu-card p-5 flex flex-col justify-between bg-white"
+    <section
+      id="classroom"
+      className="border-b border-slate-200 bg-slate-50 py-10"
+    >
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <h2 className="section-title">Help with studying and results</h2>
+        <div className="mt-5 space-y-3">
+          {questions.map((item) => (
+            <details
+              key={item.question}
+              className="rounded-lg border border-slate-200 bg-white p-5"
             >
-              <div>
-                <div className="flex items-center gap-2 text-xs font-semibold text-navy-700 mb-2">
-                  <HelpCircle className="w-4 h-4 text-orange-600" />
-                  <span>Question #{idx + 1}</span>
-                </div>
-
-                <p className="text-xs text-slate-700 leading-relaxed font-medium mb-4 italic">
-                  &ldquo;{inquiry.text}&rdquo;
-                </p>
-              </div>
-
-              <div className="pt-3 border-t border-slate-100 text-[11px] text-slate-500">
-                <span className="font-semibold text-navy-600">Topic: </span>
-                <span>{inquiry.relatedCategory}</span>
-              </div>
-            </div>
+              <summary className="min-h-12 cursor-pointer text-base font-semibold text-navy-900">
+                {item.question}
+              </summary>
+              <p className="mt-3 text-base leading-7 text-slate-700">
+                {item.answer}
+              </p>
+            </details>
           ))}
         </div>
+        <Link
+          href="/results-gazettes/first-year-result/"
+          className="mt-5 inline-flex min-h-12 items-center text-sm font-semibold text-navy-700 underline"
+        >
+          Open the 1st-year result guide
+        </Link>
       </div>
     </section>
   );
-};
+}

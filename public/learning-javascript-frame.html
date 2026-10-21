@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' blob:; worker-src blob:; connect-src 'none'; img-src 'none'; style-src 'none'; form-action 'none'; base-uri 'none'"><title>Isolated JavaScript runner</title></head><body><script>
+// Opaque-origin iframe owns the worker. Student code has no application origin,
+// storage, credentials or network access. Never insert code into this document.
+let worker;
+let objectUrl;
+let deadline;
+function stop() { clearTimeout(deadline); if (worker) worker.terminate(); worker = null; if (objectUrl) URL.revokeObjectURL(objectUrl); objectUrl = null; }
+function workerEnvironment() {
+  const send = postMessage.bind(globalThis);
+  const schedule = setTimeout.bind(globalThis);
+  const cancel = clearTimeout.bind(globalThis);
+  const repeat = setInterval.bind(globalThis);
+  const cancelRepeat = clearInterval.bind(globalThis);
+  const pending = new Set();
+  let finished = false;
+  let closed = false;
+  function fail(error) {
+    if (closed) return;
+    closed = true;
+    send({ type: 'done', text: String(error?.stack || error?.message || error).slice(0, 4000) });
+  }
+  function check() {
+    // A task turn allows promise callbacks and microtasks to finish first.
+    schedule(() => { if (finished && !pending.size && !closed) { closed = true; send({ type: 'done' }); } }, 0);
+  }
+  globalThis.print = (...values) => send({ type: 'output', text: values.map(value => { try { return typeof value === 'string' ? value : JSON.stringify(value) ?? String(value); } catch { return String(value); } }).join(' ') });
+  for (const method of ['log', 'info', 'warn', 'error', 'debug']) console[method] = globalThis.print;
+  globalThis.setTimeout = (callback, delay, ...args) => {
+    if (typeof callback !== 'function') throw new TypeError('Use a function as the timer callback.');
+    const id = schedule(() => { pending.delete(id); try { callback(...args); } catch (error) { fail(error); } check(); }, delay);
+    pending.add(id); return id;
+  };
+  globalThis.clearTimeout = id => { pending.delete(id); cancel(id); check(); };
+  globalThis.setInterval = (callback, delay, ...args) => {
+    if (typeof callback !== 'function') throw new TypeError('Use a function as the timer callback.');
+    const id = repeat(() => { try { callback(...args); } catch (error) { fail(error); } }, delay);
+    pending.add(id); return id;
+  };
+  globalThis.clearInterval = id => { pending.delete(id); cancelRepeat(id); check(); };
+  addEventListener('unhandledrejection', event => { event.preventDefault(); fail(event.reason); });
+  return { finish: () => { finished = true; check(); }, fail };
+}
+addEventListener('message', event => {
+  if (event.source !== parent) return;
+  const message = event.data;
+  if (message?.type === 'stop') { stop(); return; }
+  if (message?.type !== 'run' || typeof message.code !== 'string' || message.code.length > 20000) return;
+  stop();
+  const prelude = `const __raytechRuntime = (${workerEnvironment.toString()})();\n(async () => {\n`;
+  objectUrl = URL.createObjectURL(new Blob([prelude, message.code, '\n})().then(__raytechRuntime.finish, __raytechRuntime.fail);'], { type: 'text/javascript' }));
+  worker = new Worker(objectUrl);
+  const activeWorker = worker;
+  deadline = setTimeout(() => { parent.postMessage({ type: 'done', runId: message.runId, text: 'Stopped after the 10-second execution limit.' }, '*'); stop(); }, 10000);
+  let size = 0;
+  worker.onmessage = event => {
+    if (worker !== activeWorker) return;
+    if (event.data?.type === 'output') { const text = String(event.data.text).slice(0, 20000 - size); size += text.length; parent.postMessage({ type: 'output', runId: message.runId, text }, '*'); if (size >= 20000) { parent.postMessage({ type: 'done', runId: message.runId, text: 'Output limit reached.' }, '*'); stop(); } }
+    else if (event.data?.type === 'done') { parent.postMessage({ type: 'done', runId: message.runId, text: typeof event.data.text === 'string' ? event.data.text.slice(0, 4000) : '' }, '*'); stop(); }
+  };
+  worker.onerror = event => { if (worker !== activeWorker) return; parent.postMessage({ type: 'done', runId: message.runId, text: event.message || 'JavaScript error' }, '*'); stop(); };
+});
+</script></body></html>
