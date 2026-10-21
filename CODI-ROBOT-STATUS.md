@@ -16,6 +16,10 @@
   using synthetic PCM transport responses (not 24 Gemini pronunciation tests).
 - Cloud voice still has enforced shared quotas and can return quota/provider
   errors. Those are surfaced in settings; this is not unlimited speech.
+- Post-release first-click testing returned a real Gemini HTTP 429. English
+  reading therefore has a disclosed, switchable device-voice fallback and a
+  one-minute provider cooldown; Hindi is never silently read as untranslated
+  English. Unit coverage exercises failure, cooldown and disabling fallback.
 - Homepage now has public static course previews, working language tabs and
   lesson links, restrained motion, reduced-motion support and responsive themes.
   Five language tabs were checked at 360, 768 and 1366 px in light/dark modes,

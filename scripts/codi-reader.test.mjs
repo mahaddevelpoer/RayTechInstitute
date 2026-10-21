@@ -17,10 +17,11 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
   const names = ['window','document','Element','Node','NodeFilter','IS_REACT_ACT_ENVIRONMENT'];
   const previous = Object.fromEntries(names.map(k => [k, globalThis[k]]));
   Object.assign(globalThis, { window: dom.window, document: dom.window.document, Element: dom.window.Element, Node: dom.window.Node, NodeFilter: dom.window.NodeFilter, IS_REACT_ACT_ENVIRONMENT: true });
-  dom.window.matchMedia = () => ({ matches: true }); dom.window.speechSynthesis = { cancel() {}, speak() {} };
+  const spoken=[];
+  dom.window.matchMedia = () => ({ matches: true }); dom.window.speechSynthesis = { cancel() {}, speak(u) { spoken.push(u); u.onstart?.(); } };
   const reads = [], players = [], urls = new Set();
   const cloud = {
-    codiCloudReading: (text, language, signal) => new Promise(resolve => reads.push({text,language,signal,resolve})),
+    codiCloudReading: (text, language, signal) => new Promise((resolve,reject) => reads.push({text,language,signal,resolve,reject})),
     codiCloudExplain: async () => {},
   };
   class Audio {
@@ -30,7 +31,7 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
   }
   const require = createRequire(import.meta.url); const module = { exports: {} };
   const js = ts.transpileModule(await fs.readFile('src/components/learning/CodiReader.tsx','utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
-  vm.runInNewContext(js, { module, exports: module.exports, Audio, Blob, AbortController, crypto: { randomUUID }, ResizeObserver: class { observe(){} disconnect(){} }, URL: { createObjectURL() {const u='blob:'+randomUUID();urls.add(u);return u;}, revokeObjectURL(u){urls.delete(u);} }, window, document, Element, Node, NodeFilter,
+  vm.runInNewContext(js, { module, exports: module.exports, Audio, Blob, AbortController, SpeechSynthesisUtterance: class {constructor(text){this.text=text;}}, crypto: { randomUUID }, ResizeObserver: class { observe(){} disconnect(){} }, URL: { createObjectURL() {const u='blob:'+randomUUID();urls.add(u);return u;}, revokeObjectURL(u){urls.delete(u);} }, window, document, Element, Node, NodeFilter,
     require: id => id==='next/dynamic' ? ()=>()=>React.createElement('span',null,'Robot') : id==='@/lib/learning/codi-line' ? line : id==='@/lib/learning/codi-tutor' ? tutor : id==='@/lib/learning/codi-cloud' ? cloud : require(id),
   });
   const root = createRoot(document.getElementById('root'));
@@ -91,6 +92,14 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
     await act(async()=>root.render(React.createElement(module.exports.CodiReader,{...props,key:'new-lesson'})));
     assert.ok(reads.at(-1).signal.aborted);assert.equal(reads.length,beforeRemount,'restoring consent does not start speech by itself');
     await click(document.getElementById('first'));assert.equal(reads.length,beforeRemount+1,'consent survives a lesson remount in the same tab');
+    await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));
+    assert.equal(spoken.at(-1).text,'A variable stores a value.');assert.match(status(),/Gemini is unavailable.*Reading with device voice/);
+    const quotaRequests=reads.length;await click(document.getElementById('code'));
+    assert.equal(reads.length,quotaRequests,'brief circuit breaker avoids repeatedly hitting an exhausted provider');assert.equal(spoken.at(-1).text,'<h1 class="my_title">Hello</h1>');
+    await click(document.querySelector('.codi-settings-toggle'));if(!document.querySelector('.codi-settings'))await click(document.querySelector('.codi-settings-toggle'));
+    const fallback=[...document.querySelectorAll('label')].find(e=>e.textContent.includes('Use device voice')).querySelector('input');await click(fallback);
+    await click(document.getElementById('first'));await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));
+    assert.equal(spoken.length,2,'disabled fallback never substitutes the selected engine');assert.match(status(),/Speech is unavailable/);
     await act(async()=>root.unmount()); assert.ok(reads.at(-1).signal.aborted); assert.equal(urls.size,0);
     assert.equal(document.querySelector('.codi-reader'),null);
   } finally { if(document.getElementById('root')?.childNodes.length) await act(async()=>root.unmount()); Object.assign(globalThis,previous);dom.window.close(); }

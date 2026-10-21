@@ -13,6 +13,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
 }) {
   const [enabled, setEnabled] = useState(false); const [language, setLanguage] = useState<'en' | 'hi'>('en');
   const [engine, setEngine] = useState<'gemini' | 'device'>('gemini'); const [mounted, setMounted] = useState(false); const [settingsOpen, setSettingsOpen] = useState(false);
+  const [deviceFallback, setDeviceFallback] = useState(true); const cloudRetryAt = useRef(0);
   const settingsId = useId(); const settingsButton = useRef<HTMLButtonElement>(null); const settingsPanel = useRef<HTMLElement>(null);
   const [selected, setSelected] = useState(''); const [translation, setTranslation] = useState(''); const [status, setStatus] = useState('Click Codi to read the lesson, or click a lesson line.');
   const [speaking, setSpeaking] = useState(false); const [busy, setBusy] = useState(false); const [prepared, setPrepared] = useState(false); const [finding, setFinding] = useState(false);
@@ -25,6 +26,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   const queue = useRef<string[]>([]); const total = useRef(0); const pending = useRef(''); const interaction = useRef(0); const lookup = useRef<AbortController>(); const sources = useRef<CodiLessonSource[]>();
   const pendingMarkdown = useRef(false);
   const nextChunk = useRef<(text: string) => Promise<void>>();
+  const deviceUtterance = useRef<SpeechSynthesisUtterance>();
   function viewport() {
     return { width: Math.min(window.innerWidth, window.visualViewport?.width || window.innerWidth), height: Math.min(window.innerHeight, window.visualViewport?.height || window.innerHeight) };
   }
@@ -69,7 +71,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   function stop(_terminate = true, clearQueue = true) {
     request.current = ''; audio.current?.pause(); audio.current = undefined;
     if (url.current) URL.revokeObjectURL(url.current); url.current = '';
-    voice.current?.abort(); if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    voice.current?.abort(); if ('speechSynthesis' in window) window.speechSynthesis.cancel(); deviceUtterance.current = undefined;
     if (clearQueue) { queue.current = []; pending.current = ''; interaction.current++; lookup.current?.abort(); setFinding(false); }
     active.current = false; setSpeaking(false); setBusy(false); setPrepared(false);
   }
@@ -78,16 +80,25 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
     const id = crypto.randomUUID(); request.current = id; const part = `${total.current - queue.current.length}/${total.current}`;
     try {
       const following = () => { if (request.current !== id) return; stop(false, false); const next = queue.current.shift(); if (next) void nextChunk.current?.(next); else setStatus('Finished. Click a line, highlight text, or click Codi to read the lesson again.'); };
-      if (engine === 'device') {
+      const speakDevice = (fallback = false) => {
         if (!('speechSynthesis' in window)) throw new Error('Device voice is unavailable in this browser.');
         if (language === 'hi') throw new Error('Hindi translation requires Gemini voice. Device voice reads English text only.');
         const utterance = new SpeechSynthesisUtterance(text); utterance.lang = 'en-US'; utterance.rate = .94;
-        utterance.onstart = () => { if (request.current === id) { active.current = false; setBusy(false); setSpeaking(true); setStatus(`Reading with device voice. Part ${part}.`); } };
-        utterance.onend = following; utterance.onerror = () => { if (request.current === id) { stop(); setStatus('Device voice could not play. Check your browser audio settings.'); } };
-        window.speechSynthesis.speak(utterance); return;
-      }
+        deviceUtterance.current = utterance;
+        utterance.onstart = () => { if (request.current === id) { active.current = false; setBusy(false); setSpeaking(true); setStatus(`${fallback ? 'Gemini is unavailable. ' : ''}Reading with device voice. Part ${part}.`); } };
+        utterance.onend = following; utterance.onerror = () => { if (request.current === id) { stop(); setSettingsOpen(true); setStatus('Device voice could not play. Check your browser audio settings.'); } };
+        window.speechSynthesis.speak(utterance);
+      };
+      if (engine === 'device') { speakDevice(); return; }
+      if (deviceFallback && language === 'en' && Date.now() < cloudRetryAt.current) { speakDevice(true); return; }
       voice.current = new AbortController(); setStatus(`Preparing Gemini reading or loading saved audio. Part ${part}.`);
-      const blob = await codiCloudReading(text, language, voice.current.signal);
+      let blob: Blob;
+      try { blob = await codiCloudReading(text, language, voice.current.signal); }
+      catch (error) {
+        if (request.current !== id || voice.current.signal.aborted) return;
+        if (deviceFallback && language === 'en' && 'speechSynthesis' in window) { cloudRetryAt.current = Date.now() + 60000; speakDevice(true); return; }
+        throw error;
+      }
       if (request.current !== id) return;
         active.current = false;
         try {
@@ -197,6 +208,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
       {prepared && <button className="learn-button" onClick={() => void audio.current?.play().catch(() => setStatus('Allow browser audio, then press Play again.'))}>Play audio</button>}
     </div>
     {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={enabled} onChange={event => { const text = pending.current; const markdown = pendingMarkdown.current; const allowed = event.target.checked; stop(); setEnabled(allowed); try { if (allowed) window.sessionStorage.setItem('codi-cloud-consent-v1', 'yes'); else window.sessionStorage.removeItem('codi-cloud-consent-v1'); } catch {} setStatus(allowed ? 'Voice allowed for this tab. Click a lesson line to read it.' : 'Cloud voice is off.'); if (allowed && text) beginReading(text, markdown); }} />Allow Gemini voice for this tab: selected lesson text goes to Google. Free-tier data may improve its products. No sign-in needed. <a href="/privacy-policy/">Privacy</a></label>}
+    {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={deviceFallback} onChange={event => { stop(); setDeviceFallback(event.target.checked); }} />Use device voice for English if Gemini is unavailable. Your browser or operating system provides this voice.</label>}
     {selected && <p className="codi-selected-text"><strong>Selected text</strong><code>{selected}</code></p>}
     <p role="status" className="codi-status">{status}</p>
     {(source || translation) && <details className="codi-source"><summary>Explanation transcript and lesson source</summary>{translation && <p lang={language}>{translation}</p>}{source && <><p>{source.relation === 'current' ? 'This lesson' : source.relation === 'previous' ? 'Earlier lesson' : 'Upcoming lesson'}: {source.section}</p><a href={languageSlug ? `/learn/${languageSlug}/${source.slug}/` : '#'}>Read {source.title}</a></>}</details>}
