@@ -5,17 +5,20 @@ import { articleSections } from "@/utils/editorial";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { sanitizeUrl } from "@/utils/security";
+import { codiSentencePlugin } from '@/lib/learning/codi-sentences';
 
 interface MarkdownRendererProps {
   content: string;
   practiceLanguage?: string;
   onTryCode?: (code: string) => void;
+  narration?: boolean;
 }
 
 export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
   content,
   practiceLanguage,
   onTryCode,
+  narration = false,
 }) => {
   const sections = articleSections(content);
   const headingId = (line?: number) =>
@@ -24,6 +27,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
     <div className="markdown-article text-slate-800 leading-relaxed space-y-4">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
+        rehypePlugins={narration ? [codiSentencePlugin] : []}
         components={{
           h1: ({ children, node }) => (
             <h2
@@ -127,7 +131,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
             const language = ({ py: 'python', python: 'python', js: 'javascript', javascript: 'javascript', html: 'html', css: 'css', php: 'php' } as Record<string, string>)[tag || ''];
             return <div className="my-4 min-w-0 rounded-lg border border-slate-800 bg-slate-900 text-slate-100">
               {onTryCode && language && language === practiceLanguage && text.trim() && text.length <= 20000 && <div className="flex justify-end border-b border-slate-700 px-3 py-2"><button type="button" className="min-h-12 rounded-md border border-slate-500 px-3 text-sm font-semibold text-white hover:bg-slate-700" onClick={() => onTryCode(text)}>Try this example</button></div>}
-              <pre className="m-0 overflow-x-auto p-4 text-xs font-mono"><code className="block whitespace-pre font-mono text-inherit">{text || children}</code></pre>
+              <pre className="m-0 overflow-x-auto p-4 text-xs font-mono"><code className="block whitespace-pre font-mono text-inherit">{narration && text ? text.split('\n').map((line,index)=><React.Fragment key={index}>{index>0?'\n':''}{line.trim()?<button type="button" className="codi-sentence codi-code-sentence" data-codi-text={line.trim()} title="Read this code line with Codi">{line}</button>:line}</React.Fragment>) : text || children}</code></pre>
             </div>;
           },
           hr: () => <hr className="my-6 border-slate-200" />,

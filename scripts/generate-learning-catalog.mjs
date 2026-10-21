@@ -22,3 +22,5 @@ console.log(`[learning] Exported ${snapshot.courses.length} courses, ${snapshot.
 await import('./generate-reviewed-lessons.mjs');
 await import('./prepare-codi-lessons.mjs');
 await import('./prepare-learning-directory.mjs');
+await import('./prepare-codi-audio.mjs');
+if(process.env.GITHUB_ACTIONS==='true') await import('./sync-codi-audio.mjs');

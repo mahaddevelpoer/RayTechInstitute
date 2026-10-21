@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import {createHash}from'node:crypto';import{loadTypescript}from'./load-typescript.mjs';
+test('prepared catalog contains only public sentence data with deterministic voice keys',async()=>{
+ const {codiAudioKeyMaterial}=await loadTypescript('src/lib/learning/codi-sentences.ts');const source=await fs.readFile('scripts/prepare-codi-audio.mjs','utf8');assert.match(source,/state==='published'/);assert.doesNotMatch(source,/questionBank|gradingRubric|assessmentAnswers/);
+ const catalog=JSON.parse(await fs.readFile('public/codi/audio/catalog.json','utf8'));assert.equal(catalog.schema,1);assert.ok(catalog.units.length>0);const seen=new Set();for(const unit of catalog.units){assert.ok(['en','ur'].includes(unit.language));assert.ok(unit.text.length>0&&unit.text.length<=420);assert.equal(unit.hash,createHash('sha256').update(codiAudioKeyMaterial(unit.text,unit.language)).digest('hex'));assert.ok(!seen.has(unit.hash));seen.add(unit.hash);assert.deepEqual(Object.keys(unit).sort(),['course','hash','language','lesson','text']);}
+});

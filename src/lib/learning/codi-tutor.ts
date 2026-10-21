@@ -1,3 +1,4 @@
+import { codiSentences } from './codi-sentences';
 export interface CodiLessonSource { id: string; title: string; slug: string; order: number; content: string }
 export interface CodiExplanation { title: string; slug: string; section: string; text: string; relation: 'current' | 'previous' | 'upcoming' }
 export function codiNarration(markdown: string): string {
@@ -10,6 +11,7 @@ export function codiNarration(markdown: string): string {
 /** Queue the complete text. Each neural voice request remains small and bounded. */
 export function codiSpeechChunks(text: string, format: 'markdown' | 'text' = 'markdown'): string[] {
   const clean = format === 'text' ? text.trim() : codiNarration(text); if (!clean || clean.length > 200000) return [];
+  if (format === 'markdown') return clean.split(/\n\s*\n/).flatMap(block => codiSentences(block).flatMap(sentence => codiSpeechChunks(sentence, 'text')));
   const chunks: string[] = []; let buffer = '';
   for (const word of clean.split(/\s+/)) {
     if (word.length > 420) { if (buffer) { chunks.push(buffer); buffer = ''; } for (let index = 0; index < word.length; index += 420) chunks.push(word.slice(index, index + 420)); continue; }

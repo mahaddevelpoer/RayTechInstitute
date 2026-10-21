@@ -1,0 +1,45 @@
+name: Prepare published Codi sentence audio
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Maximum new recordings (free allowance respected)
+        default: '6'
+        required: true
+      lesson:
+        description: Optional lesson slug; blank processes the remaining catalog
+        default: ''
+        required: false
+  repository_dispatch:
+    types: [content-published]
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: codi-prepared-audio
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Export only published lesson sentences
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/generate-learning-catalog.mjs
+      - name: Install audio encoder on GitHub, not the user's PC
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Generate missing recordings within the existing free voice allowance
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODI_AUDIO_BATCH: ${{ inputs.batch || '6' }}
+          CODI_AUDIO_LESSON: ${{ inputs.lesson || '' }}
+        run: node scripts/build-codi-audio.mjs

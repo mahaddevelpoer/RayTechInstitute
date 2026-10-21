@@ -7,6 +7,7 @@ import { MarkdownRenderer } from '@/components/MarkdownRenderer';
 import { InteractiveLesson } from './InteractiveLesson';
 import { AdReservation } from '@/components/AdReservation';
 import { CodiReader } from './CodiReader';
+import { CodiSentences } from './CodiSentences';
 import type { LessonBlock } from '@/types/lesson-blocks';
 import { BrowserPractice } from './BrowserPractice';
 import { TopicQuiz } from './TopicQuiz';
@@ -41,13 +42,13 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
       <aside className="learning-topics"><div className="learning-panel-toolbar"><Link className="font-semibold" href={`/learn/${language.slug}/`}>{language.title}</Link><span className="text-xs">{topics.length} topics</span></div>{topicList}<Link className="learn-button m-3" href="/courses/">All courses</Link></aside>
       <article ref={lessonPane} className="learning-lesson" tabIndex={0} aria-label="Lesson content">
         <nav className="mb-6 text-xs" aria-label="Breadcrumb"><Link href="/courses/">Courses</Link><span className="px-2">/</span><Link href={`/learn/${language.slug}/`}>{language.title}</Link></nav>
-        <h1 className="mb-4 text-3xl font-bold tracking-tight">{topic.title}{mode === 'quiz' ? ': topic test' : mode === 'assignment' ? ': assignment' : ''}</h1>
+        <h1 className="mb-4 text-3xl font-bold tracking-tight">{mode==='lesson'?<CodiSentences text={topic.title}/>:topic.title}{mode === 'quiz' ? ': topic test' : mode === 'assignment' ? ': assignment' : ''}</h1>
         <TopicProgressPanel topic={topic} />
         <nav aria-label="Topic activities" className="mb-6 flex flex-wrap gap-2"><Link className="learn-button" aria-current={mode === 'lesson' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/`}>Lesson</Link><Link className="learn-button" aria-current={mode === 'quiz' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/quiz/`}>Topic test</Link><Link className="learn-button" aria-current={mode === 'assignment' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/assignment/`}>Assignment</Link></nav>
         {mode === 'quiz' ? <TopicQuiz topic={topic} languageSlug={language.slug} /> : mode === 'assignment' ? <TopicAssignment topic={topic} languageSlug={language.slug} /> : <>
-        <p className="mb-8 text-base leading-relaxed">{topic.summary}</p>
-        <section className="learning-objectives"><h2 className="mb-2 text-base font-semibold">What you will learn</h2><ul className="list-disc space-y-1 pl-5 text-sm">{topic.objectives.map(objective => <li key={objective}>{objective}</li>)}</ul></section>
-        {lessonBlocks ? <InteractiveLesson blocks={lessonBlocks} language={language.runtime} onTryCode={tryCode} /> : <MarkdownRenderer content={topic.content} practiceLanguage={language.runtime} onTryCode={tryCode} />}
+        <p className="mb-8 text-base leading-relaxed"><CodiSentences text={topic.summary}/></p>
+        <section className="learning-objectives"><h2 className="mb-2 text-base font-semibold"><CodiSentences text="What you will learn"/></h2><ul className="list-disc space-y-1 pl-5 text-sm">{topic.objectives.map(objective => <li key={objective}><CodiSentences text={objective}/></li>)}</ul></section>
+        {lessonBlocks ? <InteractiveLesson blocks={lessonBlocks} language={language.runtime} onTryCode={tryCode} /> : <MarkdownRenderer content={topic.content} practiceLanguage={language.runtime} onTryCode={tryCode} narration />}
         {!!topic.videoIds.length && <section className="mt-10"><h2 className="mb-4 text-xl font-semibold">Watch the lesson</h2>{topic.videoIds.map(id => <LessonVideo key={id} videoId={id} title={topic.title} />)}</section>}
         <AdReservation placement="lesson" />
         </>}

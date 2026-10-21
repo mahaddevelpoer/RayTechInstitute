@@ -2,6 +2,29 @@
 
 ## Click-to-read regression fixes (21 October 2026)
 
+### Sentence buttons and shared prepared recordings
+
+Teaching prose is split into stable full-stop/question/exclamation sentences,
+not viewport-dependent visual lines. Decimal points, abbreviations, domains and
+inline code are protected; code blocks use intact source lines. Real buttons
+support mouse, touch and keyboard, with blue hover/focus in both themes. Links
+and existing practice/assessment controls retain their original actions.
+
+Prepared recordings are content-addressed by sentence, voice language and
+narration version. A public catalog contains only published lesson text, never
+private drafts or grading data. `prepare-codi-audio.yml` generates bounded
+missing batches using the existing free voice allowance, compresses them on
+GitHub, saves immutable MP3 assets in a dedicated GitHub prerelease, then requests
+one Hosting rebuild. Builds synchronize only the current catalog's audio to
+Firebase Hosting. MP3s are not committed to Git history, and visitor clicks do
+not create commits or deployments. Ready audio can play without sending text
+to Google or requesting live-AI consent; missing audio still needs consent.
+
+The initial expanded catalog contains 3,372 voice/sentence files. This is a
+generation queue, NOT a claim that all audio exists. The default batch is six;
+free limits can stop a batch safely. Further bounded runs resume missing files.
+No recurring paid jobs, billing changes or unbounded generation were enabled.
+
 ### Empty Native Audio turn recovery
 
 The previous implementation immediately closed the Native socket on an empty

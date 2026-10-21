@@ -52,6 +52,7 @@ test('interactive prediction, trace boundaries and explicit practice loading wor
     if (name === 'react' || name === 'react/jsx-runtime') return require(name);
     if (name.endsWith('/MarkdownRenderer')) return { MarkdownRenderer: ({ content }) => React.createElement('div', {}, content) };
     if (name === './UnderstandActivity') return { UnderstandActivity: () => null };
+    if (name === './CodiSentences') return { CodiSentences: ({text})=>text, CodiCodeLines: ({code})=>code };
     throw new Error(`Unexpected dependency ${name}`);
   } });
   const dom = new JSDOM('<div id="root"></div>');

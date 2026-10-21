@@ -54,6 +54,7 @@ public/codi/runtime/
 public/codi/worker.js
 public/codi/source/
 public/codi/lessons/
+public/codi/audio/
 scripts/codi-source/node_modules/
 scripts/codi-source/dist/
 artifacts/

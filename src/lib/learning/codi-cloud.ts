@@ -1,9 +1,20 @@
 import { codiWav } from './codi-line';
+import { codiAudioKeyMaterial } from './codi-sentences';
 type Language = 'en' | 'ur';
 const cacheName = 'codi-gemini-reading-v2';
 const model = 'gemini-2.5-flash-preview-tts';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://btxrkhwyugzliswznkpx.supabase.co';
 let guestId: string;
+let prepared: Promise<Set<string>> | undefined; let preparedAt = 0;
+async function preparedIndex() {
+  if(!prepared || Date.now()-preparedAt>60000){preparedAt=Date.now();prepared=(async()=>{try{const response=await fetch('/codi/audio/index.json',{credentials:'omit'});if(!response.ok)return new Set<string>();const data=await response.json();if(data.schema!==1||!Array.isArray(data.ready)||data.ready.length>30000)return new Set<string>();return new Set<string>(data.ready.filter((key: unknown)=>typeof key==='string'&&/^[a-f0-9]{64}$/.test(key)));}catch{return new Set<string>();}})();}return prepared;
+}
+async function audioHash(text: string,language: Language) {
+  const digest=new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(codiAudioKeyMaterial(text,language))));return Array.from(digest,b=>b.toString(16).padStart(2,'0')).join('');
+}
+export async function hasPreparedCodiReading(chunks: string[],language: Language) {
+  if(!chunks.length)return false;const ready=await preparedIndex();for(const chunk of chunks)if(!ready.has(await audioHash(chunk,language)))return false;return true;
+}
 function codiGuestId() {
   if (guestId) return guestId;
   try { const saved = sessionStorage.getItem('codi-voice-session'); if (saved && /^[a-f0-9-]{36}$/i.test(saved)) guestId = saved; } catch { /* Storage can be disabled. */ }
@@ -26,13 +37,18 @@ function decodePcm(data: string): Float32Array {
   return samples;
 }
 /** Bounded, local audio cache only. Tokens and Firebase identity are never cached. */
-export async function codiCloudReading(text: string, language: Language, signal: AbortSignal): Promise<Blob> {
+export async function codiCloudReading(text: string, language: Language, signal: AbortSignal, allowCloud = true): Promise<Blob> {
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
-  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`everyday-urdu-v1:${model}:Kore:${language}:${text}`)));
-  const hash = Array.from(digest, b => b.toString(16).padStart(2, '0')).join('');
+  const hash = await audioHash(text,language);
+  if((await preparedIndex()).has(hash)){
+    const response=await fetch(`/codi/audio/${hash}.mp3`,{credentials:'omit',signal});
+    if(response.ok){const blob=await response.blob();if(blob.size>=100&&blob.size<=2000000&&blob.type.startsWith('audio/'))return blob;}
+    if(!allowCloud)throw new Error('This prepared recording could not load. Reload the lesson or allow live voice to regenerate it.');
+  }
   const key = `${location.origin}/codi/audio-cache/${hash}.wav`;
   let cache: Cache | undefined;
   try { if ('caches' in globalThis) { cache = await caches.open(cacheName); const found = await cache.match(key); if (found && found.headers.get('content-type') === 'audio/wav') { const blob = await found.blob(); if (blob.size >= 44 && blob.size <= 4400000) return blob; } } } catch { /* Storage can be disabled; playback must still work. */ }
+  if(!allowCloud)throw new Error('This sentence has no prepared recording yet. Allow live voice to generate it.');
   const data = await codiCloudRequest({ action: 'read', language, text }, signal);
   if (data.rate !== 24000 || ![model, 'gemini-2.5-flash-native-audio-preview-12-2025'].includes(data.model)) throw new Error('Unexpected voice format.');
   const blob = new Blob([codiWav(decodePcm(data.audio), 24000) as BlobPart], { type: 'audio/wav' });

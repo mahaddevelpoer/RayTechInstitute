@@ -3,6 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { build } from 'esbuild';
 const directory = 'public/codi';
+await fs.mkdir(`${directory}/audio`,{recursive:true});
+try { await fs.access(`${directory}/audio/index.json`); } catch { await fs.writeFile(`${directory}/audio/index.json`,JSON.stringify({schema:1,ready:[]})); }
 // Cloud voice is the default. Do not bundle/download the retired neural runtime
 // during every dev, test and build. Kept opt-in for reproducible source archives.
 if (process.env.CODI_PREPARE_LOCAL_VOICE !== 'true') { console.log('[codi] Cloud voice enabled; local speech-model preparation skipped.'); process.exit(0); }

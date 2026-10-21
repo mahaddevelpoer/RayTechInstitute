@@ -9,6 +9,8 @@ import { createRoot } from 'react-dom/client';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { JSDOM } from 'jsdom';
+import { loadTypescript } from './load-typescript.mjs';
+const codiSentences=await loadTypescript('src/lib/learning/codi-sentences.ts');
 const require = createRequire(import.meta.url);
 const source = await fs.readFile('src/components/MarkdownRenderer.tsx', 'utf8');
 const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
@@ -19,6 +21,7 @@ vm.runInNewContext(code, { module, exports: module.exports, require(name) {
   if (name === 'remark-gfm') return { __esModule: true, default: remarkGfm };
   if (name.endsWith('/editorial')) return { articleSections: () => [] };
   if (name.endsWith('/security')) return { sanitizeUrl: value => value || '' };
+  if (name.endsWith('/codi-sentences')) return codiSentences;
   throw new Error(`Unexpected dependency ${name}`);
 } });
 

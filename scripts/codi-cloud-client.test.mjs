@@ -6,6 +6,7 @@ import ts from 'typescript';
 import { webcrypto } from 'node:crypto';
 import { loadTypescript } from './load-typescript.mjs';
 const line = await loadTypescript('src/lib/learning/codi-line.ts');
+const sentence = await loadTypescript('src/lib/learning/codi-sentences.ts');
 const source = ts.transpileModule(await fs.readFile('src/lib/learning/codi-cloud.ts','utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
 function fixture() {
   const store = new Map(), calls = [], sockets = [], nodes = [];
@@ -18,11 +19,12 @@ function fixture() {
   }
   const context = { currentTime:0,destination:{}, createBuffer(_channels,length,rate) { return {duration:length/rate,getChannelData:()=>new Float32Array(length)}; }, createBufferSource() { const n={connect(){},disconnect(){this.disconnected=true;},start(){this.started=true;},stop(){this.stopped=true;}};nodes.push(n);return n;} };
   let resolveFetch;
-  const fetcher=async(url,init)=>{calls.push({url,init}); if(resolveFetch)return resolveFetch(url,init);const action=JSON.parse(init.body).action; return Response.json(action==='live'?{endpoint:'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContentConstrained',model:'gemini-2.5-flash-native-audio-preview-12-2025',token:'auth_tokens/fixture'}:{audio:Buffer.from([0,0,1,0]).toString('base64'),rate:24000,model:'gemini-2.5-flash-preview-tts'});};
+  let preparedReady=[];const staticCalls=[];
+  const fetcher=async(url,init)=>{if(String(url).startsWith('/codi/audio/')){staticCalls.push(url);if(url.endsWith('index.json'))return Response.json({schema:1,ready:preparedReady});return new Response(new Uint8Array(200),{headers:{'Content-Type':'audio/mpeg'}});}calls.push({url,init}); if(resolveFetch)return resolveFetch(url,init);const action=JSON.parse(init.body).action; return Response.json(action==='live'?{endpoint:'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContentConstrained',model:'gemini-2.5-flash-native-audio-preview-12-2025',token:'auth_tokens/fixture'}:{audio:Buffer.from([0,0,1,0]).toString('base64'),rate:24000,model:'gemini-2.5-flash-preview-tts'});};
   const cache={match:async k=>store.get(k)?.clone(),put:async(k,v)=>store.set(k,v),keys:async()=>[...store.keys()],delete:async k=>store.delete(k)};
   const module={exports:{}};
-  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetcher,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
-  return {...module.exports,store,calls,sockets,nodes,context,auth,setFetch:f=>{resolveFetch=f;}};
+  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:id==='./codi-sentences'?sentence:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetcher,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
+  return {...module.exports,store,calls,sockets,nodes,context,auth,staticCalls,setReady:r=>{preparedReady=r;},setFetch:f=>{resolveFetch=f;}};
 }
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 test('reading caches bounded WAV audio, never tokens, and separates languages',async()=>{
@@ -38,6 +40,12 @@ test('guest requests need no Firebase token, while cancelled requests never call
   const f=fixture();f.auth.currentUser=null;
   await f.codiCloudRequest({action:'read'},new AbortController().signal);assert.equal(f.calls.length,1);assert.equal(f.calls[0].init.headers.Authorization,undefined);assert.match(JSON.parse(f.calls[0].init.body).guestId,/^[a-f0-9-]{36}$/);
   const a=new AbortController();a.abort();await assert.rejects(f.codiCloudRequest({},a.signal),/Stopped/);
+});
+
+test('prepared MP3 plays without an AI request or consent, and text changes cannot reuse it',async()=>{
+ const f=fixture();const hash=Buffer.from(await webcrypto.subtle.digest('SHA-256',new TextEncoder().encode(sentence.codiAudioKeyMaterial('A value.','ur')))).toString('hex');f.setReady([hash]);
+ assert.equal(await f.hasPreparedCodiReading(['A value.'],'ur'),true);assert.equal((await f.codiCloudReading('A value.','ur',new AbortController().signal,false)).type,'audio/mpeg');assert.equal(f.calls.length,0);
+ assert.equal(await f.hasPreparedCodiReading(['A different value.'],'ur'),false);await assert.rejects(f.codiCloudReading('A different value.','ur',new AbortController().signal,false),/no prepared recording/);assert.equal(f.calls.length,0);
 });
 
 test('reading accepts and caches Native Audio PCM but rejects unknown provider models',async()=>{

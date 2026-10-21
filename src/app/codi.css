@@ -1,4 +1,11 @@
 /* Page-local overlay above regular navigation and editors; it never opens a window. */
+.codi-sentence { display:inline; font:inherit; letter-spacing:inherit; line-height:inherit; text-align:inherit; color:inherit; background:transparent; border:0; border-radius:3px; padding:0; margin:0; cursor:pointer; white-space:inherit; -webkit-box-decoration-break:clone; box-decoration-break:clone; transition:background-color .15s,color .15s; }
+.codi-sentence:hover,.codi-sentence:focus-visible,.codi-sentence-group:hover .codi-sentence { color:#fff; background:#1b4f9b; outline:2px solid #1b4f9b; outline-offset:1px; }
+html.dark .codi-sentence:hover,html.dark .codi-sentence:focus-visible,html.dark .codi-sentence-group:hover .codi-sentence { color:#fff; background:#1d4ed8; outline-color:#93c5fd; }
+.codi-code-sentence { font:inherit; white-space:pre; }
+.codi-sentence { user-select:text; -webkit-user-select:text; }
+.learning-lesson .codi-sentence:is(:hover,:focus-visible) :is(strong,em,code),.learning-lesson .codi-sentence-group:hover .codi-sentence :is(strong,em,code) { color:inherit; background:transparent; border-color:transparent; }
+@media(prefers-reduced-motion:reduce) { .codi-sentence { transition:none; } }
 .codi-reader { position:fixed; inset:0; z-index:2147483000; pointer-events:none; background:transparent; }
 .codi-reader .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .codi-carrier { position:fixed; left:0; top:0; width:104px; height:152px; pointer-events:none; background:transparent; }

@@ -32,13 +32,19 @@ jobs:
         run: npm ci
 
       - name: Validate source and catalog behaviour
-        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs
+        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs
 
       - name: Use Java 21 for local Firestore rules tests
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '21'
+
+      - name: Install browser on GitHub for sentence interaction checks
+        run: npx playwright install --with-deps chromium
+
+      - name: Verify sentence hover, layout and original teaching controls
+        run: node --max-old-space-size=384 scripts/codi-sentence-browser.mjs
 
       - name: Verify private student progress rules
         run: npm run test:rules
@@ -50,10 +56,11 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GH_TOKEN: ${{ github.token }}
         run: npm run build
 
       - name: Block incomplete or mismatched exports
-        run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs
+        run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs
 
       - name: Retain release manifest for diagnosis
         uses: actions/upload-artifact@v4

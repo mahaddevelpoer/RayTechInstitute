@@ -1,5 +1,9 @@
 const blocked = 'a,button,input,textarea,select,summary,[contenteditable="true"],[aria-hidden="true"],[data-codi-ignore]';
 export function codiLineAt(root: HTMLElement, target: EventTarget | null, y?: number): string | null {
+  if (target instanceof Element && root.contains(target) && !target.closest('a,input,textarea,select,summary,[contenteditable="true"],[data-codi-ignore]')) {
+    const sentence = target.closest('button[data-codi-text]');
+    if (sentence && root.contains(sentence)) return sentence.getAttribute('data-codi-text')?.trim() || null;
+  }
   if (!(target instanceof Element) || !root.contains(target) || target.closest(blocked)) return null;
   const block = target.closest('p,h1,h2,h3,h4,h5,h6,li,pre,blockquote,td,th,figcaption');
   if (!block || !root.contains(block)) return null;

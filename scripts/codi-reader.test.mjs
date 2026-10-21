@@ -21,7 +21,8 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
   dom.window.matchMedia = () => ({ matches: true }); dom.window.speechSynthesis = { cancel() {}, speak(u) { spoken.push(u); u.onstart?.(); } };
   const reads = [], players = [], urls = new Set();
   const cloud = {
-    codiCloudReading: (text, language, signal) => new Promise((resolve,reject) => reads.push({text,language,signal,resolve,reject})),
+    hasPreparedCodiReading: async()=>false,
+    codiCloudReading: (text, language, signal, allowCloud) => new Promise((resolve,reject) => reads.push({text,language,signal,allowCloud,resolve,reject})),
     codiCloudExplain: async () => {},
   };
   class Audio {
@@ -104,6 +105,9 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
     const fallback=[...document.querySelectorAll('label')].find(e=>e.textContent.includes('Use device voice')).querySelector('input');await click(fallback);
     await click(document.getElementById('first'));await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));
     assert.equal(spoken.length,2,'disabled fallback never substitutes the selected engine');assert.match(status(),/Speech is unavailable/);
+    window.sessionStorage.removeItem('codi-cloud-consent-v1');cloud.hasPreparedCodiReading=async()=>true;
+    await act(async()=>root.render(React.createElement(module.exports.CodiReader,{...props,key:'prepared-only'})));
+    await click(document.getElementById('first'));assert.equal(reads.at(-1).allowCloud,false,'ready recordings never authorize live AI implicitly');assert.equal(document.querySelector('.codi-settings'),null,'ready recording needs no Gemini consent popup');
     await act(async()=>root.unmount()); assert.ok(reads.at(-1).signal.aborted); assert.equal(urls.size,0);
     assert.equal(document.querySelector('.codi-reader'),null);
   } finally { if(document.getElementById('root')?.childNodes.length) await act(async()=>root.unmount()); Object.assign(globalThis,previous);dom.window.close(); }

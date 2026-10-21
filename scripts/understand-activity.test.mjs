@@ -18,6 +18,7 @@ vm.runInNewContext(compiled, { module, exports: module.exports, require(name) {
   if (name === 'react' || name === 'react/jsx-runtime') return require(name);
   if (name === 'lucide-react') return Object.fromEntries(['Info', 'Check', 'RotateCcw', 'ArrowRight'].map(name => [name, () => null]));
   if (name === './PythonVariableLab') return { PythonVariableLab: () => null };
+  if (name === './CodiSentences') return { CodiSentences: ({text})=>text, CodiCodeLines: ({code})=>code };
   throw new Error(name);
 } });
 
