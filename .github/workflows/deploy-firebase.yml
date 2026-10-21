@@ -66,9 +66,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: release-manifest
-          path: out/deployment.json
+          path: |
+            out/deployment.json
+            out/**/*.html
 
       - name: Deploy to Firebase Hosting live channel
+        id: hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RAYTECHINSTITUTE }}
@@ -79,4 +82,5 @@ jobs:
         run: node scripts/verify-live-export.mjs
 
       - name: Verify ready MP3 plays on desktop and mobile without an AI call
+        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
         run: node --max-old-space-size=384 scripts/verify-prepared-audio.mjs && node --max-old-space-size=384 scripts/verify-learning-panels.mjs
