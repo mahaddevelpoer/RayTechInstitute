@@ -59,15 +59,38 @@ test('TTS 429 uses source-locked Native Audio recitation and returns actual PCM 
  assert.equal(calls.length,2);assert.match(calls[1].body.bidiGenerateContentSetup.systemInstruction.parts[0].text,/Recite ONLY.*A variable stores a value\./s);
  assert.doesNotMatch(calls[1].body.bidiGenerateContentSetup.systemInstruction.parts[0].text,/Explain the learner/);assert.equal(calls[1].body.uses,1);
   assert.equal(calls[1].body.bidiGenerateContentSetup.generationConfig.thinkingConfig.thinkingBudget,0);assert.match(calls[1].body.fieldMask,/generationConfig.thinkingConfig/);
- assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/Read the complete quoted passage/);
+ assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/Read the complete passage aloud/);assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/<passage>\nA variable stores a value\./);
  socket.onmessage({data:JSON.stringify({serverContent:{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAABAA=='}}]},outputTranscription:{text:'A variable stores a value.'},turnComplete:true}})});
  const result=await pending;assert.equal(result.audio,'AAABAA==');assert.equal(result.model,'gemini-2.5-flash-native-audio-preview-12-2025');assert.equal(result.transcript,'A variable stores a value.');assert.ok(socket.closed);assert.doesNotMatch(JSON.stringify(result),/private-fixture|auth_tokens/);
 });
 
-test('Native Audio fallback rejects empty, interrupted and malformed readings',async()=>{
- for(const content of [{turnComplete:true},{interrupted:true},{modelTurn:{parts:[{inlineData:{mimeType:'audio/not-pcm',data:'AAABAA=='}}]},turnComplete:true}]){
+test('Native Audio fallback rejects interrupted and malformed readings without retry',async()=>{
+ for(const content of [{interrupted:true},{modelTurn:{parts:[{inlineData:{mimeType:'audio/not-pcm',data:'AAABAA=='}}]},turnComplete:true}]){
   let socket;const pending=generateCodiSpeech('fixture','en','A variable.',async url=>String(url).endsWith('auth_tokens')?Response.json({name:'auth_tokens/test'}):new Response('',{status:429}),()=>socket={send(){},close(){this.closed=true;}});
-  const rejected=assert.rejects(pending,/no playable|incomplete or invalid/);await new Promise(r=>setImmediate(r));socket.onmessage({data:JSON.stringify({serverContent:content})});await rejected;assert.ok(socket.closed);
+  const rejected=assert.rejects(pending,/incomplete or invalid/);await new Promise(r=>setImmediate(r));socket.onmessage({data:JSON.stringify({serverContent:content})});await rejected;assert.ok(socket.closed);
+ }
+});
+
+test('one empty Native turn is retried on the same socket and token, with the actual passage',async()=>{
+ for(const first of [{turnComplete:true},{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAAAAA=='}}]},turnComplete:true}]){
+  let socket,tokenCalls=0,connections=0;
+  const pending=generateCodiSpeech('empty-urdu','ur','A variable names a value.',async()=>{tokenCalls++;return Response.json({name:'auth_tokens/retry-test'});},()=>{connections++;return socket={sent:[],send(raw){this.sent.push(JSON.parse(raw));},close(){this.closed=true;}};});
+  const tick=()=>new Promise(r=>setImmediate(r));await tick();socket.onmessage({data:JSON.stringify({setupComplete:{}})});await tick();
+  socket.onmessage({data:JSON.stringify({serverContent:first})});await tick();assert.equal(socket.closed,undefined);assert.equal(socket.sent.length,2);
+  assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/last turn contained no usable audio/);assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/A variable names a value/);
+  socket.onmessage({data:JSON.stringify({serverContent:{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAABAA=='}}]},outputTranscription:{text:'ایک variable کسی value کا نام ہے۔'},turnComplete:true}})});
+  const result=await pending;assert.equal(result.audio,'AAABAA==','discard silence from the failed turn');assert.equal(tokenCalls,1);assert.equal(connections,1);assert.ok(socket.closed);
+ }
+});
+
+test('a second empty turn fails closed, while blocked output never retries',async()=>{
+ for(const blocked of [false,true]){
+  let socket;
+  const pending=generateCodiSpeech('empty-again','ur','A variable.',async()=>Response.json({name:'auth_tokens/empty-test'}),()=>socket={sent:[],send(raw){this.sent.push(raw);},close(){this.closed=true;}});
+  const rejected=assert.rejects(pending,/no speech after one retry|did not provide speech/);const tick=()=>new Promise(r=>setImmediate(r));await tick();
+  socket.onmessage({data:JSON.stringify({serverContent:{turnComplete:true,...(blocked?{finishReason:'SAFETY'}:{})}})});await tick();
+  if(!blocked)socket.onmessage({data:JSON.stringify({serverContent:{turnComplete:true}})});
+  await rejected;assert.ok(socket.closed);assert.equal(socket.sent.length,blocked?0:1,'at most one retry');
  }
 });
 

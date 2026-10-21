@@ -18,7 +18,7 @@ try {
   await page.getByRole('button',{name:'Codi settings',exact:true}).waitFor({timeout:15000});
   if(process.env.CODI_TEST_LANGUAGE==='ur'){
     await page.getByRole('button',{name:'Codi settings',exact:true}).click();
-    await page.getByLabel('Language',{exact:true}).selectOption('ur');
+    await page.locator('.codi-settings').getByRole('combobox',{name:/Language/}).selectOption('ur');
     await page.getByRole('button',{name:'Close Codi settings',exact:true}).click();
   }
   const paragraph=page.locator('.learning-lesson .markdown-article p').first();

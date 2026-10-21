@@ -49,7 +49,8 @@ export async function generateCodiNativeSpeech(key: string, language: CodiLangua
     let socket: WebSocket;
     try { socket = connect(`${CODI_LIVE_ENDPOINT}?access_token=${encodeURIComponent(token.token)}`); }
     catch { reject(new StudentRequestError(503, 'Native Audio could not connect.')); return; }
-    const chunks: string[] = []; let bytes = 0; let transcript = ''; let settled = false;
+    const chunks: string[] = []; let bytes = 0; let transcript = ''; let settled = false; let emptyTurns = 0; let audible = false;
+    const askForReading = (retry = false) => socket.send(JSON.stringify({ clientContent: { turns: [{ role: 'user', parts: [{ text: `${retry ? 'The last turn contained no usable audio. Please speak the passage aloud now. ' : ''}${language === 'ur' ? 'Translate the complete passage into simple everyday Pakistani Urdu and speak it. Keep code identifiers in English. No greeting or extra explanation.' : 'Read the complete passage aloud exactly as written. Output only its spoken words.'}\n<passage>\n${text}\n</passage>` }] }], turnComplete: true } }));
     const finish = (error?: Error) => {
       if (settled) return; settled = true; clearTimeout(timer);
       socket.onopen = null; socket.onmessage = null; socket.onerror = null; socket.onclose = null; socket.close();
@@ -65,7 +66,7 @@ export async function generateCodiNativeSpeech(key: string, language: CodiLangua
         if (raw.length > 6000000) throw new Error('Oversized audio response');
         const msg = JSON.parse(raw);
         if (msg.error) { finish(await codiProviderError(Response.json({ error: msg.error }, { status: Number(msg.error.code) === 429 ? 429 : 503 }), 'Native Audio')); return; }
-        if (msg.setupComplete) socket.send(JSON.stringify({ clientContent: { turns: [{ role: 'user', parts: [{ text: language === 'ur' ? 'Translate the complete quoted passage into simple everyday Pakistani Urdu and speak it now. Keep code identifiers in English. No greeting or extra explanation.' : 'Read the complete quoted passage now. Output only its spoken words.' }] }], turnComplete: true } }));
+        if (msg.setupComplete) askForReading();
         const content = msg.serverContent;
         if (!content) return;
         if (content.interrupted) throw new Error('Interrupted reading');
@@ -74,10 +75,21 @@ export async function generateCodiNativeSpeech(key: string, language: CodiLangua
           if (!/^audio\/pcm;rate=24000$/.test(inline.mimeType) || typeof inline.data !== 'string' || !/^[A-Za-z0-9+/]+={0,2}$/.test(inline.data)) throw new Error('Invalid audio');
           const pcm = atob(inline.data); bytes += pcm.length;
           if (pcm.length % 2 || bytes > 4400000) throw new Error('Invalid audio size');
+          if (!audible) for (let index = 0; index < pcm.length; index++) if (pcm.charCodeAt(index) !== 0) { audible = true; break; }
           chunks.push(pcm);
         }
         if (content.outputTranscription?.text) transcript = (transcript + content.outputTranscription.text).slice(0, 6000);
-        if (content.turnComplete) finish(bytes ? undefined : new StudentRequestError(502, 'Native Audio returned no playable reading.'));
+        if (content.turnComplete) {
+          if (bytes && audible) { finish(); return; }
+          // Native Audio can occasionally complete a text-only/empty turn.
+          // Retry once on this same authorized socket, without another token,
+          // quota reservation or a new deadline. Never retry malformed audio,
+          // provider errors, blocked output or interrupted turns.
+          const blocked = content.finishReason === 'SAFETY' || content.finishReason === 'PROHIBITED_CONTENT' || msg.promptFeedback?.blockReason;
+          if (blocked) { finish(new StudentRequestError(502, 'Google did not provide speech for this selection.')); return; }
+          if (emptyTurns++ === 0) { chunks.length = 0; bytes = 0; audible = false; transcript = ''; askForReading(true); return; }
+          finish(new StudentRequestError(502, 'Codi received no speech after one retry. Try a shorter lesson line.'));
+        }
       }).catch(() => finish(new StudentRequestError(502, 'Native Audio returned an incomplete or invalid reading.')));
     };
     socket.onerror = () => finish(new StudentRequestError(503, 'Native Audio could not connect. Please retry.'));

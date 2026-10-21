@@ -2,6 +2,17 @@
 
 ## Click-to-read regression fixes (21 October 2026)
 
+### Empty Native Audio turn recovery
+
+The previous implementation immediately closed the Native socket on an empty
+`turnComplete`. The reading user turn now includes the actual quoted passage,
+not just a reference to a system-provided passage. A first empty or all-zero
+PCM turn is retried once on the same authorized socket. No second token or
+quota reservation is minted, and the existing 45-second deadline is not reset.
+Two empty turns fail closed. Invalid/interrupted audio and explicit provider
+or safety failures do not trigger recovery. Failed-turn audio/transcript is
+discarded rather than cached or concatenated with the recovered reading.
+
 ### Everyday Urdu and latency update
 
 - Active Codi language choices are English and Urdu (`ur`), not Hindi.
