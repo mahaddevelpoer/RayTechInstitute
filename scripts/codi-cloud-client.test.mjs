@@ -21,7 +21,7 @@ function fixture() {
   const fetcher=async(url,init)=>{calls.push({url,init}); if(resolveFetch)return resolveFetch(url,init);const action=JSON.parse(init.body).action; return Response.json(action==='live'?{endpoint:'wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContentConstrained',model:'gemini-2.5-flash-native-audio-preview-12-2025',token:'auth_tokens/fixture'}:{audio:Buffer.from([0,0,1,0]).toString('base64'),rate:24000,model:'gemini-2.5-flash-preview-tts'});};
   const cache={match:async k=>store.get(k)?.clone(),put:async(k,v)=>store.set(k,v),keys:async()=>[...store.keys()],delete:async k=>store.delete(k)};
   const module={exports:{}};
-  vm.runInNewContext(source,{module,exports:module.exports,require:id=>id==='@/lib/firebase'?{auth}:id==='@/lib/supabase'?{supabaseUrl:'https://project.supabase.co'}:id==='./codi-line'?line:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetcher,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
+  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetcher,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
   return {...module.exports,store,calls,sockets,nodes,context,auth,setFetch:f=>{resolveFetch=f;}};
 }
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
@@ -34,9 +34,9 @@ test('reading caches bounded WAV audio, never tokens, and separates languages',a
   for(let i=0;i<30;i++) await f.codiCloudReading('Line '+i,'en',signal);
   assert.equal(f.store.size,24);
 });
-test('guests and cancelled requests cannot request cloud credentials',async()=>{
+test('guest requests need no Firebase token, while cancelled requests never call the server',async()=>{
   const f=fixture();f.auth.currentUser=null;
-  await assert.rejects(f.codiCloudRequest({action:'read'},new AbortController().signal),/Sign in/);assert.equal(f.calls.length,0);
+  await f.codiCloudRequest({action:'read'},new AbortController().signal);assert.equal(f.calls.length,1);assert.equal(f.calls[0].init.headers.Authorization,undefined);assert.match(JSON.parse(f.calls[0].init.body).guestId,/^[a-f0-9-]{36}$/);
   const a=new AbortController();a.abort();await assert.rejects(f.codiCloudRequest({},a.signal),/Stopped/);
 });
 test('Live streams audio and transcript, waits for playback and closes credentials',async()=>{

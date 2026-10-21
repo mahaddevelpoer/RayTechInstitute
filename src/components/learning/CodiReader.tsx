@@ -4,7 +4,7 @@ import { createPortal } from 'react-dom';
 import dynamic from 'next/dynamic';
 import { Square, Settings2, X } from 'lucide-react';
 import { codiLineAt } from '@/lib/learning/codi-line';
-import { codiCloudReading, codiCloudExplain, codiVoiceSignIn } from '@/lib/learning/codi-cloud';
+import { codiCloudReading, codiCloudExplain } from '@/lib/learning/codi-cloud';
 import { codiDockPoint, clampCodiPosition, codiSettingsPosition, codiSpeechChunks, findCodiExplanation, type CodiLessonSource, type CodiExplanation } from '@/lib/learning/codi-tutor';
 const CodiRobot = dynamic(() => import('./CodiRobot').then(module => module.CodiRobot), { ssr: false, loading: () => <span>Loading Codi...</span> });
 
@@ -190,13 +190,12 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   const controls = <section ref={settingsPanel} id={settingsId} className="codi-settings" data-codi-ignore role="dialog" aria-modal="false" aria-label="Codi settings" style={panelPosition}>
     <header><strong>Codi settings</strong><button className="codi-icon-button" aria-label="Close Codi settings" onClick={() => { setSettingsOpen(false); settingsButton.current?.focus(); }}><X size={18} /></button></header>
     <div className="codi-toolbar"><strong>Codi tutor</strong>
-      {engine === 'gemini' && <button className="learn-button" disabled={busy || speaking} onClick={async () => { setBusy(true); try { await codiVoiceSignIn(); setStatus('Signed in. Allow Gemini voice, then click a lesson line.'); } catch (error) { setStatus(error instanceof Error ? error.message : 'Sign-in is unavailable.'); } finally { setBusy(false); } }}>Sign in</button>}
       <label>Voice<select value={engine} onChange={event => { stop(); setEngine(event.target.value as 'gemini' | 'device'); setStatus('Voice changed. Click a lesson line.'); }}><option value="gemini">Gemini cloud</option><option value="device">Device voice</option></select></label>
       <label>Language<select value={language} onChange={event => { stop(); setLanguage(event.target.value as 'en' | 'hi'); }}><option value="en">English</option><option value="hi">Hindi translation</option></select></label>
       <button className="learn-button" disabled={!busy && !speaking && !prepared && !finding} onClick={() => { stop(); setStatus('Stopped.'); }}><Square size={14} />Stop</button>
       {prepared && <button className="learn-button" onClick={() => void audio.current?.play().catch(() => setStatus('Allow browser audio, then press Play again.'))}>Play audio</button>}
     </div>
-    {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={enabled} onChange={event => { stop(); setEnabled(event.target.checked); setStatus(event.target.checked ? 'Voice allowed. Click a lesson line to start.' : 'Cloud voice is off.'); }} />Allow Gemini voice: selected lesson text goes to Google. Free-tier data may improve its products. Sign-in required. <a href="/privacy-policy/">Privacy</a></label>}
+    {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={enabled} onChange={event => { stop(); setEnabled(event.target.checked); setStatus(event.target.checked ? 'Voice allowed. Click a lesson line to start.' : 'Cloud voice is off.'); }} />Allow Gemini voice: selected lesson text goes to Google. Free-tier data may improve its products. No sign-in needed. <a href="/privacy-policy/">Privacy</a></label>}
     <p role="status" className="codi-status">{status}</p>
     {(source || translation) && <details className="codi-source"><summary>Explanation transcript and lesson source</summary>{translation && <p lang={language}>{translation}</p>}{source && <><p>{source.relation === 'current' ? 'This lesson' : source.relation === 'previous' ? 'Earlier lesson' : 'Upcoming lesson'}: {source.section}</p><a href={languageSlug ? `/learn/${languageSlug}/${source.slug}/` : '#'}>Read {source.title}</a></>}</details>}
   </section>;

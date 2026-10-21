@@ -1,22 +1,19 @@
-import { auth } from '@/lib/firebase';
-import { supabaseUrl } from '@/lib/supabase';
 import { codiWav } from './codi-line';
 type Language = 'en' | 'hi';
 const cacheName = 'codi-gemini-reading-v1';
 const model = 'gemini-2.5-flash-preview-tts';
-export async function codiVoiceSignIn() {
-  if (auth.currentUser && !auth.currentUser.isAnonymous) return;
-  const { GoogleAuthProvider, signInWithPopup } = await import('firebase/auth');
-  try { await signInWithPopup(auth, new GoogleAuthProvider()); }
-  catch { throw new Error('Sign-in did not finish. Allow the Google sign-in window and retry.'); }
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://btxrkhwyugzliswznkpx.supabase.co';
+let guestId: string;
+function codiGuestId() {
+  if (guestId) return guestId;
+  try { const saved = sessionStorage.getItem('codi-voice-session'); if (saved && /^[a-f0-9-]{36}$/i.test(saved)) guestId = saved; } catch { /* Storage can be disabled. */ }
+  guestId ||= crypto.randomUUID();
+  try { sessionStorage.setItem('codi-voice-session', guestId); } catch { /* In-memory identity is enough for this tab. */ }
+  return guestId;
 }
 export async function codiCloudRequest(body: Record<string, unknown>, signal: AbortSignal) {
-  await auth.authStateReady();
   if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
-  const user = auth.currentUser;
-  if (!user || user.isAnonymous) throw new Error('Sign in to use Gemini cloud voice, or choose Device voice.');
-  const token = await user.getIdToken();
-  const response = await fetch(`${supabaseUrl}/functions/v1/codi-voice`, { method: 'POST', signal, credentials: 'omit', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ ...body, consent: true }) });
+  const response = await fetch(`${supabaseUrl}/functions/v1/codi-voice`, { method: 'POST', signal, credentials: 'omit', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...body, guestId: codiGuestId(), consent: true }) });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(typeof data.error === 'string' ? data.error.slice(0, 250) : 'Codi cloud voice is unavailable.');
   return data;

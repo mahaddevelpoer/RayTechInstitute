@@ -1,5 +1,19 @@
 # Codi robot tutor: local preview
 
+## Guest cloud voice update
+
+At the user's request Codi no longer requires sign-in. The voice client does
+not initialize Firebase, wait for its auth state, fetch identity tokens or open
+a Google login popup. Explicit voice-processing consent remains. Assignment
+reviews, admin access and saved progress retain their existing authentication.
+
+The server still holds the Gemini key and issues restricted short-lived Live
+tokens. A random per-tab ID selects a best-effort browser quota bucket; it is
+not authentication or an unforgeable identity. Atomic global SQL limits remain
+the actual protection against unbounded public generation. A caller can rotate
+browser IDs but cannot bypass the shared minute/day budgets. Free voice is not
+unlimited and its public allowance can be exhausted by other visitors.
+
 ## Floating companion update (supersedes reserved top slots below)
 
 Codi now renders as a transparent same-document body portal above regular site

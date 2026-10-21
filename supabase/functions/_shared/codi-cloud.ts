@@ -1,4 +1,4 @@
-import { StudentRequestError, verifyStudent } from './student-auth.ts';
+import { StudentRequestError } from './student-auth.ts';
 
 export const CODI_LIVE_MODEL = 'gemini-2.5-flash-native-audio-preview-12-2025';
 export const CODI_TTS_MODEL = 'gemini-2.5-flash-preview-tts';
@@ -56,7 +56,6 @@ export async function generateCodiSpeech(key: string, language: CodiLanguage, te
 }
 interface Dependencies {
   key: string; origins: string[]; enabled: boolean;
-  firebase: { projectId: string; webApiKey: string };
   reserve: (uid: string, kind: 'live' | 'read') => Promise<boolean>;
   fetcher?: typeof fetch;
 }
@@ -72,15 +71,16 @@ export function createCodiCloudHandler(deps: Dependencies) {
     try {
       if (!deps.enabled || !deps.key) throw new StudentRequestError(503, 'Codi cloud voice is not enabled yet. Lessons and practice remain available.');
       const fetcher = deps.fetcher || fetch;
-      const { uid } = await verifyStudent(request.headers.get('authorization'), deps.firebase, fetcher);
       if (!request.headers.get('content-type')?.startsWith('application/json')) throw new StudentRequestError(415, 'Send JSON only.');
       const reader = request.body?.getReader(); if (!reader) throw new StudentRequestError(400, 'Missing voice request.');
       let raw = ''; let size = 0; const decoder = new TextDecoder();
       const timer = setTimeout(() => { void reader.cancel(); }, 8000);
       try { while (true) { const part = await reader.read(); if (part.done) break; size += part.value.byteLength; if (size > 24000) { await reader.cancel(); throw new StudentRequestError(413, 'Voice request is too large.'); } raw += decoder.decode(part.value, { stream: true }); } raw += decoder.decode(); } finally { clearTimeout(timer); reader.releaseLock(); }
       let body; try { body = JSON.parse(raw); } catch { throw new StudentRequestError(400, 'Invalid voice request.'); }
-      if (!body || typeof body !== 'object' || Array.isArray(body) || Object.keys(body).some(k => !['action', 'language', 'text', 'context', 'consent'].includes(k)) || !['read', 'live'].includes(body.action) || !['en', 'hi'].includes(body.language) || body.consent !== true || typeof body.text !== 'string' || !body.text.trim() || body.text.length > (body.action === 'read' ? 420 : 2000) || (body.action === 'live' && (typeof body.context !== 'string' || !body.context.trim() || body.context.length > 12000))) throw new StudentRequestError(400, 'Provide a supported action, language, lesson text and voice consent.');
-      if (!await deps.reserve(uid, body.action)) throw new StudentRequestError(429, 'Codi has reached its voice allowance. Please try later; lessons and practice remain available.');
+      if (!body || typeof body !== 'object' || Array.isArray(body) || Object.keys(body).some(k => !['action', 'language', 'text', 'context', 'consent', 'guestId'].includes(k)) || typeof body.guestId !== 'string' || !/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(body.guestId) || !['read', 'live'].includes(body.action) || !['en', 'hi'].includes(body.language) || body.consent !== true || typeof body.text !== 'string' || !body.text.trim() || body.text.length > (body.action === 'read' ? 420 : 2000) || (body.action === 'live' && (typeof body.context !== 'string' || !body.context.trim() || body.context.length > 12000))) throw new StudentRequestError(400, 'Provide a supported action, language, lesson text, browser session and voice consent.');
+      // This ID is not authentication and can be rotated by a client. The SQL
+      // global caps, not the best-effort per-browser bucket, bound public usage.
+      if (!await deps.reserve(`guest:${body.guestId.toLowerCase()}`, body.action)) throw new StudentRequestError(429, 'Codi has reached its shared free voice allowance. Please try later; lessons and practice remain available.');
       const result = body.action === 'live' ? await mintCodiToken(deps.key, body.language, body.context, fetcher) : await generateCodiSpeech(deps.key, body.language, body.text, fetcher);
       return reply(200, result);
     } catch (error) {
