@@ -6,6 +6,7 @@ Deno.serve(createLearningQAHandler(Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || 
   const key = Deno.env.get('GEMINI_API_KEY') || '';
   if (!key) return { configured: false };
   const diagnostics: { endpoint: string; status: number; message?: string; details?: unknown[] }[] = [];
+  const events: unknown[] = [];
   const fetcher: typeof fetch = async (input, init) => {
     const response = await fetch(input, init);
     if (!response.ok) {
@@ -39,11 +40,19 @@ Deno.serve(createLearningQAHandler(Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || 
       });
       return { check, result, diagnostics };
     }
-    if (check === 'tts-en' || check === 'tts-hi') {
-      const speech = await generateCodiSpeech(key, check === 'tts-hi' ? 'hi' : 'en', 'A variable is a name that refers to a value. In Python, score equals three.', fetcher);
+    if (check === 'tts-en' || check === 'tts-ur') {
+      const started = Date.now();
+      const speech = await generateCodiSpeech(key, check === 'tts-ur' ? 'ur' : 'en', 'A variable is a name that refers to a value. In Python, score equals three.', fetcher, url => {
+        const socket = new WebSocket(url);
+        socket.addEventListener('message', async event => {
+          const msg = JSON.parse(typeof event.data === 'string' ? event.data : await event.data.text());
+          if (events.length < 20) events.push({ keys: Object.keys(msg), contentKeys: Object.keys(msg.serverContent || {}), text: (msg.serverContent?.modelTurn?.parts || []).map((p: { text?: string; inlineData?: { mimeType: string } }) => ({ text: p.text?.slice(0, 400), audio: p.inlineData?.mimeType })), transcript: msg.serverContent?.outputTranscription?.text });
+        });
+        return socket;
+      });
       const pcm = atob(speech.audio); let nonzero = false; for (let i = 0; i < pcm.length; i++) if (pcm.charCodeAt(i)) { nonzero = true; break; }
-      return { check, success: pcm.length > 1000 && nonzero, bytes: pcm.length, rate: speech.rate, model: speech.model, transcript: 'transcript' in speech ? speech.transcript : undefined, diagnostics };
+      return { check, success: pcm.length > 1000 && nonzero, bytes: pcm.length, rate: speech.rate, model: speech.model, transcript: 'transcript' in speech ? speech.transcript : undefined, elapsedMs: Date.now() - started, diagnostics };
     }
     return { error: 'Unknown check' };
-  } catch (error) { return { check, success: false, message: error instanceof Error ? error.message : 'Probe failed', diagnostics }; }
+  } catch (error) { return { check, success: false, message: error instanceof Error ? error.message : 'Probe failed', diagnostics, events }; }
 }, verifyQAServiceCredential));

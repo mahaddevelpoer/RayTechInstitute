@@ -12,7 +12,7 @@ import { loadTypescript } from './load-typescript.mjs';
 const line = await loadTypescript('src/lib/learning/codi-line.ts');
 const tutor = await loadTypescript('src/lib/learning/codi-tutor.ts');
 
-test('Codi direct inline reading, consent, stale responses, Stop, Hindi and cleanup', async () => {
+test('Codi direct inline reading, consent, stale responses, Stop, Urdu and cleanup', async () => {
   const dom = new JSDOM('<article id="lesson"><div class="codi-slot" data-codi-slot data-codi-ignore></div><p id="first">A variable stores a value.</p><p id="second">A new line.</p><pre id="code"><code>&lt;h1 class="my_title"&gt;Hello&lt;/h1&gt;</code></pre><a href="#">Link</a></article><aside id="compiler"></aside><div id="root"></div>',{url:'https://test.invalid/'});
   const names = ['window','document','Element','Node','NodeFilter','IS_REACT_ACT_ENVIRONMENT'];
   const previous = Object.fromEntries(names.map(k => [k, globalThis[k]]));
@@ -70,8 +70,9 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
     players[0].block=false; await click(button('Play audio')); assert.match(status(),/Reading the lesson/);
     await click(button('Stop')); assert.ok(players[0].paused); assert.equal(urls.size,0);
     const select=[...document.querySelectorAll('select')][1];
-    await act(async()=>{select.value='hi';select.dispatchEvent(new dom.window.Event('change',{bubbles:true}));});
-    await click(document.getElementById('first')); assert.equal(reads.at(-1).language,'hi');
+    assert.equal([...select.options].some(o=>o.value==='hi'),false,'Hindi is not a Codi language option');
+    await act(async()=>{select.value='ur';select.dispatchEvent(new dom.window.Event('change',{bubbles:true}));});
+    await click(document.getElementById('first')); assert.equal(reads.at(-1).language,'ur');
     await click(button('Stop')); assert.ok(reads.at(-1).signal.aborted);
     await click(document.querySelector('[aria-label="Codi: read the entire lesson"]'));
     await act(async()=>reads.at(-1).resolve(new Blob(['part'])));
@@ -90,6 +91,9 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
     await click(document.getElementById('code'));assert.equal(reads.at(-1).text,'<h1 class="my_title">Hello</h1>','visible HTML and underscores are not stripped');
     const beforeRemount=reads.length;
     await act(async()=>root.render(React.createElement(module.exports.CodiReader,{...props,key:'new-lesson'})));
+    await click(document.querySelector('.codi-settings-toggle'));
+    assert.equal([...document.querySelectorAll('select')][1].value,'ur','language preference survives lesson remount');
+    const restoredLanguage=[...document.querySelectorAll('select')][1];await act(async()=>{restoredLanguage.value='en';restoredLanguage.dispatchEvent(new dom.window.Event('change',{bubbles:true}));});
     assert.ok(reads.at(-1).signal.aborted);assert.equal(reads.length,beforeRemount,'restoring consent does not start speech by itself');
     await click(document.getElementById('first'));assert.equal(reads.length,beforeRemount+1,'consent survives a lesson remount in the same tab');
     await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));

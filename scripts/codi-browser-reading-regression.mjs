@@ -34,7 +34,7 @@ try{
    const language=catalog.LEARNING_LANGUAGES.find(l=>l.id===topic.languageId);
    await page.goto(`http://localhost:4178/?readingTest=1&language=${language.slug}&topic=${topic.slug}`,{waitUntil:'domcontentloaded'});
    await page.getByRole('button',{name:'Codi settings',exact:true}).waitFor();
-   await page.evaluate(async()=>{await caches.delete('codi-gemini-reading-v1');});
+   await page.evaluate(async()=>{await caches.delete('codi-gemini-reading-v2');});
    const prose=page.locator('.learning-lesson .markdown-article p').first();await prose.scrollIntoViewIfNeeded();await prose.click({position:{x:20,y:10}});
    await page.waitForFunction(()=>window.__codiAudio.some(a=>a.currentTime>.2),null,{timeout:10000});
    let codePlayed=false;const snippet=page.locator('.learning-lesson pre code').first();

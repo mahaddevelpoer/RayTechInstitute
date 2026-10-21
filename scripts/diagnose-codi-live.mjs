@@ -16,13 +16,18 @@ try {
   });
   await page.goto(process.env.CODI_TEST_URL || 'https://raytechinstitute.web.app/learn/css/how-css-rules-work/',{waitUntil:'domcontentloaded',timeout:25000});
   await page.getByRole('button',{name:'Codi settings',exact:true}).waitFor({timeout:15000});
+  if(process.env.CODI_TEST_LANGUAGE==='ur'){
+    await page.getByRole('button',{name:'Codi settings',exact:true}).click();
+    await page.getByLabel('Language',{exact:true}).selectOption('ur');
+    await page.getByRole('button',{name:'Close Codi settings',exact:true}).click();
+  }
   const paragraph=page.locator('.learning-lesson .markdown-article p').first();
-  await paragraph.waitFor();const text=await paragraph.innerText();await paragraph.click({position:{x:20,y:10}});
+  await paragraph.waitFor();const text=await paragraph.innerText();const clickedAt=Date.now();await paragraph.click({position:{x:20,y:10}});
   await page.getByRole('checkbox',{name:/Allow Gemini voice/}).check();
   let advanced=false;try{await page.waitForFunction(()=>window.__codiAudio.some(a=>a.currentTime>.25)||window.__codiSpeech.some(s=>s.started),null,{timeout:45000});advanced=true;}catch{}
   const playback=await page.evaluate(()=>window.__codiAudio.map(a=>({time:a.currentTime,duration:Number.isFinite(a.duration)?a.duration:null,paused:a.paused,error:a.error?.code||null})));
   const status=await page.locator('[role=status]').allTextContents();
   const deviceSpeech=await page.evaluate(()=>({voices:window.speechSynthesis.getVoices().length,utterances:window.__codiSpeech}));
-  console.log(JSON.stringify({paragraph:text,requests,responses,playback,deviceSpeech,advanced,status,errors},null,2));
+  console.log(JSON.stringify({paragraph:text,requests,responses,playback,deviceSpeech,advanced,clickToPlaybackMs:Date.now()-clickedAt,status,errors},null,2));
   if(!advanced)process.exitCode=1;
 } finally {await browser.close();}

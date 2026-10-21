@@ -2,6 +2,24 @@
 
 ## Click-to-read regression fixes (21 October 2026)
 
+### Everyday Urdu and latency update
+
+- Active Codi language choices are English and Urdu (`ur`), not Hindi.
+  Urdu uses everyday Pakistani phrasing, avoiding difficult literary Urdu and
+  Sanskrit-heavy Hindi; code identifiers and common programming terms stay in
+  English. Explanations use the same language policy. Transcripts use automatic
+  text direction and the language preference lasts for the current browser tab.
+- Urdu translation and audio generation share one Native Audio session instead
+  of a separate text-translation call followed by TTS and quota recovery. Reading
+  uses a zero thinking budget; explanations retain their reasoning settings.
+- Warm Edge instances remember Google's TTS retry interval, so repeated reads
+  do not repeatedly call a known rate-limited TTS endpoint. The bounded audio
+  cache has a fresh version to avoid reusing old-language audio.
+- Protected Urdu QA generated non-silent 24 kHz audio and an Urdu-script/English
+  programming transcript. Latest measured full-generation time was 12,158 ms;
+  this is one sample, not a guaranteed response time or a streaming-first-byte
+  measurement. 27 focused Codi tests passed.
+
 ### Verified upstream quota diagnosis and Native Audio recovery
 
 Protected QA using the deployed Supabase `GEMINI_API_KEY` received Google's

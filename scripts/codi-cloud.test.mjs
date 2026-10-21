@@ -33,7 +33,7 @@ test('disabled service and exhausted quota fail closed without a provider reques
   }
 });
 test('Live token is single-use, short-lived, source-bound and model locked', async () => {
-  const s = setup(); const r = await s.send({ action: 'live', language: 'hi', text: 'variable', context: 'A variable names a value.', consent: true, guestId }); assert.equal(r.status, 200);
+  const s = setup(); const r = await s.send({ action: 'live', language: 'ur', text: 'variable', context: 'A variable names a value.', consent: true, guestId }); assert.equal(r.status, 200);
   const p = s.calls.payload; assert.equal(p.uses, 1); assert.ok(Date.parse(p.expireTime) - Date.now() <= 300000); assert.ok(Date.parse(p.newSessionExpireTime) - Date.now() <= 60000);
   assert.match(p.bidiGenerateContentSetup.model, /gemini-2.5-flash-native-audio/); assert.match(p.fieldMask, /systemInstruction.*tools/);
   assert.match(p.bidiGenerateContentSetup.systemInstruction.parts[0].text, /A variable names a value/); assert.doesNotMatch(JSON.stringify(p), /test-student/);
@@ -58,6 +58,7 @@ test('TTS 429 uses source-locked Native Audio recitation and returns actual PCM 
  const tick=()=>new Promise(r=>setImmediate(r));await tick();socket.onopen();socket.onmessage({data:JSON.stringify({setupComplete:{}})});await tick();
  assert.equal(calls.length,2);assert.match(calls[1].body.bidiGenerateContentSetup.systemInstruction.parts[0].text,/Recite ONLY.*A variable stores a value\./s);
  assert.doesNotMatch(calls[1].body.bidiGenerateContentSetup.systemInstruction.parts[0].text,/Explain the learner/);assert.equal(calls[1].body.uses,1);
+  assert.equal(calls[1].body.bidiGenerateContentSetup.generationConfig.thinkingConfig.thinkingBudget,0);assert.match(calls[1].body.fieldMask,/generationConfig.thinkingConfig/);
  assert.match(socket.sent[1].clientContent.turns[0].parts[0].text,/Read the complete quoted passage/);
  socket.onmessage({data:JSON.stringify({serverContent:{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAABAA=='}}]},outputTranscription:{text:'A variable stores a value.'},turnComplete:true}})});
  const result=await pending;assert.equal(result.audio,'AAABAA==');assert.equal(result.model,'gemini-2.5-flash-native-audio-preview-12-2025');assert.equal(result.transcript,'A variable stores a value.');assert.ok(socket.closed);assert.doesNotMatch(JSON.stringify(result),/private-fixture|auth_tokens/);
@@ -69,11 +70,24 @@ test('Native Audio fallback rejects empty, interrupted and malformed readings',a
   const rejected=assert.rejects(pending,/no playable|incomplete or invalid/);await new Promise(r=>setImmediate(r));socket.onmessage({data:JSON.stringify({serverContent:content})});await rejected;assert.ok(socket.closed);
  }
 });
-test('Hindi is translated as text before the speech model recites it', async () => {
-  const urls = []; let prompt;
-  const result = await generateCodiSpeech('secret', 'hi', 'A variable names a value.', async (url, init) => {
-    urls.push(String(url)); if (urls.length === 1) return Response.json({ candidates: [{ finishReason: 'STOP', content: { parts: [{ text: 'एक वेरिएबल किसी मान को नाम देता है।' }] } }] });
-    prompt = JSON.parse(init.body).contents[0].parts[0].text; return Response.json(voice);
-  });
-  assert.match(urls[0], /gemini-2.5-flash:generateContent/); assert.match(urls[1], /preview-tts/); assert.match(prompt, /एक वेरिएबल/); assert.equal(result.rate, 24000);
+
+test('warm Edge skips repeated TTS failures during the provider retry interval',async()=>{
+ const urls=[];let socket;
+ const fetcher=async url=>{urls.push(String(url));return String(url).endsWith('auth_tokens')?Response.json({name:'auth_tokens/backoff-test'}):Response.json({error:{details:[{retryDelay:'60s'}]}},{status:429});};
+ const connect=()=>socket={send(){},close(){}};
+ for(let i=0;i<2;i++){
+  const pending=generateCodiSpeech('cooldown-fixture','en','A variable.',fetcher,connect);await new Promise(r=>setImmediate(r));socket.onmessage({data:JSON.stringify({serverContent:{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAABAA=='}}]},turnComplete:true}})});await pending;
+ }
+ assert.equal(urls.filter(u=>u.includes('preview-tts:')).length,1);assert.equal(urls.filter(u=>u.endsWith('auth_tokens')).length,2);
+});
+test('Urdu is conversational and generated in one Native Audio pass, without translation or TTS round trips', async () => {
+  const urls = []; let prompt, socket;
+  const result = generateCodiSpeech('urdu-fixture', 'ur', 'A variable names a value.', async (url, init) => {
+    urls.push(String(url));prompt=JSON.parse(init.body).bidiGenerateContentSetup.systemInstruction.parts[0].text;return Response.json({name:'auth_tokens/urdu-test'});
+  },()=>socket={send(){},close(){this.closed=true;}});
+  await new Promise(r=>setImmediate(r));assert.equal(urls.length,1);assert.match(urls[0],/auth_tokens$/);
+  assert.match(prompt,/natural conversational Pakistani Urdu/);assert.match(prompt,/Keep programming terms/);assert.match(prompt,/Translate and speak the complete quoted passage/);assert.doesNotMatch(prompt,/Devanagari|gemini-2.5-flash:generateContent/);
+  socket.onmessage({data:JSON.stringify({serverContent:{modelTurn:{parts:[{inlineData:{mimeType:'audio/pcm;rate=24000',data:'AAABAA=='}}]},turnComplete:true}})});
+  assert.equal((await result).rate,24000);
+  assert.equal((await setup().send({...read,language:'hi'})).status,400,'retired Hindi requests are rejected');
 });

@@ -11,7 +11,7 @@ const CodiRobot = dynamic(() => import('./CodiRobot').then(module => module.Codi
 export function CodiReader({ content, compiler, runSignal = 0, fullText, languageSlug, currentLesson }: {
   content: RefObject<HTMLElement>; compiler?: RefObject<HTMLElement>; runSignal?: number; fullText?: string; languageSlug?: string; currentLesson?: CodiLessonSource;
 }) {
-  const [enabled, setEnabled] = useState(false); const [language, setLanguage] = useState<'en' | 'hi'>('en');
+  const [enabled, setEnabled] = useState(false); const [language, setLanguage] = useState<'en' | 'ur'>('en');
   const [engine, setEngine] = useState<'gemini' | 'device'>('gemini'); const [mounted, setMounted] = useState(false); const [settingsOpen, setSettingsOpen] = useState(false);
   const [deviceFallback, setDeviceFallback] = useState(true); const cloudRetryAt = useRef(0);
   const settingsId = useId(); const settingsButton = useRef<HTMLButtonElement>(null); const settingsPanel = useRef<HTMLElement>(null);
@@ -82,7 +82,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
       const following = () => { if (request.current !== id) return; stop(false, false); const next = queue.current.shift(); if (next) void nextChunk.current?.(next); else setStatus('Finished. Click a line, highlight text, or click Codi to read the lesson again.'); };
       const speakDevice = (fallback = false) => {
         if (!('speechSynthesis' in window)) throw new Error('Device voice is unavailable in this browser.');
-        if (language === 'hi') throw new Error('Hindi translation requires Gemini voice. Device voice reads English text only.');
+        if (language === 'ur') throw new Error('Urdu translation requires Gemini voice. Device voice reads English text only.');
         const utterance = new SpeechSynthesisUtterance(text); utterance.lang = 'en-US'; utterance.rate = .94;
         deviceUtterance.current = utterance;
         utterance.onstart = () => { if (request.current === id) { active.current = false; setBusy(false); setSpeaking(true); setStatus(`${fallback ? 'Gemini is unavailable. ' : ''}Reading with device voice. Part ${part}.`); } };
@@ -104,7 +104,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
         try {
           url.current = URL.createObjectURL(blob);
           const player = new Audio(url.current); audio.current = player;
-          player.onplay = () => { if (request.current === id) { setSpeaking(true); setBusy(false); setPrepared(false); setStatus(`Reading ${language === 'hi' ? 'the Hindi translation' : 'the lesson'}. Part ${part}.`); } };
+          player.onplay = () => { if (request.current === id) { setSpeaking(true); setBusy(false); setPrepared(false); setStatus(`Reading ${language === 'ur' ? 'in everyday Urdu' : 'the lesson'}. Part ${part}.`); } };
           player.onended = following;
           player.onerror = () => { if (request.current === id) { stop(); setSettingsOpen(true); setStatus('Audio playback failed. Select the line again to retry.'); } };
           await player.play().catch(() => { if (request.current === id) { setBusy(false); setPrepared(true); setSettingsOpen(true); setStatus('Your browser requires a tap. Press Play audio to hear the selected text.'); } });
@@ -162,7 +162,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
     root.addEventListener('click', click); root.addEventListener('mouseup', highlight); root.addEventListener('touchend', highlight); root.addEventListener('keydown', keyboard);
     return () => { root.removeEventListener('click', click); root.removeEventListener('mouseup', highlight); root.removeEventListener('touchend', highlight); root.removeEventListener('keydown', keyboard); };
   }, [content]);
-  useEffect(() => { try { setEnabled(window.sessionStorage.getItem('codi-cloud-consent-v1') === 'yes'); } catch {} setMounted(true); }, []);
+  useEffect(() => { try { setEnabled(window.sessionStorage.getItem('codi-cloud-consent-v1') === 'yes'); if (window.sessionStorage.getItem('codi-language-v1') === 'ur') setLanguage('ur'); } catch {} setMounted(true); }, []);
   useEffect(() => {
     if (runSignal > 0) { manual.current = false; drag.current = undefined; carrier.current?.removeAttribute('data-dragging'); setSettingsOpen(false); setDock('compiler'); }
   }, [runSignal]);
@@ -203,7 +203,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
     <header><strong>Codi settings</strong><button className="codi-icon-button" aria-label="Close Codi settings" onClick={() => { setSettingsOpen(false); settingsButton.current?.focus(); }}><X size={18} /></button></header>
     <div className="codi-toolbar"><strong>Codi tutor</strong>
       <label>Voice<select value={engine} onChange={event => { stop(); setEngine(event.target.value as 'gemini' | 'device'); setStatus('Voice changed. Click a lesson line.'); }}><option value="gemini">Gemini cloud</option><option value="device">Device voice</option></select></label>
-      <label>Language<select value={language} onChange={event => { stop(); setLanguage(event.target.value as 'en' | 'hi'); }}><option value="en">English</option><option value="hi">Hindi translation</option></select></label>
+      <label>Language<select value={language} onChange={event => { const queued = pending.current; stop(); pending.current = queued; const value = event.target.value as 'en' | 'ur'; setLanguage(value); try { window.sessionStorage.setItem('codi-language-v1', value); } catch {} }}><option value="en">English</option><option value="ur">Urdu (everyday speech)</option></select></label>
       <button className="learn-button" disabled={!busy && !speaking && !prepared && !finding} onClick={() => { stop(); setStatus('Stopped.'); }}><Square size={14} />Stop</button>
       {prepared && <button className="learn-button" onClick={() => void audio.current?.play().catch(() => setStatus('Allow browser audio, then press Play again.'))}>Play audio</button>}
     </div>
@@ -211,7 +211,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
     {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={deviceFallback} onChange={event => { stop(); setDeviceFallback(event.target.checked); }} />Use device voice for English if Gemini is unavailable. Your browser or operating system provides this voice.</label>}
     {selected && <p className="codi-selected-text"><strong>Selected text</strong><code>{selected}</code></p>}
     <p role="status" className="codi-status">{status}</p>
-    {(source || translation) && <details className="codi-source"><summary>Explanation transcript and lesson source</summary>{translation && <p lang={language}>{translation}</p>}{source && <><p>{source.relation === 'current' ? 'This lesson' : source.relation === 'previous' ? 'Earlier lesson' : 'Upcoming lesson'}: {source.section}</p><a href={languageSlug ? `/learn/${languageSlug}/${source.slug}/` : '#'}>Read {source.title}</a></>}</details>}
+    {(source || translation) && <details className="codi-source"><summary>Explanation transcript and lesson source</summary>{translation && <p lang={language} dir="auto">{translation}</p>}{source && <><p>{source.relation === 'current' ? 'This lesson' : source.relation === 'previous' ? 'Earlier lesson' : 'Upcoming lesson'}: {source.section}</p><a href={languageSlug ? `/learn/${languageSlug}/${source.slug}/` : '#'}>Read {source.title}</a></>}</details>}
   </section>;
   return mounted ? createPortal(<aside className="codi-reader" data-codi-ignore aria-label="Codi robot tutor">
     {settingsOpen && controls}

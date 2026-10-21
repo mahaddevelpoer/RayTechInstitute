@@ -1,6 +1,6 @@
 import { codiWav } from './codi-line';
-type Language = 'en' | 'hi';
-const cacheName = 'codi-gemini-reading-v1';
+type Language = 'en' | 'ur';
+const cacheName = 'codi-gemini-reading-v2';
 const model = 'gemini-2.5-flash-preview-tts';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://btxrkhwyugzliswznkpx.supabase.co';
 let guestId: string;
@@ -27,7 +27,8 @@ function decodePcm(data: string): Float32Array {
 }
 /** Bounded, local audio cache only. Tokens and Firebase identity are never cached. */
 export async function codiCloudReading(text: string, language: Language, signal: AbortSignal): Promise<Blob> {
-  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${model}:Kore:${language}:${text}`)));
+  if (signal.aborted) throw new DOMException('Stopped', 'AbortError');
+  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`everyday-urdu-v1:${model}:Kore:${language}:${text}`)));
   const hash = Array.from(digest, b => b.toString(16).padStart(2, '0')).join('');
   const key = `${location.origin}/codi/audio-cache/${hash}.wav`;
   let cache: Cache | undefined;

@@ -29,7 +29,7 @@ test('reading caches bounded WAV audio, never tokens, and separates languages',a
   const f=fixture(),signal=new AbortController().signal;
   assert.equal((await f.codiCloudReading('A variable names a value.','en',signal)).type,'audio/wav');
   await f.codiCloudReading('A variable names a value.','en',signal);assert.equal(f.calls.length,1);
-  await f.codiCloudReading('A variable names a value.','hi',signal);assert.equal(f.calls.length,2);
+  await f.codiCloudReading('A variable names a value.','ur',signal);assert.equal(f.calls.length,2);
   assert.doesNotMatch([...f.store.keys()].join(' '),/firebase|variable|auth_tokens/);
   for(let i=0;i<30;i++) await f.codiCloudReading('Line '+i,'en',signal);
   assert.equal(f.store.size,24);
