@@ -8,7 +8,7 @@ export function codiSentences(text: string, protectedRanges: {start:number;end:n
     let end = i + 1; while (end < text.length && /[.!?۔؟"'”’\])]/.test(text[end])) end++;
     if (end < text.length && !/\s/.test(text[end])) continue;
     const prefix = text.slice(start, i + 1);
-    if (text[i] === '.' && /(?:\b(?:e\.g|i\.e|Mr|Mrs|Ms|Dr|Prof|vs|etc|Fig|No|St)|\b[A-Z]|\b(?:[A-Za-z]\.){2,})\.$/i.test(prefix)) continue;
+    if (text[i] === '.' && /(?:\b(?:e\.g|i\.e|Mr|Mrs|Ms|Dr|Prof|vs|etc|Fig|No|St)|\b(?:[A-Za-z]\.){2,})\.$/i.test(prefix)) continue;
     const sentence = normalizeCodiText(text.slice(start, end)); if (sentence) result.push(sentence);
     start = end; i = end - 1;
   }

@@ -10,6 +10,7 @@ const {codiLineAt}=await loadTypescript('src/lib/learning/codi-line.ts');
 test('sentence IDs follow punctuation, not visual wraps, domains or decimal points',()=>{
  assert.deepEqual(codiSentences('Use 3.14 as a value. Visit example.com for a guide. Next sentence!'),['Use 3.14 as a value.','Visit example.com for a guide.','Next sentence!']);
  assert.deepEqual(codiSentences('Use e.g. a variable. Try i.e. an example. Dr. Khan teaches here.'),['Use e.g. a variable.','Try i.e. an example.','Dr. Khan teaches here.']);
+ assert.deepEqual(codiSentences('Name it x. Next, change it.'),['Name it x.','Next, change it.']);
  assert.equal(codiAudioKeyMaterial(' A value.\n','ur'),codiAudioKeyMaterial('A value.','ur'));assert.notEqual(codiAudioKeyMaterial('A value.','en'),codiAudioKeyMaterial('A value.','ur'));
 });
 test('sentence click returns the whole unit and still ignores navigation links and ordinary buttons',()=>{
