@@ -21,3 +21,4 @@ await fs.writeFile('src/data/learningCatalog.ts', contents.replace(/\u2014/g, '-
 console.log(`[learning] Exported ${snapshot.courses.length} courses, ${snapshot.languages.length} languages and ${snapshot.topics.length} published lessons.`);
 await import('./generate-reviewed-lessons.mjs');
 await import('./prepare-codi-lessons.mjs');
+await import('./prepare-learning-directory.mjs');

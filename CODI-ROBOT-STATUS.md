@@ -1,5 +1,29 @@
 # Codi robot tutor: local preview
 
+## Click-to-read regression fixes (21 October 2026)
+
+- Granting consent now resumes the pending clicked text without a second click.
+  Consent is retained only in the current tab's session storage; it never starts
+  speech automatically on a new lesson. Turning it off removes that preference.
+- Visible clicked text is treated as plain text. HTML tags, underscores and
+  operators are not stripped as Markdown. Whole-lesson narration protects code
+  blocks and inline code while removing prose markup.
+- Settings show the exact selected text. The robot indicates preparation,
+  reading or a browser requirement to press Play rather than appearing inert.
+- 22 focused Codi tests passed. A real production CSS line reached Gemini and
+  real HTMLAudioElement playback advanced, with no page errors. A separate local
+  browser regression exercised prose and code clicks in all 24 published lessons
+  using synthetic PCM transport responses (not 24 Gemini pronunciation tests).
+- Cloud voice still has enforced shared quotas and can return quota/provider
+  errors. Those are surfaced in settings; this is not unlimited speech.
+- Homepage now has public static course previews, working language tabs and
+  lesson links, restrained motion, reduced-motion support and responsive themes.
+  Five language tabs were checked at 360, 768 and 1366 px in light/dark modes,
+  including keyboard navigation. Previews exclude questions and assignments.
+
+The older local-neural implementation notes below are historical, not the
+current cloud speech configuration.
+
 ## Guest cloud voice update
 
 At the user's request Codi no longer requires sign-in. The voice client does

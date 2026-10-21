@@ -2,6 +2,12 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { loadTypescript } from './load-typescript.mjs';
 const { codiSpeechChunks, codiNarration, findCodiExplanation, codiDockPoint, codiRobotPose, clampCodiPosition, codiSettingsPosition } = await loadTypescript('src/lib/learning/codi-tutor.ts');
+test('clicked visible code is not mistaken for Markdown or HTML markup',()=>{
+  assert.deepEqual(codiSpeechChunks('<div class="my_card">','text'),['<div class="my_card">']);
+  assert.deepEqual(codiSpeechChunks('total_score = first_value * 2','text'),['total_score = first_value * 2']);
+  assert.match(codiNarration('Use `my_name` here.\n```html\n<h1>Hello</h1>\n```'),/my_name/);
+  assert.match(codiNarration('```html\n<h1>Hello</h1>\n```'),/<h1>Hello<\/h1>/);
+});
 test('whole-lesson narration retains the final paragraph and has bounded speech requests', () => {
   const lesson = '# Variables\n\n' + 'A variable names a value. '.repeat(200) + '\n\nThe final paragraph is included.';
   const chunks = codiSpeechChunks(lesson);

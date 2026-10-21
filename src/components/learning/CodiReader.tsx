@@ -14,7 +14,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   const [enabled, setEnabled] = useState(false); const [language, setLanguage] = useState<'en' | 'hi'>('en');
   const [engine, setEngine] = useState<'gemini' | 'device'>('gemini'); const [mounted, setMounted] = useState(false); const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsId = useId(); const settingsButton = useRef<HTMLButtonElement>(null); const settingsPanel = useRef<HTMLElement>(null);
-  const [, setSelected] = useState(''); const [translation, setTranslation] = useState(''); const [status, setStatus] = useState('Click Codi to read the lesson, or click a lesson line.');
+  const [selected, setSelected] = useState(''); const [translation, setTranslation] = useState(''); const [status, setStatus] = useState('Click Codi to read the lesson, or click a lesson line.');
   const [speaking, setSpeaking] = useState(false); const [busy, setBusy] = useState(false); const [prepared, setPrepared] = useState(false); const [finding, setFinding] = useState(false);
   const [source, setSource] = useState<CodiExplanation | null>(null); const [dock, setDock] = useState<'lesson' | 'compiler' | 'free'>('lesson'); const [flying, setFlying] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0, width: 1024, height: 768, ready: false });
@@ -23,6 +23,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   const drag = useRef<{ id: number; startX: number; startY: number; x: number; y: number; moved: boolean }>();
   const audio = useRef<HTMLAudioElement>(); const context = useRef<AudioContext>(); const url = useRef(''); const request = useRef(''); const active = useRef(false); const voice = useRef<AbortController>();
   const queue = useRef<string[]>([]); const total = useRef(0); const pending = useRef(''); const interaction = useRef(0); const lookup = useRef<AbortController>(); const sources = useRef<CodiLessonSource[]>();
+  const pendingMarkdown = useRef(false);
   const nextChunk = useRef<(text: string) => Promise<void>>();
   function viewport() {
     return { width: Math.min(window.innerWidth, window.visualViewport?.width || window.innerWidth), height: Math.min(window.innerHeight, window.visualViewport?.height || window.innerHeight) };
@@ -95,20 +96,20 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
           player.onplay = () => { if (request.current === id) { setSpeaking(true); setBusy(false); setPrepared(false); setStatus(`Reading ${language === 'hi' ? 'the Hindi translation' : 'the lesson'}. Part ${part}.`); } };
           player.onended = following;
           player.onerror = () => { if (request.current === id) { stop(); setSettingsOpen(true); setStatus('Audio playback failed. Select the line again to retry.'); } };
-          await player.play().catch(() => { if (request.current === id) { setBusy(false); setPrepared(true); setStatus('Press Play prepared audio to allow browser playback.'); } });
+          await player.play().catch(() => { if (request.current === id) { setBusy(false); setPrepared(true); setSettingsOpen(true); setStatus('Your browser requires a tap. Press Play audio to hear the selected text.'); } });
         } catch { if (request.current === id) { stop(); setStatus('This part could not play. Try a shorter selection.'); } }
     } catch (error) { if (request.current === id) { stop(); setSettingsOpen(true); setStatus(error instanceof Error ? error.message.slice(0, 250) : 'Speech is unavailable. The lesson remains readable.'); } }
   }
   nextChunk.current = readChunk;
-  function beginReading(text: string) {
-    const chunks = codiSpeechChunks(text); stop(active.current);
-    if (!chunks.length) { setStatus('There is no readable lesson text in this selection.'); return; }
+  function beginReading(text: string, markdown = false) {
+    const chunks = codiSpeechChunks(text, markdown ? 'markdown' : 'text'); stop(active.current);
+    if (!chunks.length) { setSettingsOpen(true); setStatus('There is no readable lesson text in this selection.'); return; }
     total.current = chunks.length; queue.current = chunks; void readChunk(queue.current.shift()!);
   }
-  function requestReading(text: string) {
+  function requestReading(text: string, markdown = false) {
     if (!manual.current) setDock('lesson');
-    if (engine === 'gemini' && !enabled) { pending.current = text; setSelected(codiSpeechChunks(text)[0] || ''); setSettingsOpen(true); setStatus('Tick Allow Gemini voice to send lesson text to Google, or choose Device voice.'); return; }
-    beginReading(text);
+    if (engine === 'gemini' && !enabled) { pending.current = text; pendingMarkdown.current = markdown; setSelected(codiSpeechChunks(text, markdown ? 'markdown' : 'text')[0] || ''); setSettingsOpen(true); setStatus('Allow Gemini voice to read your selected text. It will start when you allow it.'); return; }
+    beginReading(text, markdown);
   }
   async function explain(text: string) {
     stop(); const id = interaction.current; if (!manual.current) setDock('lesson'); setFinding(true); setStatus('Looking for an explanation in the published lessons...'); lookup.current = new AbortController();
@@ -150,7 +151,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
     root.addEventListener('click', click); root.addEventListener('mouseup', highlight); root.addEventListener('touchend', highlight); root.addEventListener('keydown', keyboard);
     return () => { root.removeEventListener('click', click); root.removeEventListener('mouseup', highlight); root.removeEventListener('touchend', highlight); root.removeEventListener('keydown', keyboard); };
   }, [content]);
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => { try { setEnabled(window.sessionStorage.getItem('codi-cloud-consent-v1') === 'yes'); } catch {} setMounted(true); }, []);
   useEffect(() => {
     if (runSignal > 0) { manual.current = false; drag.current = undefined; carrier.current?.removeAttribute('data-dragging'); setSettingsOpen(false); setDock('compiler'); }
   }, [runSignal]);
@@ -195,7 +196,8 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
       <button className="learn-button" disabled={!busy && !speaking && !prepared && !finding} onClick={() => { stop(); setStatus('Stopped.'); }}><Square size={14} />Stop</button>
       {prepared && <button className="learn-button" onClick={() => void audio.current?.play().catch(() => setStatus('Allow browser audio, then press Play again.'))}>Play audio</button>}
     </div>
-    {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={enabled} onChange={event => { stop(); setEnabled(event.target.checked); setStatus(event.target.checked ? 'Voice allowed. Click a lesson line to start.' : 'Cloud voice is off.'); }} />Allow Gemini voice: selected lesson text goes to Google. Free-tier data may improve its products. No sign-in needed. <a href="/privacy-policy/">Privacy</a></label>}
+    {engine === 'gemini' && <label className="codi-consent"><input type="checkbox" checked={enabled} onChange={event => { const text = pending.current; const markdown = pendingMarkdown.current; const allowed = event.target.checked; stop(); setEnabled(allowed); try { if (allowed) window.sessionStorage.setItem('codi-cloud-consent-v1', 'yes'); else window.sessionStorage.removeItem('codi-cloud-consent-v1'); } catch {} setStatus(allowed ? 'Voice allowed for this tab. Click a lesson line to read it.' : 'Cloud voice is off.'); if (allowed && text) beginReading(text, markdown); }} />Allow Gemini voice for this tab: selected lesson text goes to Google. Free-tier data may improve its products. No sign-in needed. <a href="/privacy-policy/">Privacy</a></label>}
+    {selected && <p className="codi-selected-text"><strong>Selected text</strong><code>{selected}</code></p>}
     <p role="status" className="codi-status">{status}</p>
     {(source || translation) && <details className="codi-source"><summary>Explanation transcript and lesson source</summary>{translation && <p lang={language}>{translation}</p>}{source && <><p>{source.relation === 'current' ? 'This lesson' : source.relation === 'previous' ? 'Earlier lesson' : 'Upcoming lesson'}: {source.section}</p><a href={languageSlug ? `/learn/${languageSlug}/${source.slug}/` : '#'}>Read {source.title}</a></>}</details>}
   </section>;
@@ -205,7 +207,8 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
     <span id={`${settingsId}-drag-hint`} className="sr-only">Click to read the lesson. Drag Codi to move it, or focus Codi and use the arrow keys. Hold Shift for larger steps.</span>
     <div ref={carrier} className="codi-carrier" data-dock={dock} data-flying={flying} style={{ transform: `translate3d(${position.x}px,${position.y}px,0)`, visibility: position.ready ? 'visible' : 'hidden' }}>
       <button ref={settingsButton} className="codi-icon-button codi-settings-toggle" aria-label="Codi settings" aria-expanded={settingsOpen} aria-controls={settingsId} onClick={() => setSettingsOpen(value => !value)}><Settings2 size={17} /></button>
-      <button className="codi-robot-button" aria-label="Codi: read the entire lesson" aria-describedby={`${settingsId}-drag-hint`} title="Click to read. Drag to move Codi." onPointerDown={startDrag} onPointerMove={moveDrag} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onKeyDown={moveWithKeyboard} onClick={event => { if (suppressClick.current) { event.preventDefault(); suppressClick.current = false; return; } setSource(null); requestReading(fullText || currentLesson?.content || ''); }}><CodiRobot speaking={speaking} flying={flying} /></button>
+      <button className="codi-robot-button" aria-label="Codi: read the entire lesson" aria-describedby={`${settingsId}-drag-hint`} title="Click to read. Drag to move Codi." onPointerDown={startDrag} onPointerMove={moveDrag} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onKeyDown={moveWithKeyboard} onClick={event => { if (suppressClick.current) { event.preventDefault(); suppressClick.current = false; return; } setSource(null); requestReading(fullText || currentLesson?.content || '', true); }}><CodiRobot speaking={speaking} flying={flying} /></button>
+      {(busy || finding || speaking || prepared) && <span className="codi-activity" aria-hidden="true">{prepared ? 'Tap settings to play' : speaking ? 'Reading' : 'Preparing voice...'}</span>}
       {flying && <span className="codi-thrust" aria-hidden="true" />}
     </div>
   </aside>, document.body) : null;

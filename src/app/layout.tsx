@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./learning.css";
 import "./codi.css";
+import "./home.css";
 import { channelData } from "@/data/channel";
 import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 import { ThemeProvider } from "@/hooks/useTheme";

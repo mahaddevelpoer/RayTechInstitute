@@ -13,7 +13,7 @@ const line = await loadTypescript('src/lib/learning/codi-line.ts');
 const tutor = await loadTypescript('src/lib/learning/codi-tutor.ts');
 
 test('Codi direct inline reading, consent, stale responses, Stop, Hindi and cleanup', async () => {
-  const dom = new JSDOM('<article id="lesson"><div class="codi-slot" data-codi-slot data-codi-ignore></div><p id="first">A variable stores a value.</p><p id="second">A new line.</p><a href="#">Link</a></article><aside id="compiler"></aside><div id="root"></div>');
+  const dom = new JSDOM('<article id="lesson"><div class="codi-slot" data-codi-slot data-codi-ignore></div><p id="first">A variable stores a value.</p><p id="second">A new line.</p><pre id="code"><code>&lt;h1 class="my_title"&gt;Hello&lt;/h1&gt;</code></pre><a href="#">Link</a></article><aside id="compiler"></aside><div id="root"></div>',{url:'https://test.invalid/'});
   const names = ['window','document','Element','Node','NodeFilter','IS_REACT_ACT_ENVIRONMENT'];
   const previous = Object.fromEntries(names.map(k => [k, globalThis[k]]));
   Object.assign(globalThis, { window: dom.window, document: dom.window.document, Element: dom.window.Element, Node: dom.window.Node, NodeFilter: dom.window.NodeFilter, IS_REACT_ACT_ENVIRONMENT: true });
@@ -61,7 +61,8 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
     await pointer(document.body,'pointerdown',10,10);assert.equal(document.querySelector('.codi-settings'),null,'outside click closes settings');
     await click(document.querySelector('.codi-settings-toggle'));
     await click(document.querySelector('input[type=checkbox]'));
-    await click(document.getElementById('first')); assert.equal(reads.length,1);
+    assert.equal(reads.length,1,'allowing consent automatically resumes the originally clicked line');
+    assert.equal(reads[0].text,'A variable stores a value.');
     await click(document.getElementById('second')); assert.ok(reads[0].signal.aborted); assert.equal(reads.length,2);
     await act(async()=>reads[0].resolve(new Blob(['old']))); assert.equal(players.length,0,'stale response ignored');
     await act(async()=>reads[1].resolve(new Blob(['new']))); assert.ok(button('Play audio'));
@@ -85,6 +86,11 @@ test('Codi direct inline reading, consent, stale responses, Stop, Hindi and clea
     await pointer(robot,'pointerdown',50,50,2);await pointer(robot,'pointermove',-5000,-5000,2);await pointer(robot,'pointercancel',-5000,-5000,2);
     assert.match(carrier.style.transform,/translate3d\(0px,0px,0\)/,'cancelled touch drag stays in viewport');
     assert.equal(carrier.hasAttribute('data-dragging'),false);
+    await click(document.getElementById('code'));assert.equal(reads.at(-1).text,'<h1 class="my_title">Hello</h1>','visible HTML and underscores are not stripped');
+    const beforeRemount=reads.length;
+    await act(async()=>root.render(React.createElement(module.exports.CodiReader,{...props,key:'new-lesson'})));
+    assert.ok(reads.at(-1).signal.aborted);assert.equal(reads.length,beforeRemount,'restoring consent does not start speech by itself');
+    await click(document.getElementById('first'));assert.equal(reads.length,beforeRemount+1,'consent survives a lesson remount in the same tab');
     await act(async()=>root.unmount()); assert.ok(reads.at(-1).signal.aborted); assert.equal(urls.size,0);
     assert.equal(document.querySelector('.codi-reader'),null);
   } finally { if(document.getElementById('root')?.childNodes.length) await act(async()=>root.unmount()); Object.assign(globalThis,previous);dom.window.close(); }

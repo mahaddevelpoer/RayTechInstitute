@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { TheWork } from "@/components/TheWork";
@@ -17,6 +17,13 @@ import { useYouTubeSync } from "@/hooks/useYouTubeSync";
 import { AdReservation } from '@/components/AdReservation';
 
 export default function HomePage() {
+  const homeContent = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+    const observer = new IntersectionObserver(entries => { for (const entry of entries) if (entry.isIntersecting) { entry.target.classList.add('home-section-enter'); observer.unobserve(entry.target); } }, { threshold: .06 });
+    homeContent.current?.querySelectorAll(':scope > section:not(:first-child)').forEach(section => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
   const { lectures, isLiveConnected, isSyncing } = useYouTubeSync();
   const [activeLectureId, setActiveLectureId] = useState<string | null>(null);
   const [selectedCategoryFilter, setSelectedCategoryFilter] =
@@ -39,12 +46,12 @@ export default function HomePage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-white text-slate-800 flex flex-col">
+    <div className="home-page relative min-h-screen bg-white text-slate-800 flex flex-col">
       {/* Top Header */}
       <Header />
 
       {/* Main Educational Sections */}
-      <main id="main-content" tabIndex={-1} className="flex-1">
+      <main ref={homeContent} id="main-content" tabIndex={-1} className="flex-1">
         {/* Hero Banner */}
         <Hero />
 
