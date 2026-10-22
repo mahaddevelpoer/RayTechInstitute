@@ -4,10 +4,31 @@ import { studentReviewKey } from '../_shared/student-review-config.ts';
 import { REVIEW_MODEL } from '../_shared/assignment-review.ts';
 import { learningYouTubeKey } from '../_shared/learning-videos.ts';
 import { generateLearningDots, LEARNING_DOTS_MODEL } from '../_shared/learning-dots.ts';
+import { createLearningRepository } from '../_shared/learning-repository.ts';
+import { handleLearningAdmin } from '../_shared/learning-admin.ts';
+import { readEducationalCatalog } from '../_shared/content-mutations.ts';
+import { generateLearningGemini } from '../_shared/learning-provider.ts';
 
 const serviceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || '';
 // Absolute expiry: never becomes a permanent privileged bypass after a cold start.
-Deno.serve(createLearningQAHandler(serviceKey, Date.parse('2026-10-21T00:00:00Z'), async request => {
+Deno.serve(createLearningQAHandler(serviceKey, Date.parse('2026-10-22T12:00:00Z'), async request => {
+  if(new URL(request.url).searchParams.get('check')==='gemini-stream'){
+    let chunks=0;const text=await generateLearningGemini(Deno.env.get('GEMINI_API_KEY')||'','Return a valid JSON object only.','Synthetic connectivity test: return exactly {"content":"OK"}.','content',e=>{if(e.type==='delta')chunks++;});return{temporaryQA:true,validJson:JSON.parse(text)?.content==='OK',chunks,databaseWrites:0};
+  }
+  if(new URL(request.url).searchParams.get('check')==='gemini-generation'){
+    const key=Deno.env.get('GEMINI_API_KEY')||'';
+    const catalog=await(await fetch('https://generativelanguage.googleapis.com/v1beta/models',{headers:{'x-goog-api-key':key},signal:AbortSignal.timeout(10000)})).json();
+    const names=(catalog.models||[]).filter((m:{supportedGenerationMethods?:string[]})=>m.supportedGenerationMethods?.includes('generateContent')).map((m:{name:string})=>m.name.replace('models/',''));
+    const model=['gemini-3.1-flash-lite','gemini-2.5-flash-lite'].find(n=>names.includes(n));if(!model)return{temporaryQA:true,verifiedResponse:false,reason:'Configured Flash Lite models are unavailable',databaseWrites:0};
+    const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{method:'POST',headers:{'Content-Type':'application/json','x-goog-api-key':key},body:JSON.stringify({contents:[{parts:[{text:'Synthetic connectivity test. Reply exactly OK.'}]}],generationConfig:{maxOutputTokens:32,temperature:0}}),signal:AbortSignal.timeout(45000)});
+    const data=await r.json();return {temporaryQA:true,httpStatus:r.status,model,verifiedResponse:r.ok&&data.candidates?.[0]?.content?.parts?.some((p:{text?:string})=>p.text?.trim()==='OK'),databaseWrites:0};
+  }
+  if(new URL(request.url).searchParams.get('check')==='catalog'){
+    const repository=createLearningRepository(Deno.env.get('SUPABASE_URL')||'',serviceKey,async()=>{});
+    const result=await handleLearningAdmin('learning_catalog',{},repository);
+    const content=await readEducationalCatalog(Deno.env.get('SUPABASE_URL')||'',serviceKey);
+    return {temporaryQA:true,topics:result.topics?.length,python:result.topics?.filter(t=>t.topic.languageId==='python').length,contentTables:Object.fromEntries(Object.entries(content.tables).map(([name,rows])=>[name,rows.length])),databaseWrites:0};
+  }
   if (new URL(request.url).searchParams.get('check') === 'dots-stream') {
     const started = Date.now(); let chunks = 0; let firstChunkMs: number | null = null;
     try {

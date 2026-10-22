@@ -30,6 +30,8 @@ export default function AdminDashboardPage() {
   });
 
   useEffect(() => {
+    let alive=true;
+    void EducationalStore.syncFromSupabase(true).then(()=>{if(!alive)return;
     setStats({
       classes: EducationalStore.getClasses().length,
       subjects: EducationalStore.getSubjects().length,
@@ -40,6 +42,7 @@ export default function AdminDashboardPage() {
       blogs: EducationalStore.getBlogs().length,
       videoMCQs: EducationalStore.getVideoMCQs().length,
     });
+    });return()=>{alive=false;};
   }, []);
 
   const statCards = [
@@ -83,6 +86,7 @@ export default function AdminDashboardPage() {
           </Link>
         </div>
       </div>
+      <section className="rounded-lg border border-slate-200 bg-white p-5"><h2 className="text-lg font-semibold">What would you like to do?</h2><p className="my-3 text-sm text-slate-600">Choose the content type directly. Save the item, then check publishing status before opening its public page.</p><div className="grid gap-3 sm:grid-cols-2"><Link className="learn-button justify-between" href="/admin/gazettes/">Add or update a gazette<ArrowRight size={17}/></Link><Link className="learn-button justify-between" href="/admin/notes/">Add notes and a PDF<ArrowRight size={17}/></Link><Link className="learn-button justify-between" href="/admin/courses/">Edit lessons or attach a video<ArrowRight size={17}/></Link><Link className="learn-button justify-between" href="/admin/blogs/">Write an update or attach a document<ArrowRight size={17}/></Link></div></section>
 
       {/* Numerical Stats Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

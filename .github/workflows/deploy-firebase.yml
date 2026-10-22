@@ -32,9 +32,11 @@ jobs:
         run: npm ci
 
       - name: Validate source and catalog behaviour
-        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs scripts/codi-audio-cache.test.mjs scripts/codi-storage-cache.test.mjs scripts/learning-workspace.test.mjs scripts/lesson-depth.test.mjs scripts/practice-security.test.mjs
+        if: github.event_name != 'repository_dispatch'
+        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs scripts/codi-audio-cache.test.mjs scripts/codi-storage-cache.test.mjs scripts/learning-workspace.test.mjs scripts/lesson-depth.test.mjs scripts/practice-security.test.mjs scripts/resource-reliability.test.mjs scripts/learning-provider.test.mjs scripts/admin-catalog.test.mjs
 
       - name: Use Java 21 for local Firestore rules tests
+        if: github.event_name != 'repository_dispatch'
         uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -44,10 +46,16 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Verify sentence hover, layout and original teaching controls
+        if: github.event_name != 'repository_dispatch'
         run: node --max-old-space-size=384 scripts/codi-sentence-browser.mjs
 
       - name: Verify private student progress rules
+        if: github.event_name != 'repository_dispatch'
         run: npm run test:rules
+
+      - name: Validate changed content before a content-only release
+        if: github.event_name == 'repository_dispatch'
+        run: node --test scripts/learning-snapshot.test.mjs scripts/educational.test.mjs scripts/resource-reliability.test.mjs
 
       - name: Build static catalog and website
         env:
@@ -91,4 +99,16 @@ jobs:
         with:
           name: learning-presentation
           path: artifacts/learning-presentation/*.png
+          if-no-files-found: ignore
+
+      - name: Verify all redesigned resource directories and video placement
+        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
+        run: node --max-old-space-size=384 scripts/verify-resource-pages.mjs
+
+      - name: Retain resource page screenshots
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-pages
+          path: artifacts/resource-pages/*.png
           if-no-files-found: ignore

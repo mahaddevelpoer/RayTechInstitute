@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
       <main
         id="main-content"
         tabIndex={-1}
-        className="flex-1 py-10 px-4 sm:px-6 max-w-4xl mx-auto w-full"
+        className="legal-page flex-1 py-10 px-4 sm:px-6 max-w-4xl mx-auto w-full"
       >
         {/* Breadcrumb */}
         <nav className="breadcrumb">
@@ -52,14 +52,15 @@ export default function PrivacyPolicyPage() {
           <p className="text-xs text-slate-500">Last Updated: October 2026</p>
         </div>
 
+        <nav className="legal-contents" aria-label="On this page"><h2>On this page</h2><ol>{["Optional Codi voice tutor","1. Introduction","2. Information Collection","3. In-Browser Python Terminal Execution","4. Third-Party Integrations","5. Assignment Feedback","6. Contact Information"].map((title,index)=><li key={title}><a href={`#policy-section-${index+1}`}>{title}</a></li>)}</ol></nav>
         <div className="edu-card p-6 sm:p-8 space-y-6 text-sm text-slate-700 leading-relaxed">
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">Optional Codi voice tutor</h2>
+            <h2 id="policy-section-1" className="text-lg font-bold text-navy-900">Optional Codi voice tutor</h2>
             <p>Codi cloud voice is optional, requires your explicit consent and does not require sign-in. A random browser-session identifier is used for a best-effort usage allowance, alongside enforced shared service limits. Selected lesson text and the relevant lesson excerpt are sent to Google Gemini to generate speech or an explanation. We do not request microphone or camera access. Google's free-tier processing may use submitted content to improve its products. Do not include passwords, personal information or private code in voice requests.</p>
             <p>Generated reading audio may be stored in a bounded browser cache on your device so it can be reused. Clear this site's browser storage to remove it. Cloud voice has usage limits and may be unavailable. English device voice does not use our Gemini service, although your browser or operating system may use its own speech provider. Lessons and practice remain available without cloud voice. Generated explanations and translations can contain mistakes.</p>
           </section>
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">1. Introduction</h2>
+            <h2 id="policy-section-2" className="text-lg font-bold text-navy-900">1. Introduction</h2>
             <p>
               RayTech Institute operates as a free digital educational
               repository for Intermediate (11th and 12th Classes) computer
@@ -70,7 +71,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-3" className="text-lg font-bold text-navy-900">
               2. Information Collection
             </h2>
             <p>
@@ -91,7 +92,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-4" className="text-lg font-bold text-navy-900">
               3. In-Browser Python Terminal Execution
             </h2>
             <p>
@@ -104,7 +105,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-5" className="text-lg font-bold text-navy-900">
               4. Third-Party Integrations
             </h2>
             <p>
@@ -115,7 +116,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-6" className="text-lg font-bold text-navy-900">
               5. Assignment Feedback
             </h2>
             <p>
@@ -138,7 +139,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-7" className="text-lg font-bold text-navy-900">
               6. Contact Information
             </h2>
             <p>

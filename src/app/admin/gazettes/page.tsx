@@ -40,8 +40,8 @@ export default function AdminGazettesPage() {
   const [session, setSession] = useState('1st Annual Examination');
   const [pdfUrl, setPdfUrl] = useState('');
   const [directResultUrl, setDirectResultUrl] = useState('https://www.biselahore.com/');
-  const [totalCandidates, setTotalCandidates] = useState('190,000 Candidates');
-  const [passingPercentage, setPassingPercentage] = useState('68.5%');
+  const [totalCandidates, setTotalCandidates] = useState('');
+  const [passingPercentage, setPassingPercentage] = useState('');
   const [content, setContent] = useState('');
   const [hasActionButton, setHasActionButton] = useState(false);
   const [actionButtonText, setActionButtonText] = useState('Download Official Gazette PDF');
@@ -65,9 +65,9 @@ export default function AdminGazettesPage() {
 
   const loadData = async () => {
     setIsSyncing(true);
-    await EducationalStore.syncFromSupabase();
-    setGazettes(EducationalStore.getGazettes());
-    setIsSyncing(false);
+    try { await EducationalStore.syncFromSupabase(true); setGazettes(EducationalStore.getGazettes()); }
+    catch { setErrorMsg('Gazettes could not be refreshed. Saved data has not been changed. Try again.'); }
+    finally { setIsSyncing(false); }
   };
 
   useEffect(() => {
@@ -113,8 +113,8 @@ export default function AdminGazettesPage() {
     resetForm();
     setSuccessMsg(
       editingId
-        ? `Gazette "${newGazette.title}" updated successfully!`
-        : `Gazette "${newGazette.title}" published successfully!`
+        ? `Gazette "${newGazette.title}" saved. Its public page updates after the website rebuild.`
+        : `Gazette "${newGazette.title}" saved. Its public page appears after the website rebuild.`
     );
     setTimeout(() => setSuccessMsg(''), 4000);
   });
@@ -148,8 +148,8 @@ export default function AdminGazettesPage() {
     setTitle('');
     setPdfUrl('');
     setDirectResultUrl('https://www.biselahore.com/');
-    setTotalCandidates('190,000 Candidates');
-    setPassingPercentage('68.5%');
+    setTotalCandidates('');
+    setPassingPercentage('');
     setContent('');
     setHasActionButton(false);
     setActionButtonText('Download Official Gazette PDF');
@@ -246,7 +246,7 @@ export default function AdminGazettesPage() {
             className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-bold rounded bg-emerald-700 hover:bg-emerald-800 text-white transition-colors shadow-sm"
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>✨ Write Gazette with AI</span>
+            <span>Write Gazette with AI</span>
           </button>
 
           <button
@@ -255,7 +255,7 @@ export default function AdminGazettesPage() {
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
-            <span>{isSyncing ? 'Syncing...' : 'Sync Supabase'}</span>
+            <span>{isSyncing ? 'Refreshing...' : 'Refresh list'}</span>
           </button>
         </div>
       </div>

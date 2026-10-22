@@ -73,50 +73,6 @@ function saveToStorage<T>(key: string, data: T): void {
   } catch {}
 }
 
-// Ask the deployed Edge Function to start the static rebuild immediately after
-// an admin mutation. The database webhook remains a server-side backup, while
-// this path gives the admin panel a deterministic publish trigger.
-async function requestStaticRebuild(table: string, id?: string): Promise<void> {
-  const notify = (status: string, message: string) =>
-    window.dispatchEvent(
-      new CustomEvent("raytech-publish-status", {
-        detail: { status, message },
-      }),
-    );
-  try {
-    const { data, error } = await supabase.functions.invoke("secure-dispatch", {
-      body: {
-        action: "trigger_static_rebuild",
-        payload: { table, id: id || null },
-      },
-    });
-    if (error || !data?.success) throw new Error("Rebuild trigger failed");
-    notify(
-      "queued",
-      "Saved to database. Website rebuild requested; public pages update after deployment finishes.",
-    );
-  } catch {
-    notify(
-      "error",
-      "Saved to database, but the rebuild request could not be confirmed. Check GitHub Actions before assuming the public page is updated.",
-    );
-  }
-}
-
-async function fetchAdminRows(table: string) {
-  const rows: any[] = [];
-  for (let from = 0; ; from += 500) {
-    const { data, error } = await supabase
-      .from(table)
-      .select("*")
-      .order("id")
-      .range(from, from + 499);
-    if (error) throw error;
-    rows.push(...(data || []));
-    if (!data || data.length < 500) return { data: rows };
-  }
-}
-
 async function mutateContent(
   table: string,
   operation: "upsert" | "delete",
@@ -134,6 +90,7 @@ async function mutateContent(
       throw new Error(
         data?.error || error?.message || `Failed to ${operation} ${table}.`,
       );
+    window.dispatchEvent(new CustomEvent('raytech-publish-status',{detail:{status:data.rebuild==='failed'?'error':'queued',message:data.rebuild==='failed'?'Saved to database, but publishing could not start. Use Retry publishing.':'Saved to database. Website rebuild requested; the public page changes after deployment.'}}));
   } catch (error) {
     const key = STORAGE_KEYS[table.toUpperCase() as keyof typeof STORAGE_KEYS];
     if (key) {
@@ -180,27 +137,10 @@ export const EducationalStore = {
     }
 
     try {
-      const [
-        { data: classesData },
-        { data: subjectsData },
-        { data: chaptersData },
-        { data: notesData },
-        { data: mcqsData },
-        { data: pastPapersData },
-        { data: gazettesData },
-        { data: blogsData },
-        { data: videoMcqsData },
-      ] = await Promise.all([
-        fetchAdminRows("classes"),
-        fetchAdminRows("subjects"),
-        fetchAdminRows("chapters"),
-        fetchAdminRows("notes"),
-        fetchAdminRows("mcqs"),
-        fetchAdminRows("past_papers"),
-        fetchAdminRows("gazettes"),
-        fetchAdminRows("blogs"),
-        fetchAdminRows("video_mcqs"),
-      ]);
+      const {data: snapshot,error}=await supabase.functions.invoke('secure-dispatch',{body:{action:'content_catalog',payload:{}}});
+      if(error||!snapshot?.success||!snapshot.tables)throw new Error('Admin catalog unavailable.');
+      if(!['classes','subjects','chapters','notes','mcqs','past_papers','gazettes','blogs','video_mcqs'].every(name=>Array.isArray(snapshot.tables[name])))throw new Error('Incomplete admin catalog.');
+      const {classes:classesData,subjects:subjectsData,chapters:chaptersData,notes:notesData,mcqs:mcqsData,past_papers:pastPapersData,gazettes:gazettesData,blogs:blogsData,video_mcqs:videoMcqsData}=snapshot.tables;
 
       if (classesData) {
         const mappedClasses = classesData.map((c: any) => ({
@@ -358,7 +298,7 @@ export const EducationalStore = {
       window.dispatchEvent(
         new CustomEvent("raytech-publish-status", {
           detail: {
-            status: "error",
+            status: "refresh-error",
             message:
               "Could not refresh the admin catalog. Displayed data may be stale; check the connection and retry.",
           },
@@ -386,7 +326,6 @@ export const EducationalStore = {
       description: item.description,
       is_active: item.isActive,
     });
-    await requestStaticRebuild("classes", item.id);
     this.invalidateCache();
   },
 
@@ -394,7 +333,6 @@ export const EducationalStore = {
     const list = this.getClasses().filter((c) => c.slug !== slug);
     saveToStorage(STORAGE_KEYS.CLASSES, list);
     await mutateContent("classes", "delete", undefined, { slug });
-    await requestStaticRebuild("classes", slug);
     this.invalidateCache();
   },
 
@@ -419,14 +357,12 @@ export const EducationalStore = {
       icon_name: item.iconName,
       description: item.description,
     });
-    await requestStaticRebuild("subjects", item.id);
     this.invalidateCache();
   },
   async deleteSubject(id: string): Promise<void> {
     const list = this.getSubjects().filter((s) => s.id !== id);
     saveToStorage(STORAGE_KEYS.SUBJECTS, list);
     await mutateContent("subjects", "delete", undefined, { id });
-    await requestStaticRebuild("subjects", id);
     this.invalidateCache();
   },
 
@@ -454,7 +390,6 @@ export const EducationalStore = {
       description: item.description || null,
       is_active: item.isActive,
     });
-    await requestStaticRebuild("chapters", item.id);
     this.invalidateCache();
   },
   async deleteChapter(id: string): Promise<void> {
@@ -463,7 +398,6 @@ export const EducationalStore = {
       this.getChapters().filter((chapter) => chapter.id !== id),
     );
     await mutateContent("chapters", "delete", undefined, { id });
-    await requestStaticRebuild("chapters", id);
     this.invalidateCache();
   },
 
@@ -498,14 +432,12 @@ export const EducationalStore = {
       action_button_text: item.actionButtonText || null,
       action_button_url: item.actionButtonUrl || null,
     });
-    await requestStaticRebuild("notes", item.id);
     this.invalidateCache();
   },
   async deleteNote(id: string): Promise<void> {
     const list = this.getNotes().filter((n) => n.id !== id);
     saveToStorage(STORAGE_KEYS.NOTES, list);
     await mutateContent("notes", "delete", undefined, { id });
-    await requestStaticRebuild("notes", id);
     this.invalidateCache();
   },
 
@@ -540,14 +472,12 @@ export const EducationalStore = {
       correct_index: item.correctIndex,
       explanation: item.explanation,
     });
-    await requestStaticRebuild("mcqs", item.id);
     this.invalidateCache();
   },
   async deleteMCQ(id: string): Promise<void> {
     const list = this.getMCQs().filter((m) => m.id !== id);
     saveToStorage(STORAGE_KEYS.MCQS, list);
     await mutateContent("mcqs", "delete", undefined, { id });
-    await requestStaticRebuild("mcqs", id);
     this.invalidateCache();
   },
 
@@ -574,14 +504,12 @@ export const EducationalStore = {
       session: item.session,
       pdf_url: item.pdfUrl,
     });
-    await requestStaticRebuild("past_papers", item.id);
     this.invalidateCache();
   },
   async deletePastPaper(id: string): Promise<void> {
     const list = this.getPastPapers().filter((p) => p.id !== id);
     saveToStorage(STORAGE_KEYS.PAST_PAPERS, list);
     await mutateContent("past_papers", "delete", undefined, { id });
-    await requestStaticRebuild("past_papers", id);
     this.invalidateCache();
   },
 
@@ -618,14 +546,12 @@ export const EducationalStore = {
       action_button_url: item.actionButtonUrl || null,
       content: item.content || null,
     });
-    await requestStaticRebuild("gazettes", item.id);
     this.invalidateCache();
   },
   async deleteGazette(id: string): Promise<void> {
     const list = this.getGazettes().filter((g) => g.id !== id);
     saveToStorage(STORAGE_KEYS.GAZETTES, list);
     await mutateContent("gazettes", "delete", undefined, { id });
-    await requestStaticRebuild("gazettes", id);
     this.invalidateCache();
   },
 
@@ -658,14 +584,12 @@ export const EducationalStore = {
       action_button_text: item.actionButtonText || null,
       action_button_url: item.actionButtonUrl || null,
     });
-    await requestStaticRebuild("blogs", item.id);
     this.invalidateCache();
   },
   async deleteBlog(id: string): Promise<void> {
     const list = this.getBlogs().filter((b) => b.id !== id && b.slug !== id);
     saveToStorage(STORAGE_KEYS.BLOGS, list);
     await mutateContent("blogs", "delete", undefined, { id });
-    await requestStaticRebuild("blogs", id);
     this.invalidateCache();
   },
 
@@ -695,14 +619,12 @@ export const EducationalStore = {
       correct_index: item.correctIndex,
       explanation: item.explanation,
     });
-    await requestStaticRebuild("video_mcqs", item.id);
     this.invalidateCache();
   },
   async deleteVideoMCQ(id: string): Promise<void> {
     const list = this.getVideoMCQs().filter((m) => m.id !== id);
     saveToStorage(STORAGE_KEYS.VIDEO_MCQS, list);
     await mutateContent("video_mcqs", "delete", undefined, { id });
-    await requestStaticRebuild("video_mcqs", id);
     this.invalidateCache();
   },
 };

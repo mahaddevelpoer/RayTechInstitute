@@ -23,6 +23,7 @@ import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { AdReservation } from '@/components/AdReservation';
 import { sanitizeUrl } from "@/utils/security";
 import { serializeJsonLd } from "@/utils/seo";
+import { ArticleAttachment } from './ArticleAttachment';
 
 interface BlogDetailClientViewProps {
   slug: string;
@@ -180,7 +181,7 @@ export function BlogDetailClientView({
       </div>
 
       {/* Optional Admin Action / Download Button (Top Bar) */}
-      {!sourceReview && post.actionButtonText && post.actionButtonUrl && (
+      {post.actionButtonText && sanitizeUrl(post.actionButtonUrl) && (
         <div className="mb-6 p-4 bg-emerald-50 border border-emerald-200 rounded-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm">
           <div>
             <div className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
@@ -206,6 +207,7 @@ export function BlogDetailClientView({
       )}
 
       {/* Featured Image */}
+      {post.actionButtonUrl&&<ArticleAttachment url={post.actionButtonUrl} label={post.actionButtonText||'Source document'}/>}
       <div className="aspect-[16/9] w-full rounded overflow-hidden bg-slate-100 mb-8 border border-slate-200">
         <img
           src={
@@ -295,7 +297,7 @@ export function BlogDetailClientView({
 
       <AdReservation placement="article" />
       {/* Optional Admin Action / Download Button (Bottom CTA) */}
-      {!sourceReview && post.actionButtonText && post.actionButtonUrl && (
+      {post.actionButtonText && sanitizeUrl(post.actionButtonUrl) && (
         <div className="mt-8 p-5 bg-navy-50 border border-navy-200 rounded-md flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h4 className="text-sm font-bold text-navy-900">

@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-slate-900 text-slate-300 pt-12 pb-8 border-t border-slate-800">
+    <footer className="site-footer bg-slate-900 text-slate-300 pt-12 pb-8 border-t border-slate-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800 text-sm">
           
@@ -123,6 +123,7 @@ export const Footer: React.FC = () => {
                   Privacy Policy
                 </Link>
               </li>
+              <li><Link href="/about/" className="hover:text-white transition-colors">About &amp; website support</Link></li>
               <li>
                 <Link href="/terms-and-conditions" className="hover:text-white transition-colors">
                   Terms &amp; Conditions

@@ -23,7 +23,7 @@ export default function TermsAndConditionsPage() {
       <main
         id="main-content"
         tabIndex={-1}
-        className="flex-1 py-10 px-4 sm:px-6 max-w-4xl mx-auto w-full"
+        className="legal-page flex-1 py-10 px-4 sm:px-6 max-w-4xl mx-auto w-full"
       >
         {/* Breadcrumb */}
         <nav className="breadcrumb">
@@ -53,9 +53,10 @@ export default function TermsAndConditionsPage() {
           <p className="text-xs text-slate-500">Last Updated: October 2026</p>
         </div>
 
+        <nav className="legal-contents" aria-label="On this page"><h2>On this page</h2><ol>{["1. Acceptance of Terms","2. Intellectual Property & Educational Materials","3. In-Browser Python Terminal Usage","4. Disclaimer of Warranty"].map((title,index)=><li key={title}><a href={`#policy-section-${index+1}`}>{title}</a></li>)}</ol></nav>
         <div className="edu-card p-6 sm:p-8 space-y-6 text-sm text-slate-700 leading-relaxed">
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-1" className="text-lg font-bold text-navy-900">
               1. Acceptance of Terms
             </h2>
             <p>
@@ -67,7 +68,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-2" className="text-lg font-bold text-navy-900">
               2. Intellectual Property &amp; Educational Materials
             </h2>
             <p>
@@ -80,7 +81,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-3" className="text-lg font-bold text-navy-900">
               3. In-Browser Python Terminal Usage
             </h2>
             <p>
@@ -92,7 +93,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section className="space-y-2">
-            <h2 className="text-lg font-bold text-navy-900">
+            <h2 id="policy-section-4" className="text-lg font-bold text-navy-900">
               4. Disclaimer of Warranty
             </h2>
             <p>

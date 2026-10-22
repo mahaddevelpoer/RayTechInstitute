@@ -142,7 +142,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   };
 
   return (
-    <div className="min-h-screen bg-white text-slate-800 flex flex-col">
+    <div className="mcq-page min-h-screen bg-white text-slate-800 flex flex-col">
       <div
         className="page-main flex-1"
         role="main"
@@ -184,8 +184,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 Chapter-wise MCQs Practice
               </h1>
               <p className="text-xs text-slate-600 mt-1">
-                Chapter select karein. Questions aur options har attempt mein
-                random order mein aayenge.
+                Choose a chapter. Questions and answer choices are shuffled for each attempt.
               </p>
             </div>
             {started && !finished && (
@@ -236,7 +235,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
             </div>
             {!mcqs.length && (
               <p className="p-4 rounded bg-amber-50 border border-amber-200 text-xs text-amber-800">
-                Is subject ke liye abhi MCQs available nahi hain.
+                No questions have been published for this subject yet. Try another subject or return after publication.
               </p>
             )}
           </section>
@@ -330,7 +329,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 Quiz Complete
               </h2>
               <p className="text-sm text-slate-700 mt-2">
-                Aap ka score:{" "}
+                Your score:{" "}
                 <strong>
                   {score} / {quiz.length}
                 </strong>
@@ -339,7 +338,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 onClick={() => startQuiz(selectedChapter)}
                 className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded bg-navy-600 text-white text-xs font-semibold"
               >
-                <RotateCcw className="w-4 h-4" /> Dobara Random Quiz
+                <RotateCcw className="w-4 h-4" /> Try a new shuffled test
               </button>
             </div>
             <div className="space-y-3">

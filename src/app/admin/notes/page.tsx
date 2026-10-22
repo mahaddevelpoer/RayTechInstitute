@@ -19,7 +19,7 @@ export default function AdminNotesPage() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [pdfUrl, setPdfUrl] = useState('');
-  const [fileSize, setFileSize] = useState('3.5 MB');
+  const [fileSize, setFileSize] = useState('');
   const [content, setContent] = useState('');
   const [previewPdfUrl, setPreviewPdfUrl] = useState('');
 
@@ -48,11 +48,8 @@ export default function AdminNotesPage() {
 
   const loadData = async () => {
     setIsSyncing(true);
-    await EducationalStore.syncFromSupabase();
-    setClasses(EducationalStore.getClasses());
-    setSubjects(EducationalStore.getSubjects());
-    setNotes(EducationalStore.getNotes());
-    setIsSyncing(false);
+    try { await EducationalStore.syncFromSupabase(true); setClasses(EducationalStore.getClasses()); setSubjects(EducationalStore.getSubjects());setNotes(EducationalStore.getNotes()); }
+    finally { setIsSyncing(false); }
   };
 
   useEffect(() => {
@@ -101,7 +98,7 @@ export default function AdminNotesPage() {
       title: title.trim(),
       description: description.trim(),
       pdfUrl: normalize(pdfUrl),
-      fileSize: fileSize.trim() || '3.0 MB',
+      fileSize: fileSize.trim() || 'PDF',
       downloadCount: existing ? existing.downloadCount : 0,
       lastUpdated: new Date().toISOString().split('T')[0],
       content: content.trim() || undefined,
@@ -114,7 +111,7 @@ export default function AdminNotesPage() {
       await EducationalStore.saveNote(noteData);
       setNotes(EducationalStore.getNotes());
       resetForm();
-      setSuccessMsg(editingId ? `Note "${noteData.title}" updated successfully!` : `Note "${noteData.title}" published successfully!`);
+      setSuccessMsg(`Note "${noteData.title}" saved. Its public page updates after the website rebuild.`);
       setTimeout(() => setSuccessMsg(''), 4000);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Failed to save note.';
@@ -132,7 +129,7 @@ export default function AdminNotesPage() {
     setTitle(n.title);
     setDescription(n.description);
     setPdfUrl(n.pdfUrl);
-    setFileSize(n.fileSize || '3.5 MB');
+    setFileSize(n.fileSize || '');
     setContent(n.content || '');
     setPreviewPdfUrl(n.previewPdfUrl || '');
     setHasActionButton(Boolean(n.actionButtonText && n.actionButtonUrl));
@@ -147,7 +144,7 @@ export default function AdminNotesPage() {
     setChapterTitle('');
     setDescription('');
     setPdfUrl('');
-    setFileSize('3.5 MB');
+    setFileSize('');
     setContent('');
     setPreviewPdfUrl('');
     setHasActionButton(false);
@@ -206,9 +203,8 @@ export default function AdminNotesPage() {
       setTitle(aiNote.title || `Chapter ${aiChapterNumber}: ${aiChapterTitle} - Complete Solved Notes`);
       setDescription(aiNote.description || '');
       setContent(aiNote.content || '');
-      setPdfUrl(aiNote.pdfUrl || '');
-      setPreviewPdfUrl(aiNote.previewPdfUrl || '');
-      setFileSize(aiNote.fileSize || '3.5 MB');
+      if(aiNote.pdfUrl)setPdfUrl(aiNote.pdfUrl);
+      if(aiNote.previewPdfUrl)setPreviewPdfUrl(aiNote.previewPdfUrl);
 
       if (aiNote.actionButtonText && aiNote.actionButtonUrl) {
         setHasActionButton(true);
@@ -265,7 +261,7 @@ export default function AdminNotesPage() {
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
-            <span>{isSyncing ? 'Syncing...' : 'Sync Supabase'}</span>
+            <span>{isSyncing ? 'Refreshing...' : 'Refresh list'}</span>
           </button>
         </div>
       </div>

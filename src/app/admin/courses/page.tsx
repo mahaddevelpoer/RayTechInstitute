@@ -39,15 +39,14 @@ export default function CoursesAdmin() {
   const [videos, setVideos] = useState<{ id: string; title: string; publishedAt: string }[]>([]);
   const [nextVideoPage, setNextVideoPage] = useState('');
   const [videosLoaded, setVideosLoaded] = useState(false);
+  const [topicSearch,setTopicSearch]=useState('');
 
   async function reload(selectedId?: string) {
-    const [data, control]: [LearningAdminCatalog, { settings: LearningAiSetting }] = await Promise.all([
-      learningAdminRequest('learning_catalog'), learningAdminRequest('learning_ai_settings'),
-    ]);
+    const data:LearningAdminCatalog=await learningAdminRequest('learning_catalog');
     setCatalog(data);
-    setAiSetting(control.settings);
+    try { const control=await learningAdminRequest('learning_ai_settings');setAiSetting(control.settings); } catch { setAiSetting(null); }
     setLanguageId(current => current || data.languages[0]?.id || '');
-    if (selectedId) { const entry = data.topics.find(e => e.topic.id === selectedId); setTopic(entry ? structuredClone(entry.draft || entry.topic) : null); }
+    if (selectedId) { const entry = data.topics.find(e => e.topic.id === selectedId); setTopic(entry ? structuredClone(entry.draft || entry.topic) : null); if(entry)setLanguageId(entry.topic.languageId); }
   }
   useEffect(() => {
     let alive = true;
@@ -66,6 +65,7 @@ export default function CoursesAdmin() {
   const edit = (patch: Partial<LearningTopic>) => { setTopic(current => current ? { ...current, ...patch } : null); setDirty(true); };
   const entry = catalog.topics.find(e => e.topic.id === topic?.id);
   const peers = catalog.topics.filter(e => e.topic.languageId === languageId).sort((a, b) => a.topic.order - b.topic.order);
+  const visiblePeers=peers.filter(e=>`${e.topic.order} ${e.topic.title}`.toLowerCase().includes(topicSearch.toLowerCase()));
   const issues = topic ? [...validateTopicPublication(topic, catalog.topics.map(e => e.topic)), ...lessonQualityIssues(topic.content)] : [];
   const latestDraft = peers.filter(e => e.draft || e.topic.state === 'draft').sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt))[0];
   function removeDraft(target: typeof latestDraft) {
@@ -151,7 +151,7 @@ export default function CoursesAdmin() {
     </section>
     {(generationLive || generationAbort.current) && <section aria-label="Live AI response" className="min-w-0 rounded-lg border border-slate-200 bg-white p-4">
       <div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-semibold">Live AI response: {generationStage}</h2>{generationAbort.current && <button className={button} onClick={() => generationAbort.current?.abort()}>Stop generation</button>}</div>
-      <p className="my-2 text-xs text-slate-600">Dots3-Note Preview via OpenRouter. This is unvalidated output, not a saved lesson. Hosting and provider limits still apply.</p>
+      <p className="my-2 text-xs text-slate-600">Dots3-Note Preview, with Gemini Flash Lite fallback if unavailable. The active provider appears above. This is unvalidated output, not a saved lesson. Hosting and free allowances still apply.</p>
       <pre tabIndex={0} className="max-h-96 overflow-auto whitespace-pre-wrap break-words rounded-md bg-slate-50 p-3 text-xs text-slate-800">{generationLive || 'Waiting for the first response...'}</pre>
     </section>}
     {loading ? <p role="status">Loading course catalog...</p> : <>
@@ -160,15 +160,18 @@ export default function CoursesAdmin() {
       </details>
       <div className="grid items-start gap-6 xl:grid-cols-[260px_minmax(0,1fr)]">
         <aside className="space-y-4 rounded-lg border border-slate-200 bg-white p-4">
-          <Field label="Language"><select className={input} value={languageId} disabled={busy} onChange={e => { if (leaveEditor()) { setLanguageId(e.target.value); setTopic(null); setDirty(false); } }}>{catalog.languages.map(l => <option key={l.id} value={l.id}>{l.title}</option>)}</select></Field>
+          <Field label="Language"><select className={input} value={languageId} disabled={busy} onChange={e => { if (leaveEditor()) { setLanguageId(e.target.value); setTopic(null); setTopicSearch('');setDirty(false); } }}>{catalog.languages.map(l => <option key={l.id} value={l.id}>{l.title} ({catalog.topics.filter(e=>e.topic.languageId===l.id&&e.topic.state==='published').length} published)</option>)}</select></Field>
+          <p role="status" className="text-sm">{peers.length} topics in {catalog.languages.find(l=>l.id===languageId)?.title}. {peers.filter(e=>e.topic.state==='published').length} published.</p>
+          <Field label="Find a topic"><input className={input} type="search" value={topicSearch} onChange={e=>setTopicSearch(e.target.value)} placeholder="Topic title or number"/></Field>
           <button className={`${button} w-full`} disabled={busy || !languageId} onClick={() => { if (leaveEditor()) { setTopic(newLearningTopic(languageId, Math.max(0, ...peers.map(e => e.topic.order)) + 1)); setDirty(false); setTab('Lesson'); } }}><Plus size={16} />New topic</button>
           <button className={`${button} w-full text-red-700`} disabled={busy || !latestDraft} onClick={() => removeDraft(latestDraft)}><Trash2 size={16} />Delete latest draft</button>
           {latestDraft && <p className="text-xs text-slate-500">Latest saved draft: {latestDraft.draft?.title || latestDraft.topic.title}. Published content is preserved when discarding a pending revision.</p>}
           <details className="border-y border-slate-200 py-3"><summary className="min-h-12 cursor-pointer text-sm font-semibold">Generate next topics with AI</summary><fieldset disabled={busy || aiSettingBusy || !aiSetting?.enabled} className="space-y-3"><p className="text-xs leading-relaxed text-slate-600">Uses the admin AI provider and the existing curriculum. Each completed topic is saved as a draft; nothing is published automatically.</p><Field label="New topics (1-5)"><input className={input} type="number" min={1} max={5} value={generationCount} onChange={e => setGenerationCount(Number(e.target.value))} /></Field><Field label="Question-bank size"><input className={input} type="number" min={1} max={50} list="bank-sizes" value={bankCount} onChange={e => setBankCount(Number(e.target.value))} /><datalist id="bank-sizes"><option value="10" /><option value="20" /><option value="30" /><option value="50" /></datalist></Field><Field label="Questions per test"><input className={input} type="number" min={1} max={bankCount} value={generatedTestSize} onChange={e => setGeneratedTestSize(Number(e.target.value))} /></Field><button className={`${button} w-full`} disabled={!languageId} onClick={() => void generateLessons()}>Generate draft topics</button></fieldset></details>
-          <nav aria-label="Edit lesson" className="max-h-[60vh] space-y-2 overflow-y-auto">{peers.map(e => <button key={e.topic.id} disabled={busy} className={`${button} w-full flex-col items-start text-left ${topic?.id === e.topic.id ? 'border-teal-600 bg-teal-50' : ''}`} onClick={() => { if (leaveEditor()) { setTopic(structuredClone(e.draft || e.topic)); setDirty(false); setTab('Lesson'); } }}><span>{e.topic.order}. {e.topic.title}</span><span className="text-xs text-slate-500">{e.draft ? 'Published with pending draft' : e.topic.state}</span></button>)}{!peers.length && <p className="text-sm text-slate-500">No lessons yet. Add the first topic to begin.</p>}</nav>
+          <nav aria-label="Edit lesson" className="max-h-[60vh] space-y-2 overflow-y-auto">{visiblePeers.map(e => <button key={e.topic.id} disabled={busy} className={`${button} w-full flex-col items-start text-left ${topic?.id === e.topic.id ? 'border-teal-600 bg-teal-50' : ''}`} onClick={() => { if (leaveEditor()) { setTopic(structuredClone(e.draft || e.topic)); setDirty(false); setTab('Lesson'); } }}><span>{e.topic.order}. {e.topic.title}</span><span className="text-xs text-slate-500">{e.draft ? 'Published with pending draft' : e.topic.state}</span></button>)}{!visiblePeers.length && <p className="text-sm text-slate-500">No lessons yet. Add the first topic to begin.</p>}</nav>
         </aside>
         {!topic ? <section className="rounded-lg border border-dashed border-slate-300 p-8"><BookOpen className="mb-4 text-teal-700" /><h2 className="text-lg font-semibold">Choose a topic or create one</h2><p className="mt-2 text-sm text-slate-600">Each topic includes a lesson, practice code, a question bank and a marked assignment.</p></section> : <section className="min-w-0 rounded-lg border border-slate-200 bg-white">
           <div className="flex flex-wrap gap-2 border-b border-slate-200 p-4" aria-label="Editor sections">{['Lesson', 'Questions', 'Assignment', 'Videos', 'Preview'].map(t => <button key={t} className={`${button} ${tab === t ? 'border-teal-600 bg-teal-50' : ''}`} aria-pressed={tab === t} onClick={() => setTab(t)}>{t}</button>)}</div>
+          <div className="border-b border-slate-200 bg-teal-50 p-4 text-teal-900"><strong>Editing {catalog.languages.find(l=>l.id===topic.languageId)?.title}: {topic.title || 'New topic'}</strong><p className="mt-1 text-sm">Save draft keeps the live page unchanged. Publish lesson applies your changes, including videos, after deployment.</p>{entry?.topic.state==='published'&&<a className="mt-2 inline-flex min-h-12 items-center font-semibold underline" href={`/learn/${catalog.languages.find(l=>l.id===topic.languageId)?.slug}/${topic.slug}/`} target="_blank" rel="noopener noreferrer">View published lesson</a>}</div>
           <fieldset disabled={busy} className="min-w-0 space-y-5 p-4 sm:p-6">
             {tab === 'Lesson' && <>
               <div className="grid gap-4 sm:grid-cols-2"><Field label="Topic title"><input className={input} maxLength={160} value={topic.title} onChange={e => edit({ title: e.target.value })} /></Field><Field label="URL slug (fixed after first save)"><input className={input} disabled={!!entry} value={topic.slug} placeholder="understanding-variables" onChange={e => edit({ slug: e.target.value.toLowerCase().replace(/[^a-z0-9-]/g, '') })} /></Field></div>
@@ -203,6 +206,8 @@ export default function CoursesAdmin() {
               <button className={button} onClick={() => edit({ assignment: { ...topic.assignment!, rubric: [...topic.assignment!.rubric, { id: crypto.randomUUID(), description: '', points: 10 }] } })}>Add criterion</button>
             </>}
             {tab === 'Videos' && <>
+              <p className="rounded-md border border-teal-200 bg-teal-50 p-4 text-sm text-teal-900">Videos selected here belong to {catalog.languages.find(l=>l.id===topic.languageId)?.title}: {topic.title}. Select a video, then use Publish lesson below. Selecting a checkbox alone does not publish it.</p>
+              <button className={`${button} bg-teal-700 text-white hover:bg-teal-800`} disabled={busy||!!issues.length} onClick={()=>{if(window.confirm(`Publish video changes for ${topic.title}?`))void perform('learning_publish',{topic,expectedUpdatedAt:entry?.updatedAt||null},topic.id);}}>Save and publish video changes</button>
               <p className="text-sm text-slate-600">Choose uploads from the RayTech Institute channel for this topic. Video playback stays on YouTube; public learners do not call the Data API.</p>
               <button className={button} onClick={() => void loadVideos()}><RefreshCw size={16} />Fetch latest uploads</button>
               <h2 className="font-semibold">Attached videos ({topic.videoIds.length}/20)</h2>

@@ -97,7 +97,7 @@ export default async function SubjectPastPapersServerPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
-      <PastPapersClientView classSlug={classSlug} subjectSlug={subjectSlug} />
+      <PastPapersClientView key={`${classSlug}/${subjectSlug}`} classSlug={classSlug} subjectSlug={subjectSlug} />
       <Footer />
     </div>
   );

@@ -131,6 +131,7 @@ export function PdfDetailClientView({
           )}
           {safePdfUrl && (
             <div className="border-t border-slate-200 p-4">
+              <p className="mb-3 text-xs leading-relaxed text-slate-500">Preview loads through Google only when requested. Some source providers block previews; the original document link remains available.</p>
               <a
                 href={safePdfUrl}
                 target="_blank"

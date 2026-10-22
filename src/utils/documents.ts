@@ -23,6 +23,8 @@ export function documentLinks(value?: string, previewValue?: string) {
     if (id && /^[\w-]+$/.test(id))
       embed = `https://drive.google.com/file/d/${id}/preview`;
   }
+  if (!embed && preview && /\.pdf$/i.test(preview.pathname))
+    embed = `https://docs.google.com/gview?embedded=1&url=${encodeURIComponent(preview.href)}`;
   return {
     href: url?.href || "",
     embed,

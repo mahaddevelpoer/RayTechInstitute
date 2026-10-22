@@ -101,7 +101,7 @@ export default async function SubjectMCQsServerPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
-      <MCQClientView classSlug={classSlug} subjectSlug={subjectSlug} />
+      <MCQClientView key={`${classSlug}/${subjectSlug}`} classSlug={classSlug} subjectSlug={subjectSlug} />
       <Footer />
     </div>
   );

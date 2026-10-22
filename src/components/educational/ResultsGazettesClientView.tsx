@@ -58,7 +58,6 @@ export function ResultsGazettesClientView() {
         </span>
         <span aria-hidden="true">→</span>
       </Link>
-      <BoardDirectory />
       <section aria-labelledby="gazette-filter-title">
         <h2
           id="gazette-filter-title"
@@ -163,12 +162,13 @@ export function ResultsGazettesClientView() {
             </h3>
             <p>
               Try clearing the filters or visit your board using the directory
-              above. A missing PDF here does not mean the board has not
+              below. A missing PDF here does not mean the board has not
               announced a result.
             </p>
           </div>
         )}
       </section>
+      <BoardDirectory />
     </>
   );
 }

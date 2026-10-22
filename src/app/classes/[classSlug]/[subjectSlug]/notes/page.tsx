@@ -95,7 +95,7 @@ export default async function SubjectNotesServerPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
-      <NotesClientView classSlug={classSlug} subjectSlug={subjectSlug} />
+      <NotesClientView key={`${classSlug}/${subjectSlug}`} classSlug={classSlug} subjectSlug={subjectSlug} />
       <Footer />
     </div>
   );

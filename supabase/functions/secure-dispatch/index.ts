@@ -2,12 +2,13 @@ import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { handleLearningAdmin } from '../_shared/learning-admin.ts';
 import { createLearningRepository } from '../_shared/learning-repository.ts';
 import { generateNextLearningTopic } from '../_shared/learning-authoring.ts';
-import { generateLearningDots } from '../_shared/learning-dots.ts';
+import { generateLearningWithFallback } from '../_shared/learning-provider.ts';
 import { learningGenerationResponse } from '../_shared/learning-stream.ts';
 import { createLearningAiSettings } from '../_shared/learning-ai-settings.ts';
 import { listLearningVideos, verifyLearningVideos, learningYouTubeKey } from '../_shared/learning-videos.ts';
 import { collectLearningHealth } from '../_shared/learning-health.ts';
 import { studentReviewKey } from '../_shared/student-review-config.ts';
+import { writeEducationalContent, readEducationalCatalog } from '../_shared/content-mutations.ts';
 
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://raytechinstitute.web.app',
@@ -471,9 +472,16 @@ async function dispatchStaticRebuild(record: any = {}) {
   const token = Deno.env.get('GITHUB_DISPATCH_TOKEN');
   const repository = Deno.env.get('GITHUB_REPOSITORY') || 'mahaddevelpoer/RayTechInstitute';
   if (!token) throw new Error('GITHUB_DISPATCH_TOKEN is not configured in Supabase Secrets.');
+  // A waiting main-branch build has not fetched its snapshot yet. Reuse it;
+  // an already-running build still needs one queued successor for new edits.
+  try {
+    const runs=await fetch(`https://api.github.com/repos/${repository}/actions/workflows/deploy-firebase.yml/runs?per_page=10`,{headers:{Accept:'application/vnd.github+json',Authorization:`Bearer ${token}`,'User-Agent':'RayTech-static-publisher'},signal:AbortSignal.timeout(8000)});
+    if(runs.ok){const data=await runs.json();if(data.workflow_runs?.some((run:{head_branch:string;status:string})=>run.head_branch==='main'&&['queued','pending','waiting','requested'].includes(run.status)))return{success:true,repository,eventType:'content-published',reused:true};}
+  }catch{ /* A failed optimization must not prevent a fresh dispatch. */ }
 
   const response = await fetch(`https://api.github.com/repos/${repository}/dispatches`, {
     method: 'POST',
+    signal: AbortSignal.timeout(15000),
     headers: {
       Accept: 'application/vnd.github+json',
       Authorization: `Bearer ${token}`,
@@ -500,27 +508,9 @@ async function dispatchStaticRebuild(record: any = {}) {
 }
 
 async function mutateContent(serviceRoleKey: string, payload: any) {
-  const allowedTables = new Set(['classes', 'subjects', 'chapters', 'notes', 'mcqs', 'past_papers', 'gazettes', 'blogs', 'video_mcqs']);
-  const table = String(payload?.table || '');
-  const operation = payload?.operation;
-  if (!allowedTables.has(table)) throw new Error('Unsupported content table.');
-  if (operation !== 'upsert' && operation !== 'delete') throw new Error('Unsupported content operation.');
-
-  const supabaseUrl = Deno.env.get('SUPABASE_URL');
-  if (!supabaseUrl) throw new Error('SUPABASE_URL is not configured.');
-  const headers = { apikey: serviceRoleKey, Authorization: `Bearer ${serviceRoleKey}`, 'Content-Type': 'application/json', Prefer: 'resolution=merge-duplicates,return=minimal' };
-  let url = `${supabaseUrl}/rest/v1/${table}`;
-  const options: RequestInit = { method: operation === 'upsert' ? 'POST' : 'DELETE', headers };
-  if (operation === 'upsert') options.body = JSON.stringify(payload.record || {});
-  else {
-    const filter = payload.filter || {};
-    const key = Object.keys(filter)[0];
-    if (!key) throw new Error('Delete filter is required.');
-    url += `?${encodeURIComponent(key)}=eq.${encodeURIComponent(String(filter[key]))}`;
-  }
-  const response = await fetch(url, options);
-  if (!response.ok) throw new Error(`Supabase ${operation} failed (${response.status}): ${await response.text()}`);
-  return { success: true, table, operation };
+  const result = await writeEducationalContent(Deno.env.get('SUPABASE_URL') || '', serviceRoleKey, payload);
+  try { await dispatchStaticRebuild({table:result.table,operation:result.operation,id:payload.record?.id||payload.filter?.id||payload.filter?.slug}); return {...result,rebuild:'queued'}; }
+  catch { return {...result,rebuild:'failed'}; }
 }
 
 async function subscribeNotifications(serviceRoleKey: string, payload: any) {
@@ -560,9 +550,11 @@ serve(async (req) => {
   // Response helper that always returns HTTP 200 so Supabase JS invoke() never throws
   // "Edge Function returned a non-2xx status code" and clients receive clean error objects.
   const respond = (data: any, status: number = 200) => {
+    if (typeof data?.error === 'string' && (data.error.length > 600 || /schema cache|SQLSTATE|PostgREST|Supabase .*failed|returned \d{3}|fetch exception|github.*failed|github_pat_|sk-or-|AIza|Bearer |stack trace/i.test(data.error)))
+      data = { ...data, error: 'The service could not complete this request. Your existing content is unchanged. Check service health or retry shortly.' };
     return new Response(JSON.stringify(data), {
       status,
-      headers: { ...getCorsHeaders(req), "Content-Type": "application/json" },
+      headers: { ...getCorsHeaders(req), "Content-Type": "application/json", "Cache-Control": "no-store" },
     });
   };
 
@@ -579,7 +571,7 @@ serve(async (req) => {
     const geminiApiKey = Deno.env.get("GEMINI_API_KEY");
     const opencodeApiKey = Deno.env.get("OPENCODE_API_KEY");
     const opencodeBaseUrl = Deno.env.get("OPENCODE_BASE_URL") || "https://opencode.ai/zen/v1";
-    const serviceRoleKey = Deno.env.get("SERVICE_ROLE_KEY") || Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
+    const serviceRoleKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || Deno.env.get("SERVICE_ROLE_KEY");
 
     const currentDate = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
     const currentYear = new Date().getFullYear();
@@ -625,6 +617,10 @@ serve(async (req) => {
     if (action === 'verify_admin') {
       return respond({ success: true, email: admin.email });
     }
+    if (action === 'content_catalog') {
+      try { return respond(await readEducationalCatalog(Deno.env.get('SUPABASE_URL') || '',serviceRoleKey || '')); }
+      catch { return respond({success:false,error:'The admin catalog could not be refreshed. Existing content is unchanged.'},503); }
+    }
 
     if (action === 'learning_health') {
       const origin = req.headers.get('origin') || getAllowedOrigins()[0] || '';
@@ -652,12 +648,12 @@ serve(async (req) => {
       try { await aiSettings.requireEnabled(); }
       catch (error) { return respond({ success: false, error: error instanceof Error ? error.message : 'AI generation is disabled.' }, 403); }
       const openRouterKey = studentReviewKey(name => Deno.env.get(name));
-      if (!serviceRoleKey || !openRouterKey) return respond({ success: false, error: 'OpenRouter course generation or learning storage is not configured.' }, 503);
+      if (!serviceRoleKey || (!openRouterKey&&!geminiApiKey)) return respond({ success: false, error: 'Course generation or learning storage is not configured.' }, 503);
       return learningGenerationResponse(getCorsHeaders(req), async (emit, signal) => {
         const repository = createLearningRepository(Deno.env.get('SUPABASE_URL') || '', serviceRoleKey, async () => {});
         const guarded = { ...repository, write: async (...args: Parameters<typeof repository.write>) => { signal.throwIfAborted(); await aiSettings.requireEnabled(); signal.throwIfAborted(); await repository.write(...args); } };
         return await generateNextLearningTopic(payload, guarded,
-          (system, prompt, kind) => generateLearningDots(openRouterKey, system, prompt, kind, emit, signal), 'openrouter');
+          (system, prompt, kind='topic') => generateLearningWithFallback(openRouterKey||'',geminiApiKey||'',system,prompt,kind,emit,signal), 'openrouter-with-gemini-fallback');
       });
     }
 

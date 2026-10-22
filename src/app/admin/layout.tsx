@@ -23,6 +23,7 @@ import { clearAdminSession } from "@/utils/security";
 import { auth } from "@/lib/firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { verifyAdminAccess } from "@/lib/supabase";
+import { learningAdminRequest } from '@/lib/learning/admin';
 
 export default function AdminLayout({
   children,
@@ -218,6 +219,7 @@ export default function AdminLayout({
                 className={`mb-5 rounded-lg border p-4 text-sm ${publishStatus.status === "error" ? "border-amber-300 bg-amber-50 text-amber-950" : "border-navy-200 bg-navy-50 text-navy-900"}`}
               >
                 <p>{publishStatus.message}</p>
+                {publishStatus.status==='error'&&<button className="learn-button mt-3" onClick={async()=>{setPublishStatus({status:'queued',message:'Requesting a fresh website rebuild...'});try{await learningAdminRequest('trigger_static_rebuild');setPublishStatus({status:'queued',message:'Rebuild requested. Your saved content will appear when deployment completes.'});}catch{setPublishStatus({status:'error',message:'Publishing is still unavailable. Your database content remains saved. Retry later.'});}}}>Retry publishing</button>}
                 <a
                   href="https://github.com/mahaddevelpoer/RayTechInstitute/actions"
                   target="_blank"
