@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { BookOpen, Code2, List, X, ArrowLeft, ArrowRight, PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen } from 'lucide-react';
+import { BookOpen, Code2, List, X, ArrowLeft, ArrowRight, PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, ChevronUp, ChevronDown } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { MarkdownRenderer } from '@/components/MarkdownRenderer';
 import { InteractiveLesson } from './InteractiveLesson';
@@ -23,6 +23,9 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
   const [codiRunSignal, setCodiRunSignal] = useState(0);
   const [topicsOpen, setTopicsOpen] = useState(true);
   const [practiceOpen, setPracticeOpen] = useState(true);
+  const [navigationOpen,setNavigationOpen]=useState(true);
+  const navigationBody=useRef<HTMLDivElement>(null);
+  useEffect(()=>{if(navigationBody.current)navigationBody.current.inert=!navigationOpen;},[navigationOpen]);
   const dialog = useRef<HTMLDialogElement>(null);
   const practicePane = useRef<HTMLElement>(null);
   const lessonPane = useRef<HTMLElement>(null);
@@ -42,13 +45,15 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
   };
   const topicList = <nav aria-label={`${language.title} topics`} className="learning-topic-links">{topics.map(t => <Link key={t.id} href={`/learn/${language.slug}/${t.slug}/`} aria-current={t.id === topic.id ? 'page' : undefined} onClick={() => dialog.current?.close()}><span className="text-xs opacity-60">{t.order}</span><span>{t.title}</span></Link>)}</nav>;
   return <div className="learning-page">
-    <Header scrollContainer={lessonPane} />
-    <div className="learning-mobile-controls"><button className="learn-button" onClick={() => dialog.current?.showModal()}><List size={16} />Topics</button><button className="learn-button learning-mobile-lesson" aria-pressed={mobilePanel === 'lesson'} onClick={() => setMobilePanel('lesson')}><BookOpen size={16} />Lesson</button><button className="learn-button learning-mobile-practice" aria-pressed={mobilePanel === 'practice'} onClick={() => { setPracticeOpen(true); setMobilePanel('practice'); }}><Code2 size={16} />Practice</button></div>
+    <div className="learning-nav-shell" data-open={navigationOpen}><div ref={navigationBody} id="learning-navigation" className="learning-nav-inner" aria-hidden={!navigationOpen}><Header scrollContainer={lessonPane} autoHide={false}/></div></div>
+    <div className="learning-workspace-bar"><span>{language.title} / {topic.title}</span><button className="learning-pane-toggle" aria-label={navigationOpen?'Hide navigation':'Show navigation'} aria-controls="learning-navigation" aria-expanded={navigationOpen} title={navigationOpen?'Hide navigation':'Show navigation'} onClick={()=>setNavigationOpen(v=>!v)}>{navigationOpen?<ChevronUp size={19}/>:<ChevronDown size={19}/>}</button></div>
+    <div className="learning-mobile-controls" aria-label="Learning workspace"><button className="learn-button" onClick={() => dialog.current?.showModal()}><List size={16} />Topics</button><button className="learn-button learning-mobile-lesson" aria-pressed={mobilePanel === 'lesson'} onClick={() => setMobilePanel('lesson')}><BookOpen size={16} />Lesson</button><button className="learn-button learning-mobile-practice" aria-pressed={mobilePanel === 'practice'} onClick={() => { setPracticeOpen(true); setMobilePanel('practice'); }}><Code2 size={16} />Code &amp; Run</button></div>
     <main id="main-content" className="learning-workspace" data-mobile-panel={mobilePanel} data-topics-open={topicsOpen} data-practice-open={practiceOpen}>
       <aside id="learning-topics-panel" className="learning-topics"><div className="learning-pane-header"><div className="learning-pane-heading"><Link className="font-semibold" href={`/learn/${language.slug}/`}>{language.title}</Link><span className="text-xs">{topics.length} topics</span></div><button className="learning-pane-toggle" title={topicsOpen ? 'Hide topics' : 'Show topics'} aria-label={topicsOpen ? 'Hide topics' : 'Show topics'} aria-expanded={topicsOpen} aria-controls="learning-topics-body" onClick={() => setTopicsOpen(value => !value)}>{topicsOpen ? <PanelLeftClose size={19}/> : <PanelLeftOpen size={19}/>}</button></div><div id="learning-topics-body" ref={topicsBody} className="learning-panel-body" aria-hidden={!topicsOpen}>{topicList}<Link className="learn-button m-3" href="/courses/">All courses</Link></div></aside>
       <article ref={lessonPane} className="learning-lesson" tabIndex={0} aria-label="Lesson content">
         <nav className="mb-6 text-xs" aria-label="Breadcrumb"><Link href="/courses/">Courses</Link><span className="px-2">/</span><Link href={`/learn/${language.slug}/`}>{language.title}</Link></nav>
         <h1 className="mb-4 text-3xl font-bold tracking-tight">{mode==='lesson'?<CodiSentences text={topic.title}/>:topic.title}{mode === 'quiz' ? ': topic test' : mode === 'assignment' ? ': assignment' : ''}</h1>
+        <div className="learning-practice-invite" data-codi-ignore><Code2 size={24}/><div><strong>Learn it, then run it</strong><p>This lesson includes a working {language.title} compiler. Your lesson stays here while you practise.</p><button className="learn-button" onClick={()=>{setPracticeOpen(true);setMobilePanel('practice');requestAnimationFrame(()=>practicePane.current?.focus());}}>Open compiler</button></div></div>
         <TopicProgressPanel topic={topic} />
         <nav aria-label="Topic activities" className="mb-6 flex flex-wrap gap-2"><Link className="learn-button" aria-current={mode === 'lesson' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/`}>Lesson</Link><Link className="learn-button" aria-current={mode === 'quiz' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/quiz/`}>Topic test</Link><Link className="learn-button" aria-current={mode === 'assignment' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/assignment/`}>Assignment</Link></nav>
         {mode === 'quiz' ? <TopicQuiz topic={topic} languageSlug={language.slug} /> : mode === 'assignment' ? <TopicAssignment topic={topic} languageSlug={language.slug} /> : <>

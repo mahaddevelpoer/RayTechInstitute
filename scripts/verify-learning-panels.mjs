@@ -14,14 +14,14 @@ try{
  await pane.getByRole('button',{name:'Show compiler',exact:true}).click();await editor.waitFor();assert.match(await editor.innerText(),/preserved after collapse/);
  await topics.getByRole('button',{name:'Show topics',exact:true}).click();assert.equal(await page.locator('#learning-topics-body').isVisible(),true);
  await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>document.documentElement.classList.add('dark'));
- assert.equal(await page.locator('main').evaluate(e=>getComputedStyle(e).transitionDuration),'0s');
+ assert.ok(await page.locator('main').evaluate(e=>getComputedStyle(e).transitionDuration.split(',').every(t=>parseFloat(t)<=.001)));
  await topics.getByRole('button',{name:'Hide topics',exact:true}).click();assert.equal(await page.locator('#learning-topics-body').isVisible(),false);
  await topics.getByRole('button',{name:'Show topics',exact:true}).click();await page.emulateMedia({reducedMotion:'no-preference'});
  await page.evaluate(()=>document.documentElement.classList.remove('dark'));
  for(const width of [900,360]){
   await page.setViewportSize({width,height:900});const mobile=page.locator('.learning-mobile-controls');
   if(width===900){await pane.getByRole('button',{name:'Hide compiler',exact:true}).click();assert.equal(await page.locator('#learning-practice-body').isVisible(),false);await pane.getByRole('button',{name:'Show compiler',exact:true}).click();}
-  else{await mobile.getByRole('button',{name:'Practice',exact:true}).click();assert.equal(await pane.isVisible(),true);assert.equal(await lesson.isVisible(),false);await mobile.getByRole('button',{name:'Lesson',exact:true}).click();assert.equal(await pane.isVisible(),false);}
+  else{await mobile.getByRole('button',{name:'Code & Run',exact:true}).click();assert.equal(await pane.isVisible(),true);assert.equal(await lesson.isVisible(),false);await mobile.getByRole('button',{name:'Lesson',exact:true}).click();assert.equal(await pane.isVisible(),false);}
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  }
  console.log('[learning-panels] Desktop independent collapse, retained editor, tablet and mobile controls passed.');

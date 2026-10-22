@@ -1,5 +1,7 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { explainCodeLine } from '@/lib/learning/code-explanation';
+import { practicePreview } from '@/lib/learning/practice-preview';
 import dynamic from 'next/dynamic';
 import { Play, Square, RotateCcw } from 'lucide-react';
 import type { BrowserRuntime } from '@/types/learning';
@@ -16,6 +18,11 @@ export function BrowserPractice({ language, starterCode, code: externalCode, onC
   const [ready, setReady] = useState(false);
   const [loading, setLoading] = useState(false);
   const [stdin, setStdin] = useState('');
+  const host = useRef<HTMLDivElement>(null);
+  const [activeLine,setActiveLine]=useState({text:code.split('\n')[0]||'',number:1});
+  const [explained,setExplained]=useState<{line:string;summary:string;number:number}|null>(null);
+  useEffect(()=>setExplained(null),[code]);
+  const explainLine=useCallback((line:string,number:number)=>{const explanation=explainCodeLine(language,line);if(!explanation)return;setExplained({...explanation,number});host.current?.dispatchEvent(new CustomEvent('codi-code-line',{bubbles:true,detail:{language,line,number}}));},[language]);
   const [domPreview, setDOMPreview] = useState(false);
   // Fast static frames may load before hydration attaches their onLoad handler.
   const [mounted, setMounted] = useState(false);
@@ -45,8 +52,7 @@ export function BrowserPractice({ language, starterCode, code: externalCode, onC
     if (!supported || (!isPreview && !ready)) return;
     onRunStart?.();
     if (language === 'html' || language === 'css') {
-      const content = language === 'css' ? `<style>${code}</style><main><h1>Practice heading</h1><p>Change the CSS to style this sample page.</p><button>Sample button</button><ul><li>First item</li><li>Second item</li></ul></main>` : code;
-      setPreview(`<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; form-action 'none'; base-uri 'none'"></head><body>${content}</body></html>`);
+      setPreview(practicePreview(code,language,document));
       return;
     }
     if (language === 'javascript' && domPreview && ready) {
@@ -80,10 +86,12 @@ export function BrowserPractice({ language, starterCode, code: externalCode, onC
       }
     }
   }
-  return <div className="learning-practice">
+  return <div ref={host} className="learning-practice">
     <div className="learning-panel-toolbar"><strong className="text-sm">{language.toUpperCase()} practice</strong><div className="flex gap-1"><button className="learn-button" disabled={running || !supported || (!isPreview && !ready)} onClick={run}><Play size={15} />Run</button><button className="learn-button" disabled={!running} onClick={() => stop()} aria-label="Stop code"><Square size={15} /></button><button className="learn-button" disabled={running} aria-label="Reset code" onClick={() => { if (window.confirm('Reset your code to the lesson example?')) { setCode(starterCode); setStdin(''); setPreview(''); setOutput('Editor reset.'); } }}><RotateCcw size={15} /></button></div></div>
     {!supported && <p className="p-4 text-sm" role="status">The {language} runtime is not connected in this local build yet. You can edit code, but execution is unavailable.</p>}
-    <div className="learning-editor-slot"><CodeEditor language={language} code={code} onChange={setCode} /></div>
+    <div className="learning-code-help"><span>Double-click a code line to explain it. Keyboard: Alt + Enter.</span><button className="learn-button" onClick={()=>explainLine(activeLine.text,activeLine.number)}>Explain selected line</button></div>
+    {explained&&<section className="learning-line-explanation" aria-label="Selected code explanation" aria-live="polite"><strong>Line {explained.number}</strong><pre>{explained.line}</pre><p>{explained.summary}</p><button className="learn-button" onClick={()=>explainLine(explained.line,explained.number)}>Read this explanation</button></section>}
+    <div className="learning-editor-slot"><CodeEditor language={language} code={code} onChange={setCode} onExplainLine={explainLine} onActiveLine={(text,number)=>setActiveLine(old=>old.text===text&&old.number===number?old:{text,number})} /></div>
     {language === 'javascript' && <div className="border-t border-[var(--border)] p-4 text-xs"><label className="flex min-h-12 items-center gap-3 font-semibold"><input type="checkbox" checked={domPreview} onChange={event => { stop('Practice mode changed. Select Run to start.'); setReady(false); setDOMPreview(event.target.checked); }} />Interactive DOM preview</label>{domPreview && <p>Use document.querySelector, createElement and event listeners. The sample has #demo and #button. Set document.body.innerHTML in your code to build a custom page. Network requests, navigation, external scripts and browser storage are unavailable. This worker-based DOM does not implement every browser API.</p>}</div>}
     {(language === 'python' || language === 'php') && <label className="block border-t border-[var(--border)] p-4 text-xs font-semibold">{language === 'python' ? 'Standard input: one line per input() call' : 'Request body: read with file_get_contents("php://input")'}<textarea value={stdin} disabled={running} maxLength={10000} onChange={event => setStdin(event.target.value)} rows={3} className="mt-2 block w-full resize-y rounded-md border border-[var(--border)] bg-[var(--bg-card)] p-3 font-mono text-sm font-normal" /></label>}
     {loading && <p className="p-4 text-xs" role="status">Preparing {language} in your browser. The first run downloads the interpreter.</p>}

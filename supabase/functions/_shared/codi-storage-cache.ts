@@ -29,17 +29,10 @@ export function createCodiStorageCache(base: string, serviceKey: string, fetcher
       // Do not infer capacity from an incomplete listing or unknown metadata.
       if (!Array.isArray(objects) || objects.length >= 1000 || objects.some(o=>!Number.isFinite(Number(o.metadata?.size)) || Number(o.metadata.size)<0 || !/^[a-f0-9]{64}\.json$/.test(o.name))) return false;
       if (objects.some(o=>o.name===`${hash}.json`)) return true;
-      let used = objects.reduce((total,o)=>total+Number(o.metadata.size),0);
-      const expired: string[] = [];
-      for (const object of objects) {
-        if (used+bytes <= MAX_BYTES && objects.length-expired.length < 500) break;
-        expired.push(object.name); used -= Number(object.metadata.size);
-      }
-      if (used+bytes > MAX_BYTES) return false;
-      if (expired.length) {
-        const removed = await fetcher(`${root}/object/${CODI_BUCKET}`,{method:'DELETE',headers,signal:AbortSignal.timeout(3000),body:JSON.stringify({prefixes:expired})});
-        if (!removed.ok) return false;
-      }
+      const used = objects.reduce((total,o)=>total+Number(o.metadata.size),0);
+      // Pin existing recordings. A full free cache must not discard the only
+      // surviving copy of a line; new recordings can still use GitHub.
+      if (used+bytes > MAX_BYTES || objects.length >= 500) return false;
       const uploaded = await fetcher(`${root}/object/${CODI_BUCKET}/${hash}.json`, {method:'POST',headers:{...headers,'cache-control':'public,max-age=31536000,immutable','x-upsert':'false'},signal:AbortSignal.timeout(5000),body});
       return uploaded.ok || uploaded.status === 409;
     } catch { return false; }

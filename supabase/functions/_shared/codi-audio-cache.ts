@@ -16,7 +16,7 @@ function validRecording(value: unknown): value is CodiRecording {
 }
 export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetch, hot?: {get(hash: string): Promise<CodiRecording | null>; put(hash: string, recording: CodiRecording): Promise<boolean>}) {
   let catalog: { until: number; hashes: Set<string> } | undefined;
-  let releaseId = 0;
+  const releases = new Map<string,number>();
   const active = new Map<string, Promise<CodiRecording & { cacheSaved: boolean }>>();
   const api = (route: string, init: RequestInit = {}) => fetcher(`https://api.github.com/repos/${repository}${route}`, { ...init, signal: AbortSignal.timeout(10000), headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...init.headers } });
   async function published(hash: string) {
@@ -31,20 +31,29 @@ export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetc
     }
     return catalog.hashes.has(hash);
   }
-  async function release() {
-    if (!releaseId) { const r = await api(`/releases/tags/${tag}`); if (!r.ok) throw Error('Audio release unavailable'); releaseId = (await r.json()).id; }
-    return releaseId;
+  async function release(hash: string) {
+    const shard=`${tag}-${hash.slice(0,2)}`;
+    if(!releases.has(shard)){
+      let r=await api(`/releases/tags/${shard}`);
+      if(r.status===404){r=await api('/releases',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({tag_name:shard,target_commitish:'main',name:`Codi sentence audio ${hash.slice(0,2)}`,prerelease:true,body:'Public lesson recordings, stored by immutable voice/content identity.'})});if(r.status===422)r=await api(`/releases/tags/${shard}`);}
+      if(!r.ok)throw Error('Audio release unavailable');const data=await r.json();if(!Number.isSafeInteger(data.id))throw Error('Invalid audio release');releases.set(shard,data.id);
+    }
+    return releases.get(shard)!;
   }
   // A known public release URL avoids listing thousands of assets on each click.
   async function lookup(hash: string) {
     const cached = await hot?.get(hash).catch(() => null); if (cached) return cached;
-    const response = await fetcher(`https://github.com/${repository}/releases/download/${tag}/${hash}.json?cache=${Math.floor(Date.now() / 15000)}`, { signal: AbortSignal.timeout(10000) });
-    if (response.status === 404) return null;
-    if (!response.ok) throw Error('Shared recording unavailable');
-    const raw = await response.text(); if (raw.length > 6000000) throw Error('Shared recording too large');
-    const data = JSON.parse(raw); if (!validRecording(data)) throw Error('Invalid shared recording');
-    await hot?.put(hash, data).catch(() => false);
-    return data;
+    // Keep every existing recording readable. New backups are distributed by
+    // hash prefix so one release cannot hit GitHub's 1,000-asset ceiling.
+    for(const location of [tag,`${tag}-${hash.slice(0,2)}`]){
+      const response = await fetcher(`https://github.com/${repository}/releases/download/${location}/${hash}.json?cache=${Math.floor(Date.now() / 15000)}`, { signal: AbortSignal.timeout(10000) });
+      if(response.status===404)continue;
+      if(!response.ok)throw Error('Shared recording unavailable');
+      const raw=await response.text();if(raw.length>6000000)throw Error('Shared recording too large');
+      const data=JSON.parse(raw);if(!validRecording(data))throw Error('Invalid shared recording');
+      await hot?.put(hash,data).catch(()=>false);return data;
+    }
+    return null;
   }
   async function get(language: Language, text: string) {
     const hash = await codiRecordingHash(text, language);
@@ -71,13 +80,13 @@ export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetc
   }
   async function run(language: Language, text: string, produce: () => Promise<CodiRecording>, authorize: () => Promise<void> = async () => {}) {
     const hash = await codiRecordingHash(text, language);
-    if (!await published(hash)) { await authorize(); return { ...await produce(), cacheSaved: false }; }
+    if (!await published(hash)) { await authorize(); return { ...await produce(), cacheSaved: false, cacheEligible: false }; }
     if (active.has(hash)) return active.get(hash)!;
     const task = (async () => {
       const saved = await lookup(hash); if (saved) return { ...saved, cacheSaved: true };
       // Quota denial must not cause repository writes, even for public text.
       await authorize();
-      const id = await release();
+      const id = await release(hash);
       let lock = await upload(id, `${hash}.lock`, JSON.stringify({ expires: Date.now() + 180000 }));
       if (lock.status === 422 && await expireLease(id, `${hash}.lock`)) {
         const recovered = await lookup(hash); if (recovered) return { ...recovered, cacheSaved: true };
@@ -89,13 +98,22 @@ export function createCodiAudioCache(token: string, fetcher: typeof fetch = fetc
         throw Error('Shared recording could not be reserved');
       }
       const lockId = (await lock.json()).id;
+      let releaseLease = true;
       try {
         const recording = await produce(); if (!validRecording(recording)) throw Error('Invalid generated recording');
-        const saved = await upload(id, `${hash}.json`, JSON.stringify(recording));
-        if (!saved.ok && saved.status !== 422) return { ...recording, cacheSaved: false };
-        await hot?.put(hash, recording).catch(() => false);
-        return { ...recording, cacheSaved: true };
-      } finally { await api(`/releases/assets/${lockId}`, { method: 'DELETE' }).catch(() => undefined); }
+        const githubSave = async () => {
+          for(let attempt=0;attempt<2;attempt++)try {
+            const saved=await upload(id,`${hash}.json`,JSON.stringify(recording));
+            if(saved.ok||saved.status===422)return true;
+            if(saved.status<500)return false;
+          }catch { /* A lost response may already have uploaded this ID. */ }
+          return false;
+        };
+        const [githubSaved,storageSaved]=await Promise.all([githubSave(),hot?.put(hash,recording).catch(()=>false)||Promise.resolve(false)]);
+        const cacheSaved=githubSaved||storageSaved;
+        releaseLease=cacheSaved;
+        return { ...recording, cacheSaved };
+      } finally { if(releaseLease)await api(`/releases/assets/${lockId}`, { method: 'DELETE' }).catch(() => undefined); }
     })();
     active.set(hash, task);
     try { return await task; } finally { active.delete(hash); }

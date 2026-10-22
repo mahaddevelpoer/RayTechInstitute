@@ -8,6 +8,9 @@ import React, { act } from 'react';
 import { renderToString } from 'react-dom/server';
 import { createRoot } from 'react-dom/client';
 import { JSDOM } from 'jsdom';
+import { loadTypescript } from './load-typescript.mjs';
+const explanation=await loadTypescript('src/lib/learning/code-explanation.ts');
+const previewPolicy=await loadTypescript('src/lib/learning/practice-preview.ts');
 
 const require = createRequire(import.meta.url);
 const source = await fs.readFile('src/components/learning/BrowserPractice.tsx', 'utf8');
@@ -20,9 +23,13 @@ vm.runInNewContext(compiled, {
     if (name === 'next/dynamic') return () => () => React.createElement('div', null, 'Editor fixture');
     if (name === 'lucide-react') return { Play: () => null, Square: () => null, RotateCcw: () => null };
     if (name.endsWith('runtime-assets')) return { loadRuntimeAssets: async () => ({}), loadDOMWorker: async () => '' };
+    if(name.endsWith('code-explanation'))return explanation;
+    if(name.endsWith('practice-preview'))return previewPolicy;
     throw new Error(`Unexpected dependency: ${name}`);
   },
   get window() { return globalThis.window; },
+  get document() { return globalThis.document; },
+  get CustomEvent(){return globalThis.window.CustomEvent;},
   crypto: globalThis.crypto, setTimeout, clearTimeout,
 });
 const { BrowserPractice } = module.exports;

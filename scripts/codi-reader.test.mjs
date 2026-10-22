@@ -11,6 +11,7 @@ import { JSDOM } from 'jsdom';
 import { loadTypescript } from './load-typescript.mjs';
 const line = await loadTypescript('src/lib/learning/codi-line.ts');
 const tutor = await loadTypescript('src/lib/learning/codi-tutor.ts');
+const codeExplanation=await loadTypescript('src/lib/learning/code-explanation.ts');
 
 test('Codi direct inline reading, consent, stale responses, Stop, Urdu and cleanup', async () => {
   const dom = new JSDOM('<article id="lesson"><div class="codi-slot" data-codi-slot data-codi-ignore></div><p id="first">A variable stores a value.</p><p id="second">A new line.</p><pre id="code"><code>&lt;h1 class="my_title"&gt;Hello&lt;/h1&gt;</code></pre><a href="#">Link</a></article><aside id="compiler"></aside><div id="root"></div>',{url:'https://test.invalid/'});
@@ -33,7 +34,7 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
   const require = createRequire(import.meta.url); const module = { exports: {} };
   const js = ts.transpileModule(await fs.readFile('src/components/learning/CodiReader.tsx','utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
   vm.runInNewContext(js, { module, exports: module.exports, Audio, Blob, AbortController, SpeechSynthesisUtterance: class {constructor(text){this.text=text;}}, crypto: { randomUUID }, ResizeObserver: class { observe(){} disconnect(){} }, URL: { createObjectURL() {const u='blob:'+randomUUID();urls.add(u);return u;}, revokeObjectURL(u){urls.delete(u);} }, window, document, Element, Node, NodeFilter,
-    require: id => id==='next/dynamic' ? ()=>()=>React.createElement('span',null,'Robot') : id==='@/lib/learning/codi-line' ? line : id==='@/lib/learning/codi-tutor' ? tutor : id==='@/lib/learning/codi-cloud' ? cloud : require(id),
+    require: id => id==='next/dynamic' ? ()=>()=>React.createElement('span',null,'Robot') : id==='@/lib/learning/code-explanation'?codeExplanation:id==='@/lib/learning/codi-line' ? line : id==='@/lib/learning/codi-tutor' ? tutor : id==='@/lib/learning/codi-cloud' ? cloud : require(id),
   });
   const root = createRoot(document.getElementById('root'));
   const button = text => [...document.querySelectorAll('button')].find(e => e.textContent.includes(text));
@@ -100,12 +101,13 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
     await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));
     assert.equal(spoken.at(-1).text,'A variable stores a value.');assert.match(status(),/Gemini is unavailable.*Reading with device voice/);
     const quotaRequests=reads.length;await click(document.getElementById('code'));
-    assert.equal(reads.length,quotaRequests,'brief circuit breaker avoids repeatedly hitting an exhausted provider');assert.equal(spoken.at(-1).text,'<h1 class="my_title">Hello</h1>');
+    assert.equal(reads.length,quotaRequests+1);assert.equal(reads.at(-1).allowCloud,false,'cooldown still checks saved audio without authorizing generation');await act(async()=>reads.at(-1).reject(new Error('No saved recording')));assert.equal(spoken.at(-1).text,'<h1 class="my_title">Hello</h1>');
     await click(document.querySelector('.codi-settings-toggle'));if(!document.querySelector('.codi-settings'))await click(document.querySelector('.codi-settings-toggle'));
     const fallback=[...document.querySelectorAll('label')].find(e=>e.textContent.includes('Use device voice')).querySelector('input');await click(fallback);
     await click(document.getElementById('first'));await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));
     assert.equal(spoken.length,2,'disabled fallback never substitutes the selected engine');assert.match(status(),/Speech is unavailable/);
-    window.sessionStorage.removeItem('codi-cloud-consent-v1');cloud.hasPreparedCodiReading=async()=>true;
+    assert.equal(window.localStorage.getItem('codi-cloud-consent-device-v1'),'yes','explicit voice consent persists on this device');
+    window.sessionStorage.removeItem('codi-cloud-consent-v1');window.localStorage.removeItem('codi-cloud-consent-device-v1');cloud.hasPreparedCodiReading=async()=>true;
     await act(async()=>root.render(React.createElement(module.exports.CodiReader,{...props,key:'prepared-only'})));
     await click(document.getElementById('first'));assert.equal(reads.at(-1).allowCloud,false,'ready recordings never authorize live AI implicitly');assert.equal(document.querySelector('.codi-settings'),null,'ready recording needs no Gemini consent popup');
     await act(async()=>root.unmount()); assert.ok(reads.at(-1).signal.aborted); assert.equal(urls.size,0);

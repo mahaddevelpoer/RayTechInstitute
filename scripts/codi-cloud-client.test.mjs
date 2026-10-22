@@ -25,10 +25,13 @@ function fixture() {
   const module={exports:{}};
   let storageAudio=null;const storageCalls=[];
   const fetchWithStorage=async(url,init)=>{if(String(url).includes('/storage/v1/')){storageCalls.push(url);return storageAudio?Response.json(storageAudio):new Response('',{status:404});}return fetcher(url,init);};
-  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:id==='./codi-sentences'?sentence:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,AbortSignal,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetchWithStorage,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
+  vm.runInNewContext(source,{module,exports:module.exports,process:{env:{}},require:id=>id==='./codi-line'?line:id==='./codi-sentences'?sentence:null,crypto:webcrypto,TextEncoder,Uint8Array,Float32Array,Blob,DOMException,Response,AbortSignal,AbortController,location:{origin:'https://site.test'},caches:{open:async()=>cache},fetch:fetchWithStorage,atob:s=>Buffer.from(s,'base64').toString('binary'),WebSocket:Socket,setTimeout,clearTimeout});
   return {...module.exports,store,calls,sockets,nodes,context,auth,staticCalls,sharedCalls,storageCalls,setStorage:r=>{storageAudio=r;},setShared:r=>{sharedAudio=r;},setReady:r=>{preparedReady=r;},setFetch:f=>{resolveFetch=f;}};
 }
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
+test('stable audio identities ignore whitespace and session identity, but distinguish language',async()=>{const f=fixture();assert.equal(await f.codiAudioIdentity('A  value.','en'),await f.codiAudioIdentity(' A value. ','en'));assert.notEqual(await f.codiAudioIdentity('A value.','en'),await f.codiAudioIdentity('A value.','ur'));});
+test('an in-progress recording is polled read-only rather than generated twice',async()=>{const f=fixture();f.setShared({audio:'AAABAA==',rate:24000,model:'gemini-2.5-flash-preview-tts'});f.setFetch(async()=>Response.json({error:'Recording is already being prepared.'},{status:409}));assert.equal((await f.codiCloudReading('Pending line.','en',new AbortController().signal)).type,'audio/wav');assert.equal(f.calls.length,1);assert.equal(f.sharedCalls.length,1);});
+test('unpublished private-code readings do not persist in a shared browser cache',async()=>{const f=fixture();f.setFetch(async()=>Response.json({audio:'AAABAA==',rate:24000,model:'gemini-2.5-flash-preview-tts',cacheEligible:false}));await f.codiCloudReading('Private edited code','en',new AbortController().signal);assert.equal(f.store.size,0);});
 test('Storage CDN plays saved speech directly with no Edge request or consent',async()=>{
  const f=fixture();f.setStorage({audio:'AAABAA==',rate:24000,model:'gemini-2.5-flash-preview-tts'});
  assert.equal(await f.hasPreparedCodiReading(['A cached sentence.'],'en'),true);

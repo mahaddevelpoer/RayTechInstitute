@@ -1,4 +1,5 @@
 import { StudentRequestError } from './student-auth.ts';
+import { codiRecordingHash } from './codi-audio-cache.ts';
 
 export const CODI_LIVE_MODEL = 'gemini-2.5-flash-native-audio-preview-12-2025';
 export const CODI_TTS_MODEL = 'gemini-2.5-flash-preview-tts';
@@ -148,7 +149,7 @@ export function createCodiCloudHandler(deps: Dependencies) {
       if (!body || typeof body !== 'object' || Array.isArray(body) || Object.keys(body).some(k => !['action', 'language', 'text', 'context', 'consent', 'guestId'].includes(k)) || typeof body.guestId !== 'string' || !/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(body.guestId) || !['read', 'live', 'cached'].includes(body.action) || !['en', 'ur'].includes(body.language) || (body.action !== 'cached' && body.consent !== true) || typeof body.text !== 'string' || !body.text.trim() || body.text.length > (body.action === 'live' ? 2000 : 420) || (body.action === 'live' && (typeof body.context !== 'string' || !body.context.trim() || body.context.length > 12000))) throw new StudentRequestError(400, 'Provide a supported action, language, lesson text, browser session and voice consent.');
       if (body.action === 'cached') {
         const saved = await deps.recordings?.get(body.language, body.text);
-        return reply(200, saved ? { ...saved, cacheSaved: true } : { cached: false });
+        return reply(200, saved ? { ...saved, cacheSaved: true, audioId: await codiRecordingHash(body.text,body.language) } : { cached: false });
       }
       // This ID is not authentication and can be rotated by a client. The SQL
       // global caps, not the best-effort per-browser bucket, bound public usage.
@@ -164,7 +165,7 @@ export function createCodiCloudHandler(deps: Dependencies) {
           throw error;
         }
       } else { await authorize(); result = body.action === 'live' ? await mintCodiToken(deps.key, body.language, body.context, fetcher) : await generateCodiSpeech(deps.key, body.language, body.text, fetcher); }
-      return reply(200, result);
+      return reply(200, body.action==='read'?{...result,audioId:await codiRecordingHash(body.text,body.language)}:result);
     } catch (error) {
       return error instanceof StudentRequestError ? reply(error.status, { error: error.message.replace('submitting your assignment', 'using cloud voice') }) : reply(503, { error: 'Codi cloud voice is temporarily unavailable. No paid fallback was used.' });
     }

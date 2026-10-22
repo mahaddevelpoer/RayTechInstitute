@@ -6,12 +6,13 @@ export function codiNarration(markdown: string): string {
   const protectedText = markdown.replace(/```[^\n]*\n([\s\S]*?)```|`([^`\n]+)`/g, (_match, fenced: string | undefined, inline: string | undefined) => {
     code.push(fenced ?? inline ?? ''); return `\uE000${code.length - 1}\uE001`;
   });
-  return protectedText.replace(/<!--[\s\S]*?-->/g, '').replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/<[^>]+>/g, '').replace(/^\s{0,3}#{1,6}\s+/gm, '').replace(/[*_`]/g, '').replace(/^\s*[-+]\s+/gm, '').replace(/\uE000(\d+)\uE001/g, (_match, index) => code[Number(index)] ?? '').replace(/\n{3,}/g, '\n\n').trim();
+  return protectedText.replace(/<!--[\s\S]*?-->/g, '').replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/<[^>]+>/g, '').replace(/^\s{0,3}#{1,6}\s+/gm, '').replace(/[*`]|(?<!\w)_+|_+(?!\w)/g, '').replace(/^\s*[-+]\s+/gm, '').replace(/\uE000(\d+)\uE001/g, (_match, index) => code[Number(index)] ?? '').replace(/\n{3,}/g, '\n\n').trim();
 }
 /** Queue the complete text. Each neural voice request remains small and bounded. */
 export function codiSpeechChunks(text: string, format: 'markdown' | 'text' = 'markdown'): string[] {
   const clean = format === 'text' ? text.trim() : codiNarration(text); if (!clean || clean.length > 200000) return [];
   if(format==='text' && /\n\s*\n/.test(clean))return clean.split(/\n\s*\n/).flatMap(unit=>codiSpeechChunks(unit,'text'));
+  if(format==='text'){const sentences=codiSentences(clean);if(sentences.length>1)return sentences.flatMap(sentence=>codiSpeechChunks(sentence,'text'));}
   if (format === 'markdown') return clean.split(/\n\s*\n/).flatMap(block => codiSentences(block).flatMap(sentence => codiSpeechChunks(sentence, 'text')));
   const chunks: string[] = []; let buffer = '';
   for (const word of clean.split(/\s+/)) {

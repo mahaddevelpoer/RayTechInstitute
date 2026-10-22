@@ -5,10 +5,12 @@ import { loadTypescript } from './load-typescript.mjs';
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
 const {codiSentences,codiAudioKeyMaterial,codiInlineCodeRanges}=await loadTypescript('src/lib/learning/codi-sentences.ts');
 const {codiSpeechChunks}=await loadTypescript('src/lib/learning/codi-tutor.ts');
+const {explainCodeLine}=await loadTypescript('src/lib/learning/code-explanation.ts');
 const reviewed=JSON.parse(await fs.readFile('src/data/reviewedLessons.json','utf8'));
 const processor=createProcessor({format:'mdx'});const units=new Map();const lessons=[];
 const plain=node=>typeof node.value==='string'?node.value:(node.children||[]).map(plain).join('');
-const add=(text,topic,code=false,ranges=[])=>{for(const sentence of code?[text.trim()]:codiSentences(text,ranges))for(const chunk of codiSpeechChunks(sentence,'text')){if(!chunk)continue;for(const language of ['ur','en']){const hash=createHash('sha256').update(codiAudioKeyMaterial(chunk,language)).digest('hex');if(!units.has(hash))units.set(hash,{hash,language,text:chunk,lesson:topic.slug,course:LEARNING_LANGUAGES.find(l=>l.id===topic.languageId)?.slug});}}};
+const addUnit=(chunk,topic)=>{if(!chunk||chunk.length>420)return;for(const language of ['ur','en']){const hash=createHash('sha256').update(codiAudioKeyMaterial(chunk,language)).digest('hex');if(!units.has(hash))units.set(hash,{hash,language,text:chunk,lesson:topic.slug,course:LEARNING_LANGUAGES.find(l=>l.id===topic.languageId)?.slug});}};
+const add=(text,topic,code=false,ranges=[])=>{for(const sentence of code?[text.trim()]:codiSentences(text,ranges))for(const chunk of codiSpeechChunks(sentence,'text'))addUnit(chunk,topic);if(code){const explanation=explainCodeLine(topic.languageId,text);if(explanation)addUnit(explanation.narration,topic);}};
 const topics=[...LEARNING_TOPICS].filter(t=>t.state==='published').sort((a,b)=>Number(b.languageId.includes('python'))-Number(a.languageId.includes('python'))||a.order-b.order);
 for(const topic of topics){
  add(topic.summary,topic);

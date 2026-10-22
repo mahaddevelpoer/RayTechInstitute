@@ -64,7 +64,7 @@ const categoryItems: Array<{
 
 const classTitle = (title: string) => title.replace(/\s*\(.+\)$/, "");
 
-export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement> }> = ({ scrollContainer }) => {
+export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement>; autoHide?: boolean }> = ({ scrollContainer, autoHide = true }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openCategory, setOpenCategory] = useState<MenuKey | null>(null);
   const [mobileCategory, setMobileCategory] = useState<MenuKey | null>(null);
@@ -117,7 +117,7 @@ export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement> }
   ) => `/classes/${classSlug}/${subjectSlug}/${key}/`;
 
   return (
-    <header data-scroll-hidden={hidden} onFocusCapture={reveal} className="site-header sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--bg-card)] shadow-nav">
+    <header data-scroll-hidden={autoHide && hidden} onFocusCapture={reveal} className="site-header sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--bg-card)] shadow-nav">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex min-h-[4.5rem] items-center justify-between gap-4">
           <Link

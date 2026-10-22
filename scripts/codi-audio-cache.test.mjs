@@ -67,5 +67,11 @@ test('shared hits spend no quota, while quota denial cannot write a lease or gen
 test('corrupt shared audio fails closed and unsuccessful saves never claim persistence',async()=>{
  const f=fixture();f.assets.set(hash+'.json',{body:JSON.stringify({...recording,model:'untrusted'})});
  await assert.rejects(f.cache.get('en',text),/Invalid shared/);
- f.assets.clear();f.failWrites();assert.equal((await f.cache.run('en',text,async()=>recording)).cacheSaved,false);assert.equal(f.assets.size,0);
+ f.assets.clear();f.failWrites();assert.equal((await f.cache.run('en',text,async()=>recording)).cacheSaved,false);assert.equal(f.assets.has(hash+'.lock'),true,'failed persistence keeps the lease to prevent immediate regeneration');
+});
+test('Storage independently saves a recording when GitHub upload fails',async()=>{
+ const f=fixture();f.failWrites();let stored=null;
+ const cache=createCodiAudioCache('private-fixture',f.fetcher,{get:async()=>stored,put:async(_hash,r)=>{stored=r;return true;}});
+ assert.equal((await cache.run('en',text,async()=>recording)).cacheSaved,true);
+ assert.deepEqual(await cache.get('en',text),recording);assert.equal(f.assets.has(hash+'.lock'),false);
 });
