@@ -26,6 +26,7 @@ try{
  await page.getByRole('button',{name:'Codi settings',exact:true}).click();await page.locator('.codi-settings').getByRole('combobox',{name:'Voice',exact:true}).selectOption('device');await page.locator('.codi-settings').getByRole('combobox',{name:/Language/}).selectOption('en');await page.getByRole('button',{name:'Close Codi settings',exact:true}).click();
  const sentence=page.locator('.learning-lesson button[data-codi-text]').first();await sentence.click();await page.mouse.move(1,1);
  await page.waitForFunction(()=>document.querySelector('[data-codi-reading="true"]'));
+ await page.waitForFunction(()=>{const line=document.querySelector('[data-codi-reading="true"]');return line&&getComputedStyle(line).backgroundColor==='rgb(27, 79, 155)';});
  assert.equal(await sentence.getAttribute('aria-current'),'true');assert.notEqual(await sentence.evaluate(e=>getComputedStyle(e).backgroundColor),'rgba(0, 0, 0, 0)');
  await page.getByRole('button',{name:'Codi settings',exact:true}).click();await page.locator('.codi-settings').getByRole('button',{name:'Stop',exact:true}).click();assert.equal(await page.locator('[data-codi-reading]').count(),0);await page.getByRole('button',{name:'Close Codi settings',exact:true}).click();
  await editor.locator('.cm-line').nth(1).dblclick();
