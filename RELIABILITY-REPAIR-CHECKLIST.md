@@ -58,3 +58,4 @@ Never publish test content as genuine educational material, fabricate statistics
 - Transactional note/gazette CRUD passed again after the private-read migration, still with rollback.
 - Temporary protected learning-qa endpoint was deleted after verification; a follow-up request returned 404.
 - Successful release evidence: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/39750256830
+- After the private-read migration, a fresh content-only rebuild also passed: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/39750901544 (all nine build catalogs fetched, 135 live HTML matches, 14 responsive resource routes, no public database reads).
