@@ -10,7 +10,7 @@ import {
   INITIAL_SUBJECTS,
   INITIAL_NOTES,
 } from "@/data/staticCatalog";
-import { buildSeoTitle } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 const slug = (value: string) =>
   value
@@ -48,9 +48,7 @@ export async function generateMetadata({
   const title = buildSeoTitle(
     `${currentSubject.title} Chapter ${note.chapterNumber} Notes PDF`,
   );
-  const description =
-    note.description ||
-    `Chapter ${note.chapterNumber} ${currentSubject.title} notes in PDF format for intermediate students.`;
+  const description = buildDocumentDescription(note.description || '', `Chapter ${note.chapterNumber} ${currentSubject.title} notes PDF`);
   return {
     title,
     description,

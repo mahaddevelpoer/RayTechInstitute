@@ -7,7 +7,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PdfDetailClientView } from "@/components/educational/PdfDetailClientView";
 import { INITIAL_CLASSES, INITIAL_GAZETTES } from "@/data/staticCatalog";
-import { buildSeoTitle } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 const slug = (value: string) =>
   value
@@ -36,9 +36,9 @@ export async function generateMetadata({
       ? `${gazette.board} ${gazette.year} Result Gazette`
       : "Result Gazette Details",
   );
-  const description = gazette
+  const description = buildDocumentDescription(gazette
     ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, PDF preview, and verification guidance for students.`
-    : "View official intermediate result gazette details and PDF resources.";
+    : "View official intermediate result gazette details and PDF resources.", 'Result gazette');
   return {
     title,
     description,

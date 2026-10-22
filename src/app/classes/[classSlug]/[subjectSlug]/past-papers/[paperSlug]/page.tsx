@@ -10,7 +10,7 @@ import {
   INITIAL_SUBJECTS,
   INITIAL_PAST_PAPERS,
 } from "@/data/staticCatalog";
-import { buildSeoTitle } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 const slug = (value: string) =>
   value
@@ -52,9 +52,7 @@ export async function generateMetadata({
   const title = buildSeoTitle(
     `${currentSubject.title} ${paper.year} Past Paper PDF`,
   );
-  const description =
-    paper.description ||
-    `View the ${paper.board} ${paper.year} ${currentSubject.title} past paper PDF for intermediate exam practice, revision, and board-style preparation.`;
+  const description = buildDocumentDescription(paper.description || '', `${paper.board} ${paper.year} ${currentSubject.title} past paper PDF`);
   return {
     title,
     description,

@@ -48,3 +48,18 @@ export function buildLessonDescription(summary: string, context: string): string
   if (boundary >= 120) shortened = shortened.slice(0, boundary);
   return `${shortened.trimEnd()}…`;
 }
+
+/** Bound search metadata only. Never truncate the saved document description or content. */
+export function buildDocumentDescription(summary: string, context: string): string {
+  const normalize = (value: string) => value.replace(/\s+/g, ' ').trim();
+  const text = normalize(summary);
+  const label = normalize(context);
+  let value = label && text ? `${label}: ${text}` : label || text || 'View this study document.';
+  if (value.length < 120)
+    value += `${/[.!?]$/.test(value) ? '' : '.'} Read its details, open the original document and check the class, subject and examination session before using it for revision.`;
+  if (value.length <= 155) return value;
+  let shortened = value.slice(0, 154);
+  const boundary = shortened.lastIndexOf(' ');
+  if (boundary >= 120) shortened = shortened.slice(0, boundary);
+  return `${shortened.trimEnd()}…`;
+}
