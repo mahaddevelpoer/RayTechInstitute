@@ -1,6 +1,25 @@
 import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs/promises';import{loadTypescript}from'./load-typescript.mjs';
 const {writeEducationalContent,readEducationalCatalog}=await loadTypescript('supabase/functions/_shared/content-mutations.ts');
 const {documentLinks}=await loadTypescript('src/utils/documents.ts');
+const {validateGazetteDraft,GAZETTE_LENGTH_GUIDANCE}=await loadTypescript('supabase/functions/_shared/gazette-draft.ts');
+
+test('gazette length is a soft character target, never a word-count or heading gate',async()=>{
+ for(const content of ['A short useful description.','a'.repeat(1799),'a'.repeat(1800),'a'.repeat(4000)]){
+  assert.equal(validateGazetteDraft({title:'Result verification guide',content,pdfUrl:''}).content,content);
+ }
+ assert.match(GAZETTE_LENGTH_GUIDANCE,/1,800 characters/);
+ assert.match(GAZETTE_LENGTH_GUIDANCE,/not a minimum or maximum/);
+ const source=await fs.readFile('supabase/functions/secure-dispatch/index.ts','utf8');
+ const action=source.slice(source.indexOf('if (action === "generate_gazette")'),source.indexOf('if (action === "generate_notes")'));
+ assert.match(action,/validateGazetteDraft\(extractAndParseJson\(rawText\)\)/);
+ assert.doesNotMatch(action,/expandIfTooShort|validateLongFormContent|at least 1,800 words/);
+});
+
+test('gazette generation still rejects empty and malformed responses without discarding draft fields',()=>{
+ for(const value of [null,[],{}, {title:'Guide',content:'  '},{title:' ',content:'A description'}, {title:'Guide',content:{text:'invalid'}}])assert.throws(()=>validateGazetteDraft(value));
+ const draft=validateGazetteDraft({title:' Guide ',content:' Description ',board:'BISE Lahore',pdfUrl:'https://board.test/g.pdf'});
+ assert.equal(draft.title,'Guide');assert.equal(draft.content,'Description');assert.equal(draft.pdfUrl,'https://board.test/g.pdf');assert.equal(draft.board,'BISE Lahore');
+});
 test('gazette and note writes require a valid identity, document and a confirmed saved row',async()=>{
  for(const table of ['gazettes','notes']){let saved;const payload={table,operation:'upsert',record:{id:'fixture-1',title:'Fixture',pdf_url:'https://board.test/gazette.pdf'}};
  assert.equal((await writeEducationalContent('https://db.test','secret',payload,async(u,o)=>{saved=o;return Response.json([payload.record]);})).success,true);assert.match(saved.headers.Prefer,/return=representation/);

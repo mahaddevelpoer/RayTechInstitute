@@ -9,6 +9,7 @@ import { listLearningVideos, verifyLearningVideos, learningYouTubeKey } from '..
 import { collectLearningHealth } from '../_shared/learning-health.ts';
 import { studentReviewKey } from '../_shared/student-review-config.ts';
 import { writeEducationalContent, readEducationalCatalog } from '../_shared/content-mutations.ts';
+import { GAZETTE_LENGTH_GUIDANCE, validateGazetteDraft } from '../_shared/gazette-draft.ts';
 
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://raytechinstitute.web.app',
@@ -918,9 +919,8 @@ Return response STRICTLY as a valid JSON object matching:
 }`;
 
       try {
-        const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, "Generate a detailed independent result verification guide in JSON, with at least 1,800 words in content. Do not summarize; include complete headings, tables, procedures, verification steps, rechecking rules, and student guidance.", 16384, 0.3);
-        const parsedGazette = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 1800, 'result gazette');
-        const validatedGazette = validateLongFormContent(parsedGazette, 1800, 'result gazette', 4);
+        const rawText = await callGeminiCascade(geminiApiKey, gazetteSystemPrompt, `Generate a useful independent result verification guide in JSON. ${GAZETTE_LENGTH_GUIDANCE} Use clear Markdown sections where helpful, source-verification steps and practical student guidance. Include tables or factual procedures only when supported by the supplied information.`, 16384, 0.3);
+        const validatedGazette = validateGazetteDraft(extractAndParseJson(rawText));
         return respond({ success: true, gazette: validatedGazette });
       } catch (err: any) {
         return respond({
