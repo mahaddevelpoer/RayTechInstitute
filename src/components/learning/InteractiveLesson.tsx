@@ -32,7 +32,7 @@ function Trace({ block }: { block: Extract<LessonBlock, { type: 'CodeTrace' }> }
 export function InteractiveLesson({ blocks, language, onTryCode }: { blocks: LessonBlock[]; language: string; onTryCode: (code: string) => void }) {
   return <div className="interactive-lesson">{blocks.map((block, index) => {
     if (block.type === 'Understand') return <UnderstandActivity key={index} title={block.title} stages={block.stages} experiment={block.experiment} />;
-    if (block.type === 'markdown') return <MarkdownRenderer key={index} content={block.content} practiceLanguage={language} onTryCode={onTryCode} narration />;
+    if (block.type === 'markdown') return <MarkdownRenderer key={index} content={block.content} practiceLanguage={language} onTryCode={onTryCode} narration teaching />;
     if (block.type === 'PredictOutput') return <Prediction key={index} block={block} />;
     if (block.type === 'CodeTrace') return <Trace key={index} block={block} />;
     return <section key={index} className="lesson-activity"><p className="lesson-activity-label">Change it and explain it</p><h3><CodiSentences text={block.title}/></h3><p><CodiSentences text={block.task}/></p><pre><code><CodiCodeLines code={block.code}/></code></pre><button className="learn-button" onClick={() => onTryCode(block.code)}>Open in Practice</button><p className="mt-3 text-xs">Loading an example does not run it. Your existing edits are protected by a replacement confirmation.</p></section>;

@@ -57,9 +57,9 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
         <TopicProgressPanel topic={topic} />
         <nav aria-label="Topic activities" className="mb-6 flex flex-wrap gap-2"><Link className="learn-button" aria-current={mode === 'lesson' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/`}>Lesson</Link><Link className="learn-button" aria-current={mode === 'quiz' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/quiz/`}>Topic test</Link><Link className="learn-button" aria-current={mode === 'assignment' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/assignment/`}>Assignment</Link></nav>
         {mode === 'quiz' ? <TopicQuiz topic={topic} languageSlug={language.slug} /> : mode === 'assignment' ? <TopicAssignment topic={topic} languageSlug={language.slug} /> : <>
-        <p className="mb-8 text-base leading-relaxed"><CodiSentences text={topic.summary}/></p>
+          <div className="lesson-opening"><p className="lesson-teaching-label" data-codi-ignore>In this lesson</p><p><CodiSentences text={topic.summary}/></p></div>
         <section className="learning-objectives"><h2 className="mb-2 text-base font-semibold"><CodiSentences text="What you will learn"/></h2><ul className="list-disc space-y-1 pl-5 text-sm">{topic.objectives.map(objective => <li key={objective}><CodiSentences text={objective}/></li>)}</ul></section>
-        {lessonBlocks ? <InteractiveLesson blocks={lessonBlocks} language={language.runtime} onTryCode={tryCode} /> : <MarkdownRenderer content={topic.content} practiceLanguage={language.runtime} onTryCode={tryCode} narration />}
+        {lessonBlocks ? <InteractiveLesson blocks={lessonBlocks} language={language.runtime} onTryCode={tryCode} /> : <MarkdownRenderer content={topic.content} practiceLanguage={language.runtime} onTryCode={tryCode} narration teaching />}
         {!!topic.videoIds.length && <section className="mt-10"><h2 className="mb-4 text-xl font-semibold">Watch the lesson</h2>{topic.videoIds.map(id => <LessonVideo key={id} videoId={id} title={topic.title} />)}</section>}
         <AdReservation placement="lesson" />
         </>}

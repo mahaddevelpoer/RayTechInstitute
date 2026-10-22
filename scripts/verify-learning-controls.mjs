@@ -1,10 +1,18 @@
 import assert from'node:assert/strict';import{chromium}from'playwright';
+import fs from'node:fs/promises';
 const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});const base='https://raytechinstitute.web.app';
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});
  await page.addInitScript(()=>{window.__spoken=[];window.speechSynthesis.speak=u=>{window.__spoken.push(u.text);u.onstart?.();};window.speechSynthesis.cancel=()=>{};});
  await page.goto(base+'/learn/python/values-names-and-output/',{waitUntil:'domcontentloaded'});
  await page.getByRole('button',{name:'Decline Optional',exact:true}).click();
+ const copy=page.locator('.lesson-teaching-copy').first();await copy.waitFor();assert.ok(await copy.locator('.lesson-teaching-section').count()>0);
+ assert.ok(await copy.locator('p').first().evaluate(e=>parseFloat(getComputedStyle(e).fontSize))>=17);
+ assert.equal(await copy.locator('p > .codi-sentence').first().evaluate(e=>getComputedStyle(e).display),'block');
+ await fs.mkdir('artifacts/learning-presentation',{recursive:true});await copy.scrollIntoViewIfNeeded();await page.screenshot({path:'artifacts/learning-presentation/desktop-light.png'});
+ await page.evaluate(()=>document.documentElement.classList.add('dark'));assert.notEqual(await copy.locator('p').first().evaluate(e=>getComputedStyle(e).color),'rgb(51, 65, 85)');await page.screenshot({path:'artifacts/learning-presentation/desktop-dark.png'});await page.evaluate(()=>document.documentElement.classList.remove('dark'));
+ await page.setViewportSize({width:360,height:800});await copy.scrollIntoViewIfNeeded();await page.screenshot({path:'artifacts/learning-presentation/mobile.png'});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.setViewportSize({width:1366,height:900});
+ console.log('[lesson-presentation] Teaching blocks, larger sentence rows, themes and 360px layout passed.');
  const oldHeight=await page.locator('main').evaluate(e=>e.clientHeight);
  await page.getByRole('button',{name:'Hide navigation',exact:true}).click();await page.waitForFunction(h=>document.querySelector('main').clientHeight>h,oldHeight);
  assert.equal(await page.locator('#learning-navigation').evaluate(e=>e.inert),true);

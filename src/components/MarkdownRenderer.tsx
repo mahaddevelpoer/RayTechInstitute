@@ -6,12 +6,14 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { sanitizeUrl } from "@/utils/security";
 import { codiSentencePlugin } from '@/lib/learning/codi-sentences';
+import { lessonTeachingPlugin } from '@/lib/learning/lesson-teaching';
 
 interface MarkdownRendererProps {
   content: string;
   practiceLanguage?: string;
   onTryCode?: (code: string) => void;
   narration?: boolean;
+  teaching?: boolean;
 }
 
 export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
@@ -19,15 +21,16 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
   practiceLanguage,
   onTryCode,
   narration = false,
+  teaching = false,
 }) => {
   const sections = articleSections(content);
   const headingId = (line?: number) =>
     sections.find((s) => s.line === line)?.id;
   return (
-    <div className="markdown-article text-slate-800 leading-relaxed space-y-4">
+    <div className={`${teaching ? 'lesson-teaching-copy' : 'markdown-article'} text-slate-800 leading-relaxed space-y-4`}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
-        rehypePlugins={narration ? [codiSentencePlugin] : []}
+        rehypePlugins={[...(narration ? [codiSentencePlugin] : []), ...(teaching ? [lessonTeachingPlugin] : [])]}
         components={{
           h1: ({ children, node }) => (
             <h2
@@ -71,6 +74,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
           li: ({ children }) => <li className="leading-relaxed">{children}</li>,
           blockquote: ({ children }) => (
             <blockquote className="p-4 bg-navy-50 border-l-4 border-navy-600 rounded-r text-sm text-slate-700 italic my-4">
+              {teaching && <span className="lesson-note-label" data-codi-ignore>Keep in mind</span>}
               {children}
             </blockquote>
           ),
@@ -130,6 +134,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
             if (tag === 'hint' || tag === 'solution') return <details className="my-4 rounded-md border border-slate-300 bg-slate-50 p-4"><summary className="min-h-12 cursor-pointer font-semibold">{tag === 'hint' ? 'Show hint' : 'Show solution'}</summary><div className="whitespace-pre-wrap break-words pt-3 text-sm">{text}</div></details>;
             const language = ({ py: 'python', python: 'python', js: 'javascript', javascript: 'javascript', html: 'html', css: 'css', php: 'php' } as Record<string, string>)[tag || ''];
             return <div className="my-4 min-w-0 rounded-lg border border-slate-800 bg-slate-900 text-slate-100">
+              {teaching && <div className="lesson-example-label" data-codi-ignore>{language ? `${language.toUpperCase()} example` : 'Reference'}<span>{language ? 'Read the code, then try a change.' : 'Compare this with the explanation.'}</span></div>}
               {onTryCode && language && language === practiceLanguage && text.trim() && text.length <= 20000 && <div className="flex justify-end border-b border-slate-700 px-3 py-2"><button type="button" className="min-h-12 rounded-md border border-slate-500 px-3 text-sm font-semibold text-white hover:bg-slate-700" onClick={() => onTryCode(text)}>Try this example</button></div>}
               <pre className="m-0 overflow-x-auto p-4 text-xs font-mono"><code className="block whitespace-pre font-mono text-inherit">{narration && text ? text.split('\n').map((line,index)=><React.Fragment key={index}>{index>0?'\n':''}{line.trim()?<button type="button" className="codi-sentence codi-code-sentence" data-codi-text={line.trim()} title="Read this code line with Codi">{line}</button>:line}</React.Fragment>) : text || children}</code></pre>
             </div>;

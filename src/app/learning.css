@@ -97,6 +97,34 @@ html.dark { --learn-accent:#5eead4; --learn-accent-soft:#143b3a; }
 .learning-lesson { padding:2rem clamp(1rem,3vw,3rem) 3rem; overflow-wrap:anywhere; }
 .learning-lesson a:not(.learn-button) { color:var(--learn-accent); }
 .learning-objectives { margin-bottom:2rem; border-left:3px solid var(--learn-accent); padding:1rem 1.25rem; background:var(--learn-accent-soft); }
+.lesson-opening { margin:1.5rem 0; padding:1.25rem; border-top:3px solid var(--learn-accent); background:var(--bg-soft); }
+.lesson-opening>p:last-child { font-size:1.15rem; line-height:1.85; font-weight:500; margin-top:.5rem; }
+.lesson-teaching-copy { color:var(--text-main); min-width:0; }
+.lesson-teaching-section { margin:2rem 0; padding:clamp(1rem,2vw,1.5rem); border:1px solid var(--border); border-radius:6px; background:var(--bg-card); min-width:0; }
+.lesson-teaching-label { color:var(--learn-accent); font-size:.72rem; font-weight:750; letter-spacing:.08em; text-transform:uppercase; margin-bottom:.6rem; }
+.lesson-teaching-section[data-teaching-kind="practice"] { border-left:4px solid var(--learn-accent); background:var(--learn-accent-soft); }
+.lesson-teaching-section[data-teaching-kind="caution"] { border-top:3px solid #b45309; }
+.lesson-teaching-section[data-teaching-kind="caution"]>.lesson-teaching-label { color:#92400e; }
+html.dark .lesson-teaching-section[data-teaching-kind="caution"]>.lesson-teaching-label { color:#fbbf24; }
+.lesson-teaching-section[data-teaching-kind="review"] { border-style:dashed; background:var(--bg-soft); }
+.lesson-teaching-copy :is(h2,h3) { color:var(--text-main); margin:.35rem 0 1.25rem; border:0; padding:0; font-size:clamp(1.25rem,2vw,1.55rem); line-height:1.4; }
+.lesson-teaching-copy p { color:var(--text-main); font-size:1.0625rem; line-height:1.9; margin:1rem 0; }
+.lesson-teaching-section>p:first-of-type { font-size:1.125rem; font-weight:500; }
+.lesson-teaching-copy p>.codi-sentence,.lesson-teaching-copy p>.codi-sentence-group { display:block; margin:.35rem 0; padding:.25rem 0; }
+.lesson-teaching-copy :is(ul,ol) { color:var(--text-main); font-size:1rem; line-height:1.85; }
+.lesson-teaching-copy li { padding:.35rem 0; }
+.lesson-teaching-copy strong { color:var(--text-main); font-weight:750; text-decoration:underline; text-decoration-color:var(--learn-accent); text-decoration-thickness:2px; text-underline-offset:4px; }
+.lesson-teaching-copy :not(pre)>code { font-size:.9em; color:var(--learn-accent); background:var(--bg-soft); border-color:var(--border); }
+.lesson-teaching-copy blockquote { color:var(--text-main); background:var(--learn-accent-soft); border-left-color:var(--learn-accent); font-style:normal; }
+.lesson-note-label { display:block; color:var(--learn-accent); font-size:.8rem; font-weight:700; }
+.lesson-teaching-copy blockquote p { margin:.5rem 0 0; }
+.lesson-example-label { padding:.85rem 1rem; font-size:.75rem; font-weight:700; border-bottom:1px solid #475569; color:#99f6e4; }
+.lesson-example-label span { display:block; margin-top:.25rem; font-size:.75rem; font-weight:400; color:#cbd5e1; }
+.lesson-teaching-copy pre { font-size:.9rem; line-height:1.85; }
+.lesson-teaching-copy :is(th,td) { font-size:.95rem; color:var(--text-main); border-color:var(--border); }
+.lesson-teaching-copy :is(thead,tbody,tr) { background:var(--bg-card); color:var(--text-main); }
+.lesson-teaching-copy details { background:var(--bg-soft); color:var(--text-main); border-color:var(--border); }
+@media(max-width:767px) { .lesson-teaching-section { margin:1.5rem 0; padding:1rem; }.lesson-teaching-copy p { font-size:1rem; }.lesson-teaching-section>p:first-of-type { font-size:1.0625rem; } }
 .learning-practice-pane { border-left:1px solid var(--border); background:var(--bg-soft); }
 .learning-practice { min-height:100%; display:flex; flex-direction:column; }
 .learning-editor-slot { height:clamp(240px,48dvh,600px); flex-shrink:0; min-width:0; }
