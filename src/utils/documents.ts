@@ -1,3 +1,17 @@
+/** Validate editor input before sending a save request. Never silently upgrade an HTTP source. */
+export function normalizeDocumentInput(value: string, label: string, allowRelative = false): string {
+  let input = value.trim();
+  if (!input) return '';
+  if (allowRelative && input.startsWith('/') && !input.startsWith('//')) return input;
+  if (input.startsWith('//')) input = `https:${input}`;
+  else if (!/^[a-z][a-z0-9+.-]*:/i.test(input)) input = `https://${input}`;
+  try {
+    const url = new URL(input);
+    if (url.protocol !== 'https:' || url.username || url.password || !url.hostname.includes('.')) throw new Error();
+    return url.href;
+  } catch { throw new Error(`${label} must be a valid HTTPS link, such as https://drive.google.com/file/d/FILE_ID/view. Remove any pasted HTML or extra text.`); }
+}
+
 /** Preview only supported providers. A board homepage is not a PDF. */
 export function documentLinks(value?: string, previewValue?: string) {
   const safe = (input?: string) => {

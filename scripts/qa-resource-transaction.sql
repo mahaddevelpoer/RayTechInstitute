@@ -9,8 +9,8 @@ BEGIN
   END IF;
   INSERT INTO public.gazettes(id,title,board,class_slug,year,session,pdf_url,content,action_button_text,action_button_url)
   VALUES('__qa_gazette_20261022','Uncommitted QA fixture','BISE Lahore','11th-class',2026,'1st Annual','https://www.biselahore.com/qa-test.pdf','QA content','Open document','https://www.biselahore.com/qa-test.pdf');
-  INSERT INTO public.notes(id,title,class_slug,subject_slug,chapter_number,chapter_title,pdf_url,content,preview_pdf_url,action_button_text,action_button_url)
-  VALUES('__qa_note_20261022','Uncommitted QA fixture','11th-class','computer-science',1,'QA chapter','https://www.biselahore.com/qa-test.pdf','QA content','https://drive.google.com/file/d/qa_fixture/preview','Open document','https://www.biselahore.com/qa-test.pdf');
+  INSERT INTO public.notes(id,title,class_slug,subject_slug,chapter_number,chapter_title,pdf_url,description,file_size,download_count,last_updated,content,preview_pdf_url,action_button_text,action_button_url)
+  VALUES('__qa_note_20261022','Uncommitted QA fixture','11th-class','computer-science',1,'QA chapter','https://cssaspirants.pk/wp-content/uploads/2026/07/computer-science-2026.pdf','QA description','PDF',0,'2026-10-22','QA content',null,null,null);
   UPDATE public.gazettes SET title='Updated QA fixture' WHERE id='__qa_gazette_20261022';
   UPDATE public.notes SET title='Updated QA fixture' WHERE id='__qa_note_20261022';
   IF NOT EXISTS(SELECT 1 FROM public.gazettes WHERE id='__qa_gazette_20261022' AND title='Updated QA fixture' AND action_button_text='Open document') THEN RAISE EXCEPTION 'Gazette round trip failed'; END IF;

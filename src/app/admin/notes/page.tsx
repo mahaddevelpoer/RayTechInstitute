@@ -6,6 +6,8 @@ import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
 import { ClassItem, SubjectItem, NoteItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
+import { adminFunctionError } from '@/lib/admin-function-error';
+import { normalizeDocumentInput } from '@/utils/documents';
 
 export default function AdminNotesPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
@@ -29,6 +31,7 @@ export default function AdminNotesPage() {
   const [actionButtonUrl, setActionButtonUrl] = useState('');
 
   const [successMsg, setSuccessMsg] = useState('');
+  const [saveError, setSaveError] = useState('');
   const [editingId, setEditingId] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
 
@@ -67,6 +70,7 @@ export default function AdminNotesPage() {
   const convertGoogleDriveLink = (url: string): string => {
     if (!url) return '';
     // Match Google Drive file link patterns
+    if (new URL(url).hostname !== 'drive.google.com') return url;
     const fileIdMatch = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
     if (fileIdMatch && fileIdMatch[1]) {
       return `https://drive.google.com/file/d/${fileIdMatch[1]}/preview`;
@@ -78,17 +82,12 @@ export default function AdminNotesPage() {
   const handleSaveNote = adminOperation('notes:handleSaveNote', async (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim() || !chapterTitle.trim() || !pdfUrl.trim()) return;
+    setSaveError('');
+    setSuccessMsg('');
 
     const existing = editingId ? notes.find((n) => n.id === editingId) : null;
 
-    const normalize = (u?: string) => {
-      if (!u) return '';
-      const t = u.trim();
-      if (!t) return '';
-      if (t.startsWith('http://') || t.startsWith('https://') || t.startsWith('//')) return t;
-      return `https://${t}`;
-    };
-
+    try {
     const noteData: NoteItem = {
       id: editingId || `note-${Date.now()}`,
       classSlug: selectedClass,
@@ -97,17 +96,16 @@ export default function AdminNotesPage() {
       chapterTitle: chapterTitle.trim(),
       title: title.trim(),
       description: description.trim(),
-      pdfUrl: normalize(pdfUrl),
+      pdfUrl: normalizeDocumentInput(pdfUrl, 'PDF download URL'),
       fileSize: fileSize.trim() || 'PDF',
       downloadCount: existing ? existing.downloadCount : 0,
       lastUpdated: new Date().toISOString().split('T')[0],
       content: content.trim() || undefined,
-      previewPdfUrl: previewPdfUrl.trim() ? convertGoogleDriveLink(previewPdfUrl.trim()) : undefined,
+      previewPdfUrl: previewPdfUrl.trim() ? convertGoogleDriveLink(normalizeDocumentInput(previewPdfUrl, 'PDF preview URL')) : undefined,
       actionButtonText: hasActionButton && actionButtonText.trim() ? actionButtonText.trim() : undefined,
-      actionButtonUrl: hasActionButton && actionButtonUrl.trim() ? normalize(actionButtonUrl) : undefined,
+      actionButtonUrl: hasActionButton && actionButtonUrl.trim() ? normalizeDocumentInput(actionButtonUrl, 'Action button URL', true) : undefined,
     };
 
-    try {
       await EducationalStore.saveNote(noteData);
       setNotes(EducationalStore.getNotes());
       resetForm();
@@ -115,8 +113,7 @@ export default function AdminNotesPage() {
       setTimeout(() => setSuccessMsg(''), 4000);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Failed to save note.';
-      setAiError(msg);
-      setTimeout(() => setAiError(''), 8000);
+      setSaveError(msg);
     }
   });
 
@@ -190,7 +187,7 @@ export default function AdminNotesPage() {
       });
 
       if (error || !data?.success) {
-        throw new Error(data?.error || error?.message || 'Failed to generate study guide from AI.');
+        throw await adminFunctionError(error, data, 'The study guide could not be generated. Your form has not been cleared. Please retry.');
       }
 
       const aiNote = data.note;
@@ -228,6 +225,7 @@ export default function AdminNotesPage() {
 
   return (
     <div className="space-y-6">
+      {saveError && <div role="alert" className="rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-900"><p>{saveError}</p><p className="mt-2">Your form has not been cleared.</p><button type="button" className="mt-2 min-h-12 rounded-md border border-red-300 px-3 font-semibold" onClick={() => setSaveError('')}>Dismiss error</button></div>}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200 gap-2">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold text-navy-900">Notes Repository Manager</h1>

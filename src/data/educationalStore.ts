@@ -23,6 +23,7 @@ import {
   INITIAL_CHAPTERS,
 } from "./staticCatalog";
 import { supabase } from "@/lib/supabase";
+import { adminFunctionError } from "@/lib/admin-function-error";
 
 export {
   INITIAL_CLASSES,
@@ -87,9 +88,7 @@ async function mutateContent(
       },
     });
     if (error || !data?.success)
-      throw new Error(
-        data?.error || error?.message || `Failed to ${operation} ${table}.`,
-      );
+      throw await adminFunctionError(error, data, `The ${operation} request for ${table} could not be confirmed. Keep your form open and refresh the saved list before retrying.`);
     window.dispatchEvent(new CustomEvent('raytech-publish-status',{detail:{status:data.rebuild==='failed'?'error':'queued',message:data.rebuild==='failed'?'Saved to database, but publishing could not start. Use Retry publishing.':'Saved to database. Website rebuild requested; the public page changes after deployment.'}}));
   } catch (error) {
     const key = STORAGE_KEYS[table.toUpperCase() as keyof typeof STORAGE_KEYS];
@@ -409,12 +408,6 @@ export const EducationalStore = {
     return list;
   },
   async saveNote(item: NoteItem): Promise<void> {
-    const list = this.getNotes();
-    const idx = list.findIndex((n) => n.id === item.id);
-    if (idx >= 0) list[idx] = item;
-    else list.push(item);
-    saveToStorage(STORAGE_KEYS.NOTES, list);
-
     await mutateContent("notes", "upsert", {
       id: item.id,
       class_slug: item.classSlug,
@@ -432,6 +425,11 @@ export const EducationalStore = {
       action_button_text: item.actionButtonText || null,
       action_button_url: item.actionButtonUrl || null,
     });
+    const list = this.getNotes();
+    const idx = list.findIndex((n) => n.id === item.id);
+    if (idx >= 0) list[idx] = item;
+    else list.push(item);
+    saveToStorage(STORAGE_KEYS.NOTES, list);
     this.invalidateCache();
   },
   async deleteNote(id: string): Promise<void> {
