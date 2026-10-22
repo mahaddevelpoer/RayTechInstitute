@@ -281,7 +281,7 @@ export default function AdminClassesPage() {
       <section className="border-t border-slate-200 pt-6 space-y-4">
         <div>
           <h2 className="text-lg font-bold text-navy-900">Manage Subject Chapters</h2>
-          <p className="text-xs text-slate-500 mt-1">Chapter number and name yahan define karein. Yehi chapters MCQ generation aur user quiz mein show honge.</p>
+          <p className="text-xs text-slate-500 mt-1">Set each chapter's number and name here. These chapters will appear in MCQ generation and student quizzes.</p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           <form onSubmit={handleSaveChapter} className="bg-white border border-slate-200 p-5 rounded-lg shadow-sm space-y-3 text-xs">
@@ -303,7 +303,7 @@ export default function AdminClassesPage() {
             <button type="submit" className="w-full py-2 bg-navy-600 hover:bg-navy-700 text-white font-semibold rounded">{editingChapterId ? 'Update Chapter' : 'Save Chapter'}</button>
           </form>
           <div className="lg:col-span-2 space-y-2">
-            {chapters.length === 0 && <p className="text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded p-4">Abhi koi named chapter nahi hai. Pehla chapter add karein.</p>}
+            {chapters.length === 0 && <p className="text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded p-4">No chapters have been added yet. Add your first chapter to get started.</p>}
             {chapters.map((chapter) => (
               <div key={chapter.id} className="bg-white border border-slate-200 rounded-lg p-4 flex items-start justify-between gap-3">
                 <div><div className="text-sm font-bold text-navy-900">Chapter {chapter.chapterNumber}: {chapter.title}</div><div className="text-[11px] text-slate-500 mt-1">{chapter.classSlug} · {chapter.subjectSlug}</div>{chapter.description && <p className="text-xs text-slate-600 mt-1">{chapter.description}</p>}</div>

@@ -30,10 +30,10 @@ export const ContactSection: React.FC = () => {
             <CheckCircle2 className="w-6 h-6" />
           </div>
           <h3 className="font-bold text-navy-900 text-lg mb-1">
-            Shukriya! Message Send Ho Gaya.
+            Thank you! Your message has been sent.
           </h3>
           <p className="text-slate-600 text-xs">
-            Aapka sawal ya request receive ho chuki hai. Hum jald se jald review karein gy.
+            We have received your question or request and will review it as soon as possible.
           </p>
         </div>
       </section>
@@ -149,7 +149,7 @@ export const ContactSection: React.FC = () => {
             {state.errors && state.errors.getFormErrors().length > 0 && (
               <div className="text-xs text-red-600 bg-red-50 p-2 rounded flex items-center gap-1.5">
                 <AlertCircle className="w-3.5 h-3.5" />
-                <span>Form submission mein error aya. Dobara check karein.</span>
+                <span>Your message could not be sent. Please check the form and try again.</span>
               </div>
             )}
 

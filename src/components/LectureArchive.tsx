@@ -137,7 +137,7 @@ export const LectureArchive: React.FC<LectureArchiveProps> = ({
         {/* Video Cards Grid */}
         {filteredLectures.length === 0 ? (
           <div className="text-center py-12 text-slate-500 text-sm">
-            Koi lecture match nahi hua. Search query ya category filter change karein.
+            No lectures match your search. Try a different search term or category.
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
