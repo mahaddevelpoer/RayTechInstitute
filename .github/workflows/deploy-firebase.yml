@@ -42,8 +42,15 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      - name: Restore the tested headless browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-headless-${{ hashFiles('package-lock.json') }}
+
       - name: Install browser on GitHub for sentence interaction checks
-        run: npx playwright install --with-deps chromium
+        timeout-minutes: 3
+        run: npx playwright install chromium --only-shell
 
       - name: Verify sentence hover, layout and original teaching controls
         if: github.event_name != 'repository_dispatch'
