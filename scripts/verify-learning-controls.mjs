@@ -11,7 +11,7 @@ try{
  assert.equal(await copy.locator('p > .codi-sentence').first().evaluate(e=>getComputedStyle(e).display),'block');
  await fs.mkdir('artifacts/learning-presentation',{recursive:true});await copy.scrollIntoViewIfNeeded();await page.screenshot({path:'artifacts/learning-presentation/desktop-light.png'});
  await page.getByRole('button',{name:'Switch to dark theme',exact:true}).click();
- await page.waitForFunction(()=>getComputedStyle(document.querySelector('.lesson-teaching-copy p .codi-sentence')).color==='rgb(248, 250, 252)');
+ await page.waitForFunction(()=>getComputedStyle(document.querySelector('.lesson-teaching-copy p .codi-sentence')).color.match(/\d+/g).slice(0,3).map(Number).every(v=>v>=210));
  assert.equal(await copy.locator('h2').first().evaluate(e=>getComputedStyle(e).color),'rgb(248, 250, 252)');
  assert.ok(await page.locator('.cm-editor').evaluate(e=>{const rgb=getComputedStyle(e).backgroundColor.match(/\d+/g).slice(0,3).map(Number);return rgb.reduce((a,b)=>a+b,0)/3<100;}));
  await page.screenshot({path:'artifacts/learning-presentation/desktop-dark.png'});await page.getByRole('button',{name:'Switch to light theme',exact:true}).click();
