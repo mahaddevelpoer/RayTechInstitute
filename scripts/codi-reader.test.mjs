@@ -37,6 +37,7 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
     require: id => id==='next/dynamic' ? ()=>()=>React.createElement('span',null,'Robot') : id==='@/lib/learning/code-explanation'?codeExplanation:id==='@/lib/learning/codi-line' ? line : id==='@/lib/learning/codi-tutor' ? tutor : id==='@/lib/learning/codi-cloud' ? cloud : require(id),
   });
   const root = createRoot(document.getElementById('root'));
+  for(const id of ['first','second'])document.getElementById(id).setAttribute('data-codi-text',document.getElementById(id).textContent);
   const button = text => [...document.querySelectorAll('button')].find(e => e.textContent.includes(text));
   const click = async e => act(async()=>e.dispatchEvent(new dom.window.MouseEvent('click',{bubbles:true})));
   const status = ()=>document.querySelector('[role="status"]')?.textContent;
@@ -69,8 +70,11 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
     await click(document.getElementById('second')); assert.ok(reads[0].signal.aborted); assert.equal(reads.length,2);
     await act(async()=>reads[0].resolve(new Blob(['old']))); assert.equal(players.length,0,'stale response ignored');
     await act(async()=>reads[1].resolve(new Blob(['new']))); assert.ok(button('Play audio'));
+    assert.equal(document.querySelector('[data-codi-reading]'),null,'buffering or blocked autoplay is not marked as speaking');
     players[0].block=false; await click(button('Play audio')); assert.match(status(),/Reading the lesson/);
+    assert.equal(document.querySelector('[data-codi-reading]')?.id,'second','playing audio highlights its exact sentence');
     await click(button('Stop')); assert.ok(players[0].paused); assert.equal(urls.size,0);
+    assert.equal(document.querySelector('[data-codi-reading]'),null,'Stop removes the reading highlight');
     const select=[...document.querySelectorAll('select')][1];
     assert.equal([...select.options].some(o=>o.value==='hi'),false,'Hindi is not a Codi language option');
     await act(async()=>{select.value='ur';select.dispatchEvent(new dom.window.Event('change',{bubbles:true}));});
@@ -80,6 +84,7 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
     await act(async()=>reads.at(-1).resolve(new Blob(['part'])));
     players.at(-1).block=false; await click(button('Play audio'));
     const before=reads.length; await act(async()=>players.at(-1).onended()); assert.equal(reads.length,before+1,'whole lesson advances to next chunk');
+    assert.equal(document.querySelector('[data-codi-reading]'),null,'previous sentence clears while the next audio loads');
     const animations=[];dom.window.matchMedia=()=>({matches:false});carrier.animate=(frames,options)=>{const animation={cancel(){},frames,options};animations.push(animation);return animation;};
     await act(async()=>root.render(React.createElement(module.exports.CodiReader,{...props,runSignal:1})));
     assert.equal(document.querySelector('.codi-carrier').dataset.dock,'compiler');
@@ -100,6 +105,7 @@ test('Codi direct inline reading, consent, stale responses, Stop, Urdu and clean
     await click(document.getElementById('first'));assert.equal(reads.length,beforeRemount+1,'consent survives a lesson remount in the same tab');
     await act(async()=>reads.at(-1).reject(new Error('Gemini free quota reached')));
     assert.equal(spoken.at(-1).text,'A variable stores a value.');assert.match(status(),/Gemini is unavailable.*Reading with device voice/);
+    assert.equal(document.querySelector('[data-codi-reading]')?.id,'first','device voice uses the same reading highlight');
     const quotaRequests=reads.length;await click(document.getElementById('code'));
     assert.equal(reads.length,quotaRequests+1);assert.equal(reads.at(-1).allowCloud,false,'cooldown still checks saved audio without authorizing generation');await act(async()=>reads.at(-1).reject(new Error('No saved recording')));assert.equal(spoken.at(-1).text,'<h1 class="my_title">Hello</h1>');
     await click(document.querySelector('.codi-settings-toggle'));if(!document.querySelector('.codi-settings'))await click(document.querySelector('.codi-settings-toggle'));

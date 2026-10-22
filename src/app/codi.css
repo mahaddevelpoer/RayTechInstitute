@@ -6,6 +6,9 @@ html.dark .codi-sentence:hover,html.dark .codi-sentence:focus-visible,html.dark 
 .codi-sentence { user-select:text; -webkit-user-select:text; }
 .learning-lesson .codi-sentence:is(:hover,:focus-visible) :is(strong,em,code),.learning-lesson .codi-sentence-group:hover .codi-sentence :is(strong,em,code) { color:inherit; background:transparent; border-color:transparent; }
 @media(prefers-reduced-motion:reduce) { .codi-sentence { transition:none; } }
+.codi-sentence[data-codi-reading="true"] { color:#fff; background:#1b4f9b; outline:2px solid #1b4f9b; outline-offset:1px; }
+html.dark .codi-sentence[data-codi-reading="true"] { color:#fff; background:#1d4ed8; outline-color:#93c5fd; }
+.learning-lesson .codi-sentence[data-codi-reading="true"] :is(strong,em,code) { color:inherit; background:transparent; border-color:transparent; }
 .codi-reader { position:fixed; inset:0; z-index:2147483000; pointer-events:none; background:transparent; }
 .codi-reader .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .codi-carrier { position:fixed; left:0; top:0; width:104px; height:152px; pointer-events:none; background:transparent; }

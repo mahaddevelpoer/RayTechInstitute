@@ -30,6 +30,19 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   const pendingMarkdown = useRef(false);
   const pendingAtomic = useRef(false);
   const selectedCode = useRef('');
+  const readingAnchor = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    if (!speaking || !selected || selectedCode.current) return;
+    const root = content.current; if (!root) return;
+    const normalize = (text: string) => text.replace(/\s+/g, ' ').trim();
+    const matches = (node: Element) => codiSpeechChunks(node.getAttribute('data-codi-text') || '', 'text').some(text => normalize(text) === normalize(selected));
+    const nodes = Array.from(root.querySelectorAll<HTMLElement>('[data-codi-text]'));
+    const node = readingAnchor.current && root.contains(readingAnchor.current) && matches(readingAnchor.current)
+      ? readingAnchor.current : nodes.find(matches);
+    if (!node) return;
+    node.setAttribute('data-codi-reading', 'true'); node.setAttribute('aria-current', 'true');
+    return () => { node.removeAttribute('data-codi-reading'); node.removeAttribute('aria-current'); };
+  }, [speaking, selected, content]);
   const nextChunk = useRef<(text: string) => Promise<void>>();
   const deviceUtterance = useRef<SpeechSynthesisUtterance>();
   function viewport() {
@@ -167,7 +180,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   useEffect(() => {
     const root = content.current; if (!root) return;
     const selection = () => { const value = window.getSelection(); if (!value?.rangeCount || value.isCollapsed) return ''; const range = value.getRangeAt(0); return root.contains(range.startContainer) && root.contains(range.endContainer) ? value.toString().trim() : ''; };
-    const click = (event: MouseEvent) => { if (selection()) return; const line = codiLineAt(root, event.target, event.clientY); if (line) { selectedCode.current='';setSource(null); readRef.current(line); } };
+    const click = (event: MouseEvent) => { if (selection()) return; const line = codiLineAt(root, event.target, event.clientY); if (line) { readingAnchor.current=event.target instanceof Element?event.target.closest<HTMLElement>('[data-codi-text]'):null;selectedCode.current='';setSource(null); readRef.current(line); } };
     const highlight = () => { const text = selection(); if (text.length >= 2 && text.length <= 2000) void explainRef.current(text); };
     const keyboard = (event: KeyboardEvent) => { if (event.altKey && event.key === 'Enter') { const text = selection(); if (text) { event.preventDefault(); void explainRef.current(text); } } };
     root.addEventListener('click', click); root.addEventListener('mouseup', highlight); root.addEventListener('touchend', highlight); root.addEventListener('keydown', keyboard);
@@ -214,6 +227,7 @@ export function CodiReader({ content, compiler, runSignal = 0, fullText, languag
   const readWithRobot=(event:{preventDefault():void})=>{
     if(suppressClick.current){event.preventDefault();suppressClick.current=false;return;}
     if(selectedCode.current){void requestReading(selectedCode.current,false,'compiler');return;}
+    readingAnchor.current=null;
     setSource(null);const units=Array.from(content.current?.querySelectorAll('button[data-codi-text]')||[]).map(node=>node.getAttribute('data-codi-text')||'').filter((text,index,all)=>text&&text!==all[index-1]);
     if(units.length)void requestReading(units.join('\n\n'));else void requestReading(fullText||currentLesson?.content||'',true);
   };
