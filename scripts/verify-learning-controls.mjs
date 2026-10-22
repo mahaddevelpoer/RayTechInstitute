@@ -23,6 +23,6 @@ try{
  await attack.locator('.cm-content').first().fill('console.log(typeof document);\ntry { await fetch("https://security-canary.invalid/probe"); } catch { console.log("network-blocked"); }\ntry { indexedDB.open("sandbox-probe"); } catch { console.log("storage-blocked"); }');
  await attack.getByRole('button',{name:'Run',exact:true}).click();await attack.waitForFunction(()=>document.querySelector('.learning-output').textContent.includes('storage-blocked'));
  assert.match(await attack.locator('.learning-output').innerText(),/undefined[\s\S]*network-blocked[\s\S]*storage-blocked/);assert.equal(outgoing,0);
- const frame=attack.frames().find(f=>f.url().endsWith('/learning-javascript-frame.html'));assert.ok(frame);assert.equal(await frame.evaluate(()=>{try{void parent.document.body;return false;}catch{return true;}}),true);
+ const frame=await(await attack.getByTitle('javascript execution sandbox',{exact:true}).elementHandle()).contentFrame();assert.ok(frame);assert.equal(await frame.evaluate(()=>{try{void parent.document.body;return false;}catch{return true;}}),true);
  console.log('[sandbox] Runtime cannot read parent DOM, access persistent storage or issue network requests.');
 }finally{await browser.close();}
