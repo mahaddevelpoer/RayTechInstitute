@@ -4,6 +4,7 @@ const browser=await chromium.launch({headless:true,args:['--renderer-process-lim
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});
  await page.goto('https://raytechinstitute.web.app/learn/python/values-names-and-output/',{waitUntil:'domcontentloaded'});
+ await page.getByRole('button',{name:'Decline Optional',exact:true}).click();
  const topics=page.locator('.learning-topics');const pane=page.locator('.learning-practice-pane');const lesson=page.locator('.learning-lesson');
  await page.evaluate(()=>{window.__panelTransitions=[];document.querySelector('main').addEventListener('transitionrun',e=>window.__panelTransitions.push(e.propertyName));});
  await topics.getByRole('button',{name:'Hide topics',exact:true}).click();assert.equal(await page.locator('#learning-topics-body').isVisible(),false);

@@ -4,6 +4,7 @@ try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});
  await page.addInitScript(()=>{window.__spoken=[];window.speechSynthesis.speak=u=>{window.__spoken.push(u.text);u.onstart?.();};window.speechSynthesis.cancel=()=>{};});
  await page.goto(base+'/learn/python/values-names-and-output/',{waitUntil:'domcontentloaded'});
+ await page.getByRole('button',{name:'Decline Optional',exact:true}).click();
  const oldHeight=await page.locator('main').evaluate(e=>e.clientHeight);
  await page.getByRole('button',{name:'Hide navigation',exact:true}).click();await page.waitForFunction(h=>document.querySelector('main').clientHeight>h,oldHeight);
  assert.equal(await page.locator('#learning-navigation').evaluate(e=>e.inert),true);
@@ -18,6 +19,7 @@ try{
  console.log('[learning-controls] Navbar collapse, selected code narration and mobile one-click compiler passed.');
  const attack=await browser.newPage({viewport:{width:1366,height:900}});let outgoing=0;await attack.route('https://security-canary.invalid/**',route=>{outgoing++;return route.abort();});
  await attack.goto(base+'/learn/javascript/values-and-console-output/',{waitUntil:'domcontentloaded'});
+ await attack.getByRole('button',{name:'Decline Optional',exact:true}).click();
  await attack.locator('.cm-content').first().fill('console.log(typeof document);\ntry { await fetch("https://security-canary.invalid/probe"); } catch { console.log("network-blocked"); }\ntry { indexedDB.open("sandbox-probe"); } catch { console.log("storage-blocked"); }');
  await attack.getByRole('button',{name:'Run',exact:true}).click();await attack.waitForFunction(()=>document.querySelector('.learning-output').textContent.includes('storage-blocked'));
  assert.match(await attack.locator('.learning-output').innerText(),/undefined[\s\S]*network-blocked[\s\S]*storage-blocked/);assert.equal(outgoing,0);
