@@ -24,15 +24,16 @@ const env = Object.fromEntries(
 
 const supabaseUrl =
   process.env.NEXT_PUBLIC_SUPABASE_URL || env.NEXT_PUBLIC_SUPABASE_URL;
-const anonKey =
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
-  env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+// Build-only access: publication tables are not readable by anonymous visitors.
+// The credential is used for fetching, never included in generated TypeScript.
+const snapshotKey =
+  process.env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_SERVICE_ROLE_KEY;
 const output = path.join(root, "src", "data", "staticOverrides.ts");
 const fallbackBlogImage = "/android-chrome-512x512.png";
 
-if (!supabaseUrl || !anonKey) {
+if (!supabaseUrl || !snapshotKey) {
   throw new Error(
-    "[static-data] Supabase configuration missing. Refusing a stale production build.",
+    "[static-data] Private build configuration missing. Refusing a stale production build.",
   );
 }
 
@@ -156,7 +157,7 @@ await Promise.all(
         : table === "videoMcqs"
           ? "video_mcqs"
           : table;
-    const rows = await fetchCatalogRows(supabaseUrl, anonKey, name);
+    const rows = await fetchCatalogRows(supabaseUrl, snapshotKey, name);
     overrides[table] = rows.map(transform);
   }),
 );

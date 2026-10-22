@@ -1,6 +1,14 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { fetchCatalogRows } from "./catalog-fetch.mjs";
+import { readFile } from "node:fs/promises";
+
+test("static publication uses only the private build credential", async () => {
+  const source = await readFile(new URL('./generate-static-data.mjs', import.meta.url), 'utf8');
+  assert.match(source, /process\.env\.SUPABASE_SERVICE_ROLE_KEY/);
+  assert.match(source, /fetchCatalogRows\(supabaseUrl, snapshotKey, name\)/);
+  assert.doesNotMatch(source, /NEXT_PUBLIC_SUPABASE_ANON_KEY/);
+});
 
 test("fetches every MCQ beyond the API row limit, in stable order", async () => {
   const source = Array.from({ length: 1201 }, (_, id) => ({ id }));
