@@ -37,6 +37,7 @@ try{
   assert.equal(ditBank.length,80);await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'domcontentloaded'});
   await page.getByRole('button',{name:/Chapter 1: Basic Terminologies/}).click();assert.equal(await page.locator('.mcq-page button[aria-pressed]').count(),4);
   assert.equal(await page.locator('.mcq-page h2 [lang="ur"]').evaluate(e=>getComputedStyle(e).direction),'rtl');
+  assert.equal(await page.evaluate(async()=>{await document.fonts.load('18px "RayTech Urdu"');return document.fonts.check('18px "RayTech Urdu"');}),true,'bundled Urdu font loads');
   for(const [width,dark]of[[1366,false],[360,true]]){
    await page.setViewportSize({width,height:900});const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});if(await toggle.count())await toggle.click();await page.waitForTimeout(200);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);await page.screenshot({path:`artifacts/resource-pages/dit-quiz-${width}.png`});

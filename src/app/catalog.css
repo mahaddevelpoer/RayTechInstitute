@@ -43,4 +43,5 @@
 @media(prefers-reduced-motion:reduce) { .language-directory-card { transition:none; transform:none; } }
 .bilingual-text { display:block; overflow-wrap:anywhere; }
 .bilingual-line { display:block; white-space:pre-wrap; unicode-bidi:isolate; text-align:start; }
-.bilingual-line[lang="ur"] { margin-top:.35rem; font-family:"Noto Nastaliq Urdu","Noto Naskh Arabic","Segoe UI",Tahoma,sans-serif; font-size:1.08em; line-height:1.95; }
+@font-face { font-family:"RayTech Urdu"; src:url('/fonts/noto-naskh-arabic/NotoNaskhArabic.ttf') format('truetype'); font-weight:400 700; font-style:normal; font-display:swap; }
+.bilingual-line[lang="ur"] { margin-top:.35rem; font-family:"RayTech Urdu","Noto Nastaliq Urdu","Noto Naskh Arabic","Segoe UI",Tahoma,sans-serif; font-size:1.08em; line-height:1.95; }
