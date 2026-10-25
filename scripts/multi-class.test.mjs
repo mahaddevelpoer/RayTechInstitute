@@ -50,6 +50,13 @@ test('short and long new class/subject labels cannot break MCQ search metadata',
   assert.ok(description.length>=120&&description.length<=155);
  }
 });
+test('strip animation does not reset the hover and explicit pause state through a shorthand',async()=>{
+ const css=await fs.readFile('src/app/home.css','utf8');
+ const animation=css.match(/\.study-resource-strip\[data-ready="true"\]\[data-manual="false"\] \.study-strip-track \{([^}]+)\}/)?.[1]||'';
+ assert.match(animation,/animation-name:study-links-scroll/);assert.doesNotMatch(animation,/\banimation\s*:/);
+ assert.match(css,/data-paused="true"[^}]+animation-play-state:paused/);
+ assert.match(css,/prefers-reduced-motion:reduce/);
+});
 test('admin launcher renders validated class/subject links and clear empty guidance',async()=>{
  const require=createRequire(import.meta.url),module={exports:{}};
  const code=ts.transpileModule(await fs.readFile('src/components/admin/StudyTaskLauncher.tsx','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;

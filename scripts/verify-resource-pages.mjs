@@ -9,7 +9,7 @@ try{
   await page.setViewportSize({width,height:900});
   for(const route of routes){
    const response=await page.goto(base+route,{waitUntil:'domcontentloaded'});assert.equal(response.status(),200,route);await page.locator('h1').waitFor();assert.equal(await page.locator('h1').count(),1,route);
-   const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});if(await toggle.count())await toggle.click();await page.waitForTimeout(200);
+   const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});if(await toggle.count())await toggle.click();await page.waitForTimeout(route==='/'?800:200);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,`overflow: ${route} at ${width}`);
    const main=page.locator('#main-content').first();assert.ok((await main.innerText()).trim().length>70,route);
    assert.doesNotMatch(await main.innerText(),/SQLSTATE|PostgREST|schema cache|Unhandled server exception|github_pat_|sk-or-v1-/i,route);
@@ -29,7 +29,7 @@ try{
  await strip.hover();assert.equal(await track.evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
  await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).click();await page.mouse.move(1,899);const paused=await track.evaluate(e=>getComputedStyle(e).transform);await page.waitForTimeout(150);assert.equal(await track.evaluate(e=>getComputedStyle(e).transform),paused);
  await strip.getByRole('button',{name:'Resume study links scrolling',exact:true}).click();await page.mouse.move(1,899);await page.waitForTimeout(150);assert.equal(await track.evaluate(e=>getComputedStyle(e).animationPlayState),'running');
- await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).focus();await page.keyboard.press('Shift+Tab');assert.equal(await strip.getAttribute('data-manual'),'true');
+ await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).focus();await page.keyboard.press('Shift+Tab');await page.waitForFunction(()=>{const nav=document.querySelector('.study-resource-strip');const target=document.activeElement;const a=target.getBoundingClientRect(),b=nav.getBoundingClientRect();return nav.dataset.manual==='true'&&a.left>=b.left&&a.right<=b.right+1;});assert.equal(await strip.getAttribute('data-manual'),'true');
  const focused=await page.locator(':focus').boundingBox();const bounds=await strip.boundingBox();assert.ok(focused.x>=bounds.x&&focused.x+focused.width<=bounds.x+bounds.width+1,'keyboard focus remains visible');
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'/',{waitUntil:'domcontentloaded'});assert.equal(await page.locator('.study-strip-track').evaluate(e=>getComputedStyle(e).animationName),'none');
  assert.deepEqual(errors,[]);assert.equal(publicDatabaseReads,0);console.log(`[resource-pages] ${routes.length} routes passed in desktop light and mobile charcoal; Python topic count and published video placement matched the catalog. Study strip motion, pause, keyboard access and reduced motion passed. No public database reads.`);

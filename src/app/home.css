@@ -54,7 +54,7 @@
 .study-resource-strip :focus-visible { outline:2px solid #fff; outline-offset:-4px; }
 .study-strip-control { flex:none; display:grid; place-items:center; width:48px; height:48px; border-left:1px solid #ffffff45; color:#fff; background:#1b4f9b; }
 .study-strip-control:hover { background:#163f7a; }
-@media(prefers-reduced-motion:no-preference) { .study-resource-strip[data-ready="true"][data-manual="false"] .study-strip-track { animation:study-links-scroll var(--study-duration) linear infinite; } }
+@media(prefers-reduced-motion:no-preference) { .study-resource-strip[data-ready="true"][data-manual="false"] .study-strip-track { animation-name:study-links-scroll; animation-duration:var(--study-duration); animation-timing-function:linear; animation-iteration-count:infinite; } }
 .study-resource-strip:is(:hover,[data-paused="true"]) .study-strip-track { animation-play-state:paused; }
 .study-resource-strip[data-manual="true"] .study-strip-viewport { overflow-x:auto; scrollbar-width:thin; }
 .study-resource-strip[data-manual="true"] .study-strip-group[aria-hidden="true"] { display:none; }
