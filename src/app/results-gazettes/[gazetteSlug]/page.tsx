@@ -38,7 +38,7 @@ export async function generateMetadata({
   );
   const description = buildDocumentDescription(gazette
     ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, PDF preview, and verification guidance for students.`
-    : "View official intermediate result gazette details and PDF resources.", 'Result gazette');
+    : "View class-wise result gazette details and PDF resources.", 'Result gazette');
   return {
     title,
     description,
@@ -71,7 +71,7 @@ export default async function GazetteDetailPage({
         backLabel="Back to result gazettes"
         eyebrow={`${gazette!.board} · ${gazette!.year}`}
         title={gazette!.title}
-        description={`${gazette!.session} result gazette for ${currentClass?.title || "Intermediate students"}, with official result context and board verification details.`}
+        description={`${gazette!.session} result gazette for ${currentClass?.title || "students"}, with official result context and board verification details.`}
         content={
           needsSourceReview(gazette!.content)
             ? "## Source review in progress\n\nPrevious result statistics and declaration claims could not be verified and have been withheld. Use your board website for its current notice. Read our [1st year result guide](/results-gazettes/first-year-result/) for board links and checking instructions."
@@ -80,7 +80,7 @@ export default async function GazetteDetailPage({
         pdfUrl={gazette!.pdfUrl}
         metadata={[
           gazette!.board,
-          currentClass?.title || "Intermediate",
+          currentClass?.title || "Class resources",
           `${gazette!.year}`,
           gazette!.session,
         ]}

@@ -8,16 +8,16 @@ import { INITIAL_GAZETTES } from "@/data/staticCatalog";
 import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export const metadata: Metadata = {
-  title: buildSeoTitle("11th and 12th Class Result Gazettes"),
+  title: buildSeoTitle("Class-wise Results and Examination Gazettes"),
   description:
-    "Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.",
+    "Find class-wise result gazettes, board verification links and PDF resources. Check the original examination board for notices and updates.",
   alternates: {
     canonical: siteUrl("/results-gazettes/"),
   },
   openGraph: {
-    title: buildSeoTitle("11th and 12th Class Result Gazettes"),
+    title: buildSeoTitle("Class-wise Results and Examination Gazettes"),
     description:
-      "Download official 11th and 12th class result gazettes for BISE Lahore, Gujranwala, Multan, Rawalpindi, and FBISE with PDF mirrors and verification links.",
+      "Find class-wise result gazettes, board verification links and PDF resources. Check the original examination board for notices and updates.",
     url: siteUrl("/results-gazettes/"),
     type: "website",
   },
@@ -27,7 +27,7 @@ export default function ResultsGazettesPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Punjab Educational Boards & FBISE Intermediate Result Gazettes",
+    name: "Class-wise Examination Result Gazettes",
     description:
       "Official result gazettes in PDF and roll number verification directories for BISE Lahore, Gujranwala, Multan, and Federal Board.",
     publisher: {
@@ -38,7 +38,7 @@ export default function ResultsGazettesPage() {
       "@type": "LearningResource",
       name: g.title,
       learningResourceType: "Result Gazette",
-      educationalLevel: "Intermediate Higher Secondary",
+      educationalLevel: "School and college education",
       url: g.pdfUrl,
     })),
   };

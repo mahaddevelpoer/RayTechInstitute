@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { FileCode, Plus, CheckCircle, ExternalLink, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminStudyContext } from '@/utils/admin-study-context';
 import { adminOperation } from '@/utils/admin-operation';
 import { ClassItem, SubjectItem, PastPaperItem } from '@/types/educational';
 
@@ -11,8 +12,8 @@ export default function AdminPastPapersPage() {
   const [subjects, setSubjects] = useState<SubjectItem[]>([]);
   const [pastPapers, setPastPapers] = useState<PastPaperItem[]>([]);
 
-  const [selectedClass, setSelectedClass] = useState('11th-class');
-  const [selectedSubject, setSelectedSubject] = useState('computer-science');
+  const [selectedClass, setSelectedClass] = useState('');
+  const [selectedSubject, setSelectedSubject] = useState('');
   const [board, setBoard] = useState('BISE Lahore');
   const [year, setYear] = useState<number>(2024);
   const [session, setSession] = useState<'Annual' | 'Supplementary'>('Annual');
@@ -26,6 +27,7 @@ export default function AdminPastPapersPage() {
     await EducationalStore.syncFromSupabase();
     setClasses(EducationalStore.getClasses());
     setSubjects(EducationalStore.getSubjects());
+    const context=adminStudyContext(EducationalStore.getClasses(),EducationalStore.getSubjects(),window.location.search,selectedClass,selectedSubject);setSelectedClass(context.classSlug);setSelectedSubject(context.subjectSlug);
     setPastPapers(EducationalStore.getPastPapers());
     setIsSyncing(false);
   };

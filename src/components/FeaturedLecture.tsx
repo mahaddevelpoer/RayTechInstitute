@@ -29,7 +29,7 @@ export const FeaturedLecture: React.FC<FeaturedLectureProps> = ({
           <div>
             <h2 className="section-title mb-1">Featured Video Lecture</h2>
             <p className="text-slate-600 text-xs">
-              Selected key topic lecture for intermediate board syllabus.
+              Explore a selected topic with a guided video lesson.
             </p>
           </div>
           <span className="badge-highlight hidden sm:inline-block">

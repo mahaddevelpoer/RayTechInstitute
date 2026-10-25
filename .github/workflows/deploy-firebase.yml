@@ -33,7 +33,7 @@ jobs:
 
       - name: Validate source and catalog behaviour
         if: github.event_name != 'repository_dispatch'
-        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs scripts/codi-audio-cache.test.mjs scripts/codi-storage-cache.test.mjs scripts/learning-workspace.test.mjs scripts/lesson-depth.test.mjs scripts/practice-security.test.mjs scripts/resource-reliability.test.mjs scripts/learning-provider.test.mjs scripts/admin-catalog.test.mjs scripts/english-interface.test.mjs scripts/notes-publishing.test.mjs
+        run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs scripts/codi-audio-cache.test.mjs scripts/codi-storage-cache.test.mjs scripts/learning-workspace.test.mjs scripts/lesson-depth.test.mjs scripts/practice-security.test.mjs scripts/resource-reliability.test.mjs scripts/learning-provider.test.mjs scripts/admin-catalog.test.mjs scripts/english-interface.test.mjs scripts/notes-publishing.test.mjs scripts/multi-class.test.mjs
 
       - name: Use Java 21 for local Firestore rules tests
         if: github.event_name != 'repository_dispatch'

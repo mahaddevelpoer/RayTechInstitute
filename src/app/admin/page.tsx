@@ -11,13 +11,14 @@ import {
   Award,
   Newspaper,
   Video,
-  PlusCircle,
   ArrowRight,
-  TrendingUp,
 } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { StudyTaskLauncher } from '@/components/admin/StudyTaskLauncher';
+import type { ClassItem, SubjectItem } from '@/types/educational';
 
 export default function AdminDashboardPage() {
+  const [study, setStudy] = useState<{classes:ClassItem[];subjects:SubjectItem[]}>({classes:[],subjects:[]});
   const [stats, setStats] = useState({
     classes: 0,
     subjects: 0,
@@ -32,6 +33,7 @@ export default function AdminDashboardPage() {
   useEffect(() => {
     let alive=true;
     void EducationalStore.syncFromSupabase(true).then(()=>{if(!alive)return;
+    setStudy({classes:EducationalStore.getClasses(),subjects:EducationalStore.getSubjects()});
     setStats({
       classes: EducationalStore.getClasses().length,
       subjects: EducationalStore.getSubjects().length,
@@ -65,27 +67,13 @@ export default function AdminDashboardPage() {
             Admin Dashboard Overview
           </h1>
           <p className="text-xs text-slate-500 mt-1">
-            Real-time management for RayTech Educational Portal (11th &amp; 12th Classes).
+            Manage classes, subjects, study resources and programming lessons in one place.
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
-          <Link
-            href="/admin/mcqs"
-            className="btn-primary text-xs py-2 px-3"
-          >
-            <PlusCircle className="w-3.5 h-3.5" />
-            <span>Add MCQ</span>
-          </Link>
-          <Link
-            href="/admin/gazettes"
-            className="btn-outline text-xs py-2 px-3"
-          >
-            <PlusCircle className="w-3.5 h-3.5" />
-            <span>Add Gazette</span>
-          </Link>
-        </div>
+        <div className="flex flex-wrap gap-2"><Link className="learn-button" href="/admin/health/">Check services</Link><Link className="learn-button" href="/" target="_blank" rel="noopener noreferrer">View website</Link></div>
       </div>
+      <StudyTaskLauncher classes={study.classes} subjects={study.subjects}/>
       <section className="rounded-lg border border-slate-200 bg-white p-5"><h2 className="text-lg font-semibold">What would you like to do?</h2><p className="my-3 text-sm text-slate-600">Choose the content type directly. Save the item, then check publishing status before opening its public page.</p><div className="grid gap-3 sm:grid-cols-2"><Link className="learn-button justify-between" href="/admin/gazettes/">Add or update a gazette<ArrowRight size={17}/></Link><Link className="learn-button justify-between" href="/admin/notes/">Add notes and a PDF<ArrowRight size={17}/></Link><Link className="learn-button justify-between" href="/admin/courses/">Edit lessons or attach a video<ArrowRight size={17}/></Link><Link className="learn-button justify-between" href="/admin/blogs/">Write an update or attach a document<ArrowRight size={17}/></Link></div></section>
 
       {/* Numerical Stats Grid */}
@@ -116,78 +104,7 @@ export default function AdminDashboardPage() {
         })}
       </div>
 
-      {/* Quick Access Action Shortcuts */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-        <div className="bg-white border border-slate-200 p-6 rounded-lg space-y-4">
-          <div className="flex items-center gap-2">
-            <TrendingUp className="w-4 h-4 text-navy-600" />
-            <h2 className="text-base font-bold text-navy-900">Publishing Shortcuts</h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-            <Link
-              href="/admin/notes"
-              className="p-3 bg-slate-50 hover:bg-slate-100 rounded border border-slate-200 flex items-center justify-between transition-colors font-medium text-slate-700"
-            >
-              <span>+ Upload Notes PDF</span>
-              <ArrowRight className="w-3.5 h-3.5 text-navy-600" />
-            </Link>
-            <Link
-              href="/admin/blogs"
-              className="p-3 bg-slate-50 hover:bg-slate-100 rounded border border-slate-200 flex items-center justify-between transition-colors font-medium text-slate-700"
-            >
-              <span>+ Post Date Sheet</span>
-              <ArrowRight className="w-3.5 h-3.5 text-navy-600" />
-            </Link>
-            <Link
-              href="/admin/subjects"
-              className="p-3 bg-slate-50 hover:bg-slate-100 rounded border border-slate-200 flex items-center justify-between transition-colors font-medium text-slate-700"
-            >
-              <span>+ Register Subject</span>
-              <ArrowRight className="w-3.5 h-3.5 text-navy-600" />
-            </Link>
-            <Link
-              href="/admin/past-papers"
-              className="p-3 bg-slate-50 hover:bg-slate-100 rounded border border-slate-200 flex items-center justify-between transition-colors font-medium text-slate-700"
-            >
-              <span>+ Add Past Paper</span>
-              <ArrowRight className="w-3.5 h-3.5 text-navy-600" />
-            </Link>
-          </div>
-        </div>
-
-        <div className="bg-white border border-slate-200 p-6 rounded-lg space-y-3">
-          <div className="flex items-center justify-between">
-            <h2 className="text-base font-bold text-navy-900">Cloud &amp; Security Status</h2>
-            <span className="flex items-center gap-1 text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
-              Live Connected
-            </span>
-          </div>
-
-          <div className="space-y-2 text-xs text-slate-600">
-            <div className="flex items-center justify-between p-2.5 bg-slate-50 rounded border border-slate-100">
-              <span>Supabase Cloud DB:</span>
-              <span className="text-emerald-700 font-semibold font-mono">btxrkhwyugzliswznkpx &bull; Active</span>
-            </div>
-            <div className="flex items-center justify-between p-2.5 bg-slate-50 rounded border border-slate-100">
-              <span>Edge Secrets Vault:</span>
-              <span className="text-emerald-700 font-semibold">SERVICE_ROLE_KEY Protected</span>
-            </div>
-            <div className="flex items-center justify-between p-2.5 bg-slate-50 rounded border border-slate-100">
-              <span>Firebase Auth Guard:</span>
-              <span className="text-emerald-700 font-semibold">Locked to Authorized Email Only</span>
-            </div>
-            <div className="flex items-center justify-between p-2.5 bg-slate-50 rounded border border-slate-100">
-              <span>Python Compiler:</span>
-              <span className="text-emerald-700 font-semibold">Pyodide Wasm Active (0s Server Cost)</span>
-            </div>
-            <div className="flex items-center justify-between p-2.5 bg-slate-50 rounded border border-slate-100">
-              <span>SEO Compliance:</span>
-              <span className="text-emerald-700 font-semibold">100% JSON-LD &bull; Core Web Vitals OK</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <section className="rounded-lg border border-slate-200 bg-white p-5 text-sm"><h2 className="text-base font-semibold">How publishing works</h2><p className="mt-2 text-slate-600">Add a class, add its subjects, then save study material. A website rebuild updates public pages and the home study links. Your database save is separate from the public deployment.</p><Link className="mt-3 inline-flex min-h-12 items-center gap-2 underline" href="/admin/health/">Review service and release checks<ArrowRight size={16}/></Link></section>
     </div>
   );
 }

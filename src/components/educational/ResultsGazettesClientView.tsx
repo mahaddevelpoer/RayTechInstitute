@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { INITIAL_GAZETTES } from "@/data/staticCatalog";
+import { INITIAL_GAZETTES, INITIAL_CLASSES } from "@/data/staticCatalog";
 import { BOARDS } from "@/data/boards";
 import { BoardDirectory } from "./BoardDirectory";
 import { PdfResourceActions } from "./PdfResourceActions";
@@ -97,8 +97,7 @@ export function ResultsGazettesClientView() {
               onChange={(e) => setGrade(e.target.value)}
             >
               <option value="all">All classes</option>
-              <option value="11th-class">11th class (1st year)</option>
-              <option value="12th-class">12th class (2nd year)</option>
+              {Array.from(new Set([...INITIAL_CLASSES.map(c => c.slug), ...INITIAL_GAZETTES.map(g => g.classSlug)])).map(slug => <option key={slug} value={slug}>{INITIAL_CLASSES.find(c => c.slug === slug)?.title || slug.replace(/-/g, ' ')}</option>)}
             </select>
           </label>
           <label className="text-sm font-semibold">

@@ -3,13 +3,14 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { adminStudyContext } from '@/utils/admin-study-context';
 import { adminOperation } from '@/utils/admin-operation';
 import { ClassItem, SubjectItem } from '@/types/educational';
 
 export default function AdminSubjectsPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
   const [subjects, setSubjects] = useState<SubjectItem[]>([]);
-  const [selectedClass, setSelectedClass] = useState('11th-class');
+  const [selectedClass, setSelectedClass] = useState('');
   const [title, setTitle] = useState('');
   const [slug, setSlug] = useState('');
   const [description, setDescription] = useState('');
@@ -24,9 +25,7 @@ export default function AdminSubjectsPage() {
     const cList = EducationalStore.getClasses();
     setClasses(cList);
     setSubjects(EducationalStore.getSubjects());
-    if (cList.length > 0 && !selectedClass) {
-      setSelectedClass(cList[0].slug);
-    }
+    setSelectedClass(adminStudyContext(cList,EducationalStore.getSubjects(),window.location.search,selectedClass).classSlug);
     setIsSyncing(false);
   };
 

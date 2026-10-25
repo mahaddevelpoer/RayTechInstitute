@@ -87,10 +87,10 @@ export const Workbench: React.FC = () => {
             </p>
           </div>
           <a
-            href="/classes/11th-class/computer-science/mcqs"
+            href="/learn/python/"
             className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded transition-colors whitespace-nowrap self-start md:self-auto"
           >
-            Launch Interactive Workspace
+            Open Python Lessons
           </a>
         </div>
 

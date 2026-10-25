@@ -17,6 +17,7 @@ import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
 import { ChapterItem, ClassItem, SubjectItem, MCQItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
+import { adminStudyContext } from '@/utils/admin-study-context';
 
 export default function AdminMCQsPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
@@ -24,8 +25,8 @@ export default function AdminMCQsPage() {
   const [mcqs, setMCQs] = useState<MCQItem[]>([]);
   const [chapters, setChapters] = useState<ChapterItem[]>([]);
 
-  const [selectedClass, setSelectedClass] = useState('11th-class');
-  const [selectedSubject, setSelectedSubject] = useState('computer-science');
+  const [selectedClass, setSelectedClass] = useState('');
+  const [selectedSubject, setSelectedSubject] = useState('');
   const [chapterNumber, setChapterNumber] = useState<number>(1);
   const [question, setQuestion] = useState('');
   const [codeSnippet, setCodeSnippet] = useState('');
@@ -54,6 +55,8 @@ export default function AdminMCQsPage() {
     await EducationalStore.syncFromSupabase();
     setClasses(EducationalStore.getClasses());
     setSubjects(EducationalStore.getSubjects());
+    const context=adminStudyContext(EducationalStore.getClasses(),EducationalStore.getSubjects(),window.location.search,selectedClass,selectedSubject);
+    setSelectedClass(context.classSlug);setSelectedSubject(context.subjectSlug);setAiClass(context.classSlug);setAiSubject(context.subjectSlug);
     setChapters(EducationalStore.getChapters());
     setMCQs(EducationalStore.getMCQs());
     setIsSyncing(false);

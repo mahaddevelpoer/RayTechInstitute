@@ -43,7 +43,7 @@ export async function generateMetadata({
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
-    description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
+    description: `Practice chapter-wise MCQs for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
     },
@@ -51,7 +51,7 @@ export async function generateMetadata({
       title: buildSeoTitle(
         `${className} ${currentSubject.title} MCQs Practice`,
       ),
-      description: `Practice intermediate MCQs test for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
+      description: `Practice chapter-wise MCQs for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
       type: "website",
     },

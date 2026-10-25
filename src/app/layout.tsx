@@ -12,27 +12,25 @@ import { FirebaseAnalytics } from "@/components/FirebaseAnalytics";
 import { CompilerMount } from "@/components/compiler/CompilerMount";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
 import NotificationPrompt from "@/components/NotificationPrompt";
+import { BRAND_DESCRIPTION } from '@/data/brand';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl("/")),
   title: {
-    default: buildSeoTitle("11th and 12th Computer Science Resources"),
+    default: buildSeoTitle("Class Study Resources and Programming Courses"),
     template: "%s",
   },
   description:
-    "Study 11th and 12th class computer science with notes, chapter-wise MCQs, Punjab Board past papers, and official result gazettes.",
+    BRAND_DESCRIPTION,
   keywords: [
     "RayTech Institute",
-    "11th Class Computer Science Notes",
-    "12th Class Computer Science Notes",
-    "BISE Lahore Computer Science Past Papers",
-    "BISE Gujranwala Gazettes",
-    "FBISE Computer Science 1st Year",
-    "FBISE Computer Science 2nd Year",
-    "Punjab Board MCQs Online Test",
+    "Class-wise Study Notes",
+    "Subject MCQs and Chapter Tests",
+    "Examination Past Papers",
+    "Board Results and Gazettes",
     "Python Programming Lectures",
-    "C++ Programming for Intermediate",
-    "Inter Date Sheet 2026",
+    "Programming Courses",
+    "Examination Date Sheets",
     "Result Gazette PDF Download",
   ],
   authors: [{ name: channelData.name, url: channelData.youtubeUrl }],
@@ -73,9 +71,9 @@ export const metadata: Metadata = {
     locale: "en_PK",
     url: siteUrl("/"),
     title:
-      "11th & 12th Class Computer Science Notes, MCQs & Gazettes | RayTech Institute",
+      buildSeoTitle("Class Study Resources and Programming Courses"),
     description:
-      "Download 11th & 12th class computer science notes, past papers, MCQs test bank, and official Punjab board result gazettes.",
+      BRAND_DESCRIPTION,
     siteName: "RayTech Institute",
     images: [
       {
@@ -89,9 +87,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "11th & 12th Class Computer Science Notes, MCQs & Gazettes | RayTech Institute",
+      buildSeoTitle("Class Study Resources and Programming Courses"),
     description:
-      "Complete intermediate computer science notes, past papers, and result gazettes for Punjab boards.",
+      BRAND_DESCRIPTION,
     images: [channelData.profileImage],
   },
 };
@@ -107,7 +105,7 @@ export default function RootLayout({
     name: "RayTech Institute",
     url: siteUrl("/"),
     description:
-      "Free study resources for 11th and 12th class computer science students in Pakistan.",
+      BRAND_DESCRIPTION,
     inLanguage: "en-PK",
     publisher: {
       "@type": "EducationalOrganization",

@@ -18,7 +18,8 @@ import {
 } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
-import { GazetteItem } from '@/types/educational';
+import { GazetteItem, ClassItem } from '@/types/educational';
+import { adminStudyContext } from '@/utils/admin-study-context';
 import { supabase } from '@/lib/supabase';
 
 function normalizeUrl(url?: string): string {
@@ -33,9 +34,10 @@ function normalizeUrl(url?: string): string {
 
 export default function AdminGazettesPage() {
   const [gazettes, setGazettes] = useState<GazetteItem[]>([]);
+  const [classes, setClasses] = useState<ClassItem[]>([]);
   const [title, setTitle] = useState('');
   const [board, setBoard] = useState('BISE Lahore');
-  const [classSlug, setClassSlug] = useState('12th-class');
+  const [classSlug, setClassSlug] = useState('');
   const [year, setYear] = useState<number>(2026);
   const [session, setSession] = useState('1st Annual Examination');
   const [pdfUrl, setPdfUrl] = useState('');
@@ -54,7 +56,7 @@ export default function AdminGazettesPage() {
   // ── AI Gazette Generator Modal State ───────────────────────
   const [aiModalOpen, setAiModalOpen] = useState(false);
   const [aiBoard, setAiBoard] = useState('BISE Lahore');
-  const [aiClassSlug, setAiClassSlug] = useState('12th-class');
+  const [aiClassSlug, setAiClassSlug] = useState('');
   const [aiYear, setAiYear] = useState<number>(2026);
   const [aiSession, setAiSession] = useState('1st Annual Examination');
   const [aiCustomNotes, setAiCustomNotes] = useState('');
@@ -65,7 +67,7 @@ export default function AdminGazettesPage() {
 
   const loadData = async () => {
     setIsSyncing(true);
-    try { await EducationalStore.syncFromSupabase(true); setGazettes(EducationalStore.getGazettes()); }
+    try { await EducationalStore.syncFromSupabase(true); setGazettes(EducationalStore.getGazettes());const c=EducationalStore.getClasses();setClasses(c);const context=adminStudyContext(c,[],window.location.search,classSlug);setClassSlug(context.classSlug);setAiClassSlug(context.classSlug); }
     catch { setErrorMsg('Gazettes could not be refreshed. Saved data has not been changed. Try again.'); }
     finally { setIsSyncing(false); }
   };
@@ -315,8 +317,7 @@ export default function AdminGazettesPage() {
                     onChange={(e) => setAiClassSlug(e.target.value)}
                     className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:outline-none"
                   >
-                    <option value="11th-class">11th Class (1st Year HSSC-I)</option>
-                    <option value="12th-class">12th Class (2nd Year HSSC-II)</option>
+                    {classes.map(c => <option key={c.slug} value={c.slug}>{c.title}</option>)}
                   </select>
                 </div>
               </div>
@@ -490,8 +491,7 @@ export default function AdminGazettesPage() {
                   onChange={(e) => setClassSlug(e.target.value)}
                   className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                 >
-                  <option value="11th-class">11th Class (1st Year)</option>
-                  <option value="12th-class">12th Class (2nd Year)</option>
+                  {classes.map(c => <option key={c.slug} value={c.slug}>{c.title}</option>)}
                 </select>
               </div>
 

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { GraduationCap, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
+import { adminStudyContext } from '@/utils/admin-study-context';
 import { ChapterItem, ClassItem, SubjectItem } from '@/types/educational';
 
 export default function AdminClassesPage() {
@@ -17,8 +18,8 @@ export default function AdminClassesPage() {
   const [successMsg, setSuccessMsg] = useState('');
   const [editingId, setEditingId] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
-  const [chapterClass, setChapterClass] = useState('11th-class');
-  const [chapterSubject, setChapterSubject] = useState('computer-science');
+  const [chapterClass, setChapterClass] = useState('');
+  const [chapterSubject, setChapterSubject] = useState('');
   const [chapterNumber, setChapterNumber] = useState(1);
   const [chapterTitle, setChapterTitle] = useState('');
   const [chapterDescription, setChapterDescription] = useState('');
@@ -30,6 +31,7 @@ export default function AdminClassesPage() {
     setClasses(EducationalStore.getClasses());
     setSubjects(EducationalStore.getSubjects());
     setChapters(EducationalStore.getChapters());
+    const context=adminStudyContext(EducationalStore.getClasses(),EducationalStore.getSubjects(),window.location.search,chapterClass,chapterSubject);setChapterClass(context.classSlug);setChapterSubject(context.subjectSlug);
     setIsSyncing(false);
   };
 
@@ -183,7 +185,7 @@ export default function AdminClassesPage() {
                   setTitle(e.target.value);
                   if (!editingId && !slug) setSlug(e.target.value.toLowerCase().replace(/\s+/g, '-'));
                 }}
-                placeholder="e.g. 11th Class (1st Year)"
+                placeholder="e.g. Class 9"
                 className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                 required
               />
@@ -195,7 +197,7 @@ export default function AdminClassesPage() {
                 type="text"
                 value={slug}
                 onChange={(e) => setSlug(e.target.value)}
-                placeholder="e.g. 11th-class"
+                placeholder="e.g. 9th-class"
                 disabled={!!editingId}
                 className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none disabled:bg-slate-100 disabled:text-slate-500"
                 required

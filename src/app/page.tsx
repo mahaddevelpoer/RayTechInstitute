@@ -15,6 +15,7 @@ import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 import { useYouTubeSync } from "@/hooks/useYouTubeSync";
 import { AdReservation } from '@/components/AdReservation';
+import { StudyResourceStrip } from '@/components/StudyResourceStrip';
 
 export default function HomePage() {
   const homeContent = useRef<HTMLElement>(null);
@@ -49,6 +50,7 @@ export default function HomePage() {
     <div className="home-page relative min-h-screen bg-white text-slate-800 flex flex-col">
       {/* Top Header */}
       <Header />
+      <StudyResourceStrip />
 
       {/* Main Educational Sections */}
       <main ref={homeContent} id="main-content" tabIndex={-1} className="flex-1">

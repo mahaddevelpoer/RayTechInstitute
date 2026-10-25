@@ -23,7 +23,7 @@ export const channelData: ChannelMeta = {
     "Software Development Life Cycle",
     "HTML & Web Development",
     "Modern Development Environments (VS Code, CLion)",
-    "11th Class & Board Curriculum"
+    "Class-wise Subjects & Examination Resources"
   ]
 };
 

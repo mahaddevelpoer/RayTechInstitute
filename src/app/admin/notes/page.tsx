@@ -8,14 +8,15 @@ import { ClassItem, SubjectItem, NoteItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
 import { adminFunctionError } from '@/lib/admin-function-error';
 import { normalizeDocumentInput } from '@/utils/documents';
+import { adminStudyContext } from '@/utils/admin-study-context';
 
 export default function AdminNotesPage() {
   const [classes, setClasses] = useState<ClassItem[]>([]);
   const [subjects, setSubjects] = useState<SubjectItem[]>([]);
   const [notes, setNotes] = useState<NoteItem[]>([]);
 
-  const [selectedClass, setSelectedClass] = useState('11th-class');
-  const [selectedSubject, setSelectedSubject] = useState('computer-science');
+  const [selectedClass, setSelectedClass] = useState('');
+  const [selectedSubject, setSelectedSubject] = useState('');
   const [chapterNumber, setChapterNumber] = useState<number>(1);
   const [chapterTitle, setChapterTitle] = useState('');
   const [title, setTitle] = useState('');
@@ -51,7 +52,7 @@ export default function AdminNotesPage() {
 
   const loadData = async () => {
     setIsSyncing(true);
-    try { await EducationalStore.syncFromSupabase(true); setClasses(EducationalStore.getClasses()); setSubjects(EducationalStore.getSubjects());setNotes(EducationalStore.getNotes()); }
+    try { await EducationalStore.syncFromSupabase(true); const c=EducationalStore.getClasses(),s=EducationalStore.getSubjects();setClasses(c);setSubjects(s);setNotes(EducationalStore.getNotes());const context=adminStudyContext(c,s,window.location.search,selectedClass,selectedSubject);setSelectedClass(context.classSlug);setSelectedSubject(context.subjectSlug); }
     finally { setIsSyncing(false); }
   };
 

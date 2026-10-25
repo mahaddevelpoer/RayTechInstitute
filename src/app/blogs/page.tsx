@@ -10,14 +10,14 @@ import { serializeJsonLd } from "@/utils/seo";
 export const metadata: Metadata = {
   title: "Date Sheets, Admissions & Academic Updates | RayTech",
   description:
-    "Verified educational news, board examination date sheets, college and university admissions notifications, and intermediate career counseling roadmaps.",
+    "Verified educational news, board examination date sheets, college and university admissions notifications, and student career counseling roadmaps.",
   alternates: {
     canonical: siteUrl("/blogs/"),
   },
   openGraph: {
     title: "Date Sheets, Admissions & Academic Updates | RayTech",
     description:
-      "Verified educational news, board examination date sheets, college and university admissions notifications, and intermediate career counseling roadmaps.",
+      "Verified educational news, board examination date sheets, college and university admissions notifications, and student career counseling roadmaps.",
     url: siteUrl("/blogs/"),
     type: "website",
   },
@@ -29,7 +29,7 @@ export default function BlogsIndexPage() {
     "@type": "Blog",
     name: "RayTech Educational Portal : News, Date Sheets & Admission Updates",
     description:
-      "Verified academic notifications, intermediate date sheets, university admissions alerts, and career roadmaps.",
+      "Verified academic notifications, school and college date sheets, university admissions alerts, and career roadmaps.",
     blogPost: INITIAL_BLOGS.map((b) => ({
       "@type": "BlogPosting",
       headline: b.title,

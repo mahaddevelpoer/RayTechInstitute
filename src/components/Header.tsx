@@ -19,6 +19,7 @@ import {
   X,
 } from "lucide-react";
 import { sanitizeUrl } from "@/utils/security";
+import { BRAND_TAGLINE } from '@/data/brand';
 import { ThemeToggle } from '@/hooks/useTheme';
 import { useHeaderVisibility } from '@/hooks/useHeaderVisibility';
 
@@ -143,7 +144,7 @@ export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement>; 
                 {channelData.name}
               </span>
               <span className="truncate text-[10px] tracking-wide text-slate-500">
-                Computer Science | 11th &amp; 12th Class
+                {BRAND_TAGLINE}
               </span>
             </span>
           </Link>

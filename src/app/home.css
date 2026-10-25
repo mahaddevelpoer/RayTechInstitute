@@ -43,3 +43,21 @@
 @media(max-width:1023px) { .home-hero-grid { gap:32px; }.home-shortcuts { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media(max-width:767px) { .home-hero { padding:28px 16px 0; }.home-hero-grid { grid-template-columns:minmax(0,1fr); gap:28px; }.home-hero h1 { font-size:2.25rem; }.home-channel { margin-top:20px; }.home-course-panel { padding:16px; }.home-shortcuts { margin-top:24px; }.home-shortcuts a { gap:8px; padding:12px 6px; }.home-shortcuts a>svg:last-child { display:none; } }
 @media(prefers-reduced-motion:reduce) { .home-hero-copy,.home-course-preview,.home-course-panel,.home-section-enter { animation:none; }.home-hero :is(a,svg,button)::after,.home-hero :is(a,svg,button),.home-page #work article { transition:none; }.home-shortcuts a:hover,.home-page #work article:hover { transform:none; } }
+/* One functional, pausable academic-link strip. Its contents come from the build snapshot. */
+.study-resource-strip { display:flex; align-items:center; min-width:0; height:48px; background:#1b4f9b; color:#fff; isolation:isolate; }
+.study-strip-label { flex:none; padding:0 1rem; font-size:.8rem; font-weight:700; border-right:1px solid #ffffff45; }
+.study-strip-viewport { flex:1; min-width:0; overflow:hidden; }
+.study-strip-track { display:flex; width:max-content; }
+.study-strip-group { flex:none; display:flex; align-items:center; gap:1.5rem; padding-right:1.5rem; }
+.study-strip-group a { display:inline-flex; align-items:center; min-height:48px; padding:0 .25rem; white-space:nowrap; font-size:.8rem; color:#fff; text-decoration:none; }
+.study-strip-group a:hover { text-decoration:underline; text-underline-offset:4px; }
+.study-resource-strip :focus-visible { outline:2px solid #fff; outline-offset:-4px; }
+.study-strip-control { flex:none; display:grid; place-items:center; width:48px; height:48px; border-left:1px solid #ffffff45; color:#fff; background:#1b4f9b; }
+.study-strip-control:hover { background:#163f7a; }
+@media(prefers-reduced-motion:no-preference) { .study-resource-strip[data-ready="true"][data-manual="false"] .study-strip-track { animation:study-links-scroll var(--study-duration) linear infinite; } }
+.study-resource-strip:is(:hover,[data-paused="true"]) .study-strip-track { animation-play-state:paused; }
+.study-resource-strip[data-manual="true"] .study-strip-viewport { overflow-x:auto; scrollbar-width:thin; }
+.study-resource-strip[data-manual="true"] .study-strip-group[aria-hidden="true"] { display:none; }
+@keyframes study-links-scroll { to { transform:translateX(calc(-1 * var(--study-distance))); } }
+@media(prefers-reduced-motion:reduce) { .study-strip-track { animation:none; }.study-strip-viewport { overflow-x:auto; scrollbar-width:thin; }.study-strip-group[aria-hidden="true"],.study-strip-control { display:none; } }
+@media(max-width:767px) { .study-strip-label { padding:0 .65rem; font-size:.72rem; }.study-strip-group { gap:1rem; padding-right:1rem; }.study-strip-group a { font-size:.75rem; } }

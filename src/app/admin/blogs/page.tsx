@@ -36,7 +36,7 @@ export default function AdminBlogsPage() {
   );
   const [author, setAuthor] = useState("Academic Coordination Committee");
   const [tags, setTags] = useState(
-    "Date Sheet, 11th Class, 12th Class, BISE Lahore",
+    "Date Sheet, Study Resources, Examination Updates",
   );
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
@@ -60,7 +60,7 @@ export default function AdminBlogsPage() {
   const [aiTopic, setAiTopic] = useState("");
   const [aiCategory, setAiCategory] = useState<BlogCategory>("date-sheets");
   const [aiAudience, setAiAudience] = useState(
-    "11th & 12th Class Students (Punjab Boards & FBISE)",
+    "Students in the selected class, subject or course",
   );
   const [aiUserNotes, setAiUserNotes] = useState("");
   const [aiReferenceLinks, setAiReferenceLinks] = useState("");

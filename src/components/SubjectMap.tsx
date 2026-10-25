@@ -2,8 +2,9 @@
 
 import React from 'react';
 import { Lecture } from '@/types';
-import { BookOpen, Code, Terminal, Layers } from 'lucide-react';
+import { BookOpen, Terminal, Layers } from 'lucide-react';
 import Link from 'next/link';
+import { INITIAL_CLASSES } from '@/data/staticCatalog';
 
 interface SubjectMapProps {
   lectures?: Lecture[];
@@ -14,22 +15,14 @@ export const SubjectMap: React.FC<SubjectMapProps> = ({
   onSelectCategory,
 }) => {
   const categories = [
-    {
-      title: "11th Class Computer Science",
-      desc: "Information Technology, Software Concepts, Number Systems, Data Communication",
-      link: "/classes/11th-class/computer-science",
+    ...INITIAL_CLASSES.filter(grade => grade.isActive).map(grade => ({
+      title: grade.title,
+      desc: grade.description,
+      link: `/classes/${grade.slug}/`,
       icon: BookOpen,
-      tag: "11th Class",
-      color: "navy",
-    },
-    {
-      title: "12th Class Programming (C / C++)",
-      desc: "Syntax, Variables, Control Structures, Functions, Pointers and File Handling",
-      link: "/classes/12th-class/computer-science",
-      icon: Code,
-      tag: "12th Class",
-      color: "emerald",
-    },
+      tag: 'Class resources',
+      catFilter: undefined as string | undefined,
+    })),
     {
       title: "Python Programming Course",
       desc: "Basics of Python, Indentation, Loops, Lists, Dictionaries and Beginner Projects",
@@ -89,7 +82,7 @@ export const SubjectMap: React.FC<SubjectMapProps> = ({
                 {c.catFilter ? (
                   <button
                     onClick={() => {
-                      if (onSelectCategory) onSelectCategory(c.catFilter);
+                      if (onSelectCategory && c.catFilter) onSelectCategory(c.catFilter);
                       const el = document.getElementById('archive');
                       if (el) el.scrollIntoView({ behavior: 'smooth' });
                     }}

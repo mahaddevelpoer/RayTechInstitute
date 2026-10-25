@@ -7,16 +7,16 @@ import { ClassesClientView } from "@/components/educational/ClassesClientView";
 import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export const metadata: Metadata = {
-  title: buildSeoTitle("11th and 12th Class Notes and Past Papers"),
+  title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
   description:
-    "Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.",
+    "Choose your class and subject to find notes, chapter-wise MCQs and past papers. Browse available study resources and programming courses.",
   alternates: {
     canonical: siteUrl("/classes/"),
   },
   openGraph: {
-    title: buildSeoTitle("11th and 12th Class Notes and Past Papers"),
+    title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
     description:
-      "Access complete intermediate study resources for 11th and 12th class, including chapter notes in PDF, interactive MCQs tests, and board past papers.",
+      "Choose your class and subject to find notes, chapter-wise MCQs and past papers. Browse available study resources and programming courses.",
     url: siteUrl("/classes/"),
     type: "website",
   },

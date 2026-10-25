@@ -10,6 +10,7 @@ import { collectLearningHealth } from '../_shared/learning-health.ts';
 import { studentReviewKey } from '../_shared/student-review-config.ts';
 import { writeEducationalContent, readEducationalCatalog } from '../_shared/content-mutations.ts';
 import { GAZETTE_LENGTH_GUIDANCE, validateGazetteDraft } from '../_shared/gazette-draft.ts';
+import { resolveClassTitle } from '../_shared/class-context.ts';
 
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://raytechinstitute.web.app',
@@ -263,7 +264,7 @@ function extractKnownSchemaFields(raw: string): any {
       title: getField("title") || "Comprehensive Examination Guide",
       slug: getField("slug") || "educational-guide",
       category: getField("category") || "date-sheets",
-      excerpt: getField("excerpt") || "Official study and examination update for Intermediate students.",
+      excerpt: getField("excerpt") || "Study and examination updates for students.",
       featuredImage: getField("featuredImage") || "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
       author: getField("author") || "Academic Coordination Cell",
       readTime: getField("readTime") || "10 min read",
@@ -278,7 +279,7 @@ function extractKnownSchemaFields(raw: string): any {
     const gazette: any = {
       title: getField("title") || "Result Gazette Notification",
       board: getField("board") || "BISE Lahore",
-      classSlug: getField("classSlug") || "11th-class",
+      classSlug: getField("classSlug") || "",
       year: getField("year", true) || 2026,
       session: getField("session") || "1st Annual Examination",
       totalCandidates: getField("totalCandidates") || "185,000 Candidates",
@@ -708,7 +709,7 @@ serve(async (req) => {
         return respond({ success: false, error: "Topic is required to generate a blog article." });
       }
 
-      const systemPrompt = `You are a Senior Academic Authority & SEO Content Specialist in Pakistan with 15+ years of experience leading educational portals for Intermediate (11th and 12th class, F.Sc Pre-Medical, F.Sc Pre-Engineering, ICS, I.Com) students across ALL Punjab Educational Boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha) and Federal Board (FBISE Islamabad).
+      const systemPrompt = `You are a Senior Academic Authority & SEO Content Specialist in Pakistan with 15+ years of experience leading educational portals for students across school, college and programming courses across ALL Punjab Educational Boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha) and Federal Board (FBISE Islamabad).
 
 TODAY'S OFFICIAL DATE: ${currentDate} (Current Academic Cycle: ${currentYear})
 
@@ -728,7 +729,7 @@ STRICT MANDATORY RULES (ZERO EXCEPTIONS):
 6. CRITICAL JSON FORMATTING: In the 'content' string, NEVER use unescaped double quotes ("). Always use single quotes (') or code formatting when referencing terms or quotes inside markdown.
 7. Return response STRICTLY as a valid JSON object matching this schema:
 {
-  "title": "Comprehensive, compelling educational headline (e.g. BISE Lahore 11th & 12th Class Annual Date Sheet ${currentYear}: Complete Schedule, Pairing Schemes & Exam Center Protocols)",
+  "title": "Comprehensive, compelling educational headline (e.g. Class-wise Annual Examination Date Sheet ${currentYear}: Complete Schedule, Pairing Schemes & Exam Center Protocols)",
   "slug": "url-friendly-slug-with-hyphens",
   "category": "${category || 'date-sheets'}",
   "excerpt": "40-60 word factual summary for Google AI Overviews and meta description",
@@ -745,7 +746,7 @@ STRICT MANDATORY RULES (ZERO EXCEPTIONS):
 Current Date: ${currentDate}
 Topic: ${topic}
 Category: ${category}
-Audience: ${targetAudience || "11th & 12th Class Students (Punjab Boards & FBISE)"}
+Audience: ${targetAudience || "Students in the selected class, subject or course"}
 
 Task:
 Write a massive, complete, topic-specific pillar guide of at least 3,000 words. Select the structure that best answers this topic and category. Do NOT skip important user questions, abbreviate, or use placeholders like 'etc.' or 'more details follow'. Never invent dates, statistics, policies, fees, or official claims. Use an explicit verification label whenever the brief does not provide a confirmed source.`;
@@ -781,11 +782,11 @@ Write a complete topic-specific pillar guide of at least 3,000 words (target 3,0
       const { classSlug, subjectSlug, chapterNumber, topic, count } = payload;
       const numQuestions = Math.min(Math.max(Number(count) || 5, 1), 15);
 
-      const mcqSystemPrompt = `You are a Senior Examination Setter for Intermediate Board Examination (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, FBISE Islamabad) specializing in Computer Science, Physics, Chemistry, and Mathematics.
+      const mcqSystemPrompt = `You are a Senior Examination Setter for the selected class and examination syllabus (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, FBISE Islamabad) specializing in Computer Science, Physics, Chemistry, and Mathematics.
 
 TODAY'S ACADEMIC CYCLE: ${currentYear} | Current Date: ${currentDate}
 TARGET:
-- Class: ${classSlug || "11th-class"}
+- Class: ${classSlug || "Selected class"}
 - Subject: ${subjectSlug || "computer-science"}
 - Chapter: Chapter ${chapterNumber || 1}
 - Topic: ${topic || "Core Chapter Syllabus"}
@@ -863,7 +864,7 @@ CRITICAL RULES FOR PAKISTAN BOARD EXAMINATION:
       const targetBoard = board || "BISE Lahore";
       const targetYear = Number(year) || currentYear;
       const targetSession = session || "1st Annual Examination";
-      const className = classSlug === "11th-class" ? "11th Class (1st Year HSSC-I)" : "12th Class (2nd Year HSSC-II)";
+      const className = await resolveClassTitle(classSlug || '', Deno.env.get('SUPABASE_URL') || '', serviceRoleKey || '');
 
       const boardPortalMap: Record<string, string> = {
         "BISE Lahore": "https://www.biselahore.com/",
@@ -906,7 +907,7 @@ Return response STRICTLY as a valid JSON object matching:
 {
   "title": "${targetBoard} ${className} Result Gazette ${targetYear} (${targetSession})",
   "board": "${targetBoard}",
-  "classSlug": "${classSlug || '11th-class'}",
+  "classSlug": "${classSlug || ''}",
   "year": ${targetYear},
   "session": "${targetSession}",
   "totalCandidates": "Not provided - verify from the official board notice",
@@ -942,10 +943,10 @@ Return response STRICTLY as a valid JSON object matching:
       }
 
       const { classSlug, subjectSlug, chapterNumber, chapterTitle, topic, customNotes, actionButtonText, actionButtonUrl } = payload;
-      const className = classSlug === "11th-class" ? "11th Class (1st Year HSSC-I)" : "12th Class (2nd Year HSSC-II)";
+      const className = await resolveClassTitle(classSlug || '', Deno.env.get('SUPABASE_URL') || '', serviceRoleKey || '');
       const subjectName = subjectSlug ? subjectSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ") : "Computer Science";
 
-      const notesSystemPrompt = `You are a Senior Academic Content Writer and Board Examination Notes Specialist with 15+ years of experience preparing solved chapter notes, handouts, and study guides for Intermediate (11th and 12th class) students across ALL Punjab Educational Boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha) and Federal Board (FBISE Islamabad).
+      const notesSystemPrompt = `You are a Senior Academic Content Writer and Board Examination Notes Specialist with 15+ years of experience preparing solved chapter notes, handouts, and study guides for students in the selected class and subject across ALL Punjab Educational Boards (BISE Lahore, Gujranwala, Rawalpindi, Faisalabad, Multan, Sahiwal, Bahawalpur, DG Khan, Sargodha) and Federal Board (FBISE Islamabad).
 
 TODAY'S DATE: ${currentDate} | Academic Year: ${currentYear}
 

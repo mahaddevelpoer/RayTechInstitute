@@ -111,7 +111,7 @@ export const ContactSection: React.FC = () => {
                   name="subject"
                   value={fields.subject}
                   onChange={set('subject')}
-                  placeholder="e.g. 11th Computer Notes Request"
+                  placeholder="e.g. Class and subject notes request"
                   className="w-full text-xs px-3 py-2 bg-white border border-slate-300 rounded focus:outline-none focus:border-navy-600 text-slate-800"
                 />
               </div>

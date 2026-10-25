@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
             <h2 id="policy-section-2" className="text-lg font-bold text-navy-900">1. Introduction</h2>
             <p>
               RayTech Institute operates as a free digital educational
-              repository for Intermediate (11th and 12th Classes) computer
+              repository for class-wise study resources and computer
               science syllabus, notes, MCQs, board past papers, and result
               gazettes. We are strictly committed to safeguarding the privacy of
               visiting students and teachers.

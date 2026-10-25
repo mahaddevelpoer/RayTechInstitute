@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               {channelData.tagline}
             </p>
             <p className="text-slate-400 text-xs leading-relaxed">
-              Educational portal dedicated to intermediate students (11th &amp; 12th classes), providing syllabus notes, past papers, MCQs, and board results.
+              Class-wise study resources, programming lessons and examination guidance. Choose a class and subject to find available material.
             </p>
           </div>
 
@@ -39,16 +39,16 @@ export const Footer: React.FC = () => {
             <ul className="space-y-1.5 text-xs text-slate-400">
               <li>
                 <Link href="/classes" className="hover:text-white transition-colors">
-                  11th &amp; 12th Class Notes
+                  Classes &amp; Study Notes
                 </Link>
               </li>
               <li>
-                <Link href="/classes/11th-class/computer-science/mcqs" className="hover:text-white transition-colors">
+                <Link href="/classes/" className="hover:text-white transition-colors">
                   Online MCQs Test
                 </Link>
               </li>
               <li>
-                <Link href="/classes/12th-class/computer-science/past-papers" className="hover:text-white transition-colors">
+                <Link href="/classes/" className="hover:text-white transition-colors">
                   Board Past Papers
                 </Link>
               </li>

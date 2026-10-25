@@ -15,7 +15,7 @@ export function Hero() {
   return <section className="home-hero">
     <div className="home-hero-grid">
       <div className="home-hero-copy">
-        <p className="home-hero-kicker">Computer Science for Class 11, Class 12 and beyond</p>
+        <p className="home-hero-kicker">Class resources and programming</p>
         <h1>Learn the concept.<br /><span>Then write the code.</span></h1>
         <p className="home-hero-description">Study class notes, follow programming lessons and test each idea in your browser.</p>
         <div className="home-hero-actions"><Link href="/courses/" className="btn-primary">Explore courses<ArrowRight size={17}/></Link><Link href="/classes/" className="btn-outline"><BookOpen size={17}/>Class resources</Link></div>
@@ -33,10 +33,10 @@ export function Hero() {
       </div>}
     </div>
     <nav className="home-shortcuts" aria-label="Quick study resources">
-      <Link href="/classes/11th-class/computer-science/notes/"><FileText size={19}/><span>Chapter notes<small>Class 11 study material</small></span><ArrowRight size={17}/></Link>
-      <Link href="/classes/11th-class/computer-science/mcqs/"><BookOpen size={19}/><span>Test your understanding<small>Chapter-wise MCQs</small></span><ArrowRight size={17}/></Link>
-      <Link href="/classes/12th-class/computer-science/past-papers/"><FileText size={19}/><span>Past papers<small>Prepare with previous exams</small></span><ArrowRight size={17}/></Link>
-      <Link href="/results-gazettes/first-year-result/"><Award size={19}/><span>Results and gazettes<small>Board-wise guidance</small></span><ArrowRight size={17}/></Link>
+      <Link href="/classes/"><FileText size={19}/><span>Chapter notes<small>Choose a class and subject</small></span><ArrowRight size={17}/></Link>
+      <Link href="/classes/"><BookOpen size={19}/><span>Test your understanding<small>Chapter-wise MCQs</small></span><ArrowRight size={17}/></Link>
+      <Link href="/classes/"><FileText size={19}/><span>Past papers<small>Prepare with previous exams</small></span><ArrowRight size={17}/></Link>
+      <Link href="/results-gazettes/"><Award size={19}/><span>Results and gazettes<small>Board-wise guidance</small></span><ArrowRight size={17}/></Link>
     </nav>
   </section>;
 }

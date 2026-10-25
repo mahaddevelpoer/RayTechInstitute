@@ -1,7 +1,7 @@
 import assert from'node:assert/strict';import fs from'node:fs/promises';import{chromium}from'playwright';import{loadTypescript}from'./load-typescript.mjs';
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
 const base='https://raytechinstitute.web.app';const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});
-const routes=['/courses/','/courses/web-development/','/learn/python/','/classes/','/classes/11th-class/','/classes/11th-class/computer-science/','/classes/11th-class/computer-science/notes/','/classes/11th-class/computer-science/mcqs/','/classes/11th-class/computer-science/past-papers/','/results-gazettes/','/blogs/','/privacy-policy/','/terms-and-conditions/','/about/'];
+const routes=['/','/courses/','/courses/web-development/','/learn/python/','/classes/','/classes/11th-class/','/classes/11th-class/computer-science/','/classes/11th-class/computer-science/notes/','/classes/11th-class/computer-science/mcqs/','/classes/11th-class/computer-science/past-papers/','/results-gazettes/','/blogs/','/privacy-policy/','/terms-and-conditions/','/about/'];
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});const errors=[];let publicDatabaseReads=0;page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.url().includes('.supabase.co/rest/v1/'))publicDatabaseReads++;});
  await page.goto(base+'/courses/',{waitUntil:'domcontentloaded'});await page.getByRole('button',{name:'Decline Optional',exact:true}).click();await fs.mkdir('artifacts/resource-pages',{recursive:true});
@@ -14,7 +14,7 @@ try{
    const main=page.locator('#main-content').first();assert.ok((await main.innerText()).trim().length>70,route);
    assert.doesNotMatch(await main.innerText(),/SQLSTATE|PostgREST|schema cache|Unhandled server exception|github_pat_|sk-or-v1-/i,route);
    if(dark){const rgb=await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--bg-main').trim());assert.equal(rgb,'#151515');}
-   if(['/courses/','/classes/11th-class/','/classes/11th-class/computer-science/','/privacy-policy/'].includes(route))await page.screenshot({path:`artifacts/resource-pages/${route.replaceAll('/','_')}-${width}.png`});
+   if(['/','/courses/','/classes/11th-class/','/classes/11th-class/computer-science/','/privacy-policy/'].includes(route))await page.screenshot({path:`artifacts/resource-pages/${route.replaceAll('/','_')}-${width}.png`});
   }
  }
  await page.goto(base+'/learn/python/',{waitUntil:'domcontentloaded'});assert.equal(await page.locator('.topic-directory>li').count(),LEARNING_TOPICS.filter(t=>t.languageId==='python').length);
@@ -22,5 +22,15 @@ try{
   const language=LEARNING_LANGUAGES.find(l=>l.id===topic.languageId);await page.goto(`${base}/learn/${language.slug}/${topic.slug}/`,{waitUntil:'domcontentloaded'});await page.locator('.lesson-attached-videos').waitFor();assert.equal(await page.locator('.lesson-attached-videos .lesson-video').count(),topic.videoIds.length);
   assert.equal(await page.evaluate(()=>!!(document.querySelector('.lesson-attached-videos').compareDocumentPosition(document.querySelector('.lesson-opening'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
  }
- assert.deepEqual(errors,[]);assert.equal(publicDatabaseReads,0);console.log(`[resource-pages] ${routes.length} routes passed in desktop light and mobile charcoal; Python topic count and published video placement matched the catalog. No public database reads.`);
+ await page.goto(base+'/',{waitUntil:'domcontentloaded'});await page.setViewportSize({width:1366,height:900});
+ const strip=page.getByRole('navigation',{name:'Class study shortcuts',exact:true});await page.waitForFunction(()=>document.querySelector('.study-resource-strip')?.dataset.ready==='true');
+ assert.doesNotMatch(await page.locator('.site-header').innerText(),/11th|12th|1st year|2nd year/i);
+ const track=strip.locator('.study-strip-track');await page.mouse.move(1,899);const initial=await track.evaluate(e=>getComputedStyle(e).transform);await page.waitForTimeout(250);assert.notEqual(await track.evaluate(e=>getComputedStyle(e).transform),initial,'study links move without user input');
+ await strip.hover();assert.equal(await track.evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
+ await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).click();await page.mouse.move(1,899);const paused=await track.evaluate(e=>getComputedStyle(e).transform);await page.waitForTimeout(150);assert.equal(await track.evaluate(e=>getComputedStyle(e).transform),paused);
+ await strip.getByRole('button',{name:'Resume study links scrolling',exact:true}).click();await page.mouse.move(1,899);await page.waitForTimeout(150);assert.equal(await track.evaluate(e=>getComputedStyle(e).animationPlayState),'running');
+ await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).focus();await page.keyboard.press('Shift+Tab');assert.equal(await strip.getAttribute('data-manual'),'true');
+ const focused=await page.locator(':focus').boundingBox();const bounds=await strip.boundingBox();assert.ok(focused.x>=bounds.x&&focused.x+focused.width<=bounds.x+bounds.width+1,'keyboard focus remains visible');
+ await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'/',{waitUntil:'domcontentloaded'});assert.equal(await page.locator('.study-strip-track').evaluate(e=>getComputedStyle(e).animationName),'none');
+ assert.deepEqual(errors,[]);assert.equal(publicDatabaseReads,0);console.log(`[resource-pages] ${routes.length} routes passed in desktop light and mobile charcoal; Python topic count and published video placement matched the catalog. Study strip motion, pause, keyboard access and reduced motion passed. No public database reads.`);
 }finally{await browser.close();}
