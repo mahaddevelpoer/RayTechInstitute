@@ -19,6 +19,7 @@ import {
   INITIAL_SUBJECTS,
 } from "@/data/educationalStore";
 import { MCQItem } from "@/types/educational";
+import { BilingualText } from './BilingualText';
 
 interface MCQClientViewProps {
   classSlug: string;
@@ -267,7 +268,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                     Question {currentIndex + 1}
                   </span>
                   <h2 className="text-base sm:text-lg font-bold text-navy-900 mt-1 leading-relaxed">
-                    {currentQuestion.question}
+                    <BilingualText text={currentQuestion.question}/>
                   </h2>
                 </div>
                 <Shuffle className="w-5 h-5 text-navy-500 shrink-0" />
@@ -287,10 +288,10 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                       onClick={() => chooseAnswer(index)}
                       className={`p-3 rounded border text-left text-sm transition-colors ${selected ? "bg-navy-50 border-navy-500 text-navy-900 font-semibold" : "bg-white border-slate-200 text-slate-700 hover:border-navy-300"}`}
                     >
-                      <span className="inline-flex w-6 h-6 items-center justify-center rounded bg-slate-100 text-xs font-bold mr-2">
+                      <span className="flex items-start gap-3"><span className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded bg-slate-100 text-xs font-bold" dir="ltr">
                         {String.fromCharCode(65 + index)}
                       </span>
-                      {option}
+                      <BilingualText text={option} className="min-w-0 flex-1"/></span>
                     </button>
                   );
                 })}
@@ -353,20 +354,20 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                     <div className="flex gap-2">
                       <span className="font-bold text-xs">{index + 1}.</span>
                       <div className="text-sm font-semibold text-navy-900">
-                        {question.question}
+                        <BilingualText text={question.question}/>
                         <div className="mt-2 text-xs font-normal text-slate-700">
                           Your answer:{" "}
-                          {answer
+                          <BilingualText text={answer
                             ? question.quizOptions[answer.selectedIndex]
-                            : "Not answered"}
+                            : "Not answered"}/>
                         </div>
                         <div className="text-xs font-semibold text-emerald-800 mt-1">
                           Correct answer:{" "}
-                          {question.quizOptions[question.quizCorrectIndex]}
+                          <BilingualText text={question.quizOptions[question.quizCorrectIndex]}/>
                         </div>
                         <div className="text-xs text-slate-600 mt-2">
                           <HelpCircle className="inline w-3.5 h-3.5 mr-1" />
-                          {question.explanation}
+                          <BilingualText text={question.explanation}/>
                         </div>
                       </div>
                       {correct ? (

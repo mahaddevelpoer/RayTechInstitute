@@ -1,0 +1,1135 @@
+{
+  "sourceFile": "Computer_Networks_MCQs_Chapter No.1.docx",
+  "sourceSha256": "eec780a96ea86ea587941a3443188156b729fa460da6150a5dd6e5466a7e9b83",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "chapterNumber": 1,
+  "chapterTitle": "Basic Terminologies",
+  "chapterDescription": "Computer Networks Chapter 1: communication components, data transfer, transmission media, network types, VLAN, VPN and Internet applications.",
+  "languages": [
+    "en",
+    "ur"
+  ],
+  "questions": [
+    {
+      "id": "dit-cn-ch1-t01-q01",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 1,
+      "question": "A laptop sends a file to a printer. Which device is the sender?\nایک لیپ ٹاپ پرنٹر کو فائل بھیجتا ہے۔ بھیجنے والا آلہ کون سا ہے؟",
+      "options": [
+        "Cable\nکیبل",
+        "Printer\nپرنٹر",
+        "Laptop\nلیپ ٹاپ",
+        "Router\nراؤٹر"
+      ],
+      "correctIndex": 2,
+      "explanation": "The laptop originates the file transfer, so it is the sender.\nلیپ ٹاپ فائل بھیجتا ہے، اس لیے وہ بھیجنے والا آلہ ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q02",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 2,
+      "question": "A video is sent over a network. What is the message?\nنیٹ ورک پر ویڈیو بھیجی جاتی ہے۔ اس میں پیغام کیا ہے؟",
+      "options": [
+        "Video data\nویڈیو کا ڈیٹا",
+        "Receiving device\nوصول کرنے والا آلہ",
+        "Network rule\nنیٹ ورک کا اصول",
+        "Wi-Fi signal\nوائی فائی سگنل"
+      ],
+      "correctIndex": 0,
+      "explanation": "The video data is the information being communicated, which is the message.\nمنتقل ہونے والی ویڈیو کا ڈیٹا ہی پیغام ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q03",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 3,
+      "question": "Which component defines the path used to carry information?\nمعلومات لے جانے والے راستے کی وضاحت کون سا جز کرتا ہے؟",
+      "options": [
+        "Destination\nمنزل / وصول کنندہ",
+        "Medium\nترسیلی ذریعہ",
+        "Sender\nبھیجنے والا",
+        "Protocol\nپروٹوکول"
+      ],
+      "correctIndex": 1,
+      "explanation": "The medium carries information between the sending and receiving devices.\nذریعہ وہ راستہ ہے جس سے معلومات ایک آلے سے دوسرے تک جاتی ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q04",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 4,
+      "question": "Two devices are connected but use incompatible communication rules. What is missing?\nدو آلات جڑے ہیں لیکن مواصلاتی اصول مختلف ہیں۔ کیا چیز موجود نہیں؟",
+      "options": [
+        "More storage\nزیادہ ذخیرہ گنجائش",
+        "A shared protocol\nمشترکہ پروٹوکول",
+        "A longer message\nزیادہ طویل پیغام",
+        "A second sender\nدوسرا بھیجنے والا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Devices need a compatible set of communication rules, called a protocol.\nآلات کو ایک دوسرے سے رابطے کے لیے مشترکہ اصول یعنی پروٹوکول چاہیے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q05",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 5,
+      "question": "In a video call, which component receives the transmitted video at the other end?\nویڈیو کال میں دوسری طرف ویڈیو وصول کرنے والا جز کون سا ہے؟",
+      "options": [
+        "Encoding\nانکوڈنگ",
+        "Cable\nکیبل",
+        "Destination\nمنزل / وصول کنندہ",
+        "Source\nماخذ"
+      ],
+      "correctIndex": 2,
+      "explanation": "The destination is the device at the receiving end of the video call.\nویڈیو وصول کرنے والا آلہ منزل یعنی ڈیسٹینیشن ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q06",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 6,
+      "question": "A computer prepares a message before sending it. Which role is it performing?\nکمپیوٹر بھیجنے سے پہلے پیغام تیار کرتا ہے۔ وہ کون سا کردار ادا کرتا ہے؟",
+      "options": [
+        "Transmission medium\nترسیلی ذریعہ",
+        "Receiver\nوصول کنندہ",
+        "Host/sender\nمیزبان / بھیجنے والا",
+        "Protocol\nپروٹوکول"
+      ],
+      "correctIndex": 2,
+      "explanation": "A host preparing and sending information is acting as the sender.\nمعلومات تیار کرکے بھیجنے والا کمپیوٹر بھیجنے والے کا کردار ادا کرتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q07",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 7,
+      "question": "Which combination includes all essential communication components?\nکون سے مجموعے میں مواصلات کے تمام ضروری اجزا شامل ہیں؟",
+      "options": [
+        "Sender, keyboard, monitor, mouse, printer\nبھیجنے والا، کی بورڈ، مانیٹر، ماؤس، پرنٹر",
+        "Sender, message, medium, protocol, receiver\nبھیجنے والا، پیغام، ذریعہ، پروٹوکول، وصول کنندہ",
+        "Internet, website, email, browser, file\nانٹرنیٹ، ویب سائٹ، ای میل، براؤزر، فائل",
+        "Router, switch, browser, screen, cable\nراؤٹر، سوئچ، براؤزر، اسکرین، کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Communication requires a sender, a message, a medium, compatible rules and a receiver.\nرابطے کے لیے بھیجنے والا، پیغام، ذریعہ، مشترکہ اصول اور وصول کرنے والا ضروری ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q08",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 8,
+      "question": "A receiver gets signals but cannot interpret them. Which issue is most likely?\nوصول کنندہ سگنل تو پاتا ہے مگر سمجھ نہیں پاتا۔ ممکنہ مسئلہ کیا ہے؟",
+      "options": [
+        "Incompatible format or protocol\nغیر مطابقت پذیر فارمیٹ یا پروٹوکول",
+        "No file name\nفائل کا نام موجود نہیں",
+        "Too many keyboards\nبہت زیادہ کی بورڈ",
+        "Wrong screen size\nاسکرین کا غلط سائز"
+      ],
+      "correctIndex": 0,
+      "explanation": "A device can receive signals but fail to understand an incompatible format or protocol.\nسگنل ملنے کے باوجود مختلف فارمیٹ یا پروٹوکول کی وجہ سے آلہ معلومات نہیں سمجھ پاتا۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q09",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 9,
+      "question": "A message can contain which of the following?\nپیغام میں درج ذیل میں سے کیا شامل ہو سکتا ہے؟",
+      "options": [
+        "Only numbers\nصرف اعداد",
+        "Text, images, audio or video\nمتن، تصاویر، آواز یا ویڈیو",
+        "Only printed documents\nصرف چھپی ہوئی دستاویزات",
+        "Only text\nصرف متن"
+      ],
+      "correctIndex": 1,
+      "explanation": "A message is information and may contain text, images, audio or video.\nپیغام میں متن، تصاویر، آواز یا ویڈیو شامل ہوسکتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t01-q10",
+      "topic": "Communication Model and Components",
+      "sourceNumber": 10,
+      "question": "A damaged cable causes incomplete data delivery. Which component failed?\nخراب کیبل سے ڈیٹا نامکمل پہنچتا ہے۔ کون سا جز ناکام ہوا؟",
+      "options": [
+        "Message\nپیغام",
+        "Application icon\nایپلیکیشن کا آئیکن",
+        "Medium\nترسیلی ذریعہ",
+        "Sender identity\nبھیجنے والے کی شناخت"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cable is the transmission medium; damaging it can disrupt delivery.\nکیبل ترسیل کا ذریعہ ہے اور اس کی خرابی معلومات کی ترسیل متاثر کرسکتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q01",
+      "topic": "Data Communication Process",
+      "sourceNumber": 1,
+      "question": "Before sending, a device converts information into network-ready signals. This is:\nبھیجنے سے پہلے آلہ معلومات کو نیٹ ورک کے قابل سگنلز میں بدلتا ہے۔ یہ کیا عمل ہے؟",
+      "options": [
+        "Routing\nراستہ متعین کرنا",
+        "Decoding\nڈی کوڈنگ",
+        "Reception\nوصولی",
+        "Encoding\nانکوڈنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Encoding represents information as signals suitable for transmission.\nانکوڈنگ معلومات کو ترسیل کے قابل سگنلز میں تبدیل کرتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q02",
+      "topic": "Data Communication Process",
+      "sourceNumber": 2,
+      "question": "A large file is split into smaller units for transfer. This is:\nایک بڑی فائل کو ترسیل کے لیے چھوٹے حصوں میں تقسیم کیا جاتا ہے۔ اسے کیا کہتے ہیں؟",
+      "options": [
+        "Addressing\nپتے درج کرنا",
+        "Reception\nوصولی",
+        "Printing\nپرنٹنگ",
+        "Packetization\nپیکٹ سازی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Packetization divides data into smaller packets for transfer.\nپیکٹ سازی میں ڈیٹا کو ترسیل کے لیے چھوٹے پیکٹوں میں تقسیم کیا جاتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q03",
+      "topic": "Data Communication Process",
+      "sourceNumber": 3,
+      "question": "Why are addresses attached to packets?\nپیکٹس کے ساتھ پتے کیوں لگائے جاتے ہیں؟",
+      "options": [
+        "To make files larger\nفائلیں بڑی کرنے کے لیے",
+        "To change language\nزبان بدلنے کے لیے",
+        "To reduce screen brightness\nاسکرین کی روشنی کم کرنے کے لیے",
+        "To identify source and destination\nماخذ اور منزل پہچاننے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Packet addresses identify where data comes from and where it should go.\nپیکٹ کے پتے بتاتے ہیں کہ ڈیٹا کہاں سے آیا ہے اور کہاں جانا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q04",
+      "topic": "Data Communication Process",
+      "sourceNumber": 4,
+      "question": "Packets take different paths across a network. Which stage selects paths?\nپیکٹس نیٹ ورک میں مختلف راستے اختیار کرتے ہیں۔ راستہ کون سا مرحلہ منتخب کرتا ہے؟",
+      "options": [
+        "Encoding\nانکوڈنگ",
+        "Routing\nراستہ متعین کرنا",
+        "Typing\nٹائپنگ",
+        "Decoding\nڈی کوڈنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Routing selects paths through the network for packets.\nروٹنگ نیٹ ورک میں پیکٹوں کے لیے راستہ منتخب کرتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q05",
+      "topic": "Data Communication Process",
+      "sourceNumber": 5,
+      "question": "A receiver combines incoming packets into the original file. This is:\nوصول کنندہ پیکٹس کو ملا کر اصل فائل بناتا ہے۔ یہ کیا عمل ہے؟",
+      "options": [
+        "Transmission\nترسیل",
+        "Broadcasting\nبراڈکاسٹنگ",
+        "Addressing\nپتے درج کرنا",
+        "Reassembly\nپیکٹس کو دوبارہ جوڑنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Reassembly puts received packets back together to reconstruct the original message.\nری اسمبلی وصول شدہ پیکٹوں کو جوڑ کر اصل پیغام دوبارہ بناتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q06",
+      "topic": "Data Communication Process",
+      "sourceNumber": 6,
+      "question": "Signals are converted back into meaningful data at the receiver. This is:\nوصول کنندہ سگنلز کو دوبارہ قابل فہم ڈیٹا میں بدلتا ہے۔ یہ کیا عمل ہے؟",
+      "options": [
+        "Packetization\nپیکٹ سازی",
+        "Encoding\nانکوڈنگ",
+        "Decoding\nڈی کوڈنگ",
+        "Routing\nراستہ متعین کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Decoding interprets received signals as meaningful information.\nڈی کوڈنگ وصول شدہ سگنلز کو قابل فہم معلومات میں بدلتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q07",
+      "topic": "Data Communication Process",
+      "sourceNumber": 7,
+      "question": "Which process physically carries the signals over the medium?\nکون سا عمل سگنلز کو ذریعے سے منتقل کرتا ہے؟",
+      "options": [
+        "Reception\nوصولی",
+        "Transmission\nترسیل",
+        "Reassembly\nپیکٹس کو دوبارہ جوڑنا",
+        "Addressing\nپتے درج کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transmission sends signals across the communication medium.\nٹرانسمیشن میں سگنلز رابطے کے ذریعے سے بھیجے جاتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q08",
+      "topic": "Data Communication Process",
+      "sourceNumber": 8,
+      "question": "A receiver first accepts incoming signals. This stage is:\nوصول کنندہ پہلے آنے والے سگنلز قبول کرتا ہے۔ یہ کون سا مرحلہ ہے؟",
+      "options": [
+        "Encoding\nانکوڈنگ",
+        "Packetization\nپیکٹ سازی",
+        "Routing\nراستہ متعین کرنا",
+        "Reception\nوصولی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Reception is the receiving stage in which incoming signals are accepted.\nریسپشن وہ مرحلہ ہے جس میں آنے والے سگنلز وصول کیے جاتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q09",
+      "topic": "Data Communication Process",
+      "sourceNumber": 9,
+      "question": "Why is packetization useful for network transfer?\nنیٹ ورک ترسیل میں پیکٹ سازی کیوں مفید ہے؟",
+      "options": [
+        "It removes all protocols\nیہ تمام پروٹوکول ختم کرتی ہے",
+        "It enables manageable units of data\nیہ ڈیٹا کو قابل انتظام حصوں میں بانٹتی ہے",
+        "It converts cables into wireless\nیہ کیبلوں کو وائرلیس بناتی ہے",
+        "It eliminates the receiver\nیہ وصول کنندہ ختم کرتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smaller packets provide manageable units for transporting a large message.\nچھوٹے پیکٹ بڑے پیغام کی ترسیل کو قابل انتظام حصوں میں تقسیم کرتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t02-q10",
+      "topic": "Data Communication Process",
+      "sourceNumber": 10,
+      "question": "Which order best describes the final receiving stages?\nوصولی کے آخری مراحل کی درست ترتیب کون سی ہے؟",
+      "options": [
+        "Decoding → routing → addressing\nڈی کوڈنگ ← راستہ متعین کرنا ← پتے درج کرنا",
+        "Encoding → transmission → routing\nانکوڈنگ، ترسیل، پھر راستہ متعین کرنا",
+        "Reception → reassembly → decoding\nوصولی، دوبارہ جوڑنا، پھر ڈی کوڈنگ",
+        "Packetization → encoding → sender\nپیکٹ سازی، انکوڈنگ، پھر بھیجنے والا"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the sequence used by this chapter, the receiver receives, reassembles and then decodes the message.\nاس باب کی دی گئی ترتیب میں پہلے وصولی، پھر پیکٹوں کو جوڑنا اور پھر پیغام سمجھنا شامل ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q01",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 1,
+      "question": "A classroom uses copper cables to connect PCs. The medium is:\nکلاس روم میں کمپیوٹر تانبے کی کیبلوں سے جڑے ہیں۔ ذریعہ کون سا ہے؟",
+      "options": [
+        "Guided\nرہنما / وائرڈ",
+        "Satellite-only\nصرف سیٹلائٹ",
+        "Unguided\nغیر رہنما / وائرلیس",
+        "Virtual\nمجازی / ورچوئل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Copper cables guide signals along a physical path, so they are guided media.\nتانبے کی کیبل سگنلز کو ایک جسمانی راستہ دیتی ہے، اس لیے یہ وائرڈ ذریعہ ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q02",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 2,
+      "question": "Which is an example of an unguided medium?\nغیر رہنما ذریعے کی مثال کون سی ہے؟",
+      "options": [
+        "Fiber-optic cable\nفائبر آپٹک کیبل",
+        "Radio waves\nریڈیو لہریں",
+        "Twisted-pair cable\nٹوئسٹڈ پیئر کیبل",
+        "Coaxial cable\nکواکسیئل کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radio waves carry information without a physical cable between the devices.\nریڈیو لہریں آلات کے درمیان کیبل کے بغیر معلومات منتقل کرتی ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q03",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 3,
+      "question": "A damaged fiber cable disrupts data delivery. Which element is affected?\nخراب فائبر کیبل سے ڈیٹا متاثر ہوتا ہے۔ کون سا جز متاثر ہوا؟",
+      "options": [
+        "Protocol name\nپروٹوکول کا نام",
+        "Transmission medium\nترسیلی ذریعہ",
+        "Message topic\nپیغام کا موضوع",
+        "Receiver username\nوصول کنندہ کا صارف نام"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fibre cable carries the signal, so it is the transmission medium.\nفائبر کیبل سگنلز منتقل کرتی ہے، اس لیے وہ ترسیلی ذریعہ ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q04",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 4,
+      "question": "A student uses Bluetooth headphones. Which transmission category applies?\nطالب علم بلوٹوتھ ہیڈفون استعمال کرتا ہے۔ یہ کون سی ترسیل ہے؟",
+      "options": [
+        "Guided\nرہنما / وائرڈ",
+        "Wireless/unguided\nوائرلیس / غیر رہنما",
+        "Coaxial\nکواکسیئل",
+        "Fiber-optic\nفائبر آپٹک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bluetooth uses wireless radio communication rather than a connecting cable.\nبلوٹوتھ کیبل کے بجائے وائرلیس ریڈیو رابطہ استعمال کرتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q05",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 5,
+      "question": "Which protocol family is used for communication on the Internet?\nانٹرنیٹ پر مواصلات کے لیے کون سا پروٹوکول خاندان استعمال ہوتا ہے؟",
+      "options": [
+        "JPEG\nجے پی ای جی",
+        "MP3\nایم پی تھری",
+        "TCP/IP\nٹی سی پی / آئی پی",
+        "PNG\nپی این جی"
+      ],
+      "correctIndex": 2,
+      "explanation": "TCP/IP is the communication protocol family used for Internet networking.\nانٹرنیٹ رابطے میں ٹی سی پی اور آئی پی پر مشتمل پروٹوکول خاندان استعمال ہوتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q06",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 6,
+      "question": "Which protocol is associated with web browsing?\nویب براؤزنگ سے متعلق پروٹوکول کون سا ہے؟",
+      "options": [
+        "FTP\nایف ٹی پی",
+        "HTTP/HTTPS\nایچ ٹی ٹی پی / ایچ ٹی ٹی پی ایس",
+        "HDMI\nایچ ڈی ایم آئی",
+        "Bluetooth only\nصرف بلوٹوتھ"
+      ],
+      "correctIndex": 1,
+      "explanation": "HTTP and HTTPS are protocols used to request and deliver web content.\nویب مواد حاصل کرنے اور بھیجنے کے لیے ایچ ٹی ٹی پی اور ایچ ٹی ٹی پی ایس استعمال ہوتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q07",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 7,
+      "question": "Which protocol is commonly associated with file transfer?\nفائل کی منتقلی کے لیے عام پروٹوکول کون سا ہے؟",
+      "options": [
+        "JPEG\nجے پی ای جی",
+        "PDF\nپی ڈی ایف",
+        "USB\nیو ایس بی",
+        "FTP\nایف ٹی پی"
+      ],
+      "correctIndex": 3,
+      "explanation": "FTP is a file-transfer protocol, not an image or document format.\nایف ٹی پی فائل منتقل کرنے کا پروٹوکول ہے، فائل یا تصویر کا فارمیٹ نہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q08",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 8,
+      "question": "Why must sender and receiver follow compatible protocols?\nبھیجنے والے اور وصول کنندہ کو یکساں پروٹوکول کیوں اپنانے چاہییں؟",
+      "options": [
+        "To use the same wallpaper\nایک جیسا وال پیپر استعمال کرنے کے لیے",
+        "To avoid using addresses\nپتے استعمال نہ کرنے کے لیے",
+        "To increase keyboard size\nکی بورڈ بڑا کرنے کے لیے",
+        "To interpret communication correctly\nمواصلات درست سمجھنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Compatible protocols let devices interpret each other's messages correctly.\nمطابقت رکھنے والے پروٹوکول آلات کو ایک دوسرے کے پیغامات درست سمجھنے دیتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q09",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 9,
+      "question": "Protocols can specify how devices should:\nپروٹوکول آلات کے کن کاموں کے اصول طے کرتے ہیں؟",
+      "options": [
+        "Start communication and check errors\nمواصلات شروع کرنا اور غلطیاں جانچنا",
+        "Choose monitor colors\nمانیٹر کے رنگ منتخب کرنا",
+        "Arrange desktop icons\nڈیسک ٹاپ آئیکن ترتیب دینا",
+        "Print only\nصرف پرنٹ کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protocols define communication behaviour, which can include starting exchanges and checking errors.\nپروٹوکول رابطے کے اصول متعین کرتے ہیں، جن میں رابطہ شروع کرنا اور غلطی جانچنا شامل ہوسکتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t03-q10",
+      "topic": "Transmission Media and Protocols",
+      "sourceNumber": 10,
+      "question": "Which choice contrasts wired and wireless media correctly?\nوائرڈ اور وائرلیس ذرائع میں درست فرق کون سا ہے؟",
+      "options": [
+        "Both require copper cables\nدونوں کو تانبے کی کیبل درکار ہے",
+        "Wired uses physical cables; wireless uses signals through air\nوائرڈ میں کیبل، وائرلیس میں ہوا کے ذریعے سگنل استعمال ہوتے ہیں",
+        "Wired never carries digital data\nوائرڈ کبھی ڈیجیٹل ڈیٹا نہیں لے جاتا",
+        "Wireless uses only fiber\nوائرلیس صرف فائبر استعمال کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wired media use physical cables, while wireless media carry signals through the air.\nوائرڈ رابطے میں کیبل ہوتی ہے، جبکہ وائرلیس رابطے میں سگنلز ہوا سے گزرتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q01",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 1,
+      "question": "Several employees print using one shared printer. This illustrates:\nکئی ملازمین ایک پرنٹر استعمال کرتے ہیں۔ یہ کس چیز کی مثال ہے؟",
+      "options": [
+        "Isolation\nعلیحدگی",
+        "Decoding\nڈی کوڈنگ",
+        "Resource sharing\nوسائل کی شراکت",
+        "Packet loss\nپیکٹ کا ضائع ہونا"
+      ],
+      "correctIndex": 2,
+      "explanation": "A shared printer is a hardware resource used by several network users.\nمشترکہ پرنٹر ایک ایسا وسیلہ ہے جسے نیٹ ورک کے کئی صارف استعمال کرتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q02",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 2,
+      "question": "A school stores common files on a central computer. Main benefit?\nاسکول مشترکہ فائلیں مرکزی کمپیوٹر پر رکھتا ہے۔ اہم فائدہ کیا ہے؟",
+      "options": [
+        "No transmission medium\nکوئی ترسیلی ذریعہ نہیں",
+        "Centralized data access\nمرکزی ڈیٹا تک رسائی",
+        "No need for protocols\nپروٹوکول کی ضرورت نہیں",
+        "No network addresses\nنیٹ ورک پتے نہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Central storage gives users access to common files from one managed location.\nمرکزی کمپیوٹر میں مشترکہ فائلیں رکھنے سے صارف ایک ہی جگہ سے ڈیٹا حاصل کرسکتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q03",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 3,
+      "question": "Two students exchange files quickly over connected computers. This shows:\nدو طلبہ جڑے کمپیوٹروں سے جلد فائلیں بانٹتے ہیں۔ یہ کیا ظاہر کرتا ہے؟",
+      "options": [
+        "Screen formatting\nاسکرین کی فارمیٹنگ",
+        "Network communication\nنیٹ ورک مواصلات",
+        "Hardware failure\nہارڈویئر کی خرابی",
+        "Manual copying only\nصرف ہاتھ سے نقل کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Connected computers exchanging files demonstrate communication over a network.\nجڑے ہوئے کمپیوٹروں کا فائلیں بھیجنا نیٹ ورک رابطے کی مثال ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q04",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 4,
+      "question": "Which is a geographical network classification?\nجغرافیائی بنیاد پر نیٹ ورک کی قسم کون سی ہے؟",
+      "options": [
+        "Password\nپاس ورڈ",
+        "VLAN\nوی لین",
+        "LAN\nلین",
+        "VPN\nوی پی این"
+      ],
+      "correctIndex": 2,
+      "explanation": "LAN describes a network by its local geographical coverage.\nلین نیٹ ورک کی محدود جغرافیائی حدود کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q05",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 5,
+      "question": "Which pair is based on logical rather than physical grouping?\nکون سا جوڑا جسمانی کے بجائے منطقی گروہ بندی پر مبنی ہے؟",
+      "options": [
+        "MAN and WAN\nمین اور وین",
+        "LAN and Internet\nلین اور انٹرنیٹ",
+        "LAN and MAN\nلین اور مین",
+        "VLAN and VPN\nوی لین اور وی پی این"
+      ],
+      "correctIndex": 3,
+      "explanation": "In this chapter, VLAN and VPN are examples of logical or virtual network organisation.\nاس باب میں وی لین اور وی پی این منطقی یا ورچوئل نیٹ ورک کی مثالیں ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q06",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 6,
+      "question": "A network is classified by whether it covers a building or a city. Which basis is used?\nعمارت یا شہر کے رقبے سے نیٹ ورک کی قسم طے ہو تو بنیاد کیا ہے؟",
+      "options": [
+        "Password length\nپاس ورڈ کی لمبائی",
+        "Geographical area\nجغرافیائی علاقہ",
+        "File type\nفائل کی قسم",
+        "Operating system\nآپریٹنگ سسٹم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Comparing a building with a city classifies networks by geographical area.\nعمارت اور شہر کے رقبے کا موازنہ نیٹ ورک کی جغرافیائی درجہ بندی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q07",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 7,
+      "question": "A network connects users for a multiplayer game. Which benefit is shown?\nملٹی پلیئر کھیل کے لیے نیٹ ورک استعمال ہو۔ کون سا فائدہ ہے؟",
+      "options": [
+        "Packet decoding\nپیکٹ ڈی کوڈ کرنا",
+        "Physical isolation\nجسمانی علیحدگی",
+        "Address deletion\nپتے حذف کرنا",
+        "Shared online activity\nمشترکہ آن لائن سرگرمی"
+      ],
+      "correctIndex": 3,
+      "explanation": "A multiplayer game lets connected users take part in a shared online activity.\nملٹی پلیئر گیم جڑے ہوئے صارفین کو مشترکہ آن لائن سرگرمی میں حصہ لینے دیتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q08",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 8,
+      "question": "Which statement best describes the Internet in geographical terms?\nجغرافیائی لحاظ سے انٹرنیٹ کی بہترین وضاحت کیا ہے؟",
+      "options": [
+        "One classroom network\nایک کلاس روم کا نیٹ ورک",
+        "A worldwide interconnected network\nدنیا بھر کے باہم جڑے نیٹ ورک",
+        "A single VLAN\nایک وی لین",
+        "A single printer cable\nپرنٹر کی ایک کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Internet interconnects networks across the world rather than serving one room only.\nانٹرنیٹ صرف ایک کمرے کے بجائے دنیا بھر کے نیٹ ورکس کو جوڑتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q09",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 9,
+      "question": "Which is NOT itself a benefit of networking?\nکون سی چیز نیٹ ورکنگ کا لازمی فائدہ نہیں؟",
+      "options": [
+        "Sharing printers\nپرنٹرز کی شراکت",
+        "Faster communication\nتیز مواصلات",
+        "Guaranteed absence of all errors\nتمام غلطیوں سے مکمل تحفظ کی ضمانت",
+        "Sharing data\nڈیٹا کی شراکت"
+      ],
+      "correctIndex": 2,
+      "explanation": "Networks support sharing and communication, but they do not guarantee error-free operation.\nنیٹ ورک وسائل بانٹتا اور رابطہ فراہم کرتا ہے، مگر ہر غلطی کے ختم ہونے کی ضمانت نہیں دیتا۔"
+    },
+    {
+      "id": "dit-cn-ch1-t04-q10",
+      "topic": "Network Benefits and Classification",
+      "sourceNumber": 10,
+      "question": "A company logically separates departments on shared equipment. Classification is:\nکمپنی مشترکہ آلات پر شعبے منطقی طور پر الگ کرتی ہے۔ یہ کون سی درجہ بندی ہے؟",
+      "options": [
+        "Only geographical\nصرف جغرافیائی",
+        "Only wireless\nصرف وائرلیس",
+        "Logical/virtual\nمنطقی / ورچوئل",
+        "Only personal\nصرف ذاتی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Separating departments logically on shared equipment is a logical or virtual classification.\nمشترکہ آلات پر شعبوں کو منطقی طور پر الگ کرنا منطقی یا ورچوئل درجہ بندی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q01",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 1,
+      "question": "Computers in one school lab are connected. Best network type?\nایک اسکول کی لیب کے کمپیوٹر جڑے ہیں۔ مناسب نیٹ ورک کون سا ہے؟",
+      "options": [
+        "MAN\nمین",
+        "LAN\nلین",
+        "WAN\nوین",
+        "VPN\nوی پی این"
+      ],
+      "correctIndex": 1,
+      "explanation": "A school laboratory is a local area, making LAN the best fit among these choices.\nاسکول کی ایک لیب محدود جگہ ہے، اس لیے دیے گئے اختیارات میں لین مناسب ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q02",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 2,
+      "question": "A network joins several locations across one city. Best type?\nایک شہر میں کئی مقامات کو ملانے والا نیٹ ورک کون سا ہے؟",
+      "options": [
+        "PAN\nپین",
+        "VLAN\nوی لین",
+        "LAN\nلین",
+        "MAN\nمین"
+      ],
+      "correctIndex": 3,
+      "explanation": "A MAN connects locations over a metropolitan area such as a city.\nمین شہر جیسے بڑے مقامی علاقے میں مختلف مقامات کو جوڑتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q03",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 3,
+      "question": "Branches in different countries communicate. Best type?\nمختلف ملکوں کی شاخیں رابطہ کرتی ہیں۔ مناسب نیٹ ورک کون سا ہے؟",
+      "options": [
+        "LAN\nلین",
+        "VLAN only\nصرف وی لین",
+        "Single-room LAN\nایک کمرے کا لین",
+        "WAN\nوین"
+      ],
+      "correctIndex": 3,
+      "explanation": "A WAN links networks across large distances, including different countries.\nوین دور دراز علاقوں اور مختلف ملکوں کے نیٹ ورکس کو جوڑتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q04",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 4,
+      "question": "Which network generally covers the smallest geographical area?\nعموماً سب سے چھوٹے جغرافیائی رقبے والا نیٹ ورک کون سا ہے؟",
+      "options": [
+        "Internet\nانٹرنیٹ",
+        "MAN\nمین",
+        "WAN\nوین",
+        "LAN\nلین"
+      ],
+      "correctIndex": 3,
+      "explanation": "Among LAN, MAN, WAN and the Internet, a LAN usually covers the smallest local area.\nلین، مین، وین اور انٹرنیٹ میں لین عام طور پر سب سے چھوٹا مقامی علاقہ گھیرتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q05",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 5,
+      "question": "A citywide network links multiple campus LANs. It is most likely:\nشہر بھر میں کئی کیمپس LAN جوڑنے والا نیٹ ورک کیا ہوگا؟",
+      "options": [
+        "A cable type\nکیبل کی قسم",
+        "MAN\nمین",
+        "One VLAN\nایک وی لین",
+        "One PC\nایک کمپیوٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linking several campus networks across one city is a metropolitan-area example.\nایک شہر میں مختلف کیمپس نیٹ ورکس کو جوڑنا مین کی مثال ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q06",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 6,
+      "question": "A WAN is particularly suitable for connecting:\nWAN خاص طور پر کن کو ملانے کے لیے موزوں ہے؟",
+      "options": [
+        "Devices in one room only\nصرف ایک کمرے کے آلات",
+        "One printer to itself\nایک پرنٹر کا خود سے رابطہ",
+        "Offices across distant regions\nدور دراز علاقوں کے دفاتر",
+        "Two keys on a keyboard\nکی بورڈ کی دو چابیاں"
+      ],
+      "correctIndex": 2,
+      "explanation": "A WAN is suitable for connecting offices separated by distant regions.\nدور دراز علاقوں میں موجود دفاتر کو ملانے کے لیے وین مناسب ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q07",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 7,
+      "question": "A home Wi-Fi network connecting local devices is commonly a:\nگھر کے مقامی آلات کو ملانے والا وائی فائی نیٹ ورک عموماً کیا ہے؟",
+      "options": [
+        "LAN\nلین",
+        "MAN\nمین",
+        "WAN only\nصرف وین",
+        "VPN only\nصرف وی پی این"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wi-Fi describes the connection technology; a home network can still be a LAN.\nوائی فائی رابطے کی ٹیکنالوجی ہے، جبکہ گھر کا مقامی نیٹ ورک لین ہوسکتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q08",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 8,
+      "question": "Which ordering is generally correct from smaller to larger coverage?\nچھوٹے سے بڑے رقبے تک درست ترتیب کون سی ہے؟",
+      "options": [
+        "MAN → LAN → WAN\nمین، پھر لین، پھر وین",
+        "WAN → MAN → LAN\nوین، پھر مین، پھر لین",
+        "LAN → MAN → WAN\nلین، پھر مین، پھر وین",
+        "WAN → LAN → MAN\nوین، پھر لین، پھر مین"
+      ],
+      "correctIndex": 2,
+      "explanation": "The usual coverage order is local area, metropolitan area and then wide area.\nعام ترتیب پہلے مقامی علاقہ، پھر شہری علاقہ اور پھر وسیع علاقہ ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q09",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 9,
+      "question": "What most strongly distinguishes LAN, MAN and WAN?\nLAN، MAN اور WAN میں بنیادی فرق کس چیز کا ہے؟",
+      "options": [
+        "Monitor resolution\nمانیٹر کی ریزولوشن",
+        "File extension\nفائل کی ایکسٹینشن",
+        "Geographical coverage\nجغرافیائی پھیلاؤ",
+        "Keyboard layout\nکی بورڈ کی ترتیب"
+      ],
+      "correctIndex": 2,
+      "explanation": "LAN, MAN and WAN primarily differ by the geographical area they cover.\nلین، مین اور وین کا بنیادی فرق ان کا جغرافیائی پھیلاؤ ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t05-q10",
+      "topic": "LAN, MAN and WAN",
+      "sourceNumber": 10,
+      "question": "A college has several buildings on one campus connected by network. This is typically:\nایک کالج کی کئی عمارتیں ایک کیمپس میں جڑی ہیں۔ یہ عموماً کیا ہے؟",
+      "options": [
+        "LAN\nلین",
+        "Intercontinental WAN\nبین البراعظمی وین",
+        "VPN by definition\nتعریف کے مطابق وی پی این",
+        "No network\nکوئی نیٹ ورک نہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Several buildings on one college campus can form a campus LAN.\nایک کالج کے ایک ہی کیمپس کی مختلف عمارتیں مقامی نیٹ ورک بناسکتی ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q01",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 1,
+      "question": "One switch is divided into separate HR and Finance groups. This is an example of:\nایک سوئچ کو HR اور فنانس کے الگ گروہوں میں تقسیم کیا گیا۔ یہ کیا ہے؟",
+      "options": [
+        "VLAN\nوی لین",
+        "FTP\nایف ٹی پی",
+        "MAN\nمین",
+        "WAN\nوین"
+      ],
+      "correctIndex": 0,
+      "explanation": "A VLAN creates logical groups on shared switching infrastructure.\nوی لین مشترکہ سوئچ پر الگ منطقی گروپ بناتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q02",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 2,
+      "question": "What is the primary basis of VLAN separation?\nVLAN کی علیحدگی کی بنیادی بنیاد کیا ہے؟",
+      "options": [
+        "Different file formats\nمختلف فائل فارمیٹس",
+        "Logical grouping\nمنطقی گروہ بندی",
+        "Separate keyboards\nالگ کی بورڈ",
+        "Different countries\nمختلف ممالک"
+      ],
+      "correctIndex": 1,
+      "explanation": "VLAN membership is based on logical grouping rather than a country's location or file format.\nوی لین کی بنیاد منطقی گروہ بندی ہے، ملک یا فائل فارمیٹ نہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q03",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 3,
+      "question": "Two computers use the same switch but different VLANs. By default, they:\nایک ہی سوئچ کے دو کمپیوٹر مختلف VLAN میں ہیں۔ عام طور پر وہ کیا کر سکتے ہیں؟",
+      "options": [
+        "Cannot communicate directly\nبراہ راست رابطہ نہیں کر سکتے",
+        "Communicate directly without routing\nبغیر راؤٹنگ کے براہ راست رابطہ",
+        "Become one computer\nایک ہی کمپیوٹر بن جاتے ہیں",
+        "Must share all broadcasts\nتمام براڈکاسٹ لازماً مشترک ہوں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Different VLANs are separate Layer 2 groups; communication between them needs routing.\nمختلف وی لین الگ گروپ ہوتے ہیں اور ان کے درمیان رابطے کے لیے روٹنگ چاہیے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q04",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 4,
+      "question": "Why might a school put staff and students into different VLANs?\nاسکول عملے اور طلبہ کو الگ VLAN میں کیوں رکھتا ہے؟",
+      "options": [
+        "Increase screen size\nاسکرین کا سائز بڑھانا",
+        "Stop all Internet use\nانٹرنیٹ کا تمام استعمال روکنا",
+        "Remove all switches\nتمام سوئچ ہٹانا",
+        "Improve isolation and security\nعلیحدگی اور سکیورٹی بہتر کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Separating staff and student traffic improves isolation and supports access control.\nعملے اور طلبہ کی ٹریفک الگ رکھنے سے علیحدگی اور رسائی پر کنٹرول بہتر ہوتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q05",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 5,
+      "question": "A VLAN limits broadcast traffic to its own group. This can:\nVLAN براڈکاسٹ ٹریفک اپنے گروہ تک محدود کرتا ہے۔ اس کا فائدہ کیا ہے؟",
+      "options": [
+        "Increase unnecessary broadcasts everywhere\nہر جگہ غیر ضروری براڈکاسٹ بڑھانا",
+        "Delete protocols\nپروٹوکول حذف کرنا",
+        "Disable addressing\nپتے استعمال کرنا بند کرنا",
+        "Reduce congestion\nنیٹ ورک کا رش کم کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Restricting broadcasts to a VLAN reduces unnecessary broadcast traffic outside that group.\nبراڈکاسٹ اپنے وی لین تک محدود رکھنے سے دوسرے گروپوں میں غیر ضروری ٹریفک کم ہوتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q06",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 6,
+      "question": "Moving a user to another VLAN through switch configuration demonstrates:\nسوئچ کی سیٹنگ سے صارف کو دوسری VLAN میں منتقل کرنا کیا ظاہر کرتا ہے؟",
+      "options": [
+        "Global WAN expansion\nدنیا بھر میں وین پھیلانا",
+        "Cable replacement only\nصرف کیبل بدلنا",
+        "Flexibility\nلچک",
+        "Message decoding\nپیغام ڈی کوڈ کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Changing VLAN membership in configuration shows that logical groups can be reorganised flexibly.\nترتیبات میں وی لین بدلنا ظاہر کرتا ہے کہ منطقی گروپ آسانی سے دوبارہ ترتیب دیے جاسکتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q07",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 7,
+      "question": "A single physical switch supports three departments. Main saving?\nایک سوئچ تین شعبوں کو سہولت دیتا ہے۔ بنیادی بچت کیا ہے؟",
+      "options": [
+        "No need for any network rules\nنیٹ ورک کے کسی اصول کی ضرورت نہیں",
+        "Unlimited Internet speed\nلامحدود انٹرنیٹ رفتار",
+        "No electrical power\nبجلی کی ضرورت نہیں",
+        "Less separate hardware\nکم الگ ہارڈویئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Several groups can share a physical switch instead of each requiring separate hardware.\nکئی گروپ الگ الگ ہارڈویئر کے بجائے ایک جسمانی سوئچ استعمال کرسکتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q08",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 8,
+      "question": "Which statement is accurate?\nVLAN کے بارے میں درست بیان کون سا ہے؟",
+      "options": [
+        "A VLAN logically divides a physical network\nوی لین جسمانی نیٹ ورک کو منطقی طور پر تقسیم کرتا ہے",
+        "A VLAN is a web browser\nوی لین ایک ویب براؤزر ہے",
+        "A VLAN is always a separate physical cable network\nوی لین ہمیشہ الگ جسمانی کیبل نیٹ ورک ہوتا ہے",
+        "A VLAN only exists between countries\nوی لین صرف ملکوں کے درمیان ہوتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "A VLAN logically divides a physical network into separate groups.\nوی لین ایک جسمانی نیٹ ورک کو منطقی طور پر الگ گروپوں میں تقسیم کرتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q09",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 9,
+      "question": "Why can VLANs improve security?\nVLAN سکیورٹی کیسے بہتر بناتا ہے؟",
+      "options": [
+        "They prevent all cyberattacks\nیہ تمام سائبر حملے روکتے ہیں",
+        "They isolate traffic between groups\nیہ گروہوں کی ٹریفک الگ رکھتے ہیں",
+        "They encrypt every file automatically\nیہ ہر فائل خودکار طور پر انکرپٹ کرتے ہیں",
+        "They remove all passwords\nیہ تمام پاس ورڈ ختم کرتے ہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "VLAN isolation separates group traffic; it does not automatically encrypt every file or stop every attack.\nوی لین گروپوں کی ٹریفک الگ کرتا ہے، ہر فائل خود بخود انکرپٹ نہیں کرتا اور ہر حملہ نہیں روکتا۔"
+    },
+    {
+      "id": "dit-cn-ch1-t06-q10",
+      "topic": "VLAN (Virtual Local Area Network)",
+      "sourceNumber": 10,
+      "question": "What is usually needed for traffic between separate VLANs?\nالگ VLAN کے درمیان رابطے کے لیے عموماً کیا درکار ہے؟",
+      "options": [
+        "A printer driver\nپرنٹر ڈرائیور",
+        "A larger monitor\nبڑا مانیٹر",
+        "Inter-VLAN routing\nوی لین کے درمیان راؤٹنگ",
+        "A text editor\nٹیکسٹ ایڈیٹر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inter-VLAN routing provides communication between separate VLANs.\nانٹر وی لین روٹنگ الگ وی لین کے درمیان رابطہ فراہم کرتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q01",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 1,
+      "question": "An employee uses a secure tunnel across the public Internet. This is:\nملازم عوامی انٹرنیٹ پر محفوظ سرنگ استعمال کرتا ہے۔ یہ کیا ہے؟",
+      "options": [
+        "Printer sharing\nپرنٹر کی شراکت",
+        "LAN only\nصرف لین",
+        "FTP only\nصرف ایف ٹی پی",
+        "VPN\nوی پی این"
+      ],
+      "correctIndex": 3,
+      "explanation": "A protected virtual tunnel over the public Internet is a VPN use case.\nعوامی انٹرنیٹ پر محفوظ ورچوئل سرنگ استعمال کرنا وی پی این کی مثال ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q02",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 2,
+      "question": "What is a key purpose of a VPN?\nVPN کا اہم مقصد کیا ہے؟",
+      "options": [
+        "Eliminate the Internet\nانٹرنیٹ ختم کرنا",
+        "Replace all applications\nتمام ایپلیکیشنز بدلنا",
+        "Protect data in transmit using encryption\nانکرپشن سے منتقل ہوتے ڈیٹا کی حفاظت",
+        "Increase monitor brightness\nمانیٹر کی روشنی بڑھانا"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this example, encryption protects information while it travels through the connection.\nاس مثال میں انکرپشن رابطے کے دوران منتقل ہونے والی معلومات کی حفاظت کرتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q03",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 3,
+      "question": "A VPN creates privacy over which underlying network in the textbook example?\nکتاب کی مثال میں VPN کس نیٹ ورک پر رازداری پیدا کرتا ہے؟",
+      "options": [
+        "Only a keyboard cable\nصرف کی بورڈ کیبل",
+        "A printer cartridge\nپرنٹر کارٹریج",
+        "A disconnected PC\nمنقطع کمپیوٹر",
+        "Public Internet\nعوامی انٹرنیٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "The chapter's VPN example builds a private connection over the public Internet.\nاس باب کی مثال میں وی پی این عوامی انٹرنیٹ پر نجی رابطہ بناتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q04",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 4,
+      "question": "Why is encryption important in a VPN?\nVPN میں انکرپشن کیوں اہم ہے؟",
+      "options": [
+        "It makes intercepted data harder to read\nروکے گئے ڈیٹا کو پڑھنا مشکل بناتا ہے",
+        "It turns wireless into fiber\nوائرلیس کو فائبر میں بدلتا ہے",
+        "It guarantees anonymity\nمکمل گمنامی کی ضمانت دیتا ہے",
+        "It removes network delays entirely\nنیٹ ورک کی تاخیر مکمل ختم کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Encryption makes captured data difficult to read without the appropriate decryption key.\nانکرپشن پکڑے گئے ڈیٹا کو مناسب کلید کے بغیر پڑھنا مشکل بناتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q05",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 5,
+      "question": "Which statement best distinguishes VLAN and VPN?\nVLAN اور VPN میں بہترین فرق کون سا ہے؟",
+      "options": [
+        "VLAN is only a web page\nوی لین صرف ویب صفحہ ہے",
+        "VLAN groups devices logically; VPN creates a secure tunnel\nوی لین آلات کو منطقی طور پر گروہ بناتا ہے؛ وی پی این محفوظ سرنگ بناتا ہے",
+        "VPN is a citywide cable\nوی پی این شہر بھر کی کیبل ہے",
+        "Both are types of printer\nدونوں پرنٹر کی اقسام ہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "A VLAN groups devices logically, while the VPN in this example provides a protected tunnel.\nوی لین آلات کو منطقی گروپوں میں بانٹتا ہے، جبکہ اس مثال کا وی پی این محفوظ سرنگ فراہم کرتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q06",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 6,
+      "question": "A remote worker accesses office resources through a protected connection. Best option?\nدور سے کام کرنے والا دفتر تک محفوظ رسائی چاہتا ہے۔ بہترین حل کیا ہے؟",
+      "options": [
+        "Screen saver\nاسکرین سیور",
+        "VPN\nوی پی این",
+        "Local printer cable\nمقامی پرنٹر کیبل",
+        "Offline folder\nآف لائن فولڈر"
+      ],
+      "correctIndex": 1,
+      "explanation": "A remote-access VPN can provide a protected connection to office resources.\nریموٹ وی پی این دفتر کے وسائل تک محفوظ رابطہ فراہم کرسکتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q07",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 7,
+      "question": "Does a VPN necessarily eliminate all online security risks?\nکیا VPN تمام آن لائن خطرات ختم کر دیتا ہے؟",
+      "options": [
+        "No, it mainly protects the connection\nنہیں، یہ بنیادی طور پر کنکشن کی حفاظت کرتا ہے",
+        "Yes, it removes malware\nہاں، یہ میل ویئر ختم کرتا ہے",
+        "Yes, always\nجی ہاں، ہمیشہ",
+        "Yes, it replaces passwords\nہاں، یہ پاس ورڈ کی جگہ لیتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "A VPN protects the connection, but it does not replace passwords or remove every security risk.\nوی پی این رابطے کی حفاظت کرتا ہے، مگر پاس ورڈ کا متبادل نہیں اور ہر خطرہ ختم نہیں کرتا۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q08",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 8,
+      "question": "What is the best description of a VPN tunnel?\nVPN ٹنل کی بہترین وضاحت کیا ہے؟",
+      "options": [
+        "A physical underground cable\nزمین کے نیچے جسمانی کیبل",
+        "A monitor connection\nمانیٹر کا کنکشن",
+        "An encrypted communication path\nانکرپٹڈ مواصلاتی راستہ",
+        "A file extension\nفائل ایکسٹینشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "The tunnel here is an encrypted communication path, not a physical underground passage.\nیہاں سرنگ سے مراد انکرپٹڈ رابطے کا راستہ ہے، زمین کے نیچے جسمانی راستہ نہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q09",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 9,
+      "question": "Which situation most clearly benefits from a VPN?\nکس صورت میں VPN سب سے زیادہ مفید ہے؟",
+      "options": [
+        "Secure communication over public Internet\nعوامی انٹرنیٹ پر محفوظ مواصلات",
+        "Formatting a spreadsheet\nاسپریڈشیٹ فارمیٹ کرنا",
+        "Playing audio offline\nآف لائن آواز چلانا",
+        "Changing page margins\nصفحے کے مارجن بدلنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "A VPN is useful when a protected connection is needed across the public Internet.\nعوامی انٹرنیٹ پر محفوظ رابطہ درکار ہو تو وی پی این مفید ہوتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t07-q10",
+      "topic": "VPN (Virtual Private Network)",
+      "sourceNumber": 10,
+      "question": "Why is a VPN called virtual?\nVPN کو ورچوئل کیوں کہا جاتا ہے؟",
+      "options": [
+        "It cannot transmit real data\nیہ حقیقی ڈیٹا نہیں بھیج سکتا",
+        "It requires no devices\nاسے کسی آلے کی ضرورت نہیں",
+        "Its private connection is created logically over another network\nاس کا نجی کنکشن دوسرے نیٹ ورک پر منطقی طور پر بنتا ہے",
+        "It is only a drawing\nیہ صرف تصویر ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "The private link is virtual because it is created logically over an existing network.\nنجی رابطہ ورچوئل کہلاتا ہے کیونکہ وہ موجودہ نیٹ ورک پر منطقی طور پر بنتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q01",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 1,
+      "question": "A user accesses a web page hosted on a distant server. Which network is involved?\nصارف دور کے سرور پر ویب صفحہ کھولتا ہے۔ کون سا نیٹ ورک استعمال ہوتا ہے؟",
+      "options": [
+        "Internet\nانٹرنیٹ",
+        "One isolated PC\nایک الگ تھلگ کمپیوٹر",
+        "Local keyboard\nمقامی کی بورڈ",
+        "Printer cable only\nصرف پرنٹر کیبل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Accessing a public web page on a distant server uses the Internet.\nدور کے سرور پر موجود عوامی ویب صفحے تک رسائی انٹرنیٹ سے ہوتی ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q02",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 2,
+      "question": "An email travels from sender to recipient. What is the email content?\nای میل بھیجنے والے سے وصول کنندہ تک جاتی ہے۔ ای میل کا متن کیا ہے؟",
+      "options": [
+        "Message\nپیغام",
+        "Switch\nسوئچ",
+        "Transmission medium\nترسیلی ذریعہ",
+        "Router\nراؤٹر"
+      ],
+      "correctIndex": 0,
+      "explanation": "The email's content is the information sent, so it is the message.\nای میل کا متن بھیجی گئی معلومات ہے، اس لیے وہ پیغام ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q03",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 3,
+      "question": "A student downloads a document. The receiving device is the:\nطالب علم دستاویز ڈاؤن لوڈ کرتا ہے۔ وصول کرنے والا آلہ کیا ہے؟",
+      "options": [
+        "Destination\nمنزل / وصول کنندہ",
+        "Signal path\nسگنل کا راستہ",
+        "Protocol\nپروٹوکول",
+        "Router rule\nراؤٹر کا اصول"
+      ],
+      "correctIndex": 0,
+      "explanation": "The downloading device receives the document, making it the destination.\nدستاویز ڈاؤن لوڈ کرنے والا آلہ وصول کنندہ یعنی منزل ہوتا ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q04",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 4,
+      "question": "Which network service best supports sending a message quickly?\nفوری پیغام بھیجنے کے لیے کون سی نیٹ ورک سروس موزوں ہے؟",
+      "options": [
+        "Email\nای میل",
+        "Power management\nبجلی کا انتظام",
+        "Monitor calibration\nمانیٹر کی درست پیمائش",
+        "Disk formatting\nڈسک فارمیٹنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Email is a network application for sending electronic messages.\nای میل برقی پیغامات بھیجنے کی نیٹ ورک ایپلیکیشن ہے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q05",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 5,
+      "question": "When several computers access the same Internet connection, they are:\nکئی کمپیوٹر ایک انٹرنیٹ کنکشن استعمال کرتے ہیں۔ وہ کیا کر رہے ہیں؟",
+      "options": [
+        "Creating separate screens\nالگ اسکرینیں بنانا",
+        "Deleting messages\nپیغامات حذف کرنا",
+        "Sharing a network resource\nنیٹ ورک وسائل کی شراکت",
+        "Encoding a keyboard\nکی بورڈ انکوڈ کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "A shared Internet connection is one resource made available to several devices.\nمشترکہ انٹرنیٹ کنکشن ایک وسیلہ ہے جسے کئی آلات استعمال کرتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q06",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 6,
+      "question": "What is needed for two distant devices to understand transferred data?\nدور کے دو آلات کو ڈیٹا سمجھنے کے لیے کیا ضروری ہے؟",
+      "options": [
+        "Identical wallpapers\nایک جیسے وال پیپر",
+        "Compatible communication protocols\nمطابقت رکھنے والے مواصلاتی پروٹوکول",
+        "Equal screen brightness\nاسکرین کی یکساں روشنی",
+        "Same brand of monitor\nایک ہی برانڈ کا مانیٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Devices need compatible communication protocols to interpret exchanged information.\nآلات کو معلومات سمجھنے کے لیے مطابقت رکھنے والے رابطے کے پروٹوکول چاہیے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q07",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 7,
+      "question": "A web browser retrieves a page. Which protocol is most relevant?\nبراؤزر ویب صفحہ حاصل کرتا ہے۔ کون سا پروٹوکول متعلق ہے؟",
+      "options": [
+        "FTP only\nصرف ایف ٹی پی",
+        "JPEG\nجے پی ای جی",
+        "MP3\nایم پی تھری",
+        "HTTP/HTTPS\nایچ ٹی ٹی پی / ایچ ٹی ٹی پی ایس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Browsers use HTTP or HTTPS to request and receive web pages.\nبراؤزر ویب صفحات مانگنے اور وصول کرنے کے لیے ایچ ٹی ٹی پی یا ایچ ٹی ٹی پی ایس استعمال کرتے ہیں۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q08",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 8,
+      "question": "A file is sent through several routers. What determines its path?\nفائل کئی راؤٹروں سے گزرتی ہے۔ راستہ کس عمل سے طے ہوتا ہے؟",
+      "options": [
+        "Font selection\nفونٹ کا انتخاب",
+        "Screen resolution\nاسکرین کی ریزولوشن",
+        "Audio volume\nآواز کی سطح",
+        "Routing\nراستہ متعین کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Routing determines how packets move through routers toward their destination.\nروٹنگ متعین کرتی ہے کہ پیکٹ راؤٹرز سے ہوکر منزل تک کیسے پہنچیں گے۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q09",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 9,
+      "question": "A network application fails when the receiver is disconnected. Which required role is unavailable?\nوصول کنندہ منقطع ہونے پر ایپ کام نہیں کرتی۔ کون سا ضروری کردار غائب ہے؟",
+      "options": [
+        "Destination\nمنزل / وصول کنندہ",
+        "Cable label\nکیبل کا لیبل",
+        "Source text\nماخذ کا متن",
+        "Icon\nآئیکن"
+      ],
+      "correctIndex": 0,
+      "explanation": "A disconnected receiver leaves the destination role unavailable.\nوصول کرنے والا آلہ منقطع ہو تو منزل والا کردار دستیاب نہیں رہتا۔"
+    },
+    {
+      "id": "dit-cn-ch1-t08-q10",
+      "topic": "Internet and Network Applications",
+      "sourceNumber": 10,
+      "question": "What is the broadest network listed in the chapter?\nباب میں درج سب سے وسیع نیٹ ورک کون سا ہے؟",
+      "options": [
+        "Internet\nانٹرنیٹ",
+        "One switch\nایک سوئچ",
+        "A single VLAN\nایک وی لین",
+        "A school LAN\nاسکول کا لین"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Internet spans interconnected networks worldwide, making it the broadest option listed.\nانٹرنیٹ دنیا بھر کے نیٹ ورکس کو جوڑتا ہے، اس لیے دیے گئے اختیارات میں اس کا پھیلاؤ سب سے زیادہ ہے۔"
+    }
+  ]
+}

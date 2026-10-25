@@ -32,5 +32,23 @@ try{
  await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).focus();await page.keyboard.press('Shift+Tab');await page.waitForFunction(()=>{const nav=document.querySelector('.study-resource-strip');const target=document.activeElement;const a=target.getBoundingClientRect(),b=nav.getBoundingClientRect();return nav.dataset.manual==='true'&&a.left>=b.left&&a.right<=b.right+1;});assert.equal(await strip.getAttribute('data-manual'),'true');
  const focused=await page.locator(':focus').boundingBox();const bounds=await strip.boundingBox();assert.ok(focused.x>=bounds.x&&focused.x+focused.width<=bounds.x+bounds.width+1,'keyboard focus remains visible');
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'/',{waitUntil:'domcontentloaded'});assert.equal(await page.locator('.study-strip-track').evaluate(e=>getComputedStyle(e).animationName),'none');
+ const {STATIC_OVERRIDES}=await loadTypescript('src/data/staticOverrides.ts');const ditBank=(STATIC_OVERRIDES.mcqs||[]).filter(q=>q.id.startsWith('dit-cn-ch1-'));
+ if(ditBank.length){
+  assert.equal(ditBank.length,80);await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button',{name:/Chapter 1: Basic Terminologies/}).click();assert.equal(await page.locator('.mcq-page button[aria-pressed]').count(),4);
+  assert.equal(await page.locator('.mcq-page h2 [lang="ur"]').evaluate(e=>getComputedStyle(e).direction),'rtl');
+  for(const [width,dark]of[[1366,false],[360,true]]){
+   await page.setViewportSize({width,height:900});const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});if(await toggle.count())await toggle.click();await page.waitForTimeout(200);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);await page.screenshot({path:`artifacts/resource-pages/dit-quiz-${width}.png`});
+  }
+  await page.setViewportSize({width:1366,height:900});
+  for(let index=0;index<80;index++){
+   assert.ok(!(await page.locator('.mcq-page').innerText()).includes('Correct answer:'));
+   const question=await page.locator('.mcq-page h2 .bilingual-line[lang="en"]').innerText();const item=ditBank.find(q=>q.question.split('\n')[0]===question);assert.ok(item,question);
+   const answer=item.options[item.correctIndex].split('\n')[0];await page.locator('.mcq-page button[aria-pressed]').filter({has:page.getByText(answer,{exact:true})}).click();
+   await page.getByRole('button',{name:index===79?'View Result':'Next',exact:true}).click();
+  }
+  assert.match(await page.locator('.mcq-page').innerText(),/Your score:\s*80\s*\/\s*80/);console.log('[dit-quiz] All 80 bilingual source questions scored correctly after shuffling; answers stayed hidden until the result. Desktop/mobile RTL layout passed.');
+ }
  assert.deepEqual(errors,[]);assert.equal(publicDatabaseReads,0);console.log(`[resource-pages] ${routes.length} routes passed in desktop light and mobile charcoal; Python topic count and published video placement matched the catalog. Study strip motion, pause, keyboard access and reduced motion passed. No public database reads.`);
 }finally{await browser.close();}

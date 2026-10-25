@@ -41,3 +41,6 @@
 @media(max-width:767px) { .legal-contents ol { grid-template-columns:1fr; } }
 @media(max-width:767px) { .course-route-grid,.language-directory { grid-template-columns:1fr; }.course-route,.language-directory-card { padding:1.25rem; }.subject-directory-item { grid-template-columns:40px minmax(0,1fr); padding:1rem; gap:.75rem; }.directory-icon { width:40px; height:40px; }.subject-directory-item>.directory-open { grid-column:2; justify-self:end; }.subject-resource-item { grid-template-columns:28px minmax(0,1fr); padding:1.25rem; gap:.75rem; }.subject-resource-item>svg:last-child { display:none; }.directory-intro { margin-bottom:1.75rem; } }
 @media(prefers-reduced-motion:reduce) { .language-directory-card { transition:none; transform:none; } }
+.bilingual-text { display:block; overflow-wrap:anywhere; }
+.bilingual-line { display:block; white-space:pre-wrap; unicode-bidi:isolate; text-align:start; }
+.bilingual-line[lang="ur"] { margin-top:.35rem; font-family:"Noto Nastaliq Urdu","Noto Naskh Arabic","Segoe UI",Tahoma,sans-serif; font-size:1.08em; line-height:1.95; }
