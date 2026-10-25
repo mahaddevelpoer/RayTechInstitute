@@ -11,7 +11,7 @@ import {
   INITIAL_MCQS,
 } from "@/data/staticCatalog";
 import { MCQClientView } from "@/components/educational/MCQClientView";
-import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
+import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -40,10 +40,11 @@ export async function generateMetadata({
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
+  const description = buildDocumentDescription('Choose a chapter, practise one question at a time and review your answers and score after submitting the test.', `${className} ${currentSubject.title} MCQs`);
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
-    description: `Practice chapter-wise MCQs for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
+    description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
     },
@@ -51,7 +52,7 @@ export async function generateMetadata({
       title: buildSeoTitle(
         `${className} ${currentSubject.title} MCQs Practice`,
       ),
-      description: `Practice chapter-wise MCQs for ${currentClass.title} ${currentSubject.title} with instant answer checking and score calculation.`,
+      description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
       type: "website",
     },
