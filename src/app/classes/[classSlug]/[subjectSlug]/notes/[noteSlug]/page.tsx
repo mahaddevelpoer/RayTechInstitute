@@ -9,8 +9,10 @@ import {
   INITIAL_CLASSES,
   INITIAL_SUBJECTS,
   INITIAL_NOTES,
+  INITIAL_MCQS,
 } from "@/data/staticCatalog";
-import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription, serializeJsonLd } from "@/utils/seo";
+import { noteStructuredData, studyResourceKeywords } from '@/utils/study-resource-seo';
 
 const slug = (value: string) =>
   value
@@ -44,14 +46,19 @@ export async function generateMetadata({
   const currentSubject = INITIAL_SUBJECTS.find(
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
   );
+  const currentClass = INITIAL_CLASSES.find(item => item.slug === classSlug);
   if (!note || !currentSubject) return {};
+  const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
   const title = buildSeoTitle(
-    `${currentSubject.title} Chapter ${note.chapterNumber} Notes PDF`,
+    `${className} ${currentSubject.title} Ch ${note.chapterNumber} Notes PDF`,
   );
   const description = buildDocumentDescription(note.description || '', `Chapter ${note.chapterNumber} ${currentSubject.title} notes PDF`);
   return {
     title,
     description,
+    keywords: studyResourceKeywords(className, currentSubject.title, [note.chapterTitle]),
+    robots: { index: true, follow: true },
+    twitter: { card: 'summary', title, description },
     alternates: {
       canonical: siteUrl(
         `/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`,
@@ -83,9 +90,12 @@ export default async function NoteDetailPage({
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
   );
   if (!note || !currentClass || !currentSubject) notFound();
+  const canonical = siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`);
+  const topics = Array.from(new Set(INITIAL_MCQS.filter(item => item.classSlug === classSlug && item.subjectSlug === subjectSlug && item.chapterNumber === note.chapterNumber).map(item => item.topic?.trim()).filter((topic): topic is string => !!topic)));
   return (
     <div className="flex min-h-screen flex-col bg-white text-slate-800">
       <Header />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(noteStructuredData(note, currentClass.title, currentSubject.title, canonical, topics)) }} />
       <PdfDetailClientView
         backHref={`/classes/${classSlug}/${subjectSlug}/notes`}
         backLabel="Back to notes"

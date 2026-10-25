@@ -12,6 +12,7 @@ import {
 } from "@/data/staticCatalog";
 import { MCQClientView } from "@/components/educational/MCQClientView";
 import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { studyResourceKeywords } from '@/utils/study-resource-seo';
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -40,18 +41,21 @@ export async function generateMetadata({
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
-  const description = buildDocumentDescription('Choose a chapter, practise one question at a time and review your answers and score after submitting the test.', `${className} ${currentSubject.title} MCQs`);
+  const topics = Array.from(new Set(INITIAL_MCQS.filter(item => item.classSlug === classSlug && item.subjectSlug === subjectSlug).map(item => item.topic?.trim()).filter((topic): topic is string => !!topic)));
+  const description = buildDocumentDescription('Practise by chapter and topic, answer one question at a time, then review your score and explanations.', `${className} ${currentSubject.title} MCQs`);
+  const title = buildSeoTitle(`${className} ${currentSubject.title} ${topics.length ? 'Topic' : 'Chapter'} MCQs`);
 
   return {
-    title: buildSeoTitle(`${className} ${currentSubject.title} MCQs Practice`),
+    title,
     description,
+    keywords: studyResourceKeywords(className, currentSubject.title, topics),
+    robots: { index: true, follow: true },
+    twitter: { card: 'summary', title, description },
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
     },
     openGraph: {
-      title: buildSeoTitle(
-        `${className} ${currentSubject.title} MCQs Practice`,
-      ),
+      title,
       description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
       type: "website",
@@ -78,11 +82,15 @@ export default async function SubjectMCQsServerPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "Quiz",
     name: `${currentClass.title} ${currentSubject.title} MCQs Practice Examination`,
-    description: `Interactive multiple choice questions for ${currentClass.title} ${currentSubject.title} with real-time verification.`,
+    description: `Practise ${currentClass.title} ${currentSubject.title} MCQs by chapter and topic. Review answers and explanations after completing the test.`,
+    url: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
+    inLanguage: subjectMCQs.some(item => /[\u0600-\u06ff]/.test(item.question)) ? ['en', 'ur'] : ['en'],
+    isAccessibleForFree: true,
     educationalLevel: currentClass.title,
     hasPart: subjectMCQs.map((m) => ({
       "@type": "Question",
       name: m.question,
+      ...(m.topic ? { about: { '@type': 'Thing', name: m.topic } } : {}),
       suggestedAnswer: m.options.map((opt, i) => ({
         "@type": "Answer",
         text: opt,

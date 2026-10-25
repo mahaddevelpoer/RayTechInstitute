@@ -35,7 +35,10 @@ try{
  const {STATIC_OVERRIDES}=await loadTypescript('src/data/staticOverrides.ts');const ditBank=(STATIC_OVERRIDES.mcqs||[]).filter(q=>q.id.startsWith('dit-cn-ch1-'));
  if(ditBank.length){
   assert.equal(ditBank.length,80);await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'domcontentloaded'});
-  await page.getByRole('button',{name:/Chapter 1: Basic Terminologies/}).click();assert.equal(await page.locator('.mcq-page button[aria-pressed]').count(),4);
+  await page.getByRole('button',{name:/Chapter 1: Basic Terminologies/}).click();
+  assert.equal(await page.locator('.mcq-topic-grid>button').count(),8,'Chapter 1 must offer all eight source topics');
+  await page.locator('.mcq-topic-grid>button').first().click();assert.match(await page.locator('.mcq-page').innerText(),/Question 1 \/ 10/);
+  await page.getByRole('button',{name:'Change topic',exact:true}).click();await page.getByRole('button',{name:'Mixed chapter practice (80 MCQs)',exact:true}).click();assert.equal(await page.locator('.mcq-page button[aria-pressed]').count(),4);
   assert.equal(await page.locator('.mcq-page h2 [lang="ur"]').evaluate(e=>getComputedStyle(e).direction),'rtl');
   assert.equal(await page.evaluate(async()=>{await document.fonts.load('18px "RayTech Urdu"');return document.fonts.check('18px "RayTech Urdu"');}),true,'bundled Urdu font loads');
   for(const [width,dark]of[[1366,false],[360,true]]){
@@ -50,6 +53,14 @@ try{
    await page.getByRole('button',{name:index===79?'View Result':'Next',exact:true}).click();
   }
   assert.match(await page.locator('.mcq-page').innerText(),/Your score:\s*80\s*\/\s*80/);console.log('[dit-quiz] All 80 bilingual source questions scored correctly after shuffling; answers stayed hidden until the result. Desktop/mobile RTL layout passed.');
+  const note=(STATIC_OVERRIDES.notes||[]).find(n=>n.id==='dit-cn-chapter-1-basic-terminologies-mcq-notes');assert.ok(note,'Chapter 1 PDF note is published');
+  const notesPath='/classes/dit-intermediate/dit-computer-science/notes/';const detailPath=notesPath+note.id+'/';
+  await page.goto(base+notesPath,{waitUntil:'domcontentloaded'});await page.getByRole('link',{name:note.title,exact:true}).click();assert.equal(new URL(page.url()).pathname,detailPath);
+  assert.equal(await page.locator('h1').innerText(),note.title);assert.doesNotMatch(await page.locator('body').innerText(),/Unpublished preview|Preview only/i);
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),base+detailPath);assert.match(await page.locator('meta[name="keywords"]').getAttribute('content'),/Basic Terminologies/);
+  const schemas=await page.locator('script[type="application/ld+json"]').allTextContents();assert.ok(schemas.some(text=>JSON.parse(text)['@graph']?.some(item=>item['@type']==='LearningResource'&&item.associatedMedia?.contentUrl===note.pdfUrl)));
+  const pdf=await page.request.get(note.pdfUrl);assert.equal(pdf.status(),200);assert.match(pdf.headers()['content-type'],/application\/pdf/);assert.ok((await pdf.body()).subarray(0,5).equals(Buffer.from('%PDF-')));
+  assert.ok((await(await page.request.get(base+'/sitemap.xml')).text()).includes(base+detailPath));console.log('[dit-note] Chapter 1 note, PDF bytes, canonical URL, keywords, LearningResource schema and sitemap passed. No preview label.');
  }
  assert.deepEqual(errors,[]);assert.equal(publicDatabaseReads,0);console.log(`[resource-pages] ${routes.length} routes passed in desktop light and mobile charcoal; Python topic count and published video placement matched the catalog. Study strip motion, pause, keyboard access and reduced motion passed. No public database reads.`);
 }finally{await browser.close();}

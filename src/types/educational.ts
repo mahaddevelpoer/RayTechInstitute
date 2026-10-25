@@ -49,6 +49,7 @@ export interface MCQItem {
   classSlug: string;
   subjectSlug: string;
   chapterNumber: number;
+  topic?: string;
   question: string;
   codeSnippet?: string;
   options: [string, string, string, string];

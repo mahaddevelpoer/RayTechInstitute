@@ -31,6 +31,11 @@ type QuizQuestion = MCQItem & {
 };
 type Answer = { selectedIndex: number; correct: boolean };
 
+function singleTopicChapter(items: MCQItem[]): number | "all" {
+  const chapters = Array.from(new Set(items.map(item => item.chapterNumber)));
+  return chapters.length === 1 && items.some(item => item.topic?.trim()) ? chapters[0] : "all";
+}
+
 function shuffle<T>(items: T[]): T[] {
   const result = [...items];
   for (let i = result.length - 1; i > 0; i -= 1) {
@@ -67,7 +72,9 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   const [quiz, setQuiz] = useState<QuizQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedChapter, setSelectedChapter] = useState<number | "all">("all");
+  const [selectedChapter, setSelectedChapter] = useState<number | "all">(() => singleTopicChapter(mcqs));
+  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [topicPickerOpen, setTopicPickerOpen] = useState(() => singleTopicChapter(mcqs) !== "all");
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const currentClass = INITIAL_CLASSES.find((item) => item.slug === classSlug);
@@ -76,12 +83,16 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   );
 
   useEffect(() => {
-    setMCQs(EducationalStore.getMCQs(classSlug, subjectSlug));
+    const nextMCQs = EducationalStore.getMCQs(classSlug, subjectSlug);
+    setMCQs(nextMCQs);
     setQuiz([]);
     setStarted(false);
     setFinished(false);
     setAnswers({});
     setCurrentIndex(0);
+    setSelectedChapter(singleTopicChapter(nextMCQs));
+    setSelectedTopic(null);
+    setTopicPickerOpen(singleTopicChapter(nextMCQs) !== "all");
   }, [classSlug, subjectSlug]);
 
   const chapterCatalog = useMemo(() => {
@@ -114,17 +125,36 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
     (answer) => answer.correct,
   ).length;
 
-  const startQuiz = (chapter: number | "all" = selectedChapter) => {
-    const source =
+  const chapterQuestions = (chapter: number | "all") => chapter === "all" ? mcqs : mcqs.filter(item => item.chapterNumber === chapter);
+  const topicGroups = Array.from(new Set(chapterQuestions(selectedChapter).map(item => item.topic?.trim() || ""))).map(topic => ({
+    topic, title: topic || "General chapter questions", count: chapterQuestions(selectedChapter).filter(item => (item.topic?.trim() || "") === topic).length,
+  }));
+  const startQuiz = (chapter: number | "all" = selectedChapter, topic: string | null = null) => {
+    const chapterSource =
       chapter === "all"
         ? mcqs
         : mcqs.filter((item) => item.chapterNumber === chapter);
+    const source = topic === null ? chapterSource : chapterSource.filter(item => (item.topic?.trim() || "") === topic);
+    if (!source.length) return;
     setSelectedChapter(chapter);
+    setSelectedTopic(topic);
+    setTopicPickerOpen(false);
     setQuiz(makeQuiz(source));
     setAnswers({});
     setCurrentIndex(0);
     setStarted(true);
     setFinished(false);
+  };
+  const selectChapter = (chapter: number | "all") => {
+    if (!chapterQuestions(chapter).some(item => item.topic?.trim())) { startQuiz(chapter); return; }
+    setSelectedChapter(chapter);
+    setSelectedTopic(null);
+    setTopicPickerOpen(true);
+    setStarted(false);
+    setFinished(false);
+    setQuiz([]);
+    setAnswers({});
+    setCurrentIndex(0);
   };
   const chooseAnswer = (optionIndex: number) => {
     if (!currentQuestion || finished) return;
@@ -185,7 +215,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 Chapter-wise MCQs Practice
               </h1>
               <p className="text-xs text-slate-600 mt-1">
-                Choose a chapter. Questions and answer choices are shuffled for each attempt.
+                Choose a chapter and an available topic. Questions and answer choices are shuffled for each attempt.
               </p>
             </div>
             {started && !finished && (
@@ -201,16 +231,6 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
         {!started && (
           <section className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              <button
-                onClick={() => startQuiz("all")}
-                disabled={!mcqs.length}
-                className="p-4 rounded-lg border-2 border-navy-200 bg-navy-50 text-left hover:border-navy-500"
-              >
-                <div className="font-bold text-navy-900">All Chapters</div>
-                <div className="text-xs text-slate-600 mt-1">
-                  {mcqs.length} MCQs · Random practice
-                </div>
-              </button>
               {chapterCatalog.map((chapter) => {
                 const count = mcqs.filter(
                   (item) => item.chapterNumber === chapter.chapterNumber,
@@ -218,7 +238,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 return (
                   <button
                     key={chapter.id}
-                    onClick={() => startQuiz(chapter.chapterNumber)}
+                    onClick={() => selectChapter(chapter.chapterNumber)}
                     disabled={!count}
                     className="p-4 rounded-lg border border-slate-200 bg-white text-left hover:border-navy-400 disabled:opacity-50"
                   >
@@ -233,7 +253,32 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                   </button>
                 );
               })}
+              <button
+                type="button"
+                onClick={() => startQuiz("all")}
+                disabled={!mcqs.length}
+                className="p-4 rounded-lg border border-slate-200 bg-white text-left hover:border-navy-400"
+              >
+                <div className="font-bold text-navy-900">Mixed practice: all chapters</div>
+                <div className="text-xs text-slate-600 mt-1">{mcqs.length} MCQs · Optional full question bank</div>
+              </button>
             </div>
+            {topicPickerOpen && (
+              <section className="mcq-topic-picker" aria-labelledby="mcq-topic-heading">
+                <h2 id="mcq-topic-heading">Choose a topic</h2>
+                <p>Chapter {selectedChapter}: {chapterCatalog.find(chapter => chapter.chapterNumber === selectedChapter)?.title}. Practise one topic at a time.</p>
+                <div className="mcq-topic-grid">
+                  {topicGroups.map((group, index) => (
+                    <button key={group.topic} type="button" onClick={() => startQuiz(selectedChapter, group.topic)}>
+                      <span className="mcq-topic-number">{index + 1}</span>
+                      <span><strong>{group.title}</strong><span className="mcq-topic-count">{group.count} MCQs · Topic practice</span></span>
+                      <ChevronRight aria-hidden="true" className="h-5 w-5" />
+                    </button>
+                  ))}
+                </div>
+                <button type="button" className="btn-outline mt-4" onClick={() => startQuiz(selectedChapter)}>Mixed chapter practice ({chapterQuestions(selectedChapter).length} MCQs)</button>
+              </section>
+            )}
             {!mcqs.length && (
               <p className="p-4 rounded bg-amber-50 border border-amber-200 text-xs text-amber-800">
                 No questions have been published for this subject yet. Try another subject or return after publication.
@@ -248,7 +293,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
               {chapterCatalog.map((chapter) => (
                 <button
                   key={chapter.id}
-                  onClick={() => startQuiz(chapter.chapterNumber)}
+                  onClick={() => selectChapter(chapter.chapterNumber)}
                   className={`text-xs px-3 py-1.5 rounded border ${selectedChapter === chapter.chapterNumber ? "bg-navy-600 text-white border-navy-600" : "bg-white text-slate-700 border-slate-200"}`}
                 >
                   Ch {chapter.chapterNumber}
@@ -261,6 +306,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 All
               </button>
             </div>
+            {selectedTopic !== null && <div className="mcq-active-topic"><span>Topic: <strong>{selectedTopic || "General chapter questions"}</strong></span><button type="button" onClick={() => selectChapter(selectedChapter)}>Change topic</button></div>}
             <div className="edu-card p-5 sm:p-7 space-y-5">
               <div className="flex items-start justify-between gap-3">
                 <div>
@@ -336,11 +382,12 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 </strong>
               </p>
               <button
-                onClick={() => startQuiz(selectedChapter)}
+                onClick={() => startQuiz(selectedChapter, selectedTopic)}
                 className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded bg-navy-600 text-white text-xs font-semibold"
               >
                 <RotateCcw className="w-4 h-4" /> Try a new shuffled test
               </button>
+              {selectedTopic !== null && <button type="button" className="btn-outline mt-4 ml-3" onClick={() => selectChapter(selectedChapter)}>Choose another topic</button>}
             </div>
             <div className="space-y-3">
               {quiz.map((question, index) => {

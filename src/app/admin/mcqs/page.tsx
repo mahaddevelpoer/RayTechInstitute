@@ -28,6 +28,7 @@ export default function AdminMCQsPage() {
   const [selectedClass, setSelectedClass] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('');
   const [chapterNumber, setChapterNumber] = useState<number>(1);
+  const [topic, setTopic] = useState('');
   const [question, setQuestion] = useState('');
   const [codeSnippet, setCodeSnippet] = useState('');
   const [opt0, setOpt0] = useState('');
@@ -80,6 +81,7 @@ export default function AdminMCQsPage() {
       classSlug: selectedClass,
       subjectSlug: selectedSubject,
       chapterNumber: Number(chapterNumber) || 1,
+      topic: topic.trim() || undefined,
       question: question.trim(),
       codeSnippet: codeSnippet.trim() || undefined,
       options: [opt0.trim(), opt1.trim(), opt2.trim(), opt3.trim()],
@@ -103,6 +105,7 @@ export default function AdminMCQsPage() {
     setSelectedClass(m.classSlug);
     setSelectedSubject(m.subjectSlug);
     setChapterNumber(m.chapterNumber);
+    setTopic(m.topic || '');
     setQuestion(m.question);
     setCodeSnippet(m.codeSnippet || '');
     setOpt0(m.options[0] || '');
@@ -116,6 +119,7 @@ export default function AdminMCQsPage() {
 
   const resetForm = () => {
     setEditingId(null);
+    setTopic('');
     setQuestion('');
     setCodeSnippet('');
     setOpt0('');
@@ -172,6 +176,7 @@ export default function AdminMCQsPage() {
           classSlug: aiClass,
           subjectSlug: aiSubject,
           chapterNumber: Number(aiChapter) || 1,
+          topic: aiTopic.trim() || undefined,
           question: item.question,
           codeSnippet: item.codeSnippet || undefined,
           options: Array.isArray(item.options) ? item.options : ['A', 'B', 'C', 'D'],
@@ -440,6 +445,12 @@ export default function AdminMCQsPage() {
             </div>
 
             <div>
+              <label htmlFor="mcq-topic" className="block font-semibold text-slate-700 mb-1">Topic within this chapter (optional)</label>
+              <input id="mcq-topic" value={topic} onChange={(e) => setTopic(e.target.value)} maxLength={200} placeholder="For example: LAN, MAN and WAN" className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900" />
+              <p className="mt-1 text-xs text-slate-500">Use the same topic name for questions that belong in one practice test.</p>
+            </div>
+
+            <div>
               <label className="block font-semibold text-slate-700 mb-1">Question Statement</label>
               <textarea
                 value={question}
@@ -533,7 +544,7 @@ export default function AdminMCQsPage() {
                         {i + 1}
                       </span>
                       <span className="text-xs text-slate-500">
-                        {m.classSlug} &bull; {m.subjectSlug} &bull; Chapter {m.chapterNumber}
+                        {m.classSlug} &bull; {m.subjectSlug} &bull; Chapter {m.chapterNumber}{m.topic && <> &bull; {m.topic}</>}
                       </span>
                     </div>
                     <p className="text-sm font-semibold text-slate-900 mt-2">{m.question}</p>

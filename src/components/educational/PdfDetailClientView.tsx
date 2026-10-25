@@ -33,6 +33,7 @@ export function PdfDetailClientView({
     href: safePdfUrl,
     embed,
     isPdf,
+    hosted,
   } = documentLinks(pdfUrl, previewPdfUrl);
   const [previewOpen, setPreviewOpen] = useState(false);
 
@@ -110,7 +111,7 @@ export function PdfDetailClientView({
               src={embed}
               title={`${title} preview`}
               className="h-[520px] w-full border-0 bg-slate-100 sm:h-[650px]"
-              sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+              sandbox={hosted ? undefined : "allow-same-origin allow-scripts allow-popups allow-forms"}
             />
           ) : (
             <div className="flex h-[360px] items-center justify-center px-8 text-center text-sm text-slate-500">
@@ -131,7 +132,7 @@ export function PdfDetailClientView({
           )}
           {safePdfUrl && (
             <div className="border-t border-slate-200 p-4">
-              <p className="mb-3 text-xs leading-relaxed text-slate-500">Preview loads through Google only when requested. Some source providers block previews; the original document link remains available.</p>
+              <p className="mb-3 text-xs leading-relaxed text-slate-500">{hosted ? 'This PDF is hosted by RayTech Institute. Open it in a new tab if your browser does not support the embedded preview.' : 'Preview loads through Google only when requested. Some source providers block previews; the original document link remains available.'}</p>
               <a
                 href={safePdfUrl}
                 target="_blank"

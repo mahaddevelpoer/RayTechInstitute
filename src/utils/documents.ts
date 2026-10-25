@@ -30,6 +30,8 @@ export function documentLinks(value?: string, previewValue?: string) {
   const url = safe(value);
   const preview = safe(previewValue) || url;
   let embed = "";
+  const hosted = !!preview && ['raytechinstitute.web.app','raytechinstitute.firebaseapp.com','raytechinstitute.com','www.raytechinstitute.com'].includes(preview.hostname) && preview.pathname.startsWith('/documents/') && /\.pdf$/i.test(preview.pathname);
+  if (hosted && preview) embed = preview.pathname + preview.search;
   if (preview?.hostname === "drive.google.com") {
     const id =
       preview.pathname.match(/\/d\/([\w-]+)/)?.[1] ||
@@ -43,5 +45,6 @@ export function documentLinks(value?: string, previewValue?: string) {
     href: url?.href || "",
     embed,
     isPdf: !!url && (/\.pdf$/i.test(url.pathname) || !!embed),
+    hosted,
   };
 }
