@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { ExternalLink, FileText } from "lucide-react";
 import { documentLinks } from "@/utils/documents";
 
@@ -24,13 +23,13 @@ export function PdfResourceActions({
   return (
     <div className={`flex flex-wrap items-center gap-2 ${className}`}>
       {detailHref && (
-        <Link
+        <a
           href={detailHref}
           className="btn-outline text-xs"
           aria-label={`Read details: ${title}`}
         >
           <FileText className="h-4 w-4" /> Read &amp; preview
-        </Link>
+        </a>
       )}
       {href ? (
         <a

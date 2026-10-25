@@ -99,7 +99,7 @@ export function NotesClientView({
                 Chapter {note.chapterNumber}: {note.chapterTitle}
               </p>
               <h2 className="mt-2 text-xl font-bold text-navy-900">
-                <Link href={href}>{note.title}</Link>
+                <a href={href}>{note.title}</a>
               </h2>
               <p className="my-3 text-sm leading-7 text-slate-600">
                 {note.description}

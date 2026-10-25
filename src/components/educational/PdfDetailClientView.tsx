@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import { documentLinks } from "@/utils/documents";
 import { ArrowLeft, Download, ExternalLink, FileText } from "lucide-react";
@@ -43,12 +42,12 @@ export function PdfDetailClientView({
       tabIndex={-1}
       className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 sm:px-6"
     >
-      <Link
+      <a
         href={backHref}
         className="mb-7 inline-flex items-center gap-2 text-sm font-semibold text-navy-700 hover:text-navy-900"
       >
         <ArrowLeft className="h-4 w-4" /> {backLabel}
-      </Link>
+      </a>
 
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(360px,0.85fr)] lg:items-start">
         <article>
