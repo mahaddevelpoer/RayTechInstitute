@@ -41,7 +41,7 @@ test('AI class naming resolves the actual new class instead of defaulting to 12t
 });
 test('general branding is class-neutral while class-specific content remains intact',async()=>{
  assert.ok(BRAND_DESCRIPTION.length>=120&&BRAND_DESCRIPTION.length<=155);
- for(const file of ['src/components/Header.tsx','src/components/Footer.tsx','src/components/Hero.tsx','src/app/layout.tsx','src/app/classes/page.tsx','src/app/admin/page.tsx'])assert.doesNotMatch(await fs.readFile(file,'utf8'),/11th|12th|1st.year|2nd.year/i,file);
+ for(const file of ['src/components/Header.tsx','src/components/Footer.tsx','src/components/Hero.tsx','src/app/layout.tsx','src/app/classes/page.tsx','src/app/admin/page.tsx','src/data/subjects.ts'])assert.doesNotMatch(await fs.readFile(file,'utf8'),/11th|12th|1st.year|2nd.year/i,file);
  assert.match(await fs.readFile('src/data/educationalData.ts','utf8'),/11th-class/);
 });
 test('short and long new class/subject labels cannot break MCQ search metadata',()=>{

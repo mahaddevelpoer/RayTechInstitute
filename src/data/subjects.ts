@@ -11,7 +11,7 @@ export const subjectsData: SubjectModule[] = [
       "Information Processing Cycle (IPOS)",
       "Digital Logic Gates & Boolean Algebra",
       "Software Development Life Cycle (SDLC)",
-      "11th & 12th Class Board Curriculum & Assessment Standards"
+      "Class-wise Curriculum & Assessment Standards"
     ],
     lectureCount: 6
   },
