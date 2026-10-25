@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
+import {savedAudioSource} from './codi-audio-evidence.mjs';
 const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});
@@ -31,15 +32,15 @@ try{
  const catalog=await(await fetch('https://raytechinstitute.web.app/codi/audio/catalog.json')).json();
  const unit=catalog.units.find(u=>u.hash==='b5353b75671a0f7ddf72a72d94ff06cb1fed86f49a6c1fd9d28b0cca6827bda8');
  if(unit){
-  const shared=await browser.newPage({viewport:{width:1366,height:900}});let generations=0,cached=0,cdn=0;
-  shared.on('response',r=>{if(r.url().includes('/storage/v1/object/public/codi-lesson-audio/')&&r.status()===200)cdn++;});
+  const shared=await browser.newPage({viewport:{width:1366,height:900}});let generations=0,cached=0,cdn=0,prepared=0;
+  shared.on('response',r=>{const source=savedAudioSource({url:r.url(),status:r.status(),contentType:r.headers()['content-type']},unit.hash,'https://raytechinstitute.web.app');if(source==='prepared')prepared++;if(source==='storage')cdn++;});
   await shared.addInitScript(()=>{window.__sharedAudio=[];const A=window.Audio;window.Audio=function(...args){const a=new A(...args);window.__sharedAudio.push(a);return a;};});
   await shared.route('**/functions/v1/codi-voice',route=>{const action=route.request().postDataJSON().action;if(action!=='cached'){generations++;return route.abort();}cached++;return route.continue();});
   await shared.goto(`https://raytechinstitute.web.app/learn/${unit.course}/${unit.lesson}/`,{waitUntil:'domcontentloaded'});
   await shared.getByRole('button',{name:'Codi settings',exact:true}).click();await shared.locator('.codi-settings').getByRole('combobox',{name:/Language/}).selectOption(unit.language);await shared.getByRole('button',{name:'Close Codi settings',exact:true}).click();
   await shared.getByRole('button',{name:unit.text,exact:true}).first().click();
   await shared.waitForFunction(()=>window.__sharedAudio.at(-1)?.currentTime>.2,undefined,{timeout:25000});
-  assert.equal(generations,0);assert.ok(cached+cdn>=1);assert.equal(await shared.locator('.codi-settings').count(),0);
-  console.log('[shared-audio] Fresh browser played saved production speech without consent or a generation request.');
+  assert.equal(generations,0,'Saved speech must not call an AI generation action');assert.ok(prepared+cached+cdn>=1,'Expected the selected sentence from Firebase MP3, Supabase Storage or the read-only cache endpoint');assert.equal(await shared.locator('.codi-settings').count(),0);
+  console.log(`[shared-audio] Fresh browser played saved production speech without consent or a generation request. Firebase MP3: ${prepared}; Storage: ${cdn}; read-only cache requests: ${cached}.`);
  }
 }finally{await browser.close();}

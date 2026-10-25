@@ -98,7 +98,15 @@ jobs:
 
       - name: Verify ready MP3 plays on desktop and mobile without an AI call
         if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
-        run: node --max-old-space-size=384 scripts/verify-prepared-audio.mjs && node --max-old-space-size=384 scripts/verify-learning-panels.mjs && node --max-old-space-size=384 scripts/verify-learning-controls.mjs
+        run: node --test scripts/codi-audio-evidence.test.mjs && node --max-old-space-size=384 scripts/verify-prepared-audio.mjs
+
+      - name: Verify learning panels and saved speech sources
+        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
+        run: node --max-old-space-size=384 scripts/verify-learning-panels.mjs
+
+      - name: Verify learning controls
+        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
+        run: node --max-old-space-size=384 scripts/verify-learning-controls.mjs
 
       - name: Retain learning presentation screenshots
         if: ${{ !cancelled() }}
