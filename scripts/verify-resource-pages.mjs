@@ -55,7 +55,7 @@ try{
   assert.match(await page.locator('.mcq-page').innerText(),/Your score:\s*80\s*\/\s*80/);console.log('[dit-quiz] All 80 bilingual source questions scored correctly after shuffling; answers stayed hidden until the result. Desktop/mobile RTL layout passed.');
   const note=(STATIC_OVERRIDES.notes||[]).find(n=>n.id==='dit-cn-chapter-1-basic-terminologies-mcq-notes');assert.ok(note,'Chapter 1 PDF note is published');
   const notesPath='/classes/dit-intermediate/dit-computer-science/notes/';const detailPath=notesPath+note.id+'/';
-  await page.goto(base+notesPath,{waitUntil:'domcontentloaded'});await page.getByRole('link',{name:note.title,exact:true}).click();assert.equal(new URL(page.url()).pathname,detailPath);
+  await page.goto(base+notesPath,{waitUntil:'domcontentloaded'});await Promise.all([page.waitForURL(base+detailPath),page.getByRole('link',{name:note.title,exact:true}).click()]);await page.getByRole('heading',{name:note.title,level:1,exact:true}).waitFor();assert.equal(new URL(page.url()).pathname,detailPath);
   assert.equal(await page.locator('h1').innerText(),note.title);assert.doesNotMatch(await page.locator('body').innerText(),/Unpublished preview|Preview only/i);
   assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),base+detailPath);assert.match(await page.locator('meta[name="keywords"]').getAttribute('content'),/Basic Terminologies/);
   const schemas=await page.locator('script[type="application/ld+json"]').allTextContents();assert.ok(schemas.some(text=>JSON.parse(text)['@graph']?.some(item=>item['@type']==='LearningResource'&&item.associatedMedia?.contentUrl===note.pdfUrl)));
