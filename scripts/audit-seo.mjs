@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const root = path.resolve("out");
+const root = path.resolve(process.env.SEO_EXPORT_DIR || "out");
 const htmlFiles = [];
 
 function walk(directory) {
@@ -21,6 +21,8 @@ walk(root);
 const failures = [];
 const warnings = [];
 const canonicalHosts = new Map();
+const titles = new Map();
+const descriptions = new Map();
 const expectedCanonicalHost = new URL(
   fs
     .readFileSync(path.join(root, "index.html"), "utf8")
@@ -70,7 +72,10 @@ for (const file of htmlFiles) {
       /\/index\.html$/,
       "/",
     );
-  if (relative.startsWith("/admin/")) continue;
+  if (relative.startsWith("/admin/")) {
+    if (!/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html)) failures.push(`${relative}: private admin HTML must include noindex`);
+    continue;
+  }
   if (relative === "/blogs/post/") continue;
   auditedPages++;
   const title = decodeHtml(
@@ -110,6 +115,16 @@ for (const file of htmlFiles) {
   }
 
   if (/noindex/i.test(robots)) continue;
+  for (const [map, value] of [[titles, title], [descriptions, description]]) map.set(value, [...(map.get(value) || []), relative]);
+  if ((html.match(/<link[^>]+rel="canonical"/gi) || []).length !== 1) failures.push(`${relative}: expected exactly one canonical tag`);
+  if (!/<meta[^>]+property="og:image"[^>]+content="https:\/\//i.test(html)) failures.push(`${relative}: missing HTTPS Open Graph image`);
+  for (const image of html.matchAll(new RegExp('<' + 'img\\b[^>]*>', 'gi'))) {
+    if (!/\balt\s*=/i.test(image[0])) failures.push(`${relative}: image is missing alt text`);
+    if (!/\bwidth\s*=/i.test(image[0]) || !/\bheight\s*=/i.test(image[0])) failures.push(`${relative}: image needs dimensions to reserve layout space`);
+  }
+  for (const block of html.matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)) {
+    try { JSON.parse(block[1]); } catch { failures.push(`${relative}: invalid JSON-LD`); }
+  }
   exportedCanonicals.add(canonical);
   for (const tag of ["header", "footer"]) {
     const count = (html.match(new RegExp("<" + tag + "(?=[\\s>])", "g")) || [])
@@ -148,11 +163,14 @@ for (const file of htmlFiles) {
 }
 
 console.log(`[seo] audited ${auditedPages} public content HTML pages (${htmlFiles.length} exported HTML files total)`);
+for (const [kind, map] of [['title', titles], ['description', descriptions]]) {
+  for (const [value, routes] of map) if (value && routes.length > 1) failures.push(`[site] duplicate ${kind}: ${routes.join(', ')}`);
+}
 if (canonicalHosts.size > 1)
   warnings.push(
     `[site] canonical URLs use multiple hosts: ${[...canonicalHosts.keys()].join(", ")}`,
   );
-const sitemapPath = path.resolve("out", "sitemap.xml");
+const sitemapPath = path.join(root, "sitemap.xml");
 if (!fs.existsSync(sitemapPath)) {
   failures.push("public/sitemap.xml: missing sitemap file");
 } else {

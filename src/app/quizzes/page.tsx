@@ -3,8 +3,9 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { LEARNING_LANGUAGES, LEARNING_TOPICS } from '@/data/learningCatalog';
 import { siteUrl } from '@/lib/site';
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { buildSeoTitle } from '@/utils/seo';
-export const metadata = { title: buildSeoTitle('Programming Topic Tests and MCQ Practice'), description: 'Choose a programming language and topic to test your knowledge. Review your answers after submission and unlock a practical assignment at 80%.', alternates: { canonical: siteUrl('/quizzes/') }, robots: { index: LEARNING_TOPICS.length > 0, follow: true } };
+export const metadata = withSocialMetadata({ title: buildSeoTitle('Programming Topic Tests and MCQ Practice'), description: 'Choose a programming language and topic to test your knowledge. Review your answers after submission and unlock a practical assignment at 80%.', alternates: { canonical: siteUrl('/quizzes/') }, robots: { index: LEARNING_TOPICS.length > 0, follow: true } });
 export default function ProgrammingTestsPage() {
   return <div className="min-h-screen bg-[var(--bg-main)] text-[var(--text-main)]"><Header /><main id="main-content" className="page-main">
     <nav className="breadcrumb"><Link href="/courses/">Courses</Link><span>/</span><span>Topic tests</span></nav>

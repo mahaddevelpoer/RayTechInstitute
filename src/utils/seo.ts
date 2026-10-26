@@ -29,6 +29,15 @@ export function buildSeoTitle(primary: string): string {
   return `${value}${suffix}`;
 }
 
+/** Keep the page purpose visible even when a long topic title is shortened. */
+export function buildTopicSeoTitle(topic: string, language: string, mode: 'lesson' | 'quiz' | 'assignment'): string {
+  const label = language.replace(/\s+/g, ' ').trim() || 'Programming';
+  let name = topic.replace(/\s+/g, ' ').trim() || 'Topic';
+  if (name.toLowerCase().startsWith(`${label.toLowerCase()} `)) name = name.slice(label.length + 1);
+  const purpose = mode === 'quiz' ? 'Quiz' : mode === 'assignment' ? 'Assignment' : 'Lesson';
+  return buildSeoTitle(`${label} ${purpose}: ${name}`);
+}
+
 /** Short editorial summaries are valid; metadata must still fit the build contract. */
 export function buildLessonDescription(summary: string, context: string): string {
   const normalize = (value: string) => value.replace(/\s+/g, ' ').trim();

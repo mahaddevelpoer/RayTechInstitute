@@ -1,4 +1,5 @@
 import { siteUrl } from "@/lib/site";
+import { withSocialMetadata } from '@/utils/social-metadata';
 import React from "react";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -6,14 +7,14 @@ import { Footer } from "@/components/Footer";
 import { Shield, ArrowLeft } from "lucide-react";
 import { buildSeoTitle } from "@/utils/seo";
 
-export const metadata = {
+export const metadata = withSocialMetadata({
   title: buildSeoTitle("Terms and Conditions for RayTech students"),
   description:
     "Read the terms, content-use rules, source-link guidance, and educational disclaimer for the RayTech Institute study archive.",
   alternates: {
     canonical: siteUrl("/terms-and-conditions/"),
   },
-};
+});
 
 export default function TermsAndConditionsPage() {
   return (

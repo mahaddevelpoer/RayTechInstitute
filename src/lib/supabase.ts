@@ -1,5 +1,4 @@
 import { createClient } from '@supabase/supabase-js';
-import { auth } from '@/lib/firebase';
 import { checkAdminAccess, type AdminAccess } from '@/lib/admin-access';
 import { firebaseEdgeFetch } from '@/lib/firebase-edge-fetch';
 
@@ -9,7 +8,10 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOi
 // Supabase's functions getter creates a NEW client on each access. The supported
 // global fetch transport persists across those clients; patching invoke does not.
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
-  global: { fetch: firebaseEdgeFetch(supabaseUrl, async () => await auth.currentUser?.getIdToken() || null) },
+  global: { fetch: firebaseEdgeFetch(supabaseUrl, async () => {
+    const { auth } = await import('@/lib/firebase');
+    return await auth.currentUser?.getIdToken() || null;
+  }) },
 });
 
 export async function verifyAdminAccess(): Promise<AdminAccess> {

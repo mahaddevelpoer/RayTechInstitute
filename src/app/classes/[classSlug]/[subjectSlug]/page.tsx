@@ -1,5 +1,6 @@
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SubjectResources } from "@/components/educational/AcademicDirectory";
@@ -10,7 +11,7 @@ import {
   INITIAL_MCQS,
   INITIAL_PAST_PAPERS,
 } from "@/data/staticCatalog";
-import { buildSeoTitle } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -39,18 +40,20 @@ export async function generateMetadata({
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
+  const description = buildDocumentDescription('Browse available chapter notes, topic MCQs and past papers. Read resource details and choose what you need for revision.', `${className} ${currentSubject.title}`);
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
-    description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title} for exam revision.`,
+    description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
     },
     openGraph: {
+      images: [DEFAULT_SOCIAL_IMAGE],
       title: buildSeoTitle(
         `${className} ${currentSubject.title} Study Material`,
       ),
-      description: `Official chapter notes in PDF, interactive MCQs tests, and board past papers for ${currentClass.title} ${currentSubject.title} for exam revision.`,
+      description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
       type: "website",
     },

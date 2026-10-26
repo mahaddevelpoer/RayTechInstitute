@@ -3,7 +3,6 @@
  * Enterprise-grade anti-XSS, rate-limiting, and cryptographic password handling.
  */
 
-import { auth } from '@/lib/firebase';
 
 // Simple robust HTML escaping to prevent XSS injection
 export function sanitizeInput(input: string): string {
@@ -138,35 +137,3 @@ export function clearAdminSession(): void {
   if (typeof window === 'undefined') return;
   sessionStorage.removeItem(SESSION_KEY);
 }
-
-/**
- * Returns the currently authenticated Firebase ID Token for admin API dispatches.
- */
-export async function getFirebaseIdToken(): Promise<string | null> {
-  if (typeof window === 'undefined') return null;
-  try {
-    const user = auth.currentUser;
-    if (user) {
-      return await user.getIdToken();
-    }
-  } catch {
-    // Fall back to stored session token
-  }
-  const session = sessionStorage.getItem(SESSION_KEY);
-  if (session && session.includes('.')) {
-    return session;
-  }
-  return null;
-}
-
-/**
- * Validates whether the user has a valid, non-expired Firebase ID Token session.
- */
-export function isAdminAuthenticated(): boolean {
-  if (typeof window === 'undefined') return false;
-  // The Firebase SDK owns token validation and refresh. A JWT payload decoded
-  // in the browser is not proof of authenticity because its signature is not
-  // verified there. Keep the session token only as a transport credential.
-  return auth.currentUser !== null;
-}
-

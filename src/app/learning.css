@@ -1,6 +1,3 @@
-.learn-button { display:inline-flex; min-height:48px; align-items:center; justify-content:center; gap:.5rem; padding:.5rem .9rem; border:1px solid var(--border); border-radius:6px; color:var(--text-main); background:var(--bg-card); font-size:.875rem; font-weight:600; white-space:nowrap; }
-.learn-button:hover:not(:disabled),.learn-button[aria-pressed="true"] { background:var(--bg-section); border-color:var(--border-strong); }
-.learn-button:disabled { opacity:.5; cursor:not-allowed; }
 .lesson-activity { margin:2rem 0; padding:1.25rem; border:1px solid var(--border); border-left:3px solid var(--learn-accent); border-radius:6px; background:var(--bg-card); color:var(--text-main); min-width:0; }
 .lesson-activity h3 { font-size:1.1rem; font-weight:700; margin:.25rem 0 1rem; }
 .lesson-activity-label { font-size:.75rem; color:var(--text-muted); font-weight:600; }
@@ -92,8 +89,6 @@ html.dark .learning-code-editor .cm-line:hover,html.dark .learning-code-editor .
 .learning-topic-links a { display:flex; align-items:center; gap:.75rem; min-height:48px; padding:.65rem .75rem; border-radius:6px; font-size:.875rem; overflow-wrap:anywhere; }
 .learning-topic-links a:hover { background:var(--bg-section); }
 .learning-topic-links a[aria-current="page"] { background:var(--learn-accent-soft); color:var(--learn-accent); font-weight:650; }
-:root { --learn-accent:#0f766e; --learn-accent-soft:#e6f4f1; }
-html.dark { --learn-accent:#5eead4; --learn-accent-soft:#143b3a; }
 .learning-lesson { padding:2rem clamp(1rem,3vw,3rem) 3rem; overflow-wrap:anywhere; }
 .learning-lesson a:not(.learn-button) { color:var(--learn-accent); }
 .learning-objectives { margin-bottom:2rem; border-left:3px solid var(--learn-accent); padding:1rem 1.25rem; background:var(--learn-accent-soft); }

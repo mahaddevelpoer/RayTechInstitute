@@ -1,5 +1,6 @@
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import React from "react";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -7,7 +8,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { INITIAL_SUBJECTS, INITIAL_CLASSES } from "@/data/staticCatalog";
 import { NotesClientView } from "@/components/educational/NotesClientView";
-import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
+import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -36,16 +37,18 @@ export async function generateMetadata({
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
+  const description = buildDocumentDescription('Browse available chapter notes and PDF revision resources. Check the document details and use its preview before downloading.', `${className} ${currentSubject.title} notes`);
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} Notes PDF`),
-    description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
+    description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/`),
     },
     openGraph: {
+      images: [DEFAULT_SOCIAL_IMAGE],
       title: buildSeoTitle(`${className} ${currentSubject.title} Notes PDF`),
-      description: `Download official solved notes in high-definition PDF format for ${currentClass.title} ${currentSubject.title} with complete chapter coverage.`,
+      description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/`),
       type: "website",
     },

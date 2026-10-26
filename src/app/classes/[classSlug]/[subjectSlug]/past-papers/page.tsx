@@ -1,5 +1,6 @@
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import React from "react";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -7,7 +8,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { INITIAL_SUBJECTS, INITIAL_CLASSES } from "@/data/staticCatalog";
 import { PastPapersClientView } from "@/components/educational/PastPapersClientView";
-import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
+import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -36,16 +37,18 @@ export async function generateMetadata({
   );
   if (!currentClass || !currentSubject) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
+  const description = buildDocumentDescription('Browse published past-paper PDFs and check the board, year and examination session. Open the resource details before revising.', `${className} ${currentSubject.title} past papers`);
 
   return {
     title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
-    description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
+    description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
     },
     openGraph: {
+      images: [DEFAULT_SOCIAL_IMAGE],
       title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
-      description: `Download board past papers for ${currentClass.title} ${currentSubject.title} across all Punjab Boards and FBISE with solved objective keys.`,
+      description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
       type: "website",
     },

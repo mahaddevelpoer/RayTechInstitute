@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { BoardDirectory } from "@/components/educational/BoardDirectory";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import { serializeJsonLd } from "@/utils/seo";
 
 const title = "1st Year Result 2026: Punjab Boards | RayTech Institute";
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
   description,
   alternates: { canonical: siteUrl("/results-gazettes/first-year-result/") },
   openGraph: {
+    images: [DEFAULT_SOCIAL_IMAGE],
     title,
     description,
     type: "article",

@@ -33,10 +33,12 @@ export const Footer: React.FC = () => {
 
           {/* Col 2: Quick Links */}
           <div className="space-y-2">
-            <h4 className="font-semibold text-white text-sm">
+            <h2 className="font-semibold text-white text-sm">
               Study Resources
-            </h4>
+            </h2>
             <ul className="space-y-1.5 text-xs text-slate-400">
+              <li><Link href="/courses/" className="hover:text-white transition-colors">Programming courses</Link></li>
+              <li><Link href="/quizzes/" className="hover:text-white transition-colors">Programming topic tests</Link></li>
               <li>
                 <Link href="/classes" className="hover:text-white transition-colors">
                   Classes &amp; Study Notes
@@ -62,12 +64,12 @@ export const Footer: React.FC = () => {
 
           {/* Col 3: Gazettes & Boards */}
           <div className="space-y-2">
-            <h4 className="font-semibold text-white text-sm">
+            <h2 className="font-semibold text-white text-sm">
               Punjab Boards &amp; Gazettes
-            </h4>
+            </h2>
             <ul className="space-y-1.5 text-xs text-slate-400">
               <li>
-                <Link href="/results-gazettes" className="text-orange-400 hover:text-orange-300 font-medium transition-colors">
+                <Link href="/results-gazettes" className="footer-board-link font-medium transition-colors">
                   BISE Lahore Gazettes
                 </Link>
               </li>
@@ -91,16 +93,16 @@ export const Footer: React.FC = () => {
 
           {/* Col 4: Official & Legal */}
           <div className="space-y-2">
-            <h4 className="font-semibold text-white text-sm">
+            <h2 className="font-semibold text-white text-sm">
               Official Links
-            </h4>
+            </h2>
             <ul className="space-y-1.5 text-xs text-slate-400">
               <li>
                 <a
                   href={sanitizeUrl(channelData.youtubeUrl)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 text-red-400 hover:text-red-300 transition-colors"
+                  className="footer-youtube-link flex items-center gap-1.5 transition-colors"
                 >
                   <Youtube className="w-3.5 h-3.5" />
                   <span>YouTube Channel</span>

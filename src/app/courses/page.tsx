@@ -6,9 +6,10 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { LEARNING_COURSES, LEARNING_LANGUAGES, LEARNING_TOPICS } from '@/data/learningCatalog';
 import { siteUrl } from '@/lib/site';
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { buildSeoTitle } from '@/utils/seo';
 
-export const metadata: Metadata = { title: buildSeoTitle('Programming Courses and Browser Practice'), description: 'Explore programming courses with clear English lessons, topic-based practice and browser coding exercises. Study each language at your own pace.', alternates: { canonical: siteUrl('/courses/') }, robots: { index: LEARNING_TOPICS.length > 0, follow: true } };
+export const metadata: Metadata = withSocialMetadata({ title: buildSeoTitle('Programming Courses and Browser Practice'), description: 'Explore programming courses with clear English lessons, topic-based practice and browser coding exercises. Study each language at your own pace.', alternates: { canonical: siteUrl('/courses/') }, robots: { index: LEARNING_TOPICS.length > 0, follow: true } });
 export default function CoursesPage() {
  return <div className="academic-page"><Header/><main id="main-content" className="page-main" tabIndex={-1}>
   <nav className="breadcrumb"><Link href="/classes/">Classes</Link><span>/</span><span>Programming courses</span></nav>

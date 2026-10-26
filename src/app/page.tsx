@@ -1,5 +1,7 @@
 "use client";
 
+import './home.css';
+
 import React, { useEffect, useRef, useState } from "react";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
@@ -7,7 +9,7 @@ import { TheWork } from "@/components/TheWork";
 import { SubjectMap } from "@/components/SubjectMap";
 import { FeaturedLecture } from "@/components/FeaturedLecture";
 import { LectureArchive } from "@/components/LectureArchive";
-import { LectureModal } from "@/components/LectureModal";
+import dynamic from 'next/dynamic';
 import { Classroom } from "@/components/Classroom";
 import { Workbench } from "@/components/Workbench";
 import { FollowArchive } from "@/components/FollowArchive";
@@ -16,6 +18,8 @@ import { Footer } from "@/components/Footer";
 import { useYouTubeSync } from "@/hooks/useYouTubeSync";
 import { AdReservation } from '@/components/AdReservation';
 import { StudyResourceStrip } from '@/components/StudyResourceStrip';
+
+const LectureModal = dynamic(() => import('@/components/LectureModal').then(module => module.LectureModal), { ssr: false });
 
 export default function HomePage() {
   const homeContent = useRef<HTMLElement>(null);

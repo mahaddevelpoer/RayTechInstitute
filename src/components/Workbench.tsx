@@ -88,7 +88,7 @@ export const Workbench: React.FC = () => {
           </div>
           <a
             href="/learn/python/"
-            className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded transition-colors whitespace-nowrap self-start md:self-auto"
+            className="btn-primary px-4 py-2 text-xs font-bold rounded transition-colors whitespace-nowrap self-start md:self-auto"
           >
             Open Python Lessons
           </a>

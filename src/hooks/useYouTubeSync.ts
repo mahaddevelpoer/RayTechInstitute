@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import type { Lecture } from '@/types';
 import { lectureSnapshot } from '@/data/lectureSnapshot';
-import { learningAdminRequest } from '@/lib/learning/admin';
 
 export function useYouTubeSync() {
   const [lectures, setLectures] = useState<Lecture[]>(lectureSnapshot);
@@ -13,7 +12,7 @@ export function useYouTubeSync() {
     if (!window.location.pathname.startsWith('/admin/')) return;
     let active = true;
     setSyncing(true);
-    learningAdminRequest('learning_videos', {}).then(result => {
+    import('@/lib/learning/admin').then(({ learningAdminRequest }) => learningAdminRequest('learning_videos', {})).then(result => {
       if (!Array.isArray(result.videos)) throw new Error('The video service returned an invalid list.');
       const latest: Lecture[] = result.videos.map((video: { id: string; title: string }, index: number) => {
         if (!/^[a-zA-Z0-9_-]{11}$/.test(video.id) || typeof video.title !== 'string') throw new Error('Invalid video metadata.');

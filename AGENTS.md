@@ -1,11 +1,19 @@
 # Project Rules: Mandatory Standards, Security Hardening & Agentic SEO
 
+## Publication requires explicit approval
+
+- Make and test changes locally by default. Do not deploy or publish until the user explicitly approves the current changes.
+- Earlier deployment approvals apply only to their earlier releases, not to new batches of work.
+- Do not push to deployment-triggering branches, dispatch publishing workflows, deploy Firebase/Supabase functions or rules, or mutate production content that triggers a rebuild without that approval.
+- Local edits, local tests, local previews, and read-only checks of live pages/services are allowed. Keep a reviewable checklist of completed work and external setup still required.
+- Never enable billing or paid services implicitly. Do not claim that a passing build proves search indexing, rankings, or real-user Core Web Vitals.
+
 These rules are the **ABSOLUTE TOP PRIORITY** across the entire workspace. Every component, page, script, style, and metadata must strictly adhere to these mandates with ZERO exceptions.
 
 ---
 
 ## 1. Top Mandate: 100% Agentic SEO Excellence (Highest Priority)
-- **Agentic SEO Skill Integration**: Refer to the installed `seo` skill (`skills/seo/SKILL.md`) for all schemas, audits, technical checks, and Core Web Vitals.
+- **Agentic SEO Skill Integration**: Refer to the installed `seo` skill (`.agents/skills/seo/SKILL.md`) for all schemas, audits, technical checks, and Core Web Vitals.
 - **Interactivity Metric is INP, Never FID**: Target INP ≤ 200ms. FID was permanently deleted by Google in Sept 2024. NEVER reference FID in audits, code, or docs.
 - **LCP & CLS Targets**: LCP ≤ 2.5s (hero text/images eager with priority). CLS ≤ 0.1 (explicit width, height, or aspect-ratio on all images, PDFs, modals).
 - **Schema.org Structured Data (JSON-LD Only)**:

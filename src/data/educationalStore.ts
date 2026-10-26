@@ -22,7 +22,6 @@ import {
   INITIAL_VIDEO_MCQS,
   INITIAL_CHAPTERS,
 } from "./staticCatalog";
-import { supabase } from "@/lib/supabase";
 import { adminFunctionError } from "@/lib/admin-function-error";
 
 export {
@@ -81,6 +80,7 @@ async function mutateContent(
   filter?: Record<string, unknown>,
 ): Promise<void> {
   try {
+    const { supabase } = await import("@/lib/supabase");
     const { data, error } = await supabase.functions.invoke("secure-dispatch", {
       body: {
         action: "mutate_content",
@@ -136,6 +136,7 @@ export const EducationalStore = {
     }
 
     try {
+      const { supabase } = await import("@/lib/supabase");
       const {data: snapshot,error}=await supabase.functions.invoke('secure-dispatch',{body:{action:'content_catalog',payload:{}}});
       if(error||!snapshot?.success||!snapshot.tables)throw new Error('Admin catalog unavailable.');
       if(!['classes','subjects','chapters','notes','mcqs','past_papers','gazettes','blogs','video_mcqs'].every(name=>Array.isArray(snapshot.tables[name])))throw new Error('Incomplete admin catalog.');

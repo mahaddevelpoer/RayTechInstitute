@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { Bell, CheckCircle2, X } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
 
 const DISMISSED_NOTIFICATION_KEY = 'raytech_notif_prompt_dismissed';
 const FIREBASE_VAPID_KEY = process.env.NEXT_PUBLIC_FIREBASE_VAPID_KEY || '';
@@ -62,7 +61,7 @@ export default function NotificationPrompt() {
           const { getMessaging, getToken, isSupported } = await import('firebase/messaging');
           const supported = await isSupported();
           if (supported) {
-            const { app } = await import('@/lib/firebase');
+            const { app } = await import('@/lib/firebase-app');
             const messaging = getMessaging(app);
             fcmToken = await getToken(messaging, {
               vapidKey: FIREBASE_VAPID_KEY,
@@ -74,6 +73,7 @@ export default function NotificationPrompt() {
 
         if (!fcmToken) throw new Error('Push notifications are not available in this browser.');
 
+        const { supabase } = await import('@/lib/supabase');
         const { data, error } = await supabase.functions.invoke('secure-dispatch', {
           body: {
             action: 'subscribe_notifications',

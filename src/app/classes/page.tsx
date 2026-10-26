@@ -1,4 +1,5 @@
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import React from "react";
 import { Metadata } from "next";
 import { Header } from "@/components/Header";
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     canonical: siteUrl("/classes/"),
   },
   openGraph: {
+    images: [DEFAULT_SOCIAL_IMAGE],
     title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
     description:
       "Choose your class and subject to find notes, chapter-wise MCQs and past papers. Browse available study resources and programming courses.",

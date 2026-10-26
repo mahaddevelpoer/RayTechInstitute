@@ -92,10 +92,11 @@ test('note cache updates only after the server confirms the save', async () => {
 test('the real note detail metadata cannot block publishing for a 183-character or blank description', async () => {
   const note = { id: 'saved-note', classSlug: '11th-class', subjectSlug: 'computer-science', chapterNumber: 1, chapterTitle: 'Introduction', description: 'X'.repeat(183) };
   const resourceSeo = await loadTypescript('src/utils/study-resource-seo.ts');
+  const social = await loadTypescript('src/data/social.ts');
   const module = { exports: {} };
   const source = await fs.readFile('src/app/classes/[classSlug]/[subjectSlug]/notes/[noteSlug]/page.tsx', 'utf8');
   const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX } }).outputText;
-  vm.runInNewContext(code, { module, exports: module.exports, require: id => id === '@/utils/seo' ? seo : id === '@/utils/study-resource-seo' ? resourceSeo : id === '@/data/staticCatalog' ? { INITIAL_NOTES: [note], INITIAL_CLASSES: [{slug:note.classSlug,title:'Class 11'}], INITIAL_SUBJECTS: [{ classSlug: note.classSlug, slug: note.subjectSlug, title: 'Computer Science' }] } : id === '@/lib/site' ? { siteUrl: value => `https://site.test${value}` } : id.startsWith('@/') ? {} : require(id) });
+  vm.runInNewContext(code, { module, exports: module.exports, require: id => id === '@/utils/seo' ? seo : id === '@/data/social' ? social : id === '@/utils/study-resource-seo' ? resourceSeo : id === '@/data/staticCatalog' ? { INITIAL_NOTES: [note], INITIAL_CLASSES: [{slug:note.classSlug,title:'Class 11'}], INITIAL_SUBJECTS: [{ classSlug: note.classSlug, slug: note.subjectSlug, title: 'Computer Science' }] } : id === '@/lib/site' ? { siteUrl: value => `https://site.test${value}` } : id.startsWith('@/') ? {} : require(id) });
   for (const summary of ['', 'A', 'X'.repeat(183), 'Detailed study guidance. '.repeat(100)]) {
     note.description = summary;
     const metadata = await module.exports.generateMetadata({ params: Promise.resolve({ classSlug: note.classSlug, subjectSlug: note.subjectSlug, noteSlug: note.id }) });

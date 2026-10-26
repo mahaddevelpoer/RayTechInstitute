@@ -1,4 +1,5 @@
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import React from "react";
 import { Metadata } from "next";
 import { Header } from "@/components/Header";
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     canonical: siteUrl("/results-gazettes/"),
   },
   openGraph: {
+    images: [DEFAULT_SOCIAL_IMAGE],
     title: buildSeoTitle("Class-wise Results and Examination Gazettes"),
     description:
       "Find class-wise result gazettes, board verification links and PDF resources. Check the original examination board for notices and updates.",
@@ -32,7 +34,8 @@ export default function ResultsGazettesPage() {
       "Official result gazettes in PDF and roll number verification directories for BISE Lahore, Gujranwala, Multan, and Federal Board.",
     publisher: {
       "@type": "Organization",
-      name: "Boards of Intermediate and Secondary Education (PBCC & FBISE)",
+      name: "RayTech Institute",
+      url: siteUrl('/'),
     },
     mainEntity: INITIAL_GAZETTES.map((g) => ({
       "@type": "LearningResource",

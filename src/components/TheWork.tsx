@@ -27,6 +27,7 @@ export function TheWork() {
                       <Link
                         className="flex min-h-12 items-center justify-between gap-3 border-b border-slate-100 py-3 text-sm font-semibold text-navy-700"
                         href={`/classes/${c.slug}/${subject.slug}/`}
+                        aria-label={`${c.title}: ${subject.title} study resources`}
                       >
                         {subject.title}
                         <ArrowRight className="h-4 w-4" />
@@ -39,7 +40,7 @@ export function TheWork() {
                 className="btn-outline text-sm"
                 href={`/classes/${c.slug}/`}
               >
-                All {c.numericGrade}th class resources
+                All {c.title} resources
               </Link>
             </article>
           ))}

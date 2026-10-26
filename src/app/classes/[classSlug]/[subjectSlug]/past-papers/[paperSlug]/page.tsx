@@ -1,5 +1,6 @@
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
@@ -62,6 +63,7 @@ export async function generateMetadata({
       ),
     },
     openGraph: {
+      images: [DEFAULT_SOCIAL_IMAGE],
       title,
       description,
       url: siteUrl(

@@ -1,18 +1,19 @@
 import { siteUrl } from "@/lib/site";
+import { withSocialMetadata } from '@/utils/social-metadata';
 import React from "react";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Shield, ArrowLeft } from "lucide-react";
 
-export const metadata = {
+export const metadata = withSocialMetadata({
   title: "Privacy Policy | RayTech Institute Educational Archive",
   description:
     "Official privacy policy regarding educational materials, user data protection, cookie compliance, and transparent site operations.",
   alternates: {
     canonical: siteUrl("/privacy-policy/"),
   },
-};
+});
 
 export default function PrivacyPolicyPage() {
   return (

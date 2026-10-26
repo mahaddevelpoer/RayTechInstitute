@@ -1,9 +1,6 @@
 import { siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 import "./globals.css";
-import "./learning.css";
-import "./codi.css";
-import "./home.css";
 import "./catalog.css";
 import { channelData } from "@/data/channel";
 import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
@@ -13,9 +10,11 @@ import { CompilerMount } from "@/components/compiler/CompilerMount";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
 import NotificationPrompt from "@/components/NotificationPrompt";
 import { BRAND_DESCRIPTION } from '@/data/brand';
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl("/")),
+  verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION.trim() } : undefined,
   title: {
     default: buildSeoTitle("Class Study Resources and Programming Courses"),
     template: "%s",
@@ -77,10 +76,7 @@ export const metadata: Metadata = {
     siteName: "RayTech Institute",
     images: [
       {
-        url: channelData.profileImage,
-        width: 900,
-        height: 900,
-        alt: `${channelData.name} - Computer Science Education Portal`,
+        ...DEFAULT_SOCIAL_IMAGE,
       },
     ],
   },
@@ -90,7 +86,7 @@ export const metadata: Metadata = {
       buildSeoTitle("Class Study Resources and Programming Courses"),
     description:
       BRAND_DESCRIPTION,
-    images: [channelData.profileImage],
+    images: [DEFAULT_SOCIAL_IMAGE.url],
   },
 };
 

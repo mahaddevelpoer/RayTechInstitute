@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Cookies from 'js-cookie';
 import Link from 'next/link';
 import { ShieldCheck, Cookie as CookieIcon, Check, X } from 'lucide-react';
-import { initAnalytics } from '@/lib/firebase';
+import { initAnalytics } from '@/lib/analytics';
 
 const COOKIE_CONSENT_KEY = 'raytech_cookie_consent_v1';
 const COOKIE_PREFS_KEY = 'raytech_cookie_preferences';
@@ -16,29 +16,24 @@ export interface CookiePreferences {
 }
 
 export default function CookieConsentBanner() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const [showDetails, setShowDetails] = useState(false);
-  const [analyticsAllowed, setAnalyticsAllowed] = useState(true);
+  const [analyticsAllowed, setAnalyticsAllowed] = useState(false);
   const [functionalAllowed, setFunctionalAllowed] = useState(true);
 
   useEffect(() => {
     // Check if user has already made a choice
     const savedConsent = Cookies.get(COOKIE_CONSENT_KEY);
-    if (!savedConsent) {
-      // Small timeout so it doesn't block initial page paint (INP/LCP friendly)
-      const timer = setTimeout(() => {
-        setIsVisible(true);
-      }, 1000);
-      return () => clearTimeout(timer);
-    } else if (savedConsent === 'accepted' || savedConsent === 'custom') {
+    if (savedConsent) setIsVisible(false);
+    if (savedConsent === 'accepted' || savedConsent === 'custom') {
       try {
         const prefs: CookiePreferences = JSON.parse(Cookies.get(COOKIE_PREFS_KEY) || '{}');
-        if (prefs.analytics) {
+        if (prefs.analytics === true) {
           // Initialize real analytics only if permitted
           initAnalytics();
         }
       } catch {
-        initAnalytics();
+        // Invalid preferences do not constitute analytics consent.
       }
     }
   }, []);
@@ -102,7 +97,7 @@ export default function CookieConsentBanner() {
   return (
     <aside
       aria-label="Cookie and Privacy Consent"
-      className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-50 bg-white border border-slate-300 rounded-lg shadow-xl p-4 sm:p-5 text-slate-800 animate-in fade-in slide-in-from-bottom-4 duration-300"
+      className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-50 bg-white border border-slate-300 rounded-lg shadow-xl p-4 text-slate-800"
     >
       <div className="flex items-start gap-3">
         <div className="w-9 h-9 rounded-md bg-navy-50 text-navy-700 flex items-center justify-center shrink-0 mt-0.5 border border-navy-100">
@@ -123,7 +118,7 @@ export default function CookieConsentBanner() {
             </button>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            We use functional cookies to remember your theme &amp; educational bookmarks, and optional analytics to measure speed and study material usage in Pakistan. No ads or 3rd party profiling.
+            Essential storage keeps sign-in working. Choose whether to allow optional analytics and saved preferences.
           </p>
 
           {showDetails && (
@@ -146,6 +141,7 @@ export default function CookieConsentBanner() {
                 <input
                   type="checkbox"
                   checked={analyticsAllowed}
+                  aria-label="Allow performance analytics"
                   onChange={(e) => setAnalyticsAllowed(e.target.checked)}
                   className="w-4 h-4 text-navy-600 rounded border-slate-300 focus:ring-navy-500 cursor-pointer"
                 />
@@ -159,6 +155,7 @@ export default function CookieConsentBanner() {
                 <input
                   type="checkbox"
                   checked={functionalAllowed}
+                  aria-label="Allow saved preferences"
                   onChange={(e) => setFunctionalAllowed(e.target.checked)}
                   className="w-4 h-4 text-navy-600 rounded border-slate-300 focus:ring-navy-500 cursor-pointer"
                 />

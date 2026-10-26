@@ -218,6 +218,9 @@ export function BlogDetailClientView({
           alt={post.title}
           width={800}
           height={450}
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
           className="w-full h-full object-cover"
           onError={(event) => {
             event.currentTarget.onerror = null;

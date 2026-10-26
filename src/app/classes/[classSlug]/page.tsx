@@ -1,10 +1,11 @@
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SubjectDirectory } from "@/components/educational/AcademicDirectory";
 import { INITIAL_CLASSES, INITIAL_SUBJECTS } from "@/data/staticCatalog";
-import { buildSeoTitle } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -28,16 +29,18 @@ export async function generateMetadata({
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   if (!currentClass) return {};
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
+  const description = buildDocumentDescription('Choose a subject to browse available notes, chapter MCQs and past papers. Check each resource before using it for revision.', `${className} study resources`);
 
   return {
     title: buildSeoTitle(`${className} Study Resources & Notes`),
-    description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
+    description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/`),
     },
     openGraph: {
+      images: [DEFAULT_SOCIAL_IMAGE],
       title: buildSeoTitle(`${className} Study Resources & Notes`),
-      description: `Complete study package for ${currentClass.title}. Download solved notes in PDF, attempt interactive MCQs tests, and review board past papers.`,
+      description,
       url: siteUrl(`/classes/${classSlug}/`),
       type: "website",
     },

@@ -36,11 +36,20 @@ jobs:
         run: npm run lint && npm run typecheck && npm test && npm run test:codi && node --test scripts/static-release.test.mjs scripts/home-directory.test.mjs scripts/codi-sentences.test.mjs scripts/codi-audio-cache.test.mjs scripts/codi-storage-cache.test.mjs scripts/learning-workspace.test.mjs scripts/lesson-depth.test.mjs scripts/practice-security.test.mjs scripts/resource-reliability.test.mjs scripts/learning-provider.test.mjs scripts/admin-catalog.test.mjs scripts/english-interface.test.mjs scripts/notes-publishing.test.mjs scripts/multi-class.test.mjs scripts/dit-mcqs.test.mjs
 
       - name: Use Java 21 for local Firestore rules tests
+        # Source-only tests; changing this workflow locally does not authorize a release.
         if: github.event_name != 'repository_dispatch'
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '21'
+
+      - name: Verify SEO metadata, schema, public assets and crawlable links
+        if: github.event_name != 'repository_dispatch'
+        run: npm run test:seo
+
+      - name: Verify public page bundle, cookie consent and accessibility regressions
+        if: github.event_name != 'repository_dispatch'
+        run: npm run test:pagespeed
 
       - name: Restore the tested headless browser
         uses: actions/cache@v4
@@ -68,6 +77,7 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

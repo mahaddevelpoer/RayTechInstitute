@@ -1,5 +1,6 @@
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
+import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
@@ -58,13 +59,14 @@ export async function generateMetadata({
     description,
     keywords: studyResourceKeywords(className, currentSubject.title, [note.chapterTitle]),
     robots: { index: true, follow: true },
-    twitter: { card: 'summary', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [DEFAULT_SOCIAL_IMAGE.url] },
     alternates: {
       canonical: siteUrl(
         `/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`,
       ),
     },
     openGraph: {
+      images: [DEFAULT_SOCIAL_IMAGE],
       title,
       description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`),

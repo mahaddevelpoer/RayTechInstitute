@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { EducationalStore } from '@/data/educationalStore';
+import { INITIAL_VIDEO_MCQS } from '@/data/staticCatalog';
 import { VideoInteractiveMCQ } from '@/types/educational';
 import { Play, CheckCircle2, XCircle, Award, ArrowRight, HelpCircle } from 'lucide-react';
 import { sanitizeUrl } from '@/utils/security';
@@ -43,10 +43,17 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
 
   // Get interactive questions attached to this video
   const [videoMCQs, setVideoMCQs] = useState<VideoInteractiveMCQ[]>([]);
+  const videoMCQsRef = useRef<VideoInteractiveMCQ[]>([]);
+  useEffect(() => { videoMCQsRef.current = videoMCQs; }, [videoMCQs]);
 
   useEffect(() => {
-    const list = EducationalStore.getVideoMCQs(videoId);
-    setVideoMCQs(list);
+    setVideoMCQs(INITIAL_VIDEO_MCQS.filter(question => question.videoId === videoId));
+    if (!window.location.pathname.startsWith('/admin/')) return;
+    let active = true;
+    void import('@/data/educationalStore').then(({ EducationalStore }) => {
+      if (active) setVideoMCQs(EducationalStore.getVideoMCQs(videoId));
+    }).catch(() => { /* The published question snapshot stays available. */ });
+    return () => { active = false; };
   }, [videoId]);
 
   // Load YouTube IFrame API script once
@@ -108,7 +115,7 @@ export const InteractiveVideoPlayer: React.FC<InteractiveVideoPlayerProps> = ({
       const currentTime = Math.floor(playerRef.current.getCurrentTime());
 
       // Check if current time matches any pending MCQ checkpoint
-      const currentMCQs = EducationalStore.getVideoMCQs(videoId);
+      const currentMCQs = videoMCQsRef.current;
       for (const mcq of currentMCQs) {
         if (
           Math.abs(currentTime - mcq.timestampSeconds) <= 1 &&
