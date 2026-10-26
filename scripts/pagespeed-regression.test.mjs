@@ -77,6 +77,8 @@ test('consent is in initial HTML, rejects safely, custom analytics defaults off 
   const rejected = await mount();
   try {
     assert.match(rejected.window.initialConsentHTML, /Cookie and Privacy Consent/);
+    assert.match(rejected.window.initialConsentHTML, /disabled=""/, 'Server-rendered consent controls wait for their event handlers');
+    assert.equal(rejected.window.document.querySelector('button').disabled, false);
     assert.equal(rejected.window.analyticsCalls || 0, 0);
     rejected.window.flushUI(() => [...rejected.window.document.querySelectorAll('button')].find(button => button.textContent.includes('Decline Optional')).click());
     await settle();

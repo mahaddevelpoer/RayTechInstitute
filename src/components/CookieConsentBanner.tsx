@@ -17,6 +17,7 @@ export interface CookiePreferences {
 
 export default function CookieConsentBanner() {
   const [isVisible, setIsVisible] = useState(true);
+  const [isReady, setIsReady] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [analyticsAllowed, setAnalyticsAllowed] = useState(false);
   const [functionalAllowed, setFunctionalAllowed] = useState(true);
@@ -24,6 +25,7 @@ export default function CookieConsentBanner() {
   useEffect(() => {
     // Check if user has already made a choice
     const savedConsent = Cookies.get(COOKIE_CONSENT_KEY);
+    setIsReady(true);
     if (savedConsent) setIsVisible(false);
     if (savedConsent === 'accepted' || savedConsent === 'custom') {
       try {
@@ -111,6 +113,7 @@ export default function CookieConsentBanner() {
             </h2>
             <button
               onClick={() => setIsVisible(false)}
+              disabled={!isReady}
               className="text-slate-400 hover:text-slate-600 p-0.5"
               aria-label="Dismiss banner temporarily"
             >
@@ -141,6 +144,7 @@ export default function CookieConsentBanner() {
                 <input
                   type="checkbox"
                   checked={analyticsAllowed}
+                  disabled={!isReady}
                   aria-label="Allow performance analytics"
                   onChange={(e) => setAnalyticsAllowed(e.target.checked)}
                   className="w-4 h-4 text-navy-600 rounded border-slate-300 focus:ring-navy-500 cursor-pointer"
@@ -155,6 +159,7 @@ export default function CookieConsentBanner() {
                 <input
                   type="checkbox"
                   checked={functionalAllowed}
+                  disabled={!isReady}
                   aria-label="Allow saved preferences"
                   onChange={(e) => setFunctionalAllowed(e.target.checked)}
                   className="w-4 h-4 text-navy-600 rounded border-slate-300 focus:ring-navy-500 cursor-pointer"
@@ -172,6 +177,7 @@ export default function CookieConsentBanner() {
             </Link>
             <button
               onClick={() => setShowDetails(!showDetails)}
+              disabled={!isReady}
               className="text-navy-700 font-semibold hover:underline"
             >
               {showDetails ? 'Hide Options' : 'Customize Preferences'}
@@ -182,6 +188,7 @@ export default function CookieConsentBanner() {
             {showDetails ? (
               <button
                 onClick={handleSavePreferences}
+                disabled={!isReady}
                 className="btn-primary text-xs py-1.5 px-3 flex-1 justify-center"
               >
                 <Check className="w-3.5 h-3.5" />
@@ -191,6 +198,7 @@ export default function CookieConsentBanner() {
               <>
                 <button
                   onClick={handleAcceptAll}
+                  disabled={!isReady}
                   className="btn-primary text-xs py-1.5 px-3 flex-1 justify-center"
                 >
                   <Check className="w-3.5 h-3.5" />
@@ -198,6 +206,7 @@ export default function CookieConsentBanner() {
                 </button>
                 <button
                   onClick={handleRejectNonEssential}
+                  disabled={!isReady}
                   className="btn-secondary text-xs py-1.5 px-3 justify-center"
                 >
                   <span>Decline Optional</span>

@@ -6,6 +6,7 @@ try{
  await page.addInitScript(()=>{window.__spoken=[];window.speechSynthesis.speak=u=>{window.__spoken.push(u.text);u.onstart?.();};window.speechSynthesis.cancel=()=>{};});
  await page.goto(base+'/learn/python/values-names-and-output/',{waitUntil:'domcontentloaded'});
  await page.getByRole('button',{name:'Decline Optional',exact:true}).click();
+ await page.getByRole('complementary',{name:'Cookie and Privacy Consent',exact:true}).waitFor({state:'detached'});
  const copy=page.locator('.lesson-teaching-copy').first();await copy.waitFor();assert.ok(await copy.locator('.lesson-teaching-section').count()>0);
  assert.ok(await copy.locator('p').first().evaluate(e=>parseFloat(getComputedStyle(e).fontSize))>=17);
  assert.equal(await copy.locator('p > .codi-sentence').first().evaluate(e=>getComputedStyle(e).display),'block');
@@ -38,6 +39,7 @@ try{
  const attack=await browser.newPage({viewport:{width:1366,height:900}});let outgoing=0;await attack.route('https://security-canary.invalid/**',route=>{outgoing++;return route.abort();});
  await attack.goto(base+'/learn/javascript/values-and-console-output/',{waitUntil:'domcontentloaded'});
  await attack.getByRole('button',{name:'Decline Optional',exact:true}).click();
+  await attack.getByRole('complementary',{name:'Cookie and Privacy Consent',exact:true}).waitFor({state:'detached'});
  await attack.locator('.cm-content').first().fill('console.log(typeof document);\ntry { await fetch("https://security-canary.invalid/probe"); } catch { console.log("network-blocked"); }\ntry { indexedDB.open("sandbox-probe"); } catch { console.log("storage-blocked"); }');
  await attack.getByRole('button',{name:'Run',exact:true}).click();await attack.waitForFunction(()=>document.querySelector('.learning-output').textContent.includes('storage-blocked'));
  assert.match(await attack.locator('.learning-output').innerText(),/undefined[\s\S]*network-blocked[\s\S]*storage-blocked/);assert.equal(outgoing,0);
