@@ -102,6 +102,32 @@ test('consent is in initial HTML, rejects safely, custom analytics defaults off 
   }
 });
 
+test('theme controls wait for initialization, restore the saved choice and persist the next click', async () => {
+  const result = await build({stdin:{resolveDir:process.cwd(),loader:'tsx',contents:`
+    import React from 'react'; import {createRoot} from 'react-dom/client'; import {renderToString} from 'react-dom/server'; import {flushSync} from 'react-dom';
+    import {ThemeProvider,ThemeToggle} from './src/hooks/useTheme';
+    const app=<ThemeProvider><ThemeToggle/></ThemeProvider>;window.initialThemeHTML=renderToString(app);window.flushUI=flushSync;
+    flushSync(()=>createRoot(document.getElementById('root')).render(app));`},
+    bundle:true,format:'iife',platform:'browser',write:false,define:{'process.env.NODE_ENV':'"production"'},
+  });
+  const dom=new JSDOM('<!doctype html><div id="root"></div>',{url:'https://local.test/',runScripts:'outside-only',pretendToBeVisual:true});
+  dom.window.TextEncoder=TextEncoder;dom.window.TextDecoder=TextDecoder;
+  dom.window.matchMedia=()=>({matches:false,addEventListener(){},removeEventListener(){}});
+  dom.window.localStorage.setItem('raytech_theme','dark');
+  try{
+    dom.window.eval(result.outputFiles[0].text);
+    assert.match(dom.window.initialThemeHTML,/disabled=""/);
+    const end=Date.now()+2000;
+    while(dom.window.document.querySelector('button')?.disabled){assert.ok(Date.now()<end,'Theme initialization stalled');await new Promise(resolve=>setTimeout(resolve,10));}
+    const button=dom.window.document.querySelector('button');
+    assert.equal(button.getAttribute('aria-label'),'Switch to light theme');
+    assert.equal(dom.window.document.documentElement.classList.contains('dark'),true);
+    dom.window.flushUI(()=>button.click());
+    assert.equal(dom.window.document.documentElement.classList.contains('light'),true);
+    assert.equal(dom.window.localStorage.getItem('raytech_theme'),'light');
+  }finally{dom.window.close();}
+});
+
 function luminance(hex) { const rgb = hex.slice(1).match(/../g).map(pair => parseInt(pair,16)/255).map(n => n <= .04045 ? n/12.92 : ((n+.055)/1.055)**2.4); return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2]; }
 function contrast(a,b) { const [bright,dark] = [luminance(a),luminance(b)].sort((x,y)=>y-x); return (bright+.05)/(dark+.05); }
 test('reported footer and workbench text use AA contrast in both themes; heading and subject names are unambiguous', async () => {

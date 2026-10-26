@@ -1,6 +1,6 @@
 import assert from'node:assert/strict';import{chromium}from'playwright';
 import fs from'node:fs/promises';
-const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});const base='https://raytechinstitute.web.app';
+const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true,args:['--renderer-process-limit=1']});const base=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.web.app';
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});
  await page.addInitScript(()=>{window.__spoken=[];window.speechSynthesis.speak=u=>{window.__spoken.push(u.text);u.onstart?.();};window.speechSynthesis.cancel=()=>{};});

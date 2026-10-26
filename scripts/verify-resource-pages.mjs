@@ -1,6 +1,6 @@
 import assert from'node:assert/strict';import fs from'node:fs/promises';import{chromium}from'playwright';import{loadTypescript}from'./load-typescript.mjs';
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
-const base='https://raytechinstitute.web.app';const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true,args:['--renderer-process-limit=1']});
+const base=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.web.app';const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true,args:['--renderer-process-limit=1']});
 const routes=['/','/courses/','/courses/web-development/','/learn/python/','/classes/','/classes/11th-class/','/classes/11th-class/computer-science/','/classes/11th-class/computer-science/notes/','/classes/11th-class/computer-science/mcqs/','/classes/11th-class/computer-science/past-papers/','/results-gazettes/','/blogs/','/privacy-policy/','/terms-and-conditions/','/about/'];
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});const errors=[];let publicDatabaseReads=0;page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.url().includes('.supabase.co/rest/v1/'))publicDatabaseReads++;});

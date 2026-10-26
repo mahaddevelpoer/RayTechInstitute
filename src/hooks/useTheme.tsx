@@ -7,18 +7,21 @@ export type Theme = 'light' | 'dark';
 
 interface ThemeContextType {
   theme: Theme;
+  isReady: boolean;
   toggleTheme: () => void;
   setTheme: (theme: Theme) => void;
 }
 
 const ThemeContext = createContext<ThemeContextType>({
   theme: 'light',
+  isReady: false,
   toggleTheme: () => {},
   setTheme: () => {},
 });
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setThemeState] = useState<Theme>('light');
+  const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
     try {
@@ -36,6 +39,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       setThemeState(preferred);
       applyTheme(preferred);
     }
+    setIsReady(true);
   }, []);
 
   useEffect(() => {
@@ -77,7 +81,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme, isReady }}>
       {children}
     </ThemeContext.Provider>
   );
@@ -86,11 +90,12 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeToggle: React.FC<{ className?: string }> = ({ className = '' }) => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme, isReady } = useTheme();
 
   return (
     <button
       type="button"
+      disabled={!isReady}
       onClick={toggleTheme}
       className={`inline-flex min-h-12 min-w-12 items-center justify-center p-2 rounded-md border border-slate-300 bg-white hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-200 text-slate-700 transition-colors ${className}`}
       title={theme === 'dark' ? 'Switch to Light Theme' : 'Switch to Dark Theme'}
