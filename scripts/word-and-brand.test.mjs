@@ -39,7 +39,7 @@ test('Word chapter transaction preserves 140 existing questions, is rerunnable a
 });
 
 test('logo and icons have real alpha, square delivery sizes, embedded ICO frames and modest header payload',async()=>{
- const hd=await sharp('content/branding/raytech-logo-hd.png').metadata();assert.equal(hd.width,2560);assert.equal(hd.height,2560);assert.equal(hd.hasAlpha,true);
+ const source=await sharp('content/branding/raytech-logo-source.png').metadata();assert.equal(source.width,1254);assert.equal(source.height,1254);assert.equal(source.hasAlpha,true);
  const header=await sharp('public/assets/raytech-logo.webp').metadata();assert.equal(header.width,192);assert.equal(header.height,192);assert.equal(header.hasAlpha,true);assert.ok((await fs.stat('public/assets/raytech-logo.webp')).size<25000);
  for(const [name,size] of [['favicon-16x16.png',16],['favicon-32x32.png',32],['favicon-96x96.png',96],['apple-touch-icon.png',180],['android-chrome-192x192.png',192],['android-chrome-512x512.png',512]]){
   const {data,info}=await sharp('public/'+name).ensureAlpha().raw().toBuffer({resolveWithObject:true});assert.equal(info.width,size);assert.equal(info.height,size);assert.equal(data[3],0);assert.equal(data[(size*size-1)*4+3],0);
