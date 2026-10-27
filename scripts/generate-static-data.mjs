@@ -86,6 +86,7 @@ const map = {
     subjectSlug: m.subject_slug,
     chapterNumber: m.chapter_number,
     topic: m.topic || undefined,
+    createdAt: m.created_at || undefined,
     question: m.question,
     codeSnippet: m.code_snippet || undefined,
     options: m.options,

@@ -1,0 +1,925 @@
+{
+  "sourceFile": "Ms office Chp#1_MCQs.docx",
+  "sourceSha256": "5172aa8a01ef196874c96204c190d475f3a4ec0f7be93b0a73d86a6d135e4de6",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "chapterNumber": 2,
+  "chapterId": "chapter-dit-computer-science-ms-office",
+  "chapterTitle": "MS Office",
+  "sourceChapterNumber": 1,
+  "sourceChapterTitle": "Introduction to Office Automation Software",
+  "languages": [
+    "en",
+    "ur"
+  ],
+  "sourceSections": [
+    "Office Automation (OA)",
+    "Office Automation Software",
+    "Open Source Software",
+    "Proprietary Software",
+    "Microsoft Office 2016",
+    "Microsoft Word Interface"
+  ],
+  "questions": [
+    {
+      "id": "dit-ms-office-ch1-q01",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 1,
+      "sourceSection": "Office Automation (OA)",
+      "question": "A clerk uses a computer to finish repetitive letters faster. What is the main benefit?\nایک کلرک کمپیوٹر سے بار بار خطوط جلد تیار کرتا ہے۔ بنیادی فائدہ کیا ہے؟",
+      "options": [
+        "Less accuracy\nدرستگی میں کمی",
+        "Slower work\nکام میں سستی",
+        "Improved efficiency\nکارکردگی میں اضافہ",
+        "More paperwork\nکاغذی کام میں اضافہ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Improved efficiency\nدرست جواب: کارکردگی میں اضافہ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q02",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 2,
+      "sourceSection": "Office Automation (OA)",
+      "question": "Which task best represents office automation?\nکون سا کام آفس آٹومیشن کی بہترین مثال ہے؟",
+      "options": [
+        "Avoiding computers\nکمپیوٹر سے گریز",
+        "Preparing reports with software\nسافٹ ویئر سے رپورٹس تیار کرنا",
+        "Filing only on paper\nصرف کاغذی فائلنگ",
+        "Writing every copy by hand\nہر نقل ہاتھ سے لکھنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Preparing reports with software\nدرست جواب: سافٹ ویئر سے رپورٹس تیار کرنا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q03",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 3,
+      "sourceSection": "Office Automation (OA)",
+      "question": "Why can automation improve accuracy?\nآٹومیشن درستگی کیوں بڑھا سکتی ہے؟",
+      "options": [
+        "It removes all need for checking\nیہ جانچ کی ضرورت ختم کر دیتی ہے",
+        "It makes typing unnecessary\nیہ ٹائپنگ غیر ضروری بناتی ہے",
+        "It reduces repeated manual errors\nیہ بار بار ہونے والی انسانی غلطیاں کم کرتی ہے",
+        "It always works without data\nیہ ہمیشہ ڈیٹا کے بغیر چلتی ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: It reduces repeated manual errors\nدرست جواب: یہ بار بار ہونے والی انسانی غلطیاں کم کرتی ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q04",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 4,
+      "sourceSection": "Office Automation (OA)",
+      "question": "Which pair is used in office automation?\nآفس آٹومیشن میں کون سی جوڑی استعمال ہوتی ہے؟",
+      "options": [
+        "Furniture and paint\nفرنیچر اور رنگ",
+        "Paper and ink only\nصرف کاغذ اور سیاہی",
+        "Books and shelves only\nصرف کتابیں اور الماریاں",
+        "Hardware and software\nہارڈویئر اور سافٹ ویئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Hardware and software\nدرست جواب: ہارڈویئر اور سافٹ ویئر"
+    },
+    {
+      "id": "dit-ms-office-ch1-q05",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 5,
+      "sourceSection": "Office Automation (OA)",
+      "question": "A company wants to store and retrieve records quickly. What should it use?\nادارہ ریکارڈ جلد محفوظ اور حاصل کرنا چاہتا ہے۔ کیا استعمال کرے؟",
+      "options": [
+        "Unsorted paper piles\nبے ترتیب کاغذ",
+        "Office automation tools\nآفس آٹومیشن کے آلات",
+        "Only handwritten notes\nصرف ہاتھ سے لکھے نوٹس",
+        "No record system\nریکارڈ کا کوئی نظام نہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Office automation tools\nدرست جواب: آفس آٹومیشن کے آلات"
+    },
+    {
+      "id": "dit-ms-office-ch1-q06",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 6,
+      "sourceSection": "Office Automation (OA)",
+      "question": "How does office automation affect teamwork?\nآفس آٹومیشن ٹیم ورک پر کیا اثر ڈالتی ہے؟",
+      "options": [
+        "It requires no planning\nاس میں منصوبہ بندی نہیں چاہیے",
+        "It prevents all communication\nیہ ہر رابطہ روکتی ہے",
+        "It replaces every employee\nیہ ہر ملازم کی جگہ لے لیتی ہے",
+        "It supports sharing and coordination\nیہ معلومات کے تبادلے اور تعاون میں مدد دیتی ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It supports sharing and coordination\nدرست جواب: یہ معلومات کے تبادلے اور تعاون میں مدد دیتی ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q07",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 7,
+      "sourceSection": "Office Automation (OA)",
+      "question": "Which result shows better office productivity?\nکون سا نتیجہ دفتر کی بہتر پیداواری صلاحیت دکھاتا ہے؟",
+      "options": [
+        "More duplicate work\nزیادہ دہرایا ہوا کام",
+        "More work completed in less time\nکم وقت میں زیادہ کام مکمل ہونا",
+        "Lost information\nمعلومات کا ضائع ہونا",
+        "More delays\nزیادہ تاخیر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: More work completed in less time\nدرست جواب: کم وقت میں زیادہ کام مکمل ہونا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q08",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 8,
+      "sourceSection": "Office Automation (OA)",
+      "question": "Why is office automation useful for presentations?\nپریزنٹیشن کے لیے آفس آٹومیشن کیوں مفید ہے؟",
+      "options": [
+        "It removes all images\nیہ تمام تصاویر ہٹا دیتی ہے",
+        "It helps organize information visually\nیہ معلومات کو بصری انداز میں منظم کرتی ہے",
+        "It only prints envelopes\nیہ صرف لفافے چھاپتی ہے",
+        "It cannot display charts\nیہ چارٹ نہیں دکھا سکتی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It helps organize information visually\nدرست جواب: یہ معلومات کو بصری انداز میں منظم کرتی ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q09",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 9,
+      "sourceSection": "Office Automation (OA)",
+      "question": "What should staff do before relying on an automated report?\nخودکار رپورٹ پر انحصار کرنے سے پہلے عملے کو کیا کرنا چاہیے؟",
+      "options": [
+        "Check the input data\nداخل کردہ ڈیٹا کی جانچ",
+        "Delete the source data\nاصل ڈیٹا حذف کرنا",
+        "Ignore mistakes\nغلطیاں نظرانداز کرنا",
+        "Assume every result is correct\nہر نتیجہ درست سمجھنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Check the input data\nدرست جواب: داخل کردہ ڈیٹا کی جانچ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q10",
+      "topic": "Office Automation (OA)",
+      "sourceNumber": 10,
+      "sourceSection": "Office Automation (OA)",
+      "question": "Which statement best describes office automation?\nکون سا بیان آفس آٹومیشن کی درست وضاحت ہے؟",
+      "options": [
+        "Stopping office communication\nدفتری رابطہ بند کرنا",
+        "Using only manual tools\nصرف دستی آلات کا استعمال",
+        "Using technology to simplify office tasks\nدفتری کام آسان بنانے کے لیے ٹیکنالوجی کا استعمال",
+        "Replacing all office furniture\nتمام دفتری فرنیچر بدلنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Using technology to simplify office tasks\nدرست جواب: دفتری کام آسان بنانے کے لیے ٹیکنالوجی کا استعمال"
+    },
+    {
+      "id": "dit-ms-office-ch1-q11",
+      "topic": "Office Automation Software",
+      "sourceNumber": 11,
+      "sourceSection": "Office Automation Software",
+      "question": "Which tool is most suitable for typing a formal letter?\nرسمی خط ٹائپ کرنے کے لیے کون سا ٹول مناسب ہے؟",
+      "options": [
+        "Image viewer only\nصرف تصویر دیکھنے والا پروگرام",
+        "Word processor\nورڈ پروسیسر",
+        "Calculator only\nصرف کیلکولیٹر",
+        "Music player\nمیوزک پلیئر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Word processor\nدرست جواب: ورڈ پروسیسر"
+    },
+    {
+      "id": "dit-ms-office-ch1-q12",
+      "topic": "Office Automation Software",
+      "sourceNumber": 12,
+      "sourceSection": "Office Automation Software",
+      "question": "A teacher needs slides for a lecture. Which software category helps?\nاستاد کو لیکچر کے لیے سلائیڈز چاہییں۔ کون سا سافٹ ویئر مدد دے گا؟",
+      "options": [
+        "Antivirus only\nصرف اینٹی وائرس",
+        "File compressor\nفائل کمپریسر",
+        "Audio recorder only\nصرف آڈیو ریکارڈر",
+        "Presentation software\nپریزنٹیشن سافٹ ویئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Presentation software\nدرست جواب: پریزنٹیشن سافٹ ویئر"
+    },
+    {
+      "id": "dit-ms-office-ch1-q13",
+      "topic": "Office Automation Software",
+      "sourceNumber": 13,
+      "sourceSection": "Office Automation Software",
+      "question": "What is a key purpose of office automation software?\nآفس آٹومیشن سافٹ ویئر کا بنیادی مقصد کیا ہے؟",
+      "options": [
+        "Replace electricity\nبجلی کی جگہ لینا",
+        "Create and manage office information\nدفتری معلومات بنانا اور منظم کرنا",
+        "Repair computer hardware\nکمپیوٹر ہارڈویئر ٹھیک کرنا",
+        "Control traffic lights\nٹریفک سگنل چلانا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Create and manage office information\nدرست جواب: دفتری معلومات بنانا اور منظم کرنا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q14",
+      "topic": "Office Automation Software",
+      "sourceNumber": 14,
+      "sourceSection": "Office Automation Software",
+      "question": "Which task is best handled by spreadsheet software?\nاسپریڈشیٹ سافٹ ویئر کس کام کے لیے موزوں ہے؟",
+      "options": [
+        "Recording only video\nصرف ویڈیو ریکارڈ کرنا",
+        "Painting a wall\nدیوار رنگنا",
+        "Calculating a monthly budget\nماہانہ بجٹ کا حساب",
+        "Scanning fingerprints\nانگلیوں کے نشان اسکین کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Calculating a monthly budget\nدرست جواب: ماہانہ بجٹ کا حساب"
+    },
+    {
+      "id": "dit-ms-office-ch1-q15",
+      "topic": "Office Automation Software",
+      "sourceNumber": 15,
+      "sourceSection": "Office Automation Software",
+      "question": "What makes a suite useful in an office?\nسافٹ ویئر سوٹ دفتر میں کیوں مفید ہے؟",
+      "options": [
+        "It provides several related applications\nیہ کئی متعلقہ پروگرام فراہم کرتا ہے",
+        "It blocks document creation\nیہ دستاویز بننے سے روکتا ہے",
+        "It works without a computer\nیہ کمپیوٹر کے بغیر چلتا ہے",
+        "It includes only one command\nاس میں صرف ایک کمانڈ ہوتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It provides several related applications\nدرست جواب: یہ کئی متعلقہ پروگرام فراہم کرتا ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q16",
+      "topic": "Office Automation Software",
+      "sourceNumber": 16,
+      "sourceSection": "Office Automation Software",
+      "question": "A student edits a document and then prints it. What type of software was used?\nطالب علم دستاویز میں ترمیم کر کے پرنٹ کرتا ہے۔ کون سا سافٹ ویئر استعمال ہوا؟",
+      "options": [
+        "Office automation software\nآفس آٹومیشن سافٹ ویئر",
+        "System firmware only\nصرف سسٹم فرم ویئر",
+        "Network cable\nنیٹ ورک کیبل",
+        "Game engine\nگیم انجن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Office automation software\nدرست جواب: آفس آٹومیشن سافٹ ویئر"
+    },
+    {
+      "id": "dit-ms-office-ch1-q17",
+      "topic": "Office Automation Software",
+      "sourceNumber": 17,
+      "sourceSection": "Office Automation Software",
+      "question": "Which feature helps maintain information in digital form?\nکون سی خصوصیت معلومات کو ڈیجیٹل شکل میں محفوظ رکھنے میں مدد دیتی ہے؟",
+      "options": [
+        "Using only paper\nصرف کاغذ استعمال کرنا",
+        "Removing storage\nاسٹوریج ہٹانا",
+        "Destroying all files\nتمام فائلیں مٹانا",
+        "Saving electronic documents\nالیکٹرانک دستاویزات محفوظ کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Saving electronic documents\nدرست جواب: الیکٹرانک دستاویزات محفوظ کرنا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q18",
+      "topic": "Office Automation Software",
+      "sourceNumber": 18,
+      "sourceSection": "Office Automation Software",
+      "question": "Which is an example of an office application?\nآفس ایپلی کیشن کی مثال کون سی ہے؟",
+      "options": [
+        "Microsoft Word\nمائیکروسافٹ ورڈ",
+        "Power socket\nبجلی کا ساکٹ",
+        "Computer fan\nکمپیوٹر پنکھا",
+        "Keyboard cable\nکی بورڈ کیبل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Microsoft Word\nدرست جواب: مائیکروسافٹ ورڈ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q19",
+      "topic": "Office Automation Software",
+      "sourceNumber": 19,
+      "sourceSection": "Office Automation Software",
+      "question": "Why do offices use presentation applications?\nدفاتر پریزنٹیشن پروگرام کیوں استعمال کرتے ہیں؟",
+      "options": [
+        "To repair monitors\nمانیٹر ٹھیک کرنے کے لیے",
+        "To explain ideas with slides\nخیالات کو سلائیڈز سے سمجھانے کے لیے",
+        "To build furniture\nفرنیچر بنانے کے لیے",
+        "To replace printers\nپرنٹر بدلنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To explain ideas with slides\nدرست جواب: خیالات کو سلائیڈز سے سمجھانے کے لیے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q20",
+      "topic": "Office Automation Software",
+      "sourceNumber": 20,
+      "sourceSection": "Office Automation Software",
+      "question": "What is a practical benefit of digital office documents?\nڈیجیٹل دفتری دستاویزات کا عملی فائدہ کیا ہے؟",
+      "options": [
+        "They always need rewriting\nانہیں ہمیشہ دوبارہ لکھنا پڑتا ہے",
+        "They cannot be corrected\nانہیں درست نہیں کیا جا سکتا",
+        "They contain no text\nان میں متن نہیں ہوتا",
+        "They can be edited and reused\nان میں ترمیم اور دوبارہ استعمال ممکن ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: They can be edited and reused\nدرست جواب: ان میں ترمیم اور دوبارہ استعمال ممکن ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q21",
+      "topic": "Open Source Software",
+      "sourceNumber": 21,
+      "sourceSection": "Open Source Software",
+      "question": "What makes software open source?\nسافٹ ویئر اوپن سورس کب ہوتا ہے؟",
+      "options": [
+        "It cannot be modified\nاس میں تبدیلی نہیں ہو سکتی",
+        "Its source code is available under an open-source license\nاس کا سورس کوڈ اوپن سورس لائسنس کے تحت دستیاب ہوتا ہے",
+        "Its code is always secret\nاس کا کوڈ ہمیشہ خفیہ ہوتا ہے",
+        "It runs only offline\nیہ صرف آف لائن چلتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Its source code is available under an open-source license\nدرست جواب: اس کا سورس کوڈ اوپن سورس لائسنس کے تحت دستیاب ہوتا ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q22",
+      "topic": "Open Source Software",
+      "sourceNumber": 22,
+      "sourceSection": "Open Source Software",
+      "question": "A developer wants to improve program code legally. What should they check?\nڈویلپر قانونی طور پر پروگرام بہتر بنانا چاہتا ہے۔ کیا دیکھے؟",
+      "options": [
+        "Only the icon color\nصرف آئیکن کا رنگ",
+        "The monitor size\nمانیٹر کا سائز",
+        "The keyboard brand\nکی بورڈ کا برانڈ",
+        "The open-source license terms\nاوپن سورس لائسنس کی شرائط"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: The open-source license terms\nدرست جواب: اوپن سورس لائسنس کی شرائط"
+    },
+    {
+      "id": "dit-ms-office-ch1-q23",
+      "topic": "Open Source Software",
+      "sourceNumber": 23,
+      "sourceSection": "Open Source Software",
+      "question": "Which program is named as an open-source office example in the text?\nکتاب میں اوپن سورس آفس پروگرام کی کون سی مثال ہے؟",
+      "options": [
+        "Windows license key\nونڈوز لائسنس کی",
+        "Printer driver cable\nپرنٹر ڈرائیور کیبل",
+        "LibreOffice\nلائبر آفس",
+        "Microsoft Office 2016\nمائیکروسافٹ آفس 2016"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: LibreOffice\nدرست جواب: لائبر آفس"
+    },
+    {
+      "id": "dit-ms-office-ch1-q24",
+      "topic": "Open Source Software",
+      "sourceNumber": 24,
+      "sourceSection": "Open Source Software",
+      "question": "What is a benefit of publicly available source code?\nعوامی طور پر دستیاب سورس کوڈ کا فائدہ کیا ہے؟",
+      "options": [
+        "It cannot be shared\nاسے شیئر نہیں کیا جا سکتا",
+        "Developers can study and improve it\nڈویلپر اسے سمجھ کر بہتر بنا سکتے ہیں",
+        "It never needs updates\nاسے کبھی اپ ڈیٹ نہیں چاہیے",
+        "No one can inspect it\nکوئی اسے دیکھ نہیں سکتا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Developers can study and improve it\nدرست جواب: ڈویلپر اسے سمجھ کر بہتر بنا سکتے ہیں"
+    },
+    {
+      "id": "dit-ms-office-ch1-q25",
+      "topic": "Open Source Software",
+      "sourceNumber": 25,
+      "sourceSection": "Open Source Software",
+      "question": "Which statement about open source is most accurate?\nاوپن سورس کے بارے میں کون سا بیان زیادہ درست ہے؟",
+      "options": [
+        "Source code is never available\nسورس کوڈ کبھی دستیاب نہیں ہوتا",
+        "Use and redistribution depend on license terms\nاستعمال اور تقسیم لائسنس کی شرائط کے مطابق ہوتے ہیں",
+        "It is always proprietary\nیہ ہمیشہ ملکیتی ہوتا ہے",
+        "All software is automatically open source\nہر سافٹ ویئر خود بخود اوپن سورس ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Use and redistribution depend on license terms\nدرست جواب: استعمال اور تقسیم لائسنس کی شرائط کے مطابق ہوتے ہیں"
+    },
+    {
+      "id": "dit-ms-office-ch1-q26",
+      "topic": "Open Source Software",
+      "sourceNumber": 26,
+      "sourceSection": "Open Source Software",
+      "question": "Why can programmers collaborate on open-source projects?\nپروگرامرز اوپن سورس منصوبوں میں تعاون کیوں کر سکتے ہیں؟",
+      "options": [
+        "Code is locked permanently\nکوڈ ہمیشہ بند ہوتا ہے",
+        "They can access and contribute to code\nوہ کوڈ دیکھ کر اس میں حصہ ڈال سکتے ہیں",
+        "Computers are unnecessary\nکمپیوٹر کی ضرورت نہیں",
+        "Changes are impossible\nتبدیلی ناممکن ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: They can access and contribute to code\nدرست جواب: وہ کوڈ دیکھ کر اس میں حصہ ڈال سکتے ہیں"
+    },
+    {
+      "id": "dit-ms-office-ch1-q27",
+      "topic": "Open Source Software",
+      "sourceNumber": 27,
+      "sourceSection": "Open Source Software",
+      "question": "Which choice best fits an open-source office suite?\nاوپن سورس آفس سوٹ کی کون سی مثال درست ہے؟",
+      "options": [
+        "A mouse\nماؤس",
+        "OpenOffice\nاوپن آفس",
+        "A scanner\nاسکینر",
+        "A USB cable\nیو ایس بی کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: OpenOffice\nدرست جواب: اوپن آفس"
+    },
+    {
+      "id": "dit-ms-office-ch1-q28",
+      "topic": "Open Source Software",
+      "sourceNumber": 28,
+      "sourceSection": "Open Source Software",
+      "question": "If source code can be examined, what can users potentially verify?\nاگر سورس کوڈ دیکھا جا سکے تو صارف کیا جانچ سکتے ہیں؟",
+      "options": [
+        "How the program works\nپروگرام کیسے کام کرتا ہے",
+        "The physical weight of a laptop\nلیپ ٹاپ کا وزن",
+        "The color of a desk\nمیز کا رنگ",
+        "The price of paper\nکاغذ کی قیمت"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: How the program works\nدرست جواب: پروگرام کیسے کام کرتا ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q29",
+      "topic": "Open Source Software",
+      "sourceNumber": 29,
+      "sourceSection": "Open Source Software",
+      "question": "What does modifying open-source software mean?\nاوپن سورس سافٹ ویئر میں تبدیلی کا کیا مطلب ہے؟",
+      "options": [
+        "Changing its source code under license rules\nلائسنس کے مطابق سورس کوڈ بدلنا",
+        "Replacing the keyboard\nکی بورڈ بدلنا",
+        "Only renaming a folder\nصرف فولڈر کا نام بدلنا",
+        "Switching off the screen\nاسکرین بند کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Changing its source code under license rules\nدرست جواب: لائسنس کے مطابق سورس کوڈ بدلنا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q30",
+      "topic": "Open Source Software",
+      "sourceNumber": 30,
+      "sourceSection": "Open Source Software",
+      "question": "What is the best contrast with proprietary software?\nملکیتی سافٹ ویئر کے مقابلے میں بنیادی فرق کیا ہے؟",
+      "options": [
+        "Open source has no applications\nاوپن سورس کی کوئی ایپلی کیشن نہیں",
+        "Open source provides source-code access under its license\nاوپن سورس میں لائسنس کے تحت سورس کوڈ تک رسائی ہوتی ہے",
+        "Both are hardware\nدونوں ہارڈویئر ہیں",
+        "Proprietary code is always public\nملکیتی کوڈ ہمیشہ عوامی ہوتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Open source provides source-code access under its license\nدرست جواب: اوپن سورس میں لائسنس کے تحت سورس کوڈ تک رسائی ہوتی ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q31",
+      "topic": "Proprietary Software",
+      "sourceNumber": 31,
+      "sourceSection": "Proprietary Software",
+      "question": "Who generally controls proprietary software licenses?\nملکیتی سافٹ ویئر کے لائسنس کو عموماً کون کنٹرول کرتا ہے؟",
+      "options": [
+        "The software owner or company\nسافٹ ویئر کا مالک یا کمپنی",
+        "The printer manufacturer always\nہمیشہ پرنٹر بنانے والا",
+        "Every user equally\nتمام صارفین برابر",
+        "The electricity provider\nبجلی فراہم کرنے والا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The software owner or company\nدرست جواب: سافٹ ویئر کا مالک یا کمپنی"
+    },
+    {
+      "id": "dit-ms-office-ch1-q32",
+      "topic": "Proprietary Software",
+      "sourceNumber": 32,
+      "sourceSection": "Proprietary Software",
+      "question": "Why must users follow proprietary license terms?\nصارفین کو ملکیتی لائسنس کی شرائط کیوں ماننی چاہییں؟",
+      "options": [
+        "There are no usage rules\nاستعمال کے کوئی اصول نہیں",
+        "The owner sets permitted uses\nمالک جائز استعمال کی حدود طے کرتا ہے",
+        "The code belongs to everyone\nکوڈ سب کی ملکیت ہے",
+        "A license is hardware\nلائسنس ہارڈویئر ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: The owner sets permitted uses\nدرست جواب: مالک جائز استعمال کی حدود طے کرتا ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q33",
+      "topic": "Proprietary Software",
+      "sourceNumber": 33,
+      "sourceSection": "Proprietary Software",
+      "question": "Which is the textbook example of proprietary office software?\nکتاب میں ملکیتی آفس سافٹ ویئر کی مثال کون سی ہے؟",
+      "options": [
+        "LibreOffice\nلائبر آفس",
+        "OpenOffice\nاوپن آفس",
+        "A keyboard\nکی بورڈ",
+        "Microsoft Office\nمائیکروسافٹ آفس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Microsoft Office\nدرست جواب: مائیکروسافٹ آفس"
+    },
+    {
+      "id": "dit-ms-office-ch1-q34",
+      "topic": "Proprietary Software",
+      "sourceNumber": 34,
+      "sourceSection": "Proprietary Software",
+      "question": "A user cannot legally redistribute a program freely. What may explain this?\nصارف پروگرام آزادانہ تقسیم نہیں کر سکتا۔ وجہ کیا ہو سکتی ہے؟",
+      "options": [
+        "Its proprietary license restricts redistribution\nاس کا ملکیتی لائسنس تقسیم محدود کرتا ہے",
+        "It uses a mouse\nیہ ماؤس استعمال کرتا ہے",
+        "It has no files\nاس میں فائلیں نہیں",
+        "It has a title bar\nاس میں ٹائٹل بار ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Its proprietary license restricts redistribution\nدرست جواب: اس کا ملکیتی لائسنس تقسیم محدود کرتا ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q35",
+      "topic": "Proprietary Software",
+      "sourceNumber": 35,
+      "sourceSection": "Proprietary Software",
+      "question": "Which statement best describes proprietary source code?\nملکیتی سورس کوڈ کی درست وضاحت کیا ہے؟",
+      "options": [
+        "It must always be public\nیہ ہمیشہ عوامی ہونا چاہیے",
+        "It is a spreadsheet cell\nیہ اسپریڈشیٹ سیل ہے",
+        "It is printed on the keyboard\nیہ کی بورڈ پر چھپا ہوتا ہے",
+        "It is usually not publicly shared\nیہ عموماً عوام کے لیے دستیاب نہیں ہوتا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It is usually not publicly shared\nدرست جواب: یہ عموماً عوام کے لیے دستیاب نہیں ہوتا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q36",
+      "topic": "Proprietary Software",
+      "sourceNumber": 36,
+      "sourceSection": "Proprietary Software",
+      "question": "Who typically provides official updates for proprietary software?\nملکیتی سافٹ ویئر کی سرکاری اپ ڈیٹس عموماً کون دیتا ہے؟",
+      "options": [
+        "The paper supplier\nکاغذ فراہم کرنے والا",
+        "Any random document\nکوئی بھی دستاویز",
+        "The vendor or authorized provider\nکمپنی یا مجاز فراہم کنندہ",
+        "The office chair\nدفتر کی کرسی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: The vendor or authorized provider\nدرست جواب: کمپنی یا مجاز فراہم کنندہ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q37",
+      "topic": "Proprietary Software",
+      "sourceNumber": 37,
+      "sourceSection": "Proprietary Software",
+      "question": "A company owns a program and limits copying. Which category fits?\nکمپنی پروگرام کی مالک ہے اور نقل محدود کرتی ہے۔ یہ کون سی قسم ہے؟",
+      "options": [
+        "Free electricity\nمفت بجلی",
+        "Public-domain paper\nعوامی کاغذ",
+        "Proprietary software\nملکیتی سافٹ ویئر",
+        "Open-source hardware\nاوپن سورس ہارڈویئر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Proprietary software\nدرست جواب: ملکیتی سافٹ ویئر"
+    },
+    {
+      "id": "dit-ms-office-ch1-q38",
+      "topic": "Proprietary Software",
+      "sourceNumber": 38,
+      "sourceSection": "Proprietary Software",
+      "question": "What should an organization check before installing licensed software on many PCs?\nکئی کمپیوٹروں پر لائسنس یافتہ سافٹ ویئر لگانے سے پہلے کیا دیکھنا چاہیے؟",
+      "options": [
+        "Size of windows\nکھڑکیوں کا سائز",
+        "Type of wall paint\nدیوار کے رنگ کی قسم",
+        "Number of permitted installations\nاجازت یافتہ انسٹالیشنز کی تعداد",
+        "Color of each desk\nہر میز کا رنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Number of permitted installations\nدرست جواب: اجازت یافتہ انسٹالیشنز کی تعداد"
+    },
+    {
+      "id": "dit-ms-office-ch1-q39",
+      "topic": "Proprietary Software",
+      "sourceNumber": 39,
+      "sourceSection": "Proprietary Software",
+      "question": "What is a common distinction between proprietary and open-source software?\nملکیتی اور اوپن سورس میں عام فرق کیا ہے؟",
+      "options": [
+        "Access and redistribution rights differ by license\nرسائی اور تقسیم کے حقوق لائسنس کے مطابق مختلف ہوتے ہیں",
+        "Only one can create documents\nصرف ایک دستاویز بنا سکتا ہے",
+        "Neither uses software code\nدونوں کوڈ استعمال نہیں کرتے",
+        "Both are always free of restrictions\nدونوں ہمیشہ پابندیوں سے آزاد ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Access and redistribution rights differ by license\nدرست جواب: رسائی اور تقسیم کے حقوق لائسنس کے مطابق مختلف ہوتے ہیں"
+    },
+    {
+      "id": "dit-ms-office-ch1-q40",
+      "topic": "Proprietary Software",
+      "sourceNumber": 40,
+      "sourceSection": "Proprietary Software",
+      "question": "Does paying for software automatically give ownership of its source code?\nکیا سافٹ ویئر خریدنے سے اس کے سورس کوڈ کی ملکیت مل جاتی ہے؟",
+      "options": [
+        "No, a license usually grants usage rights\nنہیں، لائسنس عموماً استعمال کا حق دیتا ہے",
+        "Only when offline\nصرف آف لائن ہونے پر",
+        "Only if the monitor is large\nصرف بڑے مانیٹر پر",
+        "Yes, always\nجی ہاں، ہمیشہ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: No, a license usually grants usage rights\nدرست جواب: نہیں، لائسنس عموماً استعمال کا حق دیتا ہے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q41",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 41,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "Which application is most suitable for a written assignment?\nتحریری اسائنمنٹ کے لیے کون سی ایپ مناسب ہے؟",
+      "options": [
+        "Microsoft Excel\nمائیکروسافٹ ایکسل",
+        "Microsoft Word\nمائیکروسافٹ ورڈ",
+        "Microsoft Access\nمائیکروسافٹ ایکسس",
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Microsoft Word\nدرست جواب: مائیکروسافٹ ورڈ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q42",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 42,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "A shop needs to calculate totals for sales. Which Office app fits best?\nدکان کو فروخت کے کل حساب کرنے ہیں۔ کون سی آفس ایپ مناسب ہے؟",
+      "options": [
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک",
+        "Microsoft Word\nمائیکروسافٹ ورڈ",
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ",
+        "Microsoft Excel\nمائیکروسافٹ ایکسل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Microsoft Excel\nدرست جواب: مائیکروسافٹ ایکسل"
+    },
+    {
+      "id": "dit-ms-office-ch1-q43",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 43,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "A student wants to present a topic on slides. Which app should be used?\nطالب علم موضوع سلائیڈز میں پیش کرنا چاہتا ہے۔ کون سی ایپ استعمال ہو؟",
+      "options": [
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ",
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک",
+        "Microsoft Excel\nمائیکروسافٹ ایکسل",
+        "Microsoft Access\nمائیکروسافٹ ایکسس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Microsoft PowerPoint\nدرست جواب: مائیکروسافٹ پاورپوائنٹ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q44",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 44,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "Which application is designed to manage structured databases?\nمنظم ڈیٹابیس کے لیے کون سی ایپ بنائی گئی ہے؟",
+      "options": [
+        "Microsoft Word\nمائیکروسافٹ ورڈ",
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ",
+        "Microsoft Access\nمائیکروسافٹ ایکسس",
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Microsoft Access\nدرست جواب: مائیکروسافٹ ایکسس"
+    },
+    {
+      "id": "dit-ms-office-ch1-q45",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 45,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "Why is Office 2016 called a suite?\nآفس 2016 کو سوٹ کیوں کہتے ہیں؟",
+      "options": [
+        "It is a computer part\nیہ کمپیوٹر کا پرزہ ہے",
+        "It is only a single file\nیہ صرف ایک فائل ہے",
+        "It is only a keyboard\nیہ صرف کی بورڈ ہے",
+        "It contains multiple office applications\nاس میں کئی دفتری پروگرام شامل ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It contains multiple office applications\nدرست جواب: اس میں کئی دفتری پروگرام شامل ہیں"
+    },
+    {
+      "id": "dit-ms-office-ch1-q46",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 46,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "Which Office application is commonly used for email?\nای میل کے لیے کون سی آفس ایپ عام طور پر استعمال ہوتی ہے؟",
+      "options": [
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ",
+        "Microsoft Access\nمائیکروسافٹ ایکسس",
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک",
+        "Microsoft Excel\nمائیکروسافٹ ایکسل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Microsoft Outlook\nدرست جواب: مائیکروسافٹ آؤٹ لک"
+    },
+    {
+      "id": "dit-ms-office-ch1-q47",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 47,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "What is the most suitable Office tool for a budget chart?\nبجٹ چارٹ بنانے کے لیے کون سا آفس ٹول موزوں ہے؟",
+      "options": [
+        "Microsoft Word only\nصرف مائیکروسافٹ ورڈ",
+        "Microsoft Excel\nمائیکروسافٹ ایکسل",
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک",
+        "Microsoft Access only\nصرف مائیکروسافٹ ایکسس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Microsoft Excel\nدرست جواب: مائیکروسافٹ ایکسل"
+    },
+    {
+      "id": "dit-ms-office-ch1-q48",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 48,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "Which application would help create a printed notice?\nپرنٹ شدہ نوٹس بنانے میں کون سی ایپ مدد دے گی؟",
+      "options": [
+        "Microsoft Excel only\nصرف مائیکروسافٹ ایکسل",
+        "Microsoft Word\nمائیکروسافٹ ورڈ",
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک",
+        "Microsoft Access\nمائیکروسافٹ ایکسس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Microsoft Word\nدرست جواب: مائیکروسافٹ ورڈ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q49",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 49,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "A teacher wants a slideshow with pictures and text. Which is the direct choice?\nاستاد تصاویر اور متن والی سلائیڈ شو بنانا چاہتا ہے۔ کون سا انتخاب درست ہے؟",
+      "options": [
+        "Microsoft Excel\nمائیکروسافٹ ایکسل",
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ",
+        "Microsoft Access\nمائیکروسافٹ ایکسس",
+        "Microsoft Outlook\nمائیکروسافٹ آؤٹ لک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Microsoft PowerPoint\nدرست جواب: مائیکروسافٹ پاورپوائنٹ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q50",
+      "topic": "Microsoft Office 2016",
+      "sourceNumber": 50,
+      "sourceSection": "Microsoft Office 2016",
+      "question": "What do Word, Excel, and PowerPoint have in common?\nورڈ، ایکسل اور پاورپوائنٹ میں کیا مشترک ہے؟",
+      "options": [
+        "They are operating systems\nیہ آپریٹنگ سسٹمز ہیں",
+        "They are all web browsers\nیہ سب ویب براؤزر ہیں",
+        "They are physical devices\nیہ جسمانی آلات ہیں",
+        "They are applications in the Office suite\nیہ آفس سوٹ کی ایپلی کیشنز ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: They are applications in the Office suite\nدرست جواب: یہ آفس سوٹ کی ایپلی کیشنز ہیں"
+    },
+    {
+      "id": "dit-ms-office-ch1-q51",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 51,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Where is the Ribbon normally located in Word?\nورڈ میں ربن عموماً کہاں ہوتا ہے؟",
+      "options": [
+        "Inside the document text\nدستاویز کے متن کے اندر",
+        "Outside the program\nپروگرام سے باہر",
+        "Below the title bar\nٹائٹل بار کے نیچے",
+        "Only at the bottom\nصرف نیچے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Below the title bar\nدرست جواب: ٹائٹل بار کے نیچے"
+    },
+    {
+      "id": "dit-ms-office-ch1-q52",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 52,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which interface element groups commands into tabs?\nکون سا حصہ کمانڈز کو ٹیبز میں منظم کرتا ہے؟",
+      "options": [
+        "Ribbon\nربن",
+        "Page margin\nصفحے کا حاشیہ",
+        "Document area\nڈاکومنٹ ایریا",
+        "Status bar\nاسٹیٹس بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ribbon\nدرست جواب: ربن"
+    },
+    {
+      "id": "dit-ms-office-ch1-q53",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 53,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Where does the user type the main document content?\nصارف دستاویز کا اصل متن کہاں لکھتا ہے؟",
+      "options": [
+        "Status bar\nاسٹیٹس بار",
+        "Document area\nڈاکومنٹ ایریا",
+        "Quick Access Toolbar\nکوئیک ایکسس ٹول بار",
+        "Title bar\nٹائٹل بار"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Document area\nدرست جواب: ڈاکومنٹ ایریا"
+    },
+    {
+      "id": "dit-ms-office-ch1-q54",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 54,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Where can you usually see the current page number?\nموجودہ صفحہ نمبر عموماً کہاں نظر آتا ہے؟",
+      "options": [
+        "Title bar only\nصرف ٹائٹل بار",
+        "Status bar\nاسٹیٹس بار",
+        "Font group\nفونٹ گروپ",
+        "Clipboard group\nکلپ بورڈ گروپ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Status bar\nدرست جواب: اسٹیٹس بار"
+    },
+    {
+      "id": "dit-ms-office-ch1-q55",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 55,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which command reverses the last action?\nآخری عمل واپس لینے والی کمانڈ کون سی ہے؟",
+      "options": [
+        "Save\nسیو",
+        "Redo\nری ڈو",
+        "Undo\nان ڈو",
+        "Print\nپرنٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Undo\nدرست جواب: ان ڈو"
+    },
+    {
+      "id": "dit-ms-office-ch1-q56",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 56,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which command repeats an action that was undone?\nواپس لیے گئے عمل کو دوبارہ کرنے والی کمانڈ کون سی ہے؟",
+      "options": [
+        "Undo\nان ڈو",
+        "Redo\nری ڈو",
+        "Save\nسیو",
+        "Close\nکلوز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Redo\nدرست جواب: ری ڈو"
+    },
+    {
+      "id": "dit-ms-office-ch1-q57",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 57,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which Ribbon group is used to change text size and style?\nمتن کا سائز اور انداز بدلنے کے لیے کون سا ربن گروپ ہے؟",
+      "options": [
+        "Editing\nایڈیٹنگ",
+        "Status bar\nاسٹیٹس بار",
+        "Font\nفونٹ",
+        "Clipboard\nکلپ بورڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Font\nدرست جواب: فونٹ"
+    },
+    {
+      "id": "dit-ms-office-ch1-q58",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 58,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which group helps create numbered or bulleted lists?\nنمبر والی یا بلٹ لسٹ بنانے میں کون سا گروپ مدد دیتا ہے؟",
+      "options": [
+        "Status bar\nاسٹیٹس بار",
+        "Title bar\nٹائٹل بار",
+        "Paragraph\nپیراگراف",
+        "Clipboard\nکلپ بورڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Paragraph\nدرست جواب: پیراگراف"
+    },
+    {
+      "id": "dit-ms-office-ch1-q59",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 59,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which command stores the current document changes?\nدستاویز میں کی گئی تبدیلیاں محفوظ کرنے والی کمانڈ کون سی ہے؟",
+      "options": [
+        "Save\nسیو",
+        "Undo\nان ڈو",
+        "Find\nفائنڈ",
+        "Replace\nریپلیس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Save\nدرست جواب: سیو"
+    },
+    {
+      "id": "dit-ms-office-ch1-q60",
+      "topic": "Microsoft Word Interface",
+      "sourceNumber": 60,
+      "sourceSection": "Microsoft Word Interface",
+      "question": "Which control changes the document's viewing magnification?\nدستاویز کو بڑا یا چھوٹا دیکھنے کے لیے کون سا کنٹرول ہے؟",
+      "options": [
+        "Clipboard\nکلپ بورڈ",
+        "Font color\nفونٹ کلر",
+        "Zoom slider\nزوم سلائیڈر",
+        "Ribbon tab\nربن ٹیب"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Zoom slider\nدرست جواب: زوم سلائیڈر"
+    }
+  ]
+}

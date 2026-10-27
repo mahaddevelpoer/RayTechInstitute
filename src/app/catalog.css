@@ -54,3 +54,11 @@
 .mcq-active-topic { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.75rem; margin-bottom:1rem; color:var(--text-sub); font-size:.9rem; }.mcq-active-topic button { color:var(--primary); text-decoration:underline; }
 .mcq-topic-picker>.btn-outline { background:var(--bg-card); color:var(--text-main); border-color:var(--border); }
 @media(max-width:767px) { .mcq-topic-grid { grid-template-columns:1fr; } }
+:root { --topic-new-bg:#fffbeb; --topic-new-hover:#fef3c7; --topic-new-text:#78350f; --topic-new-border:#b45309; }
+html.dark { --topic-new-bg:#302513; --topic-new-hover:#3b2e16; --topic-new-text:#fde68a; --topic-new-border:#b88731; }
+.mcq-topic-grid>button { position:relative; }
+.mcq-topic-grid strong { padding-inline-end:1.75rem; }
+.mcq-topic-age { position:absolute; top:.4rem; right:.6rem; font-size:.65rem; font-weight:750; color:var(--topic-new-text); }
+.mcq-topic-grid>button[data-new="true"] { border-color:var(--topic-new-border); background:var(--topic-new-bg); }
+.mcq-topic-grid>button[data-new="true"] :is(strong,.mcq-topic-number) { color:var(--topic-new-text); }
+.mcq-topic-grid>button[data-new="true"]:hover { background:var(--topic-new-hover); }

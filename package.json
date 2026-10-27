@@ -19,6 +19,7 @@
     "audit:seo": "node scripts/audit-seo.mjs",
     "test:seo": "node --test scripts/seo-readiness.test.mjs scripts/seo-export-gate.test.mjs",
     "test:pagespeed": "node --max-old-space-size=384 --test --test-concurrency=1 scripts/pagespeed-regression.test.mjs",
+    "test:office-mcqs": "node --max-old-space-size=384 --test --test-concurrency=1 scripts/office-mcqs.test.mjs scripts/dit-mcqs.test.mjs",
     "start": "node scripts/preview-static.mjs",
     "lint": "node scripts/lint-project.mjs",
     "typecheck": "tsc --noEmit --noUnusedLocals --noUnusedParameters",

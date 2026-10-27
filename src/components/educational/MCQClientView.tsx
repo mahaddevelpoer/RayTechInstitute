@@ -20,6 +20,7 @@ import {
 } from "@/data/educationalStore";
 import { MCQItem } from "@/types/educational";
 import { BilingualText } from './BilingualText';
+import { isRecentTopic, nextTopicExpiry } from '@/utils/topic-freshness';
 
 interface MCQClientViewProps {
   classSlug: string;
@@ -77,6 +78,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   const [topicPickerOpen, setTopicPickerOpen] = useState(() => singleTopicChapter(mcqs) !== "all");
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
+  const [currentTime, setCurrentTime] = useState<number | null>(null);
   const currentClass = INITIAL_CLASSES.find((item) => item.slug === classSlug);
   const currentSubject = INITIAL_SUBJECTS.find(
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
@@ -94,6 +96,25 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
     setSelectedTopic(null);
     setTopicPickerOpen(singleTopicChapter(nextMCQs) !== "all");
   }, [classSlug, subjectSlug]);
+
+  useEffect(() => {
+    let timer: number | undefined;
+    const refresh = () => {
+      if (timer !== undefined) window.clearTimeout(timer);
+      const now = Date.now();
+      setCurrentTime(now);
+      const expiry = nextTopicExpiry(mcqs, now);
+      if (expiry !== null) timer = window.setTimeout(refresh, expiry - now);
+    };
+    refresh();
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', refresh);
+    return () => {
+      if (timer !== undefined) window.clearTimeout(timer);
+      window.removeEventListener('focus', refresh);
+      document.removeEventListener('visibilitychange', refresh);
+    };
+  }, [mcqs]);
 
   const chapterCatalog = useMemo(() => {
     const named = INITIAL_CHAPTERS.filter(
@@ -128,6 +149,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   const chapterQuestions = (chapter: number | "all") => chapter === "all" ? mcqs : mcqs.filter(item => item.chapterNumber === chapter);
   const topicGroups = Array.from(new Set(chapterQuestions(selectedChapter).map(item => item.topic?.trim() || ""))).map(topic => ({
     topic, title: topic || "General chapter questions", count: chapterQuestions(selectedChapter).filter(item => (item.topic?.trim() || "") === topic).length,
+    isNew: currentTime !== null && isRecentTopic(chapterQuestions(selectedChapter).filter(item => (item.topic?.trim() || "") === topic), currentTime),
   }));
   const startQuiz = (chapter: number | "all" = selectedChapter, topic: string | null = null) => {
     const chapterSource =
@@ -269,7 +291,8 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 <p>Chapter {selectedChapter}: {chapterCatalog.find(chapter => chapter.chapterNumber === selectedChapter)?.title}. Practise one topic at a time.</p>
                 <div className="mcq-topic-grid">
                   {topicGroups.map((group, index) => (
-                    <button key={group.topic} type="button" onClick={() => startQuiz(selectedChapter, group.topic)}>
+                    <button key={group.topic} type="button" data-new={group.isNew || undefined} onClick={() => startQuiz(selectedChapter, group.topic)}>
+                      <span className="mcq-topic-age" aria-hidden={!group.isNew}>{group.isNew ? 'New' : ''}</span>
                       <span className="mcq-topic-number">{index + 1}</span>
                       <span><strong>{group.title}</strong><span className="mcq-topic-count">{group.count} MCQs · Topic practice</span></span>
                       <ChevronRight aria-hidden="true" className="h-5 w-5" />

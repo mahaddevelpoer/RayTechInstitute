@@ -63,5 +63,28 @@ try{
   const pdf=await page.request.get(note.pdfUrl);assert.equal(pdf.status(),200);assert.match(pdf.headers()['content-type'],/application\/pdf/);assert.ok((await pdf.body()).subarray(0,5).equals(Buffer.from('%PDF-')));
   assert.ok((await(await page.request.get(base+'/sitemap.xml')).text()).includes(base+detailPath));console.log('[dit-note] Chapter 1 note, PDF bytes, canonical URL, keywords, LearningResource schema and sitemap passed. No preview label.');
  }
+ const officeBank=(STATIC_OVERRIDES.mcqs||[]).filter(q=>q.id.startsWith('dit-ms-office-ch1-'));
+ if(officeBank.length){
+  assert.equal(officeBank.length,60);assert.ok(officeBank.every(q=>q.chapterNumber===2));
+  const officeChapter=(STATIC_OVERRIDES.chapters||[]).find(chapter=>chapter.id==='chapter-dit-computer-science-ms-office');assert.equal(officeChapter?.title,'MS Office');
+  await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>{const toggle=document.querySelector('.site-header button[aria-label^="Switch to"]');return toggle&&!toggle.disabled;});
+  await page.getByRole('button',{name:/Chapter 2: MS Office/}).click();assert.equal(await page.locator('.mcq-topic-grid>button').count(),6);
+  const {isRecentTopic}=await loadTypescript('src/utils/topic-freshness.ts');
+  const topics=Array.from(new Set(officeBank.map(q=>q.topic)));
+  for(const topic of topics){
+   const questions=officeBank.filter(q=>q.topic===topic);assert.equal(questions.length,10);
+   const card=page.locator('.mcq-topic-grid>button').filter({has:page.getByText(topic,{exact:true})});
+   assert.equal(await card.getAttribute('data-new'),isRecentTopic(questions,Date.now())?'true':null);
+   await card.click();const seen=new Set();
+   for(let index=0;index<10;index++){
+    assert.ok(!(await page.locator('.mcq-page').innerText()).includes('Correct answer:'));
+    const text=await page.locator('.mcq-page h2 .bilingual-line[lang="en"]').innerText();const item=questions.find(q=>q.question.split('\n')[0]===text);assert.ok(item);assert.ok(!seen.has(item.id));seen.add(item.id);
+    const answer=item.options[item.correctIndex].split('\n')[0];await page.locator('.mcq-page button[aria-pressed]').filter({has:page.getByText(answer,{exact:true})}).click();await page.getByRole('button',{name:index===9?'View Result':'Next',exact:true}).click();
+   }
+   assert.match(await page.locator('.mcq-page').innerText(),/Your score:\s*10\s*\/\s*10/);await page.getByRole('button',{name:'Choose another topic',exact:true}).click();
+  }
+  console.log('[office-mcqs] Chapter 2 has all six source topics; sixty shuffled bilingual questions scored correctly. Golden status follows original creation timestamps.');
+ }
  assert.deepEqual(errors,[]);assert.equal(publicDatabaseReads,0);console.log(`[resource-pages] ${routes.length} routes passed in desktop light and mobile charcoal; Python topic count and published video placement matched the catalog. Study strip motion, pause, keyboard access and reduced motion passed. No public database reads.`);
 }finally{await browser.close();}

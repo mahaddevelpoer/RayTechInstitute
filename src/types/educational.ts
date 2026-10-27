@@ -50,6 +50,7 @@ export interface MCQItem {
   subjectSlug: string;
   chapterNumber: number;
   topic?: string;
+  createdAt?: string; // Original database creation time; editing does not reset topic freshness.
   question: string;
   codeSnippet?: string;
   options: [string, string, string, string];

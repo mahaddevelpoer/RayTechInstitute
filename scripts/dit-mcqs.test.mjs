@@ -10,10 +10,12 @@ import {renderToStaticMarkup} from 'react-dom/server';
 import {JSDOM} from 'jsdom';
 import {loadTypescript} from './load-typescript.mjs';
 const bank=JSON.parse(await fs.readFile('content/imports/dit-computer-networks-chapter-1.json','utf8'));
+const officeBank=JSON.parse(await fs.readFile('content/imports/dit-ms-office-chapter-1.json','utf8'));
 const keys=['CABBCCBABC','DDDBDCBDBC','ABBBCBDDAB','CBB CDBDBCC'.replaceAll(' ',''),'BDDDBCACCA','ABADDC DABC'.replaceAll(' ',''),'DCDABBACAC','AAAACBDD AA'.replaceAll(' ','')];
 const require=createRequire(import.meta.url);
-function component(file,mocks={}){const module={exports:{}};const code=ts.transpileModule(file,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;vm.runInNewContext(code,{module,exports:module.exports,require:id=>id in mocks?mocks[id]:require(id)});return module.exports;}
+function component(file,mocks={}){const module={exports:{}};const code=ts.transpileModule(file,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;vm.runInNewContext(code,{module,exports:module.exports,window:globalThis.window,document:globalThis.document,Date,require:id=>id in mocks?mocks[id]:require(id)});return module.exports;}
 const {BilingualText}=component(await fs.readFile('src/components/educational/BilingualText.tsx','utf8'));
+const freshness=await loadTypescript('src/utils/topic-freshness.ts');
 
 test('all 80 bilingual source questions preserve the independently checked answer key',()=>{
  assert.equal(bank.questions.length,80);assert.equal(bank.chapterNumber,1);assert.equal(bank.chapterTitle,'Basic Terminologies');
@@ -51,6 +53,7 @@ test('all eight topics stay separate, retry keeps its topic and mixed practice s
  const rows=bank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1}));const original=JSON.stringify(rows);
  const {MCQClientView}=component(await fs.readFile('src/components/educational/MCQClientView.tsx','utf8'),{
   'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},
+  '@/utils/topic-freshness':freshness,
   '@/data/educationalStore':{EducationalStore:{getMCQs:(c,s)=>{assert.equal(c,bank.classSlug);assert.equal(s,bank.subjectSlug);return rows;}},INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'chapter-1',classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1,title:bank.chapterTitle,isActive:true}]}
  });
  const root=createRoot(document.getElementById('root'));const click=async node=>act(async()=>node.click());
@@ -82,4 +85,44 @@ test('all eight topics stay separate, retry keeps its topic and mixed practice s
   for(let i=1;i<80;i++){assert.ok(!document.body.textContent.includes('Correct answer:'));await chooseCorrect();await click(button(i===79?'View Result':'Next'));}
   assert.match(document.body.textContent,/Your score:\s*80\s*\/\s*80/);assert.ok(document.body.textContent.includes('Correct answer:'));assert.equal(JSON.stringify(rows),original);
  }finally{await act(async()=>root.unmount());Object.assign(globalThis,old);dom.window.close();}
+});
+
+test('Office has its own chapter and six ten-question quizzes; gold expires without reloading and networking stays separate',async()=>{
+ const dom=new JSDOM('<div id="root"></div>',{url:'https://site.test/classes/dit-intermediate/dit-computer-science/mcqs/'});
+ const old=Object.fromEntries(['window','document','IS_REACT_ACT_ENVIRONMENT'].map(k=>[k,globalThis[k]]));Object.assign(globalThis,{window:dom.window,document:dom.window.document,IS_REACT_ACT_ENVIRONMENT:true});
+ const realNow=Date.now;let now=Date.parse('2026-10-27T09:00:00Z');Date.now=()=>now;
+ const timers=new Map();let timerId=0;
+ dom.window.setTimeout=(callback,delay)=>{const id=++timerId;timers.set(id,{callback,delay});return id;};dom.window.clearTimeout=id=>timers.delete(id);
+ const rows=[...bank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1})),...officeBank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:officeBank.chapterNumber,createdAt:new Date(now).toISOString()}))];
+ const {MCQClientView}=component(await fs.readFile('src/components/educational/MCQClientView.tsx','utf8'),{
+  'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},'@/utils/topic-freshness':freshness,
+  '@/data/educationalStore':{EducationalStore:{getMCQs:()=>rows},INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'dit-chapter-1',chapterNumber:1,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:bank.chapterTitle,isActive:true},{id:officeBank.chapterId,chapterNumber:officeBank.chapterNumber,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:officeBank.chapterTitle,isActive:true}]},
+ });
+ const root=createRoot(document.getElementById('root'));const click=async node=>act(async()=>node.click());
+ const button=label=>[...document.querySelectorAll('button')].find(b=>b.textContent.trim()===label);
+ const chapter=number=>[...document.querySelectorAll('button')].find(b=>b.textContent.includes(`Chapter ${number}:`));
+ try{
+  await act(async()=>root.render(React.createElement(MCQClientView,{classSlug:bank.classSlug,subjectSlug:bank.subjectSlug})));
+  assert.ok(chapter(1).textContent.includes('Basic Terminologies'));assert.ok(chapter(2).textContent.includes('MS Office'));
+  await click(chapter(2));
+  assert.equal(document.querySelectorAll('.mcq-topic-grid>button').length,6);assert.equal(document.querySelectorAll('.mcq-topic-grid>[data-new="true"]').length,6);
+  const seen=new Set();
+  for(const topic of officeBank.sourceSections){
+   await click([...document.querySelectorAll('.mcq-topic-grid>button')].find(b=>b.textContent.includes(topic)));
+   for(let index=0;index<10;index++){
+    const text=document.querySelector('h2 .bilingual-line[lang="en"]').textContent;
+    const q=officeBank.questions.find(q=>q.question.split('\n')[0]===text);assert.ok(q);assert.equal(q.topic,topic);assert.ok(!seen.has(q.id));seen.add(q.id);
+    assert.equal(document.querySelectorAll('button[aria-pressed]').length,4);assert.ok(!document.body.textContent.includes('Correct answer:'));
+    await click([...document.querySelectorAll('button[aria-pressed]')].find(b=>b.querySelector('[lang="en"]')?.textContent===q.options[q.correctIndex].split('\n')[0]));
+    await click(button(index===9?'View Result':'Next'));
+   }
+   assert.match(document.body.textContent,/Your score:\s*10\s*\/\s*10/);await click(button('Choose another topic'));
+  }
+  assert.equal(seen.size,60);
+  const timer=[...timers.values()][0];assert.equal(timer.delay,24*60*60*1000);
+  now+=24*60*60*1000;await act(async()=>timer.callback());
+  assert.equal(document.querySelectorAll('.mcq-topic-grid>[data-new="true"]').length,0);
+  await click(chapter(1));assert.equal(document.querySelectorAll('.mcq-topic-grid>button').length,8);
+  assert.equal(document.querySelectorAll('.mcq-topic-grid>[data-new="true"]').length,0);
+ }finally{await act(async()=>root.unmount());Date.now=realNow;Object.assign(globalThis,old);dom.window.close();}
 });
