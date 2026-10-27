@@ -12,7 +12,7 @@ export const channelData: ChannelMeta = {
   statement: "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
   videoCount: 15,
   subscriberCount: 208,
-  profileImage: "/assets/avatar.webp",
+  profileImage: "/assets/raytech-logo.webp",
   coverImage: "/assets/banner.webp",
   youtubeUrl: "https://www.youtube.com/@RaytechInstitute",
   tiktokUrl: TIKTOK_URL,

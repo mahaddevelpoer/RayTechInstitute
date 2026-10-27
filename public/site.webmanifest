@@ -1,6 +1,8 @@
 {
-  "name": "RayTech Institute — Digital Learning Archive",
+  "name": "RayTech Institute",
   "short_name": "RayTech",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

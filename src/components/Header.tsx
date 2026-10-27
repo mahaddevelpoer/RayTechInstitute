@@ -126,17 +126,13 @@ export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement>; 
             onClick={closeMenus}
             className="group flex min-w-0 items-center gap-2.5 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-navy-600 focus-visible:ring-offset-2"
           >
-            <span className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-navy-100 bg-navy-50 shadow-sm">
+            <span className="flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center">
               <img
                 src={channelData.profileImage}
                 alt="RayTech Institute logo"
-                width={40}
-                height={40}
-                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <span
-                className="absolute inset-0 ring-1 ring-inset ring-navy-900/10"
-                aria-hidden="true"
+                width={56}
+                height={56}
+                className="h-full w-full object-contain"
               />
             </span>
             <span className="flex min-w-0 flex-col leading-tight">

@@ -1,0 +1,1529 @@
+{
+  "sourceFile": "Chp#2_MS_Word_2016.docx",
+  "sourceSha256": "2444c0f1e5cabbcc42e4a813afd5001c944f4e6331e24f51785508ec54045d0f",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "chapterNumber": 3,
+  "chapterId": "chapter-dit-computer-science-ms-word-2016",
+  "chapterTitle": "Microsoft Word 2016",
+  "sourceChapterNumber": 2,
+  "sourceChapterTitle": "Microsoft word",
+  "languages": [
+    "en",
+    "ur"
+  ],
+  "sourceSections": [
+    "Word Processing and Features",
+    "Word 2016 Interface",
+    "Document Creation and Saving",
+    "Basic Editing Operations",
+    "Font and Character Formatting",
+    "Paragraph Formatting",
+    "Page Layout and Printing",
+    "Tables in Microsoft Word",
+    "Urdu Language and Typing",
+    "Word Keyboard Shortcuts"
+  ],
+  "questions": [
+    {
+      "id": "dit-ms-word-2016-ch2-q001",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 1,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which tool is designed to create and edit text documents?\nمتنی دستاویزات بنانے اور تبدیل کرنے کے لیے کون سا پروگرام ہے؟",
+      "options": [
+        "Table\nٹیبل",
+        "Footer\nفوٹر",
+        "Grammar Check\nگرامر چیک",
+        "Word processor\nورڈ پروسیسر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Word processor\nدرست جواب: ورڈ پروسیسر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q002",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 2,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature helps correct text after typing?\nٹائپنگ کے بعد متن درست کرنے میں کون سی سہولت مدد دیتی ہے؟",
+      "options": [
+        "Footer\nفوٹر",
+        "Editing\nایڈیٹنگ",
+        "Print Preview\nپرنٹ پری ویو",
+        "Table\nٹیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Editing\nدرست جواب: ایڈیٹنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q003",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 3,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature changes the appearance of text?\nمتن کی ظاہری شکل کون سی سہولت بدلتی ہے؟",
+      "options": [
+        "Formatting\nفارمیٹنگ",
+        "Editing\nایڈیٹنگ",
+        "Footer\nفوٹر",
+        "Printing\nپرنٹنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Formatting\nدرست جواب: فارمیٹنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q004",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 4,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature checks typing errors in words?\nالفاظ کی املا کی غلطیاں کون سی سہولت چیک کرتی ہے؟",
+      "options": [
+        "Formatting\nفارمیٹنگ",
+        "Printing\nپرنٹنگ",
+        "Spell Check\nاسپیل چیک",
+        "Grammar Check\nگرامر چیک"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Spell Check\nدرست جواب: اسپیل چیک"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q005",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 5,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature suggests corrections for grammar mistakes?\nگرامر کی غلطیوں کی اصلاح کون سی سہولت تجویز کرتی ہے؟",
+      "options": [
+        "Spell Check\nاسپیل چیک",
+        "Grammar Check\nگرامر چیک",
+        "Header\nہیڈر",
+        "Editing\nایڈیٹنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Grammar Check\nدرست جواب: گرامر چیک"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q006",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 6,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature repeats a title at the top of pages?\nصفحات کے اوپر عنوان بار بار کون سی سہولت دکھاتی ہے؟",
+      "options": [
+        "Print Preview\nپرنٹ پری ویو",
+        "Printing\nپرنٹنگ",
+        "Editing\nایڈیٹنگ",
+        "Header\nہیڈر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Header\nدرست جواب: ہیڈر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q007",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 7,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature adds information at the bottom of pages?\nصفحات کے نیچے معلومات کون سی سہولت لگاتی ہے؟",
+      "options": [
+        "Footer\nفوٹر",
+        "Spell Check\nاسپیل چیک",
+        "Editing\nایڈیٹنگ",
+        "Grammar Check\nگرامر چیک"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Footer\nدرست جواب: فوٹر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q008",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 8,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature arranges information in rows and columns?\nمعلومات کو قطاروں اور کالموں میں کون سی سہولت ترتیب دیتی ہے؟",
+      "options": [
+        "Table\nٹیبل",
+        "Footer\nفوٹر",
+        "Printing\nپرنٹنگ",
+        "Header\nہیڈر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Table\nدرست جواب: ٹیبل"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q009",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 9,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature lets you review a document before paper output?\nکاغذ پر نکالنے سے پہلے دستاویز دیکھنے کی سہولت کیا ہے؟",
+      "options": [
+        "Editing\nایڈیٹنگ",
+        "Printing\nپرنٹنگ",
+        "Grammar Check\nگرامر چیک",
+        "Print Preview\nپرنٹ پری ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Print Preview\nدرست جواب: پرنٹ پری ویو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q010",
+      "topic": "Word Processing and Features",
+      "sourceNumber": 10,
+      "sourceSection": "Word Processing and Features",
+      "question": "Which feature produces a paper copy?\nدستاویز کی کاغذی نقل کون سی سہولت بناتی ہے؟",
+      "options": [
+        "Formatting\nفارمیٹنگ",
+        "Grammar Check\nگرامر چیک",
+        "Footer\nفوٹر",
+        "Printing\nپرنٹنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Printing\nدرست جواب: پرنٹنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q011",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 11,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which bar displays the document and program name?\nدستاویز اور پروگرام کا نام کون سی بار دکھاتی ہے؟",
+      "options": [
+        "Status Bar\nاسٹیٹس بار",
+        "Title Bar\nٹائٹل بار",
+        "Document Area\nڈاکومنٹ ایریا",
+        "Ribbon Tabs\nربن ٹیبز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Title Bar\nدرست جواب: ٹائٹل بار"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q012",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 12,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which toolbar provides quick Save, Undo and Redo?\nسیو، ان ڈو اور ری ڈو فوری طور پر کہاں ملتے ہیں؟",
+      "options": [
+        "Ribbon\nربن",
+        "Scroll Bar\nاسکرول بار",
+        "Window Control Buttons\nونڈو کنٹرول بٹن",
+        "Quick Access Toolbar\nکوئیک ایکسس ٹول بار"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Quick Access Toolbar\nدرست جواب: کوئیک ایکسس ٹول بار"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q013",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 13,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which part contains tabs and command groups?\nٹیبز اور کمانڈ گروپس کس حصے میں ہوتے ہیں؟",
+      "options": [
+        "Dialog Box Launcher\nڈائیلاگ باکس لانچر",
+        "Ribbon\nربن",
+        "Document Area\nڈاکومنٹ ایریا",
+        "Window Control Buttons\nونڈو کنٹرول بٹن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ribbon\nدرست جواب: ربن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q014",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 14,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Where do you type and edit the document itself?\nدستاویز کا اصل متن کہاں لکھا اور بدلا جاتا ہے؟",
+      "options": [
+        "Window Control Buttons\nونڈو کنٹرول بٹن",
+        "Quick Access Toolbar\nکوئیک ایکسس ٹول بار",
+        "Document Area\nڈاکومنٹ ایریا",
+        "Dialog Box Launcher\nڈائیلاگ باکس لانچر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Document Area\nدرست جواب: ڈاکومنٹ ایریا"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q015",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 15,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which bar shows page information at the bottom?\nنیچے صفحے کی معلومات کون سی بار دکھاتی ہے؟",
+      "options": [
+        "Scroll Bar\nاسکرول بار",
+        "Quick Access Toolbar\nکوئیک ایکسس ٹول بار",
+        "Status Bar\nاسٹیٹس بار",
+        "Dialog Box Launcher\nڈائیلاگ باکس لانچر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Status Bar\nدرست جواب: اسٹیٹس بار"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q016",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 16,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which control changes the view magnification?\nدستاویز کا منظر بڑا یا چھوٹا کون کرتا ہے؟",
+      "options": [
+        "Ribbon Tabs\nربن ٹیبز",
+        "Title Bar\nٹائٹل بار",
+        "Zoom Control\nزوم کنٹرول",
+        "Ribbon\nربن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Zoom Control\nدرست جواب: زوم کنٹرول"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q017",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 17,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which control moves through a long document vertically?\nلمبی دستاویز میں اوپر نیچے جانے کے لیے کیا ہے؟",
+      "options": [
+        "Window Control Buttons\nونڈو کنٹرول بٹن",
+        "Scroll Bar\nاسکرول بار",
+        "Document Area\nڈاکومنٹ ایریا",
+        "Dialog Box Launcher\nڈائیلاگ باکس لانچر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Scroll Bar\nدرست جواب: اسکرول بار"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q018",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 18,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which buttons minimize, maximize and close a window?\nونڈو چھوٹی، بڑی اور بند کرنے والے بٹن کیا ہیں؟",
+      "options": [
+        "Ribbon Tabs\nربن ٹیبز",
+        "Scroll Bar\nاسکرول بار",
+        "Window Control Buttons\nونڈو کنٹرول بٹن",
+        "Document Area\nڈاکومنٹ ایریا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Window Control Buttons\nدرست جواب: ونڈو کنٹرول بٹن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q019",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 19,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which interface element provides File, Home and Insert commands?\nفائل، ہوم اور انسَرٹ کمانڈز کس میں ملتی ہیں؟",
+      "options": [
+        "Title Bar\nٹائٹل بار",
+        "Ribbon Tabs\nربن ٹیبز",
+        "Window Control Buttons\nونڈو کنٹرول بٹن",
+        "Scroll Bar\nاسکرول بار"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ribbon Tabs\nدرست جواب: ربن ٹیبز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q020",
+      "topic": "Word 2016 Interface",
+      "sourceNumber": 20,
+      "sourceSection": "Word 2016 Interface",
+      "question": "Which launcher opens more options for a command group?\nکسی گروپ کی مزید ترتیبات کون کھولتا ہے؟",
+      "options": [
+        "Dialog Box Launcher\nڈائیلاگ باکس لانچر",
+        "Quick Access Toolbar\nکوئیک ایکسس ٹول بار",
+        "Status Bar\nاسٹیٹس بار",
+        "Zoom Control\nزوم کنٹرول"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Dialog Box Launcher\nدرست جواب: ڈائیلاگ باکس لانچر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q021",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 21,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which File command starts a new document?\nنئی دستاویز شروع کرنے کے لیے فائل کی کون سی کمانڈ ہے؟",
+      "options": [
+        "New\nنیو",
+        "Blank Document\nبلینک ڈاکومنٹ",
+        "Print\nپرنٹ",
+        "Close\nکلوز"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: New\nدرست جواب: نیو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q022",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 22,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which option begins an empty document?\nخالی دستاویز شروع کرنے کا کون سا اختیار ہے؟",
+      "options": [
+        "Blank Document\nبلینک ڈاکومنٹ",
+        "Open\nاوپن",
+        "Template\nٹیمپلیٹ",
+        "Print\nپرنٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Blank Document\nدرست جواب: بلینک ڈاکومنٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q023",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 23,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which command opens an existing document?\nپہلے سے موجود دستاویز کون سی کمانڈ کھولتی ہے؟",
+      "options": [
+        "Open\nاوپن",
+        "Save As\nسیو ایز",
+        "New\nنیو",
+        "Save\nسیو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Open\nدرست جواب: اوپن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q024",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 24,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which command stores current changes?\nموجودہ تبدیلیاں کون سی کمانڈ محفوظ کرتی ہے؟",
+      "options": [
+        "Save\nسیو",
+        "Close\nکلوز",
+        "Open\nاوپن",
+        "Template\nٹیمپلیٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Save\nدرست جواب: سیو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q025",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 25,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which command saves with a different name or location?\nنئے نام یا جگہ پر محفوظ کرنے کے لیے کون سی کمانڈ ہے؟",
+      "options": [
+        "Open\nاوپن",
+        "Save As\nسیو ایز",
+        "New\nنیو",
+        "Close\nکلوز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Save As\nدرست جواب: سیو ایز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q026",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 26,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which option displays document appearance before printing?\nپرنٹنگ سے پہلے دستاویز کی شکل کون دکھاتا ہے؟",
+      "options": [
+        "New\nنیو",
+        "Save As\nسیو ایز",
+        "Print\nپرنٹ",
+        "Print Preview\nپرنٹ پری ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Print Preview\nدرست جواب: پرنٹ پری ویو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q027",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 27,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which command sends a document to the printer?\nدستاویز پرنٹر کو بھیجنے کی کمانڈ کون سی ہے؟",
+      "options": [
+        "Open\nاوپن",
+        "Close\nکلوز",
+        "Folder\nفولڈر",
+        "Print\nپرنٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Print\nدرست جواب: پرنٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q028",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 28,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which starting method uses a prepared design?\nتیار شدہ ڈیزائن سے دستاویز بنانے کا طریقہ کیا ہے؟",
+      "options": [
+        "Template\nٹیمپلیٹ",
+        "Save As\nسیو ایز",
+        "Blank Document\nبلینک ڈاکومنٹ",
+        "Print\nپرنٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Template\nدرست جواب: ٹیمپلیٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q029",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 29,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which command closes the current document?\nموجودہ دستاویز بند کرنے کی کمانڈ کون سی ہے؟",
+      "options": [
+        "Print\nپرنٹ",
+        "Close\nکلوز",
+        "Folder\nفولڈر",
+        "Save\nسیو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Close\nدرست جواب: کلوز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q030",
+      "topic": "Document Creation and Saving",
+      "sourceNumber": 30,
+      "sourceSection": "Document Creation and Saving",
+      "question": "Which location is chosen to store a document on the computer?\nکمپیوٹر پر دستاویز رکھنے کے لیے کون سی جگہ منتخب کی جاتی ہے؟",
+      "options": [
+        "Save As\nسیو ایز",
+        "Folder\nفولڈر",
+        "Print Preview\nپرنٹ پری ویو",
+        "Template\nٹیمپلیٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Folder\nدرست جواب: فولڈر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q031",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 31,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command removes selected text and puts it on the clipboard?\nمنتخب متن ہٹا کر کلپ بورڈ میں کون رکھتا ہے؟",
+      "options": [
+        "Cut\nکٹ",
+        "Select All\nسلیکٹ آل",
+        "Find\nفائنڈ",
+        "Paste\nپیسٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Cut\nدرست جواب: کٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q032",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 32,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command duplicates selected text to the clipboard?\nمنتخب متن کی نقل کلپ بورڈ میں کون رکھتا ہے؟",
+      "options": [
+        "Delete\nڈیلیٹ",
+        "Copy\nکاپی",
+        "Paste\nپیسٹ",
+        "Cut\nکٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Copy\nدرست جواب: کاپی"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q033",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 33,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command inserts clipboard contents at the cursor?\nکرسر پر کلپ بورڈ کا متن کون لگاتا ہے؟",
+      "options": [
+        "Paste\nپیسٹ",
+        "Redo\nری ڈو",
+        "Undo\nان ڈو",
+        "Delete\nڈیلیٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Paste\nدرست جواب: پیسٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q034",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 34,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command reverses the most recent change?\nآخری تبدیلی واپس کون لیتا ہے؟",
+      "options": [
+        "Copy\nکاپی",
+        "Backspace\nبیک اسپیس",
+        "Find\nفائنڈ",
+        "Undo\nان ڈو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Undo\nدرست جواب: ان ڈو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q035",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 35,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command restores an undone action?\nواپس لیے گئے عمل کو دوبارہ کون کرتا ہے؟",
+      "options": [
+        "Select All\nسلیکٹ آل",
+        "Redo\nری ڈو",
+        "Copy\nکاپی",
+        "Paste\nپیسٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Redo\nدرست جواب: ری ڈو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q036",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 36,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command locates a particular word?\nخاص لفظ تلاش کرنے کی کمانڈ کون سی ہے؟",
+      "options": [
+        "Select All\nسلیکٹ آل",
+        "Delete\nڈیلیٹ",
+        "Find\nفائنڈ",
+        "Replace\nریپلیس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Find\nدرست جواب: فائنڈ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q037",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 37,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command changes one word to another throughout text?\nمتن میں ایک لفظ کو دوسرے سے بدلنے کی کمانڈ کون سی ہے؟",
+      "options": [
+        "Backspace\nبیک اسپیس",
+        "Replace\nریپلیس",
+        "Paste\nپیسٹ",
+        "Undo\nان ڈو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Replace\nدرست جواب: ریپلیس"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q038",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 38,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which command highlights the entire document text?\nپوری دستاویز کا متن کون منتخب کرتا ہے؟",
+      "options": [
+        "Delete\nڈیلیٹ",
+        "Redo\nری ڈو",
+        "Replace\nریپلیس",
+        "Select All\nسلیکٹ آل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Select All\nدرست جواب: سلیکٹ آل"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q039",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 39,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which key removes text to the left of the cursor?\nکرسر کے بائیں جانب حرف کون سی کلید مٹاتی ہے؟",
+      "options": [
+        "Paste\nپیسٹ",
+        "Find\nفائنڈ",
+        "Backspace\nبیک اسپیس",
+        "Undo\nان ڈو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Backspace\nدرست جواب: بیک اسپیس"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q040",
+      "topic": "Basic Editing Operations",
+      "sourceNumber": 40,
+      "sourceSection": "Basic Editing Operations",
+      "question": "Which key removes text to the right of the cursor?\nکرسر کے دائیں جانب حرف کون سی کلید مٹاتی ہے؟",
+      "options": [
+        "Delete\nڈیلیٹ",
+        "Select All\nسلیکٹ آل",
+        "Cut\nکٹ",
+        "Copy\nکاپی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Delete\nدرست جواب: ڈیلیٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q041",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 41,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which formatting makes letters heavier?\nحروف کو موٹا کون سا انداز کرتا ہے؟",
+      "options": [
+        "Font Color\nفونٹ کلر",
+        "Underline\nانڈر لائن",
+        "Bold\nبولڈ",
+        "Clear Formatting\nکلیئر فارمیٹنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Bold\nدرست جواب: بولڈ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q042",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 42,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which formatting slants letters?\nحروف کو ترچھا کون سا انداز کرتا ہے؟",
+      "options": [
+        "Clear Formatting\nکلیئر فارمیٹنگ",
+        "Font Name\nفونٹ نیم",
+        "Bold\nبولڈ",
+        "Italic\nاٹالک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Italic\nدرست جواب: اٹالک"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q043",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 43,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which formatting draws a line below words?\nالفاظ کے نیچے لکیر کون لگاتا ہے؟",
+      "options": [
+        "Character Spacing\nکریکٹر اسپیسنگ",
+        "Underline\nانڈر لائن",
+        "Format Painter\nفارمیٹ پینٹر",
+        "Font Color\nفونٹ کلر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Underline\nدرست جواب: انڈر لائن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q044",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 44,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which setting changes how large letters appear?\nحروف کا سائز کون سی ترتیب بدلتی ہے؟",
+      "options": [
+        "Font Name\nفونٹ نیم",
+        "Font Size\nفونٹ سائز",
+        "Underline\nانڈر لائن",
+        "Font Color\nفونٹ کلر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Font Size\nدرست جواب: فونٹ سائز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q045",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 45,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which setting selects the letter design such as Times New Roman?\nٹائمز نیو رومن جیسا حروف کا انداز کون منتخب کرتا ہے؟",
+      "options": [
+        "Clear Formatting\nکلیئر فارمیٹنگ",
+        "Italic\nاٹالک",
+        "Font Name\nفونٹ نیم",
+        "Format Painter\nفارمیٹ پینٹر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Font Name\nدرست جواب: فونٹ نیم"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q046",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 46,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which setting changes the color of typed letters?\nٹائپ شدہ حروف کا رنگ کون بدلتا ہے؟",
+      "options": [
+        "Format Painter\nفارمیٹ پینٹر",
+        "Clear Formatting\nکلیئر فارمیٹنگ",
+        "Font Color\nفونٹ کلر",
+        "Font Size\nفونٹ سائز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Font Color\nدرست جواب: فونٹ کلر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q047",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 47,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which option removes character formatting from selected text?\nمنتخب متن کی کریکٹر فارمیٹنگ کون ختم کرتا ہے؟",
+      "options": [
+        "Character Spacing\nکریکٹر اسپیسنگ",
+        "Font Size\nفونٹ سائز",
+        "Underline\nانڈر لائن",
+        "Clear Formatting\nکلیئر فارمیٹنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Clear Formatting\nدرست جواب: کلیئر فارمیٹنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q048",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 48,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which setting changes the distance between letters?\nحروف کے درمیان فاصلہ کون بدلتا ہے؟",
+      "options": [
+        "Font Size\nفونٹ سائز",
+        "Format Painter\nفارمیٹ پینٹر",
+        "Font Name\nفونٹ نیم",
+        "Character Spacing\nکریکٹر اسپیسنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Character Spacing\nدرست جواب: کریکٹر اسپیسنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q049",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 49,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which option copies formatting from one selection to another?\nایک متن کی فارمیٹنگ دوسرے پر کون لگاتا ہے؟",
+      "options": [
+        "Format Painter\nفارمیٹ پینٹر",
+        "Underline\nانڈر لائن",
+        "Strikethrough\nاسٹرائیک تھرو",
+        "Bold\nبولڈ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Format Painter\nدرست جواب: فارمیٹ پینٹر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q050",
+      "topic": "Font and Character Formatting",
+      "sourceNumber": 50,
+      "sourceSection": "Font and Character Formatting",
+      "question": "Which option draws a line through selected text?\nمنتخب متن کے درمیان لکیر کون لگاتا ہے؟",
+      "options": [
+        "Clear Formatting\nکلیئر فارمیٹنگ",
+        "Italic\nاٹالک",
+        "Strikethrough\nاسٹرائیک تھرو",
+        "Font Name\nفونٹ نیم"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Strikethrough\nدرست جواب: اسٹرائیک تھرو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q051",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 51,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which alignment places text along the left margin?\nمتن کو بائیں حاشیے کے ساتھ کون رکھتا ہے؟",
+      "options": [
+        "Align Right\nالائن رائٹ",
+        "Line Spacing\nلائن اسپیسنگ",
+        "Align Left\nالائن لیفٹ",
+        "Numbering\nنمبرنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Align Left\nدرست جواب: الائن لیفٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q052",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 52,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which alignment places text along the right margin?\nمتن کو دائیں حاشیے کے ساتھ کون رکھتا ہے؟",
+      "options": [
+        "First Line Indent\nفرسٹ لائن انڈینٹ",
+        "Align Right\nالائن رائٹ",
+        "Numbering\nنمبرنگ",
+        "Indentation\nانڈینٹیشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Align Right\nدرست جواب: الائن رائٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q053",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 53,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which alignment places text in the middle horizontally?\nمتن کو افقی طور پر درمیان میں کون رکھتا ہے؟",
+      "options": [
+        "Center\nسینٹر",
+        "First Line Indent\nفرسٹ لائن انڈینٹ",
+        "Justify\nجسٹیفائی",
+        "Bullets\nبلٹس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Center\nدرست جواب: سینٹر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q054",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 54,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which alignment makes both left and right edges even?\nدونوں اطراف متن کو برابر کون کرتا ہے؟",
+      "options": [
+        "Justify\nجسٹیفائی",
+        "Indentation\nانڈینٹیشن",
+        "First Line Indent\nفرسٹ لائن انڈینٹ",
+        "Align Right\nالائن رائٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Justify\nدرست جواب: جسٹیفائی"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q055",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 55,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which setting controls distance between text lines?\nمتن کی سطروں کے درمیان فاصلہ کون بدلتا ہے؟",
+      "options": [
+        "Line Spacing\nلائن اسپیسنگ",
+        "Center\nسینٹر",
+        "Align Right\nالائن رائٹ",
+        "Numbering\nنمبرنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Line Spacing\nدرست جواب: لائن اسپیسنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q056",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 56,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which setting changes the gap before or after a paragraph?\nپیراگراف سے پہلے یا بعد کا فاصلہ کون بدلتا ہے؟",
+      "options": [
+        "Align Left\nالائن لیفٹ",
+        "Line Spacing\nلائن اسپیسنگ",
+        "Paragraph Spacing\nپیراگراف اسپیسنگ",
+        "First Line Indent\nفرسٹ لائن انڈینٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Paragraph Spacing\nدرست جواب: پیراگراف اسپیسنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q057",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 57,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which feature creates a list with dots?\nنقطوں والی فہرست کون بناتا ہے؟",
+      "options": [
+        "Numbering\nنمبرنگ",
+        "Center\nسینٹر",
+        "Bullets\nبلٹس",
+        "First Line Indent\nفرسٹ لائن انڈینٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Bullets\nدرست جواب: بلٹس"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q058",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 58,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which feature creates a numbered list?\nنمبر والی فہرست کون بناتا ہے؟",
+      "options": [
+        "Line Spacing\nلائن اسپیسنگ",
+        "Align Right\nالائن رائٹ",
+        "Justify\nجسٹیفائی",
+        "Numbering\nنمبرنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Numbering\nدرست جواب: نمبرنگ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q059",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 59,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which setting moves paragraph text inward from a margin?\nپیراگراف کو حاشیے سے اندر کون کرتا ہے؟",
+      "options": [
+        "Justify\nجسٹیفائی",
+        "First Line Indent\nفرسٹ لائن انڈینٹ",
+        "Indentation\nانڈینٹیشن",
+        "Paragraph Spacing\nپیراگراف اسپیسنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Indentation\nدرست جواب: انڈینٹیشن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q060",
+      "topic": "Paragraph Formatting",
+      "sourceNumber": 60,
+      "sourceSection": "Paragraph Formatting",
+      "question": "Which option changes the indentation of only the first line?\nصرف پہلی سطر کا اندرونی فاصلہ کون بدلتا ہے؟",
+      "options": [
+        "Justify\nجسٹیفائی",
+        "Align Left\nالائن لیفٹ",
+        "Indentation\nانڈینٹیشن",
+        "First Line Indent\nفرسٹ لائن انڈینٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: First Line Indent\nدرست جواب: فرسٹ لائن انڈینٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q061",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 61,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which setting changes paper dimensions?\nکاغذ کی لمبائی چوڑائی کون سی ترتیب بدلتی ہے؟",
+      "options": [
+        "Print Preview\nپرنٹ پری ویو",
+        "Page Size\nپیج سائز",
+        "Orientation\nاورینٹیشن",
+        "Printer Selection\nپرنٹر سلیکشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Page Size\nدرست جواب: پیج سائز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q062",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 62,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which setting changes portrait or landscape layout?\nپورٹریٹ یا لینڈ اسکیپ کون بدلتا ہے؟",
+      "options": [
+        "Printer Selection\nپرنٹر سلیکشن",
+        "Margins\nمارجنز",
+        "Orientation\nاورینٹیشن",
+        "Page Break\nپیج بریک"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Orientation\nدرست جواب: اورینٹیشن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q063",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 63,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which setting controls blank space at page edges?\nصفحے کے کناروں کی خالی جگہ کون بدلتا ہے؟",
+      "options": [
+        "Margins\nمارجنز",
+        "Section Break\nسیکشن بریک",
+        "Printer Selection\nپرنٹر سلیکشن",
+        "Print Preview\nپرنٹ پری ویو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Margins\nدرست جواب: مارجنز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q064",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 64,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which option divides text into vertical sections?\nمتن کو عمودی حصوں میں کون بانٹتا ہے؟",
+      "options": [
+        "Columns\nکالمز",
+        "Page Break\nپیج بریک",
+        "Copies\nکاپیز",
+        "Orientation\nاورینٹیشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Columns\nدرست جواب: کالمز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q065",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 65,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which command starts a new page at a chosen point?\nمخصوص جگہ سے نیا صفحہ کون شروع کرتا ہے؟",
+      "options": [
+        "Page Break\nپیج بریک",
+        "Section Break\nسیکشن بریک",
+        "Margins\nمارجنز",
+        "Columns\nکالمز"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Page Break\nدرست جواب: پیج بریک"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q066",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 66,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which command separates sections with different layouts?\nمختلف لے آؤٹ والے حصوں کو کون جدا کرتا ہے؟",
+      "options": [
+        "Page Break\nپیج بریک",
+        "Print Preview\nپرنٹ پری ویو",
+        "Section Break\nسیکشن بریک",
+        "Columns\nکالمز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Section Break\nدرست جواب: سیکشن بریک"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q067",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 67,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which command displays the print settings screen?\nپرنٹ کی ترتیبات کون سی کمانڈ دکھاتی ہے؟",
+      "options": [
+        "Page Break\nپیج بریک",
+        "Section Break\nسیکشن بریک",
+        "Print\nپرنٹ",
+        "Orientation\nاورینٹیشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Print\nدرست جواب: پرنٹ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q068",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 68,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which option sets how many copies to print?\nپرنٹ کی نقول کی تعداد کون مقرر کرتا ہے؟",
+      "options": [
+        "Printer Selection\nپرنٹر سلیکشن",
+        "Columns\nکالمز",
+        "Copies\nکاپیز",
+        "Margins\nمارجنز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Copies\nدرست جواب: کاپیز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q069",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 69,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which option chooses a particular printer?\nمخصوص پرنٹر کون منتخب کرتا ہے؟",
+      "options": [
+        "Margins\nمارجنز",
+        "Printer Selection\nپرنٹر سلیکشن",
+        "Orientation\nاورینٹیشن",
+        "Section Break\nسیکشن بریک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Printer Selection\nدرست جواب: پرنٹر سلیکشن"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q070",
+      "topic": "Page Layout and Printing",
+      "sourceNumber": 70,
+      "sourceSection": "Page Layout and Printing",
+      "question": "Which option previews the document before printing?\nپرنٹ سے پہلے دستاویز کون دکھاتا ہے؟",
+      "options": [
+        "Copies\nکاپیز",
+        "Print Preview\nپرنٹ پری ویو",
+        "Margins\nمارجنز",
+        "Section Break\nسیکشن بریک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Print Preview\nدرست جواب: پرنٹ پری ویو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q071",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 71,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which Word feature organizes information in rows and columns?\nمعلومات کو قطاروں اور کالموں میں کون منظم کرتا ہے؟",
+      "options": [
+        "Insert Row\nانسَرٹ رو",
+        "Table\nٹیبل",
+        "Insert Column\nانسَرٹ کالم",
+        "Cell\nسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Table\nدرست جواب: ٹیبل"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q072",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 72,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which menu is used to add a new table?\nنیا ٹیبل شامل کرنے کے لیے کون سا مینو ہے؟",
+      "options": [
+        "Merge Cells\nمرج سیلز",
+        "Delete Row\nڈیلیٹ رو",
+        "Insert Tab\nانسَرٹ ٹیب",
+        "Column Width\nکالم وڈتھ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Insert Tab\nدرست جواب: انسَرٹ ٹیب"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q073",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 73,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which unit is the intersection of a row and column?\nقطار اور کالم کے ملنے سے کیا بنتا ہے؟",
+      "options": [
+        "Table\nٹیبل",
+        "Cell\nسیل",
+        "Insert Column\nانسَرٹ کالم",
+        "Merge Cells\nمرج سیلز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Cell\nدرست جواب: سیل"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q074",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 74,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command adds a horizontal set of cells?\nسیلز کی افقی قطار کون بڑھاتا ہے؟",
+      "options": [
+        "Delete Row\nڈیلیٹ رو",
+        "Delete Column\nڈیلیٹ کالم",
+        "Insert Row\nانسَرٹ رو",
+        "Table\nٹیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Insert Row\nدرست جواب: انسَرٹ رو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q075",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 75,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command adds a vertical set of cells?\nسیلز کا عمودی کالم کون بڑھاتا ہے؟",
+      "options": [
+        "Insert Row\nانسَرٹ رو",
+        "Delete Column\nڈیلیٹ کالم",
+        "Delete Row\nڈیلیٹ رو",
+        "Insert Column\nانسَرٹ کالم"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Insert Column\nدرست جواب: انسَرٹ کالم"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q076",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 76,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command removes an unwanted table row?\nغیر ضروری ٹیبل کی قطار کون ہٹاتا ہے؟",
+      "options": [
+        "Insert Row\nانسَرٹ رو",
+        "Insert Column\nانسَرٹ کالم",
+        "Column Width\nکالم وڈتھ",
+        "Delete Row\nڈیلیٹ رو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Delete Row\nدرست جواب: ڈیلیٹ رو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q077",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 77,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command removes an unwanted table column?\nغیر ضروری ٹیبل کالم کون ہٹاتا ہے؟",
+      "options": [
+        "Cell\nسیل",
+        "Delete Column\nڈیلیٹ کالم",
+        "Insert Row\nانسَرٹ رو",
+        "Insert Column\nانسَرٹ کالم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Delete Column\nدرست جواب: ڈیلیٹ کالم"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q078",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 78,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command joins two or more table cells?\nدو یا زیادہ ٹیبل سیلز کون ملاتا ہے؟",
+      "options": [
+        "Column Width\nکالم وڈتھ",
+        "Insert Row\nانسَرٹ رو",
+        "Merge Cells\nمرج سیلز",
+        "Table\nٹیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Merge Cells\nدرست جواب: مرج سیلز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q079",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 79,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command divides one table cell into several?\nایک ٹیبل سیل کو کئی حصوں میں کون بانٹتا ہے؟",
+      "options": [
+        "Cell\nسیل",
+        "Delete Column\nڈیلیٹ کالم",
+        "Insert Column\nانسَرٹ کالم",
+        "Split Cells\nاسپلٹ سیلز"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Split Cells\nدرست جواب: اسپلٹ سیلز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q080",
+      "topic": "Tables in Microsoft Word",
+      "sourceNumber": 80,
+      "sourceSection": "Tables in Microsoft Word",
+      "question": "Which command adjusts the width of a table column?\nٹیبل کے کالم کی چوڑائی کون بدلتا ہے؟",
+      "options": [
+        "Insert Row\nانسَرٹ رو",
+        "Column Width\nکالم وڈتھ",
+        "Insert Tab\nانسَرٹ ٹیب",
+        "Delete Column\nڈیلیٹ کالم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Column Width\nدرست جواب: کالم وڈتھ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q081",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 81,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which Windows setting lets a user add Urdu input?\nونڈوز میں اردو ان پٹ شامل کرنے کے لیے کون سی ترتیب ہے؟",
+      "options": [
+        "Urdu\nاردو",
+        "Right-to-left\nدائیں سے بائیں",
+        "Language Pack\nلینگویج پیک",
+        "Language Settings\nلینگویج سیٹنگز"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Language Settings\nدرست جواب: لینگویج سیٹنگز"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q082",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 82,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which option adds a language to the system?\nسسٹم میں زبان شامل کرنے کے لیے کون سا اختیار ہے؟",
+      "options": [
+        "Microsoft Word 2016\nمائیکروسافٹ ورڈ 2016",
+        "Keyboard\nکی بورڈ",
+        "Phonetic Keyboard\nفونیٹک کی بورڈ",
+        "Add a Language\nایڈ اے لینگویج"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Add a Language\nدرست جواب: ایڈ اے لینگویج"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q083",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 83,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which language should be selected for Urdu typing?\nاردو ٹائپنگ کے لیے کون سی زبان منتخب کریں؟",
+      "options": [
+        "Input Language Selector\nان پٹ لینگویج سلیکٹر",
+        "Microsoft Word 2016\nمائیکروسافٹ ورڈ 2016",
+        "Keyboard\nکی بورڈ",
+        "Urdu\nاردو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Urdu\nدرست جواب: اردو"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q084",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 84,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which task changes the active typing language?\nفعال ٹائپنگ زبان بدلنے کا کام کیا ہے؟",
+      "options": [
+        "Language Settings\nلینگویج سیٹنگز",
+        "Switch Input Language\nسوئچ ان پٹ لینگویج",
+        "Input Language Selector\nان پٹ لینگویج سلیکٹر",
+        "Language Pack\nلینگویج پیک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Switch Input Language\nدرست جواب: سوئچ ان پٹ لینگویج"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q085",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 85,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which input device is used to enter Urdu letters?\nاردو حروف داخل کرنے کے لیے کون سا آلہ استعمال ہوتا ہے؟",
+      "options": [
+        "Keyboard\nکی بورڈ",
+        "Add a Language\nایڈ اے لینگویج",
+        "Urdu\nاردو",
+        "Right-to-left\nدائیں سے بائیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Keyboard\nدرست جواب: کی بورڈ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q086",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 86,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which program is used in the chapter for Urdu document typing?\nباب میں اردو دستاویز ٹائپ کرنے کے لیے کون سا پروگرام ہے؟",
+      "options": [
+        "Microsoft Word 2016\nمائیکروسافٹ ورڈ 2016",
+        "Keyboard\nکی بورڈ",
+        "Language Settings\nلینگویج سیٹنگز",
+        "Input Language Selector\nان پٹ لینگویج سلیکٹر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Microsoft Word 2016\nدرست جواب: مائیکروسافٹ ورڈ 2016"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q087",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 87,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which direction is generally appropriate for Urdu paragraphs?\nاردو پیراگراف کے لیے عام طور پر کون سی سمت درست ہے؟",
+      "options": [
+        "Add a Language\nایڈ اے لینگویج",
+        "Keyboard\nکی بورڈ",
+        "Microsoft Word 2016\nمائیکروسافٹ ورڈ 2016",
+        "Right-to-left\nدائیں سے بائیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Right-to-left\nدرست جواب: دائیں سے بائیں"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q088",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 88,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which Windows component can install additional language support?\nزبان کی اضافی سہولت کون سا ونڈوز حصہ نصب کر سکتا ہے؟",
+      "options": [
+        "Urdu\nاردو",
+        "Phonetic Keyboard\nفونیٹک کی بورڈ",
+        "Add a Language\nایڈ اے لینگویج",
+        "Language Pack\nلینگویج پیک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Language Pack\nدرست جواب: لینگویج پیک"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q089",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 89,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which tool helps users choose an installed keyboard layout?\nنصب شدہ کی بورڈ لے آؤٹ منتخب کرنے میں کون مدد دیتا ہے؟",
+      "options": [
+        "Input Language Selector\nان پٹ لینگویج سلیکٹر",
+        "Switch Input Language\nسوئچ ان پٹ لینگویج",
+        "Language Pack\nلینگویج پیک",
+        "Keyboard\nکی بورڈ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Input Language Selector\nدرست جواب: ان پٹ لینگویج سلیکٹر"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q090",
+      "topic": "Urdu Language and Typing",
+      "sourceNumber": 90,
+      "sourceSection": "Urdu Language and Typing",
+      "question": "Which keyboard arrangement is named in the Urdu typing section?\nاردو ٹائپنگ کے حصے میں کس کی بورڈ ترتیب کا ذکر ہے؟",
+      "options": [
+        "Input Language Selector\nان پٹ لینگویج سلیکٹر",
+        "Urdu\nاردو",
+        "Right-to-left\nدائیں سے بائیں",
+        "Phonetic Keyboard\nفونیٹک کی بورڈ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Phonetic Keyboard\nدرست جواب: فونیٹک کی بورڈ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q091",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 91,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut saves the document?\nدستاویز محفوظ کرنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + P\nکنٹرول + پی",
+        "Ctrl + S\nکنٹرول + ایس",
+        "Ctrl + N\nکنٹرول + این",
+        "Ctrl + V\nکنٹرول + وی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ctrl + S\nدرست جواب: کنٹرول + ایس"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q092",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 92,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut opens an existing document?\nموجودہ دستاویز کھولنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + Z\nکنٹرول + زیڈ",
+        "Ctrl + C\nکنٹرول + سی",
+        "Ctrl + B\nکنٹرول + بی",
+        "Ctrl + O\nکنٹرول + او"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Ctrl + O\nدرست جواب: کنٹرول + او"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q093",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 93,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut creates a new document?\nنئی دستاویز بنانے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + C\nکنٹرول + سی",
+        "Ctrl + X\nکنٹرول + ایکس",
+        "Ctrl + N\nکنٹرول + این",
+        "Ctrl + F\nکنٹرول + ایف"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ctrl + N\nدرست جواب: کنٹرول + این"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q094",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 94,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut copies selected text?\nمنتخب متن کاپی کرنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + V\nکنٹرول + وی",
+        "Ctrl + S\nکنٹرول + ایس",
+        "Ctrl + N\nکنٹرول + این",
+        "Ctrl + C\nکنٹرول + سی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Ctrl + C\nدرست جواب: کنٹرول + سی"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q095",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 95,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut pastes copied text?\nکاپی شدہ متن پیسٹ کرنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + N\nکنٹرول + این",
+        "Ctrl + V\nکنٹرول + وی",
+        "Ctrl + S\nکنٹرول + ایس",
+        "Ctrl + F\nکنٹرول + ایف"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ctrl + V\nدرست جواب: کنٹرول + وی"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q096",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 96,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut cuts selected text?\nمنتخب متن کٹ کرنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + X\nکنٹرول + ایکس",
+        "Ctrl + C\nکنٹرول + سی",
+        "Ctrl + V\nکنٹرول + وی",
+        "Ctrl + P\nکنٹرول + پی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ctrl + X\nدرست جواب: کنٹرول + ایکس"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q097",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 97,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut undoes the last action?\nآخری عمل واپس لینے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + O\nکنٹرول + او",
+        "Ctrl + N\nکنٹرول + این",
+        "Ctrl + Z\nکنٹرول + زیڈ",
+        "Ctrl + C\nکنٹرول + سی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ctrl + Z\nدرست جواب: کنٹرول + زیڈ"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q098",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 98,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut makes text bold?\nمتن بولڈ کرنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + B\nکنٹرول + بی",
+        "Ctrl + V\nکنٹرول + وی",
+        "Ctrl + Z\nکنٹرول + زیڈ",
+        "Ctrl + S\nکنٹرول + ایس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ctrl + B\nدرست جواب: کنٹرول + بی"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q099",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 99,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut opens Find?\nفائنڈ کھولنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + F\nکنٹرول + ایف",
+        "Ctrl + O\nکنٹرول + او",
+        "Ctrl + C\nکنٹرول + سی",
+        "Ctrl + S\nکنٹرول + ایس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ctrl + F\nدرست جواب: کنٹرول + ایف"
+    },
+    {
+      "id": "dit-ms-word-2016-ch2-q100",
+      "topic": "Word Keyboard Shortcuts",
+      "sourceNumber": 100,
+      "sourceSection": "Word Keyboard Shortcuts",
+      "question": "Which shortcut prints the document?\nدستاویز پرنٹ کرنے کی شارٹ کٹ کیا ہے؟",
+      "options": [
+        "Ctrl + N\nکنٹرول + این",
+        "Ctrl + O\nکنٹرول + او",
+        "Ctrl + P\nکنٹرول + پی",
+        "Ctrl + S\nکنٹرول + ایس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ctrl + P\nدرست جواب: کنٹرول + پی"
+    }
+  ]
+}

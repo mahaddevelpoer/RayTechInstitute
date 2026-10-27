@@ -17,13 +17,13 @@ export const FollowArchive: React.FC<FollowArchiveProps> = () => {
         {/* Simple YouTube Subscription Box */}
         <div className="edu-card bg-red-50/50 border-red-100 p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-red-500 flex-shrink-0 bg-white">
+            <div className="w-16 h-16 flex-shrink-0">
               <img
                 src={channelData.profileImage}
                 alt={channelData.name}
                 width={64}
                 height={64}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div>

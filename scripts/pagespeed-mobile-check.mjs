@@ -69,6 +69,10 @@ try {
     assert.ok(result.overflow<=1,`Horizontal overflow at ${width}px, dark=${dark}: ${result.overflow}`);
     assert.ok(result.footerContrast.every(ratio=>ratio>=4.5),JSON.stringify(result));
     assert.ok(result.buttonContrast>=4.5,JSON.stringify(result));
+    const logo=page.getByRole('img',{name:'RayTech Institute logo',exact:true});
+    assert.equal(await logo.evaluate(image=>image.complete&&image.naturalWidth>0),true,'Header logo loads');
+    assert.equal(await logo.evaluate(image=>getComputedStyle(image).objectFit),'contain');
+    if(process.env.SAVE_BRAND_SCREENSHOTS==='1'&&((width===375&&!dark)||(width===1280&&dark)))await page.screenshot({path:path.join(directory,`brand-${width}-${dark?'dark':'light'}.png`)});
     measurements.push({...result,dark});
   }
   assert.deepEqual(external.filter(url=>/firebaseapp|identitytoolkit|securetoken|supabase|google-analytics|googletagmanager|apis\.google/.test(url)),[],'Public page must not initialize backend or analytics after decline');

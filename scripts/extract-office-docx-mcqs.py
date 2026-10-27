@@ -9,10 +9,12 @@ from docx.table import Table
 from docx.text.paragraph import Paragraph
 
 
-def extract(source):
+def extract(source, *, word_2016=False):
+    expected_count = 100 if word_2016 else 60
+    expected_sections = 10 if word_2016 else 6
     document = Document(source)
     key_table = document.tables[-1]
-    if [cell.text.strip() for cell in key_table.rows[0].cells] != ["Q#", "Correct Option", "Correct Answer"]:
+    if [cell.text.strip() for cell in key_table.rows[0].cells] not in [["Q#", "Correct Option", "Correct Answer"], ["Question", "Option", "Correct Answer"]]:
         raise ValueError("The document answer key is missing.")
     keys = {}
     for row in key_table.rows[1:]:
@@ -36,7 +38,7 @@ def extract(source):
                 pending = {"number": int(match[1]), "paragraphs": [match[2]], "section": section}
             elif pending:
                 pending["paragraphs"].append(text)
-            elif text not in ["Conceptual MCQ Question Bank", "Verified Answer Key"] and not text.startswith(("DIT Part-I", "Chapter No.1")):
+            elif text not in ["Conceptual MCQ Question Bank", "Verified Answer Key", "Answer Key"] and not text.startswith(("DIT Part-I", "Chapter No.", "Chapter N0.", "Introduction to MS Office", "100 original practice MCQs")):
                 section = text
                 section_names.append(text)
         elif child.tag.endswith("}tbl") and pending:
@@ -61,16 +63,21 @@ def extract(source):
                 raise ValueError(f"Q{number} has missing bilingual text or repeated options.")
             answer_lines = options[correct].splitlines()
             questions.append({
-                "id": f"dit-ms-office-ch1-q{number:02d}", "topic": pending["section"],
+                "id": (f"dit-ms-word-2016-ch2-q{number:03d}" if word_2016 else f"dit-ms-office-ch1-q{number:02d}"), "topic": pending["section"],
                 "sourceNumber": number, "sourceSection": pending["section"], "question": question,
                 "options": options, "correctIndex": correct,
                 "explanation": f"Correct answer: {answer_lines[0]}\nدرست جواب: {' '.join(answer_lines[1:])}",
             })
             pending = None
-    if pending or len(questions) != 60 or sorted(keys) != list(range(1, 61)) or [q["sourceNumber"] for q in questions] != list(range(1, 61)):
-        raise ValueError("Expected sixty complete, sequential questions and answers.")
-    if len({q["question"] for q in questions}) != 60 or len(set(section_names)) != 6:
-        raise ValueError("Expected unique questions in six source sections.")
+    if pending or len(questions) != expected_count or sorted(keys) != list(range(1, expected_count + 1)) or [q["sourceNumber"] for q in questions] != list(range(1, expected_count + 1)):
+        raise ValueError(f"Expected {expected_count} complete, sequential questions and answers.")
+    if len({q["question"] for q in questions}) != expected_count or len(set(section_names)) != expected_sections:
+        raise ValueError(f"Expected unique questions in {expected_sections} source sections.")
+    if word_2016:
+        return {"sourceFile": Path(source).name, "sourceSha256": hashlib.sha256(Path(source).read_bytes()).hexdigest(),
+                "classSlug": "dit-intermediate", "subjectSlug": "dit-computer-science", "chapterNumber": 3,
+                "chapterId": "chapter-dit-computer-science-ms-word-2016", "chapterTitle": "Microsoft Word 2016",
+                "sourceChapterNumber": 2, "sourceChapterTitle": "Microsoft word", "languages": ["en", "ur"], "sourceSections": section_names, "questions": questions}
     return {"sourceFile": Path(source).name, "sourceSha256": hashlib.sha256(Path(source).read_bytes()).hexdigest(),
             "classSlug": "dit-intermediate", "subjectSlug": "dit-computer-science", "chapterNumber": 2,
             "chapterId": "chapter-dit-computer-science-ms-office", "chapterTitle": "MS Office",
@@ -82,8 +89,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("source")
     parser.add_argument("output")
+    parser.add_argument("--word-2016", action="store_true")
     args = parser.parse_args()
-    bank = extract(args.source)
+    bank = extract(args.source, word_2016=args.word_2016)
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     Path(args.output).write_text(json.dumps(bank, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Extracted {len(bank['questions'])} bilingual questions; all sixty highlights match the answer key.")
+    print(f"Extracted {len(bank['questions'])} bilingual questions; all highlights match the answer key.")
