@@ -15,6 +15,7 @@ const { adminFunctionError } = await loadTypescript('src/lib/admin-function-erro
 const { normalizeDocumentInput } = await loadTypescript('src/utils/documents.ts');
 const { adminOperation } = await loadTypescript('src/utils/admin-operation.ts');
 const { adminStudyContext } = await loadTypescript('src/utils/admin-study-context.ts');
+const chapterBooks = await loadTypescript('src/utils/chapter-books.ts');
 const seo = await loadTypescript('src/utils/seo.ts');
 const pdf = 'https://cssaspirants.pk/wp-content/uploads/2026/07/computer-science-2026.pdf';
 const require = createRequire(import.meta.url);
@@ -58,7 +59,7 @@ test('notes save failures are visible outside the AI modal and preserve the comp
   const store = { syncFromSupabase: async () => {}, getClasses: () => [{ id: '11', slug: '11th-class', title: 'Class 11', numericGrade: 11, isActive: true }], getSubjects: () => [{ id: 'cs', classSlug: '11th-class', slug: 'computer-science', title: 'Computer Science' }], getNotes: () => [], saveNote: async item => { writes.push(item); throw await adminFunctionError({ context: Response.json({ error: 'Document and source links must be valid HTTPS URLs.' }, { status: 400 }) }, null, 'Safe fallback'); } };
   const module = { exports: {} };
   const code = ts.transpileModule(await fs.readFile('src/app/admin/notes/page.tsx', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
-  vm.runInNewContext(code, { module, exports: module.exports, Error, window: dom.window, setTimeout: () => 0, require: id => id === '@/utils/admin-study-context' ? {adminStudyContext} : id === '@/data/educationalStore' ? { EducationalStore: store } : id === '@/utils/admin-operation' ? { adminOperation } : id === '@/lib/supabase' ? {} : id === '@/lib/admin-function-error' ? { adminFunctionError } : id === '@/utils/documents' ? { normalizeDocumentInput } : require(id) });
+  vm.runInNewContext(code, { module, exports: module.exports, Error, window: dom.window, setTimeout: () => 0, require: id => id === '@/utils/chapter-books' ? chapterBooks : id === '@/utils/admin-study-context' ? {adminStudyContext} : id === '@/data/educationalStore' ? { EducationalStore: store } : id === '@/utils/admin-operation' ? { adminOperation } : id === '@/lib/supabase' ? {} : id === '@/lib/admin-function-error' ? { adminFunctionError } : id === '@/utils/documents' ? { normalizeDocumentInput } : require(id) });
   const root = createRoot(document.getElementById('root'));
   try {
     await act(async () => root.render(React.createElement(module.exports.default)));
