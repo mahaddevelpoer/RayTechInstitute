@@ -21,6 +21,8 @@ import {
 import { MCQItem } from "@/types/educational";
 import { BilingualText } from './BilingualText';
 import { isRecentTopic, nextTopicExpiry } from '@/utils/topic-freshness';
+import { BookChapterPicker } from './BookChapterPicker';
+import { chapterDisplayLabel, chapterPlacement, usesChapterBooks } from '@/utils/chapter-books';
 
 interface MCQClientViewProps {
   classSlug: string;
@@ -138,6 +140,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
         },
     );
   }, [classSlug, subjectSlug, mcqs]);
+  const bookLayout = usesChapterBooks(classSlug, subjectSlug);
   const currentQuestion = quiz[currentIndex];
   const currentAnswer = currentQuestion
     ? answers[currentQuestion.id]
@@ -194,6 +197,24 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
     else setCurrentIndex((index) => index + 1);
   };
 
+  const topicPicker = topicPickerOpen ? (
+              <section className="mcq-topic-picker" aria-labelledby="mcq-topic-heading">
+                <h3 id="mcq-topic-heading">Choose a topic</h3>
+                <p>{chapterCatalog.find(chapter => chapter.chapterNumber === selectedChapter) ? chapterDisplayLabel(chapterCatalog.find(chapter => chapter.chapterNumber === selectedChapter)!) : 'All chapters'}. Practise one topic at a time.</p>
+                <div className="mcq-topic-grid">
+                  {topicGroups.map((group, index) => (
+                    <button key={group.topic} type="button" data-new={group.isNew || undefined} onClick={() => startQuiz(selectedChapter, group.topic)}>
+                      <span className="mcq-topic-age" aria-hidden={!group.isNew}>{group.isNew ? 'New' : ''}</span>
+                      <span className="mcq-topic-number">{index + 1}</span>
+                      <span><strong>{group.title}</strong><span className="mcq-topic-count">{group.count} MCQs · Topic practice</span></span>
+                      <ChevronRight aria-hidden="true" className="h-5 w-5" />
+                    </button>
+                  ))}
+                </div>
+                <button type="button" className="btn-outline mt-4" onClick={() => startQuiz(selectedChapter)}>Mixed chapter practice ({chapterQuestions(selectedChapter).length} MCQs)</button>
+              </section>
+  ) : null;
+
   return (
     <div className="mcq-page min-h-screen bg-white text-slate-800 flex flex-col">
       <div
@@ -237,7 +258,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 Chapter-wise MCQs Practice
               </h1>
               <p className="text-xs text-slate-600 mt-1">
-                Choose a chapter and an available topic. Questions and answer choices are shuffled for each attempt.
+                {bookLayout ? "Choose a book, chapter and topic. " : "Choose a chapter and an available topic. "}Questions and answer choices are shuffled for each attempt.
               </p>
             </div>
             {started && !finished && (
@@ -252,6 +273,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
 
         {!started && (
           <section className="space-y-4">
+            {bookLayout ? <BookChapterPicker chapters={chapterCatalog} questions={mcqs} selectedChapter={selectedChapter} onSelect={selectChapter} topics={topicPicker} /> : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {chapterCatalog.map((chapter) => {
                 const count = mcqs.filter(
@@ -285,23 +307,9 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                 <div className="text-xs text-slate-600 mt-1">{mcqs.length} MCQs · Optional full question bank</div>
               </button>
             </div>
-            {topicPickerOpen && (
-              <section className="mcq-topic-picker" aria-labelledby="mcq-topic-heading">
-                <h2 id="mcq-topic-heading">Choose a topic</h2>
-                <p>Chapter {selectedChapter}: {chapterCatalog.find(chapter => chapter.chapterNumber === selectedChapter)?.title}. Practise one topic at a time.</p>
-                <div className="mcq-topic-grid">
-                  {topicGroups.map((group, index) => (
-                    <button key={group.topic} type="button" data-new={group.isNew || undefined} onClick={() => startQuiz(selectedChapter, group.topic)}>
-                      <span className="mcq-topic-age" aria-hidden={!group.isNew}>{group.isNew ? 'New' : ''}</span>
-                      <span className="mcq-topic-number">{index + 1}</span>
-                      <span><strong>{group.title}</strong><span className="mcq-topic-count">{group.count} MCQs · Topic practice</span></span>
-                      <ChevronRight aria-hidden="true" className="h-5 w-5" />
-                    </button>
-                  ))}
-                </div>
-                <button type="button" className="btn-outline mt-4" onClick={() => startQuiz(selectedChapter)}>Mixed chapter practice ({chapterQuestions(selectedChapter).length} MCQs)</button>
-              </section>
             )}
+            {bookLayout && <button type="button" className="btn-outline" onClick={() => startQuiz("all")}>Mixed practice: all books ({mcqs.length} MCQs)</button>}
+            {!bookLayout && topicPicker}
             {!mcqs.length && (
               <p className="p-4 rounded bg-amber-50 border border-amber-200 text-xs text-amber-800">
                 No questions have been published for this subject yet. Try another subject or return after publication.
@@ -319,7 +327,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
                   onClick={() => selectChapter(chapter.chapterNumber)}
                   className={`text-xs px-3 py-1.5 rounded border ${selectedChapter === chapter.chapterNumber ? "bg-navy-600 text-white border-navy-600" : "bg-white text-slate-700 border-slate-200"}`}
                 >
-                  Ch {chapter.chapterNumber}
+                  {chapterPlacement(chapter) ? `${chapterPlacement(chapter)!.bookTitle}: ${chapterPlacement(chapter)!.title}` : `Ch ${chapter.chapterNumber}`}
                 </button>
               ))}
               <button

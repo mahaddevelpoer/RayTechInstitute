@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { FileText, Plus, CheckCircle, ExternalLink, Download, Trash2, Edit2, X, RefreshCw, Eye, Sparkles, Link2, AlertCircle, BookOpen } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
+import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { ClassItem, SubjectItem, NoteItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
 import { adminFunctionError } from '@/lib/admin-function-error';
@@ -505,7 +506,7 @@ export default function AdminNotesPage() {
                     <span className="text-sm font-bold text-navy-900">{n.title}</span>
                   </div>
                   <div className="text-[11px] text-slate-500 mt-0.5">
-                    {n.classSlug} &bull; {n.subjectSlug} &bull; Chapter {n.chapterNumber}: {n.chapterTitle}
+                    {n.classSlug} &bull; {n.subjectSlug} &bull; {chapterDisplayLabel({ ...n, title: n.chapterTitle })}
                   </div>
                 </div>
                 <span className="text-[10px] px-2 py-0.5 bg-slate-100 text-slate-600 font-mono rounded border border-slate-200">

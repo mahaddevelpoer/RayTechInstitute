@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
+import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { ChapterItem, ClassItem, SubjectItem, MCQItem } from '@/types/educational';
 import { supabase } from '@/lib/supabase';
 import { adminStudyContext } from '@/utils/admin-study-context';
@@ -309,7 +310,7 @@ export default function AdminMCQsPage() {
                 <div>
                   <label className="block font-semibold text-slate-700 mb-1">Chapter #</label>
                   <select value={aiChapter} onChange={(e) => setAiChapter(Number(e.target.value))} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none" required>
-                    {aiAvailableChapters.length ? aiAvailableChapters.map((chapter) => <option key={chapter.id} value={chapter.chapterNumber}>Chapter {chapter.chapterNumber}: {chapter.title}</option>) : <option value={aiChapter}>Chapter {aiChapter} (add it in Classes)</option>}
+                    {aiAvailableChapters.length ? aiAvailableChapters.map((chapter) => <option key={chapter.id} value={chapter.chapterNumber}>{chapterDisplayLabel(chapter)}</option>) : <option value={aiChapter}>Chapter {aiChapter} (add it in Classes)</option>}
                   </select>
                 </div>
 
@@ -440,7 +441,7 @@ export default function AdminMCQsPage() {
             <div>
               <label className="block font-semibold text-slate-700 mb-1">Chapter #</label>
                 <select value={chapterNumber} onChange={(e) => setChapterNumber(Number(e.target.value))} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none" required>
-                  {availableChapters.length ? availableChapters.map((chapter) => <option key={chapter.id} value={chapter.chapterNumber}>Chapter {chapter.chapterNumber}: {chapter.title}</option>) : <option value={chapterNumber}>Chapter {chapterNumber} (add it in Classes)</option>}
+                  {availableChapters.length ? availableChapters.map((chapter) => <option key={chapter.id} value={chapter.chapterNumber}>{chapterDisplayLabel(chapter)}</option>) : <option value={chapterNumber}>Chapter {chapterNumber} (add it in Classes)</option>}
                 </select>
             </div>
 
@@ -544,7 +545,7 @@ export default function AdminMCQsPage() {
                         {i + 1}
                       </span>
                       <span className="text-xs text-slate-500">
-                        {m.classSlug} &bull; {m.subjectSlug} &bull; Chapter {m.chapterNumber}{m.topic && <> &bull; {m.topic}</>}
+                        {m.classSlug} &bull; {m.subjectSlug} &bull; {chapterDisplayLabel(chapters.find(chapter => chapter.classSlug === m.classSlug && chapter.subjectSlug === m.subjectSlug && chapter.chapterNumber === m.chapterNumber) || { ...m, title: `Chapter ${m.chapterNumber}` })}{m.topic && <> &bull; {m.topic}</>}
                       </span>
                     </div>
                     <p className="text-sm font-semibold text-slate-900 mt-2">{m.question}</p>

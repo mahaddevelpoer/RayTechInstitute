@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {chromium} from 'playwright';
-const base='http://127.0.0.1:4183';
+const base=process.env.PREVIEW_BASE_URL||'http://127.0.0.1:4183';
 const bank=JSON.parse(await fs.readFile('content/imports/dit-ms-word-2016-chapter-2.json','utf8'));
 const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||'msedge',headless:true,args:['--renderer-process-limit=1','--disable-gpu']});
 try{
@@ -9,7 +9,11 @@ try{
  page.on('pageerror',error=>errors.push(error.message));
  await page.route('**/*',route=>{if(route.request().url().startsWith(base+'/'))return route.continue();external.push(new URL(route.request().url()).hostname);return route.abort();});
  await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'networkidle'});
- await page.getByRole('button',{name:/Chapter 3: Microsoft Word 2016/}).click();
+ assert.equal(await page.locator('.mcq-book').count(),2);
+ const titles=await page.locator('.mcq-book>summary strong').allTextContents();assert.deepEqual(titles,['Computer Networking','MS Office']);
+ const officeBook=page.locator('.mcq-book').filter({has:page.locator('summary strong').getByText('MS Office',{exact:true})});
+ await officeBook.locator('summary').click();assert.equal(await officeBook.locator('button').first().isVisible(),false);await officeBook.locator('summary').click();
+ await page.getByRole('button',{name:/Chapter 2: Microsoft Word 2016/}).click();
  assert.equal(await page.locator('.mcq-topic-grid>button').count(),10);
  const office=page.locator('.mcq-topic-grid>button').filter({has:page.getByText(bank.sourceSections[0],{exact:true})});
  assert.equal(await office.getAttribute('data-new'),'true');assert.equal(await page.locator('.mcq-topic-grid>[data-new="true"]').count(),10);
@@ -36,7 +40,7 @@ try{
  }
  assert.equal(seen.size,100);
  await page.getByRole('button',{name:/Chapter 1: Basic Terminologies/}).click();assert.equal(await page.locator('.mcq-topic-grid>button').count(),8);
- await page.getByRole('button',{name:/Chapter 2: MS Office/}).click();assert.equal(await page.locator('.mcq-topic-grid>button').count(),6);
+ await page.getByRole('button',{name:/Chapter 1: Introduction to MS Office/}).click();assert.equal(await page.locator('.mcq-topic-grid>button').count(),6);
  assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
  console.log('PASS: Word chapter, ten source topics and 100/100 shuffled answers; golden cards at 360/768/1366px in both themes. Original chapters preserve 8 and 6 topics. No external requests.');
 }finally{await browser.close();}

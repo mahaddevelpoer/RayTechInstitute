@@ -1,3 +1,4 @@
+import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -101,7 +102,7 @@ export default async function NoteDetailPage({
       <PdfDetailClientView
         backHref={`/classes/${classSlug}/${subjectSlug}/notes`}
         backLabel="Back to notes"
-        eyebrow={`Chapter ${note!.chapterNumber} · ${note!.chapterTitle}`}
+        eyebrow={chapterDisplayLabel({ ...note!, title: note!.chapterTitle })}
         title={note!.title}
         description={note!.description}
         content={note!.content}
@@ -110,7 +111,7 @@ export default async function NoteDetailPage({
         metadata={[
           currentClass!.title,
           currentSubject!.title,
-          `Chapter ${note!.chapterNumber}`,
+          chapterDisplayLabel({ ...note!, title: note!.chapterTitle }),
           note!.fileSize || "PDF resource",
         ]}
       />

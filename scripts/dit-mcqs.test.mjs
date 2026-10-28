@@ -16,6 +16,8 @@ const require=createRequire(import.meta.url);
 function component(file,mocks={}){const module={exports:{}};const code=ts.transpileModule(file,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;vm.runInNewContext(code,{module,exports:module.exports,window:globalThis.window,document:globalThis.document,Date,require:id=>id in mocks?mocks[id]:require(id)});return module.exports;}
 const {BilingualText}=component(await fs.readFile('src/components/educational/BilingualText.tsx','utf8'));
 const freshness=await loadTypescript('src/utils/topic-freshness.ts');
+const chapterBooks=await loadTypescript('src/utils/chapter-books.ts');
+const {BookChapterPicker}=component(await fs.readFile('src/components/educational/BookChapterPicker.tsx','utf8'),{'@/utils/chapter-books':chapterBooks});
 
 test('all 80 bilingual source questions preserve the independently checked answer key',()=>{
  assert.equal(bank.questions.length,80);assert.equal(bank.chapterNumber,1);assert.equal(bank.chapterTitle,'Basic Terminologies');
@@ -53,7 +55,7 @@ test('all eight topics stay separate, retry keeps its topic and mixed practice s
  const rows=bank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1}));const original=JSON.stringify(rows);
  const {MCQClientView}=component(await fs.readFile('src/components/educational/MCQClientView.tsx','utf8'),{
   'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},
-  '@/utils/topic-freshness':freshness,
+  '@/utils/topic-freshness':freshness,'@/utils/chapter-books':chapterBooks,'./BookChapterPicker':{BookChapterPicker},
   '@/data/educationalStore':{EducationalStore:{getMCQs:(c,s)=>{assert.equal(c,bank.classSlug);assert.equal(s,bank.subjectSlug);return rows;}},INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'chapter-1',classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1,title:bank.chapterTitle,isActive:true}]}
  });
  const root=createRoot(document.getElementById('root'));const click=async node=>act(async()=>node.click());
@@ -95,12 +97,12 @@ test('Office has its own chapter and six ten-question quizzes; gold expires with
  dom.window.setTimeout=(callback,delay)=>{const id=++timerId;timers.set(id,{callback,delay});return id;};dom.window.clearTimeout=id=>timers.delete(id);
  const rows=[...bank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1})),...officeBank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:officeBank.chapterNumber,createdAt:new Date(now).toISOString()}))];
  const {MCQClientView}=component(await fs.readFile('src/components/educational/MCQClientView.tsx','utf8'),{
-  'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},'@/utils/topic-freshness':freshness,
+  'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},'@/utils/topic-freshness':freshness,'@/utils/chapter-books':chapterBooks,'./BookChapterPicker':{BookChapterPicker},
   '@/data/educationalStore':{EducationalStore:{getMCQs:()=>rows},INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'dit-chapter-1',chapterNumber:1,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:bank.chapterTitle,isActive:true},{id:officeBank.chapterId,chapterNumber:officeBank.chapterNumber,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:officeBank.chapterTitle,isActive:true}]},
  });
  const root=createRoot(document.getElementById('root'));const click=async node=>act(async()=>node.click());
  const button=label=>[...document.querySelectorAll('button')].find(b=>b.textContent.trim()===label);
- const chapter=number=>[...document.querySelectorAll('button')].find(b=>b.textContent.includes(`Chapter ${number}:`));
+ const chapter=number=>document.querySelector(`.mcq-book-chapter-button[data-chapter-number="${number}"]`);
  try{
   await act(async()=>root.render(React.createElement(MCQClientView,{classSlug:bank.classSlug,subjectSlug:bank.subjectSlug})));
   assert.ok(chapter(1).textContent.includes('Basic Terminologies'));assert.ok(chapter(2).textContent.includes('MS Office'));

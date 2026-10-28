@@ -69,7 +69,7 @@ try{
   const officeChapter=(STATIC_OVERRIDES.chapters||[]).find(chapter=>chapter.id==='chapter-dit-computer-science-ms-office');assert.equal(officeChapter?.title,'MS Office');
   await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>{const toggle=document.querySelector('.site-header button[aria-label^="Switch to"]');return toggle&&!toggle.disabled;});
-  await page.getByRole('button',{name:/Chapter 2: MS Office/}).click();assert.equal(await page.locator('.mcq-topic-grid>button').count(),6);
+  await page.getByRole('button',{name:/Chapter 1: Introduction to MS Office/}).click();assert.equal(await page.locator('.mcq-topic-grid>button').count(),6);
   const {isRecentTopic}=await loadTypescript('src/utils/topic-freshness.ts');
   const topics=Array.from(new Set(officeBank.map(q=>q.topic)));
   for(const topic of topics){

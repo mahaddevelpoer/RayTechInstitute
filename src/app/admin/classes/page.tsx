@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { GraduationCap, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
 import { adminOperation } from '@/utils/admin-operation';
+import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { adminStudyContext } from '@/utils/admin-study-context';
 import { ChapterItem, ClassItem, SubjectItem } from '@/types/educational';
 
@@ -308,7 +309,7 @@ export default function AdminClassesPage() {
             {chapters.length === 0 && <p className="text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded p-4">No chapters have been added yet. Add your first chapter to get started.</p>}
             {chapters.map((chapter) => (
               <div key={chapter.id} className="bg-white border border-slate-200 rounded-lg p-4 flex items-start justify-between gap-3">
-                <div><div className="text-sm font-bold text-navy-900">Chapter {chapter.chapterNumber}: {chapter.title}</div><div className="text-[11px] text-slate-500 mt-1">{chapter.classSlug} · {chapter.subjectSlug}</div>{chapter.description && <p className="text-xs text-slate-600 mt-1">{chapter.description}</p>}</div>
+                <div><div className="text-sm font-bold text-navy-900">{chapterDisplayLabel(chapter)}</div><div className="text-[11px] text-slate-500 mt-1">{chapter.classSlug} · {chapter.subjectSlug}</div>{chapter.description && <p className="text-xs text-slate-600 mt-1">{chapter.description}</p>}</div>
                 <div className="flex gap-1"><button type="button" onClick={() => handleEditChapter(chapter)} className="p-1.5 text-slate-600 hover:text-navy-600" title="Edit chapter"><Edit2 className="w-4 h-4" /></button><button type="button" onClick={() => handleDeleteChapter(chapter)} className="p-1.5 text-slate-500 hover:text-red-600" title="Delete chapter"><Trash2 className="w-4 h-4" /></button></div>
               </div>
             ))}
