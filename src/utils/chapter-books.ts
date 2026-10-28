@@ -5,7 +5,7 @@ type ChapterIdentity = Pick<ChapterItem, 'classSlug' | 'subjectSlug' | 'chapterN
 // Display positions are separate from the stored chapter numbers used by MCQs and URLs.
 const ditChapters = [
   { id: 'chapter-dit-intermediate-dit-computer-science-1', titles: ['basic terminologies'], bookId: 'computer-networking', bookTitle: 'Computer Networking', number: 1, title: 'Basic Terminologies' },
-  { id: 'chapter-dit-computer-science-ms-office', titles: ['ms office', 'introduction to ms office'], bookId: 'ms-office', bookTitle: 'MS Office', number: 1, title: 'Introduction to MS Office' },
+  { id: 'chapter-dit-computer-science-ms-office', titles: ['ms office', 'microsoft office', 'introduction to ms office'], bookId: 'ms-office', bookTitle: 'MS Office', number: 1, title: 'Introduction to MS Office' },
   { id: 'chapter-dit-computer-science-ms-word-2016', titles: ['microsoft word 2016'], bookId: 'ms-office', bookTitle: 'MS Office', number: 2, title: 'Microsoft Word 2016' },
 ];
 
