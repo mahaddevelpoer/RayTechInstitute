@@ -14,3 +14,5 @@ The Top 100 keyword-to-hub candidates are in docs/seo/research-keyword-map.csv. 
 
 ## Validation
 Project TypeScript passed. Existing metadata/schema tests passed (7 tests). Release pipeline will rebuild catalogs, regenerate sitemap, check metadata and private credentials, and verify live export before a successful release is reported. No new Core Web Vitals field score or Search Console ranking measurement was collected in this review.
+
+6. Competition home and rules retained pre-launch noindex even after release. Removed that pre-launch restriction for these two useful public pages. Private/personal result and gameplay routes retain their existing indexing policy. Sitemap regeneration discovers the newly indexable canonical pages.
