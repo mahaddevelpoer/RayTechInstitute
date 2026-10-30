@@ -97,7 +97,7 @@ export function NotesClientView({
         <span aria-current="page">Notes</span>
       </nav>
       <h1 className="text-3xl font-bold text-navy-900">
-        {subject?.title} chapter notes
+        {currentClass?.title} {subject?.title} Chapter Notes
       </h1>
       <p className="mt-3 text-base text-slate-600">
         {bookLayout ? "Choose a book and chapter to find chapter notes and MCQ revision notes. Open a document to read its guide, preview the PDF or revise offline." : "Choose a chapter, read the study guide and open the available document for offline revision."}

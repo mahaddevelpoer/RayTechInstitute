@@ -6,9 +6,9 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { INITIAL_SUBJECTS, INITIAL_CLASSES } from "@/data/staticCatalog";
+import { INITIAL_SUBJECTS, INITIAL_CLASSES, INITIAL_PAST_PAPERS } from "@/data/staticCatalog";
 import { PastPapersClientView } from "@/components/educational/PastPapersClientView";
-import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { serializeJsonLd, buildResourceSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -36,18 +36,20 @@ export async function generateMetadata({
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
   if (!currentClass || !currentSubject) return {};
+  const hasResources = INITIAL_PAST_PAPERS.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Browse published past-paper PDFs and check the board, year and examination session. Open the resource details before revising.', `${className} ${currentSubject.title} past papers`);
 
   return {
-    title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
+    title: buildResourceSeoTitle(className, currentSubject.title, "Past Papers"),
     description,
+    robots: { index: hasResources, follow: true },
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
     },
     openGraph: {
       images: [DEFAULT_SOCIAL_IMAGE],
-      title: buildSeoTitle(`${className} ${currentSubject.title} Past Papers`),
+      title: buildResourceSeoTitle(className, currentSubject.title, "Past Papers"),
       description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
       type: "website",

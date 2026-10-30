@@ -12,7 +12,7 @@ import {
   INITIAL_MCQS,
 } from "@/data/staticCatalog";
 import { MCQClientView } from "@/components/educational/MCQClientView";
-import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { serializeJsonLd, buildResourceSeoTitle, buildDocumentDescription } from "@/utils/seo";
 import { studyResourceKeywords } from '@/utils/study-resource-seo';
 
 export function generateStaticParams() {
@@ -41,16 +41,17 @@ export async function generateMetadata({
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
   if (!currentClass || !currentSubject) return {};
+  const hasResources = INITIAL_MCQS.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const topics = Array.from(new Set(INITIAL_MCQS.filter(item => item.classSlug === classSlug && item.subjectSlug === subjectSlug).map(item => item.topic?.trim()).filter((topic): topic is string => !!topic)));
   const description = buildDocumentDescription('Practise by chapter and topic, answer one question at a time, then review your score and explanations.', `${className} ${currentSubject.title} MCQs`);
-  const title = buildSeoTitle(`${className} ${currentSubject.title} ${topics.length ? 'Topic' : 'Chapter'} MCQs`);
+  const title = buildResourceSeoTitle(className, currentSubject.title, 'MCQs & Answers');
 
   return {
     title,
     description,
     keywords: studyResourceKeywords(className, currentSubject.title, topics),
-    robots: { index: true, follow: true },
+    robots: { index: hasResources, follow: true },
     twitter: { card: 'summary_large_image', title, description, images: [DEFAULT_SOCIAL_IMAGE.url] },
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),

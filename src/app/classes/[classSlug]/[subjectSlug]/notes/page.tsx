@@ -6,9 +6,9 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { INITIAL_SUBJECTS, INITIAL_CLASSES } from "@/data/staticCatalog";
+import { INITIAL_SUBJECTS, INITIAL_CLASSES, INITIAL_NOTES } from "@/data/staticCatalog";
 import { NotesClientView } from "@/components/educational/NotesClientView";
-import { serializeJsonLd, buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { serializeJsonLd, buildResourceSeoTitle, buildDocumentDescription } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -36,18 +36,20 @@ export async function generateMetadata({
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
   if (!currentClass || !currentSubject) return {};
+  const hasResources = INITIAL_NOTES.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Browse available chapter notes and PDF revision resources. Check the document details and use its preview before downloading.', `${className} ${currentSubject.title} notes`);
 
   return {
-    title: buildSeoTitle(`${className} ${currentSubject.title} Notes PDF`),
+    title: buildResourceSeoTitle(className, currentSubject.title, "Notes PDF"),
     description,
+    robots: { index: hasResources, follow: true },
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/`),
     },
     openGraph: {
       images: [DEFAULT_SOCIAL_IMAGE],
-      title: buildSeoTitle(`${className} ${currentSubject.title} Notes PDF`),
+      title: buildResourceSeoTitle(className, currentSubject.title, "Notes PDF"),
       description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/`),
       type: "website",

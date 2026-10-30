@@ -17,7 +17,7 @@ export function Hero() {
       <div className="home-hero-copy">
         <p className="home-hero-kicker">Class resources and programming</p>
         <h1>Learn the concept.<br /><span>Then write the code.</span></h1>
-        <p className="home-hero-description">Study class notes, follow programming lessons and test each idea in your browser.</p>
+        <p className="home-hero-description">Find class-wise notes, chapter MCQs and past papers. Learn programming with worked examples and test each idea in your browser.</p>
         <div className="home-hero-actions"><Link href="/courses/" className="btn-primary">Explore courses<ArrowRight size={17}/></Link><Link href="/classes/" className="btn-outline"><BookOpen size={17}/>Class resources</Link></div>
         <div className="home-channel"><img src={channelData.profileImage} alt="RayTech Institute" width={44} height={44}/><div><strong>{channelData.name}</strong><p>Learn. Understand. Apply.</p></div><a href={sanitizeUrl(channelData.youtubeUrl)} target="_blank" rel="noopener noreferrer">Watch lessons<ArrowRight size={14}/></a></div>
       </div>

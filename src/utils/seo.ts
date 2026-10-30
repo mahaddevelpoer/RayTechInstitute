@@ -72,3 +72,15 @@ export function buildDocumentDescription(summary: string, context: string): stri
   if (boundary >= 120) shortened = shortened.slice(0, boundary);
   return `${shortened.trimEnd()}…`;
 }
+
+/** Preserve the resource intent when shortening long class/subject titles. */
+export function buildResourceSeoTitle(classTitle:string,subjectTitle:string,purpose:string):string {
+ const level=classTitle.replace(/\s*\([^)]*\)/g,'').replace(/\bclass\b/ig,'').replace(/D\.?I\.?T\.?/ig,'DIT').replace(/\s+/g,' ').trim();
+ const subject=subjectTitle.replace(/\s+/g,' ').trim();
+ const primary=[level,subject,purpose].filter(Boolean).join(' ');
+ const max=60-' | RayTech Institute'.length;
+ if(primary.length<=max)return buildSeoTitle(primary);
+ const prefix=[level,subject].filter(Boolean).join(' ');const budget=Math.max(5,max-purpose.length-1);
+ const short=prefix.slice(0,budget).replace(/\s+\S*$/,'').trim()||prefix.slice(0,budget);
+ return buildSeoTitle(short+' '+purpose);
+}

@@ -84,7 +84,7 @@ export const PastPapersClientView: React.FC<PastPapersClientViewProps> = ({
             <span className="badge-accent">{currentSubject?.title}</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
-            Official Board Past Papers
+            {currentClass?.title} {currentSubject?.title} Past Papers
           </h1>
           <p className="text-slate-600 text-sm">
             Download past 5 years board question papers (Annual &amp;
