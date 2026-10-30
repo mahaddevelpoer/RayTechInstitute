@@ -139,6 +139,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
               <pre className="m-0 overflow-x-auto p-4 text-xs font-mono"><code className="block whitespace-pre font-mono text-inherit">{narration && text ? text.split('\n').map((line,index)=><React.Fragment key={index}>{index>0?'\n':''}{line.trim()?<button type="button" className="codi-sentence codi-code-sentence" data-codi-text={line.trim()} title="Read this code line with Codi">{line}</button>:line}</React.Fragment>) : text || children}</code></pre>
             </div>;
           },
+          img: ({src,alt}) => {const safeSrc=sanitizeUrl(typeof src==='string'?src:'');return safeSrc?<img src={safeSrc} alt={alt||'Article illustration'} width={1200} height={675} loading="lazy" decoding="async" className="my-5 block w-full rounded-lg" style={{aspectRatio:'16 / 9',objectFit:'contain',height:'auto'}}/>:null;},
           hr: () => <hr className="my-6 border-slate-200" />,
           strong: ({ children }) => (
             <strong className="font-bold text-slate-900">{children}</strong>
