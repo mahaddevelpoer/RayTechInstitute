@@ -1,6 +1,7 @@
 // Prepared only. Deploy separately after approval; never embed these secrets in NEXT_PUBLIC variables.
 import {createCompetitionTokenVerifier} from '../supabase/functions/_shared/competition-auth';
 const verifyGoogle=createCompetitionTokenVerifier('raytechinstitute');
+const verifyAdminIdentity=createCompetitionTokenVerifier('raytechinstitute',fetch,Date.now,false);
 interface Environment {COMPETITION_UPSTREAM:string;COMPETITION_PROXY_SECRET:string;ALLOWED_ORIGINS:string;COMPETITION_NOTIFICATION_JOB_SECRET?:string;}
 interface WorkerContext {waitUntil(promise:Promise<unknown>):void;}
 export default {scheduled(_event:unknown,env:Environment,context:WorkerContext){
@@ -17,9 +18,9 @@ export default {scheduled(_event:unknown,env:Environment,context:WorkerContext){
  if(request.method==='POST'&&(!request.headers.get('authorization')?.startsWith('Bearer ')||(request.headers.get('authorization')?.length||0)>12000))return fail(401,'Sign in with Google before entering the competition.');
  if(request.method==='POST'){
   if(!origin)return fail(403,'Open the competition on RayTech Institute before submitting.');
-  try{await verifyGoogle(request.headers.get('authorization'));}catch{return fail(401,'Your Google session could not be verified. Sign in again.');}
+  try{await(new URL(request.url).pathname==='/admin'?verifyAdminIdentity:verifyGoogle)(request.headers.get('authorization'));}catch{return fail(401,'Your Google session could not be verified. Sign in again.');}
  }
- const incoming=new URL(request.url);upstream.search=incoming.search;
+ const incoming=new URL(request.url);if(incoming.pathname==='/admin')upstream.pathname+='/admin';else if(incoming.pathname!=='/')return fail(404,'Competition route not found.');upstream.search=incoming.search;
  const isPublic=request.method==='GET'&&!request.headers.has('authorization')&&['overview','result'].includes(incoming.searchParams.get('action')||'overview');
  const cache=(caches as CacheStorage&{default:Cache}).default;
  const cacheUrl=new URL(request.url);cacheUrl.searchParams.set('_origin',origin||allowed[0]);const cacheKey=new Request(cacheUrl.href,{method:'GET'});

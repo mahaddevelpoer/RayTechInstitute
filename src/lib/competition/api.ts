@@ -9,5 +9,6 @@ export async function competitionPost(action:string,payload:Record<string,unknow
  let token=demo?window.__COMPETITION_PREVIEW__?.token:null;
  if(!token){const {auth}=await import('@/lib/firebase');token=await auth.currentUser?.getIdToken();}
  if(!token)throw new Error('Sign in with Google before entering the weekly competition.');
- return read(await request(endpoint(),{method:'POST',credentials:'omit',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({action,payload}),signal:AbortSignal.timeout(15000)}));
+ const url=new URL(endpoint(),location.origin);if(!window.__COMPETITION_PREVIEW__&&['admin_rounds','admin_attempts','set_review','save_round'].includes(action))url.pathname=url.pathname.replace(/\/$/,'')+'/admin';
+ return read(await request(url,{method:'POST',credentials:'omit',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({action,payload}),signal:AbortSignal.timeout(15000)}));
 }

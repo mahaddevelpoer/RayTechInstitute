@@ -8,7 +8,7 @@ const verifyIdentity=createCompetitionTokenVerifier('raytechinstitute');
 Deno.serve(createCompetitionHandler({
  origins:(Deno.env.get('ALLOWED_ORIGINS')||'https://raytechinstitute.com,https://raytechinstitute.web.app').split(',').map(s=>s.trim()),
  siteKey:Deno.env.get('TURNSTILE_SITE_KEY')||'',turnstileSecret:Deno.env.get('TURNSTILE_SECRET_KEY')||'',ipSalt:Deno.env.get('COMPETITION_IP_SALT')||'',
- proxyRequired:true,proxySecret,verifyIdentity,
+ proxyRequired:true,proxySecret,verifyIdentity,verifyAdminIdentity:createCompetitionTokenVerifier('raytechinstitute',fetch,Date.now,false),
  async verifyFreshIdentity(authorization){try{return await verifyStudent(authorization,{projectId:'raytechinstitute',webApiKey:Deno.env.get('FIREBASE_WEB_API_KEY')||''});}catch(error){throw new CompetitionError(error instanceof StudentRequestError?error.status:503,'Sign in again before starting the competition. Your weekly attempt was not used.');}},
  trustedIp:request=>proxySecret&&request.headers.get('x-competition-proxy')===proxySecret?request.headers.get('x-competition-client-ip'):null,
  async verifyAdmin(authorization){

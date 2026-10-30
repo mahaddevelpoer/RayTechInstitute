@@ -16,7 +16,7 @@ export default function AdminCompetition(){
 
  const[rounds,setRounds]=useState<RoundRow[]>([]),[attempts,setAttempts]=useState<AttemptRow[]>([]),[selectedRound,setSelectedRound]=useState(''),[reason,setReason]=useState('');
 
- async function refreshRounds(){try{setRounds(await competitionPost('admin_rounds'));}catch{setError('Competition management could not load. Sign in with an authorised Google admin account and retry.');}}
+ async function refreshRounds(){setError('');try{setRounds(await competitionPost('admin_rounds'));}catch(e){setError(e instanceof Error?e.message:'Competition management could not load. Please retry.');}}
 
  async function inspect(id:string){setSelectedRound(id);setError('');try{setAttempts(await competitionPost('admin_attempts',{roundId:id}));}catch{setError('Attempts could not load. Please retry.');}}
 

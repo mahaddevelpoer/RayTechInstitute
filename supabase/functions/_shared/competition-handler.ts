@@ -2,6 +2,7 @@ import {CompetitionError,createCompetitionService,pakistanWeek,type CompetitionR
 interface Dependencies{
  repo:CompetitionRepository;origins:string[];siteKey:string;turnstileSecret:string;ipSalt:string;
  verifyIdentity:(authorization:string|null)=>Promise<{uid:string}>;
+ verifyAdminIdentity?:(authorization:string|null)=>Promise<{uid:string}>;
  verifyFreshIdentity?:(authorization:string|null)=>Promise<{uid:string}>;
  verifyAdmin:(authorization:string|null)=>Promise<boolean>;
  trustedIp:(request:Request)=>string|null;proxyRequired?:boolean;proxySecret?:string;
@@ -37,13 +38,14 @@ export function createCompetitionHandler(deps:Dependencies){
    }
    if(request.method!=='POST')throw new CompetitionError(405,'Use GET or POST.');
    if(deps.proxyRequired&&(!deps.proxySecret||request.headers.get('x-competition-proxy')!==deps.proxySecret))throw new CompetitionError(503,'The competition security connection is not configured yet. Your attempt has not been used.');
-   const authorization=request.headers.get('authorization');const identity=await deps.verifyIdentity(authorization);
+   const authorization=request.headers.get('authorization');const adminPath=url.pathname.endsWith('/admin');const identity=await(adminPath&&deps.verifyAdminIdentity?deps.verifyAdminIdentity:deps.verifyIdentity)(authorization);
    if(!await deps.repo.call('rate',null,{subject:'account:'+identity.uid,limit:120}))throw new CompetitionError(429,'Please slow down and resume your existing attempt.');
    const ip=deps.trustedIp(request);
    if(ip&&deps.ipSalt){const hash=await competitionIpHash(ip,deps.ipSalt,now());if(!await deps.repo.call('rate',null,{subject:'ip:'+hash,limit:1500}))throw new CompetitionError(429,'This network is busy. Please try again shortly.');}
    const input=await body(request);if(Object.keys(input).some(key=>!['action','payload'].includes(key))||typeof input.action!=='string'||!input.payload||Array.isArray(input.payload)||typeof input.payload!=='object')throw new CompetitionError(400,'Provide an action and payload only.');
    const {action,payload}=input;const allowed:Record<string,string[]>={me:[],state:[],start:['roundId','displayName','photoUrl','turnstileToken','consent'],answer:['attemptId','questionId','option'],event:['type'],review:['attemptId'],admin_rounds:[],admin_attempts:['roundId'],set_review:['attemptId','held','reason'],save_round:['config','bank','enabled']};
    if(!Object.prototype.hasOwnProperty.call(allowed,action)||Object.keys(payload).some(key=>!allowed[action].includes(key)))throw new CompetitionError(400,'Unsupported competition action or fields.');
+   if(adminPath&&!['admin_rounds','admin_attempts','set_review','save_round'].includes(action))throw new CompetitionError(403,'This path is only for administration.');
    let data;
    if(['admin_rounds','admin_attempts','set_review','save_round'].includes(action)){
     if(!await deps.verifyAdmin(authorization))throw new CompetitionError(403,'An authorised administrator is required.');

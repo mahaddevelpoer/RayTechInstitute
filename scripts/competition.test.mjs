@@ -80,6 +80,7 @@ test('Firebase verification checks the cryptographic signature, Google provider,
  async function token(changes={},header={alg:'RS256',kid:'qa-key'}){const value=encode(header)+'.'+encode({...claims,...changes});return value+'.'+Buffer.from(await crypto.subtle.sign('RSASSA-PKCS1-v1_5',key.privateKey,new TextEncoder().encode(value))).toString('base64url');}
  const valid=await token();assert.equal((await verify('Bearer '+valid)).uid,'google-user');await verify('Bearer '+valid);assert.equal(calls,1);
  await assert.rejects(verify('Bearer '+await token({firebase:{sign_in_provider:'password'}})),/Google/);await assert.rejects(verify('Bearer '+await token({exp:seconds-1})),/Google/);await assert.rejects(verify('Bearer '+await token({aud:'foreign-project'})),/Google/);
+ const adminVerify=createCompetitionTokenVerifier('raytechinstitute',async()=>Response.json({keys:[jwk]}),Date.now,false);assert.equal((await adminVerify('Bearer '+await token({firebase:{sign_in_provider:'password'}}))).uid,'google-user');await assert.rejects(adminVerify('Bearer '+await token({firebase:{sign_in_provider:'anonymous'}})),/Google/);
  const tampered=valid.split('.');tampered[1]=encode({...claims,sub:'attacker'});await assert.rejects(verify('Bearer '+tampered.join('.')),/Google/);
 });
 
