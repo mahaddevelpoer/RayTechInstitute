@@ -1,0 +1,68 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "sanjay dutt",
+  "words": 314,
+  "relatedTermsUsed": [
+    "Sanjay Dutt",
+    "screen work",
+    "character",
+    "leading role",
+    "supporting",
+    "antagonist",
+    "film credit",
+    "production",
+    "filmography",
+    "remakes",
+    "language",
+    "fan poster",
+    "casting",
+    "release",
+    "objective",
+    "persuade",
+    "intimidate",
+    "conceal",
+    "reconcile",
+    "tone",
+    "posture",
+    "pauses",
+    "actor",
+    "fiction",
+    "music",
+    "costume",
+    "lighting",
+    "editing",
+    "camera angle",
+    "reaction shot",
+    "dialogue",
+    "age classification",
+    "regional availability"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Sanjay Dutt filmography reference",
+      "url": "https://en.wikipedia.org/wiki/Sanjay_Dutt_filmography"
+    },
+    {
+      "title": "Sony Pictures official film catalogue",
+      "url": "https://www.sonypictures.com/movies"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "bytes": 17876
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

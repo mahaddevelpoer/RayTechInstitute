@@ -1,0 +1,29 @@
+Sony LIV's official CID page lists Shivaji Satam among the programme's cast. That is a useful production source for the actor's connection with the series. A crime drama can be entertaining and memorable, but its storytelling should not be confused with a manual for real investigation or legal procedure.
+
+## Character and actor are different subjects
+
+A fictional officer's actions belong to the script. They do not establish an actor's personal views, professional authority or involvement in an actual case. When discussing a performance, identify the episode and character rather than treating a familiar screen role as a real occupation.
+
+Trending searches can follow reruns, clips or new announcements. Check a dated broadcaster statement before claiming a departure, return or personal event. This article does not infer private news from a search spike.
+
+## How a procedural builds suspense
+
+Crime television often reveals clues in a deliberate order. Music, editing and reaction shots direct attention towards one possibility before another appears. A scene can make a clue feel decisive even when the viewer has not seen enough information to evaluate it independently.
+
+Watch a short authorised sequence and list what is actually shown. Separate an observation from an accusation and a confession from corroborating evidence. This is a useful media-literacy exercise, not legal advice about handling a real complaint.
+
+## Study the performance
+
+Notice speech rhythm, posture and changes in emphasis. A recognisable delivery can establish authority quickly, but its effect also depends on dialogue, framing and the reactions of other actors. Reviews become stronger when they explain a specific choice rather than relying on a catchphrase alone.
+
+## Watch responsibly
+
+Check age guidance and regional availability on the official platform. Avoid unofficial download pages and copied clips that remove context. If a scene prompts a question about real law or forensic science, use a qualified primary source for that separate topic.
+
+Write a paragraph explaining how one edit changes the audience's suspicion, then another on the actor's delivery. Our [study resources](/classes/) support evidence-based writing and note-taking.
+
+## Sources and image credit
+
+- [Sony LIV official CID page](https://www.sonyliv.com/shows/cid-1700000196)
+
+Image: [Bromskloss](https://commons.wikimedia.org/wiki/File:Film_reel.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Film reel illustration; not a production still. Resized to fit within 1280 × 960 pixels without cropping; converted to WebP. No endorsement implied.

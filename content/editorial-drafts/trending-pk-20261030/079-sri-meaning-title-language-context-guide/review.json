@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "sri",
+  "words": 329,
+  "relatedTermsUsed": [
+    "Sri",
+    "respectful title",
+    "South Asian",
+    "place name",
+    "personal name",
+    "acronym",
+    "context",
+    "first name",
+    "dictionaries",
+    "religious",
+    "catalogue",
+    "given name",
+    "languages",
+    "communities",
+    "pronunciation",
+    "spelling",
+    "Sri Lanka",
+    "country",
+    "geographical",
+    "grammatical",
+    "Uppercase SRI",
+    "technical",
+    "organisational",
+    "finance",
+    "agricultural",
+    "institutional",
+    "expansion",
+    "document",
+    "vocabulary",
+    "quotation",
+    "comprehension"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Oxford Learner’s Dictionary: Sri",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sri"
+    },
+    {
+      "title": "Merriam-Webster: Sri",
+      "url": "https://scrabble.m-w.com/dictionary/sri"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

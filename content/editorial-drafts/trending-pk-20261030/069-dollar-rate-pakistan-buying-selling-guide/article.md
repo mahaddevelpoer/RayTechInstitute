@@ -1,0 +1,29 @@
+A dollar rate in Pakistan needs a currency pair, quotation type and timestamp. The US dollar is commonly meant, but other countries also use currencies called dollars. State the code, such as USD, before comparing a number with the Pakistani rupee. A bare figure cannot establish the amount a customer will receive.
+
+## Buying and selling are different
+
+A provider's buying rate and selling rate describe opposite sides of the transaction. If you sell foreign currency to the provider, the relevant quote is not necessarily the same one used when you buy it. The spread is part of the cost of exchange.
+
+Interbank, open-market and customer reference rates can differ because they describe different markets or reporting methods. A State Bank reference figure is not automatically a guaranteed retail quote for every transaction.
+
+## Read the timestamp and units
+
+Check whether the rate is rupees per dollar or the inverse. Confirm the date, and distinguish an intraday quote from a closing or average rate. A weekend search result may show the latest available working-day observation rather than a new market fixing.
+
+Do not label a third-party mid-market feed as an official State Bank rate without evidence. The source and methodology should remain visible.
+
+## Calculate the actual amount
+
+Multiply the foreign-currency amount by the applicable rate, then account for documented fees. For an illustrative rate of 280 rupees per dollar, ten dollars equals 2,800 rupees before fees. That is a teaching example, not today's quote.
+
+Ask the authorised provider for the final payable or receivable amount before confirming a transaction. A small rate difference and a separate fee can affect comparisons differently.
+
+## Avoid prediction disguised as fact
+
+An exchange-rate forecast is not a promised outcome. This article does not recommend holding a currency or guarantee a future movement. Our [economy guide](/blogs/pakistan-economy-indicators-student-guide/) explains broader indicators, and our [cash guide](/blogs/cash-pakistan-banknotes-everyday-safety-guide/) covers everyday records.
+
+## Sources and image credit
+
+- [State Bank economic and exchange-rate data](https://www.sbp.org.pk/economic-data)
+
+Image: [nae / Open Clip Art Library](https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Open book illustration. Resized to fit within 1280 × 960 pixels without cropping; converted to WebP. No endorsement implied.

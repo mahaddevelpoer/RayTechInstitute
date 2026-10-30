@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "christine lagarde",
+  "words": 326,
+  "relatedTermsUsed": [
+    "Christine Lagarde",
+    "European Central Bank",
+    "departure",
+    "February",
+    "announcement",
+    "successor",
+    "European Council",
+    "transition",
+    "appointment",
+    "institution",
+    "monetary-policy",
+    "Governing Council",
+    "mandate",
+    "interest-rate",
+    "borrowing",
+    "contracts",
+    "mortgage",
+    "financing",
+    "Pakistan",
+    "trade",
+    "markets",
+    "currency",
+    "policy rate",
+    "rupee",
+    "jurisdiction",
+    "commercial loan",
+    "exchange rate",
+    "economic forecast",
+    "personnel",
+    "policy decision",
+    "investment"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "ECB departure announcement",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+    },
+    {
+      "title": "European Council departure acknowledgement",
+      "url": "https://www.consilium.europa.eu/en/european-council/president/x-posts/2026-10-29-110300/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 959,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "bytes": 111238
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

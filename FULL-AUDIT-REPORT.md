@@ -1,5 +1,11 @@
 # Focused keyword implementation review
 
+## 30 October 2026 follow-up
+
+Confirmed: the www TLS/canonicalisation finding from the supplied Rank Math PDF is resolved. CLI checks now return HTTPS www 301 to the apex, then apex 200, without bypassing certificate verification. The PDF's mobile-speed item says the test failed to execute; no new performance score is asserted.
+
+Completed locally: all 79 trend drafts, seven categories, 26,908 prose words, 30 or more curated relevant terms per article, unique metadata/slugs, source links and twelve downloaded licensed network assets. No image generation, production content write or publication. See `docs/seo/analyzer-follow-up.md` and `content/editorial-drafts/trending-pk-20261030/validation.json` for evidence and limits. TypeScript and seven SEO regression tests passed.
+
 Scope: report-driven review of resource-page and programming metadata templates, not a new full-site crawl or a ranking assessment. Source: user-supplied deep-research-report.md. The supplied Markdown contains 100 keyword rows; the linked 1,000-row CSV/XLSX and authenticated demand data were unavailable. All search-volume claims remain unverified.
 
 ## Confirmed findings and changes

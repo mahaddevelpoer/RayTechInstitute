@@ -1,0 +1,68 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "halloween",
+  "words": 327,
+  "relatedTermsUsed": [
+    "Halloween",
+    "October",
+    "costumes",
+    "stories",
+    "treats",
+    "history",
+    "traditions",
+    "Library of Congress",
+    "National Endowment",
+    "historical",
+    "newspaper",
+    "customs",
+    "communities",
+    "name",
+    "activity",
+    "seasonal",
+    "commercial",
+    "holiday",
+    "generations",
+    "celebration",
+    "religious",
+    "family",
+    "cultural",
+    "language",
+    "school rules",
+    "photograph",
+    "location",
+    "ghost story",
+    "storytelling",
+    "marketing",
+    "historical newspaper",
+    "quotation",
+    "vocabulary"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Library of Congress: October 31",
+      "url": "https://www.loc.gov/item/today-in-history/october-31/"
+    },
+    {
+      "title": "NEH: Halloween history in historical newspapers",
+      "url": "https://www.neh.gov/divisions/preservation/featured-project/superstitions-and-celebrations-halloween-history-in-chronicl"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

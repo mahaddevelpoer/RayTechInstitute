@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "tim seifert",
+  "words": 338,
+  "relatedTermsUsed": [
+    "Tim Seifert",
+    "New Zealand",
+    "wicketkeeping",
+    "batting",
+    "squad",
+    "keeper",
+    "bowler",
+    "pitch",
+    "movement",
+    "footwork",
+    "balance",
+    "collection",
+    "dismissal",
+    "byes",
+    "deflection",
+    "bounce",
+    "catch",
+    "stumpings",
+    "fielders",
+    "strike rate",
+    "opening",
+    "chase",
+    "target",
+    "wickets",
+    "boundary",
+    "strike rotation",
+    "dot balls",
+    "international",
+    "domestic",
+    "franchise",
+    "T20",
+    "scorecard"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "ICC: New Zealand India ODI squads",
+      "url": "https://www.icc-cricket.com/news/new-zealand-confirm-split-odi-squads-for-india-series"
+    },
+    {
+      "title": "New Zealand Cricket",
+      "url": "https://www.nzc.nz/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

@@ -1,0 +1,27 @@
+Rashid Khan reached 200 men's T20I wickets, according to the ICC's report dated 29 October 2026. The milestone concerns Twenty20 internationals, not every short-format match he has played. That distinction matters when comparing an international record with a career total that includes franchise leagues.
+
+## What the milestone counts
+
+A bowler's wickets include dismissals officially credited to the bowler. Run-outs are recorded differently. The total belongs to a defined format and should be checked against a dated statistics record. A cached player profile can lag behind a newly completed match, so a temporary disagreement with a fresh report does not necessarily invalidate the result.
+
+The ICC story establishes the milestone. This guide does not repeat an unverified match-by-match breakdown or invent an updated ranking. Records can change after the date of publication as additional games are completed.
+
+## Read the supporting bowling numbers
+
+Wickets measure dismissals, while economy rate measures runs conceded per over. Bowling average divides runs conceded by wickets, and strike rate measures deliveries per wicket. A bowler may take important wickets while conceding more runs in a difficult match situation; no single column tells the whole story.
+
+For an illustrative calculation, 24 runs conceded from four overs gives an economy rate of six. If that spell produces two wickets, its average for the spell is twelve. These are teaching numbers, not Rashid's figures from the record match.
+
+## Why leg-spin is worth studying
+
+Watch release, flight, length and the batter's response rather than assuming every turning delivery is identical. A googly changes the expected direction of spin, while variations in pace can disturb timing. Video analysis is most useful when paired with the field setting and the stage of the innings.
+
+## Compare careers fairly
+
+Use the same format, a stated cutoff date and a clear minimum sample. Separate international matches from league appearances and avoid treating wickets alone as proof of how every opponent was challenged. Students can build a small comparison table with matches, wickets, average and economy, then explain what the table leaves out. Our [scorecard guide](/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/) provides the basic reading skills.
+
+## Sources and image credit
+
+- [ICC: Rashid makes T20I history](https://www.icc-cricket.com/news/rashid-makes-t20i-history-in-afghanistan-s-epic-comeback)
+
+Image: [Stephen Turner, based on Albinomonkey; Commons upload Spundun](https://commons.wikimedia.org/wiki/File:Cricketball.png), [Public domain](https://commons.wikimedia.org/wiki/File:Cricketball.png). Cricket ball illustration; not a match photograph. Resized to fit within 1280 × 960 pixels without cropping; converted to WebP. No endorsement implied.

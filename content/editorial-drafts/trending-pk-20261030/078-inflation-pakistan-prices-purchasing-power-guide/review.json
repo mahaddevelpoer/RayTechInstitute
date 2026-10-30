@@ -1,0 +1,68 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "inflation",
+  "words": 342,
+  "relatedTermsUsed": [
+    "inflation",
+    "Pakistan",
+    "Bureau of Statistics",
+    "basket",
+    "price indices",
+    "rate",
+    "price level",
+    "rupees",
+    "per cent",
+    "month-on-month",
+    "year-on-year",
+    "weights",
+    "household",
+    "spending",
+    "national",
+    "urban",
+    "rural",
+    "CPI",
+    "SPI",
+    "wholesale",
+    "income",
+    "purchasing power",
+    "nominal salary",
+    "budget",
+    "comparison period",
+    "forecast",
+    "base",
+    "units",
+    "chart",
+    "revisions",
+    "growth",
+    "exchange rates",
+    "petrol"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Pakistan Bureau of Statistics price indices",
+      "url": "https://www.pbs.gov.pk/price-statistics/"
+    },
+    {
+      "title": "PBS price statistics methodology",
+      "url": "https://www.pbs.gov.pk/sites/default/files/price_statistics/methodology_price.pdf"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

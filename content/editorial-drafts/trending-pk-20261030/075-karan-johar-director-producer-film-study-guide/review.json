@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "karan johar",
+  "words": 315,
+  "relatedTermsUsed": [
+    "Karan Johar",
+    "Dharma Productions",
+    "Dharmatic",
+    "directing",
+    "producing",
+    "media personality",
+    "director",
+    "staging",
+    "cast",
+    "crew",
+    "development",
+    "delivery",
+    "credits",
+    "executive",
+    "presentation",
+    "on-screen",
+    "poster",
+    "financial",
+    "territory",
+    "revenue",
+    "box-office",
+    "critical response",
+    "audience",
+    "scene",
+    "dialogue",
+    "framing",
+    "music",
+    "editing",
+    "characters",
+    "production announcement",
+    "release date",
+    "ownership"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Dharma Productions overview",
+      "url": "https://dharma-production.com/overview"
+    },
+    {
+      "title": "Dharmatic Entertainment overview",
+      "url": "https://dharmaticent.com/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "bytes": 17876
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "nfl",
+  "words": 338,
+  "relatedTermsUsed": [
+    "NFL",
+    "American football",
+    "association football",
+    "possession",
+    "offence",
+    "defence",
+    "downs",
+    "field position",
+    "clock",
+    "scoring",
+    "four downs",
+    "ten yards",
+    "first down",
+    "punt",
+    "fourth down",
+    "penalty",
+    "touchdown",
+    "six points",
+    "try",
+    "field goal",
+    "safety",
+    "rulebook",
+    "timeouts",
+    "reviews",
+    "broadcast",
+    "lead",
+    "incomplete pass",
+    "out-of-bounds",
+    "formations",
+    "tactical",
+    "schedules",
+    "results"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "NFL official rulebook",
+      "url": "https://operations.nfl.com/the-rules/nfl-rulebook/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/american.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:American_football.svg",
+    "creator": "Simanek / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "American football illustration",
+    "width": 960,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/American_football.svg",
+    "bytes": 28176
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

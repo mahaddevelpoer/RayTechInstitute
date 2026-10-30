@@ -1,0 +1,98 @@
+{
+  "cricket": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "width": 325,
+    "height": 325,
+    "bytes": 8790,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "american": {
+    "url": "/images/editorial/trending-pk-20261030/american.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/American_football.svg",
+    "width": 960,
+    "height": 960,
+    "bytes": 28176,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "badger": {
+    "url": "/images/editorial/trending-pk-20261030/badger.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Badger-badger.jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 240730,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "patrick": {
+    "url": "/images/editorial/trending-pk-20261030/patrick.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+    "width": 739,
+    "height": 960,
+    "bytes": 43822,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "tennis": {
+    "url": "/images/editorial/trending-pk-20261030/tennis.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tennis_ball.svg",
+    "width": 263,
+    "height": 263,
+    "bytes": 4576,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "book": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "width": 400,
+    "height": 200,
+    "bytes": 7734,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "film": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "width": 534,
+    "height": 519,
+    "bytes": 17876,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "hongkong": {
+    "url": "/images/editorial/trending-pk-20261030/hongkong.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hong-Kong_skyline.JPG",
+    "width": 1280,
+    "height": 960,
+    "bytes": 265188,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "football": {
+    "url": "/images/editorial/trending-pk-20261030/football.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_(soccer_ball).svg",
+    "width": 450,
+    "height": 478,
+    "bytes": 17138,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "computer": {
+    "url": "/images/editorial/trending-pk-20261030/computer.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Computer_inside.jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 207228,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "earth": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "width": 959,
+    "height": 960,
+    "bytes": 111238,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  },
+  "eden": {
+    "url": "/images/editorial/trending-pk-20261030/eden.webp",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Eden_Park_at_Dusk%2C_2013.jpg/1280px-Eden_Park_at_Dusk%2C_2013.jpg",
+    "width": 1280,
+    "height": 334,
+    "bytes": 111878,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP"
+  }
+}

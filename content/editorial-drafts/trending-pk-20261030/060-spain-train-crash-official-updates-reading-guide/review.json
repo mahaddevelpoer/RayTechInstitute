@@ -1,0 +1,68 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "train crash spain",
+  "words": 332,
+  "relatedTermsUsed": [
+    "Renfe",
+    "October",
+    "2026",
+    "accident",
+    "Madrid",
+    "Seville",
+    "AVE",
+    "Iryo",
+    "train",
+    "Los Yébenes",
+    "Urda",
+    "Toledo",
+    "location",
+    "cause",
+    "responsibility",
+    "casualty",
+    "railway",
+    "disruptions",
+    "route",
+    "derailment",
+    "investigation",
+    "operator",
+    "passenger",
+    "services",
+    "preliminary",
+    "finding",
+    "timestamp",
+    "travellers",
+    "booking",
+    "rebooking",
+    "refund",
+    "ticket barcodes",
+    "identity documents"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Renfe statement on accident near Los Yébenes and Urda",
+      "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/comunicado-accidente-entre-yebenes-urda"
+    },
+    {
+      "title": "Renfe official information",
+      "url": "https://www.renfe.com/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 959,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "bytes": 111238
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

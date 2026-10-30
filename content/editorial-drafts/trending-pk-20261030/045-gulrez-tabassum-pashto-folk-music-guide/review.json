@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "gulrez tabassum pashto folk singer",
+  "words": 329,
+  "relatedTermsUsed": [
+    "Gulrez Tabassum",
+    "Pashto",
+    "singer",
+    "folk singing",
+    "language",
+    "memory",
+    "performance",
+    "recording",
+    "pronunciation",
+    "repetition",
+    "rhythm",
+    "phrasing",
+    "text",
+    "listener",
+    "expressions",
+    "translation",
+    "cultural reference",
+    "idiom",
+    "poetic",
+    "translator",
+    "interpretation",
+    "performer",
+    "title",
+    "reuploads",
+    "credits",
+    "authorship",
+    "ownership",
+    "broadcaster",
+    "rights holder",
+    "archive",
+    "copyright",
+    "music",
+    "lyrics",
+    "tempo",
+    "vocal"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Dawn report on Gulrez Tabassum",
+      "url": "https://www.dawn.com/news/2040510/famous-singer-gulrez-tabassum-dies-at-77"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "bytes": 17876
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

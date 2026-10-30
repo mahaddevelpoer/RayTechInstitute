@@ -1,0 +1,29 @@
+Cricket South Africa's David Bedingham profile connects his batting with both domestic cricket and the Proteas Test side. For a learner, long-format batting offers a useful lesson in changing tasks: surviving movement, building a partnership and finding scoring opportunities can all occur within one innings.
+
+## Entry conditions shape the innings
+
+Record the team score, wickets and stage of play when the batter arrives. A new ball, an older ball and a deteriorating surface present different problems. The same score can represent a rescue effort or a contribution made after a strong platform.
+
+Do not infer the difficulty of a pitch from the total alone. Opposition bowling, shot selection and fielding also affect the outcome. Use commentary and authorised footage to support an explanation.
+
+## Patience is an active decision
+
+Leaving a delivery or defending it can preserve the opportunity to score from a later ball. Watch how the batter identifies width, manages the straight ball and responds to a change of length. A quiet period is not automatically a failure, but it needs to be understood in the match context.
+
+Track scoring areas and strike rotation. Long-format success is not simply the absence of attacking shots; it involves selecting opportunities without losing control of the innings.
+
+## Domestic and Test records stay separate
+
+County runs, other first-class appearances and Tests can form related career evidence, but their statistical categories should remain clear. A strong domestic season does not automatically establish a current international selection. Use a dated squad announcement for that claim.
+
+## Review the innings in phases
+
+Divide a completed innings into entry, consolidation, acceleration and finish where those phases actually apply. Do not force every innings into an identical story. Identify the partnership and bowling changes that influenced the scoring pattern.
+
+Write a short conclusion supported by two specific moments, then state what a scorecard cannot show. Our [cricket scorecard guide](/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/) explains common columns. This draft does not freeze a current average or ranking.
+
+## Sources and image credit
+
+- [Cricket South Africa: David Bedingham](https://www.cricket.co.za/player/david-bedingham/)
+
+Image: [Stephen Turner, based on Albinomonkey; Commons upload Spundun](https://commons.wikimedia.org/wiki/File:Cricketball.png), [Public domain](https://commons.wikimedia.org/wiki/File:Cricketball.png). Cricket ball illustration; not a match photograph. Resized to fit within 1280 × 960 pixels without cropping; converted to WebP. No endorsement implied.

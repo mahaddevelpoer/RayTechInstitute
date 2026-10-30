@@ -1,0 +1,65 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "pak vs ind",
+  "words": 394,
+  "relatedTermsUsed": [
+    "Pakistan vs India",
+    "Hong Kong Sixes",
+    "Group C",
+    "Tin Kwong Road",
+    "Kowloon",
+    "Pakistan Standard Time",
+    "scheduled start",
+    "scorecard",
+    "playing conditions",
+    "team size",
+    "bowling restrictions",
+    "retirement rules",
+    "overs",
+    "T20I",
+    "target",
+    "legal balls",
+    "wickets",
+    "boundaries",
+    "extras",
+    "dot balls",
+    "Abbas Afridi",
+    "captain",
+    "Pool C",
+    "squad",
+    "team sheet",
+    "group-stage",
+    "pool table",
+    "qualification",
+    "live streaming",
+    "final score"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Hong Kong Sixes fixtures",
+      "url": "https://hongkongsixes.live/fixture/"
+    },
+    {
+      "title": "PCB squad announcement",
+      "url": "https://www.pcb.com.pk/press-release-detail/abbas-afridi-to-lead-pakistan-in-hong-kong-sixes-.html"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/hongkong.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Hong-Kong_skyline.JPG",
+    "creator": "Robster1983",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Hong Kong skyline photographed in 2009; location illustration, not match coverage",
+    "width": 1280,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hong-Kong_skyline.JPG",
+    "bytes": 265188
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

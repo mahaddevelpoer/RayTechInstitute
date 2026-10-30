@@ -1,0 +1,65 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "carlos alcaraz",
+  "words": 323,
+  "relatedTermsUsed": [
+    "Carlos Alcaraz",
+    "ATP",
+    "Spanish federation",
+    "tennis",
+    "court space",
+    "placement",
+    "timing",
+    "opponent",
+    "court position",
+    "rally",
+    "deep shot",
+    "angle",
+    "winner",
+    "defensive",
+    "drop shot",
+    "baseline",
+    "lob",
+    "slice",
+    "rhythm",
+    "surface",
+    "bounce",
+    "break points",
+    "service games",
+    "tie-breaks",
+    "rankings",
+    "titles",
+    "tournament",
+    "withdrawal",
+    "health",
+    "outcome"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "ATP: Carlos Alcaraz overview",
+      "url": "https://www.atptour.com/en/players/carlos_alcaraz/a0e2/overview"
+    },
+    {
+      "title": "Spanish Tennis Federation player profile",
+      "url": "https://www.rfet.es/es/jugador/carlos-alcaraz"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/tennis.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Tennis_ball.svg",
+    "creator": "MesserWoland",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Tennis ball illustration; not a match photograph",
+    "width": 263,
+    "height": 263,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tennis_ball.svg",
+    "bytes": 4576
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

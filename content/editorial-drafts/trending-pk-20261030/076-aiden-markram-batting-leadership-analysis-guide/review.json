@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "aiden markram",
+  "words": 313,
+  "relatedTermsUsed": [
+    "Aiden Markram",
+    "Cricket South Africa",
+    "batting",
+    "leadership",
+    "field settings",
+    "bowling changes",
+    "captaincy",
+    "format",
+    "team sheet",
+    "squad",
+    "opening",
+    "middle order",
+    "finishing",
+    "entry score",
+    "overs",
+    "shot selection",
+    "delivery",
+    "boundary",
+    "highlights",
+    "sample",
+    "innings",
+    "matchups",
+    "workload",
+    "wicket",
+    "field change",
+    "interpretation",
+    "scorecard",
+    "authorised video",
+    "average",
+    "selection",
+    "career",
+    "outcome"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Cricket South Africa: Aiden Markram",
+      "url": "https://cricket.co.za/player/aiden-markram/"
+    },
+    {
+      "title": "Cricket South Africa men’s team",
+      "url": "https://cricket.co.za/the-proteas/the-proteas-men/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

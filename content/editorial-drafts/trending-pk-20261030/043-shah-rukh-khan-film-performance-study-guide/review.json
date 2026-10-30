@@ -1,0 +1,64 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "shah rukh khan",
+  "words": 330,
+  "relatedTermsUsed": [
+    "Shah Rukh Khan",
+    "Indian cinema",
+    "film",
+    "production",
+    "credit",
+    "performance",
+    "scene",
+    "role",
+    "trailer",
+    "fan edits",
+    "montage",
+    "poster",
+    "casting",
+    "release date",
+    "distribution",
+    "framing",
+    "posture",
+    "dialogue",
+    "screen presence",
+    "direction",
+    "editing",
+    "music",
+    "lighting",
+    "camera",
+    "box-office",
+    "revenue",
+    "gross",
+    "net",
+    "critical",
+    "social-media",
+    "audience",
+    "quotations",
+    "authorised"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Red Chillies Entertainment official website",
+      "url": "https://www.redchillies.com/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "bytes": 17876
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

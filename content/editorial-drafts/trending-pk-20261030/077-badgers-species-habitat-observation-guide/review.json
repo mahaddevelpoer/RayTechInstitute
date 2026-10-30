@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "badgers",
+  "words": 312,
+  "relatedTermsUsed": [
+    "badger",
+    "European badger",
+    "American badger",
+    "honey badger",
+    "species",
+    "animal",
+    "region",
+    "appearance",
+    "diet",
+    "habitat",
+    "behaviour",
+    "Wildlife Trusts",
+    "black-and-white",
+    "Britain",
+    "photograph",
+    "caption",
+    "identification",
+    "food availability",
+    "shelter",
+    "disturbance",
+    "observation",
+    "garden",
+    "tracks",
+    "den",
+    "wildlife",
+    "authority",
+    "trapping",
+    "feeding",
+    "location",
+    "scientific name",
+    "range",
+    "research"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Wildlife Trusts: European badger",
+      "url": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/european-badger"
+    },
+    {
+      "title": "Wildlife Trusts badger information",
+      "url": "https://www.wildlifetrusts.org/badgers"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/badger.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Badger-badger.jpg",
+    "creator": "BadgerHero",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Young Eurasian badger photographed in 2003",
+    "width": 1280,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Badger-badger.jpg",
+    "bytes": 240730
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

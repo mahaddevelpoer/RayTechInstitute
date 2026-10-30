@@ -1,0 +1,63 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "emma corrin",
+  "words": 361,
+  "relatedTermsUsed": [
+    "Emma Corrin",
+    "Netflix",
+    "Lady Diana Spencer",
+    "The Crown",
+    "production",
+    "role",
+    "performance",
+    "documentary",
+    "historical drama",
+    "staging",
+    "editing",
+    "biographical",
+    "screen craft",
+    "scene",
+    "eye contact",
+    "posture",
+    "speech rhythm",
+    "character",
+    "emotional",
+    "speech",
+    "camera",
+    "costume",
+    "lighting",
+    "sound",
+    "shot selection",
+    "review",
+    "director",
+    "framing",
+    "age classification",
+    "media literacy",
+    "interpretation",
+    "dialogue"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Netflix announces Emma Corrin casting",
+      "url": "https://about.netflix.com/en/news/netflixs-the-crown-casts-lady-diana-spencer"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "bytes": 17876
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

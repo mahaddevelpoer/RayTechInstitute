@@ -1,0 +1,62 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "david bedingham",
+  "words": 323,
+  "relatedTermsUsed": [
+    "David Bedingham",
+    "Cricket South Africa",
+    "domestic",
+    "Proteas",
+    "Test",
+    "long-format",
+    "batting",
+    "movement",
+    "partnership",
+    "innings",
+    "team score",
+    "wickets",
+    "new ball",
+    "older ball",
+    "surface",
+    "pitch",
+    "opposition",
+    "shot selection",
+    "fielding",
+    "commentary",
+    "leaving",
+    "defending",
+    "scoring areas",
+    "strike rotation",
+    "county",
+    "first-class",
+    "selection",
+    "squad",
+    "bowling changes",
+    "average",
+    "ranking"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Cricket South Africa: David Bedingham",
+      "url": "https://www.cricket.co.za/player/david-bedingham/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

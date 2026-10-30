@@ -1,0 +1,65 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "patrick stewart",
+  "words": 371,
+  "relatedTermsUsed": [
+    "Patrick Stewart",
+    "Shakespeare",
+    "theatre",
+    "screen performance",
+    "Royal Shakespeare Company",
+    "production credit",
+    "interview",
+    "scene",
+    "character",
+    "objective",
+    "pace",
+    "pauses",
+    "emphasis",
+    "delivery",
+    "rhythm",
+    "authority",
+    "dialogue",
+    "intention",
+    "plain English",
+    "passage",
+    "breathing",
+    "punctuation",
+    "comprehension",
+    "presentation skills",
+    "film editor",
+    "frame",
+    "close-up",
+    "stage movement",
+    "director",
+    "framing",
+    "script",
+    "editing",
+    "review",
+    "interpretation"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Royal Shakespeare Company: Talking Shakespeare",
+      "url": "https://www.rsc.org.uk/press/releases/judi-dench-ray-fearon-harriet-walter-and-patrick-stewart-launch-talking-shakespeare-at-the-rsc"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/patrick.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+    "creator": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Patrick Stewart speaking at San Diego Comic-Con in 2019",
+    "width": 739,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+    "bytes": 43822
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

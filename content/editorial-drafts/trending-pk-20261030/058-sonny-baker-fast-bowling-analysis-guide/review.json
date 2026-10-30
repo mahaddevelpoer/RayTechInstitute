@@ -1,0 +1,64 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "sonny baker",
+  "words": 315,
+  "relatedTermsUsed": [
+    "Sonny Baker",
+    "ECB",
+    "England",
+    "fast bowler",
+    "pace",
+    "control",
+    "movement",
+    "delivery",
+    "broadcast",
+    "speed",
+    "measurement",
+    "spell",
+    "line",
+    "length",
+    "fuller",
+    "drive",
+    "shorter ball",
+    "footwork",
+    "seam",
+    "swing",
+    "conditions",
+    "field placement",
+    "batter",
+    "overs",
+    "runs",
+    "wickets",
+    "field restrictions",
+    "opposition",
+    "new ball",
+    "selection",
+    "injury",
+    "contract",
+    "scorecard"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "ECB: Sonny Baker player profile",
+      "url": "https://www.ecb.co.uk/england/men/players/75536/sonny-baker"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "sohail afridi",
+  "words": 317,
+  "relatedTermsUsed": [
+    "Sohail Afridi",
+    "Khyber Pakhtunkhwa",
+    "Assembly",
+    "member",
+    "portfolio",
+    "public role",
+    "civic",
+    "provincial government",
+    "political party",
+    "authority",
+    "department",
+    "constituency",
+    "electoral term",
+    "archive",
+    "announcement",
+    "approval",
+    "delivery",
+    "budget allocation",
+    "procurement",
+    "project",
+    "education initiative",
+    "eligibility",
+    "application",
+    "effective date",
+    "statement",
+    "clip",
+    "interpretation",
+    "allegations",
+    "implementation",
+    "evidence",
+    "institution",
+    "government"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "KP Assembly: Muhammad Sohail Afridi",
+      "url": "https://www.pakp.gov.pk/members/muhammad-sohail-afridi-pk-70-2024/"
+    },
+    {
+      "title": "KP Assembly portfolios",
+      "url": "https://www.pakp.gov.pk/portfolio/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

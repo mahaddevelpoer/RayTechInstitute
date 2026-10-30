@@ -1,0 +1,29 @@
+Emma Corrin was announced by Netflix as the actor playing Lady Diana Spencer in the fourth season of The Crown. That production announcement is a reliable starting point for the role. It is also a useful opportunity to learn how a dramatised performance differs from a documentary record of a real person.
+
+## Separate the character from the actor
+
+A production credit identifies who performed a role; it does not establish that every scene happened exactly as shown. Historical drama combines research with writing, staging and editing. When discussing the story, distinguish a documented event from a scene created to express a relationship or conflict.
+
+Keep biographical claims relevant and sourced. A trending photograph or social-media caption is not enough to establish a personal relationship, future project or private event. This guide focuses on screen craft rather than speculative celebrity reporting.
+
+## Watch for specific acting choices
+
+Choose a short, legally available scene. Notice eye contact, posture, speech rhythm and the distance between characters. Ask what the character wants and what prevents them from saying it directly. A restrained reaction can reveal as much as an emotional speech when the camera gives it space.
+
+Watch again with attention to the surrounding production. Costume, lighting, sound and shot selection influence how the performance feels. A review that credits the actor for every visual choice overlooks the collaborative nature of film and television.
+
+## Write a better review
+
+Instead of saying a performance is simply convincing, identify an observable detail and explain its effect. For example, describe how a pause changes the balance of a conversation. Separate your interpretation from a factual production detail, and name the episode or scene so another viewer can evaluate the claim.
+
+Avoid copying long dialogue passages. A brief quotation, an accurate paraphrase and a citation are usually enough for analysis. Check the age classification and availability in your region before recommending a production to younger students.
+
+## A practical learning task
+
+Write one paragraph on the actor's delivery and a second on the director's framing. Then explain how they work together. This builds close reading, evidence-based writing and media literacy. Visit our [study resources](/classes/) for more ways to organise learning notes.
+
+## Sources and image credit
+
+- [Netflix announces Emma Corrin casting](https://about.netflix.com/en/news/netflixs-the-crown-casts-lady-diana-spencer)
+
+Image: [Bromskloss](https://commons.wikimedia.org/wiki/File:Film_reel.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Film reel illustration; not a production still. Resized to fit within 1280 × 960 pixels without cropping; converted to WebP. No endorsement implied.

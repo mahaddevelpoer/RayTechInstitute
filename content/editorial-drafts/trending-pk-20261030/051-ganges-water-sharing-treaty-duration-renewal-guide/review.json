@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "ganges water sharing agreement expiration",
+  "words": 333,
+  "relatedTermsUsed": [
+    "India",
+    "Bangladesh",
+    "Ganges",
+    "Ganga",
+    "water-sharing",
+    "treaty",
+    "New Delhi",
+    "December",
+    "1996",
+    "thirty-year",
+    "renewal",
+    "mutual consent",
+    "term",
+    "Farakka",
+    "Indus Waters Treaty",
+    "Pakistan",
+    "river",
+    "seasonal flow",
+    "measurement",
+    "dry period",
+    "units",
+    "observation",
+    "volume",
+    "hydrological",
+    "negotiation",
+    "implementation",
+    "proposal",
+    "joint statement",
+    "binding agreement",
+    "Joint Rivers Commission",
+    "timeline",
+    "geography"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Government-hosted 1996 treaty text",
+      "url": "https://mowr.nic.in/core/WebsiteUpload/2023/2023011877.pdf"
+    },
+    {
+      "title": "Bangladesh Joint Rivers Commission treaty information",
+      "url": "https://jrcb.portal.gov.bd/pages/static-pages/6922dcbc933eb65569e11bdc"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 959,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "bytes": 111238
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

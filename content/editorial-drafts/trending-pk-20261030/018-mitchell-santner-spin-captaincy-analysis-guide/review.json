@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "mitchell santner",
+  "words": 339,
+  "relatedTermsUsed": [
+    "Mitchell Santner",
+    "New Zealand",
+    "Cricket",
+    "spin",
+    "captaincy",
+    "bowling",
+    "field",
+    "required run rate",
+    "innings",
+    "economy rate",
+    "dot balls",
+    "pace",
+    "wicket",
+    "bowling change",
+    "workload",
+    "remaining overs",
+    "handedness",
+    "white-ball",
+    "Test",
+    "ODI",
+    "T20I",
+    "average",
+    "ranking",
+    "leadership",
+    "squad",
+    "selection",
+    "tour",
+    "delivery",
+    "field-setting",
+    "scoring",
+    "boundary",
+    "captain"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "New Zealand Cricket: Mitchell Santner archive",
+      "url": "https://archive.nzc.nz/Players/952/952567/952567.html"
+    },
+    {
+      "title": "ICC: New Zealand India ODI squads",
+      "url": "https://www.icc-cricket.com/news/new-zealand-confirm-split-odi-squads-for-india-series"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

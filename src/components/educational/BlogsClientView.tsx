@@ -1,5 +1,6 @@
 "use client";
 
+import {BLOG_CATEGORIES} from '@/data/blogCategories';
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { EducationalStore } from "@/data/educationalStore";
@@ -34,14 +35,7 @@ export function BlogsClientView() {
     )
     .sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 
-  const categories = [
-    { id: "all", label: "All Updates" },
-    { id: "results", label: "Results" },
-    { id: "general", label: "General" },
-    { id: "date-sheets", label: "Date Sheets" },
-    { id: "admissions", label: "Admission Alerts" },
-    { id: "career-guides", label: "Career Guides" },
-  ];
+  const categories = [{id:'all',label:'All Updates'},{id:'results',label:'Results'},...BLOG_CATEGORIES];
 
   // Every published blog is generated at its own slug URL during the build.
   // Keeping one route for all posts prevents newly added articles from being
@@ -63,8 +57,8 @@ export function BlogsClientView() {
           Educational News &amp; Updates
         </h1>
         <p className="text-slate-600 text-sm">
-          Official board date sheets, university admissions, and career
-          counseling guides for Pakistani students.
+          Study updates, admission guidance, and clear explainers on science,
+          technology, sport and current affairs for Pakistani learners.
         </p>
       </div>
 

@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "پٹرولیم",
+  "words": 328,
+  "relatedTermsUsed": [
+    "petroleum",
+    "Pakistan",
+    "crude oil",
+    "petrol",
+    "diesel",
+    "refinery",
+    "products",
+    "supply",
+    "production",
+    "imported",
+    "storage",
+    "transport",
+    "distribution",
+    "fuel",
+    "spark-ignition",
+    "engines",
+    "kerosene",
+    "specifications",
+    "retail",
+    "exchange rates",
+    "taxes",
+    "levies",
+    "costs",
+    "government notification",
+    "forecast",
+    "rate",
+    "litres",
+    "price statistics",
+    "economic indicator",
+    "benchmark",
+    "policy"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Pakistan Petroleum Division",
+      "url": "https://www.petroleum.gov.pk/"
+    },
+    {
+      "title": "Pakistan Bureau of Statistics prices",
+      "url": "https://www.pbs.gov.pk/price-statistics/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 959,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "bytes": 111238
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

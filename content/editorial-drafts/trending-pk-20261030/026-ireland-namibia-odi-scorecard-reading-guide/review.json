@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "ireland cricket team vs namibia national cricket team match scorecard",
+  "words": 329,
+  "relatedTermsUsed": [
+    "Ireland",
+    "Namibia",
+    "scorecard",
+    "fixture",
+    "innings",
+    "format",
+    "total",
+    "wickets",
+    "overs",
+    "chase",
+    "target",
+    "interruption",
+    "legal deliveries",
+    "scoring rates",
+    "balls faced",
+    "boundaries",
+    "strike rate",
+    "partnership",
+    "extras",
+    "batter",
+    "not out",
+    "retirement",
+    "dismissal",
+    "maidens",
+    "bowling",
+    "run-outs",
+    "catch",
+    "fielder",
+    "commentary",
+    "rain",
+    "tie",
+    "abandonment"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Cricket Ireland official fixtures and news",
+      "url": "https://cricketireland.ie/"
+    },
+    {
+      "title": "Cricket Namibia official website",
+      "url": "https://cricketnamibia.com/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

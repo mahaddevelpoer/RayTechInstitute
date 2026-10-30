@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "nitish kumar reddy",
+  "words": 327,
+  "relatedTermsUsed": [
+    "Nitish Kumar Reddy",
+    "all-round",
+    "batting",
+    "bowling",
+    "team",
+    "format",
+    "fixture",
+    "international",
+    "franchise",
+    "opener",
+    "new ball",
+    "middle-order",
+    "wickets",
+    "entry score",
+    "overs",
+    "target",
+    "strike rate",
+    "balls faced",
+    "technique",
+    "workload",
+    "specialist bowlers",
+    "injury",
+    "powerplay",
+    "field restrictions",
+    "economy rate",
+    "Test",
+    "ODI",
+    "T20I",
+    "contract",
+    "squad",
+    "fielding",
+    "sample"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "BCCI official matches and player news",
+      "url": "https://www.bcci.tv/"
+    },
+    {
+      "title": "IPL official player directory",
+      "url": "https://www.iplt20.com/players"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

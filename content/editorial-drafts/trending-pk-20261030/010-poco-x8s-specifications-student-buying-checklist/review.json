@@ -1,0 +1,69 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "xiaomi poco x8s",
+  "words": 375,
+  "relatedTermsUsed": [
+    "POCO X8s",
+    "AMOLED",
+    "display",
+    "battery",
+    "camera",
+    "storage",
+    "resolution",
+    "pixel",
+    "refresh rate",
+    "brightness",
+    "applications",
+    "manufacturer",
+    "PDF",
+    "video call",
+    "text size",
+    "reflections",
+    "zooming",
+    "split-screen",
+    "milliamp-hours",
+    "runtime",
+    "mobile signal",
+    "gaming",
+    "charging",
+    "charger",
+    "cable",
+    "document capture",
+    "focus",
+    "whiteboard",
+    "RAM",
+    "invoice",
+    "warranty",
+    "network compatibility",
+    "software-update",
+    "Pakistan"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "POCO X8s official specifications",
+      "url": "https://www.po.co/global/product/poco-x8s/specs/"
+    },
+    {
+      "title": "POCO X8s product page",
+      "url": "https://www.po.co/global/product/poco-x8s/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/computer.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_inside.jpg",
+    "creator": "Carlosar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Interior of a computer photographed in 2009; illustrative technology image",
+    "width": 1280,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Computer_inside.jpg",
+    "bytes": 207228
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

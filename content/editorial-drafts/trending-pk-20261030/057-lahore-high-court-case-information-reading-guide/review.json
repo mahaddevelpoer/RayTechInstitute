@@ -1,0 +1,61 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "lahore high court",
+  "words": 330,
+  "relatedTermsUsed": [
+    "Lahore High Court",
+    "case",
+    "hearing",
+    "interim order",
+    "final judgment",
+    "case numbers",
+    "parties",
+    "benches",
+    "court",
+    "proceedings",
+    "cause list",
+    "scheduled",
+    "adjournments",
+    "recorded order",
+    "disposal",
+    "legal effect",
+    "facts",
+    "issue",
+    "reasoning",
+    "operative part",
+    "argument",
+    "relief",
+    "lawyer",
+    "deadline",
+    "civics",
+    "request",
+    "direction",
+    "guilt",
+    "liability",
+    "official record"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Lahore High Court official website",
+      "url": "https://lhc.gov.pk/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

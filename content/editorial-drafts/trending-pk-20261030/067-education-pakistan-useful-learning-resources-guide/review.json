@@ -1,0 +1,65 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "تعلیم",
+  "words": 322,
+  "relatedTermsUsed": [
+    "education",
+    "learning",
+    "Pakistan",
+    "class",
+    "subject",
+    "curriculum",
+    "chapter",
+    "board",
+    "course",
+    "notes",
+    "past papers",
+    "MCQs",
+    "assessment",
+    "examination",
+    "admission",
+    "policy",
+    "worked example",
+    "practice",
+    "programming",
+    "input",
+    "code",
+    "theory",
+    "calculation error",
+    "definition",
+    "score",
+    "feedback",
+    "progress",
+    "weekly plan",
+    "UNICEF",
+    "resources"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "UNICEF Pakistan education",
+      "url": "https://www.unicef.org/pakistan/education"
+    },
+    {
+      "title": "UN Pakistan education and learning",
+      "url": "https://pakistan.un.org/en/download/10247/44136"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

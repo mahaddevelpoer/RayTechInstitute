@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "binance hacked",
+  "words": 400,
+  "relatedTermsUsed": [
+    "Binance",
+    "security incident",
+    "investigation",
+    "withdrawal",
+    "transactions",
+    "employee laptop",
+    "forensic",
+    "deposits",
+    "withdrawals",
+    "safety fund",
+    "reimburse",
+    "account notifications",
+    "sign-ins",
+    "password",
+    "account balance",
+    "security",
+    "support",
+    "email account",
+    "multi-factor authentication",
+    "recovery codes",
+    "recovery scams",
+    "cryptocurrency",
+    "seed phrase",
+    "one-time code",
+    "private key",
+    "impersonator",
+    "destination domain",
+    "wallet",
+    "blockchain",
+    "attribution",
+    "post-mortem"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Binance security incident update",
+      "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+    },
+    {
+      "title": "CISA account security resources",
+      "url": "https://www.cisa.gov/secure-our-world"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/computer.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_inside.jpg",
+    "creator": "Carlosar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Interior of a computer photographed in 2009; illustrative technology image",
+    "width": 1280,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Computer_inside.jpg",
+    "bytes": 207228
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

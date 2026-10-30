@@ -1,0 +1,63 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "al-nassr vs al kholood",
+  "words": 373,
+  "relatedTermsUsed": [
+    "Al-Nassr",
+    "Al Kholood",
+    "Saudi Pro League",
+    "fixture",
+    "competition",
+    "season",
+    "round",
+    "stadium",
+    "local time",
+    "Pakistan Standard Time",
+    "time zone",
+    "postponements",
+    "line-up",
+    "starting eleven",
+    "team news",
+    "injuries",
+    "suspensions",
+    "rotation",
+    "team sheet",
+    "possession",
+    "shots on target",
+    "chances created",
+    "defensive errors",
+    "turnovers",
+    "low block",
+    "high press",
+    "set pieces",
+    "corners",
+    "free kicks",
+    "substitutions",
+    "VAR",
+    "goalscorers"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Saudi Pro League fixtures and news",
+      "url": "https://www.spl.com.sa/en"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/football.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Football_(soccer_ball).svg",
+    "creator": "flomar / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Association football illustration; not a match photograph",
+    "width": 450,
+    "height": 478,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_(soccer_ball).svg",
+    "bytes": 17138
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "afg vs zim",
+  "words": 324,
+  "relatedTermsUsed": [
+    "AFG vs ZIM",
+    "Afghanistan",
+    "Zimbabwe",
+    "fixture",
+    "venue",
+    "format",
+    "competition",
+    "T20I",
+    "ODI",
+    "Test",
+    "exhibition",
+    "squad",
+    "playing eleven",
+    "team sheet",
+    "time zone",
+    "weather",
+    "innings",
+    "runs",
+    "wickets",
+    "overs",
+    "target",
+    "required rate",
+    "boundaries",
+    "extras",
+    "bowling figures",
+    "dot balls",
+    "full-time",
+    "scorecard",
+    "milestone",
+    "international",
+    "domestic"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Afghanistan Cricket Board matches",
+      "url": "https://acb.af/en-us/matches"
+    },
+    {
+      "title": "Zimbabwe Cricket official website",
+      "url": "https://www.zimcricket.org/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

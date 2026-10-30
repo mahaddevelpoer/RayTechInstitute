@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "ao3",
+  "words": 336,
+  "relatedTermsUsed": [
+    "Archive of Our Own",
+    "AO3",
+    "tags",
+    "metadata",
+    "user-created",
+    "catalogue",
+    "digital-literacy",
+    "content",
+    "topic",
+    "character",
+    "setting",
+    "title",
+    "keyword",
+    "search",
+    "structured tag",
+    "filter",
+    "language",
+    "length",
+    "completion status",
+    "rating",
+    "warnings",
+    "children",
+    "reading",
+    "teacher",
+    "authorship",
+    "quotation",
+    "author",
+    "privacy",
+    "comments",
+    "credentials",
+    "library",
+    "data structures"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "AO3 search and browse FAQ",
+      "url": "https://archive.transformativeworks.org/faq/search-and-browse?language_id=en"
+    },
+    {
+      "title": "AO3 tags FAQ",
+      "url": "https://archive.transformativeworks.org/faq/tags?language_id=en"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

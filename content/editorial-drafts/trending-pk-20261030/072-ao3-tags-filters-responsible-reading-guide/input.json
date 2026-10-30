@@ -1,0 +1,25 @@
+{
+  "title": "AO3 Explained: Tags, Filters and Responsible Reading",
+  "slug": "ao3-tags-filters-responsible-reading-guide",
+  "category": "education",
+  "excerpt": "Understand AO3’s tagging and filtering system, distinguish metadata from a quality guarantee, and learn responsible reading and attribution habits.",
+  "image": "book",
+  "tags": [
+    "AO3",
+    "Tags",
+    "Digital Literacy",
+    "Reading Filters"
+  ],
+  "sources": [
+    {
+      "title": "AO3 search and browse FAQ",
+      "url": "https://archive.transformativeworks.org/faq/search-and-browse?language_id=en"
+    },
+    {
+      "title": "AO3 tags FAQ",
+      "url": "https://archive.transformativeworks.org/faq/tags?language_id=en"
+    }
+  ],
+  "body": "Archive of Our Own, commonly called AO3, uses tags and other metadata to organise user-created works. Its official FAQs explain how searching and filtering operate. For a digital-literacy lesson, the useful topic is how a catalogue describes content and helps a reader make informed choices, not an assumption that every work suits every age.\n\n## What a tag does\n\nA tag can describe a topic, character, setting or other attribute supplied with a work. Related labels may be connected through the archive's tagging system. A keyword in a title and a structured tag are different search signals, so they can return different results.\n\nMetadata helps organise material but does not independently verify every claim or guarantee writing quality. User-created catalogues depend on both the platform's structure and contributors' descriptions.\n\n## Filters narrow a collection\n\nLanguage, length, completion status and other available fields can help define a search. Including a tag asks for one characteristic; excluding a tag asks the system to remove matching material under its rules. Read the official help page when a filter behaves differently from a simple text search.\n\nRatings and warnings require attention. An educational website should not present an open user-content archive as a universally suitable children's reading library. Younger learners should use age-appropriate material selected with a trusted adult or teacher.\n\n## Respect authorship and privacy\n\nPublicly readable writing is not automatically free to republish. Link to the original work and credit the author when discussing it. Keep quotations short and relevant. Do not copy a full story into another site or present someone else's writing as your own assignment.\n\nAvoid sharing personal information in comments or responding to messages that request account credentials. A familiar community name can also be imitated by an unrelated site.\n\n## A safe catalogue exercise\n\nCompare a library catalogue and the archive's FAQ descriptions of metadata. List which fields describe content and which describe publication status. The exercise can be completed without opening mature works. Our [programming courses](/learn/) offer another route into understanding search, data structures and filtering. The open-book illustration represents reading and is not AO3 branding or an endorsement.",
+  "terms": []
+}

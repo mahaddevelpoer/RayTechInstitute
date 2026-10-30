@@ -1,5 +1,6 @@
 "use client";
 
+import {blogCategoryLabel} from '@/data/blogCategories';
 import { siteUrl } from "@/lib/site";
 
 import React, { useState } from "react";
@@ -70,14 +71,18 @@ export function BlogDetailClientView({
       : post.excerpt,
     datePublished: post.datePublished,
     author: {
-      "@type": "Person",
+      "@type": post.author === "RayTech Institute" ? "Organization" : "Person",
       name: post.author,
     },
     publisher: {
       "@type": "Organization",
       name: "RayTech Institute",
     },
-    image: sourceReview ? siteUrl(fallbackImage) : post.featuredImage,
+    image: sourceReview
+      ? siteUrl(fallbackImage)
+      : post.featuredImage.startsWith("/")
+        ? siteUrl(post.featuredImage)
+        : post.featuredImage,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": siteUrl(`/blogs/${slug}/`),
@@ -143,7 +148,7 @@ export function BlogDetailClientView({
 
       {/* Article Meta */}
       <div className="flex flex-wrap items-center gap-3 text-xs text-slate-500 mb-3">
-        <span className="badge-primary">{post.category}</span>
+        <span className="badge-primary">{blogCategoryLabel(post.category)}</span>
         <span className="flex items-center gap-1">
           <Calendar className="w-3.5 h-3.5" />
           <span>{post.datePublished}</span>

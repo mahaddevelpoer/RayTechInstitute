@@ -1,0 +1,36 @@
+{
+  "state": "local-drafts-validated-not-published",
+  "articles": 79,
+  "totalWords": 26908,
+  "minimumWords": 308,
+  "minimumRelevantTerms": 30,
+  "categories": [
+    "sports",
+    "technology",
+    "entertainment",
+    "science",
+    "economy",
+    "education",
+    "world-affairs"
+  ],
+  "uniqueSlugs": 79,
+  "uniqueSeoTitles": 79,
+  "images": 12,
+  "checks": [
+    "CSV topic coverage",
+    "Unique slugs and SEO metadata",
+    "At least 30 curated relevant terms present in each article",
+    "Valid Markdown headings",
+    "Internal link targets",
+    "Local WebP files and dimensions",
+    "Image attribution and licences",
+    "Private credential patterns",
+    "No publication dates or production writes"
+  ],
+  "limitations": [
+    "These are concise explainers, not 3,000-word pillar articles.",
+    "Historical and illustrative images are credited; not every article has a unique photograph.",
+    "Live scores, rankings, availability and legal or policy changes need rechecking at publication.",
+    "No ranking, indexing or traffic guarantee. No publication or deployment performed."
+  ]
+}

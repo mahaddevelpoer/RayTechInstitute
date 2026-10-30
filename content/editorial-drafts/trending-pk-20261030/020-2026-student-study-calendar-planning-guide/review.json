@@ -1,0 +1,65 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "2026",
+  "words": 348,
+  "relatedTermsUsed": [
+    "2026",
+    "study calendar",
+    "class",
+    "board",
+    "examination",
+    "revision",
+    "school",
+    "assessment",
+    "date sheet",
+    "admission deadlines",
+    "practical examinations",
+    "result announcements",
+    "notice",
+    "institution",
+    "fee-payment",
+    "chapters",
+    "questions",
+    "past-paper",
+    "vocabulary",
+    "programming",
+    "concentration",
+    "notes",
+    "review",
+    "illness",
+    "family commitments",
+    "practice",
+    "notebook",
+    "digital calendar",
+    "notifications",
+    "resources"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Federal Board official notices",
+      "url": "https://www.fbise.edu.pk/"
+    },
+    {
+      "title": "BISE Lahore official notices",
+      "url": "https://www.biselahore.com/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/book.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "bytes": 7734
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

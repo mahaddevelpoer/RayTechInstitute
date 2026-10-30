@@ -87,7 +87,7 @@ export interface GazetteItem {
   content?: string; // Optional detailed board notification writing / analysis
 }
 
-export type BlogCategory = 'date-sheets' | 'admissions' | 'career-guides' | 'general';
+export type BlogCategory = 'date-sheets' | 'admissions' | 'career-guides' | 'general' | 'sports' | 'technology' | 'science' | 'economy' | 'world-affairs' | 'entertainment' | 'education';
 
 export interface BlogPostItem {
   id: string;

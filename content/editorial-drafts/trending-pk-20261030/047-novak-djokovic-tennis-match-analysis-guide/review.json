@@ -1,0 +1,63 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "novak djokovic",
+  "words": 319,
+  "relatedTermsUsed": [
+    "Novak Djokovic",
+    "ITF",
+    "tennis",
+    "points",
+    "games",
+    "sets",
+    "break of serve",
+    "service game",
+    "tie-break",
+    "competition",
+    "return",
+    "depth",
+    "server",
+    "winner",
+    "first-serve",
+    "break-point",
+    "opponent",
+    "placement",
+    "pace",
+    "rally",
+    "surface",
+    "conditions",
+    "shot selection",
+    "defensive",
+    "court position",
+    "fatigue",
+    "medical",
+    "injuries",
+    "withdrawals",
+    "rankings",
+    "title totals",
+    "entries"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "ITF: Novak Djokovic player profile",
+      "url": "https://www.itftennis.com/en/players/novak-djokovic/800225217/srb/mt/s/overview/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/tennis.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Tennis_ball.svg",
+    "creator": "MesserWoland",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Tennis ball illustration; not a match photograph",
+    "width": 263,
+    "height": 263,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tennis_ball.svg",
+    "bytes": 4576
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

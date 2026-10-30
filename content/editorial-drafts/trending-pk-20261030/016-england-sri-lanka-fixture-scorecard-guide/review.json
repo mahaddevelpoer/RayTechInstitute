@@ -1,0 +1,68 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "eng vs sl",
+  "words": 326,
+  "relatedTermsUsed": [
+    "England",
+    "Sri Lanka",
+    "fixture",
+    "bilateral series",
+    "tournament",
+    "team category",
+    "format",
+    "competition",
+    "ODI",
+    "T20I",
+    "Test",
+    "innings",
+    "under-19",
+    "international",
+    "venue",
+    "start time",
+    "time zone",
+    "Pakistan",
+    "scorecard",
+    "wickets",
+    "overs",
+    "partnerships",
+    "extras",
+    "bowling spells",
+    "chase",
+    "target",
+    "balls remaining",
+    "strike rate",
+    "revised target",
+    "interruption",
+    "playing conditions",
+    "abandoned",
+    "tied"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "ECB England men fixtures and news",
+      "url": "https://www.ecb.co.uk/england/men"
+    },
+    {
+      "title": "Sri Lanka Cricket tour announcement",
+      "url": "https://srilankacricket.lk/2025/07/sri-lanka-mens-team-to-tour-england-in-september-2026-for-white-ball-series/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/cricket.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "bytes": 8790
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

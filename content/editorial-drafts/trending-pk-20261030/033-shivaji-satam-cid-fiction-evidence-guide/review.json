@@ -1,0 +1,63 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "shivaji satam cid",
+  "words": 333,
+  "relatedTermsUsed": [
+    "Shivaji Satam",
+    "Sony LIV",
+    "CID",
+    "cast",
+    "programme",
+    "production",
+    "actor",
+    "crime drama",
+    "storytelling",
+    "investigation",
+    "legal procedure",
+    "character",
+    "script",
+    "episode",
+    "screen role",
+    "broadcast",
+    "clips",
+    "suspense",
+    "clues",
+    "music",
+    "editing",
+    "reaction shots",
+    "observation",
+    "accusation",
+    "confession",
+    "evidence",
+    "posture",
+    "emphasis",
+    "dialogue",
+    "framing",
+    "age guidance",
+    "platform"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Sony LIV official CID page",
+      "url": "https://www.sonyliv.com/shows/cid-1700000196"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/film.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "bytes": 17876
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

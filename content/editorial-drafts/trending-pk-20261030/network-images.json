@@ -1,0 +1,123 @@
+{
+  "cricket": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cricketball.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "creator": "Stephen Turner, based on Albinomonkey; Commons upload Spundun",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cricketball.png",
+    "alt": "Cricket ball illustration; not a match photograph",
+    "width": 325,
+    "height": 325,
+    "modifications": "None; original network asset"
+  },
+  "american": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/American_football.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:American_football.svg",
+    "creator": "Simanek / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "American football illustration",
+    "width": 512,
+    "height": 512,
+    "modifications": "None; original network asset"
+  },
+  "badger": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Badger-badger.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Badger-badger.jpg",
+    "creator": "BadgerHero",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Young Eurasian badger photographed in 2003",
+    "width": 2560,
+    "height": 1920,
+    "modifications": "None; original network asset"
+  },
+  "patrick": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+    "creator": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Patrick Stewart speaking at San Diego Comic-Con in 2019",
+    "width": 1297,
+    "height": 1686,
+    "modifications": "None; original network asset"
+  },
+  "tennis": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tennis_ball.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tennis_ball.svg",
+    "creator": "MesserWoland",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Tennis ball illustration; not a match photograph",
+    "width": 263,
+    "height": 263,
+    "modifications": "None; original network asset"
+  },
+  "book": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Open_book_nae_02.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg",
+    "creator": "nae / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Open book illustration",
+    "width": 400,
+    "height": 200,
+    "modifications": "None; original network asset"
+  },
+  "film": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Film_reel.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Film_reel.svg",
+    "creator": "Bromskloss",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Film reel illustration; not a production still",
+    "width": 534,
+    "height": 519,
+    "modifications": "None; original network asset"
+  },
+  "hongkong": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hong-Kong_skyline.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Hong-Kong_skyline.JPG",
+    "creator": "Robster1983",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Hong Kong skyline photographed in 2009; location illustration, not match coverage",
+    "width": 2272,
+    "height": 1704,
+    "modifications": "None; original network asset"
+  },
+  "football": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_(soccer_ball).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Football_(soccer_ball).svg",
+    "creator": "flomar / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Association football illustration; not a match photograph",
+    "width": 512,
+    "height": 544,
+    "modifications": "None; original network asset"
+  },
+  "computer": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Computer_inside.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_inside.jpg",
+    "creator": "Carlosar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Interior of a computer photographed in 2009; illustrative technology image",
+    "width": 3264,
+    "height": 2448,
+    "modifications": "None; original network asset"
+  },
+  "earth": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 3000,
+    "height": 3002,
+    "modifications": "None; original network asset"
+  }
+}

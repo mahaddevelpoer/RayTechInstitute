@@ -1,0 +1,69 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "dam",
+  "words": 329,
+  "relatedTermsUsed": [
+    "dam",
+    "reservoir",
+    "hydropower",
+    "irrigation",
+    "water supply",
+    "flood management",
+    "capacity",
+    "storage",
+    "sedimentation",
+    "live",
+    "dead storage",
+    "units",
+    "rainfall",
+    "inflow",
+    "demand",
+    "operating",
+    "level",
+    "turbines",
+    "generators",
+    "electricity",
+    "megawatts",
+    "megawatt-hours",
+    "power",
+    "energy",
+    "maintenance",
+    "catchment",
+    "downstream",
+    "warnings",
+    "authorities",
+    "release schedule",
+    "construction",
+    "WAPDA",
+    "spillway",
+    "powerhouse"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "WAPDA official project information",
+      "url": "https://www.wapda.gov.pk/"
+    },
+    {
+      "title": "Pakistan water-body inventory",
+      "url": "https://www.pcrwr.gov.pk/water-body-inventory/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 959,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "bytes": 111238
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

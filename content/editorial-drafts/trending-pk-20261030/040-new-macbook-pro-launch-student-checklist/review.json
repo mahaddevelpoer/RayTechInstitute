@@ -1,0 +1,66 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "apple new macbook pro",
+  "words": 318,
+  "relatedTermsUsed": [
+    "Apple",
+    "MacBook Pro",
+    "PROLED XDR",
+    "Display",
+    "processor",
+    "memory",
+    "storage",
+    "configuration",
+    "invoice",
+    "specification",
+    "regional availability",
+    "retailer",
+    "performance",
+    "workload",
+    "browser",
+    "coding",
+    "assignments",
+    "video projects",
+    "applications",
+    "operating-system",
+    "compatibility",
+    "backups",
+    "reflections",
+    "weight",
+    "battery",
+    "Pakistan",
+    "warranty",
+    "keyboard",
+    "charger",
+    "price",
+    "upgrade"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "Apple: MacBook Pro with PROLED XDR Display",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+    },
+    {
+      "title": "Apple Mac announcement archive",
+      "url": "https://www.apple.com/newsroom/archive/mac/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/computer.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_inside.jpg",
+    "creator": "Carlosar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Interior of a computer photographed in 2009; illustrative technology image",
+    "width": 1280,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Computer_inside.jpg",
+    "bytes": 207228
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

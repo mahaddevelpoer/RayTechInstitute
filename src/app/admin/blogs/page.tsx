@@ -1,5 +1,6 @@
 "use client";
 
+import {BLOG_CATEGORIES} from '@/data/blogCategories';
 import React, { useState, useEffect } from "react";
 import {
   Newspaper,
@@ -403,9 +404,7 @@ export default function AdminBlogsPage() {
                     }
                     className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                   >
-                    <option value="date-sheets">Date Sheets</option>
-                    <option value="admissions">Admission Alerts</option>
-                    <option value="career-guides">Career Guides</option>
+                    {BLOG_CATEGORIES.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}
                   </select>
                 </div>
 
@@ -613,9 +612,7 @@ export default function AdminBlogsPage() {
                   onChange={(e) => setCategory(e.target.value as BlogCategory)}
                   className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                 >
-                  <option value="date-sheets">Date Sheets</option>
-                  <option value="admissions">Admission Alerts</option>
-                  <option value="career-guides">Career Guides</option>
+                  {BLOG_CATEGORIES.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}
                 </select>
               </div>
             </div>

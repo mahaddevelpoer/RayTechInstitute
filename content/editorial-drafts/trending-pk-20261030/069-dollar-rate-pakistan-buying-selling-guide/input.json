@@ -1,0 +1,21 @@
+{
+  "title": "Dollar Rate in Pakistan: Buying, Selling and Sources",
+  "slug": "dollar-rate-pakistan-buying-selling-guide",
+  "category": "economy",
+  "excerpt": "Understand dollar rates in Pakistan, distinguish interbank and customer quotations, and calculate conversion costs using a dated source and clear fees.",
+  "image": "book",
+  "tags": [
+    "Dollar Rate",
+    "Pakistan Rupee",
+    "Exchange Rates",
+    "Currency Literacy"
+  ],
+  "sources": [
+    {
+      "title": "State Bank economic and exchange-rate data",
+      "url": "https://www.sbp.org.pk/economic-data"
+    }
+  ],
+  "body": "A dollar rate in Pakistan needs a currency pair, quotation type and timestamp. The US dollar is commonly meant, but other countries also use currencies called dollars. State the code, such as USD, before comparing a number with the Pakistani rupee. A bare figure cannot establish the amount a customer will receive.\n\n## Buying and selling are different\n\nA provider's buying rate and selling rate describe opposite sides of the transaction. If you sell foreign currency to the provider, the relevant quote is not necessarily the same one used when you buy it. The spread is part of the cost of exchange.\n\nInterbank, open-market and customer reference rates can differ because they describe different markets or reporting methods. A State Bank reference figure is not automatically a guaranteed retail quote for every transaction.\n\n## Read the timestamp and units\n\nCheck whether the rate is rupees per dollar or the inverse. Confirm the date, and distinguish an intraday quote from a closing or average rate. A weekend search result may show the latest available working-day observation rather than a new market fixing.\n\nDo not label a third-party mid-market feed as an official State Bank rate without evidence. The source and methodology should remain visible.\n\n## Calculate the actual amount\n\nMultiply the foreign-currency amount by the applicable rate, then account for documented fees. For an illustrative rate of 280 rupees per dollar, ten dollars equals 2,800 rupees before fees. That is a teaching example, not today's quote.\n\nAsk the authorised provider for the final payable or receivable amount before confirming a transaction. A small rate difference and a separate fee can affect comparisons differently.\n\n## Avoid prediction disguised as fact\n\nAn exchange-rate forecast is not a promised outcome. This article does not recommend holding a currency or guarantee a future movement. Our [economy guide](/blogs/pakistan-economy-indicators-student-guide/) explains broader indicators, and our [cash guide](/blogs/cash-pakistan-banknotes-everyday-safety-guide/) covers everyday records. The book illustration represents financial learning and is not a currency note or a live market chart.",
+  "terms": []
+}

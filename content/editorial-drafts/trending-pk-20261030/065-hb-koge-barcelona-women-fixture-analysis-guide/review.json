@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "hb køge vs barcelona",
+  "words": 323,
+  "relatedTermsUsed": [
+    "HB Køge",
+    "FC Barcelona",
+    "Women",
+    "Champions League",
+    "fixture",
+    "UEFA",
+    "club",
+    "home side",
+    "venue",
+    "season",
+    "ticket",
+    "kick-off",
+    "Pakistan",
+    "daylight-saving",
+    "October",
+    "possession",
+    "centre",
+    "pressure",
+    "compact shape",
+    "transitions",
+    "shots",
+    "chances",
+    "field position",
+    "scoreline",
+    "goals",
+    "team sheet",
+    "starters",
+    "substitutes",
+    "winner",
+    "goalscorers",
+    "result",
+    "match record"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "HB Køge official Champions League ticket announcement",
+      "url": "https://www.hbkogewomen.dk/en/news/tickets-for-our-uefa-womens-champions-league-home-matches-ar"
+    },
+    {
+      "title": "UEFA Women’s Champions League",
+      "url": "https://www.uefa.com/womenschampionsleague/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/football.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Football_(soccer_ball).svg",
+    "creator": "flomar / Open Clip Art Library",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Association football illustration; not a match photograph",
+    "width": 450,
+    "height": 478,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_(soccer_ball).svg",
+    "bytes": 17138
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "state": "completed-draft-not-published",
+  "trend": "air pollution",
+  "words": 335,
+  "relatedTermsUsed": [
+    "air pollution",
+    "particles",
+    "gases",
+    "PM2.5",
+    "particulate matter",
+    "air quality index",
+    "concentration",
+    "weather",
+    "WHO",
+    "respiratory",
+    "exposure",
+    "health",
+    "children",
+    "clinician",
+    "medication",
+    "AQI",
+    "scales",
+    "averaging periods",
+    "breakpoints",
+    "sensor",
+    "station",
+    "location",
+    "timestamp",
+    "pollutant",
+    "haze",
+    "outdoor exertion",
+    "school",
+    "ventilation",
+    "indoor",
+    "protective",
+    "data",
+    "correlation"
+  ],
+  "keywordMethod": "Topic-specific phrases plus terms present in the teaching prose; not measured search volume.",
+  "sources": [
+    {
+      "title": "WHO ambient air pollution fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health"
+    },
+    {
+      "title": "AirNow AQI basics",
+      "url": "https://www.airnow.gov/aqi/aqi-basics/"
+    }
+  ],
+  "timeSensitiveRecheckRequired": true,
+  "image": {
+    "url": "/images/editorial/trending-pk-20261030/earth.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "alt": "Earth photographed by Apollo 17 in 1972; historical illustration",
+    "width": 959,
+    "height": 960,
+    "modifications": "Resized to fit within 1280 × 960 pixels without cropping; converted to WebP",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Earth_seen_from_Apollo_17_(Original_Orientation).jpg",
+    "bytes": 111238
+  },
+  "publicationNotes": [
+    "Recheck linked sources and any changing details before approved publication."
+  ]
+}
