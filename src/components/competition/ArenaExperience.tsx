@@ -1,6 +1,6 @@
 'use client';
 import {useCallback,useEffect,useRef,useState} from 'react';
-import {Music2,SlidersHorizontal,Volume2,VolumeX} from 'lucide-react';
+import {SlidersHorizontal,Volume2,VolumeX} from 'lucide-react';
 import {ArenaAudio,defaultArenaAudio,type ArenaAudioPreferences,type ArenaCue} from '@/lib/competition/arena-audio';
 
 const storageKey = 'raytech-arena-audio-v1';
@@ -11,7 +11,7 @@ export function useArenaAudio(focused:boolean) {
   current.current=settings;
   useEffect(()=>{
     engine.current=new ArenaAudio();
-    try { const saved=JSON.parse(localStorage.getItem(storageKey)||'null');if(saved)setSettings({music:saved.music===true,effects:saved.effects===true,musicVolume:Number.isFinite(saved.musicVolume)?Math.max(0,Math.min(100,saved.musicVolume)):32,effectsVolume:Number.isFinite(saved.effectsVolume)?Math.max(0,Math.min(100,saved.effectsVolume)):48}); } catch { /* Default to silence. */ }
+    try { const saved=JSON.parse(localStorage.getItem(storageKey)||'null');if(saved)setSettings({music:false,effects:saved.effects===true,musicVolume:Number.isFinite(saved.musicVolume)?Math.max(0,Math.min(100,saved.musicVolume)):32,effectsVolume:Number.isFinite(saved.effectsVolume)?Math.max(0,Math.min(100,saved.effectsVolume)):48}); } catch { /* Default to silence. */ }
     setReady(true);
     const unlock=()=>{if(current.current.music||current.current.effects)void engine.current?.unlock().then(()=>setUnlocked(true)).catch(()=>{});};
     const visibility=()=>engine.current?.visibility(document.hidden);
@@ -21,7 +21,7 @@ export function useArenaAudio(focused:boolean) {
   useEffect(()=>{engine.current?.configure(settings,focused);if(ready)try{localStorage.setItem(storageKey,JSON.stringify(settings));}catch{/* Storage is optional. */}},[settings,focused,ready]);
   const cue=useCallback((value:ArenaCue)=>engine.current?.cue(value),[]);
   const change=useCallback((value:Partial<ArenaAudioPreferences>)=>{
-    const next={...current.current,...value};current.current=next;setSettings(next);engine.current?.configure(next,focused);
+    const next={...current.current,...value,music:false};current.current=next;setSettings(next);engine.current?.configure(next,focused);
     if(next.music||next.effects)void engine.current?.unlock().then(()=>{setUnlocked(true);if(value.effects===true)engine.current?.cue('select');}).catch(()=>setUnlocked(false));
   },[focused]);
   return {settings,change,cue,unlocked};
@@ -30,9 +30,9 @@ export function useArenaAudio(focused:boolean) {
 export function ArenaAudioControls({audio}:{audio:ReturnType<typeof useArenaAudio>}){
  const {settings,change}=audio;
  return <div className="arena-audio-controls">
-  <button type="button" className="arena-icon-button" aria-pressed={settings.music} onClick={()=>change({music:!settings.music})}><Music2 size={17}/><span>Music {settings.music?'on':'off'}</span>{settings.music&&<i className="arena-equalizer" aria-hidden="true"><b/><b/><b/></i>}</button>
+
   <button type="button" className="arena-icon-button" aria-pressed={settings.effects} onClick={()=>change({effects:!settings.effects})}>{settings.effects?<Volume2 size={17}/>:<VolumeX size={17}/>}<span>Sound {settings.effects?'on':'off'}</span></button>
-  <details className="arena-audio-settings" onKeyDown={event=>{if(event.key==='Escape')event.currentTarget.open=false;}}><summary aria-label="Audio settings"><SlidersHorizontal size={18}/></summary><div className="arena-audio-popover"><strong>Your arena. Your sound.</strong><label>Music volume <output>{settings.musicVolume}%</output><input aria-label="Music volume" type="range" min="0" max="100" value={settings.musicVolume} onChange={event=>change({musicVolume:Number(event.target.value)})}/></label><label>Effects volume <output>{settings.effectsVolume}%</output><input aria-label="Effects volume" type="range" min="0" max="100" value={settings.effectsVolume} onChange={event=>change({effectsVolume:Number(event.target.value)})}/></label><p>Music softens during questions and pauses when you leave this tab.</p></div></details>
+  <details className="arena-audio-settings" onKeyDown={event=>{if(event.key==='Escape')event.currentTarget.open=false;}}><summary aria-label="Audio settings"><SlidersHorizontal size={18}/></summary><div className="arena-audio-popover"><strong>Your arena. Your sound.</strong><label>Effects volume <output>{settings.effectsVolume}%</output><input aria-label="Effects volume" type="range" min="0" max="100" value={settings.effectsVolume} onChange={event=>change({effectsVolume:Number(event.target.value)})}/></label><p>Short sound effects only. Audio pauses when you leave this tab.</p></div></details>
  </div>;
 }
 
