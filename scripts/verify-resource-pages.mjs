@@ -2,6 +2,14 @@ import assert from'node:assert/strict';import fs from'node:fs/promises';import{c
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
 const base=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.web.app';const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true,args:['--renderer-process-limit=1']});
 const routes=['/','/courses/','/courses/web-development/','/learn/python/','/classes/','/classes/11th-class/','/classes/11th-class/computer-science/','/classes/11th-class/computer-science/notes/','/classes/11th-class/computer-science/mcqs/','/classes/11th-class/computer-science/past-papers/','/results-gazettes/','/blogs/','/privacy-policy/','/terms-and-conditions/','/about/'];
+async function ensureTheme(page,dark){
+ // SSR labels describe the initial light state. Wait for the stored preference
+ // to hydrate before deciding whether a real toggle click is required.
+ await page.waitForFunction(()=>{const button=document.querySelector('.site-header button[aria-label^="Switch to"]');return button&&!button.disabled;});
+ const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});
+ if(await toggle.count())await toggle.click();
+ await page.waitForFunction(expected=>document.documentElement.classList.contains('dark')===expected&&getComputedStyle(document.documentElement).getPropertyValue('--bg-main').trim()===(expected?'#151515':'#ffffff'),dark);
+}
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});const errors=[];let publicDatabaseReads=0;page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.url().includes('.supabase.co/rest/v1/'))publicDatabaseReads++;});
  await page.goto(base+'/courses/',{waitUntil:'domcontentloaded'});await page.getByRole('button',{name:'Decline Optional',exact:true}).click();await fs.mkdir('artifacts/resource-pages',{recursive:true});
@@ -9,7 +17,7 @@ try{
   await page.setViewportSize({width,height:900});
   for(const route of routes){
    const response=await page.goto(base+route,{waitUntil:'domcontentloaded'});assert.equal(response.status(),200,route);await page.locator('h1').waitFor();assert.equal(await page.locator('h1').count(),1,route);
-   const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});if(await toggle.count())await toggle.click();await page.waitForTimeout(route==='/'?800:200);
+   await ensureTheme(page,dark);await page.waitForTimeout(route==='/'?800:200);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,`overflow: ${route} at ${width}`);
    const main=page.locator('#main-content').first();assert.ok((await main.innerText()).trim().length>70,route);
    assert.doesNotMatch(await main.innerText(),/SQLSTATE|PostgREST|schema cache|Unhandled server exception|github_pat_|sk-or-v1-/i,route);
@@ -42,7 +50,7 @@ try{
   assert.equal(await page.locator('.mcq-page h2 [lang="ur"]').evaluate(e=>getComputedStyle(e).direction),'rtl');
   assert.equal(await page.evaluate(async()=>{await document.fonts.load('18px "RayTech Urdu"');return document.fonts.check('18px "RayTech Urdu"');}),true,'bundled Urdu font loads');
   for(const [width,dark]of[[1366,false],[360,true]]){
-   await page.setViewportSize({width,height:900});const toggle=page.getByRole('button',{name:dark?'Switch to dark theme':'Switch to light theme',exact:true});if(await toggle.count())await toggle.click();await page.waitForTimeout(200);
+   await page.setViewportSize({width,height:900});await ensureTheme(page,dark);await page.waitForTimeout(200);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);await page.screenshot({path:`artifacts/resource-pages/dit-quiz-${width}.png`});
   }
   await page.setViewportSize({width:1366,height:900});
