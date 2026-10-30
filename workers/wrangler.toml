@@ -1,4 +1,4 @@
-# Prepared configuration only. Do not deploy before approval.
+# Production Worker configuration. Secrets are stored in Cloudflare.
 name = "raytech-competition"
 main = "competition-proxy.ts"
 compatibility_date = "2026-10-28"
@@ -8,5 +8,5 @@ COMPETITION_UPSTREAM = "https://btxrkhwyugzliswznkpx.supabase.co/functions/v1/co
 ALLOWED_ORIGINS = "https://raytechinstitute.com,https://raytechinstitute.web.app"
 
 [triggers]
-# Midnight Pakistan time: expire old rate-limit records and finish closed rounds.
+# Every five minutes: maintenance followed by opted-in winner notifications.
 crons = ["*/5 * * * *"]

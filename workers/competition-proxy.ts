@@ -5,7 +5,7 @@ interface Environment {COMPETITION_UPSTREAM:string;COMPETITION_PROXY_SECRET:stri
 interface WorkerContext {waitUntil(promise:Promise<unknown>):void;}
 export default {scheduled(_event:unknown,env:Environment,context:WorkerContext){
  if(!env.COMPETITION_PROXY_SECRET)return;const url=new URL(env.COMPETITION_UPSTREAM);if(url.protocol!=='https:'||!url.hostname.endsWith('.supabase.co')||url.pathname!=='/functions/v1/competition')return;
- context.waitUntil((async()=>{const r=await fetch(url.href+'/maintenance',{method:'POST',headers:{'x-competition-proxy':env.COMPETITION_PROXY_SECRET,'x-competition-job':env.COMPETITION_PROXY_SECRET}});if(r.ok&&env.COMPETITION_NOTIFICATION_JOB_SECRET)await fetch(url.origin+'/functions/v1/competition-notifications/dispatch',{method:'POST',headers:{'x-notification-job':env.COMPETITION_NOTIFICATION_JOB_SECRET}});})());
+ context.waitUntil((async()=>{const r=await fetch(url.href+'/maintenance',{method:'POST',headers:{'x-competition-proxy':env.COMPETITION_PROXY_SECRET,'x-competition-job':env.COMPETITION_PROXY_SECRET}});if(!r.ok)throw new Error('Competition maintenance failed');if(env.COMPETITION_NOTIFICATION_JOB_SECRET){const mail=await fetch(url.origin+'/functions/v1/competition-notifications/dispatch',{method:'POST',headers:{'x-notification-job':env.COMPETITION_NOTIFICATION_JOB_SECRET}});if(!mail.ok)throw new Error('Competition winner notification dispatch failed');}})());
 },async fetch(request:Request,env:Environment,context:WorkerContext):Promise<Response>{
  const origin=request.headers.get('origin')||'';const allowed=(env.ALLOWED_ORIGINS||'https://raytechinstitute.com').split(',').map(s=>s.trim());
  const cors={'Access-Control-Allow-Origin':allowed.includes(origin)?origin:allowed[0],'Access-Control-Allow-Methods':'GET,POST,OPTIONS','Access-Control-Allow-Headers':'authorization,content-type','Vary':'Origin'};
@@ -27,7 +27,8 @@ export default {scheduled(_event:unknown,env:Environment,context:WorkerContext){
  const headers=new Headers({'Content-Type':'application/json','x-competition-proxy':env.COMPETITION_PROXY_SECRET,'x-competition-client-ip':request.headers.get('cf-connecting-ip')||''});
  if(origin)headers.set('Origin',origin);const authorization=request.headers.get('authorization');if(authorization)headers.set('Authorization',authorization);
  try{
-  const response=await fetch(upstream,{method:request.method,headers,...(request.method==='POST'?{body:request.body}:{}),redirect:'error'});
+  const response=await fetch(upstream,{method:request.method,headers,...(request.method==='POST'?{body:request.body}:{}),redirect:'manual'});
+  if(response.status>=300&&response.status<400)return fail(502,'Unexpected competition upstream redirect.');
   const outgoing=new Response(response.body,{status:response.status,headers:{...cors,'Content-Type':'application/json','X-Content-Type-Options':'nosniff','Cache-Control':isPublic&&response.ok?'public,max-age=30,s-maxage=30':'no-store'}});
   if(isPublic&&outgoing.ok)context.waitUntil(cache.put(cacheKey,outgoing.clone()));return outgoing;
  }catch{return fail(503,'The competition connection is temporarily unavailable.');}
