@@ -205,6 +205,7 @@ export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement>; 
                             />
                           )}
                         </div>
+                        {item.key === "mcqs" && <Link href="/competition/" prefetch={false} onClick={closeMenus} className="menu-feature-link mb-3"><Trophy className="h-5 w-5" aria-hidden="true" /><span><strong>Weekly competition</strong><small>Timed questions, a weekly podium and shareable results.</small></span></Link>}
                         {item.key === "mcqs" && <Link href="/quizzes/" onClick={closeMenus} className="menu-feature-link mb-3"><BookOpen className="h-5 w-5" aria-hidden="true" /><span><strong>Programming topic tests</strong><small>Choose a language and a lesson topic.</small></span></Link>}
                         {item.key === "classes" ? (
                           <div className="grid grid-cols-2 gap-2">
@@ -407,6 +408,7 @@ export const Header: React.FC<{ scrollContainer?: React.RefObject<HTMLElement>; 
                       </Link>
                     )}
                     {item.key === "classes" && <Link href="/courses/" onClick={closeMenus} className="mobile-sub-link col-span-2">Programming courses</Link>}
+                    {item.key === "mcqs" && <Link href="/competition/" prefetch={false} onClick={closeMenus} className="mobile-sub-link col-span-2">Weekly competition</Link>}
                     {item.key === "mcqs" && <Link href="/quizzes/" onClick={closeMenus} className="mobile-sub-link col-span-2">Programming topic tests</Link>}
                     {item.key === "classes" &&
                       INITIAL_CLASSES.map((classItem) => (

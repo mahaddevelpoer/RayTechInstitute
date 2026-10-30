@@ -1,0 +1,41 @@
+// A single lightweight Node/PGlite preview. Never contacts or writes the production database.
+import fs from 'node:fs/promises';import path from 'node:path';import http from 'node:http';import crypto from 'node:crypto';
+import {build} from 'esbuild';import postcss from 'postcss';import tailwind from 'tailwindcss';import {PGlite} from '@electric-sql/pglite';import {loadTypescript} from './load-typescript.mjs';import {localPrivateQuestions} from './competition-local-fixtures.mjs';
+const {createCompetitionService,pakistanWeek}=await loadTypescript('supabase/functions/_shared/competition-service.ts');
+const {createCompetitionHandler}=await loadTypescript('supabase/functions/_shared/competition-handler.ts');
+const {createCompetitionTokenVerifier}=await loadTypescript('supabase/functions/_shared/competition-auth.ts');
+const port=4186,directory=path.resolve('artifacts/competition-preview');await fs.mkdir(directory,{recursive:true});
+const db=new PGlite(path.join(directory,'database'));await db.exec(await fs.readFile('supabase/migrations/20261028020000_private_competition.sql','utf8'));
+const repo={async call(action,uid,payload={}){const result=await db.query('SELECT public.competition_gateway($1,$2,$3::jsonb) AS data',[action,uid,JSON.stringify(payload)]);return result.rows[0].data;}};
+const service=createCompetitionService(repo);const week=pakistanWeek(Date.now());const roundId='local-'+week.startsAt.slice(0,10);const round={id:roundId,title:'The knowledge sprint',subject:'Computer systems, networks and digital skills',...week,questionCount:20,blueprint:{easy:6,medium:10,hard:4},times:{easy:15,medium:30,hard:60}};
+if(!await repo.call('round',null,{roundId}))await service.saveRound({config:round,bank:localPrivateQuestions(),enabled:true});
+if(process.argv.includes('--reset-demo'))await db.query("DELETE FROM competition_private.attempts WHERE uid='local-demo-learner'");
+for(const [uid,name,score] of [['sample-a','Ayesha Khan',19],['sample-b','Hamza Ali',17],['sample-c','Zainab Ahmed',16],['sample-d','Bilal Hassan',14]]){
+ if(await repo.call('attempt',uid))continue;let view=await service.start(uid,{roundId,displayName:name,photoUrl:null});
+ for(let i=0;i<20;i++){const row=await repo.call('attempt',uid);const q=row.body.paper[row.body.position];view=await service.answer(uid,{attemptId:view.id,questionId:q.id,option:i<score?q.correctIndex:(q.correctIndex+1)%4});}
+}
+const token=crypto.randomBytes(24).toString('hex');const verifyGoogle=createCompetitionTokenVerifier('raytechinstitute');
+const handler=createCompetitionHandler({repo,origins:[`http://localhost:${port}`,`http://127.0.0.1:${port}`],siteKey:'',turnstileSecret:'',ipSalt:crypto.randomBytes(32).toString('hex'),localPreview:true,verifyIdentity:async authorization=>authorization===`Bearer ${token}`?{uid:'local-demo-learner'}:verifyGoogle(authorization),verifyAdmin:async authorization=>{try{await verifyGoogle(authorization);const claims=JSON.parse(Buffer.from(authorization.slice(7).split('.')[1],'base64url').toString());return['mahadb847@gmail.com','mahadb848@gmail.com'].includes(String(claims.email).toLowerCase());}catch{return false;}},trustedIp:()=> '127.0.0.1'});
+await build({stdin:{loader:'tsx',resolveDir:process.cwd(),contents:`import React from 'react';import {createRoot} from 'react-dom/client';import {CompetitionArena} from './src/components/competition/CompetitionArena';import {CompetitionDirectory} from './src/components/competition/CompetitionDirectory';import AdminCompetition from './src/app/admin/competition/page';import {EmailPreferences} from './src/components/competition/EmailPreferences';import {Header} from './src/components/Header';import {Footer} from './src/components/Footer';import {ThemeProvider} from './src/hooks/useTheme';const view=location.pathname.split('/')[2]||'home';const content=location.pathname==='/admin/competition/'?<AdminCompetition/>:location.pathname==='/email-preferences/'?<EmailPreferences/>:['home','rules','leaderboard'].includes(view)?<CompetitionDirectory view={view}/>:<CompetitionArena entry={view==='play'?'ranked':view}/>;createRoot(document.getElementById('root')).render(<ThemeProvider><Header/><main>{content}</main><Footer/></ThemeProvider>);`},bundle:true,jsx:'automatic',minify:true,format:'esm',splitting:true,outdir:directory,define:{'process.env.NODE_ENV':'"production"','process.env':'{}'}});
+const globalCss=await postcss([tailwind('./tailwind.config.ts')]).process(await fs.readFile('src/app/globals.css','utf8'),{from:'src/app/globals.css'});
+await fs.writeFile(path.join(directory,'competition.css'),globalCss.css+'\n'+await fs.readFile('src/app/competition/competition.css','utf8')+'\nbody{margin:0;background:#fff;font-family:Arial,Helvetica,sans-serif}.dark body{background:#151515}a{text-decoration:none}button{font-family:inherit}');
+const document=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>RayTech local competition</title><link rel="stylesheet" href="/competition.css"></head><body><div id="root"></div><script>window.__COMPETITION_PREVIEW__=${JSON.stringify({token})}</script><script type="module" src="/stdin.js"></script></body></html>`;
+const mime={'.js':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png'};
+const server=http.createServer(async(req,res)=>{
+ try{
+  if(![`localhost:${port}`,`127.0.0.1:${port}`].includes(req.headers.host)){res.writeHead(403).end();return;}
+  const url=new URL(req.url,`http://localhost:${port}`);res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('X-Robots-Tag','noindex,nofollow');res.setHeader('Cache-Control','no-store');
+  if(url.pathname==='/api/competition'){
+   let size=0;const chunks=[];for await(const chunk of req){size+=chunk.length;if(size>1000000){res.writeHead(413).end();return;}chunks.push(chunk);}
+   const response=await handler(new Request(url,{method:req.method,headers:req.headers,...(req.method==='POST'?{body:Buffer.concat(chunks)}:{})}));res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));return;
+  }
+  if(url.pathname==='/admin/competition/'||url.pathname==='/email-preferences/'||url.pathname==='/'||/^\/competition\/(?:play\/|practice\/|leaderboard\/|rules\/|results\/)?$/.test(url.pathname)){res.setHeader('Content-Type','text/html; charset=utf-8');res.end(document);return;}
+  const asset=path.resolve('public','.'+url.pathname);if(asset.startsWith(path.resolve('public')+path.sep)&&['.png','.svg','.webp','.ico','.woff2'].includes(path.extname(asset))){res.setHeader('Content-Type',({'.png':'image/png','.svg':'image/svg+xml','.webp':'image/webp','.ico':'image/x-icon','.woff2':'font/woff2'})[path.extname(asset)]);res.end(await fs.readFile(asset));return;}
+  const exported=path.resolve('out','.'+url.pathname+(url.pathname.endsWith('/')?'index.html':''));if(exported.startsWith(path.resolve('out')+path.sep)&&['.html','.js','.css','.png','.svg','.ico','.webp','.woff2'].includes(path.extname(exported))){try{const bytes=await fs.readFile(exported);res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon','.webp':'image/webp','.woff2':'font/woff2'})[path.extname(exported)]);res.end(bytes);return;}catch{}}
+  const file=path.resolve(directory,'.'+url.pathname);if(!file.startsWith(directory+path.sep)||!['.js','.css'].includes(path.extname(file))){res.writeHead(404).end();return;}
+  res.setHeader('Content-Type',mime[path.extname(file)]);res.end(await fs.readFile(file));
+ }catch{res.writeHead(503,{'Content-Type':'application/json'}).end(JSON.stringify({success:false,error:'Local preview request could not be completed.'}));}
+});
+server.listen(port,'127.0.0.1',()=>console.log(`Local competition: http://localhost:${port}/competition/ . Sample players only. No production writes. Restart with --reset-demo to clear only the local learner's attempt.`));
+server.on('error',error=>{console.error(error.code==='EADDRINUSE'?'Port 4186 is busy; no existing process was stopped.':error.message);void db.close();process.exitCode=1;});
+process.on('SIGINT',()=>{server.close();void db.close().finally(()=>process.exit(0));});

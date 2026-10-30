@@ -54,7 +54,7 @@ export default function TermsAndConditionsPage() {
           <p className="text-xs text-slate-500">Last Updated: October 2026</p>
         </div>
 
-        <nav className="legal-contents" aria-label="On this page"><h2>On this page</h2><ol>{["1. Acceptance of Terms","2. Intellectual Property & Educational Materials","3. In-Browser Python Terminal Usage","4. Disclaimer of Warranty"].map((title,index)=><li key={title}><a href={`#policy-section-${index+1}`}>{title}</a></li>)}</ol></nav>
+        <nav className="legal-contents" aria-label="On this page"><h2>On this page</h2><ol>{["1. Acceptance of Terms","2. Intellectual Property & Educational Materials","3. In-Browser Python Terminal Usage","4. Disclaimer of Warranty","5. Weekly Competition Rules"].map((title,index)=><li key={title}><a href={`#policy-section-${index+1}`}>{title}</a></li>)}</ol></nav>
         <div className="edu-card p-6 sm:p-8 space-y-6 text-sm text-slate-700 leading-relaxed">
           <section className="space-y-2">
             <h2 id="policy-section-1" className="text-lg font-bold text-navy-900">
@@ -103,6 +103,11 @@ export default function TermsAndConditionsPage() {
               materials on an &ldquo;as-is&rdquo; basis. Students are encouraged
               to cross-reference with official board textbooks.
             </p>
+          </section>
+          <section className="space-y-2">
+            <h2 id="policy-section-5" className="text-lg font-bold text-navy-900">5. Weekly Competition Rules</h2>
+            <p>Sign in with Google before a ranked attempt. One ranked attempt is allowed per account each Pakistan calendar week across all rounds. Answer independently within each question deadline. Submitted answers are locked; refreshing or reconnecting does not reset an issued deadline. Guest practice results cannot be promoted into the ranking.</p>
+            <p>Equal scores share a rank. Standings remain current until the round closes and may be held for administrator review. Visibility events are review signals, not automatic proof of misconduct. Correct answers become available to attempt owners after closing. Shared result cards reflect the score and rank when generated; the verification page shows the latest result. Participation does not promise a prize or prevent all outside assistance.</p>
           </section>
         </div>
       </main>

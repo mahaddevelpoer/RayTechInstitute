@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
     <footer className="site-footer bg-slate-900 text-slate-300 pt-12 pb-8 border-t border-slate-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800 text-sm">
-          
+
           {/* Col 1: Institute About */}
           <div className="md:col-span-1 space-y-3">
             <p className="font-bold text-white text-base">
@@ -37,6 +37,7 @@ export const Footer: React.FC = () => {
               Study Resources
             </h2>
             <ul className="space-y-1.5 text-xs text-slate-400">
+              <li><Link href="/email-preferences/" className="hover:text-white transition-colors">Notification preferences</Link></li>
               <li><Link href="/courses/" className="hover:text-white transition-colors">Programming courses</Link></li>
               <li><Link href="/quizzes/" className="hover:text-white transition-colors">Programming topic tests</Link></li>
               <li>

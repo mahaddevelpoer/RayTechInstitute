@@ -27,7 +27,10 @@
     "test:release-security": "node --test scripts/private-credential-patterns.test.mjs scripts/site-polish.test.mjs",
     "check:live-services": "node scripts/check-live-services.mjs",
     "test:codi": "node --max-old-space-size=256 --test --test-concurrency=1 scripts/codi.test.mjs scripts/codi-reader.test.mjs scripts/codi-tutor.test.mjs scripts/codi-cloud.test.mjs scripts/codi-cloud-client.test.mjs",
-    "test:codi-browser": "node scripts/codi-browser-check.mjs"
+    "test:codi-browser": "node scripts/codi-browser-check.mjs",
+    "dev:competition": "node --max-old-space-size=384 scripts/preview-competition.mjs",
+    "test:competition": "node --max-old-space-size=256 scripts/competition-types.mjs && node --max-old-space-size=384 --test --test-concurrency=1 scripts/competition.test.mjs scripts/competition-notifications.test.mjs",
+    "test:competition-browser": "node --max-old-space-size=256 scripts/competition-browser.mjs"
   },
   "dependencies": {
     "@ampproject/worker-dom": "0.36.0",

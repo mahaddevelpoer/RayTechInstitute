@@ -1,0 +1,12 @@
+# Prepared configuration only. Do not deploy before approval.
+name = "raytech-competition"
+main = "competition-proxy.ts"
+compatibility_date = "2026-10-28"
+
+[vars]
+COMPETITION_UPSTREAM = "https://btxrkhwyugzliswznkpx.supabase.co/functions/v1/competition"
+ALLOWED_ORIGINS = "https://raytechinstitute.com,https://raytechinstitute.web.app"
+
+[triggers]
+# Midnight Pakistan time: expire old rate-limit records and finish closed rounds.
+crons = ["*/5 * * * *"]

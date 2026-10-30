@@ -45,6 +45,10 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      - name: Verify private competition scoring and access controls
+        if: github.event_name != 'repository_dispatch'
+        run: npm run test:competition
+
       - name: Verify SEO metadata, schema, public assets and crawlable links
         if: github.event_name != 'repository_dispatch'
         run: npm run test:seo
@@ -80,6 +84,7 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+          NEXT_PUBLIC_COMPETITION_ENDPOINT: ${{ vars.NEXT_PUBLIC_COMPETITION_ENDPOINT }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

@@ -5,3 +5,10 @@ verify_jwt = false
 
 [functions.codi-voice]
 verify_jwt = false
+
+# Firebase Google JWTs are cryptographically verified inside this endpoint.
+[functions.competition]
+verify_jwt = false
+
+[functions.competition-notifications]
+verify_jwt = false

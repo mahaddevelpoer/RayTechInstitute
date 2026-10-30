@@ -118,6 +118,7 @@ export default function AdminShell({
     { label: "Subjects", href: "/admin/subjects", icon: BookOpen },
     { label: "Notes Manager", href: "/admin/notes", icon: FileText },
     { label: "MCQs Builder", href: "/admin/mcqs", icon: HelpCircle },
+    { label: "Weekly Competition", href: "/admin/competition", icon: Award },
     { label: "Past Papers", href: "/admin/past-papers", icon: FileCode },
     { label: "Gazettes & Results", href: "/admin/gazettes", icon: Award },
     { label: "Blogs & Updates", href: "/admin/blogs", icon: Newspaper },

@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
           <p className="text-xs text-slate-500">Last Updated: October 2026</p>
         </div>
 
-        <nav className="legal-contents" aria-label="On this page"><h2>On this page</h2><ol>{["Optional Codi voice tutor","1. Introduction","2. Information Collection","3. In-Browser Python Terminal Execution","4. Third-Party Integrations","5. Assignment Feedback","6. Contact Information"].map((title,index)=><li key={title}><a href={`#policy-section-${index+1}`}>{title}</a></li>)}</ol></nav>
+        <nav className="legal-contents" aria-label="On this page"><h2>On this page</h2><ol>{["Optional Codi voice tutor","1. Introduction","2. Information Collection","3. In-Browser Python Terminal Execution","4. Third-Party Integrations","5. Assignment Feedback","6. Contact Information","7. Weekly Competition"].map((title,index)=><li key={title}><a href={`#policy-section-${index+1}`}>{title}</a></li>)}</ol></nav>
         <div className="edu-card p-6 sm:p-8 space-y-6 text-sm text-slate-700 leading-relaxed">
           <section className="space-y-2">
             <h2 id="policy-section-1" className="text-lg font-bold text-navy-900">Optional Codi voice tutor</h2>
@@ -148,6 +148,12 @@ export default function PrivacyPolicyPage() {
               materials, please contact the RayTech Institute administrator via
               our official contact form.
             </p>
+          </section>
+          <section className="space-y-2">
+            <h2 id="policy-section-8" className="text-lg font-bold text-navy-900">7. Weekly Competition</h2>
+            <p>Ranked competition entry uses Google sign-in. Before entering, you choose a display name and agree that your name, score, completion time and rank can appear publicly on the leaderboard and shared result page. Your Google profile photo appears only if you opt in. Your Google email and account identifier are not displayed in public results. Guest practice does not enter the leaderboard.</p>
+            <p>Private competition records use your account identifier to enforce one ranked attempt per Pakistan calendar week and resume interrupted tests. We record limited page-visibility events for manual review. Switching tabs alone does not disqualify you. No camera or microphone is used. Administrators can hold and restore a ranking with a private audit reason.</p>
+            <p>Firebase verifies identity, Supabase stores competition records, and Cloudflare provides bot protection and a connection proxy. Network addresses are processed transiently for protection; this feature stores a rotating keyed hash for rate limits rather than raw IP addresses. Expired rate-limit records are removed by scheduled maintenance. Provider operational logs follow their own settings. Contact the administrator through our contact form about your competition record or public display.</p>
           </section>
         </div>
       </main>
