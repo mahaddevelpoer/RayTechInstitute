@@ -1,0 +1,98 @@
+{
+  "proseWords": 2030,
+  "seoTerms": [
+    "Al-Nassr",
+    "Al Kholood",
+    "Saudi Pro League",
+    "league table",
+    "standings",
+    "season",
+    "games played",
+    "points",
+    "wins",
+    "draws",
+    "losses",
+    "goals for",
+    "goals against",
+    "goal difference",
+    "game in hand",
+    "points per game",
+    "home form",
+    "away form",
+    "recent form",
+    "head-to-head",
+    "tiebreak",
+    "qualification",
+    "relegation",
+    "title race",
+    "fixture list",
+    "live table",
+    "full time",
+    "match result",
+    "clean sheets",
+    "scoring rate",
+    "defensive record",
+    "sample size",
+    "points gap",
+    "maximum points",
+    "remaining fixtures",
+    "form strip",
+    "table update",
+    "postponed",
+    "deduction",
+    "competition regulations",
+    "continental",
+    "expected goals",
+    "goalkeeper",
+    "opponent strength",
+    "unbeaten",
+    "win percentage",
+    "draw rate",
+    "goal balance",
+    "matchweek",
+    "final standings"
+  ],
+  "questions": [
+    "Which season and table version should you use?",
+    "What do the main standings columns mean?",
+    "How can one match change the points gap?",
+    "Does a game in hand make one club better placed?",
+    "How should tied clubs be separated?",
+    "What do recent form and home-away splits reveal?",
+    "Can a current position guarantee a title or qualification?",
+    "How can you write a fair Al-Nassr and Al Kholood comparison?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spl.com.sa/en/standings",
+      "title": "Saudi Pro League official standings"
+    },
+    {
+      "url": "https://www.spl.com.sa/en/teams/al-kholood/matches",
+      "title": "Al Kholood official fixtures"
+    },
+    {
+      "url": "https://resources.saudi-pro-league.pulselive.com/saudi-pro-league/document/2024/12/05/57fef692-c1f8-4d3c-a600-5d3d77e387f3/COMPETITION-REGULATION-2024-2025.pdf",
+      "title": "Saudi Pro League 2024-25 competition regulations, historical reference"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Saudi Pro League stadium scoreboard",
+    "football league table analysis notebook",
+    "Al Nassr Al Kholood football stadium"
+  ],
+  "imageInsertionHeadings": [
+    "What do the main standings columns mean?",
+    "How can one match change the points gap?"
+  ],
+  "factualLimitations": [
+    "Live standings were not extractable; no current positions or season-specific qualification thresholds asserted. Older regulations used only as historical reference."
+  ],
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose; no search-volume claims.",
+  "internalLinks": [
+    "/blogs/hb-koge-barcelona-women-fixture-analysis-guide/",
+    "/blogs/everton-newcastle-fixture-tactics-match-guide/",
+    "/blogs/al-nassr-al-kholood-match-preview-guide/"
+  ]
+}

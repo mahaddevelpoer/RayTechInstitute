@@ -1,0 +1,112 @@
+{
+  "proseWords": 2023,
+  "seoTerms": [
+    "Christine Lagarde",
+    "ECB departure",
+    "leadership transition",
+    "effective date",
+    "29 October 2026",
+    "European Central Bank",
+    "7 February 2027",
+    "European Council",
+    "succession process",
+    "successor appointment",
+    "monetary policy",
+    "market expectations",
+    "euro",
+    "rupee",
+    "borrowing costs",
+    "announcement date",
+    "nomination",
+    "consultation",
+    "appointee",
+    "Governing Council",
+    "interest-rate decisions",
+    "inflation forecast",
+    "projections",
+    "central bank",
+    "Executive Board",
+    "national central banks",
+    "euro-area",
+    "press conference",
+    "Article 283",
+    "Treaty on the Functioning of the European Union",
+    "recommendation",
+    "eight-year term",
+    "eligibility",
+    "price-stability",
+    "two per cent inflation",
+    "medium term",
+    "policy rate",
+    "loan rate",
+    "fixed-rate contract",
+    "variable-rate contract",
+    "financing conditions",
+    "bond price",
+    "currency",
+    "transmission",
+    "time lags",
+    "Pakistan",
+    "State Bank",
+    "exporter",
+    "euros",
+    "fees",
+    "currency pair",
+    "exchange rate",
+    "update ledger",
+    "formal recommendation",
+    "news-literacy"
+  ],
+  "questions": [
+    "What has been confirmed about Christine Lagarde's departure?",
+    "Does a leadership change automatically change ECB interest rates?",
+    "What does the Governing Council do, and where does the president fit?",
+    "How is an ECB president appointed?",
+    "Why does the difference between inflation and interest rates matter?",
+    "How can market expectations react before any policy changes?",
+    "Why might readers in Pakistan care about an ECB transition?",
+    "How should students update the story as succession develops?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "title": "ECB: announced departure effective 7 February 2027"
+    },
+    {
+      "url": "https://www.consilium.europa.eu/en/european-council/president/x-posts/2026-10-29-110300/",
+      "title": "European Council president: acknowledgement and succession process"
+    },
+    {
+      "url": "https://www.consilium.europa.eu/en/policies/appointment-of-the-european-central-bank-executive-board/",
+      "title": "Council: ECB Executive Board appointment procedure"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/ecb/decisions/govc/html/index.en.html",
+      "title": "ECB: Governing Council"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+      "title": "ECB: two per cent inflation target"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "title": "ECB: monetary-policy transmission"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Christine Lagarde licensed portrait",
+    "European Central Bank Frankfurt building",
+    "euro banknotes coins interest rates education"
+  ],
+  "imageInsertionHeadings": [
+    "What has been confirmed about Christine Lagarde's departure?",
+    "How is an ECB president appointed?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "29 October 2026 departure statements checked directly. Effective departure remains a future plan; no successor or future rate/exchange-rate movement is claimed."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

@@ -9,6 +9,7 @@ import { Footer } from "@/components/Footer";
 import { INITIAL_BLOGS } from "@/data/staticCatalog";
 import { BlogDetailClientView } from "@/components/educational/BlogDetailClientView";
 import { buildSeoTitle } from "@/utils/seo";
+import { REVIEWED_ARTICLE_COVERS, REVIEWED_ARTICLE_KEYWORDS } from '@/data/reviewedArticleMedia';
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -54,6 +55,7 @@ export async function generateMetadata({
       : undefined,
     title: seoTitle,
     description: seoDescription,
+    keywords: REVIEWED_ARTICLE_KEYWORDS[post.id] || post.tags,
     alternates: {
       canonical: siteUrl(`/blogs/${slug}/`),
     },
@@ -66,9 +68,9 @@ export async function generateMetadata({
           url: needsSourceReview(post.content)
             ? siteUrl("/android-chrome-512x512.png")
             : post.featuredImage,
-          width: 1200,
-          height: 630,
-          alt: post.title,
+          width: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.width || 1200,
+          height: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.height || 630,
+          alt: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.alt || post.title,
         },
       ],
       type: "article",
@@ -92,7 +94,12 @@ export default async function BlogDetailPage({ params }: PageProps) {
         tabIndex={-1}
         className="flex-1 py-10 px-4 sm:px-6 max-w-4xl mx-auto w-full"
       >
-        <BlogDetailClientView slug={slug} initialPost={initialPost} />
+        <BlogDetailClientView
+          slug={slug}
+          initialPost={initialPost}
+          coverMetadata={REVIEWED_ARTICLE_COVERS[initialPost.featuredImage]}
+          seoKeywords={REVIEWED_ARTICLE_KEYWORDS[initialPost.id]}
+        />
       </main>
 
       <Footer />

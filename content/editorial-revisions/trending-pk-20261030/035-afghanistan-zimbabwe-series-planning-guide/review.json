@@ -1,0 +1,103 @@
+{
+  "proseWords": 2053,
+  "seoTerms": [
+    "Afghanistan vs Zimbabwe",
+    "series",
+    "programme",
+    "scorecard",
+    "timeline",
+    "fixtures",
+    "formats",
+    "squad changes",
+    "series score",
+    "tour announcement",
+    "series outcome",
+    "workload",
+    "selection",
+    "ODIs",
+    "T20Is",
+    "playing conditions",
+    "tri-nation",
+    "bilateral",
+    "match number",
+    "ground",
+    "start-time",
+    "postponement",
+    "future tours programme",
+    "neutral venue",
+    "time-zone conversion",
+    "Pakistan",
+    "squads",
+    "playing eleven",
+    "replacement",
+    "predicted line-up",
+    "squad ledger",
+    "team sheet",
+    "opener",
+    "appearances",
+    "innings",
+    "no-result",
+    "drawn Test",
+    "limited-overs",
+    "batting position",
+    "entry score",
+    "target",
+    "strike rate",
+    "bowling phase",
+    "field restrictions",
+    "economy rate",
+    "dot balls",
+    "extras",
+    "rotation",
+    "field placement",
+    "batting order",
+    "bowling allocation",
+    "player milestone",
+    "small samples",
+    "match winners"
+  ],
+  "questions": [
+    "What is the difference between a tour, a series and a tournament?",
+    "How do you build a reliable series timeline?",
+    "Why are squads, playing elevens and replacements different records?",
+    "How do you know when a series has been won?",
+    "How can you compare performances across different matches?",
+    "How should workload and rotation be discussed responsibly?",
+    "What makes a good between-match review?",
+    "How can students turn the whole series into a useful project?"
+  ],
+  "sources": [
+    {
+      "url": "https://acb.af/en-us/matches",
+      "title": "Afghanistan Cricket Board: matches and future tour documents"
+    },
+    {
+      "url": "https://www.zimcricket.org/",
+      "title": "Zimbabwe Cricket official site; no readable text returned"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: format-specific playing conditions"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Afghanistan Zimbabwe cricket teams training",
+    "cricket tour fixture calendar notebook",
+    "cricket team selection training nets"
+  ],
+  "imageInsertionHeadings": [
+    "How do you build a reliable series timeline?",
+    "How can you compare performances across different matches?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "No unverified current tour schedule, squad, injury or series result. Zimbabwe Cricket returned no readable text."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

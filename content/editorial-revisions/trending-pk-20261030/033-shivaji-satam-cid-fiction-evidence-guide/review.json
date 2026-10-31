@@ -1,0 +1,91 @@
+{
+  "proseWords": 2076,
+  "seoTerms": [
+    "Shivaji Satam",
+    "CID",
+    "cast",
+    "ACP Pradyuman",
+    "crime thriller",
+    "actor",
+    "fictional character",
+    "production",
+    "performance",
+    "editing",
+    "evidence",
+    "drama",
+    "episode",
+    "timestamps",
+    "dialogue",
+    "direction",
+    "narrative",
+    "vocal delivery",
+    "volume",
+    "pace",
+    "articulation",
+    "emphasis",
+    "posture",
+    "movement",
+    "frame",
+    "reaction",
+    "camera",
+    "music",
+    "screen authority",
+    "clue",
+    "suspense",
+    "close-up",
+    "observation",
+    "inference",
+    "accusation",
+    "corroboration",
+    "confession",
+    "plot",
+    "media-literacy",
+    "reaction shot",
+    "sound",
+    "wide shot",
+    "filmmaking",
+    "director",
+    "creative intention",
+    "evaluation",
+    "authorised source",
+    "age guidance",
+    "regional availability",
+    "storyline",
+    "scene description",
+    "analytical writing",
+    "interpretive claim",
+    "ensemble"
+  ],
+  "questions": [
+    "How should you separate Shivaji Satam from the character he plays?",
+    "What makes a screen authority figure feel convincing?",
+    "How does a crime drama turn a clue into suspense?",
+    "What is the difference between an observation, an inference and an accusation?",
+    "Why do editing and sound change what the audience believes?",
+    "How can you write about a scene without inventing production intentions?",
+    "What should a student check before using clips or episode information?",
+    "What does a strong paragraph about Shivaji Satam's performance look like?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sonyliv.com/shows/cid-1700000196",
+      "title": "Sony LIV: official CID description and cast"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Shivaji Satam CID official publicity portrait",
+    "television studio camera crime drama set",
+    "film editing timeline reaction shots"
+  ],
+  "imageInsertionHeadings": [
+    "What makes a screen authority figure feel convincing?",
+    "What is the difference between an observation, an inference and an accusation?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "Official cast/production context only; no current biography, death, departure or legal-procedure claim. Scene examples are invented."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

@@ -1,0 +1,95 @@
+{
+  "proseWords": 2072,
+  "seoTerms": [
+    "Sanjay Dutt",
+    "screen roles",
+    "character roles",
+    "comic timing",
+    "screen presence",
+    "performance analysis",
+    "Munna Bhai MBBS",
+    "authorised viewing",
+    "film title",
+    "on-screen credits",
+    "production materials",
+    "dubbed versions",
+    "filmography",
+    "production synopsis",
+    "scene objective",
+    "character arc",
+    "protagonist",
+    "Vocal delivery",
+    "pace",
+    "volume",
+    "emphasis",
+    "silence",
+    "dialogue rhythm",
+    "Subtitles",
+    "dubbing",
+    "translated text",
+    "body language",
+    "posture",
+    "facial expression",
+    "blocking",
+    "reaction shots",
+    "fictional scene",
+    "Camera angle",
+    "shot size",
+    "lighting",
+    "costume",
+    "background score",
+    "editing",
+    "close-up",
+    "wide shot",
+    "low angle",
+    "Sound design",
+    "Continuity editing",
+    "cinematography",
+    "comedy-drama",
+    "antagonist",
+    "complete performances",
+    "box-office total",
+    "plot summary",
+    "age classification",
+    "ensemble acting"
+  ],
+  "questions": [
+    "How do you verify a Sanjay Dutt film role?",
+    "What does the character want in a scene?",
+    "How do voice, pauses and comic timing create meaning?",
+    "What can body language and blocking reveal?",
+    "How do camera, sound and editing shape screen presence?",
+    "How can Munna Bhai MBBS support a character study?",
+    "How can two Sanjay Dutt roles be compared fairly?",
+    "How do you write an evidence-based film paragraph?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vinodchoprafilms.com/movies/munna-bhai-mbbs/",
+      "title": "Vinod Chopra Films: Munna Bhai MBBS"
+    },
+    {
+      "url": "https://dff.nic.in/images/Documents/66_51stNfacatalogue.pdf",
+      "title": "51st National Film Awards catalogue"
+    },
+    {
+      "url": "https://dff.nic.in/images/Documents/48_54sthNfaArchives.pdf",
+      "title": "54th National Film Awards catalogue"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Sanjay Dutt licensed portrait",
+    "film camera production set",
+    "cinema auditorium projection equipment"
+  ],
+  "imageInsertionHeadings": [
+    "How do voice, pauses and comic timing create meaning?",
+    "How can two Sanjay Dutt roles be compared fairly?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

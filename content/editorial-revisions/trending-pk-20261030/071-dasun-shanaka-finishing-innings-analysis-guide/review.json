@@ -1,0 +1,90 @@
+{
+  "proseWords": 2173,
+  "seoTerms": [
+    "Dasun Shanaka",
+    "finishing",
+    "death overs",
+    "run chase",
+    "required rate",
+    "runs needed",
+    "balls remaining",
+    "legal deliveries",
+    "wickets in hand",
+    "strike rate",
+    "boundary",
+    "single",
+    "dot ball",
+    "partnership",
+    "strike rotation",
+    "non-striker",
+    "yorker",
+    "slower ball",
+    "bouncer",
+    "wide line",
+    "length",
+    "pace",
+    "field placement",
+    "long-on",
+    "long-off",
+    "deep midwicket",
+    "cover",
+    "square leg",
+    "matchup",
+    "risk",
+    "target",
+    "first innings",
+    "T20I",
+    "domestic",
+    "scorecard",
+    "playing conditions",
+    "extras",
+    "wide",
+    "no-ball",
+    "bowling change",
+    "sample size",
+    "hindsight",
+    "decision quality",
+    "shot selection",
+    "bat swing",
+    "entry score",
+    "middle-order role",
+    "batting partnership",
+    "Sri Lanka fixture"
+  ],
+  "questions": [
+    "What information matters when Shanaka arrives at the crease?",
+    "How does chasing differ from setting a first-innings total?",
+    "What makes a boundary option sensible rather than merely successful?",
+    "When is a single useful during the death overs?",
+    "How do dot balls, extras and wickets change pressure?",
+    "How can you analyse a final over ball by ball?",
+    "Which statistics are fair for comparing finishing innings?",
+    "What should a balanced conclusion about Shanaka's finishing contain?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=F04_Xz0rts0",
+      "title": "Sri Lanka Cricket: Dasun Shanaka finishing innings, official archive video, June 2022"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: About the Laws of Cricket"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: Playing Conditions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Dasun Shanaka Sri Lanka batting death overs",
+    "cricket final over field placement boundary",
+    "cricket scoreboard runs required balls remaining"
+  ],
+  "imageInsertionHeadings": [
+    "What information matters when Shanaka arrives at the crease?",
+    "How can you analyse a final over ball by ball?"
+  ],
+  "factualLimitations": "Tactical teaching, invented match equations and archival viewing prompt; no new result, current captaincy, live statistics or unsupported player weakness. Match-specific playing conditions prevail.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

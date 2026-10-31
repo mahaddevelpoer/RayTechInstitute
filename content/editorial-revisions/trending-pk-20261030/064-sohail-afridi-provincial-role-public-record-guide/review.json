@@ -1,0 +1,103 @@
+{
+  "proseWords": 2055,
+  "seoTerms": [
+    "Muhammad Sohail Afridi",
+    "Khyber Pakhtunkhwa",
+    "PK-70 Khyber-II",
+    "Leader of the House",
+    "Chief Minister",
+    "assembly seat",
+    "executive responsibility",
+    "party association",
+    "government action",
+    "member profile",
+    "portfolios listing",
+    "executive office",
+    "tenure",
+    "constituency",
+    "membership table",
+    "MPA",
+    "provincial assembly",
+    "legislative institution",
+    "legislation",
+    "departmental implementation",
+    "budgets",
+    "committees",
+    "questions",
+    "school laboratories",
+    "procurement",
+    "federal service",
+    "implementation notice",
+    "eligibility",
+    "allocation",
+    "released",
+    "completed",
+    "implementing department",
+    "financial year",
+    "currency unit",
+    "programme",
+    "expenditure",
+    "project cost",
+    "physical progress",
+    "bill",
+    "act",
+    "notification",
+    "legislative proposal",
+    "enacted law",
+    "amendments",
+    "effective date",
+    "quotation context",
+    "Translation",
+    "Urdu",
+    "Pashto",
+    "delivery record",
+    "civic literacy"
+  ],
+  "questions": [
+    "Which records establish Sohail Afridi's public role?",
+    "How do an MPA, the Chief Minister and the assembly differ?",
+    "What is the difference between a speech, approval and implementation?",
+    "How should provincial budget and development figures be read?",
+    "How do a bill, an act and a notification differ?",
+    "How can political clips and quotations be checked fairly?",
+    "How can citizens build a practical public-record evidence table?",
+    "How should students summarise Sohail Afridi's role without partisanship?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pakp.gov.pk/members/muhammad-sohail-afridi-pk-70-2024/",
+      "title": "KP Assembly Muhammad Sohail Afridi member profile"
+    },
+    {
+      "url": "https://www.pakp.gov.pk/portfolio/",
+      "title": "KP Assembly portfolios"
+    },
+    {
+      "url": "https://www.cmkp.gov.pk/about/chief-ministers",
+      "title": "Chief Minister KP tenure history"
+    },
+    {
+      "url": "https://www.pakp.gov.pk/functions-of-assembly-sections/",
+      "title": "KP Assembly sections and functions"
+    },
+    {
+      "url": "https://www.pakp.gov.pk/act/",
+      "title": "KP Assembly acts register"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Khyber Pakhtunkhwa Assembly building",
+    "Peshawar government provincial assembly",
+    "Khyber Pakhtunkhwa district map licensed"
+  ],
+  "imageInsertionHeadings": [
+    "What is the difference between a speech, approval and implementation?",
+    "How can citizens build a practical public-record evidence table?"
+  ],
+  "factualLimitations": [
+    "Role records checked 30 October 2026; offices and portfolios require recheck before publication."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

@@ -1,0 +1,89 @@
+{
+  "proseWords": 2061,
+  "seoTerms": [
+    "Halloween",
+    "31 October",
+    "costumes",
+    "seasonal stories",
+    "cultural interpretation",
+    "dated source",
+    "historical framework",
+    "ghost stories",
+    "All Hallows' Eve",
+    "All Saints' Day",
+    "Samhain",
+    "religious calendars",
+    "seasonal customs",
+    "migration",
+    "historical context",
+    "Historic newspapers",
+    "editors",
+    "advertisers",
+    "parties",
+    "pranks",
+    "games",
+    "archive-based overview",
+    "newspaper item",
+    "advertisement",
+    "Optical character recognition",
+    "page image",
+    "trick-or-treating",
+    "decorations",
+    "door-to-door",
+    "pumpkin display",
+    "comparison sheet",
+    "country",
+    "Folklore",
+    "beliefs",
+    "supernatural events",
+    "legend",
+    "tradition",
+    "superstition",
+    "period source",
+    "museum caption",
+    "family interview",
+    "Photograph",
+    "commercial event",
+    "catalogue entry",
+    "historical argument",
+    "research question",
+    "institutional explanation",
+    "historical judgement",
+    "English writing"
+  ],
+  "questions": [
+    "What does the name Halloween tell us about its history?",
+    "How can historic newspapers show changing Halloween customs?",
+    "Why should costumes, trick-or-treating and decorations be studied separately?",
+    "What is the difference between folklore and factual evidence?",
+    "How can students compare Halloween with other observances respectfully?",
+    "How can photographs and advertisements mislead a history assignment?",
+    "What is a good source-based Halloween essay question?",
+    "How should a student discuss beliefs and participation in class?"
+  ],
+  "sources": [
+    {
+      "url": "https://guides.loc.gov/halloween/",
+      "title": "Library of Congress Halloween research guide"
+    },
+    {
+      "url": "https://www.neh.gov/divisions/preservation/featured-project/superstitions-and-celebrations-halloween-history-in-chronicl",
+      "title": "NEH Halloween history in Chronicling America"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "historic Halloween party public domain",
+    "Halloween pumpkin carved photograph",
+    "historic Halloween newspaper illustration"
+  ],
+  "imageInsertionHeadings": [
+    "Why should costumes, trick-or-treating and decorations be studied separately?",
+    "What is a good source-based Halloween essay question?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

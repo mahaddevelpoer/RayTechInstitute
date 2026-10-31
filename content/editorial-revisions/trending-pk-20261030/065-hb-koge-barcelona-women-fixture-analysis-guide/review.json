@@ -1,0 +1,105 @@
+{
+  "proseWords": 2093,
+  "seoTerms": [
+    "HB Køge",
+    "Barcelona",
+    "women's football",
+    "European competition",
+    "UEFA Women's Champions League",
+    "fixture identity",
+    "goalscorers",
+    "match status",
+    "possession",
+    "defensive organisation",
+    "transitions",
+    "competition rules",
+    "head-to-head",
+    "team category",
+    "team sheets",
+    "season",
+    "home side",
+    "scheduled",
+    "postponed",
+    "abandoned",
+    "completed",
+    "Pakistan Standard Time",
+    "timezone",
+    "browser's time",
+    "calendar day",
+    "broadcast schedule",
+    "rights-holder",
+    "progression",
+    "chance creation",
+    "midfield",
+    "defensive block",
+    "width",
+    "central access",
+    "winger",
+    "compact block",
+    "distance between lines",
+    "passing lane",
+    "Pressing triggers",
+    "game state",
+    "counterpressing",
+    "first pass",
+    "Rest defence",
+    "body orientation",
+    "expected goals",
+    "shot features",
+    "set pieces",
+    "shots on target",
+    "corner",
+    "free kick",
+    "substitutions",
+    "pressing pattern",
+    "build-up",
+    "shot location"
+  ],
+  "questions": [
+    "How do you identify the correct HB Køge vs Barcelona fixture?",
+    "What is the difference between an announced fixture and a completed result?",
+    "How should Pakistan readers check kick-off time and match date?",
+    "How can possession be analysed without assuming it means dominance?",
+    "What should you watch in a compact defensive block?",
+    "How do transitions and counterpressing change the contest?",
+    "How should shots, expected goals and set pieces be interpreted?",
+    "How can students write a fair HB Køge–Barcelona match note?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hbkogewomen.dk/en/news/tickets-for-our-uefa-womens-champions-league-home-matches-ar",
+      "title": "HB Køge official European home fixture announcement"
+    },
+    {
+      "url": "https://www.uefa.com/womenschampionsleague/match/2050544--hb-koge-vs-barcelona/",
+      "title": "UEFA HB Køge Barcelona match identity"
+    },
+    {
+      "url": "https://www.fifatrainingcentre.com/en/practice/talent-coach-programme/sessions/preventing-progression-through-central-areas.php",
+      "title": "FIFA preventing central progression"
+    },
+    {
+      "url": "https://www.fifatrainingcentre.com/en/practice/elite-sessions/transition-to-defending/preparing-and-executing-counter-pressing.php",
+      "title": "FIFA counter-pressing and rest defence"
+    },
+    {
+      "url": "https://support.hudl.com/s/article/expected-goals?language=en_US&topic=Statsbomb_Global_Football_Data_Glossary",
+      "title": "Hudl StatsBomb expected goals glossary"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "HB Koge women football licensed",
+    "Barcelona women football team licensed",
+    "football pitch defensive formation diagram"
+  ],
+  "imageInsertionHeadings": [
+    "How should Pakistan readers check kick-off time and match date?",
+    "How should shots, expected goals and set pieces be interpreted?"
+  ],
+  "factualLimitations": [
+    "Announcement verifies planned fixture identity; accessible UEFA page did not expose a completed result. No final score, scorer or lineup asserted."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

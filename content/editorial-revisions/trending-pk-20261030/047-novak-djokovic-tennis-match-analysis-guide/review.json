@@ -1,0 +1,112 @@
+{
+  "proseWords": 2032,
+  "seoTerms": [
+    "Novak Djokovic",
+    "points",
+    "games",
+    "sets",
+    "serve",
+    "return",
+    "ITF",
+    "match format",
+    "tennis analysis",
+    "service game",
+    "return pattern",
+    "tactical adjustment",
+    "break of serve",
+    "love",
+    "fifteen",
+    "thirty",
+    "forty",
+    "deuce",
+    "advantage",
+    "scoring formats",
+    "scoreboard",
+    "tiebreak",
+    "break point",
+    "break-point conversion",
+    "set point",
+    "match point",
+    "server",
+    "receiver",
+    "starting position",
+    "first serve",
+    "second serve",
+    "wide serve",
+    "body",
+    "centre line",
+    "deep return",
+    "attacking space",
+    "first-serve percentage",
+    "double faults",
+    "Aces",
+    "rally pattern",
+    "crosscourt",
+    "down-the-line",
+    "court position",
+    "Defensive movement",
+    "hard court",
+    "clay",
+    "grass",
+    "indoors",
+    "outdoors",
+    "court-speed",
+    "Wind",
+    "two-point margin",
+    "serving sequence",
+    "rankings",
+    "career totals",
+    "withdrawal",
+    "medical",
+    "point score"
+  ],
+  "questions": [
+    "How do points, games and sets fit together?",
+    "Why is a break point important without telling the whole story?",
+    "What should you watch in Djokovic's return game?",
+    "How should serve statistics be interpreted?",
+    "How can rally patterns be described without counting only winners?",
+    "How do surface and conditions affect a tactical explanation?",
+    "What do tiebreaks require a viewer to check?",
+    "How can students write a clear Djokovic match analysis?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.itftennis.com/en/players/novak-djokovic/800225217/srb/mt/s/overview/",
+      "title": "ITF: Novak Djokovic player identity"
+    },
+    {
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/?type=rules",
+      "title": "ITF: Rules and regulations"
+    },
+    {
+      "url": "https://www.itftennis.com/en/about-us/organisation/tennis-glossary/",
+      "title": "ITF: Tennis glossary"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Novak Djokovic tennis return baseline match",
+    "tennis court service box educational diagram",
+    "Djokovic serve tennis court licensed photograph"
+  ],
+  "imageInsertionHeadings": [
+    "What should you watch in Djokovic's return game?",
+    "How can rally patterns be described without counting only winners?"
+  ],
+  "factualLimitations": "No live ranking, title total, match result or medical condition asserted; scoring examples hypothetical and event-rule distinctions retained.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

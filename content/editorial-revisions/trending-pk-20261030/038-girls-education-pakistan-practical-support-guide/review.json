@@ -1,0 +1,105 @@
+{
+  "proseWords": 2012,
+  "seoTerms": [
+    "Girls' education in Pakistan",
+    "learning",
+    "Enrolment",
+    "attendance",
+    "completing a grade",
+    "student",
+    "teacher",
+    "school contact",
+    "retention",
+    "adolescent girls",
+    "families",
+    "community volunteers",
+    "transport",
+    "household responsibilities",
+    "learning gaps",
+    "school facilities",
+    "participation",
+    "homework",
+    "textbooks",
+    "admission",
+    "reading task",
+    "reference year",
+    "district-level rates",
+    "national average",
+    "mathematics",
+    "fractions",
+    "comprehension",
+    "textbook's language",
+    "classroom",
+    "Shared phones",
+    "connectivity",
+    "limited data",
+    "offline practice",
+    "Printed pages",
+    "subject plan",
+    "weekly routine",
+    "caregivers",
+    "dignity",
+    "privacy",
+    "Water",
+    "sanitation",
+    "accessible spaces",
+    "passwords",
+    "suspicious messages",
+    "safeguarding",
+    "returning",
+    "placement",
+    "Alternative learning pathways",
+    "education authority",
+    "academic readiness",
+    "application dates",
+    "examinations",
+    "subject choices",
+    "tutoring",
+    "Peer support",
+    "worked example"
+  ],
+  "questions": [
+    "How do you identify the barrier a particular learner faces?",
+    "Why are enrolment, attendance, completion and learning different measures?",
+    "What makes learning support useful when a student has fallen behind?",
+    "How can families plan study when devices and internet are limited?",
+    "How should schools and communities approach safety and dignity?",
+    "What should happen when a learner needs to enter or return to school?",
+    "How can support continue through the transition to the next stage?",
+    "How do you know whether a small support plan is working?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.unicef.org/pakistan/education",
+      "title": "UNICEF Pakistan: education programme"
+    },
+    {
+      "url": "https://www.pie.gov.pk/SiteImage/Publication/GEP%202024.pdf",
+      "title": "Pakistan Institute of Education: Girls' Education statistics and trends"
+    },
+    {
+      "url": "https://www.unicef.org/pakistan/stories/bringing-out-school-girls-back-education-khyber-pakhtunkhwa",
+      "title": "UNICEF Pakistan: alternative learning pathways example"
+    },
+    {
+      "url": "https://www.unicef.org/pakistan/media/5766/file/UNICEF%20Pakistan%20Gender%20Strategy%20-%20Revised%20v4.1.pdf.pdf",
+      "title": "UNICEF Pakistan: Gender Strategy"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistan girls classroom textbooks learning",
+    "Pakistan girls school library reading",
+    "Pakistan school accessible water sanitation facilities"
+  ],
+  "imageInsertionHeadings": [
+    "What makes learning support useful when a student has fallen behind?",
+    "How can support continue through the transition to the next stage?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "Practical support suggestions are illustrative and require local school coordination. No undated national statistics, legal entitlement details or medical advice is asserted."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

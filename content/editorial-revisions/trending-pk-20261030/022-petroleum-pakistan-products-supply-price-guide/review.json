@@ -1,0 +1,100 @@
+{
+  "proseWords": 2111,
+  "seoTerms": [
+    "petroleum",
+    "Pakistan",
+    "crude oil",
+    "refinery",
+    "refining",
+    "petrol",
+    "motor gasoline",
+    "MS",
+    "high-speed diesel",
+    "HSD",
+    "kerosene",
+    "jet fuel",
+    "furnace oil",
+    "LPG",
+    "domestic production",
+    "imported crude",
+    "finished products",
+    "supply chain",
+    "storage",
+    "terminal",
+    "pipeline",
+    "tank lorry",
+    "distribution",
+    "oil marketing company",
+    "retail pump",
+    "fuel quality",
+    "specification",
+    "octane",
+    "sulfur",
+    "benchmark",
+    "exchange rate",
+    "rupee",
+    "price notification",
+    "effective date",
+    "per litre",
+    "petroleum levy",
+    "dealer margin",
+    "freight",
+    "import parity",
+    "tax",
+    "inventory",
+    "demand",
+    "shortage",
+    "household budget",
+    "fuel economy",
+    "transport costs",
+    "inflation",
+    "CPI",
+    "SPI",
+    "percentage change",
+    "working capital"
+  ],
+  "questions": [
+    "How are crude oil, petrol and diesel different?",
+    "How does fuel reach a retail pump in Pakistan?",
+    "Why does a fall in crude oil not guarantee an equal pump-price cut?",
+    "What components should you look for in a fuel-price document?",
+    "How do you calculate the effect on a household budget?",
+    "Why can supply and price move differently?",
+    "How does petroleum relate to inflation and transport costs?",
+    "How can readers assess a petroleum headline responsibly?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/refining-crude-oil.php",
+      "title": "EIA: refining crude oil"
+    },
+    {
+      "url": "https://www.ogra.org.pk/download/3041",
+      "title": "OGRA: historical petroleum price buildup"
+    },
+    {
+      "url": "https://www.petroleum.gov.pk/LatestNews",
+      "title": "Pakistan Petroleum Division: official news and notices"
+    },
+    {
+      "url": "https://www.pbs.gov.pk/price-statistics/",
+      "title": "Pakistan Bureau of Statistics: price statistics"
+    },
+    {
+      "url": "https://psopk.com/files/financial-reports/annual/2025/PSO-Annual-Report-2025.pdf",
+      "title": "PSO annual report 2025"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistan petroleum refinery storage tanks",
+    "petrol diesel pump Pakistan product labels",
+    "oil terminal tank lorry fuel distribution Pakistan"
+  ],
+  "imageInsertionHeadings": [
+    "How does fuel reach a retail pump in Pakistan?",
+    "Why does a fall in crude oil not guarantee an equal pump-price cut?"
+  ],
+  "factualLimitations": "Structural fuel-market education, not current prices or a confirmed supply-shortage report. Numerical budgets hypothetical; historical OGRA table used only to illustrate component categories.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

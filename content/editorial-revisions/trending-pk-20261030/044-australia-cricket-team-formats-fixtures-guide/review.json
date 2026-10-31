@@ -1,0 +1,106 @@
+{
+  "proseWords": 2038,
+  "seoTerms": [
+    "Australia cricket team",
+    "team category",
+    "format",
+    "fixture",
+    "squad",
+    "playing eleven",
+    "Test cricket",
+    "ODIs",
+    "T20Is",
+    "official match centre",
+    "men's",
+    "women's",
+    "age-group",
+    "senior international",
+    "domestic",
+    "opponent",
+    "competition",
+    "venue",
+    "match date",
+    "development side",
+    "playing conditions",
+    "limited-overs",
+    "declaration",
+    "follow-on",
+    "new-ball",
+    "middle-overs",
+    "scoring opportunity",
+    "wickets remaining",
+    "Test average",
+    "strike rate",
+    "timezone",
+    "daylight-saving",
+    "venue time",
+    "UTC",
+    "Pakistan",
+    "selection notice",
+    "captain",
+    "injury",
+    "retirement",
+    "team balance",
+    "opening batting",
+    "wicketkeeping",
+    "spin",
+    "pace",
+    "all-round",
+    "partnerships",
+    "legal balls",
+    "run rate",
+    "economy rate",
+    "bowling scorecard",
+    "field restrictions",
+    "fielding",
+    "run-out",
+    "rankings",
+    "tournament standings",
+    "net run rate"
+  ],
+  "questions": [
+    "Which Australia team does a fixture actually identify?",
+    "How do Tests, ODIs and T20Is change team strategy?",
+    "How should Pakistan viewers convert Australian match times?",
+    "What is the difference between a squad and the playing eleven?",
+    "How can you analyse an Australian batting innings as a team?",
+    "What does a bowling scorecard reveal about team balance?",
+    "How do rankings differ from tournament standings?",
+    "What should a good Australia match report explain?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/matches",
+      "title": "Cricket Australia: official match centre"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Australia national cricket team fielding match",
+    "Australian cricket ground stadium scoreboard",
+    "cricket team captain field placement"
+  ],
+  "imageInsertionHeadings": [
+    "Which Australia team does a fixture actually identify?",
+    "What does a bowling scorecard reveal about team balance?"
+  ],
+  "factualLimitations": "No live squad, captain, fixture, result or ranking asserted; timezone arithmetic explicitly hypothetical.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

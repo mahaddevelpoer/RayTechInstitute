@@ -1,0 +1,92 @@
+{
+  "proseWords": 2082,
+  "seoTerms": [
+    "Prince Yadav",
+    "player identity",
+    "player profile",
+    "team name",
+    "season",
+    "competition",
+    "scorecard",
+    "squad list",
+    "playing eleven",
+    "domestic cricket",
+    "franchise cricket",
+    "international cricket",
+    "first-class",
+    "List A",
+    "T20",
+    "T20I",
+    "bowling figures",
+    "overs",
+    "maidens",
+    "runs conceded",
+    "wickets",
+    "economy rate",
+    "bowling average",
+    "strike rate",
+    "legal deliveries",
+    "powerplay",
+    "middle overs",
+    "death overs",
+    "new ball",
+    "seam",
+    "swing",
+    "line and length",
+    "short ball",
+    "yorker",
+    "slower ball",
+    "dot balls",
+    "boundary rate",
+    "field restrictions",
+    "run-out",
+    "caught",
+    "bowled",
+    "lbw",
+    "sample size",
+    "opposition",
+    "venue",
+    "selection",
+    "debut",
+    "retained",
+    "auction",
+    "workload",
+    "pace bowling"
+  ],
+  "questions": [
+    "How do you confirm that a Prince Yadav record belongs to the right player?",
+    "Which cricket records can be compared safely?",
+    "How do you read bowling figures without a decimal error?",
+    "What do economy rate, average and strike rate actually measure?",
+    "Why does the phase of an innings change the judgement?",
+    "What should you observe beyond wickets?",
+    "How large a sample do you need before describing improvement?",
+    "How can you write a responsible Prince Yadav performance note?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/rankings/100570/prince-yadav",
+      "title": "ICC: Prince Yadav player profile"
+    },
+    {
+      "url": "https://documents.iplt20.com/bcci/documents/1763209725967_TATA%20IPL%202026%20-%20Playing%20Squad%20-%2015.11.2025%20%281%29.pdf",
+      "title": "IPL: dated 2026 playing-squad document"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: playing conditions and classification documents"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Prince Yadav Lucknow Super Giants bowling action",
+    "cricket fast bowler seam grip close up",
+    "cricket bowling scorecard overs wickets"
+  ],
+  "imageInsertionHeadings": [
+    "How do you read bowling figures without a decimal error?",
+    "What should you observe beyond wickets?"
+  ],
+  "factualLimitations": "Player-identity and statistics lesson. No biography, date of birth, international debut, current contract, injury or latest performance asserted. Some official directory pages blocked direct fetch; indexed official material used narrowly.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

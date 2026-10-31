@@ -1,0 +1,91 @@
+{
+  "proseWords": 2121,
+  "seoTerms": [
+    "AO3",
+    "Archive of Our Own",
+    "tags",
+    "metadata",
+    "catalogue",
+    "fanwork",
+    "fandom",
+    "character",
+    "relationship",
+    "Additional tags",
+    "canonical tag",
+    "synonym",
+    "tag wrangling",
+    "keyword search",
+    "include",
+    "exclude",
+    "filters",
+    "search results",
+    "language",
+    "word count",
+    "completion status",
+    "summary",
+    "rating",
+    "Not Rated",
+    "Archive Warnings",
+    "Creator Chose Not To Use Archive Warnings",
+    "No Archive Warnings Apply",
+    "search query",
+    "sort order",
+    "kudos",
+    "bookmarks",
+    "subscription",
+    "author",
+    "pseudonym",
+    "privacy",
+    "account recovery",
+    "password",
+    "quotation",
+    "attribution",
+    "permission",
+    "copyright",
+    "digital literacy",
+    "contextual reading",
+    "source text",
+    "classroom",
+    "reading list"
+  ],
+  "questions": [
+    "How are tags different from keywords in a title?",
+    "What should ratings and Archive Warnings tell a reader?",
+    "How do include and exclude filters change a collection?",
+    "Why do word count, completion status and sort order need context?",
+    "How can you practise filtering without opening unsuitable material?",
+    "What does respectful use of authorship and privacy involve?",
+    "Why can remembered wording fail to find a work?",
+    "How should a responsible AO3 guide measure success?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.transformativeworks.org/new-look-ao3-tags/",
+      "title": "Organization for Transformative Works: A New Look at AO3 Tags"
+    },
+    {
+      "url": "https://archive.transformativeworks.org/tos_faq?language_id=en",
+      "title": "AO3: Terms of Service FAQ"
+    },
+    {
+      "url": "https://archive.transformativeworks.org/faq/search-and-browse?language_id=en",
+      "title": "AO3: Search and Browse FAQ"
+    },
+    {
+      "url": "https://archive.transformativeworks.org/faq/tags?language_id=en",
+      "title": "AO3: Tags FAQ"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "library catalogue metadata subject tags screen",
+    "fiction reading notebook tags filters diagram",
+    "digital archive search filter interface illustration"
+  ],
+  "imageInsertionHeadings": [
+    "How are tags different from keywords in a title?",
+    "How can you practise filtering without opening unsuitable material?"
+  ],
+  "factualLimitations": "Metadata literacy, not a curated reading list. Some FAQ fetches blocked; official indexed FAQ and OTW explanations used. No filter guarantees suitability or exhaustive warning coverage; no legal fair-use determination.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

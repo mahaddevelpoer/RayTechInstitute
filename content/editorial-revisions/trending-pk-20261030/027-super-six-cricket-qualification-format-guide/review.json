@@ -1,0 +1,95 @@
+{
+  "proseWords": 2074,
+  "seoTerms": [
+    "Super Six",
+    "cricket",
+    "qualification",
+    "qualifying teams",
+    "competition",
+    "edition",
+    "points carry forward",
+    "first round",
+    "net run rate",
+    "fixtures",
+    "qualification explainer",
+    "regulations",
+    "World Cup Qualifier",
+    "standings",
+    "initial groups",
+    "World Cup places",
+    "tournament bracket",
+    "classification matches",
+    "opponents",
+    "single round robin",
+    "carry-over",
+    "finals berth",
+    "original points",
+    "scorecard",
+    "retained points",
+    "worksheet",
+    "fixture matrix",
+    "cross-group matches",
+    "scheduled matches",
+    "completed matches",
+    "no-result",
+    "maximum possible total",
+    "conditions",
+    "Super Over",
+    "tie-break",
+    "scoring rate",
+    "runs per over",
+    "legal balls",
+    "spreadsheet",
+    "all-out innings",
+    "reduced-over matches",
+    "revised targets",
+    "NRR",
+    "winning margins",
+    "games in hand",
+    "captain",
+    "tournament-design",
+    "match identifier",
+    "head-to-head",
+    "qualifying positions"
+  ],
+  "questions": [
+    "What changes when a tournament reaches the Super Six?",
+    "Which group-stage points are carried forward?",
+    "How many new matches does each team play?",
+    "How do you calculate current points and the maximum possible total?",
+    "What does net run rate actually measure?",
+    "Can a team qualify before its last fixture?",
+    "Why can fewer overall wins produce a better starting position?",
+    "How can students produce a reliable qualification explainer?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/news/fixtures-confirmed-for-super-six-stage-of-icc-mens-cricket-world-cup-qualifier-2023",
+      "title": "ICC: 2023 Super Six fixtures and format"
+    },
+    {
+      "url": "https://www.icc-cricket.com/tournaments/cricketworldcup/news/state-of-play-in-cwc23-qualifier-carry-over-points-critical-as-super-six-spots-confirmed",
+      "title": "ICC: 2023 carry-over points and net run rate"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "six team cricket qualification board",
+    "cricket scorer notebook legal balls",
+    "Zimbabwe qualifier cricket ground"
+  ],
+  "imageInsertionHeadings": [
+    "Which group-stage points are carried forward?",
+    "What does net run rate actually measure?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "Historical 2023 format is labelled; example teams and points are hypothetical."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

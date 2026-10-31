@@ -1,0 +1,114 @@
+{
+  "proseWords": 2027,
+  "seoTerms": [
+    "Maulana Fazlur Rehman",
+    "public record",
+    "identity",
+    "public statement",
+    "institutional action",
+    "parliamentary term",
+    "speech",
+    "meeting",
+    "party position",
+    "enacted measure",
+    "civics",
+    "coalition",
+    "transliterations",
+    "National Assembly",
+    "constituency",
+    "membership",
+    "archive",
+    "government",
+    "state",
+    "event date",
+    "publication date",
+    "timeline",
+    "press conference",
+    "parliamentary vote",
+    "official action",
+    "quotation",
+    "interview",
+    "full recording",
+    "transcript",
+    "Urdu",
+    "English paraphrase",
+    "translation",
+    "conditional language",
+    "party statement",
+    "government action",
+    "policy",
+    "joint statement",
+    "legislative record",
+    "introduced bill",
+    "committee report",
+    "parliamentary passage",
+    "enacted law",
+    "Senate",
+    "presidential assent",
+    "commencement",
+    "implementation",
+    "negotiation",
+    "alliance",
+    "authority",
+    "allegation",
+    "corroboration",
+    "direct record",
+    "legal proceeding",
+    "hearing",
+    "order",
+    "public directory"
+  ],
+  "questions": [
+    "How do you identify the correct public record for Fazlur Rehman?",
+    "Which dates matter in a political report?",
+    "How should you check a quotation from a speech or interview?",
+    "How does a party statement differ from government action?",
+    "When does a legislative proposal become something more than a speech?",
+    "How should meetings, alliances and predictions be reported?",
+    "How can a reader handle disagreement without amplifying allegations?",
+    "What would a useful student political-news worksheet contain?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.na.gov.pk/en/profile.php?uid=1880",
+      "title": "National Assembly: original linked identity record, subject to term verification"
+    },
+    {
+      "url": "https://www.na.gov.pk/en/content.php?id=246",
+      "title": "National Assembly: How the National Assembly Works"
+    },
+    {
+      "url": "https://na.gov.pk/en/downloads.php",
+      "title": "National Assembly: current constitutional and procedural documents"
+    },
+    {
+      "url": "https://senate.gov.pk/en/messence.php?cattitle=Home&id=32",
+      "title": "Senate: legislative procedure"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Maulana Fazlur Rehman public speech licensed photograph",
+    "Pakistan Parliament House Islamabad exterior",
+    "National Assembly Pakistan chamber legislative context"
+  ],
+  "imageInsertionHeadings": [
+    "How do you identify the correct public record for Fazlur Rehman?",
+    "When does a legislative proposal become something more than a speech?"
+  ],
+  "factualLimitations": "No current constituency, office, coalition outcome or allegation asserted; linked profile needs term-specific checking and was intermittently unavailable.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

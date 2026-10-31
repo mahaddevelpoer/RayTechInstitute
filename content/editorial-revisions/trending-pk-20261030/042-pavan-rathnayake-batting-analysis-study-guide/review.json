@@ -1,0 +1,109 @@
+{
+  "proseWords": 2077,
+  "seoTerms": [
+    "Pavan Rathnayake",
+    "batting innings",
+    "Sri Lanka Cricket",
+    "highlights package",
+    "scoring tempo",
+    "strike rotation",
+    "shot selection",
+    "scorecard",
+    "opposition",
+    "competition",
+    "venue",
+    "match date",
+    "upload date",
+    "domestic",
+    "international cricket",
+    "dot balls",
+    "dot-ball percentage",
+    "team score",
+    "wickets lost",
+    "target",
+    "bowling conditions",
+    "new ball",
+    "required run rate",
+    "legal balls",
+    "scoring pace",
+    "strike rate",
+    "balls faced",
+    "Boundaries",
+    "Extras",
+    "partnership runs",
+    "bowling change",
+    "scoring areas",
+    "Running between wickets",
+    "fielder",
+    "line and length",
+    "decision quality",
+    "execution",
+    "pull shot",
+    "short bowling",
+    "field placement",
+    "lofted stroke",
+    "Against spin",
+    "footwork",
+    "Against pace",
+    "wagon wheel",
+    "bowling attack",
+    "mode of dismissal",
+    "leg-before",
+    "not out",
+    "partner",
+    "match identity",
+    "observation sheet",
+    "observation categories",
+    "technical",
+    "scoring rate"
+  ],
+  "questions": [
+    "How do you identify the Pavan Rathnayake innings in a clip?",
+    "What should you record when the batter arrives?",
+    "How do strike rate and scoring tempo differ?",
+    "What can strike rotation reveal that boundaries cannot?",
+    "How should shot selection be judged without hindsight?",
+    "How can a bowling change alter the batting problem?",
+    "What makes a dismissal analysis fair and useful?",
+    "How can students write a credible Rathnayake batting report?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=Bi-EStp8avU",
+      "title": "Sri Lanka Cricket: authorised Rathnayake batting footage"
+    },
+    {
+      "url": "https://srilankacricket.lk/",
+      "title": "Sri Lanka Cricket official records and announcements"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pavan Rathnayake Sri Lanka batting official",
+    "cricket batter off side field placement",
+    "cricket scorebook batting analysis"
+  ],
+  "imageInsertionHeadings": [
+    "What can strike rotation reveal that boundaries cannot?",
+    "How can a bowling change alter the batting problem?"
+  ],
+  "factualLimitations": "No new score, selection or career record claimed; numerical innings examples are explicitly hypothetical.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

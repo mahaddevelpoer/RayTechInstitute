@@ -1,0 +1,92 @@
+{
+  "proseWords": 2145,
+  "seoTerms": [
+    "Carlos Alcaraz",
+    "tennis tactics",
+    "court position",
+    "baseline",
+    "forehand",
+    "backhand",
+    "drop shot",
+    "topspin",
+    "slice",
+    "lob",
+    "volley",
+    "serve",
+    "return",
+    "first serve",
+    "second serve",
+    "rally",
+    "crosscourt",
+    "down the line",
+    "depth",
+    "angle",
+    "contact point",
+    "recovery",
+    "split step",
+    "balance",
+    "opponent",
+    "passing shot",
+    "approach shot",
+    "service box",
+    "break point",
+    "tie-break",
+    "scoreboard",
+    "surface",
+    "clay",
+    "grass",
+    "hard court",
+    "bounce",
+    "wind",
+    "winner",
+    "unforced error",
+    "forced error",
+    "sample",
+    "shot selection",
+    "decision quality",
+    "rally pattern",
+    "net clearance",
+    "match analysis",
+    "scoring basics"
+  ],
+  "questions": [
+    "Why does court position matter more than raw shot speed?",
+    "How can a forehand create an opening without ending the point?",
+    "When is a drop shot a sensible attacking choice?",
+    "How do serve and return shape the rally before it develops?",
+    "What changes when Alcaraz has to defend?",
+    "How should surface and conditions enter the analysis?",
+    "Which match statistics help without replacing the video?",
+    "How can you write a clear Alcaraz match-study paragraph?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.atptour.com/en/news/forehand-drop-shot-success-alcaraz",
+      "title": "ATP: Alcaraz and the forehand drop shot"
+    },
+    {
+      "url": "https://www.rolandgarros.com/en-us/article/rg2023-alcaraz-jabeur-drop-shots-what-makes-them-unique/",
+      "title": "Roland-Garros: What makes Alcaraz and Jabeur's drop shots distinctive?"
+    },
+    {
+      "url": "https://www.rfet.es/es/jugador/carlos-alcaraz",
+      "title": "Spanish Tennis Federation: Carlos Alcaraz profile"
+    },
+    {
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+      "title": "ITF: Rules and regulations"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Carlos Alcaraz forehand drop shot tennis",
+    "tennis baseline court position overhead diagram",
+    "Carlos Alcaraz return of serve match"
+  ],
+  "imageInsertionHeadings": [
+    "Why does court position matter more than raw shot speed?",
+    "When is a drop shot a sensible attacking choice?"
+  ],
+  "factualLimitations": "Tactical observation framework, not a live match report or individualized coaching prescription. No current ranking, title count, schedule or injury claim. Numerical rallies are hypothetical.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

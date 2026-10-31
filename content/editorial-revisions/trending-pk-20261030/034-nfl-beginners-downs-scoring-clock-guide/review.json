@@ -1,0 +1,99 @@
+{
+  "proseWords": 2060,
+  "seoTerms": [
+    "NFL",
+    "American football",
+    "possession",
+    "down and distance",
+    "field position",
+    "clock",
+    "offence",
+    "defence",
+    "end zone",
+    "drive",
+    "formations",
+    "first-and-ten",
+    "first down",
+    "ten yards",
+    "four downs",
+    "penalties",
+    "25-yard line",
+    "line to gain",
+    "first-and-goal",
+    "punt",
+    "fourth down",
+    "turnover on downs",
+    "interception",
+    "lost fumble",
+    "touchdown",
+    "field goal",
+    "try",
+    "two-point conversion",
+    "safety",
+    "extra point",
+    "game clock",
+    "play clock",
+    "snap",
+    "regulation",
+    "quarters",
+    "incomplete pass",
+    "out-of-bounds",
+    "quarterback",
+    "offensive line",
+    "eligible",
+    "line of scrimmage",
+    "ball carrier",
+    "receiver",
+    "running back",
+    "wide receiver",
+    "tight end",
+    "coverage",
+    "replay",
+    "referee",
+    "timeouts",
+    "third downs",
+    "red-zone",
+    "overtime",
+    "running lane"
+  ],
+  "questions": [
+    "What does first-and-ten mean?",
+    "Why do teams punt instead of using every fourth down?",
+    "How do touchdowns, field goals and tries change the score?",
+    "Why are the game clock and play clock different?",
+    "How should a beginner recognise the main player roles?",
+    "What do penalties and replay reviews mean for the result of a play?",
+    "How does the score change a team's clock strategy?",
+    "How can you follow your first full drive without getting overwhelmed?"
+  ],
+  "sources": [
+    {
+      "url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+      "title": "NFL Football Operations: 2026 Rulebook"
+    },
+    {
+      "url": "https://operations.nfl.com/rules-officiating/nfl-football-basics/football-terms",
+      "title": "NFL Football Operations: Football Terms"
+    },
+    {
+      "url": "https://operations.nfl.com/rules-officiating/nfl-football-basics/formations",
+      "title": "NFL Football Operations: Formations"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "American football first down sideline chains",
+    "NFL football field goal posts field markings",
+    "American football quarterback snap practice"
+  ],
+  "imageInsertionHeadings": [
+    "What does first-and-ten mean?",
+    "Why are the game clock and play clock different?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "NFL-specific beginner rules; unusual cases and overtime are referred to the current official rulebook. Worked drives are invented."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

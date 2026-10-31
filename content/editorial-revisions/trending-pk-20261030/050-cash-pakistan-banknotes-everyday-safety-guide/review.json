@@ -1,0 +1,109 @@
+{
+  "proseWords": 2037,
+  "seoTerms": [
+    "Cash",
+    "notes",
+    "coins",
+    "physical cash",
+    "income",
+    "profit",
+    "account balances",
+    "financial-literacy",
+    "State Bank of Pakistan",
+    "currency-awareness",
+    "banknote",
+    "withdrawal",
+    "earnings",
+    "transfer",
+    "loan received",
+    "repayment",
+    "borrowing",
+    "obligation",
+    "banknote series",
+    "denomination",
+    "security-feature",
+    "Rupay ko Pehchano",
+    "authentication",
+    "latent",
+    "counterfeit",
+    "damaged note",
+    "ATM withdrawal",
+    "transaction reference",
+    "complaint reference",
+    "reimbursement",
+    "currency-management",
+    "cashbook",
+    "opening balance",
+    "receipts",
+    "payments",
+    "closing cash",
+    "transport",
+    "spending",
+    "balance",
+    "digital transactions",
+    "mobile wallet",
+    "Pending",
+    "failed",
+    "completed transaction",
+    "double counting",
+    "one-time password",
+    "account credential",
+    "payment provider",
+    "cash plan",
+    "purchasing power",
+    "inflation",
+    "denominations",
+    "change",
+    "payment records",
+    "cash-management"
+  ],
+  "questions": [
+    "How is cash different from income, savings and profit?",
+    "How can you identify Pakistani banknotes more confidently?",
+    "What should you do if a note looks suspicious or damaged?",
+    "How can a simple cashbook make everyday spending clearer?",
+    "How should cash and digital payment records be reconciled?",
+    "How can a household plan cash without losing sight of obligations?",
+    "What practical habits improve everyday cash safety?",
+    "How can students test their understanding with a one-week exercise?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbp.org.pk/our-operations/rupay-ko-pehchano",
+      "title": "State Bank: Rupay ko Pehchano public currency awareness"
+    },
+    {
+      "url": "https://www.sbp.org.pk/rupay-ko-pehchano/security-features/security-features-of-100-rupees",
+      "title": "State Bank: documented security features of the Rs 100 note"
+    },
+    {
+      "url": "https://archive.sbp.org.pk/finance/currency-faq.asp",
+      "title": "State Bank: currency-management explanations and distinctions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistani rupee banknotes genuine currency close up",
+    "cashbook receipt notes budgeting desk",
+    "Pakistan banknote security watermark educational"
+  ],
+  "imageInsertionHeadings": [
+    "How can you identify Pakistani banknotes more confidently?",
+    "How can a simple cashbook make everyday spending clearer?"
+  ],
+  "factualLimitations": "No withdrawal deadline, new currency announcement, compensation guarantee or individual financial recommendation; numerical budget examples hypothetical.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

@@ -1,0 +1,133 @@
+South Africa's Aiden Markram can be studied through international and club match evidence. His cricket can be studied through three connected but distinct responsibilities: batting, occasional off-spin and leadership when he is the designated captain. The ICC identifies him as a right-handed batter with off-spin bowling. To analyse a particular match, first establish which responsibilities actually applied on the day.
+
+The central challenge in captaincy analysis is separating the quality of a choice from the result that followed. A sensible bowling change can concede a boundary, while an ill-fitting plan can produce a wicket through a fortunate mistake. Evaluation needs the information and alternatives available before the ball was delivered.
+
+This article develops a decision log for watching Markram, alongside a framework for his innings. The numerical situations are teaching examples. They help explain trade-offs without inventing a current captaincy designation, a new result or a claim about what a player privately intended.
+
+## What must be established before calling a decision captaincy?
+
+Check the team sheet, match format, captaincy designation and the action visible in the footage. A player can contribute suggestions without being the designated captain, and a camera shot of conversation does not prove who originated a plan. Distinguish the recorded role from your interpretation of influence.
+
+A previous leadership appointment does not automatically carry into every franchise, international side or format. Markram's role should be established for the match being discussed. A historical achievement is evidence about its own period, not a permanent current title.
+
+Then identify the decision you want to examine. “The team used a different bowler in the next over” is observable. “The captain lost confidence in the previous bowler” assigns a motive that may not have been stated. The first can support analysis without the second.
+
+Communication is often only partly visible. A captain, keeper and bowler may discuss a field setting, but a television broadcast rarely records every word. Describe the visible adjustment and present its possible purpose as an interpretation unless an interview establishes more.
+
+The scorecard supplies outcomes and allocations, while video helps reconstruct sequence. Neither alone provides complete access to planning. Use both where available and mark gaps in the record.
+
+This foundation prevents an entire team performance from being attributed to one person by default. Captaincy matters, but execution, opposition choices and collaboration also shape the match. A precise review identifies the decision being assessed before distributing credit or blame.
+
+## How should Markram's batting role be evaluated separately?
+
+Start with position, entry score, remaining time and the team's immediate requirement. An opening role, middle order rebuild and late acceleration create different opportunities. Evaluate batting choices against that task before connecting the innings to leadership or judging it by a single scoring benchmark.
+
+For an invented example, entering at 20 for two early in a chase differs from entering with eight wickets in hand and only a few overs remaining. Both situations may reward boundaries, but the cost of dismissal and value of a partnership are different.
+
+Watch how Markram responds to line and length. A drive against a full ball, defence to a threatening delivery and strike rotation against a protected field answer different questions. The useful description identifies why a choice fitted the delivery.
+
+Dot balls need sequence. Two dots while assessing movement are not automatically equivalent to two dots when the required rate has become extreme. Connect the scoring pattern to the available options rather than treating inactivity as a character flaw.
+
+A left-handed partner can create a different field and bowling rhythm from a right-handed partner. Record the actual combination and its visible consequences. Do not assume that changing handedness automatically disrupts every bowler.
+
+Use [batting starts](/blogs/ryan-rickelton-batting-keeping-analysis-guide/) as a separate comparison exercise before analysing the middle of the innings. This makes it easier to see whether later acceleration grew from a stable platform or whether the batter needed to adapt after early difficulties. The evidence then explains development instead of reducing the innings to its final total.
+
+## How can a bowling change be evaluated without hindsight?
+
+Reconstruct the available bowlers, remaining over allocation, field restrictions and batting situation before the change. Identify at least one realistic alternative, then explain what the chosen option could reasonably achieve. Only after that should you inspect the over's outcome and distinguish the plan from its execution.
+
+Suppose a hypothetical T20 chase needs forty from twenty-four balls. One specialist has two overs available and another has one. Using a part-time option now changes which overs can be covered later. The decision is therefore a sequence problem, not merely a judgement about the next six balls.
+
+The strongest bowler might be saved for the death overs, but preserving that option has an immediate cost if the current partnership accelerates. Conversely, using the strongest bowler now may remove a wicket threat at the end. There is no automatic answer without the actual resources.
+
+A matchup can be relevant, such as spin against a particular batter or angle, but it requires evidence and context. A small history of dismissals does not establish a guaranteed outcome. Consider sample size, format and the deliveries involved.
+
+Write the expected purpose in plain language: restrict a scoring area, seek a wicket or change pace. Then compare the actual delivery sequence with that purpose. A bowler missing the intended length is different from a plan being unsuitable despite accurate execution.
+
+Finally, revisit the alternative. Would it have solved the problem or merely moved it to a later over? This question prevents hindsight from presenting an imaginary cost-free option that did not actually exist.
+
+## What does a field setting reveal, and what does it leave uncertain?
+
+A field setting shows how positions are distributed and which areas appear protected or exposed. It can suggest a bowling plan, but it does not prove the exact instruction. Analyse the field together with the delivery and match equation rather than reading intention from a single fielder's location.
+
+A slip may indicate an attempt to catch an edge, but its presence alone cannot establish every aspect of the planned line. A boundary fielder at long-on can protect a scoring route while leaving space elsewhere. Those trade-offs become meaningful only when the ball is delivered.
+
+Cover, long-off and the leg-side positions create different geometry. Label them relative to the batter's handedness. A change of striker can alter the arrangement, so a frozen field diagram should name who is facing.
+
+Watch whether the bowling supports the field. A plan to protect one side can be undermined by deliveries offering easy scoring on the other. This helps separate tactical design from execution without claiming to know a private conversation.
+
+The broadcast may not show all eleven players. Do not invent a complete field from a close-up. Mark unseen positions as unknown and use a wider view if one appears later.
+
+For a diagram, sketch the wicket, striker and visible fielders, then draw the actual scoring direction. Explain what opportunity the batter used. A useful field analysis describes a relationship between placement and delivery rather than simply calling the arrangement attacking or defensive.
+
+## How should Markram's off-spin be included in an all-round review?
+
+Treat bowling as a distinct contribution with its own role, opportunity and sample. Markram's off-spin profile establishes an available skill, but the particular match determines whether and when it was used. Examine the deliveries and context before drawing conclusions from economy rate or a wicket total alone.
+
+A right-arm off-spin option may be used to change pace, exploit a possible matchup or manage the allocation of specialist overs. These are plausible analytical categories. They become claims about a specific decision only when match evidence or a direct statement supports them.
+
+Observe length, trajectory and the batter's response. A sweep, forward defence or attempt to hit down the ground can reveal different ways the batter is managing the ball. Avoid calling every delivery that produces a dot an excellent ball without considering the available scoring choice.
+
+Economy rate is runs conceded per over under the relevant statistical convention. A short spell can be heavily affected by one boundary. Comparing two overs with a much larger sample without qualification exaggerates how stable the difference is.
+
+Wickets also need context. A catch on the boundary may follow a good tactical challenge, a mishit or both. Explain the delivery and field rather than treating the dismissal as automatic proof that the bowler dominated the batter.
+
+An [all-round contribution](/blogs/roston-chase-all-round-cricket-record-guide/) is best reported as several components. Batting, bowling, fielding and leadership may interact, but no single total can represent them all without a defined method. Separate paragraphs preserve the evidence and make comparisons more fair.
+
+## How do pressure situations alter the leadership problem?
+
+Pressure changes the value of time, wickets and available options, but it does not eliminate the need to compare alternatives. A captain in a run chase or defending a total must work with the actual equation. The [finishing equation](/blogs/dasun-shanaka-finishing-innings-analysis-guide/) can clarify the problem without dictating one universally correct move.
+
+Imagine defending twelve from the final over. A single, boundary or extra changes the requirement and possibly the striker. The captain's field and bowler must respond to the current situation rather than the equation at the start of the over.
+
+Wickets in hand influence the batting side's risk tolerance. A side with several batters available may attack differently from a last-wicket pair. Yet a leader should still consider who is facing and which delivery options are realistic, not merely count the remaining wickets.
+
+A captain also balances wicket-taking and run prevention. The two goals can align, but not always. Bringing a fielder in may create catching pressure while exposing a scoring area. Sending that fielder back may reduce a boundary risk while allowing an easier single.
+
+Do not diagnose panic from one expressive gesture or a loud conversation. Pressure is a match condition; a claim about a player's mental state requires stronger evidence. Focus on the observable adjustment and its consequences.
+
+A balanced paragraph describes the trade-off explicitly. It should leave readers understanding why reasonable analysts might disagree about the choice even after the final result is known. That is a stronger account of leadership than praise for winning and blame for losing.
+
+## What should a practical captaincy decision log contain?
+
+Keep a before-and-after record with the situation, resources, alternatives, selected action and result. Add a final column separating observation from interpretation. This makes the review reproducible and reduces the temptation to rewrite your expectations after a fortunate wicket or an expensive over.
+
+Use a compact structure:
+
+| Log item | Question |
+|---|---|
+| Situation | What were score, overs and target? |
+| Resources | Which bowlers and field options remained? |
+| Alternatives | What else was realistically possible? |
+| Action | What actually changed? |
+| Execution | Did the deliveries support the visible plan? |
+| Outcome | What happened to runs, wickets and the equation? |
+| Interpretation | Which conclusions are supported or uncertain? |
+
+Complete the first four entries before watching the result where possible. This is especially useful with recorded footage because you can pause at the decision point. If you already know the result, write down that limitation instead of claiming the exercise is completely blind.
+
+For a larger sample, decide how to choose cases. You might examine every bowling change in one innings rather than only the changes that produced wickets. A consistent selection rule reduces the distortion of a highlight collection.
+
+Do not make the log unnecessarily elaborate. One well-documented decision can teach more than a spreadsheet full of inferred motives. Start with the smallest record that preserves the reasoning.
+
+Compare [spin and captaincy](/blogs/mitchell-santner-spin-captaincy-analysis-guide/) in another player's match using the same categories. The value of the comparison lies in similar questions, not in forcing a ranking between players facing different opponents and resources.
+
+## What does a fair conclusion about Markram's leadership look like?
+
+A fair conclusion names the role, explains a documented decision and considers its alternatives without allowing the outcome to settle every judgement. It should distinguish Markram's own batting and bowling from team execution, and state the sample clearly enough that the reader knows how far the conclusion can extend.
+
+Instead of “the bowling change was genius,” explain which resource it used and which problem it addressed. Instead of “the captain cost the game,” identify the decision, its realistic alternatives and the evidence that the chosen option was less suitable.
+
+Acknowledging uncertainty does not mean avoiding judgement. You can conclude that a plan was defensible, poorly supported or difficult to assess. The important point is that the conclusion follows from the information available rather than a familiar reputation.
+
+Do not turn one match into a permanent personality assessment. Leadership develops within squads, coaching arrangements and changing opposition. A short sample can reveal an approach worth studying without proving an unchanging trait.
+
+Finish by identifying the next evidence needed. That might be a direct interview about the plan, a full view of the field or a series of comparable overs. This keeps the analysis open to correction.
+
+Markram's multiple skills make him a useful subject for this method. The broader lesson is to separate responsibility, choice and result: establish what the player was authorised to do, examine the options present at the time and judge what happened with evidence proportionate to the claim.
+
+## Sources
+
+[Source 1](https://cricket.co.za/player/aiden-markram/)
+[Source 2](https://www.icc-cricket.com/rankings/64219/aiden-markram)
+[Source 3](https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions)

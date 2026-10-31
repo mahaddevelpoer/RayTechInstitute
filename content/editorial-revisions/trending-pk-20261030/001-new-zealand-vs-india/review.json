@@ -1,0 +1,100 @@
+{
+  "proseWords": 2061,
+  "seoTerms": [
+    "New Zealand vs India",
+    "T20I",
+    "Eden Park",
+    "Auckland",
+    "Pakistan Standard Time",
+    "scheduled start",
+    "fourth T20I",
+    "IND vs NZ",
+    "NZ vs IND",
+    "live score",
+    "match result",
+    "scorecard",
+    "innings",
+    "wickets",
+    "overs",
+    "batting order",
+    "balls faced",
+    "runs scored",
+    "strike rate",
+    "bowling figures",
+    "economy rate",
+    "powerplay",
+    "death overs",
+    "legal balls",
+    "extras",
+    "wides",
+    "no-balls",
+    "byes",
+    "leg-byes",
+    "target",
+    "required run rate",
+    "balls remaining",
+    "wickets in hand",
+    "current run rate",
+    "boundaries",
+    "dot balls",
+    "partnership",
+    "toss",
+    "playing XI",
+    "squad",
+    "pitch report",
+    "weather forecast",
+    "series schedule",
+    "head-to-head",
+    "highlights",
+    "live streaming",
+    "winning margin",
+    "run chase",
+    "fielding restrictions",
+    "fall of wickets",
+    "DLS",
+    "Super Over"
+  ],
+  "questions": [
+    "Which fixture and Pakistan time should you check?",
+    "What does a T20I score actually tell you?",
+    "How do overs, balls and extras change the calculation?",
+    "How should you interpret batting strike rate?",
+    "How can bowling figures hide or reveal pressure?",
+    "How do you calculate a chase without guessing the winner?",
+    "What changes after rain, a tie or a delayed restart?",
+    "What should you compare after the result?"
+  ],
+  "sources": [
+    {
+      "url": "https://edenpark.co.nz/events/blackcaps-v-india-friday-30-october-2026/",
+      "title": "Eden Park: BLACKCAPS v India T20"
+    },
+    {
+      "url": "https://www.icc-cricket.com/matches/271649/new-zealand-vs-india",
+      "title": "ICC: New Zealand v India fourth T20I fixture"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC playing conditions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Eden Park Auckland cricket ground exterior",
+    "cricket scoreboard runs wickets overs closeup",
+    "cricket batter bowler field placement diagram"
+  ],
+  "imageInsertionHeadings": [
+    "How do overs, balls and extras change the calculation?",
+    "What should you compare after the result?"
+  ],
+  "factualLimitations": [
+    "Fixture start verified; no live result or confirmed XI asserted."
+  ],
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose; no search-volume claims.",
+  "internalLinks": [
+    "/blogs/ireland-namibia-odi-scorecard-reading-guide/",
+    "/blogs/sahibzada-farhan-icc-t20i-rankings-explained/",
+    "/blogs/nayeem-hasan-spin-bowling-performance-guide/"
+  ]
+}

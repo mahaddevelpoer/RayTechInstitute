@@ -1,0 +1,110 @@
+{
+  "proseWords": 2024,
+  "seoTerms": [
+    "Pakistan",
+    "petrol price",
+    "official notice",
+    "effective date",
+    "motor spirit",
+    "high-speed diesel",
+    "petroleum products",
+    "price notification",
+    "household budget",
+    "current rate",
+    "Petroleum Division",
+    "issuing authority",
+    "publication date",
+    "effective period",
+    "product label",
+    "unit price",
+    "rupees per litre",
+    "full tank",
+    "grade",
+    "ex-depot",
+    "pump receipt",
+    "litre-based",
+    "announcement date",
+    "changeover",
+    "notified rate",
+    "international crude",
+    "retail petrol price",
+    "energy supply chain",
+    "refined petrol",
+    "exchange rates",
+    "taxes",
+    "levies",
+    "freight",
+    "margins",
+    "price change",
+    "litres",
+    "fuel spending",
+    "Percentage change",
+    "denominator",
+    "fuel consumption",
+    "commuting",
+    "round trip",
+    "kilometres per litre",
+    "traffic",
+    "travel log",
+    "quantity",
+    "transaction time",
+    "complaint reference",
+    "payment-status",
+    "inflation",
+    "purchasing-power",
+    "budgeting",
+    "forecast",
+    "notification frequency",
+    "receipts",
+    "currency quotation"
+  ],
+  "questions": [
+    "Where should you begin when checking Pakistan's petrol price?",
+    "Which product and unit does the notice describe?",
+    "How do announcement date and effective date differ?",
+    "Why does international oil news not translate directly into a pump rate?",
+    "How can you calculate the effect of a price change?",
+    "How should commuting options be compared fairly?",
+    "What evidence helps when a pump receipt seems wrong?",
+    "How can a student publish a complete, accurate price explanation?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petroleum.gov.pk/LatestNews",
+      "title": "Petroleum Division: notices and announcements"
+    },
+    {
+      "url": "https://price.ogra.org.pk/?section=oil-notified",
+      "title": "OGRA: notified petroleum-price portal"
+    },
+    {
+      "url": "https://www.finance.gov.pk/press_releases.html",
+      "title": "Finance Division: official press releases"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistan petrol station pump fuel dispenser",
+    "petrol pump display litre unit price",
+    "fuel receipt budgeting notebook Pakistan"
+  ],
+  "imageInsertionHeadings": [
+    "Which product and unit does the notice describe?",
+    "How can you calculate the effect of a price change?"
+  ],
+  "factualLimitations": "No live petrol rate or fixed revision schedule asserted; all numerical prices and commuting calculations labelled hypothetical.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "proseWords": 2076,
+  "seoTerms": [
+    "Kusal Mendis",
+    "wicketkeeper-batter",
+    "keeping wicket",
+    "match record",
+    "team sheet",
+    "scorecard",
+    "batting position",
+    "designated wicketkeeper",
+    "format",
+    "competition",
+    "venue",
+    "team category",
+    "fielding",
+    "batting task",
+    "team score",
+    "wickets lost",
+    "remaining overs",
+    "target",
+    "top-order",
+    "middle-order",
+    "limited-overs",
+    "Test",
+    "partnership",
+    "strike rates",
+    "runs",
+    "balls faced",
+    "strike rotation",
+    "dot balls",
+    "bowling",
+    "footwork",
+    "collection",
+    "starting position",
+    "balance",
+    "hands",
+    "Standing back",
+    "standing up",
+    "pace bowling",
+    "bounce",
+    "stumps",
+    "legal positioning",
+    "catches",
+    "stumpings",
+    "run-outs",
+    "dismissal",
+    "no-ball",
+    "reaction time",
+    "slow motion",
+    "byes",
+    "Communication",
+    "workload",
+    "captaincy",
+    "injury update",
+    "leadership",
+    "event log",
+    "playing conditions",
+    "MCC"
+  ],
+  "questions": [
+    "How do you establish Kusal Mendis's role in a match?",
+    "What does batting position change about the job?",
+    "How should batting output be connected to team progress?",
+    "What should viewers watch in wicketkeeping footwork and collection?",
+    "How do catches, stumpings and run-outs differ in analysis?",
+    "Can keeping statistics capture everything that matters?",
+    "How should workload and leadership be discussed responsibly?",
+    "How can students write a balanced wicketkeeper-batter report?"
+  ],
+  "sources": [
+    {
+      "url": "https://srilankacricket.lk/",
+      "title": "Sri Lanka Cricket: official team and role announcements"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    },
+    {
+      "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+      "title": "MCC: 2026 Laws, wicketkeeper and stumping provisions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Kusal Mendis wicketkeeper Sri Lanka gloves",
+    "cricket wicketkeeper standing up stumps collection",
+    "wicketkeeper batter scorebook match analysis"
+  ],
+  "imageInsertionHeadings": [
+    "What should viewers watch in wicketkeeping footwork and collection?",
+    "How do catches, stumpings and run-outs differ in analysis?"
+  ],
+  "factualLimitations": "Match-specific educational analysis; no live score, ranking, selection, injury or leadership title claimed.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

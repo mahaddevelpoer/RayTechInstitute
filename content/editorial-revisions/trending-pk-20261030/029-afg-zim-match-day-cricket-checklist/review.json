@@ -1,0 +1,103 @@
+{
+  "proseWords": 2052,
+  "seoTerms": [
+    "AFG vs ZIM",
+    "Afghanistan",
+    "Zimbabwe",
+    "match-day cricket checklist",
+    "fixture",
+    "competition",
+    "format",
+    "venue",
+    "runs",
+    "wickets",
+    "overs",
+    "chase",
+    "target",
+    "balls remaining",
+    "scorecard",
+    "live score",
+    "T20I",
+    "ODI",
+    "Test",
+    "neutral venue",
+    "Pakistan",
+    "time zone",
+    "toss",
+    "captain",
+    "team sheet",
+    "playing eleven",
+    "squad announcement",
+    "predicted line-ups",
+    "wicketkeeper",
+    "batting order",
+    "bowling options",
+    "pitch condition",
+    "new-ball control",
+    "strike rotation",
+    "dot balls",
+    "legal deliveries",
+    "wides",
+    "no-balls",
+    "current run rate",
+    "required run rate",
+    "set batter",
+    "lower order",
+    "run-out",
+    "partnerships",
+    "strike rate",
+    "economy rate",
+    "dismissal",
+    "Duckworth-Lewis-Stern",
+    "DLS",
+    "par score",
+    "revised target",
+    "player-of-the-match",
+    "franchise T20",
+    "boundary frequency"
+  ],
+  "questions": [
+    "How do you identify the correct AFG vs ZIM fixture?",
+    "What should you check when the toss and teams are announced?",
+    "How do runs, wickets and overs explain the innings?",
+    "How can you judge whether a chase is on track?",
+    "Which scorecard details reveal more than boundaries?",
+    "What changes when rain or an interruption affects play?",
+    "How do you distinguish a final result from an incomplete update?",
+    "What should a clear post-match summary contain?"
+  ],
+  "sources": [
+    {
+      "url": "https://acb.af/en-us/matches",
+      "title": "Afghanistan Cricket Board: matches and fixture identities"
+    },
+    {
+      "url": "https://www.zimcricket.org/",
+      "title": "Zimbabwe Cricket official site; page returned no readable text"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: playing conditions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Afghanistan Zimbabwe cricket toss captains",
+    "cricket scorecard runs overs wickets closeup",
+    "cricket umpire rain ground covers"
+  ],
+  "imageInsertionHeadings": [
+    "How do runs, wickets and overs explain the innings?",
+    "How can you judge whether a chase is on track?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "No live fixture result, current selection or start time is asserted. Zimbabwe Cricket returned no readable text; match rules use MCC and ICC sources."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

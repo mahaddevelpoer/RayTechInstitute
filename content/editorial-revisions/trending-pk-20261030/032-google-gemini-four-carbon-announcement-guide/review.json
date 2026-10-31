@@ -1,0 +1,112 @@
+{
+  "proseWords": 2042,
+  "seoTerms": [
+    "Gemini 4 Carbon",
+    "Google",
+    "frontier model",
+    "controlled rollout",
+    "capability claim",
+    "API endpoint",
+    "availability",
+    "correctness",
+    "model identifier",
+    "cyber defenders",
+    "trusted partners",
+    "coding",
+    "cybersecurity",
+    "long-horizon tasks",
+    "documentation",
+    "model catalogue",
+    "Gemini 4 Argon",
+    "API identifier",
+    "model version",
+    "input types",
+    "consumer interface",
+    "fallback",
+    "benchmark",
+    "evaluation",
+    "scoring",
+    "resource budget",
+    "prompt",
+    "failure criteria",
+    "model quality",
+    "completeness",
+    "reading-comprehension",
+    "mathematical task",
+    "Structured outputs",
+    "JSON Schema",
+    "parse",
+    "validate",
+    "answer index",
+    "schema keyword",
+    "truncated",
+    "rate limits",
+    "context window",
+    "output limits",
+    "requests per minute",
+    "tokens per minute",
+    "API keys",
+    "concurrency",
+    "retries",
+    "input tokens",
+    "output tokens",
+    "data-use terms",
+    "credentials",
+    "student information",
+    "synthetic examples",
+    "latency",
+    "review rubric"
+  ],
+  "questions": [
+    "What did the Gemini 4 Carbon announcement actually establish?",
+    "How can you distinguish a model name from an API identifier?",
+    "What does a benchmark result tell you about a real task?",
+    "How should students test correctness and completeness?",
+    "Why do structured outputs still need validation?",
+    "How do rate limits, context windows and output limits differ?",
+    "What should an application check about cost, privacy and credentials?",
+    "When is it reasonable to adopt a newly announced model?"
+  ],
+  "sources": [
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "title": "Google: Gemini 4 Carbon announcement, 28 October 2026"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "title": "Google: Gemini API model catalogue checked 30 October 2026"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/structured-output",
+      "title": "Google: Structured outputs"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "title": "Google: Rate limits"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/api-key",
+      "title": "Google: API keys"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/terms",
+      "title": "Google: Gemini API additional terms"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "developer evaluating AI responses notebook",
+    "JSON structured quiz code editor",
+    "student computer lab model evaluation"
+  ],
+  "imageInsertionHeadings": [
+    "How can you distinguish a model name from an API identifier?",
+    "Why do structured outputs still need validation?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "Access observations are dated 30 October 2026. Carbon rollout and capability statements are attributed to Google; no guessed endpoint, current price or independently measured score is asserted."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

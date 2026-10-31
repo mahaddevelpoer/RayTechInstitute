@@ -1,0 +1,98 @@
+{
+  "proseWords": 2048,
+  "seoTerms": [
+    "Karan Johar",
+    "director",
+    "producer",
+    "Dharma Productions",
+    "Dharmatic Entertainment",
+    "Kuch Kuch Hota Hai",
+    "Yash Johar",
+    "film credits",
+    "screenplay",
+    "cast",
+    "crew",
+    "distribution",
+    "executive producer",
+    "presentation credit",
+    "cinematography",
+    "editing",
+    "sound design",
+    "dialogue",
+    "music",
+    "framing",
+    "close-up",
+    "wide shot",
+    "reaction shot",
+    "camera movement",
+    "lighting",
+    "costume",
+    "props",
+    "setting",
+    "blocking",
+    "mise-en-scene",
+    "narrative",
+    "character",
+    "conflict",
+    "scene analysis",
+    "subtext",
+    "continuity",
+    "performance",
+    "film language",
+    "production design",
+    "trailer",
+    "release date",
+    "box-office",
+    "revenue",
+    "profit",
+    "critical response",
+    "audience",
+    "interpretation",
+    "shot list",
+    "storytelling"
+  ],
+  "questions": [
+    "What is the practical difference between directing and producing?",
+    "How should Dharma and Dharmatic company descriptions be used?",
+    "How can you analyse a scene without retelling its plot?",
+    "What should you notice about framing, setting and performance?",
+    "How do music, dialogue and editing guide interpretation?",
+    "How can you distinguish criticism, audience response and commercial results?",
+    "How should trailers and upcoming-project claims be interpreted?",
+    "What does a strong short film-study assignment look like?"
+  ],
+  "sources": [
+    {
+      "url": "https://dharma-production.com/overview",
+      "title": "Dharma Productions: Overview"
+    },
+    {
+      "url": "https://www.dharmaticent.com/",
+      "title": "Dharmatic Entertainment: Company description and team"
+    },
+    {
+      "url": "https://www.yashrajfilms.com/movies/kuch-kuch-hota-hai",
+      "title": "Yash Raj Films: Kuch Kuch Hota Hai credits"
+    },
+    {
+      "url": "https://www.york.ac.uk/english/about/writing-at-york/writing-resources/ways-of-reading-film/",
+      "title": "University of York: Ways of Reading a Film"
+    },
+    {
+      "url": "https://filmeducation.org.uk/resources/secondary/teaching_with_film/film_in_the_classroom/terminology/",
+      "title": "Film Education: Film terminology"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Karan Johar film director official event portrait",
+    "film scene shot list storyboard notebook",
+    "cinema editing sound camera production set"
+  ],
+  "imageInsertionHeadings": [
+    "What is the practical difference between directing and producing?",
+    "How can you analyse a scene without retelling its plot?"
+  ],
+  "factualLimitations": "Verified historical credits used; no current ownership valuation, box-office total, unannounced cast, release forecast or personal-biography speculation. Invented scenes labelled as exercises.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

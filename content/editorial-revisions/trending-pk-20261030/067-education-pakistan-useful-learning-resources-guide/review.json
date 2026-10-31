@@ -1,0 +1,91 @@
+{
+  "proseWords": 2153,
+  "seoTerms": [
+    "education in Pakistan",
+    "learning resources",
+    "curriculum",
+    "syllabus",
+    "board exams",
+    "FBISE",
+    "assessment framework",
+    "model paper",
+    "past papers",
+    "MCQs",
+    "worked example",
+    "independent practice",
+    "retrieval practice",
+    "spaced practice",
+    "revision timetable",
+    "study plan",
+    "learning outcome",
+    "textbook",
+    "chapter",
+    "class notes",
+    "answer key",
+    "marking scheme",
+    "short answer",
+    "long answer",
+    "conceptual understanding",
+    "feedback",
+    "error log",
+    "calculation",
+    "units",
+    "formula",
+    "reading comprehension",
+    "vocabulary",
+    "Urdu",
+    "English",
+    "programming",
+    "input",
+    "output",
+    "debugging",
+    "offline study",
+    "mobile data",
+    "accessibility",
+    "screen reader",
+    "study group",
+    "teacher",
+    "self-assessment",
+    "exam preparation",
+    "time management",
+    "source checking",
+    "practice questions",
+    "learning goals"
+  ],
+  "questions": [
+    "How do you match a resource to your actual course?",
+    "What makes an explanation better than a page of answers?",
+    "How can a worked example become independent practice?",
+    "When should you use notes, past papers and MCQs?",
+    "How do you turn wrong answers into a useful study plan?",
+    "What does a realistic weekly revision timetable look like?",
+    "How can learners study with limited data, mixed languages or shared devices?",
+    "How do you judge progress and avoid unreliable educational claims?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.unicef.org/pakistan/education",
+      "title": "UNICEF Pakistan: Education"
+    },
+    {
+      "url": "https://www.fbise.edu.pk/curriculum_model_paper.php",
+      "title": "FBISE assessment frameworks and model papers"
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "title": "IES: Organizing Instruction and Study to Improve Student Learning"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistani secondary students studying mathematics classroom",
+    "worked example algebra student notebook",
+    "offline study plan textbook exercise Pakistan"
+  ],
+  "imageInsertionHeadings": [
+    "How do you match a resource to your actual course?",
+    "How can a worked example become independent practice?"
+  ],
+  "factualLimitations": "Study method recommendations and hypothetical exercises; no universal board paper pattern, admission rule, exam date or promised score improvement.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

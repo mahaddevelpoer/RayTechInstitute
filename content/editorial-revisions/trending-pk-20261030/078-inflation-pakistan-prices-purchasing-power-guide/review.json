@@ -1,0 +1,90 @@
+{
+  "proseWords": 2142,
+  "seoTerms": [
+    "inflation",
+    "Pakistan",
+    "purchasing power",
+    "price level",
+    "disinflation",
+    "deflation",
+    "CPI",
+    "Consumer Price Index",
+    "SPI",
+    "Sensitive Price Indicator",
+    "WPI",
+    "Wholesale Price Index",
+    "basket",
+    "weights",
+    "base year",
+    "index number",
+    "month-on-month",
+    "year-on-year",
+    "annual average",
+    "percentage point",
+    "percentage change",
+    "food prices",
+    "rent",
+    "transport",
+    "electricity",
+    "household budget",
+    "nominal income",
+    "real income",
+    "salary",
+    "fixed income",
+    "urban",
+    "rural",
+    "national",
+    "retail",
+    "wholesale",
+    "unit price",
+    "quantity",
+    "quality",
+    "base effect",
+    "seasonal",
+    "methodology",
+    "observation period",
+    "release date",
+    "forecast",
+    "exchange-rate movement",
+    "supply",
+    "demand",
+    "cash records",
+    "economic indicators"
+  ],
+  "questions": [
+    "Why can inflation fall while shopping remains expensive?",
+    "What do CPI, SPI and WPI actually measure?",
+    "Why does your household experience differ from the headline?",
+    "How do basket weights and index numbers work?",
+    "What is the difference between monthly, annual and average inflation?",
+    "How does inflation affect salary and purchasing power?",
+    "How can you compare shopping costs without misleading yourself?",
+    "How should you read an official inflation release or headline?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pbs.gov.pk/price-statistics/",
+      "title": "Pakistan Bureau of Statistics: Price statistics"
+    },
+    {
+      "url": "https://www.pbs.gov.pk/docs/price-faqs/",
+      "title": "Pakistan Bureau of Statistics: Price FAQs"
+    },
+    {
+      "url": "https://www.pbs.gov.pk/sites/default/files/price_statistics/methodology_of_price_statistics_base_year_2015-16.pdf",
+      "title": "PBS: Methodology of Price Statistics, base year 2015-16"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistan grocery prices household shopping basket",
+    "consumer price index inflation chart educational",
+    "Pakistan market vegetables price comparison"
+  ],
+  "imageInsertionHeadings": [
+    "Why can inflation fall while shopping remains expensive?",
+    "Why does your household experience differ from the headline?"
+  ],
+  "factualLimitations": "All basket, salary and index numbers are hypothetical examples. No live inflation figure, policy forecast, investment recommendation or claim that illustrative weights match PBS weights.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

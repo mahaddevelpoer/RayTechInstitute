@@ -1,0 +1,96 @@
+{
+  "proseWords": 2073,
+  "seoTerms": [
+    "Ireland",
+    "Namibia",
+    "ODI scorecard",
+    "Windhoek",
+    "fixture date",
+    "match number",
+    "innings total",
+    "wickets",
+    "overs",
+    "legal balls",
+    "balls remaining",
+    "target",
+    "run chase",
+    "required run rate",
+    "current run rate",
+    "runs",
+    "balls faced",
+    "fours",
+    "sixes",
+    "strike rate",
+    "extras",
+    "byes",
+    "leg byes",
+    "wides",
+    "no-balls",
+    "penalty runs",
+    "fall of wickets",
+    "partnership",
+    "not out",
+    "did not bat",
+    "retired hurt",
+    "bowling figures",
+    "maidens",
+    "runs conceded",
+    "economy rate",
+    "run-out",
+    "caught",
+    "bowled",
+    "lbw",
+    "stumped",
+    "DLS",
+    "revised target",
+    "par score",
+    "tie",
+    "no result",
+    "abandoned",
+    "result margin",
+    "series score",
+    "scorebook",
+    "reconciliation",
+    "completed"
+  ],
+  "questions": [
+    "Which part of the scorecard should you read first?",
+    "How do overs become legal balls and rates?",
+    "What do the batting columns tell you?",
+    "How do extras and partnerships fit into the team total?",
+    "How should you interpret bowling figures and dismissals?",
+    "What changes after rain or an interrupted chase?",
+    "How do you read the result margin and series score?",
+    "How can you reconcile the whole scorecard?"
+  ],
+  "sources": [
+    {
+      "url": "https://cricketireland.ie/tour-of-namibia-2026/",
+      "title": "Cricket Ireland: Ireland men tour of Namibia"
+    },
+    {
+      "url": "https://cricketnamibia.com/namibia-continues-to-take-on-the-best-as-ireland-arrives-for-five-match-odi-series/",
+      "title": "Cricket Namibia: October 2026 ODI series announcement"
+    },
+    {
+      "url": "https://images.icc-cricket.com/image/upload/prd/bxkzkcyvfn6tvi70zh0w.pdf",
+      "title": "ICC men's ODI playing conditions, October 2026"
+    },
+    {
+      "url": "https://www.lords.org/getattachment/f955069b-ddb9-4e8e-9615-41c3071a3446/The-Laws-of-Cricket-2026-submitted-17-4-2026.pdf",
+      "title": "MCC: Laws of Cricket 2026"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Ireland Namibia cricket match Windhoek ground",
+    "cricket manual scoreboard innings total wickets overs",
+    "cricket scorebook batting bowling figures"
+  ],
+  "imageInsertionHeadings": [
+    "How do overs become legal balls and rates?",
+    "How can you reconcile the whole scorecard?"
+  ],
+  "factualLimitations": "Scorecard-reading lesson, not a live feed or claimed 30 October result. Actual tour existence verified through both boards; all arithmetic score examples are hypothetical.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

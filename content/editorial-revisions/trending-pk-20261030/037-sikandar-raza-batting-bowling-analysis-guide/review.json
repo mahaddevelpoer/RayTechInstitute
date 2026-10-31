@@ -1,0 +1,105 @@
+{
+  "proseWords": 2039,
+  "seoTerms": [
+    "Sikandar Raza",
+    "Zimbabwe",
+    "all-rounder",
+    "right-handed batting",
+    "off-break bowling",
+    "batting",
+    "bowling",
+    "fielding",
+    "ranking",
+    "strike rate",
+    "economy",
+    "match context",
+    "ODI",
+    "T20I",
+    "domestic T20",
+    "statistical categories",
+    "batting position",
+    "entry score",
+    "bowling allocation",
+    "rebuild",
+    "accelerate",
+    "matchups",
+    "scorecard",
+    "target",
+    "balls faced",
+    "boundaries",
+    "strike rotation",
+    "Singles",
+    "twos",
+    "dot balls",
+    "batting average",
+    "dismissals",
+    "not-out",
+    "sample",
+    "runs conceded",
+    "wickets",
+    "field setting",
+    "Economy rate",
+    "line",
+    "length",
+    "pace",
+    "turn",
+    "release variation",
+    "catch",
+    "run-out",
+    "boundary stop",
+    "misfield",
+    "captaincy",
+    "spin",
+    "alternative bowlers",
+    "teammates",
+    "post-match",
+    "career-best",
+    "overs bowled",
+    "partnership",
+    "multi-skilled cricketers"
+  ],
+  "questions": [
+    "What should you establish before analysing an all-rounder?",
+    "How can you judge whether a batting innings met its task?",
+    "Why can batting average and strike rate point in different directions?",
+    "What makes a bowling spell effective beyond wickets?",
+    "How should fielding be included without inventing hidden value?",
+    "How can you assess leadership without using hindsight?",
+    "What can a dated ranking announcement establish?",
+    "How can you write a balanced overall assessment?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/rankings/25422/sikandar-raza?appview=true",
+      "title": "ICC: Sikandar Raza player profile"
+    },
+    {
+      "url": "https://www.icc-cricket.com/media-releases/sikandar-raza-becomes-no-1-odi-all-rounder-for-the-first-time",
+      "title": "ICC: dated ODI all-rounder ranking milestone, 3 September 2025"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: playing conditions"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Sikandar Raza Zimbabwe batting official match",
+    "Sikandar Raza off spin bowling action",
+    "Zimbabwe cricket fielder catching practice"
+  ],
+  "imageInsertionHeadings": [
+    "How can you judge whether a batting innings met its task?",
+    "What makes a bowling spell effective beyond wickets?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "ICC September 2025 ranking milestone is dated; no current rank asserted. Confusing ancillary career-best wording in that release is not repeated."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

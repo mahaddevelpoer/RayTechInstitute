@@ -1,0 +1,100 @@
+{
+  "proseWords": 2052,
+  "seoTerms": [
+    "Pakistan vs India",
+    "Hong Kong Sixes",
+    "Group C",
+    "Tin Kwong Road",
+    "Kowloon",
+    "Pakistan Standard Time",
+    "scheduled start",
+    "six-a-side",
+    "six overs",
+    "playing conditions",
+    "team sheet",
+    "squad",
+    "captain",
+    "wicketkeeper",
+    "bowling allocation",
+    "retirement",
+    "last batter",
+    "scorecard",
+    "legal balls",
+    "extras",
+    "wides",
+    "no-balls",
+    "boundaries",
+    "dot balls",
+    "strike rotation",
+    "target",
+    "required run rate",
+    "balls remaining",
+    "wickets in hand",
+    "partnership",
+    "group stage",
+    "Cup",
+    "Plate",
+    "Bowl",
+    "qualification",
+    "points table",
+    "net run rate",
+    "tiebreak",
+    "live score",
+    "match result",
+    "toss",
+    "field placement",
+    "boundary protection",
+    "power hitting",
+    "running between wickets",
+    "final score",
+    "highlights",
+    "live streaming",
+    "full innings",
+    "bowling figures",
+    "runs conceded",
+    "tournament schedule"
+  ],
+  "questions": [
+    "Which Pakistan vs India match are you following?",
+    "Why is Sixes tactically different from a T20I?",
+    "What must you confirm about squads and unusual rules?",
+    "How do you read a fast-changing Sixes scorecard?",
+    "How can you calculate the chase in real time?",
+    "What do boundaries, running and fielding contribute?",
+    "How does the group stage lead to Cup, Plate and Bowl matches?",
+    "How should you verify a result and write a useful recap?"
+  ],
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/fixture/",
+      "title": "Hong Kong Sixes official fixtures and finals structure"
+    },
+    {
+      "url": "https://hongkongsixes.live/hong-kong-sixes-turns-it-up-to-six-for-bigger-2026-edition/",
+      "title": "Hong Kong Sixes official 2026 format announcement"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC playing conditions reference"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Hong Kong Sixes Tin Kwong Road cricket ground",
+    "six a side cricket field placement",
+    "Hong Kong Sixes batter wicketkeeper match"
+  ],
+  "imageInsertionHeadings": [
+    "Why is Sixes tactically different from a T20I?",
+    "How does the group stage lead to Cup, Plate and Bowl matches?"
+  ],
+  "factualLimitations": [
+    "No winner, actual lineup or detailed retirement threshold asserted; event-specific conditions control."
+  ],
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose; no search-volume claims.",
+  "internalLinks": [
+    "/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/",
+    "/blogs/super-six-cricket-qualification-format-guide/",
+    "/blogs/dasun-shanaka-finishing-innings-analysis-guide/"
+  ]
+}

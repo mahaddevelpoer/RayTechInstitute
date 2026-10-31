@@ -1,0 +1,113 @@
+{
+  "proseWords": 2064,
+  "seoTerms": [
+    "Binance",
+    "security incident",
+    "account safety",
+    "phishing",
+    "official notice",
+    "timestamp",
+    "service status",
+    "withdrawal",
+    "deposit",
+    "account compromise",
+    "password manager",
+    "unique password",
+    "multi-factor authentication",
+    "passkey",
+    "security key",
+    "authenticator",
+    "recovery codes",
+    "email account",
+    "sign-in history",
+    "active sessions",
+    "device security",
+    "malware",
+    "browser extensions",
+    "API key",
+    "permissions",
+    "withdrawal address whitelist",
+    "anti-phishing code",
+    "support ticket",
+    "transaction hash",
+    "wallet address",
+    "blockchain",
+    "seed phrase",
+    "private key",
+    "recovery scam",
+    "impersonation",
+    "remote access",
+    "screen sharing",
+    "one-time code",
+    "security settings",
+    "incident timeline",
+    "evidence",
+    "unauthorised activity",
+    "custody",
+    "reimbursement",
+    "forensic",
+    "cold wallet",
+    "hot wallet",
+    "network",
+    "account recovery",
+    "credential theft",
+    "token",
+    "privacy",
+    "public Wi-Fi"
+  ],
+  "questions": [
+    "How can you distinguish an incident notice from a rumour?",
+    "What should you check first if an alert worries you?",
+    "Which login protections provide practical value?",
+    "What do withdrawal controls and API permissions change?",
+    "Why does device and email security matter during an incident?",
+    "How can you recognise a recovery scam?",
+    "What evidence helps support investigate suspicious activity?",
+    "How should you assess restoration and longer-term risk?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.binance.com/en/support/faq/detail/115002439332",
+      "title": "Binance: Securing your trading account"
+    },
+    {
+      "url": "https://www.binance.com/en-AU/support/faq/detail/360000106932",
+      "title": "Binance account security tips"
+    },
+    {
+      "url": "https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in?adhoc_referrer=4193000828676",
+      "title": "NCSC passkey guidance"
+    },
+    {
+      "url": "https://consumer.ftc.gov/consumer-alerts/2022/11/worried-about-crypto-exchange-losses-dont-pay-money-help-recovering-money",
+      "title": "FTC guidance on exchange-loss recovery scams"
+    },
+    {
+      "url": "https://www.ic3.gov/CrimeInfo/Cryptocurrency",
+      "title": "IC3 cryptocurrency evidence and scam guidance"
+    },
+    {
+      "url": "https://www.ic3.gov/PSA/2026/PSA260901",
+      "title": "FBI consent phishing advisory"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "hardware security key laptop account protection",
+    "cryptocurrency account security checklist",
+    "phishing email warning computer screen"
+  ],
+  "imageInsertionHeadings": [
+    "What should you check first if an alert worries you?",
+    "How can you recognise a recovery scam?"
+  ],
+  "factualLimitations": [
+    "Draft's purported 30 October incident notice inaccessible; no claimed losses, cause, service suspension or reimbursement commitment retained."
+  ],
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose; no search-volume claims.",
+  "internalLinks": [
+    "/blogs/gta-vi-official-release-information-safety-guide/",
+    "/blogs/poco-x8s-specifications-student-buying-checklist/",
+    "/blogs/google-gemini-four-carbon-announcement-guide/"
+  ]
+}

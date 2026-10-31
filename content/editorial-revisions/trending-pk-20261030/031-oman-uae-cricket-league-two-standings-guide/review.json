@@ -1,0 +1,100 @@
+{
+  "proseWords": 2031,
+  "seoTerms": [
+    "Oman vs UAE",
+    "ICC Cricket World Cup League 2",
+    "ODI",
+    "tri-series",
+    "fixtures",
+    "match result",
+    "overall league table",
+    "Netherlands",
+    "point totals",
+    "competition",
+    "T20I",
+    "country abbreviations",
+    "fixture identifier",
+    "venue",
+    "senior sides",
+    "qualification conditions",
+    "points awards",
+    "eight-team competition",
+    "144-ODI",
+    "World Cup Qualifier",
+    "campaign",
+    "games played",
+    "host country",
+    "completed result",
+    "wins",
+    "losses",
+    "games in hand",
+    "no-results",
+    "match status",
+    "timestamp",
+    "maximum total",
+    "finishing position",
+    "two points",
+    "tie-break",
+    "qualification",
+    "Points per match",
+    "league standings",
+    "net run rate",
+    "scoring-rate",
+    "NRR",
+    "legal balls",
+    "all-out innings",
+    "revised targets",
+    "Qualifier Play-off",
+    "qualifying line",
+    "remaining opportunities",
+    "50-over",
+    "fixture list",
+    "broadcast",
+    "scorecard",
+    "sports numeracy"
+  ],
+  "questions": [
+    "Which Oman vs UAE competition are you actually following?",
+    "How does a tri-series connect with the wider League 2 campaign?",
+    "What do played, won, lost and points mean together?",
+    "Can games in hand be converted into an expected finishing position?",
+    "How should net run rate be used when teams are level?",
+    "Does a League 2 qualifying position mean a World Cup place?",
+    "How can you check a schedule that contains conflicting details?",
+    "What is a useful student standings exercise?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/news/eight-team-cwc-league-2-begins-in-nepal-on-the-road-to-2027",
+      "title": "ICC: February 2024 League 2 launch and pathway"
+    },
+    {
+      "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-league-2",
+      "title": "ICC: League 2 tournament hub"
+    },
+    {
+      "url": "https://emiratescricket.com/news-detail/rgP8V4y1aK6zeQGw5Wvz",
+      "title": "Emirates Cricket: October 2026 tri-series notice; narrative and fixture details conflict"
+    },
+    {
+      "url": "https://images.icc-cricket.com/image/upload/prd/xrchcvsncbgcf1aiylec.pdf",
+      "title": "ICC: League 2 playing conditions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Oman UAE ODI cricket players ground",
+    "ICC Academy Oval Dubai cricket",
+    "cricket league standings scorer worksheet"
+  ],
+  "imageInsertionHeadings": [
+    "How does a tri-series connect with the wider League 2 campaign?",
+    "How should net run rate be used when teams are level?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "Emirates Cricket notice contains conflicting narrative/calendar entries; exact dates are deliberately not adopted. The 2024 pathway description is explicitly dated, not a live qualification claim."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

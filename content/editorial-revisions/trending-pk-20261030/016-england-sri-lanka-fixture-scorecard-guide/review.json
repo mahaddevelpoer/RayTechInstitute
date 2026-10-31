@@ -1,0 +1,92 @@
+{
+  "proseWords": 2077,
+  "seoTerms": [
+    "England vs Sri Lanka",
+    "fixture",
+    "match date",
+    "start time",
+    "venue",
+    "competition",
+    "team category",
+    "men's cricket",
+    "women's cricket",
+    "under-19",
+    "ODI",
+    "T20I",
+    "Test match",
+    "bilateral series",
+    "tournament",
+    "Pakistan time",
+    "time zone",
+    "UTC",
+    "British Summer Time",
+    "GMT",
+    "Sri Lanka time",
+    "scheduled",
+    "live score",
+    "completed",
+    "abandoned",
+    "postponed",
+    "rescheduled",
+    "toss",
+    "playing eleven",
+    "squad",
+    "scorecard",
+    "innings total",
+    "wickets",
+    "overs",
+    "target",
+    "required rate",
+    "balls remaining",
+    "partnership",
+    "extras",
+    "bowling figures",
+    "rain delay",
+    "revised target",
+    "DLS",
+    "series score",
+    "match number",
+    "official result",
+    "match report",
+    "highlights",
+    "broadcast rights",
+    "ticket",
+    "calendar"
+  ],
+  "questions": [
+    "Which England vs Sri Lanka fixture are you looking for?",
+    "How can you tell a current fixture from an old search result?",
+    "How do you convert the start time for Pakistan?",
+    "What is the difference between a squad announcement and a playing eleven?",
+    "How do you interpret the score once the match starts?",
+    "What should you do during a rain delay or revised chase?",
+    "How do the match result and series score differ?",
+    "How can you plan viewing or attendance without relying on rumours?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ecb.co.uk/england/men",
+      "title": "England and Wales Cricket Board: England men"
+    },
+    {
+      "url": "https://srilankacricket.lk/2025/07/sri-lanka-mens-team-to-tour-england-in-september-2026-for-white-ball-series/",
+      "title": "Sri Lanka Cricket: September 2026 England tour announcement"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: playing conditions by format"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "England Sri Lanka cricket stadium scoreboard",
+    "England Sri Lanka cricket toss teams",
+    "cricket fixture calendar Pakistan time"
+  ],
+  "imageInsertionHeadings": [
+    "How do you convert the start time for Pakistan?",
+    "How do you interpret the score once the match starts?"
+  ],
+  "factualLimitations": "Fixture-identification guide, not live coverage. September 2026 tour announcement used as dated context; no new match, playing eleven, outcome or viewing right invented.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

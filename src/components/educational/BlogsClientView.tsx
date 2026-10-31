@@ -1,6 +1,7 @@
 "use client";
 
 import {BLOG_CATEGORIES} from '@/data/blogCategories';
+import { REVIEWED_ARTICLE_COVERS } from '@/data/reviewedArticleMedia';
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { EducationalStore } from "@/data/educationalStore";
@@ -124,7 +125,7 @@ export function BlogsClientView() {
                       ? fallbackImage
                       : sanitizeUrl(post.featuredImage) || fallbackImage
                   }
-                  alt={post.title}
+                  alt={REVIEWED_ARTICLE_COVERS[post.featuredImage]?.alt || post.title}
                   width={800}
                   height={450}
                   className="w-full h-full object-cover"

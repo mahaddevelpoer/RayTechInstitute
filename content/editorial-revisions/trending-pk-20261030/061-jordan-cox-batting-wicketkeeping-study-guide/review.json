@@ -1,0 +1,95 @@
+{
+  "proseWords": 2039,
+  "seoTerms": [
+    "Jordan Cox",
+    "Essex",
+    "wicketkeeper-batter",
+    "right-handed batter",
+    "competition",
+    "batting position",
+    "entry situation",
+    "wicketkeeping",
+    "County cricket",
+    "franchise cricket",
+    "international cricket",
+    "scorecard",
+    "playing XI",
+    "team sheet",
+    "fielding role",
+    "top-order",
+    "middle-order",
+    "rebuild",
+    "accelerate",
+    "entry score",
+    "partnership",
+    "strike rate",
+    "balls faced",
+    "target",
+    "remaining overs",
+    "ball-by-ball record",
+    "strike rotation",
+    "boundary attempts",
+    "singles",
+    "twos",
+    "dot balls",
+    "Boundary percentage",
+    "field placement",
+    "ground dimensions",
+    "Catches",
+    "stumpings",
+    "positioning",
+    "standing back",
+    "standing up",
+    "glove position",
+    "Byes",
+    "First-class",
+    "List A",
+    "T20",
+    "Batting average",
+    "not-out innings",
+    "dismissals",
+    "shot quality",
+    "running communication",
+    "batting task",
+    "complete match record"
+  ],
+  "questions": [
+    "What should you confirm before analysing a Jordan Cox performance?",
+    "How does batting position change the task?",
+    "How should runs, balls faced and strike rate be interpreted?",
+    "What do strike rotation and boundary choices reveal?",
+    "How do you assess wicketkeeping beyond catches and stumpings?",
+    "How do formats and sample size affect comparisons?",
+    "What can a scorecard not tell you about an innings?",
+    "How can you write a balanced Jordan Cox match note?"
+  ],
+  "sources": [
+    {
+      "url": "https://essexcricket.org.uk/players/jordan-cox/",
+      "title": "Essex Jordan Cox player profile"
+    },
+    {
+      "url": "https://www.ecb.co.uk/england/men/players/75250/jordan-cox",
+      "title": "ECB Jordan Cox player profile"
+    },
+    {
+      "url": "https://lawsofcricket.lords.org/",
+      "title": "MCC Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Jordan Cox cricket licensed portrait",
+    "wicketkeeper gloves stumps cricket",
+    "cricket batting strike rotation field"
+  ],
+  "imageInsertionHeadings": [
+    "How should runs, balls faced and strike rate be interpreted?",
+    "What can a scorecard not tell you about an innings?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

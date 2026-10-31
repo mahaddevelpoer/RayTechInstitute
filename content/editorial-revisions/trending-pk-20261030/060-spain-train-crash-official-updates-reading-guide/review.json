@@ -1,0 +1,99 @@
+{
+  "proseWords": 2054,
+  "seoTerms": [
+    "Spain train crash",
+    "official update",
+    "location",
+    "route",
+    "operator",
+    "event date",
+    "railway service",
+    "passenger-information",
+    "Renfe",
+    "operational notices",
+    "investigation language",
+    "Spanish rail accident",
+    "incident identity",
+    "event time",
+    "publication time",
+    "update time",
+    "timezone",
+    "place name",
+    "railway reporting",
+    "Infrastructure",
+    "technical investigators",
+    "booking notice",
+    "technical explanation",
+    "service number",
+    "investigation report",
+    "passenger count",
+    "injury count",
+    "hospital",
+    "preliminary account",
+    "completed investigation",
+    "causal chain",
+    "legal responsibility",
+    "safety recommendations",
+    "civil liability",
+    "accident footage",
+    "original upload",
+    "caption",
+    "railway logo",
+    "publication history",
+    "station signs",
+    "landscape",
+    "booking status",
+    "travel date",
+    "Rebooking",
+    "refund",
+    "assistance",
+    "booking references",
+    "Ticket barcodes",
+    "identity documents",
+    "one-time code",
+    "payment-card"
+  ],
+  "questions": [
+    "How do you identify which Spain train incident a report means?",
+    "Which sources answer passenger questions and which answer investigation questions?",
+    "How should changing casualty figures and passenger counts be handled?",
+    "What is the difference between a preliminary finding and a final cause?",
+    "How can you check whether a photograph or video belongs to the event?",
+    "What should a passenger check before changing travel plans?",
+    "How can travellers avoid scams during railway disruption?",
+    "How can you write a responsible Spain rail update?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.renfe.com/es/en",
+      "title": "Renfe official passenger portal"
+    },
+    {
+      "url": "https://www.renfe.com/content/dam/renfe/en/Grupo-Empresa/informacion-legal/pdf/General%20terms%20and%20conditions%20for%20Transport%20Contracts%20for%20Renfe%20Viajeros%20Sociedad%20Mercantil%20Estatal%20SA.pdf",
+      "title": "Renfe general transport terms"
+    },
+    {
+      "url": "https://portal-cec.consumo.gob.es/sites/default/files/documentos/NI_PASAJEROS%20FERROCARRIL_21_10_2024_EN.pdf",
+      "title": "European Consumer Centre Spain passenger information"
+    },
+    {
+      "url": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing",
+      "title": "FBI spoofing and phishing"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Spanish high speed passenger train station",
+    "Spanish railway station departures board",
+    "railway signalling educational diagram"
+  ],
+  "imageInsertionHeadings": [
+    "How should changing casualty figures and passenger counts be handled?",
+    "How can travellers avoid scams during railway disruption?"
+  ],
+  "factualLimitations": [
+    "Original incident-specific Renfe URL returned 404. Educational verification angle; no incident identity, casualty count or cause asserted."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

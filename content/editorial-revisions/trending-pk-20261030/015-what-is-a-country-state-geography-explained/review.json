@@ -1,0 +1,95 @@
+{
+  "proseWords": 2101,
+  "seoTerms": [
+    "country",
+    "state",
+    "nation",
+    "sovereignty",
+    "political geography",
+    "physical geography",
+    "territory",
+    "recognition",
+    "United Nations",
+    "member states",
+    "observer states",
+    "international borders",
+    "administrative boundaries",
+    "capital city",
+    "government",
+    "population",
+    "citizenship",
+    "nationality",
+    "resident population",
+    "landlocked",
+    "coastline",
+    "continent",
+    "region",
+    "map legend",
+    "map scale",
+    "atlas",
+    "latitude",
+    "longitude",
+    "official name",
+    "common name",
+    "country code",
+    "currency",
+    "exchange rate",
+    "census",
+    "population density",
+    "land area",
+    "territorial dispute",
+    "international organisation",
+    "dependent territory",
+    "federal",
+    "province",
+    "district",
+    "urban",
+    "rural",
+    "language",
+    "culture",
+    "migration",
+    "statistical year",
+    "source date",
+    "country profile"
+  ],
+  "questions": [
+    "What is the difference between a country, a state and a nation?",
+    "Does the United Nations decide which places are countries?",
+    "Why do world maps show different borders or names?",
+    "How do you describe a country's location accurately?",
+    "Are citizenship, nationality and population the same thing?",
+    "What is a territory, and why is it not always listed as a state?",
+    "How can you build a reliable country profile?",
+    "How can students compare countries without creating stereotypes?"
+  ],
+  "sources": [
+    {
+      "url": "https://research.un.org/en/unmembers/intro",
+      "title": "UN Library: introduction to membership"
+    },
+    {
+      "url": "https://www.un.org/en/node/122427",
+      "title": "United Nations: about UN membership"
+    },
+    {
+      "url": "https://www.un.org/uk/node/44724",
+      "title": "United Nations at a glance"
+    },
+    {
+      "url": "https://dataviz.unhcr.org/download/UNHCR_Mapping_Guidelines_2024.pdf",
+      "title": "UNHCR mapping guidelines"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "world political map borders labelled",
+    "globe latitude longitude classroom",
+    "map legend international administrative boundaries"
+  ],
+  "imageInsertionHeadings": [
+    "Why do world maps show different borders or names?",
+    "How can you build a reliable country profile?"
+  ],
+  "factualLimitations": "Introductory geography and source interpretation, not a legal determination of disputed sovereignty. UN count reflects sources consulted.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

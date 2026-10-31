@@ -1,0 +1,96 @@
+{
+  "proseWords": 2100,
+  "seoTerms": [
+    "Mukesh Ambani",
+    "Reliance Industries",
+    "chairman and managing director",
+    "business literacy",
+    "financial statement",
+    "corporate role",
+    "Ownership",
+    "board report",
+    "shareholding disclosure",
+    "board of directors",
+    "subsidiary",
+    "parent company",
+    "Revenue",
+    "operating income",
+    "Profit",
+    "Cash flow",
+    "operating profit",
+    "income statement",
+    "balance sheet",
+    "cash flow statement",
+    "EBITDA",
+    "net profit",
+    "adjusted measures",
+    "Market capitalisation",
+    "share price",
+    "shares outstanding",
+    "Personal net worth",
+    "salary",
+    "ownership stake",
+    "unlisted assets",
+    "Consolidated accounts",
+    "Standalone accounts",
+    "accounting rules",
+    "consolidation boundary",
+    "reporting period",
+    "Acquisitions",
+    "disposals",
+    "financial year",
+    "currency",
+    "Segment reporting",
+    "segment revenue",
+    "capital employed",
+    "operating margins",
+    "inter-segment transactions",
+    "corporate governance",
+    "board composition",
+    "related party transactions",
+    "auditor's report",
+    "independent directors",
+    "audit opinion",
+    "capital expenditure",
+    "operating cash generation"
+  ],
+  "questions": [
+    "Why is Mukesh Ambani's corporate role different from ownership?",
+    "Why are revenue, profit and cash flow different?",
+    "How does market capitalisation differ from personal net worth?",
+    "What should readers learn from consolidated and standalone accounts?",
+    "How can a diversified group's business segments be compared?",
+    "What does corporate governance evidence actually show?",
+    "How can students identify unsupported business headlines?",
+    "How can you build a useful one-page Reliance reading note?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ril.com/ar2025-26/index.html",
+      "title": "Reliance Integrated Annual Report 2025–26"
+    },
+    {
+      "url": "https://www.ril.com/ar2024-25/index.html",
+      "title": "Reliance Integrated Annual Report 2024–25"
+    },
+    {
+      "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "title": "Reliance consolidated financial statements 2024–25"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Reliance corporate office building",
+    "financial statements annual report reading",
+    "Jamnagar refinery licensed photograph"
+  ],
+  "imageInsertionHeadings": [
+    "How does market capitalisation differ from personal net worth?",
+    "How can students identify unsupported business headlines?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

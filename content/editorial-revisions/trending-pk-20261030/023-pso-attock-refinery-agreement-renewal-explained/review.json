@@ -1,0 +1,100 @@
+{
+  "proseWords": 2091,
+  "seoTerms": [
+    "PSO",
+    "Attock Refinery",
+    "ARL",
+    "sale-purchase agreement",
+    "renewal",
+    "board approval",
+    "effective period",
+    "signing date",
+    "addendum",
+    "procurement",
+    "refinery",
+    "oil marketing",
+    "supply commitment",
+    "delivery schedule",
+    "product quality",
+    "specification",
+    "quantity measurement",
+    "temperature",
+    "volume",
+    "mass",
+    "density",
+    "custody transfer",
+    "calibration",
+    "meter",
+    "sampling",
+    "laboratory",
+    "inspection",
+    "invoice",
+    "payment terms",
+    "credit period",
+    "working capital",
+    "inventory",
+    "receivables",
+    "cash flow",
+    "revenue",
+    "profit",
+    "margin",
+    "throughput",
+    "capacity",
+    "utilisation",
+    "risk",
+    "disclosure",
+    "PSX",
+    "ATRL",
+    "legal entity",
+    "share price",
+    "retail price",
+    "petrol",
+    "diesel",
+    "contract",
+    "reconciliation"
+  ],
+  "questions": [
+    "Who are PSO and Attock Refinery in this transaction?",
+    "Does board approval mean the agreement has already been signed?",
+    "What does a supply commitment establish?",
+    "Why do temperature and quantity measurement matter?",
+    "How do product quality and sampling provisions help?",
+    "How should readers assess financial significance?",
+    "Does a refinery supply agreement change retail prices or share prices?",
+    "What is a practical checklist for reading the PSO–ARL story?"
+  ],
+  "sources": [
+    {
+      "url": "https://dps.psx.com.pk/company/PSO",
+      "title": "Pakistan Stock Exchange: PSO company profile and announcements"
+    },
+    {
+      "url": "https://dps.psx.com.pk/company/ATRL",
+      "title": "Pakistan Stock Exchange: Attock Refinery profile and announcements"
+    },
+    {
+      "url": "https://dps.psx.com.pk/download/document/283523.pdf",
+      "title": "Attock Refinery annual report 2026"
+    },
+    {
+      "url": "https://www.oiml.org/en/files/pdf_r/r117-1-e19.pdf",
+      "title": "OIML R117-1: liquid measuring systems requirements"
+    },
+    {
+      "url": "https://www.brecorder.com/news/40446430/pso-board-approves-renewal-of-spa-with-arl-for-5-years",
+      "title": "Reported PSO board approval of ARL agreement renewal, 29 October 2026"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Attock Refinery Rawalpindi petroleum tanks",
+    "petroleum custody transfer meter inspection",
+    "PSO oil terminal Pakistan tank lorry"
+  ],
+  "imageInsertionHeadings": [
+    "Why do temperature and quantity measurement matter?",
+    "How should readers assess financial significance?"
+  ],
+  "factualLimitations": "29 October 2026 renewal report explicitly attributed to secondary reporting. Signed agreement not verified; no exact volumes, binding quality limits, final execution status or profit/price prediction asserted. Technical measurement discussion is general, not a statement of actual contract clauses.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

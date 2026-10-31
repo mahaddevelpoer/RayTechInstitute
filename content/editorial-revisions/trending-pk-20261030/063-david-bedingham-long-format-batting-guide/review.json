@@ -1,0 +1,91 @@
+{
+  "proseWords": 2060,
+  "seoTerms": [
+    "David Bedingham",
+    "Cricket South Africa",
+    "right-handed",
+    "middle-order batter",
+    "county cricket",
+    "long-format batting",
+    "survival",
+    "scoring",
+    "partnership",
+    "entry situation",
+    "complete match record",
+    "multiple sessions",
+    "First-class",
+    "Test cricket",
+    "match position",
+    "entry score",
+    "innings number",
+    "opposition total",
+    "leaving",
+    "defending",
+    "dot ball",
+    "line",
+    "length",
+    "movement",
+    "scoring opportunities",
+    "outside edge",
+    "batting method",
+    "scoring areas",
+    "strike rotation",
+    "wagon wheel",
+    "boundary compilation",
+    "field changes",
+    "pace",
+    "spin",
+    "trajectories",
+    "bowling change",
+    "session break",
+    "strike rate",
+    "new partnership",
+    "match objectives",
+    "wickets remaining",
+    "declaration",
+    "chase",
+    "strike management",
+    "batting average",
+    "dismissals",
+    "not-outs",
+    "county season",
+    "balls faced",
+    "time at the crease",
+    "statistical summary"
+  ],
+  "questions": [
+    "What makes long-format batting different from a short innings?",
+    "Why does the entry score matter so much?",
+    "How can leaving and defending be active scoring decisions?",
+    "How do scoring areas and strike rotation reveal adaptation?",
+    "How should an innings be divided into phases?",
+    "How do partnerships and match objectives change the innings?",
+    "How should averages, not-outs and domestic records be compared?",
+    "How can students write a balanced David Bedingham innings analysis?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cricket.co.za/player/david-bedingham/",
+      "title": "Cricket South Africa David Bedingham profile"
+    },
+    {
+      "url": "https://lawsofcricket.lords.org/",
+      "title": "MCC Laws of Cricket"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "David Bedingham batting Durham licensed",
+    "red ball cricket defensive batting",
+    "cricket Test match scoreboard session"
+  ],
+  "imageInsertionHeadings": [
+    "How can leaving and defending be active scoring decisions?",
+    "How should averages, not-outs and domestic records be compared?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

@@ -1,0 +1,105 @@
+{
+  "proseWords": 2087,
+  "seoTerms": [
+    "India",
+    "South Asian country",
+    "India country profile",
+    "geography",
+    "Pakistan",
+    "physical geography",
+    "population",
+    "source reading",
+    "Arabian Sea",
+    "Bay of Bengal",
+    "Indian Ocean",
+    "map scale",
+    "political map",
+    "physical map",
+    "elevation",
+    "landforms",
+    "latitude",
+    "coastal city",
+    "international boundaries",
+    "administrative boundaries",
+    "New Delhi",
+    "capital city",
+    "metropolitan area",
+    "municipal limits",
+    "urban agglomeration",
+    "Himalayas",
+    "northern plains",
+    "Thar Desert",
+    "Peninsular Plateau",
+    "Western Ghats",
+    "Eastern Ghats",
+    "Ganga",
+    "Brahmaputra",
+    "Indus",
+    "river basin",
+    "floodplain",
+    "monsoon",
+    "rainfall map",
+    "climate patterns",
+    "farming",
+    "official language",
+    "mother tongue",
+    "Hindi",
+    "Devanagari",
+    "English",
+    "census",
+    "population density",
+    "urbanisation",
+    "GDP growth",
+    "GDP per capita",
+    "nominal GDP",
+    "purchasing power parity",
+    "national accounts",
+    "literacy rate",
+    "settlement",
+    "transport"
+  ],
+  "questions": [
+    "Where is India, and how should you read its map?",
+    "How do mountains, plains and plateaus shape the country?",
+    "Why does the monsoon matter beyond a weather forecast?",
+    "How can you describe India's languages and culture accurately?",
+    "What do population statistics actually tell students?",
+    "How should economic information appear in a country profile?",
+    "How can you judge whether a source supports a claim?",
+    "What should a strong one-page India assignment include?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.india.gov.in/explore-india/facts-of-india/physical-background/physical-features",
+      "title": "National Portal of India: Physical Features"
+    },
+    {
+      "url": "https://rajbhasha.gov.in/en/bharat-samhita-code-of-india-",
+      "title": "Government of India: official language provisions"
+    },
+    {
+      "url": "https://www.india.gov.in/",
+      "title": "National Portal of India"
+    },
+    {
+      "url": "https://www.un.org/en/about-us/member-states",
+      "title": "United Nations: Member States"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "India physical geography Himalayas northern plains",
+    "India Western Ghats landscape",
+    "India multilingual railway station sign"
+  ],
+  "imageInsertionHeadings": [
+    "How do mountains, plains and plateaus shape the country?",
+    "Why does the monsoon matter beyond a weather forecast?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "No current population, economic rankings or disputed-boundary resolution is asserted."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

@@ -1,0 +1,101 @@
+{
+  "proseWords": 2190,
+  "seoTerms": [
+    "Zimbabwe",
+    "southern Africa",
+    "landlocked",
+    "Harare",
+    "Bulawayo",
+    "Zambia",
+    "Mozambique",
+    "Botswana",
+    "South Africa",
+    "Zambezi",
+    "Limpopo",
+    "plateau",
+    "Eastern Highlands",
+    "river basin",
+    "drainage",
+    "elevation",
+    "relief map",
+    "political map",
+    "map legend",
+    "scale",
+    "border",
+    "transport corridor",
+    "regional trade",
+    "Great Zimbabwe",
+    "Great Enclosure",
+    "Hill Ruins",
+    "Valley Ruins",
+    "dry stone",
+    "archaeology",
+    "heritage",
+    "Shona",
+    "census",
+    "population",
+    "urban",
+    "rural",
+    "household",
+    "geographic unit",
+    "ZIMSTAT",
+    "country profile",
+    "Zimbabwe Cricket",
+    "scorecard",
+    "fixture",
+    "T20",
+    "ODI",
+    "Test",
+    "squad",
+    "venue",
+    "sample",
+    "source date",
+    "national team",
+    "classification",
+    "school project"
+  ],
+  "questions": [
+    "Where is Zimbabwe and what does landlocked mean?",
+    "How do rivers and high ground organise the physical map?",
+    "Why are Harare, Bulawayo and administrative areas different kinds of labels?",
+    "What can Great Zimbabwe teach about historical evidence?",
+    "How should population and economic facts be recorded?",
+    "How does Zimbabwe Cricket fit into a country profile?",
+    "What comparison makes a research project easier to understand?",
+    "How can you check the finished profile for stereotypes and errors?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sadc.int/member-states/zimbabwe",
+      "title": "SADC: Zimbabwe member-state profile"
+    },
+    {
+      "url": "https://www.zimfa.gov.zw/index.php/about-us/zimbabwe-in-brief/the-land",
+      "title": "Zimbabwe Ministry of Foreign Affairs: The Land"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/364/",
+      "title": "UNESCO: Great Zimbabwe National Monument"
+    },
+    {
+      "url": "https://www.zimstat.co.zw/wp-content/uploads/2022/07/Census2022_Preliminary_Report.pdf",
+      "title": "ZIMSTAT: 2022 Census preliminary report"
+    },
+    {
+      "url": "https://www.zimcricket.org/",
+      "title": "Zimbabwe Cricket official website"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Zimbabwe map Zambezi Limpopo neighbouring countries",
+    "Great Zimbabwe stone walls Great Enclosure",
+    "Harare city Zimbabwe skyline"
+  ],
+  "imageInsertionHeadings": [
+    "Where is Zimbabwe and what does landlocked mean?",
+    "What can Great Zimbabwe teach about historical evidence?"
+  ],
+  "factualLimitations": "Country research and cricket context only; no current population estimate, currency rule, travel eligibility or sporting result is asserted.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

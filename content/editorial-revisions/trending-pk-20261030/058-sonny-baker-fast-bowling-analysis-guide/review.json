@@ -1,0 +1,98 @@
+{
+  "proseWords": 2050,
+  "seoTerms": [
+    "Sonny Baker",
+    "right-arm fast bowler",
+    "bowling analysis",
+    "Pace",
+    "line",
+    "length",
+    "movement",
+    "field placement",
+    "scorecard",
+    "speed reading",
+    "average pace",
+    "kilometres per hour",
+    "miles per hour",
+    "Maximum speed",
+    "mean speed",
+    "variation",
+    "off stump",
+    "batter's response",
+    "Swing",
+    "seam movement",
+    "bounce",
+    "release",
+    "pitching",
+    "lateral movement",
+    "Extra bounce",
+    "ball's age",
+    "bowling angle",
+    "over the wicket",
+    "round the wicket",
+    "catching position",
+    "boundary rider",
+    "Bowling figures",
+    "economy rate",
+    "legal balls",
+    "legal deliveries",
+    "Wides",
+    "no-balls",
+    "Byes",
+    "leg byes",
+    "Bowling average",
+    "bowling strike rate",
+    "new-ball spell",
+    "middle-overs spell",
+    "closing spell",
+    "dot balls",
+    "first-class cricket",
+    "credited wickets",
+    "complete scorecard",
+    "six-ball",
+    "limited-overs game"
+  ],
+  "questions": [
+    "What can one speed reading tell you about Sonny Baker?",
+    "How should line and length be recorded?",
+    "What is the difference between swing, seam and bounce?",
+    "How do field placement and bowling angle reveal a plan?",
+    "How do you read overs, economy rate and wickets correctly?",
+    "Why does match phase change the judgement of a spell?",
+    "What can highlights and player profiles leave out?",
+    "How can you create a six-ball bowling analysis notebook?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.utilitabowl.com/cricket/squad/hampshire-men/sonny-baker/",
+      "title": "Hampshire Sonny Baker squad profile"
+    },
+    {
+      "url": "https://www.ecb.co.uk/england/men/players/75536/sonny-baker",
+      "title": "ECB Sonny Baker player profile"
+    },
+    {
+      "url": "https://lawsofcricket.lords.org/",
+      "title": "MCC Laws of Cricket"
+    },
+    {
+      "url": "https://www.lords.org/mcc/the-laws/law-appendices",
+      "title": "MCC Laws appendices"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Sonny Baker Hampshire bowling portrait",
+    "fast bowler seam grip cricket",
+    "cricket field slip catching positions"
+  ],
+  "imageInsertionHeadings": [
+    "What is the difference between swing, seam and bounce?",
+    "What can highlights and player profiles leave out?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

@@ -1,0 +1,110 @@
+{
+  "internalLinks": [
+    "/blogs/google-gemini-four-carbon-announcement-guide/",
+    "/blogs/what-is-a-country-state-geography-explained/",
+    "/blogs/emma-corrin-screen-performance-study-guide/"
+  ],
+  "proseWords": 2049,
+  "seoTerms": [
+    "2026 ED138",
+    "dwarf planet candidate",
+    "Rubin Observatory",
+    "Solar System",
+    "trans-Neptunian object",
+    "Neptune",
+    "Pluto",
+    "Minor Planet Center",
+    "provisional designation",
+    "orbit",
+    "astrometry",
+    "photometry",
+    "albedo",
+    "reflectivity",
+    "diameter",
+    "absolute magnitude",
+    "infrared",
+    "thermal",
+    "brightness",
+    "telescope",
+    "observations",
+    "uncertainty",
+    "hydrostatic equilibrium",
+    "self-gravity",
+    "satellite",
+    "orbital neighbourhood",
+    "Kuiper Belt",
+    "Ceres",
+    "Eris",
+    "Haumea",
+    "Makemake",
+    "stellar occultation",
+    "light curve",
+    "rotation",
+    "spectroscopy",
+    "preprint",
+    "peer review",
+    "discovery announcement",
+    "archival",
+    "follow-up",
+    "astronomical unit",
+    "inclination",
+    "eccentricity",
+    "semimajor axis",
+    "resonance",
+    "surface composition",
+    "artist's impression",
+    "classification",
+    "measurement",
+    "evidence"
+  ],
+  "questions": [
+    "What exactly has been announced about 2026 ED138?",
+    "What separates a dwarf planet from a planet or moon?",
+    "Why can brightness imply a range of possible sizes?",
+    "How do repeated positions establish an orbit?",
+    "Which follow-up observations would answer different questions?",
+    "Does being beyond Neptune explain how the object formed?",
+    "How can you compare two discovery reports fairly?",
+    "What can students do with the ED138 discovery now?"
+  ],
+  "sources": [
+    {
+      "url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate",
+      "title": "Rubin Observatory: First dwarf planet candidate announcement, 27 October 2026"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.38693",
+      "title": "Holman and colleagues: 2026 ED138 in early Rubin data, preprint"
+    },
+    {
+      "url": "https://www.iau.org/IAU/Iau/News/PR2006/iau-2006-general-assembly-resolution-votes.aspx",
+      "title": "IAU 2006 planet and dwarf planet definitions"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/glossary/albedo.html",
+      "title": "JPL: Albedo"
+    },
+    {
+      "url": "https://data.minorplanetcenter.net/",
+      "title": "Minor Planet Center object data service"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/exoplanets/an-eclipse-by-any-other-name-doing-science-with-transits-and-occultations/",
+      "title": "NASA: Occultation science"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Vera Rubin Observatory telescope Cerro Pachon",
+    "Kuiper Belt dwarf planet orbit diagram",
+    "stellar occultation distant object measurement diagram"
+  ],
+  "imageInsertionHeadings": [
+    "Why can brightness imply a range of possible sizes?",
+    "Which follow-up observations would answer different questions?"
+  ],
+  "factualLimitations": [
+    "Candidate supported by dated observatory announcement and research preprint; final dwarf-planet classification and exact diameter not established. No unverified physical features asserted."
+  ],
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose; no search-volume claims."
+}

@@ -1,0 +1,91 @@
+{
+  "proseWords": 2101,
+  "seoTerms": [
+    "Sri",
+    "Shri",
+    "Sree",
+    "honorific",
+    "respectful title",
+    "personal name",
+    "given name",
+    "family name",
+    "surname",
+    "place name",
+    "Sri Lanka",
+    "country name",
+    "South Asia",
+    "language",
+    "context",
+    "dictionary",
+    "pronunciation",
+    "transliteration",
+    "translation",
+    "Roman letters",
+    "script",
+    "Devanagari",
+    "diacritic",
+    "spelling variant",
+    "capitalisation",
+    "acronym",
+    "abbreviation",
+    "SRI",
+    "System of Rice Intensification",
+    "rice",
+    "seedlings",
+    "agriculture",
+    "document",
+    "glossary",
+    "first mention",
+    "catalogue",
+    "metadata",
+    "indexing",
+    "search query",
+    "search result",
+    "quoted phrase",
+    "source date",
+    "attribution",
+    "preferred form",
+    "form field",
+    "identity",
+    "address",
+    "salutation",
+    "vocabulary",
+    "reading comprehension"
+  ],
+  "questions": [
+    "When is Sri a respectful title rather than part of a name?",
+    "How is Sri in Sri Lanka different from a title before a person?",
+    "What is the difference between transliteration and translation?",
+    "How do you decode uppercase SRI in a technical document?",
+    "How should a student search for an ambiguous short expression?",
+    "What mistakes arise in forms, catalogues and name indexing?",
+    "How can a classroom activity teach the distinctions clearly?",
+    "What should a final explanation of Sri include?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sri",
+      "title": "Oxford Advanced Learner's Dictionary: Sri"
+    },
+    {
+      "url": "https://sri.ciifad.cornell.edu/aboutsri/methods/index.html",
+      "title": "Cornell: System of Rice Intensification methodologies"
+    },
+    {
+      "url": "https://srilanka.travel/research_tourism/research_tourism/srilanka-at-a-glance",
+      "title": "Sri Lanka Tourism: Official country name and geography"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Sri Devanagari calligraphy manuscript",
+    "South Asian manuscript honorific Sri text",
+    "System of Rice Intensification rice seedlings square planting"
+  ],
+  "imageInsertionHeadings": [
+    "When is Sri a respectful title rather than part of a name?",
+    "How do you decode uppercase SRI in a technical document?"
+  ],
+  "factualLimitations": "Contextual vocabulary guide; no universal naming rule across communities, precise pronunciation for every language, speculative etymology or investment advice. SRI farming expansion documented by Cornell.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

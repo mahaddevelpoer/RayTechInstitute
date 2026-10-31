@@ -1,0 +1,105 @@
+{
+  "proseWords": 2084,
+  "seoTerms": [
+    "dam",
+    "reservoir",
+    "Hydropower",
+    "irrigation",
+    "water supply",
+    "flood management",
+    "Tarbela",
+    "Indus River",
+    "Khyber Pakhtunkhwa",
+    "sedimentation",
+    "barrage",
+    "powerhouse",
+    "catchment",
+    "spillway",
+    "turbine",
+    "diversion scheme",
+    "water movement",
+    "Gross storage",
+    "live storage",
+    "Water level",
+    "Dead storage",
+    "operating limits",
+    "elevation-storage relationship",
+    "design capacity",
+    "surveyed capacity",
+    "water availability",
+    "structural safety",
+    "sediment",
+    "storage geometry",
+    "inflow",
+    "releases",
+    "operating rules",
+    "head",
+    "flow",
+    "generator",
+    "run-of-river",
+    "intake",
+    "mechanical rotation",
+    "Transformers",
+    "grid connection",
+    "Megawatts",
+    "Megawatt-hours",
+    "Installed capacity",
+    "annual generation",
+    "Capacity factor",
+    "maintenance",
+    "water passage",
+    "downstream flooding",
+    "tributary",
+    "commissioning",
+    "environmental and social assessment",
+    "transmission infrastructure",
+    "water literacy"
+  ],
+  "questions": [
+    "How do a dam, reservoir, barrage and powerhouse differ?",
+    "What do gross storage, live storage and water level mean?",
+    "Why do sedimentation and catchment conditions affect storage?",
+    "How does hydropower turn moving water into electricity?",
+    "Why are megawatts and megawatt-hours different?",
+    "Can reservoirs prevent every flood downstream?",
+    "What trade-offs should a water-project comparison include?",
+    "How can students read a Pakistan dam update accurately?"
+  ],
+  "sources": [
+    {
+      "url": "https://wapda.gov.pk/hydro-power-and-water-projects/tarbela-dam/",
+      "title": "WAPDA Tarbela Dam project"
+    },
+    {
+      "url": "https://www.wapda.gov.pk/wp-content/uploads/2025/12/Tarbela-ESIA-SFG1900-V2-EA-P157372-With-Edits-Addressing-RSA-Comments-further-Edits-4-Aug-2022-1.pdf",
+      "title": "WAPDA Tarbela fifth extension environmental assessment"
+    },
+    {
+      "url": "https://www.energy.gov/cmei/water/how-hydropower-works",
+      "title": "US Department of Energy: How Hydropower Works"
+    },
+    {
+      "url": "https://www.eia.gov/energyexplained/hydropower/",
+      "title": "EIA hydropower explained"
+    },
+    {
+      "url": "https://www.weather.gov.pk/ndmc/dam-reservoirs/tarbela",
+      "title": "Pakistan Meteorological Department Tarbela reservoir"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Tarbela Dam spillway reservoir",
+    "hydroelectric turbine generator diagram",
+    "Indus reservoir irrigation Pakistan"
+  ],
+  "imageInsertionHeadings": [
+    "Why do sedimentation and catchment conditions affect storage?",
+    "What trade-offs should a water-project comparison include?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

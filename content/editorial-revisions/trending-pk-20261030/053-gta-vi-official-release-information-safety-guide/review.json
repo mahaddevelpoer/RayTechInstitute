@@ -1,0 +1,103 @@
+{
+  "proseWords": 2131,
+  "seoTerms": [
+    "GTA VI",
+    "release information",
+    "PlayStation 5",
+    "Xbox Series X",
+    "account region",
+    "release date",
+    "Grand Theft Auto VI",
+    "release window",
+    "product page",
+    "release schedule",
+    "console store",
+    "order confirmation",
+    "playable access",
+    "GTA VI PC release date",
+    "GTA VI mobile release date",
+    "Windows laptop",
+    "Android phone",
+    "APK download",
+    "system requirements",
+    "graphics card",
+    "RAM",
+    "storage requirement",
+    "Remote play",
+    "cloud streaming",
+    "native mobile version",
+    "fake download",
+    "unknown installer",
+    "disable antivirus",
+    "leaked build",
+    "malware scan",
+    "publisher authorisation",
+    "HTTPS",
+    "GTA VI preorder",
+    "preorder bonus",
+    "store currency",
+    "payment fees",
+    "game licence",
+    "shared account",
+    "voucher",
+    "refund policy",
+    "GTA VI trailer",
+    "GTA gameplay",
+    "frame rate",
+    "Capture resolution",
+    "output resolution",
+    "multifactor authentication",
+    "recovery email",
+    "one-time code",
+    "Phishing",
+    "connected applications",
+    "backup codes",
+    "age rating",
+    "parental controls",
+    "Pakistan Standard Time",
+    "preload"
+  ],
+  "questions": [
+    "What does the official GTA VI release date confirm?",
+    "Is a GTA VI PC or mobile release confirmed here?",
+    "How can you recognise a fake GTA VI download?",
+    "What should Pakistan buyers check before a preorder?",
+    "How do trailers differ from gameplay and performance tests?",
+    "How should gaming accounts and payment details be protected?",
+    "How can families assess age suitability and spending?",
+    "What is the simplest reliable GTA VI news checklist?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rockstargames.com/VI",
+      "title": "Grand Theft Auto VI official announcement"
+    },
+    {
+      "url": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing",
+      "title": "FBI spoofing and phishing"
+    },
+    {
+      "url": "https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf",
+      "title": "CISA implementing phishing-resistant MFA"
+    },
+    {
+      "url": "https://www.ic3.gov/PSA/2026/PSA260901",
+      "title": "IC3 consent phishing warning"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "PlayStation 5 Xbox Series consoles desk",
+    "gaming controller account security",
+    "Grand Theft Auto VI licensed artwork"
+  ],
+  "imageInsertionHeadings": [
+    "How can you recognise a fake GTA VI download?",
+    "How can families assess age suitability and spending?"
+  ],
+  "factualLimitations": [
+    "Schedule checked 30 October 2026; no local price, PC launch date or unlock hour asserted."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

@@ -1,0 +1,108 @@
+{
+  "proseWords": 2144,
+  "seoTerms": [
+    "Qatar",
+    "Doha",
+    "Arabian Peninsula",
+    "Gulf",
+    "Saudi Arabia",
+    "land border",
+    "coastline",
+    "capital",
+    "Arabic",
+    "English",
+    "Qatari riyal",
+    "QAR",
+    "currency",
+    "resident population",
+    "citizenship",
+    "country profile",
+    "map",
+    "climate",
+    "weather",
+    "summer",
+    "humidity",
+    "itinerary",
+    "passport",
+    "visa",
+    "entry permission",
+    "nationality",
+    "purpose of travel",
+    "transit",
+    "onward ticket",
+    "accommodation",
+    "Hamad International Airport",
+    "Doha Metro",
+    "Red Line",
+    "Green Line",
+    "Gold Line",
+    "Msheireb",
+    "walking distance",
+    "accessibility",
+    "transport",
+    "budget",
+    "exchange rate",
+    "service charge",
+    "cancellation",
+    "museum",
+    "Souq Waqif",
+    "Corniche",
+    "Al Zubarah",
+    "heritage",
+    "opening hours",
+    "return journey",
+    "time zone"
+  ],
+  "questions": [
+    "Where is Qatar, and how is it different from Doha?",
+    "What should you verify before booking travel from Pakistan?",
+    "How should climate and weather affect your itinerary?",
+    "How do you plan local transport without underestimating the journey?",
+    "What makes a realistic first-day plan in Doha?",
+    "How can you build a budget without inventing current prices?",
+    "What can a heritage visit teach beyond sightseeing?",
+    "How can students turn Qatar research into a useful country profile?"
+  ],
+  "sources": [
+    {
+      "url": "https://mofa.gov.qa/en/state-of-qatar/Key-Facts-and-Information/general-information",
+      "title": "Qatar Ministry of Foreign Affairs: general information"
+    },
+    {
+      "url": "https://portal.moi.gov.qa/qatarvisas/",
+      "title": "Qatar Ministry of Interior: visit visas"
+    },
+    {
+      "url": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+      "title": "Qatar Tourism: visa information by passport"
+    },
+    {
+      "url": "https://visitqatar.com/intl-en/plan-your-trip/getting-around/doha-metro",
+      "title": "Qatar Tourism: Doha Metro"
+    },
+    {
+      "url": "https://www.qr.com.qa/media/CustomerDigitalLibrary/Pocket_Map_EN.pdf",
+      "title": "Qatar Rail network map"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1402/",
+      "title": "UNESCO: Al Zubarah Archaeological Site"
+    },
+    {
+      "url": "https://visitqatar.com/intl-en/about-qatar/climate",
+      "title": "Qatar Tourism: climate"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Qatar peninsula map Doha Saudi Arabia border",
+    "Doha Corniche skyline daylight",
+    "Al Zubarah archaeological site Qatar fort"
+  ],
+  "imageInsertionHeadings": [
+    "Where is Qatar, and how is it different from Doha?",
+    "How do you plan local transport without underestimating the journey?"
+  ],
+  "factualLimitations": "Geography and planning primer; no personal visa eligibility, fixed fee, live fare, attraction opening time or current travel-safety determination. Budget examples hypothetical; current requirements require individual official checks.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

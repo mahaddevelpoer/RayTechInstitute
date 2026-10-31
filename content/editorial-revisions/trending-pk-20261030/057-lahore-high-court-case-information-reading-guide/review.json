@@ -1,0 +1,92 @@
+{
+  "proseWords": 2032,
+  "seoTerms": [
+    "Lahore High Court",
+    "case information",
+    "scheduled hearing",
+    "procedural update",
+    "written decision",
+    "cause list",
+    "judgment",
+    "court's official website",
+    "case type",
+    "parties",
+    "court location",
+    "document header",
+    "petition",
+    "order",
+    "bench",
+    "judge",
+    "document date",
+    "Case status",
+    "interim order",
+    "interim stay",
+    "procedural result",
+    "operative part",
+    "pleadings",
+    "reasoning",
+    "final directions",
+    "applicant's request",
+    "opposing position",
+    "judicial finding",
+    "Submitted",
+    "contended",
+    "argued",
+    "Directed",
+    "held",
+    "case brief",
+    "relief requested",
+    "oral exchange",
+    "written order",
+    "dated chronology",
+    "case reference",
+    "procedural position",
+    "private addresses",
+    "allegations",
+    "findings",
+    "guilt",
+    "liability",
+    "attribution",
+    "neutral writing",
+    "qualified legal advice"
+  ],
+  "questions": [
+    "What information identifies a Lahore High Court case?",
+    "What does a cause list tell you?",
+    "How do case status, an interim order and a judgment differ?",
+    "How should you read the reasoning and operative part?",
+    "How can legal news distort an otherwise accurate quotation?",
+    "How should you organise documents from several hearings?",
+    "What privacy and fairness checks belong in a case summary?",
+    "How can students write a useful court-reading exercise?"
+  ],
+  "sources": [
+    {
+      "url": "https://lhc.gov.pk/",
+      "title": "Lahore High Court official portal"
+    },
+    {
+      "url": "https://pitb.gov.pk/node/8236",
+      "title": "Punjab IT Board: Lahore High Court information gateway"
+    },
+    {
+      "url": "https://library.lhc.gov.pk/pdf/RulesAndOrders/Volume1.pdf",
+      "title": "Lahore High Court Rules and Orders Volume I"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Lahore High Court historic building",
+    "court law library Pakistan",
+    "legal order reading desk"
+  ],
+  "imageInsertionHeadings": [
+    "How do case status, an interim order and a judgment differ?",
+    "What privacy and fairness checks belong in a case summary?"
+  ],
+  "factualLimitations": [
+    "Official portal fetch timed out; no live case status or filing procedure asserted."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

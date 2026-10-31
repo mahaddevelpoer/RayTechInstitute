@@ -1,6 +1,7 @@
 "use client";
 
 import {blogCategoryLabel} from '@/data/blogCategories';
+import type { ReviewedArticleCover } from '@/data/reviewedArticleMedia';
 import { siteUrl } from "@/lib/site";
 
 import React, { useState } from "react";
@@ -29,11 +30,15 @@ import { ArticleAttachment } from './ArticleAttachment';
 interface BlogDetailClientViewProps {
   slug: string;
   initialPost?: BlogPostItem;
+  coverMetadata?: ReviewedArticleCover;
+  seoKeywords?: string[];
 }
 
 export function BlogDetailClientView({
   slug,
   initialPost,
+  coverMetadata,
+  seoKeywords,
 }: BlogDetailClientViewProps) {
   const post = initialPost || null;
   const [copyStatus, setCopyStatus] = useState("");
@@ -61,11 +66,13 @@ export function BlogDetailClientView({
   }
 
   const sourceReview = needsSourceReview(post.content);
+  const reviewedCover = coverMetadata;
   const sections = sourceReview ? [] : articleSections(post.content);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
+    keywords: seoKeywords || post.tags,
     description: sourceReview
       ? "This article is awaiting source verification. Consult the current result guide and official board notices."
       : post.excerpt,
@@ -213,16 +220,17 @@ export function BlogDetailClientView({
 
       {/* Featured Image */}
       {post.actionButtonUrl&&<ArticleAttachment url={post.actionButtonUrl} label={post.actionButtonText||'Source document'}/>}
-      <div className="aspect-[16/9] w-full rounded overflow-hidden bg-slate-100 mb-8 border border-slate-200">
+      <figure className="mb-8">
+      <div className="aspect-[16/9] w-full rounded overflow-hidden bg-slate-100 border border-slate-200">
         <img
           src={
             sourceReview
               ? fallbackImage
               : sanitizeUrl(post.featuredImage) || fallbackImage
           }
-          alt={post.title}
-          width={800}
-          height={450}
+          alt={reviewedCover?.alt || post.title}
+          width={reviewedCover?.width || 800}
+          height={reviewedCover?.height || 450}
           loading="eager"
           decoding="async"
           fetchPriority="high"
@@ -233,6 +241,8 @@ export function BlogDetailClientView({
           }}
         />
       </div>
+      {reviewedCover?.caption && <figcaption className="mt-2 text-xs leading-relaxed text-slate-500">{reviewedCover.caption}</figcaption>}
+      </figure>
 
       {sections.length > 1 && (
         <nav

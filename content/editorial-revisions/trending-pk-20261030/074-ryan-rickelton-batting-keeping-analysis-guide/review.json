@@ -1,0 +1,93 @@
+{
+  "proseWords": 2082,
+  "seoTerms": [
+    "Ryan Rickelton",
+    "South Africa",
+    "left-handed",
+    "wicketkeeper",
+    "batting start",
+    "entry score",
+    "new ball",
+    "opening",
+    "middle order",
+    "Test",
+    "ODI",
+    "T20",
+    "powerplay",
+    "line",
+    "length",
+    "swing",
+    "seam",
+    "bounce",
+    "leave",
+    "defence",
+    "drive",
+    "cut",
+    "pull",
+    "balance",
+    "strike rotation",
+    "singles",
+    "boundary",
+    "dot balls",
+    "bowling change",
+    "spin",
+    "pace",
+    "scorecard",
+    "team sheet",
+    "gloves",
+    "collection",
+    "standing back",
+    "standing up",
+    "catches",
+    "stumping",
+    "byes",
+    "run-out",
+    "dismissals",
+    "workload",
+    "sample",
+    "strike rate",
+    "batting average",
+    "long-format batting",
+    "keeper-batter"
+  ],
+  "questions": [
+    "What should you record before assessing a batting start?",
+    "How do you read new-ball decisions for a left-handed batter?",
+    "How should an innings develop when bowling or field restrictions change?",
+    "How can statistics describe a start without hiding its context?",
+    "How do you evaluate wicketkeeping beyond catches?",
+    "How should stumpings, run-outs and appeals be discussed?",
+    "What can you reasonably say about combined batting and keeping workload?",
+    "How can you write a balanced Rickelton performance review?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cricket.co.za/player/ryan-rickelton/",
+      "title": "Cricket South Africa: Ryan Rickelton"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/south-africa-believe-rickelton-will-thrive-in-new-role",
+      "title": "ICC: South Africa believe Rickelton will thrive in new role, October 2026"
+    },
+    {
+      "url": "https://www.lords.org/mcc/about-the-laws-of-cricket",
+      "title": "MCC: Laws of Cricket and interpretive resources"
+    },
+    {
+      "url": "https://srilankacricket.lk/coaching/",
+      "title": "Sri Lanka Cricket: Coach education and wicketkeeping resources"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Ryan Rickelton South Africa left handed batting",
+    "Ryan Rickelton wicketkeeping gloves behind stumps",
+    "cricket new ball left handed batter slips"
+  ],
+  "imageInsertionHeadings": [
+    "What should you record before assessing a batting start?",
+    "How do you evaluate wicketkeeping beyond catches?"
+  ],
+  "factualLimitations": "CSA identifies left-hand batting and keeper profile; ICC October 2026 role discussion attributed and not generalized to every match. Hypothetical statistics; no current aggregate, selection guarantee or injury inference.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

@@ -1,0 +1,106 @@
+{
+  "proseWords": 2063,
+  "seoTerms": [
+    "Shah Rukh Khan",
+    "screen presence",
+    "film credits",
+    "performance",
+    "filmmaking",
+    "gesture",
+    "dialogue",
+    "framing",
+    "editing",
+    "actor",
+    "character",
+    "public persona",
+    "trailers",
+    "subtitles",
+    "producer credit",
+    "acting credit",
+    "filmography",
+    "Red Chillies Entertainment",
+    "Jawan",
+    "film title",
+    "language version",
+    "credited director",
+    "viewing source",
+    "dubbed",
+    "star image",
+    "entrance shot",
+    "publicity",
+    "reaction shot",
+    "camera placement",
+    "sound",
+    "posture",
+    "composition",
+    "vocal delivery",
+    "sound design",
+    "shot size",
+    "camera position",
+    "close-up",
+    "wide shot",
+    "long take",
+    "narrative structure",
+    "dramatic gestures",
+    "shot sequence",
+    "soundtrack",
+    "box-office",
+    "ticket revenue",
+    "territory",
+    "currency",
+    "gross",
+    "net",
+    "audience survey",
+    "viewer comment",
+    "professional review",
+    "scene description",
+    "media literacy",
+    "authorised copy",
+    "production responsibility"
+  ],
+  "questions": [
+    "How do you verify a Shah Rukh Khan film credit?",
+    "What is the difference between actor, character and star image?",
+    "How does a scene create screen presence?",
+    "What should you notice in dialogue and silence?",
+    "How do framing and editing change the meaning of a performance?",
+    "How can two scenes be compared without ranking everything?",
+    "What can box-office figures and social trends actually establish?",
+    "How can a student write an original, respectful film analysis?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.redchillies.com/news",
+      "title": "Red Chillies Entertainment: official production news archive"
+    },
+    {
+      "url": "https://www.redchillies.com/",
+      "title": "Red Chillies Entertainment official production records"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Shah Rukh Khan credited public film event",
+    "cinema editing monitor shot sequence",
+    "film camera close up production set"
+  ],
+  "imageInsertionHeadings": [
+    "How does a scene create screen presence?",
+    "How do framing and editing change the meaning of a performance?"
+  ],
+  "factualLimitations": "Scene analysis framework; no unverified biography, new project, release date, revenue total or ranking asserted.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "proseWords": 2100,
+  "seoTerms": [
+    "2026",
+    "study calendar",
+    "revision timetable",
+    "exam preparation",
+    "date sheet",
+    "confirmed deadline",
+    "provisional date",
+    "board examination",
+    "FBISE",
+    "BISE Lahore",
+    "practical examination",
+    "admission deadline",
+    "roll number slip",
+    "syllabus",
+    "chapter",
+    "learning objective",
+    "past paper",
+    "mark scheme",
+    "retrieval practice",
+    "spaced practice",
+    "self-testing",
+    "closed-book",
+    "error log",
+    "weekly review",
+    "buffer time",
+    "study block",
+    "priority",
+    "workload",
+    "homework",
+    "mock exam",
+    "practice question",
+    "mathematics",
+    "physics",
+    "English",
+    "programming",
+    "feedback",
+    "active recall",
+    "flashcards",
+    "revision notes",
+    "digital calendar",
+    "paper planner",
+    "notifications",
+    "distractions",
+    "commute",
+    "family commitments",
+    "catch-up",
+    "time estimate",
+    "progress",
+    "rest",
+    "exam day",
+    "source"
+  ],
+  "questions": [
+    "Which dates belong in a student calendar?",
+    "How do you turn a syllabus into realistic study blocks?",
+    "How much study time should you schedule each week?",
+    "How should retrieval practice and spaced practice appear in the plan?",
+    "When should you use past papers and mock exams?",
+    "What should a weekly review actually change?",
+    "Should you use a paper planner or a digital calendar?",
+    "How do you recover when the calendar stops working?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.biselahore.com/",
+      "title": "BISE Lahore official notices and downloads"
+    },
+    {
+      "url": "https://www.fbise.edu.pk/",
+      "title": "Federal Board official portal"
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf",
+      "title": "IES: Organizing instruction and study to improve student learning"
+    },
+    {
+      "url": "https://www.edresearch.edu.au/guides-resources/practice-guides/spacing-and-retrieval-practice-guide-full-publication",
+      "title": "AERO: spacing and retrieval practice"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "student handwritten revision timetable Pakistan",
+    "desk study calendar textbooks error log",
+    "student past paper practice weekly planner"
+  ],
+  "imageInsertionHeadings": [
+    "How do you turn a syllabus into realistic study blocks?",
+    "What should a weekly review actually change?"
+  ],
+  "factualLimitations": "Illustrative planning method, not an official 2026 date sheet. No examination dates, admission deadlines or guaranteed learning outcomes asserted. FBISE direct page access was blocked.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

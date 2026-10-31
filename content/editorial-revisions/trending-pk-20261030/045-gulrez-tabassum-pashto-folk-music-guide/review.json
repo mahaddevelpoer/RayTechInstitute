@@ -1,0 +1,109 @@
+{
+  "proseWords": 2065,
+  "seoTerms": [
+    "Gulrez Tabassum",
+    "Pashto singing",
+    "Pashto folk music",
+    "recording title",
+    "performer credit",
+    "broadcaster",
+    "rights holder",
+    "provenance",
+    "attribution",
+    "recording date",
+    "publication date",
+    "accompanists",
+    "listening",
+    "vocal passage",
+    "instrumental opening",
+    "texture",
+    "melody",
+    "accompaniment",
+    "Rhythm",
+    "repetition",
+    "pulse",
+    "metre",
+    "Tempo",
+    "vocal register",
+    "phrasing",
+    "syllable",
+    "breath",
+    "consonants",
+    "vowels",
+    "pronunciation",
+    "timbre",
+    "audio quality",
+    "Pashto poetry",
+    "translation",
+    "idiom",
+    "translator",
+    "poetic form",
+    "imagery",
+    "lyrics",
+    "composition",
+    "sound recording",
+    "cultural context",
+    "oral traditions",
+    "transmission",
+    "living tradition",
+    "broadcast performance",
+    "family recording",
+    "public stage",
+    "Preservation",
+    "listening copy",
+    "catalogue entry",
+    "Backups",
+    "permission",
+    "transliteration",
+    "timestamps"
+  ],
+  "questions": [
+    "How do you identify a Gulrez Tabassum recording reliably?",
+    "What should a first listening session focus on?",
+    "How can rhythm and repetition carry meaning?",
+    "What can vocal phrasing reveal about a performance?",
+    "How should Pashto poetry and translation be handled?",
+    "Why does cultural context matter without stereotyping a community?",
+    "How can students preserve recordings responsibly?",
+    "What would a strong folk-music study project look like?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dawn.com/news/2040510/famous-singer-gulrez-tabassum-dies-at-77",
+      "title": "Dawn: reporting identifying Gulrez Tabassum with Pashto singing"
+    },
+    {
+      "url": "https://ich.unesco.org/en/oral-traditions-00053",
+      "title": "UNESCO: Oral traditions and expressions"
+    },
+    {
+      "url": "https://ich.unesco.org/en/ethics-and-ich-00866",
+      "title": "UNESCO: Ethics and intangible cultural heritage"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pashto folk music live performance rubab",
+    "Pashto music archive audio recording reels",
+    "traditional rubab musician close up hands"
+  ],
+  "imageInsertionHeadings": [
+    "What can vocal phrasing reveal about a performance?",
+    "How can students preserve recordings responsibly?"
+  ],
+  "factualLimitations": "No obituary detail, dates, age, personal history or specific song attribution asserted; listening framework distinguishes unverified recordings.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

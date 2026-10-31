@@ -1,0 +1,88 @@
+{
+  "proseWords": 2069,
+  "seoTerms": [
+    "Aiden Markram",
+    "South Africa",
+    "right-handed",
+    "off-spin",
+    "batting",
+    "leadership",
+    "captaincy",
+    "team sheet",
+    "scorecard",
+    "format",
+    "T20",
+    "entry score",
+    "opening",
+    "middle order",
+    "partnership",
+    "strike rotation",
+    "boundary",
+    "dot balls",
+    "field setting",
+    "bowling change",
+    "matchup",
+    "left-handed",
+    "right-arm",
+    "death overs",
+    "over allocation",
+    "wickets in hand",
+    "required rate",
+    "run chase",
+    "slip",
+    "cover",
+    "long-on",
+    "long-off",
+    "sweep",
+    "defence",
+    "drive",
+    "length",
+    "pace",
+    "spin",
+    "economy rate",
+    "sample",
+    "hindsight",
+    "decision log",
+    "alternatives",
+    "risk",
+    "execution",
+    "outcome",
+    "communication"
+  ],
+  "questions": [
+    "What must be established before calling a decision captaincy?",
+    "How should Markram's batting role be evaluated separately?",
+    "How can a bowling change be evaluated without hindsight?",
+    "What does a field setting reveal, and what does it leave uncertain?",
+    "How should Markram's off-spin be included in an all-round review?",
+    "How do pressure situations alter the leadership problem?",
+    "What should a practical captaincy decision log contain?",
+    "What does a fair conclusion about Markram's leadership look like?"
+  ],
+  "sources": [
+    {
+      "url": "https://cricket.co.za/player/aiden-markram/",
+      "title": "Cricket South Africa: Aiden Markram"
+    },
+    {
+      "url": "https://www.icc-cricket.com/rankings/64219/aiden-markram",
+      "title": "ICC: Aiden Markram player profile"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: Playing Conditions"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Aiden Markram South Africa batting",
+    "Aiden Markram captain field placement cricket",
+    "cricket captain bowling allocation diagram"
+  ],
+  "imageInsertionHeadings": [
+    "What must be established before calling a decision captaincy?",
+    "How can a bowling change be evaluated without hindsight?"
+  ],
+  "factualLimitations": "Role-based analysis, invented scenarios, no current captaincy assertion or score/ranking. Intentions remain interpretations unless directly documented; match conditions determine rules.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

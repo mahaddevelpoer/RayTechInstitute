@@ -1,0 +1,89 @@
+{
+  "proseWords": 2174,
+  "seoTerms": [
+    "dollar rate in Pakistan",
+    "USD",
+    "PKR",
+    "US dollar",
+    "Pakistani rupee",
+    "exchange rate",
+    "buying rate",
+    "selling rate",
+    "currency pair",
+    "quotation",
+    "timestamp",
+    "interbank",
+    "open market",
+    "customer rate",
+    "spread",
+    "midpoint",
+    "reference rate",
+    "weighted average",
+    "mark-to-market",
+    "conversion",
+    "remittance",
+    "transfer fee",
+    "cash transaction",
+    "bank transfer",
+    "beneficiary",
+    "settlement",
+    "value date",
+    "commission",
+    "net amount",
+    "effective rate",
+    "rounding",
+    "inverse rate",
+    "rupees per dollar",
+    "percentage change",
+    "appreciation",
+    "depreciation",
+    "import payment",
+    "invoice",
+    "receipt",
+    "authorised provider",
+    "exchange company",
+    "liquidity",
+    "demand and supply",
+    "exchange-rate risk",
+    "comparison period",
+    "historical rate",
+    "household budget",
+    "economic indicators"
+  ],
+  "questions": [
+    "Which buying or selling rate applies to your transaction?",
+    "Why can interbank, open-market and customer rates differ?",
+    "How do you read the units, timestamp and value date?",
+    "How do you calculate rupees received or dollars purchased?",
+    "How do you compare two offers after fees?",
+    "Does a higher dollar number mean the rupee is stronger?",
+    "What records should accompany a transfer or exchange?",
+    "How can you check a dollar-rate headline before acting?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbp.org.pk/our-operations/financial-market/exchange-rate-regime-and-fx-reserve-management",
+      "title": "SBP: Exchange rate regime and FX reserve management"
+    },
+    {
+      "url": "https://dsbb.imf.org/e-gdds/dqaf-base/country/PAK/category/EXR00",
+      "title": "Pakistan exchange-rate statistics methodology, supplied by SBP to IMF DSBB"
+    },
+    {
+      "url": "https://www.sbp.org.pk/data-calendar",
+      "title": "SBP data release calendar"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistani rupees US dollars currency exchange counter",
+    "currency exchange buying selling display Pakistan",
+    "USD PKR conversion calculator receipt"
+  ],
+  "imageInsertionHeadings": [
+    "Which buying or selling rate applies to your transaction?",
+    "How do you compare two offers after fees?"
+  ],
+  "factualLimitations": "All numerical quotations are invented teaching examples, not current rates, provider offers, investment advice or predictions. Fees, availability and eligibility require transaction-specific confirmation.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

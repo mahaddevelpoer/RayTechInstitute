@@ -1,0 +1,105 @@
+{
+  "proseWords": 2105,
+  "seoTerms": [
+    "MacBook Pro",
+    "PROLED XDR",
+    "tandem OLED",
+    "Touch",
+    "student buying guide",
+    "software compatibility",
+    "memory",
+    "storage",
+    "configuration",
+    "launch announcement",
+    "Pakistani stock",
+    "local warranty",
+    "processor",
+    "unified memory",
+    "SSD storage",
+    "keyboard layout",
+    "technical specifications",
+    "preorder",
+    "operating system",
+    "laboratory package",
+    "plugins",
+    "peripherals",
+    "programming students",
+    "browser coding",
+    "Python",
+    "software development",
+    "development tools",
+    "compiler",
+    "CAD software",
+    "spreadsheet macros",
+    "learning portal",
+    "backup space",
+    "external SSD",
+    "Cloud storage",
+    "video editing",
+    "text scaling",
+    "colour management",
+    "colour gamut",
+    "brightness",
+    "colour accuracy",
+    "trackpad",
+    "keyboard shortcuts",
+    "performance test",
+    "battery life",
+    "rendering",
+    "charger",
+    "accessories",
+    "quotation",
+    "warranty coverage",
+    "instalment",
+    "return process",
+    "activation",
+    "configuration code",
+    "purchase records",
+    "course requirement"
+  ],
+  "questions": [
+    "Which new MacBook Pro does the announcement describe?",
+    "How should students decide whether macOS suits their course?",
+    "How much memory and storage should a student prioritise?",
+    "What do display specifications mean during everyday study?",
+    "How should performance and battery claims be compared?",
+    "What belongs in the total purchase cost in Pakistan?",
+    "What should buyers inspect before accepting a unit?",
+    "When is keeping an existing laptop the better decision?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+      "title": "Apple announcement, 28 October 2026"
+    },
+    {
+      "url": "https://support.apple.com/en-au/guide/activity-monitor/-actmntr1004/mac",
+      "title": "Apple Support: View memory usage in Activity Monitor"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "MacBook Pro keyboard and ports study desk",
+    "MacBook Pro display university PDF reading",
+    "student laptop charger external SSD workspace"
+  ],
+  "imageInsertionHeadings": [
+    "What do display specifications mean during everyday study?",
+    "What should buyers inspect before accepting a unit?"
+  ],
+  "factualLimitations": "Manufacturer launch features verified; no Pakistani price, stock or universal warranty entitlement asserted.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

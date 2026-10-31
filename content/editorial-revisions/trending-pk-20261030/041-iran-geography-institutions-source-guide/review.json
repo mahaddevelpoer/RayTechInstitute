@@ -1,0 +1,109 @@
+{
+  "proseWords": 2066,
+  "seoTerms": [
+    "Iran",
+    "Western Asia",
+    "Pakistan",
+    "Afghanistan",
+    "Caspian Sea",
+    "Persian Gulf",
+    "Gulf of Oman",
+    "Tehran",
+    "capital",
+    "Iran country profile",
+    "geography",
+    "institutions",
+    "economy",
+    "political borders",
+    "coastlines",
+    "Turkey",
+    "Iraq",
+    "Armenia",
+    "Azerbaijan",
+    "Turkmenistan",
+    "political map",
+    "physical map",
+    "thematic map",
+    "rainfall",
+    "population distribution",
+    "map legend",
+    "climate data",
+    "elevation",
+    "water availability",
+    "river discharge",
+    "reservoir storage",
+    "census count",
+    "official estimate",
+    "modelled projection",
+    "population density",
+    "urbanisation",
+    "metropolitan area",
+    "national averages",
+    "Translation",
+    "transliteration",
+    "government",
+    "courts",
+    "constitutional",
+    "implementation",
+    "GDP",
+    "consumer prices",
+    "Purchasing power",
+    "trade data",
+    "exports",
+    "calendar year",
+    "eyewitness account",
+    "institutional statement",
+    "source note",
+    "observation year",
+    "land neighbours"
+  ],
+  "questions": [
+    "Where is Iran, and what should a regional map show?",
+    "How do physical geography and climate shape a country profile?",
+    "Why do Iran population figures sometimes disagree?",
+    "How should students describe language, culture and society?",
+    "Which institutions should a reader distinguish in political news?",
+    "How can Iran economy data be compared responsibly?",
+    "How can a reader check a viral Iran headline or video?",
+    "What would a strong student country-study project contain?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fao.org/iran/our-office/",
+      "title": "FAO: Iran at a glance"
+    },
+    {
+      "url": "https://data.un.org/legacy/en/iso/ir.html",
+      "title": "UNData: Iran country profile"
+    },
+    {
+      "url": "https://www.un.org/en/about-us/member-states/iran",
+      "title": "United Nations: Iran member-state record"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Iran physical geography Zagros mountain landscape",
+    "Iran Persian Gulf Caspian Sea labelled map",
+    "Tehran city urban landscape"
+  ],
+  "imageInsertionHeadings": [
+    "Where is Iran, and what should a regional map show?",
+    "Why do Iran population figures sometimes disagree?"
+  ],
+  "factualLimitations": "Educational country profile; no current security event, border condition, officeholder or live economic statistic asserted.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

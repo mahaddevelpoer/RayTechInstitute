@@ -1,0 +1,108 @@
+{
+  "proseWords": 2031,
+  "seoTerms": [
+    "Everton vs Newcastle",
+    "fixture",
+    "competition",
+    "venue",
+    "line-up",
+    "possession",
+    "shots",
+    "home side",
+    "stadium",
+    "kick-off",
+    "Pakistan",
+    "UK time",
+    "Daylight-saving",
+    "time-zone",
+    "broadcast rights",
+    "formation",
+    "in possession",
+    "out of possession",
+    "goalkeeper",
+    "central defenders",
+    "full-back",
+    "transition",
+    "pressing",
+    "centre-back",
+    "first presser",
+    "long ball",
+    "second ball",
+    "passes per defensive action",
+    "PPDA",
+    "midfield space",
+    "progression",
+    "receiving options",
+    "between the opponent's lines",
+    "Width",
+    "overlapping",
+    "counter-attacks",
+    "shots on target",
+    "expected goals",
+    "xG",
+    "chance quality",
+    "penalties",
+    "set pieces",
+    "corner",
+    "first contact",
+    "second-phase",
+    "ball carrier",
+    "substitutions",
+    "manager",
+    "full time",
+    "Added time",
+    "highlights",
+    "build-up",
+    "chance creation",
+    "goal difference",
+    "league points"
+  ],
+  "questions": [
+    "How do you identify the correct Everton vs Newcastle fixture?",
+    "What can a confirmed line-up tell you before kick-off?",
+    "How can you tell whether pressing is working?",
+    "Why does midfield space matter more than possession percentage alone?",
+    "How should shots, shots on target and expected goals be interpreted?",
+    "What can set pieces and transitions reveal?",
+    "How do substitutions and the score change the tactical picture?",
+    "What should a balanced Everton vs Newcastle match report include?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-season-2026-27",
+      "title": "Premier League: 2026/27 fixtures, subject to change"
+    },
+    {
+      "url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "title": "Newcastle United: men's fixtures"
+    },
+    {
+      "url": "https://www.evertonfc.com/news/2026/june/19/everton-s-2026-27-premier-league-fixtures-revealed/",
+      "title": "Everton: 2026/27 fixtures notice"
+    },
+    {
+      "url": "https://www.premierleague.com/en/stats/clarification",
+      "title": "Premier League: statistics categories and coverage"
+    },
+    {
+      "url": "https://www.premierleague.com/ar/news/4250153/passes-per-defensive-action-explained",
+      "title": "Premier League: passes per defensive action explained"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Everton Newcastle football stadium wide pitch",
+    "football midfield passing tactical training",
+    "football corner kick attacking defensive positions"
+  ],
+  "imageInsertionHeadings": [
+    "How can you tell whether pressing is working?",
+    "What can set pieces and transitions reveal?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "No current line-up, injury, manager plan or score is asserted. Fixture sources explicitly allow changes."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

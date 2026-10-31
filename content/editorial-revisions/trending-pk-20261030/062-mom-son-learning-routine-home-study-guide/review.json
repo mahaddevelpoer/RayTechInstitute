@@ -1,0 +1,94 @@
+{
+  "proseWords": 2093,
+  "seoTerms": [
+    "Mom and son",
+    "learning time",
+    "shared attention",
+    "manageable practice",
+    "family-learning",
+    "reading",
+    "mathematics",
+    "study habits",
+    "homework support",
+    "schoolbook",
+    "main idea",
+    "scrap paper",
+    "unfamiliar words",
+    "caregiver",
+    "Shared reading",
+    "adult modelling",
+    "child reading",
+    "vocabulary practice",
+    "comprehension questions",
+    "factual question",
+    "inference question",
+    "Everyday maths",
+    "counting",
+    "grouping",
+    "measurement",
+    "fractions",
+    "place value",
+    "written symbols",
+    "ruler",
+    "explain a step",
+    "compare two examples",
+    "specific feedback",
+    "active listening",
+    "clear language",
+    "noticing statements",
+    "learning difficulty",
+    "English vocabulary",
+    "Urdu",
+    "Pashto",
+    "Punjabi",
+    "target language",
+    "independence",
+    "personal checklist",
+    "learning opportunities",
+    "progress",
+    "private practice",
+    "parent",
+    "siblings",
+    "school expectations",
+    "reading strategy"
+  ],
+  "questions": [
+    "How can a parent start a home study routine without making it overwhelming?",
+    "What should shared reading look like in practice?",
+    "How can everyday objects support mathematics practice?",
+    "Which questions help reveal a child's thinking?",
+    "How should a caregiver respond to mistakes and frustration?",
+    "How can home languages and English be used together?",
+    "How can a routine encourage independence rather than constant help?",
+    "How can a family review progress without overtesting?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.unicef.org/parenting/child-care/9-tips-for-better-communication",
+      "title": "UNICEF communication with young children"
+    },
+    {
+      "url": "https://www.unicef.org/media/158496/file/Global-report-on-early-childhood-care-and-education-2024-1.pdf",
+      "title": "UNICEF early childhood care and education report"
+    },
+    {
+      "url": "https://documents1.worldbank.org/curated/en/277261597346869312/pdf/Supporting-Parents-to-Support-Children-s-Learning-During-COVID-19.pdf",
+      "title": "World Bank supporting parents and learning"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "parent child reading book home licensed",
+    "hands counting objects mathematics",
+    "child study desk school books"
+  ],
+  "imageInsertionHeadings": [
+    "How can everyday objects support mathematics practice?",
+    "How can a routine encourage independence rather than constant help?"
+  ],
+  "factualLimitations": [
+    "Educational analysis; worked numerical or scene examples are hypothetical and no current ranking, price or result is invented."
+  ],
+  "keywordMethod": "Topic-specific editorial phrases verified case-insensitively in prose, excluding headings, tables, link destinations and Sources; no search-volume claim.",
+  "wordCountMethod": "English prose tokens, excluding headings, tables, source section and link destinations."
+}

@@ -1,0 +1,104 @@
+{
+  "proseWords": 2031,
+  "seoTerms": [
+    "Pakistan's economy",
+    "output growth",
+    "inflation",
+    "exchange rate",
+    "external balance",
+    "public finances",
+    "economic dashboard",
+    "forecasts",
+    "gross domestic product",
+    "GDP growth",
+    "real GDP",
+    "nominal GDP",
+    "current prices",
+    "constant prices",
+    "national accounts",
+    "provisional",
+    "GDP per capita",
+    "income distribution",
+    "employment",
+    "real earnings",
+    "price basket",
+    "price level",
+    "disinflation",
+    "Consumer Price Index",
+    "CPI",
+    "cost pressure",
+    "year-on-year inflation",
+    "month-on-month inflation",
+    "base effect",
+    "purchasing power",
+    "rupee",
+    "US dollar",
+    "buying rates",
+    "selling rates",
+    "imported inputs",
+    "exporter",
+    "trade balance",
+    "exports",
+    "imports",
+    "current account",
+    "foreign exchange reserves",
+    "trade deficit",
+    "Workers' remittances",
+    "central bank",
+    "commercial banks",
+    "budget deficit",
+    "public debt",
+    "fiscal balance",
+    "primary balance",
+    "interest payments",
+    "Debt-to-GDP",
+    "percentage-point",
+    "reporting frequency",
+    "taxes",
+    "financing"
+  ],
+  "questions": [
+    "What does GDP growth tell us about Pakistan's economy?",
+    "Why can inflation fall while groceries remain expensive?",
+    "How should students interpret the rupee exchange rate?",
+    "What is the difference between trade, the current account and reserves?",
+    "How do budget deficits differ from public debt?",
+    "How can five indicators move in different directions?",
+    "Which dates and definitions should an economic notebook preserve?",
+    "How can students write a balanced economy paragraph?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pbs.gov.pk/docs/national-accounts/",
+      "title": "Pakistan Bureau of Statistics: National Accounts"
+    },
+    {
+      "url": "https://www.pbs.gov.pk/price-statistics/",
+      "title": "Pakistan Bureau of Statistics: Price Statistics"
+    },
+    {
+      "url": "https://www.pbs.gov.pk/docs/price-faqs/",
+      "title": "Pakistan Bureau of Statistics: Price FAQs"
+    },
+    {
+      "url": "https://www.sbp.org.pk/economic-data",
+      "title": "State Bank of Pakistan: Economic Data"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Pakistan household budget notebook rupee receipts",
+    "Pakistan export containers port",
+    "Pakistan statistics classroom inflation chart"
+  ],
+  "imageInsertionHeadings": [
+    "Why can inflation fall while groceries remain expensive?",
+    "How do budget deficits differ from public debt?"
+  ],
+  "verificationNotes": "Narrative word count excludes headings, tables, bullet lines and Sources. Curated terms are presence checks, not search-volume claims. Illustrative examples are labelled. Featured image preserved pending separate image work.",
+  "factualLimitations": [
+    "No current macroeconomic figures or financial forecasts are supplied. SBP direct data endpoints timed out; indexed primary-source descriptions and PBS definitions were used."
+  ],
+  "sourcesCheckedAt": "2026-10-30",
+  "imageCurationFile": "../image-review-027-039.json"
+}

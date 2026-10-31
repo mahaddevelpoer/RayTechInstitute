@@ -1,0 +1,97 @@
+{
+  "proseWords": 2057,
+  "seoTerms": [
+    "badger",
+    "European badger",
+    "American badger",
+    "honey badger",
+    "Meles meles",
+    "Taxidea taxus",
+    "Mellivora capensis",
+    "species",
+    "scientific name",
+    "common name",
+    "mammal",
+    "mustelid",
+    "identification",
+    "range",
+    "habitat",
+    "woodland",
+    "grassland",
+    "soil",
+    "burrow",
+    "sett",
+    "nocturnal",
+    "diet",
+    "earthworms",
+    "small mammals",
+    "invertebrates",
+    "predator",
+    "prey",
+    "tracks",
+    "footprints",
+    "claws",
+    "latrine",
+    "bedding",
+    "field notes",
+    "observation",
+    "camera trap",
+    "disturbance",
+    "conservation",
+    "fragmentation",
+    "road",
+    "season",
+    "location",
+    "evidence",
+    "behaviour",
+    "social group",
+    "photograph",
+    "caption",
+    "survey",
+    "environmental measurements"
+  ],
+  "questions": [
+    "Which animal does the common name badger identify?",
+    "How do the three familiar badger examples differ?",
+    "How do habitat, soil and food fit together?",
+    "Why are badgers often difficult to observe directly?",
+    "What can tracks, entrances and other signs establish?",
+    "What should a useful observation record contain?",
+    "How can wildlife watching avoid disturbing animals?",
+    "How should conservation claims and dramatic clips be evaluated?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nature.scot/plants-animals-and-fungi/mammals/land-mammals/badger",
+      "title": "NatureScot: Badger"
+    },
+    {
+      "url": "https://www.nps.gov/moja/learn/nature/badger.htm",
+      "title": "US National Park Service: American badger"
+    },
+    {
+      "url": "https://research.fs.usda.gov/feis/species-reviews/tata",
+      "title": "US Forest Service: Taxidea taxus species review"
+    },
+    {
+      "url": "https://animals.sandiegozoo.org/animals/honey-badger-ratel",
+      "title": "San Diego Zoo: Honey badger"
+    },
+    {
+      "url": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/european-badger",
+      "title": "Wildlife Trusts: European badger"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "European badger Meles meles woodland",
+    "American badger Taxidea taxus grassland",
+    "badger sett woodland entrance distant observation"
+  ],
+  "imageInsertionHeadings": [
+    "Which animal does the common name badger identify?",
+    "What should a useful observation record contain?"
+  ],
+  "factualLimitations": "Species and observation education, no assertion of a specific badger in a Pakistani locality, conservation population estimate, disease diagnosis or universal wildlife law. Local permissions and rescue advice depend on jurisdiction.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

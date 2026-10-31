@@ -1,0 +1,126 @@
+{
+  "proseWords": 2068,
+  "seoTerms": [
+    "Air pollution",
+    "particles",
+    "gases",
+    "PM2.5",
+    "fine particulate matter",
+    "air quality index",
+    "AQI",
+    "pollutant concentration",
+    "index value",
+    "weather observation",
+    "monitoring",
+    "public-health",
+    "local guidance",
+    "sensor",
+    "micrometres",
+    "solid particles",
+    "liquid droplets",
+    "Visible dust",
+    "haze",
+    "emission source",
+    "observation point",
+    "atmospheric reactions",
+    "Exposure",
+    "duration",
+    "respiratory",
+    "cardiovascular",
+    "Children",
+    "older adults",
+    "heart",
+    "lung",
+    "asthma",
+    "action plan",
+    "strenuous exercise",
+    "breakpoints",
+    "averaging methods",
+    "Good",
+    "Moderate",
+    "Unhealthy for Sensitive Groups",
+    "forecast",
+    "micrograms per cubic metre",
+    "monitor location",
+    "quality control",
+    "regulatory monitor",
+    "Outdoor",
+    "exertion",
+    "Indoor",
+    "infiltration",
+    "ventilation",
+    "filtration",
+    "portable air cleaners",
+    "filter-replacement",
+    "ozone-generating",
+    "particle removal",
+    "correlation",
+    "causal claim",
+    "timestamp",
+    "missing observations",
+    "symptoms",
+    "care plan",
+    "station"
+  ],
+  "questions": [
+    "What is PM2.5, and how does it differ from visible dust?",
+    "Why does exposure matter as well as the reported concentration?",
+    "What does an AQI number mean?",
+    "Why can two air-quality services show different readings?",
+    "How should families plan outdoor activity on a polluted day?",
+    "Is indoor air automatically cleaner, and what can filtration do?",
+    "How can students make a useful air-pollution data project?",
+    "What should a reliable school air-quality checklist include?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+      "title": "US EPA: Particulate matter basics"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health",
+      "title": "WHO: Ambient air pollution and health"
+    },
+    {
+      "url": "https://www.airnow.gov/aqi/aqi-basics/",
+      "title": "AirNow: AQI basics"
+    },
+    {
+      "url": "https://www.airnow.gov/publications/activity-guides/air-quality-and-outdoor-activity-guidance-for-schools/",
+      "title": "AirNow: outdoor activity guidance for schools"
+    },
+    {
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home",
+      "title": "US EPA: Air cleaners and filters in the home"
+    },
+    {
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+      "title": "US EPA: Ozone generators sold as air cleaners"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Lahore urban haze air pollution skyline",
+    "air quality monitoring station particulate matter",
+    "HEPA air filter classroom ventilation"
+  ],
+  "imageInsertionHeadings": [
+    "What is PM2.5, and how does it differ from visible dust?",
+    "Why can two air-quality services show different readings?"
+  ],
+  "factualLimitations": "No live city AQI, local legal closure threshold or diagnosis; US AQI identified as its own system and local guidance retained.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}

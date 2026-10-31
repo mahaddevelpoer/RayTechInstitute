@@ -1,0 +1,92 @@
+{
+  "proseWords": 2133,
+  "seoTerms": [
+    "Roston Chase",
+    "West Indies",
+    "all-rounder",
+    "right-hand",
+    "off-spin",
+    "player profile",
+    "career record",
+    "match record",
+    "format",
+    "Test",
+    "ODI",
+    "T20I",
+    "first-class",
+    "List A",
+    "domestic T20",
+    "innings",
+    "matches",
+    "runs",
+    "dismissals",
+    "not outs",
+    "batting average",
+    "strike rate",
+    "balls faced",
+    "highest score",
+    "century",
+    "fifty",
+    "aggregate",
+    "median",
+    "sample size",
+    "bowling figures",
+    "legal balls",
+    "overs",
+    "wickets",
+    "runs conceded",
+    "bowling average",
+    "economy rate",
+    "bowling strike rate",
+    "five-wicket",
+    "catches",
+    "run-outs",
+    "fielding",
+    "partnership",
+    "entry score",
+    "opposition",
+    "venue",
+    "season",
+    "date filter",
+    "missing data",
+    "selection bias",
+    "denominator",
+    "role"
+  ],
+  "questions": [
+    "Which Roston Chase record should you open first?",
+    "How do not outs change batting average?",
+    "What do strike rate and milestone totals add?",
+    "How do you calculate bowling statistics correctly?",
+    "Why can two accurate statistical pages disagree?",
+    "How do role and conditions change the meaning of a record?",
+    "How should batting, bowling and fielding be combined?",
+    "How can students create an accurate Chase record worksheet?"
+  ],
+  "sources": [
+    {
+      "url": "https://www.windiescricket.com/players/roston-chase-2168/",
+      "title": "Cricket West Indies: Roston Chase profile"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC: playing conditions and official classification"
+    },
+    {
+      "url": "https://www.lords.org/getattachment/f955069b-ddb9-4e8e-9615-41c3071a3446/The-Laws-of-Cricket-2026-submitted-17-4-2026.pdf",
+      "title": "MCC: Laws of Cricket 2026"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Roston Chase West Indies batting",
+    "Roston Chase off spin bowling",
+    "cricket scorebook batting bowling record"
+  ],
+  "imageInsertionHeadings": [
+    "How do not outs change batting average?",
+    "How should batting, bowling and fielding be combined?"
+  ],
+  "factualLimitations": "Career-record interpretation with invented arithmetic datasets clearly labelled hypothetical. No current career totals, ranking, selection or captaincy status asserted.",
+  "keywordMethod": "Curated phrases verified within prose; no search-volume claim."
+}

@@ -1,0 +1,98 @@
+{
+  "proseWords": 2093,
+  "seoTerms": [
+    "Free Fire India",
+    "Garena",
+    "standalone app",
+    "28 October 2026",
+    "release announcement",
+    "Google Play",
+    "App Store",
+    "Free Fire MAX",
+    "India-region accounts",
+    "Pakistan",
+    "account region",
+    "developer name",
+    "official listing",
+    "APK",
+    "modified client",
+    "app permissions",
+    "Play Protect",
+    "security update",
+    "operating system",
+    "device specifications",
+    "storage",
+    "download size",
+    "login method",
+    "guest account",
+    "account recovery",
+    "one-time code",
+    "password",
+    "support ticket",
+    "error message",
+    "server",
+    "connection",
+    "latency",
+    "Wi-Fi",
+    "mobile data",
+    "in-app purchases",
+    "purchase approval",
+    "spending cap",
+    "parental consent",
+    "age rating",
+    "playtime limits",
+    "break reminders",
+    "receipt",
+    "transaction ID",
+    "refund",
+    "phishing",
+    "reward code",
+    "account security",
+    "study routine",
+    "update notes"
+  ],
+  "questions": [
+    "What has Garena actually confirmed about the launch?",
+    "How do you recognise the correct app listing?",
+    "How do you distinguish region, login and connection errors?",
+    "What should be checked before moving or recovering an account?",
+    "Which phone and network checks are genuinely useful?",
+    "How should families handle age ratings, playtime and purchases?",
+    "What should you do about missing items or a disputed payment?",
+    "How can you assess reward claims and future update rumours?"
+  ],
+  "sources": [
+    {
+      "url": "https://ffindia.garenaind.com/en/article/1191/",
+      "title": "Garena: Free Fire India Is Here, 27 October 2026"
+    },
+    {
+      "url": "https://support-freefireind.garena.com/ind/articles/free_fire_india_faq",
+      "title": "Garena: Free Fire India FAQ"
+    },
+    {
+      "url": "https://ffindia.garenaind.com/en/faq/",
+      "title": "Garena: Free Fire India general FAQ"
+    },
+    {
+      "url": "https://support.google.com/googleplay/answer/2812853?hl=en-UK",
+      "title": "Google Play Help: Google Play Protect"
+    },
+    {
+      "url": "https://developer.apple.com/in-app-purchase/",
+      "title": "Apple: In-App Purchase and parental purchase controls"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Free Fire India official app listing smartphone",
+    "Android game app permissions settings",
+    "parent child mobile gaming timer"
+  ],
+  "imageInsertionHeadings": [
+    "What has Garena actually confirmed about the launch?",
+    "How do you distinguish region, login and connection errors?"
+  ],
+  "factualLimitations": "Launch details attributed to 27 October 2026 announcement. No Pakistani availability, universal compatibility, account transfer guarantee, exact minor spending limit or promised refund. Store and support details may change.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

@@ -1,0 +1,89 @@
+{
+  "proseWords": 2124,
+  "seoTerms": [
+    "Lanka",
+    "Sri Lanka",
+    "Indian Ocean",
+    "South Asia",
+    "island country",
+    "country name",
+    "country profile",
+    "physical map",
+    "political map",
+    "map legend",
+    "coastline",
+    "India",
+    "Palk Strait",
+    "Gulf of Mannar",
+    "Colombo",
+    "Sri Jayewardenepura Kotte",
+    "commercial centre",
+    "administrative capital",
+    "central highlands",
+    "lowlands",
+    "elevation",
+    "monsoon",
+    "rainfall",
+    "river basin",
+    "tea growing",
+    "Sinhala",
+    "Tamil",
+    "English",
+    "LKR",
+    "Sri Lankan rupee",
+    "Ceylon",
+    "historical names",
+    "place names",
+    "transliteration",
+    "cultural heritage",
+    "cricket team",
+    "national border",
+    "population density",
+    "census year",
+    "urban area",
+    "scale bar",
+    "latitude",
+    "longitude",
+    "source date",
+    "travel planning",
+    "regional geography",
+    "literary reference",
+    "primary source"
+  ],
+  "questions": [
+    "Does Lanka mean exactly the same thing as Sri Lanka?",
+    "Where is Sri Lanka on a South Asia map?",
+    "Why do Colombo and Sri Jayewardenepura Kotte both appear in profiles?",
+    "How does physical geography explain different landscapes?",
+    "How should languages, money and cultural heritage be described?",
+    "Why do cricket searches need their own explanation?",
+    "How can a student build a reliable one-page profile?",
+    "What final checks prevent naming and map mistakes?"
+  ],
+  "sources": [
+    {
+      "url": "https://srilanka.travel/research_tourism/research_tourism/srilanka-at-a-glance",
+      "title": "Sri Lanka Tourism: Sri Lanka at a Glance"
+    },
+    {
+      "url": "https://srilanka.travel/",
+      "title": "Sri Lanka Tourism official portal"
+    },
+    {
+      "url": "https://www.un.org/en/about-us/member-states",
+      "title": "United Nations member states"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Sri Lanka Palk Strait physical map",
+    "Sri Jayewardenepura Kotte parliament lake",
+    "Sri Lanka central highlands tea landscape"
+  ],
+  "imageInsertionHeadings": [
+    "Where is Sri Lanka on a South Asia map?",
+    "How does physical geography explain different landscapes?"
+  ],
+  "factualLimitations": "Educational geography scope. No live population, visa eligibility, cricket results or travel prices asserted; historical tourism statistics not reused.",
+  "keywordMethod": "Curated topic terms verified case-insensitively in prose, excluding headings, tables and Sources; no search-volume claim."
+}

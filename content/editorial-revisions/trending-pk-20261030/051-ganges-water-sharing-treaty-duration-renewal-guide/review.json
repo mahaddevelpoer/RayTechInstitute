@@ -1,0 +1,117 @@
+{
+  "proseWords": 2020,
+  "seoTerms": [
+    "Ganga",
+    "Ganges",
+    "water-sharing treaty",
+    "India",
+    "Bangladesh",
+    "Farakka",
+    "New Delhi",
+    "12 December 1996",
+    "Article XII",
+    "thirty-year",
+    "mutual consent",
+    "renewal",
+    "original term",
+    "December 2026",
+    "diplomatic status",
+    "river-measurement",
+    "Indus Waters Treaty",
+    "Pakistan",
+    "primary text",
+    "duration clause",
+    "entry into force",
+    "international agreement",
+    "joint statement",
+    "implementation",
+    "legal effect",
+    "lean-season",
+    "ten-day",
+    "basin map",
+    "political boundary",
+    "measurement point",
+    "Hydrological",
+    "barrage",
+    "reservoir",
+    "river reach",
+    "monitoring station",
+    "annual average",
+    "dry-season",
+    "daily variation",
+    "instantaneous measurement",
+    "Agriculture",
+    "navigation",
+    "ecosystems",
+    "Discharge",
+    "volume",
+    "water level",
+    "cross-sectional area",
+    "average velocity",
+    "Cubic metres per second",
+    "cubic feet per second",
+    "cusecs",
+    "flow rates",
+    "renewal negotiation",
+    "parliamentary answer",
+    "bilateral meeting",
+    "compliance",
+    "rainfall",
+    "unit",
+    "interval",
+    "source"
+  ],
+  "questions": [
+    "What exactly does the treaty's thirty-year term establish?",
+    "Does renewable by mutual consent mean automatic renewal?",
+    "What does the agreement cover at Farakka?",
+    "Why is dry-season flow different from annual water availability?",
+    "How should discharge, volume and water level be compared?",
+    "How can readers distinguish treaty review from renewal negotiations?",
+    "What evidence is needed before alleging a water-sharing breach?",
+    "How can students build a useful treaty-renewal research file?"
+  ],
+  "sources": [
+    {
+      "url": "https://digitallibrary.un.org/record/231765/files/A_51_806-EN.pdf",
+      "title": "UN General Assembly A/51/806: treaty text submitted by India and Bangladesh"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1993077&lang=2&reg=48",
+      "title": "Government of India: implementation summary of Ganga/Ganges sharing"
+    },
+    {
+      "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU2405_vLo0xd.pdf?source=pqals",
+      "title": "Lok Sabha question 2405, answered 13 February 2026"
+    },
+    {
+      "url": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured?qt-science_center_objects=0",
+      "title": "USGS: How streamflow is measured"
+    }
+  ],
+  "state": "written-awaiting-images-and-review",
+  "imageSearchPhrases": [
+    "Farakka Barrage Ganges river aerial",
+    "Ganges river basin India Bangladesh map",
+    "river discharge channel cross section diagram"
+  ],
+  "imageInsertionHeadings": [
+    "What does the agreement cover at Farakka?",
+    "How should discharge, volume and water level be compared?"
+  ],
+  "factualLimitations": "Original duration verified; no claim of completed renewal, present negotiation outcome, interruption or breach. February 2026 answer explicitly historical.",
+  "verification": {
+    "wordMethod": "Body paragraphs only; headings, tables and final Sources excluded. Hyphenated words counted as one.",
+    "seoMethod": "Curated unique case-insensitive phrases verified present in paragraph prose; no search-volume claim.",
+    "metadataPreserved": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "excerpt",
+      "author",
+      "featuredImage"
+    ],
+    "imagesPending": true
+  }
+}
