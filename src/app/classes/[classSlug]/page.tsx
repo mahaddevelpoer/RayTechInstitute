@@ -41,7 +41,6 @@ export async function generateMetadata({
     },
     openGraph: {
       images: [DEFAULT_SOCIAL_IMAGE],
-      robots: {index: INITIAL_SUBJECTS.some(subject=>subject.classSlug===classSlug), follow:true},
     title: buildSeoTitle(`${className} Study Resources & Notes`),
       description,
       url: siteUrl(`/classes/${classSlug}/`),
