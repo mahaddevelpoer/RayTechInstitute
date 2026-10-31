@@ -10,6 +10,13 @@ test('AI requires real editorial fields but permits unknown source/profile detai
  Object.assign(seo,{sources:'',internalLinks:'',imageCaption:'',socialImage:'',authorUrl:''});
  assert.ok(validateAiArticleSeo({seo}).seo.enabled.includes('title'));assert.ok(!seo.enabled.includes('sources'));
 });
+test('omitted optional review fields do not discard an otherwise valid AI draft',()=>{
+ const seo=Object.fromEntries(['title','description','imageAlt','socialTitle','socialDescription'].map(key=>[key,'Topic detail']));
+ const article={content:'Preserved article',seo};validateAiArticleSeo(article);
+ assert.equal(article.content,'Preserved article');assert.equal(seo.sources,'');assert.equal(seo.authorUrl,'');assert.ok(!seo.enabled.includes('sources'));
+ seo.sources=['https://example.org/source',null];seo.internalLinks=null;
+ validateAiArticleSeo(article);assert.equal(seo.sources,'https://example.org/source');assert.equal(seo.internalLinks,'');assert.ok(seo.enabled.includes('sources'));
+});
 test('SEO migration is repeatable and preserves existing articles and optional settings',async()=>{
  const db=new PGlite();try{
  await db.exec("CREATE TABLE public.blogs(id text primary key, content text); INSERT INTO public.blogs VALUES('existing','Preserved content');");
