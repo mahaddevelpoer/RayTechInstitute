@@ -4,15 +4,26 @@ import fs from 'node:fs/promises';
 import {PGlite} from '@electric-sql/pglite';
 import {loadTypescript} from './load-typescript.mjs';
 const {validateAiArticleSeo}=await loadTypescript('supabase/functions/_shared/article-draft.ts');
+test('missing, null, array and partial SEO objects recover from actual article text',()=>{
+ for(const seo of [undefined,null,[],{}, {title:'Custom search title'},'unexpected']){
+  const article={title:'Variables in Python',content:'Variables hold references to values.\n\nUse a descriptive name.',seo};
+  const result=validateAiArticleSeo(article);
+  assert.equal(result.content,article.content);assert.ok(result.seo.title);assert.ok(result.seo.description);assert.ok(result.seo.socialTitle);assert.ok(result.seo.socialDescription);assert.equal(result.seo.sources,'');
+ }
+});
+test('alternate metadata shapes normalize while unsafe references are discarded',()=>{
+ const result=validateAiArticleSeo({title:'Topic',content:'Useful explanation.',metadata:{metaTitle:'Search title',metaDescription:'Search description',sources:[{url:'https://example.org/reference'},'javascript:alert(1)'],internalLinks:['/courses/','//bad.test/'],authorUrl:'javascript:bad'}});
+ assert.equal(result.seo.title,'Search title');assert.equal(result.seo.description,'Search description');assert.equal(result.seo.sources,'https://example.org/reference');assert.equal(result.seo.internalLinks,'/courses/');assert.equal(result.seo.authorUrl,'');
+});
 test('AI requires real editorial fields but permits unknown source/profile details to remain blank',()=>{
  assert.throws(()=>validateAiArticleSeo({}));
  const seo=Object.fromEntries(['title','description','imageAlt','socialTitle','socialDescription'].map(key=>[key,'Specific topic detail']));
  Object.assign(seo,{sources:'',internalLinks:'',imageCaption:'',socialImage:'',authorUrl:''});
- assert.ok(validateAiArticleSeo({seo}).seo.enabled.includes('title'));assert.ok(!seo.enabled.includes('sources'));
+ assert.ok(validateAiArticleSeo({title:"Topic",content:"Article content",seo}).seo.enabled.includes('title'));assert.ok(!seo.enabled.includes('sources'));
 });
 test('omitted optional review fields do not discard an otherwise valid AI draft',()=>{
  const seo=Object.fromEntries(['title','description','imageAlt','socialTitle','socialDescription'].map(key=>[key,'Topic detail']));
- const article={content:'Preserved article',seo};validateAiArticleSeo(article);
+ const article={title:'Topic',content:'Preserved article',seo};validateAiArticleSeo(article);
  assert.equal(article.content,'Preserved article');assert.equal(seo.sources,'');assert.equal(seo.authorUrl,'');assert.ok(!seo.enabled.includes('sources'));
  seo.sources=['https://example.org/source',null];seo.internalLinks=null;
  validateAiArticleSeo(article);assert.equal(seo.sources,'https://example.org/source');assert.equal(seo.internalLinks,'');assert.ok(seo.enabled.includes('sources'));
