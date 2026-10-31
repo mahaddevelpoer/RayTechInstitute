@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl("/")),
   verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION.trim() } : undefined,
   title: {
-    default: buildSeoTitle("Class Study Resources and Programming Courses"),
+    default: buildSeoTitle("Study Notes & Programming Courses"),
     template: "%s",
   },
   description:
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     locale: "en_PK",
     url: siteUrl("/"),
     title:
-      buildSeoTitle("Class Study Resources and Programming Courses"),
+      buildSeoTitle("Study Notes & Programming Courses"),
     description:
       BRAND_DESCRIPTION,
     siteName: "RayTech Institute",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      buildSeoTitle("Class Study Resources and Programming Courses"),
+      buildSeoTitle("Study Notes & Programming Courses"),
     description:
       BRAND_DESCRIPTION,
     images: [DEFAULT_SOCIAL_IMAGE.url],

@@ -42,8 +42,27 @@ test('server deadlines reject late answers and resuming cannot reset the same qu
 
 test('scores and tied ranks are computed from persisted answers, without exposing identity or answers in public results',async()=>{
  for(const uid of ['tie-one','tie-two']){let view=await start(uid);for(let i=0;i<20;i++){const state=(await row(uid)).body;const q=state.paper[state.position];view=await service.answer(uid,{attemptId:view.id,questionId:q.id,option:q.correctIndex});}assert.equal(view.result.score,20);assert.equal(view.result.rank,null);}
- assert.equal((await service.overview(config.id)).leaderboard.length,0);const previous=now;now=Date.parse(config.endsAt)+1;const overview=await service.overview(config.id);assert.equal(overview.leaderboard.filter(x=>x.rank===1).length,2);assert.doesNotMatch(JSON.stringify(overview),/correctIndex|"paper"|"uid"|"events"/);
+ const live=await service.overview(config.id);assert.equal(live.leaderboard.filter(x=>x.rank===1).length,2);assert.doesNotMatch(JSON.stringify(live),/correctIndex|\"paper\"|\"uid\"|\"events\"/);const previous=now;now=Date.parse(config.endsAt)+1;const overview=await service.overview(config.id);assert.equal(overview.leaderboard.filter(x=>x.rank===1).length,2);assert.doesNotMatch(JSON.stringify(overview),/correctIndex|"paper"|"uid"|"events"/);
  const result=await service.result(overview.leaderboard[0].resultId);assert.equal(result.score,20);assert.equal(result.rank,1);now=previous;
+});
+
+test('zero-score eligible finishers appear in live provisional standings',async()=>{
+ let view=await start('zero-score-live');
+ for(let i=0;i<20;i++){const state=(await row('zero-score-live')).body;const q=state.paper[state.position];view=await service.answer('zero-score-live',{attemptId:view.id,questionId:q.id,option:(q.correctIndex+1)%4});}
+ const board=(await service.overview(config.id)).leaderboard;
+ const entry=board.find(item=>item.resultId===view.result.resultId);
+ assert.ok(entry,'A completed zero-score attempt must not be filtered out');assert.equal(entry.score,0);
+});
+
+test('standings pagination retains global tied ranks and includes low scores beyond twenty',async()=>{
+ await db.exec(await fs.readFile('supabase/migrations/20261031010000_competition_standings_pagination.sql','utf8'));
+ for(let i=0;i<24;i++)await db.query("INSERT INTO competition_private.attempts(id,uid,week_key,round_id,body) SELECT gen_random_uuid(),$1,week_key,round_id,body FROM competition_private.attempts WHERE uid='zero-score-live'",['pagination-'+i]);
+ try{
+ const first=await service.overview(config.id,0),next=await service.overview(config.id,20);
+ assert.equal(first.leaderboard.length,20);assert.ok(next.leaderboard.length>0);
+ const ids=new Set(first.leaderboard.map(x=>x.resultId));assert.ok(next.leaderboard.every(x=>!ids.has(x.resultId)));
+ assert.ok(next.leaderboard.every(x=>x.score===0));assert.ok(next.leaderboard.every(x=>x.rank===first.leaderboard.find(x=>x.score===0).rank));
+ }finally{await db.query("DELETE FROM competition_private.attempts WHERE uid LIKE 'pagination-%'");}
 });
 
 test('names, optional pictures and incomplete banks are validated before consuming an attempt',async()=>{

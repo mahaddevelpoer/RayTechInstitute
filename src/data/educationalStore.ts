@@ -172,6 +172,8 @@ export const EducationalStore = {
           classSlug: c.class_slug,
           subjectSlug: c.subject_slug,
           chapterNumber: c.chapter_number,
+          bookTitle: c.book_title || undefined,
+          displayChapterNumber: c.display_chapter_number || undefined,
           title: c.title,
           description: c.description || undefined,
           isActive: c.is_active !== false,
@@ -267,6 +269,7 @@ export const EducationalStore = {
           datePublished: b.date_published,
           readTime: b.read_time,
           tags: Array.isArray(b.tags) ? b.tags : [],
+          seo: b.seo || {},
           actionButtonText:
             b.action_button_text || b.actionButtonText || undefined,
           actionButtonUrl:
@@ -389,6 +392,8 @@ export const EducationalStore = {
       subject_slug: item.subjectSlug,
       chapter_number: item.chapterNumber,
       title: item.title,
+      book_title: item.bookTitle || null,
+      display_chapter_number: item.displayChapterNumber || null,
       description: item.description || null,
       is_active: item.isActive,
     });
@@ -583,6 +588,7 @@ export const EducationalStore = {
       date_published: item.datePublished,
       read_time: item.readTime,
       tags: item.tags,
+      seo: item.seo || {},
       action_button_text: item.actionButtonText || null,
       action_button_url: item.actionButtonUrl || null,
     });

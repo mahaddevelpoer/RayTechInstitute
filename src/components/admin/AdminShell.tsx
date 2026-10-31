@@ -1,5 +1,6 @@
 "use client";
 
+import './admin.css';
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -126,7 +127,7 @@ export default function AdminShell({
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
+    <div className="admin-workspace min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
       {/* Top Bar */}
       <header className="h-12 bg-navy-700 text-white px-4 flex items-center justify-between z-40 text-xs">
         <div className="flex items-center gap-3">
@@ -190,6 +191,7 @@ export default function AdminShell({
                   <Link
                     key={item.href}
                     href={item.href}
+                    aria-current={isActive?"page":undefined}
                     onClick={() => setSidebarOpen(false)}
                     className={`flex min-h-12 items-center gap-2.5 px-3 py-2 rounded transition-colors font-medium ${
                       isActive
@@ -213,6 +215,7 @@ export default function AdminShell({
           className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8 bg-slate-50"
         >
           <div className="max-w-6xl mx-auto">
+            <section className="admin-orientation" aria-label="Workspace guidance"><div><strong>{navItems.find(item=>item.href===pathname)?.label||"Administration"}</strong><p>Create or edit content here. Public pages update after a successful publish build.</p></div><Link href="/admin/">Publishing overview</Link></section>
             {operationError && <div role="alert" className="mb-5 rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-900"><p>{operationError}</p><button type="button" className="mt-2 min-h-12 rounded-md border border-red-300 px-3 font-semibold" onClick={() => setOperationError('')}>Dismiss error</button></div>}
             {publishStatus && (
               <div

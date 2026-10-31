@@ -1,6 +1,6 @@
 import type { ChapterItem } from '@/types/educational';
 
-type ChapterIdentity = Pick<ChapterItem, 'classSlug' | 'subjectSlug' | 'chapterNumber' | 'title'> & { id?: string };
+type ChapterIdentity = Pick<ChapterItem, 'classSlug' | 'subjectSlug' | 'chapterNumber' | 'title'> & { id?: string; bookTitle?:string; displayChapterNumber?:number };
 
 // Display positions are separate from the stored chapter numbers used by MCQs and URLs.
 const ditChapters = [
@@ -14,6 +14,7 @@ export function usesChapterBooks(classSlug: string, subjectSlug: string) {
 }
 
 export function chapterPlacement(chapter: ChapterIdentity) {
+  if(chapter.bookTitle?.trim())return {bookId:chapter.bookTitle.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-'),bookTitle:chapter.bookTitle.trim(),number:chapter.displayChapterNumber||chapter.chapterNumber,title:chapter.title};
   if (!usesChapterBooks(chapter.classSlug, chapter.subjectSlug)) return null;
   const entry = ditChapters.find(item => item.id === chapter.id || item.titles.includes(chapter.title.trim().toLowerCase()));
   return entry

@@ -28,7 +28,11 @@ const derivedSeedChapters = SEED_MCQS.reduce<Record<string, { id: string; classS
 export const INITIAL_CLASSES = STATIC_OVERRIDES.classes ?? SEED_CLASSES;
 export const INITIAL_SUBJECTS = STATIC_OVERRIDES.subjects ?? SEED_SUBJECTS;
 export const INITIAL_NOTES = STATIC_OVERRIDES.notes ?? SEED_NOTES;
-export const INITIAL_MCQS = STATIC_OVERRIDES.mcqs ?? SEED_MCQS;
+// These five computer-fundamentals records were published under SDLC Chapter 1.
+// Keep the saved records intact; withhold them from public quizzes until their
+// textbook/edition and chapter association have been reviewed by an editor.
+const CHAPTER_REVIEW_PENDING = new Set(['mcq-1791959684546-sn62b','mcq-1791959685116-xidgz','mcq-1791959685379-8st80','mcq-1791959685663-b8b3q','mcq-1791959685796-p9mf4']);
+export const INITIAL_MCQS = (STATIC_OVERRIDES.mcqs ?? SEED_MCQS).filter(item=>!CHAPTER_REVIEW_PENDING.has(item.id));
 export const INITIAL_PAST_PAPERS = STATIC_OVERRIDES.pastPapers ?? SEED_PAST_PAPERS;
 export const INITIAL_GAZETTES = STATIC_OVERRIDES.gazettes ?? SEED_GAZETTES;
 export const INITIAL_BLOGS = STATIC_OVERRIDES.blogs ?? SEED_BLOGS;

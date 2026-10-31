@@ -30,9 +30,10 @@ export function createCompetitionHandler(deps:Dependencies){
    if(request.method==='GET'){
     const action=url.searchParams.get('action')||'overview';if(!['overview','result'].includes(action))throw new CompetitionError(400,'Unknown public competition request.');
     const id=url.searchParams.get(action==='result'?'resultId':'roundId')||'';if(id&&!/^[a-zA-Z0-9-]{1,100}$/.test(id))throw new CompetitionError(400,'Invalid competition reference.');
-    const key=action+':'+id;let entry=cache.get(key);
+    const offset=Number(url.searchParams.get('offset')||0);if(!Number.isSafeInteger(offset)||offset<0||offset>100000)throw new CompetitionError(400,'Invalid standings page.');
+    const key=action+':'+id+':'+offset;let entry=cache.get(key);
     if(!entry||entry.until<=now()){
-     const data=action==='overview'?{...await service.overview(id||undefined),turnstileSiteKey:deps.siteKey,localPreview:deps.localPreview===true}:await service.result(id);
+     const data=action==='overview'?{...await service.overview(id||undefined,offset),turnstileSiteKey:deps.siteKey,localPreview:deps.localPreview===true}:await service.result(id);
      entry={until:now()+30000,data};if(cache.size>100)cache.clear();cache.set(key,entry);
     }return respond(200,{success:true,data:entry.data},true);
    }

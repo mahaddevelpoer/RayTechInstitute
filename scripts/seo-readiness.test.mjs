@@ -33,8 +33,8 @@ test('the actual lesson, quiz and course generators have distinct bounded metada
  const course=await page('src/app/courses/[courseSlug]/page.tsx');
  const titles=new Set(),descriptions=new Set();
  const check=meta=>{
-  assert.ok(meta.title.length>=50&&meta.title.length<=60,meta.title);
-  assert.ok(meta.description.length>=120&&meta.description.length<=155,meta.description);
+  assert.ok(meta.title.trim().length>0&&!meta.title.includes('…'),meta.title);
+  assert.ok(meta.description.trim().length>0&&!meta.description.endsWith('…'),meta.description);
   assert.ok(!titles.has(meta.title),'duplicate title: '+meta.title);assert.ok(!descriptions.has(meta.description),'duplicate description: '+meta.description);
   titles.add(meta.title);descriptions.add(meta.description);
   assert.equal(meta.openGraph.url,meta.alternates.canonical);assert.equal(meta.openGraph.title,meta.title);assert.equal(meta.twitter.title,meta.title);assert.equal(meta.openGraph.images[0].url,'/og/raytech-study-resources.png');

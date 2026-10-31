@@ -95,7 +95,7 @@ BEGIN
    SELECT jsonb_build_object('resultId',id,'displayName',body->>'displayName','photoUrl',body->>'photoUrl','score',(body->>'score')::int,'total',jsonb_array_length(body->'paper'),
     'completedAt',body->>'completedAt','rank',dense_rank() OVER(ORDER BY (body->>'score')::int DESC)) AS item
    FROM competition_private.attempts WHERE round_id=p_payload->>'roundId' AND body->>'status'='completed' AND coalesce((body->>'underReview')::boolean,false)=false
-   ORDER BY (body->>'score')::int DESC,body->>'completedAt',id LIMIT 20
+   ORDER BY (body->>'score')::int DESC,body->>'completedAt',id LIMIT 20 OFFSET least(100000,greatest(0,coalesce((p_payload->>'offset')::int,0)))
   ) ranked;
  WHEN 'result' THEN
   SELECT jsonb_build_object('resultId',id,'roundId',round_id,'endsAt',body->>'endsAtIso','displayName',body->>'displayName','photoUrl',body->>'photoUrl','score',(body->>'score')::int,'total',jsonb_array_length(body->'paper'),'completedAt',body->>'completedAt','underReview',coalesce((body->>'underReview')::boolean,false),

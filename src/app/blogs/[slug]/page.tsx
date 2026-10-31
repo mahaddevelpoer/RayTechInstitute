@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import React from "react";
@@ -32,24 +33,23 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = INITIAL_BLOGS.find((b) => b.slug === slug);
   if (!post) {
-    return {
+    return withSocialMetadata({
       title: buildSeoTitle("Educational Bulletin and Update"),
       description:
         "Official board examination alerts, admissions schedules, and academic news.",
       alternates: {
         canonical: siteUrl(`/blogs/${slug}/`),
       },
-    };
+    });
   }
 
-  const seoTitle = buildSeoTitle(post.title);
+  const enabled=(key:string)=>post.seo?.enabled?.includes(key);
+  const seoTitle = buildSeoTitle(enabled('title')&&post.seo?.title?post.seo.title:post.title);
   const seoDescription = needsSourceReview(post.content)
     ? "This educational update is awaiting source verification. Read current result guidance and check your board notice for the latest confirmed information."
-    : post.excerpt.length > 155
-      ? `${post.excerpt.slice(0, 152).replace(/\s+\S*$/, "")}...`
-      : post.excerpt;
+    : enabled('description')&&post.seo?.description?post.seo.description:post.excerpt;
 
-  return {
+  return withSocialMetadata({
     robots: needsSourceReview(post.content)
       ? { index: false, follow: true }
       : undefined,
@@ -59,15 +59,16 @@ export async function generateMetadata({
     alternates: {
       canonical: siteUrl(`/blogs/${slug}/`),
     },
+    twitter: {card:"summary_large_image",title: enabled("socialTitle")&&post.seo?.socialTitle?post.seo.socialTitle:seoTitle,description:enabled("socialDescription")&&post.seo?.socialDescription?post.seo.socialDescription:seoDescription,images:[enabled("socialImage")&&post.seo?.socialImage&&/^https:\/\//.test(post.seo.socialImage)?post.seo.socialImage:post.featuredImage]},
     openGraph: {
-      title: seoTitle,
-      description: seoDescription,
+      title: enabled("socialTitle")&&post.seo?.socialTitle?post.seo.socialTitle:seoTitle,
+      description: enabled("socialDescription")&&post.seo?.socialDescription?post.seo.socialDescription:seoDescription,
       url: siteUrl(`/blogs/${slug}/`),
       images: [
         {
           url: needsSourceReview(post.content)
             ? siteUrl("/android-chrome-512x512.png")
-            : post.featuredImage,
+            : enabled("socialImage")&&post.seo?.socialImage&&/^https:\/\//.test(post.seo.socialImage)?post.seo.socialImage:post.featuredImage,
           width: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.width || 1200,
           height: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.height || 630,
           alt: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.alt || post.title,
@@ -77,7 +78,7 @@ export async function generateMetadata({
       publishedTime: post.datePublished,
       authors: [post.author],
     },
-  };
+  });
 }
 
 export default async function BlogDetailPage({ params }: PageProps) {

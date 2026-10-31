@@ -1,5 +1,7 @@
 "use client";
 
+import {ArticleSeoEditor} from '@/components/admin/ArticleSeoEditor';
+import type {ArticleSeo} from '@/types/educational';
 import {BLOG_CATEGORIES} from '@/data/blogCategories';
 import React, { useState, useEffect } from "react";
 import {
@@ -26,6 +28,7 @@ import { supabase } from "@/lib/supabase";
 import { readingMinutes } from "@/utils/editorial";
 
 export default function AdminBlogsPage() {
+  const [seo,setSeo]=useState<ArticleSeo>({});
   const [blogs, setBlogs] = useState<BlogPostItem[]>([]);
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
@@ -35,9 +38,9 @@ export default function AdminBlogsPage() {
   const [featuredImage, setFeaturedImage] = useState(
     "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
   );
-  const [author, setAuthor] = useState("Academic Coordination Committee");
+  const [author, setAuthor] = useState("RayTech Institute");
   const [tags, setTags] = useState(
-    "Date Sheet, Study Resources, Examination Updates",
+    "",
   );
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
@@ -91,6 +94,7 @@ export default function AdminBlogsPage() {
     setSuccessMsg("");
     try {
       const blogItem: BlogPostItem = {
+        seo,
         id: editingId || `blog-${Date.now()}`,
         title: title.trim(),
         slug: slug.trim().toLowerCase().replace(/\s+/g, "-"),
@@ -98,7 +102,7 @@ export default function AdminBlogsPage() {
         excerpt: excerpt.trim() || title.trim(),
         content: content.trim(),
         featuredImage: featuredImage.trim(),
-        author: author.trim() || "RayTech Academic Cell",
+        author: author.trim() || "RayTech Institute",
         datePublished:
           blogs.find((item) => item.id === editingId)?.datePublished ||
           new Date().toISOString().split("T")[0],
@@ -135,6 +139,7 @@ export default function AdminBlogsPage() {
   };
 
   const handleEdit = (b: BlogPostItem) => {
+    setSeo(b.seo||{});
     setEditingId(b.id);
     setTitle(b.title);
     setSlug(b.slug);
@@ -158,6 +163,7 @@ export default function AdminBlogsPage() {
 
   const resetForm = () => {
     setEditingId(null);
+    setSeo({});
     setTitle("");
     setSlug("");
     setExcerpt("");
@@ -228,6 +234,7 @@ export default function AdminBlogsPage() {
       }
 
       const generated = data.article;
+      setSeo(generated.seo||{});
       setTitle(generated.title || aiTopic);
       setSlug(
         generated.slug ||
@@ -515,7 +522,8 @@ export default function AdminBlogsPage() {
                 >
                   Cancel
                 </button>
-                <button
+
+              <button
                   type="submit"
                   disabled={isGenerating}
                   className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded flex items-center gap-2 transition-colors disabled:opacity-60"
@@ -803,6 +811,7 @@ AI-generated articles from Gemini/ChatGPT can be previewed seamlessly!
               />
             </div>
 
+            <ArticleSeoEditor value={seo} onChange={setSeo}/>
             <button
               type="submit"
               disabled={isSaving}

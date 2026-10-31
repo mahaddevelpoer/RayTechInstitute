@@ -50,7 +50,7 @@ export function PdfDetailClientView({
       </a>
 
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(360px,0.85fr)] lg:items-start">
-        <article>
+        <article className="min-w-0 [overflow-wrap:anywhere]">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-orange-700">
             {eyebrow}
           </p>
@@ -64,7 +64,7 @@ export function PdfDetailClientView({
             {metadata.map((item) => (
               <span
                 key={item}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600"
+                className="max-w-full rounded-md border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 [overflow-wrap:anywhere]"
               >
                 {item}
               </span>
@@ -88,7 +88,7 @@ export function PdfDetailClientView({
           </section>
         </article>
 
-        <aside className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+        <aside className="min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
           <div className="flex items-center justify-between border-b border-slate-200 bg-slate-50 px-4 py-3">
             <span className="text-sm font-bold text-navy-900">
               Document preview

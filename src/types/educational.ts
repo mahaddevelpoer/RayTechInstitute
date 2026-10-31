@@ -17,6 +17,8 @@ export interface SubjectItem {
 }
 
 export interface ChapterItem {
+  bookTitle?: string;
+  displayChapterNumber?: number;
   id: string;
   classSlug: string;
   subjectSlug: string;
@@ -89,7 +91,14 @@ export interface GazetteItem {
 
 export type BlogCategory = 'date-sheets' | 'admissions' | 'career-guides' | 'general' | 'sports' | 'technology' | 'science' | 'economy' | 'world-affairs' | 'entertainment' | 'education';
 
+export interface ArticleSeo {
+ enabled?: string[];
+ title?:string;description?:string;imageAlt?:string;imageCaption?:string;
+ socialTitle?:string;socialDescription?:string;socialImage?:string;authorUrl?:string;
+ sources?:string;internalLinks?:string;
+}
 export interface BlogPostItem {
+  seo?: ArticleSeo;
   id: string;
   title: string;
   slug: string;

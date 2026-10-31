@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -40,14 +41,14 @@ export async function generateMetadata({
   const currentSubject = INITIAL_SUBJECTS.find(
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
-  if (!currentClass || !currentSubject) return {};
+  if (!currentClass || !currentSubject) return withSocialMetadata({});
   const hasResources = INITIAL_MCQS.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const topics = Array.from(new Set(INITIAL_MCQS.filter(item => item.classSlug === classSlug && item.subjectSlug === subjectSlug).map(item => item.topic?.trim()).filter((topic): topic is string => !!topic)));
   const description = buildDocumentDescription('Practise by chapter and topic, answer one question at a time, then review your score and explanations.', `${className} ${currentSubject.title} MCQs`);
   const title = buildResourceSeoTitle(className, currentSubject.title, 'MCQs & Answers');
 
-  return {
+  return withSocialMetadata({
     title,
     description,
     keywords: studyResourceKeywords(className, currentSubject.title, topics),
@@ -63,7 +64,7 @@ export async function generateMetadata({
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/mcqs/`),
       type: "website",
     },
-  };
+  });
 }
 
 export default async function SubjectMCQsServerPage({ params }: PageProps) {

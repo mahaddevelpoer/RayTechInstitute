@@ -78,8 +78,9 @@ export function BlogDetailClientView({
       : post.excerpt,
     datePublished: post.datePublished,
     author: {
-      "@type": post.author === "RayTech Institute" ? "Organization" : "Person",
+      "@type": /^(RayTech Institute|Reuters|Associated Press|BBC)$/i.test(post.author.trim()) ? "Organization" : "Person",
       name: post.author,
+      ...(post.seo?.enabled?.includes("authorUrl")&&post.seo.authorUrl&&/^https:\/\//.test(post.seo.authorUrl)?{url:post.seo.authorUrl}:{}),
     },
     publisher: {
       "@type": "Organization",
@@ -228,7 +229,7 @@ export function BlogDetailClientView({
               ? fallbackImage
               : sanitizeUrl(post.featuredImage) || fallbackImage
           }
-          alt={reviewedCover?.alt || post.title}
+          alt={post.seo?.enabled?.includes('imageAlt')&&post.seo.imageAlt?post.seo.imageAlt:reviewedCover?.alt || post.title}
           width={reviewedCover?.width || 800}
           height={reviewedCover?.height || 450}
           loading="eager"
@@ -241,7 +242,7 @@ export function BlogDetailClientView({
           }}
         />
       </div>
-      {reviewedCover?.caption && <figcaption className="mt-2 text-xs leading-relaxed text-slate-500">{reviewedCover.caption}</figcaption>}
+      {(post.seo?.enabled?.includes("imageCaption")&&post.seo.imageCaption||reviewedCover?.caption) && <figcaption className="mt-2 text-xs leading-relaxed text-slate-500">{post.seo?.enabled?.includes("imageCaption")&&post.seo.imageCaption||reviewedCover?.caption}</figcaption>}
       </figure>
 
       {sections.length > 1 && (
@@ -340,13 +341,16 @@ export function BlogDetailClientView({
       )}
 
       <p className="mt-8 text-sm leading-7 text-slate-600">
-        Result dates, fees and eligibility must be checked against the board's
-        current notice.{" "}
+        {['date-sheets', 'admissions', 'results', 'education'].includes(post.category)
+          ? "Result dates, fees and eligibility must be checked against the issuing authority's current notice. "
+          : "Found an error or an outdated detail? "}
         <Link href="/#contact" className="underline">
           Report a correction
         </Link>{" "}
         with the article URL and original source.
       </p>
+      {post.seo?.enabled?.includes('sources')&&post.seo.sources&&<section className="mt-8 text-sm"><h2 className="font-semibold">Sources</h2><ul>{post.seo.sources.split('\n').filter(url=>/^https:\/\//.test(url.trim())).map(url=><li key={url}><a href={sanitizeUrl(url.trim())} target="_blank" rel="noopener noreferrer">Source</a></li>)}</ul></section>}
+      {post.seo?.enabled?.includes('internalLinks')&&post.seo.internalLinks&&<nav aria-label="Related pages" className="mt-6"><h2 className="font-semibold">Related reading</h2>{post.seo.internalLinks.split('\n').filter(url=>url.startsWith('/')&&!url.startsWith('//')).map(url=><p key={url}><Link href={url.trim()}>{url.trim()}</Link></p>)}</nav>}
       {/* Tags */}
       <div className="mt-8 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div className="flex flex-wrap gap-1.5">

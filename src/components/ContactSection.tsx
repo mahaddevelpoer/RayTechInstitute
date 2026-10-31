@@ -71,12 +71,12 @@ export const ContactSection: React.FC = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                <label htmlFor="contact-name" className="block text-xs font-semibold text-slate-700 mb-1">
                   Your Name *
                 </label>
                 <input
                   type="text"
-                  name="name"
+                  id="contact-name" name="name"
                   required
                   value={fields.name}
                   onChange={set('name')}
@@ -86,12 +86,12 @@ export const ContactSection: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                <label htmlFor="contact-email" className="block text-xs font-semibold text-slate-700 mb-1">
                   Email Address *
                 </label>
                 <input
                   type="email"
-                  name="email"
+                  id="contact-email" name="email"
                   required
                   value={fields.email}
                   onChange={set('email')}
@@ -103,12 +103,12 @@ export const ContactSection: React.FC = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                <label htmlFor="contact-subject" className="block text-xs font-semibold text-slate-700 mb-1">
                   Subject / Topic
                 </label>
                 <input
                   type="text"
-                  name="subject"
+                  id="contact-subject" name="subject"
                   value={fields.subject}
                   onChange={set('subject')}
                   placeholder="e.g. Class and subject notes request"
@@ -117,12 +117,12 @@ export const ContactSection: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                <label htmlFor="contact-organization" className="block text-xs font-semibold text-slate-700 mb-1">
                   Board or College (Optional)
                 </label>
                 <input
                   type="text"
-                  name="organization"
+                  id="contact-organization" name="organization"
                   value={fields.organization}
                   onChange={set('organization')}
                   placeholder="e.g. BISE Lahore / Govt College"
@@ -132,11 +132,11 @@ export const ContactSection: React.FC = () => {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1">
+              <label htmlFor="contact-message" className="block text-xs font-semibold text-slate-700 mb-1">
                 Your Message or Question *
               </label>
               <textarea
-                name="message"
+                id="contact-message" name="message"
                 required
                 rows={4}
                 value={fields.message}

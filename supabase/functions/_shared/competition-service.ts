@@ -103,7 +103,7 @@ export function createCompetitionService(repo:CompetitionRepository,options:{now
 
  return{
 
-  async overview(roundId?:string){const rounds:CompetitionRound[]=await repo.call('catalog',null);const current=rounds.find(r=>r.id===roundId)||rounds.find(r=>Date.parse(r.startsAt)<=now()&&Date.parse(r.endsAt)>now())||rounds[0];return{rounds,leaderboard:current&&now()>=Date.parse(current.resultsAt||current.endsAt)?await repo.call('leaderboard',null,{roundId:current.id}):[],serverNow:now()};},
+  async overview(roundId?:string,offset=0){offset=Number.isSafeInteger(offset)&&offset>=0?Math.min(offset,100000):0;const rounds:CompetitionRound[]=await repo.call('catalog',null);const current=rounds.find(r=>r.id===roundId)||rounds.find(r=>Date.parse(r.startsAt)<=now()&&Date.parse(r.endsAt)>now())||rounds[0];return{rounds,leaderboard:current?await repo.call('leaderboard',null,{roundId:current.id,offset}):[],serverNow:now()};},
 
   async me(uid:string){const row:Versioned|null=await repo.call('attempt',uid);return row?this.state(uid):null;},
 

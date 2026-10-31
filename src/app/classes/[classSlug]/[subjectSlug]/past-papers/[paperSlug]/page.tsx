@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -49,12 +50,12 @@ export async function generateMetadata({
   const currentSubject = INITIAL_SUBJECTS.find(
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
   );
-  if (!paper || !currentSubject) return {};
+  if (!paper || !currentSubject) return withSocialMetadata({});
   const title = buildSeoTitle(
     `${currentSubject.title} ${paper.year} Past Paper PDF`,
   );
   const description = buildDocumentDescription(paper.description || '', `${paper.board} ${paper.year} ${currentSubject.title} past paper PDF`);
-  return {
+  return withSocialMetadata({
     title,
     description,
     alternates: {
@@ -71,7 +72,7 @@ export async function generateMetadata({
       ),
       type: "article",
     },
-  };
+  });
 }
 
 export default async function PastPaperDetailPage({
@@ -99,7 +100,7 @@ export default async function PastPaperDetailPage({
     <div className="flex min-h-screen flex-col bg-white text-slate-800">
       <Header />
       <PdfDetailClientView
-        backHref={`/classes/${classSlug}/${subjectSlug}/past-papers`}
+        backHref={`/classes/${classSlug}/${subjectSlug}/past-papers/`}
         backLabel="Back to past papers"
         eyebrow={`${paper!.board} · ${paper!.year}`}
         title={`${currentSubject!.title} ${paper!.session} Past Paper`}

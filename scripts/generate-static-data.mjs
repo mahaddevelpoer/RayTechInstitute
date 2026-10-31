@@ -60,6 +60,8 @@ const map = {
     subjectSlug: c.subject_slug,
     chapterNumber: c.chapter_number,
     title: c.title,
+    bookTitle: c.book_title || undefined,
+    displayChapterNumber: c.display_chapter_number || undefined,
     description: c.description || undefined,
     isActive: c.is_active !== false,
   }),
@@ -122,6 +124,7 @@ const map = {
   }),
   blogs: (b) => ({
     id: b.id,
+    seo: b.seo || {},
     title: b.title,
     slug: b.slug,
     category: b.category,

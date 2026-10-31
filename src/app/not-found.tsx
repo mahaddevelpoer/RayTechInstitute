@@ -1,0 +1,4 @@
+import type {Metadata} from 'next';
+import Link from 'next/link';
+export const metadata:Metadata={title:'Page Not Found | RayTech Institute',description:'This page could not be found. Continue to programming courses, class resources or the RayTech Institute homepage.',robots:{index:false,follow:true}};
+export default function NotFound(){return <main id="main-content" className="mx-auto max-w-3xl px-6 py-20"><p className="text-sm font-semibold text-blue-700">404</p><h1 className="mt-3 text-3xl font-bold">We could not find this page.</h1><p className="mt-4 leading-7">The address may have changed or the link may be incomplete. Choose where you would like to continue.</p><nav aria-label="Page recovery" className="mt-8 flex flex-wrap gap-5"><Link href="/">Home</Link><Link href="/courses/">Programming courses</Link><Link href="/classes/">Class resources</Link></nav></main>;}

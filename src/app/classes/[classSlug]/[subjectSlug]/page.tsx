@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -38,11 +39,12 @@ export async function generateMetadata({
   const currentSubject = INITIAL_SUBJECTS.find(
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
-  if (!currentClass || !currentSubject) return {};
+  if (!currentClass || !currentSubject) return withSocialMetadata({});
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Browse available chapter notes, topic MCQs and past papers. Read resource details and choose what you need for revision.', `${className} ${currentSubject.title}`);
 
-  return {
+  return withSocialMetadata({
+    robots: {index: [...INITIAL_NOTES,...INITIAL_MCQS,...INITIAL_PAST_PAPERS].some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug), follow:true},
     title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
     description,
     alternates: {
@@ -57,7 +59,7 @@ export async function generateMetadata({
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
       type: "website",
     },
-  };
+  });
 }
 
 export default async function SubjectHubPage({ params }: PageProps) {

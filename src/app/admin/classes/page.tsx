@@ -22,6 +22,8 @@ export default function AdminClassesPage() {
   const [chapterClass, setChapterClass] = useState('');
   const [chapterSubject, setChapterSubject] = useState('');
   const [chapterNumber, setChapterNumber] = useState(1);
+  const [bookTitle,setBookTitle]=useState('');
+  const [displayNumber,setDisplayNumber]=useState(1);
   const [chapterTitle, setChapterTitle] = useState('');
   const [chapterDescription, setChapterDescription] = useState('');
   const [editingChapterId, setEditingChapterId] = useState<string | null>(null);
@@ -45,6 +47,8 @@ export default function AdminClassesPage() {
       subjectSlug: chapterSubject,
       chapterNumber: Number(chapterNumber),
       title: chapterTitle.trim(),
+      bookTitle: bookTitle.trim()||undefined,
+      displayChapterNumber: displayNumber,
       description: chapterDescription.trim() || undefined,
       isActive: true,
     };
@@ -58,7 +62,7 @@ export default function AdminClassesPage() {
   const resetChapterForm = () => {
     setEditingChapterId(null);
     setChapterNumber(1);
-    setChapterTitle('');
+    setChapterTitle('');setBookTitle('');setDisplayNumber(1);
     setChapterDescription('');
   };
 
@@ -67,7 +71,7 @@ export default function AdminClassesPage() {
     setChapterClass(chapter.classSlug);
     setChapterSubject(chapter.subjectSlug);
     setChapterNumber(chapter.chapterNumber);
-    setChapterTitle(chapter.title);
+    setChapterTitle(chapter.title);setBookTitle(chapter.bookTitle||'');setDisplayNumber(chapter.displayChapterNumber||chapter.chapterNumber);
     setChapterDescription(chapter.description || '');
   };
 
@@ -301,6 +305,7 @@ export default function AdminClassesPage() {
               {subjects.filter((item) => item.classSlug === chapterClass).map((item) => <option key={item.id} value={item.slug}>{item.title}</option>)}
             </select>
             <input type="number" min={1} value={chapterNumber} onChange={(e) => setChapterNumber(Number(e.target.value))} placeholder="Chapter number" className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" required />
+            <label className="block">Book name (optional)<input value={bookTitle} onChange={e=>setBookTitle(e.target.value)} placeholder="e.g. MS Office" className="w-full border p-3"/></label><label className="block">Chapter number shown within this book<input type="number" min={1} value={displayNumber} onChange={e=>setDisplayNumber(Number(e.target.value))} className="w-full border p-3"/></label>
             <input value={chapterTitle} onChange={(e) => setChapterTitle(e.target.value)} placeholder="e.g. Problem Solving" className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" required />
             <textarea value={chapterDescription} onChange={(e) => setChapterDescription(e.target.value)} placeholder="Short chapter description" rows={3} className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded" />
             <button type="submit" className="w-full py-2 bg-navy-600 hover:bg-navy-700 text-white font-semibold rounded">{editingChapterId ? 'Update Chapter' : 'Save Chapter'}</button>

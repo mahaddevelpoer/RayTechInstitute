@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { needsSourceReview } from "@/utils/editorial";
 import { siteUrl } from "@/lib/site";
@@ -35,7 +36,7 @@ export async function generateMetadata({
   const description = buildDocumentDescription(gazette
     ? `View the ${gazette.board} ${gazette.year} ${gazette.session.toLowerCase()} result gazette, official board context, PDF preview, and verification guidance for students.`
     : "View class-wise result gazette details and PDF resources.", 'Result gazette');
-  return {
+  return withSocialMetadata({
     title,
     description,
     alternates: { canonical: siteUrl(`/results-gazettes/${gazetteSlug}/`) },
@@ -43,7 +44,7 @@ export async function generateMetadata({
       index: Boolean(gazette) && !needsSourceReview(gazette?.content),
       follow: Boolean(gazette),
     },
-  };
+  });
 }
 
 export default async function GazetteDetailPage({
@@ -63,7 +64,7 @@ export default async function GazetteDetailPage({
     <div className="flex min-h-screen flex-col bg-white text-slate-800">
       <Header />
       <PdfDetailClientView
-        backHref="/results-gazettes"
+        backHref="/results-gazettes/"
         backLabel="Back to result gazettes"
         eyebrow={`${gazette!.board} · ${gazette!.year}`}
         title={gazette!.title}

@@ -1,0 +1,27 @@
+.admin-workspace{--admin-accent:#08796a;--admin-ink:#172b35;--admin-muted:#526771;background:#f4f7f8;color:var(--admin-ink);font-size:15px;min-height:100dvh}
+.admin-workspace>header{height:auto;min-height:72px;padding:12px 24px;background:#123f43;border-bottom:4px solid #29b49c;gap:12px;flex-wrap:wrap}
+.admin-workspace>header .font-bold{font-size:18px}
+.admin-workspace>div>aside{width:248px;background:#fff;flex-shrink:0;border-color:#dce5e8;overflow-y:auto}
+.admin-workspace aside nav{font-size:14px;display:grid;gap:5px}
+.admin-workspace aside nav a{min-height:48px;border-radius:7px;padding:12px 14px}
+.admin-workspace aside nav a[aria-current=page]{background:#e5f5ef;color:#075e51;box-shadow:inset 3px 0 #08796a;font-weight:700}
+.admin-workspace main{min-width:0;background:#f4f7f8!important;padding:32px}
+.admin-workspace main h1{font-size:28px;line-height:1.25;letter-spacing:-.02em}
+.admin-workspace main h2{font-size:20px;line-height:1.4}
+.admin-workspace main form{line-height:1.6}
+.admin-workspace main label{font-size:14px;line-height:1.5}
+.admin-workspace main input:not([type=checkbox]):not([type=radio]),.admin-workspace main select,.admin-workspace main textarea{font-size:15px;line-height:1.6;min-height:46px;border-radius:7px;border-color:#c5d4d9;background:#fff;color:#172b35;padding:10px 12px;max-width:100%}
+.admin-workspace main textarea{min-height:96px}
+.admin-workspace :is(input,select,textarea,button,a):focus-visible{outline:3px solid #119c8b;outline-offset:3px}
+.admin-workspace main button{min-height:44px;border-radius:7px;white-space:normal}
+.admin-workspace main button[type=submit]{background:#08796a;color:white;padding:12px 20px;margin-top:20px;font-size:15px}
+.admin-workspace main fieldset{background:#fff;margin:24px 0;border-color:#ccdadd;border-radius:10px}
+.admin-workspace main table{font-size:14px}
+.admin-workspace main th{background:#eaf1f3;color:#233e49;padding:14px;text-align:left}
+.admin-workspace main td{padding:14px;border-bottom:1px solid #e1e9ec}
+.admin-workspace main :is(p,li){overflow-wrap:anywhere}
+.admin-orientation{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:18px 22px;margin-bottom:28px;background:#fff;border:1px solid #dce5e8;border-radius:10px}
+.admin-orientation p{margin:4px 0 0;color:var(--admin-muted);font-size:14px}
+.admin-orientation a{color:#08796a;font-weight:600}
+@media(max-width:767px){.admin-workspace main{padding:20px 16px}.admin-workspace>header{padding:10px 16px}.admin-workspace>div>aside{top:76px;max-width:85vw;box-shadow:12px 0 30px #123f4320}.admin-orientation{align-items:flex-start;flex-direction:column;padding:16px}.admin-workspace main h1{font-size:24px}}
+@media(prefers-reduced-motion:reduce){.admin-workspace *{scroll-behavior:auto!important;transition:none!important}}

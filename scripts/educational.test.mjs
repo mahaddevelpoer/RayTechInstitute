@@ -20,11 +20,11 @@ const { articleSections, readingMinutes, needsSourceReview } = await load(
   "src/utils/editorial.ts",
 );
 
-test('learning metadata remains bounded for short, long and blank editorial text', () => {
+test('learning metadata preserves complete normalized editorial text', () => {
   for (const summary of ['', 'A', 'Assign values.', 'programming '.repeat(100), 'X'.repeat(1000)]) {
     for (const context of ['', 'Variables (Python)', 'T'.repeat(200)]) {
       const result = buildLessonDescription(summary, context);
-      assert.ok(result.length >= 120 && result.length <= 155, `Description length: ${result.length}`);
+      assert.ok(result.length>0);assert.ok(!result.endsWith('…'));if(summary.trim())assert.ok(result.includes(summary.trim()));
       assert.equal(result, result.trim()); assert.ok(!/\s{2}/.test(result));
     }
   }
@@ -33,10 +33,10 @@ test('learning metadata remains bounded for short, long and blank editorial text
   assert.notEqual(python, buildLessonDescription('Assign values.', 'Variables (JavaScript)'));
 });
 
-test('search titles satisfy the build contract even for one-character or blank names', () => {
+test('search titles preserve complete names with one brand suffix', () => {
   for (const primary of ['', '   ', 'A', 'C', 'PHP', 'Variables (Python)', 'x'.repeat(500)]) {
     const result = buildSeoTitle(primary);
-    assert.ok(result.length >= 50 && result.length <= 60, `Title length: ${result.length}`);
+    assert.ok(result.length>0);assert.ok(!result.includes('…'));if(primary.trim())assert.ok(result.startsWith(primary.trim()));
     assert.ok(result.endsWith(' | RayTech Institute'));
   }
 });

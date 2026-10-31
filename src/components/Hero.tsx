@@ -27,7 +27,7 @@ export function Hero() {
         <div role="tabpanel" id={id+'-panel'} aria-labelledby={id+'-'+track.id} className="home-course-panel" key={track.id}>
           <div className="home-course-meta"><span><Code2 size={15}/>{track.title}</span><span>{track.count} published {track.count===1?'lesson':'lessons'}</span></div>
           <h2>{first.title}</h2><p>{first.summary}</p>
-          <pre aria-label={track.title+' lesson starter code'}><code>{first.code || 'Open the lesson to begin your first exercise.'}</code></pre>
+          <figure><figcaption className="sr-only">{track.title} lesson starter code</figcaption><pre><code>{first.code || 'Open the lesson to begin your first exercise.'}</code></pre></figure>
           <Link href={'/learn/'+track.slug+'/'+first.slug+'/'} className="home-course-open">Open this lesson<ArrowRight size={17}/></Link>
         </div>
       </div>}

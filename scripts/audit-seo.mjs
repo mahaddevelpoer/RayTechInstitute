@@ -145,10 +145,10 @@ for (const file of htmlFiles) {
       `${relative}: duplicate heading text (${duplicateHeadings.slice(0, 3).join(" | ")})`,
     );
   if (title.length < 50 || title.length > 60)
-    failures.push(`${relative}: title length ${title.length}; expected 50-60`);
+    warnings.push(`${relative}: title length ${title.length}; review search presentation`);
   if (description.length < 120 || description.length > 155)
-    failures.push(
-      `${relative}: description length ${description.length}; expected 120-155`,
+    warnings.push(
+      `${relative}: description length ${description.length}; review search presentation`,
     );
   try {
     const host = new URL(canonical).host;

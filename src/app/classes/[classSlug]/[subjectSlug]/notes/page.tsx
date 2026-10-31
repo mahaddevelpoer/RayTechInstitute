@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -35,12 +36,12 @@ export async function generateMetadata({
   const currentSubject = INITIAL_SUBJECTS.find(
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
-  if (!currentClass || !currentSubject) return {};
+  if (!currentClass || !currentSubject) return withSocialMetadata({});
   const hasResources = INITIAL_NOTES.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Browse available chapter notes and PDF revision resources. Check the document details and use its preview before downloading.', `${className} ${currentSubject.title} notes`);
 
-  return {
+  return withSocialMetadata({
     title: buildResourceSeoTitle(className, currentSubject.title, "Notes PDF"),
     description,
     robots: { index: hasResources, follow: true },
@@ -54,7 +55,7 @@ export async function generateMetadata({
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/`),
       type: "website",
     },
-  };
+  });
 }
 
 export default async function SubjectNotesServerPage({ params }: PageProps) {

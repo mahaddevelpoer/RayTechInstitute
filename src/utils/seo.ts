@@ -11,22 +11,10 @@ export function serializeJsonLd(value: unknown): string {
     .replace(/\u2029/g, '\\u2029');
 }
 
-/** Keep search titles readable and within the project's 50-60 character target. */
+/** Preserve complete editorial titles; search engines choose display length. */
 export function buildSeoTitle(primary: string): string {
-  const suffix = ' | RayTech Institute';
-  const maxPrimaryLength = 60 - suffix.length;
-  const minPrimaryLength = 50 - suffix.length;
-  let value = primary.replace(/\s+/g, ' ').trim() || 'Learning Resources';
-
-  for (const addition of [' Resources', ' Guide', ' Online', ' Study Notes']) {
-    if (value.length >= minPrimaryLength) break;
-    value += addition;
-  }
-
-  if (value.length > maxPrimaryLength) {
-    value = `${value.slice(0, maxPrimaryLength - 1).trimEnd()}…`;
-  }
-  return `${value}${suffix}`;
+  const value = primary.replace(/\s+/g, ' ').trim() || 'Learning Resources';
+  return value.endsWith(' | RayTech Institute') ? value : `${value} | RayTech Institute`;
 }
 
 /** Keep the page purpose visible even when a long topic title is shortened. */
@@ -51,11 +39,7 @@ export function buildLessonDescription(summary: string, context: string): string
     if (value.length >= 120) break;
     value += `${/[.!?]$/.test(value) ? '' : '.'} ${sentence}`;
   }
-  if (value.length <= 155) return value;
-  let shortened = value.slice(0, 154);
-  const boundary = shortened.lastIndexOf(' ');
-  if (boundary >= 120) shortened = shortened.slice(0, boundary);
-  return `${shortened.trimEnd()}…`;
+  return value;
 }
 
 /** Bound search metadata only. Never truncate the saved document description or content. */
@@ -66,21 +50,13 @@ export function buildDocumentDescription(summary: string, context: string): stri
   let value = label && text ? `${label}: ${text}` : label || text || 'View this study document.';
   if (value.length < 120)
     value += `${/[.!?]$/.test(value) ? '' : '.'} Read its details, open the original document and check the class, subject and examination session before using it for revision.`;
-  if (value.length <= 155) return value;
-  let shortened = value.slice(0, 154);
-  const boundary = shortened.lastIndexOf(' ');
-  if (boundary >= 120) shortened = shortened.slice(0, boundary);
-  return `${shortened.trimEnd()}…`;
+  return value;
 }
 
-/** Preserve the resource intent when shortening long class/subject titles. */
+/** Keep class, subject and resource purpose intact in metadata. */
 export function buildResourceSeoTitle(classTitle:string,subjectTitle:string,purpose:string):string {
  const level=classTitle.replace(/\s*\([^)]*\)/g,'').replace(/\bclass\b/ig,'').replace(/D\.?I\.?T\.?/ig,'DIT').replace(/\s+/g,' ').trim();
  const subject=subjectTitle.replace(/\s+/g,' ').trim();
  const primary=[level,subject,purpose].filter(Boolean).join(' ');
- const max=60-' | RayTech Institute'.length;
- if(primary.length<=max)return buildSeoTitle(primary);
- const prefix=[level,subject].filter(Boolean).join(' ');const budget=Math.max(5,max-purpose.length-1);
- const short=prefix.slice(0,budget).replace(/\s+\S*$/,'').trim()||prefix.slice(0,budget);
- return buildSeoTitle(short+' '+purpose);
+ return buildSeoTitle(primary);
 }

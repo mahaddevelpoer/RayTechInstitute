@@ -1,3 +1,4 @@
+import { validateArticleDraft, validateAiArticleSeo } from '../_shared/article-draft.ts';
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { handleLearningAdmin } from '../_shared/learning-admin.ts';
 import { createLearningRepository } from '../_shared/learning-repository.ts';
@@ -301,7 +302,7 @@ async function callGeminiCascade(
   apiKey: string,
   systemPrompt: string,
   userPrompt: string,
-  maxOutputTokens: number = 8192,
+  maxOutputTokens: number | null = 8192,
   temperature: number = 0.3,
   deadlineAt: number = Number.POSITIVE_INFINITY
 ): Promise<string> {
@@ -352,7 +353,7 @@ async function callGeminiCascade(
           ],
           generationConfig: {
             temperature,
-            maxOutputTokens,
+            ...(maxOutputTokens === null ? {} : {maxOutputTokens}),
             responseMimeType: "application/json",
           },
         }),
@@ -714,7 +715,8 @@ serve(async (req) => {
 TODAY'S OFFICIAL DATE: ${currentDate} (Current Academic Cycle: ${currentYear})
 
 STRICT MANDATORY RULES (ZERO EXCEPTIONS):
-1. LENGTH & DEPTH MANDATE: Do NOT write short articles! You MUST write an EXHAUSTIVE, ULTIMATE AUTHORITY PILLAR ARTICLE (minimum 3,000+ words, comprehensive). Every section must be elaborated thoroughly with paragraphs of analysis, breakdown, practical examples, and official board citations.
+SEO REQUIRED: Return a seo object with enabled array and title, description, imageAlt, imageCaption, socialTitle, socialDescription, socialImage, authorUrl, sources, internalLinks strings. Enable applicable fields only. Use supplied verified source URLs; never invent sources or credentials. Internal links must be actual supplied website paths. If missing information, use an empty string for review, never fabricate it.
+1. LENGTH & DEPTH MANDATE: Do NOT write short articles! You MUST write an EXHAUSTIVE, ULTIMATE AUTHORITY PILLAR ARTICLE (no minimum or maximum word count; use the detail the topic needs). Every section must be elaborated thoroughly with paragraphs of analysis, breakdown, practical examples, and official board citations.
 2. TOPIC-ADAPTIVE STRUCTURE (EVERY SECTION MUST BE FULLY ELABORATED):
    - Begin with a 40-60 word direct answer block for the exact search intent, followed by a factual introduction.
    - Use 5-8 descriptive Markdown headings selected for the topic and category. Date-sheet topics need schedules and exam rules; admission topics need eligibility, deadlines, application steps, fees, documents, and selection; career topics need comparison criteria, skills, pathways, costs, and outcomes.
@@ -733,7 +735,7 @@ STRICT MANDATORY RULES (ZERO EXCEPTIONS):
   "slug": "url-friendly-slug-with-hyphens",
   "category": "${category || 'date-sheets'}",
   "excerpt": "40-60 word factual summary for Google AI Overviews and meta description",
-  "content": "Massive topic-specific Markdown content of at least 3,000 words containing a direct answer block, relevant headings, complete tables or checklists where useful, official-source notes, a practical action plan, FAQs, and no filler or truncation",
+  "content": "Massive topic-specific Markdown content without a fixed word count containing a direct answer block, relevant headings, complete tables or checklists where useful, official-source notes, a practical action plan, FAQs, and no filler or truncation",
   "featuredImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
   "author": "Academic Coordination Cell",
   "readTime": "12 min read",
@@ -749,7 +751,7 @@ Category: ${category}
 Audience: ${targetAudience || "Students in the selected class, subject or course"}
 
 Task:
-Write a massive, complete, topic-specific pillar guide of at least 3,000 words. Select the structure that best answers this topic and category. Do NOT skip important user questions, abbreviate, or use placeholders like 'etc.' or 'more details follow'. Never invent dates, statistics, policies, fees, or official claims. Use an explicit verification label whenever the brief does not provide a confirmed source.`;
+Write a massive, complete, topic-specific pillar guide without a fixed word count. Select the structure that best answers this topic and category. Do NOT skip important user questions, abbreviate, or use placeholders like 'etc.' or 'more details follow'. Never invent dates, statistics, policies, fees, or official claims. Use an explicit verification label whenever the brief does not provide a confirmed source.`;
       } else {
         userPrompt = `Detailed Custom Mode:
 Current Date: ${currentDate}
@@ -759,13 +761,12 @@ Reference Notes / Context: ${userNotes || "None"}
 Reference Links / Circulars: ${referenceLinks || "None"}
 
 Task:
-Write a complete topic-specific pillar guide of at least 3,000 words (target 3,000-3,500 words) using the supplied notes and circulars. Choose headings that match the topic, include several substantial paragraphs, concrete Pakistani context, tables or checklists where useful, and never reduce the article to a short summary or truncate it. Do not invent facts that are absent from the supplied sources.`;
+Write a complete topic-specific pillar guide without a fixed word count  using the supplied notes and circulars. Choose headings that match the topic, include several substantial paragraphs, concrete Pakistani context, tables or checklists where useful, and never reduce the article to a short summary or truncate it. Do not invent facts that are absent from the supplied sources.`;
       }
 
       try {
-        const rawText = await callGeminiCascade(geminiApiKey, systemPrompt, userPrompt, 24576, 0.35);
-        const parsedArticle = await expandIfTooShort(geminiApiKey, extractAndParseJson(rawText), 3000, 'article');
-        const validatedArticle = validateLongFormContent(parsedArticle, 3000, 'article', 4);
+        const rawText = await callGeminiCascade(geminiApiKey, systemPrompt, userPrompt, null, 0.35);
+        const validatedArticle = validateAiArticleSeo(validateArticleDraft(extractAndParseJson(rawText)));
         return respond({ success: true, article: validatedArticle });
       } catch (err: any) {
         return respond({

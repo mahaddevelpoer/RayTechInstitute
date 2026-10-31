@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -35,12 +36,12 @@ export async function generateMetadata({
   const currentSubject = INITIAL_SUBJECTS.find(
     (s) => s.classSlug === classSlug && s.slug === subjectSlug,
   );
-  if (!currentClass || !currentSubject) return {};
+  if (!currentClass || !currentSubject) return withSocialMetadata({});
   const hasResources = INITIAL_PAST_PAPERS.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Browse published past-paper PDFs and check the board, year and examination session. Open the resource details before revising.', `${className} ${currentSubject.title} past papers`);
 
-  return {
+  return withSocialMetadata({
     title: buildResourceSeoTitle(className, currentSubject.title, "Past Papers"),
     description,
     robots: { index: hasResources, follow: true },
@@ -54,7 +55,7 @@ export async function generateMetadata({
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/`),
       type: "website",
     },
-  };
+  });
 }
 
 export default async function SubjectPastPapersServerPage({

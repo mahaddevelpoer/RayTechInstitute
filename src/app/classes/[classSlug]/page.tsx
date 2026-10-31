@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -27,11 +28,12 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { classSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
-  if (!currentClass) return {};
+  if (!currentClass) return withSocialMetadata({});
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Choose a subject to browse available notes, chapter MCQs and past papers. Check each resource before using it for revision.', `${className} study resources`);
 
-  return {
+  return withSocialMetadata({
+    robots: {index: INITIAL_SUBJECTS.some(subject=>subject.classSlug===classSlug), follow:true},
     title: buildSeoTitle(`${className} Study Resources & Notes`),
     description,
     alternates: {
@@ -39,12 +41,13 @@ export async function generateMetadata({
     },
     openGraph: {
       images: [DEFAULT_SOCIAL_IMAGE],
-      title: buildSeoTitle(`${className} Study Resources & Notes`),
+      robots: {index: INITIAL_SUBJECTS.some(subject=>subject.classSlug===classSlug), follow:true},
+    title: buildSeoTitle(`${className} Study Resources & Notes`),
       description,
       url: siteUrl(`/classes/${classSlug}/`),
       type: "website",
     },
-  };
+  });
 }
 
 export default async function ClassDetailsPage({ params }: PageProps) {

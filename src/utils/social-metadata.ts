@@ -14,7 +14,7 @@ export function withSocialMetadata(metadata: Metadata): Metadata {
     },
     twitter: {
       card: 'summary_large_image', title: metadata.title || 'RayTech Institute', description: metadata.description || '',
-      ...metadata.twitter, images: metadata.twitter?.images || [DEFAULT_SOCIAL_IMAGE.url],
+      ...metadata.twitter, images: metadata.twitter?.images || metadata.openGraph?.images || [DEFAULT_SOCIAL_IMAGE.url],
     },
   };
 }

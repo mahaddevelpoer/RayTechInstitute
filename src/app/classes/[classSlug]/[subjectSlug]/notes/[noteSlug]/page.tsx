@@ -1,3 +1,4 @@
+import { withSocialMetadata } from '@/utils/social-metadata';
 import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
@@ -49,13 +50,13 @@ export async function generateMetadata({
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
   );
   const currentClass = INITIAL_CLASSES.find(item => item.slug === classSlug);
-  if (!note || !currentSubject) return {};
+  if (!note || !currentSubject) return withSocialMetadata({});
   const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
   const title = buildSeoTitle(
     `${className} ${currentSubject.title} Ch ${note.chapterNumber} Notes PDF`,
   );
   const description = buildDocumentDescription(note.description || '', `Chapter ${note.chapterNumber} ${currentSubject.title} notes PDF`);
-  return {
+  return withSocialMetadata({
     title,
     description,
     keywords: studyResourceKeywords(className, currentSubject.title, [note.chapterTitle]),
@@ -73,7 +74,7 @@ export async function generateMetadata({
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`),
       type: "article",
     },
-  };
+  });
 }
 
 export default async function NoteDetailPage({
@@ -100,7 +101,7 @@ export default async function NoteDetailPage({
       <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(noteStructuredData(note, currentClass.title, currentSubject.title, canonical, topics)) }} />
       <PdfDetailClientView
-        backHref={`/classes/${classSlug}/${subjectSlug}/notes`}
+        backHref={`/classes/${classSlug}/${subjectSlug}/notes/`}
         backLabel="Back to notes"
         eyebrow={chapterDisplayLabel({ ...note!, title: note!.chapterTitle })}
         title={note!.title}

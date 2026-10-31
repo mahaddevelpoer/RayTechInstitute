@@ -87,8 +87,7 @@ export const PastPapersClientView: React.FC<PastPapersClientViewProps> = ({
             {currentClass?.title} {currentSubject?.title} Past Papers
           </h1>
           <p className="text-slate-600 text-sm">
-            Download past 5 years board question papers (Annual &amp;
-            Supplementary) in PDF format.
+            {pastPapers.length ? 'Browse the board papers listed below. Check each paper’s year and examination session before downloading.' : 'Past papers are being prepared. Return to the subject page to explore available study resources.'}
           </p>
         </div>
 
