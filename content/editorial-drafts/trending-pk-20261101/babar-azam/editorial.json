@@ -1,0 +1,18 @@
+{
+  "title": "Babar Azam's 103 from 59: Batting Stats and PSL 2026 Context",
+  "slug": "babar-azam-103-from-59-psl-2026-batting-stats-guide",
+  "category": "sports",
+  "excerpt": "Use Babar's verified 2026 PSL Qualifier century to understand strike rate, boundary runs and season totals, with original arithmetic and clearly labelled exercises.",
+  "tags": ["Babar Azam", "Babar Azam 2026", "Babar 103 from 59", "HBL PSL 11", "PSL 2026 Qualifier", "Peshawar Zalmi", "Islamabad United", "28 April 2026", "Babar century", "Twelve fours", "Four sixes", "Batting strike rate", "174.58 strike rate", "Boundary contribution", "Boundary run share", "Batting average", "Runs per innings", "Runs per match", "Not-out innings", "Dismissal denominator", "588 season runs", "11 matches", "Hanif Mohammad Cap", "PSL season context", "Completed tournament report", "Cricket arithmetic", "Cricket data literacy", "Scorecard reading", "Individual versus team score", "Extras distinction", "Format scope", "Competition labels", "Ranking checks", "Python practice", "Input validation", "Fictional batting examples", "Lahore-born batter", "Right-handed batting", "Historical cricket photographs", "PCB official records"],
+  "seoTitle": "Babar Azam 103 from 59: PSL 2026 Batting Stats Guide",
+  "description": "Explore Babar's verified PSL Qualifier century and season context. Learn strike rate, boundary contribution and average with clearly labelled examples.",
+  "socialTitle": "Babar's 103 from 59: Read the Numbers Properly",
+  "socialDescription": "A verified innings case study with original batting-statistics calculations.",
+  "sources": ["https://www.pcb.com.pk/player/babar-azam-22615.html", "https://www.pcb.com.pk/news-detail/babar-azam-s-record-equalling-century-propels-peshawar-zalmi-into-hbl-psl-11-final.html", "https://www.pcb.com.pk/news-detail/hardie-s-all-round-masterclass-leads-zalmi-to-second-hbl-psl-title.html"],
+  "limitations": ["Indexed official records used; direct PCB retrieval restricted.", "April performance not misrepresented as breaking November news.", "No current ranking, fitness, captaincy or selection claim.", "103/59*100=174.576; boundary runs72 and remainder31 not mislabelled31singles.", "588/11 described per match, not official batting average. Age32 calculated from DOB."],
+  "metadataFile": "artifacts/november-babar-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Babar azam 2023.jpg", "alt": "Babar Azam in a historical 2023 photograph", "caption": "Historical 2023 photograph of Babar Azam. It is not an image from the 2026 PSL Qualifier."},
+    {"role": "inline", "fileTitle": "File:Babar Azam batting in Sri Lanka, 2nd Test, July 2023.jpg", "alt": "Babar Azam batting in Sri Lanka during the July 2023 second Test", "caption": "Babar batting in the second Test in Sri Lanka in July 2023. This is a separate format and event from the PSL innings discussed here."}
+  ]
+}

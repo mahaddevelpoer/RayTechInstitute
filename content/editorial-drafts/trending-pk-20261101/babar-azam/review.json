@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1866,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.pcb.com.pk/player/babar-azam-22615.html"
+    },
+    {
+      "url": "https://www.pcb.com.pk/news-detail/babar-azam-s-record-equalling-century-propels-peshawar-zalmi-into-hbl-psl-11-final.html"
+    },
+    {
+      "url": "https://www.pcb.com.pk/news-detail/hardie-s-all-round-masterclass-leads-zalmi-to-second-hbl-psl-title.html"
+    }
+  ],
+  "factualLimitations": [
+    "Indexed official records used; direct PCB retrieval restricted.",
+    "April performance not misrepresented as breaking November news.",
+    "No current ranking, fitness, captaincy or selection claim.",
+    "103/59*100=174.576; boundary runs72 and remainder31 not mislabelled31singles.",
+    "588/11 described per match, not official batting average. Age32 calculated from DOB."
+  ],
+  "published": false
+}

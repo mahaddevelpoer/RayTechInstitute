@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Babar azam 2023.jpg",
+    "alt": "Babar Azam in a historical 2023 photograph",
+    "caption": "Historical 2023 photograph of Babar Azam. It is not an image from the 2026 PSL Qualifier.",
+    "url": "/images/editorial/trending-pk-20261101/babar-azam-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Babar_azam_2023.jpg",
+    "creator": "ICNA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sha1": "bd0f1cb0d039b44755339da1156999dd7554b910",
+    "width": 960,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 25622
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Babar Azam batting in Sri Lanka, 2nd Test, July 2023.jpg",
+    "alt": "Babar Azam batting in Sri Lanka during the July 2023 second Test",
+    "caption": "Babar batting in the second Test in Sri Lanka in July 2023. This is a separate format and event from the PSL innings discussed here.",
+    "url": "/images/editorial/trending-pk-20261101/babar-azam-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Babar_Azam_batting_in_Sri_Lanka,_2nd_Test,_July_2023.jpg",
+    "creator": "Nazly Ahmed from Colombo, Sri Lanka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "47ca2d98a1be0406e6dc6db294f3da8d11351edb",
+    "width": 1280,
+    "height": 869,
+    "reviewState": "metadata-reviewed",
+    "bytes": 62178
+  }
+]
