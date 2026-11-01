@@ -1,0 +1,20 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1802,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.secp.gov.pk/document/digital-lending-apps-being-run-and-administered-by-duly-licensed-lending-nbfcs/"
+    },
+    {
+      "url": "https://www.sbp.org.pk/circulars/bc-cpd-circular-no-2-of-2016"
+    }
+  ],
+  "factualLimitations": [
+    "All financial examples fictional; no individualized advice, approval guarantee or lender endorsement.",
+    "SECP listing date preserved. Different provider types not declared illegal by absence from one list.",
+    "2016 SBP circular labelled historical, not a full current legal framework.",
+    "No simplistic annualization labelled APR. Example net9500 repay11000 yields1500 difference."
+  ],
+  "published": false
+}

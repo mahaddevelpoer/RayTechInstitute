@@ -1,0 +1,77 @@
+{
+  "title": "Loans in Pakistan: Compare Fees, Cash Received and Repayment",
+  "slug": "loan-pakistan-fees-net-cash-total-repayment-guide",
+  "category": "economy",
+  "excerpt": "Learn to compare net loan proceeds, required fees and total repayment with fictional examples. Check official provider information without treating a listing as a recommendation.",
+  "tags": [
+    "Loan",
+    "Loans in Pakistan",
+    "Loan comparison",
+    "Loan fees",
+    "Net cash received",
+    "Net disbursement",
+    "Loan principal",
+    "Total repayment",
+    "Instalment schedule",
+    "Repayment dates",
+    "Processing fee",
+    "Deducted fee",
+    "Upfront charges",
+    "Recurring payments",
+    "Loan cost arithmetic",
+    "Financial literacy",
+    "Fictional loan example",
+    "Student finance exercise",
+    "Digital lending apps",
+    "SECP whitelist",
+    "Licensed lending NBFCs",
+    "Provider verification",
+    "Regulator information",
+    "Product disclosure",
+    "Product Key Fact Statement",
+    "SBP disclosure context",
+    "Written loan agreement",
+    "Monthly versus annual rate",
+    "Rate basis",
+    "APR distinction",
+    "Flat versus reducing balance",
+    "Early settlement conditions",
+    "Payment records",
+    "Payment confirmation",
+    "Consumer complaint",
+    "Account privacy",
+    "Loan harassment reporting",
+    "NCCIA guide",
+    "Spreadsheet exercise",
+    "Input validation"
+  ],
+  "seoTitle": "Loans in Pakistan: Fees, Net Cash and Repayment Guide",
+  "description": "Compare loan fees, net cash received and total repayment using fictional examples. Check official provider information and understand written disclosures.",
+  "socialTitle": "Understand a Loan Before Comparing the Instalment",
+  "socialDescription": "Net proceeds, fees and repayment arithmetic, with official information checks and no lender endorsement.",
+  "sources": [
+    "https://www.secp.gov.pk/document/digital-lending-apps-being-run-and-administered-by-duly-licensed-lending-nbfcs/",
+    "https://www.sbp.org.pk/circulars/bc-cpd-circular-no-2-of-2016"
+  ],
+  "limitations": [
+    "All financial examples fictional; no individualized advice, approval guarantee or lender endorsement.",
+    "SECP listing date preserved. Different provider types not declared illegal by absence from one list.",
+    "2016 SBP circular labelled historical, not a full current legal framework.",
+    "No simplistic annualization labelled APR. Example net9500 repay11000 yields1500 difference."
+  ],
+  "metadataFile": "artifacts/november-loan-final-metadata.json",
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Aarong leather wallet.jpg",
+      "alt": "A closed leather wallet used as a personal-finance illustration",
+      "caption": "A leather wallet shown for financial-literacy context. It is not an actual loan offer or a product recommendation."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Financial Calculator Hewlett-Packard HP-12C built from 1981, this item produced 1988 (edited to remove background, warmer colours).jpg",
+      "alt": "Historical Hewlett-Packard HP-12C financial calculator",
+      "caption": "Historical financial calculator, shown to illustrate careful arithmetic. No specific calculator is required or recommended for the examples."
+    }
+  ]
+}
