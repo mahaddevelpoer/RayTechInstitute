@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:England vs South Africa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/England_vs_South_Africa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:England_vs_South_Africa.jpg",
+    "creator": "Louis Rossouw from Cape Town, South Africa",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "cfd3db4386642fe959441716da809e3d45413fd5",
+    "width": 3008,
+    "height": 2000,
+    "alt": "England and South Africa playing a Test at Newlands in January 2005",
+    "caption": "Historical Test cricket at Newlands in January 2005. This is not an image of a current rankings event.",
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Lord's honours board (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lord%27s_honours_board_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Lord%27s_honours_board_(cropped).jpg",
+    "creator": "Lord's_honours_board.JPG: PaddyBriggs\nderivative work: Ukexpat",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "f1dff10b03ea76d299d6a188cd75f435a5d9c2eb",
+    "width": 4623,
+    "height": 1543,
+    "alt": "Historical honours board in the Lord’s Pavilion dressing room",
+    "caption": "An honours board at Lord’s illustrates a different type of cricket record. It is not an ICC rankings table.",
+    "reviewState": "metadata-reviewed"
+  }
+]

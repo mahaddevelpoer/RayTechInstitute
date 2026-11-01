@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1628,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/rankings/about"
+    },
+    {
+      "url": "https://www.icc-cricket.com/rankings/team-rankings/mens/odi"
+    }
+  ],
+  "factualLimitations": [
+    "No unverified current numeric standings. Official dynamic rows were unavailable.",
+    "All team/rating arithmetic examples explicitly fictional; not full ICC algorithm.",
+    "Historical image dates and purposes labelled."
+  ],
+  "published": false
+}
