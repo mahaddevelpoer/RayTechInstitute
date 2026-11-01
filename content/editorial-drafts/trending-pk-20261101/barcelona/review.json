@@ -1,0 +1,28 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2037,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.fcbarcelona.com/en/news/643865/1899-1909-foundation-and-survival/amp"
+    },
+    {
+      "url": "https://www.fcbarcelona.com/en/club/identity/la-masia"
+    },
+    {
+      "url": "https://www.fcbarcelona.com/en/football/first-team/schedule"
+    },
+    {
+      "url": "https://www.fcbarcelona.com/en/football/womens-football"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Distinct general club-identity question rather than duplicate of the existing women's fixture guide.",
+    "No current XI, permanent stadium capacity, next kickoff, ticket guarantee or title forecast.",
+    "Founding date separated from newer residence opening; historical and current-service sources not treated interchangeably.",
+    "Academy profile does not imply admission, trials, selection or a guaranteed professional career.",
+    "Original routines and programming exercises are not claimed as official club instructions or endorsement.",
+    "Photographs show the newer La Masia residence and historical founder portrait, not a current fixture or training admission."
+  ],
+  "published": false
+}

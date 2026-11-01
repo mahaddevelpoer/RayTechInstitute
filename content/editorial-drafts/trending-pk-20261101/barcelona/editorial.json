@@ -1,0 +1,18 @@
+{
+  "title": "FC Barcelona Explained: Club Origins, La Masia and the Right Team",
+  "slug": "fc-barcelona-club-origins-la-masia-teams-student-guide",
+  "category": "sports",
+  "excerpt": "Understand FC Barcelona beyond one score: its founding, La Masia, separate teams and a practical way to identify the right fixture and source.",
+  "tags": ["FC Barcelona", "Barca", "Barça", "Barcelona FC", "FC Barcelona guide", "Club versus city", "Futbol Club Barcelona", "Joan Gamper", "29 November 1899", "Solé Gymnasium", "Los Deportes notice", "Club founding history", "Barcelona and Catalonia", "La Masia", "Centre de Formació Oriol Tort", "20 October 2011", "Ciutat Esportiva Joan Gamper", "Historic versus modern facility", "Academy educational purpose", "Young sportspeople", "Personal development", "Men's first team", "Women's football", "Barça Atlètic", "Team identification", "Competition label", "Fixture date", "League versus knockout", "Official fixture schedule", "Current venue check", "Time zone conversion", "Squad versus team sheet", "Historical player page", "Source notebook", "Academy versus admission", "Training versus selection", "Original learning habits", "Football media literacy", "Pakistan Barcelona followers", "Fixture organiser exercise", "Objects lists filters", "Historical Gamper portrait", "La Masia building photograph", "Distinct club identity guide"],
+  "seoTitle": "FC Barcelona: Club Origins, La Masia and Team Identity Guide",
+  "description": "Understand FC Barcelona's origins, La Masia and separate teams. Learn to identify the right fixture, source and date with practical student activities.",
+  "socialTitle": "Understand FC Barcelona Beyond a Single Score",
+  "socialDescription": "A beginner's guide to the club, La Masia and the labels that make fixtures and history easier to follow.",
+  "sources": ["https://www.fcbarcelona.com/en/news/643865/1899-1909-foundation-and-survival/amp", "https://www.fcbarcelona.com/en/club/identity/la-masia", "https://www.fcbarcelona.com/en/football/first-team/schedule", "https://www.fcbarcelona.com/en/football/womens-football"],
+  "limitations": ["Checked 1 November 2026. Distinct general club-identity question rather than duplicate of the existing women's fixture guide.", "No current XI, permanent stadium capacity, next kickoff, ticket guarantee or title forecast.", "Founding date separated from newer residence opening; historical and current-service sources not treated interchangeably.", "Academy profile does not imply admission, trials, selection or a guaranteed professional career.", "Original routines and programming exercises are not claimed as official club instructions or endorsement.", "Photographs show the newer La Masia residence and historical founder portrait, not a current fixture or training admission."],
+  "metadataFile": "artifacts/november-barca-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:La Masia - Centre de Formació Oriol Tort 01.jpg", "alt": "La Masia Centre de Formació Oriol Tort residence building", "caption": "The newer La Masia–Centre de Formació Oriol Tort residence, shown as facility context. The photograph is not a match venue notice or an offer of academy admission."},
+    {"role": "inline", "fileTitle": "File:Joan Gamper 1910 year.jpg", "alt": "Historical portrait of FC Barcelona founder Joan Gamper circa 1910", "caption": "Historical portrait of Joan Gamper associated with 1910, included to illustrate the club's origins. It is not a photograph of the 1899 founding meeting."}
+  ]
+}
