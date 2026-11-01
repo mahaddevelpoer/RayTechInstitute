@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1980,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/players/CA:348/marnus-labuschagne"
+    },
+    {
+      "url": "https://www.cricket.com.au/news/3789549/australia-india-2023-world-cup-final-ahmedabad-narendra-modi-stadium-match-report-video-highlightsVideo"
+    },
+    {
+      "url": "https://www.cricket.com.au/matches/CA:17217/tbc-tbc-icc-men-s-odi-world-cup-2023"
+    }
+  ],
+  "factualLimitations": [
+    "World Cup case explicitly19November2023not2026breakingnews.",
+    "No next XI, currentform, diagnosis or private batting plan claim.",
+    "Whole-innings scores distinguished from shared partnership interval; fictional60-runexample labelled.",
+    "Matchcentre dynamic rows unavailable on directread; finalreport supplies verified specifics.",
+    "2019and2026photosnotclaimedas2023finalaction."
+  ],
+  "published": false
+}
