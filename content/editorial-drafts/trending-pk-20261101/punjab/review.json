@@ -1,0 +1,27 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2061,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://hed.punjab.gov.pk/overview"
+    },
+    {
+      "url": "https://hed.punjab.gov.pk/student-affairs"
+    },
+    {
+      "url": "https://www.pbte.edu.pk/forms/recognition/recognition_form.pdf"
+    },
+    {
+      "url": "https://pectaa.edu.pk/our-functions/"
+    }
+  ],
+  "factualLimitations": [
+    "Punjab Pakistan clearly distinguished from Indian Punjab.",
+    "No invented result, closure, admission or fee deadline.",
+    "No blanket claim that every computer course or D.I.T institute shares a syllabus or affiliation.",
+    "HED and PBTE indexed official content used where direct retrieval timed out.",
+    "Photos provide context, not institutional endorsement; library image creator reports an applied cloudy effect."
+  ],
+  "published": false
+}
