@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Camp Nou South Stand.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Camp_Nou_South_Stand.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Camp_Nou_South_Stand.jpg",
+    "creator": "S. Plaine",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "53372b21f1f83a701f520feda6bf630e3d47387f",
+    "width": 1000,
+    "height": 750,
+    "alt": "Camp Nou's south stand viewed from the pitch.",
+    "caption": "Historical stadium context, not a photograph of Barcelona's 31 October 2026 win.",
+    "reviewState": "semantically-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Vitoria - Mendizorrotza 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Vitoria_-_Mendizorrotza_01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vitoria_-_Mendizorrotza_01.jpg",
+    "creator": "Basotxerri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "81ce018e53902b898caab3e748bd97c69d14578c",
+    "width": 4280,
+    "height": 3214,
+    "alt": "Exterior of Mendizorrotza stadium in Vitoria-Gasteiz.",
+    "caption": "Alavés stadium context. The six-one match discussed in this article was played at Camp Nou, not here.",
+    "reviewState": "semantically-reviewed"
+  }
+]

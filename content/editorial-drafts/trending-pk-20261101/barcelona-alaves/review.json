@@ -1,0 +1,37 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1271,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 6,
+  "readerIntent": "Report the verified 31 October result and explain distributed scoring and season impact without inventing tactical observations.",
+  "sources": [
+    {
+      "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11",
+      "title": "LaLiga official completed match centre"
+    },
+    {
+      "url": "https://www.fcbarcelona.es/es/football/first-team/results",
+      "title": "Barcelona official first-team results"
+    },
+    {
+      "url": "https://www.fifatrainingcentre.com/en/fwc2022/technical-and-tactical-analysis/controlling-the-game-without-the-ball--the-mid-block-and-compactness.php",
+      "title": "FIFA Training Centre analysis of defensive compactness"
+    }
+  ],
+  "factualLimitations": [
+    "Final score and scorers verified; no current table position, expected-goals value, unverified assist or unseen tactical sequence asserted."
+  ],
+  "seoTerms": [
+    "Raphinha",
+    "Lamine Yamal",
+    "LaLiga",
+    "Goal difference"
+  ],
+  "internalLinks": [
+    "/blogs/al-nassr-al-kholood-standings-explained/",
+    "/blogs/al-nassr-al-kholood-match-preview-guide/",
+    "/blogs/everton-newcastle-fixture-tactics-match-guide/"
+  ],
+  "published": false,
+  "parentVerification": "Result and scorer identities independently cross-checked against AS match statistics, 1 November 2026. No goal-minute claims added."
+}
