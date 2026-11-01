@@ -1,0 +1,28 @@
+[
+  {
+    "role": "cover",
+    "url": "/images/editorial/trending-pk-20261101/gta-6-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_and_white_Playstation_5_base_edition_with_controller.png",
+    "sha1": "23cddb79fd8350510b54c27e42c35162d072e8c6",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "creator": "Howardcorn33",
+    "width": 497,
+    "height": 900,
+    "alt": "PlayStation 5 console and controller",
+    "caption": "Illustrative console photograph, not a screenshot from GTA VI."
+  },
+  {
+    "role": "inline",
+    "url": "/images/editorial/trending-pk-20261101/gta-6-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_mit_Controller_(transparent_background).png",
+    "sha1": "9a581543397ce52ccbeec52dded210af4efbcff4",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "creator": "Der. Bellemer",
+    "width": 675,
+    "height": 900,
+    "alt": "Xbox Series X console and controller",
+    "caption": "Illustrative console photograph, not a screenshot from GTA VI."
+  }
+]
