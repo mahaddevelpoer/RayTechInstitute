@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1697,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/news/sensational-south-africa-seal-the-series-in-cape-town"
+    },
+    {
+      "url": "https://www.cricket.com.au/players/CA:675"
+    }
+  ],
+  "factualLimitations": [
+    "No unsupported fastest-ever label. Milestone and result verified from ICC completed report.",
+    "CA snapshot dated; best-bowling match figures not mislabelled innings figures.",
+    "All illustrative spells fictional; 6.2 notation correctly converted to 38 legal balls."
+  ],
+  "published": false
+}
