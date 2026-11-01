@@ -1,0 +1,30 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2148,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://dharma-production.com/movie/dhadak_2018"
+    },
+    {
+      "url": "https://indianexpress.com/article/entertainment/bollywood/dhadak-release-date-jhanvi-kapoor-ishaan-khatter-5032346/"
+    },
+    {
+      "url": "https://www.netflix.com/title/81292944"
+    },
+    {
+      "url": "https://www.netflix.com/in/title/81564504"
+    },
+    {
+      "url": "https://homeboundthefilm.com/"
+    }
+  ],
+  "factualLimitations": [
+    "Selected film introduction, not exhaustive filmography or claimed first-hand review.",
+    "Viewing questions original and not asserted observations of specific scenes.",
+    "No personal-life rumours, net-worth estimates, invented awards or current regional streaming guarantees.",
+    "Dhadak earlier announced July6date not confused with July20release update.",
+    "2025 event images labelled historical; no claim of present-day appearance."
+  ],
+  "published": false
+}
