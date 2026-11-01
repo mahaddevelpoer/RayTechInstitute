@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1810,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.gco.gov.qa/en/state-of-qatar/facts-about-qatar/"
+    },
+    {
+      "url": "https://visitqatar.com/intl-en/about-qatar/geography"
+    },
+    {
+      "url": "https://www.qf.org.qa/education/education-city"
+    }
+  ],
+  "factualLimitations": [
+    "No current population estimate, exchange quote, visa, job or scholarship guarantee.",
+    "No invented reason for search trend or breaking-news event.",
+    "Programme eligibility delegated to current institution pages; no identical admissions assumptions.",
+    "Historical photographs dated and labelled."
+  ],
+  "published": false
+}

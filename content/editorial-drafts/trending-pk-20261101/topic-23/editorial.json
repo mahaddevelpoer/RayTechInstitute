@@ -1,0 +1,18 @@
+{
+  "title": "Qatar for Students: Doha, Geography and Education City",
+  "slug": "qatar-country-facts-doha-geography-education-city-guide",
+  "category": "education",
+  "excerpt": "Understand Qatar's geography, Doha's role as capital and Education City. Build a useful country-research sheet without confusing historical data with current decisions.",
+  "tags": ["Qatar", "Qatar country facts", "Doha", "Qatar capital", "Qatar geography", "Qatar peninsula", "Arabian Peninsula", "Gulf geography", "Saudi Arabia border", "Arabic official language", "Qatari riyal", "QAR", "Qatar flag", "Maroon and white flag", "Qatar National Day", "18 December", "Education City", "Qatar Foundation", "Hamad Bin Khalifa University", "Carnegie Mellon Qatar", "Georgetown Qatar", "Weill Cornell Qatar", "University research", "Programme requirements", "Admission source checks", "Scholarship verification", "Country research sheet", "Map reading", "Peninsula versus island", "Country versus capital", "Pearl Marina", "Historical Doha photographs", "Climate versus weather", "Reference years", "Population data literacy", "Current notice checks", "Student geography project", "Digital country card", "Source verification", "Pakistan students"],
+  "seoTitle": "Qatar Student Guide: Doha, Geography and Education City",
+  "description": "Explore Qatar's geography, Doha, language, currency and Education City. Learn how to build a sourced country sheet and check programme information.",
+  "socialTitle": "Qatar: A Clear Country Guide for Students",
+  "socialDescription": "Country facts, campus context and practical geography and research exercises.",
+  "sources": ["https://www.gco.gov.qa/en/state-of-qatar/facts-about-qatar/", "https://visitqatar.com/intl-en/about-qatar/geography", "https://www.qf.org.qa/education/education-city"],
+  "limitations": ["No current population estimate, exchange quote, visa, job or scholarship guarantee.", "No invented reason for search trend or breaking-news event.", "Programme eligibility delegated to current institution pages; no identical admissions assumptions.", "Historical photographs dated and labelled."],
+  "metadataFile": "artifacts/november-qatar-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:The Pearl Marina in Nov 2013.jpg", "alt": "Boats at the Pearl Marina in Qatar in November 2013", "caption": "The Pearl Marina in November 2013. Historical location illustration, not a current weather or travel-condition report."},
+    {"role": "inline", "fileTitle": "File:Qatar Foundation Headquarters, Education City-2014.jpg", "alt": "Qatar Foundation headquarters in Education City in 2014", "caption": "Qatar Foundation headquarters at Education City in 2014. The image does not establish current admission, funding or programme availability."}
+  ]
+}
