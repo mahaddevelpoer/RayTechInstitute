@@ -1,0 +1,31 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Jensen Huang Stanford 2026-04-30 010 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg",
+    "creator": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "b782eb35ba99baa2ccee8057d4d584601284441d",
+    "width": 1745,
+    "height": 2324,
+    "alt": "Jensen Huang at Stanford in April 2026",
+    "caption": "Jensen Huang at Stanford, April 2026.",
+    "reviewState": "semantically-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:VisionTek GeForce 256.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/VisionTek_GeForce_256.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:VisionTek_GeForce_256.jpg",
+    "creator": "Hyins",
+    "license": "Public domain",
+    "sha1": "cd14a91fe5351db971c9a056f75cac7559b6100a",
+    "width": 2048,
+    "height": 1216,
+    "alt": "VisionTek GeForce 256 graphics card",
+    "caption": "A historical GeForce 256 graphics card. This is not a photograph of a current AI accelerator.",
+    "reviewState": "semantically-reviewed"
+  }
+]
