@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2123,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.ndtv.com/blog/how-i-fell-for-a-phishing-attack-my-story-by-nidhi-razdan-2353395"
+    },
+    {
+      "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing"
+    },
+    {
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/07/job-scammers-are-looking-hire-you"
+    }
+  ],
+  "factualLimitations": [
+    "January2021case attributed to first-person account, not breaking2026news.",
+    "No claim of Harvard appointment or present employment, perpetrator identity or investigative outcome.",
+    "Fictional Aster Learning exercise clearly separate from real case.",
+    "US prevention guidance distinguished from Pakistan reporting routes.",
+    "No malicious link demonstration, live credential collection or guaranteed fraud detection."
+  ],
+  "published": false
+}
