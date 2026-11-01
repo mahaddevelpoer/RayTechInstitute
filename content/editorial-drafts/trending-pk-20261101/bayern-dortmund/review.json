@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1985,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/10/31/BVB-Earns-Point-in-Munich-Thanks-to-Goals-by-Guirassy-and-Silva.html"
+    },
+    {
+      "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-bayern-muenchen-vs-borussia-dortmund/accessibility"
+    },
+    {
+      "url": "https://fcbayern.com/es/noticias/matchreports/2026/10/cronica-fc-bayern---borussia-dortmund-jornada-8-bundesliga"
+    }
+  ],
+  "factualLimitations": [
+    "No live standings totals invented; first and level on points attributed to dated Bayern report.",
+    "Fictional goal-difference examples clearly distinguished from actual league table.",
+    "No inferred private tactics, diagnosis, betting advice or unverified possession/xG.",
+    "Venue photographs historical and not claimed as October2026match action."
+  ],
+  "published": false
+}
