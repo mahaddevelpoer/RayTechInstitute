@@ -1,0 +1,122 @@
+**Alexander Zverev won the 2026 Roland-Garros and US Open men's singles titles**, turning his first major championship into a two-major season. The tournament records establish those results; they do not predetermine his next event or settle every comparison with another player.
+
+This retrospective looks at the two verified finals and shows how to read their scores carefully. It is designed for a reader who wants more than a trophy count: which sets were won, what a tie-break notation means, and what a final score cannot tell you about the tennis that produced it.
+
+## What did Zverev win at Roland-Garros in 2026?
+
+The official Roland-Garros report records his victory over **Flavio Cobolli on 7 June 2026**, by **6–1, 4–6, 6–4, 6–7(5), 6–1**. It was his first Grand Slam singles title, following three previous major-final defeats.
+
+The score shows that the match went to a deciding fifth set. It also shows that losing the fourth set did not end the match. Read the result in sequence rather than reducing a long final to the last number or a single photograph of the trophy ceremony.
+
+The official report identifies the achievement as the first men's Roland-Garros singles title for a German in the Open era. That is a specific historical claim, not a statement that no German had ever won any other tennis event in Paris.
+
+## How did he add the US Open title?
+
+The US Open's official record says Zverev beat **Ben Shelton on 13 September 2026**, by **6–3, 7–6(2), 5–7, 6–2**. It describes the title as his second Grand Slam championship of the year and notes his earlier runner-up finish to Dominic Thiem in the 2020 US Open final.
+
+These facts supply a clear contrast between an earlier final and the 2026 result. They do not reveal every training decision or private conversation behind the change. A responsible retrospective can identify the achievement without inventing an explanation of the player's inner state.
+
+The four-set result also differs from the five-set Paris final. Both are championship victories, but their score sequences show different paths through the match. That makes them useful examples for practising score reading.
+
+## What does the season's verified major-title record look like?
+
+| Event | Final opponent | Verified final score | Outcome |
+|---|---|---|---|
+| Roland-Garros 2026 | Flavio Cobolli | 6–1, 4–6, 6–4, 6–7(5), 6–1 | Champion |
+| US Open 2026 | Ben Shelton | 6–3, 7–6(2), 5–7, 6–2 | Champion |
+
+This is a selected table of two verified titles, not a complete season match log. It does not claim he won every event between June and September or provide an unverified current total of all tour titles.
+
+When making your own career table, keep the event, year, opponent and round together. A victory over a player in an earlier round is not the same record as beating that player in a final. The difference matters when comparing achievements.
+
+## How do you read the five-set Roland-Garros score?
+
+Take each set from Zverev's perspective. He won the first, lost the second, won the third, lost the fourth and won the fifth. Counting the sets gives three for Zverev and two for Cobolli. That is the match result represented by the five score entries.
+
+Do not read 6–7 as a lost match when it is only one set within the sequence. Likewise, a 6–1 set does not make the entire final a straight-sets victory. The complete sequence is needed to describe the contest accurately.
+
+For a simple reading exercise, write a W or L under each set. The sequence becomes **W, L, W, L, W**. Now explain why the match remained open after the fourth set. This is a better comprehension check than memorizing the final score without understanding its structure.
+
+The exercise does not tell you how close individual games were. A set score can conceal several long games, saved break points or rapid holds. Those questions require a more detailed match record or authorized footage.
+
+## What does the number in brackets mean?
+
+The parentheses in **7–6(2)** indicate the losing player's points in the tie-break associated with that set notation. In the US Open final score, Zverev won that set, and the notation records Shelton with two tie-break points. It is not an extra set or a statement that the whole match lasted two hours.
+
+In **6–7(5)** from the Roland-Garros final, Zverev lost the set, and the five records his tie-break points. Keep the perspective of the score sequence in mind: the first game count belongs to the player whose result is being listed.
+
+When a scoreboard uses a different layout, inspect its labels before applying a convention blindly. A live tie-break display can show the current point score directly, while a completed-match line condenses that information into a set result.
+
+If you are new to tennis, practise with the two real final scores above. Identify who won each set before interpreting any bracketed number. The game score and tie-break detail belong to different layers of the result.
+
+## Can total games alone decide who won a match?
+
+No. The match structure uses sets rather than simply adding every game into one large total. A useful fictional best-of-three example is **0–6, 7–6, 7–6**. The player listed first wins two sets to one despite winning fourteen games compared with the opponent's eighteen.
+
+Check the arithmetic: zero plus seven plus seven equals fourteen; six plus six plus six equals eighteen. The larger total of games does not overturn the two sets won. This is an invented teaching score, not an additional Zverev result.
+
+The lesson applies when reading match statistics. A player can lead on a selected aggregate measure without winning the match. You need to understand what the competition actually awards and which units determine the outcome.
+
+Our [ICC rankings guide](/blogs/icc-rankings-rank-rating-team-player-tables-explained/) explores a related numerical habit in another sport: first identify what a table measures, then decide which conclusions its numbers support.
+
+## What does a title count leave out?
+
+A title count records completed tournament wins. It does not show how many matches went to deciding sets, how many break points were saved or how a player responded tactically to a particular opponent. Those are separate questions requiring separate evidence.
+
+This does not diminish a title. It simply prevents one number from being asked to describe an entire season. A useful review can celebrate the result while investigating how individual matches differed.
+
+For a student project, create two columns: established results and questions for further viewing. Put the verified final scores in the first. Put questions about serve placement, return position or rally patterns in the second until you have examined suitable evidence.
+
+Do not fill the second column with claims borrowed from an impressive-sounding summary unless you can trace them. “He changed his entire style” is a much larger assertion than “the official record shows he won this final.”
+
+## How can you examine a match without inventing a psychological story?
+
+Describe the visible sequence first. A player losing a set and winning the next is an observable result. Saying exactly what the player felt, feared or decided privately goes beyond that evidence unless supported by an attributed account.
+
+If a player speaks after the match, distinguish their statement from your interpretation. A trophy-ceremony quotation can provide perspective, but it should not be expanded into a detailed account of conversations you did not witness.
+
+For an original writing exercise, replace “he knew the opponent was finished” with a factual observation about the following games or a carefully attributed comment. The revised sentence may sound less dramatic, but it gives readers something they can check.
+
+The same method helps avoid unfairly labelling a player from one moment. A visible reaction is not a complete personality assessment. Keep the analysis tied to the match and the evidence you actually have.
+
+## What should you look for in serve and return patterns?
+
+Choose a small sample of points from authorized footage and note where the server directs the ball, where the receiver stands and what happens on the next shot. Keep the sample size visible so that five points do not become a claim about an entire career.
+
+Ask whether the camera angle lets you judge the placement accurately. A low angle can make depth difficult to assess, and a replay may show only the end of the point. Note those limits rather than treating every clip as a complete tactical diagram.
+
+Compare similar situations when possible. A first serve at 40–0 and a second serve facing break point occur in different contexts. If you compare them, explain why the comparison is useful and which differences remain.
+
+These are suggested observation questions, not assertions about a specific Zverev service pattern. The article does not claim to have watched and coded every point of either final.
+
+## How do tournament seeds differ from a career assessment?
+
+A seed is part of a particular tournament's draw. A career assessment may examine many events over several years. Do not use a seed number as though it were a timeless label of a player's ability.
+
+The [Paris Masters 2026 guide](/blogs/paris-masters-2026-schedule-draw-pakistan-time-guide/) identifies the dated preview and explains how to distinguish a possible later-round meeting from a confirmed fixture. That is useful context for following Zverev into the November event without announcing its outcome in advance.
+
+This retrospective does not certify an unverified live ranking or a future No. 1 date. If you need a current position, use the ATP's current ranking record with its effective date rather than inferring it from two major titles alone.
+
+## What place does Olympic gold have in his record?
+
+The ATP's Tokyo report records Zverev's **6–3, 6–1 victory over Karen Khachanov** in the Olympic men's singles final played in 2021. This is another verified achievement, but it belongs to a different competition and year from the two 2026 major titles discussed here.
+
+Keep the event identity intact when summarizing the career. “Olympic champion” and “Grand Slam champion” are not interchangeable labels for the same tournament. A concise timeline can include both without blending their opponents, dates or scorelines.
+
+The Olympic result is included as historical context, not as a claim about participation or a medal at a later Games. A familiar photograph or title should always remain attached to the edition it actually represents.
+
+## What is a balanced way to describe his 2026 achievement?
+
+The verified claim is substantial: two major singles titles, one secured in five sets at Roland-Garros and another in four at the US Open. You do not need an invented prediction or exaggerated ranking claim to make those results meaningful.
+
+Read the scores in sequence, preserve the competition and date, and separate match facts from interpretations requiring further viewing. That produces a more informative account of the season than either a bare trophy list or a dramatic story unsupported by evidence.
+
+## Sources
+
+[Source 1: Roland-Garros final report](https://www.rolandgarros.com/en-us/article/2026-edition-roland-garros-wrap-sun-june-7)
+
+[Source 2: official US Open final record](https://www.usopen.org/amp/en_US/news/articles/2026-09-13/alexander_zverev_vs_ben_shelton_2026_us_open_mens_singles_final.html)
+
+[Source 3: ATP Olympic final report](https://www.atptour.com/en/news/zverev-khachanov-tokyo-final-2021-sunday/)
+
+Checked 1 November 2026. The Olympic report was identified through its indexed official record; direct retrieval was restricted. The fictional 0–6, 7–6, 7–6 example is not a real Zverev match result.

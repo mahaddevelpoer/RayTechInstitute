@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Alexander Zverev (cropped).jpg",
+    "url": "/images/editorial/trending-pk-20261101/alexander-zverev-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_Zverev_(cropped).jpg",
+    "creator": "Rick Munroe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "7c50e178688c4991ed1634734fe2042b2369968d",
+    "width": 746,
+    "height": 960,
+    "alt": "Alexander Zverev before a match at the 2026 Miami Open",
+    "caption": "Zverev at the 2026 Miami Open, according to the photograph’s source. This is not a championship-final photograph.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 46092
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Alexander Zverev 2026 Roland Garros (198) (cropped).jpg",
+    "url": "/images/editorial/trending-pk-20261101/alexander-zverev-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_Zverev_2026_Roland_Garros_(198)_(cropped).jpg",
+    "creator": "Like tears in rain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "b0e8c27568b7bfa173462f09468a9a6b54483997",
+    "width": 518,
+    "height": 960,
+    "alt": "Alexander Zverev at Roland-Garros in 2026",
+    "caption": "Zverev during the 2026 Roland-Garros match against Jesper de Jong, as identified by the source. It is not the Cobolli final.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 99562
+  }
+]
