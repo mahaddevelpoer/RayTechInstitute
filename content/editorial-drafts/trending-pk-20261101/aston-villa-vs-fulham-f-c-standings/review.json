@@ -1,0 +1,28 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1950,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.fulhamweb.co.uk/news/match-report-fulham-draw-at-aston-villa-~-prem-md-09-~-26/27.aspx"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+    },
+    {
+      "url": "https://www.premierleague.com/en/tables/premier-league/2026-27/all-matchweeks"
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/the-corner-kick/"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Season rows dated through 31 October, not continuously updated current ranks.",
+    "Match report explicitly identified as Fulhamweb reproduction credited to Fulham FC author; unavailable guessed original links not used.",
+    "Own goal identifies Villa goalkeeper Suzuki; secondary page assigning him to Fulham rejected.",
+    "No inferred intent from own-goal label, independent replay adjudication or fake firsthand review.",
+    "Original pre-match points reconstruction does not claim exact earlier ranks.",
+    "Villa Park photograph and Suzuki Japan photograph are historical context, not images of this fixture."
+  ],
+  "published": false
+}
