@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Jobe Bellingham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jobe_Bellingham.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Jobe_Bellingham.jpg",
+    "creator": "Greensquare67",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha1": "514ba618087fa4f2a399d3eeae6690d7d6712821",
+    "width": 719,
+    "height": 1123,
+    "alt": "Footballer Jobe Bellingham",
+    "caption": "Historical photograph of Jobe Bellingham. It is not presented as an image from a November 2026 match.",
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Signal iduna park stadium dortmund 4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Signal_iduna_park_stadium_dortmund_4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Signal_iduna_park_stadium_dortmund_4.jpg",
+    "creator": "Arne Müseler / www.arne-mueseler.com",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sha1": "806a54fe2d787cb53ba8ac075f71961f10024315",
+    "width": 4284,
+    "height": 2856,
+    "alt": "Westfalenstadion in Dortmund, also known as Signal Iduna Park",
+    "caption": "Dortmund’s home stadium, shown for club context rather than as an image of a specific match.",
+    "reviewState": "metadata-reviewed"
+  }
+]

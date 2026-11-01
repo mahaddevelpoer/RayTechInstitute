@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1858,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.bvb.de/de/en/teams/football/player/jobe-bellingham.html"
+    },
+    {
+      "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2025/6/10/Borussia-Dortmund-sign-Jobe-Bellingham.html"
+    },
+    {
+      "url": "https://www.bundesliga.com/en/player/jobe-bellingham"
+    }
+  ],
+  "factualLimitations": [
+    "League snapshot dated, not live guarantee. No fabricated minutes/rates or selection news.",
+    "All viewing examples labelled original, not assertions about unseen matches.",
+    "21 calculated from official DOB at publication date."
+  ],
+  "published": false
+}
