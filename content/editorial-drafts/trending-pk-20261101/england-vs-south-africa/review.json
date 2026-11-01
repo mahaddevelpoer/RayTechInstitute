@@ -1,0 +1,32 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1498,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 1,
+  "readerIntent": "Explain the ninth-place Bowl final and resource use in a six-over contest, without claiming a result.",
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/fixture/",
+      "title": "Official Hong Kong Sixes fixture and placing structure"
+    },
+    {
+      "url": "https://hongkongsixes.live/hong-kong-sixes-turns-it-up-to-six-for-bigger-2026-edition/",
+      "title": "Organiser's six-over format announcement"
+    }
+  ],
+  "factualLimitations": [
+    "Schedule checked 1 November 2026; no completed score, toss or winner verified."
+  ],
+  "seoTerms": [
+    "England vs South Africa",
+    "Hong Kong Sixes",
+    "Bowl final",
+    "Pakistan time"
+  ],
+  "internalLinks": [
+    "/blogs/super-six-cricket-qualification-format-guide/",
+    "/blogs/pakistan-india-hong-kong-sixes-match-guide/",
+    "/blogs/rashid-khan-200-t20i-wickets-record-explained/"
+  ],
+  "published": false
+}

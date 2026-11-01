@@ -1,0 +1,34 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1002,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 2,
+  "readerIntent": "Answer which Bangladesh-India fixture is being discussed and how its placing and statistics should be reported.",
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/fixture/",
+      "title": "Official tournament fixtures"
+    },
+    {
+      "url": "https://hongkongsixes.live/hong-kong-sixes-turns-it-up-to-six-for-bigger-2026-edition/",
+      "title": "Official Sixes format announcement"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC format-specific playing conditions"
+    }
+  ],
+  "factualLimitations": [
+    "Lists scheduled eleventh-place fixture checked 1 November; no winner, score or participating lineup asserted."
+  ],
+  "seoTerms": [
+    "Bangladesh vs India",
+    "Hong Kong Sixes"
+  ],
+  "internalLinks": [
+    "/blogs/super-six-cricket-qualification-format-guide/",
+    "/blogs/sahibzada-farhan-icc-t20i-rankings-explained/",
+    "/blogs/ireland-namibia-odi-scorecard-reading-guide/"
+  ],
+  "published": false
+}
