@@ -1,0 +1,18 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1524,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://aa.usno.navy.mil/faq/RST_defs"
+    },
+    {
+      "url": "https://gml.noaa.gov/grad/solcalc/calcdetails.html"
+    }
+  ],
+  "factualLimitations": [
+    "No live city-specific time claimed. All clock examples explicitly fictional.",
+    "NOAA maintenance limitation disclosed. No prayer-time calculation or religious ruling."
+  ],
+  "published": false
+}

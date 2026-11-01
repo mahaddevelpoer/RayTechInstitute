@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Spring Lake, New Jersey Beach at Sunrise.jpg",
+    "url": "/images/editorial/trending-pk-20261101/sunrise-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Spring_Lake,_New_Jersey_Beach_at_Sunrise.jpg",
+    "creator": "Nick Harris",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sha1": "03b99b612f69d080e7959e8073752b4168b97f35",
+    "width": 1280,
+    "height": 865,
+    "alt": "Sunrise over the beach at Spring Lake, New Jersey",
+    "caption": "Sunrise photographed at Spring Lake, New Jersey. Illustrative image, not a Pakistan sunrise observation.",
+    "reviewState": "visually-reviewed",
+    "bytes": 57562
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:MootHallSundial.JPG",
+    "url": "/images/editorial/trending-pk-20261101/sunrise-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:MootHallSundial.JPG",
+    "creator": "Wilson44691",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "995149a61f6a0a8f068f84857eff35a011d4aa3d",
+    "width": 688,
+    "height": 960,
+    "alt": "Sundial on Moot Hall in Aldeburgh, England",
+    "caption": "A sundial on Moot Hall in Aldeburgh, England, used here as a measurement-discussion illustration.",
+    "reviewState": "visually-reviewed",
+    "bytes": 105438
+  }
+]
