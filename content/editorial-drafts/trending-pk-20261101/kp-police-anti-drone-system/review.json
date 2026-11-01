@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1993,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://minutemirror.com.pk/kp-police-links-anti-drone-systems-surveillance-drones-with-safe-city-peshawar-command-center-653567/"
+    },
+    {
+      "url": "https://dgipr.kp.gov.pk/kpdronesban-2-3-26/"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Integration described as an attributed media report of an official briefing, not independently tested performance.",
+    "March advisory kept dated; article does not establish unchanged current restrictions or issue flight permission.",
+    "No equipment quantities, ranges, operational locations, frequencies, access instructions or interception procedures published.",
+    "Information-system and classifier examples are fictional, not claims about the real system's architecture or accuracy.",
+    "No allegation about the purpose or owner of a sighted aircraft based on appearance.",
+    "Cover landmark and generic camera drone are illustrative, not police assets or incident photographs."
+  ],
+  "published": false
+}

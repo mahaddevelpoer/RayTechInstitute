@@ -1,0 +1,18 @@
+{
+  "title": "KP Police Anti-Drone System: The Reported Update and Public Guidance",
+  "slug": "kp-police-anti-drone-safe-city-update-public-guide",
+  "category": "pakistan-news",
+  "excerpt": "Understand the reported Safe City integration, distinguish drone and anti-drone functions, and read dated advisories and technology claims with care.",
+  "tags": ["KP police anti drone system", "Khyber Pakhtunkhwa Police", "Peshawar Safe City", "October 2026 update", "Reported integration briefing", "DIG Ijaz Ahmed", "Drone versus anti-drone", "Public safety technology", "Public information guide", "Dated provincial advisory", "2 March 2026 advisory", "30 October 2026 report", "Current instructions check", "Observation versus allegation", "Firsthand versus forwarded", "Reporting uncertainty", "Nearest police station", "District control room", "Safe observation", "No operator confrontation", "Technology claims", "Detection versus assessment", "Response distinction", "Central monitoring concept", "Information integration", "Data quality learning", "False positive", "False negative", "Fictional classifier example", "Denominator matters", "Procurement versus deployment", "Budget versus delivery", "Document type", "Publication date", "Accountability questions", "Privacy and access", "Retention questions", "Fictional report exercise", "Reviewed versus unreviewed", "Pakistan student media literacy", "Peshawar landmark", "Illustrative camera drone"],
+  "seoTitle": "KP Police Anti-Drone: Safe City Update and Public Guide",
+  "description": "Understand KP Police's reported Safe City anti-drone update, dated public guidance and the difference between observations, verified claims and outcomes.",
+  "socialTitle": "KP Anti-Drone Update: Understand the Claims and Context",
+  "socialDescription": "A public-information guide to the reported integration, dated advisories and careful technology reporting.",
+  "sources": ["https://minutemirror.com.pk/kp-police-links-anti-drone-systems-surveillance-drones-with-safe-city-peshawar-command-center-653567/", "https://dgipr.kp.gov.pk/kpdronesban-2-3-26/"],
+  "limitations": ["Checked 1 November 2026. Integration described as an attributed media report of an official briefing, not independently tested performance.", "March advisory kept dated; article does not establish unchanged current restrictions or issue flight permission.", "No equipment quantities, ranges, operational locations, frequencies, access instructions or interception procedures published.", "Information-system and classifier examples are fictional, not claims about the real system's architecture or accuracy.", "No allegation about the purpose or owner of a sighted aircraft based on appearance.", "Cover landmark and generic camera drone are illustrative, not police assets or incident photographs."],
+  "metadataFile": "artifacts/november-kp-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Ghanta Ghar Peshawar.jpg", "alt": "Ghanta Ghar clock tower in Peshawar as regional context", "caption": "Peshawar's Ghanta Ghar clock tower provides regional context. This photograph does not identify a police installation, equipment location or security incident."},
+    {"role": "inline", "fileTitle": "File:Quadcopter camera drone in flight.jpg", "alt": "Illustrative camera quadcopter in flight", "caption": "An illustrative camera quadcopter. It is not identified as KP Police equipment, an intercepted aircraft or a device involved in an incident."}
+  ]
+}
