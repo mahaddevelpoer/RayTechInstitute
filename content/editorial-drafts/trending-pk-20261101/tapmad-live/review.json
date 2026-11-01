@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1778,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.tapmad.com/legal-center/terms"
+    },
+    {
+      "url": "https://www.tapmad.com/legal-center/refund"
+    },
+    {
+      "url": "https://www.tapmad.com/legal-center/contact"
+    }
+  ],
+  "factualLimitations": [
+    "Published cancellation timing conflict disclosed; no invented assurance of retained access/refund.",
+    "Listed prices dated, final checkout not guaranteed. No live purchase/cancellation performed.",
+    "Historical hardware illustrations not product screenshots or compatibility recommendations."
+  ],
+  "published": false
+}

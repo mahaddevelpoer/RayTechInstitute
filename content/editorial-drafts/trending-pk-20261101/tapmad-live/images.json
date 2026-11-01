@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:LG smart TV.jpg",
+    "url": "/images/editorial/trending-pk-20261101/tapmad-live-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:LG_smart_TV.jpg",
+    "creator": "LG전자",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "d23a00530751989f873cea6f93a10db3bc2b4df8",
+    "width": 1280,
+    "height": 882,
+    "alt": "Historical LG smart television demonstration",
+    "caption": "Historical LG smart-TV illustration. It is not a tapmad screenshot, a supported-device claim or a product recommendation.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 76298
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Nuon-N2000-Remote-Control.jpg",
+    "url": "/images/editorial/trending-pk-20261101/tapmad-live-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Nuon-N2000-Remote-Control.jpg",
+    "creator": "Evan-Amos",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "35f6f481c3a34c30ea918c00155442234a546469",
+    "width": 989,
+    "height": 960,
+    "alt": "Remote control for a Samsung N2000 DVD player",
+    "caption": "A historical DVD-player remote illustrates hardware controls. It is not a tapmad-compatible device recommendation.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 40208
+  }
+]
