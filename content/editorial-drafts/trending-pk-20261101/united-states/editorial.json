@@ -1,0 +1,81 @@
+{
+  "title": "United States Time Change 2026: A Pakistan Student Guide",
+  "slug": "united-states-time-change-2026-pakistan-student-guide",
+  "category": "world-news",
+  "excerpt": "Check the November 2026 US clock change and dated city-by-city Pakistan conversions, with clear examples for online classes, invitations and calendar entries.",
+  "tags": [
+    "United States",
+    "United States time",
+    "US time change 2026",
+    "1 November 2026",
+    "Daylight saving time",
+    "Standard time",
+    "Pakistan time conversion",
+    "New York to Pakistan",
+    "Chicago to Pakistan",
+    "Denver to Pakistan",
+    "Los Angeles to Pakistan",
+    "Phoenix to Pakistan",
+    "Honolulu to Pakistan",
+    "Asia Karachi",
+    "America New York",
+    "Named timezone",
+    "UTC offset",
+    "Repeated local hour",
+    "1:30am ambiguity",
+    "Hawaii DST exception",
+    "Arizona DST exception",
+    "Navajo Nation exception",
+    "Online class schedule",
+    "Student appointment planning",
+    "Calendar invitation",
+    "Timezone-aware event",
+    "Date rollover",
+    "Midnight versus noon",
+    "Date format ambiguity",
+    "Month-first date",
+    "Day-first date",
+    "IANA timezone database",
+    "Maintained timezone data",
+    "Intl DateTimeFormat",
+    "JavaScript date formatting",
+    "Locale versus timezone",
+    "UTC instant",
+    "Fictional appointment examples",
+    "NIST 2026 dates",
+    "US state reference map",
+    "New York clock photograph",
+    "November study planning"
+  ],
+  "seoTitle": "United States Time Change 2026: Pakistan Student Guide",
+  "description": "Check the November 2026 US time change, city-to-Pakistan examples and calendar tips. Understand named zones, repeated hours and date rollovers.",
+  "socialTitle": "US Clocks Change: Keep Your Pakistan Class Time Correct",
+  "socialDescription": "Dated November examples and original exercises for avoiding timezone mistakes.",
+  "sources": [
+    "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+    "https://www.iana.org/time-zones",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  ],
+  "limitations": [
+    "All appointments fictional; examples dated31Octoberand1November2026.",
+    "Zone-aware calculations verified with Pythonzoneinfo; JSformatter tested separately.",
+    "No whole-US simultaneous transition or nationwide single timezone claim.",
+    "Arizona exception stated with Navajo Nation distinction.",
+    "Reference map not advertised as binding current localboundaryauthority."
+  ],
+  "metadataFile": "artifacts/november-us-metadata-v2.json",
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Map of USA with state names.svg",
+      "alt": "Reference map of the United States with state names",
+      "caption": "US state reference map for geographic orientation. State boundaries do not by themselves identify time-zone rules; use the named city and date for conversions."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Grand Central Terminal Clock, February 2016.jpg",
+      "alt": "Grand Central Terminal clock in New York in a February 2016 photograph",
+      "caption": "Historical February 2016 photograph of the Grand Central Terminal clock in New York. It is not a live clock or a record of the 2026 transition."
+    }
+  ]
+}

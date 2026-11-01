@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Map of USA with state names.svg",
+    "alt": "Reference map of the United States with state names",
+    "caption": "US state reference map for geographic orientation. State boundaries do not by themselves identify time-zone rules; use the named city and date for conversions.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Map_of_USA_with_state_names.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Map_of_USA_with_state_names.svg",
+    "creator": "Andrew c",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sha1": "68c866766901b68a5b47ca6d6f97a137a5540880",
+    "width": 959,
+    "height": 593,
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Grand Central Terminal Clock, February 2016.jpg",
+    "alt": "Grand Central Terminal clock in New York in a February 2016 photograph",
+    "caption": "Historical February 2016 photograph of the Grand Central Terminal clock in New York. It is not a live clock or a record of the 2026 transition.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Grand_Central_Terminal_Clock%2C_February_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Grand_Central_Terminal_Clock,_February_2016.jpg",
+    "creator": "HeatherMarieKosur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "f1867d2d968f3a1569390ae6c21f82ad0cdea56e",
+    "width": 2272,
+    "height": 1704,
+    "reviewState": "metadata-reviewed"
+  }
+]

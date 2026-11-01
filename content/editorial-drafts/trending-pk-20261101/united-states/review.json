@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1942,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst"
+    },
+    {
+      "url": "https://www.iana.org/time-zones"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+    }
+  ],
+  "factualLimitations": [
+    "All appointments fictional; examples dated31Octoberand1November2026.",
+    "Zone-aware calculations verified with Pythonzoneinfo; JSformatter tested separately.",
+    "No whole-US simultaneous transition or nationwide single timezone claim.",
+    "Arizona exception stated with Navajo Nation distinction.",
+    "Reference map not advertised as binding current localboundaryauthority."
+  ],
+  "published": false
+}
