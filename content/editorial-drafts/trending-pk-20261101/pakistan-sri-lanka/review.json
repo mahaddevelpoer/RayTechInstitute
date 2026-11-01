@@ -1,0 +1,37 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1334,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 3,
+  "readerIntent": "Explain the verified 31 October ODI final outcome through complementary batting roles, distinct from fixture-identification guides.",
+  "sources": [
+    {
+      "url": "https://www.pcb.com.pk/news-detail/fakhar-s-127-arafat-s-31-ball-61-lead-pakistan-to-tri-series-title.html",
+      "title": "PCB match report, 31 October 2026"
+    },
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/pakistan-to-take-on-sri-lanka-in-odi-tri-series-final-at-gaddafi-stadium-on-saturday.html",
+      "title": "PCB final preview, 30 October 2026"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+      "title": "ICC playing conditions"
+    }
+  ],
+  "factualLimitations": [
+    "PCB report title and indexed result verified; full report fetch returned 403. No additional ball-by-ball reconstruction, award or complete score asserted."
+  ],
+  "seoTerms": [
+    "ODI final",
+    "Fakhar Zaman",
+    "Arafat Minhas",
+    "Gaddafi Stadium",
+    "Tri-series"
+  ],
+  "internalLinks": [
+    "/blogs/ireland-namibia-odi-scorecard-reading-guide/",
+    "/blogs/daryl-mitchell-middle-order-batting-guide/",
+    "/blogs/nayeem-hasan-spin-bowling-performance-guide/"
+  ],
+  "published": false
+}

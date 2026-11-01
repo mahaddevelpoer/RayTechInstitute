@@ -1,0 +1,27 @@
+{
+  "state": "source-research-in-progress",
+  "verifiedOn": "2026-11-01",
+  "queries": [
+    "oman vs pakistan",
+    "pak vs oma",
+    "oma vs pak",
+    "pak vs oman"
+  ],
+  "primarySource": "https://hongkongsixes.live/fixture/",
+  "verifiedFacts": {
+    "event": "Hong Kong Sixes 2026",
+    "fixture": "Oman vs Pakistan",
+    "stage": "Plate final",
+    "placing": "5th and 6th",
+    "date": "2026-11-01",
+    "scheduledHongKongTime": "14:15",
+    "scheduledPakistanTime": "11:15"
+  },
+  "notVerified": [
+    "final score",
+    "winner",
+    "individual batting and bowling figures",
+    "Pakistan broadcast rights"
+  ],
+  "editorialRule": "Do not describe this as the tournament championship final or present an invented live score. Scheduled time is not confirmation of actual start."
+}

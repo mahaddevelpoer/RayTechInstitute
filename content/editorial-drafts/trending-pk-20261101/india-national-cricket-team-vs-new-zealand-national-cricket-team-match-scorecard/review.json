@@ -1,0 +1,46 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1558,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 4,
+  "readerIntent": "Identify the fifth T20I and build a series comparison, distinct from the existing Auckland scorecard tutorial.",
+  "sources": [
+    {
+      "url": "https://www.nzc.nz/media/4jnfcekm/print_2026_27-schedule-release.pdf",
+      "title": "New Zealand Cricket 2026-27 home schedule"
+    },
+    {
+      "url": "https://seddonpark.com/news/historic-india-mega-tour-headlines-international-home-schedule",
+      "title": "Seddon Park tour announcement"
+    },
+    {
+      "url": "https://www.nzc.nz/seddon-park-both-hagley-oval-t20is-sold-out-eden-park-set-for-record-crowd/",
+      "title": "NZC dated fixture update, 19 October 2026"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/new-zealand-confirm-split-odi-squads-for-india-series?appview=true",
+      "title": "ICC split ODI squad report, 11 October 2026"
+    },
+    {
+      "url": "https://seddonpark.com/public/events",
+      "title": "Seddon Park dated event listings"
+    }
+  ],
+  "factualLimitations": [
+    "Fixture and scheduled start verified; actual 1 November result, playing XI and series aggregate not verified."
+  ],
+  "seoTerms": [
+    "India vs New Zealand",
+    "Hamilton",
+    "Seddon Park",
+    "Fifth T20I",
+    "Scorecard"
+  ],
+  "internalLinks": [
+    "/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/",
+    "/blogs/sahibzada-farhan-icc-t20i-rankings-explained/",
+    "/blogs/nitish-kumar-reddy-all-rounder-analysis-guide/"
+  ],
+  "published": false,
+  "substantiveCompletionRequired": false
+}

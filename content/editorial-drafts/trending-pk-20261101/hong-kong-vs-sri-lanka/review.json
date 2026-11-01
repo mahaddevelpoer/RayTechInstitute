@@ -1,0 +1,42 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1461,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 5,
+  "readerIntent": "Explain the seventh-place fixture and evaluate fielding contributions in a compressed contest.",
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/fixture/",
+      "title": "Official Hong Kong Sixes fixtures and placing labels"
+    },
+    {
+      "url": "https://hongkongsixes.live/hong-kong-sixes-turns-it-up-to-six-for-bigger-2026-edition/",
+      "title": "Official format announcement"
+    },
+    {
+      "url": "https://hongkongsixes.live/wp-json/hk-sixes/v1/matches",
+      "title": "Organiser results feed, cached update 07:03 UTC on 1 November 2026; match 5528"
+    },
+    {
+      "url": "https://hongkongsixes.live/sixes-galore-and-last-ball-drama-as-hong-kong-sixes-2026-finalists-emerge/",
+      "title": "Organiser semi-final report, 31 October 2026"
+    }
+  ],
+  "factualLimitations": [
+    "Completed totals and one-run result read from organiser feed; no individual seventh-place batting figures or ball-by-ball events asserted."
+  ],
+  "seoTerms": [
+    "Hong Kong vs Sri Lanka",
+    "Hong Kong Sixes",
+    "Plate play-off",
+    "Pakistan time"
+  ],
+  "internalLinks": [
+    "/blogs/super-six-cricket-qualification-format-guide/",
+    "/blogs/tim-seifert-wicketkeeping-batting-study-guide/",
+    "/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/"
+  ],
+  "published": false,
+  "resultVerified": true,
+  "substantiveCompletionRequired": false
+}

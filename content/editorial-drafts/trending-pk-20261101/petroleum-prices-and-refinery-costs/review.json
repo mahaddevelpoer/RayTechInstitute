@@ -1,0 +1,40 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1461,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 8,
+  "readerIntent": "Explain refinery cost absorption and price-chain accounting, distinct from a current retail-rate announcement.",
+  "sources": [
+    {
+      "url": "https://www.finance.gov.pk/budget/budget_2025_26/explanatory_memorandum_on_federal_receipts_10062025.pdf",
+      "title": "Finance Division 2025-26 receipts memorandum: petroleum pricing components"
+    },
+    {
+      "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/refining-crude-oil.php",
+      "title": "US Energy Information Administration: Refining crude oil"
+    },
+    {
+      "url": "https://www.ogra.org.pk/download/3041",
+      "title": "OGRA historical product price-build-up table"
+    },
+    {
+      "url": "https://petroleum.gov.pk/",
+      "title": "Petroleum Division notification index checked 1 November 2026"
+    }
+  ],
+  "factualLimitations": [
+    "No current pump price, per-litre refinery loss or legal interpretation of an inaccessible specific policy letter asserted. All numerical models are fictional teaching examples."
+  ],
+  "seoTerms": [
+    "Petrol costs",
+    "Ex-refinery price",
+    "Refining margin",
+    "Exchange rate"
+  ],
+  "internalLinks": [
+    "/blogs/petroleum-pakistan-products-supply-price-guide/",
+    "/blogs/pso-attock-refinery-agreement-renewal-explained/",
+    "/blogs/dollar-rate-pakistan-buying-selling-guide/"
+  ],
+  "published": false
+}

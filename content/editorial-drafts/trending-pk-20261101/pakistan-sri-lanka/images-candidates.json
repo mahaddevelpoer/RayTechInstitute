@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Pakvaus.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pakvaus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pakvaus.jpg",
+    "creator": "Pete Meade  from Maidenhead, Berkshire",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "307d49cf37b957a384cbe57c04c6b41b86801b91",
+    "width": 800,
+    "height": 533,
+    "alt": "Pakistan facing Australia in a 2004 warm-up match at Lord's.",
+    "caption": "Historical Pakistan match context, not the 31 October 2026 final in Lahore.",
+    "reviewState": "semantically-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Bangladesh vs Sri lanka 2nd test match 2nd day 16.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bangladesh_vs_Sri_lanka_2nd_test_match_2nd_day_16.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bangladesh_vs_Sri_lanka_2nd_test_match_2nd_day_16.jpg",
+    "creator": "MdsShakil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "6d36e259cc79094194d974dcbeb79b53394a2949",
+    "width": 4000,
+    "height": 2992,
+    "alt": "Play during the Bangladesh-Sri Lanka Test in 2022.",
+    "caption": "Historical Sri Lanka Test action provides a format comparison, not a photograph of the Lahore ODI final.",
+    "reviewState": "semantically-reviewed"
+  }
+]

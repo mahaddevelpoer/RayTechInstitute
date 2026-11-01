@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Seddon Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Seddon_Park.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seddon_Park.jpg",
+    "creator": "JaumeBG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "130265f097153c8f9b722cc694f0eb22d556d11b",
+    "width": 4000,
+    "height": 1800,
+    "alt": "Cricket being played at Seddon Park in Hamilton.",
+    "caption": "A historical Seddon Park match photograph establishes the venue, not the participants or result of the fifth T20I.",
+    "reviewState": "semantically-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Waikato cricket ground.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Waikato_cricket_ground.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Waikato_cricket_ground.jpg",
+    "creator": "Kieran Connellan  from Hamilton, New Zealand",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sha1": "fbfd9f74b524fc51ac2a94e6ac7d25c7a51582df",
+    "width": 3112,
+    "height": 2076,
+    "alt": "Elevated view of the Hamilton cricket ground.",
+    "caption": "An earlier ground view illustrates Hamilton's venue setting; it does not show the 1 November 2026 match.",
+    "reviewState": "semantically-reviewed"
+  }
+]

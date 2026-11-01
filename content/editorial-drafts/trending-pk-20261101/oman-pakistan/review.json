@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "groupIndex": 0,
+  "words": 1063,
+  "sourceChecked": "2026-11-01",
+  "readerIntent": "Explain the Plate-final fixture and distinguish its placing from the Cup championship.",
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/fixture/",
+      "title": "Official Hong Kong Sixes schedule"
+    }
+  ],
+  "factualLimitations": [
+    "Parent-authored article preserved. It reports fixture verification only, not a completed winner. Organiser cached feed still marked match 5532 live at 07:03 UTC."
+  ],
+  "published": false,
+  "substantiveCompletionRequired": false,
+  "proseOwnership": "Parent-authored original retained; companion metadata completed by assigned worker."
+}

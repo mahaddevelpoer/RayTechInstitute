@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Seddon Park.jpg",
+    "url": "/images/editorial/trending-pk-20261101/india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Seddon_Park.jpg",
+    "creator": "JaumeBG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "130265f097153c8f9b722cc694f0eb22d556d11b",
+    "width": 1280,
+    "height": 576,
+    "alt": "Cricket being played at Seddon Park in Hamilton.",
+    "caption": "A historical Seddon Park match photograph establishes the venue, not the participants or result of the fifth T20I.",
+    "reviewState": "semantically-reviewed",
+    "bytes": 90168
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Waikato cricket ground.jpg",
+    "url": "/images/editorial/trending-pk-20261101/india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Waikato_cricket_ground.jpg",
+    "creator": "Kieran Connellan  from Hamilton, New Zealand",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sha1": "fbfd9f74b524fc51ac2a94e6ac7d25c7a51582df",
+    "width": 1280,
+    "height": 854,
+    "alt": "Elevated view of the Hamilton cricket ground.",
+    "caption": "An earlier ground view illustrates Hamilton's venue setting; it does not show the 1 November 2026 match.",
+    "reviewState": "semantically-reviewed",
+    "bytes": 93988
+  }
+]

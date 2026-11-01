@@ -1,0 +1,41 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1120,
+  "sourceChecked": "2026-11-01",
+  "groupIndex": 7,
+  "readerIntent": "A dated Cup-final preview built on verified squads and semi-final outcomes, with result verification explicitly pending.",
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/australia-announce-squad-for-hong-kong-sixes-2026-chris-green-to-lead-the-side/",
+      "title": "Organiser Australia squad announcement"
+    },
+    {
+      "url": "https://hongkongsixes.live/afghanistan-announce-squad-for-hong-kong-sixes-2026/",
+      "title": "Organiser Afghanistan squad announcement"
+    },
+    {
+      "url": "https://hongkongsixes.live/sixes-galore-and-last-ball-drama-as-hong-kong-sixes-2026-finalists-emerge/",
+      "title": "Organiser semi-final report"
+    },
+    {
+      "url": "https://hongkongsixes.live/fixture/",
+      "title": "Official finals-day schedule"
+    }
+  ],
+  "factualLimitations": [
+    "Squads and semi-final routes read from organiser; no completed Cup-final winner verified at source check."
+  ],
+  "seoTerms": [
+    "Chris Green",
+    "Gulbadin Naib",
+    "Max Bryant",
+    "Karim Janat",
+    "Cup final"
+  ],
+  "internalLinks": [
+    "/blogs/australia-cricket-team-formats-fixtures-guide/",
+    "/blogs/sikandar-raza-batting-bowling-analysis-guide/",
+    "/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/"
+  ],
+  "published": false
+}

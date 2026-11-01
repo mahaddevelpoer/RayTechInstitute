@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Gulbadin Naib.jpg",
+    "url": "/images/editorial/trending-pk-20261101/australia-vs-afghanistan-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Gulbadin_Naib.jpg",
+    "creator": "CRICKETNEXT",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sha1": "24ec6a22ccf82fd8260f51965eaff1c5e10b768b",
+    "width": 1148,
+    "height": 960,
+    "alt": "Afghanistan cricketer Gulbadin Naib.",
+    "caption": "Gulbadin Naib, the announced Afghanistan Sixes captain. This portrait is not coverage of the 2026 final.",
+    "reviewState": "semantically-reviewed",
+    "bytes": 55556
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Cricket-ball-red-madeinaustralia.jpg",
+    "url": "/images/editorial/trending-pk-20261101/australia-vs-afghanistan-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricket-ball-red-madeinaustralia.jpg",
+    "creator": "Rene Schwietzke",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "93dbbc992b3c18ccf4250aa03aa175c50d9e02ef",
+    "width": 1280,
+    "height": 852,
+    "alt": "A red cricket ball made in Australia.",
+    "caption": "Illustrative red-ball equipment, not a ball from the Sixes final. Format and equipment context should remain separate.",
+    "reviewState": "semantically-reviewed",
+    "bytes": 49356
+  }
+]
