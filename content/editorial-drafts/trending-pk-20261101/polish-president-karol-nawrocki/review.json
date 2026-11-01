@@ -1,0 +1,20 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1722,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://k.prezydent.pl/en/president"
+    },
+    {
+      "url": "https://wybory.gov.pl/prezydent2025/statics/PKW_OBWIESZCZENIA/uploaded_files/1748873119_obwieszczenie-pkw-o-wynikach-ponowne-glosowanie.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "No political endorsement, inferred voter motives or invented current event.",
+    "Biography used for chronology, not independent performance assessment.",
+    "Official candidate totals yield margin369591 and rounded-share gap1.78percentage points.",
+    "Fictional denominator example explicitly labelled, not real election reconstruction."
+  ],
+  "published": false
+}

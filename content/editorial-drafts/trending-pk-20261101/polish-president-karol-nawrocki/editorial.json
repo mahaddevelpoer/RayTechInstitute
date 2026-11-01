@@ -1,0 +1,18 @@
+{
+  "title": "Polish President Karol Nawrocki: Biography and Election Figures",
+  "slug": "polish-president-karol-nawrocki-biography-election-figures",
+  "category": "world",
+  "excerpt": "Read Nawrocki's official career timeline and Poland's formal 2025 runoff result, then understand vote margins, percentage points and the denominator behind a share.",
+  "tags": ["Karol Nawrocki", "Polish president", "President of Poland", "Karol Nawrocki biography", "Poland election 2025", "Presidential runoff", "1 June 2025", "6 August 2025", "Rafal Trzaskowski", "Official election results", "Polish election commission", "PKW", "Valid votes", "50.89 percent", "49.11 percent", "Vote margin", "Percentage points", "Percentage versus percent", "Election arithmetic", "Candidate vote share", "Denominator checks", "Turnout distinction", "Official biography", "Gdansk", "University of Gdansk", "History doctorate", "Institute of National Remembrance", "Second World War Museum", "Career timeline", "President-elect distinction", "Taking office", "Source verification", "Political photo context", "White House 2025 photograph", "Presidential Palace Warsaw", "Civic education", "Neutral political profile", "Data literacy", "Student civics project", "Primary sources"],
+  "seoTitle": "Polish President Karol Nawrocki: Biography and Votes",
+  "description": "Read Karol Nawrocki's official timeline and the 2025 Polish runoff result. Understand vote margins, percentage points and what candidate shares measure.",
+  "socialTitle": "Karol Nawrocki: A Source-Based Profile",
+  "socialDescription": "Verified biography, official vote totals and a clear explanation of election arithmetic.",
+  "sources": ["https://k.prezydent.pl/en/president", "https://wybory.gov.pl/prezydent2025/statics/PKW_OBWIESZCZENIA/uploaded_files/1748873119_obwieszczenie-pkw-o-wynikach-ponowne-glosowanie.pdf"],
+  "limitations": ["No political endorsement, inferred voter motives or invented current event.", "Biography used for chronology, not independent performance assessment.", "Official candidate totals yield margin369591 and rounded-share gap1.78percentage points.", "Fictional denominator example explicitly labelled, not real election reconstruction."],
+  "metadataFile": "artifacts/november-nawrocki-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Karol Nawrocki (2025) (cropped).jpg", "alt": "Polish President Karol Nawrocki in a 2025 White House photograph", "caption": "Nawrocki in an official White House photograph from 3 September 2025, by Joyce N. Boghosian. Not a November 2026 event photograph."},
+    {"role": "inline", "fileTitle": "File:Warszawa Pałac Prezydencki 2011.jpg", "alt": "The Presidential Palace in Warsaw in 2011", "caption": "Historical view of Warsaw's Presidential Palace in 2011. It is not evidence of a current meeting or event."}
+  ]
+}
