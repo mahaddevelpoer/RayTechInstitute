@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1767,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://ausopen.com/articles/news/major-milestone-alcaraz-completes-slam-set-ao-2026-title"
+    },
+    {
+      "url": "https://ausopen.com/history/honour-roll/mens-singles"
+    },
+    {
+      "url": "https://www.itftennis.com/media/15851/2026-australian-open-mens-singles-final-match-notes.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "Title snapshot explicitly through AO final, not live current career total.",
+    "Pre-final ITF notes distinguished from completed result.",
+    "No future result, current ranking or private tactical plan invented."
+  ],
+  "published": false
+}
