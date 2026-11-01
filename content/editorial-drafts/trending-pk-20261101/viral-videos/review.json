@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2169,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://support.google.com/websearch/answer/1325808?hl=en"
+    },
+    {
+      "url": "https://github.com/AFP-Medialab/verification-plugin"
+    },
+    {
+      "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"
+    }
+  ],
+  "factualLimitations": [
+    "All River Town examples fictional, not allegations about real events or uploaders.",
+    "No private identity tracing, criminal intent inference or automatic authenticity guarantee.",
+    "Current plugin repository consulted; old project page used as feature background, not current version instructions.",
+    "Negative visual search result not misrepresented as proof of originality.",
+    "Photos illustrative and not presented as disputed videos or accusations about depicted learners."
+  ],
+  "published": false
+}

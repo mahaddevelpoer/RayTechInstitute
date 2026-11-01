@@ -1,0 +1,18 @@
+{
+  "title": "Viral Videos: Check the Date, Place and Claim Before Sharing",
+  "slug": "viral-videos-check-date-location-claim-student-guide",
+  "category": "technology",
+  "excerpt": "Use a practical student worksheet to separate footage from its caption, inspect useful frames and report uncertainty without inventing a verdict.",
+  "tags": ["Viral videos", "Viral video verification", "Check before sharing", "Video caption checks", "Recording date", "Upload date", "Location verification", "Misleading caption", "Older footage", "Original uploader distinction", "Earliest located copy", "Keyframe search", "Reverse image search", "Google Lens", "Image search results", "AFP Medialab", "Verification plugin", "InVID tools", "Metadata viewer", "File timestamp", "Public source record", "Source URL", "Independent evidence", "Repeated captions", "Visual comparison", "Public landmark", "Privacy-respecting checks", "No private identification", "Fictional River Town exercise", "Unresolved claim", "Correction wording", "Media literacy", "Digital literacy", "Pakistan students", "Classroom verification worksheet", "View count versus evidence", "Footage versus story", "Search limitation", "Evidence notebook", "Filmmaking education", "Recording device photograph", "Critical thinking"],
+  "seoTitle": "Viral Videos: Check Dates, Locations and Claims Clearly",
+  "description": "Learn to check viral video dates, locations and captions with practical examples, keyframe searches and a clear student evidence worksheet.",
+  "socialTitle": "Viral Videos: Check the Claim Before You Share",
+  "socialDescription": "Original student exercises for checking context, finding evidence and keeping uncertainty visible.",
+  "sources": ["https://support.google.com/websearch/answer/1325808?hl=en", "https://github.com/AFP-Medialab/verification-plugin", "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"],
+  "limitations": ["All River Town examples fictional, not allegations about real events or uploaders.", "No private identity tracing, criminal intent inference or automatic authenticity guarantee.", "Current plugin repository consulted; old project page used as feature background, not current version instructions.", "Negative visual search result not misrepresented as proof of originality.", "Photos illustrative and not presented as disputed videos or accusations about depicted learners."],
+  "metadataFile": "artifacts/november-viral-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Young Creators on the Go.jpg", "alt": "Learners practising smartphone filmmaking in Togo", "caption": "A smartphone-filmmaking learning activity in Togo, West Africa. These learners are not connected to a disputed video or the fictional example in this guide."},
+    {"role": "inline", "fileTitle": "File:Canon HF10 front.jpg", "alt": "Front view of a Canon VIXIA HF10 recording camera", "caption": "A recording device shown for illustration. The photograph does not establish where or when any video was filmed and is not a product recommendation."}
+  ]
+}
