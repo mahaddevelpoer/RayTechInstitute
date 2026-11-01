@@ -1,0 +1,27 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2029,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.chelseafc.com/en/news/article/match-report-chelsea-2-0-manchester-united"
+    },
+    {
+      "url": "https://www.manutd.com/en/matches/mens-team/chelsea-fc-v-manchester-united-premier-league-20261031?tab=live"
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/offside/"
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/"
+    }
+  ],
+  "factualLimitations": [
+    "Latest direct Chelsea report records Palmer64; older search snippet65 not repeated.",
+    "No independent VAR reconstruction or private tactical knowledge claimed.",
+    "No blanket penalty-equals-red-card rule; offside position distinguished from offence.",
+    "Fictional JavaScript events labelled and not advertised as complete production score service.",
+    "Historical venue and 2025 Palmer photo not claimed as October2026match photographs."
+  ],
+  "published": false
+}
