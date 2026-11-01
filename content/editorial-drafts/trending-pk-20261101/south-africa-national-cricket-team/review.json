@@ -1,0 +1,27 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2023,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/news/south-africa-topple-australia-to-climb-test-team-rankings-summit"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/sensational-south-africa-seal-the-series-in-cape-town"
+    },
+    {
+      "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings"
+    },
+    {
+      "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/live-south-africa-on-brink-of-wtc25-final-victory-at-lord-s"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Ranking milestone explicitly dated 31 October, not a continuously updated table.",
+    "Test rankings, WTC standings, series outcome and 2025 title kept separate.",
+    "No permanent current XI, cross-format captaincy claim, broadcast-rights promise or qualification prediction.",
+    "Points examples are fictional and exclude deductions; official standings remain authoritative for actual positions.",
+    "Historical Amla batting scene and 2024 domestic-fixture venue photograph not presented as the 2026 Cape Town winning XI or match photographs."
+  ],
+  "published": false
+}
