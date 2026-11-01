@@ -1,0 +1,27 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2076,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/players/CA:804/cameron-green"
+    },
+    {
+      "url": "https://www.icc-cricket.com/rankings/66870/cameron-green"
+    },
+    {
+      "url": "https://www.cricket.com.au/news/4598279/cameron-green-abdominal-injury-update-third-test-return-australia-v-south-africa-cape-town-selection-batting-order-reshuffle"
+    },
+    {
+      "url": "https://www.cricket.com.au/videos/3102014/cameron-green-hits-maiden-test-ton-in-ahmedabad-masterclass-australia-india-highlights"
+    }
+  ],
+  "factualLimitations": [
+    "Availability explicitly25October2026pre-matchreport, no new diagnosis or present clearance claim.",
+    "Stats snapshot checked1November2026, not live or all-format total.",
+    "Fictional calculations separated from actual player record.",
+    "Historical2022images do not imply bowling availability2026.",
+    "CA Batter header and ICC All Rounder classification explained without claiming one definitively wrong."
+  ],
+  "published": false
+}
