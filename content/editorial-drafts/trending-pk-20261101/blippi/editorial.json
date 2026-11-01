@@ -1,0 +1,18 @@
+{
+  "title": "Blippi for Parents: Turn Watching into Questions and Play",
+  "slug": "blippi-parent-guide-watching-questions-off-screen-play",
+  "category": "education",
+  "excerpt": "Use a selected Blippi segment to start a conversation, then try simple counting, shapes, vehicle and pretend-job activities with a caregiver.",
+  "tags": ["Blippi", "Blippi parent guide", "Blippi videos", "Meekah", "Preschool programme", "Shared viewing", "Caregiver activities", "Watch discuss try", "Off-screen play", "Learning through questions", "Vehicle theme", "Wheels observation", "Counting activity", "One-to-one counting", "Shape comparison", "Colour observation", "Sorting rules", "Paper activities", "Pretend play", "Jobs theme", "Pretend cafe", "Pretend repair shop", "Child questions", "Simple predictions", "Observation skills", "Original activity ideas", "Adult supervision", "Official Blippi watch page", "Official channels", "Programme selection", "Media literacy", "Historical event photo", "Brand identification", "Child privacy", "Family activity plan", "No developmental guarantee", "Not a complete curriculum", "Conversation prompts", "Educational entertainment", "Parent-led viewing"],
+  "seoTitle": "Blippi Parent Guide: Questions, Watching and Play Ideas",
+  "description": "Turn a selected Blippi video into conversation and simple off-screen play. Try original counting, shapes, vehicles and pretend-job ideas with a caregiver.",
+  "socialTitle": "After Blippi: Ask, Notice and Try Something Together",
+  "socialDescription": "A practical parent plan with original paper, counting and pretend-play activities.",
+  "sources": ["https://www.blippi.com/about", "https://www.blippi.com/watch"],
+  "limitations": ["No clinical, developmental or guaranteed learning claims.", "No claim of reviewing every episode or identifying the performer by an unverified name.", "Activities original and caregiver-led, no specialist experiments or machinery instructions.", "No promise of free or identical regional platform availability."],
+  "metadataFile": "artifacts/november-blippi-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Blippi Las Vegas 2026.jpg", "alt": "Blippi at Las Vegas Motor Speedway in 2026", "caption": "Blippi at Las Vegas Motor Speedway in 2026, as identified by the photo source. The performer is not identified by name here."},
+    {"role": "inline", "fileTitle": "File:Blippi logo.webp", "alt": "Blippi brand logo", "caption": "The Blippi wordmark identifies the subject of this guide. It does not imply endorsement of RayTech Institute."}
+  ]
+}

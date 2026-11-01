@@ -1,0 +1,20 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1996,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.blippi.com/about"
+    },
+    {
+      "url": "https://www.blippi.com/watch"
+    }
+  ],
+  "factualLimitations": [
+    "No clinical, developmental or guaranteed learning claims.",
+    "No claim of reviewing every episode or identifying the performer by an unverified name.",
+    "Activities original and caregiver-led, no specialist experiments or machinery instructions.",
+    "No promise of free or identical regional platform availability."
+  ],
+  "published": false
+}
