@@ -1,0 +1,34 @@
+[
+  {
+    "role": "inline",
+    "fileTitle": "File:Nadal VS Wawrinka 2007 Paris.jpg",
+    "url": "/images/editorial/trending-pk-20261101/paris-masters-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Nadal_VS_Wawrinka_2007_Paris.jpg",
+    "creator": "Patrice from France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "1e0d87b17bdd7c5a55a8ab8ca718c1667ca2a081",
+    "width": 1280,
+    "height": 960,
+    "alt": "Rafael Nadal and Stan Wawrinka at the 2007 Paris Masters",
+    "caption": "Nadal versus Wawrinka at the 2007 Paris Masters. Historical image, not a claim that either appears in the 2026 draw.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 260486
+  },
+  {
+    "role": "cover",
+    "fileTitle": "File:Paris La Défense Arena (FRA).jpg",
+    "url": "/images/editorial/trending-pk-20261101/paris-masters-cover.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Paris_La_D%C3%A9fense_Arena_(FRA).jpg",
+    "creator": "PARISDEFENSEARENA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sha1": "1dc3dc66f8755cb4f1393b2ccba18f33c8ad0a15",
+    "width": 1280,
+    "height": 697,
+    "alt": "Night exterior of the arena known as Paris La Defense Arena",
+    "caption": "Exterior of the arena also identified in current official ticketing as Plenitude Arena. This is a venue illustration, not a 2026 match photograph.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 68318
+  }
+]

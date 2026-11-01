@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1719,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://prod.lta.org.uk/news/what-is-the-schedule-for-the-rolex-paris-masters/"
+    },
+    {
+      "url": "https://prod.lta.org.uk/news/rolex-paris-masters-preview-draw-schedule-how-to-watch-in-the-uk/"
+    },
+    {
+      "url": "https://tickets.rolexparismasters.com/en/experience-rolex-paris-masters"
+    }
+  ],
+  "factualLimitations": [
+    "No future champion, draw outcome or Pakistan broadcast rights invented.",
+    "Provisional schedule retained; qualifying and main draw differentiated.",
+    "Hypothetical 11:00 Paris on Nov2 converts to 15:00 Karachi via zoneinfo.",
+    "Historical 2007 match photo labelled, not current lineup claim."
+  ],
+  "published": false
+}
