@@ -1,0 +1,18 @@
+{
+  "title": "OGDC September 2026 Results: Revenue, Profit and EPS Explained",
+  "slug": "ogdc-september-2026-results-revenue-profit-eps-guide",
+  "category": "business",
+  "excerpt": "Read OGDCL's September-quarter figures with the right units, distinguish profit from cash and understand the dividend percentage without confusing it with a return.",
+  "tags": ["OGDC", "OGDCL", "Oil and Gas Development Company", "OGDC September 2026 results", "September quarter", "30 September 2026", "30 October 2026 filing", "Pakistan Stock Exchange", "PSX company filings", "Revenue explained", "Quarterly profit", "Earnings per share", "Basic EPS", "Diluted EPS", "Rupees in thousands", "Billions conversion", "Financial statement units", "Unaudited results", "Year-on-year growth", "Revenue growth calculation", "Profit growth calculation", "Reporting period", "Comparative quarter", "Dividend per share", "Rs 5 dividend", "Face value", "Dividend percentage", "Dividend versus return", "Profit versus cash", "Cash flow statement", "Production versus revenue", "Price and volume", "Exploration and production", "Oil production context", "Gas processing context", "Financial literacy Pakistan", "Statement reading worksheet", "Original calculation exercise", "Quarter versus annual forecast", "Market quote timestamp", "Source-first research", "Student finance guide"],
+  "seoTitle": "OGDC September 2026 Results: Revenue, Profit and EPS Guide",
+  "description": "Understand OGDC's September 2026 quarterly results, revenue and profit units, EPS and dividend percentages with sourced figures and clear worked examples.",
+  "socialTitle": "OGDC Results: Read the Units Before the Headline",
+  "socialDescription": "A student-friendly guide to quarterly revenue, profit, EPS and dividend percentages, with original calculations.",
+  "sources": ["https://dps.psx.com.pk/download/document/287865.pdf", "https://dps.psx.com.pk/company/OGDC", "https://ogdcl.com/who-we-are/profile", "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"],
+  "limitations": ["Checked 1 November 2026. Educational financial-statement analysis, not investment advice or a price target.", "Figures refer to the unaudited quarter ended 30 September 2026. Rupees in thousands distinguished from EPS rupees.", "Growth calculations are original arithmetic from the issuer filing, not forecasts or inferred production changes.", "Dividend percentage uses face value, not a market-price return. No trading-entitlement advice supplied.", "Foreign equipment photographs illustrate industrial context and are explicitly not claimed as OGDCL installations.", "Fictional price-volume and coding exercises are labelled separately from reported results."],
+  "metadataFile": "artifacts/november-ogdc-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Pumpjack operating at an oil well in Natchez, Mississippi.jpg", "alt": "Pumpjack at an oil well in Natchez, Mississippi, illustrating oil production", "caption": "An oil-well pumpjack in Natchez, Mississippi. This is an illustration of production equipment, not an OGDCL asset or photograph from Pakistan."},
+    {"role": "inline", "fileTitle": "File:Aderklaa - Gasstation.JPG", "alt": "Natural gas processing plant in Aderklaa, Lower Austria", "caption": "Natural gas processing equipment in Aderklaa, Austria. The installation illustrates industrial context and is not identified as an OGDCL facility."}
+  ]
+}

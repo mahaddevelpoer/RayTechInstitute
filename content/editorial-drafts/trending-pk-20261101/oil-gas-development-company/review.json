@@ -1,0 +1,28 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2007,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://dps.psx.com.pk/download/document/287865.pdf"
+    },
+    {
+      "url": "https://dps.psx.com.pk/company/OGDC"
+    },
+    {
+      "url": "https://ogdcl.com/who-we-are/profile"
+    },
+    {
+      "url": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Educational financial-statement analysis, not investment advice or a price target.",
+    "Figures refer to the unaudited quarter ended 30 September 2026. Rupees in thousands distinguished from EPS rupees.",
+    "Growth calculations are original arithmetic from the issuer filing, not forecasts or inferred production changes.",
+    "Dividend percentage uses face value, not a market-price return. No trading-entitlement advice supplied.",
+    "Foreign equipment photographs illustrate industrial context and are explicitly not claimed as OGDCL installations.",
+    "Fictional price-volume and coding exercises are labelled separately from reported results."
+  ],
+  "published": false
+}
