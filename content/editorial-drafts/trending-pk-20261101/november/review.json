@@ -1,0 +1,18 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1319,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://aa.usno.navy.mil/faq/calendars"
+    },
+    {
+      "url": "https://bhc.gov.pk/public-desk/gazetted-holidays"
+    }
+  ],
+  "factualLimitations": [
+    "No invented board deadlines or universal school closure claims.",
+    "Calendar computed independently. Seasonal photo is not Pakistani weather evidence."
+  ],
+  "published": false
+}

@@ -1,0 +1,73 @@
+{
+  "state": "research-ready-for-writing",
+  "checkedOn": "2026-11-01",
+  "angle": "November 2026 Pakistan calendar and student planning, distinguishing dates from institutional closure notices.",
+  "calendar": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    [
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "firstWeekday": "Sunday",
+  "days": 30,
+  "sources": [
+    "https://aa.usno.navy.mil/faq/calendars",
+    "https://bhc.gov.pk/public-desk/gazetted-holidays",
+    "https://phclondon.org/holidays/"
+  ],
+  "limitations": [
+    "Court and overseas mission holiday lists do not automatically establish every school closure.",
+    "Do not treat older 2024 Cabinet PDF as a 2026 notification.",
+    "Calendar computed with Python Gregorian calendar; verify institution-specific deadlines separately."
+  ]
+}
