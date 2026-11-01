@@ -1,0 +1,30 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2046,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://history.house.gov/People/Detail/25769805180"
+    },
+    {
+      "url": "https://stevens.house.gov/haleys-bio"
+    },
+    {
+      "url": "https://www.house.gov/the-house-explained"
+    },
+    {
+      "url": "https://www.govinfo.gov/app/details/BILLS-116hr1665ih"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ102/pdf/PLAW-116publ102.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "Checked1November2026; no election forecast, endorsement or inferred future office.",
+    "Historical116thCongressportrait not claimed as current campaign image.",
+    "H.R.1665introducedHousevehicle distinguished from S.737enactedPublicLaw116-102.",
+    "Officialofficebiography evaluative claims not repeated as independently measured outcomes.",
+    "Fictional JavaScript record is classification exercise, not legal advice or legislative eligibility service."
+  ],
+  "published": false
+}
