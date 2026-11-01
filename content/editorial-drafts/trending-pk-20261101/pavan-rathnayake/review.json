@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2031,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/rankings/71445/pavan-rathnayake"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/sri-lanka-pull-off-a-monumental-odi-chase-against-england"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/pakistan-clinch-tri-series-with-big-chase-against-sri-lanka"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026; dated selected innings, not a full career or tournament-statistics database.",
+    "Two-innings combined rate uses 207 runs and 171 balls only. No invented batting average without dismissal inputs.",
+    "Fictional target and rate examples clearly separate from actual innings.",
+    "No claim of firsthand ball-by-ball scouting, current selection guarantee or fixed future batting position.",
+    "Venue photographs are illustrative Sri Lankan grounds, not portraits or images of either Pakistan tri-series match."
+  ],
+  "published": false
+}
