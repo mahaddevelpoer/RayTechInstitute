@@ -1,0 +1,134 @@
+Pat Cummins' response to Australia's October 2026 series defeat in South Africa offers a useful distinction for cricket followers: acknowledging a problem is not the same as announcing a completed selection change. His comments concerned decisions made during a chase and questions the team needed to examine, rather than a published new playing XI.
+
+This guide explains the verified context, outlines his career background and uses original examples to examine how a bowling captain's decisions can be discussed fairly. It does not predict the next selection or claim to know private team meetings.
+
+## What did Cummins say after the South Africa series?
+
+In its 1 November 2026 report, the ICC described Cummins questioning Australia's top-order decision-making after the Cape Town defeat. Australia were dismissed for 111 while pursuing 288, losing the deciding Test by 176 runs and the series 2-1. He indicated that changes of approach or personnel would be considered, not that a particular replacement XI had been confirmed.
+
+That last distinction prevents a common headline error. "May change" belongs to a discussion of possibilities. "Has selected" requires an actual selection announcement. A responsible account should preserve the stage the decision has reached rather than treating the most dramatic possibility as an accomplished fact.
+
+The comments are dated. They explain the response reported after this series, not an unchanging description of Australia's form. When another match or squad announcement arrives, it needs its own record and date rather than a quiet rewriting of what was said earlier.
+
+## Who is Pat Cummins?
+
+Cricket Australia's profile identifies Cummins as a right-arm fast bowler from Sydney, born on 8 May 1993. His international debuts all came in 2011: T20I in October, ODI later that month and Test cricket in November. He became Australia's Test captain in November 2021 and its men's ODI captain in 2022.
+
+The profile also records a six-wicket second innings on Test debut in South Africa and a later period of injuries before he became a regular Test presence again. These milestones explain the career's shape without turning a short biography into a current fitness announcement.
+
+Keep formats visible when discussing leadership. Test captaincy, ODI captaincy and a franchise role are different appointments. A person leading in one competition is not automatically captain of every side in every format on every date. Check the specific match or appointment you mean.
+
+For a school presentation, a concise timeline is better than an undated list of honours. Use one row per event and include the competition. Explain why an event matters before adding another number. A meaningful account can be selective without pretending it is a complete career archive.
+
+## Read a series result separately from a match margin
+
+The ICC report lists Australia winning the opening Test by 214 runs, South Africa winning the second by an innings and 31 runs, and South Africa winning the third by 176 runs. The series score counts match victories: two for South Africa, one for Australia. It does not add the three margins together.
+
+| Record | Question it answers | Unit |
+|---|---|---|
+| A Test result | Who won this particular match? | Win, loss or draw, with the recorded margin |
+| A run margin | How far the losing side finished short under that result | Runs |
+| An innings margin | Whether the winner required fewer innings | Innings plus runs |
+| A series score | How many matches each side won | Match wins |
+
+A series can be close in match wins while individual victories have large margins. It can also contain drawn matches. Do not assume the number after each side's name is a run total or that every scheduled match must have produced a winner.
+
+For a fictional three-match series, imagine Team A wins once, Team B wins once and the last match is drawn. The result is one win each, with a draw. It is not a 2-1 result merely because three matches were played. The outcome category needs to be preserved alongside the count.
+
+## Why a target of 288 and a total of 111 produce a 176-run loss
+
+In the ordinary unrevised chase described here, the winning target is one more than the score needed to draw level. A target of 288 means the chasing side would reach parity at 287. Finishing on 111 therefore leaves it 176 behind parity, which is the recorded run margin.
+
+Subtracting 111 directly from 288 gives 177. That describes the additional runs needed from 111 to reach the winning target, not the official victory margin. The two calculations answer slightly different questions, and their one-run difference is not evidence that the scorecard is wrong.
+
+Try a fictional example with a target of 201 and an all-out total of 150. The defending side wins by 50 runs, while 51 more runs would have been needed to win the chase from 150. Write both labels out before calculating and the apparent contradiction disappears.
+
+This is a valuable data habit beyond cricket. Two numbers can look inconsistent because the labels describe different baselines. Check the definition before correcting a published result or accusing a source of an arithmetic error.
+
+## Separate a decision from its outcome
+
+A sporting decision is made before its outcome is known. A successful result can follow a poor choice, and a defensible choice can fail. That does not make outcomes irrelevant; it means an evaluation should also examine the information and options available at the time.
+
+Consider a fictional captain choosing between continuing a bowler's spell and introducing a fresh bowler. If the fresh bowler immediately takes a wicket, it is tempting to call the choice obviously correct. But a useful review would ask why the change was made and whether the reasoning would remain sensible if the first delivery had gone for four.
+
+The same standard applies to batting. A risky shot that finds a boundary is not automatically the best choice for every similar delivery. A defensive attempt that results in dismissal is not automatically proof that aggression was required. You need the ball, field, score and match context to make a more specific argument.
+
+Cummins' reported comments identify the team's decision-making as a subject for examination. They do not give an outside writer permission to invent what each batter was thinking. Describe the public statement, then label your own analysis and the evidence it would require.
+
+## What makes bowling captaincy a useful study topic?
+
+A bowling captain participates in the attack while also helping direct the team's response. The role creates interesting questions about spell timing, field settings and communication, but the scorecard alone cannot disclose every discussion behind a change.
+
+For your own viewing, record the over when a bowler starts a spell, the visible field and the result of each legal delivery. Note a change in field placement separately from a change in bowler. This creates an observable record without pretending to hear an instruction that was never broadcast.
+
+Then ask one narrow question: did the visible plan remain consistent for several balls, or did it change? A narrow, testable question is better than declaring the captain a genius after one wicket or incompetent after one boundary. The larger judgment should follow evidence rather than replace it.
+
+Keep physical workload separate from guesswork about fitness. You can count recorded overs and spell lengths. You cannot diagnose pain, fatigue or medical readiness from a short television reaction. A visible wince is not a medical report, and a historical injury is not proof of a current limitation.
+
+## A match-review worksheet for students
+
+Begin with four headings: observed event, context, possible explanation and uncertainty. Put a particular delivery or passage under the first heading. Under context, record the score and stage. Offer an explanation only after those basics are clear, and explicitly note what you do not know.
+
+Here is a fictional entry. Observed event: a captain brings a spinner on after a drinks interval. Context: the score is 180 for three on the fourth afternoon. Possible explanation: the team may want a different pace or angle. Uncertainty: no public statement confirms the precise instruction or intention.
+
+The last field is useful rather than embarrassing. It prevents a possibility from returning later as an alleged inside fact. A good review can say what would need checking next, such as the captain's interview or the full sequence leading to the change.
+
+Repeat the exercise across a few passages instead of collecting only events that support your favourite conclusion. If you say a plan consistently failed, examine the successful passages too. Otherwise you may have selected your evidence to match an opinion formed before the review.
+
+## Do not confuse Test rankings with World Test Championship standings
+
+A team ranking and a championship table measure different things. The ICC report discusses both in its account of the series. Reading two different leaders in the same report is not automatically a contradiction: first identify which list is being discussed and how it is labelled.
+
+The safest way to compare them is to open the current official tables separately and record the check date. Do not transfer a position from one table into the other. Equally, do not retain a snapshot indefinitely under a heading that promises to be live.
+
+For a broader explanation of labels and rating tables, see our [ICC rankings guide](/blogs/icc-rankings-rank-rating-team-player-tables-explained/). This page focuses on the captain's response and how to reason about decisions; the rankings guide explains the different statistical questions.
+
+If you build a small sports website as a class project, store a table type beside each position. A field simply called `rank` is ambiguous. A record saying competition, table type, team, position and checked date is much easier for another person to interpret.
+
+## A small programming exercise: validate series records
+
+Use fictional results to test your counting logic. A result marked drawn must not silently become a victory for the home side. Unknown and abandoned records also need explicit handling rather than being forced into whichever category makes a total look tidy.
+
+```python
+results = ['Team A', 'Team B', 'Draw']  # Fictional series
+wins = {'Team A': 0, 'Team B': 0}
+draws = 0
+
+for result in results:
+    if result in wins:
+        wins[result] += 1
+    elif result == 'Draw':
+        draws += 1
+    else:
+        raise ValueError('Unrecognised result')
+
+assert sum(wins.values()) + draws == len(results)
+print(wins, draws)
+```
+
+The final assertion checks that every match has been accounted for exactly once under the categories used in the exercise. A real application would need additional result types and official data. The point is to learn clear classification before claiming to run a complete competition service.
+
+You can practise dictionaries and validation through our [programming courses](/courses/). The useful connection is not that every cricket article needs code, but that sports records provide familiar examples of definitions, units and evidence checks.
+
+## Common questions
+
+### Has a new Australian XI been announced in this article?
+
+No. The dated report discusses potential changes and questions after a defeat. This guide does not convert those comments into a confirmed selection. A subsequent squad or XI requires a separate official announcement.
+
+### Did the series finish 2-1 because the margins added to that number?
+
+No. The series score counts victories. Individual margins remain attached to their own matches. Runs and innings cannot be added into a count of match wins without losing the meaning of the units.
+
+### Is the captain solely responsible for every action?
+
+That would be too broad an inference from the available record. A captain has a leadership role, but an outside report cannot establish every instruction or decision made by every participant. Review specific evidence and avoid claiming private knowledge.
+
+### Do the photographs show the same event?
+
+No. The cover is associated with the October 2026 Newlands Test, while the inline photograph comes from a 2018 limited-overs match. Their captions retain those contexts rather than combining separate formats into one visual account.
+
+## Sources
+
+- [ICC: Cummins' comments after the series, 1 November 2026](https://www.icc-cricket.com/news/cummins-hints-at-changes-after-south-africa-series-loss)
+- [Cricket Australia: Pat Cummins career profile](https://www.cricket.com.au/players/CA:1149/pat-cummins)

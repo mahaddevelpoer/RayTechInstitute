@@ -1,0 +1,21 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2016,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/news/cummins-hints-at-changes-after-south-africa-series-loss"
+    },
+    {
+      "url": "https://www.cricket.com.au/players/CA:1149/pat-cummins"
+    }
+  ],
+  "factualLimitations": [
+    "No announced replacement XI inferred from potential changes.",
+    "Series chronology and comments attributed to1NovemberICC report.",
+    "No private instructions, diagnosis or current all-format captaincy assumption.",
+    "ICC matchmargin176 distinguished from177 additional runs to winning target.",
+    "Fictional analysis worksheet and code not real match observations."
+  ],
+  "published": false
+}
