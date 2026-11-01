@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1717,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.app.com.pk/business/fbr-further-extends-income-tax-return-filing-deadline-to-oct-31/"
+    },
+    {
+      "url": "https://www.fbr.gov.pk/categ/file-income-tax-return/51147/40846/81148"
+    },
+    {
+      "url": "https://www.fbr.gov.pk/"
+    }
+  ],
+  "factualLimitations": [
+    "Original circular unavailable; extension explicitly attributed to APP dated report.",
+    "No assertion that later extension exists or definitely does not exist.",
+    "No individual tax/legal/penalty determination; general informational notice-reading guide.",
+    "FBR logo rejected because local wiki metadata states Fair use; licensed illustrative photos used instead."
+  ],
+  "published": false
+}
