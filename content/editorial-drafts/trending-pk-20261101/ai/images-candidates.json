@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Contemporary Computer Lab.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Contemporary_Computer_Lab.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Contemporary_Computer_Lab.jpg",
+    "creator": "PurchY0",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "1fd5be130f74431c52b85763c52dcb5a6fde6ddd",
+    "width": 5668,
+    "height": 3266,
+    "alt": "Computer lab at SUNY Purchase",
+    "caption": "Computer lab at SUNY Purchase, used as an illustration of computer-based learning. It is not a RayTech campus photograph.",
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:MNIST dataset example.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/MNIST_dataset_example.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:MNIST_dataset_example.png",
+    "creator": "Suvanjanprasai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "6e0a6dd2673459b43eac814c04919c0378e5e887",
+    "width": 655,
+    "height": 325,
+    "alt": "Handwritten digit examples from the MNIST dataset",
+    "caption": "Handwritten digit samples from MNIST illustrate a different AI task: recognizing patterns in images. They are not an accuracy benchmark for a chatbot.",
+    "reviewState": "metadata-reviewed"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1763,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/structured-output"
+    }
+  ],
+  "factualLimitations": [
+    "No guarantees about pricing, availability or accuracy. No NIST endorsement claimed.",
+    "Original code inspected: outputs 240 and 320. Duplicate-option JSON deliberately labelled flawed."
+  ],
+  "published": false
+}
