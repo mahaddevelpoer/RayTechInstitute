@@ -1,0 +1,31 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2027,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://fcbayern.com/en/club/history/mile-stones/milestones-in-bayern-s-history"
+    },
+    {
+      "url": "https://fcbayern.com/en/club/fcb-club"
+    },
+    {
+      "url": "https://fcbayern.com/en/club/company"
+    },
+    {
+      "url": "https://fcbayern.com/en/photos/2017/08/gallery-fc-bayern-campus-inauguration"
+    },
+    {
+      "url": "https://fcbayern.com/en/news/2025/08/jugendliche-kicken-und-programmieren-am-fc-bayern-campus"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Selected history and education guide, not a current squad, fixture or exhaustive honours list.",
+    "Founding-participant counts omitted because different official narratives count meeting and signatories differently; date and first president are consistent.",
+    "Published displayed shareholding retained; rounding illustration is not a legal reconstruction of the share register or investment advice.",
+    "Code & Kick account explicitly dated 27 June 2025, not current recruitment or registration availability.",
+    "Original classroom activity is not the official event plan or club-endorsed course.",
+    "Campus photographs are venue context, not Code & Kick participant photographs or a current first-team match."
+  ],
+  "published": false
+}

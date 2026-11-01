@@ -1,0 +1,18 @@
+{
+  "title": "Bayern Munich: History, Campus and the Code & Kick Learning Idea",
+  "slug": "bayern-munich-history-campus-code-kick-student-guide",
+  "category": "sports",
+  "excerpt": "Understand Bayern's selected milestones and club structure, then explore the real Code & Kick education event through original student website activities.",
+  "tags": ["Bayern Munich", "Bayern München", "FC Bayern", "Bayern beginner guide", "27 February 1900", "Franz John", "Café Gisela", "1932 German championship", "1965 Bundesliga promotion", "1974 European Cup", "1975 European Cup", "1976 European Cup", "Selected club milestones", "FC Bayern München eV", "FC Bayern München AG", "Club versus company", "Published shareholding", "Displayed percentage rounding", "75 percent club share", "8.33 percent display", "FC Bayern Campus", "21 August 2017", "Campus inauguration", "Code and Kick", "Code & Kick event", "27 June 2025", "ReDI School", "Bavarian FA", "BayCode initiative", "Digital education and sport", "Website-building activity", "Fictional school-team page", "Mobile-readable timetable", "Coding validation", "Lists tables conditions", "Learning through feedback", "Squad versus match XI", "Membership versus tickets", "Dated event versus enrolment", "Source notebook", "Pakistan football students", "Campus building photograph", "Campus stadium context", "No current trial offer"],
+  "seoTitle": "Bayern Munich: History, Campus and Code & Kick Guide",
+  "description": "Explore Bayern Munich's history, club structure and campus, then learn from its Code & Kick event through original website-building activities.",
+  "socialTitle": "Bayern Munich: Where Football Meets a Coding Lesson",
+  "socialDescription": "Selected club milestones, a clear organisational distinction and practical learning ideas inspired by Code & Kick.",
+  "sources": ["https://fcbayern.com/en/club/history/mile-stones/milestones-in-bayern-s-history", "https://fcbayern.com/en/club/fcb-club", "https://fcbayern.com/en/club/company", "https://fcbayern.com/en/photos/2017/08/gallery-fc-bayern-campus-inauguration", "https://fcbayern.com/en/news/2025/08/jugendliche-kicken-und-programmieren-am-fc-bayern-campus"],
+  "limitations": ["Checked 1 November 2026. Selected history and education guide, not a current squad, fixture or exhaustive honours list.", "Founding-participant counts omitted because different official narratives count meeting and signatories differently; date and first president are consistent.", "Published displayed shareholding retained; rounding illustration is not a legal reconstruction of the share register or investment advice.", "Code & Kick account explicitly dated 27 June 2025, not current recruitment or registration availability.", "Original classroom activity is not the official event plan or club-endorsed course.", "Campus photographs are venue context, not Code & Kick participant photographs or a current first-team match."],
+  "metadataFile": "artifacts/november-bayern-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:FC Bayern Campus 9013.jpg", "alt": "FC Bayern Campus building and grounds", "caption": "FC Bayern Campus, shown as development-facility context. This is not a photograph of the Code & Kick participants or a current admission announcement."},
+    {"role": "inline", "fileTitle": "File:FC Bayern Campus Stadion 6147.jpg", "alt": "Stadium facilities at the FC Bayern Campus", "caption": "The stadium at the FC Bayern Campus. This illustrates the campus setting rather than a first-team fixture or the specific 2025 education event."}
+  ]
+}
