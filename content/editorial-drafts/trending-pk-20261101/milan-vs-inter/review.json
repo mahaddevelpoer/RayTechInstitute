@@ -1,0 +1,20 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2024,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.acmilan.com/en/news/articles/serie_a/2026-10-31/ac-milan-wins-the-derby"
+    },
+    {
+      "url": "https://www.legaseriea.it/serie-a/news/milan-inter-2026-2027-3-1-cronaca-risultato-gol"
+    }
+  ],
+  "factualLimitations": [
+    "Provisional match-night position attributed to official report, not live current table.",
+    "Original observation exercises not claims of first-hand video analysis.",
+    "No invented xG, possession, private tactics, future schedules or local broadcast rights.",
+    "Historical2009derbyphoto explicitly separate from October2026fixture."
+  ],
+  "published": false
+}
