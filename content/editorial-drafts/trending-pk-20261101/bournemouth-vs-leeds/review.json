@@ -1,0 +1,27 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2049,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.afcb.co.uk/news/2026/october/31/match-report-v-leeds/"
+    },
+    {
+      "url": "https://www.leedsunited.com/en/news/full-time-report-as-leeds-united-fall-to-defeat-against-in-form-bournemouth"
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/"
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/the-duration-of-the-match/"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026. Date and result tied to this fixture, not a future meeting or continuously updated league table.",
+    "Cancelled Leeds finish described as reported handball decision; no independent camera reconstruction or allegation about intent.",
+    "IFAB 2026/27 rules distinguish scorer handball, accidental contact generally, added time and separate extra time.",
+    "No claim to know private tactical instructions or exact event seconds from a rounded minute label.",
+    "Historical stadium image is from a 2013 Blackpool fixture setting; Adli photograph is from a December 2025 Brentford match, not this Leeds fixture."
+  ],
+  "published": false
+}
