@@ -1,0 +1,28 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1976,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.mancity.com/news/mens/city-v-brighton-premier-league-match-report-31-oct-63929055"
+    },
+    {
+      "url": "https://www.mancity.com/matchday/fixtures/mens/2026/premier-league/man-city-v-brighton-31-oct-2026"
+    },
+    {
+      "url": "https://www.premierleague.com/en/match/2645282/manchester-city-vs-brighton-and-hove-albion/info"
+    },
+    {
+      "url": "https://theanalyst.com/articles/man-city-vs-brighton-stats-premier-league-10-2026"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 1 November 2026; standings explicitly a dated snapshot, not a live table or title forecast.",
+    "City match report table supplied all three rows. Different played totals retained rather than awarding unearned games-in-hand points.",
+    "Shot and xG totals attributed to the match-data provider; original percentage calculations not a complete performance ranking.",
+    "Separate cup fixture and shootout not counted as league points or league goals.",
+    "No claim of firsthand tactical observation, private coaching instructions, betting advice or Pakistan broadcast rights.",
+    "Historical Etihad and Sweden-team Ayari photographs not presented as images of the October 2026 goal."
+  ],
+  "published": false
+}
