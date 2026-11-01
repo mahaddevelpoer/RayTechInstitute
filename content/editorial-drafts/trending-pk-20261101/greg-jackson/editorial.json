@@ -1,0 +1,18 @@
+{
+  "title": "Greg Jackson: Octopus Energy, Kraken and Smart Energy Explained",
+  "slug": "greg-jackson-octopus-kraken-smart-energy-student-guide",
+  "category": "technology",
+  "excerpt": "Meet the energy entrepreneur and understand Octopus, Kraken, smart meters and the software problems behind clearer bills through original student exercises.",
+  "tags": ["Greg Jackson", "Greg Jackson biography", "Octopus Energy founder", "Octopus Energy CEO", "Greg Jackson CBE", "British entrepreneur", "Energy technology", "Kraken software", "Kraken independence", "Amir Orad", "Founding versus launch", "2015 founding", "2016 launch", "2025 separation announcement", "Energy supplier versus platform", "Utility software", "Customer account design", "Meter readings", "Smart meter", "In-home display", "Power versus energy", "Watts to kilowatts", "Kilowatt-hours", "kWh calculation", "Appliance energy estimate", "Consumption versus cost", "Fictional tariff example", "Time-based rates", "Billing intervals", "Fixed charges", "Flexible demand", "Charging schedule exercise", "Programming constraints", "Filtering and sorting", "Explainable calculations", "Student energy learning", "Pakistan technology students", "Current versus historical figures", "Households versus accounts", "Company target versus outcome", "Customer service design", "Data quality", "Historical equipment photograph", "No guaranteed savings"],
+  "seoTitle": "Greg Jackson: Octopus, Kraken and Smart Energy Explained",
+  "description": "Meet Greg Jackson and understand Octopus Energy, Kraken and smart meters. Learn power, energy and software design through clear original student examples.",
+  "socialTitle": "Greg Jackson: What Students Can Learn from Energy Software",
+  "socialDescription": "Understand the entrepreneur, the business distinction and the calculations behind energy technology.",
+  "sources": ["https://www.gov.uk/government/people/greg-jackson", "https://octopus.energy/press/meet-the-team/", "https://octopus.energy/press/octopus-energy-group-to-spin-off-kraken/", "https://www.kraken.tech/about", "https://www.gov.uk/guidance/smart-meters-how-they-work", "https://www.pubs.ext.vt.edu/2901/2901-9014/2901-9014.html"],
+  "limitations": ["Checked 1 November 2026. British energy entrepreneur distinguished from other people sharing the name.", "Government biography's 2015 founding and company biography's 2016 launch retained as different milestones.", "Kraken current independent-business description and CEO taken from its own current about page; old scale figures not republished as current totals.", "No supplier endorsement, real tariff recommendation, savings guarantee, investment recommendation or claim of Pakistan offer availability.", "Consumption, pricing and charging-window exercises use invented data, not real customer systems or private platform architecture.", "Portrait depicts September 2023 summit. Historical smart-meter image is not claimed to be an Octopus or Kraken installation."],
+  "metadataFile": "artifacts/november-greg-metadata-v2.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Greg Jackson at the Octopus Wired summit.png", "alt": "Greg Jackson speaking at the Octopus and Wired summit in September 2023", "caption": "Greg Jackson at the Octopus/Wired summit in September 2023. This is a historical event photograph, not a new product announcement."},
+    {"role": "inline", "fileTitle": "File:Intelligenter zaehler- Smart meter.jpg", "alt": "Historical EVB smart-meter equipment illustrating electricity measurement", "caption": "Historical EVB smart-meter equipment illustrates measurement technology. It is not identified as an Octopus installation, a Kraken product or a Pakistan utility offer."}
+  ]
+}
