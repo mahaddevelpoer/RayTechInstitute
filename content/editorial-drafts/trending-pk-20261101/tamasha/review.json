@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1717,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.spbtv.mobilinktv"
+    },
+    {
+      "url": "https://www.veon.com/newsroom/press-releases/tamasha-opens-new-innings-with-first-international-streaming-of-cricket-matches"
+    },
+    {
+      "url": "https://www.tamashaweb.com/"
+    }
+  ],
+  "factualLimitations": [
+    "No unverified current price, entitlement, outage or universal free claim.",
+    "Historical 2024 announcement explicitly not current schedule.",
+    "Generic device photos clearly labelled, not product screenshots.",
+    "Original data example: 2 Mbps x 3600 / 8 = 900 MB before overhead."
+  ],
+  "published": false
+}

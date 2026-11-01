@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Android phones.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Android_phones.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Android_phones.jpg",
+    "creator": "Samsung Galaxy Note 10 & Google",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sha1": "de16296c88a43f063e407c088b5f90046f49561d",
+    "width": 4032,
+    "height": 3024,
+    "alt": "A selection of Android smartphones",
+    "caption": "Android phones shown for device context. This is not a Tamasha app screenshot or a list of guaranteed supported models.",
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:D-Link DI-524.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/D-Link_DI-524.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:D-Link_DI-524.jpg",
+    "creator": "Weihao Chiu @ Chinese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sha1": "e64fc0b73afd625ca3c9f28b0d86ff3ee5c95724",
+    "width": 3456,
+    "height": 2304,
+    "alt": "D-Link DI-524 wireless router",
+    "caption": "A historical wireless-router illustration, not a required device or a guarantee of streaming performance.",
+    "reviewState": "metadata-reviewed"
+  }
+]
