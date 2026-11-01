@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Laptop collage.jpg",
+    "url": "/images/editorial/trending-pk-20261101/nccia-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Laptop_collage.jpg",
+    "creator": "Top left: PremeditatedTop right: Tom PageBottom left and right: Maurizio Pesce",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "cc9a5b268318bb927dd1723ccc9ed614ae80642d",
+    "width": 1200,
+    "height": 960,
+    "alt": "Collage of laptop computers used as a digital-device illustration",
+    "caption": "Illustrative laptop collage, not an NCCIA office, a compromised device or a product recommendation.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 114296
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Example bank phishing email.svg",
+    "url": "/images/editorial/trending-pk-20261101/nccia-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Example_bank_phishing_email.svg",
+    "creator": "Original template by User:Isochrone, amended by User:Belbury",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha1": "5d20ecbf5d541c791b2ebaa588f62fa8f79e3726",
+    "width": 530,
+    "height": 453,
+    "alt": "Fictional bank phishing email showing common warning signs",
+    "caption": "A deliberately fictional phishing example. It is not an NCCIA message, a real complaint or a reader’s account.",
+    "reviewState": "metadata-reviewed",
+    "bytes": 16504
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1673,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://complaint.nccia.gov.pk/"
+    },
+    {
+      "url": "https://nccia.gov.pk/faqs.php"
+    },
+    {
+      "url": "https://pkcert.gov.pk/report-incident.asp"
+    },
+    {
+      "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing"
+    }
+  ],
+  "factualLimitations": [
+    "NCCIA direct access restricted; indexed official links only. No form submission or required-field claims.",
+    "PKCERT distinction verified from primary page. No guaranteed legal outcome, money recovery or response time.",
+    "Original evidence-organizing checklist not a claim of mandated form fields."
+  ],
+  "published": false
+}
