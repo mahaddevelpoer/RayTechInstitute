@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2148,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -26,5 +26,6 @@
     "Dhadak earlier announced July6date not confused with July20release update.",
     "2025 event images labelled historical; no claim of present-day appearance."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/janhvi-kapoor-films-dhadak-homebound-viewing-guide/"
 }

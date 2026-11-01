@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1865,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -19,5 +19,6 @@
     "Original illustrative match 0-6 7-6 7-6: sets2-1 despite games14-18.",
     "No invented player psychology or claim of viewing all points."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/alexander-zverev-2026-major-titles-final-scores-explained/"
 }

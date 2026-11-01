@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1334,
   "sourceChecked": "2026-11-01",
   "groupIndex": 3,
@@ -33,5 +33,6 @@
     "/blogs/daryl-mitchell-middle-order-batting-guide/",
     "/blogs/nayeem-hasan-spin-bowling-performance-guide/"
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-sri-lanka-odi-final-fakhar-arafat-chase-2026/"
 }

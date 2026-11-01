@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1481,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -13,5 +13,6 @@
   "factualLimitations": [
     "No live wealth, share price or product performance claims. Original arithmetic examples are not benchmarks."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/jensen-huang-nvidia-founder-gpu-computing-explained/"
 }

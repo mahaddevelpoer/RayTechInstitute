@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2031,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "No claim of firsthand ball-by-ball scouting, current selection guarantee or fixed future batting position.",
     "Venue photographs are illustrative Sri Lankan grounds, not portraits or images of either Pakistan tri-series match."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/pavan-rathnayake-130-77-october-2026-batting-guide/"
 }

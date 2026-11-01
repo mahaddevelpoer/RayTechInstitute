@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1794,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -15,5 +15,6 @@
     "Director/producer distinction checked, especially Shootout at Lokhandwala.",
     "Original film-study methodology; no fabricated claim of watching specific scenes."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/sanjay-gupta-director-film-credits-kaante-career-guide/"
 }

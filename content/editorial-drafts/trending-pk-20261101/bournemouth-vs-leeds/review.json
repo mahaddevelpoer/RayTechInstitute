@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2049,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -23,5 +23,6 @@
     "No claim to know private tactical instructions or exact event seconds from a rounded minute label.",
     "Historical stadium image is from a 2013 Blackpool fixture setting; Adli photograph is from a December 2025 Brentford match, not this Leeds fixture."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/bournemouth-leeds-2-0-october-2026-handball-added-time/"
 }

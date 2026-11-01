@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1697,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -15,5 +15,6 @@
     "CA snapshot dated; best-bowling match figures not mislabelled innings figures.",
     "All illustrative spells fictional; 6.2 notation correctly converted to 38 legal balls."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/kagiso-rabada-350-test-wickets-cape-town-bowling-stats/"
 }

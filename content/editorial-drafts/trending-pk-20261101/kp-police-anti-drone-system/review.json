@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1993,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -18,5 +18,6 @@
     "No allegation about the purpose or owner of a sighted aircraft based on appearance.",
     "Cover landmark and generic camera drone are illustrative, not police assets or incident photographs."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/kp-police-anti-drone-safe-city-update-public-guide/"
 }

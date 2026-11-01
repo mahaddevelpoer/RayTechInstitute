@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2029,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -23,5 +23,6 @@
     "Fictional JavaScript events labelled and not advertised as complete production score service.",
     "Historical venue and 2025 Palmer photo not claimed as October2026match photographs."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/chelsea-man-united-2-0-october-2026-goals-offside-guide/"
 }

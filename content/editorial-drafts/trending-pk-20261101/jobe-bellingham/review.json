@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1858,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -18,5 +18,6 @@
     "All viewing examples labelled original, not assertions about unseen matches.",
     "21 calculated from official DOB at publication date."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/jobe-bellingham-dortmund-career-stats-midfield-guide/"
 }

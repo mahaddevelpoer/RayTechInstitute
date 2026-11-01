@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1767,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -18,5 +18,6 @@
     "Pre-final ITF notes distinguished from completed result.",
     "No future result, current ranking or private tactical plan invented."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/carlos-alcaraz-career-grand-slam-australian-open-2026/"
 }

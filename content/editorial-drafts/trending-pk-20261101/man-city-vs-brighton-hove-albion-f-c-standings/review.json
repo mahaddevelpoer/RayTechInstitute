@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1976,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -24,5 +24,6 @@
     "No claim of firsthand tactical observation, private coaching instructions, betting advice or Pakistan broadcast rights.",
     "Historical Etihad and Sweden-team Ayari photographs not presented as images of the October 2026 goal."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/man-city-brighton-0-1-october-2026-standings-stats-guide/"
 }

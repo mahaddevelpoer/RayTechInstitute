@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2123,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "US prevention guidance distinguished from Pakistan reporting routes.",
     "No malicious link demonstration, live credential collection or guaranteed fraud detection."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/nidhi-razdan-harvard-offer-phishing-student-checks/"
 }

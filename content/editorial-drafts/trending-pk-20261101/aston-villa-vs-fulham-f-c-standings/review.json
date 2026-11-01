@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1950,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -24,5 +24,6 @@
     "Original pre-match points reconstruction does not claim exact earlier ranks.",
     "Villa Park photograph and Suzuki Japan photograph are historical context, not images of this fixture."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/aston-villa-fulham-1-1-october-2026-standings-own-goal/"
 }

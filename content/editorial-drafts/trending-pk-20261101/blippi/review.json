@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1996,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -16,5 +16,6 @@
     "Activities original and caregiver-led, no specialist experiments or machinery instructions.",
     "No promise of free or identical regional platform availability."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/blippi-parent-guide-watching-questions-off-screen-play/"
 }

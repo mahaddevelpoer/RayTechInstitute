@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2106,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "Listening prompts are original exercises, not assertions about specific song structures.",
     "Historical concert photos separate from future-date and lineup claims."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/jonas-brothers-members-albums-beginner-listening-guide/"
 }

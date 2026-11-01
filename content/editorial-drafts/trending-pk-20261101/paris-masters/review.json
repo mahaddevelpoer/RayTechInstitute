@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1719,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -19,5 +19,6 @@
     "Hypothetical 11:00 Paris on Nov2 converts to 15:00 Karachi via zoneinfo.",
     "Historical 2007 match photo labelled, not current lineup claim."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/paris-masters-2026-schedule-draw-pakistan-time-guide/"
 }

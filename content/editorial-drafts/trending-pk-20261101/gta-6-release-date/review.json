@@ -1,8 +1,16 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1560,
   "sourceVerified": "2026-11-01",
   "source": "https://www.rockstargames.com/VI",
   "imageSourcesUnique": true,
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/gta-6-release-date-platforms-pakistan-buying-guide/",
+  "verification": {
+    "page": 200,
+    "cover": 200,
+    "inline": 200,
+    "listing": true,
+    "sitemap": true
+  }
 }

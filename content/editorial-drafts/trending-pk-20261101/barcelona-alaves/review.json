@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1271,
   "sourceChecked": "2026-11-01",
   "groupIndex": 6,
@@ -32,6 +32,7 @@
     "/blogs/al-nassr-al-kholood-match-preview-guide/",
     "/blogs/everton-newcastle-fixture-tactics-match-guide/"
   ],
-  "published": false,
-  "parentVerification": "Result and scorer identities independently cross-checked against AS match statistics, 1 November 2026. No goal-minute claims added."
+  "published": true,
+  "parentVerification": "Result and scorer identities independently cross-checked against AS match statistics, 1 November 2026. No goal-minute claims added.",
+  "liveUrl": "https://raytechinstitute.com/blogs/barcelona-alaves-six-one-goals-goal-difference-october-2026/"
 }

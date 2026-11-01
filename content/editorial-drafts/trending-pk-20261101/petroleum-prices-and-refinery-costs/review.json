@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1461,
   "sourceChecked": "2026-11-01",
   "groupIndex": 8,
@@ -36,5 +36,6 @@
     "/blogs/pso-attock-refinery-agreement-renewal-explained/",
     "/blogs/dollar-rate-pakistan-buying-selling-guide/"
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-refinery-costs-petrol-price-pass-through-explained/"
 }

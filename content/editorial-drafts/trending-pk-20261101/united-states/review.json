@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1942,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "Arizona exception stated with Navajo Nation distinction.",
     "Reference map not advertised as binding current localboundaryauthority."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/united-states-time-change-2026-pakistan-student-guide/"
 }

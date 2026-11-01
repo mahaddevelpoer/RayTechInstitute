@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1717,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -19,5 +19,6 @@
     "No individual tax/legal/penalty determination; general informational notice-reading guide.",
     "FBR logo rejected because local wiki metadata states Fair use; licensed illustrative photos used instead."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/fbr-date-extension-2026-october-deadline-notice-checks/"
 }

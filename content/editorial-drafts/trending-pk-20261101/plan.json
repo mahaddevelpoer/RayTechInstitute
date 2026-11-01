@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 0,
+  "published": 58,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -19,8 +19,11 @@
         "hong kong national cricket team vs pakistan national cricket team stats",
         "pakistan vs hong kong"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "oman-pakistan",
+      "words": 1063,
+      "liveUrl": "https://raytechinstitute.com/blogs/oman-pakistan-hong-kong-sixes-plate-final-guide/"
     },
     {
       "key": "england-vs-south-africa",
@@ -32,8 +35,11 @@
         "eng vs sa",
         "cricbuzz live"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "england-vs-south-africa",
+      "liveUrl": "https://raytechinstitute.com/blogs/england-south-africa-hong-kong-sixes-bowl-final-guide/",
+      "words": 1531
     },
     {
       "key": "bangladesh-vs-india",
@@ -45,8 +51,11 @@
         "ban vs ind",
         "bangladesh national cricket team vs india national cricket team match scorecard"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "bangladesh-vs-india",
+      "liveUrl": "https://raytechinstitute.com/blogs/bangladesh-india-hong-kong-sixes-placement-match/",
+      "words": 1015
     },
     {
       "key": "pakistan-sri-lanka",
@@ -221,8 +230,11 @@
         "سری لنکا بمقابلہ پاک",
         "پاکستان قومی کرکٹ ٹیم"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "pakistan-sri-lanka",
+      "liveUrl": "https://raytechinstitute.com/blogs/pakistan-sri-lanka-odi-final-fakhar-arafat-chase-2026/",
+      "words": 1334
     },
     {
       "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard",
@@ -234,12 +246,15 @@
         "india vs new zealand",
         "live score"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "new-zealand-vs-india-4th-t20i-october-30-2026-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard",
+      "liveUrl": "https://raytechinstitute.com/blogs/india-new-zealand-hamilton-fifth-t20i-scorecard-context/",
+      "words": 1558
     },
     {
       "key": "hong-kong-vs-sri-lanka",
@@ -252,8 +267,11 @@
         "sl vs hk",
         "hk vs sl"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "hong-kong-vs-sri-lanka",
+      "liveUrl": "https://raytechinstitute.com/blogs/hong-kong-sri-lanka-sixes-seventh-place-playoff/",
+      "words": 1461
     },
     {
       "key": "barcelona-alaves",
@@ -270,8 +288,11 @@
         "lamine yamal",
         "barca match"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "barcelona-alaves",
+      "liveUrl": "https://raytechinstitute.com/blogs/barcelona-alaves-six-one-goals-goal-difference-october-2026/",
+      "words": 1271
     },
     {
       "key": "australia-vs-afghanistan",
@@ -289,8 +310,11 @@
         "live cricket streaming",
         "cricket update"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "australia-vs-afghanistan",
+      "liveUrl": "https://raytechinstitute.com/blogs/australia-afghanistan-hong-kong-sixes-cup-final-preview-2026/",
+      "words": 1120
     },
     {
       "key": "petroleum-prices-and-refinery-costs",
@@ -304,8 +328,11 @@
         "پٹرولیم",
         "gasoline"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "petroleum-prices-and-refinery-costs",
+      "liveUrl": "https://raytechinstitute.com/blogs/pakistan-refinery-costs-petrol-price-pass-through-explained/",
+      "words": 1461
     },
     {
       "key": "sanjay-gupta",
@@ -316,8 +343,11 @@
         "sanjay gupta",
         "sanjay gupta director"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "sanjay-gupta",
+      "liveUrl": "https://raytechinstitute.com/blogs/sanjay-gupta-director-film-credits-kaante-career-guide/",
+      "words": 1794
     },
     {
       "key": "hmd-nokia-2360-flip-phone",
@@ -328,8 +358,11 @@
         "hmd nokia 2360 flip phone",
         "nokia 2360 flip phone"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "hmd-nokia-2360-flip-phone",
+      "liveUrl": "https://raytechinstitute.com/blogs/nokia-2360-flip-family-assist-pakistan-buying-guide/",
+      "words": 1334
     },
     {
       "key": "janhvi-kapoor",
@@ -339,8 +372,11 @@
       "keywords": [
         "janhvi kapoor"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "janhvi-kapoor",
+      "words": 2148,
+      "liveUrl": "https://raytechinstitute.com/blogs/janhvi-kapoor-films-dhadak-homebound-viewing-guide/"
     },
     {
       "key": "sazgar-philippines",
@@ -350,8 +386,11 @@
       "keywords": [
         "sazgar philippines"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "sazgar-philippines",
+      "liveUrl": "https://raytechinstitute.com/blogs/sazgar-philippines-assembly-plant-capacity-sales-explained/",
+      "words": 1495
     },
     {
       "key": "milan-vs-inter",
@@ -363,8 +402,11 @@
         "ac milan vs inter milan standings",
         "ac milan"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "milan-vs-inter",
+      "words": 2024,
+      "liveUrl": "https://raytechinstitute.com/blogs/milan-inter-3-1-october-2026-derby-goals-moreira-guide/"
     },
     {
       "key": "icc-rankings",
@@ -378,12 +420,15 @@
         "odi ranking",
         "icc odi rankings"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "sahibzada-farhan-icc-t20i-rankings-explained"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "icc-rankings",
+      "liveUrl": "https://raytechinstitute.com/blogs/icc-rankings-rank-rating-team-player-tables-explained/",
+      "words": 1628
     },
     {
       "key": "mr-patlu",
@@ -405,8 +450,11 @@
       "keywords": [
         "jensen huang"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "jensen-huang",
+      "liveUrl": "https://raytechinstitute.com/blogs/jensen-huang-nvidia-founder-gpu-computing-explained/",
+      "words": 1481
     },
     {
       "key": "polish-president-karol-nawrocki",
@@ -417,8 +465,11 @@
         "polish president karol nawrocki",
         "poland president karol nawrocki"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "polish-president-karol-nawrocki",
+      "words": 1722,
+      "liveUrl": "https://raytechinstitute.com/blogs/polish-president-karol-nawrocki-biography-election-figures/"
     },
     {
       "key": "kp-police-anti-drone-system",
@@ -428,8 +479,11 @@
       "keywords": [
         "kp police anti drone system"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "kp-police-anti-drone-system",
+      "words": 1993,
+      "liveUrl": "https://raytechinstitute.com/blogs/kp-police-anti-drone-safe-city-update-public-guide/"
     },
     {
       "key": "topic-23",
@@ -439,8 +493,11 @@
       "keywords": [
         "قطر"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "topic-23",
+      "words": 1810,
+      "liveUrl": "https://raytechinstitute.com/blogs/qatar-country-facts-doha-geography-education-city-guide/"
     },
     {
       "key": "court",
@@ -465,8 +522,11 @@
       "keywords": [
         "tamasha"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "tamasha",
+      "liveUrl": "https://raytechinstitute.com/blogs/tamasha-live-cricket-app-access-buffering-data-guide/",
+      "words": 1717
     },
     {
       "key": "scotland-national-cricket-team-vs-united-arab-emirates-national-cricket-team-match-scorecard",
@@ -488,8 +548,11 @@
       "keywords": [
         "nidhi razdan"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "nidhi-razdan",
+      "words": 2123,
+      "liveUrl": "https://raytechinstitute.com/blogs/nidhi-razdan-harvard-offer-phishing-student-checks/"
     },
     {
       "key": "bayern-dortmund",
@@ -502,8 +565,11 @@
         "bundesliga",
         "bayern munich vs borussia dortmund standings"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "bayern-dortmund",
+      "words": 1985,
+      "liveUrl": "https://raytechinstitute.com/blogs/bayern-dortmund-2-2-october-2026-goals-standings-guide/"
     },
     {
       "key": "moammar-rana",
@@ -531,8 +597,11 @@
         "manchester united",
         "man utd vs chelsea"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "chelsea-vs-man-utd",
+      "words": 2029,
+      "liveUrl": "https://raytechinstitute.com/blogs/chelsea-man-united-2-0-october-2026-goals-offside-guide/"
     },
     {
       "key": "man-city-vs-brighton-hove-albion-f-c-standings",
@@ -544,8 +613,11 @@
         "man city vs brighton",
         "man city"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "man-city-vs-brighton-hove-albion-f-c-standings",
+      "words": 1976,
+      "liveUrl": "https://raytechinstitute.com/blogs/man-city-brighton-0-1-october-2026-standings-stats-guide/"
     },
     {
       "key": "netherlands-national-cricket-team-vs-united-arab-emirates-national-cricket-team-standings",
@@ -567,8 +639,11 @@
       "keywords": [
         "babar azam"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "babar-azam",
+      "words": 1866,
+      "liveUrl": "https://raytechinstitute.com/blogs/babar-azam-103-from-59-psl-2026-batting-stats-guide/"
     },
     {
       "key": "hongkong-super-six-live",
@@ -626,8 +701,11 @@
       "keywords": [
         "haley stevens"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "haley-stevens",
+      "words": 2046,
+      "liveUrl": "https://raytechinstitute.com/blogs/haley-stevens-biography-house-roles-public-records-guide/"
     },
     {
       "key": "dilshan-madushanka",
@@ -648,8 +726,11 @@
       "keywords": [
         "punjab"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "punjab",
+      "words": 2061,
+      "liveUrl": "https://raytechinstitute.com/blogs/punjab-pakistan-education-boards-notes-student-guide/"
     },
     {
       "key": "pataudi-palace",
@@ -671,8 +752,11 @@
         "tapmad live",
         "brandon king"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "tapmad-live",
+      "words": 1778,
+      "liveUrl": "https://raytechinstitute.com/blogs/tapmad-live-packages-renewal-cancellation-guide-pakistan/"
     },
     {
       "key": "south-africa-national-cricket-team",
@@ -682,8 +766,11 @@
       "keywords": [
         "south africa national cricket team"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "south-africa-national-cricket-team",
+      "words": 2023,
+      "liveUrl": "https://raytechinstitute.com/blogs/south-africa-cricket-team-2026-test-rise-formats-guide/"
     },
     {
       "key": "cricket-fixtures-and-live-scores",
@@ -724,8 +811,11 @@
         "aston villa vs fulham",
         "premier league games"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "aston-villa-vs-fulham-f-c-standings",
+      "words": 1950,
+      "liveUrl": "https://raytechinstitute.com/blogs/aston-villa-fulham-1-1-october-2026-standings-own-goal/"
     },
     {
       "key": "pakistan-vs-uae",
@@ -783,12 +873,15 @@
       "keywords": [
         "pavan rathnayake"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "pavan-rathnayake-batting-analysis-study-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "pavan-rathnayake",
+      "words": 2031,
+      "liveUrl": "https://raytechinstitute.com/blogs/pavan-rathnayake-130-77-october-2026-batting-guide/"
     },
     {
       "key": "spurs-vs-palace",
@@ -809,8 +902,11 @@
       "keywords": [
         "november"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "november",
+      "liveUrl": "https://raytechinstitute.com/blogs/november-2026-calendar-pakistan-dates-study-planning/",
+      "words": 1319
     },
     {
       "key": "serie-a",
@@ -832,8 +928,11 @@
         "fbr date extension 2026",
         "tax return"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "fbr-date-extension-2026",
+      "words": 1717,
+      "liveUrl": "https://raytechinstitute.com/blogs/fbr-date-extension-2026-october-deadline-notice-checks/"
     },
     {
       "key": "afghanistan-scotland",
@@ -857,8 +956,11 @@
       "keywords": [
         "shahid kapoor"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "shahid-kapoor",
+      "words": 2081,
+      "liveUrl": "https://raytechinstitute.com/blogs/shahid-kapoor-jab-we-met-haider-jersey-farzi-guide/"
     },
     {
       "key": "sharvari",
@@ -868,8 +970,11 @@
       "keywords": [
         "sharvari"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "sharvari",
+      "words": 2064,
+      "liveUrl": "https://raytechinstitute.com/blogs/sharvari-films-babli-munjya-maharaj-vedaa-viewing-guide/"
     },
     {
       "key": "india-vs-pakistan",
@@ -900,12 +1005,15 @@
         "barca vs",
         "barcelona fc"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "hb-koge-barcelona-women-fixture-analysis-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "barcelona",
+      "words": 2037,
+      "liveUrl": "https://raytechinstitute.com/blogs/fc-barcelona-club-origins-la-masia-teams-student-guide/"
     },
     {
       "key": "betis-vs-malaga",
@@ -949,8 +1057,11 @@
       "keywords": [
         "united states"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "united-states",
+      "words": 1942,
+      "liveUrl": "https://raytechinstitute.com/blogs/united-states-time-change-2026-pakistan-student-guide/"
     },
     {
       "key": "gta-6-release-date",
@@ -963,11 +1074,12 @@
         "rockstar games gta vi",
         "gta 6 release date"
       ],
-      "state": "draft-ready-for-final-review",
+      "state": "live-verified",
       "existingCandidates": [],
       "draftDirectory": "gta-6-release-date",
       "words": 1560,
-      "images": 2
+      "images": 2,
+      "liveUrl": "https://raytechinstitute.com/blogs/gta-6-release-date-platforms-pakistan-buying-guide/"
     },
     {
       "key": "blippi",
@@ -977,8 +1089,11 @@
       "keywords": [
         "blippi"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "blippi",
+      "words": 1996,
+      "liveUrl": "https://raytechinstitute.com/blogs/blippi-parent-guide-watching-questions-off-screen-play/"
     },
     {
       "key": "brian-farinas",
@@ -1038,8 +1153,11 @@
       "keywords": [
         "jobe bellingham"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "jobe-bellingham",
+      "liveUrl": "https://raytechinstitute.com/blogs/jobe-bellingham-dortmund-career-stats-midfield-guide/",
+      "words": 1858
     },
     {
       "key": "crude-oil-surge-psx-impact",
@@ -1061,8 +1179,11 @@
         "alexander zverev",
         "vienna open tennis"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "alexander-zverev",
+      "words": 1865,
+      "liveUrl": "https://raytechinstitute.com/blogs/alexander-zverev-2026-major-titles-final-scores-explained/"
     },
     {
       "key": "bournemouth-vs-leeds",
@@ -1072,8 +1193,11 @@
       "keywords": [
         "bournemouth vs leeds"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "bournemouth-vs-leeds",
+      "words": 2049,
+      "liveUrl": "https://raytechinstitute.com/blogs/bournemouth-leeds-2-0-october-2026-handball-added-time/"
     },
     {
       "key": "kagiso-rabada",
@@ -1083,8 +1207,11 @@
       "keywords": [
         "kagiso rabada"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "kagiso-rabada",
+      "words": 1697,
+      "liveUrl": "https://raytechinstitute.com/blogs/kagiso-rabada-350-test-wickets-cape-town-bowling-stats/"
     },
     {
       "key": "sunrise",
@@ -1094,8 +1221,11 @@
       "keywords": [
         "sunrise"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "sunrise",
+      "liveUrl": "https://raytechinstitute.com/blogs/sunrise-pakistan-times-twilight-observation-guide/",
+      "words": 1524
     },
     {
       "key": "bayern-munich",
@@ -1107,8 +1237,11 @@
         "bayern munich",
         "bayern"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "bayern-munich",
+      "words": 2027,
+      "liveUrl": "https://raytechinstitute.com/blogs/bayern-munich-history-campus-code-kick-student-guide/"
     },
     {
       "key": "psl",
@@ -1118,8 +1251,11 @@
       "keywords": [
         "psl"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "psl",
+      "words": 2036,
+      "liveUrl": "https://raytechinstitute.com/blogs/hbl-psl-2026-final-zalmi-hardie-scorecard-guide/"
     },
     {
       "key": "carlos-alcaraz",
@@ -1129,12 +1265,15 @@
       "keywords": [
         "carlos alcaraz"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "carlos-alcaraz-tennis-tactics-study-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "carlos-alcaraz",
+      "words": 1767,
+      "liveUrl": "https://raytechinstitute.com/blogs/carlos-alcaraz-career-grand-slam-australian-open-2026/"
     },
     {
       "key": "pat-cummins",
@@ -1145,8 +1284,11 @@
         "pat cummins",
         "nathan lyon"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "pat-cummins",
+      "words": 2016,
+      "liveUrl": "https://raytechinstitute.com/blogs/pat-cummins-south-africa-series-2026-captaincy-decisions/"
     },
     {
       "key": "oil-gas-development-company",
@@ -1156,8 +1298,11 @@
       "keywords": [
         "oil & gas development company"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "oil-gas-development-company",
+      "words": 2007,
+      "liveUrl": "https://raytechinstitute.com/blogs/ogdc-september-2026-results-revenue-profit-eps-guide/"
     },
     {
       "key": "topic-97",
@@ -1178,8 +1323,11 @@
       "keywords": [
         "jonas brothers"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "jonas-brothers",
+      "words": 2106,
+      "liveUrl": "https://raytechinstitute.com/blogs/jonas-brothers-members-albums-beginner-listening-guide/"
     },
     {
       "key": "imaan-mazari-and-hadi-ali-chattha",
@@ -1200,8 +1348,11 @@
       "keywords": [
         "viral videos"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "viral-videos",
+      "words": 2169,
+      "liveUrl": "https://raytechinstitute.com/blogs/viral-videos-check-date-location-claim-student-guide/"
     },
     {
       "key": "paris-masters",
@@ -1211,8 +1362,11 @@
       "keywords": [
         "paris masters"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "paris-masters",
+      "words": 1719,
+      "liveUrl": "https://raytechinstitute.com/blogs/paris-masters-2026-schedule-draw-pakistan-time-guide/"
     },
     {
       "key": "ai",
@@ -1222,8 +1376,11 @@
       "keywords": [
         "ai"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "ai",
+      "liveUrl": "https://raytechinstitute.com/blogs/ai-students-check-answers-code-study-routine/",
+      "words": 1763
     },
     {
       "key": "marnus-labuschagne",
@@ -1233,8 +1390,11 @@
       "keywords": [
         "marnus labuschagne"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "marnus-labuschagne",
+      "words": 1980,
+      "liveUrl": "https://raytechinstitute.com/blogs/marnus-labuschagne-career-58-not-out-partnership-guide/"
     },
     {
       "key": "nccia",
@@ -1244,8 +1404,11 @@
       "keywords": [
         "nccia"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "nccia",
+      "words": 1673,
+      "liveUrl": "https://raytechinstitute.com/blogs/nccia-complaint-pakistan-official-route-evidence-guide/"
     },
     {
       "key": "greg-jackson",
@@ -1255,8 +1418,11 @@
       "keywords": [
         "greg jackson"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "greg-jackson",
+      "words": 2030,
+      "liveUrl": "https://raytechinstitute.com/blogs/greg-jackson-octopus-kraken-smart-energy-student-guide/"
     },
     {
       "key": "loan",
@@ -1266,8 +1432,11 @@
       "keywords": [
         "loan"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "loan",
+      "words": 1802,
+      "liveUrl": "https://raytechinstitute.com/blogs/loan-pakistan-fees-net-cash-total-repayment-guide/"
     },
     {
       "key": "cameron-green",
@@ -1277,8 +1446,11 @@
       "keywords": [
         "cameron green"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "cameron-green",
+      "words": 2076,
+      "liveUrl": "https://raytechinstitute.com/blogs/cameron-green-career-batting-bowling-role-stats-guide/"
     },
     {
       "key": "man-united",
@@ -1294,5 +1466,9 @@
   ],
   "overlapPolicy": "Create a separate article even where a prior article covers the topic; require a distinct useful search intent and original treatment. Preserve all existing articles and URLs.",
   "imagePolicy": "Distinct licensed cover and in-article images across the new batch and existing published image manifest; no reused covers, misleading portraits or cosmetic crops to fake uniqueness.",
-  "drafted": 1
+  "drafted": 1,
+  "releaseRun": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41295543371",
+  "held": 0,
+  "unwritten": 76,
+  "workerStatus": "usage-limit; not running"
 }

@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2061,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -23,5 +23,6 @@
     "HED and PBTE indexed official content used where direct retrieval timed out.",
     "Photos provide context, not institutional endorsement; library image creator reports an applied cloudy effect."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/punjab-pakistan-education-boards-notes-student-guide/"
 }

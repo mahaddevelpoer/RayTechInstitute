@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2081,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -25,5 +25,6 @@
     "Platform credit evidence does not guarantee Pakistan access, identical classification or pricing.",
     "Promotional photographs identify the actor, not film scenes or new release announcements."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/shahid-kapoor-jab-we-met-haider-jersey-farzi-guide/"
 }

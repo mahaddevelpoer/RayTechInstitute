@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1628,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -15,5 +15,6 @@
     "All team/rating arithmetic examples explicitly fictional; not full ICC algorithm.",
     "Historical image dates and purposes labelled."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/icc-rankings-rank-rating-team-player-tables-explained/"
 }

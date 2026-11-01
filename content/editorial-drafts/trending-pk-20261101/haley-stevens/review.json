@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2046,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -26,5 +26,6 @@
     "Officialofficebiography evaluative claims not repeated as independently measured outcomes.",
     "Fictional JavaScript record is classification exercise, not legal advice or legislative eligibility service."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/haley-stevens-biography-house-roles-public-records-guide/"
 }

@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2064,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -27,5 +27,6 @@
     "Regional title pages verify identities and credits, not guaranteed Pakistan availability or identical classification.",
     "Photographs are portrait or promotional context, not film stills. Required creator attribution retained."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/sharvari-films-babli-munjya-maharaj-vedaa-viewing-guide/"
 }

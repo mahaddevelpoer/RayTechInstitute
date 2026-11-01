@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2037,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -24,5 +24,6 @@
     "Original routines and programming exercises are not claimed as official club instructions or endorsement.",
     "Photographs show the newer La Masia residence and historical founder portrait, not a current fixture or training admission."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/fc-barcelona-club-origins-la-masia-teams-student-guide/"
 }

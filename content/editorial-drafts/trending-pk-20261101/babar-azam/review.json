@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1866,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "103/59*100=174.576; boundary runs72 and remainder31 not mislabelled31singles.",
     "588/11 described per match, not official batting average. Age32 calculated from DOB."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/babar-azam-103-from-59-psl-2026-batting-stats-guide/"
 }

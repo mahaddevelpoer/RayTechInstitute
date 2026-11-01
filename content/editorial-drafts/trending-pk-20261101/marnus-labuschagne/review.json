@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1980,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "Matchcentre dynamic rows unavailable on directread; finalreport supplies verified specifics.",
     "2019and2026photosnotclaimedas2023finalaction."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/marnus-labuschagne-career-58-not-out-partnership-guide/"
 }

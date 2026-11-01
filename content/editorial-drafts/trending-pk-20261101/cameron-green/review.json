@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2076,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -23,5 +23,6 @@
     "Historical2022images do not imply bowling availability2026.",
     "CA Batter header and ICC All Rounder classification explained without claiming one definitively wrong."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/cameron-green-career-batting-bowling-role-stats-guide/"
 }

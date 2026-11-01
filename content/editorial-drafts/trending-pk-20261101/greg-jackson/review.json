@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2030,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -30,5 +30,6 @@
     "Consumption, pricing and charging-window exercises use invented data, not real customer systems or private platform architecture.",
     "Portrait depicts September 2023 summit. Historical smart-meter image is not claimed to be an Octopus or Kraken installation."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/greg-jackson-octopus-kraken-smart-energy-student-guide/"
 }

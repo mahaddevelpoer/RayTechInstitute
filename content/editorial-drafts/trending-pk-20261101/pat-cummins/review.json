@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2016,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -17,5 +17,6 @@
     "ICC matchmargin176 distinguished from177 additional runs to winning target.",
     "Fictional analysis worksheet and code not real match observations."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/pat-cummins-south-africa-series-2026-captaincy-decisions/"
 }

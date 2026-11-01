@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1778,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -18,5 +18,6 @@
     "Listed prices dated, final checkout not guaranteed. No live purchase/cancellation performed.",
     "Historical hardware illustrations not product screenshots or compatibility recommendations."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/tapmad-live-packages-renewal-cancellation-guide-pakistan/"
 }

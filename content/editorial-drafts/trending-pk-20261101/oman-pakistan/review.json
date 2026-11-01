@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "groupIndex": 0,
   "words": 1063,
   "sourceChecked": "2026-11-01",
@@ -13,7 +13,8 @@
   "factualLimitations": [
     "Parent-authored article preserved. It reports fixture verification only, not a completed winner. Organiser cached feed still marked match 5532 live at 07:03 UTC."
   ],
-  "published": false,
+  "published": true,
   "substantiveCompletionRequired": false,
-  "proseOwnership": "Parent-authored original retained; companion metadata completed by assigned worker."
+  "proseOwnership": "Parent-authored original retained; companion metadata completed by assigned worker.",
+  "liveUrl": "https://raytechinstitute.com/blogs/oman-pakistan-hong-kong-sixes-plate-final-guide/"
 }

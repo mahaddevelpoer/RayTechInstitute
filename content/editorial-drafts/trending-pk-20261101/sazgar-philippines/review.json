@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1495,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -14,5 +14,6 @@
     "No actual sales, stock-price forecast or plant-specific employment figure claimed.",
     "Context images do not depict identified Sazgar vehicles or its Philippines factory."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/sazgar-philippines-assembly-plant-capacity-sales-explained/"
 }

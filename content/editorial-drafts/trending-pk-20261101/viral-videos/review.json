@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2169,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -20,5 +20,6 @@
     "Negative visual search result not misrepresented as proof of originality.",
     "Photos illustrative and not presented as disputed videos or accusations about depicted learners."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/viral-videos-check-date-location-claim-student-guide/"
 }

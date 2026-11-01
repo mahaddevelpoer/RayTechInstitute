@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2036,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -16,5 +16,6 @@
     "15.2 overs converted to92 legal balls and28remaining; no assumption about physical delivery count.",
     "Two venues distinguished; Karachi historical image not claimed as Lahore final."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/hbl-psl-2026-final-zalmi-hardie-scorecard-guide/"
 }

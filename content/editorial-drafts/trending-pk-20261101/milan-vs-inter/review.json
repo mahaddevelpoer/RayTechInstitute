@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2024,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -16,5 +16,6 @@
     "No invented xG, possession, private tactics, future schedules or local broadcast rights.",
     "Historical2009derbyphoto explicitly separate from October2026fixture."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/milan-inter-3-1-october-2026-derby-goals-moreira-guide/"
 }

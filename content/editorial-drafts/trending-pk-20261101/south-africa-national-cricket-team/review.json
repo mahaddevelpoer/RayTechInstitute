@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2023,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -23,5 +23,6 @@
     "Points examples are fictional and exclude deductions; official standings remain authoritative for actual positions.",
     "Historical Amla batting scene and 2024 domestic-fixture venue photograph not presented as the 2026 Cape Town winning XI or match photographs."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/south-africa-cricket-team-2026-test-rise-formats-guide/"
 }

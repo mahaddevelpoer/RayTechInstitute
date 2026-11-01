@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1558,
   "sourceChecked": "2026-11-01",
   "groupIndex": 4,
@@ -41,6 +41,7 @@
     "/blogs/sahibzada-farhan-icc-t20i-rankings-explained/",
     "/blogs/nitish-kumar-reddy-all-rounder-analysis-guide/"
   ],
-  "published": false,
-  "substantiveCompletionRequired": false
+  "published": true,
+  "substantiveCompletionRequired": false,
+  "liveUrl": "https://raytechinstitute.com/blogs/india-new-zealand-hamilton-fifth-t20i-scorecard-context/"
 }

@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1717,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -19,5 +19,6 @@
     "Generic device photos clearly labelled, not product screenshots.",
     "Original data example: 2 Mbps x 3600 / 8 = 900 MB before overhead."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/tamasha-live-cricket-app-access-buffering-data-guide/"
 }

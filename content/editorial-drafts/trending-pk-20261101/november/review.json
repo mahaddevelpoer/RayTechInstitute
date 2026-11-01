@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1319,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -14,5 +14,6 @@
     "No invented board deadlines or universal school closure claims.",
     "Calendar computed independently. Seasonal photo is not Pakistani weather evidence."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/november-2026-calendar-pakistan-dates-study-planning/"
 }

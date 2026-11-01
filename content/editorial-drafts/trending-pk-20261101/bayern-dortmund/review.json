@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1985,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -19,5 +19,6 @@
     "No inferred private tactics, diagnosis, betting advice or unverified possession/xG.",
     "Venue photographs historical and not claimed as October2026match action."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/bayern-dortmund-2-2-october-2026-goals-standings-guide/"
 }

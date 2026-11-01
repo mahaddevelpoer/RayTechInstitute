@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1802,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -16,5 +16,6 @@
     "2016 SBP circular labelled historical, not a full current legal framework.",
     "No simplistic annualization labelled APR. Example net9500 repay11000 yields1500 difference."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/loan-pakistan-fees-net-cash-total-repayment-guide/"
 }

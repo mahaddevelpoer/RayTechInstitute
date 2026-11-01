@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1722,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -16,5 +16,6 @@
     "Official candidate totals yield margin369591 and rounded-share gap1.78percentage points.",
     "Fictional denominator example explicitly labelled, not real election reconstruction."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/polish-president-karol-nawrocki-biography-election-figures/"
 }

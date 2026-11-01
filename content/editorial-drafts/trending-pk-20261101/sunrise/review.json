@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1524,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -14,5 +14,6 @@
     "No live city-specific time claimed. All clock examples explicitly fictional.",
     "NOAA maintenance limitation disclosed. No prayer-time calculation or religious ruling."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/sunrise-pakistan-times-twilight-observation-guide/"
 }

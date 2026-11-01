@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2007,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -24,5 +24,6 @@
     "Foreign equipment photographs illustrate industrial context and are explicitly not claimed as OGDCL installations.",
     "Fictional price-volume and coding exercises are labelled separately from reported results."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/ogdc-september-2026-results-revenue-profit-eps-guide/"
 }

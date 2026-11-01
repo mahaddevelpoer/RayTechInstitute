@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1120,
   "sourceChecked": "2026-11-01",
   "groupIndex": 7,
@@ -37,5 +37,6 @@
     "/blogs/sikandar-raza-batting-bowling-analysis-guide/",
     "/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/"
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/australia-afghanistan-hong-kong-sixes-cup-final-preview-2026/"
 }

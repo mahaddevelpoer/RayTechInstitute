@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2027,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -27,5 +27,6 @@
     "Original classroom activity is not the official event plan or club-endorsed course.",
     "Campus photographs are venue context, not Code & Kick participant photographs or a current first-team match."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/bayern-munich-history-campus-code-kick-student-guide/"
 }

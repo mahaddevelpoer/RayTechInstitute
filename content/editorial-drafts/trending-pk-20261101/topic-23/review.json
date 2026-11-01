@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1810,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -19,5 +19,6 @@
     "Programme eligibility delegated to current institution pages; no identical admissions assumptions.",
     "Historical photographs dated and labelled."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/qatar-country-facts-doha-geography-education-city-guide/"
 }

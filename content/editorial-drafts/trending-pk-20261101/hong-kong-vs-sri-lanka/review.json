@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1461,
   "sourceChecked": "2026-11-01",
   "groupIndex": 5,
@@ -36,7 +36,8 @@
     "/blogs/tim-seifert-wicketkeeping-batting-study-guide/",
     "/blogs/new-zealand-vs-india-4th-t20i-october-30-2026-guide/"
   ],
-  "published": false,
+  "published": true,
   "resultVerified": true,
-  "substantiveCompletionRequired": false
+  "substantiveCompletionRequired": false,
+  "liveUrl": "https://raytechinstitute.com/blogs/hong-kong-sri-lanka-sixes-seventh-place-playoff/"
 }

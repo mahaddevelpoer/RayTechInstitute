@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1763,
   "sourceChecked": "2026-11-01",
   "sources": [
@@ -14,5 +14,6 @@
     "No guarantees about pricing, availability or accuracy. No NIST endorsement claimed.",
     "Original code inspected: outputs 240 and 320. Duplicate-option JSON deliberately labelled flawed."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/ai-students-check-answers-code-study-routine/"
 }
