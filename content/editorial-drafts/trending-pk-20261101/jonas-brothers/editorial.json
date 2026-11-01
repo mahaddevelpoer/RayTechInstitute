@@ -1,0 +1,18 @@
+{
+  "title": "Jonas Brothers: Members, Albums and a Beginner Listening Guide",
+  "slug": "jonas-brothers-members-albums-beginner-listening-guide",
+  "category": "entertainment",
+  "excerpt": "Start with verified members and selected releases, then use original listening exercises to understand rhythm, arrangement, credits and catalogue labels.",
+  "tags": ["Jonas Brothers", "Kevin Jonas", "Joe Jonas", "Nick Jonas", "Jonas Brothers members", "Jonas Brothers albums", "Happiness Begins", "Happiness Begins 2019", "The Album 2023", "Greetings From Your Hometown", "8 August 2025", "Republic Records", "Twentieth anniversary context", "Dean Lewis collaboration", "Switchfoot collaboration", "Marshmello collaboration", "Band versus solo artist", "Featured artist credit", "Studio album", "Live album", "Compilation distinction", "Selected discography", "Beginner listening guide", "Musical pulse", "Tempo versus loudness", "Verse and chorus", "Section repetition", "Arrangement", "Melody versus texture", "Listening notebook", "Release metadata", "Official recording identity", "Studio versus live version", "Historical band photographs", "Personal observation", "Public credits", "Playlist study exercise", "JavaScript array filter", "Fictional release catalogue", "Music literacy", "Pakistan streaming availability", "Dated tour information"],
+  "seoTitle": "Jonas Brothers: Members, Albums and Listening Guide",
+  "description": "Explore Jonas Brothers members and selected albums with original listening exercises, verified credits and tips for reading release and tour information.",
+  "socialTitle": "Jonas Brothers: A More Attentive Way to Start Listening",
+  "socialDescription": "Verified catalogue context and practical exercises in rhythm, arrangement and credits.",
+  "sources": ["https://jonasbrothers.com/", "https://www.universalmusic.ca/2025/08/08/jonas-brothers-release-highly-anticipated-new-album-greetings-from-your-hometown-today/", "https://www.universal-music.de/jonasbrothers/musik"],
+  "limitations": ["Selected releases not exhaustive discography or current latest-release claim.", "No lyrics reproduced or firsthand concert/track review invented.", "2025 announcement not presented as a 2026 tour date or Pakistan streaming guarantee.", "Listening prompts are original exercises, not assertions about specific song structures.", "Historical concert photos separate from future-date and lineup claims."],
+  "metadataFile": "artifacts/november-jonas-metadata.json",
+  "photos": [
+    {"role": "cover", "fileTitle": "File:Jonas Brothers 4th of July Show Taping in Cleveland (51277060141).jpg", "alt": "Jonas Brothers at a historical Fourth of July show taping in Cleveland", "caption": "Jonas Brothers at a historical Fourth of July show taping in Cleveland. The photograph does not announce a new 2026 performance."},
+    {"role": "inline", "fileTitle": "File:Jonas Brothers Moscow.JPG", "alt": "Jonas Brothers performing in Moscow in a historical 2012 photograph", "caption": "Historical 2012 photograph of Jonas Brothers in Moscow. It is not a photograph of the 2025 album tour or a newly announced event."}
+  ]
+}
