@@ -1,0 +1,25 @@
+{
+  "state": "research-in-progress",
+  "checkedOn": "2026-11-01",
+  "primaryCandidates": [
+    {
+      "url": "https://pco.gov.ph/presidential-speech/speech-by-president-ferdinand-r-marcos-jr-during-his-visit-to-the-manufacturing-and-assembly-plant-of-sazgar-philippines-inc/",
+      "status": "indexed government event record; full fetch403"
+    },
+    {
+      "url": "https://www.sazgarphilippines.com/about",
+      "status": "manufacturer description; full verification pending"
+    },
+    {
+      "url": "https://sazgarautos.com/announcements/",
+      "status": "company announcements index"
+    }
+  ],
+  "angle": "Explain overseas vehicle assembly versus exports, and capacity versus actual output; verify event and figures first.",
+  "doNotAssert": [
+    "guaranteed future sales",
+    "share-price impact",
+    "unverified jobs totals",
+    "unverified local-content percentages"
+  ]
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Motorized tricycles, Philippines (51141724598).jpg",
+    "url": "/images/editorial/trending-pk-20261101/sazgar-philippines-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Motorized_tricycles,_Philippines_(51141724598).jpg",
+    "creator": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "Public domain",
+    "sha1": "2e9a07aa32127e2192149de278b3cd79ba5f6c8a",
+    "width": 1280,
+    "height": 753,
+    "alt": "Motorized tricycles in the Philippines",
+    "caption": "Philippine transport context. These are not identified as Sazgar vehicles or the new factory’s output.",
+    "reviewState": "semantically-reviewed",
+    "bytes": 442306
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Rickshaw at Lahore Fort.jpg",
+    "url": "/images/editorial/trending-pk-20261101/sazgar-philippines-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Rickshaw_at_Lahore_Fort.jpg",
+    "creator": "J LOG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "50b6ab01375bf8f8e88c6dca552ecc489b777bd1",
+    "width": 1280,
+    "height": 720,
+    "alt": "A rickshaw near Lahore Fort in Pakistan",
+    "caption": "Lahore transport context, not a photograph of the Philippines assembly plant or an identified Sazgar model.",
+    "reviewState": "semantically-reviewed",
+    "bytes": 282240
+  }
+]

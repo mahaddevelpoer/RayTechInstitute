@@ -1,0 +1,18 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1495,
+  "sourceChecked": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://www.sazgarphilippines.com/about"
+    },
+    {
+      "url": "https://www.dawn.com/news/2040991/pakistani-three-wheelers-go-international-as-automotive-manufacturer-opens-plant-in-philippines"
+    }
+  ],
+  "factualLimitations": [
+    "No actual sales, stock-price forecast or plant-specific employment figure claimed.",
+    "Context images do not depict identified Sazgar vehicles or its Philippines factory."
+  ],
+  "published": false
+}
