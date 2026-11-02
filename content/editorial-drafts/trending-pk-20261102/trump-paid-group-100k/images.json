@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:President Donald Trump signs executive orders in the Oval Office (54354615785).jpg",
+    "alt": "Donald Trump seated in the Oval Office",
+    "caption": "Historical official photograph; not a Truth API contract signing or subscriber event.",
+    "url": "/images/editorial/trending-pk-20261102/trump-paid-group-100k-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_signs_executive_orders_in_the_Oval_Office_(54354615785).jpg",
+    "creator": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "b899cfa4fd798fa7a2ba6c3b7d2c5feb0aa0e9af",
+    "width": 1280,
+    "height": 853,
+    "reviewState": "metadata-reviewed",
+    "bytes": 142712
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Rack001.jpg",
+    "alt": "Computer server rack",
+    "caption": "General server-infrastructure illustration, not Truth Social’s servers or a measured API test.",
+    "url": "/images/editorial/trending-pk-20261102/trump-paid-group-100k-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Rack001.jpg",
+    "creator": "Jfreyre",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "ee85022cf2cd0294c3e82b8b37b665c901d17055",
+    "width": 720,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 105168
+  }
+]

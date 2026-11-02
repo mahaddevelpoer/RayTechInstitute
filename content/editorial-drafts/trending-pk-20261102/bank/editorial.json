@@ -1,0 +1,82 @@
+{
+  "title": "Bank Basics in Pakistan: Accounts, Budgets and Safe Payments",
+  "slug": "bank-explained-guide",
+  "seoTitle": "Bank Basics in Pakistan: Accounts and Payments Guide",
+  "description": "Explore Bank Basics in Pakistan with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "excerpt": "Explore Bank Basics in Pakistan with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "socialTitle": "Bank Basics in Pakistan: Accounts, Budgets and Safe Payments",
+  "socialDescription": "Explore Bank Basics in Pakistan with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "category": "technology",
+  "tags": [
+    "Bank meaning",
+    "Banking basics Pakistan",
+    "Financial literacy",
+    "Account balance",
+    "Deposit versus income",
+    "Payment record",
+    "Money transfer",
+    "Saving versus borrowing",
+    "Debt obligation",
+    "Credit limit",
+    "Budget period",
+    "Weekly budget example",
+    "Planned versus actual",
+    "Pending transaction",
+    "Available balance",
+    "Fee schedule",
+    "Per transaction charge",
+    "Monthly fee",
+    "Payment reference",
+    "Transaction status",
+    "PIN security",
+    "OTP security",
+    "Credential privacy",
+    "Fraud awareness",
+    "Official support",
+    "Unfamiliar transaction",
+    "Incident record",
+    "Account identifier",
+    "Statement reconciliation",
+    "Fictional money examples",
+    "Source checking",
+    "Dated evidence",
+    "Educational guide",
+    "Student questions",
+    "Worked examples",
+    "Claim verification",
+    "Research worksheet",
+    "Contextual images",
+    "Measurement literacy",
+    "Reading practice",
+    "Pakistan students",
+    "Further learning"
+  ],
+  "sources": [
+    "https://archive.sbp.org.pk/Finc/FL.asp",
+    "https://nibaf.sbp.org.pk/pdf/books/2025/Level%204%20-%2018-29-%20Youth_English.pdf",
+    "https://www.bankalfalah.com/fraud-risk-awareness/",
+    "https://www.mcb.com.pk/quick-links/be-aware-stay-safe"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch5-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional activities are separate from documented facts.",
+    "General financial education, not personalised financial advice or a current product offer."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:StatebankBuilding.jpg",
+      "alt": "State Bank of Pakistan building",
+      "caption": "Institutional context; the image does not advertise an account or guarantee product terms."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:WinonaSavingsBankVault.JPG",
+      "alt": "Historical bank vault at Winona Savings Bank",
+      "caption": "Historical banking illustration from a different country, not a Pakistani bank facility."
+    }
+  ]
+}

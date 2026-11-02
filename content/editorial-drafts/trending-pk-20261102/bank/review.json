@@ -1,0 +1,26 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2113,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://archive.sbp.org.pk/Finc/FL.asp"
+    },
+    {
+      "url": "https://nibaf.sbp.org.pk/pdf/books/2025/Level%204%20-%2018-29-%20Youth_English.pdf"
+    },
+    {
+      "url": "https://www.bankalfalah.com/fraud-risk-awareness/"
+    },
+    {
+      "url": "https://www.mcb.com.pk/quick-links/be-aware-stay-safe"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional activities are separate from documented facts.",
+    "General financial education, not personalised financial advice or a current product offer."
+  ],
+  "published": false
+}

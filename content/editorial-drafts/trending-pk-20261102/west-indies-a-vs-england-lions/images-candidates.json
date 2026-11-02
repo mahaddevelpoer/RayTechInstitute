@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Warner Park Cricket Stadium.jpg",
+    "alt": "Warner Park cricket stadium in Saint Kitts",
+    "caption": "Historical tour-region venue context; not a live match photograph.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Warner_Park_Cricket_Stadium.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Warner_Park_Cricket_Stadium.jpg",
+    "creator": "St Kitts & Nevis Government; permission: https://www.flickr.com/photos/skngov/14733563912",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "8fbb00278de84fb6b88353f3825a7f19465cdbb2",
+    "width": 6016,
+    "height": 4000,
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Downtown Basseterre, St. Kitts.jpg",
+    "alt": "Downtown Basseterre in Saint Kitts",
+    "caption": "Historical host-region geography, not a match venue or evidence of a tour result.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Downtown_Basseterre%2C_St._Kitts.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Downtown_Basseterre,_St._Kitts.jpg",
+    "creator": "Image taken by Clark Anderson/Aquaimages",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sha1": "8da7d1ae897e8f1fca4e5122d4e0593eb67ecf50",
+    "width": 600,
+    "height": 450,
+    "reviewState": "metadata-reviewed"
+  }
+]

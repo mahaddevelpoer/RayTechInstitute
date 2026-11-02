@@ -1,0 +1,79 @@
+{
+  "title": "Sialkot Pakistan: Heritage, District Data and Industry Learning",
+  "slug": "sialkot-pakistan-explained-guide",
+  "seoTitle": "Sialkot Pakistan: Heritage and District Learning Guide",
+  "description": "Explore Sialkot Pakistan with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "excerpt": "Explore Sialkot Pakistan with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "socialTitle": "Sialkot Pakistan: Heritage, District Data and Industry Learning",
+  "socialDescription": "Explore Sialkot Pakistan with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "category": "world-affairs",
+  "tags": [
+    "Sialkot Pakistan",
+    "Sialkot district",
+    "Sialkot city",
+    "Punjab geography",
+    "City versus district",
+    "Sialkot tehsils",
+    "Pasrur",
+    "Daska",
+    "Sambrial",
+    "Iqbal Manzil",
+    "Allama Muhammad Iqbal",
+    "Heritage learning",
+    "Sialkot clock tower",
+    "Saddar Bazaar",
+    "2023 population data",
+    "District households",
+    "Dated land statistics",
+    "Official district profile",
+    "Museum interpretation",
+    "Historical photograph",
+    "Map exercise",
+    "Manufacturing process",
+    "Product specification",
+    "Quality check model",
+    "Quantity versus value",
+    "Trade data units",
+    "Education table",
+    "Subtotal versus total",
+    "Research worksheet",
+    "Pakistan place guide",
+    "Source checking",
+    "Dated evidence",
+    "Educational guide",
+    "Student questions",
+    "Worked examples",
+    "Claim verification",
+    "Independent learning",
+    "Contextual images",
+    "Measurement literacy",
+    "Reading practice",
+    "Pakistan students",
+    "Further learning"
+  ],
+  "sources": [
+    "https://sialkot.punjab.gov.pk/district_profile",
+    "https://sialkot.punjab.gov.pk/important_places"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch5-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional activities are separate from documented facts."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Clock Tower, Sialkot 21.jpg",
+      "alt": "Clock tower in Sialkot",
+      "caption": "Historical landmark illustration; current access and street conditions need local confirmation."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Iqbal Manzil the birthplace of Iqbal.JPG",
+      "alt": "Iqbal Manzil in Sialkot",
+      "caption": "Historical heritage-location illustration, not a current opening-hours notice."
+    }
+  ]
+}

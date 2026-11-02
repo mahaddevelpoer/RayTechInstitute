@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2002,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/07/16/3328489/0/en/trump-media-and-technology-group-launches-truth-api-a-new-licensed-data-service-for-financial-services-partners-that-provides-the-fastest-access-to-truth-social-s-most-influential-.html"
+    },
+    {
+      "url": "https://finance.yahoo.com/media-advertising/articles/trump-media-pitched-100-000-165416714.html"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/20/truth-social-tmtg-truth-api"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional activities are separate from documented facts.",
+    "Attributed historical price report; not a giveaway, trading recommendation, current contract quote or legal finding."
+  ],
+  "published": false
+}

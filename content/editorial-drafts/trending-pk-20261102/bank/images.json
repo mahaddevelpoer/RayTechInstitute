@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:StatebankBuilding.jpg",
+    "alt": "State Bank of Pakistan building",
+    "caption": "Institutional context; the image does not advertise an account or guarantee product terms.",
+    "url": "/images/editorial/trending-pk-20261102/bank-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:StatebankBuilding.jpg",
+    "creator": "Zahid Akhtar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "01ed93d724c7571ac05f698482214b4e6e300d09",
+    "width": 564,
+    "height": 583,
+    "reviewState": "metadata-reviewed",
+    "bytes": 59966
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:WinonaSavingsBankVault.JPG",
+    "alt": "Historical bank vault at Winona Savings Bank",
+    "caption": "Historical banking illustration from a different country, not a Pakistani bank facility.",
+    "url": "/images/editorial/trending-pk-20261102/bank-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:WinonaSavingsBankVault.JPG",
+    "creator": "Jonathunder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "ae131ade17011e85bc9ebc4f4712facc43147ae5",
+    "width": 1280,
+    "height": 799,
+    "reviewState": "metadata-reviewed",
+    "bytes": 181190
+  }
+]

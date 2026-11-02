@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2026,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/lol"
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/lol"
+    },
+    {
+      "url": "https://www.collinsdictionary.com/us/dictionary/english/lol"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional activities are separate from documented facts."
+  ],
+  "published": false
+}
