@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2047,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -17,5 +17,6 @@
     "No inference of swing, speed or specific deliveries from historical ground images.",
     "No use of uncorroborated Lord's innings-label detail from archive."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/asitha-fernando-career-bowling-figures-learning-guide/"
 }

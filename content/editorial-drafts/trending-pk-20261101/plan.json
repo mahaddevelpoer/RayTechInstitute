@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 61,
+  "published": 62,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -840,8 +840,11 @@
         "asitha fernando",
         "pak vs aus"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "asitha-fernando",
+      "words": 2047,
+      "liveUrl": "https://raytechinstitute.com/blogs/asitha-fernando-career-bowling-figures-learning-guide/"
     },
     {
       "key": "udinese-vs-roma",
