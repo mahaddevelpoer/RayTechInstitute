@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "key": "noor-ahmad",
+      "batch": "20261102"
+    },
+    {
+      "key": "juventus-vs-napoli",
+      "batch": "20261102"
+    },
+    {
+      "key": "athletic-vs-real-sociedad",
+      "batch": "20261102"
+    },
+    {
+      "key": "f1-mexico-gp",
+      "batch": "20261102"
+    },
+    {
+      "key": "cmk-100-casio",
+      "batch": "20261102"
+    },
+    {
+      "key": "native-american-heritage-month",
+      "batch": "20261102"
+    },
+    {
+      "key": "heidi-klum",
+      "batch": "20261102"
+    },
+    {
+      "key": "west-indies-cricket-team",
+      "batch": "20261102"
+    },
+    {
+      "key": "pak-vs-aus",
+      "batch": "20261102"
+    },
+    {
+      "key": "groundwater",
+      "batch": "20261102"
+    }
+  ],
+  "state": "live-verified",
+  "publishTogether": true,
+  "subagents": false,
+  "commit": "86de17524ea034ba6c27257e407132e7935031b4",
+  "run": 41431312631,
+  "articles": 10,
+  "words": 20517,
+  "images": 20,
+  "tagsPerArticle": 42,
+  "verifiedNovemberArticles": 104,
+  "remaining": 28
+}

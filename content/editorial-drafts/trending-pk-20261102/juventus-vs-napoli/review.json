@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2027,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -15,5 +15,6 @@
     "Contextual images are not claimed to depict the current event.",
     "Worked classroom examples are fictional and labelled separately from reported facts."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/juventus-vs-napoli-explained-learning-guide/"
 }

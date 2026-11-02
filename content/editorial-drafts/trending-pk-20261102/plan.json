@@ -3,7 +3,7 @@
   "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261102-0832.csv",
   "inputSearches": 70,
   "publicationAuthorized": true,
-  "published": 6,
+  "published": 16,
   "topicGroups": 44,
   "existingSearches": [
     {
@@ -334,7 +334,7 @@
         "noor ahmad",
         "zimbabwe national cricket team vs afghanistan national cricket team match scorecard"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "noor ahmad",
@@ -344,7 +344,10 @@
           "Trend breakdown": "noor ahmad,zimbabwe national cricket team vs afghanistan national cricket team match scorecard",
           "Explore link": "./explore?q=noor%20ahmad&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "noor-ahmad",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/noor-ahmad-explained-learning-guide/"
     },
     {
       "key": "juventus-vs-napoli",
@@ -355,7 +358,7 @@
         "juventus vs napoli",
         "juventus vs ssc napoli standings"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "juventus vs napoli",
@@ -365,7 +368,10 @@
           "Trend breakdown": "juventus vs napoli,juventus vs ssc napoli standings",
           "Explore link": "./explore?q=juventus%20vs%20napoli&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "juventus-vs-napoli",
+      "words": 2027,
+      "liveUrl": "https://raytechinstitute.com/blogs/juventus-vs-napoli-explained-learning-guide/"
     },
     {
       "key": "athletic-vs-real-sociedad",
@@ -375,7 +381,7 @@
       "keywords": [
         "athletic vs real sociedad"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "athletic vs real sociedad",
@@ -385,7 +391,10 @@
           "Trend breakdown": "athletic vs real sociedad",
           "Explore link": "./explore?q=athletic%20vs%20real%20sociedad&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "athletic-vs-real-sociedad",
+      "words": 2010,
+      "liveUrl": "https://raytechinstitute.com/blogs/athletic-vs-real-sociedad-explained-learning-guide/"
     },
     {
       "key": "f1-mexico-gp",
@@ -398,7 +407,7 @@
         "max verstappen",
         "mexico gp"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "f1",
@@ -416,7 +425,10 @@
           "Trend breakdown": "mexico gp",
           "Explore link": "./explore?q=mexico%20gp&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "f1-mexico-gp",
+      "words": 2095,
+      "liveUrl": "https://raytechinstitute.com/blogs/f1-mexico-gp-explained-learning-guide/"
     },
     {
       "key": "cmk-100-casio",
@@ -426,7 +438,7 @@
       "keywords": [
         "cmk 100 casio"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "cmk 100 casio",
@@ -436,7 +448,10 @@
           "Trend breakdown": "cmk 100 casio",
           "Explore link": "./explore?q=cmk%20100%20casio&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "cmk-100-casio",
+      "words": 2006,
+      "liveUrl": "https://raytechinstitute.com/blogs/cmk-100-casio-explained-learning-guide/"
     },
     {
       "key": "native-american-heritage-month",
@@ -446,7 +461,7 @@
       "keywords": [
         "native american heritage month"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "native american heritage month",
@@ -456,7 +471,10 @@
           "Trend breakdown": "native american heritage month",
           "Explore link": "./explore?q=native%20american%20heritage%20month&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "native-american-heritage-month",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/native-american-heritage-month-explained-learning-guide/"
     },
     {
       "key": "heidi-klum",
@@ -466,7 +484,7 @@
       "keywords": [
         "heidi klum"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "heidi klum",
@@ -476,7 +494,10 @@
           "Trend breakdown": "heidi klum",
           "Explore link": "./explore?q=heidi%20klum&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "heidi-klum",
+      "words": 2022,
+      "liveUrl": "https://raytechinstitute.com/blogs/heidi-klum-explained-learning-guide/"
     },
     {
       "key": "west-indies-cricket-team",
@@ -486,7 +507,7 @@
       "keywords": [
         "west indies cricket team"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "west indies cricket team",
@@ -496,7 +517,10 @@
           "Trend breakdown": "west indies cricket team",
           "Explore link": "./explore?q=west%20indies%20cricket%20team&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "west-indies-cricket-team",
+      "words": 2147,
+      "liveUrl": "https://raytechinstitute.com/blogs/west-indies-cricket-team-explained-learning-guide/"
     },
     {
       "key": "pak-vs-aus",
@@ -506,7 +530,7 @@
       "keywords": [
         "pak vs aus"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "pak vs aus",
@@ -516,7 +540,10 @@
           "Trend breakdown": "pak vs aus",
           "Explore link": "./explore?q=pak%20vs%20aus&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "pak-vs-aus",
+      "words": 2087,
+      "liveUrl": "https://raytechinstitute.com/blogs/pak-vs-aus-explained-learning-guide/"
     },
     {
       "key": "groundwater",
@@ -526,7 +553,7 @@
       "keywords": [
         "groundwater"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "groundwater",
@@ -536,7 +563,10 @@
           "Trend breakdown": "groundwater",
           "Explore link": "./explore?q=groundwater&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "groundwater",
+      "words": 2088,
+      "liveUrl": "https://raytechinstitute.com/blogs/groundwater-explained-learning-guide/"
     },
     {
       "key": "sonakshi-sinha",
