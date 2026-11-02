@@ -1,0 +1,34 @@
+[
+  {
+    "role": "inline",
+    "fileTitle": "File:Libro animado o flipbook.jpg",
+    "alt": "A handheld flipbook demonstrating an image sequence",
+    "caption": "Paper-animation context for the original exercises; not Motu Patlu artwork.",
+    "url": "/images/editorial/trending-pk-20261101/mr-patlu-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Libro_animado_o_flipbook.jpg",
+    "creator": "Josila",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "32844b49def2e5820069cc52cb6a9ff7cc0f2e81",
+    "width": 1280,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 76580
+  },
+  {
+    "role": "cover",
+    "fileTitle": "File:Zoetrope.jpg",
+    "alt": "A replica zoetrope used to display a sequence of images",
+    "caption": "A historical animation-device replica, illustrating image sequences; not equipment claimed to have produced Motu Patlu.",
+    "url": "/images/editorial/trending-pk-20261101/mr-patlu-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Zoetrope.jpg",
+    "creator": "Andrew Dunn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sha1": "8e1876a76eba68eeaafd48214a5f6397609f28e0",
+    "width": 876,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 103190
+  }
+]

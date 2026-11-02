@@ -1,0 +1,20 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2297,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://play.google.com/store/tv/show/Motu_Patlu?id=19882B664E530E9CSH"
+    },
+    {
+      "url": "https://images.autodesk.com/apac_india_main/files/maya_digital_motu_patlu_customer_story.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "Search phrase interpreted as Motu Patlu; not a claim that Mr Patlu is a separate official programme.",
+    "Original exercises are not television episode plots or reproduced scripts.",
+    "Historical production context does not establish current episode workflows.",
+    "Images illustrate animation techniques and are not Motu Patlu artwork."
+  ],
+  "published": false
+}

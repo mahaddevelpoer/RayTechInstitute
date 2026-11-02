@@ -1,0 +1,32 @@
+[
+  {
+    "role": "inline",
+    "fileTitle": "File:Libro animado o flipbook.jpg",
+    "alt": "A handheld flipbook demonstrating an image sequence",
+    "caption": "Paper-animation context for the original exercises; not Motu Patlu artwork.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Libro_animado_o_flipbook.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Libro_animado_o_flipbook.jpg",
+    "creator": "Josila",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "32844b49def2e5820069cc52cb6a9ff7cc0f2e81",
+    "width": 4320,
+    "height": 3240,
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "cover",
+    "fileTitle": "File:Zoetrope.jpg",
+    "alt": "A replica zoetrope used to display a sequence of images",
+    "caption": "A historical animation-device replica, illustrating image sequences; not equipment claimed to have produced Motu Patlu.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Zoetrope.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Zoetrope.jpg",
+    "creator": "Andrew Dunn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sha1": "8e1876a76eba68eeaafd48214a5f6397609f28e0",
+    "width": 695,
+    "height": 761,
+    "reviewState": "metadata-reviewed"
+  }
+]
