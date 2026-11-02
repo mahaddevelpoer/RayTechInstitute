@@ -1,0 +1,24 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2058,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/150th-anniversary-test/history"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/the-three-formats-of-cricket"
+    },
+    {
+      "url": "https://www.lords.org/getattachment/f955069b-ddb9-4e8e-9615-41c3071a3446/The-Laws-of-Cricket-2026-submitted-17-4-2026.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "Evergreen men's-team learning guide checked 2 November 2026, not live squads, fixtures or rankings.",
+    "Practice scores, learner names and percentage examples are fictional, not Australian results.",
+    "Standard format structures distinguished from competition-specific playing conditions and revised targets.",
+    "Historical photographs do not establish current match venues, selection or statistics.",
+    "First men's Test distinguished from earlier international cricket."
+  ],
+  "published": false
+}

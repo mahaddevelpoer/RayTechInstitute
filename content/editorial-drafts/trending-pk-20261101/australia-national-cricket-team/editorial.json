@@ -1,0 +1,82 @@
+{
+  "title": "Australia National Cricket Team: History, Formats and Scoreboards Explained",
+  "slug": "australia-cricket-team-history-formats-scoreboard-guide",
+  "category": "sports",
+  "sourceChecked": "2026-11-02",
+  "excerpt": "Understand Australia's Test origins and practise reading innings, overs, targets and performance numbers through original worked examples.",
+  "tags": [
+    "Australia national cricket team",
+    "Australian cricket history",
+    "First men's Test",
+    "15 March 1877",
+    "Melbourne Cricket Ground",
+    "MCG venue",
+    "Dave Gregory",
+    "Charles Bannerman",
+    "Bannerman 165",
+    "Australia England history",
+    "1844 international fixture",
+    "USA Canada cricket",
+    "Test cricket explained",
+    "ODI cricket explained",
+    "T20I cricket explained",
+    "Cricket innings",
+    "Runs and wickets",
+    "Wickets-first notation",
+    "Runs-first notation",
+    "Australian scoreboard",
+    "Overs notation",
+    "Legal deliveries",
+    "Six-ball over",
+    "12.4 overs",
+    "Cricket run rate",
+    "Required run rate",
+    "Winning target",
+    "Revised target awareness",
+    "Tie versus draw",
+    "Cricket match result",
+    "Batting strike rate",
+    "Bowling economy",
+    "Win percentage",
+    "Statistics denominator",
+    "Format-specific records",
+    "Fictional cricket exercises",
+    "Cricket worksheet",
+    "Don Bradman photograph",
+    "Historical image context",
+    "Cricket data literacy",
+    "Pakistan cricket learners",
+    "Cricket programming exercise"
+  ],
+  "seoTitle": "Australia Cricket Team: History and Scoreboard Guide",
+  "description": "Explore Australia's Test origins and learn runs, wickets, overs, targets and strike rates through clear examples for beginner cricket readers.",
+  "socialTitle": "Understand Australia Cricket Beyond the Team Name",
+  "socialDescription": "Test history, scoreboard notation and practical exercises that explain the numbers behind the game.",
+  "sources": [
+    "https://www.cricket.com.au/150th-anniversary-test/history",
+    "https://www.icc-cricket.com/news/the-three-formats-of-cricket",
+    "https://www.lords.org/getattachment/f955069b-ddb9-4e8e-9615-41c3071a3446/The-Laws-of-Cricket-2026-submitted-17-4-2026.pdf"
+  ],
+  "limitations": [
+    "Evergreen men's-team learning guide checked 2 November 2026, not live squads, fixtures or rankings.",
+    "Practice scores, learner names and percentage examples are fictional, not Australian results.",
+    "Standard format structures distinguished from competition-specific playing conditions and revised targets.",
+    "Historical photographs do not establish current match venues, selection or statistics.",
+    "First men's Test distinguished from earlier international cricket."
+  ],
+  "metadataFile": "artifacts/november-australia-metadata.json",
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:CG-MelbCricketGround-Pano.jpg",
+      "alt": "Panoramic historical view of Melbourne Cricket Ground",
+      "caption": "Melbourne Cricket Ground in a historical panoramic photograph. Venue context, not the 1877 Test or a current fixture."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Don Bradman 1930.jpeg",
+      "alt": "Historical portrait of Australian cricketer Don Bradman in 1930",
+      "caption": "Don Bradman in a historical 1930 photograph. An illustration of Australia's cricket history, not evidence for a current selection, match result or individual statistic."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:CG-MelbCricketGround-Pano.jpg",
+    "alt": "Panoramic historical view of Melbourne Cricket Ground",
+    "caption": "Melbourne Cricket Ground in a historical panoramic photograph. Venue context, not the 1877 Test or a current fixture.",
+    "url": "/images/editorial/trending-pk-20261101/australia-national-cricket-team-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:CG-MelbCricketGround-Pano.jpg",
+    "creator": "Charles Gregory (en:User:Chuq)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sha1": "f10f7690e893ca00a4d7d244231cb29040332464",
+    "width": 1280,
+    "height": 568,
+    "reviewState": "metadata-reviewed",
+    "bytes": 125546
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Don Bradman 1930.jpeg",
+    "alt": "Historical portrait of Australian cricketer Don Bradman in 1930",
+    "caption": "Don Bradman in a historical 1930 photograph. An illustration of Australia's cricket history, not evidence for a current selection, match result or individual statistic.",
+    "url": "/images/editorial/trending-pk-20261101/australia-national-cricket-team-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Don_Bradman_1930.jpeg",
+    "creator": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "e0d610072ffc2c0bc2bc76fb2cb09f38636698c2",
+    "width": 794,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 52204
+  }
+]
