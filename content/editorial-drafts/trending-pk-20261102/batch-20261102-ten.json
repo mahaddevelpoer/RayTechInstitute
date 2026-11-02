@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "key": "mojtaba-khamenei",
+      "batch": "20261101"
+    },
+    {
+      "key": "vantara-conservation-center-public-criticism",
+      "batch": "20261101"
+    },
+    {
+      "key": "topic-97",
+      "batch": "20261101"
+    },
+    {
+      "key": "imaan-mazari-and-hadi-ali-chattha",
+      "batch": "20261101"
+    },
+    {
+      "key": "racing-santander-vs-real-madrid",
+      "batch": "20261102"
+    },
+    {
+      "key": "new-england-vs-inter-miami",
+      "batch": "20261102"
+    },
+    {
+      "key": "liverpool-vs-arsenal",
+      "batch": "20261102"
+    },
+    {
+      "key": "ciara-mageean",
+      "batch": "20261102"
+    },
+    {
+      "key": "boeing-787-9",
+      "batch": "20261102"
+    },
+    {
+      "key": "liquefied-natural-gas",
+      "batch": "20261102"
+    }
+  ],
+  "state": "live-verified",
+  "publishTogether": true,
+  "subagents": false,
+  "commit": "75673ba",
+  "run": 41425548674,
+  "articles": 10,
+  "words": 20509,
+  "images": 20,
+  "tagsPerArticle": 42,
+  "verifiedNovemberArticles": 94,
+  "remaining": 38
+}

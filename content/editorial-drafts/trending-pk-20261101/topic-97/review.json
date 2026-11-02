@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2020,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -22,5 +22,6 @@
     "Original fictional worksheets are separate from documented facts.",
     "General civic and document-reading education, not case-specific legal advice or a live custody statement."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/adiala-jail-rawalpindi-official-information-reading-guide/"
 }

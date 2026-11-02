@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2035,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -15,5 +15,6 @@
     "Historical images are labelled with their contextual role.",
     "Original fictional worksheets are separate from documented facts."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/liverpool-arsenal-november-2026-result-score-state-guide/"
 }

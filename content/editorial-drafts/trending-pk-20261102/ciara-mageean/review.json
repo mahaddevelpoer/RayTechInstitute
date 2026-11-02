@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2062,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -22,5 +22,6 @@
     "Original fictional worksheets are separate from documented facts.",
     "Official death announcement acknowledged respectfully; no private medical speculation. Calculated averages are not measured race splits."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/ciara-mageean-career-european-title-remembered-guide/"
 }

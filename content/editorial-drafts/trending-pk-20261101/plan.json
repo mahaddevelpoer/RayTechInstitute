@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 84,
+  "published": 88,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -711,8 +711,11 @@
         "mojtaba khamenei",
         "ta"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "mojtaba-khamenei",
+      "words": 2002,
+      "liveUrl": "https://raytechinstitute.com/blogs/mojtaba-khamenei-iran-leadership-news-reading-guide/"
     },
     {
       "key": "haley-stevens",
@@ -1106,8 +1109,11 @@
       "keywords": [
         "vantara conservation center public criticism"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "vantara-conservation-center-public-criticism",
+      "words": 2045,
+      "liveUrl": "https://raytechinstitute.com/blogs/vantara-criticism-court-findings-conservation-evidence-guide/"
     },
     {
       "key": "united-states",
@@ -1387,8 +1393,11 @@
       "keywords": [
         "اڈیالہ جیل راولپنڈی"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "topic-97",
+      "words": 2020,
+      "liveUrl": "https://raytechinstitute.com/blogs/adiala-jail-rawalpindi-official-information-reading-guide/"
     },
     {
       "key": "jonas-brothers",
@@ -1412,8 +1421,11 @@
       "keywords": [
         "imaan mazari and hadi ali chattha"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "imaan-mazari-and-hadi-ali-chattha",
+      "words": 2013,
+      "liveUrl": "https://raytechinstitute.com/blogs/imaan-mazari-hadi-chattha-dated-case-updates-reading-guide/"
     },
     {
       "key": "viral-videos",

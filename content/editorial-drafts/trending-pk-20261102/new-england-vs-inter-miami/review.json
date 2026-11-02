@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2079,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -18,5 +18,6 @@
     "Historical images are labelled with their contextual role.",
     "Original fictional worksheets are separate from documented facts."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/new-england-inter-miami-november-2026-points-guide/"
 }

@@ -3,7 +3,7 @@
   "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261102-0832.csv",
   "inputSearches": 70,
   "publicationAuthorized": true,
-  "published": 0,
+  "published": 6,
   "topicGroups": 44,
   "existingSearches": [
     {
@@ -155,7 +155,7 @@
         "real madrid match",
         "madrid vs"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "racing santander vs real madrid",
@@ -181,7 +181,10 @@
           "Trend breakdown": "madrid vs",
           "Explore link": "./explore?q=madrid%20vs&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "racing-santander-vs-real-madrid",
+      "words": 2027,
+      "liveUrl": "https://raytechinstitute.com/blogs/racing-santander-real-madrid-november-2026-score-guide/"
     },
     {
       "key": "new-england-vs-inter-miami",
@@ -196,7 +199,7 @@
         "inter miami",
         "inter miami cf"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "new england vs inter miami",
@@ -206,7 +209,10 @@
           "Trend breakdown": "new england vs inter miami,new england revolution vs inter miami standings,mls,lionel messi,inter miami,inter miami cf",
           "Explore link": "./explore?q=new%20england%20vs%20inter%20miami&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "new-england-vs-inter-miami",
+      "words": 2079,
+      "liveUrl": "https://raytechinstitute.com/blogs/new-england-inter-miami-november-2026-points-guide/"
     },
     {
       "key": "liverpool-vs-arsenal",
@@ -224,7 +230,7 @@
         "free vpn",
         "arsenal vs liverpool"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "liverpool vs arsenal",
@@ -242,7 +248,10 @@
           "Trend breakdown": "arsenal vs liverpool",
           "Explore link": "./explore?q=arsenal%20vs%20liverpool&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "liverpool-vs-arsenal",
+      "words": 2035,
+      "liveUrl": "https://raytechinstitute.com/blogs/liverpool-arsenal-november-2026-result-score-state-guide/"
     },
     {
       "key": "ciara-mageean",
@@ -252,7 +261,7 @@
       "keywords": [
         "ciara mageean"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "ciara mageean",
@@ -262,7 +271,10 @@
           "Trend breakdown": "ciara mageean",
           "Explore link": "./explore?q=ciara%20mageean&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "ciara-mageean",
+      "words": 2062,
+      "liveUrl": "https://raytechinstitute.com/blogs/ciara-mageean-career-european-title-remembered-guide/"
     },
     {
       "key": "boeing-787-9",
@@ -275,7 +287,7 @@
         "pia boeing 787 9 islamabad",
         "pia boeing 787 9"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "boeing 787-9",
@@ -285,7 +297,10 @@
           "Trend breakdown": "boeing 787-9,boeing 787 dreamliner,pia boeing 787 9 islamabad,pia boeing 787 9",
           "Explore link": "./explore?q=boeing%20787-9&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "boeing-787-9",
+      "words": 2027,
+      "liveUrl": "https://raytechinstitute.com/blogs/boeing-787-9-pia-lease-specifications-learning-guide/"
     },
     {
       "key": "liquefied-natural-gas",
@@ -295,7 +310,7 @@
       "keywords": [
         "liquefied natural gas"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "liquefied natural gas",
@@ -305,7 +320,10 @@
           "Trend breakdown": "liquefied natural gas",
           "Explore link": "./explore?q=liquefied%20natural%20gas&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "liquefied-natural-gas",
+      "words": 2199,
+      "liveUrl": "https://raytechinstitute.com/blogs/liquefied-natural-gas-science-transport-units-guide/"
     },
     {
       "key": "noor-ahmad",
