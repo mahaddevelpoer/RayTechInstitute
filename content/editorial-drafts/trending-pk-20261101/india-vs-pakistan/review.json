@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2016,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -18,5 +18,6 @@
     "Original fictional exercises are distinguished from sourced event facts.",
     "Historical images are contextual rather than claimed photographs of the reported event."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/india-pakistan-sixes-2026-win-group-progression-guide/"
 }

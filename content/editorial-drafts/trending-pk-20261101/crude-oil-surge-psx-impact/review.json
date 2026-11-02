@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2176,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -19,5 +19,6 @@
     "Historical images are contextual rather than claimed photographs of the reported event.",
     "Mechanism explanation with fictional values, not a current price claim or investment recommendation."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/crude-oil-psx-pakistan-cost-channels-learning-guide/"
 }

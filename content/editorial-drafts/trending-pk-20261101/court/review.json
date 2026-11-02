@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2014,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -16,5 +16,6 @@
     "Historical images are contextual rather than claimed photographs of the reported event.",
     "General civic education, not case-specific legal advice, a filing route or a prediction of any person’s outcome."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-courts-jurisdiction-constitution-reading-guide/"
 }

@@ -118,7 +118,7 @@
       "query": "court",
       "batch": "2026-11-01",
       "key": "court",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "query": "hong kong super sixes final",
@@ -136,7 +136,7 @@
       "query": "pakistan vs uae",
       "batch": "2026-11-01",
       "key": "pakistan-vs-uae",
-      "state": "research-pending"
+      "state": "live-verified"
     }
   ],
   "groups": [

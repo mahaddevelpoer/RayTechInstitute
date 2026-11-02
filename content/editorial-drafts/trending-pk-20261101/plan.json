@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 73,
+  "published": 83,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -507,12 +507,15 @@
       "keywords": [
         "court"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "lahore-high-court-case-information-reading-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "court",
+      "words": 2014,
+      "liveUrl": "https://raytechinstitute.com/blogs/pakistan-courts-jurisdiction-constitution-reading-guide/"
     },
     {
       "key": "tamasha",
@@ -537,8 +540,11 @@
         "scotland national cricket team vs united arab emirates national cricket team match scorecard",
         "live cricket"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "scotland-national-cricket-team-vs-united-arab-emirates-national-cricket-team-match-scorecard",
+      "words": 2018,
+      "liveUrl": "https://raytechinstitute.com/blogs/scotland-uae-sixes-2026-third-place-scorecard-guide/"
     },
     {
       "key": "nidhi-razdan",
@@ -579,8 +585,11 @@
       "keywords": [
         "moammar rana"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "moammar-rana",
+      "words": 2067,
+      "liveUrl": "https://raytechinstitute.com/blogs/moammar-rana-films-interviews-acting-learning-guide/"
     },
     {
       "key": "chelsea-vs-man-utd",
@@ -628,8 +637,11 @@
         "netherlands national cricket team vs united arab emirates national cricket team standings",
         "akshdeep nath"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "netherlands-national-cricket-team-vs-united-arab-emirates-national-cricket-team-standings",
+      "words": 2013,
+      "liveUrl": "https://raytechinstitute.com/blogs/netherlands-uae-league-2-standings-snapshot-guide/"
     },
     {
       "key": "babar-azam",
@@ -840,8 +852,11 @@
       "keywords": [
         "pakistan vs uae"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "pakistan-vs-uae",
+      "words": 2007,
+      "liveUrl": "https://raytechinstitute.com/blogs/pakistan-uae-sixes-2026-chase-result-guide/"
     },
     {
       "key": "asitha-fernando",
@@ -975,8 +990,11 @@
         "sco vs afg",
         "afg vs sco"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "afghanistan-scotland",
+      "words": 2059,
+      "liveUrl": "https://raytechinstitute.com/blogs/afghanistan-scotland-sixes-2026-semi-final-guide/"
     },
     {
       "key": "shahid-kapoor",
@@ -1014,12 +1032,15 @@
       "keywords": [
         "india vs pakistan"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "pakistan-india-hong-kong-sixes-match-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "india-vs-pakistan",
+      "words": 2016,
+      "liveUrl": "https://raytechinstitute.com/blogs/india-pakistan-sixes-2026-win-group-progression-guide/"
     },
     {
       "key": "barcelona",
@@ -1068,8 +1089,11 @@
         "bail",
         "iqrarul hassan bail granted karachi"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "bail",
+      "words": 2053,
+      "liveUrl": "https://raytechinstitute.com/blogs/bail-pakistan-meaning-order-reading-guide/"
     },
     {
       "key": "vantara-conservation-center-public-criticism",
@@ -1150,8 +1174,11 @@
       "keywords": [
         "australia national cricket team vs united arab emirates national cricket team match scorecard"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "australia-national-cricket-team-vs-united-arab-emirates-national-cricket-team-match-scorecard",
+      "words": 2002,
+      "liveUrl": "https://raytechinstitute.com/blogs/australia-uae-sixes-2026-semi-final-score-guide/"
     },
     {
       "key": "al-hilal-vs-al-fateh",
@@ -1209,8 +1236,11 @@
       "keywords": [
         "crude oil surge psx impact"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "crude-oil-surge-psx-impact",
+      "words": 2176,
+      "liveUrl": "https://raytechinstitute.com/blogs/crude-oil-psx-pakistan-cost-channels-learning-guide/"
     },
     {
       "key": "alexander-zverev",

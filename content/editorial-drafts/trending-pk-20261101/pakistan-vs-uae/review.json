@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2007,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -15,5 +15,6 @@
     "Original fictional exercises are distinguished from sourced event facts.",
     "Historical images are contextual rather than claimed photographs of the reported event."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-uae-sixes-2026-chase-result-guide/"
 }

@@ -1,0 +1,24 @@
+{
+  "keys": [
+    "scotland-national-cricket-team-vs-united-arab-emirates-national-cricket-team-match-scorecard",
+    "netherlands-national-cricket-team-vs-united-arab-emirates-national-cricket-team-standings",
+    "pakistan-vs-uae",
+    "afghanistan-scotland",
+    "india-vs-pakistan",
+    "australia-national-cricket-team-vs-united-arab-emirates-national-cricket-team-match-scorecard",
+    "moammar-rana",
+    "court",
+    "bail",
+    "crude-oil-surge-psx-impact"
+  ],
+  "state": "live-verified",
+  "publishTogether": true,
+  "subagents": false,
+  "commit": "ec79f40",
+  "run": 41394057045,
+  "words": 20425,
+  "images": 20,
+  "tagsPerArticle": 42,
+  "verifiedArticles": 10,
+  "totalNovember1Verified": 83
+}
