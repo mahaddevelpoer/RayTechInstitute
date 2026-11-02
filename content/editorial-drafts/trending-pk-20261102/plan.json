@@ -3,7 +3,7 @@
   "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261102-0832.csv",
   "inputSearches": 70,
   "publicationAuthorized": true,
-  "published": 26,
+  "published": 36,
   "topicGroups": 44,
   "existingSearches": [
     {
@@ -810,7 +810,7 @@
       "keywords": [
         "getafe vs sevilla"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "getafe vs sevilla",
@@ -820,7 +820,10 @@
           "Trend breakdown": "getafe vs sevilla",
           "Explore link": "./explore?q=getafe%20vs%20sevilla&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "getafe-vs-sevilla",
+      "words": 2007,
+      "liveUrl": "https://raytechinstitute.com/blogs/getafe-vs-sevilla-result-and-learning-guide/"
     },
     {
       "key": "gulbadin-naib",
@@ -830,7 +833,7 @@
       "keywords": [
         "gulbadin naib"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "gulbadin naib",
@@ -840,7 +843,10 @@
           "Trend breakdown": "gulbadin naib",
           "Explore link": "./explore?q=gulbadin%20naib&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "gulbadin-naib",
+      "words": 2019,
+      "liveUrl": "https://raytechinstitute.com/blogs/gulbadin-naib-records-and-learning-guide/"
     },
     {
       "key": "kylian-mbappe",
@@ -853,7 +859,7 @@
         "real madrid cf",
         "real madrid games"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "kylian mbappé",
@@ -863,7 +869,10 @@
           "Trend breakdown": "kylian mbappé,real madrid fc,real madrid cf,real madrid games",
           "Explore link": "./explore?q=kylian%20mbapp%C3%A9&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "kylian-mbappe",
+      "words": 2011,
+      "liveUrl": "https://raytechinstitute.com/blogs/kylian-mbappe-records-and-learning-guide/"
     },
     {
       "key": "ishan-kishan",
@@ -873,7 +882,7 @@
       "keywords": [
         "ishan kishan"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "ishan kishan",
@@ -883,7 +892,10 @@
           "Trend breakdown": "ishan kishan",
           "Explore link": "./explore?q=ishan%20kishan&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "ishan-kishan",
+      "words": 2016,
+      "liveUrl": "https://raytechinstitute.com/blogs/ishan-kishan-records-and-learning-guide/"
     },
     {
       "key": "elche-vs-valencia",
@@ -893,7 +905,7 @@
       "keywords": [
         "elche vs valencia"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "elche vs valencia",
@@ -903,7 +915,10 @@
           "Trend breakdown": "elche vs valencia",
           "Explore link": "./explore?q=elche%20vs%20valencia&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "elche-vs-valencia",
+      "words": 2004,
+      "liveUrl": "https://raytechinstitute.com/blogs/elche-vs-valencia-result-and-learning-guide/"
     },
     {
       "key": "inde-navarrette",
@@ -913,7 +928,7 @@
       "keywords": [
         "inde navarrette"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "inde navarrette",
@@ -923,7 +938,10 @@
           "Trend breakdown": "inde navarrette",
           "Explore link": "./explore?q=inde%20navarrette&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "inde-navarrette",
+      "words": 2024,
+      "liveUrl": "https://raytechinstitute.com/blogs/inde-navarrette-records-and-learning-guide/"
     },
     {
       "key": "como-vs-venezia",
@@ -933,7 +951,7 @@
       "keywords": [
         "como vs venezia"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "como vs venezia",
@@ -943,7 +961,10 @@
           "Trend breakdown": "como vs venezia",
           "Explore link": "./explore?q=como%20vs%20venezia&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "como-vs-venezia",
+      "words": 2016,
+      "liveUrl": "https://raytechinstitute.com/blogs/como-vs-venezia-result-and-learning-guide/"
     },
     {
       "key": "levante-badalona-vs-barcelona",
@@ -953,7 +974,7 @@
       "keywords": [
         "levante badalona vs barcelona"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "levante badalona vs barcelona",
@@ -963,7 +984,10 @@
           "Trend breakdown": "levante badalona vs barcelona",
           "Explore link": "./explore?q=levante%20badalona%20vs%20barcelona&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "levante-badalona-vs-barcelona",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/levante-badalona-vs-barcelona-result-and-learning-guide/"
     },
     {
       "key": "nashtar-episode",
@@ -973,7 +997,7 @@
       "keywords": [
         "nashtar episode"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "nashtar episode",
@@ -983,7 +1007,10 @@
           "Trend breakdown": "nashtar episode",
           "Explore link": "./explore?q=nashtar%20episode&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "nashtar-episode",
+      "words": 2061,
+      "liveUrl": "https://raytechinstitute.com/blogs/nashtar-episode-records-and-learning-guide/"
     },
     {
       "key": "arshdeep-singh",
@@ -993,7 +1020,7 @@
       "keywords": [
         "arshdeep singh"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "arshdeep singh",
@@ -1003,7 +1030,10 @@
           "Trend breakdown": "arshdeep singh",
           "Explore link": "./explore?q=arshdeep%20singh&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "arshdeep-singh",
+      "words": 2014,
+      "liveUrl": "https://raytechinstitute.com/blogs/arshdeep-singh-records-and-learning-guide/"
     },
     {
       "key": "btc-to-usd-binance",

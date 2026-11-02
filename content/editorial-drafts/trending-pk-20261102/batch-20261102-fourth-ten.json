@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "key": "getafe-vs-sevilla",
+      "batch": "20261102"
+    },
+    {
+      "key": "gulbadin-naib",
+      "batch": "20261102"
+    },
+    {
+      "key": "kylian-mbappe",
+      "batch": "20261102"
+    },
+    {
+      "key": "ishan-kishan",
+      "batch": "20261102"
+    },
+    {
+      "key": "elche-vs-valencia",
+      "batch": "20261102"
+    },
+    {
+      "key": "inde-navarrette",
+      "batch": "20261102"
+    },
+    {
+      "key": "como-vs-venezia",
+      "batch": "20261102"
+    },
+    {
+      "key": "levante-badalona-vs-barcelona",
+      "batch": "20261102"
+    },
+    {
+      "key": "nashtar-episode",
+      "batch": "20261102"
+    },
+    {
+      "key": "arshdeep-singh",
+      "batch": "20261102"
+    }
+  ],
+  "state": "live-verified",
+  "publishTogether": true,
+  "subagents": false,
+  "commit": "be24b24af1f68293dbe6f31474643621f51fe29b",
+  "run": 41448512057,
+  "articles": 10,
+  "words": 20189,
+  "images": 20,
+  "tagsPerArticle": 42,
+  "verifiedNovemberArticles": 124,
+  "remaining": 8
+}

@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2016,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -18,5 +18,6 @@
     "Historical and contextual images do not imply current-event photography.",
     "Original fictional exercises are separate from documented events."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/ishan-kishan-records-and-learning-guide/"
 }
