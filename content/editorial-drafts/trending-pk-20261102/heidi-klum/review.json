@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2022,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://apnews.com/article/a98b859d0e60532a9f7b4ee851bc507d"
+    },
+    {
+      "url": "https://abcnews.com/GMA/Style/heidi-klum-halloween-looks/story?id=104487610"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live result service.",
+    "Contextual images are not claimed to depict the current event.",
+    "Worked classroom examples are fictional and labelled separately from reported facts."
+  ],
+  "published": false
+}

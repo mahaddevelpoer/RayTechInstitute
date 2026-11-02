@@ -1,0 +1,81 @@
+{
+  "title": "Groundwater Explained: Aquifers, Recharge and Water Tables",
+  "slug": "groundwater-explained-learning-guide",
+  "seoTitle": "Groundwater Explained: Aquifers and Water Tables Guide",
+  "description": "Explore Groundwater Explained with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "excerpt": "Explore Groundwater Explained with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "socialTitle": "Groundwater Explained: Aquifers, Recharge and Water Tables",
+  "socialDescription": "Explore Groundwater Explained with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "category": "technology",
+  "tags": [
+    "Groundwater",
+    "Aquifer",
+    "Water table",
+    "Recharge",
+    "Porosity",
+    "Permeability",
+    "Saturated zone",
+    "Unconfined aquifer",
+    "Confined aquifer",
+    "Hydraulic head",
+    "Groundwater flow",
+    "Infiltration",
+    "Water budget",
+    "Storage change",
+    "Well depth",
+    "Water level",
+    "Gaining stream",
+    "Losing stream",
+    "Water quality",
+    "Groundwater diagram",
+    "Pores and fractures",
+    "Reference elevation",
+    "Depth versus head",
+    "Volume versus level",
+    "Fictional water balance",
+    "Groundwater measurement",
+    "USGS water science",
+    "Aquifer properties",
+    "Hydrology education",
+    "Environmental literacy",
+    "Source checking",
+    "Dated evidence",
+    "Educational guide",
+    "Student questions",
+    "Worked examples",
+    "Claim verification",
+    "Research worksheet",
+    "Contextual images",
+    "Measurement literacy",
+    "Reading practice",
+    "Pakistan students",
+    "Further learning"
+  ],
+  "sources": [
+    "https://www.usgs.gov/water-science-school/science/groundwater-what-groundwater",
+    "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater",
+    "https://geology.utah.gov/water/groundwater/groundwater-aquifers/",
+    "https://www.usgs.gov/faqs/what-difference-between-a-confined-and-a-water-table-unconfined-aquifer"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch4-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live result service.",
+    "Contextual images are not claimed to depict the current event.",
+    "Worked classroom examples are fictional and labelled separately from reported facts."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Groundwater (aquifer, aquitard, 3 type wells).PNG",
+      "alt": "Diagram comparing groundwater aquifers and well types",
+      "caption": "Conceptual aquifer and well diagram; not a measured cross-section of a Pakistani location."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Niger, Margou (13), water well with tree.jpg",
+      "alt": "Water well beside a tree in Margou Niger",
+      "caption": "A well photographed in Margou, Niger. It does not establish local water quality or groundwater conditions in Pakistan."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2095,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.formula1.com/en/results/2026/races/1298/mexico/race-result"
+    },
+    {
+      "url": "https://www.fia.com/news/f1-antonelli-crowned-f1s-youngest-world-champion-verstappen-wins-mexico-city"
+    },
+    {
+      "url": "https://www.formula1.com/en/latest/article/verstappen-on-the-opportunistic-move-that-earned-him-fantastic-win-at-mexico-city-gp.5C4UF8HgiJdAGfZeXRBbpB"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live result service.",
+    "Contextual images are not claimed to depict the current event.",
+    "Worked classroom examples are fictional and labelled separately from reported facts."
+  ],
+  "published": false
+}

@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2147,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.windiescricket.com/cricket-west-indies/our-history/"
+    },
+    {
+      "url": "https://www.windiescricket.com/news/west-indies-rising-stars-under-19-championship-returns-as-caribbeans-best-young-talent-takes-centre-stage/"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/west-indies"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live result service.",
+    "Contextual images are not claimed to depict the current event.",
+    "Worked classroom examples are fictional and labelled separately from reported facts."
+  ],
+  "published": false
+}

@@ -1,0 +1,25 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2088,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.usgs.gov/water-science-school/science/groundwater-what-groundwater"
+    },
+    {
+      "url": "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater"
+    },
+    {
+      "url": "https://geology.utah.gov/water/groundwater/groundwater-aquifers/"
+    },
+    {
+      "url": "https://www.usgs.gov/faqs/what-difference-between-a-confined-and-a-water-table-unconfined-aquifer"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live result service.",
+    "Contextual images are not claimed to depict the current event.",
+    "Worked classroom examples are fictional and labelled separately from reported facts."
+  ],
+  "published": false
+}

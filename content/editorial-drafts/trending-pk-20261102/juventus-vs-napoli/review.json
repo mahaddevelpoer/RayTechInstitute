@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2027,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.juventus.com/it/news/articoli/serie-a-juventus-napoli-la-partita"
+    },
+    {
+      "url": "https://www.legaseriea.it/serie-a/news/juventus-napoli-2026-2027-2-0-cronaca-risultato-gol"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live result service.",
+    "Contextual images are not claimed to depict the current event.",
+    "Worked classroom examples are fictional and labelled separately from reported facts."
+  ],
+  "published": false
+}
