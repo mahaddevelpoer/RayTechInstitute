@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2002,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -19,5 +19,6 @@
     "Original fictional activities are separate from documented facts.",
     "Attributed historical price report; not a giveaway, trading recommendation, current contract quote or legal finding."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/trump-paid-group-100k-explained-guide/"
 }

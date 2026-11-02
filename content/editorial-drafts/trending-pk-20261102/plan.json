@@ -3,7 +3,7 @@
   "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261102-0832.csv",
   "inputSearches": 70,
   "publicationAuthorized": true,
-  "published": 16,
+  "published": 26,
   "topicGroups": 44,
   "existingSearches": [
     {
@@ -576,7 +576,7 @@
       "keywords": [
         "sonakshi sinha"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "sonakshi sinha",
@@ -586,7 +586,10 @@
           "Trend breakdown": "sonakshi sinha",
           "Explore link": "./explore?q=sonakshi%20sinha&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "sonakshi-sinha",
+      "words": 2044,
+      "liveUrl": "https://raytechinstitute.com/blogs/sonakshi-sinha-profile-and-learning-guide/"
     },
     {
       "key": "blair-tickner",
@@ -596,7 +599,7 @@
       "keywords": [
         "blair tickner"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "blair tickner",
@@ -606,7 +609,10 @@
           "Trend breakdown": "blair tickner",
           "Explore link": "./explore?q=blair%20tickner&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "blair-tickner",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/blair-tickner-profile-and-learning-guide/"
     },
     {
       "key": "ramayana-movie",
@@ -616,7 +622,7 @@
       "keywords": [
         "ramayana movie"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "ramayana movie",
@@ -626,7 +632,10 @@
           "Trend breakdown": "ramayana movie",
           "Explore link": "./explore?q=ramayana%20movie&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "ramayana-movie",
+      "words": 2029,
+      "liveUrl": "https://raytechinstitute.com/blogs/ramayana-movie-explained-guide/"
     },
     {
       "key": "adam-milne",
@@ -636,7 +645,7 @@
       "keywords": [
         "adam milne"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "adam milne",
@@ -646,7 +655,10 @@
           "Trend breakdown": "adam milne",
           "Explore link": "./explore?q=adam%20milne&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "adam-milne",
+      "words": 2013,
+      "liveUrl": "https://raytechinstitute.com/blogs/adam-milne-profile-and-learning-guide/"
     },
     {
       "key": "lol",
@@ -656,7 +668,7 @@
       "keywords": [
         "lol"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "lol",
@@ -666,7 +678,10 @@
           "Trend breakdown": "lol",
           "Explore link": "./explore?q=lol&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "lol",
+      "words": 2026,
+      "liveUrl": "https://raytechinstitute.com/blogs/lol-explained-guide/"
     },
     {
       "key": "varun-chakaravarthy",
@@ -676,7 +691,7 @@
       "keywords": [
         "varun chakaravarthy"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "varun chakaravarthy",
@@ -686,7 +701,10 @@
           "Trend breakdown": "varun chakaravarthy",
           "Explore link": "./explore?q=varun%20chakaravarthy&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "varun-chakaravarthy",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/varun-chakaravarthy-profile-and-learning-guide/"
     },
     {
       "key": "trump-paid-group-100k",
@@ -696,7 +714,7 @@
       "keywords": [
         "trump paid group 100k"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "trump paid group 100k",
@@ -706,7 +724,10 @@
           "Trend breakdown": "trump paid group 100k",
           "Explore link": "./explore?q=trump%20paid%20group%20100k&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "trump-paid-group-100k",
+      "words": 2002,
+      "liveUrl": "https://raytechinstitute.com/blogs/trump-paid-group-100k-explained-guide/"
     },
     {
       "key": "west-indies-a-vs-england-lions",
@@ -718,7 +739,7 @@
         "devdutt padikkal",
         "india vs new zealand live"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "west indies a vs england lions",
@@ -728,7 +749,10 @@
           "Trend breakdown": "west indies a vs england lions,devdutt padikkal,india vs new zealand live",
           "Explore link": "./explore?q=west%20indies%20a%20vs%20england%20lions&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "west-indies-a-vs-england-lions",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/west-indies-a-vs-england-lions-explained-guide/"
     },
     {
       "key": "bank",
@@ -738,7 +762,7 @@
       "keywords": [
         "bank"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "bank",
@@ -748,7 +772,10 @@
           "Trend breakdown": "bank",
           "Explore link": "./explore?q=bank&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "bank",
+      "words": 2113,
+      "liveUrl": "https://raytechinstitute.com/blogs/bank-explained-guide/"
     },
     {
       "key": "sialkot-pakistan",
@@ -760,7 +787,7 @@
         "sialkot",
         "mr patloo"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "sialkot pakistan",
@@ -770,7 +797,10 @@
           "Trend breakdown": "sialkot pakistan,sialkot,mr patloo",
           "Explore link": "./explore?q=sialkot%20pakistan&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "sialkot-pakistan",
+      "words": 2074,
+      "liveUrl": "https://raytechinstitute.com/blogs/sialkot-pakistan-explained-guide/"
     },
     {
       "key": "getafe-vs-sevilla",

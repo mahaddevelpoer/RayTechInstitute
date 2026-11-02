@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2113,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -22,5 +22,6 @@
     "Original fictional activities are separate from documented facts.",
     "General financial education, not personalised financial advice or a current product offer."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/bank-explained-guide/"
 }

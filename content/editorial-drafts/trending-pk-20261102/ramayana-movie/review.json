@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2029,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -18,5 +18,6 @@
     "Historical and contextual images do not imply current-event photography.",
     "Original fictional activities are separate from documented facts."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/ramayana-movie-explained-guide/"
 }

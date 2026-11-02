@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "key": "sonakshi-sinha",
+      "batch": "20261102"
+    },
+    {
+      "key": "blair-tickner",
+      "batch": "20261102"
+    },
+    {
+      "key": "ramayana-movie",
+      "batch": "20261102"
+    },
+    {
+      "key": "adam-milne",
+      "batch": "20261102"
+    },
+    {
+      "key": "lol",
+      "batch": "20261102"
+    },
+    {
+      "key": "varun-chakaravarthy",
+      "batch": "20261102"
+    },
+    {
+      "key": "trump-paid-group-100k",
+      "batch": "20261102"
+    },
+    {
+      "key": "west-indies-a-vs-england-lions",
+      "batch": "20261102"
+    },
+    {
+      "key": "bank",
+      "batch": "20261102"
+    },
+    {
+      "key": "sialkot-pakistan",
+      "batch": "20261102"
+    }
+  ],
+  "state": "live-verified",
+  "publishTogether": true,
+  "subagents": false,
+  "commit": "94fc339fd7dc5c3a36aa3c03f13593004fd4ed51",
+  "run": 41436670087,
+  "articles": 10,
+  "words": 20352,
+  "images": 20,
+  "tagsPerArticle": 42,
+  "verifiedNovemberArticles": 114,
+  "remaining": 18
+}
