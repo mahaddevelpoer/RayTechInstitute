@@ -1,0 +1,1094 @@
+{
+  "date": "2026-11-02",
+  "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261102-0832.csv",
+  "inputSearches": 70,
+  "publicationAuthorized": true,
+  "published": 0,
+  "topicGroups": 44,
+  "existingSearches": [
+    {
+      "query": "pakistan vs oman",
+      "batch": "2026-11-01",
+      "key": "oman-vs-pakistan",
+      "state": "live-verified"
+    },
+    {
+      "query": "australia vs afghanistan",
+      "batch": "2026-11-01",
+      "key": "australia-vs-afghanistan",
+      "state": "live-verified"
+    },
+    {
+      "query": "england vs south africa",
+      "batch": "2026-11-01",
+      "key": "england-vs-south-africa",
+      "state": "live-verified"
+    },
+    {
+      "query": "india national cricket team vs new zealand national cricket team match scorecard",
+      "batch": "2026-11-01",
+      "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard",
+      "state": "live-verified"
+    },
+    {
+      "query": "india vs new zealand",
+      "batch": "2026-11-01",
+      "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard",
+      "state": "live-verified"
+    },
+    {
+      "query": "zimbabwe vs afghanistan",
+      "batch": "2026-10-30",
+      "key": "afghanistan-vs-zimbabwe",
+      "state": "existing-article"
+    },
+    {
+      "query": "ind vs nz",
+      "batch": "2026-11-01",
+      "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scorecard",
+      "state": "live-verified"
+    },
+    {
+      "query": "eng vs sa",
+      "batch": "2026-11-01",
+      "key": "england-vs-south-africa",
+      "state": "live-verified"
+    },
+    {
+      "query": "srk",
+      "batch": "2026-10-30",
+      "key": "shah-rukh-khan",
+      "state": "existing-article"
+    },
+    {
+      "query": "viral videos",
+      "batch": "2026-11-01",
+      "key": "viral-videos",
+      "state": "live-verified"
+    },
+    {
+      "query": "ireland vs namibia",
+      "batch": "2026-10-30",
+      "key": "ireland-vs-namibia",
+      "state": "existing-article"
+    },
+    {
+      "query": "rockstar games gta vi",
+      "batch": "2026-11-01",
+      "key": "gta-6-release-date",
+      "state": "live-verified"
+    },
+    {
+      "query": "daryl mitchell",
+      "batch": "2026-10-30",
+      "key": "daryl-mitchell",
+      "state": "existing-article"
+    },
+    {
+      "query": "sri lanka pakistan cricket match",
+      "batch": "2026-11-01",
+      "key": "pakistan-sri-lanka",
+      "state": "live-verified"
+    },
+    {
+      "query": "carlos alcaraz",
+      "batch": "2026-11-01",
+      "key": "carlos-alcaraz",
+      "state": "live-verified"
+    },
+    {
+      "query": "prince yadav",
+      "batch": "2026-10-30",
+      "key": "prince-yadav",
+      "state": "existing-article"
+    },
+    {
+      "query": "hong kong sixes 2026 winner",
+      "batch": "2026-11-01",
+      "key": "hong-kong-sixes-2026-final",
+      "state": "research-pending"
+    },
+    {
+      "query": "india",
+      "batch": "2026-10-30",
+      "key": "india",
+      "state": "existing-article"
+    },
+    {
+      "query": "court",
+      "batch": "2026-11-01",
+      "key": "court",
+      "state": "research-pending"
+    },
+    {
+      "query": "hong kong super sixes final",
+      "batch": "2026-11-01",
+      "key": "hong-kong-sixes-2026-final",
+      "state": "research-pending"
+    },
+    {
+      "query": "south africa national cricket team",
+      "batch": "2026-11-01",
+      "key": "south-africa-national-cricket-team",
+      "state": "live-verified"
+    },
+    {
+      "query": "pakistan vs uae",
+      "batch": "2026-11-01",
+      "key": "pakistan-vs-uae",
+      "state": "research-pending"
+    }
+  ],
+  "groups": [
+    {
+      "key": "racing-santander-vs-real-madrid",
+      "queries": [
+        "racing santander vs real madrid",
+        "real madrid match",
+        "madrid vs"
+      ],
+      "keywords": [
+        "racing santander vs real madrid",
+        "real madrid",
+        "real madrid vs",
+        "real madrid vs racing santander",
+        "real madrid match",
+        "madrid vs"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "racing santander vs real madrid",
+          "Search volume": "20k+",
+          "Started": "1 November 2026 at 19:30:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "racing santander vs real madrid,real madrid,real madrid vs,real madrid vs racing santander",
+          "Explore link": "./explore?q=racing%20santander%20vs%20real%20madrid&geo=PK"
+        },
+        {
+          "Trends": "real madrid match",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 20:30:00 UTC+5",
+          "Ended": "1 November 2026 at 23:30:00 UTC+5",
+          "Trend breakdown": "real madrid match",
+          "Explore link": "./explore?q=real%20madrid%20match&geo=PK"
+        },
+        {
+          "Trends": "madrid vs",
+          "Search volume": "100+",
+          "Started": "1 November 2026 at 21:50:00 UTC+5",
+          "Ended": "1 November 2026 at 22:40:00 UTC+5",
+          "Trend breakdown": "madrid vs",
+          "Explore link": "./explore?q=madrid%20vs&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "new-england-vs-inter-miami",
+      "queries": [
+        "new england vs inter miami"
+      ],
+      "keywords": [
+        "new england vs inter miami",
+        "new england revolution vs inter miami standings",
+        "mls",
+        "lionel messi",
+        "inter miami",
+        "inter miami cf"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "new england vs inter miami",
+          "Search volume": "5k+",
+          "Started": "2 November 2026 at 04:50:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "new england vs inter miami,new england revolution vs inter miami standings,mls,lionel messi,inter miami,inter miami cf",
+          "Explore link": "./explore?q=new%20england%20vs%20inter%20miami&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "liverpool-vs-arsenal",
+      "queries": [
+        "liverpool vs arsenal",
+        "arsenal vs liverpool"
+      ],
+      "keywords": [
+        "liverpool vs arsenal",
+        "liverpool f.c. vs arsenal f.c. standings",
+        "premier league",
+        "liverpool",
+        "arsenal",
+        "epl",
+        "free vpn",
+        "arsenal vs liverpool"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "liverpool vs arsenal",
+          "Search volume": "10k+",
+          "Started": "1 November 2026 at 20:40:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "liverpool vs arsenal,liverpool f.c. vs arsenal f.c. standings,premier league,liverpool,arsenal,epl,free vpn",
+          "Explore link": "./explore?q=liverpool%20vs%20arsenal&geo=PK"
+        },
+        {
+          "Trends": "arsenal vs liverpool",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 21:50:00 UTC+5",
+          "Ended": "2 November 2026 at 08:30:00 UTC+5",
+          "Trend breakdown": "arsenal vs liverpool",
+          "Explore link": "./explore?q=arsenal%20vs%20liverpool&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "ciara-mageean",
+      "queries": [
+        "ciara mageean"
+      ],
+      "keywords": [
+        "ciara mageean"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "ciara mageean",
+          "Search volume": "2k+",
+          "Started": "1 November 2026 at 20:20:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "ciara mageean",
+          "Explore link": "./explore?q=ciara%20mageean&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "boeing-787-9",
+      "queries": [
+        "boeing 787-9"
+      ],
+      "keywords": [
+        "boeing 787-9",
+        "boeing 787 dreamliner",
+        "pia boeing 787 9 islamabad",
+        "pia boeing 787 9"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "boeing 787-9",
+          "Search volume": "5k+",
+          "Started": "1 November 2026 at 20:20:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "boeing 787-9,boeing 787 dreamliner,pia boeing 787 9 islamabad,pia boeing 787 9",
+          "Explore link": "./explore?q=boeing%20787-9&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "liquefied-natural-gas",
+      "queries": [
+        "liquefied natural gas"
+      ],
+      "keywords": [
+        "liquefied natural gas"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "liquefied natural gas",
+          "Search volume": "1k+",
+          "Started": "1 November 2026 at 21:10:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "liquefied natural gas",
+          "Explore link": "./explore?q=liquefied%20natural%20gas&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "noor-ahmad",
+      "queries": [
+        "noor ahmad"
+      ],
+      "keywords": [
+        "noor ahmad",
+        "zimbabwe national cricket team vs afghanistan national cricket team match scorecard"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "noor ahmad",
+          "Search volume": "10k+",
+          "Started": "1 November 2026 at 20:40:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "noor ahmad,zimbabwe national cricket team vs afghanistan national cricket team match scorecard",
+          "Explore link": "./explore?q=noor%20ahmad&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "juventus-vs-napoli",
+      "queries": [
+        "juventus vs napoli"
+      ],
+      "keywords": [
+        "juventus vs napoli",
+        "juventus vs ssc napoli standings"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "juventus vs napoli",
+          "Search volume": "1k+",
+          "Started": "2 November 2026 at 00:20:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "juventus vs napoli,juventus vs ssc napoli standings",
+          "Explore link": "./explore?q=juventus%20vs%20napoli&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "athletic-vs-real-sociedad",
+      "queries": [
+        "athletic vs real sociedad"
+      ],
+      "keywords": [
+        "athletic vs real sociedad"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "athletic vs real sociedad",
+          "Search volume": "200+",
+          "Started": "2 November 2026 at 01:50:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "athletic vs real sociedad",
+          "Explore link": "./explore?q=athletic%20vs%20real%20sociedad&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "f1-mexico-gp",
+      "queries": [
+        "f1",
+        "mexico gp"
+      ],
+      "keywords": [
+        "f1",
+        "max verstappen",
+        "mexico gp"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "f1",
+          "Search volume": "2k+",
+          "Started": "2 November 2026 at 01:10:00 UTC+5",
+          "Ended": "2 November 2026 at 08:10:00 UTC+5",
+          "Trend breakdown": "f1,max verstappen",
+          "Explore link": "./explore?q=f1&geo=PK"
+        },
+        {
+          "Trends": "mexico gp",
+          "Search volume": "200+",
+          "Started": "2 November 2026 at 00:30:00 UTC+5",
+          "Ended": "2 November 2026 at 08:30:00 UTC+5",
+          "Trend breakdown": "mexico gp",
+          "Explore link": "./explore?q=mexico%20gp&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "cmk-100-casio",
+      "queries": [
+        "cmk 100 casio"
+      ],
+      "keywords": [
+        "cmk 100 casio"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "cmk 100 casio",
+          "Search volume": "500+",
+          "Started": "2 November 2026 at 01:30:00 UTC+5",
+          "Ended": "2 November 2026 at 08:30:00 UTC+5",
+          "Trend breakdown": "cmk 100 casio",
+          "Explore link": "./explore?q=cmk%20100%20casio&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "native-american-heritage-month",
+      "queries": [
+        "native american heritage month"
+      ],
+      "keywords": [
+        "native american heritage month"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "native american heritage month",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 12:50:00 UTC+5",
+          "Ended": "2 November 2026 at 07:00:00 UTC+5",
+          "Trend breakdown": "native american heritage month",
+          "Explore link": "./explore?q=native%20american%20heritage%20month&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "heidi-klum",
+      "queries": [
+        "heidi klum"
+      ],
+      "keywords": [
+        "heidi klum"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "heidi klum",
+          "Search volume": "1k+",
+          "Started": "1 November 2026 at 12:30:00 UTC+5",
+          "Ended": "2 November 2026 at 08:10:00 UTC+5",
+          "Trend breakdown": "heidi klum",
+          "Explore link": "./explore?q=heidi%20klum&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "west-indies-cricket-team",
+      "queries": [
+        "west indies cricket team"
+      ],
+      "keywords": [
+        "west indies cricket team"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "west indies cricket team",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 14:10:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "west indies cricket team",
+          "Explore link": "./explore?q=west%20indies%20cricket%20team&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "pak-vs-aus",
+      "queries": [
+        "pak vs aus"
+      ],
+      "keywords": [
+        "pak vs aus"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "pak vs aus",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 09:10:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "pak vs aus",
+          "Explore link": "./explore?q=pak%20vs%20aus&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "groundwater",
+      "queries": [
+        "groundwater"
+      ],
+      "keywords": [
+        "groundwater"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "groundwater",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 14:40:00 UTC+5",
+          "Ended": "2 November 2026 at 07:50:00 UTC+5",
+          "Trend breakdown": "groundwater",
+          "Explore link": "./explore?q=groundwater&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "sonakshi-sinha",
+      "queries": [
+        "sonakshi sinha"
+      ],
+      "keywords": [
+        "sonakshi sinha"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "sonakshi sinha",
+          "Search volume": "100+",
+          "Started": "2 November 2026 at 00:00:00 UTC+5",
+          "Ended": "",
+          "Trend breakdown": "sonakshi sinha",
+          "Explore link": "./explore?q=sonakshi%20sinha&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "blair-tickner",
+      "queries": [
+        "blair tickner"
+      ],
+      "keywords": [
+        "blair tickner"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "blair tickner",
+          "Search volume": "2k+",
+          "Started": "1 November 2026 at 12:10:00 UTC+5",
+          "Ended": "1 November 2026 at 22:50:00 UTC+5",
+          "Trend breakdown": "blair tickner",
+          "Explore link": "./explore?q=blair%20tickner&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "ramayana-movie",
+      "queries": [
+        "ramayana movie"
+      ],
+      "keywords": [
+        "ramayana movie"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "ramayana movie",
+          "Search volume": "100+",
+          "Started": "2 November 2026 at 04:50:00 UTC+5",
+          "Ended": "2 November 2026 at 08:30:00 UTC+5",
+          "Trend breakdown": "ramayana movie",
+          "Explore link": "./explore?q=ramayana%20movie&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "adam-milne",
+      "queries": [
+        "adam milne"
+      ],
+      "keywords": [
+        "adam milne"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "adam milne",
+          "Search volume": "5k+",
+          "Started": "1 November 2026 at 12:20:00 UTC+5",
+          "Ended": "1 November 2026 at 17:10:00 UTC+5",
+          "Trend breakdown": "adam milne",
+          "Explore link": "./explore?q=adam%20milne&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "lol",
+      "queries": [
+        "lol"
+      ],
+      "keywords": [
+        "lol"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "lol",
+          "Search volume": "1k+",
+          "Started": "1 November 2026 at 12:20:00 UTC+5",
+          "Ended": "2 November 2026 at 00:30:00 UTC+5",
+          "Trend breakdown": "lol",
+          "Explore link": "./explore?q=lol&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "varun-chakaravarthy",
+      "queries": [
+        "varun chakaravarthy"
+      ],
+      "keywords": [
+        "varun chakaravarthy"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "varun chakaravarthy",
+          "Search volume": "1k+",
+          "Started": "1 November 2026 at 12:40:00 UTC+5",
+          "Ended": "2 November 2026 at 07:40:00 UTC+5",
+          "Trend breakdown": "varun chakaravarthy",
+          "Explore link": "./explore?q=varun%20chakaravarthy&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "trump-paid-group-100k",
+      "queries": [
+        "trump paid group 100k"
+      ],
+      "keywords": [
+        "trump paid group 100k"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "trump paid group 100k",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 21:10:00 UTC+5",
+          "Ended": "2 November 2026 at 06:00:00 UTC+5",
+          "Trend breakdown": "trump paid group 100k",
+          "Explore link": "./explore?q=trump%20paid%20group%20100k&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "west-indies-a-vs-england-lions",
+      "queries": [
+        "west indies a vs england lions"
+      ],
+      "keywords": [
+        "west indies a vs england lions",
+        "devdutt padikkal",
+        "india vs new zealand live"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "west indies a vs england lions",
+          "Search volume": "500+",
+          "Started": "2 November 2026 at 01:40:00 UTC+5",
+          "Ended": "2 November 2026 at 06:30:00 UTC+5",
+          "Trend breakdown": "west indies a vs england lions,devdutt padikkal,india vs new zealand live",
+          "Explore link": "./explore?q=west%20indies%20a%20vs%20england%20lions&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "bank",
+      "queries": [
+        "bank"
+      ],
+      "keywords": [
+        "bank"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "bank",
+          "Search volume": "100+",
+          "Started": "2 November 2026 at 05:50:00 UTC+5",
+          "Ended": "2 November 2026 at 08:30:00 UTC+5",
+          "Trend breakdown": "bank",
+          "Explore link": "./explore?q=bank&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "sialkot-pakistan",
+      "queries": [
+        "sialkot pakistan"
+      ],
+      "keywords": [
+        "sialkot pakistan",
+        "sialkot",
+        "mr patloo"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "sialkot pakistan",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 19:50:00 UTC+5",
+          "Ended": "2 November 2026 at 05:20:00 UTC+5",
+          "Trend breakdown": "sialkot pakistan,sialkot,mr patloo",
+          "Explore link": "./explore?q=sialkot%20pakistan&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "getafe-vs-sevilla",
+      "queries": [
+        "getafe vs sevilla"
+      ],
+      "keywords": [
+        "getafe vs sevilla"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "getafe vs sevilla",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 18:00:00 UTC+5",
+          "Ended": "1 November 2026 at 21:50:00 UTC+5",
+          "Trend breakdown": "getafe vs sevilla",
+          "Explore link": "./explore?q=getafe%20vs%20sevilla&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "gulbadin-naib",
+      "queries": [
+        "gulbadin naib"
+      ],
+      "keywords": [
+        "gulbadin naib"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "gulbadin naib",
+          "Search volume": "2k+",
+          "Started": "1 November 2026 at 13:00:00 UTC+5",
+          "Ended": "1 November 2026 at 15:10:00 UTC+5",
+          "Trend breakdown": "gulbadin naib",
+          "Explore link": "./explore?q=gulbadin%20naib&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "kylian-mbappe",
+      "queries": [
+        "kylian mbappé"
+      ],
+      "keywords": [
+        "kylian mbappé",
+        "real madrid fc",
+        "real madrid cf",
+        "real madrid games"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "kylian mbappé",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 22:20:00 UTC+5",
+          "Ended": "1 November 2026 at 23:40:00 UTC+5",
+          "Trend breakdown": "kylian mbappé,real madrid fc,real madrid cf,real madrid games",
+          "Explore link": "./explore?q=kylian%20mbapp%C3%A9&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "ishan-kishan",
+      "queries": [
+        "ishan kishan"
+      ],
+      "keywords": [
+        "ishan kishan"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "ishan kishan",
+          "Search volume": "1k+",
+          "Started": "1 November 2026 at 12:30:00 UTC+5",
+          "Ended": "1 November 2026 at 14:50:00 UTC+5",
+          "Trend breakdown": "ishan kishan",
+          "Explore link": "./explore?q=ishan%20kishan&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "elche-vs-valencia",
+      "queries": [
+        "elche vs valencia"
+      ],
+      "keywords": [
+        "elche vs valencia"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "elche vs valencia",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 23:40:00 UTC+5",
+          "Ended": "2 November 2026 at 02:10:00 UTC+5",
+          "Trend breakdown": "elche vs valencia",
+          "Explore link": "./explore?q=elche%20vs%20valencia&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "inde-navarrette",
+      "queries": [
+        "inde navarrette"
+      ],
+      "keywords": [
+        "inde navarrette"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "inde navarrette",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 18:50:00 UTC+5",
+          "Ended": "1 November 2026 at 21:30:00 UTC+5",
+          "Trend breakdown": "inde navarrette",
+          "Explore link": "./explore?q=inde%20navarrette&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "como-vs-venezia",
+      "queries": [
+        "como vs venezia"
+      ],
+      "keywords": [
+        "como vs venezia"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "como vs venezia",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 17:00:00 UTC+5",
+          "Ended": "1 November 2026 at 19:40:00 UTC+5",
+          "Trend breakdown": "como vs venezia",
+          "Explore link": "./explore?q=como%20vs%20venezia&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "levante-badalona-vs-barcelona",
+      "queries": [
+        "levante badalona vs barcelona"
+      ],
+      "keywords": [
+        "levante badalona vs barcelona"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "levante badalona vs barcelona",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 16:50:00 UTC+5",
+          "Ended": "1 November 2026 at 19:10:00 UTC+5",
+          "Trend breakdown": "levante badalona vs barcelona",
+          "Explore link": "./explore?q=levante%20badalona%20vs%20barcelona&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "nashtar-episode",
+      "queries": [
+        "nashtar episode"
+      ],
+      "keywords": [
+        "nashtar episode"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "nashtar episode",
+          "Search volume": "100+",
+          "Started": "2 November 2026 at 01:10:00 UTC+5",
+          "Ended": "2 November 2026 at 02:20:00 UTC+5",
+          "Trend breakdown": "nashtar episode",
+          "Explore link": "./explore?q=nashtar%20episode&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "arshdeep-singh",
+      "queries": [
+        "arshdeep singh"
+      ],
+      "keywords": [
+        "arshdeep singh"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "arshdeep singh",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 14:30:00 UTC+5",
+          "Ended": "1 November 2026 at 16:40:00 UTC+5",
+          "Trend breakdown": "arshdeep singh",
+          "Explore link": "./explore?q=arshdeep%20singh&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "btc-to-usd-binance",
+      "queries": [
+        "btc to usd binance"
+      ],
+      "keywords": [
+        "btc to usd binance"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "btc to usd binance",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 21:00:00 UTC+5",
+          "Ended": "1 November 2026 at 22:10:00 UTC+5",
+          "Trend breakdown": "btc to usd binance",
+          "Explore link": "./explore?q=btc%20to%20usd%20binance&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "jorich-van-schalkwyk",
+      "queries": [
+        "jorich van schalkwyk"
+      ],
+      "keywords": [
+        "jorich van schalkwyk"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "jorich van schalkwyk",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 11:00:00 UTC+5",
+          "Ended": "1 November 2026 at 13:20:00 UTC+5",
+          "Trend breakdown": "jorich van schalkwyk",
+          "Explore link": "./explore?q=jorich%20van%20schalkwyk&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "trabzonspor-vs-gaziantep",
+      "queries": [
+        "trabzonspor vs gaziantep"
+      ],
+      "keywords": [
+        "trabzonspor vs gaziantep"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "trabzonspor vs gaziantep",
+          "Search volume": "100+",
+          "Started": "1 November 2026 at 19:10:00 UTC+5",
+          "Ended": "1 November 2026 at 20:40:00 UTC+5",
+          "Trend breakdown": "trabzonspor vs gaziantep",
+          "Explore link": "./explore?q=trabzonspor%20vs%20gaziantep&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "hurricanes",
+      "queries": [
+        "hurricanes"
+      ],
+      "keywords": [
+        "hurricanes"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "hurricanes",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 15:00:00 UTC+5",
+          "Ended": "1 November 2026 at 16:40:00 UTC+5",
+          "Trend breakdown": "hurricanes",
+          "Explore link": "./explore?q=hurricanes&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "hong-kong",
+      "queries": [
+        "hong kong"
+      ],
+      "keywords": [
+        "hong kong"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "hong kong",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 12:20:00 UTC+5",
+          "Ended": "1 November 2026 at 13:40:00 UTC+5",
+          "Trend breakdown": "hong kong",
+          "Explore link": "./explore?q=hong%20kong&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "pi-network-binance",
+      "queries": [
+        "pi network binance"
+      ],
+      "keywords": [
+        "pi network binance",
+        "bnb"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "pi network binance",
+          "Search volume": "500+",
+          "Started": "1 November 2026 at 11:00:00 UTC+5",
+          "Ended": "1 November 2026 at 15:30:00 UTC+5",
+          "Trend breakdown": "pi network binance,bnb",
+          "Explore link": "./explore?q=pi%20network%20binance&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "ajay-devgn",
+      "queries": [
+        "ajay devgn"
+      ],
+      "keywords": [
+        "ajay devgn"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "ajay devgn",
+          "Search volume": "100+",
+          "Started": "1 November 2026 at 10:10:00 UTC+5",
+          "Ended": "1 November 2026 at 15:50:00 UTC+5",
+          "Trend breakdown": "ajay devgn",
+          "Explore link": "./explore?q=ajay%20devgn&geo=PK"
+        }
+      ]
+    },
+    {
+      "key": "tilak-varma",
+      "queries": [
+        "tilak varma"
+      ],
+      "keywords": [
+        "tilak varma"
+      ],
+      "state": "queued",
+      "sourceRows": [
+        {
+          "Trends": "tilak varma",
+          "Search volume": "200+",
+          "Started": "1 November 2026 at 13:50:00 UTC+5",
+          "Ended": "1 November 2026 at 14:10:00 UTC+5",
+          "Trend breakdown": "tilak varma",
+          "Explore link": "./explore?q=tilak%20varma&geo=PK"
+        }
+      ]
+    }
+  ],
+  "workflow": "Finish existing November 1 queue; then research, write, image-review and publish these new intents. No article exists merely because it is queued.",
+  "keywordPolicy": "CSV keywords are unverified search data, not facts. Use only relevant terms; never force unrelated breakdown keywords into copy."
+}
