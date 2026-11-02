@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2037,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -19,5 +19,6 @@
     "Original fictional models are separate from recorded facts.",
     "General financial and source literacy, not financial advice, a live quote, trading access or a listing guarantee."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/btc-to-usd-binance-evidence-and-learning-guide/"
 }

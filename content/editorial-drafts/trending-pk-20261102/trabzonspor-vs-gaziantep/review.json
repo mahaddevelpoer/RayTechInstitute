@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2027,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -15,5 +15,6 @@
     "Historical or contextual images do not imply current-event photography.",
     "Original fictional models are separate from recorded facts."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/trabzonspor-vs-gaziantep-evidence-and-learning-guide/"
 }

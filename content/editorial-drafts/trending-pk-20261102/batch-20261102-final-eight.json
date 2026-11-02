@@ -1,0 +1,47 @@
+{
+  "entries": [
+    {
+      "key": "btc-to-usd-binance",
+      "batch": "20261102"
+    },
+    {
+      "key": "jorich-van-schalkwyk",
+      "batch": "20261102"
+    },
+    {
+      "key": "trabzonspor-vs-gaziantep",
+      "batch": "20261102"
+    },
+    {
+      "key": "hurricanes",
+      "batch": "20261102"
+    },
+    {
+      "key": "hong-kong",
+      "batch": "20261102"
+    },
+    {
+      "key": "pi-network-binance",
+      "batch": "20261102"
+    },
+    {
+      "key": "ajay-devgn",
+      "batch": "20261102"
+    },
+    {
+      "key": "tilak-varma",
+      "batch": "20261102"
+    }
+  ],
+  "state": "live-verified",
+  "publishTogether": true,
+  "subagents": false,
+  "commit": "9e498301b1116c350481707550a15f2091eb2cac",
+  "run": 41469561840,
+  "articles": 8,
+  "words": 16318,
+  "images": 16,
+  "tagsPerArticle": 42,
+  "verifiedNovemberArticles": 132,
+  "remaining": 0
+}

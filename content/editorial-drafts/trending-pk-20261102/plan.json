@@ -3,7 +3,7 @@
   "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261102-0832.csv",
   "inputSearches": 70,
   "publicationAuthorized": true,
-  "published": 36,
+  "published": 44,
   "topicGroups": 44,
   "existingSearches": [
     {
@@ -1043,7 +1043,7 @@
       "keywords": [
         "btc to usd binance"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "btc to usd binance",
@@ -1053,7 +1053,10 @@
           "Trend breakdown": "btc to usd binance",
           "Explore link": "./explore?q=btc%20to%20usd%20binance&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "btc-to-usd-binance",
+      "words": 2037,
+      "liveUrl": "https://raytechinstitute.com/blogs/btc-to-usd-binance-evidence-and-learning-guide/"
     },
     {
       "key": "jorich-van-schalkwyk",
@@ -1063,7 +1066,7 @@
       "keywords": [
         "jorich van schalkwyk"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "jorich van schalkwyk",
@@ -1073,7 +1076,10 @@
           "Trend breakdown": "jorich van schalkwyk",
           "Explore link": "./explore?q=jorich%20van%20schalkwyk&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "jorich-van-schalkwyk",
+      "words": 2076,
+      "liveUrl": "https://raytechinstitute.com/blogs/jorich-van-schalkwyk-evidence-and-learning-guide/"
     },
     {
       "key": "trabzonspor-vs-gaziantep",
@@ -1083,7 +1089,7 @@
       "keywords": [
         "trabzonspor vs gaziantep"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "trabzonspor vs gaziantep",
@@ -1093,7 +1099,10 @@
           "Trend breakdown": "trabzonspor vs gaziantep",
           "Explore link": "./explore?q=trabzonspor%20vs%20gaziantep&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "trabzonspor-vs-gaziantep",
+      "words": 2027,
+      "liveUrl": "https://raytechinstitute.com/blogs/trabzonspor-vs-gaziantep-evidence-and-learning-guide/"
     },
     {
       "key": "hurricanes",
@@ -1103,7 +1112,7 @@
       "keywords": [
         "hurricanes"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "hurricanes",
@@ -1113,7 +1122,10 @@
           "Trend breakdown": "hurricanes",
           "Explore link": "./explore?q=hurricanes&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "hurricanes",
+      "words": 2025,
+      "liveUrl": "https://raytechinstitute.com/blogs/hurricanes-evidence-and-learning-guide/"
     },
     {
       "key": "hong-kong",
@@ -1123,7 +1135,7 @@
       "keywords": [
         "hong kong"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "hong kong",
@@ -1133,7 +1145,10 @@
           "Trend breakdown": "hong kong",
           "Explore link": "./explore?q=hong%20kong&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "hong-kong",
+      "words": 2008,
+      "liveUrl": "https://raytechinstitute.com/blogs/hong-kong-evidence-and-learning-guide/"
     },
     {
       "key": "pi-network-binance",
@@ -1144,7 +1159,7 @@
         "pi network binance",
         "bnb"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "pi network binance",
@@ -1154,7 +1169,10 @@
           "Trend breakdown": "pi network binance,bnb",
           "Explore link": "./explore?q=pi%20network%20binance&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "pi-network-binance",
+      "words": 2017,
+      "liveUrl": "https://raytechinstitute.com/blogs/pi-network-binance-evidence-and-learning-guide/"
     },
     {
       "key": "ajay-devgn",
@@ -1164,7 +1182,7 @@
       "keywords": [
         "ajay devgn"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "ajay devgn",
@@ -1174,7 +1192,10 @@
           "Trend breakdown": "ajay devgn",
           "Explore link": "./explore?q=ajay%20devgn&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "ajay-devgn",
+      "words": 2064,
+      "liveUrl": "https://raytechinstitute.com/blogs/ajay-devgn-evidence-and-learning-guide/"
     },
     {
       "key": "tilak-varma",
@@ -1184,7 +1205,7 @@
       "keywords": [
         "tilak varma"
       ],
-      "state": "queued",
+      "state": "live-verified",
       "sourceRows": [
         {
           "Trends": "tilak varma",
@@ -1194,7 +1215,10 @@
           "Trend breakdown": "tilak varma",
           "Explore link": "./explore?q=tilak%20varma&geo=PK"
         }
-      ]
+      ],
+      "draftDirectory": "tilak-varma",
+      "words": 2064,
+      "liveUrl": "https://raytechinstitute.com/blogs/tilak-varma-evidence-and-learning-guide/"
     }
   ],
   "workflow": "Finish existing November 1 queue; then research, write, image-review and publish these new intents. No article exists merely because it is queued.",
