@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 58,
+  "published": 61,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -674,12 +674,15 @@
         "icc ranking",
         "aus v sa"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "australia-cricket-team-formats-fixtures-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "australia-national-cricket-team",
+      "words": 2058,
+      "liveUrl": "https://raytechinstitute.com/blogs/australia-cricket-team-history-formats-scoreboard-guide/"
     },
     {
       "key": "mojtaba-khamenei",
@@ -891,8 +894,11 @@
       "keywords": [
         "spurs vs palace"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "spurs-vs-palace",
+      "words": 1993,
+      "liveUrl": "https://raytechinstitute.com/blogs/spurs-palace-2-0-october-2026-red-card-review-guide/"
     },
     {
       "key": "november",
@@ -1103,8 +1109,11 @@
       "keywords": [
         "brian fariñas"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "brian-farinas",
+      "words": 1961,
+      "liveUrl": "https://raytechinstitute.com/blogs/brian-farinas-barcelona-debut-right-back-midfield-guide/"
     },
     {
       "key": "australia-national-cricket-team-vs-united-arab-emirates-national-cricket-team-match-scorecard",

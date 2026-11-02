@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 1961,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -18,5 +18,6 @@
     "No private contract, coaching conversation or personal-address claims.",
     "Venue and Benicarló heritage images are geographical context, not player portraits or debut photographs."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/brian-farinas-barcelona-debut-right-back-midfield-guide/"
 }

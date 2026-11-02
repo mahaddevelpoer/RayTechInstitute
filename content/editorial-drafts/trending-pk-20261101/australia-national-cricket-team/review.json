@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2058,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -20,5 +20,6 @@
     "Historical photographs do not establish current match venues, selection or statistics.",
     "First men's Test distinguished from earlier international cricket."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/australia-cricket-team-history-formats-scoreboard-guide/"
 }
