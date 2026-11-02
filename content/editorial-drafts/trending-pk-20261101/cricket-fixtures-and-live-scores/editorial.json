@@ -1,0 +1,79 @@
+{
+  "title": "Cricket Fixtures and Live Scores: Read the Right Match",
+  "slug": "cricket-fixtures-live-scores-identification-time-guide",
+  "category": "sports",
+  "sourceChecked": "2026-11-02",
+  "excerpt": "Learn to identify cricket fixtures, read scorecards and targets, convert overs and time zones, and distinguish live updates from stale or completed data.",
+  "tags": [
+    "Cricket fixtures",
+    "Live cricket scores",
+    "Fixture versus scorecard",
+    "Match report",
+    "Match identity",
+    "Competition label",
+    "Format label",
+    "Senior versus Under-19",
+    "A-team cricket",
+    "Womens cricket",
+    "Event date",
+    "Venue identifier",
+    "Match number",
+    "Scheduled state",
+    "Completed state",
+    "Postponed state",
+    "Interrupted state",
+    "Update timestamp",
+    "Stale score",
+    "Connection unavailable",
+    "Live badge accuracy",
+    "Runs and wickets",
+    "Innings label",
+    "Extras reconciliation",
+    "Runs-first notation",
+    "Wickets-first notation",
+    "Legal-ball conversion",
+    "8.3 overs",
+    "Run-rate exercise",
+    "Target versus total",
+    "Revised target awareness",
+    "Multi-innings context",
+    "Pakistan time",
+    "UTC conversion",
+    "Midnight date change",
+    "Conflicting sources",
+    "Authoritative scorecard",
+    "Unique match identifier",
+    "Demonstration data",
+    "No stream promise",
+    "Cricket data literacy",
+    "Beginner interface project"
+  ],
+  "seoTitle": "Cricket Fixtures and Live Scores: Clear Reading Guide",
+  "description": "Learn to identify cricket fixtures, read scorecards and targets, convert overs and time zones, and distinguish live updates from stale or completed data.",
+  "socialTitle": "Cricket Fixtures and Live Scores: Read the Right Match",
+  "socialDescription": "Learn to identify cricket fixtures, read scorecards and targets, convert overs and time zones, and distinguish live updates from stale or completed data.",
+  "sources": [
+    "https://www.icc-cricket.com/news/the-three-formats-of-cricket",
+    "https://hongkongsixes.live/fixture/"
+  ],
+  "limitations": [
+    "Dated source review 2 November 2026; not an automatically updating live result, table, roster or access notice.",
+    "Fictional worksheet quantities and original activities are not additional event facts.",
+    "Historical images are context, not claimed photographs of the reported 2026 event."
+  ],
+  "metadataFile": "artifacts/november-publish/batch-10-image-metadata.json",
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Adelaide Scoreboard1206.jpg",
+      "alt": "Historical cricket scoreboard in Adelaide",
+      "caption": "An Adelaide scoreboard in a historical photograph. A notation example, not a live score or a result supplied by this guide."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Cricket Umpire dismissal.jpg",
+      "alt": "Cricket umpire signalling a dismissal in a historical photograph",
+      "caption": "A historical umpire photograph illustrating recorded match events. Not an incident from a fixture listed as live here."
+    }
+  ]
+}

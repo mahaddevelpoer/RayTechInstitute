@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Stadio Olimpico Torino 2017 cropped.jpg",
+    "alt": "Historical 2017 view of the Stadio Olimpico in Turin",
+    "caption": "The Turin stadium in 2017. Italian football context, not a current Serie A fixture or seating plan.",
+    "url": "/images/editorial/trending-pk-20261101/serie-a-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_Torino_2017_cropped.jpg",
+    "creator": "Original photo by Asgaw, cropped by Blackcat",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sha1": "db95d7d30ec86fbbc1e917585774f58902daec1e",
+    "width": 1280,
+    "height": 720,
+    "reviewState": "metadata-reviewed",
+    "bytes": 175284
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:San Siro 2011.jpg",
+    "alt": "San Siro stadium in a historical 2011 photograph",
+    "caption": "San Siro in 2011. Historical Italian stadium context, not evidence of a 2026 match, current capacity or future venue arrangements.",
+    "url": "/images/editorial/trending-pk-20261101/serie-a-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Siro_2011.jpg",
+    "creator": "robin bos",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "a68120c187a5a79f53acf63ece9fe8f9570f06f4",
+    "width": 1280,
+    "height": 353,
+    "reviewState": "metadata-reviewed",
+    "bytes": 138744
+  }
+]

@@ -15,7 +15,7 @@ assert.ok(!hasPrivateCredential(JSON.stringify(p)));
 const base=`https://${learningProject}.supabase.co`,key=readLearningServiceKey();
 const existing=await fetchCatalogRows(base,key,'blogs');
 const old=existing.find(b=>b.id===p.id||b.slug===p.slug);
-const row={id:p.id,title:p.title,slug:p.slug,category:p.category,excerpt:p.excerpt,content:p.content,featured_image:p.featuredImage,author:p.author,date_published:old?.date_published||'2026-11-01',read_time:p.readTime,tags:p.tags,seo:p.seo||{},action_button_text:null,action_button_url:null};
+const row={id:p.id,title:p.title,slug:p.slug,category:p.category,excerpt:p.excerpt,content:p.content,featured_image:p.featuredImage,author:p.author,date_published:old?.date_published||p.datePublished||'2026-11-01',read_time:p.readTime,tags:p.tags,seo:p.seo||{},action_button_text:null,action_button_url:null};
 if(old)for(const [k,v]of Object.entries(row))assert.deepEqual(old[k],v,`Existing article differs: ${k}. Nothing overwritten.`);
 if(!process.argv.includes('--publish')){console.log(JSON.stringify({validated:p.slug,new:!old,publish:false}));process.exit(0);}
 fs.mkdirSync('artifacts/november-publish',{recursive:true});
