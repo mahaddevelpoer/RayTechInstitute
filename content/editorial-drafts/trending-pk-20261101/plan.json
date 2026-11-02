@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 63,
+  "published": 73,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -657,8 +657,11 @@
         "hong kong sixes standings",
         "hong kong sixes point table"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "hongkong-super-six-live",
+      "words": 2005,
+      "liveUrl": "https://raytechinstitute.com/blogs/hong-kong-sixes-2026-live-replay-viewing-guide/"
     },
     {
       "key": "australia-national-cricket-team",
@@ -746,8 +749,11 @@
       "keywords": [
         "pataudi palace"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "pataudi-palace",
+      "words": 2023,
+      "liveUrl": "https://raytechinstitute.com/blogs/pataudi-palace-location-architecture-heritage-guide/"
     },
     {
       "key": "tapmad-live",
@@ -804,8 +810,11 @@
         "pakistan vs",
         "cricket score"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "cricket-fixtures-and-live-scores",
+      "words": 2005,
+      "liveUrl": "https://raytechinstitute.com/blogs/cricket-fixtures-live-scores-identification-time-guide/"
     },
     {
       "key": "aston-villa-vs-fulham-f-c-standings",
@@ -858,8 +867,11 @@
         "udinese vs roma",
         "udinese vs as roma standings"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "udinese-vs-roma",
+      "words": 2011,
+      "liveUrl": "https://raytechinstitute.com/blogs/udinese-roma-2-5-october-2026-score-timeline-guide/"
     },
     {
       "key": "levante-atletico",
@@ -871,8 +883,11 @@
         "levante vs atlético",
         "levante ud vs atlético madrid standings"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "levante-atletico",
+      "words": 2033,
+      "liveUrl": "https://raytechinstitute.com/blogs/levante-atletico-0-2-october-2026-clean-sheet-guide/"
     },
     {
       "key": "pavan-rathnayake",
@@ -928,8 +943,11 @@
       "keywords": [
         "serie a"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "serie-a",
+      "words": 2013,
+      "liveUrl": "https://raytechinstitute.com/blogs/serie-a-2026-27-format-fixtures-table-learning-guide/"
     },
     {
       "key": "fbr-date-extension-2026",
@@ -1035,8 +1053,11 @@
       "keywords": [
         "betis vs málaga"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "betis-vs-malaga",
+      "words": 2002,
+      "liveUrl": "https://raytechinstitute.com/blogs/betis-malaga-2-1-october-2026-score-state-guide/"
     },
     {
       "key": "bail",
@@ -1140,8 +1161,11 @@
       "keywords": [
         "al-hilal vs al fateh"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "al-hilal-vs-al-fateh",
+      "words": 2005,
+      "liveUrl": "https://raytechinstitute.com/blogs/al-hilal-al-fateh-2-0-october-2026-calendar-guide/"
     },
     {
       "key": "hong-kong-sixes-2026-final",
@@ -1153,12 +1177,15 @@
         "pak hong kong sixes match",
         "hong kong sixer"
       ],
-      "state": "research-pending",
+      "state": "live-verified",
       "existingCandidates": [
         "pakistan-india-hong-kong-sixes-match-guide"
       ],
       "publicationMode": "new-distinct-angle",
-      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords."
+      "editorialRequirement": "Identify a genuine different reader question before writing; do not merely change keywords.",
+      "draftDirectory": "hong-kong-sixes-2026-final",
+      "words": 2029,
+      "liveUrl": "https://raytechinstitute.com/blogs/hong-kong-sixes-2026-final-winner-score-explained/"
     },
     {
       "key": "jobe-bellingham",
@@ -1475,8 +1502,11 @@
       "keywords": [
         "man united"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "man-united",
+      "words": 2005,
+      "liveUrl": "https://raytechinstitute.com/blogs/manchester-united-origins-old-trafford-history-guide/"
     }
   ],
   "overlapPolicy": "Create a separate article even where a prior article covers the topic; require a distinct useful search intent and original treatment. Preserve all existing articles and URLs.",

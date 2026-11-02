@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2029,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -16,5 +16,6 @@
     "Historical images are context, not claimed photographs of the reported 2026 event.",
     "Board target wording differs from organiser first-innings total; no independent scorecard reconciliation claimed."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/hong-kong-sixes-2026-final-winner-score-explained/"
 }

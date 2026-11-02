@@ -1,0 +1,80 @@
+{
+  "keys": [
+    "udinese-vs-roma",
+    "levante-atletico",
+    "betis-vs-malaga",
+    "al-hilal-vs-al-fateh",
+    "man-united",
+    "serie-a",
+    "pataudi-palace",
+    "cricket-fixtures-and-live-scores",
+    "hongkong-super-six-live",
+    "hong-kong-sixes-2026-final"
+  ],
+  "publishTogether": true,
+  "subagents": false,
+  "state": "live-verified",
+  "commit": "e998dd9",
+  "run": 41390029672,
+  "words": 20131,
+  "images": 20,
+  "tagsPerArticle": 42,
+  "verifiedArticles": 10,
+  "totalNovember1Verified": 73,
+  "teachingWords": 20131,
+  "uniqueImages": 20,
+  "publicationDate": "2026-11-02",
+  "subagentsUsed": false,
+  "articles": [
+    {
+      "key": "udinese-vs-roma",
+      "slug": "udinese-roma-2-5-october-2026-score-timeline-guide",
+      "words": 2011
+    },
+    {
+      "key": "levante-atletico",
+      "slug": "levante-atletico-0-2-october-2026-clean-sheet-guide",
+      "words": 2033
+    },
+    {
+      "key": "betis-vs-malaga",
+      "slug": "betis-malaga-2-1-october-2026-score-state-guide",
+      "words": 2002
+    },
+    {
+      "key": "al-hilal-vs-al-fateh",
+      "slug": "al-hilal-al-fateh-2-0-october-2026-calendar-guide",
+      "words": 2005
+    },
+    {
+      "key": "man-united",
+      "slug": "manchester-united-origins-old-trafford-history-guide",
+      "words": 2005
+    },
+    {
+      "key": "serie-a",
+      "slug": "serie-a-2026-27-format-fixtures-table-learning-guide",
+      "words": 2013
+    },
+    {
+      "key": "pataudi-palace",
+      "slug": "pataudi-palace-location-architecture-heritage-guide",
+      "words": 2023
+    },
+    {
+      "key": "cricket-fixtures-and-live-scores",
+      "slug": "cricket-fixtures-live-scores-identification-time-guide",
+      "words": 2005
+    },
+    {
+      "key": "hongkong-super-six-live",
+      "slug": "hong-kong-sixes-2026-live-replay-viewing-guide",
+      "words": 2005
+    },
+    {
+      "key": "hong-kong-sixes-2026-final",
+      "slug": "hong-kong-sixes-2026-final-winner-score-explained",
+      "words": 2029
+    }
+  ]
+}

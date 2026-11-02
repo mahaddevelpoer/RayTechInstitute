@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2013,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -15,5 +15,6 @@
     "Fictional worksheet quantities and original activities are not additional event facts.",
     "Historical images are context, not claimed photographs of the reported 2026 event."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/serie-a-2026-27-format-fixtures-table-learning-guide/"
 }

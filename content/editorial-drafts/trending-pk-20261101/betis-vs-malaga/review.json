@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2002,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -15,5 +15,6 @@
     "Fictional worksheet quantities and original activities are not additional event facts.",
     "Historical images are context, not claimed photographs of the reported 2026 event."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/betis-malaga-2-1-october-2026-score-state-guide/"
 }

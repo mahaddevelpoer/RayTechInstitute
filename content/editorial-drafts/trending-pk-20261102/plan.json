@@ -106,7 +106,7 @@
       "query": "hong kong sixes 2026 winner",
       "batch": "2026-11-01",
       "key": "hong-kong-sixes-2026-final",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "query": "india",
@@ -124,7 +124,7 @@
       "query": "hong kong super sixes final",
       "batch": "2026-11-01",
       "key": "hong-kong-sixes-2026-final",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "query": "south africa national cricket team",
