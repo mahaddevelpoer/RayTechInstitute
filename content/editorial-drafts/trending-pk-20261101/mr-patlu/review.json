@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2297,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -16,5 +16,6 @@
     "Historical production context does not establish current episode workflows.",
     "Images illustrate animation techniques and are not Motu Patlu artwork."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/motu-patlu-storytelling-animation-learning-guide/"
 }

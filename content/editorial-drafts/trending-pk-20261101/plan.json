@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 83,
+  "published": 84,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -439,8 +439,11 @@
         "mr patlu",
         "pk"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "mr-patlu",
+      "words": 2297,
+      "liveUrl": "https://raytechinstitute.com/blogs/motu-patlu-storytelling-animation-learning-guide/"
     },
     {
       "key": "jensen-huang",
