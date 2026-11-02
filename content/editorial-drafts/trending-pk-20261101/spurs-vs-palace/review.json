@@ -1,0 +1,25 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 1993,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.tottenhamhotspur.com/news/1182961/victory-secured-against-10-man-palace"
+    },
+    {
+      "url": "https://www.tottenhamhotspur.com/news/1182883/confirmed-line-ups-tottenham-hotspur-vs-crystal-palace-premier-league"
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/the-players/"
+    }
+  ],
+  "factualLimitations": [
+    "Checked 2 November 2026. Recorded fixture and dated report context, not an automatically updating standings or form service.",
+    "Initial yellow upgraded to straight red, not described as a second-yellow sending-off.",
+    "No independent replay adjudication or claim to know officials' private discussion.",
+    "Original ratios limited to reported match totals; no invented xG, season conversion rate or individual performance rating.",
+    "Code examples are fictional and not an official live-score product.",
+    "Historical stadium and Rangers-fixture Gray images not presented as the October 2026 Palace match."
+  ],
+  "published": false
+}
