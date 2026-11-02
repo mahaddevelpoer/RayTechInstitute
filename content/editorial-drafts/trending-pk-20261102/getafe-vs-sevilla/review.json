@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2007,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.laliga.com/es-AR/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11"
+    },
+    {
+      "url": "https://www.laliga.com/en-US/clubs/getafe-cf/results"
+    },
+    {
+      "url": "https://sevillafc.es/en/media/cronicas-media/resumen-getafe-sevilla-laliga-2026-2027"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information feed.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional exercises are separate from documented events."
+  ],
+  "published": false
+}

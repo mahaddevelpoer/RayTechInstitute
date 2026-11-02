@@ -1,0 +1,28 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2011,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.realmadrid.com/en-US/football/first-team/players/kylian-mbappe"
+    },
+    {
+      "url": "https://www.fff.fr/equipe-nationale/joueur/8566-mbappe-kylian/fiche.html"
+    },
+    {
+      "url": "https://inside.fifa.com/en/tournaments/mens/worldcup/qatar2022/news/triumphant-argentina-conclude-unprecedented-fifa-world-cup"
+    },
+    {
+      "url": "https://www.fifa.com/en/articles/fontaine-mbappe-ronaldo-and-more-every-world-cup-top-scorer"
+    },
+    {
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/cronicas/cronica-racing-rm-j11-liga-01-11-2026"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information feed.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional exercises are separate from documented events."
+  ],
+  "published": false
+}

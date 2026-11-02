@@ -1,0 +1,79 @@
+{
+  "title": "Como vs Venezia: 1-0 Result, Penalties and Decision States",
+  "slug": "como-vs-venezia-result-and-learning-guide",
+  "seoTitle": "Como vs Venezia: Result and Penalty Decisions Guide",
+  "description": "Explore Como vs Venezia with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "excerpt": "Explore Como vs Venezia with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "socialTitle": "Como vs Venezia: 1-0 Result, Penalties and Decision States",
+  "socialDescription": "Explore Como vs Venezia with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "category": "sports",
+  "tags": [
+    "Como Venezia",
+    "1 November 2026",
+    "Como 1 Venezia 0",
+    "Giuseppe Sinigaglia",
+    "Lucas Da Cunha",
+    "43 minute penalty",
+    "Douvikas penalty event",
+    "VAR decision",
+    "Withdrawn award",
+    "Provisional state",
+    "Confirmed goal",
+    "Penalty versus goal",
+    "Decision history",
+    "Incident identifier",
+    "Duplicate event",
+    "Result data model",
+    "Half time context",
+    "Score step chart",
+    "Possession scope",
+    "One goal margin",
+    "Clean sheet",
+    "23 point snapshot",
+    "Pre match versus post match",
+    "Conversion percentage",
+    "Small sample",
+    "Fictional event log",
+    "Football arithmetic",
+    "Club report",
+    "League record",
+    "Completed fixture",
+    "Source checking",
+    "Dated evidence",
+    "Educational guide",
+    "Student questions",
+    "Worked examples",
+    "Claim verification",
+    "Research worksheet",
+    "Contextual images",
+    "Measurement literacy",
+    "Reading practice",
+    "Pakistan students",
+    "Further learning"
+  ],
+  "sources": [
+    "https://www.comofootball.com/como-1907-venezia-1-0-match-report/",
+    "https://www.legaseriea.it/serie-a/news/como-venezia-2026-2027-1-0-cronaca-risultato-gol"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch6-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information feed.",
+    "Historical and contextual images do not imply current-event photography.",
+    "Original fictional exercises are separate from documented events."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Stadio Sinigaglia Como 16-07-2025.jpg",
+      "alt": "Stadio Giuseppe Sinigaglia in Como in 2025",
+      "caption": "Historical home-venue context, not a photograph from the November 2026 match."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Stadio Pierluigi Penzo.jpg",
+      "alt": "Stadio Pier Luigi Penzo in Venice",
+      "caption": "Historical Venezia club context; this match was played in Como, not at this venue."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Martinez Valero.jpg",
+    "alt": "Martinez Valero stadium in Elche",
+    "caption": "Historical match-venue illustration, not the 1 November 2026 fixture.",
+    "url": "/images/editorial/trending-pk-20261102/elche-vs-valencia-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Martinez_Valero.jpg",
+    "creator": "Victormartinezm",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "0280fa09c65e36def29ab2ce5ff8666bcbbae265",
+    "width": 1280,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 154414
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Martínez Valero (interior - 2015).jpg",
+    "alt": "Interior of Martinez Valero photographed in 2015",
+    "caption": "Historical stadium context, not a live photograph or evidence of a specific goal.",
+    "url": "/images/editorial/trending-pk-20261102/elche-vs-valencia-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Mart%C3%ADnez_Valero_(interior_-_2015).jpg",
+    "creator": "Victormartinezm",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "3df63a49375ee5cbf1fbc3e58049e0813f4d4316",
+    "width": 1280,
+    "height": 720,
+    "reviewState": "metadata-reviewed",
+    "bytes": 133102
+  }
+]
