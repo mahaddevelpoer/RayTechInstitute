@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2045,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://api.sci.gov.in/supremecourt/2025/44109/44109_2025_11_36_64221_Order_15-Sep-2025.pdf"
+    },
+    {
+      "url": "https://vantara.in/en"
+    },
+    {
+      "url": "https://cites.org/eng/disc/what.php"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "published": false
+}

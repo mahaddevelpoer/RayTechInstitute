@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Rawalpindi from above.jpg",
+    "alt": "Aerial city view of Rawalpindi",
+    "caption": "Historical Rawalpindi city context; this is not a photograph of Adiala Jail.",
+    "url": "/images/editorial/trending-pk-20261101/topic-97-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Rawalpindi_from_above.jpg",
+    "creator": "Omer Wazir from Tucson, AZ, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sha1": "357653c05e8bc161796eb89e8a821e532bc0a14e",
+    "width": 1280,
+    "height": 855,
+    "reviewState": "metadata-reviewed",
+    "bytes": 89358
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Rawalpindi.jpg",
+    "alt": "Rawalpindi road scene at night",
+    "caption": "Historical city context, not Adiala Jail, a prison visit or a current security scene.",
+    "url": "/images/editorial/trending-pk-20261101/topic-97-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Rawalpindi.jpg",
+    "creator": "Kanwalz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "105a9e9b4549cde6c225667ae683851d8fde7ba9",
+    "width": 1280,
+    "height": 526,
+    "reviewState": "metadata-reviewed",
+    "bytes": 65510
+  }
+]

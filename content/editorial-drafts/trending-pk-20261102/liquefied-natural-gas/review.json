@@ -1,0 +1,25 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2199,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.energy.gov/fecm/liquefied-natural-gas-lng"
+    },
+    {
+      "url": "https://www.eia.gov/energyexplained/natural-gas/liquefied-natural-gas.php"
+    },
+    {
+      "url": "https://afdc.energy.gov/fuels/natural-gas-basics"
+    },
+    {
+      "url": "https://afdc.energy.gov/fuels/propane-basics"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "published": false
+}

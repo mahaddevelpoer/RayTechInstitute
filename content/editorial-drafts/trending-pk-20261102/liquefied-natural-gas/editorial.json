@@ -1,0 +1,81 @@
+{
+  "title": "Liquefied Natural Gas: LNG Science, Transport and Units Explained",
+  "slug": "liquefied-natural-gas-science-transport-units-guide",
+  "seoTitle": "Liquefied Natural Gas: Science, Transport and Units",
+  "description": "Learn what LNG is, how cooling reduces its volume, how it differs from CNG and LPG, and how to read energy units through clear classroom examples.",
+  "excerpt": "Learn what LNG is, how cooling reduces its volume, how it differs from CNG and LPG, and how to read energy units through clear classroom examples.",
+  "socialTitle": "Liquefied Natural Gas: LNG Science, Transport and Units Explained",
+  "socialDescription": "Learn what LNG is, how cooling reduces its volume, how it differs from CNG and LPG, and how to read energy units through clear classroom examples.",
+  "category": "technology",
+  "tags": [
+    "Liquefied natural gas",
+    "LNG meaning",
+    "Natural gas methane",
+    "Cryogenic liquid",
+    "Minus 260 Fahrenheit",
+    "Minus 162 Celsius",
+    "Temperature conversion",
+    "Fahrenheit Celsius formula",
+    "Volume reduction",
+    "One six-hundredth volume",
+    "Gas reference conditions",
+    "Mass versus volume",
+    "Material and state",
+    "Gas preparation",
+    "Liquefaction stage",
+    "Insulated storage",
+    "LNG carrier",
+    "Receiving terminal",
+    "Regasification",
+    "Distribution network",
+    "CNG versus LNG",
+    "LPG versus LNG",
+    "Propane context",
+    "Compressed natural gas",
+    "Energy versus volume",
+    "Stock versus flow",
+    "Cargo versus demand",
+    "Fictional supply calculation",
+    "Purchase price and quantity",
+    "Currency conversion",
+    "Tariff versus commodity price",
+    "Environmental boundaries",
+    "Supply-chain diagram",
+    "Unit-aware calculator",
+    "Zero-demand handling",
+    "Missing input",
+    "Historical ship image",
+    "Membrane tank context",
+    "Energy literacy",
+    "Pakistan student guide",
+    "Educational model limits",
+    "Official energy sources"
+  ],
+  "sources": [
+    "https://www.energy.gov/fecm/liquefied-natural-gas-lng",
+    "https://www.eia.gov/energyexplained/natural-gas/liquefied-natural-gas.php",
+    "https://afdc.energy.gov/fuels/natural-gas-basics",
+    "https://afdc.energy.gov/fuels/propane-basics"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch3-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:LNG Carrier Fuji Lng.jpg",
+      "alt": "Fuji LNG carrier",
+      "caption": "Historical LNG transport illustration, not a current Pakistan-bound cargo."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Liquid natural gas membrane tank.jpg",
+      "alt": "Interior of an LNG membrane tank",
+      "caption": "Specialised LNG tank context, not an ordinary storage container or a handling guide."
+    }
+  ]
+}

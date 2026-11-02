@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:LNG Carrier Fuji Lng.jpg",
+    "alt": "Fuji LNG carrier",
+    "caption": "Historical LNG transport illustration, not a current Pakistan-bound cargo.",
+    "url": "/images/editorial/trending-pk-20261102/liquefied-natural-gas-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:LNG_Carrier_Fuji_Lng.jpg",
+    "creator": "Ken Hodge",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "8f5557e55f7b8449dca6ec895a4986f3904384ad",
+    "width": 1280,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 101600
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Liquid natural gas membrane tank.jpg",
+    "alt": "Interior of an LNG membrane tank",
+    "caption": "Specialised LNG tank context, not an ordinary storage container or a handling guide.",
+    "url": "/images/editorial/trending-pk-20261102/liquefied-natural-gas-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Liquid_natural_gas_membrane_tank.jpg",
+    "creator": "Thinfourth",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha1": "2c627ea1b37efd0be9cb66abdb0c82b4935913eb",
+    "width": 1280,
+    "height": 850,
+    "reviewState": "metadata-reviewed",
+    "bytes": 126408
+  }
+]

@@ -2,11 +2,13 @@ import fs from 'node:fs';
 import sharp from 'sharp';
 import {execFileSync} from 'node:child_process';
 const name=process.argv[2];if(!/^[a-z0-9-]+$/.test(name||''))throw Error('Article directory required');
-const root='content/editorial-drafts/trending-pk-20261101',dir=`${root}/${name}`,output='public/images/editorial/trending-pk-20261101';
+const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261101';
+if(!/^2026110[12]$/.test(batch))throw Error('Unsupported November batch');
+const root=`content/editorial-drafts/trending-pk-${batch}`,dir=`${root}/${name}`,output=`public/images/editorial/trending-pk-${batch}`;
 const candidates=JSON.parse(fs.readFileSync(`${dir}/images-candidates.json`,'utf8'));
 if(candidates.length!==2)throw Error('Two reviewed images required');
 const used=new Set(JSON.parse(fs.readFileSync('content/editorial-revisions/trending-pk-20261030/images.json','utf8')).flatMap(r=>[r.cover.sha1,r.inline.sha1]));
-for(const other of fs.readdirSync(root)){if(other!==name&&fs.existsSync(`${root}/${other}/images.json`))for(const i of JSON.parse(fs.readFileSync(`${root}/${other}/images.json`,'utf8')))used.add(i.sha1);}
+for(const date of ['20261101','20261102']){const base=`content/editorial-drafts/trending-pk-${date}`;for(const other of fs.readdirSync(base)){if((date!==batch||other!==name)&&fs.existsSync(`${base}/${other}/images.json`))for(const i of JSON.parse(fs.readFileSync(`${base}/${other}/images.json`,'utf8')))used.add(i.sha1);}}
 fs.mkdirSync(output,{recursive:true});sharp.concurrency(1);sharp.cache({memory:24,files:0,items:0});const images=[];
 for(const item of candidates){
  if(used.has(item.sha1))throw Error('Duplicate image source');used.add(item.sha1);
@@ -15,11 +17,11 @@ for(const item of candidates){
  const raw=`artifacts/november-${item.sha1}.image`,destination=`${output}/${name}-${item.role}.webp`;
  let cached=false;if(fs.existsSync(raw)){try{await sharp(raw).stats();cached=true;}catch{cached=false;}}
  if(!cached){const u=new URL(item.url);u.search='';const match=u.pathname.match(/^\/wikipedia\/commons\/(.+)$/);const filename=u.pathname.split('/').at(-1);const thumb=match?`https://upload.wikimedia.org/wikipedia/commons/thumb/${match[1]}/1280px-${filename}`:u.href;
- const args=['--ssl-no-revoke','--fail','--silent','--show-error','--location','--max-time','30','--max-filesize','16000000','--retry','1','--output',raw];
+ const args=['--ssl-no-revoke','--fail','--silent','--show-error','--location','--max-time','30','--max-filesize','16000000','--retry','1','--retry-max-time','45','--output',raw];
  try{execFileSync('curl.exe',[...args,thumb],{timeout:65000});}catch{execFileSync('curl.exe',[...args,u.href],{timeout:65000});}}
 
  const info=await sharp(raw,{limitInputPixels:40000000}).rotate().resize({width:1280,height:960,fit:'inside',withoutEnlargement:true}).webp({quality:80}).toFile(destination);
- images.push({...item,url:`/images/editorial/trending-pk-20261101/${name}-${item.role}.webp`,width:info.width,height:info.height,bytes:info.size});
+ images.push({...item,url:`/images/editorial/trending-pk-${batch}/${name}-${item.role}.webp`,width:info.width,height:info.height,bytes:info.size});
 }
 const post=JSON.parse(fs.readFileSync(`${dir}/post.json`,'utf8'));let content=fs.readFileSync(`${dir}/article.md`,'utf8');
 const inline=images.find(i=>i.role==='inline'),cover=images.find(i=>i.role==='cover');

@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2079,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.intermiamicf.com/news/match-recap-inter-miami-cf-secures-1-2-comeback-victory-on-the-road-over-new-england-revolution"
+    },
+    {
+      "url": "https://fe-en.ner-prd.deltatre.digital/news/recap-revs-drop-home-finale-in-front-of-54-112"
+    },
+    {
+      "url": "https://www.intermiamicf.com/news/match-preview-inter-miami-cf-visits-the-new-england-revolution-on-sunday"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "published": false
+}

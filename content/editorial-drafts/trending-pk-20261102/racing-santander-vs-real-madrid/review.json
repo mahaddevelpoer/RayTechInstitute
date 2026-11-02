@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2027,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/cronicas/cronica-racing-rm-j11-liga-01-11-2026"
+    },
+    {
+      "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "published": false
+}

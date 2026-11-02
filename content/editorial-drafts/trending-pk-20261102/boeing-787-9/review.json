@@ -1,0 +1,25 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2027,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.boeing.com/commercial/787"
+    },
+    {
+      "url": "https://www.boeing.com/commercial/787/by-design"
+    },
+    {
+      "url": "https://news.cision.com/norse-atlantic-airways-as/r/norse-atlantic-asa--norse-and-pia-sign-partnership-for-two-boeing-787-9-dreamliners,c4406508"
+    },
+    {
+      "url": "https://tribune.com.pk/story/2638085/pia-welcomes-its-first-boeing-787-9-dreamliner-in-islamabad"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "published": false
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Boeing 787-9: Dreamliner Specifications and the PIA Lease Explained",
+  "slug": "boeing-787-9-pia-lease-specifications-learning-guide",
+  "seoTitle": "Boeing 787-9: Specifications and PIA Lease Explained",
+  "description": "Understand the Boeing 787-9, PIA’s dated lease and arrival context, aircraft specifications and why model figures differ from an airline configuration.",
+  "excerpt": "Understand the Boeing 787-9, PIA’s dated lease and arrival context, aircraft specifications and why model figures differ from an airline configuration.",
+  "socialTitle": "Boeing 787-9: Dreamliner Specifications and the PIA Lease Explained",
+  "socialDescription": "Understand the Boeing 787-9, PIA’s dated lease and arrival context, aircraft specifications and why model figures differ from an airline configuration.",
+  "category": "technology",
+  "tags": [
+    "Boeing 787-9",
+    "Dreamliner family",
+    "PIA Dreamliner",
+    "Norse Atlantic ACMI",
+    "1 November 2026 arrival",
+    "Islamabad arrival report",
+    "PK786",
+    "London Pakistan services",
+    "9 October agreement",
+    "Two leased aircraft",
+    "Aircraft crew maintenance insurance",
+    "Lease versus purchase",
+    "Manufacturer specification",
+    "787-8 comparison",
+    "787-10 comparison",
+    "62.8-metre length",
+    "60.1-metre wingspan",
+    "Typical two-class seating",
+    "250-325 seating range",
+    "Airline cabin configuration",
+    "Up to 8300 nautical miles",
+    "15370-kilometre published range",
+    "Source-dated specifications",
+    "Model versus airframe",
+    "Payload assumptions",
+    "Nautical mile conversion",
+    "1.852 kilometres",
+    "Range versus schedule",
+    "Composite by weight",
+    "About 50 percent composites",
+    "Scale drawing",
+    "Dimension labels",
+    "Aircraft registration",
+    "Operator versus brand",
+    "Historical aircraft photograph",
+    "Variant identification",
+    "Specification comparison",
+    "Versioned technical record",
+    "Unknown-data handling",
+    "Aviation literacy",
+    "Pakistan aviation students",
+    "Educational measurement"
+  ],
+  "sources": [
+    "https://www.boeing.com/commercial/787",
+    "https://www.boeing.com/commercial/787/by-design",
+    "https://news.cision.com/norse-atlantic-airways-as/r/norse-atlantic-asa--norse-and-pia-sign-partnership-for-two-boeing-787-9-dreamliners,c4406508",
+    "https://tribune.com.pk/story/2638085/pia-welcomes-its-first-boeing-787-9-dreamliner-in-islamabad"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch3-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Boeing 787-9 ‘SP-LSA’ LOT Polish Airlines.jpg",
+      "alt": "LOT Polish Airlines Boeing 787-9 SP-LSA",
+      "caption": "Historical 787-9 type illustration from LOT; not the aircraft claimed to have arrived for PIA."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:N1015X Air Tahiti Nui Boeing 787-9 Dreamliner 33.jpg",
+      "alt": "Air Tahiti Nui Boeing 787-9",
+      "caption": "Historical aircraft-type context from a different airline, not a PIA delivery photograph."
+    }
+  ]
+}

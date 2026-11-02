@@ -1,0 +1,80 @@
+{
+  "title": "Vantara Public Criticism: Court Findings and Conservation Evidence",
+  "slug": "vantara-criticism-court-findings-conservation-evidence-guide",
+  "seoTitle": "Vantara Criticism: Court Findings and Evidence Guide",
+  "description": "Read Vantara’s dated court outcome and learn to separate allegations, findings and conservation measures through clear, original educational examples.",
+  "excerpt": "Read Vantara’s dated court outcome and learn to separate allegations, findings and conservation measures through clear, original educational examples.",
+  "socialTitle": "Vantara Public Criticism: Court Findings and Conservation Evidence",
+  "socialDescription": "Read Vantara’s dated court outcome and learn to separate allegations, findings and conservation measures through clear, original educational examples.",
+  "category": "world-affairs",
+  "tags": [
+    "Vantara public criticism",
+    "Vantara conservation",
+    "Jamnagar wildlife centre",
+    "Greens Zoological Rescue",
+    "Animal rehabilitation",
+    "15 September 2025 order",
+    "Supreme Court of India",
+    "Special Investigation Team",
+    "Published court summary",
+    "Confidential annexures",
+    "Investigated complaints",
+    "Dated findings",
+    "Allegation versus finding",
+    "Animal-transfer permits",
+    "CITES context",
+    "Wildlife trade",
+    "Organisation self-description",
+    "Rescue versus conservation",
+    "Individual animal care",
+    "Species-level outcome",
+    "Welfare evidence",
+    "Photograph limitations",
+    "Animal-care records",
+    "Admissions versus treatments",
+    "Population denominator",
+    "Mortality comparison",
+    "Observation period",
+    "Case categories",
+    "Data definitions",
+    "Conservation literacy",
+    "Evidence map",
+    "Public-interest reporting",
+    "Source scope",
+    "Correction field",
+    "Fictional rescue centre",
+    "Classroom budget",
+    "Claim verification",
+    "Animal data exercise",
+    "Legal outcome context",
+    "Research worksheet",
+    "Pakistan students",
+    "Environmental education"
+  ],
+  "sources": [
+    "https://api.sci.gov.in/supremecourt/2025/44109/44109_2025_11_36_64221_Order_15-Sep-2025.pdf",
+    "https://vantara.in/en",
+    "https://cites.org/eng/disc/what.php"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch3-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Elephas maximus (Bandipur).jpg",
+      "alt": "Asian elephant photographed in Bandipur India",
+      "caption": "Species context in Bandipur, not an animal photographed at Vantara."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Supreme Court of India - 200705.jpg",
+      "alt": "Supreme Court of India building",
+      "caption": "Historical courthouse context, not a photograph of the September 2025 hearing."
+    }
+  ]
+}

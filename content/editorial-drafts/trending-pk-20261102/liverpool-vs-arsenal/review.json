@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2035,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://lfcbeta.liverpoolfc.com/news/match-report-liverpool-arsenal-premier-league-november-2026"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/matches/mens-team/liverpool-v-arsenal-english-premier-league-20261101"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical images are labelled with their contextual role.",
+    "Original fictional worksheets are separate from documented facts."
+  ],
+  "published": false
+}
