@@ -1,5 +1,5 @@
 {
-  "state": "database-saved-awaiting-hosting",
+  "state": "live-verified",
   "words": 2029,
   "sourceChecked": "2026-11-02",
   "sources": [
@@ -17,5 +17,6 @@
     "No exact speed, swing mechanism or fielding-rule duration inferred without specific evidence.",
     "Historical photographs are illustrative and do not establish a current event."
   ],
-  "published": false
+  "published": true,
+  "liveUrl": "https://raytechinstitute.com/blogs/dilshan-madushanka-left-arm-bowling-observation-guide/"
 }

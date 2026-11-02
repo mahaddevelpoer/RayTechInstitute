@@ -3,7 +3,7 @@
   "inputSearches": 111,
   "topicGroups": 88,
   "publicationAuthorized": true,
-  "published": 62,
+  "published": 63,
   "groups": [
     {
       "key": "oman-vs-pakistan",
@@ -718,8 +718,11 @@
       "keywords": [
         "dilshan madushanka"
       ],
-      "state": "research-pending",
-      "existingCandidates": []
+      "state": "live-verified",
+      "existingCandidates": [],
+      "draftDirectory": "dilshan-madushanka",
+      "words": 2029,
+      "liveUrl": "https://raytechinstitute.com/blogs/dilshan-madushanka-left-arm-bowling-observation-guide/"
     },
     {
       "key": "punjab",
