@@ -1,0 +1,20 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2014,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://na.gov.pk/uploads/documents/6926e060076ed_467.pdf"
+    },
+    {
+      "url": "https://na.gov.pk/en/downloads.php"
+    }
+  ],
+  "factualLimitations": [
+    "Source review 2 November 2026; static educational article, not live information.",
+    "Original fictional exercises are distinguished from sourced event facts.",
+    "Historical images are contextual rather than claimed photographs of the reported event.",
+    "General civic education, not case-specific legal advice, a filing route or a prediction of any person’s outcome."
+  ],
+  "published": false
+}

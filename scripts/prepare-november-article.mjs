@@ -10,7 +10,8 @@ for(const other of fs.readdirSync(root)){if(other!==name&&fs.existsSync(`${root}
 fs.mkdirSync(output,{recursive:true});sharp.concurrency(1);sharp.cache({memory:24,files:0,items:0});const images=[];
 for(const item of candidates){
  if(used.has(item.sha1))throw Error('Duplicate image source');used.add(item.sha1);
- if(!item.source||!item.creator||!/(CC BY|CC0|Public domain)/i.test(item.license))throw Error('Incomplete licence record');
+ const ogl1=item.license==='OGL v1.0'&&/^https?:\/\/(?:www\.)?nationalarchives\.gov\.uk\/doc\/open-government-licence\/version\/1\/?$/i.test(item.licenseUrl||'');
+ if(!item.source||!item.creator||(!/(CC BY|CC0|Public domain)/i.test(item.license)&&!ogl1))throw Error('Incomplete licence record');
  const raw=`artifacts/november-${item.sha1}.image`,destination=`${output}/${name}-${item.role}.webp`;
  let cached=false;if(fs.existsSync(raw)){try{await sharp(raw).stats();cached=true;}catch{cached=false;}}
  if(!cached){const u=new URL(item.url);u.search='';const match=u.pathname.match(/^\/wikipedia\/commons\/(.+)$/);const filename=u.pathname.split('/').at(-1);const thumb=match?`https://upload.wikimedia.org/wikipedia/commons/thumb/${match[1]}/1280px-${filename}`:u.href;

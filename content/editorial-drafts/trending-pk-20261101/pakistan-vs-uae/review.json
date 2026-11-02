@@ -1,0 +1,19 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2007,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://hongkongsixes.live/wp-json/hk-sixes/v1/matches"
+    },
+    {
+      "url": "https://hongkongsixes.live/fixture/"
+    }
+  ],
+  "factualLimitations": [
+    "Source review 2 November 2026; static educational article, not live information.",
+    "Original fictional exercises are distinguished from sourced event facts.",
+    "Historical images are contextual rather than claimed photographs of the reported event."
+  ],
+  "published": false
+}

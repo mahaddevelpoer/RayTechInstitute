@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2176,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://finance.gov.pk/survey/chapter_26/8_Trade%20and%20Payments.pdf"
+    },
+    {
+      "url": "https://www.psx.com.pk/market-summary/"
+    },
+    {
+      "url": "https://www.psx.com.pk/psx/product-and-services/indices"
+    }
+  ],
+  "factualLimitations": [
+    "Source review 2 November 2026; static educational article, not live information.",
+    "Original fictional exercises are distinguished from sourced event facts.",
+    "Historical images are contextual rather than claimed photographs of the reported event.",
+    "Mechanism explanation with fictional values, not a current price claim or investment recommendation."
+  ],
+  "published": false
+}

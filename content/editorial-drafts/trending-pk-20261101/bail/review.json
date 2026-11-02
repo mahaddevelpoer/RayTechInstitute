@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2053,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://pg.punjab.gov.pk/bail_and_bonds"
+    },
+    {
+      "url": "https://www.sindhpolice.gov.pk/storage/lawrules/1780080653_667ad850f0358.pdf"
+    },
+    {
+      "url": "https://pakistancode.gov.pk/english/index.php/index.php"
+    }
+  ],
+  "factualLimitations": [
+    "Source review 2 November 2026; static educational article, not live information.",
+    "Original fictional exercises are distinguished from sourced event facts.",
+    "Historical images are contextual rather than claimed photographs of the reported event.",
+    "General civic education, not case-specific legal advice, a filing route or a prediction of any person’s outcome."
+  ],
+  "published": false
+}
