@@ -1,0 +1,29 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2025,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://oceanservice.noaa.gov/facts/hurricane.html"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/facts/how-hurricanes-form.html"
+    },
+    {
+      "url": "https://www.noaa.gov/explainers/explainer-understanding-hurricane-hazards"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/facts/stormsurge-stormtide.html"
+    },
+    {
+      "url": "https://www.aoml.noaa.gov/hrd/tcfaq/G4.html"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical or contextual images do not imply current-event photography.",
+    "Original fictional models are separate from recorded facts.",
+    "Educational science only; not a forecast, local risk assessment or emergency instruction."
+  ],
+  "published": false
+}

@@ -1,0 +1,22 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2008,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-victoria-harbour.html"
+    },
+    {
+      "url": "https://www.hko.gov.hk/en/gts/time/basicterms-localtime.htm"
+    },
+    {
+      "url": "https://hk.art.museum/en/web/ma/home.html"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical or contextual images do not imply current-event photography.",
+    "Original fictional models are separate from recorded facts."
+  ],
+  "published": false
+}

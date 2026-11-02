@@ -1,0 +1,32 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Samsung Galaxy S6 edge (17448278539).jpg",
+    "alt": "Samsung Galaxy S6 edge mobile phone",
+    "caption": "General mobile-device illustration, not the Pi app, a wallet balance or an exchange integration.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Samsung_Galaxy_S6_edge_%2817448278539%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_edge_(17448278539).jpg",
+    "creator": "Maurizio Pesce from Milan, Italia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "a08da40547d915b6ebadc27e08c7069266505714",
+    "width": 5184,
+    "height": 3456,
+    "reviewState": "metadata-reviewed"
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Fibreoptic.jpg",
+    "alt": "Fibre-optic network equipment",
+    "caption": "General network-technology context, not Pi’s infrastructure or proof of an exchange listing.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fibreoptic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Fibreoptic.jpg",
+    "creator": "BigRiz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sha1": "2dccbcf4286096dbd42e614aedd397b951bd237d",
+    "width": 350,
+    "height": 529,
+    "reviewState": "metadata-reviewed"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2017,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://minepi.com/kyb-list/"
+    },
+    {
+      "url": "https://minepi.com/kyb-business-pi/"
+    },
+    {
+      "url": "https://minepi.com/safety/"
+    },
+    {
+      "url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/general-endpoints"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical or contextual images do not imply current-event photography.",
+    "Original fictional models are separate from recorded facts.",
+    "General financial and source literacy, not financial advice, a live quote, trading access or a listing guarantee."
+  ],
+  "published": false
+}

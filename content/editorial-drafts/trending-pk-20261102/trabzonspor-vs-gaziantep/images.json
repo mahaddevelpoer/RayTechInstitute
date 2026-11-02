@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Trabzon City Centre.jpg",
+    "alt": "Illustrated map of Trabzon city centre",
+    "caption": "Historical host-city map, not current navigation information or a photograph of Papara Park.",
+    "url": "/images/editorial/trending-pk-20261102/trabzonspor-vs-gaziantep-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Trabzon_City_Centre.jpg",
+    "creator": "User:NeoRetro",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sha1": "82fc2830b3b9523932c99e354672dae9ae7eb609",
+    "width": 1280,
+    "height": 574,
+    "reviewState": "metadata-reviewed",
+    "bytes": 135552
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Kalyon Arena (Gaziantep).jpg",
+    "alt": "Gaziantep football stadium",
+    "caption": "Historical opponent-venue context; the reported fixture was at Papara Park in Trabzon.",
+    "url": "/images/editorial/trending-pk-20261102/trabzonspor-vs-gaziantep-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Kalyon_Arena_(Gaziantep).jpg",
+    "creator": "YG01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "184bb7a5c733dc35a687a3c4df3e71ed8a7a1829",
+    "width": 1280,
+    "height": 853,
+    "reviewState": "metadata-reviewed",
+    "bytes": 165186
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Bitcoin.png",
+    "alt": "Bitcoin symbol illustration",
+    "caption": "Asset-identity illustration, not a live price, investment offer or physical bank money.",
+    "url": "/images/editorial/trending-pk-20261102/btc-to-usd-binance-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Bitcoin.png",
+    "creator": "Satoshi Nakamoto",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "6c763c33234aafcb6ccea4a2cc6e08b128fe31b0",
+    "width": 968,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 41152
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Trezor Safe 7.jpg",
+    "alt": "Trezor Safe 7 hardware wallet",
+    "caption": "Hardware-wallet illustration, not Binance custody, a price feed or a product recommendation.",
+    "url": "/images/editorial/trending-pk-20261102/btc-to-usd-binance-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Trezor_Safe_7.jpg",
+    "creator": "FlippyFlink",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha1": "7d73b389c679cb91acc0a35ac4e4bc272723f17b",
+    "width": 720,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 139600
+  }
+]

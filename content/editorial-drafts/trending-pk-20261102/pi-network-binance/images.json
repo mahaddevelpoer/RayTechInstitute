@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Samsung Galaxy S6 edge (17448278539).jpg",
+    "alt": "Samsung Galaxy S6 edge mobile phone",
+    "caption": "General mobile-device illustration, not the Pi app, a wallet balance or an exchange integration.",
+    "url": "/images/editorial/trending-pk-20261102/pi-network-binance-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_edge_(17448278539).jpg",
+    "creator": "Maurizio Pesce from Milan, Italia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "a08da40547d915b6ebadc27e08c7069266505714",
+    "width": 1280,
+    "height": 853,
+    "reviewState": "metadata-reviewed",
+    "bytes": 21086
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Fibreoptic.jpg",
+    "alt": "Fibre-optic network equipment",
+    "caption": "General network-technology context, not Pi’s infrastructure or proof of an exchange listing.",
+    "url": "/images/editorial/trending-pk-20261102/pi-network-binance-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Fibreoptic.jpg",
+    "creator": "BigRiz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sha1": "2dccbcf4286096dbd42e614aedd397b951bd237d",
+    "width": 635,
+    "height": 960,
+    "reviewState": "metadata-reviewed",
+    "bytes": 32520
+  }
+]

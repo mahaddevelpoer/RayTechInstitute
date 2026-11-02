@@ -1,0 +1,81 @@
+{
+  "title": "BTC to USD on Binance: Quote Units and Conversion Guide",
+  "slug": "btc-to-usd-binance-evidence-and-learning-guide",
+  "seoTitle": "BTC to USD on Binance: Quote Units and Conversion Guide",
+  "description": "Explore BTC to USD on Binance with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "excerpt": "Explore BTC to USD on Binance with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "socialTitle": "BTC to USD on Binance: Quote Units and Conversion Guide",
+  "socialDescription": "Explore BTC to USD on Binance with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "category": "technology",
+  "tags": [
+    "BTC to USD Binance",
+    "Bitcoin quote",
+    "BTC USDT",
+    "Base asset",
+    "Quote asset",
+    "USD versus USDT",
+    "Token versus currency",
+    "Fictional conversion",
+    "Decimal amount",
+    "Gross quoted value",
+    "Cross rate",
+    "Price timestamp",
+    "Last trade",
+    "Best bid",
+    "Best ask",
+    "Spread calculation",
+    "Order book depth",
+    "Weighted price",
+    "Quantity denominator",
+    "Fee assumptions",
+    "Gross versus net",
+    "Symbol information",
+    "Public market data",
+    "API identity fields",
+    "Decimal precision",
+    "Missing input",
+    "Zero amount",
+    "Exchange documentation",
+    "Financial literacy",
+    "No live rate",
+    "Source checking",
+    "Dated evidence",
+    "Educational guide",
+    "Student questions",
+    "Worked examples",
+    "Claim verification",
+    "Research worksheet",
+    "Contextual images",
+    "Measurement literacy",
+    "Reading practice",
+    "Pakistan students",
+    "Further learning"
+  ],
+  "sources": [
+    "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading",
+    "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/general-endpoints",
+    "https://tether.to/en/how-it-works/"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch7-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical or contextual images do not imply current-event photography.",
+    "Original fictional models are separate from recorded facts.",
+    "General financial and source literacy, not financial advice, a live quote, trading access or a listing guarantee."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Bitcoin.png",
+      "alt": "Bitcoin symbol illustration",
+      "caption": "Asset-identity illustration, not a live price, investment offer or physical bank money."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Trezor Safe 7.jpg",
+      "alt": "Trezor Safe 7 hardware wallet",
+      "caption": "Hardware-wallet illustration, not Binance custody, a price feed or a product recommendation."
+    }
+  ]
+}

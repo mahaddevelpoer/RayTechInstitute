@@ -1,0 +1,80 @@
+{
+  "title": "Hong Kong Learning Guide: Harbour, Maps, Museums and Time",
+  "slug": "hong-kong-evidence-and-learning-guide",
+  "seoTitle": "Hong Kong Learning Guide: Maps, Museums and Local Time",
+  "description": "Explore Hong Kong Learning Guide with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "excerpt": "Explore Hong Kong Learning Guide with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "socialTitle": "Hong Kong Learning Guide: Harbour, Maps, Museums and Time",
+  "socialDescription": "Explore Hong Kong Learning Guide with clear explanations, worked examples, source checks and practical questions for independent student learning.",
+  "category": "world-affairs",
+  "tags": [
+    "Hong Kong guide",
+    "Victoria Harbour",
+    "Hong Kong Island",
+    "Kowloon",
+    "Waterfront geography",
+    "Viewpoint literacy",
+    "Map versus diagram",
+    "Transport connections",
+    "Schematic map",
+    "North arrow",
+    "Map scale",
+    "Straight line distance",
+    "Route distance",
+    "Hong Kong time",
+    "UTC plus eight",
+    "Pakistan time difference",
+    "Date rollover",
+    "Museum of Art",
+    "Tsim Sha Tsui",
+    "Collection labels",
+    "Object interpretation",
+    "Opening hour exceptions",
+    "Dated visitor information",
+    "Journey time model",
+    "Waiting time",
+    "Transfer assumptions",
+    "Historical skyline",
+    "Source log",
+    "Geography worksheet",
+    "Cultural learning",
+    "Source checking",
+    "Dated evidence",
+    "Educational guide",
+    "Student questions",
+    "Worked examples",
+    "Claim verification",
+    "Research worksheet",
+    "Contextual images",
+    "Measurement literacy",
+    "Reading practice",
+    "Pakistan students",
+    "Further learning"
+  ],
+  "sources": [
+    "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-victoria-harbour.html",
+    "https://www.hko.gov.hk/en/gts/time/basicterms-localtime.htm",
+    "https://hk.art.museum/en/web/ma/home.html"
+  ],
+  "sourceChecked": "2026-11-02",
+  "metadataFile": "artifacts/november-publish/batch7-metadata.json",
+  "limitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical or contextual images do not imply current-event photography.",
+    "Original fictional models are separate from recorded facts."
+  ],
+  "photos": [
+    {
+      "role": "cover",
+      "fileTitle": "File:Peak Tower 1.jpg",
+      "alt": "Peak Tower at Victoria Peak in Hong Kong",
+      "caption": "Historical viewpoint-landmark context, not a current weather, event or travel-arrangement notice."
+    },
+    {
+      "role": "inline",
+      "fileTitle": "File:Hong Kong Museum of Art 201108.jpg",
+      "alt": "Hong Kong Museum of Art photographed in 2011",
+      "caption": "Historical museum exterior, not a current visitor-arrangement notice."
+    }
+  ]
+}

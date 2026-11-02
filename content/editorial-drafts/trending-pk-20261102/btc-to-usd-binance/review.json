@@ -1,0 +1,23 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "words": 2037,
+  "sourceChecked": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+    },
+    {
+      "url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/general-endpoints"
+    },
+    {
+      "url": "https://tether.to/en/how-it-works/"
+    }
+  ],
+  "factualLimitations": [
+    "Source review dated 2 November 2026; not a live information service.",
+    "Historical or contextual images do not imply current-event photography.",
+    "Original fictional models are separate from recorded facts.",
+    "General financial and source literacy, not financial advice, a live quote, trading access or a listing guarantee."
+  ],
+  "published": false
+}

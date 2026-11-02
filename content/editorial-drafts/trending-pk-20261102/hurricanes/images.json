@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Kate 2003-10-04 1420Z (alternate).jpg",
+    "alt": "Hurricane Kate in an October 2003 satellite image",
+    "caption": "Historical storm imagery, not a current system, local forecast or warning for Pakistan.",
+    "url": "/images/editorial/trending-pk-20261102/hurricanes-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Kate_2003-10-04_1420Z_(alternate).jpg",
+    "creator": "NASA MODIS Satellite Imagery",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha1": "9919e975735e39b467232a29b70d849d7785de04",
+    "width": 1000,
+    "height": 680,
+    "reviewState": "metadata-reviewed",
+    "bytes": 123256
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:NOAA Lockheed WP-3D Orion \"Hurricane Hunter\" (N42RF) at SENEX Air Quality-Climate Research Study (9119691512).jpg",
+    "alt": "NOAA WP-3D research aircraft at a scientific study",
+    "caption": "Historical research-aircraft illustration, not a photograph of a current hurricane flight.",
+    "url": "/images/editorial/trending-pk-20261102/hurricanes-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:NOAA_Lockheed_WP-3D_Orion_%22Hurricane_Hunter%22_(N42RF)_at_SENEX_Air_Quality-Climate_Research_Study_(9119691512).jpg",
+    "creator": "obz3rv3r",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "fa03d9095b970a95d32959aa12ec9aa8970526e5",
+    "width": 1280,
+    "height": 620,
+    "reviewState": "metadata-reviewed",
+    "bytes": 59836
+  }
+]
