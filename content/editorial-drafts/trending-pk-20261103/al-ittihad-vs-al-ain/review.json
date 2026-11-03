@@ -1,0 +1,25 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2196,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-al-ittihad-club-ksa-1-4-al-ain-fc-uae"
+    },
+    {
+      "url": "https://www.the-afc.com/ar/club/afc_champions_league_elite.html/news/md4-al-ittihad-club-ksa-1-4-al-ain-fc-uae-1"
+    },
+    {
+      "url": "https://alainclub.ae/fc/event/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-x-%D8%A7%D9%84%D8%B9%D9%8A%D9%86-2/"
+    }
+  ],
+  "factualLimitations": [
+    "Goal sequence follows the official AFC Arabic report; no unseen tactical details, private quotes or player ratings are invented.",
+    "Campaign figures are dated, not live standings or a qualification guarantee.",
+    "Images illustrate the Al Ain football setting and penalty concept; neither depicts this match.",
+    "Official fixture page time is not converted without a stated timezone."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-04-validation.json"
+}

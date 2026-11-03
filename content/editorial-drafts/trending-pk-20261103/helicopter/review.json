@@ -1,0 +1,33 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2149,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-helicopter-2-grades-5-8/"
+    },
+    {
+      "url": "https://www.faa.gov/aircraft/air_cert/step/disciplines/rotorcraft"
+    },
+    {
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook"
+    },
+    {
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/faa-h-8083-21.pdf"
+    },
+    {
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch11.pdf"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/edu/resources/lesson-plan/make-a-paper-mars-helicopter/"
+    }
+  ],
+  "factualLimitations": [
+    "Introductory physics and design only; no operating sequences, aircraft-specific loading limits or emergency instructions.",
+    "Paper-model comparison is an original classroom illustration, not a full-scale performance model.",
+    "No current aviation incident alleged."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

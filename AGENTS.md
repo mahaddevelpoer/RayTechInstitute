@@ -2,6 +2,8 @@
 
 ## Publication requires explicit approval
 
+- Standing user approval, 3 November 2026: complete and verified editorial articles should be published as they become ready. This covers article records, their reviewed images and the static release needed to serve them. It does not authorize unrelated unfinished UI, schema, permissions or feature changes. Keep article releases isolated and verify live pages, images, listing and sitemap before calling them published.
+
 - Make and test changes locally by default. Do not deploy or publish until the user explicitly approves the current changes.
 - Earlier deployment approvals apply only to their earlier releases, not to new batches of work.
 - Do not push to deployment-triggering branches, dispatch publishing workflows, deploy Firebase/Supabase functions or rules, or mutate production content that triggers a rebuild without that approval.

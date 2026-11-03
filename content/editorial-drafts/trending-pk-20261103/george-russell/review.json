@@ -1,0 +1,23 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2105,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.formula1.com/en/drivers/george-russell"
+    },
+    {
+      "url": "https://www.mercedesamgf1.com/drivers/driver/george-russell"
+    },
+    {
+      "url": "https://www.formula1.com/en/teams/mercedes"
+    }
+  ],
+  "factualLimitations": [
+    "Season figures are a 3 November 2026 official-profile snapshot, not a live table.",
+    "No private contract term, team motive, unseen strategy or unverified scoring rule inferred."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

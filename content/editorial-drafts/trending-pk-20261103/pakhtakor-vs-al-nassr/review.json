@@ -1,0 +1,26 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2107,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-pakhtakor-uzb-2-6-al-nassr-club-ksa"
+    },
+    {
+      "url": "https://www.spa.gov.sa/en/N2716426"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/rampant-al-nassr-please-postecoglou"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html"
+    }
+  ],
+  "factualLimitations": [
+    "Positions and points are the dated post-match report, not a live table.",
+    "No invented assists, possession, xG, player ratings, reasons for Ronaldo absence or qualification guarantee."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

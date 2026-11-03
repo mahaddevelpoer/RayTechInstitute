@@ -1,0 +1,24 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2143,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.islamabadpolice.gov.pk/division.php?slug=islamabad-traffic-police"
+    },
+    {
+      "url": "https://dlims.islamabadpolice.gov.pk/"
+    },
+    {
+      "url": "https://www.app.com.pk/national/itp-brings-driving-licence-services-to-citizens-doorsteps-with-new-online-facility/"
+    }
+  ],
+  "factualLimitations": [
+    "Portal retrieval timed out; no application submitted, fee paid or end-to-end success claimed.",
+    "No old fee, personal payment destination, universal eligibility rule or guaranteed delivery time.",
+    "Exact requirements remain with the responsible authority; no individual legal determination."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

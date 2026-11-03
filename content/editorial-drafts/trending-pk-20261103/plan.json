@@ -1,0 +1,1056 @@
+{
+  "date": "2026-11-03",
+  "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261103-1329.csv",
+  "inputSearches": 59,
+  "newTopicGroups": 40,
+  "existingRows": 11,
+  "ambiguousRows": 0,
+  "mergedRows": 1,
+  "published": 0,
+  "publicationAuthorized": true,
+  "publicationNote": "User authorized publishing completed verified articles on 3 November 2026, with standing approval for future completed article releases. Unfinished UI and schema changes are excluded.",
+  "groups": [
+    {
+      "key": "mr-patlu-wedding-incident",
+      "sourceRow": 1,
+      "queries": [
+        "mr patlu wedding"
+      ],
+      "relatedSearches": [
+        "mr patlu wedding",
+        "stampede"
+      ],
+      "searchVolumeLabel": "10k+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "mr-patlu-wedding-incident",
+      "identityWarning": "Existing mr-patlu folder incorrectly discusses cartoon Motu Patlu; human wedding incident is a distinct entity. Do not recycle cartoon images or allegations."
+    },
+    {
+      "key": "pakhtakor-vs-al-nassr",
+      "sourceRow": 2,
+      "queries": [
+        "pakhtakor fc vs al-nassr standings"
+      ],
+      "relatedSearches": [
+        "pakhtakor fc vs al-nassr standings",
+        "pakhtakor vs al-nassr",
+        "al-nassr fc"
+      ],
+      "searchVolumeLabel": "20k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "pakhtakor-vs-al-nassr",
+      "words": 2107,
+      "slug": "pakhtakor-al-nassr-2-6-result-standings-november-2026",
+      "images": 2
+    },
+    {
+      "key": "merub-ali",
+      "sourceRow": 5,
+      "queries": [
+        "merub ali"
+      ],
+      "relatedSearches": [
+        "merub ali",
+        "dananeer mobeen"
+      ],
+      "searchVolumeLabel": "2k+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "merub-ali",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+    },
+    {
+      "key": "vivo-y32-5g",
+      "sourceRow": 6,
+      "queries": [
+        "vivo y32 5g"
+      ],
+      "relatedSearches": [
+        "vivo y32 5g"
+      ],
+      "searchVolumeLabel": "5k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "vivo-y32-5g",
+      "words": 2115,
+      "slug": "vivo-y32-5g-specifications-pakistan-price-checks",
+      "images": 2
+    },
+    {
+      "key": "oman-vs-netherlands",
+      "sourceRow": 7,
+      "queries": [
+        "oman national cricket team vs netherlands national cricket team standings"
+      ],
+      "relatedSearches": [
+        "oman national cricket team vs netherlands national cricket team standings"
+      ],
+      "searchVolumeLabel": "10k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "oman-vs-netherlands",
+      "words": 2087,
+      "slug": "oman-netherlands-2-november-2026-result-league-2",
+      "images": 2
+    },
+    {
+      "key": "adrian-hamilton-manns-pia",
+      "sourceRow": 8,
+      "queries": [
+        "adrian hamilton manns pia ceo"
+      ],
+      "relatedSearches": [
+        "adrian hamilton manns pia ceo",
+        "adrian hamilton-manns pia ceo appointment",
+        "adrian hamilton pia ceo",
+        "adrian hamilton-manns",
+        "adrian hamilton manns"
+      ],
+      "searchVolumeLabel": "5k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "adrian-hamilton-manns-pia",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2051,
+      "slug": "adrian-hamilton-manns-pia-ceo-appointment-november-2026",
+      "images": 2
+    },
+    {
+      "key": "quaid-e-azam-trophy",
+      "sourceRow": 9,
+      "queries": [
+        "quaid e azam trophy"
+      ],
+      "relatedSearches": [
+        "quaid e azam trophy",
+        "quaid-e-azam trophy",
+        "lahore whites vs fata"
+      ],
+      "searchVolumeLabel": "2k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "quaid-e-azam-trophy",
+      "words": 2148,
+      "slug": "quaid-e-azam-trophy-2026-27-gold-silver-schedule",
+      "images": 2
+    },
+    {
+      "key": "black-clover-episode-5",
+      "sourceRow": 11,
+      "queries": [
+        "black clover episode 5"
+      ],
+      "relatedSearches": [
+        "black clover episode 5"
+      ],
+      "searchVolumeLabel": "1k+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "black-clover-episode-5"
+    },
+    {
+      "key": "mohammad-amir",
+      "sourceRow": 12,
+      "queries": [
+        "mohammad amir"
+      ],
+      "relatedSearches": [
+        "mohammad amir"
+      ],
+      "searchVolumeLabel": "1k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "mohammad-amir",
+      "words": 2092,
+      "slug": "mohammad-amir-record-retirement-bowling-figures",
+      "images": 2
+    },
+    {
+      "key": "over-rate",
+      "sourceRow": 13,
+      "queries": [
+        "over rate"
+      ],
+      "relatedSearches": [
+        "over rate"
+      ],
+      "searchVolumeLabel": "1k+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "over-rate",
+      "words": 2044,
+      "slug": "over-rate-pakistan-fine-stop-clock-explained",
+      "images": 2
+    },
+    {
+      "key": "helicopter",
+      "sourceRow": 14,
+      "queries": [
+        "helicopter"
+      ],
+      "relatedSearches": [
+        "helicopter"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "helicopter",
+      "words": 2149,
+      "slug": "how-helicopter-flies-rotors-hovering-controls",
+      "images": 2
+    },
+    {
+      "key": "glenn-maxwell-retirement",
+      "sourceRow": 15,
+      "queries": [
+        "maxwell cricketer retirement"
+      ],
+      "relatedSearches": [
+        "maxwell cricketer retirement",
+        "glenn maxwell",
+        "glenn maxwell retirement"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "glenn-maxwell-retirement",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2055,
+      "slug": "glenn-maxwell-retirement-international-bbl-2026",
+      "images": 2
+    },
+    {
+      "key": "rajinikanth",
+      "sourceRow": 16,
+      "queries": [
+        "rajinikanth"
+      ],
+      "relatedSearches": [
+        "rajinikanth"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "rajinikanth"
+    },
+    {
+      "key": "gurnoor-brar",
+      "sourceRow": 17,
+      "queries": [
+        "gurnoor brar"
+      ],
+      "relatedSearches": [
+        "gurnoor brar"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "gurnoor-brar",
+      "words": 2171,
+      "slug": "gurnoor-brar-odi-squad-gujarat-titans-bowling",
+      "images": 2
+    },
+    {
+      "key": "auqib-nabi",
+      "sourceRow": 19,
+      "queries": [
+        "auqib nabi"
+      ],
+      "relatedSearches": [
+        "auqib nabi"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "auqib-nabi",
+      "words": 2045,
+      "slug": "auqib-nabi-new-zealand-odi-squad-update-2026",
+      "images": 2
+    },
+    {
+      "key": "resident-evil-2026",
+      "sourceRow": 20,
+      "queries": [
+        "resident evil 2026"
+      ],
+      "relatedSearches": [
+        "resident evil 2026"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "resident-evil-2026",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2051,
+      "slug": "resident-evil-2026-film-cast-story-viewing",
+      "images": 2
+    },
+    {
+      "key": "george-russell",
+      "sourceRow": 21,
+      "queries": [
+        "george russell"
+      ],
+      "relatedSearches": [
+        "george russell"
+      ],
+      "searchVolumeLabel": "100+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "george-russell",
+      "words": 2105,
+      "slug": "george-russell-mercedes-2026-points-results",
+      "images": 2
+    },
+    {
+      "key": "us-midterm-elections",
+      "sourceRow": 22,
+      "queries": [
+        "us midterm elections",
+        "where to vote"
+      ],
+      "relatedSearches": [
+        "us midterm elections",
+        "see"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "us-midterm-elections",
+      "words": 2141,
+      "slug": "us-midterm-elections-2026-voting-results-explained",
+      "images": 2
+    },
+    {
+      "key": "dinesh-auluck",
+      "sourceRow": 23,
+      "queries": [
+        "dinesh auluck"
+      ],
+      "relatedSearches": [
+        "dinesh auluck"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "dinesh-auluck",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+    },
+    {
+      "key": "afc-champions-league",
+      "sourceRow": 25,
+      "queries": [
+        "afc champions league"
+      ],
+      "relatedSearches": [
+        "afc champions league",
+        "al sadd vs al-ahli"
+      ],
+      "searchVolumeLabel": "2k+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "afc-champions-league"
+    },
+    {
+      "key": "sleep",
+      "sourceRow": 26,
+      "queries": [
+        "sleep"
+      ],
+      "relatedSearches": [
+        "sleep"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "sleep",
+      "words": 2158,
+      "slug": "sleep-students-hours-routine-exam-planning",
+      "images": 2
+    },
+    {
+      "key": "icc-cricket-world-cup",
+      "sourceRow": 28,
+      "queries": [
+        "icc cricket world cup"
+      ],
+      "relatedSearches": [
+        "icc cricket world cup",
+        "international cricket council"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "icc-cricket-world-cup",
+      "words": 2149,
+      "slug": "icc-cricket-world-cup-2027-dates-hosts-format",
+      "images": 2
+    },
+    {
+      "key": "taika-waititi",
+      "sourceRow": 32,
+      "queries": [
+        "taika waititi"
+      ],
+      "relatedSearches": [
+        "taika waititi"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "taika-waititi"
+    },
+    {
+      "key": "adam-robinson",
+      "sourceRow": 34,
+      "queries": [
+        "adam robinson"
+      ],
+      "relatedSearches": [
+        "adam robinson",
+        "plane crashed"
+      ],
+      "searchVolumeLabel": "500+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "adam-robinson",
+      "identityWarning": "Common personal name plus unverified plane-crash query; require reliable identity and incident evidence before writing."
+    },
+    {
+      "key": "hq-19",
+      "sourceRow": 35,
+      "queries": [
+        "hq-19"
+      ],
+      "relatedSearches": [
+        "hq-19"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "hq-19",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+    },
+    {
+      "key": "cyber-attacks",
+      "sourceRow": 37,
+      "queries": [
+        "cyber attacks"
+      ],
+      "relatedSearches": [
+        "cyber attacks"
+      ],
+      "searchVolumeLabel": "100+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "cyber-attacks",
+      "words": 2210,
+      "slug": "cyber-attacks-student-account-device-safety",
+      "images": 2
+    },
+    {
+      "key": "bragantino-vs-santos",
+      "sourceRow": 38,
+      "queries": [
+        "bragantino vs santos"
+      ],
+      "relatedSearches": [
+        "bragantino vs santos"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "bragantino-vs-santos"
+    },
+    {
+      "key": "islamabad-traffic-police",
+      "sourceRow": 39,
+      "queries": [
+        "islamabad traffic police"
+      ],
+      "relatedSearches": [
+        "islamabad traffic police"
+      ],
+      "searchVolumeLabel": "100+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "islamabad-traffic-police",
+      "words": 2143,
+      "slug": "islamabad-traffic-police-online-licence-services",
+      "images": 2
+    },
+    {
+      "key": "al-ittihad-vs-al-ain",
+      "sourceRow": 41,
+      "queries": [
+        "al-ittihad vs al ain"
+      ],
+      "relatedSearches": [
+        "al-ittihad vs al ain",
+        "al-ittihad club vs al ain fc standings"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "al-ittihad-vs-al-ain",
+      "words": 2196,
+      "slug": "al-ittihad-al-ain-1-4-result-goals-november-2026",
+      "images": 2
+    },
+    {
+      "key": "sassuolo-vs-fiorentina",
+      "sourceRow": 43,
+      "queries": [
+        "sassuolo vs fiorentina"
+      ],
+      "relatedSearches": [
+        "sassuolo vs fiorentina"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "sassuolo-vs-fiorentina"
+    },
+    {
+      "key": "usman-khawaja",
+      "sourceRow": 44,
+      "queries": [
+        "usman khawaja"
+      ],
+      "relatedSearches": [
+        "usman khawaja"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "usman-khawaja"
+    },
+    {
+      "key": "tucker-carlson",
+      "sourceRow": 45,
+      "queries": [
+        "tucker carlson"
+      ],
+      "relatedSearches": [
+        "tucker carlson"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "tucker-carlson",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+    },
+    {
+      "key": "forex-factory",
+      "sourceRow": 46,
+      "queries": [
+        "forex factory"
+      ],
+      "relatedSearches": [
+        "forex factory"
+      ],
+      "searchVolumeLabel": "1k+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "forex-factory"
+    },
+    {
+      "key": "anthropic-ipo",
+      "sourceRow": 47,
+      "queries": [
+        "anthropic ipo"
+      ],
+      "relatedSearches": [
+        "anthropic ipo"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "anthropic-ipo",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+    },
+    {
+      "key": "al-wasl-vs-al-quwa-al-jawiya",
+      "sourceRow": 49,
+      "queries": [
+        "al wasl vs al-quwa al-jawiya"
+      ],
+      "relatedSearches": [
+        "al wasl vs al-quwa al-jawiya"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "al-wasl-vs-al-quwa-al-jawiya"
+    },
+    {
+      "key": "fatima-sana",
+      "sourceRow": 51,
+      "queries": [
+        "fatima sana"
+      ],
+      "relatedSearches": [
+        "fatima sana"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "fatima-sana",
+      "words": 2042,
+      "slug": "fatima-sana-pakistan-career-award-captaincy",
+      "images": 2
+    },
+    {
+      "key": "shabana-mahmood",
+      "sourceRow": 53,
+      "queries": [
+        "shabana mahmood"
+      ],
+      "relatedSearches": [
+        "shabana mahmood"
+      ],
+      "searchVolumeLabel": "100+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "shabana-mahmood",
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+    },
+    {
+      "key": "wbbl",
+      "sourceRow": 54,
+      "queries": [
+        "wbbl"
+      ],
+      "relatedSearches": [
+        "wbbl"
+      ],
+      "searchVolumeLabel": "200+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "wbbl",
+      "words": 2062,
+      "slug": "wbbl-2026-fixtures-season-points-table-guide",
+      "images": 2
+    },
+    {
+      "key": "rohit-sharma",
+      "sourceRow": 56,
+      "queries": [
+        "rohit sharma"
+      ],
+      "relatedSearches": [
+        "rohit sharma"
+      ],
+      "searchVolumeLabel": "100+",
+      "state": "local-verified-unpublished",
+      "published": false,
+      "draftDirectory": "rohit-sharma",
+      "words": 2079,
+      "slug": "rohit-sharma-odi-status-retirement-career-records",
+      "images": 2
+    },
+    {
+      "key": "perth-scorchers-vs-melbourne-stars",
+      "sourceRow": 58,
+      "queries": [
+        "perth scorchers vs melbourne stars"
+      ],
+      "relatedSearches": [
+        "perth scorchers vs melbourne stars"
+      ],
+      "searchVolumeLabel": "100+",
+      "state": "research-required",
+      "published": false,
+      "draftDirectory": "perth-scorchers-vs-melbourne-stars"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "mr patlu wedding",
+      "state": "new-intent",
+      "key": "mr-patlu-wedding-incident"
+    },
+    {
+      "row": 2,
+      "query": "pakhtakor fc vs al-nassr standings",
+      "state": "new-intent",
+      "key": "pakhtakor-vs-al-nassr"
+    },
+    {
+      "row": 3,
+      "query": "bond",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    },
+    {
+      "row": 4,
+      "query": "icc men's odi team rankings",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "icc-rankings-rank-rating-team-player-tables-explained",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 5,
+      "query": "merub ali",
+      "state": "new-intent",
+      "key": "merub-ali"
+    },
+    {
+      "row": 6,
+      "query": "vivo y32 5g",
+      "state": "new-intent",
+      "key": "vivo-y32-5g"
+    },
+    {
+      "row": 7,
+      "query": "oman national cricket team vs netherlands national cricket team standings",
+      "state": "new-intent",
+      "key": "oman-vs-netherlands"
+    },
+    {
+      "row": 8,
+      "query": "adrian hamilton manns pia ceo",
+      "state": "new-intent",
+      "key": "adrian-hamilton-manns-pia"
+    },
+    {
+      "row": 9,
+      "query": "quaid e azam trophy",
+      "state": "new-intent",
+      "key": "quaid-e-azam-trophy"
+    },
+    {
+      "row": 10,
+      "query": "diesel fuel",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "pakistan-refinery-costs-petrol-price-pass-through-explained",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 11,
+      "query": "black clover episode 5",
+      "state": "new-intent",
+      "key": "black-clover-episode-5"
+    },
+    {
+      "row": 12,
+      "query": "mohammad amir",
+      "state": "new-intent",
+      "key": "mohammad-amir"
+    },
+    {
+      "row": 13,
+      "query": "over rate",
+      "state": "new-intent",
+      "key": "over-rate"
+    },
+    {
+      "row": 14,
+      "query": "helicopter",
+      "state": "new-intent",
+      "key": "helicopter"
+    },
+    {
+      "row": 15,
+      "query": "maxwell cricketer retirement",
+      "state": "new-intent",
+      "key": "glenn-maxwell-retirement"
+    },
+    {
+      "row": 16,
+      "query": "rajinikanth",
+      "state": "new-intent",
+      "key": "rajinikanth"
+    },
+    {
+      "row": 17,
+      "query": "gurnoor brar",
+      "state": "new-intent",
+      "key": "gurnoor-brar"
+    },
+    {
+      "row": 18,
+      "query": "trying",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    },
+    {
+      "row": 19,
+      "query": "auqib nabi",
+      "state": "new-intent",
+      "key": "auqib-nabi"
+    },
+    {
+      "row": 20,
+      "query": "resident evil 2026",
+      "state": "new-intent",
+      "key": "resident-evil-2026"
+    },
+    {
+      "row": 21,
+      "query": "george russell",
+      "state": "new-intent",
+      "key": "george-russell"
+    },
+    {
+      "row": 22,
+      "query": "us midterm elections",
+      "state": "new-intent",
+      "key": "us-midterm-elections"
+    },
+    {
+      "row": 23,
+      "query": "dinesh auluck",
+      "state": "new-intent",
+      "key": "dinesh-auluck"
+    },
+    {
+      "row": 24,
+      "query": "where to vote",
+      "state": "merged-intent",
+      "targetRow": 22
+    },
+    {
+      "row": 25,
+      "query": "afc champions league",
+      "state": "new-intent",
+      "key": "afc-champions-league"
+    },
+    {
+      "row": 26,
+      "query": "sleep",
+      "state": "new-intent",
+      "key": "sleep"
+    },
+    {
+      "row": 27,
+      "query": "newcastle united f.c. vs everton f.c. standings",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "everton-newcastle-fixture-tactics-match-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 28,
+      "query": "icc cricket world cup",
+      "state": "new-intent",
+      "key": "icc-cricket-world-cup"
+    },
+    {
+      "row": 29,
+      "query": "australia national cricket team",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "australia-cricket-team-history-formats-scoreboard-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 30,
+      "query": "moammar rana",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "moammar-rana-films-interviews-acting-learning-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 31,
+      "query": "casio cmk 100 watch",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "cmk-100-casio-explained-learning-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 32,
+      "query": "taika waititi",
+      "state": "new-intent",
+      "key": "taika-waititi"
+    },
+    {
+      "row": 33,
+      "query": "connection",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    },
+    {
+      "row": 34,
+      "query": "adam robinson",
+      "state": "new-intent",
+      "key": "adam-robinson"
+    },
+    {
+      "row": 35,
+      "query": "hq-19",
+      "state": "new-intent",
+      "key": "hq-19"
+    },
+    {
+      "row": 36,
+      "query": "کرکٹ",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 37,
+      "query": "cyber attacks",
+      "state": "new-intent",
+      "key": "cyber-attacks"
+    },
+    {
+      "row": 38,
+      "query": "bragantino vs santos",
+      "state": "new-intent",
+      "key": "bragantino-vs-santos"
+    },
+    {
+      "row": 39,
+      "query": "islamabad traffic police",
+      "state": "new-intent",
+      "key": "islamabad-traffic-police"
+    },
+    {
+      "row": 40,
+      "query": "پاکستان قومی کرکٹ ٹیم",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 41,
+      "query": "al-ittihad vs al ain",
+      "state": "new-intent",
+      "key": "al-ittihad-vs-al-ain"
+    },
+    {
+      "row": 42,
+      "query": "gasoline",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "pakistan-refinery-costs-petrol-price-pass-through-explained",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 43,
+      "query": "sassuolo vs fiorentina",
+      "state": "new-intent",
+      "key": "sassuolo-vs-fiorentina"
+    },
+    {
+      "row": 44,
+      "query": "usman khawaja",
+      "state": "new-intent",
+      "key": "usman-khawaja"
+    },
+    {
+      "row": 45,
+      "query": "tucker carlson",
+      "state": "new-intent",
+      "key": "tucker-carlson"
+    },
+    {
+      "row": 46,
+      "query": "forex factory",
+      "state": "new-intent",
+      "key": "forex-factory"
+    },
+    {
+      "row": 47,
+      "query": "anthropic ipo",
+      "state": "new-intent",
+      "key": "anthropic-ipo"
+    },
+    {
+      "row": 48,
+      "query": "reset",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    },
+    {
+      "row": 49,
+      "query": "al wasl vs al-quwa al-jawiya",
+      "state": "new-intent",
+      "key": "al-wasl-vs-al-quwa-al-jawiya"
+    },
+    {
+      "row": 50,
+      "query": "pak vs sl t20",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "pakistan-sri-lanka-odi-final-fakhar-arafat-chase-2026",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 51,
+      "query": "fatima sana",
+      "state": "new-intent",
+      "key": "fatima-sana"
+    },
+    {
+      "row": 52,
+      "query": "claim",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    },
+    {
+      "row": 53,
+      "query": "shabana mahmood",
+      "state": "new-intent",
+      "key": "shabana-mahmood"
+    },
+    {
+      "row": 54,
+      "query": "wbbl",
+      "state": "new-intent",
+      "key": "wbbl"
+    },
+    {
+      "row": 55,
+      "query": "inde navarrette",
+      "state": "existing-page-review-update-needed",
+      "existingSlug": "inde-navarrette-records-and-learning-guide",
+      "action": "Review current facts and improve existing page; do not create competing URL."
+    },
+    {
+      "row": 56,
+      "query": "rohit sharma",
+      "state": "new-intent",
+      "key": "rohit-sharma"
+    },
+    {
+      "row": 57,
+      "query": "2007",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    },
+    {
+      "row": 58,
+      "query": "perth scorchers vs melbourne stars",
+      "state": "new-intent",
+      "key": "perth-scorchers-vs-melbourne-stars"
+    },
+    {
+      "row": 59,
+      "query": "pixels",
+      "state": "excluded-by-user",
+      "reason": "User explicitly requested no article because the search intent is unclear."
+    }
+  ],
+  "editorialPolicy": {
+    "noDuplicateUrls": true,
+    "noSubagents": true,
+    "answerFirst": true,
+    "uniqueLicensedImages": 2,
+    "noFabricatedEvents": true,
+    "tags": "Relevant supporting terms only; do not turn tags into a keyword list in the body.",
+    "clicks": "No Search Console impressions, positions or CTR export supplied, so reason for low clicks remains unverified.",
+    "priority": "Answer the actual query before background; no generic learning-guide padding or unrelated fictional exercises."
+  },
+  "excludedRows": 7,
+  "localVerified": 22,
+  "remainingNewTopics": 18,
+  "rowDispositionSummary": {
+    "newTopicGroups": 40,
+    "existingSearchRowsToReviewWithoutNewUrls": 11,
+    "excludedByUser": 7,
+    "relatedSearchMerged": 1,
+    "totalSourceRows": 59
+  }
+}

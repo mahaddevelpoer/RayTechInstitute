@@ -1,0 +1,31 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2158,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/sleep/about/"
+    },
+    {
+      "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/insomnia/"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/sleep-apnoea/"
+    }
+  ],
+  "factualLimitations": [
+    "General health education, not diagnosis, medication advice or an individual treatment plan.",
+    "Age ranges follow the cited CDC table; no Pakistan prevalence or local healthcare entitlement inferred.",
+    "Timetables and student scenarios are original fictional planning examples, not clinical evidence.",
+    "No clinician review or academic performance guarantee is claimed."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-03-validation.json"
+}

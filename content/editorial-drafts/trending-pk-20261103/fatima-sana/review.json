@@ -1,0 +1,28 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2042,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/fatima-sana-becomes-the-10th-odi-captain-to-lead-pakistan-women-s-team.html"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/the-icc-womens-emerging-cricketer-of-the-year-revealed"
+    },
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/pakistan-women-squads-announced-for-sri-lanka-series.html"
+    },
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/fatima-sana-the-rising-star-of-pakistan-women-cricket.html"
+    }
+  ],
+  "factualLimitations": [
+    "ICC award-year statistics are historical, not current career totals.",
+    "Captaincy statements retain their format and series dates; no permanent replacement inferred.",
+    "PCB pages were search-indexed but direct access returned 403; ICC award text was readable.",
+    "Context images are not a player portrait and do not claim her presence."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

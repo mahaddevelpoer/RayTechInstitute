@@ -1,0 +1,39 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2141,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.usa.gov/midterm-elections"
+    },
+    {
+      "url": "https://www.senate.gov/senators/qualifications_termsofservice.htm"
+    },
+    {
+      "url": "https://www.usa.gov/find-polling-place"
+    },
+    {
+      "url": "https://vote.gov/guide-to-voting"
+    },
+    {
+      "url": "https://www.usa.gov/absentee-voting"
+    },
+    {
+      "url": "https://www.fvap.gov/"
+    },
+    {
+      "url": "https://www.eac.gov/voters/register-and-vote-in-your-state"
+    },
+    {
+      "url": "https://www.eac.gov/election-officials/election-results-canvass-and-certification"
+    }
+  ],
+  "factualLimitations": [
+    "Nonpartisan general explanation; no individual eligibility determination, universal deadline or candidate recommendation.",
+    "No live vote totals, invented winners or claims of election wrongdoing.",
+    "Polling location, hours and deadlines must come from the applicable official jurisdiction."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

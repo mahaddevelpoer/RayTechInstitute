@@ -1,0 +1,26 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2044,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/media-releases/pakistan-fined-for-slow-over-rate-in-tri-series-final"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/stop-clock-introduced-to-reduce-time-wastage-by-the-fielding-side"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/several-changes-made-to-icc-playing-conditions"
+    },
+    {
+      "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/code-of-conduct"
+    }
+  ],
+  "factualLimitations": [
+    "The Pakistan sanction follows the dated ICC announcement. Worked timing calculations are original illustrations, not an official reconstruction.",
+    "Do not treat a historical stop-clock announcement as a complete rulebook for every format."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

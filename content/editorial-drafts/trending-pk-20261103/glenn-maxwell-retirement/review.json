@@ -1,0 +1,26 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2055,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/news/4603301/glenn-maxwell-retirement-stumps-calls-time-t20is-first-class-cricket-australia-continue-melbourne-stars-big-bash-bbl"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/australia-great-announces-retirement-from-international-cricket?appview=true"
+    },
+    {
+      "url": "https://www.cricket.com.au/news/4248593/glenn"
+    },
+    {
+      "url": "https://www.cricket.com.au/news/4461622/glenn-maxwell-not-retiring-t20-internationals-t20i-world-cup-2026-franchise-leagues-bbl-psl-mlc-etpl"
+    }
+  ],
+  "factualLimitations": [
+    "Current status reviewed on 3 November 2026; earlier ODI and open T20I discussions remain separately dated.",
+    "Continuing contract is not a guaranteed starting-eleven appearance; no private motive, transfer or new role inferred."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

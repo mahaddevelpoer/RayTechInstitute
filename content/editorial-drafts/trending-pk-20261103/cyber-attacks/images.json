@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:Yubikey 4 (34434755012).jpg",
+    "alt": "Two YubiKey 4 hardware authentication devices",
+    "caption": "Historical hardware-authentication illustration, not a required purchase or a guarantee against every attack.",
+    "url": "/images/editorial/trending-pk-20261103/cyber-attacks-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Yubikey_4_(34434755012).jpg",
+    "creator": "domjisch from Graz, Austria",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha1": "d13c91ebfe13868e2c7fa52b2a3bc43c278c2c8b",
+    "width": 1280,
+    "height": 720,
+    "reviewState": "metadata-reviewed",
+    "bytes": 39320
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Phishing1.png",
+    "alt": "Diagram illustrating phishing through misleading search results",
+    "caption": "Conceptual phishing diagram from 2020, not evidence of a current attack against a school or Pakistani service.",
+    "url": "/images/editorial/trending-pk-20261103/cyber-attacks-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Phishing1.png",
+    "creator": "OussamaAksbi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha1": "b3aec5cbeb541754adfc5412f638f66f3cf94172",
+    "width": 1280,
+    "height": 640,
+    "reviewState": "metadata-reviewed",
+    "bytes": 25588
+  }
+]

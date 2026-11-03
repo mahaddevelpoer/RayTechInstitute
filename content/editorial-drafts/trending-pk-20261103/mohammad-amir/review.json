@@ -1,0 +1,23 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2092,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/imad-wasim-and-mohammad-amir-announce-retirement-from-international-cricket.html"
+    },
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/pcb-statement-on-mohammad-amir.html"
+    },
+    {
+      "url": "https://www.windiescricket.com/players/mohammad-amir-16725/"
+    }
+  ],
+  "factualLimitations": [
+    "Retirement statements are explicitly dated; no unverified later comeback, current contract or new retirement inferred.",
+    "Career figures use the PCB international sample; original bowling calculations are fictional examples."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

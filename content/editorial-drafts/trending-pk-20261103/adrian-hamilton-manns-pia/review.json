@@ -1,0 +1,25 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2051,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.arabnews.pk/pakistan/pakistans-pia-appoints-adrian-hamilton-manns-as-new-ceo-3005911"
+    },
+    {
+      "url": "https://aviationweek.com/air-transport/airlines-lessors/pakistan-international-airlines-picks-hamilton-manns-new-ceo"
+    },
+    {
+      "url": "https://ir.airastana.com/media/8dc64e6771e60e4/air-astana-flyarystan-management-change_eng.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "Appointment and start date follow public reporting of the embedded airline statement; direct X retrieval was blocked.",
+    "Only publicly accessible Aviation Week text was reviewed; no subscription-only facts inferred.",
+    "Historical Air Astana release indexed but direct PDF retrieval failed; no unseen details added.",
+    "Corporate goals are attributed expectations, not independently confirmed achieved results."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

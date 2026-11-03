@@ -1,0 +1,28 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2171,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.bcci.tv/news/article/squad-update-auqib-nabi-added-to-squad-for-first-three-odis-against-new-zealand"
+    },
+    {
+      "url": "https://www.gujarattitansipl.com/players"
+    },
+    {
+      "url": "https://documents.iplt20.com/documents/IPL/document/2022/02/IPL2022PlayerAuction_List_Sets.pdf"
+    },
+    {
+      "url": "https://documents.iplt20.com/bcci/documents/1763209725967_TATA%20IPL%202026%20-%20Playing%20Squad%20-%2015.11.2025%20%281%29.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "The 31 October squad advisory confirms selection, not a specific match appearance.",
+    "Franchise statistical dashes remain unavailable values, not zero career totals.",
+    "Historical uncapped labels and auction values are not carried forward as current status or salary.",
+    "Venue photographs are explicitly contextual; no unrelated athlete is presented as Gurnoor."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

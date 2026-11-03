@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-03",
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 21107,
+  "uniqueImages": 20,
+  "imageBytes": 2665230,
+  "previousPostsCompared": 211,
+  "liveSitemapUrlsCompared": 300,
+  "remainingNewTopics": 30,
+  "existingPageReviews": 11,
+  "excludedQueries": 7,
+  "published": 0,
+  "results": [
+    {
+      "key": "adrian-hamilton-manns-pia",
+      "slug": "adrian-hamilton-manns-pia-ceo-appointment-november-2026",
+      "words": 2051,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 236446,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "cyber-attacks",
+      "slug": "cyber-attacks-student-account-device-safety",
+      "words": 2210,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 64908,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "glenn-maxwell-retirement",
+      "slug": "glenn-maxwell-retirement-international-bbl-2026",
+      "words": 2055,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 127578,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "helicopter",
+      "slug": "how-helicopter-flies-rotors-hovering-controls",
+      "words": 2149,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 238270,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "oman-vs-netherlands",
+      "slug": "oman-netherlands-2-november-2026-result-league-2",
+      "words": 2087,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 176754,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "over-rate",
+      "slug": "over-rate-pakistan-fine-stop-clock-explained",
+      "words": 2044,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 599694,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "pakhtakor-vs-al-nassr",
+      "slug": "pakhtakor-al-nassr-2-6-result-standings-november-2026",
+      "words": 2107,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 368678,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "quaid-e-azam-trophy",
+      "slug": "quaid-e-azam-trophy-2026-27-gold-silver-schedule",
+      "words": 2148,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 357746,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "us-midterm-elections",
+      "slug": "us-midterm-elections-2026-voting-results-explained",
+      "words": 2141,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 261890,
+      "state": "local-verified-unpublished"
+    },
+    {
+      "key": "vivo-y32-5g",
+      "slug": "vivo-y32-5g-specifications-pakistan-price-checks",
+      "words": 2115,
+      "tags": 42,
+      "images": 2,
+      "imageBytes": 233266,
+      "state": "local-verified-unpublished"
+    }
+  ],
+  "limits": [
+    "No deployment or production write performed.",
+    "Checks do not prove Google indexing, ranking or click-through rate.",
+    "Exact ID, URL, body and image checks supplement editorial intent review; they are not a universal semantic-duplicate detector."
+  ]
+}

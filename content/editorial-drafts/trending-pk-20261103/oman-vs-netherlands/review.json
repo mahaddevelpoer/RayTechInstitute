@@ -1,0 +1,23 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2087,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-league-2/matches/275771/oman-vs-netherlands"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/netherlands-name-squad-for-icc-cwc-league-2-games?appview=true"
+    },
+    {
+      "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-league-2/standings"
+    }
+  ],
+  "factualLimitations": [
+    "Readable current official standings unavailable; no live rank reconstructed from stale snapshots.",
+    "Only completed match facts reproduced; innings rate arithmetic is derived and is not tournament NRR."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

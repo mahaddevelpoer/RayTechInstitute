@@ -1,0 +1,21 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2148,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/schedule-and-team-rosters-announced-for-quaid-e-azam-trophy-gold-and-silver.html"
+    },
+    {
+      "url": "https://www.pcb.com.pk/press-release-detail/pcb-unveils-men-s-domestic-cricket-calendar-for-season-2026-27-with-icc-cricket-world-cup-preparatio.html"
+    }
+  ],
+  "factualLimitations": [
+    "The later detailed PCB announcement takes precedence over the earlier season-calendar outline.",
+    "No live score, result, current table, subscription price or invented bonus-point rules.",
+    "Simple first-innings and target calculations are illustrative, not actual tournament scores."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

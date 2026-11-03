@@ -1,0 +1,21 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2149,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/news/icc-men-s-cricket-world-cup-2027-schedule-revealed-and-ballot-system-opens"
+    },
+    {
+      "url": "https://images.icc-cricket.com/image/upload/prd/r1vl2imnryukfqlfziha.pdf"
+    }
+  ],
+  "factualLimitations": [
+    "Follows the later 1 October 2026 ICC announcement rather than older planning assumptions.",
+    "No invented qualifier, future result, live progress count, ticket availability or travel entitlement.",
+    "Pairing arithmetic explains the announced structure; it is not an extra fixture announcement."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

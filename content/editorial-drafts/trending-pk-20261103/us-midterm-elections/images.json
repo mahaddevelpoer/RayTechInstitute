@@ -1,0 +1,34 @@
+[
+  {
+    "role": "cover",
+    "fileTitle": "File:United States Capitol - west front.jpg",
+    "alt": "The west front of the United States Capitol in a historical photograph",
+    "caption": "Historical congressional-building photograph, not an image of a 2026 election result or a live event.",
+    "url": "/images/editorial/trending-pk-20261103/us-midterm-elections-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg",
+    "creator": "Architect of the Capitol",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg",
+    "sha1": "7a871bbed9051c34aeeec134030aae431e83988c",
+    "width": 1280,
+    "height": 664,
+    "reviewState": "metadata-reviewed",
+    "bytes": 149276
+  },
+  {
+    "role": "inline",
+    "fileTitle": "File:Example voting booth.jpg",
+    "alt": "An example voting booth inside the Old State House in Hartford, Connecticut",
+    "caption": "Demonstration voting booth photographed in 2023, not a polling-place assignment or a current voting-method instruction.",
+    "url": "/images/editorial/trending-pk-20261103/us-midterm-elections-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Example_voting_booth.jpg",
+    "creator": "Kenneth C. Zirkel",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha1": "859a1c51422bf38aa8fd81e0143237227828ad1e",
+    "width": 1280,
+    "height": 853,
+    "reviewState": "metadata-reviewed",
+    "bytes": 112614
+  }
+]

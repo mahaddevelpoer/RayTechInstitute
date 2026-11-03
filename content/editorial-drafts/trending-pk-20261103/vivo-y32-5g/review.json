@@ -1,0 +1,24 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2115,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.vivo.com/tw/products/y32-5g"
+    },
+    {
+      "url": "https://www.vivo.com/tw/products/param/y32-5g"
+    },
+    {
+      "url": "https://www.qualcomm.com/smartphones/products/4-series/snapdragon-4-gen-2-mobile-platform"
+    }
+  ],
+  "factualLimitations": [
+    "Manufacturer-specification analysis, not a hands-on review or original battery, camera or benchmark test.",
+    "Taiwan listing does not confirm Pakistan availability, price, network support or local warranty.",
+    "Context photographs are not presented as images of the Y32 5G handset."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-01-validation.json"
+}

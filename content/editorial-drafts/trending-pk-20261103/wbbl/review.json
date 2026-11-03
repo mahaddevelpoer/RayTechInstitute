@@ -1,0 +1,24 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2062,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/matches/series/CA%3A4687/weber-women-s-big-bash-league"
+    },
+    {
+      "url": "https://www.perthscorchers.com.au/news/4529688/scorchers-set-to-light-up-wbbl12"
+    },
+    {
+      "url": "https://www.melbournerenegades.com.au/news/4529164/fixtures"
+    }
+  ],
+  "factualLimitations": [
+    "Fixtures and early standings are the official page snapshot reviewed on 3 November 2026.",
+    "No current finals qualification, invented NRR reconstruction or Pakistan broadcast entitlement.",
+    "Scoring examples are original illustrations, not additional WBBL results."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}

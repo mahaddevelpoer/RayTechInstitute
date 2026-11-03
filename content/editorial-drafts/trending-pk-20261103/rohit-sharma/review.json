@@ -1,0 +1,33 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2079,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.icc-cricket.com/tournaments/t20cricketworldcup/news/title-winning-skipper-rohit-sharma-confirms-retirement-from-t20-internationals?sf193196567=1"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/india-captain-rohit-sharma-announces-test-retirement"
+    },
+    {
+      "url": "https://www.bcci.tv/news/article/squad-update-auqib-nabi-added-to-squad-for-first-three-odis-against-new-zealand"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/rohits-264-studs-massive-indian-win"
+    },
+    {
+      "url": "https://www.icc-cricket.com/tournaments/cricketworldcup/news/cwc19-team-of-the-tournament"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/india-star-confirms-icc-men-s-cwc27-will-be-his-last?appview=true"
+    }
+  ],
+  "factualLimitations": [
+    "Test, T20I and ODI statuses remain separate and dated; no unverified ODI retirement inferred.",
+    "The linked last-World-Cup story was about Virat Kohli, not Rohit.",
+    "Historical achievements are not live career counters or guaranteed future tournament selection."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-02-validation.json"
+}
