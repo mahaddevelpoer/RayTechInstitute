@@ -37,11 +37,11 @@ try {
   assert.equal(await page.locator('.study-family-card>p').first().evaluate(node=>getComputedStyle(node).webkitLineClamp),'3');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
   await page.screenshot({path:`artifacts/academic-cards/directory-${width}-${dark?'dark':'light'}.png`});
-  await page.getByRole('button',{name:'Explore programming courses',exact:true}).click();
+  await page.getByRole('button',{name:'Explore programming courses',exact:true}).click({position:{x:12,y:12}});
   await page.getByRole('heading',{name:'Choose your programming course',exact:true}).waitFor();
   assert.equal(await page.locator('a.study-option-card[href^="/learn/"]').count(),LEARNING_LANGUAGES.filter(language=>language.state==='published').length);
   await page.getByRole('button',{name:'Back to study areas',exact:true}).click();
-  await page.getByRole('button',{name:'Explore academic programs',exact:true}).click();
+  await page.getByRole('button',{name:'Explore academic programs',exact:true}).click({position:{x:12,y:12}});
   if(!program||!choice)continue;
   await page.locator('button.study-option-card').filter({has:page.getByRole('heading',{name:program.title,exact:true})}).click();
   const subject=`/classes/${choice.classSlug}/${choice.slug}/`;
