@@ -1,5 +1,8 @@
 # Firebase tokens are verified inside this function, not by Supabase Auth.
 # Keep all other functions' verification settings unchanged.
+[functions.secure-dispatch]
+verify_jwt = false
+
 [functions.student-review]
 verify_jwt = false
 

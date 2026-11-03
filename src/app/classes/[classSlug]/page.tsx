@@ -29,7 +29,9 @@ export async function generateMetadata({
   const { classSlug } = await params;
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   if (!currentClass) return withSocialMetadata({});
-  const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
+  const className = currentClass.programTitle && currentClass.semesterNumber
+    ? `${currentClass.programTitle} Semester ${currentClass.semesterNumber}`
+    : currentClass.title.replace(/\s*\([^)]*\)/, "");
   const description = buildDocumentDescription('Choose a subject to browse available notes, chapter MCQs and past papers. Check each resource before using it for revision.', `${className} study resources`);
 
   return withSocialMetadata({

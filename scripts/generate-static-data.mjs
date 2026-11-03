@@ -43,6 +43,8 @@ const map = {
     slug: c.slug,
     title: c.title,
     numericGrade: c.numeric_grade,
+    programTitle: c.program_title || undefined,
+    semesterNumber: c.semester_number || undefined,
     description: c.description,
     isActive: c.is_active,
   }),

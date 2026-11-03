@@ -7,7 +7,7 @@
 .directory-section-title { margin:2.5rem 0 1.25rem; font-size:1.5rem; font-weight:700; }
 .course-route-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.25rem; }
 .course-route { padding:1.75rem; border-radius:8px; border:1px solid var(--border); background:var(--bg-soft); min-width:0; }
-.course-route h2 { font-size:1.5rem; font-weight:700; margin:.75rem 0; }
+.course-route h2, .course-route h3 { font-size:1.5rem; font-weight:700; margin:.75rem 0; }
 .course-route p { font-size:1rem; line-height:1.75; color:var(--text-sub); max-width:55ch; }
 .course-track-links { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.25rem 0; }
 .course-track-links a { display:flex; min-height:48px; align-items:center; border:1px solid var(--border); border-radius:6px; padding:.5rem .8rem; background:var(--bg-card); }
@@ -95,3 +95,43 @@ html.dark { --topic-new-bg:#302513; --topic-new-hover:#3b2e16; --topic-new-text:
 .mcq-topic-grid>button[data-new="true"] { border-color:var(--topic-new-border); background:var(--topic-new-bg); }
 .mcq-topic-grid>button[data-new="true"] :is(strong,.mcq-topic-number) { color:var(--topic-new-text); }
 .mcq-topic-grid>button[data-new="true"]:hover { background:var(--topic-new-hover); }
+
+.academic-program-group { margin-block:2.5rem; }
+.academic-program-group>.directory-intro h2 { font-size:clamp(1.4rem,3vw,1.9rem); font-weight:750; line-height:1.25; overflow-wrap:anywhere; }
+
+/* Mobile-first study hierarchy. Every level uses bounded, readable cards. */
+.study-family-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:1rem; margin-block:1.5rem 2.5rem; }
+.study-family-card,.study-option-card { min-width:0; padding:1.35rem; border:1px solid var(--border); border-radius:12px; background:var(--bg-card); color:var(--text-main); overflow-wrap:anywhere; }
+.study-family-card { display:flex; flex-direction:column; align-items:flex-start; }
+.study-family-icon { padding:.8rem; border-radius:10px; color:var(--learn-accent); background:var(--learn-accent-soft); margin-bottom:1rem; }
+.study-family-card h2,.study-option-card h2 { font-size:1.5rem; line-height:1.3; font-weight:750; margin-bottom:.75rem; }
+.study-option-card h3 { font-size:1.25rem; font-weight:700; margin-block:.75rem; }
+.study-family-card p,.study-option-card p { color:var(--text-sub); line-height:1.7; }
+.study-child-list { width:100%; display:grid; gap:.5rem; margin-block:1.25rem; flex:1; }
+.study-child-list>a,.study-child-list>button { display:flex; align-items:center; justify-content:space-between; gap:1rem; text-align:left; min-height:52px; border:1px solid var(--border); background:var(--bg-soft); border-radius:7px; padding:.75rem; color:var(--text-main); }
+.study-child-list svg { flex-shrink:0; }
+.study-option-card { display:block; text-align:left; transition:border-color .18s,box-shadow .18s; }
+.study-option-card:hover { border-color:var(--learn-accent); box-shadow:0 4px 16px #0000000a; }
+.study-option-card>svg { color:var(--learn-accent); margin-bottom:1rem; }
+.study-option-card>span { display:flex; align-items:center; gap:.75rem; min-height:48px; margin-top:1rem; color:var(--learn-accent); font-weight:650; }
+.study-back { display:inline-flex; align-items:center; gap:.5rem; min-height:48px; color:var(--learn-accent); font-weight:650; }
+.study-family-grid :is(a,button):focus-visible { outline:3px solid var(--learn-accent); outline-offset:3px; }
+@media(min-width:720px) { .study-family-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.5rem; }.study-family-card,.study-option-card { padding:2rem; } }
+
+.study-semesters { display:flex; flex-wrap:wrap; gap:.5rem; margin-block:1rem 2rem; }
+.study-semesters>a,.study-semesters>span { min-height:48px; padding:.75rem 1rem; border:1px solid var(--border); border-radius:7px; background:var(--bg-card); color:var(--text-main); }
+.study-semesters>a[aria-current="page"] { background:var(--learn-accent); color:var(--bg-main); border-color:var(--learn-accent); font-weight:700; }
+.study-semesters>span { color:var(--text-sub); }
+
+/* Whole-card targets without nested links or buttons. Child links remain independent. */
+.study-family-card,.study-chapter-card,.subject-directory-item { position:relative; isolation:isolate; }
+.study-card-hit,.study-chapter-hit { position:absolute; inset:0; width:100%; height:100%; z-index:1; border:0; border-radius:inherit; background:transparent; cursor:pointer; }
+.study-card-hit:hover,.study-chapter-hit:hover { box-shadow:inset 0 0 0 2px var(--learn-accent); }
+.study-child-list,.study-chapter-card .course-track-links { position:relative; z-index:2; }
+.study-card-prompt { display:inline-flex; align-items:center; gap:.75rem; color:var(--learn-accent); font-weight:700; min-height:48px; }
+.subject-directory-item>.directory-open { position:absolute; inset:0; z-index:1; width:100%; height:100%; border-radius:inherit; justify-content:flex-end; align-items:flex-start; padding:1rem; }
+.subject-directory-item h2 a,.subject-directory-item .resource-quick-links { position:relative; z-index:2; }
+.subject-directory-item>.directory-open:focus-visible,.study-card-hit:focus-visible,.study-chapter-hit:focus-visible { outline:3px solid var(--learn-accent); outline-offset:3px; }
+.study-family-card>p,.study-option-card>p,.subject-directory-item>div>p,.subject-resource-item p,.course-route>p,.language-directory-card>p { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; line-clamp:3; overflow:hidden; overflow-wrap:anywhere; }
+.study-option-card { min-height:48px; width:100%; }
+@media(max-width:719px) { .study-family-card,.study-option-card { padding:1.25rem; }.study-family-grid { gap:1rem; }.study-child-list>a,.study-child-list>button { width:100%; } }

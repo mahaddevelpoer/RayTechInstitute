@@ -148,6 +148,8 @@ export const EducationalStore = {
           slug: c.slug,
           title: c.title,
           numericGrade: c.numeric_grade,
+          programTitle: c.program_title || undefined,
+          semesterNumber: c.semester_number || undefined,
           description: c.description,
           isActive: c.is_active,
         }));
@@ -317,20 +319,21 @@ export const EducationalStore = {
     return getFromStorage(STORAGE_KEYS.CLASSES, INITIAL_CLASSES);
   },
   async saveClass(item: ClassItem): Promise<void> {
-    const list = this.getClasses();
+    const list = [...this.getClasses()];
     const idx = list.findIndex((c) => c.slug === item.slug);
     if (idx >= 0) list[idx] = item;
     else list.push(item);
-    saveToStorage(STORAGE_KEYS.CLASSES, list);
-
     await mutateContent("classes", "upsert", {
       id: item.id,
       slug: item.slug,
       title: item.title,
       numeric_grade: item.numericGrade,
+      program_title: item.programTitle || null,
+      semester_number: item.semesterNumber || null,
       description: item.description,
       is_active: item.isActive,
     });
+    saveToStorage(STORAGE_KEYS.CLASSES, list);
     this.invalidateCache();
   },
 

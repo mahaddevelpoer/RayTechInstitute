@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   INITIAL_CLASSES,
@@ -23,6 +23,11 @@ export function NotesClientView({
   const [query, setQuery] = useState("");
   const [chapter, setChapter] = useState("all");
   const [book, setBook] = useState("all");
+  useEffect(() => {
+    const requested = Number(new URLSearchParams(window.location.search).get('chapter'));
+    setChapter(INITIAL_CHAPTERS.some(c => c.classSlug === classSlug && c.subjectSlug === subjectSlug && c.chapterNumber === requested) ? String(requested) : 'all');
+    setBook('all');
+  }, [classSlug, subjectSlug]);
   const bookLayout = usesChapterBooks(classSlug, subjectSlug);
   const chapterForNote = (note: NoteItem) => INITIAL_CHAPTERS.find(item => item.classSlug === classSlug && item.subjectSlug === subjectSlug && item.chapterNumber === note.chapterNumber) || { ...note, title: note.chapterTitle };
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);

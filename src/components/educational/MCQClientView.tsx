@@ -94,9 +94,11 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
     setFinished(false);
     setAnswers({});
     setCurrentIndex(0);
-    setSelectedChapter(singleTopicChapter(nextMCQs));
+    const requestedChapter = Number(new URLSearchParams(window.location.search).get('chapter'));
+    const chosenChapter = nextMCQs.some(q => q.chapterNumber === requestedChapter) ? requestedChapter : singleTopicChapter(nextMCQs);
+    setSelectedChapter(chosenChapter);
     setSelectedTopic(null);
-    setTopicPickerOpen(singleTopicChapter(nextMCQs) !== "all");
+    setTopicPickerOpen(chosenChapter !== "all");
   }, [classSlug, subjectSlug]);
 
   useEffect(() => {

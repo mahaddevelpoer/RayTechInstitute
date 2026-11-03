@@ -5,6 +5,8 @@ import { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ClassesClientView } from "@/components/educational/ClassesClientView";
+import { INITIAL_CLASSES, INITIAL_SUBJECTS } from '@/data/staticCatalog';
+import { LEARNING_COURSES, LEARNING_LANGUAGES } from '@/data/learningCatalog';
 import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 
 export const metadata: Metadata = {
@@ -55,7 +57,12 @@ export default function ClassesIndexPage() {
           dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
-        <ClassesClientView />
+        <ClassesClientView
+          classes={INITIAL_CLASSES.filter(item => item.isActive)}
+          subjects={INITIAL_SUBJECTS}
+          courses={LEARNING_COURSES.filter(item => item.state === 'published').map(({id,slug,title,description}) => ({id,slug,title,description}))}
+          languages={LEARNING_LANGUAGES.filter(item => item.state === 'published').map(({id,slug,title,description}) => ({id,slug,title,description}))}
+        />
       </main>
 
       <Footer />

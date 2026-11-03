@@ -1,4 +1,7 @@
 export interface ClassItem {
+  /** Optional academic grouping; existing class URLs remain unchanged. */
+  programTitle?: string;
+  semesterNumber?: number;
   id: string;
   slug: string;
   title: string;

@@ -45,6 +45,10 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      - name: Verify academic placement validation and migration replay
+        if: github.event_name != 'repository_dispatch'
+        run: node --max-old-space-size=256 --test --test-concurrency=1 scripts/academic-structure.test.mjs scripts/academic-migration.test.mjs && node --max-old-space-size=256 scripts/check-academic-types.mjs
+
       - name: Verify private competition scoring and access controls
         if: github.event_name != 'repository_dispatch'
         run: npm run test:competition
@@ -101,6 +105,17 @@ jobs:
           path: |
             out/deployment.json
             out/**/*.html
+
+      - name: Verify academic cards against the exported website before publishing
+        run: node --max-old-space-size=384 scripts/verify-academic-cards.mjs
+
+      - name: Retain academic navigation screenshots
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: academic-cards
+          path: artifacts/academic-cards/*.png
+          if-no-files-found: ignore
 
       - name: Deploy to Firebase Hosting live channel
         id: hosting

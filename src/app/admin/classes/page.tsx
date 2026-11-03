@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { GraduationCap, Plus, CheckCircle, Trash2, Edit2, X, RefreshCw } from 'lucide-react';
 import { EducationalStore } from '@/data/educationalStore';
+import { academicPlacement } from '@/utils/academic-structure';
 import { adminOperation } from '@/utils/admin-operation';
 import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { adminStudyContext } from '@/utils/admin-study-context';
@@ -16,6 +17,8 @@ export default function AdminClassesPage() {
   const [slug, setSlug] = useState('');
   const [numericGrade, setNumericGrade] = useState<number>(11);
   const [description, setDescription] = useState('');
+  const [programTitle, setProgramTitle] = useState('');
+  const [semesterNumber, setSemesterNumber] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
   const [editingId, setEditingId] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
@@ -92,6 +95,7 @@ export default function AdminClassesPage() {
     if (!title.trim() || !slug.trim()) return;
 
     const classData: ClassItem = {
+      ...academicPlacement(programTitle, semesterNumber),
       id: editingId || `class-${Date.now()}`,
       title: title.trim(),
       slug: slug.trim().toLowerCase().replace(/\s+/g, '-'),
@@ -100,6 +104,9 @@ export default function AdminClassesPage() {
       isActive: true,
     };
 
+    if (classData.programTitle && classes.some(c => c.id !== classData.id && c.programTitle?.trim().toLowerCase() === classData.programTitle!.toLowerCase() && c.semesterNumber === classData.semesterNumber)) {
+      throw new Error('This program already has that semester. Edit the existing semester instead.');
+    }
     await EducationalStore.saveClass(classData);
     setClasses(EducationalStore.getClasses());
     resetForm();
@@ -110,6 +117,8 @@ export default function AdminClassesPage() {
   const handleEdit = (cls: ClassItem) => {
     setEditingId(cls.id);
     setTitle(cls.title);
+    setProgramTitle(cls.programTitle || '');
+    setSemesterNumber(cls.semesterNumber ? String(cls.semesterNumber) : '');
     setSlug(cls.slug);
     setNumericGrade(cls.numericGrade);
     setDescription(cls.description || '');
@@ -118,6 +127,8 @@ export default function AdminClassesPage() {
 
   const resetForm = () => {
     setEditingId(null);
+    setProgramTitle('');
+    setSemesterNumber('');
     setTitle('');
     setSlug('');
     setNumericGrade(11);
@@ -138,9 +149,9 @@ export default function AdminClassesPage() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200 gap-2">
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold text-navy-900">Manage Academic Classes</h1>
+          <h1 className="text-xl sm:text-2xl font-bold text-navy-900">Manage Classes & Program Semesters</h1>
           <p className="text-xs text-slate-500 mt-1">
-            Dynamic class hierarchy. Edit or delete classes permanently with real-time Supabase cloud synchronization.
+            Arrange school classes or program semesters, then manage their subjects and chapters. Public resources use the static publishing process.
           </p>
         </div>
         <button
@@ -181,8 +192,19 @@ export default function AdminClassesPage() {
           </div>
 
           <form onSubmit={handleSaveClass} className="space-y-4 text-xs">
+            <fieldset className="space-y-3 border border-slate-200 rounded-lg p-3">
+              <legend className="font-semibold px-1">Program placement (optional)</legend>
+              <p className="text-slate-600">For DIT, BS, ADP or another semester-based program, enter both fields. Leave both empty for a school class. Existing URLs stay unchanged.</p>
+              <label className="block font-semibold">Program name
+                <input value={programTitle} onChange={e => setProgramTitle(e.target.value)} maxLength={100} placeholder="e.g. DIT" className="mt-1 w-full min-h-12 px-3 border border-slate-300 rounded" list="academic-program-names" />
+              </label>
+              <datalist id="academic-program-names">{Array.from(new Set(classes.map(c => c.programTitle).filter(Boolean))).map(name => <option key={name} value={name} />)}</datalist>
+              <label className="block font-semibold">Semester number
+                <input type="number" min={1} max={16} step={1} value={semesterNumber} onChange={e => setSemesterNumber(e.target.value)} placeholder="e.g. 1" className="mt-1 w-full min-h-12 px-3 border border-slate-300 rounded" />
+              </label>
+            </fieldset>
             <div>
-              <label className="block font-semibold text-slate-700 mb-1">Class Title</label>
+              <label className="block font-semibold text-slate-700 mb-1">Class / semester title</label>
               <input
                 type="text"
                 value={title}
@@ -258,6 +280,7 @@ export default function AdminClassesPage() {
                     /{cls.slug}
                   </span>
                 </div>
+                {cls.programTitle && cls.semesterNumber && <p className="text-xs font-semibold text-navy-700">{cls.programTitle} / Semester {cls.semesterNumber}</p>}
                 <p className="text-xs text-slate-600 leading-relaxed">{cls.description}</p>
                 <div className="text-[11px] text-slate-500 pt-1">
                   Grade Level: <span className="font-semibold text-slate-700">{cls.numericGrade}</span> &bull; Status: <span className="text-emerald-600 font-semibold">Active</span>

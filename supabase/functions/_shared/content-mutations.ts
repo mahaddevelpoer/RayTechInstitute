@@ -1,3 +1,4 @@
+import { academicPlacement } from './academic-structure.ts';
 const tables=new Set(['classes','subjects','chapters','notes','mcqs','past_papers','gazettes','blogs','video_mcqs']);
 export async function readEducationalCatalog(base:string,key:string,fetcher:typeof fetch=fetch){
  const catalog:Record<string,unknown[]>={};
@@ -18,6 +19,10 @@ export async function writeEducationalContent(base:string,key:string,payload:any
  }else{
   body=payload.record;
   if(!body||typeof body!=='object'||Array.isArray(body)||typeof body.id!=='string'||!body.id.trim())throw new Error('A valid content identity is required.');
+  if(table==='classes'&&('program_title' in body||'semester_number' in body)){
+   const placement=academicPlacement(body.program_title,body.semester_number);
+   body={...body,program_title:placement.programTitle||null,semester_number:placement.semesterNumber||null};
+  }
   if(['gazettes','notes','past_papers','blogs'].includes(table)&&(!body.title||typeof body.title!=='string'))throw new Error('Add a title before saving.');
   for(const field of ['pdf_url','preview_pdf_url','direct_result_url','action_button_url']){
    if(!body[field])continue;
