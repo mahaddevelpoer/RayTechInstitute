@@ -24,7 +24,7 @@ export function NotesClientView({
   const [chapter, setChapter] = useState("all");
   const [book, setBook] = useState("all");
   useEffect(() => {
-    const requested = Number(new URLSearchParams(window.location.search).get('chapter'));
+    const requested = Number(new window.URLSearchParams(window.location.search).get('chapter'));
     setChapter(INITIAL_CHAPTERS.some(c => c.classSlug === classSlug && c.subjectSlug === subjectSlug && c.chapterNumber === requested) ? String(requested) : 'all');
     setBook('all');
   }, [classSlug, subjectSlug]);

@@ -33,7 +33,7 @@ export default function AdminClassesPage() {
 
   const loadData = async () => {
     setIsSyncing(true);
-    await EducationalStore.syncFromSupabase();
+    await EducationalStore.syncFromSupabase(true);
     setClasses(EducationalStore.getClasses());
     setSubjects(EducationalStore.getSubjects());
     setChapters(EducationalStore.getChapters());

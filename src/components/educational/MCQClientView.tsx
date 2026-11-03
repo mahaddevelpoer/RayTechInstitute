@@ -94,7 +94,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
     setFinished(false);
     setAnswers({});
     setCurrentIndex(0);
-    const requestedChapter = Number(new URLSearchParams(window.location.search).get('chapter'));
+    const requestedChapter = Number(new window.URLSearchParams(window.location.search).get('chapter'));
     const chosenChapter = nextMCQs.some(q => q.chapterNumber === requestedChapter) ? requestedChapter : singleTopicChapter(nextMCQs);
     setSelectedChapter(chosenChapter);
     setSelectedTopic(null);
