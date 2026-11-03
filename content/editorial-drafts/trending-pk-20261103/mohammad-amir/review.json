@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2092,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -17,7 +17,9 @@
     "Retirement statements are explicitly dated; no unverified later comeback, current contract or new retirement inferred.",
     "Career figures use the PCB international sample; original bowling calculations are fictional examples."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-02-validation.json"
+  "localChecks": "batch-02-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

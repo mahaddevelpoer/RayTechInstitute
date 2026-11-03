@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2045,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -15,7 +15,9 @@
     "Surrey announcement covers three fixtures, not an inferred whole-season contract.",
     "No exact runs reconstructed from a rounded average or unpublished career inputs."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-02-validation.json"
+  "localChecks": "batch-02-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

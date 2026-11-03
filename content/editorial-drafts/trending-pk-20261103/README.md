@@ -77,3 +77,19 @@ Current cumulative total: **21 locally verified articles**, **44,204 body words*
 [Al Ittihad vs Al Ain: 1-4 Result, Goals and Campaign Context](al-ittihad-vs-al-ain/article.md): 2,196 body words, 42 distinct relevant tags, two distinct licensed contextual photographs. Neither photograph is represented as the reported match. Result and timeline use official English/Arabic AFC reporting and the club fixture record; no invented live table, xG, quotes or player ratings.
 
 Latest cumulative state: **22 verified local articles**, **46,400 body words**, **44 distinct images**. **18 new topic groups remain**, with the 11 existing-page reviews separate. **0 published**. Latest checks: `batch-04-validation.json`. Earlier totals above describe their respective batches.
+
+## Publication approval and current release
+
+On 3 November 2026 the user explicitly authorised publishing completed verified articles as they become ready. This is now a standing article-only rule in `AGENTS.md`; unfinished academic UI, schema and other features remain excluded. Earlier unpublished totals above are historical batch records.
+
+- First 22 articles: live pages, 44 images, blog listing and sitemap independently verified; GitHub release `41653691521` passed.
+- Forex Factory guide: 2,312 words, 42 relevant tags and two distinct licensed photographs. Database save/read-back verified; its content-only static release is in progress.
+- Total written and locally verified: 23 articles, 48,712 body words, 46 distinct images.
+- Remaining new topics: 17; existing-page reviews: 11; user-excluded queries: 7.
+- Article releases use an isolated checkout. No unfinished program/semester UI or schema migration was deployed.
+
+## Current live state
+
+**23 articles published and live-verified.** Each article returned HTTP 200, its two unique image URLs returned HTTP 200 and appeared in the article HTML, and its URL appeared in the blog listing and sitemap. Evidence: `publication-verification.json`. The first release passed GitHub run `41653691521`; Forex Factory used isolated content release `41655019699`. All prior unpublished totals are historical preparation records.
+
+**17 new article topics still need completion.** The 11 existing-page review rows are separate work. Standing article-only publication approval is recorded in `AGENTS.md`. No unfinished academic UI or schema migration was released.

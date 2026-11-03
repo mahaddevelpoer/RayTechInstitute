@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2158,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -25,7 +25,9 @@
     "Timetables and student scenarios are original fictional planning examples, not clinical evidence.",
     "No clinician review or academic performance guarantee is claimed."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-03-validation.json"
+  "localChecks": "batch-03-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

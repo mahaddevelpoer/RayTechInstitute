@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2312,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -25,7 +25,9 @@
     "US CFTC guidance is not presented as Pakistani legal permission or local regulatory coverage.",
     "Photographs are contextual, not screenshots of Forex Factory."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-05-validation.json"
+  "localChecks": "batch-05-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

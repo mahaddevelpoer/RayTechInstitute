@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2062,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -18,7 +18,9 @@
     "No current finals qualification, invented NRR reconstruction or Pakistan broadcast entitlement.",
     "Scoring examples are original illustrations, not additional WBBL results."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-02-validation.json"
+  "localChecks": "batch-02-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2055,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -20,7 +20,9 @@
     "Current status reviewed on 3 November 2026; earlier ODI and open T20I discussions remain separately dated.",
     "Continuing contract is not a guaranteed starting-eleven appearance; no private motive, transfer or new role inferred."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-01-validation.json"
+  "localChecks": "batch-01-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

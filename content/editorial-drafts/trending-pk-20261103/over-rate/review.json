@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2044,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -20,7 +20,9 @@
     "The Pakistan sanction follows the dated ICC announcement. Worked timing calculations are original illustrations, not an official reconstruction.",
     "Do not treat a historical stop-clock announcement as a complete rulebook for every format."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-01-validation.json"
+  "localChecks": "batch-01-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }

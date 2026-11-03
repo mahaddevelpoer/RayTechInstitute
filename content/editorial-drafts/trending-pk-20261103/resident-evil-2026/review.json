@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2051,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -15,7 +15,9 @@
     "Home-viewing destinations do not establish Pakistan subscription inclusion or a tested transaction.",
     "Stale production-page label is disclosed; no new postponement, local rating or uncredited role invented."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-02-validation.json"
+  "localChecks": "batch-02-validation.json",
+  "liveVerification": "publication-verification.json",
+  "verifiedAt": "2026-11-03T14:41:33.209Z"
 }
