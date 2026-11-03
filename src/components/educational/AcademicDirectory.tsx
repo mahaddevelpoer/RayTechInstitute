@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { BookOpen, FileText, HelpCircle, ArrowRight, Layers } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import type { ClassItem, SubjectItem } from '@/types/educational';
+import type { ClassItem, SubjectItem, ChapterItem } from '@/types/educational';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_CHAPTERS } from '@/data/staticCatalog';
 import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { serializeJsonLd } from '@/utils/seo';
@@ -19,7 +19,7 @@ export function SubjectDirectory({grade,subjects,jsonLd}:{grade:ClassItem;subjec
 export function SubjectResources({grade,subject,counts,jsonLd}:{grade:ClassItem;subject:SubjectItem;counts:{notes:number;mcqs:number;papers:number};jsonLd:unknown}){
  const base=`/classes/${grade.slug}/${subject.slug}`;
  const semesters = grade.programTitle ? INITIAL_CLASSES.filter(c => c.isActive && c.programTitle?.trim().toLowerCase() === grade.programTitle?.trim().toLowerCase()).sort((a,b) => (a.semesterNumber || 0) - (b.semesterNumber || 0)) : [];
- const chapters = INITIAL_CHAPTERS.filter(c => c.classSlug === grade.slug && c.subjectSlug === subject.slug && c.isActive !== false).sort((a,b) => a.chapterNumber - b.chapterNumber);
+ const chapters: ChapterItem[] = INITIAL_CHAPTERS.filter(c => c.classSlug === grade.slug && c.subjectSlug === subject.slug && c.isActive !== false).sort((a,b) => a.chapterNumber - b.chapterNumber);
 
  const resources=[{slug:'notes',title:'Chapter notes',description:'Read the chapter guide, preview the document and keep a PDF for revision.',count:counts.notes,unit:'documents',Icon:FileText},{slug:'mcqs',title:'Chapter practice & tests',description:'Choose a chapter, answer one question at a time and review your score after submission.',count:counts.mcqs,unit:'questions',Icon:HelpCircle},{slug:'past-papers',title:'Board past papers',description:'Find the examination year and board, then open its paper and study guidance.',count:counts.papers,unit:'papers',Icon:Layers}];
  return <div className="academic-page"><Header/><main id="main-content" className="page-main" tabIndex={-1}><script type="application/ld+json" dangerouslySetInnerHTML={{__html:serializeJsonLd(jsonLd)}}/>

@@ -1,5 +1,8 @@
 import fs from 'node:fs';
 import ts from 'typescript';
+const config=ts.readConfigFile('tsconfig.json',ts.sys.readFile);
+if(config.error)throw new Error('Project TypeScript configuration is required');
+const projectOptions=ts.parseJsonConfigFileContent(config.config,ts.sys,'.').options;
 
 const files = [
   'src/app/admin/classes/page.tsx',
@@ -21,14 +24,18 @@ const syntax = files.flatMap(file => ts.transpileModule(fs.readFileSync(file, 'u
 }).diagnostics || []);
 const program = ts.createProgram([
   'supabase/functions/_shared/academic-structure.ts',
-  'supabase/functions/_shared/content-mutations.ts',
+  'src/utils/academic-structure.ts',
   'src/types/educational.ts',
 ], {
-  target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext,
+  target: projectOptions.target ?? ts.ScriptTarget.ES5, lib: projectOptions.lib, downlevelIteration: projectOptions.downlevelIteration, module: ts.ModuleKind.ESNext,
   moduleResolution: ts.ModuleResolutionKind.Bundler,
   strict: true, noEmit: true, skipLibCheck: true, types: [], allowImportingTsExtensions: true,
 });
-const errors = [...syntax, ...ts.getPreEmitDiagnostics(program)].filter(d => d.category === ts.DiagnosticCategory.Error);
+const edgeProgram=ts.createProgram(['supabase/functions/_shared/content-mutations.ts'],{
+  target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext,moduleResolution:ts.ModuleResolutionKind.Bundler,
+  strict:true,noEmit:true,skipLibCheck:true,types:[],allowImportingTsExtensions:true,
+});
+const errors = [...syntax, ...ts.getPreEmitDiagnostics(program), ...ts.getPreEmitDiagnostics(edgeProgram)].filter(d => d.category === ts.DiagnosticCategory.Error);
 if (errors.length) {
   console.error(ts.formatDiagnosticsWithColorAndContext(errors, {
     getCurrentDirectory: () => process.cwd(), getCanonicalFileName: f => f, getNewLine: () => '\n',

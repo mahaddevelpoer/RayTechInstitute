@@ -23,5 +23,5 @@ export function academicGroups<T extends { programTitle?: string; semesterNumber
     if (!programs.has(key)) programs.set(key, { title, semesters: [] });
     programs.get(key)!.semesters.push(item);
   }
-  return { schoolClasses, programs: [...programs.values()].map(p => ({ ...p, semesters: p.semesters.sort((a, b) => a.semesterNumber! - b.semesterNumber!) })) };
+  return { schoolClasses, programs: Array.from(programs.values()).map(p => ({ ...p, semesters: p.semesters.sort((a, b) => a.semesterNumber! - b.semesterNumber!) })) };
 }
