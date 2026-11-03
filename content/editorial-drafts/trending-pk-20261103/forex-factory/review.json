@@ -1,0 +1,31 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2312,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.forexfactory.com/userguide"
+    },
+    {
+      "url": "https://calendar.forexfactory.com/calendar"
+    },
+    {
+      "url": "https://www.bls.gov/bls/newsrels.htm"
+    },
+    {
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CustomerAdvisory_MustKnowForex.html"
+    }
+  ],
+  "factualLimitations": [
+    "General financial literacy, not personalised financial advice, trading signals or a broker recommendation.",
+    "All numerical examples are fictional; no live data or present price is supplied.",
+    "US CFTC guidance is not presented as Pakistani legal permission or local regulatory coverage.",
+    "Photographs are contextual, not screenshots of Forex Factory."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-05-validation.json"
+}

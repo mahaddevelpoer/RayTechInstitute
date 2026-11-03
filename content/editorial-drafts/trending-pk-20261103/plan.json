@@ -552,9 +552,12 @@
         "forex factory"
       ],
       "searchVolumeLabel": "1k+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "forex-factory"
+      "draftDirectory": "forex-factory",
+      "words": 2312,
+      "slug": "forex-factory-calendar-pakistan-time-data-guide",
+      "images": 2
     },
     {
       "key": "anthropic-ipo",
@@ -1044,8 +1047,8 @@
     "priority": "Answer the actual query before background; no generic learning-guide padding or unrelated fictional exercises."
   },
   "excludedRows": 7,
-  "localVerified": 22,
-  "remainingNewTopics": 18,
+  "localVerified": 23,
+  "remainingNewTopics": 17,
   "rowDispositionSummary": {
     "newTopicGroups": 40,
     "existingSearchRowsToReviewWithoutNewUrls": 11,
