@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2061,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -26,7 +26,8 @@
     "Later September club confirmation supersedes earlier domestic intentions.",
     "No final career totals are inferred from a pre-farewell statistics snapshot; contracts do not guarantee selection."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-08-validation.json"
+  "localChecks": "batch-08-validation.json",
+  "liveVerification": "publication-verification.json"
 }

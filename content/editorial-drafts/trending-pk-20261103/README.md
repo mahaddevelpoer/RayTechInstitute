@@ -97,3 +97,7 @@ On 3 November 2026 the user explicitly authorised publishing completed verified 
 ## Next ten-article batch
 
 Ten additional articles passed cumulative checks in `batch-08-validation.json`: 21,340 body words, 20 distinct licensed photographs. Current local total: 33 articles, 70,052 words and 66 unique images. The previous 23 are live; these ten await this batch release. Seven new topics remain. Photo identity, source discrepancies, historical captions and metadata have been reviewed. No unfinished academic UI or schema is included.
+
+## Ten-article release complete
+
+All 33 November 3 articles are now live-verified: article HTTP 200, both image URLs HTTP 200 and present in article HTML, and each URL present in the blog listing and sitemap. GitHub hosting run `41665201736` succeeded. Release commit: `e29e8c0`. Total: 70,052 body words and 66 unique images. Seven new topic groups remain.

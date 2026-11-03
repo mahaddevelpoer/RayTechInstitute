@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T14:41:33.209Z",
+  "checkedAt": "2026-11-03T15:42:12.132Z",
   "results": [
     {
       "name": "adrian-hamilton-manns-pia",
@@ -16,6 +16,27 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261103/adrian-hamilton-manns-pia-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "name": "afc-champions-league",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/afc-champions-league-elite-2026-27-format-results/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/afc-champions-league-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/afc-champions-league-inline.webp",
           "status": 200,
           "present": true
         }
@@ -44,6 +65,27 @@
       "verified": true
     },
     {
+      "name": "al-wasl-vs-al-quwa-al-jawiya",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/al-wasl-al-quwa-al-jawiya-4-3-result-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/al-wasl-vs-al-quwa-al-jawiya-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/al-wasl-vs-al-quwa-al-jawiya-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
       "name": "auqib-nabi",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/auqib-nabi-new-zealand-odi-squad-update-2026/",
@@ -65,6 +107,27 @@
       "verified": true
     },
     {
+      "name": "bragantino-vs-santos",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/bragantino-santos-2-1-result-brasileirao-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/bragantino-vs-santos-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/bragantino-vs-santos-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
       "name": "cyber-attacks",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/cyber-attacks-student-account-device-safety/",
@@ -79,27 +142,6 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261103/cyber-attacks-inline.webp",
-          "status": 200,
-          "present": true
-        }
-      ],
-      "verified": true
-    },
-    {
-      "name": "fatima-sana",
-      "batch": "20261103",
-      "url": "https://raytechinstitute.com/blogs/fatima-sana-pakistan-career-award-captaincy/",
-      "status": 200,
-      "listing": true,
-      "sitemap": true,
-      "images": [
-        {
-          "url": "/images/editorial/trending-pk-20261103/fatima-sana-cover.webp",
-          "status": 200,
-          "present": true
-        },
-        {
-          "url": "/images/editorial/trending-pk-20261103/fatima-sana-inline.webp",
           "status": 200,
           "present": true
         }
@@ -149,27 +191,6 @@
       "verified": true
     },
     {
-      "name": "gurnoor-brar",
-      "batch": "20261103",
-      "url": "https://raytechinstitute.com/blogs/gurnoor-brar-odi-squad-gujarat-titans-bowling/",
-      "status": 200,
-      "listing": true,
-      "sitemap": true,
-      "images": [
-        {
-          "url": "/images/editorial/trending-pk-20261103/gurnoor-brar-cover.webp",
-          "status": 200,
-          "present": true
-        },
-        {
-          "url": "/images/editorial/trending-pk-20261103/gurnoor-brar-inline.webp",
-          "status": 200,
-          "present": true
-        }
-      ],
-      "verified": true
-    },
-    {
       "name": "helicopter",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/how-helicopter-flies-rotors-hovering-controls/",
@@ -184,6 +205,27 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261103/helicopter-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "name": "hq-19",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/hq-19-public-evidence-missile-defence-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/hq-19-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/hq-19-inline.webp",
           "status": 200,
           "present": true
         }
@@ -317,6 +359,27 @@
       "verified": true
     },
     {
+      "name": "perth-scorchers-vs-melbourne-stars",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/perth-scorchers-melbourne-stars-wbbl-result-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/perth-scorchers-vs-melbourne-stars-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/perth-scorchers-vs-melbourne-stars-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
       "name": "quaid-e-azam-trophy",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/quaid-e-azam-trophy-2026-27-gold-silver-schedule/",
@@ -331,6 +394,27 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261103/quaid-e-azam-trophy-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "name": "rajinikanth",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/rajinikanth-career-dadasaheb-phalke-jailer-films/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/rajinikanth-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/rajinikanth-inline.webp",
           "status": 200,
           "present": true
         }
@@ -380,6 +464,27 @@
       "verified": true
     },
     {
+      "name": "shabana-mahmood",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/shabana-mahmood-home-secretary-settlement-announcement/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/shabana-mahmood-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/shabana-mahmood-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
       "name": "sleep",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/sleep-students-hours-routine-exam-planning/",
@@ -401,6 +506,27 @@
       "verified": true
     },
     {
+      "name": "taika-waititi",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/taika-waititi-films-television-oscar-viewing-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/taika-waititi-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/taika-waititi-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
       "name": "us-midterm-elections",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/us-midterm-elections-2026-voting-results-explained/",
@@ -415,6 +541,27 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261103/us-midterm-elections-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "name": "usman-khawaja",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/usman-khawaja-international-retirement-bbl-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/usman-khawaja-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/usman-khawaja-inline.webp",
           "status": 200,
           "present": true
         }
@@ -464,6 +611,27 @@
       "verified": true
     },
     {
+      "name": "anthropic-ipo",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/anthropic-ipo-sec-filing-share-questions-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/anthropic-ipo-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/anthropic-ipo-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
       "name": "forex-factory",
       "batch": "20261103",
       "url": "https://raytechinstitute.com/blogs/forex-factory-calendar-pakistan-time-data-guide/",
@@ -478,6 +646,48 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261103/forex-factory-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "name": "gurnoor-brar",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/gurnoor-brar-odi-squad-gujarat-titans-bowling/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/gurnoor-brar-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/gurnoor-brar-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "name": "fatima-sana",
+      "batch": "20261103",
+      "url": "https://raytechinstitute.com/blogs/fatima-sana-pakistan-career-award-captaincy/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261103/fatima-sana-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261103/fatima-sana-inline.webp",
           "status": 200,
           "present": true
         }

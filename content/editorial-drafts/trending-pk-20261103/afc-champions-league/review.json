@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2128,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -32,7 +32,8 @@
     "Later 2026-27 expansion information takes precedence over older 24-club format descriptions.",
     "Results and selected points are dated snapshots, not a continuously updated table or a qualification guarantee."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-08-validation.json"
+  "localChecks": "batch-08-validation.json",
+  "liveVerification": "publication-verification.json"
 }

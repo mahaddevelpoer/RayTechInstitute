@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2132,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -38,7 +38,8 @@
     "Editorial viewing guidance based on credited work and official synopses; no claimed advance screening.",
     "No unverified release date, country availability or first-hand film review."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-08-validation.json"
+  "localChecks": "batch-08-validation.json",
+  "liveVerification": "publication-verification.json"
 }

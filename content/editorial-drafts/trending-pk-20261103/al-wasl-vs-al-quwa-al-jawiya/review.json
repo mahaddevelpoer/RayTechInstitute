@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2122,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -20,7 +20,8 @@
     "AFC and club reports give different minutes for the second Gimenez goal; the disagreement is disclosed.",
     "No invented possession, expected goals, player ratings, exact live position or qualification claim."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-08-validation.json"
+  "localChecks": "batch-08-validation.json",
+  "liveVerification": "publication-verification.json"
 }

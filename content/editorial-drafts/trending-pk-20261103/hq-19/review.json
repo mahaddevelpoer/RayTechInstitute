@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "words": 2112,
   "sourceChecked": "2026-11-03",
   "sources": [
@@ -20,7 +20,8 @@
     "High-level public information only; no operational settings, locations, targeting or vulnerability instructions.",
     "No verified Pakistan deployment, exact performance envelope or guaranteed interception rate is asserted."
   ],
-  "published": false,
+  "published": true,
   "imageVisualReview": "passed",
-  "localChecks": "batch-08-validation.json"
+  "localChecks": "batch-08-validation.json",
+  "liveVerification": "publication-verification.json"
 }

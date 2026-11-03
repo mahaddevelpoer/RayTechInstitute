@@ -6,7 +6,7 @@
   "existingRows": 11,
   "ambiguousRows": 0,
   "mergedRows": 1,
-  "published": 23,
+  "published": 33,
   "publicationAuthorized": true,
   "publicationNote": "User authorized publishing completed verified articles on 3 November 2026, with standing approval for future completed article releases. Unfinished UI and schema changes are excluded.",
   "groups": [
@@ -231,8 +231,8 @@
         "rajinikanth"
       ],
       "searchVolumeLabel": "500+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "rajinikanth",
       "words": 2184,
       "slug": "rajinikanth-career-dadasaheb-phalke-jailer-films",
@@ -352,8 +352,8 @@
         "al sadd vs al-ahli"
       ],
       "searchVolumeLabel": "2k+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "afc-champions-league",
       "words": 2128,
       "slug": "afc-champions-league-elite-2026-27-format-results",
@@ -404,8 +404,8 @@
         "taika waititi"
       ],
       "searchVolumeLabel": "200+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "taika-waititi",
       "words": 2132,
       "slug": "taika-waititi-films-television-oscar-viewing-guide",
@@ -437,8 +437,8 @@
         "hq-19"
       ],
       "searchVolumeLabel": "200+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "hq-19",
       "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
       "words": 2112,
@@ -472,8 +472,8 @@
         "bragantino vs santos"
       ],
       "searchVolumeLabel": "200+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "bragantino-vs-santos",
       "words": 2178,
       "slug": "bragantino-santos-2-1-result-brasileirao-november-2026",
@@ -538,8 +538,8 @@
         "usman khawaja"
       ],
       "searchVolumeLabel": "200+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "usman-khawaja",
       "words": 2061,
       "slug": "usman-khawaja-international-retirement-bbl-2026",
@@ -587,8 +587,8 @@
         "anthropic ipo"
       ],
       "searchVolumeLabel": "200+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "anthropic-ipo",
       "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
       "words": 2201,
@@ -605,8 +605,8 @@
         "al wasl vs al-quwa al-jawiya"
       ],
       "searchVolumeLabel": "200+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "al-wasl-vs-al-quwa-al-jawiya",
       "words": 2122,
       "slug": "al-wasl-al-quwa-al-jawiya-4-3-result-november-2026",
@@ -639,8 +639,8 @@
         "shabana mahmood"
       ],
       "searchVolumeLabel": "100+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "shabana-mahmood",
       "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
       "words": 2128,
@@ -691,8 +691,8 @@
         "perth scorchers vs melbourne stars"
       ],
       "searchVolumeLabel": "100+",
-      "state": "local-verified-unpublished",
-      "published": false,
+      "state": "published-live-verified",
+      "published": true,
       "draftDirectory": "perth-scorchers-vs-melbourne-stars",
       "words": 2094,
       "slug": "perth-scorchers-melbourne-stars-wbbl-result-november-2026",
@@ -918,7 +918,7 @@
     },
     {
       "row": 36,
-      "query": "Ú©Ø±Ú©Ù¹",
+      "query": "ÃšÂ©Ã˜Â±ÃšÂ©Ã™Â¹",
       "state": "existing-page-review-update-needed",
       "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
       "action": "Review current facts and improve existing page; do not create competing URL."
@@ -943,7 +943,7 @@
     },
     {
       "row": 40,
-      "query": "Ù¾Ø§Ú©Ø³ØªØ§Ù† Ù‚ÙˆÙ…ÛŒ Ú©Ø±Ú©Ù¹ Ù¹ÛŒÙ…",
+      "query": "Ã™Â¾Ã˜Â§ÃšÂ©Ã˜Â³Ã˜ÂªÃ˜Â§Ã™â€  Ã™â€šÃ™Ë†Ã™â€¦Ã›Å’ ÃšÂ©Ã˜Â±ÃšÂ©Ã™Â¹ Ã™Â¹Ã›Å’Ã™â€¦",
       "state": "existing-page-review-update-needed",
       "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
       "action": "Review current facts and improve existing page; do not create competing URL."
