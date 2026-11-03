@@ -1,0 +1,27 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2023,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.sassuolocalcio.it/prima-squadra/serie-a-enilive-anticipi-e-posticipi-dalla-6-alla-12-giornata/"
+    },
+    {
+      "url": "https://www.fotmob.com/en-GB/matches/sassuolo-vs-fiorentina/28u7rc"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/sassuolo-fiorentina/TdbsTfb"
+    },
+    {
+      "url": "https://www.tntsports.co.uk/football/serie-a/2026-2027/live-sassuolo-fiorentina_mtc21874333/live.shtml"
+    }
+  ],
+  "factualLimitations": [
+    "Completed results are cross-checked against separate providers; the club announcement establishes fixture timing.",
+    "Provider statistics are attributed, not independently measured.",
+    "No stadium-attendance claim, private tactical access, player ratings or live rank."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}

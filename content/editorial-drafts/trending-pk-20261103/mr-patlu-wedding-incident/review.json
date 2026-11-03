@@ -1,0 +1,43 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2084,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.gulftoday.ae/news/2026/11/01/stampede-at-pakistani-tiktoker-mr-patlus-wedding-leaves-two-dead"
+    },
+    {
+      "url": "https://dailytimes.com.pk/1575966/daska-stampede-police-yet-to-arrest-main-suspect-mr-patlu/"
+    },
+    {
+      "url": "https://minutemirror.com.pk/azma-bokhari-unable-to-confirm-mr-patlus-arrest-655432/"
+    },
+    {
+      "url": "https://english.sunonews.tv/pakistan/judiciary/ihc-grants-bail-to-tiktoker-mr-patlu-after-deadly-sialkot-stampede/1793712086-20717"
+    },
+    {
+      "url": "https://kashmirenglish.pk/mr-patlo-breaks-silence-after-wedding-stampede-incident/"
+    },
+    {
+      "url": "https://arynews.tv/mr-patlu-stampede-case-echoes-at-punjab-assembly"
+    },
+    {
+      "url": "https://www.hse.gov.uk/event-safety/crowd-management.htm"
+    },
+    {
+      "url": "https://www.hse.gov.uk/event-safety/crowd-management-assess.htm"
+    },
+    {
+      "url": "https://www.rescue.gov.pk/"
+    }
+  ],
+  "factualLimitations": [
+    "Developing case reporting; allegations, denials and procedural relief are distinguished from findings.",
+    "Protective-bail status is attributed to later court reporting; no court order was independently inspected.",
+    "Casualty and arrest totals differ across sources; no final audited register is asserted.",
+    "Safety guidance is general and is not presented as Pakistani legal advice or a forensic finding."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}

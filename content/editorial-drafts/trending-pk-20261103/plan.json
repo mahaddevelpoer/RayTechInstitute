@@ -21,10 +21,13 @@
         "stampede"
       ],
       "searchVolumeLabel": "10k+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "mr-patlu-wedding-incident",
-      "identityWarning": "Existing mr-patlu folder incorrectly discusses cartoon Motu Patlu; human wedding incident is a distinct entity. Do not recycle cartoon images or allegations."
+      "identityWarning": "Existing mr-patlu folder incorrectly discusses cartoon Motu Patlu; human wedding incident is a distinct entity. Do not recycle cartoon images or allegations.",
+      "words": 2084,
+      "slug": "mr-patlu-wedding-incident-sialkot-case-safety-update",
+      "images": 2
     },
     {
       "key": "pakhtakor-vs-al-nassr",
@@ -56,10 +59,13 @@
         "dananeer mobeen"
       ],
       "searchVolumeLabel": "2k+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "merub-ali",
-      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2003,
+      "slug": "merub-ali-dramas-izzat-dananeer-interview-context",
+      "images": 2
     },
     {
       "key": "vivo-y32-5g",
@@ -146,9 +152,12 @@
         "black clover episode 5"
       ],
       "searchVolumeLabel": "1k+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "black-clover-episode-5"
+      "draftDirectory": "black-clover-episode-5",
+      "words": 2058,
+      "slug": "black-clover-episode-5-season-2-page-175-guide",
+      "images": 2
     },
     {
       "key": "mohammad-amir",
@@ -336,10 +345,13 @@
         "dinesh auluck"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "dinesh-auluck",
-      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2120,
+      "slug": "dinesh-auluck-speed-records-career-jalandhar-news",
+      "images": 2
     },
     {
       "key": "afc-champions-league",
@@ -422,10 +434,13 @@
         "plane crashed"
       ],
       "searchVolumeLabel": "500+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "adam-robinson",
-      "identityWarning": "Common personal name plus unverified plane-crash query; require reliable identity and incident evidence before writing."
+      "identityWarning": "Common personal name plus unverified plane-crash query; require reliable identity and incident evidence before writing.",
+      "words": 2140,
+      "slug": "adam-robinson-retention-florida-learjet-investigation",
+      "images": 2
     },
     {
       "key": "hq-19",
@@ -524,9 +539,12 @@
         "sassuolo vs fiorentina"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "sassuolo-vs-fiorentina"
+      "draftDirectory": "sassuolo-vs-fiorentina",
+      "words": 2023,
+      "slug": "sassuolo-fiorentina-2-4-result-november-2026",
+      "images": 2
     },
     {
       "key": "usman-khawaja",
@@ -555,10 +573,13 @@
         "tucker carlson"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "tucker-carlson",
-      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2118,
+      "slug": "tucker-carlson-career-tcn-interview-reading-guide",
+      "images": 2
     },
     {
       "key": "forex-factory",
@@ -918,7 +939,7 @@
     },
     {
       "row": 36,
-      "query": "ÃšÂ©Ã˜Â±ÃšÂ©Ã™Â¹",
+      "query": "ÃƒÅ¡Ã‚Â©ÃƒËœÃ‚Â±ÃƒÅ¡Ã‚Â©Ãƒâ„¢Ã‚Â¹",
       "state": "existing-page-review-update-needed",
       "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
       "action": "Review current facts and improve existing page; do not create competing URL."
@@ -943,7 +964,7 @@
     },
     {
       "row": 40,
-      "query": "Ã™Â¾Ã˜Â§ÃšÂ©Ã˜Â³Ã˜ÂªÃ˜Â§Ã™â€  Ã™â€šÃ™Ë†Ã™â€¦Ã›Å’ ÃšÂ©Ã˜Â±ÃšÂ©Ã™Â¹ Ã™Â¹Ã›Å’Ã™â€¦",
+      "query": "Ãƒâ„¢Ã‚Â¾ÃƒËœÃ‚Â§ÃƒÅ¡Ã‚Â©ÃƒËœÃ‚Â³ÃƒËœÃ‚ÂªÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Â  Ãƒâ„¢Ã¢â‚¬Å¡Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ€ºÃ…â€™ ÃƒÅ¡Ã‚Â©ÃƒËœÃ‚Â±ÃƒÅ¡Ã‚Â©Ãƒâ„¢Ã‚Â¹ Ãƒâ„¢Ã‚Â¹Ãƒâ€ºÃ…â€™Ãƒâ„¢Ã¢â‚¬Â¦",
       "state": "existing-page-review-update-needed",
       "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
       "action": "Review current facts and improve existing page; do not create competing URL."
@@ -1077,8 +1098,8 @@
     "priority": "Answer the actual query before background; no generic learning-guide padding or unrelated fictional exercises."
   },
   "excludedRows": 7,
-  "localVerified": 33,
-  "remainingNewTopics": 7,
+  "localVerified": 40,
+  "remainingNewTopics": 0,
   "rowDispositionSummary": {
     "newTopicGroups": 40,
     "existingSearchRowsToReviewWithoutNewUrls": 11,

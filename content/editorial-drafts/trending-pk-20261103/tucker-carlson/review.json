@@ -1,0 +1,30 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2118,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.foxnews.com/press/2023/04/fox-news-media-and-tucker-carlson-part-ways"
+    },
+    {
+      "url": "https://prod-v.tuckercarlson.com/about"
+    },
+    {
+      "url": "https://prod-v.tuckercarlson.com/faq"
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/contributor/tucker-carlson/"
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Ship-of-Fools/Tucker-Carlson/9781501183669"
+    }
+  ],
+  "factualLimitations": [
+    "Neutral media profile, not political endorsement or targeted persuasion.",
+    "Historical roles and book biographies are distinguished from the dated Fox departure.",
+    "A publisher catalogue verifies publication, not every assertion made by a presenter or guest."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}

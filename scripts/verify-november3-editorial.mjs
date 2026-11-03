@@ -9,6 +9,9 @@ import {hasPrivateCredential} from './private-credential-patterns.mjs';
 const root='content/editorial-drafts/trending-pk-20261103';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const plan=read(`${root}/plan.json`);
+const categoryType=fs.readFileSync('src/types/educational.ts','utf8').match(/export type BlogCategory\s*=([^;]+);/)?.[1];
+assert.ok(categoryType,'Known public blog categories required');
+const categories=new Set([...categoryType.matchAll(/'([^']+)'/g)].map(match=>match[1]));
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'01';
 const expected=Number(process.argv.find(a=>a.startsWith('--expected='))?.slice(11)||plan.localVerified||10);
 assert.match(batch,/^\d{2}$/);
@@ -44,6 +47,7 @@ for(const name of fs.readdirSync(root)){
   const dir=`${root}/${name}`;
   if(!fs.existsSync(`${dir}/post.json`))continue;
   const p=read(`${dir}/post.json`),review=read(`${dir}/review.json`),images=read(`${dir}/images.json`);
+  assert.ok(categories.has(p.category),`${name}: category absent from public blog filters`);
   const original=fs.readFileSync(`${dir}/article.md`,'utf8');
   const body=original.split('## Sources')[0];
   const words=body.trim().split(/\s+/).length;

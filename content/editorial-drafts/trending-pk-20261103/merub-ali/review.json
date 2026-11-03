@@ -1,0 +1,33 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2003,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://arynews.tv/merub-ali-admits-social-medias-role-in-launching-dananeer-romaisa-khan-into-acting"
+    },
+    {
+      "url": "https://arydigital.tv/sinf-e-aahan-drama-plot/"
+    },
+    {
+      "url": "https://hum.tv/cast/merub-ali/"
+    },
+    {
+      "url": "https://hum.tv/dramas/paristan/"
+    },
+    {
+      "url": "https://hum.tv/dramas/wabaal/"
+    },
+    {
+      "url": "https://arydigital.tv/drama/izzat/"
+    }
+  ],
+  "factualLimitations": [
+    "Career credits checked against broadcasters; no exhaustive filmography, future casting or private-life claim.",
+    "Interview remarks are paraphrased, with no invented English quotation or rivalry.",
+    "Licensed production-equipment photographs are explicitly contextual, not misidentified portraits."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}

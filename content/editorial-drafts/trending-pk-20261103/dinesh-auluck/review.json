@@ -1,0 +1,39 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2120,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.tribuneindia.com/news/entertainment/we-need-performers-not-just-singers-152226"
+    },
+    {
+      "url": "https://thelifestylejournalist.com/dinesh-auluck-co-founder-speed-records/"
+    },
+    {
+      "url": "https://in.linkedin.com/company/speed-record"
+    },
+    {
+      "url": "https://yespunjab.com/jalandhar-tragedy-sons-of-speed-records-pappi-sweets-owners-returning-from-birthday-party-die-in-road-accident/"
+    },
+    {
+      "url": "https://www.tribuneindia.com/news/jalandhar/music-world-mourns-divit-auluck-last-rites-today-in-jalandhar/amp"
+    },
+    {
+      "url": "https://www.thenorthnews.in/punjabi-singers-attend-divit-auluck-last-rites-in-jalandhar/"
+    },
+    {
+      "url": "https://www.wipo.int/en/web/music"
+    },
+    {
+      "url": "https://www.wipo.int/en/web/copyright/faq-copyright"
+    }
+  ],
+  "factualLimitations": [
+    "Dated tragedy reporting is attributed; no blame, private family narrative or unverified financial estimate.",
+    "Older interviews are not presented as current revenue statements.",
+    "General music-rights context is educational, not legal advice on an unpublished agreement."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}

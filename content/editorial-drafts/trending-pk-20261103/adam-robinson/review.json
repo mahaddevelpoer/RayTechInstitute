@@ -1,0 +1,33 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2140,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx"
+    },
+    {
+      "url": "https://www.ntsb.gov/investigations/process/Pages/default.aspx"
+    },
+    {
+      "url": "https://apnews.com/article/030b0de038772aa7892218b30381077d"
+    },
+    {
+      "url": "https://www.wflx.com/2026/11/02/ntsb-holds-news-conference-regarding-learjet-60-crash-palm-beach-county/"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/investigators-say-learjet-may-have-broken-up-before-crashing-in-florida-4993197"
+    },
+    {
+      "url": "https://www.retention.com/about-r/"
+    }
+  ],
+  "factualLimitations": [
+    "Family-attributed identification and professional records are kept distinct from the NTSB accident record.",
+    "No final cause, culpability, operational flight guidance or sensational interpretation of old posts.",
+    "Company marketing and older leadership wording are not independently audited performance or succession announcements."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}

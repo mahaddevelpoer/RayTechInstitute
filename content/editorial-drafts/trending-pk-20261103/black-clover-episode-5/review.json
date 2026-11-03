@@ -1,0 +1,36 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2058,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://bclover.jp/story/detail.php?id=1001573"
+    },
+    {
+      "url": "https://bclover.jp/story/"
+    },
+    {
+      "url": "https://bclover.jp/"
+    },
+    {
+      "url": "https://bclover.jp/news/detail.php?id=1136912"
+    },
+    {
+      "url": "https://www.crunchyroll.com/news/seasonal-lineup/2026/9/15/fall-anime-2026-crunchyroll"
+    },
+    {
+      "url": "https://www.crunchyroll.com/watch/GD9UEVXZM/the-path-to-the-wizard-king"
+    },
+    {
+      "url": "https://watch.plex.tv/en-GB/show/black-clover/season/2/episode/5"
+    }
+  ],
+  "factualLimitations": [
+    "Official preview details only, with no invented ending, screening review or animation rating.",
+    "Broadcast and platform times are separately identified; account-level playback is not guaranteed.",
+    "Simple wordmarks are recorded as public domain on Commons; trademark rights and independent editorial context are preserved."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-09-validation.json"
+}
