@@ -1,0 +1,44 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2132,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.nzfilm.co.nz/films/boy"
+    },
+    {
+      "url": "https://ondemand.nzfilm.co.nz/film/boy/"
+    },
+    {
+      "url": "https://www.nzfilm.co.nz/films/hunt-wilderpeople"
+    },
+    {
+      "url": "https://www.pikifilms.com/productions-index/2019/12/24/hunt-for-the-wilderpeople"
+    },
+    {
+      "url": "https://www.marvel.com/movies/thor-ragnarok"
+    },
+    {
+      "url": "https://www.searchlightpictures.com/jojorabbit"
+    },
+    {
+      "url": "https://www.oscars.org/oscars/ceremonies/2020/A--E"
+    },
+    {
+      "url": "https://www.fxnetworks.com/shows/reservation-dogs"
+    },
+    {
+      "url": "https://www.fxnetworks.com/shows/what-we-do-in-the-shadows/crew/taika-waititi-executive-producer"
+    },
+    {
+      "url": "https://www.sonypictures.com/movies/klaraandthesun"
+    }
+  ],
+  "factualLimitations": [
+    "Editorial viewing guidance based on credited work and official synopses; no claimed advance screening.",
+    "No unverified release date, country availability or first-hand film review."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

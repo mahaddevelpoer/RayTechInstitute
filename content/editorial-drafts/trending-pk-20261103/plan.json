@@ -231,9 +231,12 @@
         "rajinikanth"
       ],
       "searchVolumeLabel": "500+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "rajinikanth"
+      "draftDirectory": "rajinikanth",
+      "words": 2184,
+      "slug": "rajinikanth-career-dadasaheb-phalke-jailer-films",
+      "images": 2
     },
     {
       "key": "gurnoor-brar",
@@ -349,9 +352,12 @@
         "al sadd vs al-ahli"
       ],
       "searchVolumeLabel": "2k+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "afc-champions-league"
+      "draftDirectory": "afc-champions-league",
+      "words": 2128,
+      "slug": "afc-champions-league-elite-2026-27-format-results",
+      "images": 2
     },
     {
       "key": "sleep",
@@ -398,9 +404,12 @@
         "taika waititi"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "taika-waititi"
+      "draftDirectory": "taika-waititi",
+      "words": 2132,
+      "slug": "taika-waititi-films-television-oscar-viewing-guide",
+      "images": 2
     },
     {
       "key": "adam-robinson",
@@ -428,10 +437,13 @@
         "hq-19"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "hq-19",
-      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2112,
+      "slug": "hq-19-public-evidence-missile-defence-explained",
+      "images": 2
     },
     {
       "key": "cyber-attacks",
@@ -460,9 +472,12 @@
         "bragantino vs santos"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "bragantino-vs-santos"
+      "draftDirectory": "bragantino-vs-santos",
+      "words": 2178,
+      "slug": "bragantino-santos-2-1-result-brasileirao-november-2026",
+      "images": 2
     },
     {
       "key": "islamabad-traffic-police",
@@ -523,9 +538,12 @@
         "usman khawaja"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "usman-khawaja"
+      "draftDirectory": "usman-khawaja",
+      "words": 2061,
+      "slug": "usman-khawaja-international-retirement-bbl-2026",
+      "images": 2
     },
     {
       "key": "tucker-carlson",
@@ -569,10 +587,13 @@
         "anthropic ipo"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "anthropic-ipo",
-      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2201,
+      "slug": "anthropic-ipo-sec-filing-share-questions-2026",
+      "images": 2
     },
     {
       "key": "al-wasl-vs-al-quwa-al-jawiya",
@@ -584,9 +605,12 @@
         "al wasl vs al-quwa al-jawiya"
       ],
       "searchVolumeLabel": "200+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "al-wasl-vs-al-quwa-al-jawiya"
+      "draftDirectory": "al-wasl-vs-al-quwa-al-jawiya",
+      "words": 2122,
+      "slug": "al-wasl-al-quwa-al-jawiya-4-3-result-november-2026",
+      "images": 2
     },
     {
       "key": "fatima-sana",
@@ -615,10 +639,13 @@
         "shabana mahmood"
       ],
       "searchVolumeLabel": "100+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
       "draftDirectory": "shabana-mahmood",
-      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence."
+      "factGate": "Verify identity, dated event, current status and attribution before drafting. Search query is not evidence.",
+      "words": 2128,
+      "slug": "shabana-mahmood-home-secretary-settlement-announcement",
+      "images": 2
     },
     {
       "key": "wbbl",
@@ -664,9 +691,12 @@
         "perth scorchers vs melbourne stars"
       ],
       "searchVolumeLabel": "100+",
-      "state": "research-required",
+      "state": "local-verified-unpublished",
       "published": false,
-      "draftDirectory": "perth-scorchers-vs-melbourne-stars"
+      "draftDirectory": "perth-scorchers-vs-melbourne-stars",
+      "words": 2094,
+      "slug": "perth-scorchers-melbourne-stars-wbbl-result-november-2026",
+      "images": 2
     }
   ],
   "rowDisposition": [
@@ -888,7 +918,7 @@
     },
     {
       "row": 36,
-      "query": "کرکٹ",
+      "query": "Ú©Ø±Ú©Ù¹",
       "state": "existing-page-review-update-needed",
       "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
       "action": "Review current facts and improve existing page; do not create competing URL."
@@ -913,7 +943,7 @@
     },
     {
       "row": 40,
-      "query": "پاکستان قومی کرکٹ ٹیم",
+      "query": "Ù¾Ø§Ú©Ø³ØªØ§Ù† Ù‚ÙˆÙ…ÛŒ Ú©Ø±Ú©Ù¹ Ù¹ÛŒÙ…",
       "state": "existing-page-review-update-needed",
       "existingSlug": "cricket-fixtures-live-scores-identification-time-guide",
       "action": "Review current facts and improve existing page; do not create competing URL."
@@ -1047,8 +1077,8 @@
     "priority": "Answer the actual query before background; no generic learning-guide padding or unrelated fictional exercises."
   },
   "excludedRows": 7,
-  "localVerified": 23,
-  "remainingNewTopics": 17,
+  "localVerified": 33,
+  "remainingNewTopics": 7,
   "rowDispositionSummary": {
     "newTopicGroups": 40,
     "existingSearchRowsToReviewWithoutNewUrls": 11,

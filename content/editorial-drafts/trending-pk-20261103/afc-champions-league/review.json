@@ -1,0 +1,38 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2128,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/aclelite-5-things-to-look-out-for"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/aclelite-all-you-need-to-know"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-al-sadd-sc-qat-0-0-al-ahli-saudi-fc-ksa"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-al-ittihad-club-ksa-1-4-al-ain-fc-uae"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-pakhtakor-uzb-2-6-al-nassr-club-ksa"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-al-gharafa-sc-qat-0-5-al-qadsiah-club-ksa"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-al-wasl-fc-uae-4-3-air-force-sc-irq"
+    },
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-tractor-fc-irn-2-2-pfc-neftchi-uzb"
+    }
+  ],
+  "factualLimitations": [
+    "Later 2026-27 expansion information takes precedence over older 24-club format descriptions.",
+    "Results and selected points are dated snapshots, not a continuously updated table or a qualification guarantee."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

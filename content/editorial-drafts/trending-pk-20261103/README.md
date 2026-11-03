@@ -93,3 +93,7 @@ On 3 November 2026 the user explicitly authorised publishing completed verified 
 **23 articles published and live-verified.** Each article returned HTTP 200, its two unique image URLs returned HTTP 200 and appeared in the article HTML, and its URL appeared in the blog listing and sitemap. Evidence: `publication-verification.json`. The first release passed GitHub run `41653691521`; Forex Factory used isolated content release `41655019699`. All prior unpublished totals are historical preparation records.
 
 **17 new article topics still need completion.** The 11 existing-page review rows are separate work. Standing article-only publication approval is recorded in `AGENTS.md`. No unfinished academic UI or schema migration was released.
+
+## Next ten-article batch
+
+Ten additional articles passed cumulative checks in `batch-08-validation.json`: 21,340 body words, 20 distinct licensed photographs. Current local total: 33 articles, 70,052 words and 66 unique images. The previous 23 are live; these ten await this batch release. Seven new topics remain. Photo identity, source discrepancies, historical captions and metadata have been reviewed. No unfinished academic UI or schema is included.

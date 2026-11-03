@@ -1,0 +1,29 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2201,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "url": "https://www.sec.gov/files/ipo-investorbulletin.pdf"
+    },
+    {
+      "url": "https://www.sec.gov/about/reports-publications/investorpubspreipohtm"
+    }
+  ],
+  "factualLimitations": [
+    "General financial information, not personalised investment advice or an invitation to buy shares.",
+    "The 2 November amendment is preliminary; no final price, completed listing or guaranteed allocation is claimed."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

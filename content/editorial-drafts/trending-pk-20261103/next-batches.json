@@ -1,0 +1,25 @@
+{
+  "firstBatch": [
+    "anthropic-ipo",
+    "shabana-mahmood",
+    "taika-waititi",
+    "rajinikanth",
+    "hq-19",
+    "usman-khawaja",
+    "afc-champions-league",
+    "al-wasl-vs-al-quwa-al-jawiya",
+    "perth-scorchers-vs-melbourne-stars",
+    "bragantino-vs-santos"
+  ],
+  "secondBatch": [
+    "black-clover-episode-5",
+    "tucker-carlson",
+    "sassuolo-vs-fiorentina",
+    "mr-patlu-wedding-incident",
+    "merub-ali",
+    "dinesh-auluck",
+    "adam-robinson"
+  ],
+  "publication": "Publish only after each complete batch is written, source-checked, visually reviewed and validated. No subagents.",
+  "state": "first-batch-in-progress"
+}

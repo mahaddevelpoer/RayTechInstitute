@@ -1,0 +1,32 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2128,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.gov.uk/government/people/shabana-mahmood"
+    },
+    {
+      "url": "https://www.gov.uk/government/ministers/secretary-of-state-for-the-home-department"
+    },
+    {
+      "url": "https://members.parliament.uk/member/3914/career"
+    },
+    {
+      "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk"
+    },
+    {
+      "url": "https://www.gov.uk/government/consultations/earned-settlement"
+    },
+    {
+      "url": "https://www.gov.uk/indefinite-leave-to-remain"
+    }
+  ],
+  "factualLimitations": [
+    "General explanation of public announcements, not individual immigration or legal advice.",
+    "Consultation outcomes and proposed policy are not presented as fully implemented application rules."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

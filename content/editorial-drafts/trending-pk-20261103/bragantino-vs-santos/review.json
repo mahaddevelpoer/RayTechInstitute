@@ -1,0 +1,29 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2178,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/red-bull-bragantino-x-santos-fc/832225?view=escala-de-arbitros"
+    },
+    {
+      "url": "https://www.redbullbragantino.com/br-pt/noticias/com-recorde-de-publico-no-ano-red-bull-bragantino-vence-o-santos-por-2-a-1-pelo-brasileirao-2026"
+    },
+    {
+      "url": "https://ge.globo.com/google/amp/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/11/02/atuacoes-bragantino-controla-a-partida-e-segura-vitoria-no-brasileirao.ghtml"
+    },
+    {
+      "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/02/rb-bragantino-x-santos-brasileirao.ghtm"
+    },
+    {
+      "url": "https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026?documento=IMT"
+    }
+  ],
+  "factualLimitations": [
+    "CBF identifies round 34; the discrepancy with another report’s round number is acknowledged.",
+    "No current league rank, continental qualification guarantee, exact attendance or unsupported player rating."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

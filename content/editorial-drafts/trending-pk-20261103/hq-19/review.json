@@ -1,0 +1,26 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2112,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.mod.go.jp/j/press/wp/wp2026/html/n130202000.html"
+    },
+    {
+      "url": "https://www.nids.mod.go.jp/publication/perspective/pdf/j2025/j01.pdf"
+    },
+    {
+      "url": "https://www.mda.mil/system/elements.html"
+    },
+    {
+      "url": "https://www.defense.gov/News/News-Stories/Article/Article/1198311/missile-defense-agency-chief-bmd-system-ready-to-defend-the-homeland-today/"
+    }
+  ],
+  "factualLimitations": [
+    "High-level public information only; no operational settings, locations, targeting or vulnerability instructions.",
+    "No verified Pakistan deployment, exact performance envelope or guaranteed interception rate is asserted."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

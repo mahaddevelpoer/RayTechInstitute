@@ -1,0 +1,35 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2184,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1590072&lang=2&reg=48"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1708897&lang=2&reg=48"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1766317&lang=2&reg=48"
+    },
+    {
+      "url": "https://dff.nic.in/PhalkeAward.aspx"
+    },
+    {
+      "url": "https://www.sunpictures.in/?sunpict_movies=jailer"
+    },
+    {
+      "url": "https://www.sunpictures.in/?sunpict_movies=jailer2"
+    },
+    {
+      "url": "https://lsf.go.id/en/film/jailer-2/1619"
+    }
+  ],
+  "factualLimitations": [
+    "Official production and classification records do not establish every country’s theatrical or streaming availability.",
+    "No invented box-office total, viewing review or local release date."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

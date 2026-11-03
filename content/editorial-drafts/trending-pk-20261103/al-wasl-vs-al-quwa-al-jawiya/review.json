@@ -1,0 +1,26 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2122,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md4-al-wasl-fc-uae-4-3-air-force-sc-irq"
+    },
+    {
+      "url": "https://www.the-afc.com/ar/club/afc_champions_league_elite.html/news/md4-al-wasl-fc-uae-4-3-air-force-sc-irq-1"
+    },
+    {
+      "url": "https://www.alwaslsc.ae/en-gb/news-details/AlWasl-Defeat-Air-Force-in-the-AFC-Champions-League-Elite?path=3_2"
+    },
+    {
+      "url": "https://www.alwaslsc.ae/en-gb/matches"
+    }
+  ],
+  "factualLimitations": [
+    "AFC and club reports give different minutes for the second Gimenez goal; the disagreement is disclosed.",
+    "No invented possession, expected goals, player ratings, exact live position or qualification claim."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}

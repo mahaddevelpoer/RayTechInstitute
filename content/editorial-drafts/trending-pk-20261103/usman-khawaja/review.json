@@ -1,0 +1,32 @@
+{
+  "state": "local-verified-unpublished",
+  "words": 2061,
+  "sourceChecked": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.cricket.com.au/players/CA%3A287/usman-khawaja"
+    },
+    {
+      "url": "https://www.cricket.com.au/news/4426567"
+    },
+    {
+      "url": "https://www.icc-cricket.com/news/australia-veteran-calls-time-on-career"
+    },
+    {
+      "url": "https://www.brisbaneheat.com.au/news/4577175/usman-returns"
+    },
+    {
+      "url": "https://www.cricket.com.au/news/4500268"
+    },
+    {
+      "url": "https://www.qldcricket.com.au/news/4426663/usman-congratulated-on-test-career"
+    }
+  ],
+  "factualLimitations": [
+    "Later September club confirmation supersedes earlier domestic intentions.",
+    "No final career totals are inferred from a pre-farewell statistics snapshot; contracts do not guarantee selection."
+  ],
+  "published": false,
+  "imageVisualReview": "passed",
+  "localChecks": "batch-08-validation.json"
+}
