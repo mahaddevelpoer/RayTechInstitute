@@ -29,5 +29,5 @@
   ],
   "published": false,
   "imageVisualReview": "passed",
-  "localChecks": "batch-09-validation.json"
+  "localChecks": "batch-10-validation.json"
 }

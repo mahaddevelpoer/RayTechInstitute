@@ -105,3 +105,7 @@ All 33 November 3 articles are now live-verified: article HTTP 200, both image U
 ## Final seven-article batch prepared
 
 The remaining seven new topic groups are written and verified: 14,546 body words and 14 different licensed images or public-domain series wordmarks. Each article has 42 relevant distinct tags. Cumulative checks `batch-09-validation.json` pass for all 40 articles, 84,598 body words and 80 unique image sources. All categories match the public filters. The previous 33 articles are live; the final seven await this isolated release. The 11 existing-page review rows remain a separate worklist.
+
+## Rendered title correction
+
+The shared page formatter appends the full brand, so short `| RayTech` input suffixes created duplicate branding. All 40 article SEO titles now end once with `| RayTech Institute` and are 50-60 characters including the brand. Only `seo.title` was patched remotely using an equality condition on the previous SEO object; full read-back confirmed article content, dates, tags and images were preserved. Final local checks: `batch-10-validation.json`. Live verification now also checks exact rendered titles, descriptions, canonicals, one H1, article schema and indexability.

@@ -73,6 +73,8 @@ for(const name of fs.readdirSync(root)){
   assert.equal(p.tags.length,42);
   assert.equal(new Set(p.tags.map(t=>t.toLowerCase())).size,42);
   assert.ok(p.seo.title.length>=50&&p.seo.title.length<=60,`${name}: title length`);
+  assert.ok(p.seo.title.endsWith(' | RayTech Institute'),`${name}: shared page formatter requires the complete brand suffix`);
+  assert.equal((p.seo.title.match(/RayTech/g)||[]).length,1,`${name}: repeated brand`);
   assert.ok(p.seo.description.length>=120&&p.seo.description.length<=155,`${name}: description length`);
   assert.ok(p.seo.sources.split('\n').filter(Boolean).length>=2,`${name}: source metadata`);
   // Body sources and links already exist; avoid rendering duplicate source lists.

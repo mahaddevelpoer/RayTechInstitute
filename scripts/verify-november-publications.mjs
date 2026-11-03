@@ -16,6 +16,7 @@ const listing=await(await request(origin+'/blogs/')).text();
 const target=process.argv.find(value=>value.startsWith('--article='))?.slice(10);
 const previous=target&&fs.existsSync('artifacts/november-publish/live-verification.json')?JSON.parse(fs.readFileSync('artifacts/november-publish/live-verification.json')).results:[];
 const results=previous.filter(row=>row.name!==target);
+const unescapeHtml=value=>value.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
 for(const name of fs.readdirSync(root)){
  if(target&&name!==target)continue;
  if(!fs.existsSync(`${root}/${name}/post.json`)||!fs.existsSync(`${root}/${name}/images.json`))continue;
@@ -25,7 +26,13 @@ for(const name of fs.readdirSync(root)){
  try{
   const response=await request(url);const html=await response.text();
   const checks=[];for(const image of images){const r=await request(origin+image.url,{method:'HEAD'});checks.push({url:image.url,status:r.status,present:html.includes(image.url)});}
-  results.push({name,batch,url,status:response.status,listing:listing.includes(post.slug),sitemap:sitemap.includes(url),images:checks,verified:response.status===200&&listing.includes(post.slug)&&sitemap.includes(url)&&checks.every(i=>i.status===200&&i.present)});
+  const seo={title:unescapeHtml(html.match(/<title>([^<]*)<\/title>/)?.[1]||'')===post.seo.title,
+    description:unescapeHtml(html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'')===post.seo.description,
+    canonical:html.includes(`<link rel="canonical" href="${url}"`),
+    oneH1:(html.match(/<h1\b/g)||[]).length===1,
+    articleSchema:html.includes('"@type":"BlogPosting"'),
+    indexable:![...html.matchAll(/<meta name="(?:robots|googlebot)" content="([^"]*)"/g)].some(match=>/noindex/i.test(match[1]))};
+  results.push({name,batch,url,status:response.status,listing:listing.includes(post.slug),sitemap:sitemap.includes(url),images:checks,seo,verified:response.status===200&&listing.includes(post.slug)&&sitemap.includes(url)&&checks.every(i=>i.status===200&&i.present)&&Object.values(seo).every(Boolean)});
  }catch{results.push({name,url,verified:false,error:'Live verification request failed'});}
 }
 fs.mkdirSync('artifacts/november-publish',{recursive:true});fs.writeFileSync('artifacts/november-publish/live-verification.json',JSON.stringify({checkedAt:new Date().toISOString(),results},null,2));
