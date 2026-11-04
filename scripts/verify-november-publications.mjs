@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261101';
-if(!/^2026110[1234]$/.test(batch))throw Error('Unsupported November batch');
+if(!/^2026110[1234](?:-daily)?$/.test(batch))throw Error('Unsupported November batch');
 const root=`content/editorial-drafts/trending-pk-${batch}`,origin='https://raytechinstitute.com';
 async function request(url, options={}) {
  for(let attempt=0;attempt<2;attempt++){
@@ -14,7 +14,7 @@ async function request(url, options={}) {
 const sitemap=await(await request(origin+'/sitemap.xml')).text();
 const listing=await(await request(origin+'/blogs/')).text();
 const target=process.argv.find(value=>value.startsWith('--article='))?.slice(10);
-const ledger=batch==='20261104'?'artifacts/november4/live-verification.json':'artifacts/november-publish/live-verification.json';
+const ledger=batch==='20261104-daily'?'artifacts/november4-daily/live-verification.json':batch==='20261104'?'artifacts/november4/live-verification.json':'artifacts/november-publish/live-verification.json';
 const previous=target&&fs.existsSync(ledger)?JSON.parse(fs.readFileSync(ledger)).results:[];
 const results=previous.filter(row=>row.name!==target);
 const unescapeHtml=value=>value.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');

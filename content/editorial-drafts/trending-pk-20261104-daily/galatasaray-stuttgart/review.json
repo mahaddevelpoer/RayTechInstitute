@@ -1,8 +1,10 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2009,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
-  "sourceCheckedOn": "2026-11-04"
+  "sourceCheckedOn": "2026-11-04",
+  "liveVerifiedAt": "2026-11-04T10:23:17.926Z",
+  "hostingRun": 41813174103
 }

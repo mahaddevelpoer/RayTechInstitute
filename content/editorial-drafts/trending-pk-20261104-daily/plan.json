@@ -9,7 +9,7 @@
       "key": "barcelona-aston-villa",
       "topic": "barcelona vs aston villa",
       "row": 2,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Camp Nou\"",
         "\"Villa Park\""
@@ -21,7 +21,7 @@
       "key": "manchester-united-roma",
       "topic": "man utd vs roma",
       "row": 7,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Old Trafford\"",
         "\"Stadio Olimpico\""
@@ -33,7 +33,7 @@
       "key": "villarreal-psg",
       "topic": "villarreal vs psg",
       "row": 9,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Estadio de la Cerámica\"",
         "\"Parc des Princes\""
@@ -45,7 +45,7 @@
       "key": "atletico-bayern",
       "topic": "atlético madrid vs bayern munich standings",
       "row": 18,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Metropolitano\" stadium",
         "\"Allianz Arena\""
@@ -57,7 +57,7 @@
       "key": "feyenoord-inter",
       "topic": "feyenoord vs inter",
       "row": 55,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"De Kuip\"",
         "\"San Siro\""
@@ -69,7 +69,7 @@
       "key": "galatasaray-stuttgart",
       "topic": "galatasaray vs vfb stuttgart",
       "row": 63,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Rams Park\"",
         "\"MHPArena\""
@@ -81,7 +81,7 @@
       "key": "anshul-kamboj",
       "topic": "anshul kamboj",
       "row": 5,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Anshul Kamboj\"",
         "\"Lahli\" cricket"
@@ -93,7 +93,7 @@
       "key": "tom-latham",
       "topic": "tom latham",
       "row": 23,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Tom Latham\"",
         "\"Hagley Oval\""
@@ -105,7 +105,7 @@
       "key": "pia-cabin-crew-uniforms",
       "topic": "pia new cabin crew uniforms",
       "row": 25,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"Pakistan International Airlines\"",
         "\"aircraft cabin\""
@@ -117,7 +117,7 @@
       "key": "ptcl",
       "topic": "ptcl",
       "row": 26,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "\"PTCL\"",
         "\"optical fiber\""
@@ -129,67 +129,101 @@
       "key": "iphone",
       "topic": "iphone",
       "row": 11,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"iPhone 18 Pro\"",
+        "\"iPhone\" repair"
+      ]
     },
     {
       "key": "jesus-de-miguel",
       "topic": "jesus de miguel",
       "row": 12,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"Jesús de Miguel\"",
+        "\"Heliodoro Rodríguez López\""
+      ]
     },
     {
       "key": "new-zealand-india-first-odi",
       "topic": "new zealand vs india",
       "row": 13,
-      "state": "research-pending"
-    },
-    {
-      "key": "divit-auluck",
-      "topic": "divit auluck",
-      "row": 19,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"Eden Park\" cricket",
+        "\"Virat Kohli\" batting"
+      ]
     },
     {
       "key": "supermarket-cyber-attacks",
       "topic": "cyber attacks supermarkets",
       "row": 20,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"supermarket\" refrigerator",
+        "\"refrigeration\" controller"
+      ]
     },
     {
       "key": "samsung-galaxy-s27-ultra",
       "topic": "samsung galaxy s27 ultra",
       "row": 22,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"Samsung Galaxy S26 Ultra\"",
+        "\"smartphone\" battery"
+      ]
     },
     {
       "key": "james-talarico",
       "topic": "james talarico",
       "row": 29,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"James Talarico\"",
+        "\"Texas State Capitol\""
+      ]
     },
     {
       "key": "karl-bushby",
       "topic": "karl bushby",
       "row": 31,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"Karl Bushby\"",
+        "\"Bering Strait\""
+      ]
     },
     {
       "key": "pakistan-air-force-faaz",
       "topic": "pakistan air force",
       "row": 32,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"JF-17\"",
+        "\"Pakistan Air Force\" museum"
+      ]
     },
     {
       "key": "acc-under-19-asia-cup",
       "topic": "acc u-19 asia cup",
       "row": 33,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"Under-19 Asia Cup\"",
+        "\"Dubai International Cricket Stadium\""
+      ]
     },
     {
       "key": "manuel-neuer",
       "topic": "manuel neuer",
       "row": 34,
-      "state": "research-pending"
+      "state": "research-pending",
+      "queries": [
+        "\"Manuel Neuer\"",
+        "\"goalkeeper\" training"
+      ]
     },
     {
       "key": "prize-bond",
@@ -213,18 +247,6 @@
       "key": "gina-hinojosa",
       "topic": "gina hinojosa",
       "row": 38,
-      "state": "research-pending"
-    },
-    {
-      "key": "jesus-owono",
-      "topic": "jesús owono",
-      "row": 42,
-      "state": "research-pending"
-    },
-    {
-      "key": "icc-cwc-league-2",
-      "topic": "icc cwc league 2",
-      "row": 43,
       "state": "research-pending"
     },
     {
@@ -322,8 +344,8 @@
     {
       "row": 2,
       "topic": "barcelona vs aston villa",
-      "state": "new-topic",
-      "target": "barcelona-aston-villa"
+      "state": "published-live-verified",
+      "target": "barcelona-aston-villa-3-0-goals-november-2026"
     },
     {
       "row": 3,
@@ -340,8 +362,8 @@
     {
       "row": 5,
       "topic": "anshul kamboj",
-      "state": "new-topic",
-      "target": "anshul-kamboj"
+      "state": "published-live-verified",
+      "target": "anshul-kamboj-ten-wickets-ranji-record-guide"
     },
     {
       "row": 6,
@@ -352,8 +374,8 @@
     {
       "row": 7,
       "topic": "man utd vs roma",
-      "state": "new-topic",
-      "target": "manchester-united-roma"
+      "state": "published-live-verified",
+      "target": "manchester-united-roma-3-2-cunha-comeback-2026"
     },
     {
       "row": 8,
@@ -364,8 +386,8 @@
     {
       "row": 9,
       "topic": "villarreal vs psg",
-      "state": "new-topic",
-      "target": "villarreal-psg"
+      "state": "published-live-verified",
+      "target": "villarreal-psg-0-6-goals-november-2026"
     },
     {
       "row": 10,
@@ -418,14 +440,14 @@
     {
       "row": 18,
       "topic": "atlético madrid vs bayern munich standings",
-      "state": "new-topic",
-      "target": "atletico-bayern"
+      "state": "published-live-verified",
+      "target": "atletico-bayern-0-2-karl-laimer-november-2026"
     },
     {
       "row": 19,
       "topic": "divit auluck",
-      "state": "new-topic",
-      "target": "divit-auluck"
+      "state": "already-covered",
+      "target": "dinesh-auluck-speed-records-career-jalandhar-news"
     },
     {
       "row": 20,
@@ -448,8 +470,8 @@
     {
       "row": 23,
       "topic": "tom latham",
-      "state": "new-topic",
-      "target": "tom-latham"
+      "state": "published-live-verified",
+      "target": "tom-latham-batting-spin-wicketkeeping-guide"
     },
     {
       "row": 24,
@@ -460,14 +482,14 @@
     {
       "row": 25,
       "topic": "pia new cabin crew uniforms",
-      "state": "new-topic",
-      "target": "pia-cabin-crew-uniforms"
+      "state": "published-live-verified",
+      "target": "pia-new-cabin-crew-uniforms-hsy-rollout-2026"
     },
     {
       "row": 26,
       "topic": "ptcl",
-      "state": "new-topic",
-      "target": "ptcl"
+      "state": "published-live-verified",
+      "target": "ptcl-flash-fiber-bills-safe-support-guide"
     },
     {
       "row": 27,
@@ -562,14 +584,14 @@
     {
       "row": 42,
       "topic": "jesús owono",
-      "state": "new-topic",
-      "target": "jesus-owono"
+      "state": "merged-with-same-topic",
+      "target": "jesus-de-miguel"
     },
     {
       "row": 43,
       "topic": "icc cwc league 2",
-      "state": "new-topic",
-      "target": "icc-cwc-league-2"
+      "state": "already-covered",
+      "target": "oman-uae-cricket-league-two-standings-guide"
     },
     {
       "row": 44,
@@ -640,8 +662,8 @@
     {
       "row": 55,
       "topic": "feyenoord vs inter",
-      "state": "new-topic",
-      "target": "feyenoord-inter"
+      "state": "published-live-verified",
+      "target": "feyenoord-inter-0-3-goals-november-2026"
     },
     {
       "row": 56,
@@ -688,8 +710,8 @@
     {
       "row": 63,
       "topic": "galatasaray vs vfb stuttgart",
-      "state": "new-topic",
-      "target": "galatasaray-stuttgart"
+      "state": "published-live-verified",
+      "target": "galatasaray-stuttgart-2-0-batrakov-november-2026"
     },
     {
       "row": 64,
@@ -817,5 +839,10 @@
       "state": "already-covered",
       "target": "gta-6-release-date-platforms-pakistan-buying-guide"
     }
+  ],
+  "published": 10,
+  "remaining": 28,
+  "hostingRuns": [
+    41813174103
   ]
 }
