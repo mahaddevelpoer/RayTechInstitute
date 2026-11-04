@@ -1,0 +1,58 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 7,
+  "bodyWords": 14333,
+  "uniqueImages": 14,
+  "existingArticlesCompared": 257,
+  "results": [
+    {
+      "key": "henry-nicholls",
+      "slug": "henry-nicholls-left-handed-batting-innings-guide",
+      "words": 2074,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "kl-rahul",
+      "slug": "kl-rahul-batting-roles-wicketkeeping-guide",
+      "words": 2059,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "kyle-jamieson",
+      "slug": "kyle-jamieson-bounce-seam-bowling-guide",
+      "words": 2036,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jacob-duffy",
+      "slug": "jacob-duffy-otago-seam-bowling-profile",
+      "words": 2025,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "michigan-senate-election-results",
+      "slug": "michigan-senate-results-official-reporting-guide",
+      "words": 2028,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "democrats-vs-republicans",
+      "slug": "democrats-republicans-parties-government-guide",
+      "words": 2024,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "donald-trump",
+      "slug": "donald-trump-biography-presidency-powers-guide",
+      "words": 2087,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

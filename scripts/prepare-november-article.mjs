@@ -3,12 +3,12 @@ import sharp from 'sharp';
 import {execFileSync} from 'node:child_process';
 const name=process.argv[2];if(!/^[a-z0-9-]+$/.test(name||''))throw Error('Article directory required');
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261101';
-if(!/^2026110[12]$/.test(batch))throw Error('Unsupported November batch');
+if(!/^2026110[1234]$/.test(batch))throw Error('Unsupported November batch');
 const root=`content/editorial-drafts/trending-pk-${batch}`,dir=`${root}/${name}`,output=`public/images/editorial/trending-pk-${batch}`;
 const candidates=JSON.parse(fs.readFileSync(`${dir}/images-candidates.json`,'utf8'));
 if(candidates.length!==2)throw Error('Two reviewed images required');
 const used=new Set(JSON.parse(fs.readFileSync('content/editorial-revisions/trending-pk-20261030/images.json','utf8')).flatMap(r=>[r.cover.sha1,r.inline.sha1]));
-for(const date of ['20261101','20261102']){const base=`content/editorial-drafts/trending-pk-${date}`;for(const other of fs.readdirSync(base)){if((date!==batch||other!==name)&&fs.existsSync(`${base}/${other}/images.json`))for(const i of JSON.parse(fs.readFileSync(`${base}/${other}/images.json`,'utf8')))used.add(i.sha1);}}
+for(const date of ['20261101','20261102','20261103','20261104']){const base=`content/editorial-drafts/trending-pk-${date}`;if(!fs.existsSync(base))continue;for(const other of fs.readdirSync(base)){if((date!==batch||other!==name)&&fs.existsSync(`${base}/${other}/images.json`))for(const i of JSON.parse(fs.readFileSync(`${base}/${other}/images.json`,'utf8')))used.add(i.sha1);}}
 fs.mkdirSync(output,{recursive:true});sharp.concurrency(1);sharp.cache({memory:24,files:0,items:0});const images=[];
 for(const item of candidates){
  if(used.has(item.sha1))throw Error('Duplicate image source');used.add(item.sha1);

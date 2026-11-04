@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-04",
+  "sourceCsv": "trending_PK_4h_20261104-0839.csv",
+  "publicationAuthorized": true,
+  "groups": [
+    {
+      "key": "henry-nicholls",
+      "topic": "Henry Nicholls",
+      "category": "sports",
+      "queries": [
+        "Henry Nicholls",
+        "Hagley Oval Canterbury"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "henry-nicholls-left-handed-batting-innings-guide"
+    },
+    {
+      "key": "kl-rahul",
+      "topic": "KL Rahul",
+      "category": "sports",
+      "queries": [
+        "KL Rahul batting",
+        "KL Rahul wicket keeping"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "kl-rahul-batting-roles-wicketkeeping-guide"
+    },
+    {
+      "key": "kyle-jamieson",
+      "topic": "Kyle Jamieson",
+      "category": "sports",
+      "queries": [
+        "Kyle Jamieson",
+        "Basin Reserve cricket pitch"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "kyle-jamieson-bounce-seam-bowling-guide"
+    },
+    {
+      "key": "jacob-duffy",
+      "topic": "Jacob Duffy",
+      "category": "sports",
+      "queries": [
+        "Jacob Duffy",
+        "University Oval Dunedin cricket"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "jacob-duffy-otago-seam-bowling-profile"
+    },
+    {
+      "key": "michigan-senate-election-results",
+      "topic": "Michigan Senate Election Results",
+      "category": "world-affairs",
+      "queries": [
+        "Michigan State Capitol interior",
+        "Michigan election voting"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "michigan-senate-results-official-reporting-guide"
+    },
+    {
+      "key": "democrats-vs-republicans",
+      "topic": "Democrats vs Republicans",
+      "category": "world-affairs",
+      "queries": [
+        "United States Congress chamber",
+        "United States ballot voting"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "democrats-republicans-parties-government-guide"
+    },
+    {
+      "key": "donald-trump",
+      "topic": "Donald Trump",
+      "category": "world-affairs",
+      "queries": [
+        "Donald Trump official portrait 2025",
+        "White House South Lawn 2024"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "donald-trump-biography-presidency-powers-guide"
+    }
+  ],
+  "excluded": [
+    "pakistan",
+    "آبوهوا"
+  ],
+  "alreadyCovered": [
+    [
+      "new zealand vs india",
+      "india-new-zealand-hamilton-fifth-t20i-scorecard-context"
+    ],
+    [
+      "2026 us election results",
+      "us-midterm-elections-2026-voting-results-explained"
+    ],
+    [
+      "daryl mitchell",
+      "daryl-mitchell-middle-order-batting-guide"
+    ],
+    [
+      "nokia 2360 flip phone",
+      "nokia-2360-flip-family-assist-pakistan-buying-guide"
+    ]
+  ]
+}

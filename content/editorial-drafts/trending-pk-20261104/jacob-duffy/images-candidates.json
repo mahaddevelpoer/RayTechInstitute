@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:1 01 Jacob Duffy.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/1_01_Jacob_Duffy.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/1_01_Jacob_Duffy.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:1_01_Jacob_Duffy.jpg",
+    "creator": "Dave Morton",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:1_01_Jacob_Duffy.jpg",
+    "alt": "Jacob Duffy in a historical player photograph.",
+    "description": "Yorkshire sent in by Worcestershire, and facing this 30-year-old quick bowler who has played 14 ODIs for NZ. The lovely April weather continues.",
+    "caption": "Jacob Duffy in a historical player photograph.",
+    "width": 1252,
+    "height": 1658,
+    "bytes": 1312987,
+    "sha1": "a11226f24fe2974a1f9ba99aa9ee022c17bf242e",
+    "photographedAt": "2025-04-11 10:11:01",
+    "query": "Jacob Duffy",
+    "reviewState": "metadata-reviewed",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:New Zealand vs Pakistan, University Oval, Dunedin, New Zealand.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/New_Zealand_vs_Pakistan%2C_University_Oval%2C_Dunedin%2C_New_Zealand.jpg/1280px-New_Zealand_vs_Pakistan%2C_University_Oval%2C_Dunedin%2C_New_Zealand.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/New_Zealand_vs_Pakistan%2C_University_Oval%2C_Dunedin%2C_New_Zealand.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_vs_Pakistan,_University_Oval,_Dunedin,_New_Zealand.jpg",
+    "creator": "Benchill",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "New Zealand and Pakistan at University Oval in Dunedin; historical venue image, not a live match report.",
+    "description": "Looking towards the grandstand during a cricket test match, New Zealand vs Pakistan, at the University Oval in Dunedin, New Zealand. New Zealand Historic Places Trust Register number: 2193 .",
+    "caption": "New Zealand and Pakistan at University Oval in Dunedin; historical venue image, not a live match report.",
+    "width": 1835,
+    "height": 1055,
+    "bytes": 684319,
+    "sha1": "f4fe38ff6d41fa510fc90ccc27b6973c8756da0f",
+    "photographedAt": "2009-11-26",
+    "query": "University Oval Dunedin cricket",
+    "reviewState": "metadata-reviewed",
+    "role": "inline"
+  }
+]
