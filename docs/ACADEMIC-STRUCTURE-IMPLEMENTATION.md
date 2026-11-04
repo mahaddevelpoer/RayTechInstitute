@@ -1,6 +1,6 @@
 # Academic structure implementation
 
-Status: release authorised by the user; database migration and secure-dispatch version 61 deployed and verified. Frontend release checks are in progress. Article releases are separate.
+Status: published successfully. Hosting workflow 41685574455 deployed commit 97c014d622e5dd2dafe3ea9c3500328fa9ca738f; database migration and secure-dispatch version 62 are deployed. Article releases are separate.
 
 ## Confirmed architecture
 
@@ -27,9 +27,9 @@ Status: release authorised by the user; database migration and secure-dispatch v
 - [x] User confirmed existing DIT Computer Networking and MS Office belong to Semester 1. The local migration assigns the existing `dit-intermediate` class to DIT Semester 1 without changing any resource references. Production placement was applied after the user authorised this release.
 - [ ] Confirm the official remaining syllabus before creating additional semesters or subjects. Do not invent four semesters with five subjects from the diagram alone.
 - [x] With release authorization, apply migration `20261103160000_academic_program_semesters.sql` before deploying admin and Edge changes. Existing fields are nullable, so legacy content is preserved.
-- [ ] Deploy the updated secure-dispatch dependency and frontend together after migration. New form fields require the new database columns.
-- [ ] Rebuild the static catalog after administrator grouping changes and check the generated pages before release.
-- [ ] Verify live authorized admin save/refresh/publish only after release authorization; local mock checks are not a live-service claim.
+- [x] Deploy the updated secure-dispatch dependency and frontend after migration. New form fields have the required database columns.
+- [x] Rebuild the static catalog and verify the actual export before release.
+- [ ] A real signed-in administrator save using the user's Google session was not performed. Server validation, migration read-back and anonymous access rejection were verified; these do not substitute for a signed-in UI check.
 
 ## Separate work, not claimed complete
 
@@ -45,11 +45,13 @@ node --max-old-space-size=256 --test scripts/academic-migration.test.mjs
 node --max-old-space-size=256 scripts/check-academic-types.mjs
 ```
 
-The migration was applied transactionally with a private backup and read-back checks. Four classes, seven subjects, four notes and 265 MCQs remain; existing class identities and all legacy fields are preserved. DIT is Semester 1. Secure-dispatch is active at version 61, retains Firebase administrator verification, denies unauthenticated catalog access with HTTP 401 and allows the verified custom-domain origin.
+The migration was applied transactionally with a private backup and read-back checks. Four classes, seven subjects, four notes and 265 MCQs remain; existing class identities and all legacy fields are preserved. DIT is Semester 1. Secure-dispatch version 62 retains Firebase administrator verification. Anonymous catalog access is denied with HTTP 401 and the verified custom-domain origin is allowed.
 
-Full-project TypeScript checking was attempted with a 384 MB heap cap but exhausted that cap. It is not recorded as passed. Use the focused semantic/syntax checks below for this local stage; a full-project check remains required before release.
+Full-project TypeScript checking passed on GitHub in the successful release workflow. The local machine was kept on focused checks after its earlier capped full-project attempt ran out of memory.
 
-Verified locally: 16 focused tests passed, including migration replay, legacy subject-reference preservation, duplicate placements, old-client compatibility and existing notes/gazette save regressions. Changed TS/TSX syntax and shared-module semantic checks passed. No browser visual QA or full static export was run for this change.
+Focused validation covered migration replay, legacy subject references, duplicate placements, old-client compatibility and notes/MCQ regressions. The complete source checks, static build, academic browser navigation and existing resource-page browser checks passed on GitHub. Screenshots were reviewed at mobile/light and desktop/charcoal sizes.
+
+The successful workflow verified deployed pages against the exact export. Additional direct live requests returned HTTP 200 for the classes directory, existing DIT subject, chapter notes and chapter MCQs routes. The public classes HTML contains both Academic Programs and Programming Courses.
 
 ## Card release checks
 
