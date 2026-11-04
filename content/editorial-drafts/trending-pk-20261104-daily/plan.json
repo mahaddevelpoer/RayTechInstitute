@@ -129,7 +129,7 @@
       "key": "iphone",
       "topic": "iphone",
       "row": 11,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"iPhone 18 Pro\"",
         "\"iPhone\" repair"
@@ -141,7 +141,7 @@
       "key": "jesus-de-miguel",
       "topic": "jesus de miguel",
       "row": 12,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Jesús de Miguel\"",
         "\"Heliodoro Rodríguez López\""
@@ -153,7 +153,7 @@
       "key": "new-zealand-india-first-odi",
       "topic": "new zealand vs india",
       "row": 13,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Eden Park\" cricket",
         "\"Virat Kohli\" batting"
@@ -165,7 +165,7 @@
       "key": "supermarket-cyber-attacks",
       "topic": "cyber attacks supermarkets",
       "row": 20,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"supermarket\" refrigerator",
         "\"refrigeration\" controller"
@@ -177,7 +177,7 @@
       "key": "samsung-galaxy-s27-ultra",
       "topic": "samsung galaxy s27 ultra",
       "row": 22,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Samsung Galaxy S26 Ultra\"",
         "\"smartphone\" battery"
@@ -189,7 +189,7 @@
       "key": "james-talarico",
       "topic": "james talarico",
       "row": 29,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"James Talarico\"",
         "\"Texas State Capitol\""
@@ -201,7 +201,7 @@
       "key": "karl-bushby",
       "topic": "karl bushby",
       "row": 31,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Karl Bushby\"",
         "\"Bering Strait\""
@@ -213,7 +213,7 @@
       "key": "pakistan-air-force-faaz",
       "topic": "pakistan air force",
       "row": 32,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"JF-17\"",
         "\"Pakistan Air Force\" museum"
@@ -225,7 +225,7 @@
       "key": "acc-under-19-asia-cup",
       "topic": "acc u-19 asia cup",
       "row": 33,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Under-19 Asia Cup\"",
         "\"Dubai International Cricket Stadium\""
@@ -237,7 +237,7 @@
       "key": "manuel-neuer",
       "topic": "manuel neuer",
       "row": 34,
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Manuel Neuer\"",
         "\"goalkeeper\" training"
@@ -418,20 +418,20 @@
     {
       "row": 11,
       "topic": "iphone",
-      "state": "new-topic",
-      "target": "iphone"
+      "state": "published-live-verified",
+      "target": "iphone-pakistan-study-buying-safety-guide"
     },
     {
       "row": 12,
       "topic": "jesus de miguel",
-      "state": "new-topic",
-      "target": "jesus-de-miguel"
+      "state": "published-live-verified",
+      "target": "jesus-de-miguel-owono-collision-confirmed-news"
     },
     {
       "row": 13,
       "topic": "new zealand vs india",
-      "state": "new-topic",
-      "target": "new-zealand-india-first-odi"
+      "state": "published-live-verified",
+      "target": "new-zealand-india-first-odi-kohli-dls-november-2026"
     },
     {
       "row": 14,
@@ -472,8 +472,8 @@
     {
       "row": 20,
       "topic": "cyber attacks supermarkets",
-      "state": "new-topic",
-      "target": "supermarket-cyber-attacks"
+      "state": "published-live-verified",
+      "target": "supermarket-cyberattacks-refrigeration-controller-guide"
     },
     {
       "row": 21,
@@ -484,8 +484,8 @@
     {
       "row": 22,
       "topic": "samsung galaxy s27 ultra",
-      "state": "new-topic",
-      "target": "samsung-galaxy-s27-ultra"
+      "state": "published-live-verified",
+      "target": "samsung-galaxy-s27-ultra-rumours-evidence-guide"
     },
     {
       "row": 23,
@@ -526,8 +526,8 @@
     {
       "row": 29,
       "topic": "james talarico",
-      "state": "new-topic",
-      "target": "james-talarico"
+      "state": "published-live-verified",
+      "target": "james-talarico-texas-senate-result-profile-2026"
     },
     {
       "row": 30,
@@ -538,26 +538,26 @@
     {
       "row": 31,
       "topic": "karl bushby",
-      "state": "new-topic",
-      "target": "karl-bushby"
+      "state": "published-live-verified",
+      "target": "karl-bushby-homecoming-goliath-expedition-explained"
     },
     {
       "row": 32,
       "topic": "pakistan air force",
-      "state": "new-topic",
-      "target": "pakistan-air-force-faaz"
+      "state": "published-live-verified",
+      "target": "pakistan-faaz-air-to-air-missile-test-evidence-guide"
     },
     {
       "row": 33,
       "topic": "acc u-19 asia cup",
-      "state": "new-topic",
-      "target": "acc-under-19-asia-cup"
+      "state": "published-live-verified",
+      "target": "acc-u19-asia-cup-2026-pakistan-schedule-oman"
     },
     {
       "row": 34,
       "topic": "manuel neuer",
-      "state": "new-topic",
-      "target": "manuel-neuer"
+      "state": "published-live-verified",
+      "target": "manuel-neuer-bayern-germany-sweeper-keeper-guide"
     },
     {
       "row": 35,
@@ -860,9 +860,10 @@
       "target": "gta-6-release-date-platforms-pakistan-buying-guide"
     }
   ],
-  "published": 10,
-  "remaining": 28,
+  "published": 20,
+  "remaining": 18,
   "hostingRuns": [
-    41813174103
+    41813174103,
+    41817861465
   ]
 }

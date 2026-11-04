@@ -1,0 +1,296 @@
+{
+  "checkedAt": "2026-11-04T11:04:18.491Z",
+  "hostingRun": 41817861465,
+  "results": [
+    {
+      "name": "acc-under-19-asia-cup",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/acc-u19-asia-cup-2026-pakistan-schedule-oman/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/acc-under-19-asia-cup-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/acc-under-19-asia-cup-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "iphone",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/iphone-pakistan-study-buying-safety-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/iphone-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/iphone-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "james-talarico",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/james-talarico-texas-senate-result-profile-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/james-talarico-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/james-talarico-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "jesus-de-miguel",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/jesus-de-miguel-owono-collision-confirmed-news/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/jesus-de-miguel-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/jesus-de-miguel-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "karl-bushby",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/karl-bushby-homecoming-goliath-expedition-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/karl-bushby-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/karl-bushby-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "manuel-neuer",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/manuel-neuer-bayern-germany-sweeper-keeper-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/manuel-neuer-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/manuel-neuer-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "new-zealand-india-first-odi",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/new-zealand-india-first-odi-kohli-dls-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/new-zealand-india-first-odi-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/new-zealand-india-first-odi-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pakistan-air-force-faaz",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-faaz-air-to-air-missile-test-evidence-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/pakistan-air-force-faaz-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/pakistan-air-force-faaz-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "samsung-galaxy-s27-ultra",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/samsung-galaxy-s27-ultra-rumours-evidence-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/samsung-galaxy-s27-ultra-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/samsung-galaxy-s27-ultra-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "supermarket-cyber-attacks",
+      "batch": "20261104-daily",
+      "url": "https://raytechinstitute.com/blogs/supermarket-cyberattacks-refrigeration-controller-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/supermarket-cyber-attacks-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261104-daily/supermarket-cyber-attacks-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

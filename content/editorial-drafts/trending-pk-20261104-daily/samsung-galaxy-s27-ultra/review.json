@@ -1,9 +1,12 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2012,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-04",
-  "imageReviewNote": "Reviewed contact sheets; replaced artist namesake, unrelated park and unverified current-device image. Historical and illustrative contexts explicitly captioned."
+  "imageReviewNote": "Reviewed contact sheets; replaced artist namesake, unrelated park and unverified current-device image. Historical and illustrative contexts explicitly captioned.",
+  "hostingRun": 41817861465,
+  "liveUrl": "https://raytechinstitute.com/blogs/samsung-galaxy-s27-ultra-rumours-evidence-guide/",
+  "liveCheckedAt": "2026-11-04T11:04:18.491Z"
 }
