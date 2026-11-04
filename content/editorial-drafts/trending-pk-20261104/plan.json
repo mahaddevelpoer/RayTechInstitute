@@ -11,7 +11,7 @@
         "Henry Nicholls",
         "Hagley Oval Canterbury"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "henry-nicholls-left-handed-batting-innings-guide"
     },
     {
@@ -22,7 +22,7 @@
         "KL Rahul batting",
         "KL Rahul wicket keeping"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "kl-rahul-batting-roles-wicketkeeping-guide"
     },
     {
@@ -33,7 +33,7 @@
         "Kyle Jamieson",
         "Basin Reserve cricket pitch"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "kyle-jamieson-bounce-seam-bowling-guide"
     },
     {
@@ -44,7 +44,7 @@
         "Jacob Duffy",
         "University Oval Dunedin cricket"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "jacob-duffy-otago-seam-bowling-profile"
     },
     {
@@ -55,7 +55,7 @@
         "Michigan State Capitol interior",
         "Michigan election voting"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "michigan-senate-results-official-reporting-guide"
     },
     {
@@ -66,7 +66,7 @@
         "United States Congress chamber",
         "United States ballot voting"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "democrats-republicans-parties-government-guide"
     },
     {
@@ -77,7 +77,7 @@
         "Donald Trump official portrait 2025",
         "White House South Lawn 2024"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "donald-trump-biography-presidency-powers-guide"
     }
   ],
@@ -102,5 +102,75 @@
       "nokia 2360 flip phone",
       "nokia-2360-flip-family-assist-pakistan-buying-guide"
     ]
-  ]
+  ],
+  "rowDisposition": [
+    {
+      "topic": "new zealand vs india",
+      "state": "already-covered",
+      "slug": "india-new-zealand-hamilton-fifth-t20i-scorecard-context"
+    },
+    {
+      "topic": "henry nicholls",
+      "state": "published-live-verified",
+      "slug": "henry-nicholls-left-handed-batting-innings-guide"
+    },
+    {
+      "topic": "2026 us election results",
+      "state": "already-covered",
+      "slug": "us-midterm-elections-2026-voting-results-explained"
+    },
+    {
+      "topic": "daryl mitchell",
+      "state": "already-covered",
+      "slug": "daryl-mitchell-middle-order-batting-guide"
+    },
+    {
+      "topic": "pakistan",
+      "state": "excluded-by-user",
+      "slug": null
+    },
+    {
+      "topic": "michigan senate election results",
+      "state": "published-live-verified",
+      "slug": "michigan-senate-results-official-reporting-guide"
+    },
+    {
+      "topic": "kl rahul",
+      "state": "published-live-verified",
+      "slug": "kl-rahul-batting-roles-wicketkeeping-guide"
+    },
+    {
+      "topic": "kyle jamieson",
+      "state": "published-live-verified",
+      "slug": "kyle-jamieson-bounce-seam-bowling-guide"
+    },
+    {
+      "topic": "nokia 2360 flip phone",
+      "state": "already-covered",
+      "slug": "nokia-2360-flip-family-assist-pakistan-buying-guide"
+    },
+    {
+      "topic": "democrats vs republicans",
+      "state": "published-live-verified",
+      "slug": "democrats-republicans-parties-government-guide"
+    },
+    {
+      "topic": "jacob duffy",
+      "state": "published-live-verified",
+      "slug": "jacob-duffy-otago-seam-bowling-profile"
+    },
+    {
+      "topic": "آبوهوا",
+      "state": "excluded-by-user",
+      "slug": null
+    },
+    {
+      "topic": "donald trump",
+      "state": "published-live-verified",
+      "slug": "donald-trump-biography-presidency-powers-guide"
+    }
+  ],
+  "published": 7,
+  "hostingRun": 41770517048,
+  "liveVerifiedAt": "2026-11-04T04:04:26.981Z"
 }
