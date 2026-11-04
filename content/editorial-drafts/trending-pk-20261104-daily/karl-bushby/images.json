@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Karl Bushby Homecoming Family Photo Side, Kingston upon Hull Nov26.jpg",
+    "url": "/images/editorial/trending-pk-20261104-daily/karl-bushby-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Karl_Bushby_Homecoming_Family_Photo_Side%2C_Kingston_upon_Hull_Nov26.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Karl_Bushby_Homecoming_Family_Photo_Side,_Kingston_upon_Hull_Nov26.jpg",
+    "creator": "Hullian111",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Karl Bushby and family at his Hull homecoming on 2 November 2026.",
+    "description": "Hull-born round-world walker Karl Bushby and his family at his homecoming celebration.",
+    "caption": "Karl Bushby and family at his Hull homecoming on 2 November 2026.",
+    "width": 640,
+    "height": 960,
+    "bytes": 76004,
+    "sha1": "aabe4311d51571f73b3efe418b9f7b7511ca1359",
+    "photographedAt": "2026-11-02 13:47:12",
+    "query": "\"Karl Bushby\"",
+    "reviewState": "metadata-reviewed",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Bering Strait ESA390553.jpg",
+    "url": "/images/editorial/trending-pk-20261104-daily/karl-bushby-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bering_Strait_ESA390553.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Bering_Strait_ESA390553.jpg",
+    "creator": "European Space Agency",
+    "license": "CC BY-SA 3.0 igo",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "alt": "A Sentinel-1 radar composite of the Bering Strait using 2017–2018 scans; geographic context, not an expedition photograph.",
+    "description": "The Copernicus Sentinel-1 mission takes us over the Bering Strait, which connects the Pacific and Arctic Oceans between Russia and the US state of Alaska. The image was created by combining three radar scans of 11 December 2017, 23 December 2017 and 4 January 2018. Each image has been assigned a different colour: blue, red and green, respectively. This creates a colourful composite that highlights how the sea ice changed over the four weeks. Since the Bering Strait lies slightly south of the polar circle, days are short during the winter. Thanks to its radar, Sentinel-1 can ‘see’ through clouds and in the dark, making it especially valuable for monitoring parts of the planet that endure relatively dark winter months. Offering this ‘radar vision’, images from Sentinel-1 can be used for charting icebergs and for generating maps of sea ice for year-round navigation. Additionally, monitoring changes in the extent of sea ice is critical for understanding the effect of climate change on our environment. It has been reported that sea ice in the Bering Strait has been particularly low this winter. This is because unusually warm water streamed up from the south, causing some of the sea ice to melt earlier than usual. As a result, areas that would have remained covered with reflective sea ice were open for much longer. The relatively dark surface of the sea was able to absorb a lot of energy from the Sun, which prevented sea ice forming in the autumn. Also, recent storms have helped to break up much of the sea ice that did manage to form. This image is also featured on the Earth from Space video programme.",
+    "caption": "A Sentinel-1 radar composite of the Bering Strait using 2017–2018 scans; geographic context, not an expedition photograph.",
+    "width": 1280,
+    "height": 854,
+    "bytes": 500324,
+    "sha1": "4d30a3adcb1d6d3b3f440e7f6c65a65ff02bbb5a",
+    "photographedAt": "2018-02-23",
+    "query": "\"Bering Strait\"",
+    "reviewState": "metadata-reviewed",
+    "role": "inline"
+  }
+]

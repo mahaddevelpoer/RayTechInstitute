@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Al Amerat Mountainous.png",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Al_Amerat_Mountainous.png/1280px-Al_Amerat_Mountainous.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Al_Amerat_Mountainous.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Amerat_Mountainous.png",
+    "creator": "Nevicilia",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Mountainous scenery at Al Amerat in Oman; geographic context, not a photograph of the tournament venue.",
+    "description": "View of Al Amerat with mountains visible",
+    "caption": "Mountainous scenery at Al Amerat in Oman; geographic context, not a photograph of the tournament venue.",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 44175377,
+    "sha1": "186a219e80c862e08964f61338c9fa92e2067806",
+    "photographedAt": "2025-12-11",
+    "query": "intitle:\"Al Amerat\"",
+    "reviewState": "metadata-reviewed",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:T20I Scotland v Oman, 2015.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/T20I_Scotland_v_Oman%2C_2015.jpg/1280px-T20I_Scotland_v_Oman%2C_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/T20I_Scotland_v_Oman%2C_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:T20I_Scotland_v_Oman,_2015.jpg",
+    "creator": "John Lord",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Scotland playing Oman in 2015; historical Oman cricket context, not the 2026 U19 competition.",
+    "description": "T20I cricket match Oman versus Scotland in Goldenacre, 18th July 2015, during the 2015 ICC World Twenty20 Qualifier .",
+    "caption": "Scotland playing Oman in 2015; historical Oman cricket context, not the 2026 U19 competition.",
+    "width": 4896,
+    "height": 2819,
+    "bytes": 4120287,
+    "sha1": "789d8fed6a8fe95eb862b2907c907470e23487a4",
+    "photographedAt": "2015-07-18 09:58:24",
+    "query": "\"Oman\" \"cricket\"",
+    "reviewState": "metadata-reviewed",
+    "role": "inline"
+  }
+]

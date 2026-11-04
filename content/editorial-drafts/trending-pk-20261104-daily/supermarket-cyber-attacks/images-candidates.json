@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Yogurt on an refrigerator in a supermarket.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Yogurt_on_an_refrigerator_in_a_supermarket.jpg/1280px-Yogurt_on_an_refrigerator_in_a_supermarket.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Yogurt_on_an_refrigerator_in_a_supermarket.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Yogurt_on_an_refrigerator_in_a_supermarket.jpg",
+    "creator": "維基小霸王",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A supermarket refrigerated dairy display; an illustrative photograph, not an identified victim of the reported attacks.",
+    "description": "Yogurt on an refrigerator in a supermarket",
+    "caption": "A supermarket refrigerated dairy display; an illustrative photograph, not an identified victim of the reported attacks.",
+    "width": 5184,
+    "height": 3456,
+    "bytes": 4324056,
+    "sha1": "52fee41d16168a76386b192e91be41e46b161ec0",
+    "photographedAt": "2020-04-04 11:35:03",
+    "query": "\"supermarket\" refrigerator",
+    "reviewState": "metadata-reviewed",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Genebank temperature controller.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Genebank_temperature_controller.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Genebank_temperature_controller.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Genebank_temperature_controller.JPG",
+    "creator": "Shuhrataxmedov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "A temperature controller at a seed-storage facility; illustrative control equipment, not a supermarket incident device.",
+    "description": "Терморегулятор температуры внутри хранилища семян сельскохозяйственных культур (Генбанк)",
+    "caption": "A temperature controller at a seed-storage facility; illustrative control equipment, not a supermarket incident device.",
+    "width": 768,
+    "height": 1024,
+    "bytes": 146020,
+    "sha1": "43a222cfb4cfd3e41006d8ec34e87a5c5e91c165",
+    "photographedAt": "2012-11-28 11:29:05",
+    "query": "\"refrigeration\" controller",
+    "reviewState": "metadata-reviewed",
+    "role": "inline"
+  }
+]

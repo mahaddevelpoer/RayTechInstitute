@@ -1,0 +1,118 @@
+The ACC Men's U19 Asia Cup is scheduled in Oman from 5 to 14 November 2026. Pakistan enter as defending champions and share Group A with India, Nepal and the United Arab Emirates. For supporters in Pakistan, the immediate dates to note are the opening Pakistan fixture on 6 November, the India meeting on 8 November and the Nepal match on 10 November.
+
+Those dates follow the Pakistan Cricket Board's 3 November announcement. Keep a dated schedule beside any match reminder: a search result from an older edition can display familiar teams while referring to a different country, year or tournament. This guide separates the confirmed tournament outline from practical explanations of how to follow youth cricket without confusing it with senior international cricket.
+
+## What is confirmed about the 2026 tournament?
+
+The event brings eight national under-19 teams together in Oman. Group A contains Pakistan, India, Nepal and UAE. Group B contains Afghanistan, Bangladesh, Sri Lanka and Malaysia. The semi-finals are scheduled for 12 November and the final for 14 November. These are planned fixtures, not results of matches that have already happened.
+
+Pakistan's squad is led by Farhan Yousuf, with Shahid Anwar as head coach. A captain announcement identifies the leader of the selected squad; it does not guarantee that every selected player will appear in every match. Playing elevens are confirmed for individual games, and subsequent changes should be checked against a dated team announcement.
+
+### Pakistan's group dates at a glance
+
+| Scheduled date | Pakistan's opponent | How to use the information |
+| --- | --- | --- |
+| 6 November 2026 | United Arab Emirates | First Pakistan group fixture in the PCB's latest announcement |
+| 8 November 2026 | India | A group match, not automatically a knockout match |
+| 10 November 2026 | Nepal | Final listed Pakistan group fixture |
+| 12 November 2026 | Semi-finals | Participation depends on qualification |
+| 14 November 2026 | Final | The finalists are not known in advance |
+
+Do not add a Pakistan flag beside a semi-final or final as though qualification were already settled. A fixture calendar can reserve the date without predicting the team. That small presentation choice helps younger readers distinguish a schedule from an expectation.
+
+## Why does the under-19 label matter?
+
+Under-19 cricket is an age-group competition, not a lower division of the senior national team. Selection takes place under the applicable eligibility rules, and a player's appearance does not promise a future senior career. Some players develop early, while others improve later or move into different sporting and educational paths.
+
+Follow the cricket that is actually being played. A well-judged leave, a disciplined over or an intelligent field adjustment can be worth noticing even when it does not appear in a highlights package. Treating every teenager as a finished international player makes the coverage less accurate and places unnecessary pressure on a developing athlete.
+
+There is also a useful learning opportunity here. Students can compare the decisions made across a longer innings: how a batter handles a quiet period, how a bowling side responds to a partnership and how fielders maintain concentration when the ball rarely reaches them. These are observable choices rather than predictions about fame.
+
+## How should supporters read the group stage?
+
+A group table records results and the consequences assigned by the competition rules. It is not simply a list of the strongest names. Before comparing teams, check how many matches each has played and whether a game ended without a result. Two teams with the same points may have reached that total through different sequences.
+
+Do not import a points system from another competition. A win, tie, abandoned game and forfeited match can be treated differently under different regulations. The official table is the reference for the actual points; any example used in a classroom should clearly identify its assumed scoring system.
+
+For a practice exercise, imagine a competition that awards two points for a win and one for a no-result. A side with two wins would have four points. A side with one win and two no-results would also have four. The equal totals would not mean the two sides had played identical cricket. This is an illustration, not a declaration of this tournament's regulations.
+
+### What does net run rate tell you?
+
+Net run rate compares a team's scoring rate with the scoring rate it allows, subject to the competition's calculation rules. It can become relevant when sides are tied on points, but its use and the order of tie-breakers must be checked in the applicable conditions. It should not be treated as an alternative result for an individual match.
+
+The broad calculation uses runs and eligible overs across the relevant games. It is not generally the average of the displayed match-by-match net run rates. All-out innings, shortened games and revised targets can require specific treatment. If a live table seems surprising, check the underlying innings and rules before assuming a clerical error.
+
+## Read the scorecard before judging an innings
+
+A batter's runs are only the starting point. Balls faced, entry point, wickets lost and the stage of the chase give those runs meaning. Thirty runs while rebuilding after early wickets can answer a different tactical problem from thirty runs in the final overs with partners still available.
+
+Similarly, bowling figures should be read alongside the overs delivered and the match situation. A bowler asked to attack at the end may concede more than a teammate operating during a quiet middle passage. This does not make expensive overs automatically good; it means the evaluation should explain what the bowler was attempting and what actually happened.
+
+The [Tom Latham batting guide](/blogs/tom-latham-batting-spin-wicketkeeping-guide/) explains why batting roles change between formats. The [Anshul Kamboj record guide](/blogs/anshul-kamboj-ten-wickets-ranji-record-guide/) explains how wicket records differ from broader claims about a career. Both provide useful tools for reading youth scorecards without inventing conclusions from a single number.
+
+### Overs are not decimal fractions
+
+An innings shown as 18.4 overs has used eighteen complete overs and four additional legal deliveries. That is 112 legal balls, not 18.4 multiplied by six. The number after the point is a ball count within the unfinished over, so it runs from zero to five in six-ball cricket.
+
+This distinction matters when calculating a scoring rate. A hypothetical 84 runs from 14 overs is six runs per over. A hypothetical 84 runs from 14.3 overs uses fourteen and a half overs for the arithmetic, giving a rate of about 5.79. Always convert the ball notation correctly before dividing.
+
+## Follow the India-Pakistan match without losing the tournament
+
+The 8 November meeting will attract attention, but it is one group fixture within a larger competition. Pakistan also need to play UAE and Nepal, and the other group determines the wider knockout picture. A dramatic result in one rivalry does not, by itself, settle the trophy.
+
+A useful viewing habit is to record three things after each match: the actual result, the updated group position and the next confirmed fixture. Keep opinions about momentum in a separate note. This lets you enjoy a rivalry while preserving the difference between a completed event and a prediction.
+
+Supporters should also keep criticism focused on play. Questioning a shot selection is different from targeting a young player personally. Avoid spreading private information, abusive messages or unsupported claims about eligibility. Public competition does not remove a teenager's right to basic dignity.
+
+## Check start times and viewing information carefully
+
+This guide does not invent a broadcaster or a live-stream link. Rights and access can differ by territory, and a social-media account using an official-looking badge may not hold permission to stream a match. Check announcements from the organiser, the participating board or an identified authorised broadcaster before entering account or payment details.
+
+If a fixture lists a time in GMT, add five hours to convert it to Pakistan Standard Time. If it lists Oman local time, Pakistan is one hour ahead. First identify the time zone printed beside the fixture; adding both adjustments would count the difference twice and create an incorrect reminder.
+
+Keep the date as well as the time. A late-evening event in one region can fall on the next calendar day elsewhere. This tournament's morning scheduling may make that less likely, but the general habit remains useful whenever you follow international sport. A screenshot without its time-zone label is an incomplete schedule.
+
+## Build a match notebook that actually teaches something
+
+Instead of copying every ball, choose one question for each innings. You might ask how the batting side rotates strike after a wicket, or how the field changes when a left-handed batter arrives. Write down two or three examples that support your observation and one example that challenges it.
+
+That last step prevents a common mistake: noticing only the deliveries that fit a preferred story. If you think a team cannot score through the off side, record the occasions when it does. A useful explanation survives inconvenient evidence rather than removing it from the notebook.
+
+For a small maths exercise, calculate a partnership's scoring rate from the runs and legal balls. For an English exercise, write a short match summary that includes the result before your opinion. For an information-literacy exercise, compare the date and author of two reports about the same fixture. Cricket can support several kinds of learning without turning every moment into homework.
+
+## Separate this event from other Asian competitions
+
+The U19 Asia Cup, the senior Asia Cup and the Asia Cup Rising Stars competition are different events. A familiar country name does not make their squads interchangeable. Check the full tournament title before attributing a player, result or fixture to the under-19 team.
+
+The distinction matters particularly when several competitions are announced in the same week. A Pakistan Shaheens squad is not automatically the Pakistan U19 squad. A senior international result does not update the U19 group table. Use the tournament title and the date together when searching for a scorecard.
+
+## Questions readers are asking
+
+### Where is the ACC U19 Asia Cup in 2026?
+
+The reviewed November announcements place the tournament in Oman. A page showing an earlier UAE edition should not be used as the venue reference for this edition. Check the year in the headline and the publication date before sharing an itinerary.
+
+### When do Pakistan play India?
+
+The PCB's 3 November schedule lists the group meeting for 8 November 2026. Confirm the latest match listing before making a viewing plan, because this page records the announced schedule rather than guaranteeing that no subsequent change can occur.
+
+### Are Pakistan already in the final?
+
+No. Being defending champions describes success in the previous edition. It does not reserve a place in the next final. Qualification and knockout results have to be earned in the current tournament, and future fixtures should retain conditional wording.
+
+### Does a selected squad equal the playing eleven?
+
+No. A tournament squad contains options for selection across different fixtures. The playing eleven is the team selected for a particular match. Conditions, fitness and tactical choices can affect that selection, so wait for the match announcement instead of presenting a predicted eleven as confirmed.
+
+### Can this competition identify the next senior star?
+
+It can introduce promising players, but a short tournament cannot guarantee a professional future. Development depends on many seasons of performance, opportunity, health and adaptation. Enjoy a good innings for what it demonstrates today without pretending it settles the next decade.
+
+## Keep a reliable fixture reminder
+
+Save the full competition name, the scheduled date and the source of the listing beside each reminder. When an update appears, compare it with the older record instead of keeping both times without explanation. If a school or a group of friends is arranging a viewing session, nominate one person to confirm the latest schedule on the morning of the game. This prevents an outdated forwarded poster from becoming the only reference for everyone.
+
+## Sources
+
+- [Pakistan squad and tournament announcement](https://www.pcb.com.pk/press-release-detail/defending-champions-pakistan-set-for-acc-men-s-u19-asia-cup-in-oman.html)
+- [India U19 squad announcement](https://www.bcci.tv/news/article/india-u19-squad-for-acc-mens-u19-asia-cup-announced)

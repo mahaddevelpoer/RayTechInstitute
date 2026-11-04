@@ -129,101 +129,121 @@
       "key": "iphone",
       "topic": "iphone",
       "row": 11,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"iPhone 18 Pro\"",
         "\"iPhone\" repair"
-      ]
+      ],
+      "slug": "iphone-pakistan-study-buying-safety-guide",
+      "category": "technology"
     },
     {
       "key": "jesus-de-miguel",
       "topic": "jesus de miguel",
       "row": 12,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"Jesús de Miguel\"",
         "\"Heliodoro Rodríguez López\""
-      ]
+      ],
+      "slug": "jesus-de-miguel-owono-collision-confirmed-news",
+      "category": "sports"
     },
     {
       "key": "new-zealand-india-first-odi",
       "topic": "new zealand vs india",
       "row": 13,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"Eden Park\" cricket",
         "\"Virat Kohli\" batting"
-      ]
+      ],
+      "slug": "new-zealand-india-first-odi-kohli-dls-november-2026",
+      "category": "sports"
     },
     {
       "key": "supermarket-cyber-attacks",
       "topic": "cyber attacks supermarkets",
       "row": 20,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"supermarket\" refrigerator",
         "\"refrigeration\" controller"
-      ]
+      ],
+      "slug": "supermarket-cyberattacks-refrigeration-controller-guide",
+      "category": "technology"
     },
     {
       "key": "samsung-galaxy-s27-ultra",
       "topic": "samsung galaxy s27 ultra",
       "row": 22,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"Samsung Galaxy S26 Ultra\"",
         "\"smartphone\" battery"
-      ]
+      ],
+      "slug": "samsung-galaxy-s27-ultra-rumours-evidence-guide",
+      "category": "technology"
     },
     {
       "key": "james-talarico",
       "topic": "james talarico",
       "row": 29,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"James Talarico\"",
         "\"Texas State Capitol\""
-      ]
+      ],
+      "slug": "james-talarico-texas-senate-result-profile-2026",
+      "category": "world-news"
     },
     {
       "key": "karl-bushby",
       "topic": "karl bushby",
       "row": 31,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"Karl Bushby\"",
         "\"Bering Strait\""
-      ]
+      ],
+      "slug": "karl-bushby-homecoming-goliath-expedition-explained",
+      "category": "world-news"
     },
     {
       "key": "pakistan-air-force-faaz",
       "topic": "pakistan air force",
       "row": 32,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"JF-17\"",
         "\"Pakistan Air Force\" museum"
-      ]
+      ],
+      "slug": "pakistan-faaz-air-to-air-missile-test-evidence-guide",
+      "category": "pakistan"
     },
     {
       "key": "acc-under-19-asia-cup",
       "topic": "acc u-19 asia cup",
       "row": 33,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"Under-19 Asia Cup\"",
         "\"Dubai International Cricket Stadium\""
-      ]
+      ],
+      "slug": "acc-u19-asia-cup-2026-pakistan-schedule-oman",
+      "category": "sports"
     },
     {
       "key": "manuel-neuer",
       "topic": "manuel neuer",
       "row": 34,
-      "state": "research-pending",
+      "state": "draft-written",
       "queries": [
         "\"Manuel Neuer\"",
         "\"goalkeeper\" training"
-      ]
+      ],
+      "slug": "manuel-neuer-bayern-germany-sweeper-keeper-guide",
+      "category": "sports"
     },
     {
       "key": "prize-bond",

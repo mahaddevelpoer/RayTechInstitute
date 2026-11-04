@@ -14,12 +14,14 @@ async function request(url, options={}) {
 const sitemap=await(await request(origin+'/sitemap.xml')).text();
 const listing=await(await request(origin+'/blogs/')).text();
 const target=process.argv.find(value=>value.startsWith('--article='))?.slice(10);
+const targetsArg=process.argv.find(value=>value.startsWith('--articles='))?.slice(11);
+const targets=targetsArg?new Set(targetsArg.split(',').filter(Boolean)):target?new Set([target]):null;
 const ledger=batch==='20261104-daily'?'artifacts/november4-daily/live-verification.json':batch==='20261104'?'artifacts/november4/live-verification.json':'artifacts/november-publish/live-verification.json';
-const previous=target&&fs.existsSync(ledger)?JSON.parse(fs.readFileSync(ledger)).results:[];
-const results=previous.filter(row=>row.name!==target);
+const previous=targets&&fs.existsSync(ledger)?JSON.parse(fs.readFileSync(ledger)).results:[];
+const results=previous.filter(row=>!targets?.has(row.name));
 const unescapeHtml=value=>value.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
 for(const name of fs.readdirSync(root)){
- if(target&&name!==target)continue;
+ if(targets&&!targets.has(name))continue;
  if(!fs.existsSync(`${root}/${name}/post.json`)||!fs.existsSync(`${root}/${name}/images.json`))continue;
  const post=JSON.parse(fs.readFileSync(`${root}/${name}/post.json`,'utf8'));
  const images=JSON.parse(fs.readFileSync(`${root}/${name}/images.json`,'utf8'));
