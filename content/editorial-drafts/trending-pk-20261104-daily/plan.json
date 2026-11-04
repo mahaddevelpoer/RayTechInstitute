@@ -1,0 +1,821 @@
+{
+  "date": "2026-11-04",
+  "sourceCsv": "trending_PK_1d_20261104-1429.csv",
+  "publicationAuthorized": true,
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "groups": [
+    {
+      "key": "barcelona-aston-villa",
+      "topic": "barcelona vs aston villa",
+      "row": 2,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Camp Nou\"",
+        "\"Villa Park\""
+      ],
+      "slug": "barcelona-aston-villa-3-0-goals-november-2026",
+      "category": "sports"
+    },
+    {
+      "key": "manchester-united-roma",
+      "topic": "man utd vs roma",
+      "row": 7,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Old Trafford\"",
+        "\"Stadio Olimpico\""
+      ],
+      "slug": "manchester-united-roma-3-2-cunha-comeback-2026",
+      "category": "sports"
+    },
+    {
+      "key": "villarreal-psg",
+      "topic": "villarreal vs psg",
+      "row": 9,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Estadio de la Cerámica\"",
+        "\"Parc des Princes\""
+      ],
+      "slug": "villarreal-psg-0-6-goals-november-2026",
+      "category": "sports"
+    },
+    {
+      "key": "atletico-bayern",
+      "topic": "atlético madrid vs bayern munich standings",
+      "row": 18,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Metropolitano\" stadium",
+        "\"Allianz Arena\""
+      ],
+      "slug": "atletico-bayern-0-2-karl-laimer-november-2026",
+      "category": "sports"
+    },
+    {
+      "key": "feyenoord-inter",
+      "topic": "feyenoord vs inter",
+      "row": 55,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"De Kuip\"",
+        "\"San Siro\""
+      ],
+      "slug": "feyenoord-inter-0-3-goals-november-2026",
+      "category": "sports"
+    },
+    {
+      "key": "galatasaray-stuttgart",
+      "topic": "galatasaray vs vfb stuttgart",
+      "row": 63,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Rams Park\"",
+        "\"MHPArena\""
+      ],
+      "slug": "galatasaray-stuttgart-2-0-batrakov-november-2026",
+      "category": "sports"
+    },
+    {
+      "key": "anshul-kamboj",
+      "topic": "anshul kamboj",
+      "row": 5,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Anshul Kamboj\"",
+        "\"Lahli\" cricket"
+      ],
+      "slug": "anshul-kamboj-ten-wickets-ranji-record-guide",
+      "category": "sports"
+    },
+    {
+      "key": "tom-latham",
+      "topic": "tom latham",
+      "row": 23,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Tom Latham\"",
+        "\"Hagley Oval\""
+      ],
+      "slug": "tom-latham-batting-spin-wicketkeeping-guide",
+      "category": "sports"
+    },
+    {
+      "key": "pia-cabin-crew-uniforms",
+      "topic": "pia new cabin crew uniforms",
+      "row": 25,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"Pakistan International Airlines\"",
+        "\"aircraft cabin\""
+      ],
+      "slug": "pia-new-cabin-crew-uniforms-hsy-rollout-2026",
+      "category": "economy"
+    },
+    {
+      "key": "ptcl",
+      "topic": "ptcl",
+      "row": 26,
+      "state": "local-verified-unpublished",
+      "queries": [
+        "\"PTCL\"",
+        "\"optical fiber\""
+      ],
+      "slug": "ptcl-flash-fiber-bills-safe-support-guide",
+      "category": "technology"
+    },
+    {
+      "key": "iphone",
+      "topic": "iphone",
+      "row": 11,
+      "state": "research-pending"
+    },
+    {
+      "key": "jesus-de-miguel",
+      "topic": "jesus de miguel",
+      "row": 12,
+      "state": "research-pending"
+    },
+    {
+      "key": "new-zealand-india-first-odi",
+      "topic": "new zealand vs india",
+      "row": 13,
+      "state": "research-pending"
+    },
+    {
+      "key": "divit-auluck",
+      "topic": "divit auluck",
+      "row": 19,
+      "state": "research-pending"
+    },
+    {
+      "key": "supermarket-cyber-attacks",
+      "topic": "cyber attacks supermarkets",
+      "row": 20,
+      "state": "research-pending"
+    },
+    {
+      "key": "samsung-galaxy-s27-ultra",
+      "topic": "samsung galaxy s27 ultra",
+      "row": 22,
+      "state": "research-pending"
+    },
+    {
+      "key": "james-talarico",
+      "topic": "james talarico",
+      "row": 29,
+      "state": "research-pending"
+    },
+    {
+      "key": "karl-bushby",
+      "topic": "karl bushby",
+      "row": 31,
+      "state": "research-pending"
+    },
+    {
+      "key": "pakistan-air-force-faaz",
+      "topic": "pakistan air force",
+      "row": 32,
+      "state": "research-pending"
+    },
+    {
+      "key": "acc-under-19-asia-cup",
+      "topic": "acc u-19 asia cup",
+      "row": 33,
+      "state": "research-pending"
+    },
+    {
+      "key": "manuel-neuer",
+      "topic": "manuel neuer",
+      "row": 34,
+      "state": "research-pending"
+    },
+    {
+      "key": "prize-bond",
+      "topic": "prize bond",
+      "row": 35,
+      "state": "research-pending"
+    },
+    {
+      "key": "nabeela-syed",
+      "topic": "nabeela syed",
+      "row": 36,
+      "state": "research-pending"
+    },
+    {
+      "key": "esteban-ocon",
+      "topic": "esteban ocon",
+      "row": 37,
+      "state": "research-pending"
+    },
+    {
+      "key": "gina-hinojosa",
+      "topic": "gina hinojosa",
+      "row": 38,
+      "state": "research-pending"
+    },
+    {
+      "key": "jesus-owono",
+      "topic": "jesús owono",
+      "row": 42,
+      "state": "research-pending"
+    },
+    {
+      "key": "icc-cwc-league-2",
+      "topic": "icc cwc league 2",
+      "row": 43,
+      "state": "research-pending"
+    },
+    {
+      "key": "fauji-foundation-pearl-continental",
+      "topic": "fauji foundation pearl continental acquisition",
+      "row": 46,
+      "state": "research-pending"
+    },
+    {
+      "key": "nathan-smith",
+      "topic": "nathan smith",
+      "row": 47,
+      "state": "research-pending"
+    },
+    {
+      "key": "amish-shah",
+      "topic": "amish shah",
+      "row": 48,
+      "state": "research-pending"
+    },
+    {
+      "key": "champions-league-matchday-four",
+      "topic": "ucl",
+      "row": 52,
+      "state": "research-pending"
+    },
+    {
+      "key": "solar-power",
+      "topic": "solar power",
+      "row": 53,
+      "state": "research-pending"
+    },
+    {
+      "key": "abdul-el-sayed",
+      "topic": "el sayed",
+      "row": 56,
+      "state": "research-pending"
+    },
+    {
+      "key": "sony-playstation",
+      "topic": "sony playstation",
+      "row": 61,
+      "state": "research-pending"
+    },
+    {
+      "key": "coloros-17",
+      "topic": "coloros 17",
+      "row": 64,
+      "state": "research-pending"
+    },
+    {
+      "key": "chaudhry-salik-hussain",
+      "topic": "chaudhry salik hussain",
+      "row": 67,
+      "state": "research-pending"
+    },
+    {
+      "key": "cod-mw4",
+      "topic": "cod mw4",
+      "row": 69,
+      "state": "research-pending"
+    },
+    {
+      "key": "rising-stars-asia-cup",
+      "topic": "rising stars asia cup",
+      "row": 75,
+      "state": "research-pending"
+    },
+    {
+      "key": "bigg-boss",
+      "topic": "bigg boss",
+      "row": 76,
+      "state": "research-pending"
+    },
+    {
+      "key": "nike",
+      "topic": "nike",
+      "row": 77,
+      "state": "research-pending"
+    },
+    {
+      "key": "afc-asian-cup",
+      "topic": "afc asian cup",
+      "row": 78,
+      "state": "research-pending"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "topic": "republican party",
+      "state": "already-covered",
+      "target": "democrats-republicans-parties-government-guide"
+    },
+    {
+      "row": 2,
+      "topic": "barcelona vs aston villa",
+      "state": "new-topic",
+      "target": "barcelona-aston-villa"
+    },
+    {
+      "row": 3,
+      "topic": "democratic party",
+      "state": "already-covered",
+      "target": "democrats-republicans-parties-government-guide"
+    },
+    {
+      "row": 4,
+      "topic": "uae vs oman",
+      "state": "already-covered",
+      "target": "oman-uae-cricket-league-two-standings-guide"
+    },
+    {
+      "row": 5,
+      "topic": "anshul kamboj",
+      "state": "new-topic",
+      "target": "anshul-kamboj"
+    },
+    {
+      "row": 6,
+      "topic": "us election results",
+      "state": "already-covered",
+      "target": "us-midterm-elections-2026-voting-results-explained"
+    },
+    {
+      "row": 7,
+      "topic": "man utd vs roma",
+      "state": "new-topic",
+      "target": "manchester-united-roma"
+    },
+    {
+      "row": 8,
+      "topic": "rohit sharma",
+      "state": "already-covered",
+      "target": "rohit-sharma-odi-status-retirement-career-records"
+    },
+    {
+      "row": 9,
+      "topic": "villarreal vs psg",
+      "state": "new-topic",
+      "target": "villarreal-psg"
+    },
+    {
+      "row": 10,
+      "topic": "fuel",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 11,
+      "topic": "iphone",
+      "state": "new-topic",
+      "target": "iphone"
+    },
+    {
+      "row": 12,
+      "topic": "jesus de miguel",
+      "state": "new-topic",
+      "target": "jesus-de-miguel"
+    },
+    {
+      "row": 13,
+      "topic": "new zealand vs india",
+      "state": "new-topic",
+      "target": "new-zealand-india-first-odi"
+    },
+    {
+      "row": 14,
+      "topic": "quaid e azam trophy gold",
+      "state": "already-covered",
+      "target": "quaid-e-azam-trophy-2026-27-gold-silver-schedule"
+    },
+    {
+      "row": 15,
+      "topic": "virus",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 16,
+      "topic": "blair tickner",
+      "state": "already-covered",
+      "target": "blair-tickner-profile-and-learning-guide"
+    },
+    {
+      "row": 17,
+      "topic": "us midterm elections results",
+      "state": "already-covered",
+      "target": "us-midterm-elections-2026-voting-results-explained"
+    },
+    {
+      "row": 18,
+      "topic": "atlético madrid vs bayern munich standings",
+      "state": "new-topic",
+      "target": "atletico-bayern"
+    },
+    {
+      "row": 19,
+      "topic": "divit auluck",
+      "state": "new-topic",
+      "target": "divit-auluck"
+    },
+    {
+      "row": 20,
+      "topic": "cyber attacks supermarkets",
+      "state": "new-topic",
+      "target": "supermarket-cyber-attacks"
+    },
+    {
+      "row": 21,
+      "topic": "kyle jamieson",
+      "state": "already-covered",
+      "target": "kyle-jamieson-bounce-seam-bowling-guide"
+    },
+    {
+      "row": 22,
+      "topic": "samsung galaxy s27 ultra",
+      "state": "new-topic",
+      "target": "samsung-galaxy-s27-ultra"
+    },
+    {
+      "row": 23,
+      "topic": "tom latham",
+      "state": "new-topic",
+      "target": "tom-latham"
+    },
+    {
+      "row": 24,
+      "topic": "trump party",
+      "state": "already-covered",
+      "target": "donald-trump-biography-presidency-powers-guide"
+    },
+    {
+      "row": 25,
+      "topic": "pia new cabin crew uniforms",
+      "state": "new-topic",
+      "target": "pia-cabin-crew-uniforms"
+    },
+    {
+      "row": 26,
+      "topic": "ptcl",
+      "state": "new-topic",
+      "target": "ptcl"
+    },
+    {
+      "row": 27,
+      "topic": "kl rahul",
+      "state": "already-covered",
+      "target": "kl-rahul-batting-roles-wicketkeeping-guide"
+    },
+    {
+      "row": 28,
+      "topic": "donald trump party name",
+      "state": "already-covered",
+      "target": "donald-trump-biography-presidency-powers-guide"
+    },
+    {
+      "row": 29,
+      "topic": "james talarico",
+      "state": "new-topic",
+      "target": "james-talarico"
+    },
+    {
+      "row": 30,
+      "topic": "apl",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 31,
+      "topic": "karl bushby",
+      "state": "new-topic",
+      "target": "karl-bushby"
+    },
+    {
+      "row": 32,
+      "topic": "pakistan air force",
+      "state": "new-topic",
+      "target": "pakistan-air-force-faaz"
+    },
+    {
+      "row": 33,
+      "topic": "acc u-19 asia cup",
+      "state": "new-topic",
+      "target": "acc-under-19-asia-cup"
+    },
+    {
+      "row": 34,
+      "topic": "manuel neuer",
+      "state": "new-topic",
+      "target": "manuel-neuer"
+    },
+    {
+      "row": 35,
+      "topic": "prize bond",
+      "state": "new-topic",
+      "target": "prize-bond"
+    },
+    {
+      "row": 36,
+      "topic": "nabeela syed",
+      "state": "new-topic",
+      "target": "nabeela-syed"
+    },
+    {
+      "row": 37,
+      "topic": "esteban ocon",
+      "state": "new-topic",
+      "target": "esteban-ocon"
+    },
+    {
+      "row": 38,
+      "topic": "gina hinojosa",
+      "state": "new-topic",
+      "target": "gina-hinojosa"
+    },
+    {
+      "row": 39,
+      "topic": "nz vs ind",
+      "state": "merged-with-same-topic",
+      "target": "new-zealand-india-first-odi"
+    },
+    {
+      "row": 40,
+      "topic": "us midterm elections 2026 results",
+      "state": "already-covered",
+      "target": "us-midterm-elections-2026-voting-results-explained"
+    },
+    {
+      "row": 41,
+      "topic": "videos",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 42,
+      "topic": "jesús owono",
+      "state": "new-topic",
+      "target": "jesus-owono"
+    },
+    {
+      "row": 43,
+      "topic": "icc cwc league 2",
+      "state": "new-topic",
+      "target": "icc-cwc-league-2"
+    },
+    {
+      "row": 44,
+      "topic": "arshdeep singh",
+      "state": "already-covered",
+      "target": "arshdeep-singh-records-and-learning-guide"
+    },
+    {
+      "row": 45,
+      "topic": "nokia 2360 flip phone",
+      "state": "already-covered",
+      "target": "nokia-2360-flip-family-assist-pakistan-buying-guide"
+    },
+    {
+      "row": 46,
+      "topic": "fauji foundation pearl continental acquisition",
+      "state": "new-topic",
+      "target": "fauji-foundation-pearl-continental"
+    },
+    {
+      "row": 47,
+      "topic": "nathan smith",
+      "state": "new-topic",
+      "target": "nathan-smith"
+    },
+    {
+      "row": 48,
+      "topic": "amish shah",
+      "state": "new-topic",
+      "target": "amish-shah"
+    },
+    {
+      "row": 49,
+      "topic": "connection",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 50,
+      "topic": "tim seifert",
+      "state": "already-covered",
+      "target": "tim-seifert-wicketkeeping-batting-study-guide"
+    },
+    {
+      "row": 51,
+      "topic": "psg",
+      "state": "merged-with-same-topic",
+      "target": "villarreal-psg"
+    },
+    {
+      "row": 52,
+      "topic": "ucl",
+      "state": "new-topic",
+      "target": "champions-league-matchday-four"
+    },
+    {
+      "row": 53,
+      "topic": "solar power",
+      "state": "new-topic",
+      "target": "solar-power"
+    },
+    {
+      "row": 54,
+      "topic": "turkey",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 55,
+      "topic": "feyenoord vs inter",
+      "state": "new-topic",
+      "target": "feyenoord-inter"
+    },
+    {
+      "row": 56,
+      "topic": "el sayed",
+      "state": "new-topic",
+      "target": "abdul-el-sayed"
+    },
+    {
+      "row": 57,
+      "topic": "bbc news",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 58,
+      "topic": "gasoline",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 59,
+      "topic": "bomb threat",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 60,
+      "topic": "propakistani",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 61,
+      "topic": "sony playstation",
+      "state": "new-topic",
+      "target": "sony-playstation"
+    },
+    {
+      "row": 62,
+      "topic": "jacob duffy",
+      "state": "already-covered",
+      "target": "jacob-duffy-otago-seam-bowling-profile"
+    },
+    {
+      "row": 63,
+      "topic": "galatasaray vs vfb stuttgart",
+      "state": "new-topic",
+      "target": "galatasaray-stuttgart"
+    },
+    {
+      "row": 64,
+      "topic": "coloros 17",
+      "state": "new-topic",
+      "target": "coloros-17"
+    },
+    {
+      "row": 65,
+      "topic": "find",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 66,
+      "topic": "2007",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 67,
+      "topic": "chaudhry salik hussain",
+      "state": "new-topic",
+      "target": "chaudhry-salik-hussain"
+    },
+    {
+      "row": 68,
+      "topic": "novak djokovic",
+      "state": "already-covered",
+      "target": "novak-djokovic-tennis-match-analysis-guide"
+    },
+    {
+      "row": 69,
+      "topic": "cod mw4",
+      "state": "new-topic",
+      "target": "cod-mw4"
+    },
+    {
+      "row": 70,
+      "topic": "missile",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 71,
+      "topic": "آبوهوا",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 72,
+      "topic": "claim",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 73,
+      "topic": "bayern munich",
+      "state": "already-covered",
+      "target": "bayern-munich-history-campus-code-kick-student-guide"
+    },
+    {
+      "row": 74,
+      "topic": "mom and son",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 75,
+      "topic": "rising stars asia cup",
+      "state": "new-topic",
+      "target": "rising-stars-asia-cup"
+    },
+    {
+      "row": 76,
+      "topic": "bigg boss",
+      "state": "new-topic",
+      "target": "bigg-boss"
+    },
+    {
+      "row": 77,
+      "topic": "nike",
+      "state": "new-topic",
+      "target": "nike"
+    },
+    {
+      "row": 78,
+      "topic": "afc asian cup",
+      "state": "new-topic",
+      "target": "afc-asian-cup"
+    },
+    {
+      "row": 79,
+      "topic": "barcelona",
+      "state": "already-covered",
+      "target": "fc-barcelona-club-origins-la-masia-teams-student-guide"
+    },
+    {
+      "row": 80,
+      "topic": "champions league games",
+      "state": "merged-with-same-topic",
+      "target": "champions-league-matchday-four"
+    },
+    {
+      "row": 81,
+      "topic": "pakistani",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 82,
+      "topic": "psl",
+      "state": "already-covered",
+      "target": "hbl-psl-2026-final-zalmi-hardie-scorecard-guide"
+    },
+    {
+      "row": 83,
+      "topic": "islamabad",
+      "state": "excluded-unclear-by-user",
+      "target": null
+    },
+    {
+      "row": 84,
+      "topic": "gta 6",
+      "state": "already-covered",
+      "target": "gta-6-release-date-platforms-pakistan-buying-guide"
+    }
+  ]
+}

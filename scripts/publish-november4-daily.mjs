@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {learningProject,readLearningServiceKey} from './learning-cli-access.mjs';
+import {fetchCatalogRows} from './catalog-fetch.mjs';
+import {hasPrivateCredential} from './private-credential-patterns.mjs';
+const root='content/editorial-drafts/trending-pk-20261104-daily',read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const plan=read(root+'/plan.json'),validation=read(root+'/validation.json');assert.equal(plan.publicationAuthorized,true);assert.ok(validation.articles>=10);
+const base='https://'+learningProject+'.supabase.co',key=readLearningServiceKey(),existing=await fetchCatalogRows(base,key,'blogs'),rows=[];
+for(const g of plan.groups.filter(g=>validation.results.some(r=>r.key===g.key))){const dir=root+'/'+g.key,p=read(dir+'/post.json'),review=read(dir+'/review.json');assert.equal(review.imageVisualReview,'passed');assert.ok(review.words>=2000);assert.ok(validation.results.some(r=>r.slug===p.slug&&r.words===review.words));assert.ok(!hasPrivateCredential(JSON.stringify(p)));const row={id:p.id,title:p.title,slug:p.slug,category:p.category,excerpt:p.excerpt,content:p.content,featured_image:p.featuredImage,author:p.author,date_published:'2026-11-04',read_time:p.readTime,tags:p.tags,seo:p.seo,action_button_text:null,action_button_url:null};const old=existing.find(r=>r.id===row.id||r.slug===row.slug);if(old)for(const[k,v]of Object.entries(row))assert.deepEqual(old[k],v,'Existing article differs; no overwrite allowed: '+row.slug+'/'+k);rows.push({row,exists:!!old});}
+console.log(JSON.stringify({reviewed:rows.length,new:rows.filter(r=>!r.exists).length,overwrites:0,publish:process.argv.includes('--publish')}));if(!process.argv.includes('--publish'))process.exit(0);
+fs.writeFileSync('artifacts/november4-daily/before-publish-'+Date.now()+'.json',JSON.stringify(existing));
+const missing=rows.filter(r=>!r.exists).map(r=>r.row);if(missing.length){const response=await fetch(base+'/rest/v1/blogs',{method:'POST',headers:{apikey:key,Authorization:'Bearer '+key,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify(missing),signal:AbortSignal.timeout(45000)});assert.ok(response.ok,'Insert failed with HTTP '+response.status);}
+const saved=await fetchCatalogRows(base,key,'blogs');for(const{row}of rows){const actual=saved.find(r=>r.id===row.id);for(const[k,v]of Object.entries(row))assert.deepEqual(actual?.[k],v,'Read-back mismatch '+row.slug+'/'+k);}
+const before=new Map(existing.map(r=>[r.id,JSON.stringify(r)]));for(const r of saved)if(before.has(r.id))assert.equal(JSON.stringify(r),before.get(r.id),'Unrelated article changed');
+fs.writeFileSync('artifacts/november4-daily/publication-receipt.json',JSON.stringify({state:'database-saved-awaiting-hosting',inserted:missing.length,verified:rows.length,existingArticlesPreserved:existing.length,articles:rows.map(r=>r.row.slug)},null,2));console.log(JSON.stringify({savedAndReadBackVerified:rows.length,existingArticlesPreserved:existing.length,hosting:'pending'}));

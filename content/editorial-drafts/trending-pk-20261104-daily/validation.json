@@ -1,0 +1,79 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 20184,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 264,
+  "results": [
+    {
+      "key": "barcelona-aston-villa",
+      "slug": "barcelona-aston-villa-3-0-goals-november-2026",
+      "words": 2001,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "manchester-united-roma",
+      "slug": "manchester-united-roma-3-2-cunha-comeback-2026",
+      "words": 2031,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "villarreal-psg",
+      "slug": "villarreal-psg-0-6-goals-november-2026",
+      "words": 2030,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "atletico-bayern",
+      "slug": "atletico-bayern-0-2-karl-laimer-november-2026",
+      "words": 2038,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "feyenoord-inter",
+      "slug": "feyenoord-inter-0-3-goals-november-2026",
+      "words": 2020,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "galatasaray-stuttgart",
+      "slug": "galatasaray-stuttgart-2-0-batrakov-november-2026",
+      "words": 2009,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "anshul-kamboj",
+      "slug": "anshul-kamboj-ten-wickets-ranji-record-guide",
+      "words": 2005,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "tom-latham",
+      "slug": "tom-latham-batting-spin-wicketkeeping-guide",
+      "words": 2003,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "pia-cabin-crew-uniforms",
+      "slug": "pia-new-cabin-crew-uniforms-hsy-rollout-2026",
+      "words": 2008,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ptcl",
+      "slug": "ptcl-flash-fiber-bills-safe-support-guide",
+      "words": 2039,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

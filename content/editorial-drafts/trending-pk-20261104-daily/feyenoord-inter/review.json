@@ -1,0 +1,8 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2020,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-04"
+}
