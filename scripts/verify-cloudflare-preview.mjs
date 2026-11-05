@@ -18,13 +18,18 @@ const missing=await request(base+'/this-page-must-not-exist-cloudflare-migration
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
 const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});const results=[];
 try{
- for(const [language,code,answer]of [['python','print(6 * 7)','42'],['php','<?php echo 6 * 7;','42'],['javascript','console.log(typeof document); console.log(6 * 7);','42']]){
+ for(const [language,code,answer]of [['python','print(6 * 7)','42'],['php','<?php echo 6 * 7;','42'],['javascript','console.log(typeof document); console.log(6 * 7);','42'],['html','<h1>42</h1><script>parent.document.body.innerHTML="blocked"</script>','42'],['css','h1 { color: rgb(27, 79, 155); }','Practice heading']]){
   const lang=LEARNING_LANGUAGES.find(l=>l.id===language),topic=LEARNING_TOPICS.filter(t=>t.languageId===language&&t.status==='published').toSorted((a,b)=>a.order-b.order)[0]||LEARNING_TOPICS.filter(t=>t.languageId===language).toSorted((a,b)=>a.order-b.order)[0];assert.ok(lang&&topic);
   const page=await browser.newPage({viewport:{width:1366,height:900}});const errors=[];page.on('pageerror',error=>errors.push(error.message));
   await page.goto(base+'/learn/'+lang.slug+'/'+topic.slug+'/',{waitUntil:'domcontentloaded'});
   const consent=page.getByRole('button',{name:'Decline Optional',exact:true});await consent.waitFor();await consent.click();
   await page.locator('.cm-content').first().fill(code);await page.getByRole('button',{name:'Run',exact:true}).click();
-  await page.waitForFunction(value=>document.querySelector('.learning-output')?.textContent.includes(value),answer,{timeout:90000});
+  if(language==='html'||language==='css'){
+   const element=await page.getByTitle('Sandboxed page preview',{exact:true}).elementHandle();assert.equal(await element.getAttribute('sandbox'),'');
+   const frame=await element.contentFrame();assert.ok(frame);await frame.getByRole('heading',{name:answer,exact:true}).waitFor();
+   assert.equal(await frame.locator('script').count(),0,'Preview strips active scripts');
+   if(language==='css')assert.equal(await frame.locator('h1').evaluate(e=>getComputedStyle(e).color),'rgb(27, 79, 155)');
+  }else await page.waitForFunction(value=>document.querySelector('.learning-output')?.textContent.includes(value),answer,{timeout:90000});
   if(language==='javascript')assert.match(await page.locator('.learning-output').innerText(),/undefined/);
   if(language==='python'){
    const nextTopic=LEARNING_TOPICS.filter(t=>t.languageId===language&&t.id!==topic.id).toSorted((a,b)=>a.order-b.order)[0];
