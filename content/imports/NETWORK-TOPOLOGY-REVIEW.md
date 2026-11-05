@@ -20,6 +20,12 @@ The stored chapter position is 4 because positions 1, 2 and 3 already identify B
 
 ## Publication status
 
-Staged locally. No production database writes or deployment for this academic import. The generated transaction is artifacts/network-topology-review/publish-after-approval.sql. Article publication remains a separate authorised release.
+Published on 5 November 2026 after the user's explicit approval. The guarded transaction imported all 100 questions and preserved all 265 pre-existing questions and four pre-existing chapters. An import-time text encoding issue was caught during database readback and corrected before deployment; all English and Urdu questions, options and answers were then matched against the source again.
+
+Cloudflare deployment and automated release checks passed: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42024079235 . Live verification returned HTTP 200 and matched all 100 questions, their bilingual options, topic names and correct answers. The canonical URL, single H1 and sitemap entry also passed. Live verification used the canonical hostname with verified TLS and Cloudflare DNS-over-HTTPS to avoid stale local DNS. Pending India article drafts were excluded from this release.
+
+Live page: https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/mcqs/
+
+Verification evidence: network-topology-live-verification.json in this directory.
 
 This is a faithful import of the supplied question bank, not an independent certification that every question matches an official board syllabus. No extra questions or official-board claims were invented. No PDF conversion was requested in this turn.
