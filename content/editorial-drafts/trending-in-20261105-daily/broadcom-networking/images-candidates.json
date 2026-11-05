@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Broadcom BCM54210.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Broadcom_BCM54210.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Broadcom_BCM54210.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Broadcom_BCM54210.jpg",
+    "creator": "Kwapix",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Broadcom BCM54210 component, illustrating Ethernet-related hardware rather than a complete network design.",
+    "description": "Ethernet PHY Broadcom BCM54210",
+    "caption": "A Broadcom BCM54210 component, illustrating Ethernet-related hardware rather than a complete network design.",
+    "width": 668,
+    "height": 668,
+    "bytes": 172457,
+    "sha1": "62ad3465ccf32f8f1d9d95f42d4b57087e4b798b",
+    "photographedAt": "2019-03-15",
+    "query": "intitle:Broadcom",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Peabird Ethernet switch in 2003.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Peabird_Ethernet_switch_in_2003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Peabird_Ethernet_switch_in_2003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Peabird_Ethernet_switch_in_2003.jpg",
+    "creator": "Syced",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "An archival Ethernet switch photographed in 2003, shown to illustrate a finished networking device.",
+    "description": "Peabird Ethernet switch in 2003",
+    "caption": "An archival Ethernet switch photographed in 2003, shown to illustrate a finished networking device.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 320006,
+    "sha1": "e4ac046b38869d4001ef2cab66db5ee2c4bd71a1",
+    "photographedAt": "2000-03-13 03:54",
+    "query": "intitle:Ethernet_switch",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

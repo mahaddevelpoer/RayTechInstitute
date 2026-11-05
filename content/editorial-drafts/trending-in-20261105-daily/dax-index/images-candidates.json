@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Frankfurt Stock Exchange (Ank Kumar) 01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg/1280px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_01.jpg",
+    "creator": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "The Frankfurt Stock Exchange, shown as market-infrastructure context rather than a live DAX quote.",
+    "description": "Frankfurt Stock Exchange (Ank Kumar)",
+    "caption": "The Frankfurt Stock Exchange, shown as market-infrastructure context rather than a live DAX quote.",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 6087185,
+    "sha1": "065a20845202ad574f7f5cbb62eff757a1c45e0d",
+    "photographedAt": "2015-11-17 12:49:05",
+    "query": "Frankfurt Stock Exchange",
+    "reviewState": "visually-reviewed",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Frankfurt Bankenviertel.20130616.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Frankfurt_Bankenviertel.20130616.jpg/1280px-Frankfurt_Bankenviertel.20130616.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Frankfurt_Bankenviertel.20130616.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_Bankenviertel.20130616.jpg",
+    "creator": "Epizentrum",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Frankfurt’s financial district in an archival photograph, shown for geographical context.",
+    "description": "Frankfurt am Main, view from West over most of the central bank district's high-rises.",
+    "caption": "Frankfurt’s financial district in an archival photograph, shown for geographical context.",
+    "width": 5999,
+    "height": 3239,
+    "bytes": 8980991,
+    "sha1": "c39cc9a350f2bb9a24a6b48bb4fa5d8b7b80d57d",
+    "photographedAt": "2013-06-16",
+    "query": "Frankfurt financial district",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

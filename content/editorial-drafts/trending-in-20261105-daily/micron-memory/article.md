@@ -1,0 +1,113 @@
+Micron Technology supplies semiconductor memory and storage products. Understanding the company starts with a practical distinction: working memory and persistent storage perform different jobs in a computer. DRAM, NAND and a processor are not interchangeable parts, even though all can appear together inside the same device or in the same technology headline.
+
+This guide was checked on 5 November 2026 using Micron's company and educational resources. It explains the technology and how to read related measurements. It does not supply a live share price, recommend an investment or promise a particular product's performance. Use official investor information and the relevant market-data timestamp for a financial quote.
+
+## What does Micron make?
+
+Micron's corporate profile identifies memory and storage technologies including DRAM, NAND and NOR. These names describe different technologies and product roles, not three labels for an identical component. Start with the task a system needs to perform before comparing a specification or interpreting a headline about demand.
+
+A useful computer diagram contains a processor, working memory and persistent storage. The processor carries out operations, working memory supports active work and storage holds information under its particular design. Real systems contain more detail, but the diagram gives beginners a clear place to attach new terms.
+
+For a learning exercise, list the information involved in opening a saved document. The saved file, the application's active data and the instructions being executed are related but different. Following their roles is more informative than deciding that whichever component has the largest number printed on it must control the whole experience.
+
+## What is DRAM used for?
+
+DRAM is a form of working memory whose stored information depends on continued operation of its supporting system. It is commonly described as volatile memory. It is different from an ordinary saved file that a user expects to find again after restarting a device.
+
+Imagine a worksheet open in an application. The application needs a working representation of its content while calculations and edits take place. Saving the document creates or updates a persistent record through the application's supported process. The distinction explains why visible work and safely saved work should not be treated as identical states.
+
+For a classroom task, write two lists: information currently being used and information deliberately saved. Then explain what must happen for an edit to become part of the saved record. The exercise teaches a basic computing concept without assuming that every application implements saving, synchronisation or recovery in the same way.
+
+## How is NAND storage different?
+
+NAND flash is a non-volatile storage technology. It can retain stored information without requiring the same ongoing power conditions as DRAM. Products such as solid-state drives use NAND within a larger design that includes control functions and other components. A raw memory technology and a complete storage product are therefore different levels of description.
+
+Consider the difference between a material and a finished tool made using that material. Knowing the material matters, but it does not establish every property of the tool. Similarly, a statement that a product uses NAND does not by itself reveal its interface, capacity, management, endurance or performance under a particular workload.
+
+When comparing products for learning, record the technology, the product type and the task being tested. Avoid a sentence such as NAND is always faster unless it identifies faster than what, under which conditions and for which operation. A comparison without those labels can sound technical while remaining difficult to verify.
+
+## Why is memory capacity different from speed?
+
+Capacity concerns the amount of information a system can hold under the relevant definition. Transfer rate concerns how much information moves in a period. Latency concerns a delay associated with an operation. These quantities can affect a task differently and should not be merged into a single vague description of speed.
+
+Use an invented example involving two storage devices with the same capacity but different measured transfer rates for one test. They hold the same stated amount, yet the test can finish at different times. Now change the workload to many small requests and ask whether the original test alone answers every performance question.
+
+Keep units visible. A capacity expressed in gigabytes and a rate expressed in gigabytes per second describe different quantities. A delay measured in time is different again. Writing the quantity beside each number is a simple habit that prevents many mistakes in computer specifications and charts.
+
+## How can I compare megabits and megabytes?
+
+A bit and a byte are different units; an ordinary byte contains eight bits. In a simplified decimal exercise, a transfer rate of 80 megabits per second corresponds to 10 megabytes per second before considering other limitations and overhead. This arithmetic does not guarantee the speed of an actual download or device.
+
+Suppose an invented file is 100 megabytes and the exercise assumes a constant 10 megabytes per second. Dividing the size by that rate gives ten seconds. State the assumptions: the rate is constant, the units match and the example ignores other delays. The equation is useful precisely because its limits are explicit.
+
+Do not attach the result to a real product without a suitable test. Network conditions, software, storage behaviour and the measurement method can affect an actual operation. A correct unit conversion is one part of interpretation, not a substitute for observing the system being discussed.
+
+## Why do different workloads produce different results?
+
+A workload describes the work a system is asked to perform. Reading one large file, opening many small files and repeatedly updating a database are different tasks. A performance number needs its test context before it can be used to explain an everyday experience.
+
+For a safe classroom exercise, compare reading a short list once with repeatedly searching it for different items. The same information is involved, but the sequence of operations differs. This introduces the idea that performance depends on a pattern of work rather than on the presence of data alone.
+
+Write a test record containing input, operation, conditions and result. If those fields are missing, describe the comparison as incomplete. This is a more useful response than assuming that the largest benchmark number proves universal superiority across every application, device and learning task.
+
+## What is a memory bottleneck?
+
+A bottleneck is a limiting part of a particular process under particular conditions. It is not a permanent label identifying the one component that controls every task. Improving a part that is not currently limiting the process may produce little change in the result that the user notices.
+
+Imagine an invented classroom pipeline: one student reads a request, another finds a record and a third writes the answer. If finding the record takes most of the time, speeding up handwriting alone may not solve the delay. The analogy explains a relationship without reproducing every detail of a computer architecture.
+
+In a real report, identify the measured limitation and the workload. Do not conclude that a computer needs more memory solely because an application feels slow. Several different conditions can produce a delay, and a meaningful diagnosis requires evidence connecting the symptom to the relevant part of the process.
+
+## How should I read an AI-memory headline?
+
+Identify the technology and system role being discussed. AI workloads can place substantial demands on moving and holding data, but the phrase AI memory does not make all memory products interchangeable. Read the product description and the workload rather than assuming that a marketing category is a complete technical specification.
+
+Distinguish a memory component, a packaged solution and a complete computing system. A claim about one part does not establish the performance of every application using the broader platform. Ask what was measured and whether the comparison refers to an actual product, a demonstration or a projected capability.
+
+For a project, make a diagram showing where input data, model information and temporary results are used. Use invented labels rather than copying a complex commercial architecture that you cannot explain. The exercise develops an understanding of data movement while avoiding unsupported claims about a particular vendor's system.
+
+## What should I check in a product specification?
+
+Identify the product family, intended role, capacity, interface and the conditions attached to performance figures. Read whether the number describes a component capability or a measured result for a complete product. A shared brand or familiar term does not establish that every model has the same arrangement.
+
+Keep a comparison table with one row per product and one column per clearly defined quantity. If a field is missing, mark it as unknown rather than substituting a number from another model. This keeps the table honest and shows which questions require further documentation.
+
+For educational comparisons, use only the details needed for the question. A worksheet about units does not need a ranking of current products. A project about architecture does not need to invent a purchase recommendation. Keeping the task narrow makes the explanation clearer and the evidence easier to check.
+
+## How do company results differ from product performance?
+
+A technical specification describes a product or system under stated conditions. A company's financial report describes business information for a stated period. Good performance in one demonstration does not automatically establish a particular sales result, share-price movement or future financial outcome.
+
+When reading a company report, distinguish the period, the metric and the explanation offered by management. A revenue figure and a profit figure are different quantities. A product announcement and a completed business result are different events. Preserve those distinctions instead of treating every positive-sounding sentence as the same kind of evidence.
+
+For a live share quote, use an appropriate market-data source and verify the issuer, instrument and timestamp. This article does not freeze a changing price into a permanent headline. Its purpose is to explain the business and technology context without presenting a learning guide as an investment recommendation.
+
+## What makes a useful student project about memory?
+
+Choose one question: the difference between working memory and storage, the relationship between file size and transfer rate or the importance of workload in a comparison. A focused question lets students demonstrate reasoning rather than filling a presentation with unrelated chip photographs and copied specifications.
+
+Use a small invented dataset and label every quantity. Ask another student to reproduce the calculation or explain the diagram. If they cannot identify what a number represents, improve the labels before adding more detail. Clear assumptions are a stronger learning outcome than a complicated chart that nobody can interpret.
+
+The [programming courses](/courses/) provide available exercises for related skills. A simple program can read a list, search it and report a result. Explain what that exercise demonstrates and what it cannot measure. A browser example is not a hardware benchmark unless its method actually supports that claim.
+
+Keep repeated-test conditions visible. If a file was already opened, a later attempt may not represent the same starting conditions as the first attempt. Record what was reset and what remained available. This does not identify every cause of a timing difference, but it makes the evidence more useful than reporting only whichever result happened to be the fastest.
+
+## Frequently asked questions
+
+### Is DRAM the same thing as an SSD?
+
+No. Working-memory technology and a complete storage product have different roles. An SSD includes storage technology and supporting control functions, while DRAM is used for working-memory tasks. Read the system context rather than using the general word memory to imply that every component performs an identical job.
+
+### Does more capacity always make a task faster?
+
+The result depends on the task and its actual limitation. Capacity, transfer rate and latency describe different quantities. A meaningful comparison identifies the workload and test conditions before interpreting a number. A larger capacity label alone does not establish the time required for every operation.
+
+### Does this article provide today's Micron share price?
+
+No. Use the company's official investor route and an appropriate current market-data source for that enquiry. Keep the instrument and time attached to the quote. Understanding memory products helps explain business context, but it does not establish a future stock return or a recommendation for an individual.
+
+## Sources
+
+- [Micron: corporate profile](https://www.micron.com/about/company/corporate-profile)
+- [Micron: introduction to memory educational presentation](https://www.micron.com/content/dam/micron/educatorhub/intro-to-memory/micron-intro-to-memory-presentation.pdf)
+- [Micron: investor information](https://investors.micron.com/)

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Qualcomm-SDM632.webp",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Qualcomm-SDM632.webp/1280px-Qualcomm-SDM632.webp?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Qualcomm-SDM632.webp?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Qualcomm-SDM632.webp",
+    "creator": "ZyMOS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Qualcomm SDM632 chip, used as component context rather than a specification for every Snapdragon platform.",
+    "description": "Qualcomm SDM632",
+    "caption": "A Qualcomm SDM632 chip, used as component context rather than a specification for every Snapdragon platform.",
+    "width": 1331,
+    "height": 1226,
+    "bytes": 76060,
+    "sha1": "0fd1cad94a0c2cf4446cd7fb3867c3d06b7c3ed9",
+    "photographedAt": "2023-04-02 11:04",
+    "query": "Qualcomm chip",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Nexus 4 - mainboard - Qualcomm MDM9215M-5187.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nexus_4_-_mainboard_-_Qualcomm_MDM9215M-5187.jpg/1280px-Nexus_4_-_mainboard_-_Qualcomm_MDM9215M-5187.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Nexus_4_-_mainboard_-_Qualcomm_MDM9215M-5187.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Nexus_4_-_mainboard_-_Qualcomm_MDM9215M-5187.jpg",
+    "creator": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Qualcomm modem component on a Nexus 4 mainboard, shown as archival hardware context.",
+    "description": "Nexus 4 - mainboard - Qualcomm MDM9215M - Modem chip \"Qualcomm Gobi\"",
+    "caption": "A Qualcomm modem component on a Nexus 4 mainboard, shown as archival hardware context.",
+    "width": 2374,
+    "height": 2374,
+    "bytes": 4525494,
+    "sha1": "44e373fd1d4226f03109c25507c32def2c6604e6",
+    "photographedAt": "2020-01-23",
+    "query": "Qualcomm chip",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

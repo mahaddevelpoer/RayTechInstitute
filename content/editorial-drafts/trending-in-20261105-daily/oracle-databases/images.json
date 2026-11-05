@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Oracle Campus in Austin 2018.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/oracle-databases-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Oracle_Campus_in_Austin_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Oracle_Campus_in_Austin_2018.jpg",
+    "creator": "DronePhotographer",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Oracle’s Austin campus photographed in 2018, shown as company context rather than a current financial announcement.",
+    "description": "Picture of the Oracle Riverside Campus in Austin, Texas in 2018.",
+    "caption": "Oracle’s Austin campus photographed in 2018, shown as company context rather than a current financial announcement.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 141094,
+    "sha1": "cd507d951c13e0b9100f1764af8deb7b5a899440",
+    "photographedAt": "2018-03-17 22:49:21",
+    "query": "Oracle Corporation campus",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:NOIRLab HQ Server Racks (6V6A0395-CC).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/oracle-databases-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NOIRLab_HQ_Server_Racks_%286V6A0395-CC%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:NOIRLab_HQ_Server_Racks_(6V6A0395-CC).jpg",
+    "creator": "NOIRLab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Server racks at NOIRLab, shown as general computing-infrastructure context.",
+    "description": "Server racks at the NOIRLab Headquarters Computer Server Room in Tucson, Arizona.",
+    "caption": "Server racks at NOIRLab, shown as general computing-infrastructure context.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 185590,
+    "sha1": "82e466760f499fc581f4ff0d59c3ee9b5d89df47",
+    "photographedAt": "5 October 2022, 13:56 (upload date)",
+    "query": "intitle:Server_rack",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

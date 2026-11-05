@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Strait of Hormuz and Musandam Peninsula (MODIS 2018-12-10).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg/1280px-Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+    "creator": "MODIS Land Rapid Response Team, NASA GSFC",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+    "alt": "The Strait of Hormuz and Musandam Peninsula in a MODIS image from December 2018, used as geographical context.",
+    "description": "The rugged, barren mountains of the Musandam Peninsula jut into the Strait of Hormuz, the narrow throughway between Iran (north) and Oman and the United Arab Emirates (south) where the waters from the Gulf of Oman enter the Persian Gulf. Khasab, Oman, the main city sitting on the tip of the Musandam Peninsula, sits only 65 km (40 mi) from the Iranian city of Bandar Abbas. The rocky limestone mountains of the peninsula rise as high as 6,500 feet (2,000 meters) above sea level and create fjord-like inlets along the coast. Musandam is an exclave of Oman, separated from the rest of the country by the United Arab Emirates. Fishing, agriculture and ship building are the primary industries in this part of Oman. The Moderate Resolution Imaging Spectroradiometer (MODIS) on board NASA’s Terra satellite acquired a stunning true-color image of the Strait of Hormuz and the Musandam Peninsula on December 6, 2018.",
+    "caption": "The Strait of Hormuz and Musandam Peninsula in a MODIS image from December 2018, used as geographical context.",
+    "width": 2320,
+    "height": 1860,
+    "bytes": 463391,
+    "sha1": "2ec54daeaf9a9e5135071bcb935bdbd5d0c0e92e",
+    "photographedAt": "Taken on 6 December 2018",
+    "query": "intitle:Strait_of_Hormuz",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:US Navy 051111-N-8163B-032 An oil tanker docked to the Al Basrah Oil Terminal (ABOT) takes on crude oil in the Persian Gulf.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/US_Navy_051111-N-8163B-032_An_oil_tanker_docked_to_the_Al_Basrah_Oil_Terminal_%28ABOT%29_takes_on_crude_oil_in_the_Persian_Gulf.jpg/1280px-US_Navy_051111-N-8163B-032_An_oil_tanker_docked_to_the_Al_Basrah_Oil_Terminal_%28ABOT%29_takes_on_crude_oil_in_the_Persian_Gulf.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/US_Navy_051111-N-8163B-032_An_oil_tanker_docked_to_the_Al_Basrah_Oil_Terminal_%28ABOT%29_takes_on_crude_oil_in_the_Persian_Gulf.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Navy_051111-N-8163B-032_An_oil_tanker_docked_to_the_Al_Basrah_Oil_Terminal_(ABOT)_takes_on_crude_oil_in_the_Persian_Gulf.jpg",
+    "creator": "U.S. Navy photo by Photographer's Mate Airman Eben Boothby",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Navy_051111-N-8163B-032_An_oil_tanker_docked_to_the_Al_Basrah_Oil_Terminal_(ABOT)_takes_on_crude_oil_in_the_Persian_Gulf.jpg",
+    "alt": "Historical oil loading at Iraq’s Al Basrah terminal in 2005, illustrating the regional energy supply chain rather than current Hormuz traffic.",
+    "description": "Persian Gulf (Nov. 11, 2005) – An oil tanker docked to the Al Basrah Oil Terminal (ABOT) takes on crude oil in the Persian Gulf. Coalition forces have been training Iraqi personnel in force protection and search and seizure operations in effort to turn over the two oil terminals in the area to Iraq. U.S. Navy photo by Photographer's Mate Airman Eben Boothby (RELEASED)",
+    "caption": "Historical oil loading at Iraq’s Al Basrah terminal in 2005, illustrating the regional energy supply chain rather than current Hormuz traffic.",
+    "width": 3008,
+    "height": 2000,
+    "bytes": 2948133,
+    "sha1": "c713ef862482082ea432c4ec6defab98d69db826",
+    "photographedAt": "2005-11-11",
+    "query": "oil tanker Persian Gulf",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

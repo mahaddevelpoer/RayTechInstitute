@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:The Entrance of Tokyo Stock Exchange Main Building 20240329.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/nikkei-225-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/The_Entrance_of_Tokyo_Stock_Exchange_Main_Building_20240329.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Entrance_of_Tokyo_Stock_Exchange_Main_Building_20240329.jpg",
+    "creator": "Suicasmo",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Tokyo Stock Exchange entrance photographed in March 2024, used as Japanese market context.",
+    "description": "The Entrance of Tokyo Stock Exchange Main Building",
+    "caption": "Tokyo Stock Exchange entrance photographed in March 2024, used as Japanese market context.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 150910,
+    "sha1": "736db5360645fc3670fe64e4788a4e716ea574f1",
+    "photographedAt": "2024-03-29 13:42:20",
+    "query": "Tokyo Stock Exchange building",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Nihon keizai Shimbun Osaka headquarters in 201909 001.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/nikkei-225-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nihon_keizai_Shimbun_Osaka_headquarters_in_201909_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Nihon_keizai_Shimbun_Osaka_headquarters_in_201909_001.jpg",
+    "creator": "Mc681",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Nihon Keizai Shimbun offices in Osaka photographed in 2019, shown as Japanese financial-information context.",
+    "description": "大阪市 にある 日本経済新聞大阪本社 が入居する日本経済新聞大阪本社ビル。",
+    "caption": "Nihon Keizai Shimbun offices in Osaka photographed in 2019, shown as Japanese financial-information context.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 153362,
+    "sha1": "585d0afebe21163b56fe35ed0ec8ffc87f558d5b",
+    "photographedAt": "Taken on 25 September 2019, 10:58:51",
+    "query": "Nihon Keizai Shimbun building",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

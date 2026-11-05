@@ -219,6 +219,106 @@
       ],
       "state": "published-live-verified",
       "slug": "fixed-deposits-interest-maturity-insurance-guide"
+    },
+    {
+      "key": "micron-memory",
+      "topic": "Micron: DRAM, NAND and memory measurements",
+      "category": "technology",
+      "queries": [
+        "micron"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "micron-dram-nand-memory-storage-guide"
+    },
+    {
+      "key": "qualcomm-snapdragon",
+      "topic": "Qualcomm: Snapdragon, processors and modems",
+      "category": "technology",
+      "queries": [
+        "qualcomm share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "qualcomm-snapdragon-soc-modem-guide"
+    },
+    {
+      "key": "broadcom-networking",
+      "topic": "Broadcom: network chips and switching software",
+      "category": "technology",
+      "queries": [
+        "broadcom share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "broadcom-ethernet-switching-software-guide"
+    },
+    {
+      "key": "oracle-databases",
+      "topic": "Oracle: databases, SQL and cloud services",
+      "category": "technology",
+      "queries": [
+        "oracle share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "oracle-database-sql-cloud-learning-guide"
+    },
+    {
+      "key": "rbi-functions",
+      "topic": "Reserve Bank of India: roles, policy and public information",
+      "category": "economy",
+      "queries": [
+        "भारतीय रिज़र्व बैंक"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "reserve-bank-india-functions-policy-guide"
+    },
+    {
+      "key": "nasdaq-100",
+      "topic": "Nasdaq-100: scope, weighting and quote interpretation",
+      "category": "economy",
+      "queries": [
+        "nasdaq 100"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "nasdaq-100-weighting-quote-learning-guide"
+    },
+    {
+      "key": "nikkei-225",
+      "topic": "Nikkei 225: Japan, price weighting and index comparisons",
+      "category": "economy",
+      "queries": [
+        "nikkei 225"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "nikkei-225-price-weighting-japan-guide"
+    },
+    {
+      "key": "dax-index",
+      "topic": "DAX: constituents, performance and price returns",
+      "category": "economy",
+      "queries": [
+        "dax index"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "dax-index-price-performance-return-guide"
+    },
+    {
+      "key": "vix-index",
+      "topic": "VIX: implied volatility and interpretation",
+      "category": "economy",
+      "queries": [
+        "cboe volatility index"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "vix-implied-volatility-thirty-day-guide"
+    },
+    {
+      "key": "hormuz-strait",
+      "topic": "Strait of Hormuz: geography, shipping and evidence",
+      "category": "education",
+      "queries": [
+        "होर्मुज जलडमरूमध्य"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "strait-hormuz-geography-trade-evidence-guide"
     }
   ],
   "rowDisposition": [
@@ -1101,7 +1201,8 @@
       "row": 145,
       "topic": "भारतीय रिज़र्व बैंक",
       "breakdown": "भारतीय रिज़र्व बैंक",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "rbi-functions"
     },
     {
       "row": 146,
@@ -1396,7 +1497,8 @@
       "row": 194,
       "topic": "micron",
       "breakdown": "micron,micron share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "micron-memory"
     },
     {
       "row": 195,
@@ -1753,7 +1855,8 @@
       "row": 253,
       "topic": "qualcomm share price",
       "breakdown": "qualcomm share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "qualcomm-snapdragon"
     },
     {
       "row": 254,
@@ -1849,7 +1952,8 @@
       "row": 269,
       "topic": "nikkei 225",
       "breakdown": "nikkei 225,nikkei index",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "nikkei-225"
     },
     {
       "row": 270,
@@ -1873,7 +1977,8 @@
       "row": 273,
       "topic": "nasdaq 100",
       "breakdown": "nasdaq 100",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "nasdaq-100"
     },
     {
       "row": 274,
@@ -1982,13 +2087,15 @@
       "row": 291,
       "topic": "dax index",
       "breakdown": "dax index,dax",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "dax-index"
     },
     {
       "row": 292,
       "topic": "होर्मुज जलडमरूमध्य",
       "breakdown": "होर्मुज जलडमरूमध्य",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "hormuz-strait"
     },
     {
       "row": 293,
@@ -2085,7 +2192,8 @@
       "row": 308,
       "topic": "cboe volatility index",
       "breakdown": "cboe volatility index",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "vix-index"
     },
     {
       "row": 309,
@@ -2551,7 +2659,8 @@
       "row": 384,
       "topic": "oracle share price",
       "breakdown": "oracle share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "oracle-databases"
     },
     {
       "row": 385,
@@ -2709,7 +2818,8 @@
       "row": 410,
       "topic": "broadcom share price",
       "breakdown": "broadcom share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "broadcom-networking"
     },
     {
       "row": 411,
@@ -2854,16 +2964,35 @@
         "inserted": 10,
         "preserved": 306
       }
+    },
+    {
+      "number": 4,
+      "keys": [
+        "micron-memory",
+        "qualcomm-snapdragon",
+        "broadcom-networking",
+        "oracle-databases",
+        "rbi-functions",
+        "nasdaq-100",
+        "nikkei-225",
+        "dax-index",
+        "vix-index",
+        "hormuz-strait"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "Latest continuation request and standing approval to publish completed reviewed articles.",
+      "state": "research-pending"
     }
   ],
   "prepared": 20,
   "published": 20,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
     "sameIntentCovered": 14,
     "unclear": 38,
-    "unreviewed": 344
+    "unreviewed": 334
   }
 }

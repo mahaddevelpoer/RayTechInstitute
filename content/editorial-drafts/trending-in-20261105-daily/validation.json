@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 20,
-  "bodyWords": 40420,
-  "uniqueImages": 40,
+  "state": "local-verified-unpublished",
+  "articles": 30,
+  "bodyWords": 60677,
+  "uniqueImages": 60,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -144,7 +144,76 @@
       "words": 2027,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "micron-memory",
+      "slug": "micron-dram-nand-memory-storage-guide",
+      "words": 2021,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "qualcomm-snapdragon",
+      "slug": "qualcomm-snapdragon-soc-modem-guide",
+      "words": 2035,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "broadcom-networking",
+      "slug": "broadcom-ethernet-switching-software-guide",
+      "words": 2031,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "oracle-databases",
+      "slug": "oracle-database-sql-cloud-learning-guide",
+      "words": 2028,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "rbi-functions",
+      "slug": "reserve-bank-india-functions-policy-guide",
+      "words": 2018,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nasdaq-100",
+      "slug": "nasdaq-100-weighting-quote-learning-guide",
+      "words": 2016,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nikkei-225",
+      "slug": "nikkei-225-price-weighting-japan-guide",
+      "words": 2012,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "dax-index",
+      "slug": "dax-index-price-performance-return-guide",
+      "words": 2023,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "vix-index",
+      "slug": "vix-implied-volatility-thirty-day-guide",
+      "words": 2034,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "hormuz-strait",
+      "slug": "strait-hormuz-geography-trade-evidence-guide",
+      "words": 2039,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

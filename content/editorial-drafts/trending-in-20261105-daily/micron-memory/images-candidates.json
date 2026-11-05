@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Micron MTC40F204681RC48BA1R 20240407 076.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Micron_MTC40F204681RC48BA1R_20240407_076.jpg/1280px-Micron_MTC40F204681RC48BA1R_20240407_076.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Micron_MTC40F204681RC48BA1R_20240407_076.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Micron_MTC40F204681RC48BA1R_20240407_076.jpg",
+    "creator": "PantheraLeo1359531",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "A Micron memory module, shown as hardware context rather than a current product-performance or share-price claim.",
+    "description": "View of the RAM module \"Micron MTC40F204681RC48BA1R\". The module is a RAM module with DDR5 SDRAM technology (DDR5-4800), ECC and RDIMM with 1.1V and CL40. The circuit board is home to 64 GiB (approx. 65536 MiB). This RAM is mostly used in servers and workstations. There is also a model with 96 GiB. Scanned with Epson scanner. The generous amount of memory chips, which are necessary for 64 GiB, is particularly striking.",
+    "caption": "A Micron memory module, shown as hardware context rather than a current product-performance or share-price claim.",
+    "width": 12350,
+    "height": 3000,
+    "bytes": 25735246,
+    "sha1": "8b7ca5b22f8c359f4661321a3a60e925ffb045c8",
+    "photographedAt": "2024-04-07",
+    "query": "Micron memory module",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:M.2 2230 M-key SSD in comparison with Micro-SD card.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/M.2_2230_M-key_SSD_in_comparison_with_Micro-SD_card.jpg/1280px-M.2_2230_M-key_SSD_in_comparison_with_Micro-SD_card.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/M.2_2230_M-key_SSD_in_comparison_with_Micro-SD_card.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:M.2_2230_M-key_SSD_in_comparison_with_Micro-SD_card.jpg",
+    "creator": "Phiarc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Kioxia/Toshiba M.2 SSD beside a microSD card, illustrating storage form factors.",
+    "description": "512 GB M.2 2230 M-key SSD (Kioxia/Toshiba BG4 series) in comparison with Micro-SD card (SanDisk Ultra 8 GB). The big chip on the SSD contains both the NVMe controller and the NAND flash and conforms to the M.2 1620 standard BGA pinout.",
+    "caption": "A Kioxia/Toshiba M.2 SSD beside a microSD card, illustrating storage form factors.",
+    "width": 4000,
+    "height": 2848,
+    "bytes": 4025634,
+    "sha1": "501a93b0b81c4e33bbb2dd5b75a6fc5716c76613",
+    "photographedAt": "2021-12-22 01:00",
+    "query": "NAND flash memory chip",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]
