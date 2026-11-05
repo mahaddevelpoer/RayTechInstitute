@@ -24,7 +24,7 @@ let root,ready=false;
 for(let attempt=0;attempt<18&&!ready;attempt++){root=await edgeRequest(domain);ready=root.status===200&&root.headers['x-raytech-hosting']==='cloudflare-pages';if(!ready)await new Promise(resolve=>setTimeout(resolve,5000));}
 assert.ok(ready,'Pages custom domain has not activated yet; Firebase fallback has not been disabled');
 assert.ok(!/noindex/i.test(root.headers['x-robots-tag']||''),'Production homepage must be indexable');assert.ok(root.text.includes('rel="canonical" href="https://'+domain+'/"'));
-const www=await edgeRequest('www.'+domain,'/classes/');assert.equal(www.status,301);assert.equal(www.headers.location,'https://'+domain+'/classes/');
+let www;for(let attempt=0;attempt<18;attempt++){www=await edgeRequest('www.'+domain,'/classes/');if(www.status===301)break;await new Promise(resolve=>setTimeout(resolve,5000));}assert.equal(www.status,301);assert.equal(www.headers.location,'https://'+domain+'/classes/');
 const missing=await edgeRequest(domain,'/this-page-must-not-exist-cloudflare-migration/');assert.equal(missing.status,404);
 const manifest=JSON.parse((await edgeRequest(domain,'/deployment.json')).text);assert.equal(manifest.siteOrigin,'https://'+domain);
 await fs.writeFile('artifacts/cloudflare-migration/domain-cutover.json',JSON.stringify({checkedAt:new Date().toISOString(),domain,certificateVerified:true,cloudflareEdgeVerified:true,revision:manifest.revision,indexablePages:manifest.indexablePages,wwwRedirect:true,real404:true,nonWebsiteDnsPreserved:true,firebaseHostingDisabled:false,remaining:'Recursive DNS caches may continue to serve Firebase until their old TTL expires; signed-in account flows still require verification.'},null,2));
