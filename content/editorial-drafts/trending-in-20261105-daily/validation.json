@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 30,
-  "bodyWords": 60677,
-  "uniqueImages": 60,
+  "state": "local-verified-unpublished",
+  "articles": 35,
+  "bodyWords": 70801,
+  "uniqueImages": 70,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -214,7 +214,41 @@
       "words": 2039,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "microsoft-azure",
+      "slug": "microsoft-azure-cloud-responsibility-guide",
+      "words": 2019,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "amazon-aws",
+      "slug": "amazon-aws-compute-storage-learning-guide",
+      "words": 2035,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "tesla-ev",
+      "slug": "tesla-battery-charging-range-units-guide",
+      "words": 2022,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "vinfast-ev",
+      "slug": "vinfast-india-ev-specification-reading-guide",
+      "words": 2019,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "playstation-store",
+      "slug": "playstation-store-sale-digital-purchase-guide",
+      "words": 2029,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

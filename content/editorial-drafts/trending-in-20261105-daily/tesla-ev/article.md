@@ -1,0 +1,110 @@
+Tesla is associated with electric vehicles, but understanding an electric car takes more than remembering a headline range figure. Battery energy, charging power, energy consumption and travel distance describe different things. Keeping their units separate makes vehicle specifications easier to read and helps explain why an advertised test result is not a promise for every journey.
+
+This guide was reviewed on 5 November 2026 using official Tesla support material and general energy concepts. It is a classroom explanation, not a buying recommendation, a live Tesla share quotation or an instruction to work on high-voltage equipment. All numerical vehicle examples below are invented unless explicitly identified otherwise.
+
+## What makes a battery electric vehicle different?
+
+A battery electric vehicle stores electrical energy and uses electric propulsion. Its traction battery, power electronics, motor and charging equipment have related but distinct jobs. Describing the car simply as a battery on wheels hides useful questions about how energy enters the vehicle and how it is converted into movement.
+
+Picture a basic energy path: electricity reaches charging equipment, energy is stored in the vehicle's battery, and the propulsion system uses energy during driving. Some energy also supports heating, cooling and other functions. A useful diagram includes these supporting loads instead of assuming that every unit stored becomes motion at the tyres.
+
+This is a conceptual picture, not a wiring guide. Vehicle systems include protections and manufacturer-specific designs that a simplified classroom diagram cannot reproduce. Students should use approved learning materials and normal user controls, rather than opening equipment or attempting modifications to understand the underlying physics.
+
+## How are kilowatts and kilowatt-hours different?
+
+Kilowatts describe power, a rate of energy transfer or use. Kilowatt-hours describe an amount of energy. The names are similar, which makes them easy to mix up, but the distinction is essential. A charger's power rating and a battery's energy capacity cannot be compared as though they measured the same quantity.
+
+For a fictional constant-power exercise, seven kilowatts supplied for two hours corresponds to fourteen kilowatt-hours. Multiply power by time to obtain energy. This arithmetic assumes the stated power remains constant and ignores losses. It does not describe a particular Tesla charger or guarantee how much usable energy reaches an actual battery.
+
+Write the units alongside each step. If a learner divides a distance by a power rating and calls the answer a charging duration, the units expose the missing information. A clear calculation is more reliable than memorising a rule without understanding which quantities the rule connects.
+
+## What does battery percentage tell you?
+
+A displayed battery percentage represents a state-of-charge indication within the vehicle's management system. It is useful for following changes, but it is not the same thing as a precise distance remaining under every condition. The relationship between stored energy and travel depends on how much energy the journey requires.
+
+Suppose a fictional battery model treats a ten-percentage-point change as five kilowatt-hours. That relationship is an assumption of the exercise. It should not be applied to an unidentified production vehicle. Real usable capacity, reserve behaviour and displayed estimates depend on the vehicle's design and condition.
+
+The learning objective is to distinguish an energy state from a route forecast. A percentage can fall while the vehicle is stationary if supported systems consume energy. Conversely, a distance estimate may change when the system updates its assumptions. Neither observation alone identifies a fault or proves a specific battery-health problem.
+
+## Why does real-world range differ from a test figure?
+
+Range is a distance associated with stored energy and consumption. Tesla's support information distinguishes displayed range based on certification information from the effects of real driving conditions. Speed, terrain, weather and driving behaviour can influence energy use. A single headline number does not describe every combination of these factors.
+
+Imagine two fictional journeys covering the same distance. One includes steady travel in mild conditions; another includes climbing and substantial cabin heating. The energy required can differ even though the route length matches. This explains why distance alone is insufficient when comparing journeys or estimating what remains in the battery.
+
+For a worksheet, create columns for distance, energy used and relevant conditions. Keep the observations separate from guesses about causes. If one journey uses more energy, identify which inputs changed before assigning the difference to battery degradation. A useful explanation considers the measurement context rather than jumping to a dramatic conclusion.
+
+## How can consumption estimate a theoretical distance?
+
+Consumption connects energy use with distance. If a fictional vehicle has thirty kilowatt-hours available for a simplified exercise and uses fifteen kilowatt-hours per one hundred kilometres, division gives two hundred kilometres. The arithmetic assumes constant consumption and complete use of the stated available energy.
+
+Now change the exercise's consumption to twenty kilowatt-hours per one hundred kilometres. The theoretical distance becomes one hundred and fifty kilometres. The difference demonstrates sensitivity to consumption. Neither result is a safe route plan or a claim about a real Tesla model, because reserves, conditions and charging access require separate consideration.
+
+Another common unit is watt-hours per kilometre. Fifteen kilowatt-hours per one hundred kilometres corresponds to one hundred and fifty watt-hours per kilometre in ordinary decimal units. Showing both forms helps students compare labels without mistaking a change of unit for a change in vehicle efficiency.
+
+## What is the difference between AC and DC charging?
+
+Alternating-current and direct-current charging describe different arrangements for delivering electrical energy to the vehicle. The compatible equipment and vehicle design determine the permitted process. A connector that appears similar is not enough evidence that any charger, adapter or electrical supply can be used safely.
+
+Tesla's charging support describes several charging contexts, including home, destination and Supercharger use. The important educational point is that location, equipment and vehicle compatibility affect the experience. Avoid transplanting a charging-time claim from one product or country into a different installation without checking the relevant documentation.
+
+For a classroom comparison, label the source, charging equipment, vehicle limit and battery state. The lowest applicable constraint can matter to the actual power delivered. Do not replace this reasoning with a promise that the largest number printed on a charger will always be the rate a vehicle receives.
+
+## Why is charging time not always energy divided by maximum power?
+
+Dividing energy by power gives a useful idealised duration when power is constant. Actual charging can involve changing power, temperature management and other constraints. A published peak rate therefore does not mean that the same power is maintained throughout every charging session or across the full battery range.
+
+Use an invented two-stage example. Ten kilowatt-hours delivered at twenty kilowatts takes half an hour under ideal constant conditions. Another ten delivered at ten kilowatts takes one hour. The combined duration is ninety minutes, not the sixty minutes obtained by assuming the first rate continues for the entire session.
+
+The exercise is deliberately simple. It teaches why a changing rate needs more careful treatment. It does not model a Tesla charging curve, prescribe a charge limit or predict a real stop. For actual operation, follow the vehicle's current guidance and the information displayed by compatible charging equipment.
+
+## What does regenerative braking recover?
+
+Regenerative braking can convert some of a moving vehicle's energy back into electrical energy within the system's operating limits. It is not a source of unlimited energy. Losses and operating conditions matter, so repeated acceleration and braking cannot create a free supply of energy that exceeds what the system started with.
+
+An original classroom analogy uses a raised ball and a spring. Some energy can be transferred and recovered, while real processes dissipate energy. The analogy illustrates conservation without suggesting that a vehicle behaves exactly like a toy. The mechanism should be studied through the manufacturer's user information and appropriate physics lessons.
+
+Do not treat an energy-recovery description as braking instruction. The driver's responsibilities and the vehicle's behaviour in different conditions require the actual manual. Our educational explanation concerns energy accounting; it does not replace practical driving training or authorise experiments on public roads.
+
+## How should charging costs be compared?
+
+Begin by separating energy quantity from the charging tariff and any additional charges. A comparison needs the location, applicable time, currency and billing structure. Home charging and public charging can involve different arrangements, so a single electricity number cannot be assumed to describe every situation.
+
+For a fictional worksheet, twenty kilowatt-hours billed at three invented currency units per kilowatt-hour gives sixty units before other charges. If a second exercise adds a ten-unit session fee, the total becomes seventy. These are arithmetic examples, not present tariffs, and they deliberately exclude tax and jurisdiction-specific billing details.
+
+Comparing transport costs also requires a consistent distance and a clear boundary. Energy cost alone is not the whole cost of owning a vehicle. Maintenance, insurance, financing and depreciation raise separate questions. An educational calculation should state what it includes instead of implying that one narrow result settles every purchasing decision.
+
+## What should a specification comparison include?
+
+Record the exact model, variant, market and model year before comparing figures. Then record the test standard, unit and footnotes associated with each claim. An attractive image or familiar model name is not enough to establish that specifications from another market apply to the car being discussed.
+
+For an offline activity, invent two vehicles and give them different battery capacities, consumption assumptions and charging limits. Ask students to identify which information is needed for each question. A larger battery may help one comparison while weight, usage and other conditions complicate the overall result. There is no universally meaningful biggest-number winner.
+
+Photographs in this article provide vehicle and charging context. They do not certify a current model specification, charging-network availability or financial result. A historical photograph should remain labelled as historical, even when the appearance resembles a vehicle currently advertised in a different market.
+
+## What about Tesla share prices and company news?
+
+A vehicle lesson and a market quotation answer different questions. A Tesla share observation requires current exchange information, a timestamp and currency. Product range, a charging installation and a company's financial disclosures are related to business research, but none supplies an automatic prediction of the share price.
+
+Use Tesla's investor materials for company reports and separate each reporting period from the moment represented by a market quote. In a classroom exercise, label a technical specification, a financial statement and an opinion in different colours. This makes it harder to confuse a factual product explanation with a recommendation about personal savings.
+
+## Questions to test understanding
+
+Is a kilowatt-hour a charging speed? No. It is an amount of energy. Explain why multiplying a constant power by a duration produces energy, and state the assumptions before using the result. This small unit check prevents a large share of beginner mistakes in electric-vehicle comparisons.
+
+Can a displayed distance be treated as a guaranteed distance in all weather? No. Conditions and consumption matter. A sensible explanation identifies the relevant measurement and uncertainty instead of promising an exact journey result. For real travel, follow current vehicle information and plan appropriately for actual conditions and compatible charging access.
+
+Can the same concepts help with other electric vehicles? Yes, while model-specific details must still be checked. Continue with [study resources](/classes/) or [programming courses](/courses/) to practise tables, unit conversions and simple calculations. The transferable skill is asking what each number measures before deciding what it means.
+
+## Build a simple energy worksheet
+
+Make a table for three fictional journeys, recording distance, energy used and the conditions assumed. For each row, divide energy by distance and express the result using the same unit. Do not compare one row in watt-hours per kilometre with another in kilowatt-hours per hundred kilometres until the units have been converted.
+
+Add a separate column for energy supplied during charging. Explain why this need not match the energy associated with driving over the same period. Charging losses and other energy uses belong in the accounting boundary. The worksheet is complete when another student can reproduce each calculation and identify every assumption without being told that the numbers describe a production car. It is a learning model, not a battery-health diagnosis or a route-planning tool.
+
+## Sources
+
+- [Tesla Support: charging](https://www.tesla.com/support/charging)
+- [Tesla Support: range](https://www.tesla.com/support/range)
+- [Tesla: owner manuals](https://www.tesla.com/ownersmanual)
+- [Tesla investor relations](https://ir.tesla.com/)

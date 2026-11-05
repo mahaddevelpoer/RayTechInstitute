@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Aerial Microsoft West Campus August 2009.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/1280px-Aerial_Microsoft_West_Campus_August_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg",
+    "creator": "Jelson25",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg",
+    "alt": "Microsoft’s Redmond campus photographed in 2009, shown as historical company context.",
+    "description": "The west campus of Microsoft, Redmond, Washington, taken from about 1,500'. The photo is looking south-east. The west campus is bounded on the west by 148th Ave, on the east by SR 520, and on the north (foreground) by 40th St.",
+    "caption": "Microsoft’s Redmond campus photographed in 2009, shown as historical company context.",
+    "width": 4752,
+    "height": 3168,
+    "bytes": 7881602,
+    "sha1": "8e37faa6cfbb362bfaf935144cac82b533581844",
+    "photographedAt": "2009-08-03",
+    "query": "Microsoft campus Redmond",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Microsoft Data Center Middenmeer, the Netherlands - 1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Microsoft_Data_Center_Middenmeer,_the_Netherlands_-_1.jpg",
+    "creator": "Hay Kranen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "A Microsoft data centre in Middenmeer, Netherlands, photographed in 2023, used as infrastructure context.",
+    "description": "Microsoft Data Center in Middenmeer, the Netherlands in 2023",
+    "caption": "A Microsoft data centre in Middenmeer, Netherlands, photographed in 2023, used as infrastructure context.",
+    "width": 3963,
+    "height": 2972,
+    "bytes": 2700156,
+    "sha1": "8845c21e31da5403b67e20aefe270d53a05a1d33",
+    "photographedAt": "2023-09-23 16:05:21",
+    "query": "Microsoft datacenter",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

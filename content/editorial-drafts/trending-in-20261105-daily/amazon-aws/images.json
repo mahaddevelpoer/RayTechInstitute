@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Amazon AWS us-west-2 beach AZ.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/amazon-aws-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Amazon_AWS_us-west-2_beach_AZ.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Amazon_AWS_us-west-2_beach_AZ.jpg",
+    "creator": "Tedder",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "AWS infrastructure in the us-west-2 region, shown as physical cloud-computing context.",
+    "description": "Part of AWS's us-west-2 availability zone, showing three datacenters",
+    "caption": "AWS infrastructure in the us-west-2 region, shown as physical cloud-computing context.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 319644,
+    "sha1": "b77fdceef37200f33377da612d011ed41f770ee7",
+    "photographedAt": "2023-08-11 11:31:55",
+    "query": "Amazon Web Services data center",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Amazon Spheres 05.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/amazon-aws-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Amazon_Spheres_05.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Amazon_Spheres_05.jpg",
+    "creator": "Joe Mabel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Amazon Spheres in Seattle, shown as company-campus context rather than a photograph of an AWS data centre.",
+    "description": "Amazon Spheres from the Sixth Avenue side, Seattle, Washington, U.S.",
+    "caption": "Amazon Spheres in Seattle, shown as company-campus context rather than a photograph of an AWS data centre.",
+    "width": 1280,
+    "height": 850,
+    "bytes": 318322,
+    "sha1": "96dad198455722bbfcd9946d0eaf084b69768221",
+    "photographedAt": "Taken on 21 October 2018",
+    "query": "Amazon Spheres Seattle",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

@@ -319,6 +319,101 @@
       ],
       "state": "published-live-verified",
       "slug": "strait-hormuz-geography-trade-evidence-guide"
+    },
+    {
+      "key": "microsoft-azure",
+      "topic": "Microsoft Azure: cloud services and shared responsibility",
+      "category": "technology",
+      "queries": [
+        "microsoft share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "microsoft-azure-cloud-responsibility-guide"
+    },
+    {
+      "key": "amazon-aws",
+      "topic": "Amazon AWS: compute, storage and cloud usage",
+      "category": "technology",
+      "queries": [
+        "amazon share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "amazon-aws-compute-storage-learning-guide"
+    },
+    {
+      "key": "tesla-ev",
+      "topic": "Tesla: battery energy, charging and range",
+      "category": "technology",
+      "queries": [
+        "tesla share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "tesla-battery-charging-range-units-guide"
+    },
+    {
+      "key": "vinfast-ev",
+      "topic": "VinFast: electric vehicle specifications and India information",
+      "category": "technology",
+      "queries": [
+        "विनफास्ट"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "vinfast-india-ev-specification-reading-guide"
+    },
+    {
+      "key": "playstation-store",
+      "topic": "PlayStation Store: sale verification and digital purchase checks",
+      "category": "technology",
+      "queries": [
+        "playstation store black friday sale"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "playstation-store-sale-digital-purchase-guide"
+    },
+    {
+      "key": "typhoon-science",
+      "topic": "Typhoons: tropical cyclone science and forecast literacy",
+      "category": "education",
+      "queries": [
+        "typhoon"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "interest-rates",
+      "topic": "Interest rates: simple interest, compounding and borrowing comparisons",
+      "category": "economy",
+      "queries": [
+        "interest rate"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "ongc-energy",
+      "topic": "ONGC: oil and gas exploration, production and measurements",
+      "category": "economy",
+      "queries": [
+        "ongc share price"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "ntpc-electricity",
+      "topic": "NTPC: electricity generation, capacity and energy units",
+      "category": "economy",
+      "queries": [
+        "ntpc share price"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "coal-india",
+      "topic": "Coal India: mining, production and dispatch measurements",
+      "category": "economy",
+      "queries": [
+        "coal india share price"
+      ],
+      "state": "research-pending"
     }
   ],
   "rowDisposition": [
@@ -870,7 +965,8 @@
       "row": 91,
       "topic": "coal india share price",
       "breakdown": "coal india share price,coal india share",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "coal-india"
     },
     {
       "row": 92,
@@ -992,7 +1088,8 @@
       "row": 111,
       "topic": "ongc share price",
       "breakdown": "ongc share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "ongc-energy"
     },
     {
       "row": 112,
@@ -1004,7 +1101,8 @@
       "row": 113,
       "topic": "playstation store black friday sale",
       "breakdown": "playstation store black friday sale,ps black friday sale 2026,black friday sale ps5 games,black friday sale ps5",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "playstation-store"
     },
     {
       "row": 114,
@@ -1088,7 +1186,8 @@
       "row": 127,
       "topic": "ntpc share price",
       "breakdown": "ntpc share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "ntpc-electricity"
     },
     {
       "row": 128,
@@ -1252,7 +1351,8 @@
       "row": 153,
       "topic": "tesla share price",
       "breakdown": "tesla share price,spacex share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "tesla-ev"
     },
     {
       "row": 154,
@@ -1354,7 +1454,8 @@
       "row": 170,
       "topic": "विनफास्ट",
       "breakdown": "विनफास्ट",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "vinfast-ev"
     },
     {
       "row": 171,
@@ -1377,8 +1478,9 @@
     {
       "row": 174,
       "topic": "interest rate",
-      "state": "needs-intent-review",
-      "breakdown": "interest rate"
+      "state": "research-pending",
+      "breakdown": "interest rate",
+      "group": "interest-rates"
     },
     {
       "row": 175,
@@ -2068,7 +2170,8 @@
       "row": 287,
       "topic": "typhoon",
       "breakdown": "typhoon",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "typhoon-science"
     },
     {
       "row": 288,
@@ -2279,7 +2382,8 @@
       "row": 321,
       "topic": "microsoft share price",
       "breakdown": "microsoft share price,msft,msft stock",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "microsoft-azure"
     },
     {
       "row": 322,
@@ -2815,7 +2919,8 @@
       "row": 408,
       "topic": "amazon share price",
       "breakdown": "amazon share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "amazon-aws"
     },
     {
       "row": 409,
@@ -3000,16 +3105,43 @@
         "inserted": 10,
         "preserved": 316
       }
+    },
+    {
+      "number": 5,
+      "keys": [
+        "microsoft-azure",
+        "amazon-aws",
+        "tesla-ev",
+        "vinfast-ev",
+        "playstation-store"
+      ],
+      "expectedSize": 5,
+      "explicitUserAuthorization": true,
+      "authorization": "User explicitly requested publication of the five written drafts before stopping for the night.",
+      "state": "research-pending"
+    },
+    {
+      "number": 6,
+      "keys": [
+        "typhoon-science",
+        "interest-rates",
+        "ongc-energy",
+        "ntpc-electricity",
+        "coal-india"
+      ],
+      "expectedSize": 5,
+      "explicitUserAuthorization": false,
+      "state": "deferred-unwritten"
     }
   ],
   "prepared": 30,
   "published": 30,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
     "sameIntentCovered": 14,
     "unclear": 38,
-    "unreviewed": 334
+    "unreviewed": 324
   }
 }
