@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import https from 'node:https';
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261101';
 if(!/^2026110[12345](?:-daily)?$/.test(batch))throw Error('Unsupported November batch');
-const root=`content/editorial-drafts/trending-pk-${batch}`,origin='https://raytechinstitute.com';
+const region=process.argv.find(a=>a.startsWith('--region='))?.slice(9)||'PK';if(!['PK','IN'].includes(region))throw Error('Unsupported article region');
+const root=`content/editorial-drafts/trending-${region.toLowerCase()}-${batch}`,origin='https://raytechinstitute.com';
 const useCloudflareResolver=process.argv.includes('--cloudflare-resolver');
 let edgeAddress;
 if(useCloudflareResolver){
@@ -33,7 +34,7 @@ const listing=await(await request(origin+'/blogs/')).text();
 const target=process.argv.find(value=>value.startsWith('--article='))?.slice(10);
 const targetsArg=process.argv.find(value=>value.startsWith('--articles='))?.slice(11);
 const targets=targetsArg?new Set(targetsArg.split(',').filter(Boolean)):target?new Set([target]):null;
-const ledger=batch==='20261105-daily'?'artifacts/november5-daily/live-verification.json':batch==='20261104-daily'?'artifacts/november4-daily/live-verification.json':batch==='20261104'?'artifacts/november4/live-verification.json':'artifacts/november-publish/live-verification.json';
+const ledger=region==='IN'?'artifacts/india-november5/live-verification.json':batch==='20261105-daily'?'artifacts/november5-daily/live-verification.json':batch==='20261104-daily'?'artifacts/november4-daily/live-verification.json':batch==='20261104'?'artifacts/november4/live-verification.json':'artifacts/november-publish/live-verification.json';
 const previous=targets&&fs.existsSync(ledger)?JSON.parse(fs.readFileSync(ledger)).results:[];
 const results=previous.filter(row=>!targets?.has(row.name));
 const unescapeHtml=value=>value.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');

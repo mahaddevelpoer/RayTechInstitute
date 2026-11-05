@@ -1,7 +1,7 @@
 {
   "state": "local-verified-unpublished",
   "articles": 6,
-  "bodyWords": 12174,
+  "bodyWords": 12206,
   "uniqueImages": 12,
   "existingArticlesCompared": 296,
   "results": [
@@ -15,7 +15,7 @@
     {
       "key": "ktet-hall-ticket",
       "slug": "ktet-hall-ticket-november-2026-official-download-guide",
-      "words": 2030,
+      "words": 2062,
       "tags": 42,
       "images": 2
     },

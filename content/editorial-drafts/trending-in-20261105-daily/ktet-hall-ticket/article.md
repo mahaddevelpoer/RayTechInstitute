@@ -1,4 +1,4 @@
-The official Kerala Teacher Eligibility Test website lists admit-card downloading from 4 November 2026 and examinations on 14 and 15 November 2026. Candidates should use the official KTET portal and the details on their own hall ticket to identify their category, session, reporting instructions and examination centre.
+The official Kerala Teacher Eligibility Test portal provides an admit-card route for the September 2026 cycle. Its examination notification lists examinations on 14 and 15 November 2026. The cycle name and the month of the examinations are different; candidates should check both before opening a ticket. Candidates should use the official KTET portal and the details on their own hall ticket to identify their category, session, reporting instructions and examination centre.
 
 This guide was checked on 5 November 2026. It explains how to approach the download, inspect the document and prepare for the visit without confusing a general examination schedule with an individual candidate's instructions. It does not collect login details or provide an unofficial replacement admit card.
 
@@ -14,7 +14,7 @@ If a result in a search engine points to an unfamiliar domain, reopen the offici
 
 | Item | Date displayed on the official website |
 | --- | --- |
-| Start of admit-card downloading | 4 November 2026 |
+| Admit-card route | Available on the official portal for the September 2026 cycle |
 | Examination dates | 14 and 15 November 2026 |
 
 These are general published dates. The hall ticket identifies the instructions relevant to a particular candidate. Do not decide which day, category or session applies merely because another applicant in a study group has a particular arrangement.
@@ -113,7 +113,7 @@ Finally, explain the two dates relevant to your preparation: when downloading be
 
 ### What examination dates does the official portal show?
 
-The website checked on 5 November lists 14 and 15 November 2026. Check your own hall ticket for the category and session relevant to you, and read any newer official amendment before travelling.
+The September 2026 examination notification checked on 5 November lists 14 and 15 November 2026. Check your own hall ticket for the category and session relevant to you, and read any newer official amendment before travelling.
 
 ### Can this website download the hall ticket for me?
 

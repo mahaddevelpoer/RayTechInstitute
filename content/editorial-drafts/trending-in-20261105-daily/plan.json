@@ -2649,24 +2649,15 @@
       "keys": [
         "voyager-1",
         "ktet-hall-ticket",
-        "cbse-class10-2027",
-        "ssc-cgl-answer-key",
         "uidai-aadhaar",
-        "csir-net",
         "5g",
         "bsnl",
-        "delhi-ncr-aqi",
         "sensex"
       ],
-      "state": "partially-prepared-unpublished",
-      "preparedKeys": [
-        "voyager-1",
-        "ktet-hall-ticket",
-        "uidai-aadhaar",
-        "5g",
-        "bsnl",
-        "sensex"
-      ]
+      "expectedSize": 6,
+      "explicitUserAuthorization": true,
+      "authorization": "User instructed on 5 November 2026 to resume articles and publish those already completed.",
+      "state": "local-verified-unpublished"
     }
   ],
   "prepared": 6,
