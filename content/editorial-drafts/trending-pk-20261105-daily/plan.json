@@ -53,8 +53,9 @@
       "queries": [
         "west indies vs bangladesh"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "bangladesh-west-indies-second-test-sylhet-november-2026"
     },
     {
       "key": "aek-real-madrid",
@@ -62,8 +63,9 @@
       "queries": [
         "aek vs real madrid"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "aek-real-madrid-2-3-valverde-comeback-2026"
     },
     {
       "key": "leipzig-manchester-city",
@@ -71,8 +73,9 @@
       "queries": [
         "rb leipzig vs man city"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "leipzig-man-city-2-3-haaland-winner-2026"
     },
     {
       "key": "slavia-arsenal",
@@ -80,8 +83,9 @@
       "queries": [
         "slavia praha vs arsenal"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "slavia-arsenal-1-2-madueke-gyokeres-2026"
     },
     {
       "key": "fenerbahce-liverpool",
@@ -89,8 +93,9 @@
       "queries": [
         "fenerbahçe vs liverpool f.c. standings"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "fenerbahce-liverpool-3-2-goals-november-2026"
     },
     {
       "key": "lens-como",
@@ -107,8 +112,9 @@
       "queries": [
         "dortmund vs betis"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "dortmund-betis-2-1-silva-karetsas-2026"
     },
     {
       "key": "maliha-ali",
@@ -220,8 +226,9 @@
       "queries": [
         "porto vs napoli"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026"
     },
     {
       "key": "vivo-v80-fe",
@@ -961,7 +968,25 @@
       "group": "rizwan-domestic"
     }
   ],
-  "prepared": 3,
+  "prepared": 10,
   "published": 0,
-  "remaining": 32
+  "remaining": 25,
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "ssgc",
+        "bisp",
+        "iqbal-day",
+        "fenerbahce-liverpool",
+        "aek-real-madrid",
+        "slavia-arsenal",
+        "leipzig-manchester-city",
+        "dortmund-betis",
+        "porto-napoli",
+        "west-indies-bangladesh"
+      ],
+      "state": "local-verified-unpublished"
+    }
+  ]
 }
