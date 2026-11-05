@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fetchCatalogRows } from "./catalog-fetch.mjs";
+import { canonicalHostedDocument } from './hosted-documents.mjs';
 
 const root = process.cwd();
 const envText = await fs
@@ -30,6 +31,7 @@ const snapshotKey =
   process.env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_SERVICE_ROLE_KEY;
 const output = path.join(root, "src", "data", "staticOverrides.ts");
 const fallbackBlogImage = "/android-chrome-512x512.png";
+const documentOrigin=process.env.NEXT_PUBLIC_SITE_URL||env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.com';
 
 if (!supabaseUrl || !snapshotKey) {
   throw new Error(
@@ -75,12 +77,12 @@ const map = {
     chapterTitle: n.chapter_title,
     title: n.title,
     description: n.description,
-    pdfUrl: n.pdf_url,
+    pdfUrl: canonicalHostedDocument(n.pdf_url,documentOrigin),
     fileSize: n.file_size,
     downloadCount: n.download_count || 0,
     lastUpdated: n.last_updated,
     content: n.content || undefined,
-    previewPdfUrl: n.preview_pdf_url || undefined,
+    previewPdfUrl: canonicalHostedDocument(n.preview_pdf_url,documentOrigin) || undefined,
     actionButtonText: n.action_button_text || undefined,
     actionButtonUrl: n.action_button_url || undefined,
   }),
@@ -104,7 +106,7 @@ const map = {
     board: p.board,
     year: p.year,
     session: p.session,
-    pdfUrl: p.pdf_url,
+    pdfUrl: canonicalHostedDocument(p.pdf_url,documentOrigin),
     description: p.description || undefined,
     content: p.content || undefined,
   }),
@@ -115,7 +117,7 @@ const map = {
     classSlug: g.class_slug,
     year: g.year,
     session: g.session,
-    pdfUrl: g.pdf_url,
+    pdfUrl: canonicalHostedDocument(g.pdf_url,documentOrigin),
     directResultUrl: g.direct_result_url,
     releaseDate: g.release_date,
     totalCandidates: g.total_candidates,

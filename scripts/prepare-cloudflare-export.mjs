@@ -42,7 +42,8 @@ export async function prepareCloudflareExport(root='out') {
  const notFound=await fs.readFile(path.join(directory,'404.html'),'utf8');
  if(!/^<!doctype html/i.test(notFound))throw Error('A real top-level 404.html is required; SPA fallback would conceal missing pages');
  await fs.writeFile(path.join(directory,'_headers'),cloudflareHeaders(config));
- await fs.writeFile(path.join(directory,'_redirects'),'https://www.raytechinstitute.com/* https://raytechinstitute.com/:splat 301\n');
+ // Domain-level forwarding is configured using Cloudflare Redirect Rules;
+ // Pages' _redirects format only supports path-level source matching.
  const files=[];
  async function walk(dir){for(const entry of await fs.readdir(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isSymbolicLink())throw Error('Export must not contain symbolic links');if(entry.isDirectory())await walk(file);else if(entry.isFile())files.push({path:path.relative(directory,file).replaceAll(path.sep,'/'),bytes:(await fs.stat(file)).size});}}
  await walk(directory);

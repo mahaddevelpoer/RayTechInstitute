@@ -113,7 +113,7 @@ jobs:
         run: npm run build
 
       - name: Block incomplete or mismatched exports
-        run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs
+        run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs scripts/hosted-documents.test.mjs
 
       - name: Prepare static Cloudflare routing and security headers
         if: env.HOSTING_TARGET != 'firebase'
