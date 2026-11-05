@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2194,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-05",
+  "visualEvidence": "artifacts/november5-daily/batch2-contact-sheet.png",
+  "visualReviewNotes": "Roof panels and DC/AC inverter match the solar concepts; Ocon car 31 and historical Haas show car match source descriptions. Captions retain dates and illustrative scope."
+}

@@ -282,8 +282,9 @@
       "queries": [
         "esteban ocon"
       ],
-      "state": "pending-existing-research",
-      "category": "sports"
+      "state": "local-verified-unpublished",
+      "category": "sports",
+      "slug": "esteban-ocon-haas-departure-2026-career-guide"
     },
     {
       "key": "nabeela-syed",
@@ -300,8 +301,9 @@
       "queries": [
         "solar power"
       ],
-      "state": "pending-existing-research",
-      "category": "technology"
+      "state": "local-verified-unpublished",
+      "category": "technology",
+      "slug": "solar-power-panels-inverters-batteries-pakistan-guide"
     },
     {
       "key": "salik-hussain",
@@ -978,7 +980,7 @@
       "group": "rizwan-domestic"
     }
   ],
-  "prepared": 10,
+  "prepared": 12,
   "published": 10,
   "remaining": 25,
   "releaseBatches": [
@@ -999,6 +1001,16 @@
       "state": "published-live-verified",
       "hostingRun": 41976478203,
       "checkedAt": "2026-11-05T05:55:53.988Z"
+    },
+    {
+      "number": 2,
+      "keys": [
+        "solar-power",
+        "esteban-ocon"
+      ],
+      "expectedSize": 2,
+      "explicitUserAuthorization": "User requested exactly two more articles before the three-hour credit break, 5 November 2026.",
+      "state": "local-verified-unpublished"
     }
   ]
 }

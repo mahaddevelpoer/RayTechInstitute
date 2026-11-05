@@ -1,8 +1,8 @@
 {
   "state": "local-verified-unpublished",
-  "articles": 10,
-  "bodyWords": 20692,
-  "uniqueImages": 20,
+  "articles": 12,
+  "bodyWords": 24935,
+  "uniqueImages": 24,
   "existingArticlesCompared": 284,
   "results": [
     {
@@ -72,6 +72,20 @@
       "key": "porto-napoli",
       "slug": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026",
       "words": 2025,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "esteban-ocon",
+      "slug": "esteban-ocon-haas-departure-2026-career-guide",
+      "words": 2194,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "solar-power",
+      "slug": "solar-power-panels-inverters-batteries-pakistan-guide",
+      "words": 2049,
       "tags": 42,
       "images": 2
     }

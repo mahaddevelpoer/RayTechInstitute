@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Rooftop solar photovoltaic installation.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Rooftop_solar_photovoltaic_installation.jpg/1280px-Rooftop_solar_photovoltaic_installation.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Rooftop_solar_photovoltaic_installation.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Rooftop_solar_photovoltaic_installation.jpg",
+    "creator": "Marta Victoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A rooftop photovoltaic installation, used to illustrate panel arrays rather than a particular Pakistani household or installation offer.",
+    "description": "Solar photovoltaic installation",
+    "caption": "A rooftop photovoltaic installation, used to illustrate panel arrays rather than a particular Pakistani household or installation offer.",
+    "width": 1600,
+    "height": 1079,
+    "bytes": 629496,
+    "sha1": "17a3d9fc96b1b7e1dcbf57f8e3aadf3c2918ea61",
+    "photographedAt": "2022-09-20",
+    "query": "rooftop photovoltaic panels",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Solar Wechselrichter SMA STP 8.0.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Solar_Wechselrichter_SMA_STP_8.0.jpg/1280px-Solar_Wechselrichter_SMA_STP_8.0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Solar_Wechselrichter_SMA_STP_8.0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Solar_Wechselrichter_SMA_STP_8.0.jpg",
+    "creator": "Pedalito",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "An SMA solar inverter, illustrating DC-to-AC conversion rather than a product recommendation or a guarantee of backup capability.",
+    "description": "SMA DC/AC inverter for solar power (type: SMA STP 8.0)",
+    "caption": "An SMA solar inverter, illustrating DC-to-AC conversion rather than a product recommendation or a guarantee of backup capability.",
+    "width": 3883,
+    "height": 3883,
+    "bytes": 2054312,
+    "sha1": "175d93242e8ac4a094d99c345feb866c7a44f389",
+    "photographedAt": "2021-03-18 12:10:13",
+    "query": "solar inverter SMA",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]
