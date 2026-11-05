@@ -56,7 +56,7 @@ export async function generateMetadata({
   const title = buildSeoTitle(
     `${className} ${note.chapterTitle} Ch ${displayChapterNumber} Notes PDF`,
   );
-  const fullDescription = buildDocumentDescription(note.description || '', `Chapter ${displayChapterNumber} ${currentSubject.title} notes PDF`);
+  const fullDescription = buildDocumentDescription(note.description || '', `${className} ${note.chapterTitle} Chapter ${displayChapterNumber} notes PDF`);
   const description = fullDescription.length > 155 ? fullDescription.slice(0, 154).replace(/\s+\S*$/, '') + '…' : fullDescription;
   return withSocialMetadata({
     title,
