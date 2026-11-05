@@ -26,7 +26,12 @@ export function cloudflareHeaders(config) {
  for(const route of ['https://:project.pages.dev/*','https://:version.:project.pages.dev/*'])rules.set(route,new Map([['X-Robots-Tag','noindex, nofollow']]));
  rules.get('/*')?.set('X-RayTech-Hosting','cloudflare-pages');
  if(rules.size>100)throw Error('Pages header rule count exceeds the free platform limit');
- const output=[...rules].map(([route,headers])=>route+'\n'+[...headers].map(([key,value])=>'  '+key+': '+value).join('\n')).join('\n\n')+'\n';
+ const output=[...rules].map(([route,headers])=>route+'\n'+[...headers].flatMap(([key,value])=>{
+  // Firebase overrides a general policy on sandbox documents. Pages otherwise
+  // appends both CSPs, incorrectly blocking the interpreter's blob imports.
+  const line='  '+key+': '+value;
+  return route!=='/*'&&key.toLowerCase()==='content-security-policy'?['  ! Content-Security-Policy',line]:[line];
+ }).join('\n')).join('\n\n')+'\n';
  if(output.split('\n').some(line=>line.length>2000))throw Error('Pages header line exceeds 2,000 characters');
  return output;
 }
