@@ -22,9 +22,9 @@ Cloudflare deployment uses the GitHub Actions secret `CLOUDFLARE_API_TOKEN`, res
 ## External setup required
 
 - Scoped GitHub secret is configured and its Pages/DNS permissions have passed actual API checks.
-- Domain has been added as zone `88e97a0f6ad15e2c6d0d3c035ccd3ee4`; activation is pending Hostinger nameserver changes to `monika.ns.cloudflare.com` and `nicolas.ns.cloudflare.com`.
+- Domain is active as zone `88e97a0f6ad15e2c6d0d3c035ccd3ee4`. The user changed Hostinger nameservers to `monika.ns.cloudflare.com` and `nicolas.ns.cloudflare.com`; the registry and Cloudflare activation were checked.
 - DNS staging preserved seven existing records and restored two missing Resend aliases (`results` and `send`) using their live values. Website A/CNAME records remain pointed at Firebase and were made DNS-only for a safe nameserver transition. Original DNS snapshots are retained as short-lived workflow artifacts. No nameserver change has been made by the agent.
-- Attach the custom domain through Pages only after the temporary deployment passes.
+- Apex and WWW custom domains are attached to Pages. Both website DNS entries now target `raytechinstitute.pages.dev`. All non-website DNS was preserved. WWW forwards with a Cloudflare Single Redirect rule, preserving path and query; domain-source redirects in Pages `_redirects` are unsupported and are not used.
 - If testing Google sign-in on the temporary host, add that exact hostname to Firebase authorised domains. Production's existing authorised custom domain is preserved.
 - Preview AI/competition calls may be rejected by existing exact-origin CORS restrictions. Do not loosen production origins to wildcards to conceal this; test signed-in production flows after controlled cutover.
 
@@ -42,3 +42,13 @@ Do not disable/delete Firebase Hosting before these checks pass. Existing fallba
 - Read-only DNS review: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41967985052
 - DNS staging and preservation read-back: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41968267064
 - Signed-in Google account and live AI generation were not exercised by the preview compiler check. Production domain and origin configuration remain unchanged until the controlled domain cutover.
+
+## Completed production cutover
+
+- Custom-domain TLS, exact Pages hosting identity, indexable canonical homepage, real 404, WWW 301 and non-website DNS preservation: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41970839419 . This passed against Cloudflare directly, bypassing stale recursive DNS caches.
+- Full build/source/secret checks and local browser regressions passed in https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41970346126 . Its immediate post-upload revision check ran before edge propagation finished; the exact revision was verified afterward.
+- Latest export `a36fd73a7be6a79d604b62ceb15ae814bc95c0e1` passed exact-revision, migrated PDF URL/availability and strict five-language execution/rendering checks: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41971177185 . Verification now retries edge revision propagation, without accepting a mismatched export.
+- Sandbox CSP must replace the general document CSP via `_headers` detachment. Appending both policies blocked interpreter blob imports. Strict output checks caught this; the corrected policy passed the browser compiler checks. Initial permissive output-substring checks are not evidence of compiler correctness.
+- Repository `HOSTING_PROVIDER=cloudflare`: future source and content-published releases target Pages automatically. Firebase deployment remains an explicit rollback option.
+- Existing owned Firebase document URLs are rebased to the canonical origin at build time only when the document exists in the public export. Database source records are not overwritten; external providers and authentication URLs are preserved.
+- Firebase Hosting is retained during DNS propagation and account-flow confirmation. Do not disable it while old resolver caches still send visitors to the Firebase IP. Firebase Authentication and Firestore must not be removed as part of retiring public Hosting.

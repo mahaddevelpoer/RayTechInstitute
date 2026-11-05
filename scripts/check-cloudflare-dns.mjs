@@ -17,7 +17,9 @@ const normal=(type,value)=>type==='TXT'?value.replace(/^"|"$/g,'').replace(/"\s+
 // are not records owned by this zone and must not be copied onto the alias.
 const aliases=new Set(live.filter(r=>r.type==='CNAME').map(r=>r.name.toLowerCase()));
 const ownedLive=live.filter(r=>r.type==='CNAME'||!aliases.has(r.name.toLowerCase()));
-const missing=ownedLive.filter(old=>!records.some(next=>next.type===old.type&&next.name.toLowerCase()===old.name.toLowerCase()&&normal(old.type,next.content)===normal(old.type,old.content)&&(old.type!=='MX'||next.priority===old.priority)));
+const migratedWebsiteHosts=new Set(records.filter(r=>r.type==='CNAME'&&r.content==='raytechinstitute.pages.dev'&&[domain,'www.'+domain].includes(r.name)).map(r=>r.name));
+const baseline=ownedLive.filter(r=>!(migratedWebsiteHosts.has(r.name)&&['A','AAAA','CNAME'].includes(r.type)));
+const missing=baseline.filter(old=>!records.some(next=>next.type===old.type&&next.name.toLowerCase()===old.name.toLowerCase()&&normal(old.type,next.content)===normal(old.type,old.content)&&(old.type!=='MX'||next.priority===old.priority)));
 await fs.mkdir('artifacts/cloudflare-migration',{recursive:true});
-await fs.writeFile('artifacts/cloudflare-migration/dns-review.json',JSON.stringify({checkedAt:new Date().toISOString(),domain,readOnly:true,records,knownLiveRecords:ownedLive,missingKnownRecords:missing,lookupFailures:failures,limitations:'Known service names only; unknown DKIM selectors and unlisted subdomains require the source DNS inventory.'},null,2));
+await fs.writeFile('artifacts/cloudflare-migration/dns-review.json',JSON.stringify({checkedAt:new Date().toISOString(),domain,readOnly:true,records,knownLiveRecords:ownedLive,migratedWebsiteHosts:[...migratedWebsiteHosts],missingKnownRecords:missing,lookupFailures:failures,limitations:'Known service names only; unknown DKIM selectors and unlisted subdomains require the source DNS inventory. Website origins intentionally migrated to Pages are checked by the domain cutover verifier rather than compared with cached Firebase DNS.'},null,2));
 console.log('[dns-review]',{imported:records.length,knownLiveRecords:ownedLive.length,missingKnownRecords:missing.map(({type,name})=>({type,name})),lookupFailures:failures.length,changed:0});
