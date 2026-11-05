@@ -9,11 +9,15 @@ const data=await response.json();if(!data.success||!Array.isArray(data.result))t
 const records=data.result.map(({id,type,name,content,priority,proxied,ttl})=>({id,type,name,content,priority,proxied,ttl}));
 if(hasPrivateCredential(JSON.stringify(records)))throw Error('A DNS value resembles a private credential; comparison stopped without logging it');
 const resolver=new Resolver({timeout:3000,tries:1});
-const queries=[[domain,'A'],[domain,'AAAA'],[domain,'TXT'],[domain,'MX'],['www.'+domain,'CNAME'],['results.'+domain,'CNAME'],['send.'+domain,'MX'],['send.'+domain,'TXT'],['resend._domainkey.'+domain,'TXT'],['send.results.'+domain,'MX'],['send.results.'+domain,'TXT'],['resend._domainkey.results.'+domain,'TXT'],['_dmarc.results.'+domain,'TXT'],['_dmarc.'+domain,'TXT'],['_acme-challenge.'+domain,'TXT'],['competition.'+domain,'CNAME']];
+const queries=[[domain,'A'],[domain,'AAAA'],[domain,'TXT'],[domain,'MX'],['www.'+domain,'CNAME'],['results.'+domain,'CNAME'],['send.'+domain,'CNAME'],['send.'+domain,'MX'],['send.'+domain,'TXT'],['resend._domainkey.'+domain,'TXT'],['send.results.'+domain,'CNAME'],['send.results.'+domain,'MX'],['send.results.'+domain,'TXT'],['resend._domainkey.results.'+domain,'TXT'],['_dmarc.results.'+domain,'TXT'],['_dmarc.'+domain,'TXT'],['_acme-challenge.'+domain,'TXT'],['competition.'+domain,'CNAME']];
 const live=[];const failures=[];
 await Promise.all(queries.map(async([name,type])=>{try{for(const value of await resolver.resolve(name,type)){live.push({name,type,content:type==='TXT'?value.join(''):type==='MX'?value.exchange:String(value),...(type==='MX'?{priority:value.priority}:{})});}}catch(error){if(!['ENODATA','ENOTFOUND'].includes(error.code))failures.push({name,type,code:error.code||'DNS_ERROR'});}}));
 const normal=(type,value)=>type==='TXT'?value.replace(/^"|"$/g,'').replace(/"\s+"/g,''):value.replace(/\.$/,'').toLowerCase();
-const missing=live.filter(old=>!records.some(next=>next.type===old.type&&next.name.toLowerCase()===old.name.toLowerCase()&&normal(old.type,next.content)===normal(old.type,old.content)&&(old.type!=='MX'||next.priority===old.priority)));
+// Recursive DNS may return MX/TXT records belonging to a CNAME's target. Those
+// are not records owned by this zone and must not be copied onto the alias.
+const aliases=new Set(live.filter(r=>r.type==='CNAME').map(r=>r.name.toLowerCase()));
+const ownedLive=live.filter(r=>r.type==='CNAME'||!aliases.has(r.name.toLowerCase()));
+const missing=ownedLive.filter(old=>!records.some(next=>next.type===old.type&&next.name.toLowerCase()===old.name.toLowerCase()&&normal(old.type,next.content)===normal(old.type,old.content)&&(old.type!=='MX'||next.priority===old.priority)));
 await fs.mkdir('artifacts/cloudflare-migration',{recursive:true});
-await fs.writeFile('artifacts/cloudflare-migration/dns-review.json',JSON.stringify({checkedAt:new Date().toISOString(),domain,readOnly:true,records,knownLiveRecords:live,missingKnownRecords:missing,lookupFailures:failures,limitations:'Known service names only; unknown DKIM selectors and unlisted subdomains require the source DNS inventory.'},null,2));
-console.log('[dns-review]',{imported:records.length,knownLiveRecords:live.length,missingKnownRecords:missing.map(({type,name})=>({type,name})),lookupFailures:failures.length,changed:0});
+await fs.writeFile('artifacts/cloudflare-migration/dns-review.json',JSON.stringify({checkedAt:new Date().toISOString(),domain,readOnly:true,records,knownLiveRecords:ownedLive,missingKnownRecords:missing,lookupFailures:failures,limitations:'Known service names only; unknown DKIM selectors and unlisted subdomains require the source DNS inventory.'},null,2));
+console.log('[dns-review]',{imported:records.length,knownLiveRecords:ownedLive.length,missingKnownRecords:missing.map(({type,name})=>({type,name})),lookupFailures:failures.length,changed:0});
