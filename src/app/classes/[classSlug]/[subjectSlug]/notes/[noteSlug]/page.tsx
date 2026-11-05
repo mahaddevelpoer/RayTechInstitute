@@ -54,9 +54,10 @@ export async function generateMetadata({
   const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
   const displayChapterNumber = chapterPlacement({ ...note, title: note.chapterTitle })?.number || note.chapterNumber;
   const title = buildSeoTitle(
-    `${className} ${currentSubject.title} Ch ${displayChapterNumber} Notes PDF`,
+    `${className} ${note.chapterTitle} Ch ${displayChapterNumber} Notes PDF`,
   );
-  const description = buildDocumentDescription(note.description || '', `Chapter ${displayChapterNumber} ${currentSubject.title} notes PDF`);
+  const fullDescription = buildDocumentDescription(note.description || '', `Chapter ${displayChapterNumber} ${currentSubject.title} notes PDF`);
+  const description = fullDescription.length > 155 ? fullDescription.slice(0, 154).replace(/\s+\S*$/, '') + '…' : fullDescription;
   return withSocialMetadata({
     title,
     description,
