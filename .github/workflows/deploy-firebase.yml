@@ -255,6 +255,8 @@ jobs:
           path: |
             artifacts/cloudflare-migration/live-preview.json
             artifacts/cloudflare-migration/export.json
+            artifacts/cloudflare-migration/compiler-diagnostic-*.json
+            artifacts/cloudflare-migration/compiler-*.png
           if-no-files-found: ignore
 
   prepare-dns:
@@ -345,4 +347,6 @@ jobs:
           path: |
             artifacts/cloudflare-migration/live-preview.json
             artifacts/cloudflare-migration/dns-review.json
+            artifacts/cloudflare-migration/compiler-diagnostic-*.json
+            artifacts/cloudflare-migration/compiler-*.png
           if-no-files-found: ignore

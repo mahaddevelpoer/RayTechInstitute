@@ -21,7 +21,12 @@ const browser=await chromium.launch({headless:true,args:['--renderer-process-lim
 try{
  for(const [language,code,answer]of [['python','print(6 * 7)','42'],['php','<?php echo 6 * 7;','42'],['javascript','console.log(typeof document); console.log(6 * 7);','42'],['html','<h1>42</h1><script>parent.document.body.innerHTML="blocked"</script>','42'],['css','h1 { color: rgb(27, 79, 155); }','Practice heading']]){
   const lang=LEARNING_LANGUAGES.find(l=>l.id===language),topic=LEARNING_TOPICS.filter(t=>t.languageId===language&&t.status==='published').toSorted((a,b)=>a.order-b.order)[0]||LEARNING_TOPICS.filter(t=>t.languageId===language).toSorted((a,b)=>a.order-b.order)[0];assert.ok(lang&&topic);
-  const page=await browser.newPage({viewport:{width:1366,height:900}});const errors=[];page.on('pageerror',error=>errors.push(error.message));
+  console.log('[cloudflare-workspace] Checking',language);
+  const page=await browser.newPage({viewport:{width:1366,height:900}});const errors=[],consoleErrors=[],failedRequests=[];page.on('pageerror',error=>errors.push(error.message));
+  page.on('console',message=>{if(message.type()==='error')consoleErrors.push(message.text().slice(0,1000));});
+  page.on('requestfailed',request=>failedRequests.push({path:new URL(request.url()).pathname,error:request.failure()?.errorText}));
+  page.on('response',response=>{if(response.status()>=400)failedRequests.push({path:new URL(response.url()).pathname,status:response.status()});});
+  try{
   await page.goto(base+'/learn/'+lang.slug+'/'+topic.slug+'/',{waitUntil:'domcontentloaded'});
   const consent=page.getByRole('button',{name:'Decline Optional',exact:true});await consent.waitFor();await consent.click();
   await page.locator('.cm-content').first().fill(code);await page.getByRole('button',{name:'Run',exact:true}).click();
@@ -30,7 +35,10 @@ try{
    const frame=await element.contentFrame();assert.ok(frame);await frame.getByRole('heading',{name:answer,exact:true}).waitFor();
    assert.equal(await frame.locator('script').count(),0,'Preview strips active scripts');
    if(language==='css')assert.equal(await frame.locator('h1').evaluate(e=>getComputedStyle(e).color),'rgb(27, 79, 155)');
-  }else await page.waitForFunction(value=>document.querySelector('.learning-output')?.textContent.includes(value),answer,{timeout:90000});
+  }else{
+   await page.waitForFunction(value=>{const text=document.querySelector('.learning-output pre')?.textContent||'';return text.split('\n').some(line=>line.trim()===value)||/error|unavailable|could not|failed|invalid|stopped/i.test(text);},answer,{timeout:90000});
+   assert.ok((await page.locator('.learning-output pre').innerText()).split('\n').some(line=>line.trim()===answer),'Compiler must print the exact expected result');
+  }
   if(language==='javascript')assert.match(await page.locator('.learning-output').innerText(),/undefined/);
   if(language==='python'){
    const nextTopic=LEARNING_TOPICS.filter(t=>t.languageId===language&&t.id!==topic.id).toSorted((a,b)=>a.order-b.order)[0];
@@ -38,7 +46,12 @@ try{
   }
   assert.deepEqual(errors,[],language+' has no unhandled browser errors');
   await page.setViewportSize({width:360,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
-  results.push({language,compiled:true,mobileOverflow:false});await page.close();
+  results.push({language,compiled:true,mobileOverflow:false});
+  }catch(error){
+   await fs.mkdir('artifacts/cloudflare-migration',{recursive:true});
+   await fs.writeFile('artifacts/cloudflare-migration/compiler-diagnostic-'+language+'.json',JSON.stringify({language,errors,consoleErrors,failedRequests,output:await page.locator('.learning-output').innerText().catch(()=>''),status:await page.getByRole('status').allTextContents().catch(()=>[])},null,2));
+   await page.screenshot({path:'artifacts/cloudflare-migration/compiler-'+language+'.png'}).catch(()=>{});throw error;
+  }finally{await page.close();}
  }
 }finally{await browser.close();}
 await fs.mkdir('artifacts/cloudflare-migration',{recursive:true});
