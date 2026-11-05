@@ -240,9 +240,20 @@ jobs:
       - run: npx playwright install chromium --only-shell
       - name: Verify static delivery and isolated compiler execution on Cloudflare
         run: node --max-old-space-size=384 scripts/verify-cloudflare-preview.mjs
+      - name: Review imported DNS and known live service records without changes
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
+            node scripts/check-cloudflare-dns.mjs
+          else
+            echo 'DNS comparison pending: scoped GitHub secret has not been configured.'
+          fi
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
           name: cloudflare-preview-verification
-          path: artifacts/cloudflare-migration/live-preview.json
+          path: |
+            artifacts/cloudflare-migration/live-preview.json
+            artifacts/cloudflare-migration/dns-review.json
           if-no-files-found: ignore
