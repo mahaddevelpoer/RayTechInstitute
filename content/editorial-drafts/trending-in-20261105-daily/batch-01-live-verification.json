@@ -1,0 +1,195 @@
+{
+  "run": 42033069976,
+  "verificationRun": 42034116258,
+  "checkedAt": "2026-11-05T13:12:45.812Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 6,
+    "verified": 6,
+    "existingArticlesPreserved": 296,
+    "articles": [
+      "voyager-1-one-light-day-november-2026-explained",
+      "ktet-hall-ticket-november-2026-official-download-guide",
+      "uidai-aadhaar-official-services-privacy-guide",
+      "5g-explained-coverage-devices-speed-latency-guide",
+      "bsnl-selfcare-bills-recharge-coverage-support-guide",
+      "sensex-explained-index-points-percentages-weighting"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "voyager-1",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/voyager-1-one-light-day-november-2026-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/voyager-1-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/voyager-1-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ktet-hall-ticket",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/ktet-hall-ticket-november-2026-official-download-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ktet-hall-ticket-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ktet-hall-ticket-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "uidai-aadhaar",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/uidai-aadhaar-official-services-privacy-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/uidai-aadhaar-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/uidai-aadhaar-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "5g",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/5g-explained-coverage-devices-speed-latency-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/5g-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/5g-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "bsnl",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/bsnl-selfcare-bills-recharge-coverage-support-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/bsnl-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/bsnl-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "sensex",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/sensex-explained-index-points-percentages-weighting/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/sensex-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/sensex-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

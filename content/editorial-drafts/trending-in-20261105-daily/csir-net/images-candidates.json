@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Cornell University - Baker Chemistry Laboratory.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cornell_University_-_Baker_Chemistry_Laboratory.jpg/1280px-Cornell_University_-_Baker_Chemistry_Laboratory.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cornell_University_-_Baker_Chemistry_Laboratory.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Baker_Chemistry_Laboratory.jpg",
+    "creator": "Published for Cornell Co-Operative Society, Ithaca by Detroit Publishing Company",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Baker_Chemistry_Laboratory.jpg",
+    "alt": "Historical postcard of Baker Chemistry Laboratory at Cornell University in the United States, shown as academic context rather than a current CSIR NET examination venue.",
+    "description": "Photomechanical print (postcard) : phostint Divided back No. 81656",
+    "caption": "Historical postcard of Baker Chemistry Laboratory at Cornell University in the United States, shown as academic context rather than a current CSIR NET examination venue.",
+    "width": 1600,
+    "height": 993,
+    "bytes": 1189036,
+    "sha1": "0e3b88278187e494391fee467d5bebbd2d46bb7f",
+    "photographedAt": "1925",
+    "query": "intitle:chemistry intitle:laboratory",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Central Library IIT Hyderabad, Knowledge Resource centre IIT Hyderabad.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Central_Library_IIT_Hyderabad%2C_Knowledge_Resource_centre_IIT_Hyderabad.jpg/1280px-Central_Library_IIT_Hyderabad%2C_Knowledge_Resource_centre_IIT_Hyderabad.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Central_Library_IIT_Hyderabad%2C_Knowledge_Resource_centre_IIT_Hyderabad.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Central_Library_IIT_Hyderabad,_Knowledge_Resource_centre_IIT_Hyderabad.jpg",
+    "creator": "Mukesh721",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "The Central Library at IIT Hyderabad, shown as academic study context and not as a claim about a CSIR NET examination centre.",
+    "description": "Knowledge Resource centre IIT Hyderabad",
+    "caption": "The Central Library at IIT Hyderabad, shown as academic study context and not as a claim about a CSIR NET examination centre.",
+    "width": 3072,
+    "height": 4096,
+    "bytes": 549029,
+    "sha1": "e670ef6cbe02d453f9d71789a7ae32296a2729a9",
+    "photographedAt": "2025-06-01",
+    "query": "intitle:IIT intitle:library",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

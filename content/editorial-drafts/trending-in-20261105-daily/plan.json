@@ -22,7 +22,7 @@
       "queries": [
         "voyager 1"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "voyager-1-one-light-day-november-2026-explained"
     },
     {
@@ -32,7 +32,7 @@
       "queries": [
         "ktet hall ticket download"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "ktet-hall-ticket-november-2026-official-download-guide"
     },
     {
@@ -42,7 +42,8 @@
       "queries": [
         "date sheet of class 10 2027 cbse board"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "cbse-class-10-date-sheet-2027-official-check-guide"
     },
     {
       "key": "ssc-cgl-answer-key",
@@ -51,7 +52,8 @@
       "queries": [
         "ssc cgl answer key 2026"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "ssc-cgl-answer-key-2026-response-sheet-guide"
     },
     {
       "key": "uidai-aadhaar",
@@ -61,7 +63,7 @@
         "uidai aadhaar",
         "आधार"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "uidai-aadhaar-official-services-privacy-guide"
     },
     {
@@ -71,7 +73,8 @@
       "queries": [
         "csir net"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "csir-net-december-2026-subjects-preparation-guide"
     },
     {
       "key": "5g",
@@ -80,7 +83,7 @@
       "queries": [
         "5g"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "5g-explained-coverage-devices-speed-latency-guide"
     },
     {
@@ -90,7 +93,7 @@
       "queries": [
         "भारत संचार निगम लिमिटेड"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "bsnl-selfcare-bills-recharge-coverage-support-guide"
     },
     {
@@ -102,7 +105,8 @@
         "aqi noida",
         "aqi gurgaon"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "delhi-noida-gurugram-aqi-official-data-guide"
     },
     {
       "key": "sensex",
@@ -111,7 +115,7 @@
       "queries": [
         "sensex"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "slug": "sensex-explained-index-points-percentages-weighting"
     }
   ],
@@ -203,8 +207,9 @@
     {
       "row": 16,
       "topic": "voyager 1",
-      "state": "queued",
-      "group": "voyager-1"
+      "state": "published-live-verified",
+      "group": "voyager-1",
+      "target": "voyager-1-one-light-day-november-2026-explained"
     },
     {
       "row": 17,
@@ -251,8 +256,9 @@
     {
       "row": 24,
       "topic": "sensex",
-      "state": "queued",
-      "group": "sensex"
+      "state": "published-live-verified",
+      "group": "sensex",
+      "target": "sensex-explained-index-points-percentages-weighting"
     },
     {
       "row": 25,
@@ -875,8 +881,9 @@
     {
       "row": 128,
       "topic": "5g",
-      "state": "queued",
-      "group": "5g"
+      "state": "published-live-verified",
+      "group": "5g",
+      "target": "5g-explained-coverage-devices-speed-latency-guide"
     },
     {
       "row": 129,
@@ -1007,8 +1014,9 @@
     {
       "row": 150,
       "topic": "आधार",
-      "state": "queued",
-      "group": "uidai-aadhaar"
+      "state": "published-live-verified",
+      "group": "uidai-aadhaar",
+      "target": "uidai-aadhaar-official-services-privacy-guide"
     },
     {
       "row": 151,
@@ -1541,8 +1549,9 @@
     {
       "row": 239,
       "topic": "भारत संचार निगम लिमिटेड",
-      "state": "queued",
-      "group": "bsnl"
+      "state": "published-live-verified",
+      "group": "bsnl",
+      "target": "bsnl-selfcare-bills-recharge-coverage-support-guide"
     },
     {
       "row": 240,
@@ -2465,8 +2474,9 @@
     {
       "row": 393,
       "topic": "ktet hall ticket download",
-      "state": "queued",
-      "group": "ktet-hall-ticket"
+      "state": "published-live-verified",
+      "group": "ktet-hall-ticket",
+      "target": "ktet-hall-ticket-november-2026-official-download-guide"
     },
     {
       "row": 394,
@@ -2525,8 +2535,9 @@
     {
       "row": 403,
       "topic": "uidai aadhaar",
-      "state": "queued",
-      "group": "uidai-aadhaar"
+      "state": "published-live-verified",
+      "group": "uidai-aadhaar",
+      "target": "uidai-aadhaar-official-services-privacy-guide"
     },
     {
       "row": 404,
@@ -2657,11 +2668,32 @@
       "expectedSize": 6,
       "explicitUserAuthorization": true,
       "authorization": "User instructed on 5 November 2026 to resume articles and publish those already completed.",
+      "state": "published-live-verified",
+      "hostingRun": 42033069976,
+      "verificationRun": 42034116258,
+      "checkedAt": "2026-11-05T13:12:45.812Z",
+      "databaseReadback": {
+        "inserted": 6,
+        "preserved": 296
+      }
+    },
+    {
+      "number": 2,
+      "keys": [
+        "cbse-class10-2027",
+        "ssc-cgl-answer-key",
+        "csir-net",
+        "delhi-ncr-aqi"
+      ],
+      "expectedSize": 4,
+      "explicitUserAuthorization": true,
+      "authorization": "Standing approval and latest user instruction to continue and publish completed articles.",
       "state": "local-verified-unpublished"
     }
   ],
-  "prepared": 6,
-  "published": 0,
+  "prepared": 10,
+  "published": 6,
   "firstBatchRemaining": 4,
-  "pendingIntentReviewRows": 356
+  "pendingIntentReviewRows": 356,
+  "remainingSelected": 4
 }

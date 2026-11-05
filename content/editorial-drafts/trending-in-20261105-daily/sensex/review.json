@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2021,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-05",
   "visualEvidence": "artifacts/india-november5/contact-sheet.png",
-  "visualReviewNotes": "All final image identities and captions reviewed. NASA illustration and historical Earth photo identified; Kerala classroom/library are illustrative, not announced exam venues; foreign biometric and network hardware labelled by context."
+  "visualReviewNotes": "All final image identities and captions reviewed. NASA illustration and historical Earth photo identified; Kerala classroom/library are illustrative, not announced exam venues; foreign biometric and network hardware labelled by context.",
+  "hostingRun": 42033069976,
+  "verificationRun": 42034116258,
+  "liveUrl": "https://raytechinstitute.com/blogs/sensex-explained-index-points-percentages-weighting/",
+  "liveCheckedAt": "2026-11-05T13:12:45.812Z"
 }
