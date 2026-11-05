@@ -1,10 +1,13 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2025,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-05",
   "visualEvidence": "artifacts/november5-daily/batch1-contact-sheet.png; revised-images.png; final-covers.png",
-  "visualReviewNotes": "Final assets inspected; unrelated construction steps and obscured stadium images replaced. Archive and away-club context explicitly captioned."
+  "visualReviewNotes": "Final assets inspected; unrelated construction steps and obscured stadium images replaced. Archive and away-club context explicitly captioned.",
+  "hostingRun": 41976478203,
+  "liveUrl": "https://raytechinstitute.com/blogs/porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026/",
+  "liveCheckedAt": "2026-11-05T05:55:53.988Z"
 }

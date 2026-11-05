@@ -23,7 +23,7 @@
       "queries": [
         "sui southern gas company"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "general",
       "slug": "ssgc-bill-payment-complaint-service-guide"
     },
@@ -33,7 +33,7 @@
       "queries": [
         "بے نظیر انکم سپورٹ پروگرام"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "general",
       "slug": "bisp-8171-survey-payment-official-help-guide"
     },
@@ -43,7 +43,7 @@
       "queries": [
         "9 november holiday"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "education",
       "slug": "9-november-holiday-2026-pakistan-iqbal-day-guide"
     },
@@ -53,7 +53,7 @@
       "queries": [
         "west indies vs bangladesh"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "bangladesh-west-indies-second-test-sylhet-november-2026"
     },
@@ -63,7 +63,7 @@
       "queries": [
         "aek vs real madrid"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "aek-real-madrid-2-3-valverde-comeback-2026"
     },
@@ -73,7 +73,7 @@
       "queries": [
         "rb leipzig vs man city"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "leipzig-man-city-2-3-haaland-winner-2026"
     },
@@ -83,7 +83,7 @@
       "queries": [
         "slavia praha vs arsenal"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "slavia-arsenal-1-2-madueke-gyokeres-2026"
     },
@@ -93,7 +93,7 @@
       "queries": [
         "fenerbahçe vs liverpool f.c. standings"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "fenerbahce-liverpool-3-2-goals-november-2026"
     },
@@ -112,7 +112,7 @@
       "queries": [
         "dortmund vs betis"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "dortmund-betis-2-1-silva-karetsas-2026"
     },
@@ -226,7 +226,7 @@
       "queries": [
         "porto vs napoli"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026"
     },
@@ -344,14 +344,16 @@
     {
       "row": 2,
       "topic": "west indies vs bangladesh",
-      "state": "queued",
-      "group": "west-indies-bangladesh"
+      "state": "published-live-verified",
+      "group": "west-indies-bangladesh",
+      "target": "bangladesh-west-indies-second-test-sylhet-november-2026"
     },
     {
       "row": 3,
       "topic": "aek vs real madrid",
-      "state": "queued",
-      "group": "aek-real-madrid"
+      "state": "published-live-verified",
+      "group": "aek-real-madrid",
+      "target": "aek-real-madrid-2-3-valverde-comeback-2026"
     },
     {
       "row": 4,
@@ -404,8 +406,9 @@
     {
       "row": 8,
       "topic": "rb leipzig vs man city",
-      "state": "queued",
-      "group": "leipzig-manchester-city"
+      "state": "published-live-verified",
+      "group": "leipzig-manchester-city",
+      "target": "leipzig-man-city-2-3-haaland-winner-2026"
     },
     {
       "row": 9,
@@ -428,20 +431,23 @@
     {
       "row": 11,
       "topic": "sui southern gas company",
-      "state": "queued",
-      "group": "ssgc"
+      "state": "published-live-verified",
+      "group": "ssgc",
+      "target": "ssgc-bill-payment-complaint-service-guide"
     },
     {
       "row": 12,
       "topic": "slavia praha vs arsenal",
-      "state": "queued",
-      "group": "slavia-arsenal"
+      "state": "published-live-verified",
+      "group": "slavia-arsenal",
+      "target": "slavia-arsenal-1-2-madueke-gyokeres-2026"
     },
     {
       "row": 13,
       "topic": "fenerbahçe vs liverpool f.c. standings",
-      "state": "queued",
-      "group": "fenerbahce-liverpool"
+      "state": "published-live-verified",
+      "group": "fenerbahce-liverpool",
+      "target": "fenerbahce-liverpool-3-2-goals-november-2026"
     },
     {
       "row": 14,
@@ -458,8 +464,9 @@
     {
       "row": 16,
       "topic": "بے نظیر انکم سپورٹ پروگرام",
-      "state": "queued",
-      "group": "bisp"
+      "state": "published-live-verified",
+      "group": "bisp",
+      "target": "bisp-8171-survey-payment-official-help-guide"
     },
     {
       "row": 17,
@@ -648,8 +655,9 @@
     {
       "row": 43,
       "topic": "dortmund vs betis",
-      "state": "queued",
-      "group": "dortmund-betis"
+      "state": "published-live-verified",
+      "group": "dortmund-betis",
+      "target": "dortmund-betis-2-1-silva-karetsas-2026"
     },
     {
       "row": 44,
@@ -684,8 +692,9 @@
     {
       "row": 48,
       "topic": "9 november holiday",
-      "state": "queued",
-      "group": "iqbal-day"
+      "state": "published-live-verified",
+      "group": "iqbal-day",
+      "target": "9-november-holiday-2026-pakistan-iqbal-day-guide"
     },
     {
       "row": 49,
@@ -804,8 +813,9 @@
     {
       "row": 65,
       "topic": "porto vs napoli",
-      "state": "queued",
-      "group": "porto-napoli"
+      "state": "published-live-verified",
+      "group": "porto-napoli",
+      "target": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026"
     },
     {
       "row": 66,
@@ -969,7 +979,7 @@
     }
   ],
   "prepared": 10,
-  "published": 0,
+  "published": 10,
   "remaining": 25,
   "releaseBatches": [
     {
@@ -986,7 +996,9 @@
         "porto-napoli",
         "west-indies-bangladesh"
       ],
-      "state": "local-verified-unpublished"
+      "state": "published-live-verified",
+      "hostingRun": 41976478203,
+      "checkedAt": "2026-11-05T05:55:53.988Z"
     }
   ]
 }
