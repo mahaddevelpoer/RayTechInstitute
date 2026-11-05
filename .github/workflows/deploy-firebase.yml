@@ -14,6 +14,11 @@ on:
         description: 'Successful artifact-mode run to verify without rebuilding'
         type: string
         required: false
+      export_artifact:
+        description: 'Existing reviewed export artifact to verify'
+        type: choice
+        options: [cloudflare-static-export, release-manifest]
+        default: cloudflare-static-export
       dns_review_run_id:
         description: 'Successful read-only DNS review to stage before nameserver changes'
         type: string
@@ -367,11 +372,12 @@ jobs:
       - run: npm ci
       - uses: actions/download-artifact@v4
         with:
-          name: cloudflare-static-export
+          name: ${{ inputs.export_artifact || 'cloudflare-static-export' }}
           run-id: ${{ inputs.export_run_id }}
           github-token: ${{ github.token }}
-          path: artifacts/cloudflare-migration
+          path: ${{ inputs.export_artifact == 'release-manifest' && 'out' || 'artifacts/cloudflare-migration' }}
       - name: Restore previously verified public export
+        if: inputs.export_artifact != 'release-manifest'
         run: mkdir -p out && tar -xzf artifacts/cloudflare-migration/raytech-static-export.tar.gz -C out
       - run: npx playwright install chromium --only-shell
       - name: Verify static delivery and isolated compiler execution on Cloudflare

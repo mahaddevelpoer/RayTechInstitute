@@ -4,7 +4,13 @@ const base=process.env.VERIFY_BASE_URL||'https://raytechinstitute.pages.dev';
 const canonical=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.com';
 const local=JSON.parse(await fs.readFile('out/deployment.json','utf8'));
 const request=url=>fetch(url,{signal:AbortSignal.timeout(30000)});
-const manifest=await(await request(base+'/deployment.json')).json();assert.equal(manifest.revision,local.revision,'Cloudflare serves the exact reviewed export');
+let manifest;
+for(let attempt=0;attempt<18;attempt++){
+ manifest=await(await request(base+'/deployment.json?release-check='+local.revision+'-'+attempt)).json();
+ if(manifest.revision===local.revision)break;
+ await new Promise(resolve=>setTimeout(resolve,5000));
+}
+assert.equal(manifest.revision,local.revision,'Cloudflare serves the exact reviewed export after edge propagation');
 const sitemap=await(await request(base+'/sitemap.xml')).text();assert.ok(sitemap.includes(canonical+'/blogs/'));assert.ok(!sitemap.includes('.pages.dev'));
 for(const route of ['/','/classes/','/courses/','/blogs/','/admin/login/','/competition/','/results-gazettes/']){
  const response=await request(base+route),html=await response.text();assert.equal(response.status,200,route);
@@ -16,6 +22,9 @@ for(const route of ['/','/classes/','/courses/','/blogs/','/admin/login/','/comp
  assert.ok(html.includes('<html')&&!html.startsWith('1:'),route+' is an HTML document, not a navigation payload');
 }
 const missing=await request(base+'/this-page-must-not-exist-cloudflare-migration/');assert.equal(missing.status,404,'Missing pages must never return the homepage with HTTP 200');await missing.body?.cancel();
+const noteResponse=await request(base+'/classes/dit-intermediate/dit-computer-science/notes/dit-cn-chapter-1-basic-terminologies-mcq-notes/');assert.equal(noteResponse.status,200);
+const noteHtml=await noteResponse.text();assert.ok(noteHtml.includes(canonical+'/documents/dit/computer-networks-chapter-1-basic-terminologies.pdf'));assert.ok(!noteHtml.includes('https://raytechinstitute.web.app/documents/'),'Owned PDF downloads must not depend on the retired host');
+const pdf=await fetch(base+'/documents/dit/computer-networks-chapter-1-basic-terminologies.pdf',{method:'HEAD',signal:AbortSignal.timeout(30000)});assert.equal(pdf.status,200);assert.match(pdf.headers.get('content-type')||'',/application\/pdf/);
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
 const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});const results=[];
 try{
