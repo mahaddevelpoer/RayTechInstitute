@@ -117,6 +117,108 @@
       ],
       "state": "published-live-verified",
       "slug": "sensex-explained-index-points-percentages-weighting"
+    },
+    {
+      "key": "ios-guide",
+      "topic": "iOS updates, backups and privacy checks",
+      "category": "technology",
+      "queries": [
+        "ios"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "ios-updates-backups-privacy-student-guide"
+    },
+    {
+      "key": "hyperos-4",
+      "topic": "Xiaomi HyperOS 4: official rollout and device checks",
+      "category": "technology",
+      "queries": [
+        "xiaomi hyperos 4"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "hyperos-4-device-rollout-update-check-guide"
+    },
+    {
+      "key": "jac-board",
+      "topic": "Jharkhand Academic Council: notices, results and study records",
+      "category": "education",
+      "queries": [
+        "झारखंड एकेडमिक काउंसिल"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "jharkhand-academic-council-notices-results-guide"
+    },
+    {
+      "key": "nasa-guide",
+      "topic": "NASA: missions, research and official learning resources",
+      "category": "science",
+      "queries": [
+        "nasa",
+        "नासा"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "nasa-missions-research-learning-resources-guide"
+    },
+    {
+      "key": "asteroid-guide",
+      "topic": "Asteroids: orbits, close approaches and evidence",
+      "category": "science",
+      "queries": [
+        "asteroid"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "asteroids-orbits-close-approach-evidence-guide"
+    },
+    {
+      "key": "thunderstorm-guide",
+      "topic": "Thunderstorms: weather science, nowcasts and lightning safety",
+      "category": "science",
+      "queries": [
+        "thunderstorm"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "thunderstorm-science-imd-nowcast-lightning-guide"
+    },
+    {
+      "key": "indian-railways",
+      "topic": "Indian Railways: train numbers, PNR and journey information",
+      "category": "technology",
+      "queries": [
+        "ভারতীয় রেল"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "indian-railways-pnr-train-date-journey-guide"
+    },
+    {
+      "key": "dow-jones",
+      "topic": "Dow Jones: index weighting, quotes and comparisons",
+      "category": "economy",
+      "queries": [
+        "dow jones",
+        "dow jones moneycontrol"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "dow-jones-price-weighted-index-quote-guide"
+    },
+    {
+      "key": "bonus-shares",
+      "topic": "Bonus shares: ratios, dates and ownership calculations",
+      "category": "economy",
+      "queries": [
+        "बोनस शेयर"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "bonus-shares-ratio-ownership-date-guide"
+    },
+    {
+      "key": "fixed-deposits",
+      "topic": "Fixed deposits: interest, maturity and deposit insurance",
+      "category": "economy",
+      "queries": [
+        "सावधि जमा"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "fixed-deposits-interest-maturity-insurance-guide"
     }
   ],
   "rowDisposition": [
@@ -266,7 +368,8 @@
       "row": 25,
       "topic": "xiaomi hyperos 4",
       "breakdown": "xiaomi hyperos 4",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "hyperos-4"
     },
     {
       "row": 26,
@@ -506,7 +609,8 @@
       "row": 65,
       "topic": "बोनस शेयर",
       "breakdown": "बोनस शेयर",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "bonus-shares"
     },
     {
       "row": 66,
@@ -620,7 +724,8 @@
       "row": 84,
       "topic": "ভারতীয় রেল",
       "breakdown": "ভারতীয় রেল",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "indian-railways"
     },
     {
       "row": 85,
@@ -692,7 +797,8 @@
       "row": 96,
       "topic": "dow jones",
       "breakdown": "dow jones,nasdaq,dow jones industrial average,nasdaq live,nasdaq today,dow jones index,dow futures,s&p 500,dow",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "dow-jones"
     },
     {
       "row": 97,
@@ -909,7 +1015,8 @@
       "row": 132,
       "topic": "ios",
       "breakdown": "ios",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "ios-guide"
     },
     {
       "row": 133,
@@ -981,7 +1088,8 @@
       "row": 144,
       "topic": "nasa",
       "breakdown": "nasa",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "nasa-guide"
     },
     {
       "row": 145,
@@ -1546,7 +1654,8 @@
       "row": 238,
       "topic": "सावधि जमा",
       "breakdown": "सावधि जमा",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "fixed-deposits"
     },
     {
       "row": 239,
@@ -2169,13 +2278,15 @@
       "row": 341,
       "topic": "झारखंड एकेडमिक काउंसिल",
       "breakdown": "झारखंड एकेडमिक काउंसिल",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "jac-board"
     },
     {
       "row": 342,
       "topic": "नासा",
       "breakdown": "नासा",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "nasa-guide"
     },
     {
       "row": 343,
@@ -2391,7 +2502,8 @@
       "row": 378,
       "topic": "dow jones moneycontrol",
       "breakdown": "dow jones moneycontrol",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "dow-jones"
     },
     {
       "row": 379,
@@ -2409,7 +2521,8 @@
       "row": 381,
       "topic": "asteroid",
       "breakdown": "asteroid",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "asteroid-guide"
     },
     {
       "row": 382,
@@ -2608,8 +2721,9 @@
     {
       "row": 414,
       "topic": "thunderstorm",
-      "state": "needs-intent-review",
-      "breakdown": "thunderstorm"
+      "state": "research-pending",
+      "breakdown": "thunderstorm",
+      "group": "thunderstorm-guide"
     },
     {
       "row": 415,
@@ -2702,11 +2816,35 @@
         "inserted": 4,
         "preserved": 302
       }
+    },
+    {
+      "number": 3,
+      "keys": [
+        "ios-guide",
+        "hyperos-4",
+        "jac-board",
+        "nasa-guide",
+        "asteroid-guide",
+        "thunderstorm-guide",
+        "indian-railways",
+        "dow-jones",
+        "bonus-shares",
+        "fixed-deposits"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "User instructed continuation on 5 November 2026; standing approval to publish completed reviewed articles.",
+      "state": "local-verified-unpublished"
     }
   ],
-  "prepared": 10,
+  "prepared": 20,
   "published": 10,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0
+  "remainingSelected": 10,
+  "intentReview": {
+    "sameIntentCovered": 14,
+    "unclear": 38,
+    "unreviewed": 344
+  }
 }

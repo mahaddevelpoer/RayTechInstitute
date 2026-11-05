@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Back of iPhone 15.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Back_of_iPhone_15.jpg/1280px-Back_of_iPhone_15.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Back_of_iPhone_15.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Back_of_iPhone_15.jpg",
+    "creator": "ThePhotoGraphIc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "An iPhone 15 photographed as hardware context, not proof of compatibility with every iOS release.",
+    "description": "Back of iPhone 15",
+    "caption": "An iPhone 15 photographed as hardware context, not proof of compatibility with every iOS release.",
+    "width": 3024,
+    "height": 4032,
+    "bytes": 2182231,
+    "sha1": "8eed4c751bf191e30a9e433bd0b54e81068b89a1",
+    "photographedAt": "2023-09-25 20:12:42",
+    "query": "intitle:iPhone_15",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Lightning USB type C cable - 2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lightning_USB_type_C_cable_-_2.jpg/1280px-Lightning_USB_type_C_cable_-_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Lightning_USB_type_C_cable_-_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Lightning_USB_type_C_cable_-_2.jpg",
+    "creator": "Kyu3a",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Lightning-to-USB-C cable, shown as accessory context; the correct connection depends on the device and supported backup method.",
+    "description": "Lightning - USB type C ケーブル。",
+    "caption": "A Lightning-to-USB-C cable, shown as accessory context; the correct connection depends on the device and supported backup method.",
+    "width": 3024,
+    "height": 3805,
+    "bytes": 7955387,
+    "sha1": "ff50cfb9907dcfbe216b3f70aeaba49a9b828f44",
+    "photographedAt": "31 January 2025, 08:14:20",
+    "query": "intitle:Lightning_cable",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

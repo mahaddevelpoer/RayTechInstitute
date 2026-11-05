@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:OSIRIS-REx Full Mission Gallery (bennu-mosaic).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/OSIRIS-REx_Full_Mission_Gallery_%28bennu-mosaic%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/OSIRIS-REx_Full_Mission_Gallery_%28bennu-mosaic%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:OSIRIS-REx_Full_Mission_Gallery_(bennu-mosaic).jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:OSIRIS-REx_Full_Mission_Gallery_(bennu-mosaic).jpg",
+    "alt": "An archival OSIRIS-REx mosaic of asteroid Bennu; this is mission imagery, not a newly announced close approach.",
+    "description": "OSIRIS-REx is the first U.S. mission to collect a sample from an asteroid. It returned to Earth on Sept. 24, 2023, to drop off a capsule with material from asteroid Bennu. After dropping off the sample capsule through Earth's atmosphere, the spacecraft was renamed OSIRIS-APEX and sent on a new mission to explore asteroid Apophis in 2029. This is a sampling of images and videos from the entire mission. This mosaic of asteroid Bennu is composed of 12 PolyCam images collected on Dec. 2, 2019, by the OSIRIS-REx spacecraft.",
+    "caption": "An archival OSIRIS-REx mosaic of asteroid Bennu; this is mission imagery, not a newly announced close approach.",
+    "width": 1200,
+    "height": 900,
+    "bytes": 173660,
+    "sha1": "2b0699edaf6abfb55b565460e3905ab8fd7e2632",
+    "photographedAt": "",
+    "query": "intitle:Bennu",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:PIA02475 Eros' Bland Butterscotch Colors.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/PIA02475_Eros%27_Bland_Butterscotch_Colors.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/PIA02475_Eros%27_Bland_Butterscotch_Colors.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:PIA02475_Eros%27_Bland_Butterscotch_Colors.jpg",
+    "creator": "NASA/JPL/JHUAPL",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:PIA02475_Eros%27_Bland_Butterscotch_Colors.jpg",
+    "alt": "NASA imagery of asteroid Eros, illustrating a small Solar System body rather than a current impact warning.",
+    "description": "These color images of Eros was acquired by NEAR on February 12, 2000, at a range of 1800 kilometers (1100 miles) during the final approach imaging sequence prior to orbit insertion. A five and one-half hour long sequence of images covering visible and infrared wavelengths was taken at that time, to provide a global overview of the color and spectral properties of the asteroid. The images show approximately the color that Eros would appear to the unaided human eye. Eros' subtle butterscotch hue at visible wavelengths is nearly uniform across the surface. Two days after these images were taken, mapping by NEAR's infrared spectrometer showed that Eros exhibits a great deal more variety at longer wavelengths. These variations could be due to differences in texture or composition of the surface. Both NEAR's multispectral imager and infrared spectrometer will be used extensively during the month of March to map Eros' color and spectral properties from an altitude of 200 kilometers (120 miles). The images to be returned will show details as small as 20 meters (68 feet) across, providing a new perspective on the asteroid's many fascinating landforms discovered so far by NEAR. Built and managed by The Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland, NEAR was the first spacecraft launched in NASA's Discovery Program of low-cost, small-scale planetary missions. See the NEAR web page at https://near.jhuapl.edu/ for more details.",
+    "caption": "NASA imagery of asteroid Eros, illustrating a small Solar System body rather than a current impact warning.",
+    "width": 653,
+    "height": 461,
+    "bytes": 106174,
+    "sha1": "e5be267a8ff0a97d6d89aa6b6b57009936cdbb81",
+    "photographedAt": "2000-05-07",
+    "query": "intitle:433_Eros",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

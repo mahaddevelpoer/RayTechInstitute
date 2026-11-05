@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Lightning cloud to cloud (aka).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lightning_cloud_to_cloud_%28aka%29.jpg/1280px-Lightning_cloud_to_cloud_%28aka%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Lightning_cloud_to_cloud_%28aka%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Lightning_cloud_to_cloud_(aka).jpg",
+    "creator": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "alt": "Cloud-to-cloud lightning in an archival weather photograph, not a warning for the reader’s present location.",
+    "description": "This image shows a cloud to cloud lightning in a very stormy and rainy night in Zwickau, Germany.",
+    "caption": "Cloud-to-cloud lightning in an archival weather photograph, not a warning for the reader’s present location.",
+    "width": 2000,
+    "height": 1130,
+    "bytes": 293576,
+    "sha1": "ef04dc2526b2a81363c206cb9c81613a72ec3106",
+    "photographedAt": "22 June 2005",
+    "query": "intitle:Lightning intitle:cloud",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Cumulonimbus sunset panorama, Albury NSW Australia.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cumulonimbus_sunset_panorama%2C_Albury_NSW_Australia.jpg/1280px-Cumulonimbus_sunset_panorama%2C_Albury_NSW_Australia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cumulonimbus_sunset_panorama%2C_Albury_NSW_Australia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_sunset_panorama,_Albury_NSW_Australia.jpg",
+    "creator": "Thennicke",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A cumulonimbus cloud at sunset near Albury in Australia, shown for cloud context rather than current Indian weather.",
+    "description": "Cumulonimbus sunset panorama, Albury NSW Australia. Two 24mm images stitched with Hugin.",
+    "caption": "A cumulonimbus cloud at sunset near Albury in Australia, shown for cloud context rather than current Indian weather.",
+    "width": 6134,
+    "height": 3067,
+    "bytes": 4725849,
+    "sha1": "9acf29f45a603d1275274d75288f5188fec78af7",
+    "photographedAt": "2016-12-24 20:33:22",
+    "query": "intitle:Cumulonimbus",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

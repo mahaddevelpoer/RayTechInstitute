@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 10,
-  "bodyWords": 20326,
-  "uniqueImages": 20,
+  "state": "local-verified-unpublished",
+  "articles": 20,
+  "bodyWords": 40420,
+  "uniqueImages": 40,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -74,7 +74,76 @@
       "words": 2021,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "ios-guide",
+      "slug": "ios-updates-backups-privacy-student-guide",
+      "words": 2024,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "hyperos-4",
+      "slug": "hyperos-4-device-rollout-update-check-guide",
+      "words": 2005,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jac-board",
+      "slug": "jharkhand-academic-council-notices-results-guide",
+      "words": 2002,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nasa-guide",
+      "slug": "nasa-missions-research-learning-resources-guide",
+      "words": 2007,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "asteroid-guide",
+      "slug": "asteroids-orbits-close-approach-evidence-guide",
+      "words": 2001,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "thunderstorm-guide",
+      "slug": "thunderstorm-science-imd-nowcast-lightning-guide",
+      "words": 2003,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "indian-railways",
+      "slug": "indian-railways-pnr-train-date-journey-guide",
+      "words": 2001,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "dow-jones",
+      "slug": "dow-jones-price-weighted-index-quote-guide",
+      "words": 2009,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bonus-shares",
+      "slug": "bonus-shares-ratio-ownership-date-guide",
+      "words": 2015,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "fixed-deposits",
+      "slug": "fixed-deposits-interest-maturity-insurance-guide",
+      "words": 2027,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Magellan at Kennedy Space Center.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Magellan_at_Kennedy_Space_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Magellan_at_Kennedy_Space_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg",
+    "creator": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg",
+    "alt": "Archival preparation of NASA’s Magellan spacecraft in Denver before transport to Kennedy Space Center, not a current launch update.",
+    "description": "Engineers and technicians at the Martin Marietta plant in Denver, Colorado, prepare the spacecraft for its six-week long trip to the Kennedy Space Center (KSC). The spacecraft, destined for unprecedented studies of Venusian topographic features, will be mated to its upper stage while at KSC and later onloaded to Atlantis and eventually will be deployed by the crew of NASA's STS-30 mission in April 1989.",
+    "caption": "Archival preparation of NASA’s Magellan spacecraft in Denver before transport to Kennedy Space Center, not a current launch update.",
+    "width": 1152,
+    "height": 1549,
+    "bytes": 180142,
+    "sha1": "8e20280398735d3e49ed0e647a1101a32d6c6480",
+    "photographedAt": "1988-08",
+    "query": "intitle:Kennedy intitle:Space",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Eugene F. Kranz at his console at the NASA Mission Control Center.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg/1280px-Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg",
+    "creator": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg",
+    "alt": "NASA flight director Eugene Kranz at mission control in 1965, shown as historical teamwork context rather than a current mission event.",
+    "description": "Eugene F. Kranz, flight director, is shown at his console on May 30, 1965, in the Mission Operations Control Room in the Mission Control Center at Houston during a Gemini-Titan IV simulation to prepare for the four-day, 62-orbit flight. (NASA Photo S-65-22203.)",
+    "caption": "NASA flight director Eugene Kranz at mission control in 1965, shown as historical teamwork context rather than a current mission event.",
+    "width": 4108,
+    "height": 3253,
+    "bytes": 2630416,
+    "sha1": "0ea487351957eeb0829d290fab9f74a3e7af401c",
+    "photographedAt": "Taken on 30 May 1965",
+    "query": "NASA mission control",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

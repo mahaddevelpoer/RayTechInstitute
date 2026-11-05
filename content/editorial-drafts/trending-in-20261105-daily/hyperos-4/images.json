@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Xiaomi 14 rear (July 10, 2026).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/hyperos-4-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Xiaomi_14_rear_%28July_10%2C_2026%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Xiaomi_14_rear_(July_10,_2026).jpg",
+    "creator": "茅野ふたば",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Xiaomi 14 handset, used for hardware context rather than as confirmation of a particular HyperOS 4 rollout or feature.",
+    "description": "Xiaomi 14 rear.",
+    "caption": "A Xiaomi 14 handset, used for hardware context rather than as confirmation of a particular HyperOS 4 rollout or feature.",
+    "width": 720,
+    "height": 960,
+    "bytes": 33416,
+    "sha1": "6cca515250dca74a39e74694d808974fa584ad95",
+    "photographedAt": "2026-07-10 19:57:49",
+    "query": "intitle:Xiaomi_14",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Redmi Note 14 Pro Plus Xiaomi Store.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/hyperos-4-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Redmi_Note_14_Pro_Plus_Xiaomi_Store.jpg",
+    "creator": "GVZpedia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A REDMI Note 14 Pro Plus displayed in a store; this photograph is not a compatibility list or update announcement.",
+    "description": "​红米Note14+的正面照片，摄于一小米之家",
+    "caption": "A REDMI Note 14 Pro Plus displayed in a store; this photograph is not a compatibility list or update announcement.",
+    "width": 799,
+    "height": 960,
+    "bytes": 30712,
+    "sha1": "f8e44563356645142b060afb0c3ac447c31bd8df",
+    "photographedAt": "2025-05-02 10:18:47",
+    "query": "intitle:Xiaomi_14",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

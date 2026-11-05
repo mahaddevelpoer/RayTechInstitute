@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Wall Street, Manhattan, New York City, 20231002 172333.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Wall_Street%2C_Manhattan%2C_New_York_City%2C_20231002_172333.jpg/1280px-Wall_Street%2C_Manhattan%2C_New_York_City%2C_20231002_172333.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Wall_Street%2C_Manhattan%2C_New_York_City%2C_20231002_172333.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Wall_Street,_Manhattan,_New_York_City,_20231002_172333.jpg",
+    "creator": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Wall Street in Manhattan photographed in October 2023, used as financial-district context rather than a current market report.",
+    "description": "Wall Street, Manhattan, New York City",
+    "caption": "Wall Street in Manhattan photographed in October 2023, used as financial-district context rather than a current market report.",
+    "width": 4000,
+    "height": 3000,
+    "bytes": 3727404,
+    "sha1": "7cc8fee6bc5cc7cd475721827ae08bb84367bacd",
+    "photographedAt": "2023-10-02 17:23:33",
+    "query": "intitle:Wall_Street",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Sign of the New York Stock Exchange, Broad Street.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sign_of_the_New_York_Stock_Exchange%2C_Broad_Street.jpg/1280px-Sign_of_the_New_York_Stock_Exchange%2C_Broad_Street.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Sign_of_the_New_York_Stock_Exchange%2C_Broad_Street.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Sign_of_the_New_York_Stock_Exchange,_Broad_Street.jpg",
+    "creator": "Billie Grace Ward",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "A New York Stock Exchange sign, used for market context rather than as the source of a live Dow quote.",
+    "description": "Building with text; Broad Street",
+    "caption": "A New York Stock Exchange sign, used for market context rather than as the source of a live Dow quote.",
+    "width": 4240,
+    "height": 2832,
+    "bytes": 10863734,
+    "sha1": "85298f7181640cf66ab3e21f27dafcea5b857825",
+    "photographedAt": "2021-01-05 17:53:24",
+    "query": "intitle:New_York_Stock_Exchange",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

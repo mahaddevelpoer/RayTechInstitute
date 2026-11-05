@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:NSE Exchange Plaza.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/bonus-shares-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/NSE_Exchange_Plaza.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:NSE_Exchange_Plaza.jpg",
+    "creator": "KirtiKakad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "NSE Exchange Plaza in India, shown as securities-market context rather than a company bonus announcement.",
+    "description": "National Stock Exchange of India Corporate Office",
+    "caption": "NSE Exchange Plaza in India, shown as securities-market context rather than a company bonus announcement.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 235682,
+    "sha1": "71c03dc6c7399670dab0df761b3930e62cd0d118",
+    "photographedAt": "2018-07-14",
+    "query": "National Stock Exchange India building",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Citizen SLD-100NR calculator.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/bonus-shares-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Citizen_SLD-100NR_calculator.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Citizen_SLD-100NR_calculator.jpg",
+    "creator": "LoMit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Citizen calculator used as arithmetic context for illustrative share-ratio exercises.",
+    "description": "Citizen SLD-100NR pocket electronic calculator powered by solar cells and battery",
+    "caption": "A Citizen calculator used as arithmetic context for illustrative share-ratio exercises.",
+    "width": 785,
+    "height": 960,
+    "bytes": 43766,
+    "sha1": "d09c08c0652e594eaeb5d4ca95e6bf210cc05613",
+    "photographedAt": "2022-02-21 00:49:31",
+    "query": "intitle:Calculator",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]
