@@ -24,6 +24,7 @@ export function cloudflareHeaders(config) {
   rules.set(route,headers);
  }
  for(const route of ['https://:project.pages.dev/*','https://:version.:project.pages.dev/*'])rules.set(route,new Map([['X-Robots-Tag','noindex, nofollow']]));
+ rules.get('/*')?.set('X-RayTech-Hosting','cloudflare-pages');
  if(rules.size>100)throw Error('Pages header rule count exceeds the free platform limit');
  const output=[...rules].map(([route,headers])=>route+'\n'+[...headers].map(([key,value])=>'  '+key+': '+value).join('\n')).join('\n\n')+'\n';
  if(output.split('\n').some(line=>line.length>2000))throw Error('Pages header line exceeds 2,000 characters');
@@ -36,6 +37,7 @@ export async function prepareCloudflareExport(root='out') {
  const notFound=await fs.readFile(path.join(directory,'404.html'),'utf8');
  if(!/^<!doctype html/i.test(notFound))throw Error('A real top-level 404.html is required; SPA fallback would conceal missing pages');
  await fs.writeFile(path.join(directory,'_headers'),cloudflareHeaders(config));
+ await fs.writeFile(path.join(directory,'_redirects'),'https://www.raytechinstitute.com/* https://raytechinstitute.com/:splat 301\n');
  const files=[];
  async function walk(dir){for(const entry of await fs.readdir(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isSymbolicLink())throw Error('Export must not contain symbolic links');if(entry.isDirectory())await walk(file);else if(entry.isFile())files.push({path:path.relative(directory,file).replaceAll(path.sep,'/'),bytes:(await fs.stat(file)).size});}}
  await walk(directory);

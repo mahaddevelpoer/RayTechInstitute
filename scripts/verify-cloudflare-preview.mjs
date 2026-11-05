@@ -11,6 +11,7 @@ for(const route of ['/','/classes/','/courses/','/blogs/','/admin/login/','/comp
  assert.match(response.headers.get('content-type')||'',/text\/html/);
  assert.match(response.headers.get('content-security-policy')||'',/default-src 'self'/);
  assert.equal(response.headers.get('x-content-type-options'),'nosniff');
+ assert.equal(response.headers.get('x-raytech-hosting'),'cloudflare-pages','Response must come from Pages rather than proxied Firebase');
  assert.match(response.headers.get('x-robots-tag')||'',/noindex/,'Temporary hostnames must remain out of search');
  assert.ok(html.includes('<html')&&!html.startsWith('1:'),route+' is an HTML document, not a navigation payload');
 }

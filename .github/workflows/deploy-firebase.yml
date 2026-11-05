@@ -8,7 +8,7 @@ on:
       hosting_target:
         description: 'Hosting destination; artifact builds do not change either live site'
         type: choice
-        options: [firebase, cloudflare, artifact, verify-cloudflare, review-dns, prepare-dns]
+        options: [firebase, cloudflare, artifact, verify-cloudflare, review-dns, prepare-dns, deploy-cloudflare-export]
         default: firebase
       export_run_id:
         description: 'Successful artifact-mode run to verify without rebuilding'
@@ -31,7 +31,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns'
+    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
@@ -217,6 +217,44 @@ jobs:
         with:
           name: resource-pages
           path: artifacts/resource-pages/*.png
+          if-no-files-found: ignore
+
+  deploy-cloudflare-export:
+    if: inputs.hosting_target == 'deploy-cloudflare-export'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+      VERIFY_BASE_URL: https://raytechinstitute.pages.dev
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: cloudflare-static-export
+          run-id: ${{ inputs.export_run_id }}
+          github-token: ${{ github.token }}
+          path: artifacts/cloudflare-migration
+      - run: mkdir -p out && tar -xzf artifacts/cloudflare-migration/raytech-static-export.tar.gz -C out
+      - run: node --test scripts/cloudflare-export.test.mjs && node scripts/prepare-cloudflare-export.mjs
+      - name: Upload the verified public export using the scoped deployment secret
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 67c68fe5eb47fcda8d58c8b5e5862f09
+        run: npx --yes wrangler@4.156.0 pages deploy out --project-name raytechinstitute --branch main --commit-dirty=false
+      - run: npx playwright install chromium --only-shell
+      - run: node --max-old-space-size=384 scripts/verify-cloudflare-preview.mjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: cloudflare-verified-deployment
+          path: |
+            artifacts/cloudflare-migration/live-preview.json
+            artifacts/cloudflare-migration/export.json
           if-no-files-found: ignore
 
   prepare-dns:
