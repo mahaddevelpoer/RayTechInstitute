@@ -1,6 +1,6 @@
 import assert from'node:assert/strict';import fs from'node:fs/promises';import{chromium}from'playwright';import{loadTypescript}from'./load-typescript.mjs';
 const {LEARNING_TOPICS,LEARNING_LANGUAGES}=await loadTypescript('src/data/learningCatalog.ts');
-const base=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.web.app';const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true,args:['--renderer-process-limit=1']});
+const canonicalBase=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.web.app';const base=process.env.VERIFY_BASE_URL||canonicalBase;const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true,args:['--renderer-process-limit=1']});
 const routes=['/','/courses/','/courses/web-development/','/learn/python/','/classes/','/classes/11th-class/','/classes/11th-class/computer-science/','/classes/11th-class/computer-science/notes/','/classes/11th-class/computer-science/mcqs/','/classes/11th-class/computer-science/past-papers/','/results-gazettes/','/blogs/','/privacy-policy/','/terms-and-conditions/','/about/'];
 async function ensureTheme(page,dark){
  // SSR labels describe the initial light state. Wait for the stored preference
@@ -65,11 +65,12 @@ try{
   const notesPath='/classes/dit-intermediate/dit-computer-science/notes/';const detailPath=notesPath+note.id+'/';
   await page.goto(base+notesPath,{waitUntil:'domcontentloaded'});await Promise.all([page.waitForURL(base+detailPath),page.waitForResponse(response=>response.request().isNavigationRequest()&&response.request().resourceType()==='document'&&new URL(response.url()).pathname===detailPath&&response.status()===200),page.getByRole('link',{name:note.title,exact:true}).click()]);await page.getByRole('heading',{name:note.title,level:1,exact:true}).waitFor();assert.equal(new URL(page.url()).pathname,detailPath);
   assert.equal(await page.locator('h1').innerText(),note.title);assert.doesNotMatch(await page.locator('body').innerText(),/Unpublished preview|Preview only/i);
-  await page.waitForFunction(url=>{const links=document.querySelectorAll('link[rel="canonical"]');return links.length===1&&links[0].href===url;},base+detailPath);
-  assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),base+detailPath);assert.match(await page.locator('meta[name="keywords"]').getAttribute('content'),/Basic Terminologies/);
+  await page.waitForFunction(url=>{const links=document.querySelectorAll('link[rel="canonical"]');return links.length===1&&links[0].href===url;},canonicalBase+detailPath);
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),canonicalBase+detailPath);assert.match(await page.locator('meta[name="keywords"]').getAttribute('content'),/Basic Terminologies/);
   const schemas=await page.locator('script[type="application/ld+json"]').allTextContents();assert.ok(schemas.some(text=>JSON.parse(text)['@graph']?.some(item=>item['@type']==='LearningResource'&&item.associatedMedia?.contentUrl===note.pdfUrl)));
-  const pdf=await page.request.get(note.pdfUrl);assert.equal(pdf.status(),200);assert.match(pdf.headers()['content-type'],/application\/pdf/);assert.ok((await pdf.body()).subarray(0,5).equals(Buffer.from('%PDF-')));
-  assert.ok((await(await page.request.get(base+'/sitemap.xml')).text()).includes(base+detailPath));console.log('[dit-note] Chapter 1 note, PDF bytes, canonical URL, keywords, LearningResource schema and sitemap passed. No preview label.');
+  const pdfSource=new URL(note.pdfUrl,canonicalBase);const pdfUrl=pdfSource.origin===new URL(canonicalBase).origin?base+pdfSource.pathname+pdfSource.search:pdfSource.href;
+  const pdf=await page.request.get(pdfUrl);assert.equal(pdf.status(),200);assert.match(pdf.headers()['content-type'],/application\/pdf/);assert.ok((await pdf.body()).subarray(0,5).equals(Buffer.from('%PDF-')));
+  assert.ok((await(await page.request.get(base+'/sitemap.xml')).text()).includes(canonicalBase+detailPath));console.log('[dit-note] Chapter 1 note, PDF bytes, canonical URL, keywords, LearningResource schema and sitemap passed. No preview label.');
  }
  const officeBank=(STATIC_OVERRIDES.mcqs||[]).filter(q=>q.id.startsWith('dit-ms-office-ch1-'));
  if(officeBank.length){

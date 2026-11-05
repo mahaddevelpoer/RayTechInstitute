@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      hosting_target:
+        description: 'Hosting destination; artifact builds do not change either live site'
+        type: choice
+        options: [firebase, cloudflare, artifact]
+        default: firebase
   repository_dispatch:
     types: [content-published]
 
@@ -11,7 +17,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: raytech-firebase-production
+  group: raytech-static-production
   cancel-in-progress: false
 
 jobs:
@@ -20,6 +26,7 @@ jobs:
     timeout-minutes: 20
     env:
       NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+      HOSTING_TARGET: ${{ inputs.hosting_target || vars.HOSTING_PROVIDER || 'firebase' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -98,6 +105,10 @@ jobs:
       - name: Block incomplete or mismatched exports
         run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs
 
+      - name: Prepare static Cloudflare routing and security headers
+        if: env.HOSTING_TARGET != 'firebase'
+        run: node --test scripts/cloudflare-export.test.mjs && node scripts/prepare-cloudflare-export.mjs
+
       - name: Retain release manifest for diagnosis
         uses: actions/upload-artifact@v4
         with:
@@ -117,7 +128,45 @@ jobs:
           path: artifacts/academic-cards/*.png
           if-no-files-found: ignore
 
+      - name: Start isolated export preview on GitHub
+        run: |
+          PORT=4178 node scripts/preview-static.mjs > /tmp/raytech-export-preview.log 2>&1 &
+          node -e "let ready=false;for(let n=0;n<40&&!ready;n++){try{ready=(await fetch('http://127.0.0.1:4178/')).ok}catch{}if(!ready)await new Promise(r=>setTimeout(r,250));}if(!ready)process.exit(1)"
+
+      - name: Verify ready MP3 plays on desktop and mobile without an AI call
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node --test scripts/codi-audio-evidence.test.mjs && node --max-old-space-size=384 scripts/verify-prepared-audio.mjs
+
+      - name: Verify learning panels and saved speech sources
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node --max-old-space-size=384 scripts/verify-learning-panels.mjs
+
+      - name: Verify learning controls
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node --max-old-space-size=384 scripts/verify-learning-controls.mjs
+
+      - name: Verify all redesigned resource directories and video placement
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node --max-old-space-size=384 scripts/verify-resource-pages.mjs
+
+      - name: Retain portable verified export for migration
+        if: env.HOSTING_TARGET == 'artifact'
+        run: tar -czf /tmp/raytech-static-export.tar.gz -C out .
+
+      - name: Upload portable verified export
+        if: env.HOSTING_TARGET == 'artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-static-export
+          path: /tmp/raytech-static-export.tar.gz
+          retention-days: 3
+
       - name: Deploy to Firebase Hosting live channel
+        if: env.HOSTING_TARGET == 'firebase'
         id: hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
@@ -126,19 +175,23 @@ jobs:
           channelId: live
 
       - name: Verify deployed pages match this exact export
+        if: env.HOSTING_TARGET == 'firebase'
         run: node scripts/verify-live-export.mjs
 
-      - name: Verify ready MP3 plays on desktop and mobile without an AI call
-        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
-        run: node --test scripts/codi-audio-evidence.test.mjs && node --max-old-space-size=384 scripts/verify-prepared-audio.mjs
+      - name: Deploy verified export to Cloudflare Pages
+        if: env.HOSTING_TARGET == 'cloudflare'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 67c68fe5eb47fcda8d58c8b5e5862f09
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Cloudflare deployment secret is missing'; exit 1; }
+          npx --yes wrangler@4.156.0 pages deploy out --project-name raytechinstitute --branch main --commit-dirty=false
 
-      - name: Verify learning panels and saved speech sources
-        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
-        run: node --max-old-space-size=384 scripts/verify-learning-panels.mjs
-
-      - name: Verify learning controls
-        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
-        run: node --max-old-space-size=384 scripts/verify-learning-controls.mjs
+      - name: Verify Cloudflare static delivery and compiler isolation
+        if: env.HOSTING_TARGET == 'cloudflare'
+        env:
+          VERIFY_BASE_URL: https://raytechinstitute.pages.dev
+        run: node --max-old-space-size=384 scripts/verify-cloudflare-preview.mjs
 
       - name: Retain learning presentation screenshots
         if: ${{ !cancelled() }}
@@ -147,10 +200,6 @@ jobs:
           name: learning-presentation
           path: artifacts/learning-presentation/*.png
           if-no-files-found: ignore
-
-      - name: Verify all redesigned resource directories and video placement
-        if: ${{ !cancelled() && steps.hosting.outcome == 'success' }}
-        run: node --max-old-space-size=384 scripts/verify-resource-pages.mjs
 
       - name: Retain resource page screenshots
         if: ${{ !cancelled() }}

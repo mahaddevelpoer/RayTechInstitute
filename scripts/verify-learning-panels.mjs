@@ -1,10 +1,11 @@
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 import {savedAudioSource} from './codi-audio-evidence.mjs';
+const base=process.env.VERIFY_BASE_URL||process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.web.app';
 const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});
 try{
  const page=await browser.newPage({viewport:{width:1366,height:900}});
- await page.goto('https://raytechinstitute.web.app/learn/python/values-names-and-output/',{waitUntil:'domcontentloaded'});
+ await page.goto(base+'/learn/python/values-names-and-output/',{waitUntil:'domcontentloaded'});
  await page.getByRole('button',{name:'Decline Optional',exact:true}).click();
  const topics=page.locator('.learning-topics');const pane=page.locator('.learning-practice-pane');const lesson=page.locator('.learning-lesson');
  await page.evaluate(()=>{window.__panelTransitions=[];document.querySelector('main').addEventListener('transitionrun',e=>window.__panelTransitions.push(e.propertyName));});
@@ -29,14 +30,14 @@ try{
  console.log('[learning-panels] Desktop independent collapse, retained editor, tablet and mobile controls passed.');
  // This sentence was generated and persisted by the production smoke test.
  // A fresh page may retrieve it, but must never call either AI action.
- const catalog=await(await fetch('https://raytechinstitute.web.app/codi/audio/catalog.json')).json();
+ const catalog=await(await fetch(base+'/codi/audio/catalog.json')).json();
  const unit=catalog.units.find(u=>u.hash==='b5353b75671a0f7ddf72a72d94ff06cb1fed86f49a6c1fd9d28b0cca6827bda8');
  if(unit){
   const shared=await browser.newPage({viewport:{width:1366,height:900}});let generations=0,cached=0,cdn=0,prepared=0;
-  shared.on('response',r=>{const source=savedAudioSource({url:r.url(),status:r.status(),contentType:r.headers()['content-type']},unit.hash,'https://raytechinstitute.web.app');if(source==='prepared')prepared++;if(source==='storage')cdn++;});
+  shared.on('response',r=>{const source=savedAudioSource({url:r.url(),status:r.status(),contentType:r.headers()['content-type']},unit.hash,base);if(source==='prepared')prepared++;if(source==='storage')cdn++;});
   await shared.addInitScript(()=>{window.__sharedAudio=[];const A=window.Audio;window.Audio=function(...args){const a=new A(...args);window.__sharedAudio.push(a);return a;};});
   await shared.route('**/functions/v1/codi-voice',route=>{const action=route.request().postDataJSON().action;if(action!=='cached'){generations++;return route.abort();}cached++;return route.continue();});
-  await shared.goto(`https://raytechinstitute.web.app/learn/${unit.course}/${unit.lesson}/`,{waitUntil:'domcontentloaded'});
+  await shared.goto(`${base}/learn/${unit.course}/${unit.lesson}/`,{waitUntil:'domcontentloaded'});
   await shared.getByRole('button',{name:'Codi settings',exact:true}).click();await shared.locator('.codi-settings').getByRole('combobox',{name:/Language/}).selectOption(unit.language);await shared.getByRole('button',{name:'Close Codi settings',exact:true}).click();
   await shared.getByRole('button',{name:unit.text,exact:true}).first().click();
   await shared.waitForFunction(()=>window.__sharedAudio.at(-1)?.currentTime>.2,undefined,{timeout:25000});

@@ -1,6 +1,6 @@
 // Actual deployed MP3 playback, no model calls, and no local PC browser needed.
 import assert from 'node:assert/strict';import{chromium}from'playwright';
-const base=process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.com';const index=await(await fetch(base+'/codi/audio/index.json')).json();
+const base=process.env.VERIFY_BASE_URL||process.env.NEXT_PUBLIC_SITE_URL||'https://raytechinstitute.com';const index=await(await fetch(base+'/codi/audio/index.json')).json();
 if(!index.ready?.length){console.log('[prepared-audio] No recordings deployed yet; actual playback check not run.');process.exit(0);}
 const catalog=await(await fetch(base+'/codi/audio/catalog.json')).json();const unit=catalog.units.find(u=>u.language==='ur'&&index.ready.includes(u.hash)&&u.text.length<400)||catalog.units.find(u=>index.ready.includes(u.hash));if(!unit)throw Error('Ready audio has no current published sentence');
 const browser=await chromium.launch({headless:true,args:['--renderer-process-limit=1']});
