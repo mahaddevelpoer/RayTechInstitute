@@ -1,5 +1,5 @@
 import { withSocialMetadata } from '@/utils/social-metadata';
-import { chapterDisplayLabel } from '@/utils/chapter-books';
+import { chapterDisplayLabel, chapterPlacement } from '@/utils/chapter-books';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -52,10 +52,11 @@ export async function generateMetadata({
   const currentClass = INITIAL_CLASSES.find(item => item.slug === classSlug);
   if (!note || !currentSubject) return withSocialMetadata({});
   const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
+  const displayChapterNumber = chapterPlacement({ ...note, title: note.chapterTitle })?.number || note.chapterNumber;
   const title = buildSeoTitle(
-    `${className} ${currentSubject.title} Ch ${note.chapterNumber} Notes PDF`,
+    `${className} ${currentSubject.title} Ch ${displayChapterNumber} Notes PDF`,
   );
-  const description = buildDocumentDescription(note.description || '', `Chapter ${note.chapterNumber} ${currentSubject.title} notes PDF`);
+  const description = buildDocumentDescription(note.description || '', `Chapter ${displayChapterNumber} ${currentSubject.title} notes PDF`);
   return withSocialMetadata({
     title,
     description,
