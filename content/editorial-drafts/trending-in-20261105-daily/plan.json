@@ -227,7 +227,7 @@
       "queries": [
         "micron"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "micron-dram-nand-memory-storage-guide"
     },
     {
@@ -237,7 +237,7 @@
       "queries": [
         "qualcomm share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "qualcomm-snapdragon-soc-modem-guide"
     },
     {
@@ -247,7 +247,7 @@
       "queries": [
         "broadcom share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "broadcom-ethernet-switching-software-guide"
     },
     {
@@ -257,7 +257,7 @@
       "queries": [
         "oracle share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "oracle-database-sql-cloud-learning-guide"
     },
     {
@@ -267,7 +267,7 @@
       "queries": [
         "भारतीय रिज़र्व बैंक"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "reserve-bank-india-functions-policy-guide"
     },
     {
@@ -277,7 +277,7 @@
       "queries": [
         "nasdaq 100"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "nasdaq-100-weighting-quote-learning-guide"
     },
     {
@@ -287,7 +287,7 @@
       "queries": [
         "nikkei 225"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "nikkei-225-price-weighting-japan-guide"
     },
     {
@@ -297,7 +297,7 @@
       "queries": [
         "dax index"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "dax-index-price-performance-return-guide"
     },
     {
@@ -307,7 +307,7 @@
       "queries": [
         "cboe volatility index"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "vix-implied-volatility-thirty-day-guide"
     },
     {
@@ -317,7 +317,7 @@
       "queries": [
         "होर्मुज जलडमरूमध्य"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "strait-hormuz-geography-trade-evidence-guide"
     }
   ],
@@ -1201,8 +1201,9 @@
       "row": 145,
       "topic": "भारतीय रिज़र्व बैंक",
       "breakdown": "भारतीय रिज़र्व बैंक",
-      "state": "research-pending",
-      "group": "rbi-functions"
+      "state": "published-live-verified",
+      "group": "rbi-functions",
+      "target": "reserve-bank-india-functions-policy-guide"
     },
     {
       "row": 146,
@@ -1497,8 +1498,9 @@
       "row": 194,
       "topic": "micron",
       "breakdown": "micron,micron share price",
-      "state": "research-pending",
-      "group": "micron-memory"
+      "state": "published-live-verified",
+      "group": "micron-memory",
+      "target": "micron-dram-nand-memory-storage-guide"
     },
     {
       "row": 195,
@@ -1855,8 +1857,9 @@
       "row": 253,
       "topic": "qualcomm share price",
       "breakdown": "qualcomm share price",
-      "state": "research-pending",
-      "group": "qualcomm-snapdragon"
+      "state": "published-live-verified",
+      "group": "qualcomm-snapdragon",
+      "target": "qualcomm-snapdragon-soc-modem-guide"
     },
     {
       "row": 254,
@@ -1952,8 +1955,9 @@
       "row": 269,
       "topic": "nikkei 225",
       "breakdown": "nikkei 225,nikkei index",
-      "state": "research-pending",
-      "group": "nikkei-225"
+      "state": "published-live-verified",
+      "group": "nikkei-225",
+      "target": "nikkei-225-price-weighting-japan-guide"
     },
     {
       "row": 270,
@@ -1977,8 +1981,9 @@
       "row": 273,
       "topic": "nasdaq 100",
       "breakdown": "nasdaq 100",
-      "state": "research-pending",
-      "group": "nasdaq-100"
+      "state": "published-live-verified",
+      "group": "nasdaq-100",
+      "target": "nasdaq-100-weighting-quote-learning-guide"
     },
     {
       "row": 274,
@@ -2087,15 +2092,17 @@
       "row": 291,
       "topic": "dax index",
       "breakdown": "dax index,dax",
-      "state": "research-pending",
-      "group": "dax-index"
+      "state": "published-live-verified",
+      "group": "dax-index",
+      "target": "dax-index-price-performance-return-guide"
     },
     {
       "row": 292,
       "topic": "होर्मुज जलडमरूमध्य",
       "breakdown": "होर्मुज जलडमरूमध्य",
-      "state": "research-pending",
-      "group": "hormuz-strait"
+      "state": "published-live-verified",
+      "group": "hormuz-strait",
+      "target": "strait-hormuz-geography-trade-evidence-guide"
     },
     {
       "row": 293,
@@ -2192,8 +2199,9 @@
       "row": 308,
       "topic": "cboe volatility index",
       "breakdown": "cboe volatility index",
-      "state": "research-pending",
-      "group": "vix-index"
+      "state": "published-live-verified",
+      "group": "vix-index",
+      "target": "vix-implied-volatility-thirty-day-guide"
     },
     {
       "row": 309,
@@ -2659,8 +2667,9 @@
       "row": 384,
       "topic": "oracle share price",
       "breakdown": "oracle share price",
-      "state": "research-pending",
-      "group": "oracle-databases"
+      "state": "published-live-verified",
+      "group": "oracle-databases",
+      "target": "oracle-database-sql-cloud-learning-guide"
     },
     {
       "row": 385,
@@ -2818,8 +2827,9 @@
       "row": 410,
       "topic": "broadcom share price",
       "breakdown": "broadcom share price",
-      "state": "research-pending",
-      "group": "broadcom-networking"
+      "state": "published-live-verified",
+      "group": "broadcom-networking",
+      "target": "broadcom-ethernet-switching-software-guide"
     },
     {
       "row": 411,
@@ -2982,14 +2992,21 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "Latest continuation request and standing approval to publish completed reviewed articles.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42074488366,
+      "verificationRun": 42074488366,
+      "checkedAt": "2026-11-05T17:30:52.919Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 316
+      }
     }
   ],
-  "prepared": 20,
-  "published": 20,
+  "prepared": 30,
+  "published": 30,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 14,
     "unclear": 38,

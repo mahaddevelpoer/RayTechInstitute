@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2021,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-05",
   "visualEvidence": "artifacts/india-november5/batch4-contact-1.png",
-  "visualReviewNotes": "All twenty final images inspected. Blurred DAX screen replaced with a clear Frankfurt trading-floor photograph and reviewed separately at full resolution. Captions distinguish archival imagery, regional infrastructure, components and illustrative charts from current prices or operational claims."
+  "visualReviewNotes": "All twenty final images inspected. Blurred DAX screen replaced with a clear Frankfurt trading-floor photograph and reviewed separately at full resolution. Captions distinguish archival imagery, regional infrastructure, components and illustrative charts from current prices or operational claims.",
+  "hostingRun": 42074488366,
+  "verificationRun": 42074488366,
+  "liveUrl": "https://raytechinstitute.com/blogs/micron-dram-nand-memory-storage-guide/",
+  "liveCheckedAt": "2026-11-05T17:30:52.919Z"
 }
