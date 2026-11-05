@@ -327,7 +327,7 @@
       "queries": [
         "microsoft share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "microsoft-azure-cloud-responsibility-guide"
     },
     {
@@ -337,7 +337,7 @@
       "queries": [
         "amazon share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "amazon-aws-compute-storage-learning-guide"
     },
     {
@@ -347,7 +347,7 @@
       "queries": [
         "tesla share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "tesla-battery-charging-range-units-guide"
     },
     {
@@ -357,7 +357,7 @@
       "queries": [
         "विनफास्ट"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "vinfast-india-ev-specification-reading-guide"
     },
     {
@@ -367,7 +367,7 @@
       "queries": [
         "playstation store black friday sale"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "playstation-store-sale-digital-purchase-guide"
     },
     {
@@ -1101,8 +1101,9 @@
       "row": 113,
       "topic": "playstation store black friday sale",
       "breakdown": "playstation store black friday sale,ps black friday sale 2026,black friday sale ps5 games,black friday sale ps5",
-      "state": "research-pending",
-      "group": "playstation-store"
+      "state": "published-live-verified",
+      "group": "playstation-store",
+      "target": "playstation-store-sale-digital-purchase-guide"
     },
     {
       "row": 114,
@@ -1351,8 +1352,9 @@
       "row": 153,
       "topic": "tesla share price",
       "breakdown": "tesla share price,spacex share price",
-      "state": "research-pending",
-      "group": "tesla-ev"
+      "state": "published-live-verified",
+      "group": "tesla-ev",
+      "target": "tesla-battery-charging-range-units-guide"
     },
     {
       "row": 154,
@@ -1454,8 +1456,9 @@
       "row": 170,
       "topic": "विनफास्ट",
       "breakdown": "विनफास्ट",
-      "state": "research-pending",
-      "group": "vinfast-ev"
+      "state": "published-live-verified",
+      "group": "vinfast-ev",
+      "target": "vinfast-india-ev-specification-reading-guide"
     },
     {
       "row": 171,
@@ -2382,8 +2385,9 @@
       "row": 321,
       "topic": "microsoft share price",
       "breakdown": "microsoft share price,msft,msft stock",
-      "state": "research-pending",
-      "group": "microsoft-azure"
+      "state": "published-live-verified",
+      "group": "microsoft-azure",
+      "target": "microsoft-azure-cloud-responsibility-guide"
     },
     {
       "row": 322,
@@ -2919,8 +2923,9 @@
       "row": 408,
       "topic": "amazon share price",
       "breakdown": "amazon share price",
-      "state": "research-pending",
-      "group": "amazon-aws"
+      "state": "published-live-verified",
+      "group": "amazon-aws",
+      "target": "amazon-aws-compute-storage-learning-guide"
     },
     {
       "row": 409,
@@ -3118,7 +3123,14 @@
       "expectedSize": 5,
       "explicitUserAuthorization": true,
       "authorization": "User explicitly requested publication of the five written drafts before stopping for the night.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42078372615,
+      "verificationRun": 42078372615,
+      "checkedAt": "2026-11-05T17:54:52.007Z",
+      "databaseReadback": {
+        "inserted": 5,
+        "preserved": 326
+      }
     },
     {
       "number": 6,
@@ -3134,11 +3146,11 @@
       "state": "deferred-unwritten"
     }
   ],
-  "prepared": 30,
-  "published": 30,
+  "prepared": 35,
+  "published": 35,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 5,
   "intentReview": {
     "sameIntentCovered": 14,
     "unclear": 38,

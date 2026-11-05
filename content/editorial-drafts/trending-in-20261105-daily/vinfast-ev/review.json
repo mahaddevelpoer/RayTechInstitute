@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2019,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-05",
   "visualEvidence": "artifacts/india-november5/batch5-contact-1.png",
-  "visualReviewNotes": "All ten final images inspected. Captions identify historical company campuses, data centres, overseas vehicles and console hardware without implying current sales, Indian vehicle variants or live prices."
+  "visualReviewNotes": "All ten final images inspected. Captions identify historical company campuses, data centres, overseas vehicles and console hardware without implying current sales, Indian vehicle variants or live prices.",
+  "hostingRun": 42078372615,
+  "verificationRun": 42078372615,
+  "liveUrl": "https://raytechinstitute.com/blogs/vinfast-india-ev-specification-reading-guide/",
+  "liveCheckedAt": "2026-11-05T17:54:52.007Z"
 }

@@ -1,0 +1,165 @@
+{
+  "run": 42078372615,
+  "verificationRun": 42078372615,
+  "checkedAt": "2026-11-05T17:54:52.007Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 5,
+    "verified": 5,
+    "existingArticlesPreserved": 326,
+    "articles": [
+      "microsoft-azure-cloud-responsibility-guide",
+      "amazon-aws-compute-storage-learning-guide",
+      "tesla-battery-charging-range-units-guide",
+      "vinfast-india-ev-specification-reading-guide",
+      "playstation-store-sale-digital-purchase-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "microsoft-azure",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/microsoft-azure-cloud-responsibility-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/microsoft-azure-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/microsoft-azure-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "amazon-aws",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/amazon-aws-compute-storage-learning-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/amazon-aws-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/amazon-aws-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "tesla-ev",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/tesla-battery-charging-range-units-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/tesla-ev-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/tesla-ev-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "vinfast-ev",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/vinfast-india-ev-specification-reading-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vinfast-ev-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vinfast-ev-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "playstation-store",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/playstation-store-sale-digital-purchase-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/playstation-store-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/playstation-store-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

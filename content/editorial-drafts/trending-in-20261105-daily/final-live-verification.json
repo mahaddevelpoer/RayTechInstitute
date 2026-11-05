@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T17:30:52.919Z",
+  "checkedAt": "2026-11-05T17:54:52.007Z",
   "resolver": "Cloudflare DNS-over-HTTPS; canonical hostname with verified TLS",
   "edgeAddress": "104.21.87.5",
   "results": [
@@ -859,6 +859,151 @@
         },
         {
           "url": "/images/editorial/trending-in-20261105-daily/vix-index-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "amazon-aws",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/amazon-aws-compute-storage-learning-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/amazon-aws-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/amazon-aws-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "microsoft-azure",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/microsoft-azure-cloud-responsibility-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/microsoft-azure-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/microsoft-azure-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "playstation-store",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/playstation-store-sale-digital-purchase-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/playstation-store-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/playstation-store-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "tesla-ev",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/tesla-battery-charging-range-units-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/tesla-ev-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/tesla-ev-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "vinfast-ev",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/vinfast-india-ev-specification-reading-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vinfast-ev-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vinfast-ev-inline.webp",
           "status": 200,
           "present": true
         }
