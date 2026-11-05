@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Sui Southern Gas Company Headquarters.jpg",
+    "url": "/images/editorial/trending-pk-20261105-daily/ssgc-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sui_Southern_Gas_Company_Headquarters.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Sui_Southern_Gas_Company_Headquarters.jpg",
+    "creator": "Ahsanullah2015",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "SSGC headquarters, shown as company context rather than a current service announcement.",
+    "description": "Sui Southern Gas Company Headquarters",
+    "caption": "SSGC headquarters, shown as company context rather than a current service announcement.",
+    "width": 1280,
+    "height": 855,
+    "bytes": 156662,
+    "sha1": "e636679944a49e3999611138ae5fc88e668f3ad9",
+    "photographedAt": "2021-06-14 18:37:47",
+    "query": "Sui Southern Gas Company",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Gas-Meter-1785.jpg",
+    "url": "/images/editorial/trending-pk-20261105-daily/ssgc-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gas-Meter-1785.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Gas-Meter-1785.jpg",
+    "creator": "Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble) . Email the author: David R. Tribble Also see my personal gallery at Google Photos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "An illustrative gas-meter readout; this is not a photograph of the reader’s SSGC account or installation.",
+    "description": "Close-up of a diaphragm-style natural gas meter analog read-out.",
+    "caption": "An illustrative gas-meter readout; this is not a photograph of the reader’s SSGC account or installation.",
+    "width": 1280,
+    "height": 851,
+    "bytes": 207546,
+    "sha1": "d49f24561735b9a321a9bde098ca7a416dbb6977",
+    "photographedAt": "2008-06-01",
+    "query": "Natural gas meter",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

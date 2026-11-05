@@ -1,0 +1,967 @@
+{
+  "date": "2026-11-05",
+  "sourceCsv": "trending_PK_1d_20261105-1014.csv",
+  "publicationAuthorized": true,
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "baselineArticles": 284,
+  "hosting": "cloudflare-pages",
+  "groups": [
+    {
+      "key": "gold-prices",
+      "topic": "Gold prices in Pakistan: units, purity and dated quotes",
+      "queries": [
+        "gold prices",
+        "سونے کی قیمت"
+      ],
+      "state": "research-pending",
+      "category": "economy"
+    },
+    {
+      "key": "ssgc",
+      "topic": "Sui Southern Gas Company: bills, service and complaints",
+      "queries": [
+        "sui southern gas company"
+      ],
+      "state": "local-verified-unpublished",
+      "category": "general",
+      "slug": "ssgc-bill-payment-complaint-service-guide"
+    },
+    {
+      "key": "bisp",
+      "topic": "Benazir Income Support Programme: official routes and safe checks",
+      "queries": [
+        "بے نظیر انکم سپورٹ پروگرام"
+      ],
+      "state": "local-verified-unpublished",
+      "category": "general",
+      "slug": "bisp-8171-survey-payment-official-help-guide"
+    },
+    {
+      "key": "iqbal-day",
+      "topic": "9 November 2026 holiday and Iqbal Day planning",
+      "queries": [
+        "9 november holiday"
+      ],
+      "state": "local-verified-unpublished",
+      "category": "education",
+      "slug": "9-november-holiday-2026-pakistan-iqbal-day-guide"
+    },
+    {
+      "key": "west-indies-bangladesh",
+      "topic": "West Indies versus Bangladesh: dated Test match",
+      "queries": [
+        "west indies vs bangladesh"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "aek-real-madrid",
+      "topic": "AEK Athens versus Real Madrid: November 4 match",
+      "queries": [
+        "aek vs real madrid"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "leipzig-manchester-city",
+      "topic": "RB Leipzig versus Manchester City: November 4 match",
+      "queries": [
+        "rb leipzig vs man city"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "slavia-arsenal",
+      "topic": "Slavia Prague versus Arsenal: November 4 match",
+      "queries": [
+        "slavia praha vs arsenal"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "fenerbahce-liverpool",
+      "topic": "Fenerbahce versus Liverpool: November 4 match",
+      "queries": [
+        "fenerbahçe vs liverpool f.c. standings"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "lens-como",
+      "topic": "Lens versus Como: dated match",
+      "queries": [
+        "lens vs como"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "dortmund-betis",
+      "topic": "Dortmund versus Real Betis: November 4 match",
+      "queries": [
+        "dortmund vs betis"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "maliha-ali",
+      "topic": "Maliha Ali at IMMAF World Championships",
+      "queries": [
+        "maliha ali immaf world championships",
+        "mixed martial arts"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "munna-bhai-3",
+      "topic": "Munna Bhai 3: verified production announcements",
+      "queries": [
+        "munna bhai 3"
+      ],
+      "state": "research-pending",
+      "category": "entertainment"
+    },
+    {
+      "key": "rizwan-domestic",
+      "topic": "Mohammad Rizwan domestic return and Lahore Whites",
+      "queries": [
+        "mohammad rizwan domestic cricket comeback",
+        "quaid e azam trophy lahore whites"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "shaheen-odi-ranking",
+      "topic": "Shaheen Afridi: current ODI bowling ranking",
+      "queries": [
+        "shaheen afridi icc odi ranking"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "asim-azhar",
+      "topic": "Asim Azhar: current confirmed music coverage",
+      "queries": [
+        "asim azhar"
+      ],
+      "state": "research-pending",
+      "category": "entertainment"
+    },
+    {
+      "key": "one-piece-1198",
+      "topic": "One Piece chapter 1198: official release and spoiler boundaries",
+      "queries": [
+        "one piece chapter 1198 spoilers"
+      ],
+      "state": "research-pending",
+      "category": "entertainment"
+    },
+    {
+      "key": "hakeem-jeffries",
+      "topic": "Hakeem Jeffries: elected office and public record",
+      "queries": [
+        "hakeem jeffries"
+      ],
+      "state": "research-pending",
+      "category": "world-affairs"
+    },
+    {
+      "key": "koffee-season-9",
+      "topic": "Koffee with Karan season 9: official announcements",
+      "queries": [
+        "koffee with karan season 9"
+      ],
+      "state": "research-pending",
+      "category": "entertainment"
+    },
+    {
+      "key": "apple-ios",
+      "topic": "iOS 27.2 and current Apple software releases",
+      "queries": [
+        "ios update",
+        "ios 27.2"
+      ],
+      "state": "research-pending",
+      "category": "technology"
+    },
+    {
+      "key": "j-sale",
+      "topic": "J. sale: official offers and purchase conditions",
+      "queries": [
+        "j.",
+        "j. sale"
+      ],
+      "state": "research-pending",
+      "category": "general"
+    },
+    {
+      "key": "virat-kohli-birthday",
+      "topic": "Virat Kohli birthday and verified milestones",
+      "queries": [
+        "وراٹ کوہلی",
+        "virat kohli birthday"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "porto-napoli",
+      "topic": "Porto versus Napoli: November 4 match",
+      "queries": [
+        "porto vs napoli"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "vivo-v80-fe",
+      "topic": "vivo V80 FE: announcement and specification checks",
+      "queries": [
+        "vivo v80 fe"
+      ],
+      "state": "research-pending",
+      "category": "technology"
+    },
+    {
+      "key": "philadelphia-76ers",
+      "topic": "Philadelphia 76ers: dated NBA results and team context",
+      "queries": [
+        "philadelphia 76ers"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "starc-test-ranking",
+      "topic": "Mitchell Starc: current Test bowling ranking",
+      "queries": [
+        "mitchell starc icc test bowling rankings"
+      ],
+      "state": "research-pending",
+      "category": "sports"
+    },
+    {
+      "key": "jd-vance",
+      "topic": "JD Vance: office, responsibilities and public record",
+      "queries": [
+        "jd vance"
+      ],
+      "state": "research-pending",
+      "category": "world-affairs"
+    },
+    {
+      "key": "abdul-el-sayed",
+      "topic": "Abdul El-Sayed: official election records",
+      "queries": [
+        "abdul el sayed",
+        "el sayed"
+      ],
+      "state": "pending-existing-research",
+      "category": "world-affairs"
+    },
+    {
+      "key": "esteban-ocon",
+      "topic": "Esteban Ocon: verified current Formula 1 coverage",
+      "queries": [
+        "esteban ocon"
+      ],
+      "state": "pending-existing-research",
+      "category": "sports"
+    },
+    {
+      "key": "nabeela-syed",
+      "topic": "Nabeela Syed: Illinois office and election records",
+      "queries": [
+        "nabeela syed illinois"
+      ],
+      "state": "pending-existing-research",
+      "category": "world-affairs"
+    },
+    {
+      "key": "solar-power",
+      "topic": "Solar power: Pakistan study and household guide",
+      "queries": [
+        "solar power"
+      ],
+      "state": "pending-existing-research",
+      "category": "technology"
+    },
+    {
+      "key": "salik-hussain",
+      "topic": "Chaudhry Salik Hussain: official office and public record",
+      "queries": [
+        "salik hussain"
+      ],
+      "state": "research-pending",
+      "category": "world-affairs"
+    },
+    {
+      "key": "gina-hinojosa",
+      "topic": "Gina Hinojosa: official office and election records",
+      "queries": [
+        "gina hinojosa"
+      ],
+      "state": "pending-existing-research",
+      "category": "world-affairs"
+    },
+    {
+      "key": "amish-shah",
+      "topic": "Amish Shah: office and official election records",
+      "queries": [
+        "amish shah"
+      ],
+      "state": "pending-existing-research",
+      "category": "world-affairs"
+    },
+    {
+      "key": "champions-league-matchday-four",
+      "topic": "Champions League matchday four: complete table context",
+      "queries": [
+        "champions league standings"
+      ],
+      "state": "pending-existing-research",
+      "category": "sports"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 2,
+      "topic": "west indies vs bangladesh",
+      "state": "queued",
+      "group": "west-indies-bangladesh"
+    },
+    {
+      "row": 3,
+      "topic": "aek vs real madrid",
+      "state": "queued",
+      "group": "aek-real-madrid"
+    },
+    {
+      "row": 4,
+      "topic": "banknote",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-draft-20261030-050",
+          "slug": "cash-pakistan-banknotes-everyday-safety-guide"
+        }
+      ],
+      "search": "cash-pakistan-banknotes"
+    },
+    {
+      "row": 5,
+      "topic": "bail",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261101-bail",
+          "slug": "bail-pakistan-meaning-order-reading-guide"
+        }
+      ],
+      "search": "bail-pakistan-meaning"
+    },
+    {
+      "row": 6,
+      "topic": "faaz missile pakistan",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-pakistan-air-force-faaz",
+          "slug": "pakistan-faaz-air-to-air-missile-test-evidence-guide"
+        }
+      ],
+      "search": "faaz"
+    },
+    {
+      "row": 7,
+      "topic": "samsung galaxy s27 ultra dummy unit",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-samsung-galaxy-s27-ultra",
+          "slug": "samsung-galaxy-s27-ultra-rumours-evidence-guide"
+        }
+      ],
+      "search": "samsung-galaxy-s27"
+    },
+    {
+      "row": 8,
+      "topic": "rb leipzig vs man city",
+      "state": "queued",
+      "group": "leipzig-manchester-city"
+    },
+    {
+      "row": 9,
+      "topic": "united arab emirates national cricket team vs oman national cricket team standings",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-draft-20261030-031",
+          "slug": "oman-uae-cricket-league-two-standings-guide"
+        }
+      ],
+      "search": "oman-uae-cricket"
+    },
+    {
+      "row": 10,
+      "topic": "videos",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 11,
+      "topic": "sui southern gas company",
+      "state": "queued",
+      "group": "ssgc"
+    },
+    {
+      "row": 12,
+      "topic": "slavia praha vs arsenal",
+      "state": "queued",
+      "group": "slavia-arsenal"
+    },
+    {
+      "row": 13,
+      "topic": "fenerbahçe vs liverpool f.c. standings",
+      "state": "queued",
+      "group": "fenerbahce-liverpool"
+    },
+    {
+      "row": 14,
+      "topic": "maliha ali immaf world championships",
+      "state": "queued",
+      "group": "maliha-ali"
+    },
+    {
+      "row": 15,
+      "topic": "night sky",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 16,
+      "topic": "بے نظیر انکم سپورٹ پروگرام",
+      "state": "queued",
+      "group": "bisp"
+    },
+    {
+      "row": 17,
+      "topic": "gold prices",
+      "state": "queued",
+      "group": "gold-prices"
+    },
+    {
+      "row": 18,
+      "topic": "abdul el sayed",
+      "state": "queued",
+      "group": "abdul-el-sayed"
+    },
+    {
+      "row": 19,
+      "topic": "lens vs como",
+      "state": "queued",
+      "group": "lens-como"
+    },
+    {
+      "row": 20,
+      "topic": "munna bhai 3",
+      "state": "queued",
+      "group": "munna-bhai-3"
+    },
+    {
+      "row": 21,
+      "topic": "سونے کی قیمت",
+      "state": "queued",
+      "group": "gold-prices"
+    },
+    {
+      "row": 22,
+      "topic": "weather today",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 23,
+      "topic": "کرنسی",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 24,
+      "topic": "mohammad rizwan domestic cricket comeback",
+      "state": "queued",
+      "group": "rizwan-domestic"
+    },
+    {
+      "row": 25,
+      "topic": "fuel",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 26,
+      "topic": "u19 asia cup",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-acc-under-19-asia-cup",
+          "slug": "acc-u19-asia-cup-2026-pakistan-schedule-oman"
+        }
+      ],
+      "search": "acc-u19"
+    },
+    {
+      "row": 27,
+      "topic": "oil prices",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261101-crude-oil-surge-psx-impact",
+          "slug": "crude-oil-psx-pakistan-cost-channels-learning-guide"
+        }
+      ],
+      "search": "crude-oil"
+    },
+    {
+      "row": 28,
+      "topic": "weather forecast",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 29,
+      "topic": "today petrol price in pakistan",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-draft-20261030-048",
+          "slug": "pakistan-petrol-price-notification-reading-guide"
+        }
+      ],
+      "search": "pakistan-petrol-price"
+    },
+    {
+      "row": 30,
+      "topic": "shaheen afridi icc odi ranking",
+      "state": "queued",
+      "group": "shaheen-odi-ranking"
+    },
+    {
+      "row": 31,
+      "topic": "esteban ocon",
+      "state": "queued",
+      "group": "esteban-ocon"
+    },
+    {
+      "row": 32,
+      "topic": "gasoline",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 33,
+      "topic": "nabeela syed illinois",
+      "state": "queued",
+      "group": "nabeela-syed"
+    },
+    {
+      "row": 34,
+      "topic": "asim azhar",
+      "state": "queued",
+      "group": "asim-azhar"
+    },
+    {
+      "row": 35,
+      "topic": "j.",
+      "state": "queued",
+      "group": "j-sale"
+    },
+    {
+      "row": 36,
+      "topic": "today weather",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 37,
+      "topic": "one piece chapter 1198 spoilers",
+      "state": "queued",
+      "group": "one-piece-1198"
+    },
+    {
+      "row": 38,
+      "topic": "hakeem jeffries",
+      "state": "queued",
+      "group": "hakeem-jeffries"
+    },
+    {
+      "row": 39,
+      "topic": "موسم",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 40,
+      "topic": "gta vi ps5",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261101-gta-6-release-date",
+          "slug": "gta-6-release-date-platforms-pakistan-buying-guide"
+        },
+        {
+          "id": "trend-draft-20261030-053",
+          "slug": "gta-vi-official-release-information-safety-guide"
+        }
+      ],
+      "search": "gta"
+    },
+    {
+      "row": 41,
+      "topic": "ویزا",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 42,
+      "topic": "weather update",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 43,
+      "topic": "dortmund vs betis",
+      "state": "queued",
+      "group": "dortmund-betis"
+    },
+    {
+      "row": 44,
+      "topic": "وراٹ کوہلی",
+      "state": "queued",
+      "group": "virat-kohli-birthday"
+    },
+    {
+      "row": 45,
+      "topic": "koffee with karan season 9",
+      "state": "queued",
+      "group": "koffee-season-9"
+    },
+    {
+      "row": 46,
+      "topic": "james talarico",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-james-talarico",
+          "slug": "james-talarico-texas-senate-result-profile-2026"
+        }
+      ],
+      "search": "james-talarico"
+    },
+    {
+      "row": 47,
+      "topic": "champions league standings",
+      "state": "queued",
+      "group": "champions-league-matchday-four"
+    },
+    {
+      "row": 48,
+      "topic": "9 november holiday",
+      "state": "queued",
+      "group": "iqbal-day"
+    },
+    {
+      "row": 49,
+      "topic": "ios update",
+      "state": "queued",
+      "group": "apple-ios"
+    },
+    {
+      "row": 50,
+      "topic": "solar power",
+      "state": "queued",
+      "group": "solar-power"
+    },
+    {
+      "row": 51,
+      "topic": "j. sale",
+      "state": "queued",
+      "group": "j-sale"
+    },
+    {
+      "row": 52,
+      "topic": "indian",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 53,
+      "topic": "salik hussain",
+      "state": "queued",
+      "group": "salik-hussain"
+    },
+    {
+      "row": 54,
+      "topic": "now",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261103-us-midterm-elections",
+          "slug": "us-midterm-elections-2026-voting-results-explained"
+        }
+      ],
+      "search": "us-midterm"
+    },
+    {
+      "row": 55,
+      "topic": "fa",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 56,
+      "topic": "psl",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 57,
+      "topic": "karl bushby",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-karl-bushby",
+          "slug": "karl-bushby-homecoming-goliath-expedition-explained"
+        }
+      ],
+      "search": "karl-bushby"
+    },
+    {
+      "row": 58,
+      "topic": "ad",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 59,
+      "topic": "mixed martial arts",
+      "state": "queued",
+      "group": "maliha-ali"
+    },
+    {
+      "row": 60,
+      "topic": "ios 27.2",
+      "state": "queued",
+      "group": "apple-ios"
+    },
+    {
+      "row": 61,
+      "topic": "gina hinojosa",
+      "state": "queued",
+      "group": "gina-hinojosa"
+    },
+    {
+      "row": 62,
+      "topic": "virat kohli birthday",
+      "state": "queued",
+      "group": "virat-kohli-birthday"
+    },
+    {
+      "row": 63,
+      "topic": "el sayed",
+      "state": "queued",
+      "group": "abdul-el-sayed"
+    },
+    {
+      "row": 64,
+      "topic": "manuel neuer",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-manuel-neuer",
+          "slug": "manuel-neuer-bayern-germany-sweeper-keeper-guide"
+        }
+      ],
+      "search": "manuel-neuer"
+    },
+    {
+      "row": 65,
+      "topic": "porto vs napoli",
+      "state": "queued",
+      "group": "porto-napoli"
+    },
+    {
+      "row": 66,
+      "topic": "vivo v80 fe",
+      "state": "queued",
+      "group": "vivo-v80-fe"
+    },
+    {
+      "row": 67,
+      "topic": "us senate elections 2026",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261103-us-midterm-elections",
+          "slug": "us-midterm-elections-2026-voting-results-explained"
+        }
+      ],
+      "search": "us-midterm"
+    },
+    {
+      "row": 68,
+      "topic": "novak djokovic",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-draft-20261030-047",
+          "slug": "novak-djokovic-tennis-match-analysis-guide"
+        }
+      ],
+      "search": "novak-djokovic"
+    },
+    {
+      "row": 69,
+      "topic": "auckland weather",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-new-zealand-india-first-odi",
+          "slug": "new-zealand-india-first-odi-kohli-dls-november-2026"
+        }
+      ],
+      "search": "new-zealand-india-first-odi"
+    },
+    {
+      "row": 70,
+      "topic": "philadelphia 76ers",
+      "state": "queued",
+      "group": "philadelphia-76ers"
+    },
+    {
+      "row": 71,
+      "topic": "us election result",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261103-us-midterm-elections",
+          "slug": "us-midterm-elections-2026-voting-results-explained"
+        }
+      ],
+      "search": "us-midterm"
+    },
+    {
+      "row": 72,
+      "topic": "shabana mahmood",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261103-shabana-mahmood",
+          "slug": "shabana-mahmood-home-secretary-settlement-announcement"
+        }
+      ],
+      "search": "shabana-mahmood"
+    },
+    {
+      "row": 73,
+      "topic": "jesús owono",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261104-daily-jesus-de-miguel",
+          "slug": "jesus-de-miguel-owono-collision-confirmed-news"
+        }
+      ],
+      "search": "jesus-de-miguel"
+    },
+    {
+      "row": 74,
+      "topic": "mitchell starc icc test bowling rankings",
+      "state": "queued",
+      "group": "starc-test-ranking"
+    },
+    {
+      "row": 75,
+      "topic": "amish shah",
+      "state": "queued",
+      "group": "amish-shah"
+    },
+    {
+      "row": 76,
+      "topic": "jd vance",
+      "state": "queued",
+      "group": "jd-vance"
+    },
+    {
+      "row": 77,
+      "topic": "american elections",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261103-us-midterm-elections",
+          "slug": "us-midterm-elections-2026-voting-results-explained"
+        }
+      ],
+      "search": "us-midterm"
+    },
+    {
+      "row": 78,
+      "topic": "carlos alcaraz",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261101-carlos-alcaraz",
+          "slug": "carlos-alcaraz-career-grand-slam-australian-open-2026"
+        },
+        {
+          "id": "trend-draft-20261030-073",
+          "slug": "carlos-alcaraz-tennis-tactics-study-guide"
+        }
+      ],
+      "search": "carlos-alcaraz"
+    },
+    {
+      "row": 79,
+      "topic": "face",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 80,
+      "topic": "republican party leader",
+      "state": "skipped-unclear",
+      "reason": "No specific event, location or identity; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 81,
+      "topic": "alexander zverev",
+      "state": "already-covered",
+      "existing": [
+        {
+          "id": "trend-20261101-alexander-zverev",
+          "slug": "alexander-zverev-2026-major-titles-final-scores-explained"
+        }
+      ],
+      "search": "alexander-zverev"
+    },
+    {
+      "row": 82,
+      "topic": "quaid e azam trophy lahore whites",
+      "state": "queued",
+      "group": "rizwan-domestic"
+    }
+  ],
+  "prepared": 3,
+  "published": 0,
+  "remaining": 32
+}

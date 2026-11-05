@@ -1,0 +1,30 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 3,
+  "bodyWords": 6333,
+  "uniqueImages": 6,
+  "existingArticlesCompared": 284,
+  "results": [
+    {
+      "key": "ssgc",
+      "slug": "ssgc-bill-payment-complaint-service-guide",
+      "words": 2104,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bisp",
+      "slug": "bisp-8171-survey-payment-official-help-guide",
+      "words": 2187,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "iqbal-day",
+      "slug": "9-november-holiday-2026-pakistan-iqbal-day-guide",
+      "words": 2042,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

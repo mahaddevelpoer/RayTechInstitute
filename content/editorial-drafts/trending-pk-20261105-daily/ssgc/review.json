@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2104,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-05",
+  "visualEvidence": "artifacts/november5-daily/contact-sheet.png",
+  "visualReviewNotes": "Photo identity and captions checked; illustrative or historical images labelled, no claim of current event photography."
+}
