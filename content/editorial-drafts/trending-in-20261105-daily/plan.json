@@ -42,7 +42,7 @@
       "queries": [
         "date sheet of class 10 2027 cbse board"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "cbse-class-10-date-sheet-2027-official-check-guide"
     },
     {
@@ -52,7 +52,7 @@
       "queries": [
         "ssc cgl answer key 2026"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "ssc-cgl-answer-key-2026-response-sheet-guide"
     },
     {
@@ -73,7 +73,7 @@
       "queries": [
         "csir net"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "csir-net-december-2026-subjects-preparation-guide"
     },
     {
@@ -105,7 +105,7 @@
         "aqi noida",
         "aqi gurgaon"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "delhi-noida-gurugram-aqi-official-data-guide"
     },
     {
@@ -183,8 +183,9 @@
     {
       "row": 12,
       "topic": "ssc cgl answer key 2026",
-      "state": "queued",
-      "group": "ssc-cgl-answer-key"
+      "state": "published-live-verified",
+      "group": "ssc-cgl-answer-key",
+      "target": "ssc-cgl-answer-key-2026-response-sheet-guide"
     },
     {
       "row": 13,
@@ -214,8 +215,9 @@
     {
       "row": 17,
       "topic": "date sheet of class 10 2027 cbse board",
-      "state": "queued",
-      "group": "cbse-class10-2027"
+      "state": "published-live-verified",
+      "group": "cbse-class10-2027",
+      "target": "cbse-class-10-date-sheet-2027-official-check-guide"
     },
     {
       "row": 18,
@@ -1802,8 +1804,9 @@
     {
       "row": 281,
       "topic": "csir net",
-      "state": "queued",
-      "group": "csir-net"
+      "state": "published-live-verified",
+      "group": "csir-net",
+      "target": "csir-net-december-2026-subjects-preparation-guide"
     },
     {
       "row": 282,
@@ -1880,8 +1883,9 @@
     {
       "row": 294,
       "topic": "aqi gurgaon",
-      "state": "queued",
-      "group": "delhi-ncr-aqi"
+      "state": "published-live-verified",
+      "group": "delhi-ncr-aqi",
+      "target": "delhi-noida-gurugram-aqi-official-data-guide"
     },
     {
       "row": 295,
@@ -2084,8 +2088,9 @@
     {
       "row": 328,
       "topic": "aqi noida",
-      "state": "queued",
-      "group": "delhi-ncr-aqi"
+      "state": "published-live-verified",
+      "group": "delhi-ncr-aqi",
+      "target": "delhi-noida-gurugram-aqi-official-data-guide"
     },
     {
       "row": 329,
@@ -2156,8 +2161,9 @@
     {
       "row": 340,
       "topic": "delhi aqi today",
-      "state": "queued",
-      "group": "delhi-ncr-aqi"
+      "state": "published-live-verified",
+      "group": "delhi-ncr-aqi",
+      "target": "delhi-noida-gurugram-aqi-official-data-guide"
     },
     {
       "row": 341,
@@ -2688,12 +2694,19 @@
       "expectedSize": 4,
       "explicitUserAuthorization": true,
       "authorization": "Standing approval and latest user instruction to continue and publish completed articles.",
-      "state": "local-verified-unpublished"
+      "state": "published-live-verified",
+      "hostingRun": 42045851202,
+      "verificationRun": 42045851202,
+      "checkedAt": "2026-11-05T14:37:10.167Z",
+      "databaseReadback": {
+        "inserted": 4,
+        "preserved": 302
+      }
     }
   ],
   "prepared": 10,
-  "published": 6,
+  "published": 10,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 4
+  "remainingSelected": 0
 }
