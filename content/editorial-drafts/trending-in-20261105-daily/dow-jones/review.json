@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2009,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-05",
   "visualEvidence": "artifacts/india-november5/batch3-contact-2.png",
-  "visualReviewNotes": "All twenty final images inspected; replacement HyperOS rear-hardware photograph also inspected separately. Captions distinguish historical, illustrative, foreign and scientific mission images from current events or eligibility claims."
+  "visualReviewNotes": "All twenty final images inspected; replacement HyperOS rear-hardware photograph also inspected separately. Captions distinguish historical, illustrative, foreign and scientific mission images from current events or eligibility claims.",
+  "hostingRun": 42057237882,
+  "verificationRun": 42057237882,
+  "liveUrl": "https://raytechinstitute.com/blogs/dow-jones-price-weighted-index-quote-guide/",
+  "liveCheckedAt": "2026-11-05T15:45:46.220Z"
 }
