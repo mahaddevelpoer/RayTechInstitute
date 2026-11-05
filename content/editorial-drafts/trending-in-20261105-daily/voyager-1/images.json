@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Voyager spacecraft.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/voyager-1-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg",
+    "creator": "NASA/JPL",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg",
+    "alt": "NASA illustration of a Voyager spacecraft; an explanatory image rather than a live photograph from the probe.",
+    "description": "Artist's concept of Voyager in flight",
+    "caption": "NASA illustration of a Voyager spacecraft; an explanatory image rather than a live photograph from the probe.",
+    "width": 1161,
+    "height": 960,
+    "bytes": 70776,
+    "sha1": "aa9767e2958833bb2b58f74b4c5dc669b8c0477e",
+    "photographedAt": "1990-01-01",
+    "query": "Voyager spacecraft NASA",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:PaleBlueDot.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/voyager-1-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/PaleBlueDot.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg",
+    "creator": "Public-domain source",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg",
+    "alt": "The historical Pale Blue Dot image of Earth from Voyager 1, not a new image taken at the November 2026 milestone.",
+    "description": "This is the \" Pale Blue Dot \" photograph of the Earth taken by the Voyager 1 spacecraft on February 14, 1990. The Earth is the relatively bright speck of light about halfway across the uppermost sunbeam. The original version of this image can be obtained from NASA . The original caption reads as follows: This narrow-angle color image of the Earth , dubbed 'Pale Blue Dot', is a part of the first ever 'portrait' of the solar system taken by Voyager 1 . The spacecraft acquired a total of 60 frames for a mosaic of the solar system from a distance of more than 4 billion miles from Earth and about 32 degrees above the ecliptic . From Voyager's great distance Earth is a mere point of light, less than the size of a picture element even in the narrow-angle camera. Earth was a crescent only 0.12 pixel in size. Coincidentally, Earth lies right in the center of one of the scattered light rays resulting from taking the image so close to the sun . This blown-up image of the Earth was taken through three color filters -- violet, blue and green -- and recombined to produce the color image. The background features in the image are artifacts resulting from the magnification.",
+    "caption": "The historical Pale Blue Dot image of Earth from Voyager 1, not a new image taken at the November 2026 milestone.",
+    "width": 850,
+    "height": 960,
+    "bytes": 35838,
+    "sha1": "2eaa031d25158f68c3164606bbde53d25f055ef7",
+    "photographedAt": "1990-02-14",
+    "query": "Pale Blue Dot Earth Voyager",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

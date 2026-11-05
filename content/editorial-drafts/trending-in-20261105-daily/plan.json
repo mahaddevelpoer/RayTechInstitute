@@ -1,0 +1,2676 @@
+{
+  "date": "2026-11-05",
+  "region": "IN",
+  "sourceCsv": "trending_IN_1d_20261105-1117.csv",
+  "sourceSha256": "29a97241c64e0cc7b460975e995e78ff1452f216097eb72fcb2c855f7b3a2764",
+  "publicationAuthorized": true,
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "baselineArticles": 296,
+  "hosting": "cloudflare-pages",
+  "fullyReviewed": false,
+  "pendingPakistan": {
+    "remaining": 23,
+    "state": "deferred-until-india-file-complete",
+    "planSha256": "78599d823f30b6a27a1601d75b11336f6672b15e2ee8c7f10842a3611d8b600a"
+  },
+  "groups": [
+    {
+      "key": "voyager-1",
+      "topic": "Voyager 1: the November 2026 light-day milestone",
+      "category": "science",
+      "queries": [
+        "voyager 1"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "voyager-1-one-light-day-november-2026-explained"
+    },
+    {
+      "key": "ktet-hall-ticket",
+      "topic": "KTET November 2026 hall ticket and exam-day guide",
+      "category": "education",
+      "queries": [
+        "ktet hall ticket download"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "ktet-hall-ticket-november-2026-official-download-guide"
+    },
+    {
+      "key": "cbse-class10-2027",
+      "topic": "CBSE Class 10 2027: official date-sheet checks",
+      "category": "education",
+      "queries": [
+        "date sheet of class 10 2027 cbse board"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "ssc-cgl-answer-key",
+      "topic": "SSC CGL 2026: answer keys and response-sheet reading",
+      "category": "education",
+      "queries": [
+        "ssc cgl answer key 2026"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "uidai-aadhaar",
+      "topic": "UIDAI Aadhaar: official services and privacy",
+      "category": "technology",
+      "queries": [
+        "uidai aadhaar",
+        "आधार"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "uidai-aadhaar-official-services-privacy-guide"
+    },
+    {
+      "key": "csir-net",
+      "topic": "CSIR-UGC NET: official bulletins and study planning",
+      "category": "education",
+      "queries": [
+        "csir net"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "5g",
+      "topic": "5G explained: coverage, devices and real performance",
+      "category": "technology",
+      "queries": [
+        "5g"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "5g-explained-coverage-devices-speed-latency-guide"
+    },
+    {
+      "key": "bsnl",
+      "topic": "BSNL services, selfcare and coverage checks",
+      "category": "technology",
+      "queries": [
+        "भारत संचार निगम लिमिटेड"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "bsnl-selfcare-bills-recharge-coverage-support-guide"
+    },
+    {
+      "key": "delhi-ncr-aqi",
+      "topic": "Delhi NCR AQI: city, station, scale and timestamp",
+      "category": "science",
+      "queries": [
+        "delhi aqi today",
+        "aqi noida",
+        "aqi gurgaon"
+      ],
+      "state": "research-pending"
+    },
+    {
+      "key": "sensex",
+      "topic": "Sensex: index points, percentages and market reading",
+      "category": "economy",
+      "queries": [
+        "sensex"
+      ],
+      "state": "local-verified-unpublished",
+      "slug": "sensex-explained-index-points-percentages-weighting"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 2,
+      "topic": "aek vs real madrid",
+      "state": "already-covered",
+      "target": "aek-real-madrid-2-3-valverde-comeback-2026"
+    },
+    {
+      "row": 3,
+      "topic": "west indies vs bangladesh",
+      "state": "already-covered",
+      "target": "bangladesh-west-indies-second-test-sylhet-november-2026"
+    },
+    {
+      "row": 4,
+      "topic": "fenerbahçe vs liverpool",
+      "state": "already-covered",
+      "target": "fenerbahce-liverpool-3-2-goals-november-2026"
+    },
+    {
+      "row": 5,
+      "topic": "rb leipzig vs man city",
+      "state": "already-covered",
+      "target": "leipzig-man-city-2-3-haaland-winner-2026"
+    },
+    {
+      "row": 6,
+      "topic": "wi vs ban",
+      "state": "already-covered",
+      "target": "bangladesh-west-indies-second-test-sylhet-november-2026"
+    },
+    {
+      "row": 7,
+      "topic": "ramayana movie review",
+      "breakdown": "ramayana movie review,ramayana movie collection,ramayana movie budget,ramayana rise of a legend review,ramayana box office collection,ramayana collection,ramayan review,ramayan movie review,ramayana 2026,box office collection,ramayana reviews,ramayana part 1,ramayana movie rating,ramayan movie collection,bms,nitesh tiwari,ramayana movie ranbir kapoor,ramayana movie box office collection,yash,ram",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 8,
+      "topic": "slavia praha vs arsenal",
+      "state": "already-covered",
+      "target": "slavia-arsenal-1-2-madueke-gyokeres-2026"
+    },
+    {
+      "row": 9,
+      "topic": "west indies cricket team vs bangladesh national cricket team match scorecard",
+      "state": "already-covered",
+      "target": "bangladesh-west-indies-second-test-sylhet-november-2026"
+    },
+    {
+      "row": 10,
+      "topic": "विराट कोहली",
+      "breakdown": "विराट कोहली,सचिन तेंदुलकर,भारत न्यूजीलैंड वनडे सीरीज",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 11,
+      "topic": "వైరల్ వీడియో",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 12,
+      "topic": "ssc cgl answer key 2026",
+      "state": "queued",
+      "group": "ssc-cgl-answer-key"
+    },
+    {
+      "row": 13,
+      "topic": "५ नवम्बर",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 14,
+      "topic": "செய்தி",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 15,
+      "topic": "lens vs como",
+      "breakdown": "lens vs como,como,anastasios douvikas,rc lens vs como 1907 standings,como fc,como vs,uefa champions league table,lens",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 16,
+      "topic": "voyager 1",
+      "state": "queued",
+      "group": "voyager-1"
+    },
+    {
+      "row": 17,
+      "topic": "date sheet of class 10 2027 cbse board",
+      "state": "queued",
+      "group": "cbse-class10-2027"
+    },
+    {
+      "row": 18,
+      "topic": "बच्चा",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 19,
+      "topic": "dortmund vs betis",
+      "state": "already-covered",
+      "target": "dortmund-betis-2-1-silva-karetsas-2026"
+    },
+    {
+      "row": 20,
+      "topic": "united arab emirates national cricket team vs oman national cricket team standings",
+      "state": "already-covered",
+      "target": "oman-uae-cricket-league-two-standings-guide"
+    },
+    {
+      "row": 21,
+      "topic": "google voluntary buyouts",
+      "breakdown": "google voluntary buyouts,google buyouts,google voluntary exit,google voluntary exit program",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 22,
+      "topic": "agniveers",
+      "breakdown": "agniveers,agniveer,government,agniveer news,cds",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 23,
+      "topic": "காய்கறி",
+      "state": "needs-intent-review",
+      "breakdown": "காய்கறி"
+    },
+    {
+      "row": 24,
+      "topic": "sensex",
+      "state": "queued",
+      "group": "sensex"
+    },
+    {
+      "row": 25,
+      "topic": "xiaomi hyperos 4",
+      "breakdown": "xiaomi hyperos 4",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 26,
+      "topic": "জাহাজ",
+      "breakdown": "জাহাজ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 27,
+      "topic": "பிக் பாஸ் தமிழ்",
+      "breakdown": "பிக் பாஸ் தமிழ்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 28,
+      "topic": "rama ekadashi vrat katha",
+      "breakdown": "rama ekadashi vrat katha,rama ekadashi,ekadashi vrat katha,aaj kaun si ekadashi hai,rama ekadashi 2026,ekadashi,ekadashi kab hai,aaj ekadashi hai kya,एकादशी कब है,rama ekadashi ki katha,aaj ekadashi hai,rama ekadashi katha,november mein ekadashi kab hai,rama ekadashi kab hai,ekadashi ki katha,एकादशी कब की है,आज का पंचांग तिथि,kab hai",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 29,
+      "topic": "राज योग",
+      "breakdown": "राज योग",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 30,
+      "topic": "ನಟ",
+      "breakdown": "ನಟ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 31,
+      "topic": "porto vs napoli",
+      "state": "already-covered",
+      "target": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026"
+    },
+    {
+      "row": 32,
+      "topic": "kings vs lakers",
+      "breakdown": "kings vs lakers",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 33,
+      "topic": "k.c. bokadia",
+      "breakdown": "k.c. bokadia,k. c. bokadia",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 34,
+      "topic": "எலான் மஸ்க்",
+      "breakdown": "எலான் மஸ்க்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 35,
+      "topic": "सफारी",
+      "breakdown": "सफारी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 36,
+      "topic": "தினமலர்",
+      "breakdown": "தினமலர்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 37,
+      "topic": "kerala lottery results dl 76",
+      "breakdown": "kerala lottery results dl 76,dl76,lottery result",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 38,
+      "topic": "crude oil price",
+      "breakdown": "crude oil price,crude oil price today,oil prices,brent crude,oil price today",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 39,
+      "topic": "amrita rao",
+      "breakdown": "amrita rao",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 40,
+      "topic": "manish goel",
+      "breakdown": "manish goel,manish bigg boss 20",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 41,
+      "topic": "नकली नोट",
+      "state": "needs-intent-review",
+      "breakdown": "नकली नोट"
+    },
+    {
+      "row": 42,
+      "topic": "आलू",
+      "state": "needs-intent-review",
+      "breakdown": "आलू"
+    },
+    {
+      "row": 43,
+      "topic": "पेट्रोल",
+      "breakdown": "पेट्रोल",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 44,
+      "topic": "జయసుధ",
+      "breakdown": "జయసుధ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 45,
+      "topic": "virat kohli photo",
+      "breakdown": "virat kohli photo,virat kohli photos,virat birthday,virat kohli ka birthday kab aata hai,king kohli,virat kohli ka photo,happy birthday virat kohli,happy birthday,virat kohli ka birthday,virat kohli stats",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 46,
+      "topic": "லோகேஷ் கனகராஜ்",
+      "breakdown": "லோகேஷ் கனகராஜ்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 47,
+      "topic": "kohli",
+      "breakdown": "kohli,virat,ind vs nz 2nd odi,new zealand cricket match,indian cricket,live cricket match new zealand,virat kohli pic,new zealand cricket,cricket match new zealand,ind vs nz odi scorecard,dls method,ind vs nz odi highlights,live score ind vs nz,live cricket match ind vs nz odi,ind vs nz next match,match score,ind vs nz live score,india vs new zealand live streaming channel",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 48,
+      "topic": "రామాయణం",
+      "breakdown": "రామాయణం",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 49,
+      "topic": "रूस",
+      "breakdown": "रूस",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 50,
+      "topic": "virat kohli age",
+      "breakdown": "virat kohli age",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 51,
+      "topic": "us president",
+      "breakdown": "us president,america president",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 52,
+      "topic": "ramayana release date",
+      "breakdown": "ramayana release date",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 53,
+      "topic": "pension",
+      "state": "needs-intent-review",
+      "breakdown": "pension"
+    },
+    {
+      "row": 54,
+      "topic": "ట్రైలర్",
+      "breakdown": "ట్రైలర్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 55,
+      "topic": "শচীন তেন্ডুলকর",
+      "breakdown": "শচীন তেন্ডুলকর",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 56,
+      "topic": "वकील",
+      "breakdown": "वकील",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 57,
+      "topic": "amrita arora ladak",
+      "breakdown": "amrita arora ladak",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 58,
+      "topic": "rockstar games gta vi",
+      "state": "already-covered",
+      "target": "gta-6-release-date-platforms-pakistan-buying-guide"
+    },
+    {
+      "row": 59,
+      "topic": "ഇറാന്",
+      "breakdown": "ഇറാന്,അഭിജീത് ദീപ്കെ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 60,
+      "topic": "dhanteras 2026 date and time",
+      "breakdown": "dhanteras 2026 date and time",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 61,
+      "topic": "ஈரான்",
+      "breakdown": "ஈரான்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 62,
+      "topic": "suzlon share price",
+      "breakdown": "suzlon share price,pfc share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 63,
+      "topic": "అంబటి రాయుడు",
+      "breakdown": "అంబటి రాయుడు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 64,
+      "topic": "spurs vs mavericks",
+      "breakdown": "spurs vs mavericks",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 65,
+      "topic": "बोनस शेयर",
+      "breakdown": "बोनस शेयर",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 66,
+      "topic": "థ్రిల్లర్",
+      "breakdown": "థ్రిల్లర్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 67,
+      "topic": "como 1907",
+      "breakdown": "como 1907,nico paz,como vs lens",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 68,
+      "topic": "आशीष विद्यार्थी",
+      "breakdown": "आशीष विद्यार्थी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 69,
+      "topic": "crown new materials stock surge",
+      "breakdown": "crown new materials stock surge",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 70,
+      "topic": "धनतेरस",
+      "breakdown": "धनतेरस,सोना,निवेश,chandi ka bhav,सोने चांदी,chandi price today,sone ka bhav,18k सोने का भाव आज,चांदी का भाव आज",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 71,
+      "topic": "सौर ऊर्जा",
+      "state": "already-covered",
+      "target": "solar-power-panels-inverters-batteries-pakistan-guide"
+    },
+    {
+      "row": 72,
+      "topic": "muhurat trading 2026",
+      "breakdown": "muhurat trading 2026,hdfc share price,icici bank share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 73,
+      "topic": "अंतरिक्ष",
+      "breakdown": "अंतरिक्ष",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 74,
+      "topic": "ins brahmaputra",
+      "breakdown": "ins brahmaputra,court-martial,indian navy",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 75,
+      "topic": "আলেকজান্দ্রা টেলর",
+      "breakdown": "আলেকজান্দ্রা টেলর",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 76,
+      "topic": "cummins india share price",
+      "breakdown": "cummins india share price,cummins india share,cnbc awaaz live,cummins india",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 77,
+      "topic": "new president of usa",
+      "breakdown": "new president of usa",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 78,
+      "topic": "நவம்பர் 5",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 79,
+      "topic": "rockets vs timberwolves",
+      "breakdown": "rockets vs timberwolves",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 80,
+      "topic": "ধনতেরাস",
+      "breakdown": "ধনতেরাস",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 81,
+      "topic": "bse share price",
+      "breakdown": "bse share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 82,
+      "topic": "itc share price",
+      "breakdown": "itc share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 83,
+      "topic": "lenskart share price",
+      "breakdown": "lenskart share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 84,
+      "topic": "ভারতীয় রেল",
+      "breakdown": "ভারতীয় রেল",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 85,
+      "topic": "iii",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 86,
+      "topic": "bel share price",
+      "breakdown": "bel share price,bel share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 87,
+      "topic": "indigo share price",
+      "breakdown": "indigo share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 88,
+      "topic": "बारिश",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 89,
+      "topic": "tata motors share price",
+      "breakdown": "tata motors share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 90,
+      "topic": "sbi share price",
+      "breakdown": "sbi share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 91,
+      "topic": "coal india share price",
+      "breakdown": "coal india share price,coal india share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 92,
+      "topic": "பெண்",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 93,
+      "topic": "चीनी",
+      "breakdown": "चीनी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 94,
+      "topic": "pi industries share",
+      "breakdown": "pi industries share,pi industries",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 95,
+      "topic": "ವಿಜಯ್ ಮಲ್ಯ",
+      "breakdown": "ವಿಜಯ್ ಮಲ್ಯ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 96,
+      "topic": "dow jones",
+      "breakdown": "dow jones,nasdaq,dow jones industrial average,nasdaq live,nasdaq today,dow jones index,dow futures,s&p 500,dow",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 97,
+      "topic": "अमृता अरोड़ा",
+      "breakdown": "अमृता अरोड़ा",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 98,
+      "topic": "ril share price",
+      "breakdown": "ril share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 99,
+      "topic": "jio finance share price",
+      "breakdown": "jio finance share price,jio financial services share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 100,
+      "topic": "adani power share price",
+      "breakdown": "adani power share price,adani power share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 101,
+      "topic": "barack obama",
+      "breakdown": "barack obama",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 102,
+      "topic": "jd vance",
+      "breakdown": "jd vance,iran news",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 103,
+      "topic": "seven seater",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 104,
+      "topic": "gail share price",
+      "breakdown": "gail share price,icicidirect,gift nifty live today",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 105,
+      "topic": "शनि की साढ़े साती",
+      "breakdown": "शनि की साढ़े साती",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 106,
+      "topic": "gold price today kolkata",
+      "breakdown": "gold price today kolkata,today gold rate bangalore,silver rate today mumbai,gold rate today pune,gold price today 22 carat,gold rate today 22 carat,gold rate today 18 carat,gold silver rate",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 107,
+      "topic": "৫ নভেম্বর",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 108,
+      "topic": "சேமிப்பு",
+      "breakdown": "சேமிப்பு",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 109,
+      "topic": "west indies vs england lions scorecard",
+      "breakdown": "west indies vs england lions scorecard",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 110,
+      "topic": "women's big bash league",
+      "breakdown": "women's big bash league,hobart hurricanes vs melbourne renegades,hobart hurricanes vs melbourne renegades match scorecard,hayley matthews,nicola carey,sophie molineux,lizelle lee,bbl women",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 111,
+      "topic": "ongc share price",
+      "breakdown": "ongc share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 112,
+      "topic": "acc u-19 asia cup",
+      "breakdown": "acc u-19 asia cup",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 113,
+      "topic": "playstation store black friday sale",
+      "breakdown": "playstation store black friday sale,ps black friday sale 2026,black friday sale ps5 games,black friday sale ps5",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 114,
+      "topic": "याचिका",
+      "breakdown": "याचिका,सूर्यकांत",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 115,
+      "topic": "tata steel share",
+      "breakdown": "tata steel share,tata steel share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 116,
+      "topic": "గుడ్డు",
+      "breakdown": "గుడ్డు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 117,
+      "topic": "bajaj finance share",
+      "breakdown": "bajaj finance share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 118,
+      "topic": "mcx share price",
+      "breakdown": "mcx share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 119,
+      "topic": "इज़राइल",
+      "breakdown": "इज़राइल",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 120,
+      "topic": "new ott releases november 6 2026",
+      "breakdown": "new ott releases november 6 2026,dulquer salmaan,im game",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 121,
+      "topic": "titan share price",
+      "breakdown": "titan share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 122,
+      "topic": "క్రికెట్",
+      "breakdown": "క్రికెట్,విరాట్ కోహ్లి",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 123,
+      "topic": "శుక్రుడు",
+      "breakdown": "శుక్రుడు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 124,
+      "topic": "ক্রিকেট",
+      "breakdown": "ক্রিকেট,বিরাট কোহলি",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 125,
+      "topic": "ధనం",
+      "breakdown": "ధనం",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 126,
+      "topic": "राघव जुयाल",
+      "breakdown": "राघव जुयाल",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 127,
+      "topic": "ntpc share price",
+      "breakdown": "ntpc share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 128,
+      "topic": "5g",
+      "state": "queued",
+      "group": "5g"
+    },
+    {
+      "row": 129,
+      "topic": "senate",
+      "breakdown": "senate,senator,sarah jukaku",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 130,
+      "topic": "రైలు",
+      "breakdown": "రైలు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 131,
+      "topic": "pistons vs 76ers",
+      "breakdown": "pistons vs 76ers,and",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 132,
+      "topic": "ios",
+      "breakdown": "ios",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 133,
+      "topic": "वेतन आयोग",
+      "breakdown": "वेतन आयोग,पेंशन",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 134,
+      "topic": "vedanta power share price",
+      "breakdown": "vedanta power share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 135,
+      "topic": "well marked low pressure area murasu",
+      "breakdown": "well marked low pressure area murasu,depression murasu",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 136,
+      "topic": "சம்பளம்",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 137,
+      "topic": "sunny deol",
+      "breakdown": "sunny deol",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 138,
+      "topic": "वायरल वीडियो",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 139,
+      "topic": "clippers vs heat",
+      "breakdown": "clippers vs heat",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 140,
+      "topic": "हॉकी",
+      "breakdown": "हॉकी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 141,
+      "topic": "वंदे भारत एक्सप्रेस",
+      "breakdown": "वंदे भारत एक्सप्रेस",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 142,
+      "topic": "hpcl share price",
+      "breakdown": "hpcl share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 143,
+      "topic": "விராட் கோலி",
+      "breakdown": "விராட் கோலி",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 144,
+      "topic": "nasa",
+      "breakdown": "nasa",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 145,
+      "topic": "भारतीय रिज़र्व बैंक",
+      "breakdown": "भारतीय रिज़र्व बैंक",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 146,
+      "topic": "ओडिशा",
+      "breakdown": "ओडिशा",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 147,
+      "topic": "धनतेरस कब की है",
+      "breakdown": "धनतेरस कब की है,धनतेरस कब है 2026,dhan teras,2026 में धनतेरस कब है",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 148,
+      "topic": "ಕಬ್ಬು",
+      "breakdown": "ಕಬ್ಬು",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 149,
+      "topic": "gt 750 price",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 150,
+      "topic": "आधार",
+      "state": "queued",
+      "group": "uidai-aadhaar"
+    },
+    {
+      "row": 151,
+      "topic": "shaik rasheed",
+      "breakdown": "shaik rasheed",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 152,
+      "topic": "భారత జాతీయ క్రికెట్ జట్టు",
+      "breakdown": "భారత జాతీయ క్రికెట్ జట్టు,రోహిత్ శర్మ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 153,
+      "topic": "tesla share price",
+      "breakdown": "tesla share price,spacex share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 154,
+      "topic": "బిగ్ బాస్",
+      "breakdown": "బిగ్ బాస్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 155,
+      "topic": "అర్ష్దీప్ సింగ్",
+      "breakdown": "అర్ష్దీప్ సింగ్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 156,
+      "topic": "asian paints share price",
+      "breakdown": "asian paints share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 157,
+      "topic": "વિરાટ કોહલી",
+      "breakdown": "વિરાટ કોહલી",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 158,
+      "topic": "district",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 159,
+      "topic": "केंद्रीय औद्योगिक सुरक्षा बल",
+      "breakdown": "केंद्रीय औद्योगिक सुरक्षा बल",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 160,
+      "topic": "yes bank share",
+      "breakdown": "yes bank share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 161,
+      "topic": "వరి",
+      "breakdown": "వరి",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 162,
+      "topic": "ऐश्वर्या राय बच्चन",
+      "breakdown": "ऐश्वर्या राय बच्चन",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 163,
+      "topic": "tata motors share",
+      "breakdown": "tata motors share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 164,
+      "topic": "ट्विशा",
+      "breakdown": "ट्विशा",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 165,
+      "topic": "did trump lose midterms",
+      "breakdown": "did trump lose midterms,president of usa,us midterm elections donald trump,midterm elections results senate,american election results today,trump news today,us presidential elections",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 166,
+      "topic": "bengaluru techies lifestyle spending contrast",
+      "breakdown": "bengaluru techies lifestyle spending contrast",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 167,
+      "topic": "लता मंगेशकर",
+      "breakdown": "लता मंगेशकर",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 168,
+      "topic": "ராதிகா ஆப்தே",
+      "breakdown": "ராதிகா ஆப்தே",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 169,
+      "topic": "pictures",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 170,
+      "topic": "विनफास्ट",
+      "breakdown": "विनफास्ट",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 171,
+      "topic": "సాగునీరు",
+      "breakdown": "సాగునీరు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 172,
+      "topic": "lottery sambad",
+      "breakdown": "lottery sambad,dear lottery,lottery sambad today,dear result,nagaland state lottery,nagaland lottery,nagaland lottery result,nagaland lottery sambad",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 173,
+      "topic": "आज का राशिफल",
+      "breakdown": "आज का राशिफल,टैरो",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 174,
+      "topic": "interest rate",
+      "state": "needs-intent-review",
+      "breakdown": "interest rate"
+    },
+    {
+      "row": 175,
+      "topic": "वीडियो",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 176,
+      "topic": "योजना",
+      "breakdown": "योजना",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 177,
+      "topic": "west indies cricket team",
+      "breakdown": "west indies cricket team",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 178,
+      "topic": "अनिल सिंघवी",
+      "breakdown": "अनिल सिंघवी,स्टॉक",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 179,
+      "topic": "kareena kapoor",
+      "breakdown": "kareena kapoor,saif ali khan",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 180,
+      "topic": "bhel share price",
+      "breakdown": "bhel share price,bhel",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 181,
+      "topic": "రైతు",
+      "breakdown": "రైతు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 182,
+      "topic": "ಜ್ಯೋತಿಷ್ಯ",
+      "breakdown": "ಜ್ಯೋತಿಷ್ಯ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 183,
+      "topic": "thunder vs cavaliers",
+      "breakdown": "thunder vs cavaliers",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 184,
+      "topic": "ஆவின் பாலகம்",
+      "breakdown": "ஆவின் பாலகம்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 185,
+      "topic": "rma",
+      "breakdown": "rma",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 186,
+      "topic": "വിരാട് കോഹ്ലി",
+      "breakdown": "വിരാട് കോഹ്ലി,ഇന്ത്യന് ദേശീയ ക്രിക്കറ്റ് ടീം",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 187,
+      "topic": "ईरान",
+      "breakdown": "ईरान",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 188,
+      "topic": "adani enterprises share price",
+      "breakdown": "adani enterprises share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 189,
+      "topic": "બેંક નોટ",
+      "breakdown": "બેંક નોટ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 190,
+      "topic": "l&t share price",
+      "breakdown": "l&t share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 191,
+      "topic": "mercedes benz glc ev",
+      "breakdown": "mercedes benz glc ev",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 192,
+      "topic": "४ नवम्बर",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 193,
+      "topic": "investing com",
+      "breakdown": "investing com",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 194,
+      "topic": "micron",
+      "breakdown": "micron,micron share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 195,
+      "topic": "పెట్టుబడి",
+      "breakdown": "పెట్టుబడి",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 196,
+      "topic": "பட்டாசு",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 197,
+      "topic": "knicks vs bulls",
+      "breakdown": "knicks vs bulls",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 198,
+      "topic": "വിസ",
+      "breakdown": "വിസ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 199,
+      "topic": "यो यो हनी सिंह",
+      "breakdown": "यो यो हनी सिंह",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 200,
+      "topic": "child",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 201,
+      "topic": "theft",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 202,
+      "topic": "ಬೆಂಗಳೂರು ಮಹಾನಗರ ಸಾರಿಗೆ ಸಂಸ್ಥೆ",
+      "breakdown": "ಬೆಂಗಳೂರು ಮಹಾನಗರ ಸಾರಿಗೆ ಸಂಸ್ಥೆ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 203,
+      "topic": "ಮಳೆ",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 204,
+      "topic": "বেতন",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 205,
+      "topic": "aboubakary koïta",
+      "breakdown": "aboubakary koïta",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 206,
+      "topic": "छत्तीसगढ़",
+      "breakdown": "छत्तीसगढ़",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 207,
+      "topic": "apollo hospital share price",
+      "breakdown": "apollo hospital share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 208,
+      "topic": "mahi vij",
+      "breakdown": "mahi vij,mahhi vij",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 209,
+      "topic": "5 november",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 210,
+      "topic": "देवेंद्र फडणवीस",
+      "breakdown": "देवेंद्र फडणवीस",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 211,
+      "topic": "trident share price",
+      "breakdown": "trident share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 212,
+      "topic": "pfc q2 results",
+      "breakdown": "pfc q2 results,power finance corporation q2 results,pfc share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 213,
+      "topic": "gasoline",
+      "state": "needs-intent-review",
+      "breakdown": "gasoline"
+    },
+    {
+      "row": 214,
+      "topic": "the hindu",
+      "breakdown": "the hindu",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 215,
+      "topic": "sgx",
+      "breakdown": "sgx",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 216,
+      "topic": "vinícius júnior",
+      "breakdown": "vinícius júnior",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 217,
+      "topic": "ஸ்ரீலீலா",
+      "breakdown": "ஸ்ரீலீலா",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 218,
+      "topic": "శ్రీలంక",
+      "breakdown": "శ్రీలంక",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 219,
+      "topic": "నవంబర్ 5",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 220,
+      "topic": "ஆசிரியர்",
+      "breakdown": "ஆசிரியர்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 221,
+      "topic": "ज़िम्बाब्वे क्रिकेट टीम",
+      "breakdown": "ज़िम्बाब्वे क्रिकेट टीम",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 222,
+      "topic": "हिन्दुस्तान",
+      "breakdown": "हिन्दुस्तान",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 223,
+      "topic": "zee business live",
+      "breakdown": "zee business live,zee business",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 224,
+      "topic": "suzlon share",
+      "breakdown": "suzlon share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 225,
+      "topic": "అన్షుల్ కాంబోజ్",
+      "breakdown": "అన్షుల్ కాంబోజ్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 226,
+      "topic": "टेलिविजन",
+      "breakdown": "टेलिविजन,स्मार्ट टीवी,टेलीविजन",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 227,
+      "topic": "திரையரங்கு",
+      "breakdown": "திரையரங்கு",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 228,
+      "topic": "n'golo kanté",
+      "breakdown": "n'golo kanté,kojo peprah oppong",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 229,
+      "topic": "चावल",
+      "breakdown": "चावल",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 230,
+      "topic": "టీవీ9 - తెలుగు",
+      "breakdown": "టీవీ9 - తెలుగు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 231,
+      "topic": "ಅಮೆರಿಕಾ ಅಮೆರಿಕಾ",
+      "breakdown": "ಅಮೆರಿಕಾ ಅಮೆರಿಕಾ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 232,
+      "topic": "നികുതി",
+      "breakdown": "നികുതി",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 233,
+      "topic": "एशियन हॉकी चैंपियंस ट्रॉफी",
+      "breakdown": "एशियन हॉकी चैंपियंस ट्रॉफी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 234,
+      "topic": "amul",
+      "breakdown": "amul",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 235,
+      "topic": "tata power share",
+      "breakdown": "tata power share",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 236,
+      "topic": "प्याज",
+      "breakdown": "प्याज",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 237,
+      "topic": "शेतकरी",
+      "breakdown": "शेतकरी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 238,
+      "topic": "सावधि जमा",
+      "breakdown": "सावधि जमा",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 239,
+      "topic": "भारत संचार निगम लिमिटेड",
+      "state": "queued",
+      "group": "bsnl"
+    },
+    {
+      "row": 240,
+      "topic": "weather coimbatore",
+      "breakdown": "weather coimbatore,coimbatore weather",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 241,
+      "topic": "nabeela syed illinois",
+      "breakdown": "nabeela syed illinois,nabeela syed election",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 242,
+      "topic": "global market today",
+      "breakdown": "global market today",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 243,
+      "topic": "carlos alcaraz",
+      "breakdown": "carlos alcaraz",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 244,
+      "topic": "thibaut courtois",
+      "breakdown": "thibaut courtois",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 245,
+      "topic": "పి.వి. సింధు",
+      "breakdown": "పి.వి. సింధు",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 246,
+      "topic": "आज तक",
+      "breakdown": "आज तक",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 247,
+      "topic": "crackers",
+      "state": "needs-intent-review",
+      "breakdown": "crackers"
+    },
+    {
+      "row": 248,
+      "topic": "মুম্বই ইন্ডিয়ান্স",
+      "breakdown": "মুম্বই ইন্ডিয়ান্স",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 249,
+      "topic": "உர்வில் படேல்",
+      "breakdown": "உர்வில் படேல்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 250,
+      "topic": "america",
+      "breakdown": "america",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 251,
+      "topic": "கும்பகோணம்",
+      "breakdown": "கும்பகோணம்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 252,
+      "topic": "federico valverde",
+      "breakdown": "federico valverde,madrid vs,valverde,real madrid vs athens",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 253,
+      "topic": "qualcomm share price",
+      "breakdown": "qualcomm share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 254,
+      "topic": "अग्निपथ योजना",
+      "breakdown": "अग्निपथ योजना",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 255,
+      "topic": "cardiff city vs west ham",
+      "breakdown": "cardiff city vs west ham",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 256,
+      "topic": "alexander zverev",
+      "breakdown": "alexander zverev,lorenzo musetti,djokovic,zverev",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 257,
+      "topic": "തട്ടിപ്പ്",
+      "breakdown": "തട്ടിപ്പ്",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 258,
+      "topic": "ವೇತನ ಆಯೋಗ",
+      "breakdown": "ವೇತನ ಆಯೋಗ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 259,
+      "topic": "jobe bellingham",
+      "breakdown": "jobe bellingham",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 260,
+      "topic": "lewis hamilton",
+      "breakdown": "lewis hamilton",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 261,
+      "topic": "rinky hijikata",
+      "breakdown": "rinky hijikata,novak djokovic",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 262,
+      "topic": "michael carrick",
+      "breakdown": "michael carrick",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 263,
+      "topic": "ధన త్రయోదశి",
+      "breakdown": "ధన త్రయోదశి",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 264,
+      "topic": "বাংলা ক্রিকেট দল",
+      "breakdown": "বাংলা ক্রিকেট দল",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 265,
+      "topic": "mohandas pai",
+      "breakdown": "mohandas pai",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 266,
+      "topic": "investing",
+      "breakdown": "investing",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 267,
+      "topic": "ra",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 268,
+      "topic": "al hilal saudi club",
+      "breakdown": "al hilal saudi club",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 269,
+      "topic": "nikkei 225",
+      "breakdown": "nikkei 225,nikkei index",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 270,
+      "topic": "ban बनाम wi",
+      "state": "already-covered",
+      "target": "bangladesh-west-indies-second-test-sylhet-november-2026"
+    },
+    {
+      "row": 271,
+      "topic": "மழை",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 272,
+      "topic": "jude bellingham",
+      "breakdown": "jude bellingham",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 273,
+      "topic": "nasdaq 100",
+      "breakdown": "nasdaq 100",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 274,
+      "topic": "ಹಾಲು",
+      "breakdown": "ಹಾಲು",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 275,
+      "topic": "रन आउट",
+      "breakdown": "रन आउट",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 276,
+      "topic": "திருட்டு",
+      "breakdown": "திருட்டு",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 277,
+      "topic": "കടലിടുക്ക്",
+      "breakdown": "കടലിടുക്ക്",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 278,
+      "topic": "मुंबई महापालिका आयुक्त",
+      "breakdown": "मुंबई महापालिका आयुक्त",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 279,
+      "topic": "మద్యం",
+      "breakdown": "మద్యం",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 280,
+      "topic": "celtics vs bucks",
+      "breakdown": "celtics vs bucks",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 281,
+      "topic": "csir net",
+      "state": "queued",
+      "group": "csir-net"
+    },
+    {
+      "row": 282,
+      "topic": "રોકાણ",
+      "breakdown": "રોકાણ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 283,
+      "topic": "कनिका कपूर",
+      "breakdown": "कनिका कपूर",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 284,
+      "topic": "ബസ്",
+      "breakdown": "ബസ്",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 285,
+      "topic": "పత్తి",
+      "breakdown": "పత్తి",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 286,
+      "topic": "karbonn rebel",
+      "breakdown": "karbonn rebel",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 287,
+      "topic": "typhoon",
+      "breakdown": "typhoon",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 288,
+      "topic": "5 november 2026",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 289,
+      "topic": "ucl table",
+      "breakdown": "ucl table",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 290,
+      "topic": "rennes vs olympiacos",
+      "breakdown": "rennes vs olympiacos",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 291,
+      "topic": "dax index",
+      "breakdown": "dax index,dax",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 292,
+      "topic": "होर्मुज जलडमरूमध्य",
+      "breakdown": "होर्मुज जलडमरूमध्य",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 293,
+      "topic": "అగ్నిపథ్ పథకం",
+      "breakdown": "అగ్నిపథ్ పథకం",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 294,
+      "topic": "aqi gurgaon",
+      "state": "queued",
+      "group": "delhi-ncr-aqi"
+    },
+    {
+      "row": 295,
+      "topic": "লটারি সংবাদ",
+      "breakdown": "লটারি সংবাদ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 296,
+      "topic": "bruno fernandes",
+      "breakdown": "bruno fernandes",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 297,
+      "topic": "ఈటీవీ విన్",
+      "breakdown": "ఈటీవీ విన్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 298,
+      "topic": "पुलिस महानिदेशक",
+      "breakdown": "पुलिस महानिदेशक",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 299,
+      "topic": "हीरो स्प्लेंडर",
+      "breakdown": "हीरो स्प्लेंडर",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 300,
+      "topic": "রত্না দেবনাথ",
+      "breakdown": "রত্না দেবনাথ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 301,
+      "topic": "éder militão",
+      "breakdown": "éder militão",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 302,
+      "topic": "manchester city",
+      "breakdown": "manchester city,liverpool vs",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 303,
+      "topic": "madrid",
+      "breakdown": "madrid",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 304,
+      "topic": "முட்டை",
+      "breakdown": "முட்டை",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 305,
+      "topic": "નવેમ્બર ૫",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 306,
+      "topic": "ഹോക്കി ഇന്ത്യ",
+      "breakdown": "ഹോക്കി ഇന്ത്യ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 307,
+      "topic": "chhath geet",
+      "breakdown": "chhath geet",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 308,
+      "topic": "cboe volatility index",
+      "breakdown": "cboe volatility index",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 309,
+      "topic": "ఖమ్మం",
+      "breakdown": "ఖమ్మం",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 310,
+      "topic": "विराट कोहली का बर्थडे कब है",
+      "breakdown": "विराट कोहली का बर्थडे कब है",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 311,
+      "topic": "राकेश झुनझुनवाला",
+      "breakdown": "राकेश झुनझुनवाला",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 312,
+      "topic": "manuel neuer",
+      "breakdown": "manuel neuer",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 313,
+      "topic": "జైలర్",
+      "breakdown": "జైలర్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 314,
+      "topic": "real madrid standings",
+      "breakdown": "real madrid standings,jj gabriel",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 315,
+      "topic": "നവംബര് 4",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 316,
+      "topic": "ట్రాఫిక్",
+      "breakdown": "ట్రాఫిక్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 317,
+      "topic": "ipl auction 2027",
+      "breakdown": "ipl auction 2027",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 318,
+      "topic": "ரிலையன்ஸ் ஜியோ",
+      "breakdown": "ரிலையன்ஸ் ஜியோ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 319,
+      "topic": "alex de minaur",
+      "breakdown": "alex de minaur,ignacio buse",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 320,
+      "topic": "mary peltola",
+      "breakdown": "mary peltola",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 321,
+      "topic": "microsoft share price",
+      "breakdown": "microsoft share price,msft,msft stock",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 322,
+      "topic": "romelu lukaku",
+      "breakdown": "romelu lukaku",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 323,
+      "topic": "राजू शेट्टी",
+      "breakdown": "राजू शेट्टी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 324,
+      "topic": "கனடா",
+      "breakdown": "கனடா",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 325,
+      "topic": "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್",
+      "breakdown": "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 326,
+      "topic": "dortmund",
+      "breakdown": "dortmund",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 327,
+      "topic": "sara ali khan",
+      "breakdown": "sara ali khan",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 328,
+      "topic": "aqi noida",
+      "state": "queued",
+      "group": "delhi-ncr-aqi"
+    },
+    {
+      "row": 329,
+      "topic": "బ్లెయిర్ టిక్నెర్",
+      "breakdown": "బ్లెయిర్ టిక్నెర్",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 330,
+      "topic": "alex molcan",
+      "breakdown": "alex molcan",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 331,
+      "topic": "brahim díaz",
+      "breakdown": "brahim díaz",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 332,
+      "topic": "दलेर मेंहदी",
+      "breakdown": "दलेर मेंहदी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 333,
+      "topic": "fenerbahçe sk",
+      "breakdown": "fenerbahçe sk,fenerbahçe",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 334,
+      "topic": "പ്രശാന്ത് ഭൂഷണ്",
+      "breakdown": "പ്രശാന്ത് ഭൂഷണ്",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 335,
+      "topic": "charles leclerc",
+      "breakdown": "charles leclerc",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 336,
+      "topic": "rc lens",
+      "breakdown": "rc lens",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 337,
+      "topic": "rishikanth",
+      "breakdown": "rishikanth",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 338,
+      "topic": "economy",
+      "state": "needs-intent-review",
+      "breakdown": "economy"
+    },
+    {
+      "row": 339,
+      "topic": "दिल्ली सरकार",
+      "breakdown": "दिल्ली सरकार",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 340,
+      "topic": "delhi aqi today",
+      "state": "queued",
+      "group": "delhi-ncr-aqi"
+    },
+    {
+      "row": 341,
+      "topic": "झारखंड एकेडमिक काउंसिल",
+      "breakdown": "झारखंड एकेडमिक काउंसिल",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 342,
+      "topic": "नासा",
+      "breakdown": "नासा",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 343,
+      "topic": "വൈദ്യുതി",
+      "breakdown": "വൈദ്യുതി",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 344,
+      "topic": "ઈરાન",
+      "breakdown": "ઈરાન",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 345,
+      "topic": "न्यायिक अधिकारी",
+      "breakdown": "न्यायिक अधिकारी",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 346,
+      "topic": "sparsh",
+      "breakdown": "sparsh",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 347,
+      "topic": "real betis balompié",
+      "breakdown": "real betis balompié",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 348,
+      "topic": "tewolde gebremariam",
+      "breakdown": "tewolde gebremariam",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 349,
+      "topic": "khan sir anjana om kashyap lawsuit",
+      "breakdown": "khan sir anjana om kashyap lawsuit",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 350,
+      "topic": "ರೈಲು",
+      "breakdown": "ರೈಲು",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 351,
+      "topic": "பாண்டிச்சேரி",
+      "breakdown": "பாண்டிச்சேரி",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 352,
+      "topic": "bristol city vs wolves",
+      "breakdown": "bristol city vs wolves",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 353,
+      "topic": "जिला पुलिस अधीक्षक",
+      "breakdown": "जिला पुलिस अधीक्षक",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 354,
+      "topic": "game of thrones",
+      "breakdown": "game of thrones",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 355,
+      "topic": "china",
+      "breakdown": "china",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 356,
+      "topic": "yung dsa gf",
+      "breakdown": "yung dsa gf",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 357,
+      "topic": "real madrid next match",
+      "breakdown": "real madrid next match,rm vs aek",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 358,
+      "topic": "ಸಾಲ",
+      "breakdown": "ಸಾಲ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 359,
+      "topic": "नौसेना",
+      "breakdown": "नौसेना",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 360,
+      "topic": "apple share price",
+      "breakdown": "apple share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 361,
+      "topic": "rank",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 362,
+      "topic": "vision quest episode 8 release date",
+      "breakdown": "vision quest episode 8 release date",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 363,
+      "topic": "संयुक्त अरब अमीरात क्रिकेट टीम बनाम ओमान राष्ट्रीय क्रिकेट टीम टीम की रैंक",
+      "state": "already-covered",
+      "target": "oman-uae-cricket-league-two-standings-guide"
+    },
+    {
+      "row": 364,
+      "topic": "gujarat vs kerala",
+      "breakdown": "gujarat vs kerala",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 365,
+      "topic": "frances tiafoe",
+      "breakdown": "frances tiafoe",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 366,
+      "topic": "குன்னூர்",
+      "breakdown": "குன்னூர்",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 367,
+      "topic": "suspended",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 368,
+      "topic": "daniil medvedev",
+      "breakdown": "daniil medvedev",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 369,
+      "topic": "lucas da cunha",
+      "breakdown": "lucas da cunha",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 370,
+      "topic": "elnaaz norouzi",
+      "breakdown": "elnaaz norouzi",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 371,
+      "topic": "abu dhabi vs ajman",
+      "breakdown": "abu dhabi vs ajman",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 372,
+      "topic": "cancer horoscope today",
+      "breakdown": "cancer horoscope today",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 373,
+      "topic": "nvidia share price",
+      "breakdown": "nvidia share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 374,
+      "topic": "aviator",
+      "breakdown": "aviator",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 375,
+      "topic": "matteo berrettini",
+      "breakdown": "matteo berrettini",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 376,
+      "topic": "કેરેટ",
+      "breakdown": "કેરેટ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 377,
+      "topic": "real",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 378,
+      "topic": "dow jones moneycontrol",
+      "breakdown": "dow jones moneycontrol",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 379,
+      "topic": "rise and fall season 2 winner",
+      "breakdown": "rise and fall season 2 winner,rise and fall season 2",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 380,
+      "topic": "taylor fritz",
+      "breakdown": "taylor fritz",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 381,
+      "topic": "asteroid",
+      "breakdown": "asteroid",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 382,
+      "topic": "alex michelsen",
+      "breakdown": "alex michelsen",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 383,
+      "topic": "রাশিচক্র",
+      "breakdown": "রাশিচক্র",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 384,
+      "topic": "oracle share price",
+      "breakdown": "oracle share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 385,
+      "topic": "gm",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 386,
+      "topic": "காப்பீடு",
+      "breakdown": "காப்பீடு",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 387,
+      "topic": "karl bushby",
+      "breakdown": "karl bushby",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 388,
+      "topic": "next",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 389,
+      "topic": "maria sakkari",
+      "breakdown": "maria sakkari,maya joint",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 390,
+      "topic": "karen khachanov",
+      "breakdown": "karen khachanov",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 391,
+      "topic": "emma walmsley",
+      "breakdown": "emma walmsley",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 392,
+      "topic": "sylvester stallone",
+      "breakdown": "sylvester stallone",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 393,
+      "topic": "ktet hall ticket download",
+      "state": "queued",
+      "group": "ktet-hall-ticket"
+    },
+    {
+      "row": 394,
+      "topic": "ইরান",
+      "breakdown": "ইরান",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 395,
+      "topic": "all",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 396,
+      "topic": "test ranking",
+      "breakdown": "test ranking",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 397,
+      "topic": "war news",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 398,
+      "topic": "ugo humbert",
+      "breakdown": "ugo humbert",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 399,
+      "topic": "elder scrolls vi",
+      "breakdown": "elder scrolls vi",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 400,
+      "topic": "રોહિત શર્મા",
+      "breakdown": "રોહિત શર્મા",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 401,
+      "topic": "titan",
+      "breakdown": "titan",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 402,
+      "topic": "nuno borges",
+      "breakdown": "nuno borges",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 403,
+      "topic": "uidai aadhaar",
+      "state": "queued",
+      "group": "uidai-aadhaar"
+    },
+    {
+      "row": 404,
+      "topic": "temple",
+      "state": "needs-intent-review",
+      "breakdown": "temple"
+    },
+    {
+      "row": 405,
+      "topic": "ankita bhandari",
+      "breakdown": "ankita bhandari",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 406,
+      "topic": "vk sreeraman",
+      "breakdown": "vk sreeraman",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 407,
+      "topic": "learner tien",
+      "breakdown": "learner tien",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 408,
+      "topic": "amazon share price",
+      "breakdown": "amazon share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 409,
+      "topic": "qamran iqbal",
+      "breakdown": "qamran iqbal",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 410,
+      "topic": "broadcom share price",
+      "breakdown": "broadcom share price",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 411,
+      "topic": "sreeleela",
+      "breakdown": "sreeleela",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 412,
+      "topic": "susan collins",
+      "breakdown": "susan collins",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 413,
+      "topic": "இன்று தங்கம் விலை",
+      "breakdown": "இன்று தங்கம் விலை",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 414,
+      "topic": "thunderstorm",
+      "state": "needs-intent-review",
+      "breakdown": "thunderstorm"
+    },
+    {
+      "row": 415,
+      "topic": "rajasthan vs himachal pradesh",
+      "breakdown": "rajasthan vs himachal pradesh",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 416,
+      "topic": "rain delay",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    },
+    {
+      "row": 417,
+      "topic": "eenadu news",
+      "breakdown": "eenadu news",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 418,
+      "topic": "ವಿರಾಟ್ ಕೊಹ್ಲಿ",
+      "breakdown": "ವಿರಾಟ್ ಕೊಹ್ಲಿ",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 419,
+      "topic": "ayushmann khurrana",
+      "breakdown": "ayushmann khurrana,tusshar kapoor",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 420,
+      "topic": "chamari athapaththu",
+      "breakdown": "chamari athapaththu",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 421,
+      "topic": "rajat patidar",
+      "breakdown": "rajat patidar",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 422,
+      "topic": "7",
+      "state": "skipped-unclear",
+      "reason": "No specific event or service identified; standing instruction to skip unclear queries."
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "voyager-1",
+        "ktet-hall-ticket",
+        "cbse-class10-2027",
+        "ssc-cgl-answer-key",
+        "uidai-aadhaar",
+        "csir-net",
+        "5g",
+        "bsnl",
+        "delhi-ncr-aqi",
+        "sensex"
+      ],
+      "state": "partially-prepared-unpublished",
+      "preparedKeys": [
+        "voyager-1",
+        "ktet-hall-ticket",
+        "uidai-aadhaar",
+        "5g",
+        "bsnl",
+        "sensex"
+      ]
+    }
+  ],
+  "prepared": 6,
+  "published": 0,
+  "firstBatchRemaining": 4,
+  "pendingIntentReviewRows": 356
+}

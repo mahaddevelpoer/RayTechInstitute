@@ -4,11 +4,12 @@ import {execFileSync} from 'node:child_process';
 const name=process.argv[2];if(!/^[a-z0-9-]+$/.test(name||''))throw Error('Article directory required');
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261101';
 if(!/^2026110[12345](?:-daily)?$/.test(batch))throw Error('Unsupported November batch');
-const root=`content/editorial-drafts/trending-pk-${batch}`,dir=`${root}/${name}`,output=`public/images/editorial/trending-pk-${batch}`;
+const region=process.argv.find(a=>a.startsWith('--region='))?.slice(9)||'PK';if(!['PK','IN'].includes(region))throw Error('Unsupported region');
+const root=`content/editorial-drafts/trending-${region.toLowerCase()}-${batch}`,dir=`${root}/${name}`,output=`public/images/editorial/trending-${region.toLowerCase()}-${batch}`;
 const candidates=JSON.parse(fs.readFileSync(`${dir}/images-candidates.json`,'utf8'));
 if(candidates.length!==2)throw Error('Two reviewed images required');
 const used=new Set(JSON.parse(fs.readFileSync('content/editorial-revisions/trending-pk-20261030/images.json','utf8')).flatMap(r=>[r.cover.sha1,r.inline.sha1]));
-for(const folder of fs.readdirSync('content/editorial-drafts').filter(folder=>/^trending-pk-2026/.test(folder))){const date=folder.slice('trending-pk-'.length),base=`content/editorial-drafts/${folder}`;for(const other of fs.readdirSync(base)){if((date!==batch||other!==name)&&fs.existsSync(`${base}/${other}/images.json`))for(const i of JSON.parse(fs.readFileSync(`${base}/${other}/images.json`,'utf8')))used.add(i.sha1);}}
+for(const folder of fs.readdirSync('content/editorial-drafts').filter(folder=>/^trending-(?:pk|in)-2026/.test(folder))){const base=`content/editorial-drafts/${folder}`;for(const other of fs.readdirSync(base)){if((base!==root||other!==name)&&fs.existsSync(`${base}/${other}/images.json`))for(const i of JSON.parse(fs.readFileSync(`${base}/${other}/images.json`,'utf8')))used.add(i.sha1);}}
 fs.mkdirSync(output,{recursive:true});sharp.concurrency(1);sharp.cache({memory:24,files:0,items:0});const images=[];
 for(const candidate of candidates){
  const item={...candidate,licenseUrl:candidate.licenseUrl?.replace(/^http:\/\/(creativecommons\.org\/)/i,'https://$1')};
@@ -22,7 +23,7 @@ for(const candidate of candidates){
  try{execFileSync('curl.exe',[...args,thumb],{timeout:65000});}catch{execFileSync('curl.exe',[...args,u.href],{timeout:65000});}}
 
  const info=await sharp(raw,{limitInputPixels:40000000}).rotate().resize({width:1280,height:960,fit:'inside',withoutEnlargement:true}).webp({quality:80}).toFile(destination);
- images.push({...item,url:`/images/editorial/trending-pk-${batch}/${name}-${item.role}.webp`,width:info.width,height:info.height,bytes:info.size});
+ images.push({...item,url:`/images/editorial/trending-${region.toLowerCase()}-${batch}/${name}-${item.role}.webp`,width:info.width,height:info.height,bytes:info.size});
 }
 const post=JSON.parse(fs.readFileSync(`${dir}/post.json`,'utf8'));let content=fs.readFileSync(`${dir}/article.md`,'utf8');
 const inline=images.find(i=>i.role==='inline'),cover=images.find(i=>i.role==='cover');

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Antennes 5G o2 Munich.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Antennes_5G_o2_Munich.jpg/1280px-Antennes_5G_o2_Munich.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Antennes_5G_o2_Munich.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Antennes_5G_o2_Munich.jpg",
+    "creator": "Yumikember",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "5G antenna equipment in Munich, illustrating mobile infrastructure rather than coverage at an Indian address.",
+    "description": "Un site mobile de l'opérateur o2, dans le quartier de la gare de Munich, installé sur un toit-terrasse et pris de dessous depuis l'escalier d'un immeuble. On y voit des antennes longues passives émettant la 2G et la 5G sur 5 bandes de fréquences, et des antennes courtes actives émettant la 5G sur la bande des 3,5 GHz.",
+    "caption": "5G antenna equipment in Munich, illustrating mobile infrastructure rather than coverage at an Indian address.",
+    "width": 3232,
+    "height": 2424,
+    "bytes": 1790976,
+    "sha1": "e38adc18f73f5cf1038bd2ff94a781b066639316",
+    "photographedAt": "2023-10-30",
+    "query": "5G antenna base station",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Galaxy S10 5g.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Galaxy_S10_5g.jpg/1280px-Galaxy_S10_5g.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Galaxy_S10_5g.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Galaxy_S10_5g.jpg",
+    "creator": "BuBrhms",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Samsung Galaxy S10 5G handset, a historical device example rather than a current product recommendation.",
+    "description": "An Android smartphone connected to a 5G network displaying speedtest results",
+    "caption": "A Samsung Galaxy S10 5G handset, a historical device example rather than a current product recommendation.",
+    "width": 1330,
+    "height": 887,
+    "bytes": 161166,
+    "sha1": "60cfbb3078bb5a718b1c811e5a1cd37e9d80c1c3",
+    "photographedAt": "28 June 2019 (according to Exif data)",
+    "query": "5G smartphone network",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]
