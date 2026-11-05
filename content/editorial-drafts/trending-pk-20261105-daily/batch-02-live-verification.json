@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-11-05T06:13:18.338Z",
+  "hostingRun": 41978519100,
+  "resolver": "Cloudflare DNS-over-HTTPS; canonical hostname with verified TLS",
+  "edgeAddress": "172.67.139.27",
+  "localDnsPropagation": "System DNS still returned Firebase 199.36.158.100. Cloudflare DoH returned the new proxy addresses; verification retained the canonical hostname and certificate validation.",
+  "results": [
+    {
+      "name": "solar-power",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/solar-power-panels-inverters-batteries-pakistan-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/solar-power-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/solar-power-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "esteban-ocon",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/esteban-ocon-haas-departure-2026-career-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/esteban-ocon-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/esteban-ocon-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

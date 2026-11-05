@@ -282,7 +282,7 @@
       "queries": [
         "esteban ocon"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "esteban-ocon-haas-departure-2026-career-guide"
     },
@@ -301,7 +301,7 @@
       "queries": [
         "solar power"
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "category": "technology",
       "slug": "solar-power-panels-inverters-batteries-pakistan-guide"
     },
@@ -575,8 +575,9 @@
     {
       "row": 31,
       "topic": "esteban ocon",
-      "state": "queued",
-      "group": "esteban-ocon"
+      "state": "published-live-verified",
+      "group": "esteban-ocon",
+      "target": "esteban-ocon-haas-departure-2026-career-guide"
     },
     {
       "row": 32,
@@ -707,8 +708,9 @@
     {
       "row": 50,
       "topic": "solar power",
-      "state": "queued",
-      "group": "solar-power"
+      "state": "published-live-verified",
+      "group": "solar-power",
+      "target": "solar-power-panels-inverters-batteries-pakistan-guide"
     },
     {
       "row": 51,
@@ -981,8 +983,8 @@
     }
   ],
   "prepared": 12,
-  "published": 10,
-  "remaining": 25,
+  "published": 12,
+  "remaining": 23,
   "releaseBatches": [
     {
       "number": 1,
@@ -1010,7 +1012,13 @@
       ],
       "expectedSize": 2,
       "explicitUserAuthorization": "User requested exactly two more articles before the three-hour credit break, 5 November 2026.",
-      "state": "local-verified-unpublished"
+      "state": "published-live-verified",
+      "hostingRun": 41978519100,
+      "checkedAt": "2026-11-05T06:13:18.338Z",
+      "databaseReadback": {
+        "inserted": 2,
+        "preserved": 294
+      }
     }
   ]
 }
