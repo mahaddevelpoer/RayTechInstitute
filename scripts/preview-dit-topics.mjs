@@ -10,7 +10,8 @@ const bank=JSON.parse(await fs.readFile('content/imports/dit-computer-networks-c
 const note=JSON.parse(await fs.readFile('content/imports/dit-computer-networks-chapter-1-note.json','utf8'));
 const rows=bank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1}));
 const chapters=[{id:'dit-chapter-1',classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1,title:bank.chapterTitle,isActive:true}];
-const wordPreview=process.env.WORD_MCQ_PREVIEW==='1';
+const topologyPreview=process.env.TOPOLOGY_MCQ_PREVIEW==='1';
+const wordPreview=process.env.WORD_MCQ_PREVIEW==='1'||topologyPreview;
 const officePreview=process.env.OFFICE_MCQ_PREVIEW==='1'||wordPreview;
 if(officePreview){const office=JSON.parse(await fs.readFile('content/imports/dit-ms-office-chapter-1.json','utf8'));const createdAt=new Date().toISOString();rows.push(...office.questions.map(q=>({...q,classSlug:office.classSlug,subjectSlug:office.subjectSlug,chapterNumber:office.chapterNumber,createdAt})));chapters.push({id:office.chapterId,classSlug:office.classSlug,subjectSlug:office.subjectSlug,chapterNumber:office.chapterNumber,title:office.chapterTitle,isActive:true});}
 if(wordPreview){const word=JSON.parse(await fs.readFile('content/imports/dit-ms-word-2016-chapter-2.json','utf8'));const createdAt=new Date().toISOString();rows.push(...word.questions.map(q=>({...q,classSlug:word.classSlug,subjectSlug:word.subjectSlug,chapterNumber:word.chapterNumber,createdAt})));chapters.push({id:word.chapterId,classSlug:word.classSlug,subjectSlug:word.subjectSlug,chapterNumber:word.chapterNumber,title:word.chapterTitle,isActive:true});}
@@ -18,7 +19,8 @@ const bookPreview=process.env.BOOK_MCQ_PREVIEW==='1';
 const noteSnapshot=bookPreview?JSON.parse(await fs.readFile('content/imports/dit-notes-preview.json','utf8')):null;
 const previewNotes=noteSnapshot?noteSnapshot.notes:[note];
 if(noteSnapshot)chapters.splice(0,chapters.length,...noteSnapshot.chapters);
-const directory=path.resolve(bookPreview?'artifacts/dit-books-review/preview':wordPreview?'artifacts/word-mcq-review/preview':officePreview?'artifacts/office-mcq-review/preview':'artifacts/dit-topic-review/preview');await fs.mkdir(directory,{recursive:true});
+if(topologyPreview){const topology=JSON.parse(await fs.readFile('content/imports/dit-network-topology-chapter-2.json','utf8'));rows.push(...topology.questions.map(q=>({...q,classSlug:topology.classSlug,subjectSlug:topology.subjectSlug,chapterNumber:topology.chapterNumber})));chapters.push({id:topology.chapterId,classSlug:topology.classSlug,subjectSlug:topology.subjectSlug,chapterNumber:topology.chapterNumber,title:topology.chapterTitle,bookTitle:topology.bookTitle,displayChapterNumber:topology.displayChapterNumber,isActive:true});}
+const directory=path.resolve(topologyPreview?'artifacts/network-topology-review/preview':bookPreview?'artifacts/dit-books-review/preview':wordPreview?'artifacts/word-mcq-review/preview':officePreview?'artifacts/office-mcq-review/preview':'artifacts/dit-topic-review/preview');await fs.mkdir(directory,{recursive:true});
 const catalog=`export const INITIAL_CLASSES=[{slug:${JSON.stringify(bank.classSlug)},title:'D.I.T (Intermediate)'}];export const INITIAL_SUBJECTS=[{classSlug:${JSON.stringify(bank.classSlug)},slug:${JSON.stringify(bank.subjectSlug)},title:'Computer Science'}];export const INITIAL_CHAPTERS=${JSON.stringify(chapters)};export const INITIAL_NOTES=${JSON.stringify(previewNotes)};export const EducationalStore={getMCQs:()=>${JSON.stringify(rows)}};`;
 const route=`/classes/${bank.classSlug}/${bank.subjectSlug}`;
 const entry=`
@@ -51,6 +53,6 @@ const server=http.createServer(async(req,res)=>{try{
  if(path.extname(route)){const file=path.resolve(publicRoot,'.'+decodeURIComponent(route));if(!file.startsWith(publicRoot+path.sep))throw Error();res.setHeader('Content-Type',mime[path.extname(file)]||'application/octet-stream');res.end(await fs.readFile(file));return;}
  res.setHeader('Content-Type','text/html; charset=utf-8');res.end('<!doctype html><html lang="en"><head><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>DIT Chapter 1 review</title><link rel="stylesheet" href="/preview.css"></head><body><div id="root"></div><script src="/preview.js"></script></body></html>');
 }catch{res.writeHead(404).end('Not found');}});
-const port=bookPreview?4184:wordPreview?4183:officePreview?4182:4181;
+const port=topologyPreview?4187:bookPreview?4184:wordPreview?4183:officePreview?4182:4181;
 server.listen(port,'127.0.0.1',()=>console.log(`Local review: http://127.0.0.1:${port}${route}/mcqs/ . No database writes or deployment.`));
 server.on('error',error=>{console.error(error.code==='EADDRINUSE'?`Port ${port} is already in use. No existing process was stopped.`:error.message);process.exitCode=1;});
