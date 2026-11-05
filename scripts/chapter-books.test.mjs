@@ -3,6 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {loadTypescript} from './load-typescript.mjs';
 const {chapterPlacement,groupChapterBooks,chapterDisplayLabel}=await loadTypescript('src/utils/chapter-books.ts');
+test('topology note labels retain book chapter 2 when note records contain only the stored chapter position',()=>{
+ const note={id:'dit-cn-chapter-2-network-topology-mcq-notes',classSlug:'dit-intermediate',subjectSlug:'dit-computer-science',chapterNumber:4,title:'Network Topology'};
+ assert.equal(chapterDisplayLabel(note),'Computer Networking / Chapter 2: Network Topology');
+});
 const banks=await Promise.all(['dit-computer-networks-chapter-1','dit-ms-office-chapter-1','dit-ms-word-2016-chapter-2'].map(async name=>JSON.parse(await fs.readFile(`content/imports/${name}.json`,'utf8'))));
 const chapters=banks.map((bank,index)=>({id:bank.chapterId||'networking',classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:index+1,title:bank.chapterTitle,isActive:true}));
 
