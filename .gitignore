@@ -58,6 +58,7 @@ public/codi/audio/
 scripts/codi-source/node_modules/
 scripts/codi-source/dist/
 artifacts/
+.wrangler/
 # Retired local-speech/animal preview assets, not used by the cloud robot.
 public/codi/fox*
 public/codi/FOX-CREDITS.txt

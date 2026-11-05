@@ -26,6 +26,10 @@ try{
   await page.locator('.cm-content').first().fill(code);await page.getByRole('button',{name:'Run',exact:true}).click();
   await page.waitForFunction(value=>document.querySelector('.learning-output')?.textContent.includes(value),answer,{timeout:90000});
   if(language==='javascript')assert.match(await page.locator('.learning-output').innerText(),/undefined/);
+  if(language==='python'){
+   const nextTopic=LEARNING_TOPICS.filter(t=>t.languageId===language&&t.id!==topic.id).toSorted((a,b)=>a.order-b.order)[0];
+   if(nextTopic){const href='/learn/'+lang.slug+'/'+nextTopic.slug+'/';await page.locator('.learning-topics a[href="'+href+'"]').first().click();await page.waitForURL(base+href);await page.getByRole('heading',{name:nextTopic.title,level:1,exact:true}).waitFor();}
+  }
   assert.deepEqual(errors,[],language+' has no unhandled browser errors');
   await page.setViewportSize({width:360,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   results.push({language,compiled:true,mobileOverflow:false});await page.close();

@@ -8,13 +8,18 @@ on:
       hosting_target:
         description: 'Hosting destination; artifact builds do not change either live site'
         type: choice
-        options: [firebase, cloudflare, artifact]
+        options: [firebase, cloudflare, artifact, verify-cloudflare]
         default: firebase
+      export_run_id:
+        description: 'Successful artifact-mode run to verify without rebuilding'
+        type: string
+        required: false
   repository_dispatch:
     types: [content-published]
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: raytech-static-production
@@ -22,6 +27,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
+    if: inputs.hosting_target != 'verify-cloudflare'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
@@ -207,4 +213,36 @@ jobs:
         with:
           name: resource-pages
           path: artifacts/resource-pages/*.png
+          if-no-files-found: ignore
+
+  verify-cloudflare:
+    if: inputs.hosting_target == 'verify-cloudflare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+      VERIFY_BASE_URL: https://raytechinstitute.pages.dev
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: cloudflare-static-export
+          run-id: ${{ inputs.export_run_id }}
+          github-token: ${{ github.token }}
+          path: artifacts/cloudflare-migration
+      - name: Restore previously verified public export
+        run: mkdir -p out && tar -xzf artifacts/cloudflare-migration/raytech-static-export.tar.gz -C out
+      - run: npx playwright install chromium --only-shell
+      - name: Verify static delivery and isolated compiler execution on Cloudflare
+        run: node --max-old-space-size=384 scripts/verify-cloudflare-preview.mjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: cloudflare-preview-verification
+          path: artifacts/cloudflare-migration/live-preview.json
           if-no-files-found: ignore
