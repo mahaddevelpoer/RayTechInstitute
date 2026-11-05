@@ -8,7 +8,7 @@ on:
       hosting_target:
         description: 'Hosting destination; artifact builds do not change either live site'
         type: choice
-        options: [firebase, cloudflare, artifact, verify-cloudflare, review-dns, prepare-dns, deploy-cloudflare-export]
+        options: [firebase, cloudflare, artifact, verify-cloudflare, review-dns, prepare-dns, deploy-cloudflare-export, cutover-domain]
         default: firebase
       export_run_id:
         description: 'Successful artifact-mode run to verify without rebuilding'
@@ -31,7 +31,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export'
+    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export' && inputs.hosting_target != 'cutover-domain'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
@@ -218,6 +218,28 @@ jobs:
           name: resource-pages
           path: artifacts/resource-pages/*.png
           if-no-files-found: ignore
+
+  cutover-domain:
+    if: inputs.hosting_target == 'cutover-domain'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Attach verified Pages domains and preserve all non-website DNS
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node scripts/cutover-cloudflare-domain.mjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: cloudflare-domain-cutover
+          path: |
+            artifacts/cloudflare-migration/dns-before-cutover.json
+            artifacts/cloudflare-migration/domain-cutover.json
+          retention-days: 3
 
   deploy-cloudflare-export:
     if: inputs.hosting_target == 'deploy-cloudflare-export'
