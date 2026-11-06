@@ -53,7 +53,7 @@ for child in doc.element.body:
                 topics += 1
             parts.append('<h2 class="new-page">' + lines(text) + '</h2>')
         elif p.style.name == 'Heading 2':
-            
+
             if keys:
                 parts.append('<section class="answer-topic"><h3>' + lines(text) + '</h3>')
             else:
