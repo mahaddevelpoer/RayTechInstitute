@@ -1,0 +1,24 @@
+{
+  "checkedOn": "2026-11-06",
+  "suppliedNotice": {
+    "examStart": "2027-01-04",
+    "fee": 3850,
+    "deadline": "2026-11-17",
+    "issuingInstitution": "Not identified in image"
+  },
+  "officialCircular": {
+    "source": "https://www.pbte.edu.pk/uploads/NEWS/DIPLOMA%20IN%20INFORMATION%20TECHNOLOGY%20(2-YEAR)/2026/Examination_schedule_of_DIT_2_year_A2026.pdf",
+    "sha256": "732428aa361c46cd59bbd88086b141b708df04747843ccd619fe0ffb21d9024b",
+    "dated": "2026-11-03",
+    "cycle": "DIT two-year Second Annual Examination 2026",
+    "examStart": "2027-01-04",
+    "singleFee": 3700,
+    "doubleFee": 5840,
+    "tripleFee": 7980,
+    "singleOnlineDeadline": "2026-12-03",
+    "singleHardCopyDeadline": "2026-12-07"
+  },
+  "editorialDecision": "Clearly distinguish supplied collection instructions from board rules; do not invent an explanation for the Rs 150 difference. No subject timetable or individual eligibility is inferred.",
+  "publicationAuthorized": true,
+  "authorization": "User explicitly requested this article and two inline images be published; supplied notice must not be the cover."
+}

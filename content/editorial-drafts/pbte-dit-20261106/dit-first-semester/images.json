@@ -1,0 +1,48 @@
+[
+  {
+    "fileTitle": "File:Computer lab showing desktop PCs warwick.jpg",
+    "url": "/images/editorial/pbte-dit-20261106/computer-lab-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Computer_lab_showing_desktop_PCs_warwick.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_lab_showing_desktop_PCs_warwick.jpg",
+    "creator": "User Mike1024 on en.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Computer_lab_showing_desktop_PCs_warwick.jpg",
+    "alt": "Desktop computers in a University of Warwick computer laboratory, used as illustrative IT study context.",
+    "description": "This is a photo of a computer lab on the University of Warwick campus. It shows a large number of desktop PCs with flat-panel monitors.",
+    "caption": "Illustrative computer laboratory at the University of Warwick; this is not a PBTE examination centre.",
+    "width": 1280,
+    "height": 904,
+    "bytes": 190876,
+    "sha1": "a0ff4851608e3395e34492cd46d967893e2e4e9f",
+    "photographedAt": "2006-06-22",
+    "query": "intitle:computer_lab",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "role": "notice",
+    "url": "/images/editorial/pbte-dit-20261106/dit-student-notice-original.jpg",
+    "source": "User-supplied DIT student notice",
+    "creator": "Issuing institution not identified in the supplied image",
+    "license": "Supplied by the user for this publication",
+    "alt": "Supplied Urdu DIT first-semester notice showing 4 January 2027, Rs 3,850 and 17 November 2026.",
+    "caption": "Supplied student notice. Its Rs 3,850 amount and 17 November deadline differ from the official PBTE table below; the issuing institution is not named in the image.",
+    "width": 704,
+    "height": 522,
+    "bytes": 46901,
+    "sha1": "06ae10c116f8eee68f3fc5cfc9421e40e7569c82"
+  },
+  {
+    "role": "official",
+    "url": "/images/editorial/pbte-dit-20261106/pbte-official-schedule.webp",
+    "source": "https://www.pbte.edu.pk/uploads/NEWS/DIPLOMA%20IN%20INFORMATION%20TECHNOLOGY%20(2-YEAR)/2026/Examination_schedule_of_DIT_2_year_A2026.pdf",
+    "creator": "Punjab Board of Technical Education, Lahore",
+    "license": "Official notification reproduced for reporting and verification",
+    "alt": "PBTE circular dated 3 November 2026 showing DIT examination start on 4 January 2027 and single-fee total Rs 3,700.",
+    "caption": "Official PBTE circular dated 3 November 2026: DIT two-year Second Annual Examination 2026. Read the applicable category and all submission instructions.",
+    "width": 1130,
+    "height": 1800,
+    "bytes": 821410,
+    "sha1": "a968807504b4e104ba112402410b29e0a4283e13"
+  }
+]
