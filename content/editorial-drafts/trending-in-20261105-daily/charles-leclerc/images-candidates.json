@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Charles-Leclerc.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Charles-Leclerc.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Charles-Leclerc.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles-Leclerc.jpg",
+    "creator": "Gil Zetbase",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Charles Leclerc in a portrait by Gil Zetbase, used for driver identification rather than a new race result.",
+    "description": "Charles Leclerc pilote F1 Ferrari photographié par Gil Zetbase Monaco",
+    "caption": "Charles Leclerc in a portrait by Gil Zetbase, used for driver identification rather than a new race result.",
+    "width": 1000,
+    "height": 1500,
+    "bytes": 1122576,
+    "sha1": "17475a9cc09b9dfac3ef7335265d5dfe336bb8e3",
+    "photographedAt": "2020-04-23 07:53:39",
+    "query": "Charles Leclerc Ferrari Monaco",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:FIA F1 Austria 2019 Nr. 16 Leclerc 1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/FIA_F1_Austria_2019_Nr._16_Leclerc_1.jpg/1280px-FIA_F1_Austria_2019_Nr._16_Leclerc_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/FIA_F1_Austria_2019_Nr._16_Leclerc_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2019_Nr._16_Leclerc_1.jpg",
+    "creator": "Lukas Raich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Charles Leclerc’s number 16 Ferrari during the Austrian Grand Prix weekend in June 2019; historical on-track context.",
+    "description": "Leclerc beim Rennwochenende in Österreich 2019",
+    "caption": "Charles Leclerc’s number 16 Ferrari during the Austrian Grand Prix weekend in June 2019; historical on-track context.",
+    "width": 3460,
+    "height": 1945,
+    "bytes": 3814737,
+    "sha1": "3699152f3e570876b8a95442eb59d50d65099e0b",
+    "photographedAt": "2019-06-28 15:21:27",
+    "query": "Charles Leclerc 2019",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

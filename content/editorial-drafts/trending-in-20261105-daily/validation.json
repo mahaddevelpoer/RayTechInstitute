@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 70,
-  "bodyWords": 146425,
-  "uniqueImages": 140,
+  "state": "local-verified-unpublished",
+  "articles": 80,
+  "bodyWords": 168087,
+  "uniqueImages": 160,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -494,7 +494,76 @@
       "words": 2286,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "barack-obama",
+      "slug": "barack-obama-biography-presidency-civics-guide",
+      "words": 2303,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "sachin-tendulkar",
+      "slug": "sachin-tendulkar-career-cricket-records-guide",
+      "words": 2091,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "lata-mangeshkar",
+      "slug": "lata-mangeshkar-playback-singing-music-guide",
+      "words": 2086,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "shaik-rasheed",
+      "slug": "shaik-rasheed-u19-career-batting-guide",
+      "words": 2198,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jude-bellingham",
+      "slug": "jude-bellingham-career-midfield-role-guide",
+      "words": 2166,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "vinicius-junior",
+      "slug": "vinicius-junior-career-wing-play-guide",
+      "words": 2244,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "federico-valverde",
+      "slug": "federico-valverde-career-midfield-explained",
+      "words": 2145,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "thibaut-courtois",
+      "slug": "thibaut-courtois-career-goalkeeping-guide",
+      "words": 2120,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mercedes-glc-electric",
+      "slug": "mercedes-electric-glc-charging-range-guide",
+      "words": 2133,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "charles-leclerc",
+      "slug": "charles-leclerc-career-formula-one-guide",
+      "words": 2176,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "batch-11-live-verification.json"
+  ]
 }

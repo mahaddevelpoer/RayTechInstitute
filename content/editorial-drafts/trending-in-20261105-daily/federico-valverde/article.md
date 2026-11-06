@@ -1,0 +1,154 @@
+Federico Valverde's career provides a useful introduction to the work a midfielder performs between the most visible moments of a football match. The official records connect his development with Peñarol, Real Madrid Castilla, Deportivo de La Coruña and Real Madrid's first team. His Uruguay national-team profile supplies a separate international context.
+
+This guide uses that career record alongside two documented team sequences: the 2022 Champions League final and the 2024 UEFA Super Cup. It explains support runs, passing options, transitions and statistical scope without inventing a current injury, transfer or match result. The learning examples are fictional unless a particular official report is identified.
+
+## A pathway through several teams needs clear labels
+
+The Real Madrid profile records Valverde's Castilla period in 2016-17 and his first-team debut against Viktoria Plzeň on 23 October 2018. Its career account also identifies the intervening Deportivo period. These stages explain development more clearly than a statement that he simply appeared in the first team fully formed.
+
+A reserve side, a different senior club and a national team are distinct settings. Their appearances should not be combined into a single club-season total without an explicit rule. A player can learn in several environments while the records remain separately identifiable.
+
+| Record | Context |
+| --- | --- |
+| Peñarol | Earlier career background |
+| Castilla | 2016-17 development stage |
+| Deportivo de La Coruña | Subsequent senior experience |
+| Madrid first-team debut | 23 October 2018 |
+| Uruguay | Separate national-team record |
+
+## Why the 2022 final is a useful case study
+
+UEFA's analysis of Madrid's 1-0 Champions League final victory over Liverpool describes Valverde advancing on the right before the decisive finish by Vinícius Júnior. The sequence is useful because it shows how one player's movement and delivery connect with another player's scoring action.
+
+The final score alone does not explain that relationship. A report focused only on the scorer can omit the route by which the chance developed. The detailed sequence gives a more complete account without changing the official goal or assist definitions.
+
+For a student exercise, draw the path of the ball and the relevant runs on a simple pitch. Label only what the source or clip establishes. This turns a famous result into an observation exercise rather than an unsupported description of every player's private intention.
+
+## The 2024 Super Cup shows a different finishing role
+
+UEFA's 2024 Super Cup account records Madrid's 2-0 win over Atalanta and Valverde's opening goal. The described move includes Bellingham finding Vinícius, whose delivery supplied the finish. This provides a second example in which Valverde is at the end of the chance rather than the earlier delivery stage.
+
+Those two sequences demonstrate why a midfielder's contribution cannot be confined to one permanent attacking task. The player's location and responsibility can differ with the team movement and match situation.
+
+Keep the two finals separate in a timeline. A photograph from the 2022 celebration should not be presented as evidence of the 2024 opening goal. A strong career profile can connect the lessons while preserving the identity of each event.
+
+## Supporting an attack can happen away from the ball
+
+A useful passing option does not appear automatically. Teammates move to create angles, maintain width or offer a return route. These actions can help the player in possession even when the supporting player never receives the next pass.
+
+In a fictional sequence, a midfielder moves to the right of a teammate under pressure. The defender must account for the option, and the teammate gains another possible route. The movement can matter without becoming a recorded assist.
+
+For actual analysis, describe the visible position and its relationship to the ball. Avoid assigning a statistical credit that the provider has not recorded. The qualitative explanation and the official data can complement each other when their boundaries remain clear.
+
+## A passing angle is different from standing nearby
+
+Two players can be close together while a defender blocks the line between them. A supporting movement that changes the angle may create a usable pass. Distance alone does not establish whether an option is available.
+
+Draw a fictional triangle with a ball carrier, defender and supporting midfielder. Move the supporting point while keeping the distance similar. The passing route changes even though the players remain nearby. This is a spatial exercise, not a claim about an undocumented match action.
+
+When watching a verified Valverde sequence, note the line of the possible pass and the opponent's position. This gives a more concrete explanation than describing every nearby movement as useful support without checking whether the ball could actually travel there.
+
+## Width and central support can change during a move
+
+A midfielder can provide a wide option in one phase and a central option in another. Those locations describe moments in a sequence rather than a contradiction about the player's position. The team structure and ball location affect what is useful.
+
+Imagine a fictional attack beginning down one side. A midfielder initially supports the ball and later moves inside as another teammate takes the wide position. A still image from either moment would show only part of the role.
+
+The practical lesson is to watch the transition between positions. A position label on a lineup graphic is a starting reference, while the movement and surrounding teammates explain the actual task in the passage of play.
+
+## Transition work begins when the situation changes
+
+When possession changes, the immediate task can change as well. A player supporting an attack may need to offer an outlet after a recovery or help restore the team's shape after a loss. The sequence and timing matter more than one isolated frame.
+
+For a fictional exercise, record the location of a midfielder just before a turnover and again a few seconds later. Explain the visible change without inferring a private instruction or a medical conclusion about fitness.
+
+This method helps students analyse work that is less obvious than a final shot. It also avoids a common shortcut in commentary: treating one stopped image as proof of a player's overall effort or attitude across an entire match.
+
+## A recovery and a tackle are not identical labels
+
+A team can regain possession through several kinds of events. The data provider's definitions determine how those events are recorded. A player collecting a loose ball should not automatically receive a tackle in an independently written statistics table.
+
+In an invented sequence, pressure forces an opponent's inaccurate pass and a teammate collects it. Several actions influence the outcome, but each recorded category has its own meaning. A narrative can explain the teamwork without assigning every participant the same statistical event.
+
+For Valverde's actual figures, use the matching official or provider record. If discussing visible movement instead, describe it as observation. Keeping these forms of evidence distinct produces a more reliable explanation of midfield contribution.
+
+## Passing accuracy needs the type and purpose of the passes
+
+A completion percentage measures a defined relationship between attempted and completed passes. It does not independently establish how difficult, progressive or useful those passes were. Two players can have similar percentages while performing different tasks.
+
+For a fictional example, one midfielder completes 45 of 50 passes, producing 90 percent. Another completes 18 of 20, also producing 90 percent. The rate matches, but the volume and possibly the context differ.
+
+A fuller comparison needs the relevant match situation and definitions. Do not attach a current passing percentage to Valverde by averaging unrelated season and national-team tables. The numerator and denominator must cover the same scope.
+
+## Shots from distance need an outcome record
+
+A long-range attempt can be memorable, but one striking highlight does not describe the outcome of every similar attempt. Shot location, classification and result should remain separate data fields. A compilation of successful efforts is a selected sample.
+
+Imagine a fictional player scoring once from ten attempts of a defined type. Showing only the goal is valid as a highlight, but it does not establish a 100 percent success rate. The complete event set is needed for the calculation.
+
+When analysing an actual goal, describe the verified action. Avoid creating a numerical probability from a few selected clips or claiming a precise shooting speed without an actual measurement and source.
+
+## A team goal can contain several valuable decisions
+
+The final scorer and final passer receive visible attention, but earlier choices can help make the opportunity possible. A pass that changes the side of play or a run that occupies a defender may be relevant to the explanation.
+
+For a fictional attack, three passes precede the final delivery. The first may move the defence, the second may find space and the third may create the immediate chance. These are distinct stages, not three automatic assists under one statistic.
+
+The documented finals discussed here show why sequence-based reading is useful. It allows Valverde's work to be understood within a team without changing the formal record or reducing every contribution to the final touch.
+
+## Club and Uruguay appearances need separate tables
+
+The Uruguay association's player profile and Madrid's club profile concern different teams. Their appearances and competition totals should retain those identities. Combining them requires a clearly stated period and inclusion rule.
+
+For a fictional player, twelve club appearances and three national-team appearances make fifteen only under that combined scope. They do not become fifteen league appearances. A familiar shirt number or position does not remove the distinction.
+
+When reading a current statistic, check whether the table covers one competition, all club competitions or international matches. This guide uses dated career and final records rather than inventing a live total from partial information.
+
+## Minutes help explain opportunity
+
+An appearance count can include both full matches and short substitute outings. Minutes provide another view of the opportunities behind a total. Neither measure should silently replace the other.
+
+For an invented example, a player records two assists in 360 minutes. A simple per-90 rate is 0.5 under those inputs. That calculation does not establish that another assist will arrive every 180 minutes in future matches.
+
+Use rates as descriptions of a defined sample. Preserve the sample size and competition. A small set of appearances can produce an unusually high rate without providing a reliable forecast for the rest of a season.
+
+## Development is not a guarantee of a fixed career outcome
+
+A pathway through several teams can show experience and adaptation. It does not create a universal formula guaranteeing that every player following similar stages will reach the same level. Individual opportunities and circumstances differ.
+
+For students, the useful lesson is methodological: track the actual stages and examine what each source establishes. A club biography can record a transfer or debut without proving every private reason behind a career decision.
+
+This approach keeps the account engaging and fair. Valverde's documented achievements stand on their own, without invented motivational quotations or a claim that one early event made every later success inevitable.
+
+## Build a support-play observation notebook
+
+Choose a verified sequence and record the player, competition, date and action period. Mark where the player starts, which passing lines are available and how the position changes as possession develops. Add the outcome only after following the sequence.
+
+Next, compare the description with the official result and any matching statistic. Ask whether the data confirms the particular event or measures something broader. Keep an observed support run separate from an official assist unless the relevant record assigns that credit.
+
+Use [class resources](/classes/) for ratios and spatial descriptions. A project in [programming courses](/courses/) could create a simple event timeline with separate fields for observation, recorded statistic and source, helping readers avoid combining unlike evidence.
+
+## Questions about Federico Valverde
+
+### What does the official development record show?
+
+It connects his earlier career with Peñarol, the Castilla stage, Deportivo experience and Madrid's first team. The club records a first-team debut on 23 October 2018. These stages should remain separate from the Uruguay national-team record.
+
+### How was he involved in the 2022 Champions League final?
+
+UEFA's performance analysis describes his movement and delivery from the right before Vinícius Júnior's decisive finish. The final ended 1-0. The sequence illustrates a contribution to a team chance rather than a different individual or team score.
+
+### What happened in the 2024 UEFA Super Cup?
+
+Madrid beat Atalanta 2-0, and the official account records Valverde's opening goal following a move involving Bellingham and Vinícius. Keep this match separate from the 2022 final and use the relevant report for its actual sequence.
+
+### Can a basic goals table describe all midfield work?
+
+No. Goals capture an important outcome, while support angles, passing options, transitions and defensive positioning can need additional observation. Use statistics with their definitions and actual sequences of play rather than turning every useful action into an invented official credit.
+
+## Sources
+
+- [Real Madrid: official Valverde profile and career sequence](https://www.realmadrid.com/es-ES/futbol/primer-equipo-masculino/plantilla/federico-santiago-valverde-dipetta)
+- [Uruguayan Football Association: Federico Valverde](https://www.auf.org.uy/federico-valverde/)
+- [UEFA: 2022 final performance analysis](https://www.uefa.com/uefachampionsleague/news/0275-15464696cdc6-bf2145620f18-1000--champions-league-final-in-the-zone-liverpool-0-1-real-madrid/)
+- [UEFA: 2024 Super Cup record](https://ar.uefa.com/uefasupercup/history/2024/)

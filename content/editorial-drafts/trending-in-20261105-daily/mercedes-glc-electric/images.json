@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Mercedes-Benz GLC with EQ Technology IMG 6095.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/mercedes-glc-electric-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mercedes-Benz_GLC_with_EQ_Technology_IMG_6095.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLC_with_EQ_Technology_IMG_6095.jpg",
+    "creator": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Mercedes-Benz GLC with EQ Technology photographed in Stuttgart in April 2026; the electric model, not a GLC plug-in hybrid.",
+    "description": "Mercedes-Benz_GLC_with_EQ_Technology in Stuttgart",
+    "caption": "Mercedes-Benz GLC with EQ Technology photographed in Stuttgart in April 2026; the electric model, not a GLC plug-in hybrid.",
+    "width": 1280,
+    "height": 739,
+    "bytes": 233682,
+    "sha1": "db2359db99d1fa3f81485b6f8787f77702fcf43d",
+    "photographedAt": "2026-04-03 16:21",
+    "query": "intitle:GLC intitle:EQ",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Mercedes-Benz GLC with EQ Technology IAA 2025 DSC 2106.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/mercedes-glc-electric-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Mercedes-Benz_GLC_with_EQ_Technology_IAA_2025_DSC_2106.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLC_with_EQ_Technology_IAA_2025_DSC_2106.jpg",
+    "creator": "Alexander-93",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Mercedes-Benz GLC with EQ Technology displayed at IAA in September 2025; a dated show vehicle rather than proof of local delivery availability.",
+    "description": "Mercedes-Benz_GLC_with_EQ_Technology at IAA 2025",
+    "caption": "Mercedes-Benz GLC with EQ Technology displayed at IAA in September 2025; a dated show vehicle rather than proof of local delivery availability.",
+    "width": 1280,
+    "height": 855,
+    "bytes": 201182,
+    "sha1": "09e7bf231286176a531b675e23961476417412e7",
+    "photographedAt": "2025-09-09 10:35",
+    "query": "intitle:GLC intitle:EQ",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

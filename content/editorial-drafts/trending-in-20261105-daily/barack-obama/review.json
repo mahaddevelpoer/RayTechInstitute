@@ -1,0 +1,9 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2303,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-06",
+  "sourceReview": "BATCH-12-RESEARCH.md"
+}

@@ -726,6 +726,107 @@
       ],
       "state": "published-live-verified",
       "slug": "cisf-full-form-public-role-recruitment-guide"
+    },
+    {
+      "key": "barack-obama",
+      "topic": "Barack Obama: presidential timeline, education and civic context",
+      "category": "world",
+      "queries": [
+        "barack obama"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "barack-obama-biography-presidency-civics-guide"
+    },
+    {
+      "key": "sachin-tendulkar",
+      "topic": "Sachin Tendulkar: records, career milestones and scorecard reading",
+      "category": "sports",
+      "queries": [
+        "শচীন তেন্ডুলকর",
+        "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "sachin-tendulkar-career-cricket-records-guide"
+    },
+    {
+      "key": "lata-mangeshkar",
+      "topic": "Lata Mangeshkar: playback singing, awards and musical credit",
+      "category": "entertainment",
+      "queries": [
+        "लता मंगेशकर"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "lata-mangeshkar-playback-singing-music-guide"
+    },
+    {
+      "key": "shaik-rasheed",
+      "topic": "Shaik Rasheed: the 2022 Under-19 World Cup and batting context",
+      "category": "sports",
+      "queries": [
+        "shaik rasheed"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "shaik-rasheed-u19-career-batting-guide"
+    },
+    {
+      "key": "jude-bellingham",
+      "topic": "Jude Bellingham: development, midfield and football statistics",
+      "category": "sports",
+      "queries": [
+        "jude bellingham"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "jude-bellingham-career-midfield-role-guide"
+    },
+    {
+      "key": "vinicius-junior",
+      "topic": "Vinicius Junior: decisive finals, wing play and football records",
+      "category": "sports",
+      "queries": [
+        "vinícius júnior"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "vinicius-junior-career-wing-play-guide"
+    },
+    {
+      "key": "federico-valverde",
+      "topic": "Federico Valverde: midfield, movement and team contribution",
+      "category": "sports",
+      "queries": [
+        "federico valverde"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "federico-valverde-career-midfield-explained"
+    },
+    {
+      "key": "thibaut-courtois",
+      "topic": "Thibaut Courtois: goalkeeping, the 2022 final and statistics",
+      "category": "sports",
+      "queries": [
+        "thibaut courtois"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "thibaut-courtois-career-goalkeeping-guide"
+    },
+    {
+      "key": "mercedes-glc-electric",
+      "topic": "Mercedes-Benz electric GLC: architecture, charging and range",
+      "category": "technology",
+      "queries": [
+        "mercedes benz glc ev"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "mercedes-electric-glc-charging-range-guide"
+    },
+    {
+      "key": "charles-leclerc",
+      "topic": "Charles Leclerc: Ferrari career, Monaco and race-result reading",
+      "category": "sports",
+      "queries": [
+        "charles leclerc"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "charles-leclerc-career-formula-one-guide"
     }
   ],
   "rowDisposition": [
@@ -1083,7 +1184,8 @@
       "row": 55,
       "topic": "শচীন তেন্ডুলকর",
       "breakdown": "শচীন তেন্ডুলকর",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "sachin-tendulkar"
     },
     {
       "row": 56,
@@ -1401,7 +1503,8 @@
       "row": 101,
       "topic": "barack obama",
       "breakdown": "barack obama",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "barack-obama"
     },
     {
       "row": 102,
@@ -1737,7 +1840,8 @@
       "row": 151,
       "topic": "shaik rasheed",
       "breakdown": "shaik rasheed",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "shaik-rasheed"
     },
     {
       "row": 152,
@@ -1763,7 +1867,9 @@
       "row": 155,
       "topic": "అర్ష్దీప్ సింగ్",
       "breakdown": "అర్ష్దీప్ సింగ్",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "arshdeep-singh-records-and-learning-guide",
+      "reason": "Existing left-arm bowling and tournament-record guide covers this player query; no second biography."
     },
     {
       "row": 156,
@@ -1845,7 +1951,8 @@
       "row": 167,
       "topic": "लता मंगेशकर",
       "breakdown": "लता मंगेशकर",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "lata-mangeshkar"
     },
     {
       "row": 168,
@@ -1997,7 +2104,8 @@
       "row": 191,
       "topic": "mercedes benz glc ev",
       "breakdown": "mercedes benz glc ev",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "mercedes-glc-electric"
     },
     {
       "row": 192,
@@ -2149,7 +2257,8 @@
       "row": 216,
       "topic": "vinícius júnior",
       "breakdown": "vinícius júnior",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "vinicius-junior"
     },
     {
       "row": 217,
@@ -2326,7 +2435,8 @@
       "row": 244,
       "topic": "thibaut courtois",
       "breakdown": "thibaut courtois",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "thibaut-courtois"
     },
     {
       "row": 245,
@@ -2378,7 +2488,8 @@
       "row": 252,
       "topic": "federico valverde",
       "breakdown": "federico valverde,madrid vs,valverde,real madrid vs athens",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "federico-valverde"
     },
     {
       "row": 253,
@@ -2508,7 +2619,8 @@
       "row": 272,
       "topic": "jude bellingham",
       "breakdown": "jude bellingham",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "jude-bellingham"
     },
     {
       "row": 273,
@@ -2844,7 +2956,8 @@
       "row": 325,
       "topic": "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್",
       "breakdown": "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "sachin-tendulkar"
     },
     {
       "row": 326,
@@ -2905,7 +3018,8 @@
       "row": 335,
       "topic": "charles leclerc",
       "breakdown": "charles leclerc",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "charles-leclerc"
     },
     {
       "row": 336,
@@ -3704,16 +3818,35 @@
         "inserted": 2,
         "preserved": 387
       }
+    },
+    {
+      "number": 12,
+      "keys": [
+        "barack-obama",
+        "sachin-tendulkar",
+        "lata-mangeshkar",
+        "shaik-rasheed",
+        "jude-bellingham",
+        "vinicius-junior",
+        "federico-valverde",
+        "thibaut-courtois",
+        "mercedes-glc-electric",
+        "charles-leclerc"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested continued writing and publication; standing preference is complete ten-article batches, without subagents.",
+      "state": "research-pending"
     }
   ],
   "prepared": 70,
   "published": 70,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
-    "sameIntentCovered": 28,
+    "sameIntentCovered": 29,
     "unclear": 50,
-    "unreviewed": 262
+    "unreviewed": 250
   }
 }
