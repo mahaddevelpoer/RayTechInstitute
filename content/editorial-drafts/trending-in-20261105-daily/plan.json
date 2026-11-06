@@ -12,7 +12,7 @@
   "pendingPakistan": {
     "remaining": 7,
     "state": "active-priority-authorized",
-    "planSha256": "0ffe2c672ff821febee57e74fe469dce7ed1ef77d5471945815925dc8f677b75",
+    "planSha256": "07ddceba34073af108ee873da6af61201032b00544ce26dbf5b123926af24359",
     "authorization": "User explicitly requested Pakistan completion alongside India on 6 November; earlier deferral revoked."
   },
   "groups": [
@@ -475,6 +475,36 @@
       ],
       "state": "published-live-verified",
       "slug": "alexander-zverev-2026-major-titles-career-guide"
+    },
+    {
+      "key": "google-voluntary-buyouts",
+      "topic": "Google voluntary exit offers: dated reporting and employment terms",
+      "category": "world-affairs",
+      "queries": [
+        "google voluntary buyouts"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "google-voluntary-buyouts-2026-offers-departures-guide"
+    },
+    {
+      "key": "agniveers",
+      "topic": "Agniveer 4 November Cabinet update: four years, extension and selection",
+      "category": "education",
+      "queries": [
+        "agniveers"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "agniveer-november-2026-two-year-extension-policy-guide"
+    },
+    {
+      "key": "kings-lakers",
+      "topic": "Lakers at Kings: 4 November 2026 completed NBA game",
+      "category": "sports",
+      "queries": [
+        "kings vs lakers"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "lakers-kings-116-103-doncic-40-november-2026"
     }
   ],
   "rowDisposition": [
@@ -599,13 +629,15 @@
       "row": 21,
       "topic": "google voluntary buyouts",
       "breakdown": "google voluntary buyouts,google buyouts,google voluntary exit,google voluntary exit program",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "google-voluntary-buyouts"
     },
     {
       "row": 22,
       "topic": "agniveers",
       "breakdown": "agniveers,agniveer,government,agniveer news,cds",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "agniveers"
     },
     {
       "row": 23,
@@ -670,7 +702,8 @@
       "row": 32,
       "topic": "kings vs lakers",
       "breakdown": "kings vs lakers",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "kings-lakers"
     },
     {
       "row": 33,
@@ -3291,16 +3324,29 @@
         "inserted": 5,
         "preserved": 337
       }
+    },
+    {
+      "number": 8,
+      "keys": [
+        "google-voluntary-buyouts",
+        "agniveers",
+        "kings-lakers"
+      ],
+      "expectedSize": 3,
+      "explicitUserAuthorization": true,
+      "authorization": "Three earlier India topics complete the jointly authorised ten-article batch with seven earlier Pakistan topics.",
+      "jointBatch": "nov6-mixed-01",
+      "state": "local-verified-ready-for-publication"
     }
   ],
-  "prepared": 45,
+  "prepared": 48,
   "published": 45,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 3,
   "intentReview": {
     "sameIntentCovered": 18,
     "unclear": 50,
-    "unreviewed": 298
+    "unreviewed": 295
   }
 }

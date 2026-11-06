@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 45,
-  "bodyWords": 91837,
-  "uniqueImages": 90,
+  "state": "local-verified-unpublished",
+  "articles": 48,
+  "bodyWords": 98385,
+  "uniqueImages": 96,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -319,7 +319,27 @@
       "words": 2167,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "google-voluntary-buyouts",
+      "slug": "google-voluntary-buyouts-2026-offers-departures-guide",
+      "words": 2160,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "agniveers",
+      "slug": "agniveer-november-2026-two-year-extension-policy-guide",
+      "words": 2152,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "kings-lakers",
+      "slug": "lakers-kings-116-103-doncic-40-november-2026",
+      "words": 2236,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

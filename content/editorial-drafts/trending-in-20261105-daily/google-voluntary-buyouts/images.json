@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Googleplex - June 2019 (5872).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/google-voluntary-buyouts-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Googleplex_-_June_2019_%285872%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Googleplex_-_June_2019_(5872).jpg",
+    "creator": "Gregory Varnum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Googleplex in June 2019, shown as historical company context rather than a photograph of the 2026 exit programme.",
+    "description": "Googleplex in June 2019",
+    "caption": "Googleplex in June 2019, shown as historical company context rather than a photograph of the 2026 exit programme.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 150824,
+    "sha1": "d0458cf919f0215ec90e283455959c15d5bdc41c",
+    "photographedAt": "Taken on 17 June 2019, 16:32:33",
+    "query": "intitle:Googleplex",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Google Serve 2014 in Zurich.JPG",
+    "url": "/images/editorial/trending-in-20261105-daily/google-voluntary-buyouts-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Serve_2014_in_Zurich.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_Serve_2014_in_Zurich.JPG",
+    "creator": "Muriel Staub (WMCH)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A Google Serve event in Zurich in 2014, shown as historical location context rather than an image identifying employees offered a 2026 exit package.",
+    "description": "Google Serve 2014 for KIWIX - Wikipedia offline",
+    "caption": "A Google Serve event in Zurich in 2014, shown as historical location context rather than an image identifying employees offered a 2026 exit package.",
+    "width": 960,
+    "height": 960,
+    "bytes": 69976,
+    "sha1": "76a5ce829b0b9bf4b42690f5bf85a8fc20cc1da1",
+    "photographedAt": "2014-06-13 13:48:08",
+    "query": "intitle:Google_Zurich",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

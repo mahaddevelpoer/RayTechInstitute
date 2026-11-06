@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Parth Raturi & Karan Johar.jpg",
+    "url": "/images/editorial/trending-pk-20261105-daily/koffee-season-9-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Parth_Raturi_%26_Karan_Johar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Parth_Raturi_%26_Karan_Johar.jpg",
+    "creator": "Anuj Bisht Writter",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Karan Johar photographed with Parth Raturi, shown as public-profile context rather than a still from a Season 9 episode.",
+    "description": "Parth Raturi with Karan Johar",
+    "caption": "Karan Johar photographed with Parth Raturi, shown as public-profile context rather than a still from a Season 9 episode.",
+    "width": 960,
+    "height": 732,
+    "bytes": 18100,
+    "sha1": "e81ef5a113b1074369905416fbdf49b7d121dff4",
+    "photographedAt": "2016-11-26",
+    "query": "intitle:Karan_Johar",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Josh Liljenquist behind the scenes at Twin Cities Live, 2026.jpg",
+    "url": "/images/editorial/trending-pk-20261105-daily/koffee-season-9-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Josh_Liljenquist_behind_the_scenes_at_Twin_Cities_Live%2C_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Josh_Liljenquist_behind_the_scenes_at_Twin_Cities_Live,_2026.jpg",
+    "creator": "Ingrid Liljenquist",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "A behind-the-scenes image from Twin Cities Live in 2026, used to illustrate television production rather than the Koffee with Karan set.",
+    "description": "Behind-the-scenes production view of Josh Liljenquist with Twin Cities Live hosts Ben Leber and Elizabeth Ries during an interview at KSTP-TV in St. Paul, Minnesota, on August 11, 2026. The photograph shows the television set, studio cameras, teleprompters, lighting equipment, and interview area. Photograph by Ingrid Liljenquist.",
+    "caption": "A behind-the-scenes image from Twin Cities Live in 2026, used to illustrate television production rather than the Koffee with Karan set.",
+    "width": 720,
+    "height": 960,
+    "bytes": 103236,
+    "sha1": "9e3406268bc711201c73db06cee332a0edf2be9f",
+    "photographedAt": "Taken on 11 August 2026",
+    "query": "television studio interview set",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

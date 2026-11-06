@@ -1,0 +1,34 @@
+{
+  "expectedSize": 10,
+  "publicationAuthorized": true,
+  "regions": [
+    {
+      "region": "PK",
+      "root": "content/editorial-drafts/trending-pk-20261105-daily",
+      "batchNumber": 5,
+      "keys": [
+        "lens-como",
+        "munna-bhai-3",
+        "asim-azhar",
+        "one-piece-1198",
+        "koffee-season-9",
+        "apple-ios",
+        "vivo-v80-fe"
+      ]
+    },
+    {
+      "region": "IN",
+      "root": "content/editorial-drafts/trending-in-20261105-daily",
+      "batchNumber": 8,
+      "keys": [
+        "google-voluntary-buyouts",
+        "agniveers",
+        "kings-lakers"
+      ]
+    }
+  ],
+  "state": "local-verified-ready-for-publication",
+  "bodyWords": 21417,
+  "images": 20,
+  "tagsPerArticle": 42
+}

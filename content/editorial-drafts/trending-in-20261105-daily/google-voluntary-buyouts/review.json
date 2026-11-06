@@ -1,0 +1,11 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2160,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-06",
+  "imageVisualEvidence": "artifacts/november5-daily/mixed-nov6-contact-2.png",
+  "imageReviewNotes": "Both licensed photographs inspected visually; historical and illustrative contexts identified explicitly. No chapter scans, fabricated device samples or current-event image claims.",
+  "factualReview": "Dated sources checked. No invented launch prices, unpublished plot, film release date, ticket amount, buyout departure count or unconditional appointment."
+}

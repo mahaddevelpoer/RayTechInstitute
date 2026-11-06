@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 27,
-  "bodyWords": 55977,
-  "uniqueImages": 54,
+  "state": "local-verified-unpublished",
+  "articles": 34,
+  "bodyWords": 70846,
+  "uniqueImages": 68,
   "existingArticlesCompared": 284,
   "results": [
     {
@@ -69,6 +69,13 @@
       "images": 2
     },
     {
+      "key": "lens-como",
+      "slug": "lens-como-1-9-douvikas-hat-trick-november-2026",
+      "words": 2109,
+      "tags": 42,
+      "images": 2
+    },
+    {
       "key": "dortmund-betis",
       "slug": "dortmund-betis-2-1-silva-karetsas-2026",
       "words": 2016,
@@ -79,6 +86,13 @@
       "key": "maliha-ali",
       "slug": "maliha-ali-immaf-world-final-tbilisi-2026-guide",
       "words": 2053,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "munna-bhai-3",
+      "slug": "munna-bhai-3-script-development-release-check-2026",
+      "words": 2111,
       "tags": 42,
       "images": 2
     },
@@ -97,9 +111,37 @@
       "images": 2
     },
     {
+      "key": "asim-azhar",
+      "slug": "asim-azhar-pakistan-tour-2026-dates-ticket-guide",
+      "words": 2127,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "one-piece-1198",
+      "slug": "one-piece-1198-release-pakistan-time-official-reading",
+      "words": 2188,
+      "tags": 42,
+      "images": 2
+    },
+    {
       "key": "hakeem-jeffries",
       "slug": "hakeem-jeffries-house-role-speaker-election-guide",
       "words": 2084,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "koffee-season-9",
+      "slug": "koffee-with-karan-season-9-premiere-viewing-guide",
+      "words": 2206,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "apple-ios",
+      "slug": "ios-27-2-release-backup-update-safety-guide",
+      "words": 2106,
       "tags": 42,
       "images": 2
     },
@@ -114,6 +156,13 @@
       "key": "porto-napoli",
       "slug": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026",
       "words": 2025,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "vivo-v80-fe",
+      "slug": "vivo-v80-fe-philippines-specs-pakistan-price-check",
+      "words": 2022,
       "tags": 42,
       "images": 2
     },
@@ -194,6 +243,5 @@
       "tags": 42,
       "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

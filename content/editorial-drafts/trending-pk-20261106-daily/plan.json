@@ -1,0 +1,703 @@
+{
+  "date": "2026-11-06",
+  "sourceCsv": "trending_PK_1d_20261106-1057.csv",
+  "sourceSha256": "43c63be3bca23e93b4a465e837c7a1a0d1255bf797ec23617700de7bb39d9f6b",
+  "publicationAuthorized": true,
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "priority": "After earlier Pakistan and India queues, as explicitly requested by user on 6 November 2026.",
+  "state": "queued-old-work-first",
+  "counts": {
+    "rows": 71,
+    "covered": 11,
+    "unclear": 22,
+    "awaitingReview": 38
+  },
+  "rowDisposition": [
+    {
+      "row": 2,
+      "topic": "xiaomi hyperos 4",
+      "searchVolume": "5k+",
+      "started": "5 November 2026 at 18:00:00 UTC+5",
+      "ended": null,
+      "breakdown": "xiaomi hyperos 4",
+      "state": "already-covered",
+      "target": "hyperos-4-device-rollout-update-check-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 3,
+      "topic": "brendan taylor",
+      "searchVolume": "20k+",
+      "started": "5 November 2026 at 12:30:00 UTC+5",
+      "ended": null,
+      "breakdown": "brendan taylor,brian bennett,ben curran,hashmatullah shahidi,graeme cremer",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 4,
+      "topic": "ramayana movie ranbir kapoor",
+      "searchVolume": "5k+",
+      "started": "6 November 2026 at 04:20:00 UTC+5",
+      "ended": null,
+      "breakdown": "ramayana movie ranbir kapoor,ramayana movie box office collection,ramayana box office collection,ramayana ranbir kapoor,bollywood box office,ramayana movie release date",
+      "state": "already-covered",
+      "target": "ramayana-movie-explained-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 5,
+      "topic": "xbox alligator console",
+      "searchVolume": "5k+",
+      "started": "5 November 2026 at 12:30:00 UTC+5",
+      "ended": null,
+      "breakdown": "xbox alligator console",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 6,
+      "topic": "uae u19 vs pak u19",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 09:50:00 UTC+5",
+      "ended": null,
+      "breakdown": "uae u19 vs pak u19,pak u19 vs uae u19,pak vs uae u19,u19 asia cup 2026 schedule",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 7,
+      "topic": "mohammad rizwan",
+      "searchVolume": "5k+",
+      "started": "5 November 2026 at 11:40:00 UTC+5",
+      "ended": null,
+      "breakdown": "mohammad rizwan,cricket",
+      "state": "already-covered",
+      "target": "rizwan-peshawar-blues-double-century-faisalabad-2026",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 8,
+      "topic": "petrol price in pakistan",
+      "searchVolume": "10k+",
+      "started": "5 November 2026 at 23:30:00 UTC+5",
+      "ended": null,
+      "breakdown": "petrol price in pakistan,petroleum,petrol price in pakistan today,today fuel price in pakistan,today petrol price in pakistan,today petrol rate in pakistan 2026,today petrol price,diesel price in pakistan today,oil prices,diesel price in pakistan,petrol prices pakistan,petrol prices,petrol,petrol rate",
+      "state": "already-covered",
+      "target": "pakistan-petrol-price-notification-reading-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 9,
+      "topic": "iqbal day public holiday",
+      "searchVolume": "2k+",
+      "started": "5 November 2026 at 22:00:00 UTC+5",
+      "ended": null,
+      "breakdown": "iqbal day public holiday,9 nov is holiday in pakistan,9 november holiday in pakistan 2026,allama iqbal day,iqbal day holiday 2026,iqbal day holiday,is 9 november public holiday in pakistan",
+      "state": "already-covered",
+      "target": "9-november-holiday-2026-pakistan-iqbal-day-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 10,
+      "topic": "icc player of the month",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 03:50:00 UTC+5",
+      "ended": null,
+      "breakdown": "icc player of the month",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 11,
+      "topic": "gold price in pakistan per tola",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 00:00:00 UTC+5",
+      "ended": null,
+      "breakdown": "gold price in pakistan per tola",
+      "state": "already-covered",
+      "target": "pakistan-gold-price-tola-purity-quote-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 12,
+      "topic": "ronaldo",
+      "searchVolume": "5k+",
+      "started": "5 November 2026 at 15:50:00 UTC+5",
+      "ended": null,
+      "breakdown": "ronaldo,cristiano ronaldo,portugal national football team,ronaldo retirement",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 13,
+      "topic": "hasan mahmud",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 09:20:00 UTC+5",
+      "ended": null,
+      "breakdown": "hasan mahmud,justin greaves",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 14,
+      "topic": "بارش",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 07:40:00 UTC+5",
+      "ended": null,
+      "breakdown": "بارش",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 15,
+      "topic": "court order",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 18:10:00 UTC+5",
+      "ended": null,
+      "breakdown": "court order",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 16,
+      "topic": "debt",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 10:20:00 UTC+5",
+      "ended": null,
+      "breakdown": "debt,video",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 17,
+      "topic": "حکومت",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 09:20:00 UTC+5",
+      "ended": null,
+      "breakdown": "حکومت",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 18,
+      "topic": "fata vs lahore whites",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 10:20:00 UTC+5",
+      "ended": null,
+      "breakdown": "fata vs lahore whites,lahore whites vs fata",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 19,
+      "topic": "foreign exchange reserves",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 08:10:00 UTC+5",
+      "ended": null,
+      "breakdown": "foreign exchange reserves",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 20,
+      "topic": "gpt 6.2 astra",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 10:40:00 UTC+5",
+      "ended": null,
+      "breakdown": "gpt 6.2 astra",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 21,
+      "topic": "asia cup under 19",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 09:40:00 UTC+5",
+      "ended": null,
+      "breakdown": "asia cup under 19",
+      "state": "already-covered",
+      "target": "acc-u19-asia-cup-2026-pakistan-schedule-oman",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 22,
+      "topic": "u19 asia cup 2026",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 09:20:00 UTC+5",
+      "ended": null,
+      "breakdown": "u19 asia cup 2026",
+      "state": "already-covered",
+      "target": "acc-u19-asia-cup-2026-pakistan-schedule-oman",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 23,
+      "topic": "world economy",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 08:50:00 UTC+5",
+      "ended": null,
+      "breakdown": "world economy",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 24,
+      "topic": "pakistan national football team vs india national football team standings",
+      "searchVolume": "5k+",
+      "started": "5 November 2026 at 17:50:00 UTC+5",
+      "ended": "6 November 2026 at 10:10:00 UTC+5",
+      "breakdown": "pakistan national football team vs india national football team standings,pak vs ind football,pakistan vs india football,pak vs ind football match,pakistan vs india football match,pak vs india football",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 25,
+      "topic": "cholesterol",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 09:30:00 UTC+5",
+      "ended": null,
+      "breakdown": "cholesterol",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 26,
+      "topic": "gasoline",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 01:10:00 UTC+5",
+      "ended": "6 November 2026 at 09:30:00 UTC+5",
+      "breakdown": "gasoline",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 27,
+      "topic": "pakistan vs india",
+      "searchVolume": "5k+",
+      "started": "5 November 2026 at 13:40:00 UTC+5",
+      "ended": "5 November 2026 at 20:50:00 UTC+5",
+      "breakdown": "pakistan vs india",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 28,
+      "topic": "جعلی",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 15:00:00 UTC+5",
+      "ended": null,
+      "breakdown": "جعلی",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 29,
+      "topic": "fuel",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 06:10:00 UTC+5",
+      "ended": "6 November 2026 at 08:30:00 UTC+5",
+      "breakdown": "fuel",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 30,
+      "topic": "chris pappas",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 19:40:00 UTC+5",
+      "ended": "6 November 2026 at 10:10:00 UTC+5",
+      "breakdown": "chris pappas",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 31,
+      "topic": "ziaur rahman",
+      "searchVolume": "2k+",
+      "started": "5 November 2026 at 11:30:00 UTC+5",
+      "ended": "6 November 2026 at 09:10:00 UTC+5",
+      "breakdown": "ziaur rahman",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 32,
+      "topic": "pakistan telecommunication authority",
+      "searchVolume": "1k+",
+      "started": "5 November 2026 at 16:20:00 UTC+5",
+      "ended": "6 November 2026 at 10:30:00 UTC+5",
+      "breakdown": "pakistan telecommunication authority",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 33,
+      "topic": "vivienne jolie",
+      "searchVolume": "1k+",
+      "started": "5 November 2026 at 16:20:00 UTC+5",
+      "ended": "6 November 2026 at 04:30:00 UTC+5",
+      "breakdown": "vivienne jolie",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 34,
+      "topic": "russell brand",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 21:30:00 UTC+5",
+      "ended": "6 November 2026 at 10:40:00 UTC+5",
+      "breakdown": "russell brand",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 35,
+      "topic": "bethesda elder scrolls vi sentinel",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 13:50:00 UTC+5",
+      "ended": null,
+      "breakdown": "bethesda elder scrolls vi sentinel,gta 6",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 36,
+      "topic": "milan vs ferencváros",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 22:20:00 UTC+5",
+      "ended": "6 November 2026 at 07:50:00 UTC+5",
+      "breakdown": "milan vs ferencváros,ac milan vs ferencváros standings",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 37,
+      "topic": "پنجاب",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 06:40:00 UTC+5",
+      "ended": "6 November 2026 at 10:10:00 UTC+5",
+      "breakdown": "پنجاب",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 38,
+      "topic": "chaudhry salik hussain",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 08:50:00 UTC+5",
+      "ended": "6 November 2026 at 10:40:00 UTC+5",
+      "breakdown": "chaudhry salik hussain",
+      "state": "already-covered",
+      "target": "salik-hussain-minister-overseas-pakistanis-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 39,
+      "topic": "motorola signature 27",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 02:00:00 UTC+5",
+      "ended": "6 November 2026 at 09:50:00 UTC+5",
+      "breakdown": "motorola signature 27",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 40,
+      "topic": "news",
+      "searchVolume": "1k+",
+      "started": "5 November 2026 at 14:30:00 UTC+5",
+      "ended": "6 November 2026 at 06:10:00 UTC+5",
+      "breakdown": "news",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 41,
+      "topic": "free",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 23:50:00 UTC+5",
+      "ended": "6 November 2026 at 06:20:00 UTC+5",
+      "breakdown": "free",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 42,
+      "topic": "sachin tendulkar",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 06:40:00 UTC+5",
+      "ended": "6 November 2026 at 09:50:00 UTC+5",
+      "breakdown": "sachin tendulkar",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 43,
+      "topic": "getafe vs brighton",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 00:40:00 UTC+5",
+      "ended": "6 November 2026 at 04:10:00 UTC+5",
+      "breakdown": "getafe vs brighton",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 44,
+      "topic": "az vs juventus",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 00:50:00 UTC+5",
+      "ended": "6 November 2026 at 04:00:00 UTC+5",
+      "breakdown": "az vs juventus",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 45,
+      "topic": "europa league",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 01:00:00 UTC+5",
+      "ended": "6 November 2026 at 07:50:00 UTC+5",
+      "breakdown": "europa league",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 46,
+      "topic": "ایران",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 07:20:00 UTC+5",
+      "ended": "6 November 2026 at 09:30:00 UTC+5",
+      "breakdown": "ایران",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 47,
+      "topic": "automotive industry",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 11:40:00 UTC+5",
+      "ended": "6 November 2026 at 07:40:00 UTC+5",
+      "breakdown": "automotive industry",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 48,
+      "topic": "hawaiian pizza",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 18:30:00 UTC+5",
+      "ended": "6 November 2026 at 07:50:00 UTC+5",
+      "breakdown": "hawaiian pizza",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 49,
+      "topic": "wheat",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 07:30:00 UTC+5",
+      "ended": "6 November 2026 at 08:50:00 UTC+5",
+      "breakdown": "wheat",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 50,
+      "topic": "finance",
+      "searchVolume": "100+",
+      "started": "5 November 2026 at 21:40:00 UTC+5",
+      "ended": "6 November 2026 at 10:50:00 UTC+5",
+      "breakdown": "finance",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 51,
+      "topic": "pakistan",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 07:30:00 UTC+5",
+      "ended": "6 November 2026 at 08:10:00 UTC+5",
+      "breakdown": "pakistan",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 52,
+      "topic": "sparta praha vs bournemouth",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 23:10:00 UTC+5",
+      "ended": "6 November 2026 at 01:50:00 UTC+5",
+      "breakdown": "sparta praha vs bournemouth",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 53,
+      "topic": "2025",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 03:00:00 UTC+5",
+      "ended": "6 November 2026 at 08:50:00 UTC+5",
+      "breakdown": "2025,s&p 500",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 54,
+      "topic": "indian",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 00:30:00 UTC+5",
+      "ended": "6 November 2026 at 05:30:00 UTC+5",
+      "breakdown": "indian",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 55,
+      "topic": "rise and fall season 2 winner",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 01:40:00 UTC+5",
+      "ended": "6 November 2026 at 10:50:00 UTC+5",
+      "breakdown": "rise and fall season 2 winner",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 56,
+      "topic": "ad",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 23:20:00 UTC+5",
+      "ended": "6 November 2026 at 07:30:00 UTC+5",
+      "breakdown": "ad",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 57,
+      "topic": "sri lanka pakistan cricket match",
+      "searchVolume": "500+",
+      "started": "5 November 2026 at 12:50:00 UTC+5",
+      "ended": "5 November 2026 at 20:50:00 UTC+5",
+      "breakdown": "sri lanka pakistan cricket match",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 58,
+      "topic": "aisha wahab",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 11:10:00 UTC+5",
+      "ended": "5 November 2026 at 20:10:00 UTC+5",
+      "breakdown": "aisha wahab",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 59,
+      "topic": "soccer",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 13:50:00 UTC+5",
+      "ended": "6 November 2026 at 09:00:00 UTC+5",
+      "breakdown": "soccer",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 60,
+      "topic": "aew dynamite results",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 23:30:00 UTC+5",
+      "ended": "6 November 2026 at 02:20:00 UTC+5",
+      "breakdown": "aew dynamite results",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 61,
+      "topic": "midterm elections democrats",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 13:20:00 UTC+5",
+      "ended": "5 November 2026 at 15:20:00 UTC+5",
+      "breakdown": "midterm elections democrats,to,can’t",
+      "state": "already-covered",
+      "target": "us-midterm-elections-2026-voting-results-explained",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 62,
+      "topic": "real sociedad vs ol",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 23:10:00 UTC+5",
+      "ended": "6 November 2026 at 01:00:00 UTC+5",
+      "breakdown": "real sociedad vs ol",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 63,
+      "topic": "ecp",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 17:40:00 UTC+5",
+      "ended": "5 November 2026 at 20:40:00 UTC+5",
+      "breakdown": "ecp",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 64,
+      "topic": "rockstar",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 20:20:00 UTC+5",
+      "ended": "5 November 2026 at 23:10:00 UTC+5",
+      "breakdown": "rockstar,rockstar games gta vi",
+      "state": "already-covered",
+      "target": "gta-vi-official-release-information-safety-guide",
+      "reason": "Same-intent published canonical reused; not a new article."
+    },
+    {
+      "row": 65,
+      "topic": "afg u19 vs ban u19",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 11:40:00 UTC+5",
+      "ended": "5 November 2026 at 17:20:00 UTC+5",
+      "breakdown": "afg u19 vs ban u19",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 66,
+      "topic": "airplane",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 11:40:00 UTC+5",
+      "ended": "5 November 2026 at 15:10:00 UTC+5",
+      "breakdown": "airplane",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 67,
+      "topic": "papua new guinea",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 15:10:00 UTC+5",
+      "ended": "5 November 2026 at 18:30:00 UTC+5",
+      "breakdown": "papua new guinea",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 68,
+      "topic": "paraguay bank",
+      "searchVolume": "200+",
+      "started": "5 November 2026 at 19:10:00 UTC+5",
+      "ended": "5 November 2026 at 20:20:00 UTC+5",
+      "breakdown": "paraguay bank,paraguay",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 69,
+      "topic": "pakistani",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 02:20:00 UTC+5",
+      "ended": "6 November 2026 at 03:20:00 UTC+5",
+      "breakdown": "pakistani",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 70,
+      "topic": "wbbl",
+      "searchVolume": "100+",
+      "started": "5 November 2026 at 19:40:00 UTC+5",
+      "ended": "5 November 2026 at 20:40:00 UTC+5",
+      "breakdown": "wbbl",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 71,
+      "topic": "next",
+      "searchVolume": "100+",
+      "started": "5 November 2026 at 22:50:00 UTC+5",
+      "ended": "5 November 2026 at 23:30:00 UTC+5",
+      "breakdown": "next",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently identified event, entity or location in the supplied breakdown; standing user instruction is to skip unclear searches."
+    },
+    {
+      "row": 72,
+      "topic": "sam altman",
+      "searchVolume": "100+",
+      "started": "5 November 2026 at 13:00:00 UTC+5",
+      "ended": "5 November 2026 at 14:00:00 UTC+5",
+      "breakdown": "sam altman",
+      "state": "needs-intent-review"
+    }
+  ],
+  "groups": [],
+  "releaseBatches": []
+}

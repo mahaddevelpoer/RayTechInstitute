@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:IPhone San Jose.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/IPhone_San_Jose.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/IPhone_San_Jose.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:IPhone_San_Jose.jpg",
+    "creator": "I, Alison",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "alt": "An archive iPhone retail photograph from San Jose, shown as device context rather than an image proving iOS 27.2 compatibility.",
+    "description": "Shopping frenzy in San Jose, CA as the new Apple iPhone goes on sale. This is the store nearest to Apple HQ, on Stevens Creek.",
+    "caption": "An archive iPhone retail photograph from San Jose, shown as device context rather than an image proving iOS 27.2 compatibility.",
+    "width": 640,
+    "height": 480,
+    "bytes": 32046,
+    "sha1": "60e6ee10d33f877ed6f408e079f7b45cf7bff736",
+    "photographedAt": "2007-06-29",
+    "query": "Apple iPhone software update",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Apple iPhone 6 iOS Update (16195046500).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Apple_iPhone_6_iOS_Update_%2816195046500%29.jpg/1280px-Apple_iPhone_6_iOS_Update_%2816195046500%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Apple_iPhone_6_iOS_Update_%2816195046500%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_6_iOS_Update_(16195046500).jpg",
+    "creator": "Håkan Dahlström from Malmö, Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "An older iPhone software-update screen, used to illustrate the update process rather than the appearance or requirements of iOS 27.2.",
+    "description": "Apple iPhone 6 iOS Update",
+    "caption": "An older iPhone software-update screen, used to illustrate the update process rather than the appearance or requirements of iOS 27.2.",
+    "width": 5616,
+    "height": 3744,
+    "bytes": 6072580,
+    "sha1": "1608aa2631e9e6077f0ba410195eb3ee912f2944",
+    "photographedAt": "2015-01-27 19:48",
+    "query": "intitle:iPhone iOS",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

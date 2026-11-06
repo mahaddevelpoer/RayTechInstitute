@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Asim Azhar 2018.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Asim_Azhar_2018.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Asim_Azhar_2018.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Asim_Azhar_2018.png",
+    "creator": "Rafeel Shamim",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "An archive image of Asim Azhar from 2018, shown for artist identification rather than as a photograph of a November 2026 performance.",
+    "description": "Asim Azhar in 2018",
+    "caption": "An archive image of Asim Azhar from 2018, shown for artist identification rather than as a photograph of a November 2026 performance.",
+    "width": 640,
+    "height": 960,
+    "bytes": 1045189,
+    "sha1": "d4bcf9f4370d903e574963508815f6db56e113df",
+    "photographedAt": "2018-12-05",
+    "query": "intitle:Asim_Azhar",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Clock Tower Faisalabad by Usman Nadeem.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Clock_Tower_Faisalabad_by_Usman_Nadeem.jpg/1280px-Clock_Tower_Faisalabad_by_Usman_Nadeem.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Clock_Tower_Faisalabad_by_Usman_Nadeem.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Clock_Tower_Faisalabad_by_Usman_Nadeem.jpg",
+    "creator": "Usman Nadeem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Faisalabad’s Clock Tower, shown as city context for a tour stop rather than the Naturals Club and Resort concert venue.",
+    "description": "This is a photo of a monument in Pakistan identified as the",
+    "caption": "Faisalabad’s Clock Tower, shown as city context for a tour stop rather than the Naturals Club and Resort concert venue.",
+    "width": 4920,
+    "height": 3456,
+    "bytes": 9581842,
+    "sha1": "84c30d9747d1906dee76ce2793a345af587b2cca",
+    "photographedAt": "2015-02-26 09:33:40",
+    "query": "Faisalabad clock tower",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

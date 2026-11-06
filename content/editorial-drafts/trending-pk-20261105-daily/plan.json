@@ -104,8 +104,9 @@
       "queries": [
         "lens vs como"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "lens-como-1-9-douvikas-hat-trick-november-2026"
     },
     {
       "key": "dortmund-betis",
@@ -134,8 +135,9 @@
       "queries": [
         "munna bhai 3"
       ],
-      "state": "research-pending",
-      "category": "entertainment"
+      "state": "draft-written-checks-pending",
+      "category": "entertainment",
+      "slug": "munna-bhai-3-script-development-release-check-2026"
     },
     {
       "key": "rizwan-domestic",
@@ -164,8 +166,9 @@
       "queries": [
         "asim azhar"
       ],
-      "state": "research-pending",
-      "category": "entertainment"
+      "state": "draft-written-checks-pending",
+      "category": "entertainment",
+      "slug": "asim-azhar-pakistan-tour-2026-dates-ticket-guide"
     },
     {
       "key": "one-piece-1198",
@@ -173,8 +176,9 @@
       "queries": [
         "one piece chapter 1198 spoilers"
       ],
-      "state": "research-pending",
-      "category": "entertainment"
+      "state": "draft-written-checks-pending",
+      "category": "entertainment",
+      "slug": "one-piece-1198-release-pakistan-time-official-reading"
     },
     {
       "key": "hakeem-jeffries",
@@ -192,8 +196,9 @@
       "queries": [
         "koffee with karan season 9"
       ],
-      "state": "research-pending",
-      "category": "entertainment"
+      "state": "draft-written-checks-pending",
+      "category": "entertainment",
+      "slug": "koffee-with-karan-season-9-premiere-viewing-guide"
     },
     {
       "key": "apple-ios",
@@ -202,8 +207,9 @@
         "ios update",
         "ios 27.2"
       ],
-      "state": "research-pending",
-      "category": "technology"
+      "state": "draft-written-checks-pending",
+      "category": "technology",
+      "slug": "ios-27-2-release-backup-update-safety-guide"
     },
     {
       "key": "j-sale",
@@ -244,8 +250,9 @@
       "queries": [
         "vivo v80 fe"
       ],
-      "state": "research-pending",
-      "category": "technology"
+      "state": "draft-written-checks-pending",
+      "category": "technology",
+      "slug": "vivo-v80-fe-philippines-specs-pakistan-price-check"
     },
     {
       "key": "philadelphia-76ers",
@@ -1020,7 +1027,7 @@
       "reason": "Separate team intent: PCB identifies Rizwan with Peshawar Blues. New article explains the distinction but does not claim a verified Lahore Whites fixture result."
     }
   ],
-  "prepared": 27,
+  "prepared": 34,
   "published": 27,
   "remaining": 7,
   "releaseBatches": [
@@ -1104,6 +1111,23 @@
         "inserted": 10,
         "preserved": 347
       }
+    },
+    {
+      "number": 5,
+      "keys": [
+        "lens-como",
+        "munna-bhai-3",
+        "asim-azhar",
+        "one-piece-1198",
+        "koffee-season-9",
+        "apple-ios",
+        "vivo-v80-fe"
+      ],
+      "expectedSize": 7,
+      "explicitUserAuthorization": true,
+      "authorization": "Seven remaining earlier Pakistan topics plus three earlier India topics form one authorised ten-article publication batch, confirmed by user on 6 November 2026.",
+      "jointBatch": "nov6-mixed-01",
+      "state": "local-verified-ready-for-publication"
     }
   ]
 }

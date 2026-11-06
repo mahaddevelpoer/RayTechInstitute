@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Shueisha Jimbocho Building 20230919.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shueisha_Jimbocho_Building_20230919.jpg/1280px-Shueisha_Jimbocho_Building_20230919.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Shueisha_Jimbocho_Building_20230919.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Shueisha_Jimbocho_Building_20230919.jpg",
+    "creator": "Akonnchiroll",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Shueisha’s Jimbocho building in Tokyo, photographed in 2023, shown as publisher context rather than a Chapter 1198 preview.",
+    "description": "Shueisha headquaters at the Shueisha Jimbocho Building",
+    "caption": "Shueisha’s Jimbocho building in Tokyo, photographed in 2023, shown as publisher context rather than a Chapter 1198 preview.",
+    "width": 2656,
+    "height": 3719,
+    "bytes": 3322277,
+    "sha1": "d69932257d7590b6a0c9526435a973654e500b2a",
+    "photographedAt": "2023-09-19 13:27:33",
+    "query": "intitle:Shueisha",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Manga bookstore in Japan (hikikomorix).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Manga_bookstore_in_Japan_%28hikikomorix%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Manga_bookstore_in_Japan_%28hikikomorix%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Manga_bookstore_in_Japan_(hikikomorix).jpg",
+    "creator": "Justin Doub",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "A manga bookstore in Japan, used as an illustrative reading-culture photograph rather than a display of Chapter 1198 or an authorised preview.",
+    "description": "A manga bookstore somewhere in Japan",
+    "caption": "A manga bookstore in Japan, used as an illustrative reading-culture photograph rather than a display of Chapter 1198 or an authorised preview.",
+    "width": 765,
+    "height": 594,
+    "bytes": 386067,
+    "sha1": "377b83e7f17f269ccd4c799ca455ee4c34c8b853",
+    "photographedAt": "2006-05-19 20:46:49",
+    "query": "intitle:Manga_bookstore",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

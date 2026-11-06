@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Los Angeles Lakers vs San Antonio Spurs 2012.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Los_Angeles_Lakers_vs_San_Antonio_Spurs_2012.jpg/1280px-Los_Angeles_Lakers_vs_San_Antonio_Spurs_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Los_Angeles_Lakers_vs_San_Antonio_Spurs_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Lakers_vs_San_Antonio_Spurs_2012.jpg",
+    "creator": "Katie Haugland Bowen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "The Lakers playing the Spurs in 2012, shown as historical team context rather than the November 2026 game in Sacramento.",
+    "description": "Los Angeles Lakers vs San Antonio Spurs in April 20, 2012",
+    "caption": "The Lakers playing the Spurs in 2012, shown as historical team context rather than the November 2026 game in Sacramento.",
+    "width": 3711,
+    "height": 2465,
+    "bytes": 7835501,
+    "sha1": "3c756f4b9eaba105674e71fd494af42e5af0c345",
+    "photographedAt": "2012-04-20",
+    "query": "intitle:Los_Angeles_Lakers basketball",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Golden 1 Center aerial view.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Golden_1_Center_aerial_view.jpg/1280px-Golden_1_Center_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Golden_1_Center_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_1_Center_aerial_view.jpg",
+    "creator": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "An aerial view of Golden 1 Center, shown as venue context rather than a photograph taken during the Lakers versus Kings game.",
+    "description": "Aerial view of Golden 1 Center in downtown Sacramento, California. It's the home arena of the Sacramento Kings (NBA).",
+    "caption": "An aerial view of Golden 1 Center, shown as venue context rather than a photograph taken during the Lakers versus Kings game.",
+    "width": 7498,
+    "height": 5356,
+    "bytes": 11473394,
+    "sha1": "aad23d8a882349db6e1254c5647b2fbceed23ab6",
+    "photographedAt": "2026-04-02 19:44:54",
+    "query": "Golden 1 Center arena",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Stade Bollaert Delelis.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Stade_Bollaert_Delelis.JPG/1280px-Stade_Bollaert_Delelis.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Stade_Bollaert_Delelis.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Stade_Bollaert_Delelis.JPG",
+    "creator": "Liondartois",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A historical view of Stade Bollaert-Delelis in Lens, shown as venue context rather than an action photograph from the 4 November 2026 match.",
+    "description": "Bollaert Delelis Stadium",
+    "caption": "A historical view of Stade Bollaert-Delelis in Lens, shown as venue context rather than an action photograph from the 4 November 2026 match.",
+    "width": 4200,
+    "height": 3150,
+    "bytes": 4427825,
+    "sha1": "7f7fe0564334c8118a15f79b88e30321fcc0a076",
+    "photographedAt": "2015-08-08",
+    "query": "intitle:Stade_Bollaert",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Como 1907-Lazio Serie A 24 agosto 2025.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Como_1907-Lazio_Serie_A_24_agosto_2025.jpg/1280px-Como_1907-Lazio_Serie_A_24_agosto_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Como_1907-Lazio_Serie_A_24_agosto_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Como_1907-Lazio_Serie_A_24_agosto_2025.jpg",
+    "creator": "Fra Casa",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Como playing Lazio on 24 August 2025, shown as historical club context rather than the November 2026 match against Lens.",
+    "description": "Como 1907-Lazio Serie A 24 August 2025",
+    "caption": "Como playing Lazio on 24 August 2025, shown as historical club context rather than the November 2026 match against Lens.",
+    "width": 2040,
+    "height": 1530,
+    "bytes": 855709,
+    "sha1": "6f418bbf16bc8efefec02640a78aeee2f387748e",
+    "photographedAt": "2025-08-24",
+    "query": "intitle:Como_1907",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]
