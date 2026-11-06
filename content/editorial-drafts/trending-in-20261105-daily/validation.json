@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 68,
-  "bodyWords": 141971,
-  "uniqueImages": 136,
+  "state": "local-verified-unpublished",
+  "articles": 70,
+  "bodyWords": 146425,
+  "uniqueImages": 140,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -480,7 +480,20 @@
       "words": 2289,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "vande-bharat",
+      "slug": "vande-bharat-trainsets-speed-journey-guide",
+      "words": 2168,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "cisf-guide",
+      "slug": "cisf-full-form-public-role-recruitment-guide",
+      "words": 2286,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "batch-10-live-verification.json"
+  ]
 }

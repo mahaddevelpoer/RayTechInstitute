@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2168,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-06",
+  "sourceReview": "BATCH-11-RESEARCH.md",
+  "reviewNotes": "Primary sources establish historical and institutional facts. No invented live timetable, fare, vacancy, eligibility decision or selection cutoff. Both licensed images visually reviewed and dated as historical context."
+}

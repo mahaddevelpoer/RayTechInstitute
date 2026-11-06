@@ -706,6 +706,26 @@
       ],
       "state": "published-live-verified",
       "slug": "bhel-shares-orders-projects-revenue-cash-guide"
+    },
+    {
+      "key": "vande-bharat",
+      "topic": "Vande Bharat: trainsets, energy and official journey information",
+      "category": "technology",
+      "queries": [
+        "वंदे भारत एक्सप्रेस"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "vande-bharat-trainsets-speed-journey-guide"
+    },
+    {
+      "key": "cisf-guide",
+      "topic": "CISF: public role, recruitment notices and application literacy",
+      "category": "education",
+      "queries": [
+        "केंद्रीय औद्योगिक सुरक्षा बल"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "cisf-full-form-public-role-recruitment-guide"
     }
   ],
   "rowDisposition": [
@@ -1648,7 +1668,8 @@
       "row": 141,
       "topic": "वंदे भारत एक्सप्रेस",
       "breakdown": "वंदे भारत एक्सप्रेस",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "vande-bharat"
     },
     {
       "row": 142,
@@ -1769,7 +1790,8 @@
       "row": 159,
       "topic": "केंद्रीय औद्योगिक सुरक्षा बल",
       "breakdown": "केंद्रीय औद्योगिक सुरक्षा बल",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "cisf-guide"
     },
     {
       "row": 160,
@@ -3662,16 +3684,27 @@
         "inserted": 10,
         "preserved": 377
       }
+    },
+    {
+      "number": 11,
+      "keys": [
+        "vande-bharat",
+        "cisf-guide"
+      ],
+      "expectedSize": 2,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested continuation after the priority PowerPoint publication and publication of completed articles before credits run out. Two-article completion-and-publication batch.",
+      "state": "research-pending"
     }
   ],
-  "prepared": 68,
+  "prepared": 70,
   "published": 68,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 2,
   "intentReview": {
     "sameIntentCovered": 28,
     "unclear": 50,
-    "unreviewed": 264
+    "unreviewed": 262
   }
 }
