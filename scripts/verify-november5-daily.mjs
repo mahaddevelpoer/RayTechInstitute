@@ -31,8 +31,9 @@ for(const g of prepared){
  assert.equal(images[0].url,p.featuredImage);
  for(const match of p.content.matchAll(/\]\(([^)]+)\)/g)){const link=match[1];assert.ok(link.startsWith('/')||link.startsWith('https://'));if(link.startsWith('/blogs/')&&link!=='/blogs/')assert.ok(oldSlugs.has(link.split('/')[2])||slugs.has(link.split('/')[2]),'Unknown internal article '+link);}
  const hash=crypto.createHash('sha256').update(p.content).digest('hex');assert.ok(!hashes.has(hash));hashes.add(hash);
- const previous=fs.existsSync(dir+'/review.json')?read(dir+'/review.json'):{};const review={...previous,state:previous.published?'published-live-verified':'local-verified-unpublished',published:previous.published===true,words,imageVisualReview:previous.imageVisualReview||'pending',localChecks:'validation.json',sourceCheckedOn:'2026-11-05'};
+ const previous=fs.existsSync(dir+'/review.json')?read(dir+'/review.json'):{};const review={...previous,state:previous.published?'published-live-verified':'local-verified-unpublished',published:previous.published===true,words,imageVisualReview:previous.imageVisualReview||'pending',localChecks:'validation.json',sourceCheckedOn:previous.sourceCheckedOn||p.datePublished};
  if(fs.existsSync(dir+'/review.json'))review.imageVisualReview=read(dir+'/review.json').imageVisualReview;
  fs.writeFileSync(dir+'/review.json',JSON.stringify(review,null,2));results.push({key:g.key,slug:p.slug,words,tags:p.tags.length,images:images.length});
 }
 const report={state:'local-verified-unpublished',articles:results.length,bodyWords:results.reduce((sum,r)=>sum+r.words,0),uniqueImages:results.length*2,existingArticlesCompared:existing.length,results};fs.writeFileSync(root+'/validation.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+

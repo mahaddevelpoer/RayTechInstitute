@@ -10,9 +10,10 @@
   "hosting": "cloudflare-pages",
   "fullyReviewed": false,
   "pendingPakistan": {
-    "remaining": 23,
-    "state": "deferred-until-india-file-complete",
-    "planSha256": "78599d823f30b6a27a1601d75b11336f6672b15e2ee8c7f10842a3611d8b600a"
+    "remaining": 22,
+    "state": "active-priority-authorized",
+    "planSha256": "4c5d5162bbe703f1949f732a7b902443ea4857f23f2df54416638df89e1ffd49",
+    "authorization": "User explicitly requested Pakistan completion alongside India on 6 November; earlier deferral revoked."
   },
   "groups": [
     {

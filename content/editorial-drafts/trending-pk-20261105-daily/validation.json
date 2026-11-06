@@ -1,10 +1,17 @@
 {
   "state": "local-verified-unpublished",
-  "articles": 12,
-  "bodyWords": 24935,
-  "uniqueImages": 24,
+  "articles": 17,
+  "bodyWords": 35475,
+  "uniqueImages": 34,
   "existingArticlesCompared": 284,
   "results": [
+    {
+      "key": "gold-prices",
+      "slug": "pakistan-gold-price-tola-purity-quote-guide",
+      "words": 2044,
+      "tags": 42,
+      "images": 2
+    },
     {
       "key": "ssgc",
       "slug": "ssgc-bill-payment-complaint-service-guide",
@@ -69,9 +76,30 @@
       "images": 2
     },
     {
+      "key": "hakeem-jeffries",
+      "slug": "hakeem-jeffries-house-role-speaker-election-guide",
+      "words": 2084,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "j-sale",
+      "slug": "j-sale-pakistan-offer-size-policy-guide",
+      "words": 2155,
+      "tags": 42,
+      "images": 2
+    },
+    {
       "key": "porto-napoli",
       "slug": "porto-napoli-4-1-bednarek-veiga-kiwior-samu-2026",
       "words": 2025,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jd-vance",
+      "slug": "jd-vance-vice-president-senate-role-guide",
+      "words": 2163,
       "tags": 42,
       "images": 2
     },
@@ -86,6 +114,13 @@
       "key": "solar-power",
       "slug": "solar-power-panels-inverters-batteries-pakistan-guide",
       "words": 2049,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "salik-hussain",
+      "slug": "salik-hussain-minister-overseas-pakistanis-guide",
+      "words": 2094,
       "tags": 42,
       "images": 2
     }

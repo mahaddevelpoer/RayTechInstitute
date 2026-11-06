@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Clothing store downtown Boston.jpg",
+    "url": "/images/editorial/trending-pk-20261105-daily/j-sale-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Clothing_store_downtown_Boston.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Clothing_store_downtown_Boston.jpg",
+    "creator": "Kurt Kaiser",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "An illustrative clothing-retail photograph; it does not depict a verified J. outlet, current collection or sale offer.",
+    "description": "clothing, retail store",
+    "caption": "An illustrative clothing-retail photograph; it does not depict a verified J. outlet, current collection or sale offer.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 212024,
+    "sha1": "aa8aa0dcdc0bc107113dfbfac8cf08ddbf0ded3e",
+    "photographedAt": "2018-05-25",
+    "query": "intitle:Clothing_store",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Tape measure No 1.jpg",
+    "url": "/images/editorial/trending-pk-20261105-daily/j-sale-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tape_measure_No_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Tape_measure_No_1.jpg",
+    "creator": "Boatbuilder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "An illustrative tape measure for comparing measurement units; it is not a J. product or a current promotional item.",
+    "description": "tape measure from Sweden.",
+    "caption": "An illustrative tape measure for comparing measurement units; it is not a J. product or a current promotional item.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 33092,
+    "sha1": "d567a6d18e59841fb534ce9fc7dd49a4e5bc49f0",
+    "photographedAt": "2009-01",
+    "query": "intitle:Tape_measure",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

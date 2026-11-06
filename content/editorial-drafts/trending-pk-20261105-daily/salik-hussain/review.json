@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2094,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-06",
+  "visualEvidence": "artifacts/november5-daily/batch3-contact-1.png",
+  "visualReviewNotes": "All ten final images inspected. An unsuitable advertising-object image was replaced with a neutral tape-measure photograph and inspected separately. Captions distinguish museum objects, current versus former official portraits, historical meetings and illustrative retail from current prices, new office changes or actual brand stock."
+}

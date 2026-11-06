@@ -14,8 +14,9 @@
         "gold prices",
         "سونے کی قیمت"
       ],
-      "state": "research-pending",
-      "category": "economy"
+      "state": "draft-written-checks-pending",
+      "category": "economy",
+      "slug": "pakistan-gold-price-tola-purity-quote-guide"
     },
     {
       "key": "ssgc",
@@ -178,8 +179,9 @@
       "queries": [
         "hakeem jeffries"
       ],
-      "state": "research-pending",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "hakeem-jeffries-house-role-speaker-election-guide"
     },
     {
       "key": "koffee-season-9",
@@ -207,8 +209,9 @@
         "j.",
         "j. sale"
       ],
-      "state": "research-pending",
-      "category": "general"
+      "state": "draft-written-checks-pending",
+      "category": "general",
+      "slug": "j-sale-pakistan-offer-size-policy-guide"
     },
     {
       "key": "virat-kohli-birthday",
@@ -217,8 +220,10 @@
         "وراٹ کوہلی",
         "virat kohli birthday"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "covered-by-existing-article",
+      "category": "sports",
+      "coverageTarget": "virat-kohli-birthday-age-2026-career-guide",
+      "coverageReason": "The 6 November India release already published this same birthday and age intent. Reuse its canonical page."
     },
     {
       "key": "porto-napoli",
@@ -263,8 +268,9 @@
       "queries": [
         "jd vance"
       ],
-      "state": "research-pending",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "jd-vance-vice-president-senate-role-guide"
     },
     {
       "key": "abdul-el-sayed",
@@ -311,8 +317,9 @@
       "queries": [
         "salik hussain"
       ],
-      "state": "research-pending",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "salik-hussain-minister-overseas-pakistanis-guide"
     },
     {
       "key": "gina-hinojosa",
@@ -665,8 +672,9 @@
     {
       "row": 44,
       "topic": "وراٹ کوہلی",
-      "state": "queued",
-      "group": "virat-kohli-birthday"
+      "state": "already-covered",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 45,
@@ -793,8 +801,9 @@
     {
       "row": 62,
       "topic": "virat kohli birthday",
-      "state": "queued",
-      "group": "virat-kohli-birthday"
+      "state": "already-covered",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 63,
@@ -984,7 +993,7 @@
   ],
   "prepared": 12,
   "published": 12,
-  "remaining": 23,
+  "remaining": 22,
   "releaseBatches": [
     {
       "number": 1,
@@ -1019,6 +1028,20 @@
         "inserted": 2,
         "preserved": 294
       }
+    },
+    {
+      "number": 3,
+      "keys": [
+        "gold-prices",
+        "hakeem-jeffries",
+        "jd-vance",
+        "salik-hussain",
+        "j-sale"
+      ],
+      "expectedSize": 5,
+      "explicitUserAuthorization": true,
+      "authorization": "User explicitly resumed all 23 Pakistan topics and remaining India rows on 6 November 2026; completed reviewed batches remain authorized for publication.",
+      "state": "research-pending"
     }
   ]
 }
