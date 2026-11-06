@@ -1,4 +1,4 @@
-"""Convert the supplied topology DOCX to print HTML without changing its content."""
+"""Convert the supplied PowerPoint DOCX to print HTML without changing its content."""
 import argparse
 import base64
 import html

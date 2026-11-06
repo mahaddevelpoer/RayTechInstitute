@@ -714,7 +714,7 @@
       "queries": [
         "वंदे भारत एक्सप्रेस"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "vande-bharat-trainsets-speed-journey-guide"
     },
     {
@@ -724,7 +724,7 @@
       "queries": [
         "केंद्रीय औद्योगिक सुरक्षा बल"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "cisf-full-form-public-role-recruitment-guide"
     }
   ],
@@ -1668,8 +1668,9 @@
       "row": 141,
       "topic": "वंदे भारत एक्सप्रेस",
       "breakdown": "वंदे भारत एक्सप्रेस",
-      "state": "research-pending",
-      "group": "vande-bharat"
+      "state": "published-live-verified",
+      "group": "vande-bharat",
+      "target": "vande-bharat-trainsets-speed-journey-guide"
     },
     {
       "row": 142,
@@ -1790,8 +1791,9 @@
       "row": 159,
       "topic": "केंद्रीय औद्योगिक सुरक्षा बल",
       "breakdown": "केंद्रीय औद्योगिक सुरक्षा बल",
-      "state": "research-pending",
-      "group": "cisf-guide"
+      "state": "published-live-verified",
+      "group": "cisf-guide",
+      "target": "cisf-full-form-public-role-recruitment-guide"
     },
     {
       "row": 160,
@@ -3694,14 +3696,21 @@
       "expectedSize": 2,
       "explicitUserAuthorization": true,
       "authorization": "User requested continuation after the priority PowerPoint publication and publication of completed articles before credits run out. Two-article completion-and-publication batch.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42211774400,
+      "verificationRun": 42211774400,
+      "checkedAt": "2026-11-06T11:44:11.348Z",
+      "databaseReadback": {
+        "inserted": 2,
+        "preserved": 387
+      }
     }
   ],
   "prepared": 70,
-  "published": 68,
+  "published": 70,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 2,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 28,
     "unclear": 50,

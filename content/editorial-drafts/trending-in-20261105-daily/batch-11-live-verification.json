@@ -1,0 +1,75 @@
+{
+  "run": 42211774400,
+  "verificationRun": 42211774400,
+  "checkedAt": "2026-11-06T11:44:11.348Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 2,
+    "verified": 2,
+    "existingArticlesPreserved": 387,
+    "articles": [
+      "vande-bharat-trainsets-speed-journey-guide",
+      "cisf-full-form-public-role-recruitment-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "vande-bharat",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/vande-bharat-trainsets-speed-journey-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vande-bharat-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vande-bharat-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "cisf-guide",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/cisf-full-form-public-role-recruitment-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/cisf-guide-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/cisf-guide-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

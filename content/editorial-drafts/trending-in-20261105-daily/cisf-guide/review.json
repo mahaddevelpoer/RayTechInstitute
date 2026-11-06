@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2286,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-06",
   "sourceReview": "BATCH-11-RESEARCH.md",
-  "reviewNotes": "Primary sources establish historical and institutional facts. No invented live timetable, fare, vacancy, eligibility decision or selection cutoff. Both licensed images visually reviewed and dated as historical context."
+  "reviewNotes": "Primary sources establish historical and institutional facts. No invented live timetable, fare, vacancy, eligibility decision or selection cutoff. Both licensed images visually reviewed and dated as historical context.",
+  "hostingRun": 42211774400,
+  "verificationRun": 42211774400,
+  "liveUrl": "https://raytechinstitute.com/blogs/cisf-full-form-public-role-recruitment-guide/",
+  "liveCheckedAt": "2026-11-06T11:44:11.348Z"
 }
