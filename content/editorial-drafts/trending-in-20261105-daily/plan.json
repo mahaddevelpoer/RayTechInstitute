@@ -935,7 +935,7 @@
       "queries": [
         "rinky hijikata"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "rinky-hijikata-doubles-title-teamwork-guide"
     },
     {
@@ -945,7 +945,7 @@
       "queries": [
         "karen khachanov"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "karen-khachanov-paris-olympics-tennis-guide"
     },
     {
@@ -955,7 +955,7 @@
       "queries": [
         "ugo humbert"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "ugo-humbert-dubai-paris-left-handed-guide"
     },
     {
@@ -965,7 +965,7 @@
       "queries": [
         "nuno borges"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "nuno-borges-bastad-college-tennis-pathway"
     },
     {
@@ -975,7 +975,7 @@
       "queries": [
         "learner tien"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "learner-tien-australian-open-qualifying-guide"
     },
     {
@@ -985,7 +985,7 @@
       "queries": [
         "n'golo kanté"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "ngolo-kante-career-midfield-cover-guide"
     },
     {
@@ -995,7 +995,7 @@
       "queries": [
         "michael carrick"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "michael-carrick-playing-career-midfield-guide"
     },
     {
@@ -1005,7 +1005,7 @@
       "queries": [
         "amul"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "amul-cooperative-dairy-history-supply-chain"
     },
     {
@@ -1015,7 +1015,7 @@
       "queries": [
         "the hindu"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "the-hindu-history-news-reading-student-guide"
     },
     {
@@ -1025,7 +1025,7 @@
       "queries": [
         "elder scrolls vi"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "elder-scrolls-vi-official-updates-development"
     }
   ],
@@ -2450,8 +2450,9 @@
       "row": 214,
       "topic": "the hindu",
       "breakdown": "the hindu",
-      "state": "research-pending",
-      "group": "the-hindu-reading"
+      "state": "published-live-verified",
+      "group": "the-hindu-reading",
+      "target": "the-hindu-history-news-reading-student-guide"
     },
     {
       "row": 215,
@@ -2539,8 +2540,9 @@
       "row": 228,
       "topic": "n'golo kanté",
       "breakdown": "n'golo kanté,kojo peprah oppong",
-      "state": "research-pending",
-      "group": "ngolo-kante"
+      "state": "published-live-verified",
+      "group": "ngolo-kante",
+      "target": "ngolo-kante-career-midfield-cover-guide"
     },
     {
       "row": 229,
@@ -2576,8 +2578,9 @@
       "row": 234,
       "topic": "amul",
       "breakdown": "amul",
-      "state": "research-pending",
-      "group": "amul-cooperative"
+      "state": "published-live-verified",
+      "group": "amul-cooperative",
+      "target": "amul-cooperative-dairy-history-supply-chain"
     },
     {
       "row": 235,
@@ -2762,15 +2765,17 @@
       "row": 261,
       "topic": "rinky hijikata",
       "breakdown": "rinky hijikata,novak djokovic",
-      "state": "research-pending",
-      "group": "rinky-hijikata"
+      "state": "published-live-verified",
+      "group": "rinky-hijikata",
+      "target": "rinky-hijikata-doubles-title-teamwork-guide"
     },
     {
       "row": 262,
       "topic": "michael carrick",
       "breakdown": "michael carrick",
-      "state": "research-pending",
-      "group": "michael-carrick"
+      "state": "published-live-verified",
+      "group": "michael-carrick",
+      "target": "michael-carrick-playing-career-midfield-guide"
     },
     {
       "row": 263,
@@ -3598,8 +3603,9 @@
       "row": 390,
       "topic": "karen khachanov",
       "breakdown": "karen khachanov",
-      "state": "research-pending",
-      "group": "karen-khachanov"
+      "state": "published-live-verified",
+      "group": "karen-khachanov",
+      "target": "karen-khachanov-paris-olympics-tennis-guide"
     },
     {
       "row": 391,
@@ -3648,15 +3654,17 @@
       "row": 398,
       "topic": "ugo humbert",
       "breakdown": "ugo humbert",
-      "state": "research-pending",
-      "group": "ugo-humbert"
+      "state": "published-live-verified",
+      "group": "ugo-humbert",
+      "target": "ugo-humbert-dubai-paris-left-handed-guide"
     },
     {
       "row": 399,
       "topic": "elder scrolls vi",
       "breakdown": "elder scrolls vi",
-      "state": "research-pending",
-      "group": "elder-scrolls-vi"
+      "state": "published-live-verified",
+      "group": "elder-scrolls-vi",
+      "target": "elder-scrolls-vi-official-updates-development"
     },
     {
       "row": 400,
@@ -3674,8 +3682,9 @@
       "row": 402,
       "topic": "nuno borges",
       "breakdown": "nuno borges",
-      "state": "research-pending",
-      "group": "nuno-borges"
+      "state": "published-live-verified",
+      "group": "nuno-borges",
+      "target": "nuno-borges-bastad-college-tennis-pathway"
     },
     {
       "row": 403,
@@ -3708,8 +3717,9 @@
       "row": 407,
       "topic": "learner tien",
       "breakdown": "learner tien",
-      "state": "research-pending",
-      "group": "learner-tien"
+      "state": "published-live-verified",
+      "group": "learner-tien",
+      "target": "learner-tien-australian-open-qualifying-guide"
     },
     {
       "row": 408,
@@ -4129,14 +4139,21 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "User requested continued writing and publication in ten-article batches without subagents.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42253911818,
+      "verificationRun": 42253911818,
+      "checkedAt": "2026-11-06T16:42:06.710Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 409
+      }
     }
   ],
-  "prepared": 90,
-  "published": 90,
+  "prepared": 100,
+  "published": 100,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 29,
     "unclear": 50,

@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "articles": 100,
   "bodyWords": 209050,
   "uniqueImages": 200,
@@ -705,5 +705,6 @@
       "tags": 42,
       "images": 2
     }
-  ]
+  ],
+  "liveEvidence": "batch-14-live-verification.json"
 }

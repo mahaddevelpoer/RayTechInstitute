@@ -1,5 +1,5 @@
 # India trends status
 
-Published and live verified: 90. Prepared: 90. Remaining among the selected topics: 0.
+Published and live verified: 100. Prepared: 100. Remaining among the selected topics: 0.
 
-The India CSV has 421 rows and is not fully reviewed. The remaining 240 unreviewed rows need intent checks, not automatic duplicate publication. Existing covered rows: 29. Skipped unclear rows: 50. Pakistan pending topics: 0; queue status: completed-live-verified. See plan.json and RELEASE.md for evidence.
+The India CSV has 421 rows and is not fully reviewed. The remaining 230 unreviewed rows need intent checks, not automatic duplicate publication. Existing covered rows: 29. Skipped unclear rows: 50. Pakistan pending topics: 0; queue status: completed-live-verified. See plan.json and RELEASE.md for evidence.

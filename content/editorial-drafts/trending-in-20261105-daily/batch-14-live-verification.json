@@ -1,0 +1,315 @@
+{
+  "run": 42253911818,
+  "verificationRun": 42253911818,
+  "checkedAt": "2026-11-06T16:42:06.710Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 10,
+    "verified": 10,
+    "existingArticlesPreserved": 409,
+    "articles": [
+      "rinky-hijikata-doubles-title-teamwork-guide",
+      "karen-khachanov-paris-olympics-tennis-guide",
+      "ugo-humbert-dubai-paris-left-handed-guide",
+      "nuno-borges-bastad-college-tennis-pathway",
+      "learner-tien-australian-open-qualifying-guide",
+      "ngolo-kante-career-midfield-cover-guide",
+      "michael-carrick-playing-career-midfield-guide",
+      "amul-cooperative-dairy-history-supply-chain",
+      "the-hindu-history-news-reading-student-guide",
+      "elder-scrolls-vi-official-updates-development"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "rinky-hijikata",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/rinky-hijikata-doubles-title-teamwork-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/rinky-hijikata-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/rinky-hijikata-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "karen-khachanov",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/karen-khachanov-paris-olympics-tennis-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/karen-khachanov-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/karen-khachanov-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ugo-humbert",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/ugo-humbert-dubai-paris-left-handed-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ugo-humbert-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ugo-humbert-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "nuno-borges",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/nuno-borges-bastad-college-tennis-pathway/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/nuno-borges-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/nuno-borges-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "learner-tien",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/learner-tien-australian-open-qualifying-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/learner-tien-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/learner-tien-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ngolo-kante",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/ngolo-kante-career-midfield-cover-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ngolo-kante-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ngolo-kante-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "michael-carrick",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/michael-carrick-playing-career-midfield-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/michael-carrick-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/michael-carrick-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "amul-cooperative",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/amul-cooperative-dairy-history-supply-chain/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/amul-cooperative-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/amul-cooperative-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "the-hindu-reading",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/the-hindu-history-news-reading-student-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/the-hindu-reading-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/the-hindu-reading-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "elder-scrolls-vi",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/elder-scrolls-vi-official-updates-development/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/elder-scrolls-vi-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/elder-scrolls-vi-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

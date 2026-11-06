@@ -2,8 +2,12 @@
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-06",
   "sourceReview": "BATCH-14-RESEARCH.md",
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2005,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "hostingRun": 42253911818,
+  "verificationRun": 42253911818,
+  "liveUrl": "https://raytechinstitute.com/blogs/michael-carrick-playing-career-midfield-guide/",
+  "liveCheckedAt": "2026-11-06T16:42:06.710Z"
 }
