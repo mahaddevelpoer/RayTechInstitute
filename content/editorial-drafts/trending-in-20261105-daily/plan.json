@@ -10,9 +10,9 @@
   "hosting": "cloudflare-pages",
   "fullyReviewed": false,
   "pendingPakistan": {
-    "remaining": 22,
+    "remaining": 17,
     "state": "active-priority-authorized",
-    "planSha256": "4c5d5162bbe703f1949f732a7b902443ea4857f23f2df54416638df89e1ffd49",
+    "planSha256": "61408e149a17312c475c3a950c949de35645d512e0e842de6fe4eef20caaa9ee",
     "authorization": "User explicitly requested Pakistan completion alongside India on 6 November; earlier deferral revoked."
   },
   "groups": [
@@ -656,7 +656,9 @@
       "row": 30,
       "topic": "ನಟ",
       "breakdown": "ನಟ",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "An actor reference without identifying a person or work.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 31,
@@ -686,7 +688,9 @@
       "row": 35,
       "topic": "सफारी",
       "breakdown": "सफारी",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Could mean the browser, a vehicle or travel; the CSV provides no disambiguating breakdown.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 36,
@@ -766,7 +770,9 @@
       "row": 48,
       "topic": "రామాయణం",
       "breakdown": "రామాయణం",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Could mean the epic or a particular screen adaptation; no adaptation or event is identified.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 49,
@@ -804,7 +810,9 @@
       "row": 54,
       "topic": "ట్రైలర్",
       "breakdown": "ట్రైలర్",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Trailer without a named film, series or product.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 55,
@@ -878,7 +886,9 @@
       "row": 66,
       "topic": "థ్రిల్లర్",
       "breakdown": "థ్రిల్లర్",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Could mean a genre or a titled work; no specific work or event is identified.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 67,
@@ -1044,7 +1054,9 @@
       "row": 93,
       "topic": "चीनी",
       "breakdown": "चीनी",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Ambiguous between sugar and Chinese-related meaning; no context is supplied.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 94,
@@ -1100,7 +1112,9 @@
       "row": 102,
       "topic": "jd vance",
       "breakdown": "jd vance,iran news",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "jd-vance-vice-president-senate-role-guide",
+      "reason": "The same-intent profile was published in the resumed Pakistan batch; reuse its canonical URL."
     },
     {
       "row": 103,
@@ -1176,7 +1190,9 @@
       "row": 114,
       "topic": "याचिका",
       "breakdown": "याचिका,सूर्यकांत",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Petition plus Suryakant does not identify the case, court record or precise claim; do not invent legal news.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 115,
@@ -1230,7 +1246,9 @@
       "row": 123,
       "topic": "శుక్రుడు",
       "breakdown": "శుక్రుడు",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Could concern the planet or an astrological context; the intended event or question is absent.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 124,
@@ -1492,7 +1510,9 @@
       "row": 164,
       "topic": "ट्विशा",
       "breakdown": "ट्विशा",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "A personal name without enough identity or context to write a reliable profile.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 165,
@@ -2002,8 +2022,10 @@
     {
       "row": 247,
       "topic": "crackers",
-      "state": "needs-intent-review",
-      "breakdown": "crackers"
+      "state": "skipped-unclear",
+      "breakdown": "crackers",
+      "reason": "Ambiguous between fireworks and food; the CSV provides no context.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 248,
@@ -2795,7 +2817,9 @@
       "row": 374,
       "topic": "aviator",
       "breakdown": "aviator",
-      "state": "needs-intent-review"
+      "state": "skipped-unclear",
+      "reason": "Could concern aviation, a film or a gambling game; the CSV gives no identifying detail.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 375,
@@ -2982,8 +3006,10 @@
     {
       "row": 404,
       "topic": "temple",
-      "state": "needs-intent-review",
-      "breakdown": "temple"
+      "state": "skipped-unclear",
+      "breakdown": "temple",
+      "reason": "No temple, location or event is named.",
+      "reviewedOn": "2026-11-06"
     },
     {
       "row": 405,
@@ -3269,8 +3295,8 @@
   "pendingIntentReviewRows": 356,
   "remainingSelected": 0,
   "intentReview": {
-    "sameIntentCovered": 15,
-    "unclear": 38,
-    "unreviewed": 313
+    "sameIntentCovered": 16,
+    "unclear": 50,
+    "unreviewed": 300
   }
 }

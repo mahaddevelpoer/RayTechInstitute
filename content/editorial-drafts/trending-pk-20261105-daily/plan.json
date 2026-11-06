@@ -14,7 +14,7 @@
         "gold prices",
         "سونے کی قیمت"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "economy",
       "slug": "pakistan-gold-price-tola-purity-quote-guide"
     },
@@ -179,7 +179,7 @@
       "queries": [
         "hakeem jeffries"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "hakeem-jeffries-house-role-speaker-election-guide"
     },
@@ -209,7 +209,7 @@
         "j.",
         "j. sale"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "general",
       "slug": "j-sale-pakistan-offer-size-policy-guide"
     },
@@ -268,7 +268,7 @@
       "queries": [
         "jd vance"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "jd-vance-vice-president-senate-role-guide"
     },
@@ -317,7 +317,7 @@
       "queries": [
         "salik hussain"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "salik-hussain-minister-overseas-pakistanis-guide"
     },
@@ -480,8 +480,9 @@
     {
       "row": 17,
       "topic": "gold prices",
-      "state": "queued",
-      "group": "gold-prices"
+      "state": "published-live-verified",
+      "group": "gold-prices",
+      "target": "pakistan-gold-price-tola-purity-quote-guide"
     },
     {
       "row": 18,
@@ -504,8 +505,9 @@
     {
       "row": 21,
       "topic": "سونے کی قیمت",
-      "state": "queued",
-      "group": "gold-prices"
+      "state": "published-live-verified",
+      "group": "gold-prices",
+      "target": "pakistan-gold-price-tola-purity-quote-guide"
     },
     {
       "row": 22,
@@ -607,8 +609,9 @@
     {
       "row": 35,
       "topic": "j.",
-      "state": "queued",
-      "group": "j-sale"
+      "state": "published-live-verified",
+      "group": "j-sale",
+      "target": "j-sale-pakistan-offer-size-policy-guide"
     },
     {
       "row": 36,
@@ -625,8 +628,9 @@
     {
       "row": 38,
       "topic": "hakeem jeffries",
-      "state": "queued",
-      "group": "hakeem-jeffries"
+      "state": "published-live-verified",
+      "group": "hakeem-jeffries",
+      "target": "hakeem-jeffries-house-role-speaker-election-guide"
     },
     {
       "row": 39,
@@ -723,8 +727,9 @@
     {
       "row": 51,
       "topic": "j. sale",
-      "state": "queued",
-      "group": "j-sale"
+      "state": "published-live-verified",
+      "group": "j-sale",
+      "target": "j-sale-pakistan-offer-size-policy-guide"
     },
     {
       "row": 52,
@@ -735,8 +740,9 @@
     {
       "row": 53,
       "topic": "salik hussain",
-      "state": "queued",
-      "group": "salik-hussain"
+      "state": "published-live-verified",
+      "group": "salik-hussain",
+      "target": "salik-hussain-minister-overseas-pakistanis-guide"
     },
     {
       "row": 54,
@@ -929,8 +935,9 @@
     {
       "row": 76,
       "topic": "jd vance",
-      "state": "queued",
-      "group": "jd-vance"
+      "state": "published-live-verified",
+      "group": "jd-vance",
+      "target": "jd-vance-vice-president-senate-role-guide"
     },
     {
       "row": 77,
@@ -991,9 +998,9 @@
       "group": "rizwan-domestic"
     }
   ],
-  "prepared": 12,
-  "published": 12,
-  "remaining": 22,
+  "prepared": 17,
+  "published": 17,
+  "remaining": 17,
   "releaseBatches": [
     {
       "number": 1,
@@ -1041,7 +1048,14 @@
       "expectedSize": 5,
       "explicitUserAuthorization": true,
       "authorization": "User explicitly resumed all 23 Pakistan topics and remaining India rows on 6 November 2026; completed reviewed batches remain authorized for publication.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42164670899,
+      "verificationRun": 42164670899,
+      "checkedAt": "2026-11-06T04:53:04.805Z",
+      "databaseReadback": {
+        "inserted": 5,
+        "preserved": 342
+      }
     }
   ]
 }

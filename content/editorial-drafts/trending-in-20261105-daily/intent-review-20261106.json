@@ -1,0 +1,67 @@
+{
+  "reviewedOn": "2026-11-06",
+  "authorization": "Standing user instruction: skip unclear topics rather than invent their context.",
+  "decisions": [
+    {
+      "topic": "सफारी",
+      "state": "skipped-unclear",
+      "reason": "Could mean the browser, a vehicle or travel; the CSV provides no disambiguating breakdown."
+    },
+    {
+      "topic": "రామాయణం",
+      "state": "skipped-unclear",
+      "reason": "Could mean the epic or a particular screen adaptation; no adaptation or event is identified."
+    },
+    {
+      "topic": "ట్రైలర్",
+      "state": "skipped-unclear",
+      "reason": "Trailer without a named film, series or product."
+    },
+    {
+      "topic": "థ్రిల్లర్",
+      "state": "skipped-unclear",
+      "reason": "Could mean a genre or a titled work; no specific work or event is identified."
+    },
+    {
+      "topic": "चीनी",
+      "state": "skipped-unclear",
+      "reason": "Ambiguous between sugar and Chinese-related meaning; no context is supplied."
+    },
+    {
+      "topic": "శుక్రుడు",
+      "state": "skipped-unclear",
+      "reason": "Could concern the planet or an astrological context; the intended event or question is absent."
+    },
+    {
+      "topic": "crackers",
+      "state": "skipped-unclear",
+      "reason": "Ambiguous between fireworks and food; the CSV provides no context."
+    },
+    {
+      "topic": "aviator",
+      "state": "skipped-unclear",
+      "reason": "Could concern aviation, a film or a gambling game; the CSV gives no identifying detail."
+    },
+    {
+      "topic": "temple",
+      "state": "skipped-unclear",
+      "reason": "No temple, location or event is named."
+    },
+    {
+      "topic": "ट्विशा",
+      "state": "skipped-unclear",
+      "reason": "A personal name without enough identity or context to write a reliable profile."
+    },
+    {
+      "topic": "याचिका",
+      "state": "skipped-unclear",
+      "reason": "Petition plus Suryakant does not identify the case, court record or precise claim; do not invent legal news."
+    },
+    {
+      "topic": "ನಟ",
+      "state": "skipped-unclear",
+      "reason": "An actor reference without identifying a person or work."
+    }
+  ],
+  "note": "These are reviewed CSV rows, not newly written or published articles."
+}

@@ -1,0 +1,164 @@
+{
+  "run": 42164670899,
+  "checkedAt": "2026-11-06T04:53:04.805Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 5,
+    "verified": 5,
+    "existingArticlesPreserved": 342,
+    "articles": [
+      "pakistan-gold-price-tola-purity-quote-guide",
+      "hakeem-jeffries-house-role-speaker-election-guide",
+      "j-sale-pakistan-offer-size-policy-guide",
+      "jd-vance-vice-president-senate-role-guide",
+      "salik-hussain-minister-overseas-pakistanis-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "gold-prices",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-gold-price-tola-purity-quote-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/gold-prices-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/gold-prices-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "hakeem-jeffries",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/hakeem-jeffries-house-role-speaker-election-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/hakeem-jeffries-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/hakeem-jeffries-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "jd-vance",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/jd-vance-vice-president-senate-role-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/jd-vance-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/jd-vance-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "salik-hussain",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/salik-hussain-minister-overseas-pakistanis-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/salik-hussain-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/salik-hussain-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "j-sale",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/j-sale-pakistan-offer-size-policy-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/j-sale-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/j-sale-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

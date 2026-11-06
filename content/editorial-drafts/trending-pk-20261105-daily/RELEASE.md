@@ -1,14 +1,11 @@
-# November 5 daily articles
+# Pakistan CSV publication record
 
-12 of 35 distinct editorial topics are published and live verified. 23 remain unfinished. The CSV contains 81 rows: same-intent searches are consolidated, 22 previously covered rows are not duplicated, and 17 unclear rows are skipped.
+17 articles are published and live verified; 1 topic is covered by an existing shared article; 17 topics remain unfinished.
 
-Latest batch 2: 2 English articles, 4243 body words, 42 relevant tags each and 4 globally distinct licensed WebP images. Image captions identify historical or illustrative material. This insert preserved all 294 pre-existing article records; 2 new records were read back field by field.
-
-Cloudflare Pages releases:
+The latest release preserved 342 pre-existing database records, inserted 5, and read all selected fields back. Every new article has at least 2,000 body words, 42 relevant tags and two distinct licensed images. Historical and illustrative images are captioned accordingly. No live gold rate, sale offer, office transition or application outcome was invented.
 
 - Batch 1: 10 articles; https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41976478203
 - Batch 2: 2 articles; https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/41978519100
+- Batch 3: 5 articles; https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42164670899
 
-All selected live pages, exact SEO titles and descriptions, canonical URLs, single H1, BlogPosting schema, indexing directives, image pairs, listing entries and sitemap URLs passed direct checks. These checks do not guarantee search indexing, rankings or clicks. Firebase Hosting was not redeployed.
-
-DNS qualification: canonical-domain checks used the Cloudflare address returned by DNS-over-HTTPS, with normal hostname/certificate validation. Visitors using cached old DNS may still see old Firebase content until propagation completes. No Firebase redeploy or hosting deletion was performed.
+Live URL, image, exact metadata, canonical, H1, BlogPosting, listing, sitemap and indexability checks passed for the selected release. This does not guarantee indexing, ranking or clicks. Hosting is Cloudflare Pages; Firebase Hosting was not redeployed or removed.
