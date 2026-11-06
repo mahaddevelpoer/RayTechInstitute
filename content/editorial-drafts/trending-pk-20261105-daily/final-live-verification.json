@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T04:53:04.805Z",
+  "checkedAt": "2026-11-06T06:07:38.693Z",
   "resolver": "Cloudflare DNS-over-HTTPS; canonical hostname with verified TLS",
   "edgeAddress": "172.67.139.27",
   "results": [
@@ -482,6 +482,296 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261105-daily/salik-hussain-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "abdul-el-sayed",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/abdul-el-sayed-michigan-senator-elect-2026-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/abdul-el-sayed-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/abdul-el-sayed-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "champions-league-matchday-four",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/champions-league-matchday-4-2026-results-table-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/champions-league-matchday-four-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/champions-league-matchday-four-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "gina-hinojosa",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/gina-hinojosa-texas-governor-elect-2026-education-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/gina-hinojosa-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/gina-hinojosa-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "maliha-ali",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/maliha-ali-immaf-world-final-tbilisi-2026-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/maliha-ali-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/maliha-ali-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "nabeela-syed",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/nabeela-syed-illinois-state-senate-26-2026-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/nabeela-syed-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/nabeela-syed-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "philadelphia-76ers",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/76ers-pistons-112-106-november-4-2026-box-score-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/philadelphia-76ers-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/philadelphia-76ers-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "rizwan-domestic",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/rizwan-peshawar-blues-double-century-faisalabad-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/rizwan-domestic-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/rizwan-domestic-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "shaheen-odi-ranking",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/shaheen-afridi-fifth-odi-bowling-ranking-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/shaheen-odi-ranking-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/shaheen-odi-ranking-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "starc-test-ranking",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/mitchell-starc-number-one-test-bowling-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/starc-test-ranking-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/starc-test-ranking-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "amish-shah",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/amish-shah-arizona-district-1-house-win-2026-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/amish-shah-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/amish-shah-inline.webp",
           "status": 200,
           "present": true
         }

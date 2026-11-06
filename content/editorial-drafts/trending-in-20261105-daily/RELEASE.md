@@ -1,6 +1,6 @@
 # India CSV articles: publication record
 
-45 new articles are published and live verified. 0 of the selected topics remain. The 421-row CSV is not fully reviewed: 300 rows still need intent review; 16 have existing same-intent coverage and 50 vague rows are skipped. Pakistan work resumed on 6 November under explicit user instruction; 17 topics remain unfinished.
+45 new articles are published and live verified. 0 of the selected topics remain. The 421-row CSV is not fully reviewed: 298 rows still need intent review; 18 have existing same-intent coverage and 50 vague rows are skipped. Pakistan work resumed on 6 November under explicit user instruction; 17 topics remain unfinished.
 
 Each published article has at least 2,000 body words, 42 relevant tags and two distinct licensed images. Captions identify historical or illustrative material. All selected pages, image pairs, exact search metadata, canonical URLs, H1, article schema, listing and sitemap passed direct checks. This does not guarantee indexing, ranking or clicks.
 

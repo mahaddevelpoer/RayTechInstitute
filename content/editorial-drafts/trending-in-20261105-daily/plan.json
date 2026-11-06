@@ -10,9 +10,9 @@
   "hosting": "cloudflare-pages",
   "fullyReviewed": false,
   "pendingPakistan": {
-    "remaining": 17,
+    "remaining": 7,
     "state": "active-priority-authorized",
-    "planSha256": "61408e149a17312c475c3a950c949de35645d512e0e842de6fe4eef20caaa9ee",
+    "planSha256": "0ffe2c672ff821febee57e74fe469dce7ed1ef77d5471945815925dc8f677b75",
     "authorization": "User explicitly requested Pakistan completion alongside India on 6 November; earlier deferral revoked."
   },
   "groups": [
@@ -1299,7 +1299,9 @@
       "row": 131,
       "topic": "pistons vs 76ers",
       "breakdown": "pistons vs 76ers,and",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "76ers-pistons-112-106-november-4-2026-box-score-guide",
+      "reason": "The same-intent profile was published in the resumed Pakistan batch; reuse its canonical URL."
     },
     {
       "row": 132,
@@ -1983,7 +1985,9 @@
       "row": 241,
       "topic": "nabeela syed illinois",
       "breakdown": "nabeela syed illinois,nabeela syed election",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "nabeela-syed-illinois-state-senate-26-2026-guide",
+      "reason": "The same-intent profile was published in the resumed Pakistan batch; reuse its canonical URL."
     },
     {
       "row": 242,
@@ -3295,8 +3299,8 @@
   "pendingIntentReviewRows": 356,
   "remainingSelected": 0,
   "intentReview": {
-    "sameIntentCovered": 16,
+    "sameIntentCovered": 18,
     "unclear": 50,
-    "unreviewed": 300
+    "unreviewed": 298
   }
 }

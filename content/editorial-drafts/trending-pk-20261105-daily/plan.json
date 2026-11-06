@@ -124,7 +124,7 @@
         "maliha ali immaf world championships",
         "mixed martial arts"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "maliha-ali-immaf-world-final-tbilisi-2026-guide"
     },
@@ -144,7 +144,7 @@
         "mohammad rizwan domestic cricket comeback",
         "quaid e azam trophy lahore whites"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "rizwan-peshawar-blues-double-century-faisalabad-2026"
     },
@@ -154,7 +154,7 @@
       "queries": [
         "shaheen afridi icc odi ranking"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "shaheen-afridi-fifth-odi-bowling-ranking-november-2026"
     },
@@ -253,7 +253,7 @@
       "queries": [
         "philadelphia 76ers"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "76ers-pistons-112-106-november-4-2026-box-score-guide"
     },
@@ -263,7 +263,7 @@
       "queries": [
         "mitchell starc icc test bowling rankings"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "mitchell-starc-number-one-test-bowling-november-2026"
     },
@@ -284,7 +284,7 @@
         "abdul el sayed",
         "el sayed"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "abdul-el-sayed-michigan-senator-elect-2026-guide"
     },
@@ -304,7 +304,7 @@
       "queries": [
         "nabeela syed illinois"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "nabeela-syed-illinois-state-senate-26-2026-guide"
     },
@@ -334,7 +334,7 @@
       "queries": [
         "gina hinojosa"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "gina-hinojosa-texas-governor-elect-2026-education-guide"
     },
@@ -344,7 +344,7 @@
       "queries": [
         "amish shah"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "world-affairs",
       "slug": "amish-shah-arizona-district-1-house-win-2026-guide"
     },
@@ -354,7 +354,7 @@
       "queries": [
         "champions league standings"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "champions-league-matchday-4-2026-results-table-guide"
     }
@@ -471,8 +471,9 @@
     {
       "row": 14,
       "topic": "maliha ali immaf world championships",
-      "state": "queued",
-      "group": "maliha-ali"
+      "state": "published-live-verified",
+      "group": "maliha-ali",
+      "target": "maliha-ali-immaf-world-final-tbilisi-2026-guide"
     },
     {
       "row": 15,
@@ -497,8 +498,9 @@
     {
       "row": 18,
       "topic": "abdul el sayed",
-      "state": "queued",
-      "group": "abdul-el-sayed"
+      "state": "published-live-verified",
+      "group": "abdul-el-sayed",
+      "target": "abdul-el-sayed-michigan-senator-elect-2026-guide"
     },
     {
       "row": 19,
@@ -534,8 +536,9 @@
     {
       "row": 24,
       "topic": "mohammad rizwan domestic cricket comeback",
-      "state": "queued",
-      "group": "rizwan-domestic"
+      "state": "published-live-verified",
+      "group": "rizwan-domestic",
+      "target": "rizwan-peshawar-blues-double-century-faisalabad-2026"
     },
     {
       "row": 25,
@@ -588,8 +591,9 @@
     {
       "row": 30,
       "topic": "shaheen afridi icc odi ranking",
-      "state": "queued",
-      "group": "shaheen-odi-ranking"
+      "state": "published-live-verified",
+      "group": "shaheen-odi-ranking",
+      "target": "shaheen-afridi-fifth-odi-bowling-ranking-november-2026"
     },
     {
       "row": 31,
@@ -607,8 +611,9 @@
     {
       "row": 33,
       "topic": "nabeela syed illinois",
-      "state": "queued",
-      "group": "nabeela-syed"
+      "state": "published-live-verified",
+      "group": "nabeela-syed",
+      "target": "nabeela-syed-illinois-state-senate-26-2026-guide"
     },
     {
       "row": 34,
@@ -711,8 +716,9 @@
     {
       "row": 47,
       "topic": "champions league standings",
-      "state": "queued",
-      "group": "champions-league-matchday-four"
+      "state": "published-live-verified",
+      "group": "champions-league-matchday-four",
+      "target": "champions-league-matchday-4-2026-results-table-guide"
     },
     {
       "row": 48,
@@ -799,8 +805,9 @@
     {
       "row": 59,
       "topic": "mixed martial arts",
-      "state": "queued",
-      "group": "maliha-ali"
+      "state": "published-live-verified",
+      "group": "maliha-ali",
+      "target": "maliha-ali-immaf-world-final-tbilisi-2026-guide"
     },
     {
       "row": 60,
@@ -811,8 +818,9 @@
     {
       "row": 61,
       "topic": "gina hinojosa",
-      "state": "queued",
-      "group": "gina-hinojosa"
+      "state": "published-live-verified",
+      "group": "gina-hinojosa",
+      "target": "gina-hinojosa-texas-governor-elect-2026-education-guide"
     },
     {
       "row": 62,
@@ -824,8 +832,9 @@
     {
       "row": 63,
       "topic": "el sayed",
-      "state": "queued",
-      "group": "abdul-el-sayed"
+      "state": "published-live-verified",
+      "group": "abdul-el-sayed",
+      "target": "abdul-el-sayed-michigan-senator-elect-2026-guide"
     },
     {
       "row": 64,
@@ -891,8 +900,9 @@
     {
       "row": 70,
       "topic": "philadelphia 76ers",
-      "state": "queued",
-      "group": "philadelphia-76ers"
+      "state": "published-live-verified",
+      "group": "philadelphia-76ers",
+      "target": "76ers-pistons-112-106-november-4-2026-box-score-guide"
     },
     {
       "row": 71,
@@ -933,14 +943,16 @@
     {
       "row": 74,
       "topic": "mitchell starc icc test bowling rankings",
-      "state": "queued",
-      "group": "starc-test-ranking"
+      "state": "published-live-verified",
+      "group": "starc-test-ranking",
+      "target": "mitchell-starc-number-one-test-bowling-november-2026"
     },
     {
       "row": 75,
       "topic": "amish shah",
-      "state": "queued",
-      "group": "amish-shah"
+      "state": "published-live-verified",
+      "group": "amish-shah",
+      "target": "amish-shah-arizona-district-1-house-win-2026-guide"
     },
     {
       "row": 76,
@@ -1009,8 +1021,8 @@
     }
   ],
   "prepared": 27,
-  "published": 17,
-  "remaining": 17,
+  "published": 27,
+  "remaining": 7,
   "releaseBatches": [
     {
       "number": 1,
@@ -1084,7 +1096,14 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "User explicitly requested ten complete articles per publication batch and confirmed on 6 November 2026.",
-      "state": "local-verified-ready-for-publication"
+      "state": "published-live-verified",
+      "hostingRun": 42171970775,
+      "verificationRun": 42171970775,
+      "checkedAt": "2026-11-06T06:07:38.693Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 347
+      }
     }
   ]
 }
