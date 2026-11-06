@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Bruno Fernandes Portugal, 2018.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/bruno-fernandes-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Bruno_Fernandes_Portugal%2C_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_Portugal,_2018.jpg",
+    "creator": "Александр Вепрёв",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Bruno Fernandes at the 2018 World Cup, shown as historical Portugal context.",
+    "description": "Bruno Fernandes at the 2018 FIFA World Cup.",
+    "caption": "Bruno Fernandes at the 2018 World Cup, shown as historical Portugal context.",
+    "width": 640,
+    "height": 960,
+    "bytes": 30090,
+    "sha1": "c5187cf37b1b289fc517a55c7b8cb69487489abc",
+    "photographedAt": "2018-07-01 12:10:04",
+    "query": "intitle:Bruno intitle:Fernandes Portugal",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Bruno Fernandes Croatia v Portugal 2 July 2026-136.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/bruno-fernandes-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bruno_Fernandes_Croatia_v_Portugal_2_July_2026-136.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_Croatia_v_Portugal_2_July_2026-136.jpg",
+    "creator": "Bryan Berlin / WikiPortraits",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Bruno Fernandes during Croatia against Portugal on 2 July 2026; dated international football context, not a club-transfer announcement.",
+    "description": "Bruno Fernandes during Croatia v Portugal on 2 July 2026 at the 2026 FIFA World Cup",
+    "caption": "Bruno Fernandes during Croatia against Portugal on 2 July 2026; dated international football context, not a club-transfer announcement.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 112436,
+    "sha1": "8f0406fdeb2e417f1e3ce94b8ae026581bb9dd61",
+    "photographedAt": "2026-07-02 19:33:08",
+    "query": "intitle:Bruno intitle:Fernandes Portugal",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

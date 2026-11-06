@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Maria Sakkari (46329386694).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/maria-sakkari-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Maria_Sakkari_%2846329386694%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Maria_Sakkari_(46329386694).jpg",
+    "creator": "Peter Menzel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Maria Sakkari photographed in February 2019; historical player context.",
+    "description": "Maria Sakkari",
+    "caption": "Maria Sakkari photographed in February 2019; historical player context.",
+    "width": 960,
+    "height": 960,
+    "bytes": 81488,
+    "sha1": "0f443679da1f4d80bad40c9cc7995a03bd8503b5",
+    "photographedAt": "2019-02-07 20:15",
+    "query": "intitle:Maria intitle:Sakkari",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Maria Sakkari (52172548457).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/maria-sakkari-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Maria_Sakkari_%2852172548457%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Maria_Sakkari_(52172548457).jpg",
+    "creator": "Peter Menzel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Maria Sakkari photographed in June 2022, shown as a separate historical career image rather than her 2023 title ceremony.",
+    "description": "Maria Sakkari",
+    "caption": "Maria Sakkari photographed in June 2022, shown as a separate historical career image rather than her 2023 title ceremony.",
+    "width": 1200,
+    "height": 960,
+    "bytes": 140616,
+    "sha1": "5cdf1259ebac4377a2b08b83868a4bc4d42a4f45",
+    "photographedAt": "2022-06-10 14:23",
+    "query": "intitle:Maria intitle:Sakkari",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

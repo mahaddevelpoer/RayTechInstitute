@@ -827,6 +827,106 @@
       ],
       "state": "published-live-verified",
       "slug": "charles-leclerc-career-formula-one-guide"
+    },
+    {
+      "key": "alex-de-minaur",
+      "topic": "Alex de Minaur: movement, return depth and career milestones",
+      "category": "sports",
+      "queries": [
+        "alex de minaur"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "alex-de-minaur-career-movement-return-guide"
+    },
+    {
+      "key": "daniil-medvedev",
+      "topic": "Daniil Medvedev: 2021 US Open, ranking history and baseline geometry",
+      "category": "sports",
+      "queries": [
+        "daniil medvedev"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "daniil-medvedev-us-open-ranking-baseline-guide"
+    },
+    {
+      "key": "frances-tiafoe",
+      "topic": "Frances Tiafoe: development, 2022 US Open and attacking decisions",
+      "category": "sports",
+      "queries": [
+        "frances tiafoe"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "frances-tiafoe-career-attacking-tennis-guide"
+    },
+    {
+      "key": "matteo-berrettini",
+      "topic": "Matteo Berrettini: 2021 Wimbledon and serve-plus-one patterns",
+      "category": "sports",
+      "queries": [
+        "matteo berrettini"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "matteo-berrettini-wimbledon-serve-patterns"
+    },
+    {
+      "key": "taylor-fritz",
+      "topic": "Taylor Fritz: Indian Wells, 2024 US Open and first-strike tennis",
+      "category": "sports",
+      "queries": [
+        "taylor fritz"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "taylor-fritz-career-first-strike-tennis-guide"
+    },
+    {
+      "key": "maria-sakkari",
+      "topic": "Maria Sakkari: 2021 semifinals, Guadalajara and competitive consistency",
+      "category": "sports",
+      "queries": [
+        "maria sakkari"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "maria-sakkari-career-consistency-return-guide"
+    },
+    {
+      "key": "bruno-fernandes",
+      "topic": "Bruno Fernandes: creative midfield, passing risk and United timeline",
+      "category": "sports",
+      "queries": [
+        "bruno fernandes"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "bruno-fernandes-career-creative-midfield-guide"
+    },
+    {
+      "key": "romelu-lukaku",
+      "topic": "Romelu Lukaku: centre-forward movement, transfers and finishing context",
+      "category": "sports",
+      "queries": [
+        "romelu lukaku"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "romelu-lukaku-career-centre-forward-guide"
+    },
+    {
+      "key": "eder-militao",
+      "topic": "Eder Militao: defensive positioning, Porto transfer and centre-back analysis",
+      "category": "sports",
+      "queries": [
+        "éder militão"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "eder-militao-career-centre-back-analysis"
+    },
+    {
+      "key": "brahim-diaz",
+      "topic": "Brahim Diaz: City-Madrid-Milan development and receiving between lines",
+      "category": "sports",
+      "queries": [
+        "brahim díaz"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "brahim-diaz-career-receiving-between-lines"
     }
   ],
   "rowDisposition": [
@@ -2785,7 +2885,8 @@
       "row": 296,
       "topic": "bruno fernandes",
       "breakdown": "bruno fernandes",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "bruno-fernandes"
     },
     {
       "row": 297,
@@ -2815,7 +2916,8 @@
       "row": 301,
       "topic": "éder militão",
       "breakdown": "éder militão",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "eder-militao"
     },
     {
       "row": 302,
@@ -2927,7 +3029,8 @@
       "row": 319,
       "topic": "alex de minaur",
       "breakdown": "alex de minaur,ignacio buse",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "alex-de-minaur"
     },
     {
       "row": 320,
@@ -2947,7 +3050,8 @@
       "row": 322,
       "topic": "romelu lukaku",
       "breakdown": "romelu lukaku",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "romelu-lukaku"
     },
     {
       "row": 323,
@@ -3004,7 +3108,8 @@
       "row": 331,
       "topic": "brahim díaz",
       "breakdown": "brahim díaz",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "brahim-diaz"
     },
     {
       "row": 332,
@@ -3215,7 +3320,8 @@
       "row": 365,
       "topic": "frances tiafoe",
       "breakdown": "frances tiafoe",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "frances-tiafoe"
     },
     {
       "row": 366,
@@ -3233,7 +3339,8 @@
       "row": 368,
       "topic": "daniil medvedev",
       "breakdown": "daniil medvedev",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "daniil-medvedev"
     },
     {
       "row": 369,
@@ -3277,7 +3384,8 @@
       "row": 375,
       "topic": "matteo berrettini",
       "breakdown": "matteo berrettini",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "matteo-berrettini"
     },
     {
       "row": 376,
@@ -3309,7 +3417,8 @@
       "row": 380,
       "topic": "taylor fritz",
       "breakdown": "taylor fritz",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "taylor-fritz"
     },
     {
       "row": 381,
@@ -3367,7 +3476,8 @@
       "row": 389,
       "topic": "maria sakkari",
       "breakdown": "maria sakkari,maya joint",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "maria-sakkari"
     },
     {
       "row": 390,
@@ -3855,16 +3965,35 @@
         "inserted": 10,
         "preserved": 389
       }
+    },
+    {
+      "number": 13,
+      "keys": [
+        "alex-de-minaur",
+        "daniil-medvedev",
+        "frances-tiafoe",
+        "matteo-berrettini",
+        "taylor-fritz",
+        "maria-sakkari",
+        "bruno-fernandes",
+        "romelu-lukaku",
+        "eder-militao",
+        "brahim-diaz"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested continued writing and publication in ten-article batches without subagents.",
+      "state": "research-pending"
     }
   ],
   "prepared": 80,
   "published": 80,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
     "sameIntentCovered": 29,
     "unclear": 50,
-    "unreviewed": 250
+    "unreviewed": 240
   }
 }

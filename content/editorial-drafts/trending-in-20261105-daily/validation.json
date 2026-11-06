@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 80,
-  "bodyWords": 168087,
-  "uniqueImages": 160,
+  "state": "local-verified-unpublished",
+  "articles": 90,
+  "bodyWords": 188532,
+  "uniqueImages": 180,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -564,7 +564,76 @@
       "words": 2176,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "alex-de-minaur",
+      "slug": "alex-de-minaur-career-movement-return-guide",
+      "words": 2067,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "daniil-medvedev",
+      "slug": "daniil-medvedev-us-open-ranking-baseline-guide",
+      "words": 2000,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "frances-tiafoe",
+      "slug": "frances-tiafoe-career-attacking-tennis-guide",
+      "words": 2080,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "matteo-berrettini",
+      "slug": "matteo-berrettini-wimbledon-serve-patterns",
+      "words": 2004,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "taylor-fritz",
+      "slug": "taylor-fritz-career-first-strike-tennis-guide",
+      "words": 2004,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "maria-sakkari",
+      "slug": "maria-sakkari-career-consistency-return-guide",
+      "words": 2030,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bruno-fernandes",
+      "slug": "bruno-fernandes-career-creative-midfield-guide",
+      "words": 2044,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "romelu-lukaku",
+      "slug": "romelu-lukaku-career-centre-forward-guide",
+      "words": 2047,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "eder-militao",
+      "slug": "eder-militao-career-centre-back-analysis",
+      "words": 2018,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "brahim-diaz",
+      "slug": "brahim-diaz-career-receiving-between-lines",
+      "words": 2151,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "batch-12-live-verification.json"
+  ]
 }
