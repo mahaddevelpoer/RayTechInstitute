@@ -1,5 +1,5 @@
 # India trends status
 
-Published and live verified: 58. Prepared: 68. Selected batch 10: ten reviewed articles awaiting publication and hosting.
+Published and live verified: 68. Prepared: 68. Remaining among the selected topics: 0.
 
-India CSV: 421 rows. Unreviewed rows: 272. Existing same-intent coverage and unclear skips remain recorded in plan.json. Pakistan older selected queue is complete; the separate new Pakistan CSV remains queued. No subagents or local production build used for batch 10.
+The India CSV has 421 rows and is not fully reviewed. The remaining 264 unreviewed rows need intent checks, not automatic duplicate publication. Existing covered rows: 28. Skipped unclear rows: 50. Pakistan pending topics: 0; queue status: completed-live-verified. See plan.json and RELEASE.md for evidence.

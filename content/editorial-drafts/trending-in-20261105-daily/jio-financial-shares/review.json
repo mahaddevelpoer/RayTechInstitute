@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2228,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-06",
   "sourceReview": "BATCH-10-RESEARCH.md",
-  "reviewNotes": "Manually written original explanations and explicitly hypothetical calculations. Company identity, reporting scope and primary-source claims checked. No invented current quote or forecast. Both licensed images visually reviewed with historical or illustrative captions."
+  "reviewNotes": "Manually written original explanations and explicitly hypothetical calculations. Company identity, reporting scope and primary-source claims checked. No invented current quote or forecast. Both licensed images visually reviewed with historical or illustrative captions.",
+  "hostingRun": 42203591235,
+  "verificationRun": 42203591235,
+  "liveUrl": "https://raytechinstitute.com/blogs/jio-financial-shares-businesses-results-guide/",
+  "liveCheckedAt": "2026-11-06T10:39:29.898Z"
 }

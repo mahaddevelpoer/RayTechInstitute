@@ -1,0 +1,47 @@
+{
+  "checkedOn": "2026-11-06",
+  "newArticles": 0,
+  "rows": [
+    {
+      "row": 10,
+      "target": "virat-kohli-birthday-age-2026-career-guide",
+      "reason": "Hindi query names the same player already covered by the career guide; no separate biography for a transliteration."
+    },
+    {
+      "row": 186,
+      "target": "virat-kohli-birthday-age-2026-career-guide",
+      "reason": "Malayalam query names Virat Kohli, covered by the existing career guide."
+    },
+    {
+      "row": 51,
+      "target": "donald-trump-biography-presidency-powers-guide",
+      "reason": "Existing presidency timeline covers the broad current US president query."
+    },
+    {
+      "row": 77,
+      "target": "donald-trump-biography-presidency-powers-guide",
+      "reason": "Existing presidency timeline and term explanation cover the broad new-president query; no invented presidential transition."
+    },
+    {
+      "row": 52,
+      "target": "ramayana-movie-explained-guide",
+      "reason": "Existing film page explicitly covers regional release context and dates; no second release-date page."
+    },
+    {
+      "row": 224,
+      "target": "suzlon-share-price-orders-cash-flow-guide",
+      "reason": "Same Suzlon equity intent as the already published share-price business guide."
+    },
+    {
+      "row": 254,
+      "target": "agniveer-november-2026-two-year-extension-policy-guide",
+      "reason": "Hindi Agnipath scheme query maps to the existing Agniveer policy guide."
+    },
+    {
+      "row": 293,
+      "target": "agniveer-november-2026-two-year-extension-policy-guide",
+      "reason": "Telugu Agnipath scheme query maps to the same existing policy guide."
+    }
+  ],
+  "notMerged": "Kohli row 47 includes a second-ODI search intent, so a first-ODI result alone was not treated as complete coverage."
+}

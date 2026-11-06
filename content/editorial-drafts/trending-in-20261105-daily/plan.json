@@ -614,7 +614,7 @@
       "queries": [
         "ril share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "reliance-industries-shares-segments-cash-flow-guide"
     },
     {
@@ -624,7 +624,7 @@
       "queries": [
         "jio finance share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "jio-financial-shares-businesses-results-guide"
     },
     {
@@ -634,7 +634,7 @@
       "queries": [
         "adani power share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "adani-power-shares-generation-costs-results-guide"
     },
     {
@@ -644,7 +644,7 @@
       "queries": [
         "gail share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "gail-shares-transmission-marketing-results-guide"
     },
     {
@@ -654,7 +654,7 @@
       "queries": [
         "tata steel share"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "tata-steel-shares-production-spreads-cash-guide"
     },
     {
@@ -664,7 +664,7 @@
       "queries": [
         "bajaj finance share"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "bajaj-finance-shares-aum-credit-results-guide"
     },
     {
@@ -674,7 +674,7 @@
       "queries": [
         "mcx share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "mcx-shares-commodity-exchange-revenue-guide"
     },
     {
@@ -684,7 +684,7 @@
       "queries": [
         "titan share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "titan-shares-jewellery-watches-results-guide"
     },
     {
@@ -694,7 +694,7 @@
       "queries": [
         "asian paints share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "asian-paints-shares-volume-margins-results-guide"
     },
     {
@@ -704,7 +704,7 @@
       "queries": [
         "bhel share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "bhel-shares-orders-projects-revenue-cash-guide"
     }
   ],
@@ -761,7 +761,9 @@
       "row": 10,
       "topic": "विराट कोहली",
       "breakdown": "विराट कोहली,सचिन तेंदुलकर,भारत न्यूजीलैंड वनडे सीरीज",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "virat-kohli-birthday-age-2026-career-guide",
+      "reason": "Hindi query names the same player already covered by the career guide; no separate biography for a transliteration."
     },
     {
       "row": 11,
@@ -1031,13 +1033,17 @@
       "row": 51,
       "topic": "us president",
       "breakdown": "us president,america president",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "donald-trump-biography-presidency-powers-guide",
+      "reason": "Existing presidency timeline covers the broad current US president query."
     },
     {
       "row": 52,
       "topic": "ramayana release date",
       "breakdown": "ramayana release date",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "ramayana-movie-explained-guide",
+      "reason": "Existing film page explicitly covers regional release context and dates; no second release-date page."
     },
     {
       "row": 53,
@@ -1199,7 +1205,9 @@
       "row": 77,
       "topic": "new president of usa",
       "breakdown": "new president of usa",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "donald-trump-biography-presidency-powers-guide",
+      "reason": "Existing presidency timeline and term explanation cover the broad new-president query; no invented presidential transition."
     },
     {
       "row": 78,
@@ -1349,22 +1357,25 @@
       "row": 98,
       "topic": "ril share price",
       "breakdown": "ril share price",
-      "state": "research-pending",
-      "group": "ril-shares"
+      "state": "published-live-verified",
+      "group": "ril-shares",
+      "target": "reliance-industries-shares-segments-cash-flow-guide"
     },
     {
       "row": 99,
       "topic": "jio finance share price",
       "breakdown": "jio finance share price,jio financial services share price",
-      "state": "research-pending",
-      "group": "jio-financial-shares"
+      "state": "published-live-verified",
+      "group": "jio-financial-shares",
+      "target": "jio-financial-shares-businesses-results-guide"
     },
     {
       "row": 100,
       "topic": "adani power share price",
       "breakdown": "adani power share price,adani power share",
-      "state": "research-pending",
-      "group": "adani-power-shares"
+      "state": "published-live-verified",
+      "group": "adani-power-shares",
+      "target": "adani-power-shares-generation-costs-results-guide"
     },
     {
       "row": 101,
@@ -1390,8 +1401,9 @@
       "row": 104,
       "topic": "gail share price",
       "breakdown": "gail share price,icicidirect,gift nifty live today",
-      "state": "research-pending",
-      "group": "gail-shares"
+      "state": "published-live-verified",
+      "group": "gail-shares",
+      "target": "gail-shares-transmission-marketing-results-guide"
     },
     {
       "row": 105,
@@ -1463,8 +1475,9 @@
       "row": 115,
       "topic": "tata steel share",
       "breakdown": "tata steel share,tata steel share price",
-      "state": "research-pending",
-      "group": "tata-steel-shares"
+      "state": "published-live-verified",
+      "group": "tata-steel-shares",
+      "target": "tata-steel-shares-production-spreads-cash-guide"
     },
     {
       "row": 116,
@@ -1476,15 +1489,17 @@
       "row": 117,
       "topic": "bajaj finance share",
       "breakdown": "bajaj finance share",
-      "state": "research-pending",
-      "group": "bajaj-finance-shares"
+      "state": "published-live-verified",
+      "group": "bajaj-finance-shares",
+      "target": "bajaj-finance-shares-aum-credit-results-guide"
     },
     {
       "row": 118,
       "topic": "mcx share price",
       "breakdown": "mcx share price",
-      "state": "research-pending",
-      "group": "mcx-shares"
+      "state": "published-live-verified",
+      "group": "mcx-shares",
+      "target": "mcx-shares-commodity-exchange-revenue-guide"
     },
     {
       "row": 119,
@@ -1502,8 +1517,9 @@
       "row": 121,
       "topic": "titan share price",
       "breakdown": "titan share price",
-      "state": "research-pending",
-      "group": "titan-shares"
+      "state": "published-live-verified",
+      "group": "titan-shares",
+      "target": "titan-shares-jewellery-watches-results-guide"
     },
     {
       "row": 122,
@@ -1731,8 +1747,9 @@
       "row": 156,
       "topic": "asian paints share price",
       "breakdown": "asian paints share price",
-      "state": "research-pending",
-      "group": "asian-paints-shares"
+      "state": "published-live-verified",
+      "group": "asian-paints-shares",
+      "target": "asian-paints-shares-volume-margins-results-guide"
     },
     {
       "row": 157,
@@ -1886,8 +1903,9 @@
       "row": 180,
       "topic": "bhel share price",
       "breakdown": "bhel share price,bhel",
-      "state": "research-pending",
-      "group": "bhel-shares"
+      "state": "published-live-verified",
+      "group": "bhel-shares",
+      "target": "bhel-shares-orders-projects-revenue-cash-guide"
     },
     {
       "row": 181,
@@ -1923,7 +1941,9 @@
       "row": 186,
       "topic": "വിരാട് കോഹ്ലി",
       "breakdown": "വിരാട് കോഹ്ലി,ഇന്ത്യന് ദേശീയ ക്രിക്കറ്റ് ടീം",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "virat-kohli-birthday-age-2026-career-guide",
+      "reason": "Malayalam query names Virat Kohli, covered by the existing career guide."
     },
     {
       "row": 187,
@@ -2153,7 +2173,9 @@
       "row": 224,
       "topic": "suzlon share",
       "breakdown": "suzlon share",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "suzlon-share-price-orders-cash-flow-guide",
+      "reason": "Same Suzlon equity intent as the already published share-price business guide."
     },
     {
       "row": 225,
@@ -2346,7 +2368,9 @@
       "row": 254,
       "topic": "अग्निपथ योजना",
       "breakdown": "अग्निपथ योजना",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "agniveer-november-2026-two-year-extension-policy-guide",
+      "reason": "Hindi Agnipath scheme query maps to the existing Agniveer policy guide."
     },
     {
       "row": 255,
@@ -2595,7 +2619,9 @@
       "row": 293,
       "topic": "అగ్నిపథ్ పథకం",
       "breakdown": "అగ్నిపథ్ పథకం",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "agniveer-november-2026-two-year-extension-policy-guide",
+      "reason": "Telugu Agnipath scheme query maps to the same existing policy guide."
     },
     {
       "row": 294,
@@ -3628,17 +3654,24 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "Standing ten-article publication batches, reiterated by user on 6 November 2026; no subagents.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42203591235,
+      "verificationRun": 42203591235,
+      "checkedAt": "2026-11-06T10:39:29.898Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 377
+      }
     }
   ],
   "prepared": 68,
-  "published": 58,
+  "published": 68,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 0,
   "intentReview": {
-    "sameIntentCovered": 20,
+    "sameIntentCovered": 28,
     "unclear": 50,
-    "unreviewed": 272
+    "unreviewed": 264
   }
 }
