@@ -1,11 +1,15 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2236,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-06",
   "imageVisualEvidence": "artifacts/november5-daily/mixed-nov6-contact-2.png",
   "imageReviewNotes": "Both licensed photographs inspected visually; historical and illustrative contexts identified explicitly. No chapter scans, fabricated device samples or current-event image claims.",
-  "factualReview": "Dated sources checked. No invented launch prices, unpublished plot, film release date, ticket amount, buyout departure count or unconditional appointment."
+  "factualReview": "Dated sources checked. No invented launch prices, unpublished plot, film release date, ticket amount, buyout departure count or unconditional appointment.",
+  "hostingRun": 42189456078,
+  "verificationRun": 42189456078,
+  "liveUrl": "https://raytechinstitute.com/blogs/lakers-kings-116-103-doncic-40-november-2026/",
+  "liveCheckedAt": "2026-11-06T08:45:25.828Z"
 }

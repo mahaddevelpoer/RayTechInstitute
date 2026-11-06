@@ -104,7 +104,7 @@
       "queries": [
         "lens vs como"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "sports",
       "slug": "lens-como-1-9-douvikas-hat-trick-november-2026"
     },
@@ -135,7 +135,7 @@
       "queries": [
         "munna bhai 3"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "entertainment",
       "slug": "munna-bhai-3-script-development-release-check-2026"
     },
@@ -166,7 +166,7 @@
       "queries": [
         "asim azhar"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "entertainment",
       "slug": "asim-azhar-pakistan-tour-2026-dates-ticket-guide"
     },
@@ -176,7 +176,7 @@
       "queries": [
         "one piece chapter 1198 spoilers"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "entertainment",
       "slug": "one-piece-1198-release-pakistan-time-official-reading"
     },
@@ -196,7 +196,7 @@
       "queries": [
         "koffee with karan season 9"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "entertainment",
       "slug": "koffee-with-karan-season-9-premiere-viewing-guide"
     },
@@ -207,7 +207,7 @@
         "ios update",
         "ios 27.2"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "technology",
       "slug": "ios-27-2-release-backup-update-safety-guide"
     },
@@ -250,7 +250,7 @@
       "queries": [
         "vivo v80 fe"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "category": "technology",
       "slug": "vivo-v80-fe-philippines-specs-pakistan-price-check"
     },
@@ -512,14 +512,16 @@
     {
       "row": 19,
       "topic": "lens vs como",
-      "state": "queued",
-      "group": "lens-como"
+      "state": "published-live-verified",
+      "group": "lens-como",
+      "target": "lens-como-1-9-douvikas-hat-trick-november-2026"
     },
     {
       "row": 20,
       "topic": "munna bhai 3",
-      "state": "queued",
-      "group": "munna-bhai-3"
+      "state": "published-live-verified",
+      "group": "munna-bhai-3",
+      "target": "munna-bhai-3-script-development-release-check-2026"
     },
     {
       "row": 21,
@@ -625,8 +627,9 @@
     {
       "row": 34,
       "topic": "asim azhar",
-      "state": "queued",
-      "group": "asim-azhar"
+      "state": "published-live-verified",
+      "group": "asim-azhar",
+      "target": "asim-azhar-pakistan-tour-2026-dates-ticket-guide"
     },
     {
       "row": 35,
@@ -644,8 +647,9 @@
     {
       "row": 37,
       "topic": "one piece chapter 1198 spoilers",
-      "state": "queued",
-      "group": "one-piece-1198"
+      "state": "published-live-verified",
+      "group": "one-piece-1198",
+      "target": "one-piece-1198-release-pakistan-time-official-reading"
     },
     {
       "row": 38,
@@ -705,8 +709,9 @@
     {
       "row": 45,
       "topic": "koffee with karan season 9",
-      "state": "queued",
-      "group": "koffee-season-9"
+      "state": "published-live-verified",
+      "group": "koffee-season-9",
+      "target": "koffee-with-karan-season-9-premiere-viewing-guide"
     },
     {
       "row": 46,
@@ -737,8 +742,9 @@
     {
       "row": 49,
       "topic": "ios update",
-      "state": "queued",
-      "group": "apple-ios"
+      "state": "published-live-verified",
+      "group": "apple-ios",
+      "target": "ios-27-2-release-backup-update-safety-guide"
     },
     {
       "row": 50,
@@ -819,8 +825,9 @@
     {
       "row": 60,
       "topic": "ios 27.2",
-      "state": "queued",
-      "group": "apple-ios"
+      "state": "published-live-verified",
+      "group": "apple-ios",
+      "target": "ios-27-2-release-backup-update-safety-guide"
     },
     {
       "row": 61,
@@ -865,8 +872,9 @@
     {
       "row": 66,
       "topic": "vivo v80 fe",
-      "state": "queued",
-      "group": "vivo-v80-fe"
+      "state": "published-live-verified",
+      "group": "vivo-v80-fe",
+      "target": "vivo-v80-fe-philippines-specs-pakistan-price-check"
     },
     {
       "row": 67,
@@ -1028,8 +1036,8 @@
     }
   ],
   "prepared": 34,
-  "published": 27,
-  "remaining": 7,
+  "published": 34,
+  "remaining": 0,
   "releaseBatches": [
     {
       "number": 1,
@@ -1127,7 +1135,14 @@
       "explicitUserAuthorization": true,
       "authorization": "Seven remaining earlier Pakistan topics plus three earlier India topics form one authorised ten-article publication batch, confirmed by user on 6 November 2026.",
       "jointBatch": "nov6-mixed-01",
-      "state": "local-verified-ready-for-publication"
+      "state": "published-live-verified",
+      "hostingRun": 42189456078,
+      "verificationRun": 42189456078,
+      "checkedAt": "2026-11-06T08:45:34.350Z",
+      "databaseReadback": {
+        "inserted": 7,
+        "preserved": 357
+      }
     }
   ]
 }

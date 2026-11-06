@@ -27,8 +27,15 @@
       ]
     }
   ],
-  "state": "local-verified-ready-for-publication",
+  "state": "published-live-verified",
   "bodyWords": 21417,
   "images": 20,
-  "tagsPerArticle": 42
+  "tagsPerArticle": 42,
+  "hostingRun": 42189456078,
+  "liveVerification": {
+    "PK": "content/editorial-drafts/trending-pk-20261105-daily/batch-05-live-verification.json",
+    "IN": "content/editorial-drafts/trending-in-20261105-daily/batch-08-live-verification.json"
+  },
+  "existingArticlesPreserved": 357,
+  "newArticlesPublished": 10
 }

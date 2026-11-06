@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-06T06:07:38.693Z",
+  "checkedAt": "2026-11-06T08:45:34.350Z",
   "resolver": "Cloudflare DNS-over-HTTPS; canonical hostname with verified TLS",
-  "edgeAddress": "172.67.139.27",
+  "edgeAddress": "104.21.87.5",
   "results": [
     {
       "name": "aek-real-madrid",
@@ -772,6 +772,209 @@
         },
         {
           "url": "/images/editorial/trending-pk-20261105-daily/amish-shah-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "apple-ios",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/ios-27-2-release-backup-update-safety-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/apple-ios-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/apple-ios-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "asim-azhar",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/asim-azhar-pakistan-tour-2026-dates-ticket-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/asim-azhar-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/asim-azhar-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "koffee-season-9",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/koffee-with-karan-season-9-premiere-viewing-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/koffee-season-9-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/koffee-season-9-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "lens-como",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/lens-como-1-9-douvikas-hat-trick-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/lens-como-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/lens-como-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "munna-bhai-3",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/munna-bhai-3-script-development-release-check-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/munna-bhai-3-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/munna-bhai-3-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "one-piece-1198",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/one-piece-1198-release-pakistan-time-official-reading/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/one-piece-1198-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/one-piece-1198-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "vivo-v80-fe",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/vivo-v80-fe-philippines-specs-pakistan-price-check/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/vivo-v80-fe-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261105-daily/vivo-v80-fe-inline.webp",
           "status": 200,
           "present": true
         }

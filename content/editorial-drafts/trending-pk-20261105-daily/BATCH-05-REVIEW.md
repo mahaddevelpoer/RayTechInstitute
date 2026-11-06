@@ -9,4 +9,4 @@ Seven remaining Pakistan topics and three India topics; 21417 body words, 42 tag
 - All photographs inspected on two contact sheets, with archive and illustration labels. No image SHA reused across the editorial catalog.
 - Local validators passed length, tags, source fields, headings, metadata, image licensing/dimensions, internal links and private-credential-pattern checks. Publication dry runs reviewed seven PK and three IN new records with zero overwrites.
 
-Joint manifest: content/nov6-mixed-01.json. New 6 November CSV is queued separately, with older work retaining priority. Live checks remain pending until deployment completes.
+Joint manifest: content/nov6-mixed-01.json. New 6 November CSV is queued separately, with older work retaining priority. Cloudflare run 42189456078 completed successfully. All ten new pages, twenty image URLs, exact metadata, canonical, H1, article schema, indexability, listing and sitemap entries passed live verification. The existing 357 articles were preserved and ten new rows read back without overwrites.

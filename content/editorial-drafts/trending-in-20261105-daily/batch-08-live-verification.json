@@ -1,0 +1,105 @@
+{
+  "run": 42189456078,
+  "verificationRun": 42189456078,
+  "checkedAt": "2026-11-06T08:45:25.828Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 3,
+    "verified": 3,
+    "existingArticlesPreserved": 364,
+    "articles": [
+      "google-voluntary-buyouts-2026-offers-departures-guide",
+      "agniveer-november-2026-two-year-extension-policy-guide",
+      "lakers-kings-116-103-doncic-40-november-2026"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "google-voluntary-buyouts",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/google-voluntary-buyouts-2026-offers-departures-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/google-voluntary-buyouts-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/google-voluntary-buyouts-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "agniveers",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/agniveer-november-2026-two-year-extension-policy-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/agniveers-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/agniveers-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "kings-lakers",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/lakers-kings-116-103-doncic-40-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/kings-lakers-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/kings-lakers-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

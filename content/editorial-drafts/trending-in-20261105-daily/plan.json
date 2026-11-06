@@ -10,9 +10,9 @@
   "hosting": "cloudflare-pages",
   "fullyReviewed": false,
   "pendingPakistan": {
-    "remaining": 7,
-    "state": "active-priority-authorized",
-    "planSha256": "07ddceba34073af108ee873da6af61201032b00544ce26dbf5b123926af24359",
+    "remaining": 0,
+    "state": "completed-live-verified",
+    "planSha256": "bc65a3077116a398c6b6c7dd479a73aa2397d4f0597eecb8621497c65b92e147",
     "authorization": "User explicitly requested Pakistan completion alongside India on 6 November; earlier deferral revoked."
   },
   "groups": [
@@ -483,7 +483,7 @@
       "queries": [
         "google voluntary buyouts"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "google-voluntary-buyouts-2026-offers-departures-guide"
     },
     {
@@ -493,7 +493,7 @@
       "queries": [
         "agniveers"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "agniveer-november-2026-two-year-extension-policy-guide"
     },
     {
@@ -503,7 +503,7 @@
       "queries": [
         "kings vs lakers"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "lakers-kings-116-103-doncic-40-november-2026"
     }
   ],
@@ -591,7 +591,9 @@
       "row": 15,
       "topic": "lens vs como",
       "breakdown": "lens vs como,como,anastasios douvikas,rc lens vs como 1907 standings,como fc,como vs,uefa champions league table,lens",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "lens-como-1-9-douvikas-hat-trick-november-2026",
+      "reason": "The same-intent article was published in the resumed Pakistan batch; reuse its canonical URL."
     },
     {
       "row": 16,
@@ -629,15 +631,17 @@
       "row": 21,
       "topic": "google voluntary buyouts",
       "breakdown": "google voluntary buyouts,google buyouts,google voluntary exit,google voluntary exit program",
-      "state": "selected-research",
-      "group": "google-voluntary-buyouts"
+      "state": "published-live-verified",
+      "group": "google-voluntary-buyouts",
+      "target": "google-voluntary-buyouts-2026-offers-departures-guide"
     },
     {
       "row": 22,
       "topic": "agniveers",
       "breakdown": "agniveers,agniveer,government,agniveer news,cds",
-      "state": "selected-research",
-      "group": "agniveers"
+      "state": "published-live-verified",
+      "group": "agniveers",
+      "target": "agniveer-november-2026-two-year-extension-policy-guide"
     },
     {
       "row": 23,
@@ -702,8 +706,9 @@
       "row": 32,
       "topic": "kings vs lakers",
       "breakdown": "kings vs lakers",
-      "state": "selected-research",
-      "group": "kings-lakers"
+      "state": "published-live-verified",
+      "group": "kings-lakers",
+      "target": "lakers-kings-116-103-doncic-40-november-2026"
     },
     {
       "row": 33,
@@ -927,7 +932,9 @@
       "row": 67,
       "topic": "como 1907",
       "breakdown": "como 1907,nico paz,como vs lens",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "lens-como-1-9-douvikas-hat-trick-november-2026",
+      "reason": "The same-intent article was published in the resumed Pakistan batch; reuse its canonical URL."
     },
     {
       "row": 68,
@@ -3336,17 +3343,24 @@
       "explicitUserAuthorization": true,
       "authorization": "Three earlier India topics complete the jointly authorised ten-article batch with seven earlier Pakistan topics.",
       "jointBatch": "nov6-mixed-01",
-      "state": "local-verified-ready-for-publication"
+      "state": "published-live-verified",
+      "hostingRun": 42189456078,
+      "verificationRun": 42189456078,
+      "checkedAt": "2026-11-06T08:45:25.828Z",
+      "databaseReadback": {
+        "inserted": 3,
+        "preserved": 364
+      }
     }
   ],
   "prepared": 48,
-  "published": 45,
+  "published": 48,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 3,
+  "remainingSelected": 0,
   "intentReview": {
-    "sameIntentCovered": 18,
+    "sameIntentCovered": 20,
     "unclear": 50,
-    "unreviewed": 295
+    "unreviewed": 293
   }
 }
