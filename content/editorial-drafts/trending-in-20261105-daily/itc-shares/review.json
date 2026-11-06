@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2140,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-06",
   "sourceReview": "BATCH-09-RESEARCH.md",
-  "reviewNotes": "Primary-source identities and dated claims reviewed. Fictional numerical examples labelled. No invented live quote or target. Both licensed photographs visually inspected; historical and illustrative captions preserved."
+  "reviewNotes": "Primary-source identities and dated claims reviewed. Fictional numerical examples labelled. No invented live quote or target. Both licensed photographs visually inspected; historical and illustrative captions preserved.",
+  "hostingRun": 42195639276,
+  "verificationRun": 42195639276,
+  "liveUrl": "https://raytechinstitute.com/blogs/itc-share-price-segments-demerger-cash-flow-guide/",
+  "liveCheckedAt": "2026-11-06T09:36:59.645Z"
 }

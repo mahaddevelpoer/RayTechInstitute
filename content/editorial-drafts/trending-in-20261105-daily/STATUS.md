@@ -1,5 +1,5 @@
 # India trends status
 
-Published and live verified: 48. Next approved ten-article batch: suzlon-shares, cummins-india-shares, bse-shares, itc-shares, lenskart-shares, bel-shares, indigo-shares, tata-motors-shares, sbi-shares, pi-industries-shares. These ten are in research, not published.
+Published and live verified: 58. Prepared: 58. Remaining among the selected topics: 0.
 
-Rows awaiting intent review: 282. Pakistan's selected 5 November topics are complete; its separate Lahore Whites fixture still needs a match-specific report. The 6 November Pakistan CSV is queued after earlier work.
+The India CSV has 421 rows and is not fully reviewed. The remaining 282 unreviewed rows need intent checks, not automatic duplicate publication. Existing covered rows: 20. Skipped unclear rows: 50. Pakistan pending topics: 0; queue status: completed-live-verified. See plan.json and RELEASE.md for evidence.

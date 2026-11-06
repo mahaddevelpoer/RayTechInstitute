@@ -513,7 +513,7 @@
         "suzlon share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "suzlon-share-price-orders-cash-flow-guide"
     },
     {
@@ -523,7 +523,7 @@
         "cummins india share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "cummins-india-share-price-business-results-guide"
     },
     {
@@ -533,7 +533,7 @@
         "bse share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "bse-share-price-exchange-business-revenue-guide"
     },
     {
@@ -543,7 +543,7 @@
         "itc share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "itc-share-price-segments-demerger-cash-flow-guide"
     },
     {
@@ -553,7 +553,7 @@
         "lenskart share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "lenskart-share-price-retail-results-store-guide"
     },
     {
@@ -563,7 +563,7 @@
         "bel share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "bel-share-price-order-book-revenue-cash-guide"
     },
     {
@@ -573,7 +573,7 @@
         "indigo share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "indigo-share-price-airline-metrics-costs-guide"
     },
     {
@@ -584,7 +584,7 @@
         "tata motors share"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "tata-motors-share-price-tmcv-tmpv-demerger-guide"
     },
     {
@@ -594,7 +594,7 @@
         "sbi share price"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "sbi-share-price-bank-results-nim-npa-guide"
     },
     {
@@ -604,7 +604,7 @@
         "pi industries share"
       ],
       "category": "economy",
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "pi-industries-share-price-csm-results-cash-guide"
     }
   ],
@@ -999,8 +999,9 @@
       "row": 62,
       "topic": "suzlon share price",
       "breakdown": "suzlon share price,pfc share price",
-      "state": "selected-research",
-      "group": "suzlon-shares"
+      "state": "published-live-verified",
+      "group": "suzlon-shares",
+      "target": "suzlon-share-price-orders-cash-flow-guide"
     },
     {
       "row": 63,
@@ -1090,8 +1091,9 @@
       "row": 76,
       "topic": "cummins india share price",
       "breakdown": "cummins india share price,cummins india share,cnbc awaaz live,cummins india",
-      "state": "selected-research",
-      "group": "cummins-india-shares"
+      "state": "published-live-verified",
+      "group": "cummins-india-shares",
+      "target": "cummins-india-share-price-business-results-guide"
     },
     {
       "row": 77,
@@ -1121,22 +1123,25 @@
       "row": 81,
       "topic": "bse share price",
       "breakdown": "bse share price",
-      "state": "selected-research",
-      "group": "bse-shares"
+      "state": "published-live-verified",
+      "group": "bse-shares",
+      "target": "bse-share-price-exchange-business-revenue-guide"
     },
     {
       "row": 82,
       "topic": "itc share price",
       "breakdown": "itc share price",
-      "state": "selected-research",
-      "group": "itc-shares"
+      "state": "published-live-verified",
+      "group": "itc-shares",
+      "target": "itc-share-price-segments-demerger-cash-flow-guide"
     },
     {
       "row": 83,
       "topic": "lenskart share price",
       "breakdown": "lenskart share price",
-      "state": "selected-research",
-      "group": "lenskart-shares"
+      "state": "published-live-verified",
+      "group": "lenskart-shares",
+      "target": "lenskart-share-price-retail-results-store-guide"
     },
     {
       "row": 84,
@@ -1156,15 +1161,17 @@
       "row": 86,
       "topic": "bel share price",
       "breakdown": "bel share price,bel share",
-      "state": "selected-research",
-      "group": "bel-shares"
+      "state": "published-live-verified",
+      "group": "bel-shares",
+      "target": "bel-share-price-order-book-revenue-cash-guide"
     },
     {
       "row": 87,
       "topic": "indigo share price",
       "breakdown": "indigo share price",
-      "state": "selected-research",
-      "group": "indigo-shares"
+      "state": "published-live-verified",
+      "group": "indigo-shares",
+      "target": "indigo-share-price-airline-metrics-costs-guide"
     },
     {
       "row": 88,
@@ -1176,15 +1183,17 @@
       "row": 89,
       "topic": "tata motors share price",
       "breakdown": "tata motors share price",
-      "state": "selected-research",
-      "group": "tata-motors-shares"
+      "state": "published-live-verified",
+      "group": "tata-motors-shares",
+      "target": "tata-motors-share-price-tmcv-tmpv-demerger-guide"
     },
     {
       "row": 90,
       "topic": "sbi share price",
       "breakdown": "sbi share price",
-      "state": "selected-research",
-      "group": "sbi-shares"
+      "state": "published-live-verified",
+      "group": "sbi-shares",
+      "target": "sbi-share-price-bank-results-nim-npa-guide"
     },
     {
       "row": 91,
@@ -1212,8 +1221,9 @@
       "row": 94,
       "topic": "pi industries share",
       "breakdown": "pi industries share,pi industries",
-      "state": "selected-research",
-      "group": "pi-industries-shares"
+      "state": "published-live-verified",
+      "group": "pi-industries-shares",
+      "target": "pi-industries-share-price-csm-results-cash-guide"
     },
     {
       "row": 95,
@@ -1657,8 +1667,9 @@
       "row": 163,
       "topic": "tata motors share",
       "breakdown": "tata motors share",
-      "state": "selected-research",
-      "group": "tata-motors-shares"
+      "state": "published-live-verified",
+      "group": "tata-motors-shares",
+      "target": "tata-motors-share-price-tmcv-tmpv-demerger-guide"
     },
     {
       "row": 164,
@@ -3481,14 +3492,21 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "Standing instruction to continue earlier India articles manually and publish each completed ten-article batch; reiterated 6 November 2026.",
-      "state": "research-in-progress"
+      "state": "published-live-verified",
+      "hostingRun": 42195639276,
+      "verificationRun": 42195639276,
+      "checkedAt": "2026-11-06T09:36:59.645Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 367
+      }
     }
   ],
-  "prepared": 48,
-  "published": 48,
+  "prepared": 58,
+  "published": 58,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 20,
     "unclear": 50,
