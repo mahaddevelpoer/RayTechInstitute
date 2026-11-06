@@ -1,0 +1,315 @@
+{
+  "run": 42244723257,
+  "verificationRun": 42245772463,
+  "checkedAt": "2026-11-06T15:42:09.555Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 10,
+    "verified": 10,
+    "existingArticlesPreserved": 399,
+    "articles": [
+      "alex-de-minaur-career-movement-return-guide",
+      "daniil-medvedev-us-open-ranking-baseline-guide",
+      "frances-tiafoe-career-attacking-tennis-guide",
+      "matteo-berrettini-wimbledon-serve-patterns",
+      "taylor-fritz-career-first-strike-tennis-guide",
+      "maria-sakkari-career-consistency-return-guide",
+      "bruno-fernandes-career-creative-midfield-guide",
+      "romelu-lukaku-career-centre-forward-guide",
+      "eder-militao-career-centre-back-analysis",
+      "brahim-diaz-career-receiving-between-lines"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "alex-de-minaur",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/alex-de-minaur-career-movement-return-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/alex-de-minaur-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/alex-de-minaur-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "daniil-medvedev",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/daniil-medvedev-us-open-ranking-baseline-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/daniil-medvedev-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/daniil-medvedev-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "frances-tiafoe",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/frances-tiafoe-career-attacking-tennis-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/frances-tiafoe-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/frances-tiafoe-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "matteo-berrettini",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/matteo-berrettini-wimbledon-serve-patterns/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/matteo-berrettini-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/matteo-berrettini-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "taylor-fritz",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/taylor-fritz-career-first-strike-tennis-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/taylor-fritz-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/taylor-fritz-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "maria-sakkari",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/maria-sakkari-career-consistency-return-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/maria-sakkari-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/maria-sakkari-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "bruno-fernandes",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/bruno-fernandes-career-creative-midfield-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/bruno-fernandes-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/bruno-fernandes-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "romelu-lukaku",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/romelu-lukaku-career-centre-forward-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/romelu-lukaku-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/romelu-lukaku-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "eder-militao",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/eder-militao-career-centre-back-analysis/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/eder-militao-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/eder-militao-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "brahim-diaz",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/brahim-diaz-career-receiving-between-lines/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/brahim-diaz-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/brahim-diaz-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

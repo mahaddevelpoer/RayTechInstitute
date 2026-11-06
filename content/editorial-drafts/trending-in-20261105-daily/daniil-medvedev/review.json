@@ -2,8 +2,12 @@
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-06",
   "sourceReview": "BATCH-13-RESEARCH.md",
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2000,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "hostingRun": 42244723257,
+  "verificationRun": 42245772463,
+  "liveUrl": "https://raytechinstitute.com/blogs/daniil-medvedev-us-open-ranking-baseline-guide/",
+  "liveCheckedAt": "2026-11-06T15:42:09.555Z"
 }

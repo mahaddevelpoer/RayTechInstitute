@@ -835,7 +835,7 @@
       "queries": [
         "alex de minaur"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "alex-de-minaur-career-movement-return-guide"
     },
     {
@@ -845,7 +845,7 @@
       "queries": [
         "daniil medvedev"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "daniil-medvedev-us-open-ranking-baseline-guide"
     },
     {
@@ -855,7 +855,7 @@
       "queries": [
         "frances tiafoe"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "frances-tiafoe-career-attacking-tennis-guide"
     },
     {
@@ -865,7 +865,7 @@
       "queries": [
         "matteo berrettini"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "matteo-berrettini-wimbledon-serve-patterns"
     },
     {
@@ -875,7 +875,7 @@
       "queries": [
         "taylor fritz"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "taylor-fritz-career-first-strike-tennis-guide"
     },
     {
@@ -885,7 +885,7 @@
       "queries": [
         "maria sakkari"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "maria-sakkari-career-consistency-return-guide"
     },
     {
@@ -895,7 +895,7 @@
       "queries": [
         "bruno fernandes"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "bruno-fernandes-career-creative-midfield-guide"
     },
     {
@@ -905,7 +905,7 @@
       "queries": [
         "romelu lukaku"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "romelu-lukaku-career-centre-forward-guide"
     },
     {
@@ -915,7 +915,7 @@
       "queries": [
         "éder militão"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "eder-militao-career-centre-back-analysis"
     },
     {
@@ -925,7 +925,7 @@
       "queries": [
         "brahim díaz"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "brahim-diaz-career-receiving-between-lines"
     }
   ],
@@ -2885,8 +2885,9 @@
       "row": 296,
       "topic": "bruno fernandes",
       "breakdown": "bruno fernandes",
-      "state": "research-pending",
-      "group": "bruno-fernandes"
+      "state": "published-live-verified",
+      "group": "bruno-fernandes",
+      "target": "bruno-fernandes-career-creative-midfield-guide"
     },
     {
       "row": 297,
@@ -2916,8 +2917,9 @@
       "row": 301,
       "topic": "éder militão",
       "breakdown": "éder militão",
-      "state": "research-pending",
-      "group": "eder-militao"
+      "state": "published-live-verified",
+      "group": "eder-militao",
+      "target": "eder-militao-career-centre-back-analysis"
     },
     {
       "row": 302,
@@ -3029,8 +3031,9 @@
       "row": 319,
       "topic": "alex de minaur",
       "breakdown": "alex de minaur,ignacio buse",
-      "state": "research-pending",
-      "group": "alex-de-minaur"
+      "state": "published-live-verified",
+      "group": "alex-de-minaur",
+      "target": "alex-de-minaur-career-movement-return-guide"
     },
     {
       "row": 320,
@@ -3050,8 +3053,9 @@
       "row": 322,
       "topic": "romelu lukaku",
       "breakdown": "romelu lukaku",
-      "state": "research-pending",
-      "group": "romelu-lukaku"
+      "state": "published-live-verified",
+      "group": "romelu-lukaku",
+      "target": "romelu-lukaku-career-centre-forward-guide"
     },
     {
       "row": 323,
@@ -3108,8 +3112,9 @@
       "row": 331,
       "topic": "brahim díaz",
       "breakdown": "brahim díaz",
-      "state": "research-pending",
-      "group": "brahim-diaz"
+      "state": "published-live-verified",
+      "group": "brahim-diaz",
+      "target": "brahim-diaz-career-receiving-between-lines"
     },
     {
       "row": 332,
@@ -3320,8 +3325,9 @@
       "row": 365,
       "topic": "frances tiafoe",
       "breakdown": "frances tiafoe",
-      "state": "research-pending",
-      "group": "frances-tiafoe"
+      "state": "published-live-verified",
+      "group": "frances-tiafoe",
+      "target": "frances-tiafoe-career-attacking-tennis-guide"
     },
     {
       "row": 366,
@@ -3339,8 +3345,9 @@
       "row": 368,
       "topic": "daniil medvedev",
       "breakdown": "daniil medvedev",
-      "state": "research-pending",
-      "group": "daniil-medvedev"
+      "state": "published-live-verified",
+      "group": "daniil-medvedev",
+      "target": "daniil-medvedev-us-open-ranking-baseline-guide"
     },
     {
       "row": 369,
@@ -3384,8 +3391,9 @@
       "row": 375,
       "topic": "matteo berrettini",
       "breakdown": "matteo berrettini",
-      "state": "research-pending",
-      "group": "matteo-berrettini"
+      "state": "published-live-verified",
+      "group": "matteo-berrettini",
+      "target": "matteo-berrettini-wimbledon-serve-patterns"
     },
     {
       "row": 376,
@@ -3417,8 +3425,9 @@
       "row": 380,
       "topic": "taylor fritz",
       "breakdown": "taylor fritz",
-      "state": "research-pending",
-      "group": "taylor-fritz"
+      "state": "published-live-verified",
+      "group": "taylor-fritz",
+      "target": "taylor-fritz-career-first-strike-tennis-guide"
     },
     {
       "row": 381,
@@ -3476,8 +3485,9 @@
       "row": 389,
       "topic": "maria sakkari",
       "breakdown": "maria sakkari,maya joint",
-      "state": "research-pending",
-      "group": "maria-sakkari"
+      "state": "published-live-verified",
+      "group": "maria-sakkari",
+      "target": "maria-sakkari-career-consistency-return-guide"
     },
     {
       "row": 390,
@@ -3983,14 +3993,21 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "User requested continued writing and publication in ten-article batches without subagents.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42244723257,
+      "verificationRun": 42245772463,
+      "checkedAt": "2026-11-06T15:42:09.555Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 399
+      }
     }
   ],
-  "prepared": 80,
-  "published": 80,
+  "prepared": 90,
+  "published": 90,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 29,
     "unclear": 50,

@@ -1,6 +1,6 @@
 # India CSV articles: publication record
 
-80 new articles are published and live verified. 0 of the selected topics remain. The 421-row CSV is not fully reviewed: 250 rows still need intent review; 29 have existing same-intent coverage and 50 vague rows are skipped. Pakistan pending topics: 0; queue status: completed-live-verified.
+90 new articles are published and live verified. 0 of the selected topics remain. The 421-row CSV is not fully reviewed: 240 rows still need intent review; 29 have existing same-intent coverage and 50 vague rows are skipped. Pakistan pending topics: 0; queue status: completed-live-verified.
 
 Each published article has at least 2,000 body words, 42 relevant tags and two distinct licensed images. Captions identify historical or illustrative material. All selected pages, image pairs, exact search metadata, canonical URLs, H1, article schema, listing and sitemap passed direct checks. This does not guarantee indexing, ranking or clicks.
 
@@ -16,6 +16,7 @@ Each published article has at least 2,000 body words, 42 relevant tags and two d
 - Batch 10: 10 articles. Deployment run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42203591235 . Verification run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42203591235 .
 - Batch 11: 2 articles. Deployment run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42211774400 . Verification run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42211774400 .
 - Batch 12: 10 articles. Deployment run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42236157977 . Verification run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42236157977 .
+- Batch 13: 10 articles. Deployment run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42244723257 . Verification run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42245772463 .
 
 The first deployment served the articles successfully, but its immediate editor-loading check timed out. A separate read-only verification run then passed compiler execution and isolation for all five languages; this was recorded separately instead of calling the original failed run green. No security check was removed.
 
