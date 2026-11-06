@@ -1,0 +1,165 @@
+{
+  "run": 42160685999,
+  "verificationRun": 42160685999,
+  "checkedAt": "2026-11-06T04:12:47.079Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 5,
+    "verified": 5,
+    "existingArticlesPreserved": 332,
+    "articles": [
+      "typhoon-science-forecast-map-reading-guide",
+      "interest-rates-simple-compound-comparison-guide",
+      "ongc-oil-gas-production-report-reading-guide",
+      "ntpc-electricity-capacity-generation-units-guide",
+      "coal-india-production-dispatch-stock-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "typhoon-science",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/typhoon-science-forecast-map-reading-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/typhoon-science-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/typhoon-science-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "interest-rates",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/interest-rates-simple-compound-comparison-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/interest-rates-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/interest-rates-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ongc-energy",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/ongc-oil-gas-production-report-reading-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ongc-energy-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ongc-energy-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ntpc-electricity",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/ntpc-electricity-capacity-generation-units-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ntpc-electricity-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/ntpc-electricity-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "coal-india",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/coal-india-production-dispatch-stock-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/coal-india-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/coal-india-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

@@ -377,7 +377,7 @@
       "queries": [
         "typhoon"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "typhoon-science-forecast-map-reading-guide"
     },
     {
@@ -387,7 +387,7 @@
       "queries": [
         "interest rate"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "interest-rates-simple-compound-comparison-guide"
     },
     {
@@ -397,7 +397,7 @@
       "queries": [
         "ongc share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "ongc-oil-gas-production-report-reading-guide"
     },
     {
@@ -407,7 +407,7 @@
       "queries": [
         "ntpc share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "ntpc-electricity-capacity-generation-units-guide"
     },
     {
@@ -417,7 +417,7 @@
       "queries": [
         "coal india share price"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "coal-india-production-dispatch-stock-guide"
     }
   ],
@@ -970,8 +970,9 @@
       "row": 91,
       "topic": "coal india share price",
       "breakdown": "coal india share price,coal india share",
-      "state": "research-pending",
-      "group": "coal-india"
+      "state": "published-live-verified",
+      "group": "coal-india",
+      "target": "coal-india-production-dispatch-stock-guide"
     },
     {
       "row": 92,
@@ -1093,8 +1094,9 @@
       "row": 111,
       "topic": "ongc share price",
       "breakdown": "ongc share price",
-      "state": "research-pending",
-      "group": "ongc-energy"
+      "state": "published-live-verified",
+      "group": "ongc-energy",
+      "target": "ongc-oil-gas-production-report-reading-guide"
     },
     {
       "row": 112,
@@ -1192,8 +1194,9 @@
       "row": 127,
       "topic": "ntpc share price",
       "breakdown": "ntpc share price",
-      "state": "research-pending",
-      "group": "ntpc-electricity"
+      "state": "published-live-verified",
+      "group": "ntpc-electricity",
+      "target": "ntpc-electricity-capacity-generation-units-guide"
     },
     {
       "row": 128,
@@ -1486,9 +1489,10 @@
     {
       "row": 174,
       "topic": "interest rate",
-      "state": "research-pending",
+      "state": "published-live-verified",
       "breakdown": "interest rate",
-      "group": "interest-rates"
+      "group": "interest-rates",
+      "target": "interest-rates-simple-compound-comparison-guide"
     },
     {
       "row": 175,
@@ -2178,8 +2182,9 @@
       "row": 287,
       "topic": "typhoon",
       "breakdown": "typhoon",
-      "state": "research-pending",
-      "group": "typhoon-science"
+      "state": "published-live-verified",
+      "group": "typhoon-science",
+      "target": "typhoon-science-forecast-map-reading-guide"
     },
     {
       "row": 288,
@@ -3148,15 +3153,22 @@
       ],
       "expectedSize": 5,
       "explicitUserAuthorization": true,
-      "state": "draft-written-checks-pending",
-      "authorization": "User resumed the old article queue on 6 November and requested continuation with publication under standing approval."
+      "state": "published-live-verified",
+      "authorization": "User resumed the old article queue on 6 November and requested continuation with publication under standing approval.",
+      "hostingRun": 42160685999,
+      "verificationRun": 42160685999,
+      "checkedAt": "2026-11-06T04:12:47.079Z",
+      "databaseReadback": {
+        "inserted": 5,
+        "preserved": 332
+      }
     }
   ],
-  "prepared": 35,
-  "published": 35,
+  "prepared": 40,
+  "published": 40,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 5,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 14,
     "unclear": 38,

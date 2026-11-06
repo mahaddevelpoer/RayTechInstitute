@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2181,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-06",
   "visualEvidence": "artifacts/india-november5/batch6-contact-1.png",
-  "visualReviewNotes": "All ten final images inspected. Captions distinguish historical storms, a mathematical compounding chart, vintage calculator and industrial infrastructure from current warnings, market prices or operating results."
+  "visualReviewNotes": "All ten final images inspected. Captions distinguish historical storms, a mathematical compounding chart, vintage calculator and industrial infrastructure from current warnings, market prices or operating results.",
+  "hostingRun": 42160685999,
+  "verificationRun": 42160685999,
+  "liveUrl": "https://raytechinstitute.com/blogs/coal-india-production-dispatch-stock-guide/",
+  "liveCheckedAt": "2026-11-06T04:12:47.079Z"
 }
