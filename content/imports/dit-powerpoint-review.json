@@ -21,5 +21,40 @@
     "textWithinPageBounds": true,
     "visualReview": "all 31 pages rendered and reviewed"
   },
-  "publication": "awaiting database and hosting"
+  "publication": "published-live-verified",
+  "hostingRun": 42209326146,
+  "firstContentRun": 42208610417,
+  "databaseReadback": {
+    "chapters": {
+      "inserted": 1,
+      "verified": 1,
+      "preserved": 5
+    },
+    "mcqs": {
+      "inserted": 100,
+      "verified": 100,
+      "preserved": 365
+    },
+    "notes": {
+      "inserted": 1,
+      "verified": 1,
+      "preserved": 5
+    }
+  },
+  "live": {
+    "checkedAt": "2026-11-06T11:29:08.032Z",
+    "mcqsUrl": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/mcqs/",
+    "noteUrl": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-ms-office-chapter-3-powerpoint-mcq-notes/",
+    "pdfUrl": "https://raytechinstitute.com/documents/dit/ms-office-chapter-3-microsoft-powerpoint.pdf",
+    "topics": 10,
+    "questions": 100,
+    "quizScore": "10/10",
+    "uniqueQuestionsInTopic": 10,
+    "pdfBytes": 698039,
+    "mobileDesktopOverflow": false,
+    "publicDatabaseCalls": 0,
+    "canonical": true,
+    "sitemap": true,
+    "verified": true
+  }
 }
