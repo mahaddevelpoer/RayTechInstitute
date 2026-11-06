@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 40,
-  "bodyWords": 81125,
-  "uniqueImages": 80,
+  "state": "local-verified-unpublished",
+  "articles": 45,
+  "bodyWords": 91837,
+  "uniqueImages": 90,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -284,7 +284,41 @@
       "words": 2181,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "virat-kohli-birthday",
+      "slug": "virat-kohli-birthday-age-2026-career-guide",
+      "words": 2076,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "lewis-hamilton",
+      "slug": "lewis-hamilton-seven-titles-teams-career-guide",
+      "words": 2132,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "pv-sindhu",
+      "slug": "pv-sindhu-olympic-medals-world-title-guide",
+      "words": 2164,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "chamari-athapaththu",
+      "slug": "chamari-athapaththu-career-innings-sri-lanka-guide",
+      "words": 2173,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "alexander-zverev",
+      "slug": "alexander-zverev-2026-major-titles-career-guide",
+      "words": 2167,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

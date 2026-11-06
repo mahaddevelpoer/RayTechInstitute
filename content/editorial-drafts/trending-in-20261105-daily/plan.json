@@ -419,6 +419,61 @@
       ],
       "state": "published-live-verified",
       "slug": "coal-india-production-dispatch-stock-guide"
+    },
+    {
+      "key": "virat-kohli-birthday",
+      "topic": "Virat Kohli: birthday, age and verified career milestones",
+      "category": "sports",
+      "queries": [
+        "virat kohli photo",
+        "virat kohli age",
+        "விராட் கோலி",
+        "વિરાટ કોહલી",
+        "विराट कोहली का बर्थडे कब है",
+        "ವಿರಾಟ್ ಕೊಹ್ಲಿ"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "virat-kohli-birthday-age-2026-career-guide"
+    },
+    {
+      "key": "lewis-hamilton",
+      "topic": "Lewis Hamilton: seven titles, teams and race-result literacy",
+      "category": "sports",
+      "queries": [
+        "lewis hamilton"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "lewis-hamilton-seven-titles-teams-career-guide"
+    },
+    {
+      "key": "pv-sindhu",
+      "topic": "P. V. Sindhu: Olympic medals, world title and badminton results",
+      "category": "sports",
+      "queries": [
+        "పి.వి. సింధు"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "pv-sindhu-olympic-medals-world-title-guide"
+    },
+    {
+      "key": "chamari-athapaththu",
+      "topic": "Chamari Athapaththu: landmark innings and Sri Lanka career",
+      "category": "sports",
+      "queries": [
+        "chamari athapaththu"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "chamari-athapaththu-career-innings-sri-lanka-guide"
+    },
+    {
+      "key": "alexander-zverev",
+      "topic": "Alexander Zverev: Olympic gold and 2026 major titles",
+      "category": "sports",
+      "queries": [
+        "alexander zverev"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "alexander-zverev-2026-major-titles-career-guide"
     }
   ],
   "rowDisposition": [
@@ -690,7 +745,8 @@
       "row": 45,
       "topic": "virat kohli photo",
       "breakdown": "virat kohli photo,virat kohli photos,virat birthday,virat kohli ka birthday kab aata hai,king kohli,virat kohli ka photo,happy birthday virat kohli,happy birthday,virat kohli ka birthday,virat kohli stats",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "virat-kohli-birthday"
     },
     {
       "row": 46,
@@ -720,7 +776,8 @@
       "row": 50,
       "topic": "virat kohli age",
       "breakdown": "virat kohli age",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "virat-kohli-birthday"
     },
     {
       "row": 51,
@@ -1295,7 +1352,8 @@
       "row": 143,
       "topic": "விராட் கோலி",
       "breakdown": "விராட் கோலி",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "virat-kohli-birthday"
     },
     {
       "row": 144,
@@ -1386,7 +1444,8 @@
       "row": 157,
       "topic": "વિરાટ કોહલી",
       "breakdown": "વિરાટ કોહલી",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "virat-kohli-birthday"
     },
     {
       "row": 158,
@@ -1911,7 +1970,9 @@
       "row": 243,
       "topic": "carlos alcaraz",
       "breakdown": "carlos alcaraz",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "carlos-alcaraz-career-grand-slam-australian-open-2026",
+      "reason": "Existing career profile and separate tactical guide already cover this broad player query; no third duplicate article."
     },
     {
       "row": 244,
@@ -1923,7 +1984,8 @@
       "row": 245,
       "topic": "పి.వి. సింధు",
       "breakdown": "పి.వి. సింధు",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "pv-sindhu"
     },
     {
       "row": 246,
@@ -1991,7 +2053,8 @@
       "row": 256,
       "topic": "alexander zverev",
       "breakdown": "alexander zverev,lorenzo musetti,djokovic,zverev",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "alexander-zverev"
     },
     {
       "row": 257,
@@ -2015,7 +2078,8 @@
       "row": 260,
       "topic": "lewis hamilton",
       "breakdown": "lewis hamilton",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "lewis-hamilton"
     },
     {
       "row": 261,
@@ -2329,7 +2393,8 @@
       "row": 310,
       "topic": "विराट कोहली का बर्थडे कब है",
       "breakdown": "विराट कोहली का बर्थडे कब है",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "virat-kohli-birthday"
     },
     {
       "row": 311,
@@ -2999,7 +3064,8 @@
       "row": 418,
       "topic": "ವಿರಾಟ್ ಕೊಹ್ಲಿ",
       "breakdown": "ವಿರಾಟ್ ಕೊಹ್ಲಿ",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "virat-kohli-birthday"
     },
     {
       "row": 419,
@@ -3011,7 +3077,8 @@
       "row": 420,
       "topic": "chamari athapaththu",
       "breakdown": "chamari athapaththu",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "chamari-athapaththu"
     },
     {
       "row": 421,
@@ -3162,16 +3229,30 @@
         "inserted": 5,
         "preserved": 332
       }
+    },
+    {
+      "number": 7,
+      "keys": [
+        "virat-kohli-birthday",
+        "lewis-hamilton",
+        "pv-sindhu",
+        "chamari-athapaththu",
+        "alexander-zverev"
+      ],
+      "expectedSize": 5,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested continuation of the old CSV work, with standing authorization to publish completed reviewed articles.",
+      "state": "research-pending"
     }
   ],
   "prepared": 40,
   "published": 40,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 5,
   "intentReview": {
-    "sameIntentCovered": 14,
+    "sameIntentCovered": 15,
     "unclear": 38,
-    "unreviewed": 324
+    "unreviewed": 313
   }
 }
