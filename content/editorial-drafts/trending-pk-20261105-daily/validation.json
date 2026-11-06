@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 17,
-  "bodyWords": 35475,
-  "uniqueImages": 34,
+  "state": "local-verified-unpublished",
+  "articles": 27,
+  "bodyWords": 55977,
+  "uniqueImages": 54,
   "existingArticlesCompared": 284,
   "results": [
     {
@@ -76,6 +76,27 @@
       "images": 2
     },
     {
+      "key": "maliha-ali",
+      "slug": "maliha-ali-immaf-world-final-tbilisi-2026-guide",
+      "words": 2053,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "rizwan-domestic",
+      "slug": "rizwan-peshawar-blues-double-century-faisalabad-2026",
+      "words": 2013,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "shaheen-odi-ranking",
+      "slug": "shaheen-afridi-fifth-odi-bowling-ranking-november-2026",
+      "words": 2003,
+      "tags": 42,
+      "images": 2
+    },
+    {
       "key": "hakeem-jeffries",
       "slug": "hakeem-jeffries-house-role-speaker-election-guide",
       "words": 2084,
@@ -97,6 +118,20 @@
       "images": 2
     },
     {
+      "key": "philadelphia-76ers",
+      "slug": "76ers-pistons-112-106-november-4-2026-box-score-guide",
+      "words": 2036,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "starc-test-ranking",
+      "slug": "mitchell-starc-number-one-test-bowling-november-2026",
+      "words": 2026,
+      "tags": 42,
+      "images": 2
+    },
+    {
       "key": "jd-vance",
       "slug": "jd-vance-vice-president-senate-role-guide",
       "words": 2163,
@@ -104,9 +139,23 @@
       "images": 2
     },
     {
+      "key": "abdul-el-sayed",
+      "slug": "abdul-el-sayed-michigan-senator-elect-2026-guide",
+      "words": 2017,
+      "tags": 42,
+      "images": 2
+    },
+    {
       "key": "esteban-ocon",
       "slug": "esteban-ocon-haas-departure-2026-career-guide",
       "words": 2194,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nabeela-syed",
+      "slug": "nabeela-syed-illinois-state-senate-26-2026-guide",
+      "words": 2075,
       "tags": 42,
       "images": 2
     },
@@ -123,7 +172,27 @@
       "words": 2094,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "gina-hinojosa",
+      "slug": "gina-hinojosa-texas-governor-elect-2026-education-guide",
+      "words": 2059,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "amish-shah",
+      "slug": "amish-shah-arizona-district-1-house-win-2026-guide",
+      "words": 2178,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "champions-league-matchday-four",
+      "slug": "champions-league-matchday-4-2026-results-table-guide",
+      "words": 2042,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

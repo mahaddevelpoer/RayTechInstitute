@@ -1,0 +1,11 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2053,
+  "imageVisualReview": "passed",
+  "localChecks": "validation.json",
+  "sourceCheckedOn": "2026-11-06",
+  "imageVisualEvidence": "artifacts/november5-daily/batch4-contact-1.png",
+  "imageReviewNotes": "Both reviewed visually. Subject, date and context are explicit. All sources licensed; no image hash reused across the editorial catalog. Philadelphia cover was replaced with a separately reviewed Maxey archive photograph.",
+  "factualReview": "Dated source scope preserved; no invented certified margins, final medal, current rating points, selection decision or match play-by-play. Fictional arithmetic examples explicitly labelled."
+}

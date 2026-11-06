@@ -124,8 +124,9 @@
         "maliha ali immaf world championships",
         "mixed martial arts"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "maliha-ali-immaf-world-final-tbilisi-2026-guide"
     },
     {
       "key": "munna-bhai-3",
@@ -138,13 +139,14 @@
     },
     {
       "key": "rizwan-domestic",
-      "topic": "Mohammad Rizwan domestic return and Lahore Whites",
+      "topic": "Mohammad Rizwan unbeaten double century for Peshawar Blues against Faisalabad",
       "queries": [
         "mohammad rizwan domestic cricket comeback",
         "quaid e azam trophy lahore whites"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "rizwan-peshawar-blues-double-century-faisalabad-2026"
     },
     {
       "key": "shaheen-odi-ranking",
@@ -152,8 +154,9 @@
       "queries": [
         "shaheen afridi icc odi ranking"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "shaheen-afridi-fifth-odi-bowling-ranking-november-2026"
     },
     {
       "key": "asim-azhar",
@@ -250,8 +253,9 @@
       "queries": [
         "philadelphia 76ers"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "76ers-pistons-112-106-november-4-2026-box-score-guide"
     },
     {
       "key": "starc-test-ranking",
@@ -259,8 +263,9 @@
       "queries": [
         "mitchell starc icc test bowling rankings"
       ],
-      "state": "research-pending",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "mitchell-starc-number-one-test-bowling-november-2026"
     },
     {
       "key": "jd-vance",
@@ -279,8 +284,9 @@
         "abdul el sayed",
         "el sayed"
       ],
-      "state": "pending-existing-research",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "abdul-el-sayed-michigan-senator-elect-2026-guide"
     },
     {
       "key": "esteban-ocon",
@@ -298,8 +304,9 @@
       "queries": [
         "nabeela syed illinois"
       ],
-      "state": "pending-existing-research",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "nabeela-syed-illinois-state-senate-26-2026-guide"
     },
     {
       "key": "solar-power",
@@ -327,8 +334,9 @@
       "queries": [
         "gina hinojosa"
       ],
-      "state": "pending-existing-research",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "gina-hinojosa-texas-governor-elect-2026-education-guide"
     },
     {
       "key": "amish-shah",
@@ -336,8 +344,9 @@
       "queries": [
         "amish shah"
       ],
-      "state": "pending-existing-research",
-      "category": "world-affairs"
+      "state": "draft-written-checks-pending",
+      "category": "world-affairs",
+      "slug": "amish-shah-arizona-district-1-house-win-2026-guide"
     },
     {
       "key": "champions-league-matchday-four",
@@ -345,8 +354,9 @@
       "queries": [
         "champions league standings"
       ],
-      "state": "pending-existing-research",
-      "category": "sports"
+      "state": "draft-written-checks-pending",
+      "category": "sports",
+      "slug": "champions-league-matchday-4-2026-results-table-guide"
     }
   ],
   "rowDisposition": [
@@ -994,11 +1004,11 @@
     {
       "row": 82,
       "topic": "quaid e azam trophy lahore whites",
-      "state": "queued",
-      "group": "rizwan-domestic"
+      "state": "needs-specific-fixture",
+      "reason": "Separate team intent: PCB identifies Rizwan with Peshawar Blues. New article explains the distinction but does not claim a verified Lahore Whites fixture result."
     }
   ],
-  "prepared": 17,
+  "prepared": 27,
   "published": 17,
   "remaining": 17,
   "releaseBatches": [
@@ -1056,6 +1066,25 @@
         "inserted": 5,
         "preserved": 342
       }
+    },
+    {
+      "number": 4,
+      "keys": [
+        "maliha-ali",
+        "rizwan-domestic",
+        "shaheen-odi-ranking",
+        "philadelphia-76ers",
+        "starc-test-ranking",
+        "abdul-el-sayed",
+        "nabeela-syed",
+        "gina-hinojosa",
+        "amish-shah",
+        "champions-league-matchday-four"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "User explicitly requested ten complete articles per publication batch and confirmed on 6 November 2026.",
+      "state": "local-verified-ready-for-publication"
     }
   ]
 }
