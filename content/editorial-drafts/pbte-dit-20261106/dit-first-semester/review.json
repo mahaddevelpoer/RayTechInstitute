@@ -1,8 +1,12 @@
 {
-  "state": "reviewed-awaiting-publication",
+  "state": "published-live-verified",
   "imageVisualReview": "passed",
   "officialPdfVisualReview": "passed",
   "reviewedOn": "2026-11-06",
   "evidence": "Original supplied notice inspected; official PDF downloaded directly from PBTE and first page rendered and visually inspected. All dates, fee components and totals checked. Cover inspected separately; notice is reproduced byte-for-byte without being used as the cover.",
-  "sourceLimitations": "First-semester eligibility and the Rs 150 difference require institutional confirmation; article explicitly preserves that uncertainty."
+  "sourceLimitations": "First-semester eligibility and the Rs 150 difference require institutional confirmation; article explicitly preserves that uncertainty.",
+  "published": true,
+  "hostingRun": 42156589617,
+  "liveUrl": "https://raytechinstitute.com/blogs/dit-first-semester-exam-notice-january-2027-fees-deadlines/",
+  "liveCheckedAt": "2026-11-06T03:30:33.524Z"
 }

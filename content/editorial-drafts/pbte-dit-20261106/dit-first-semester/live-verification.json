@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-06T03:30:33.524Z",
+  "resolver": "Cloudflare DNS-over-HTTPS; canonical hostname with verified TLS",
+  "edgeAddress": "172.67.139.27",
+  "results": [
+    {
+      "name": "dit-first-semester",
+      "batch": "20261106",
+      "url": "https://raytechinstitute.com/blogs/dit-first-semester-exam-notice-january-2027-fees-deadlines/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/pbte-dit-20261106/computer-lab-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/pbte-dit-20261106/dit-student-notice-original.jpg",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/pbte-dit-20261106/pbte-official-schedule.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
