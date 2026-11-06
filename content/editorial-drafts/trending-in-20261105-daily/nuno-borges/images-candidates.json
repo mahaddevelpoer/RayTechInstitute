@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Borges Rosmalen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Borges_Rosmalen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Borges_Rosmalen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Borges_Rosmalen.jpg",
+    "creator": "Tvx1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Nuno Borges at the 2026 Libema Open in Rosmalen; player identification rather than a photograph of the 2024 Bastad final.",
+    "description": "Nuno Borges at the 2026 Libéma Open",
+    "caption": "Nuno Borges at the 2026 Libema Open in Rosmalen; player identification rather than a photograph of the 2024 Bastad final.",
+    "width": 877,
+    "height": 1262,
+    "bytes": 525680,
+    "sha1": "70d0b02564c7f3d39031cafb55d1d2aa6307725d",
+    "photographedAt": "2026-06-11 15:48:37",
+    "query": "intitle:Borges intitle:Rosmalen",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Båstad Tennis Stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/B%C3%A5stad_Tennis_Stadium.jpg/1280px-B%C3%A5stad_Tennis_Stadium.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/B%C3%A5stad_Tennis_Stadium.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:B%C3%A5stad_Tennis_Stadium.jpg",
+    "creator": "PROGuillaume Baviere",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Bastad Tennis Stadium, shown as venue context rather than evidence of a particular final or result.",
+    "description": "Båstad Tennis Stadium 2013",
+    "caption": "Bastad Tennis Stadium, shown as venue context rather than evidence of a particular final or result.",
+    "width": 4482,
+    "height": 2658,
+    "bytes": 1506325,
+    "sha1": "4602591ec262b4ee523dc1c8b9987bb19b4c37fb",
+    "photographedAt": "2013-05-13",
+    "query": "Bastad tennis stadium",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

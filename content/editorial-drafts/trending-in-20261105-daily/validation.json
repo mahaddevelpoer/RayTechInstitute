@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 90,
-  "bodyWords": 188532,
-  "uniqueImages": 180,
+  "state": "local-verified-unpublished",
+  "articles": 100,
+  "bodyWords": 209050,
+  "uniqueImages": 200,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -634,7 +634,76 @@
       "words": 2151,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "rinky-hijikata",
+      "slug": "rinky-hijikata-doubles-title-teamwork-guide",
+      "words": 2042,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "karen-khachanov",
+      "slug": "karen-khachanov-paris-olympics-tennis-guide",
+      "words": 2075,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ugo-humbert",
+      "slug": "ugo-humbert-dubai-paris-left-handed-guide",
+      "words": 2034,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nuno-borges",
+      "slug": "nuno-borges-bastad-college-tennis-pathway",
+      "words": 2055,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "learner-tien",
+      "slug": "learner-tien-australian-open-qualifying-guide",
+      "words": 2026,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ngolo-kante",
+      "slug": "ngolo-kante-career-midfield-cover-guide",
+      "words": 2021,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "michael-carrick",
+      "slug": "michael-carrick-playing-career-midfield-guide",
+      "words": 2005,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "amul-cooperative",
+      "slug": "amul-cooperative-dairy-history-supply-chain",
+      "words": 2028,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "the-hindu-reading",
+      "slug": "the-hindu-history-news-reading-student-guide",
+      "words": 2188,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "elder-scrolls-vi",
+      "slug": "elder-scrolls-vi-official-updates-development",
+      "words": 2044,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "batch-13-live-verification.json"
+  ]
 }

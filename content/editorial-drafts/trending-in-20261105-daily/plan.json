@@ -927,6 +927,106 @@
       ],
       "state": "published-live-verified",
       "slug": "brahim-diaz-career-receiving-between-lines"
+    },
+    {
+      "key": "rinky-hijikata",
+      "topic": "Rinky Hijikata: 2023 doubles title, singles pathway and teamwork",
+      "category": "sports",
+      "queries": [
+        "rinky hijikata"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "rinky-hijikata-doubles-title-teamwork-guide"
+    },
+    {
+      "key": "karen-khachanov",
+      "topic": "Karen Khachanov: Paris 2018, Olympic silver and match structure",
+      "category": "sports",
+      "queries": [
+        "karen khachanov"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "karen-khachanov-paris-olympics-tennis-guide"
+    },
+    {
+      "key": "ugo-humbert",
+      "topic": "Ugo Humbert: Dubai and Paris 2024, left-handed angles and form",
+      "category": "sports",
+      "queries": [
+        "ugo humbert"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "ugo-humbert-dubai-paris-left-handed-guide"
+    },
+    {
+      "key": "nuno-borges",
+      "topic": "Nuno Borges: college pathway, Bastad breakthrough and match evidence",
+      "category": "sports",
+      "queries": [
+        "nuno borges"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "nuno-borges-bastad-college-tennis-pathway"
+    },
+    {
+      "key": "learner-tien",
+      "topic": "Learner Tien: Australian Open 2025, qualifying and junior-to-pro transitions",
+      "category": "sports",
+      "queries": [
+        "learner tien"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "learner-tien-australian-open-qualifying-guide"
+    },
+    {
+      "key": "ngolo-kante",
+      "topic": "N Golo Kante: title timeline, midfield cover and ball recovery",
+      "category": "sports",
+      "queries": [
+        "n'golo kanté"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "ngolo-kante-career-midfield-cover-guide"
+    },
+    {
+      "key": "michael-carrick",
+      "topic": "Michael Carrick: playing career, passing lanes and midfield control",
+      "category": "sports",
+      "queries": [
+        "michael carrick"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "michael-carrick-playing-career-midfield-guide"
+    },
+    {
+      "key": "amul-cooperative",
+      "topic": "Amul: cooperative history, dairy supply chains and producer ownership",
+      "category": "business",
+      "queries": [
+        "amul"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "amul-cooperative-dairy-history-supply-chain"
+    },
+    {
+      "key": "the-hindu-reading",
+      "topic": "The Hindu: newspaper history, reading methods and evidence checking",
+      "category": "education",
+      "queries": [
+        "the hindu"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "the-hindu-history-news-reading-student-guide"
+    },
+    {
+      "key": "elder-scrolls-vi",
+      "topic": "The Elder Scrolls VI: official announcement history and game development literacy",
+      "category": "technology",
+      "queries": [
+        "elder scrolls vi"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "elder-scrolls-vi-official-updates-development"
     }
   ],
   "rowDisposition": [
@@ -2350,7 +2450,8 @@
       "row": 214,
       "topic": "the hindu",
       "breakdown": "the hindu",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "the-hindu-reading"
     },
     {
       "row": 215,
@@ -2438,7 +2539,8 @@
       "row": 228,
       "topic": "n'golo kanté",
       "breakdown": "n'golo kanté,kojo peprah oppong",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "ngolo-kante"
     },
     {
       "row": 229,
@@ -2474,7 +2576,8 @@
       "row": 234,
       "topic": "amul",
       "breakdown": "amul",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "amul-cooperative"
     },
     {
       "row": 235,
@@ -2659,13 +2762,15 @@
       "row": 261,
       "topic": "rinky hijikata",
       "breakdown": "rinky hijikata,novak djokovic",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "rinky-hijikata"
     },
     {
       "row": 262,
       "topic": "michael carrick",
       "breakdown": "michael carrick",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "michael-carrick"
     },
     {
       "row": 263,
@@ -3493,7 +3598,8 @@
       "row": 390,
       "topic": "karen khachanov",
       "breakdown": "karen khachanov",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "karen-khachanov"
     },
     {
       "row": 391,
@@ -3542,13 +3648,15 @@
       "row": 398,
       "topic": "ugo humbert",
       "breakdown": "ugo humbert",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "ugo-humbert"
     },
     {
       "row": 399,
       "topic": "elder scrolls vi",
       "breakdown": "elder scrolls vi",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "elder-scrolls-vi"
     },
     {
       "row": 400,
@@ -3566,7 +3674,8 @@
       "row": 402,
       "topic": "nuno borges",
       "breakdown": "nuno borges",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "nuno-borges"
     },
     {
       "row": 403,
@@ -3599,7 +3708,8 @@
       "row": 407,
       "topic": "learner tien",
       "breakdown": "learner tien",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "learner-tien"
     },
     {
       "row": 408,
@@ -4001,16 +4111,35 @@
         "inserted": 10,
         "preserved": 399
       }
+    },
+    {
+      "number": 14,
+      "keys": [
+        "rinky-hijikata",
+        "karen-khachanov",
+        "ugo-humbert",
+        "nuno-borges",
+        "learner-tien",
+        "ngolo-kante",
+        "michael-carrick",
+        "amul-cooperative",
+        "the-hindu-reading",
+        "elder-scrolls-vi"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested continued writing and publication in ten-article batches without subagents.",
+      "state": "research-pending"
     }
   ],
   "prepared": 90,
   "published": 90,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
     "sameIntentCovered": 29,
     "unclear": 50,
-    "unreviewed": 240
+    "unreviewed": 230
   }
 }
