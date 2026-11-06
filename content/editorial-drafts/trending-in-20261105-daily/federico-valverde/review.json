@@ -1,9 +1,13 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2145,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-06",
-  "sourceReview": "BATCH-12-RESEARCH.md"
+  "sourceReview": "BATCH-12-RESEARCH.md",
+  "hostingRun": 42236157977,
+  "verificationRun": 42236157977,
+  "liveUrl": "https://raytechinstitute.com/blogs/federico-valverde-career-midfield-explained/",
+  "liveCheckedAt": "2026-11-06T14:48:01.551Z"
 }

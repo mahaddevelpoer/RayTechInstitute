@@ -1,0 +1,315 @@
+{
+  "run": 42236157977,
+  "verificationRun": 42236157977,
+  "checkedAt": "2026-11-06T14:48:01.551Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 10,
+    "verified": 10,
+    "existingArticlesPreserved": 389,
+    "articles": [
+      "barack-obama-biography-presidency-civics-guide",
+      "sachin-tendulkar-career-cricket-records-guide",
+      "lata-mangeshkar-playback-singing-music-guide",
+      "shaik-rasheed-u19-career-batting-guide",
+      "jude-bellingham-career-midfield-role-guide",
+      "vinicius-junior-career-wing-play-guide",
+      "federico-valverde-career-midfield-explained",
+      "thibaut-courtois-career-goalkeeping-guide",
+      "mercedes-electric-glc-charging-range-guide",
+      "charles-leclerc-career-formula-one-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "barack-obama",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/barack-obama-biography-presidency-civics-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/barack-obama-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/barack-obama-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "sachin-tendulkar",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/sachin-tendulkar-career-cricket-records-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/sachin-tendulkar-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/sachin-tendulkar-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "lata-mangeshkar",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/lata-mangeshkar-playback-singing-music-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/lata-mangeshkar-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/lata-mangeshkar-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "shaik-rasheed",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/shaik-rasheed-u19-career-batting-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/shaik-rasheed-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/shaik-rasheed-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "jude-bellingham",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/jude-bellingham-career-midfield-role-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/jude-bellingham-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/jude-bellingham-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "vinicius-junior",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/vinicius-junior-career-wing-play-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vinicius-junior-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/vinicius-junior-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "federico-valverde",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/federico-valverde-career-midfield-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/federico-valverde-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/federico-valverde-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "thibaut-courtois",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/thibaut-courtois-career-goalkeeping-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/thibaut-courtois-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/thibaut-courtois-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "mercedes-glc-electric",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/mercedes-electric-glc-charging-range-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/mercedes-glc-electric-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/mercedes-glc-electric-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "charles-leclerc",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/charles-leclerc-career-formula-one-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/charles-leclerc-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/charles-leclerc-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

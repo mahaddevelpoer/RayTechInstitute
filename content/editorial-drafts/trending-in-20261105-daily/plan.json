@@ -734,7 +734,7 @@
       "queries": [
         "barack obama"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "barack-obama-biography-presidency-civics-guide"
     },
     {
@@ -745,7 +745,7 @@
         "শচীন তেন্ডুলকর",
         "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "sachin-tendulkar-career-cricket-records-guide"
     },
     {
@@ -755,7 +755,7 @@
       "queries": [
         "लता मंगेशकर"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "lata-mangeshkar-playback-singing-music-guide"
     },
     {
@@ -765,7 +765,7 @@
       "queries": [
         "shaik rasheed"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "shaik-rasheed-u19-career-batting-guide"
     },
     {
@@ -775,7 +775,7 @@
       "queries": [
         "jude bellingham"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "jude-bellingham-career-midfield-role-guide"
     },
     {
@@ -785,7 +785,7 @@
       "queries": [
         "vinícius júnior"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "vinicius-junior-career-wing-play-guide"
     },
     {
@@ -795,7 +795,7 @@
       "queries": [
         "federico valverde"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "federico-valverde-career-midfield-explained"
     },
     {
@@ -805,7 +805,7 @@
       "queries": [
         "thibaut courtois"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "thibaut-courtois-career-goalkeeping-guide"
     },
     {
@@ -815,7 +815,7 @@
       "queries": [
         "mercedes benz glc ev"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "mercedes-electric-glc-charging-range-guide"
     },
     {
@@ -825,7 +825,7 @@
       "queries": [
         "charles leclerc"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "charles-leclerc-career-formula-one-guide"
     }
   ],
@@ -1184,8 +1184,9 @@
       "row": 55,
       "topic": "শচীন তেন্ডুলকর",
       "breakdown": "শচীন তেন্ডুলকর",
-      "state": "research-pending",
-      "group": "sachin-tendulkar"
+      "state": "published-live-verified",
+      "group": "sachin-tendulkar",
+      "target": "sachin-tendulkar-career-cricket-records-guide"
     },
     {
       "row": 56,
@@ -1503,8 +1504,9 @@
       "row": 101,
       "topic": "barack obama",
       "breakdown": "barack obama",
-      "state": "research-pending",
-      "group": "barack-obama"
+      "state": "published-live-verified",
+      "group": "barack-obama",
+      "target": "barack-obama-biography-presidency-civics-guide"
     },
     {
       "row": 102,
@@ -1840,8 +1842,9 @@
       "row": 151,
       "topic": "shaik rasheed",
       "breakdown": "shaik rasheed",
-      "state": "research-pending",
-      "group": "shaik-rasheed"
+      "state": "published-live-verified",
+      "group": "shaik-rasheed",
+      "target": "shaik-rasheed-u19-career-batting-guide"
     },
     {
       "row": 152,
@@ -1951,8 +1954,9 @@
       "row": 167,
       "topic": "लता मंगेशकर",
       "breakdown": "लता मंगेशकर",
-      "state": "research-pending",
-      "group": "lata-mangeshkar"
+      "state": "published-live-verified",
+      "group": "lata-mangeshkar",
+      "target": "lata-mangeshkar-playback-singing-music-guide"
     },
     {
       "row": 168,
@@ -2104,8 +2108,9 @@
       "row": 191,
       "topic": "mercedes benz glc ev",
       "breakdown": "mercedes benz glc ev",
-      "state": "research-pending",
-      "group": "mercedes-glc-electric"
+      "state": "published-live-verified",
+      "group": "mercedes-glc-electric",
+      "target": "mercedes-electric-glc-charging-range-guide"
     },
     {
       "row": 192,
@@ -2257,8 +2262,9 @@
       "row": 216,
       "topic": "vinícius júnior",
       "breakdown": "vinícius júnior",
-      "state": "research-pending",
-      "group": "vinicius-junior"
+      "state": "published-live-verified",
+      "group": "vinicius-junior",
+      "target": "vinicius-junior-career-wing-play-guide"
     },
     {
       "row": 217,
@@ -2435,8 +2441,9 @@
       "row": 244,
       "topic": "thibaut courtois",
       "breakdown": "thibaut courtois",
-      "state": "research-pending",
-      "group": "thibaut-courtois"
+      "state": "published-live-verified",
+      "group": "thibaut-courtois",
+      "target": "thibaut-courtois-career-goalkeeping-guide"
     },
     {
       "row": 245,
@@ -2488,8 +2495,9 @@
       "row": 252,
       "topic": "federico valverde",
       "breakdown": "federico valverde,madrid vs,valverde,real madrid vs athens",
-      "state": "research-pending",
-      "group": "federico-valverde"
+      "state": "published-live-verified",
+      "group": "federico-valverde",
+      "target": "federico-valverde-career-midfield-explained"
     },
     {
       "row": 253,
@@ -2619,8 +2627,9 @@
       "row": 272,
       "topic": "jude bellingham",
       "breakdown": "jude bellingham",
-      "state": "research-pending",
-      "group": "jude-bellingham"
+      "state": "published-live-verified",
+      "group": "jude-bellingham",
+      "target": "jude-bellingham-career-midfield-role-guide"
     },
     {
       "row": 273,
@@ -2956,8 +2965,9 @@
       "row": 325,
       "topic": "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್",
       "breakdown": "ಸಚಿನ್ ತೆಂಡುಲ್ಕರ್",
-      "state": "research-pending",
-      "group": "sachin-tendulkar"
+      "state": "published-live-verified",
+      "group": "sachin-tendulkar",
+      "target": "sachin-tendulkar-career-cricket-records-guide"
     },
     {
       "row": 326,
@@ -3018,8 +3028,9 @@
       "row": 335,
       "topic": "charles leclerc",
       "breakdown": "charles leclerc",
-      "state": "research-pending",
-      "group": "charles-leclerc"
+      "state": "published-live-verified",
+      "group": "charles-leclerc",
+      "target": "charles-leclerc-career-formula-one-guide"
     },
     {
       "row": 336,
@@ -3836,14 +3847,21 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "User requested continued writing and publication; standing preference is complete ten-article batches, without subagents.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42236157977,
+      "verificationRun": 42236157977,
+      "checkedAt": "2026-11-06T14:48:01.551Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 389
+      }
     }
   ],
-  "prepared": 70,
-  "published": 70,
+  "prepared": 80,
+  "published": 80,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 10,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 29,
     "unclear": 50,
