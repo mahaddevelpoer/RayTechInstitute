@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 35,
-  "bodyWords": 70801,
-  "uniqueImages": 70,
+  "state": "local-verified-unpublished",
+  "articles": 40,
+  "bodyWords": 81125,
+  "uniqueImages": 80,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -249,7 +249,41 @@
       "words": 2029,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "typhoon-science",
+      "slug": "typhoon-science-forecast-map-reading-guide",
+      "words": 2061,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "interest-rates",
+      "slug": "interest-rates-simple-compound-comparison-guide",
+      "words": 2027,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ongc-energy",
+      "slug": "ongc-oil-gas-production-report-reading-guide",
+      "words": 2047,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ntpc-electricity",
+      "slug": "ntpc-electricity-capacity-generation-units-guide",
+      "words": 2008,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "coal-india",
+      "slug": "coal-india-production-dispatch-stock-guide",
+      "words": 2181,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "final-live-verification.json"
+  ]
 }

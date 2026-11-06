@@ -377,7 +377,8 @@
       "queries": [
         "typhoon"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "typhoon-science-forecast-map-reading-guide"
     },
     {
       "key": "interest-rates",
@@ -386,7 +387,8 @@
       "queries": [
         "interest rate"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "interest-rates-simple-compound-comparison-guide"
     },
     {
       "key": "ongc-energy",
@@ -395,7 +397,8 @@
       "queries": [
         "ongc share price"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "ongc-oil-gas-production-report-reading-guide"
     },
     {
       "key": "ntpc-electricity",
@@ -404,7 +407,8 @@
       "queries": [
         "ntpc share price"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "ntpc-electricity-capacity-generation-units-guide"
     },
     {
       "key": "coal-india",
@@ -413,7 +417,8 @@
       "queries": [
         "coal india share price"
       ],
-      "state": "research-pending"
+      "state": "draft-written-checks-pending",
+      "slug": "coal-india-production-dispatch-stock-guide"
     }
   ],
   "rowDisposition": [
@@ -3142,8 +3147,9 @@
         "coal-india"
       ],
       "expectedSize": 5,
-      "explicitUserAuthorization": false,
-      "state": "deferred-unwritten"
+      "explicitUserAuthorization": true,
+      "state": "draft-written-checks-pending",
+      "authorization": "User resumed the old article queue on 6 November and requested continuation with publication under standing approval."
     }
   ],
   "prepared": 35,

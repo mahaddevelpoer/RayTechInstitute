@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:ONGC DDW Platform, Eastern Offshore.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/ongc-energy-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/ONGC_DDW_Platform%2C_Eastern_Offshore.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:ONGC_DDW_Platform,_Eastern_Offshore.jpg",
+    "creator": "Ramchandra9",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "ONGC’s DDW offshore platform, shown as industry context rather than evidence of current production.",
+    "description": "ONGC DDW Platform, Eastern Offshore",
+    "caption": "ONGC’s DDW offshore platform, shown as industry context rather than evidence of current production.",
+    "width": 972,
+    "height": 449,
+    "bytes": 34910,
+    "sha1": "2611135da52dab14a5ce78061b01f73aa474e5b1",
+    "photographedAt": "2026-05-27 12:03:12",
+    "query": "intitle:ONGC",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Pumpjack in Sivasagar.jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/ongc-energy-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Pumpjack_in_Sivasagar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Pumpjack_in_Sivasagar.jpg",
+    "creator": "Deepak G Goswami",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "An ONGC oil-field pumpjack in Sivasagar, Assam, shown as onshore production context.",
+    "description": "Pumpjack at one of the oil fields of ONGC in Sivasagar District, Assam.",
+    "caption": "An ONGC oil-field pumpjack in Sivasagar, Assam, shown as onshore production context.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 314472,
+    "sha1": "9a8a525dc538b3dd895ef91525b03a2abbb7716c",
+    "photographedAt": "31 December 2017 (according to Exif data)",
+    "query": "oil pump Assam",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Typhoon Nanmadol (14269).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/typhoon-science-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Typhoon_Nanmadol_%2814269%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Typhoon_Nanmadol_(14269).jpg",
+    "creator": "NASA image created by Jesse Allen, Earth Observatory, using data obtained from the MODIS Rapid Response team.",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Typhoon_Nanmadol_(14269).jpg",
+    "alt": "An archival satellite image of Typhoon Nanmadol, used to illustrate tropical-cyclone structure rather than a current warning.",
+    "description": "The MODIS instrument onboard NASA's Terra satellite captured this true-color image of Typhoon Nanmadol at 02:00 UTC on December 1, 2004. At the time this image was taken Nanmadol was located approximately 390 miles west-northwest of Yap and was moving at a brisk 28 mph towards the west-northwest. Maximum sustained winds were near 120 mph with higher gusts to 150 mph. NASA image created by Jesse Allen, Earth Observatory, using data obtained from the MODIS Rapid Response team.",
+    "caption": "An archival satellite image of Typhoon Nanmadol, used to illustrate tropical-cyclone structure rather than a current warning.",
+    "width": 960,
+    "height": 960,
+    "bytes": 167078,
+    "sha1": "156426fdc0cf47b4eb428a97542cfa3212da9aa2",
+    "photographedAt": "Taken on 1 December 2004",
+    "query": "typhoon satellite NASA",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Hurricane Isabel eye from ISS (edit 1).jpg",
+    "url": "/images/editorial/trending-in-20261105-daily/typhoon-science-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Hurricane_Isabel_eye_from_ISS_%28edit_1%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_eye_from_ISS_(edit_1).jpg",
+    "creator": "NASA astronaut Ed Lu",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_eye_from_ISS_(edit_1).jpg",
+    "alt": "The eye of Hurricane Isabel photographed from the International Space Station in 2003, shown as historical tropical-cyclone structure context.",
+    "description": "NASA astronaut Ed Lu took this image of the eye of Hurricane Isabel from the International Space Station at 11:18 UTC on September 13, 2003. At the time of the image, Isabel had weakened to a Category 4 hurricane on the Saffir-Simpson Hurricane Scale, from its peak as a Category 5. The storm was located about 450 miles northeast of Puerto Rico. The camera used was a Kodak DCS760C electronic still camera with a focal length of 180 mm.",
+    "caption": "The eye of Hurricane Isabel photographed from the International Space Station in 2003, shown as historical tropical-cyclone structure context.",
+    "width": 1280,
+    "height": 772,
+    "bytes": 56542,
+    "sha1": "8ea9c26f9cbd6ec6052d19b10fd1e75522a11974",
+    "photographedAt": "2003-09-13",
+    "query": "tropical cyclone eye NASA",
+    "reviewState": "metadata-reviewed-awaiting-visual",
+    "role": "inline"
+  }
+]
