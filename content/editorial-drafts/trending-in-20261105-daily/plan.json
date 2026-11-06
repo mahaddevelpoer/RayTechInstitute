@@ -505,6 +505,107 @@
       ],
       "state": "published-live-verified",
       "slug": "lakers-kings-116-103-doncic-40-november-2026"
+    },
+    {
+      "key": "suzlon-shares",
+      "topic": "Suzlon share price: wind orders, execution and financial statements",
+      "queries": [
+        "suzlon share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "suzlon-share-price-orders-cash-flow-guide"
+    },
+    {
+      "key": "cummins-india-shares",
+      "topic": "Cummins India share price: listed entity, engine and power-system business",
+      "queries": [
+        "cummins india share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "cummins-india-share-price-business-results-guide"
+    },
+    {
+      "key": "bse-shares",
+      "topic": "BSE Limited share price: exchange business and trading metrics",
+      "queries": [
+        "bse share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "bse-share-price-exchange-business-revenue-guide"
+    },
+    {
+      "key": "itc-shares",
+      "topic": "ITC share price: businesses, financial comparisons and hotels demerger",
+      "queries": [
+        "itc share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "itc-share-price-segments-demerger-cash-flow-guide"
+    },
+    {
+      "key": "lenskart-shares",
+      "topic": "Lenskart share price: eyewear retail and published investor records",
+      "queries": [
+        "lenskart share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "lenskart-share-price-retail-results-store-guide"
+    },
+    {
+      "key": "bel-shares",
+      "topic": "BEL share price: defence electronics and order-book reading",
+      "queries": [
+        "bel share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "bel-share-price-order-book-revenue-cash-guide"
+    },
+    {
+      "key": "indigo-shares",
+      "topic": "IndiGo share price: airline costs, capacity and traffic measures",
+      "queries": [
+        "indigo share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "indigo-share-price-airline-metrics-costs-guide"
+    },
+    {
+      "key": "tata-motors-shares",
+      "topic": "Tata Motors share price: current listed entities after demerger",
+      "queries": [
+        "tata motors share price",
+        "tata motors share"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "tata-motors-share-price-tmcv-tmpv-demerger-guide"
+    },
+    {
+      "key": "sbi-shares",
+      "topic": "SBI share price: deposits, margins and bank statements",
+      "queries": [
+        "sbi share price"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "sbi-share-price-bank-results-nim-npa-guide"
+    },
+    {
+      "key": "pi-industries-shares",
+      "topic": "PI Industries shares: manufacturing, research and financial statements",
+      "queries": [
+        "pi industries share"
+      ],
+      "category": "economy",
+      "state": "draft-written-checks-pending",
+      "slug": "pi-industries-share-price-csm-results-cash-guide"
     }
   ],
   "rowDisposition": [
@@ -898,7 +999,8 @@
       "row": 62,
       "topic": "suzlon share price",
       "breakdown": "suzlon share price,pfc share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "suzlon-shares"
     },
     {
       "row": 63,
@@ -988,7 +1090,8 @@
       "row": 76,
       "topic": "cummins india share price",
       "breakdown": "cummins india share price,cummins india share,cnbc awaaz live,cummins india",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "cummins-india-shares"
     },
     {
       "row": 77,
@@ -1018,19 +1121,22 @@
       "row": 81,
       "topic": "bse share price",
       "breakdown": "bse share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "bse-shares"
     },
     {
       "row": 82,
       "topic": "itc share price",
       "breakdown": "itc share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "itc-shares"
     },
     {
       "row": 83,
       "topic": "lenskart share price",
       "breakdown": "lenskart share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "lenskart-shares"
     },
     {
       "row": 84,
@@ -1050,13 +1156,15 @@
       "row": 86,
       "topic": "bel share price",
       "breakdown": "bel share price,bel share",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "bel-shares"
     },
     {
       "row": 87,
       "topic": "indigo share price",
       "breakdown": "indigo share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "indigo-shares"
     },
     {
       "row": 88,
@@ -1068,13 +1176,15 @@
       "row": 89,
       "topic": "tata motors share price",
       "breakdown": "tata motors share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "tata-motors-shares"
     },
     {
       "row": 90,
       "topic": "sbi share price",
       "breakdown": "sbi share price",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "sbi-shares"
     },
     {
       "row": 91,
@@ -1102,7 +1212,8 @@
       "row": 94,
       "topic": "pi industries share",
       "breakdown": "pi industries share,pi industries",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "pi-industries-shares"
     },
     {
       "row": 95,
@@ -1546,7 +1657,8 @@
       "row": 163,
       "topic": "tata motors share",
       "breakdown": "tata motors share",
-      "state": "needs-intent-review"
+      "state": "selected-research",
+      "group": "tata-motors-shares"
     },
     {
       "row": 164,
@@ -3351,16 +3463,35 @@
         "inserted": 3,
         "preserved": 364
       }
+    },
+    {
+      "number": 9,
+      "keys": [
+        "suzlon-shares",
+        "cummins-india-shares",
+        "bse-shares",
+        "itc-shares",
+        "lenskart-shares",
+        "bel-shares",
+        "indigo-shares",
+        "tata-motors-shares",
+        "sbi-shares",
+        "pi-industries-shares"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "Standing instruction to continue earlier India articles manually and publish each completed ten-article batch; reiterated 6 November 2026.",
+      "state": "research-in-progress"
     }
   ],
   "prepared": 48,
   "published": 48,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
     "sameIntentCovered": 20,
     "unclear": 50,
-    "unreviewed": 293
+    "unreviewed": 282
   }
 }

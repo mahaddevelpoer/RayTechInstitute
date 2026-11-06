@@ -1,0 +1,141 @@
+SBI share-price searches concern State Bank of India's equity, not the interest rate on a savings account or a central-bank policy rate. The bank's official investor and corporate-governance pages provide financial results, including the period ended 30 September 2026. A live share quote requires a separate exchange timestamp; this guide does not invent one.
+
+Bank statements use different categories from an ordinary retailer or manufacturer. Deposits, loans, interest income, provisions and capital each answer a different question. This article explains those distinctions so a reader can understand the business behind a market search without treating deposit growth or a single profit figure as a guaranteed price forecast.
+
+## Shareholder, depositor and borrower are different roles
+
+A person holding bank shares has a different relationship from someone holding a deposit or taking a loan. A share quote is not the balance in a deposit account, and a dividend is not the same payment as interest under a deposit agreement. Keep the product and legal relationship clear before comparing numbers.
+
+| Record | What it describes |
+| --- | --- |
+| Equity quote | Price of the security at a stated market time |
+| Deposit account | Customer funds under the account's terms |
+| Loan account | Borrowing under its actual agreement |
+| Financial results | Bank's defined reporting period and scope |
+| Policy rate | A separate central-bank measure |
+
+State Bank of India is not India's central bank. A news item about a monetary-policy decision can be relevant context, but it is not an SBI share quote or a change to every customer's contract. The responsible institution and the type of record must remain visible.
+
+## Begin with the right financial period
+
+The official library distinguishes quarterly, half-year and annual results. A figure for the quarter ended September is not necessarily the same as a six-month figure ending on the same date. Read both the period and the scope before calculating growth.
+
+Standalone and consolidated statements can also differ. The headings and notes explain what is included. Do not add the two totals together as if they were independent businesses, or use one scope's profit with another scope's denominator without explanation.
+
+For a student worksheet, put entity, scope, period and currency scale above each table. These fields prevent a great deal of confusion before any complex formula is needed. A correct calculation applied to mismatched inputs still produces a misleading comparison.
+
+## Why deposits and loans sit on different sides of the balance sheet
+
+From a bank's perspective, customer deposits and loans made to customers are different accounting relationships. Deposits represent obligations under their terms, while lending creates assets subject to the relevant accounting treatment. A customer's view of their own account is not the same as the bank's balance-sheet perspective.
+
+This distinction explains why a large deposit base should not simply be called shareholder cash or free profit. The bank has obligations to customers. Equally, a large loan book is not a pile of cash already collected; it describes claims and exposures whose quality and timing need assessment.
+
+Use a fictional balance-sheet exercise to practise the perspective. Label the bank's obligation to a depositor separately from a loan asset. Then ask what happens when a payment is received or a customer withdraws under the exercise's assumptions. The exercise teaches categories without supplying operational instructions or personal financial advice.
+
+## Interest income is not net profit
+
+Interest earned and interest expense are different lines. Their difference contributes to net interest income under the reporting definition, but that is not the final net profit. Other income, operating costs, provisions, tax and relevant items also matter.
+
+In a fictional example, interest earned is 100 units and interest expense is 40. Their difference is 60. If other costs and items apply, the final profit will not automatically be 60. The example is not SBI's result; it shows why a headline about interest income cannot substitute for the full statement.
+
+Keep the line labels when copying figures. Gross interest income, net interest income and net earnings can all appear in the same report. Removing the word net or changing the measure halfway through a comparison can create a large error even when the digits are copied accurately.
+
+## Net interest margin is not the margin on every loan
+
+A reported net-interest-margin measure relates defined net interest income to the relevant average earning-asset base under the bank's presentation. Read its period and annualisation method. It is not a universal rate charged to every borrower and should not be presented as a customer's loan interest rate.
+
+The denominator matters. A larger asset base can change the ratio even when the income amount moves differently. Comparing two margins requires matching their definitions, scope and periods rather than assuming every percentage in a bank presentation is calculated on the same base.
+
+For students, use a fictional income and average-asset pair, then change one input at a time. Keep a separate field for any annualisation assumption. That exercise makes the ratio understandable without pretending to reproduce the bank's actual methodology from incomplete data.
+
+## Deposit growth and funding cost are different questions
+
+A growing deposit base can be important, but its composition and cost also matter. A total alone does not establish the rate paid across every account or the effect on profitability. Use the actual disclosures rather than assume that all deposits have identical terms.
+
+An original fictional example has 100 units of one funding category and 100 of another with different stated costs. Their combined cost depends on both amounts and rates. If the mix changes, the average can change even when the rate for each category stays constant.
+
+These figures are not SBI deposit terms. They illustrate why a business analysis should examine the funding mix and the relevant definitions. A shareholder discussion and a customer's choice of account are separate decisions requiring different information.
+
+## Loan growth does not establish loan quality
+
+A larger loan book describes growth in exposure under the stated measure. It does not by itself establish the performance of every loan. Asset quality, risk, collections and the actual reporting definitions need to be examined separately.
+
+A fictional bank can grow loans from 100 to 120 units while the quality indicators move in either direction. The growth calculation is 20 percent, but that number alone cannot tell us whether the added exposure is performing as expected. More lending and better lending are different claims.
+
+Do not infer a specific borrower's status from a broad sector headline. An allegation about a named customer requires evidence. An educational financial guide can explain the categories without speculating about private accounts or treating every exposure in a sector as identical.
+
+## Gross and net non-performing-asset measures need their definitions
+
+Bank reports distinguish gross and net asset-quality measures under their applicable reporting rules. They are not interchangeable percentages. The statement's definitions, amounts and provision treatment matter to understanding the difference.
+
+For an invented simple ratio exercise, five units in a defined category divided by a relevant total of 100 produce five percent. If the denominator later grows, the ratio can fall even when the numerator does not. That is one reason to read the absolute amounts beside percentages.
+
+The example does not define an actual NPA calculation or SBI's reported values. It teaches denominator awareness. For real asset-quality figures, use the bank's own statement and notes rather than reconstruct a net measure from an incomplete screenshot or a guessed adjustment.
+
+## Provisions affect earnings, but are not the same as every cash movement
+
+Provision-related entries reflect accounting assessments under the applicable framework. They can affect reported profit without being identical to a cash payment in that moment. The actual notes and statements explain the treatment; a public article should not substitute a simplistic cash label.
+
+Likewise, a recovery, write-off and change in an asset-quality ratio are different events or measures. Their accounting relationships need the relevant disclosures. One should not be used as a synonym for another merely because all appear in a discussion of credit performance.
+
+For a classroom model, keep exposure, an illustrative allowance and cash received in separate fields. State that the model is simplified and fictional. The exercise shows why bank analysis requires more than adding and subtracting every number mentioned in a news headline.
+
+## Capital is different from a customer's available balance
+
+Regulatory capital, accounting equity, liquidity and customer deposits are distinct concepts. A bank can publish measures for each, but they do not all describe the same pool of immediately spendable cash. Read the official headings and notes before comparing them.
+
+This guide does not quote a current minimum regulatory ratio or claim that one visible percentage proves every kind of safety. Requirements and definitions have their own official sources. A financial result should be understood within that framework rather than converted into an unconditional assurance.
+
+For learners, make a concept map with separate nodes for capital, assets, obligations and liquidity. Then place each reported measure under the appropriate concept. The exercise helps explain why a large number in one category cannot automatically answer a question about another.
+
+## Other income and exceptional items deserve attention
+
+Net interest income is not the only possible contributor to a bank's reported result. The statements can identify fees, other income and material items under their definitions. A change in total profit should not automatically be attributed entirely to lending margins.
+
+In a fictional model, one source contributes 60 units and another contributes 20 before the remaining costs. If the second rises while the first stays unchanged, a higher total does not mean both sources grew. The underlying components explain the result more clearly than one combined headline.
+
+Use the actual statement for real amounts and preserve the notes. If an adjusted measure is discussed, identify who calculated it and how. Removing an item without explanation can make a trend look simpler while making the account less faithful to the source.
+
+## Dividends and deposit interest should not be combined
+
+A declared shareholder dividend and interest on a deposit arise from different arrangements. An old dividend amount does not establish a future payment, and a deposit rate does not determine the dividend on a share. Keep the relationship and reference period with each number.
+
+For a fictional ratio, a two-unit dividend and a 100-unit reference share price produce two percent under those inputs. That calculation does not promise the next dividend or a future market return. A yield without its source period and price reference can be misleading.
+
+This page does not recommend a product or transaction. It explains why a price search can lead to several different financial concepts and why they should not be merged. The right evidence depends on whether the reader is researching equity, a deposit or a borrowing agreement.
+
+## Build a bank-results comparison sheet
+
+Use separate sections for the income statement, balance sheet, asset-quality information and relevant ratios. Record the source, period, scope and currency scale for each input. Keep calculated changes separate from original values so another person can reproduce them.
+
+Test the sheet using fictional data first. Confirm that a growing denominator can affect a ratio and that net interest income does not automatically populate net profit. Leave missing values blank with a note rather than enter zero, which would make a different factual claim.
+
+When adding real results, follow the current statement's comparable figures and restatement notes. A prior year's original presentation may differ from the current comparison basis. Source work is part of the calculation, not an optional final step after the chart has been drawn.
+
+## How to discuss a share-price move responsibly
+
+A results release, policy event and market movement can occur near each other without establishing a single complete cause. Describe the timing and attribute an interpretation to its source. Do not claim to know every participant's reason for buying or selling.
+
+A strong reported result is not a guaranteed future price increase. A price decline does not independently prove the result was false. Business evidence and market expectations are related but distinct, and a useful guide should retain that distinction rather than offer an unsupported target.
+
+For students, write an observation and an interpretation in separate sentences. The observation names the dated record; the interpretation states its assumptions. This habit produces a clearer argument and helps prevent a plausible explanation from being repeated as an established fact.
+
+## Questions about SBI share-price searches
+
+### Is SBI India's central bank?
+
+No. State Bank of India and the central bank are different institutions. A policy rate, a customer account rate and an equity quote are different records. Identify the responsible institution and product before comparing numbers.
+
+### Does net interest income equal net profit?
+
+No. Other income, operating costs, provisions, tax and relevant items also affect the final result. Read the actual statement rather than relabel one line as the whole outcome. The fictional examples explain the distinction without supplying invented company figures.
+
+### Where can learners practise these methods?
+
+Explore [class resources](/classes/) for ratios and tables or [programming courses](/courses/) to build a clearly labelled bank-results checker. Use the official investor pages below for actual reporting periods and definitions, keeping those separate from hypothetical exercises.
+
+## Sources
+
+- [Source: SBI official financial-results and investor presentation library](https://sbi.bank.in/en/web/investor-relations/analyst-presentation)
+- [Source: SBI corporate-governance financial disclosures](https://sbi.bank.in/web/corporate-governance/corporate-governance)
+- [Source: SBI audited March 2026 results](https://sbi.bank.in/documents/17826/24401/08052026_SBIresultmar26.pdf/0ed50cb7-e059-7086-c1c4-37f7dd5f133d?t=1778233749961)

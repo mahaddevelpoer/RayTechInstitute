@@ -1,0 +1,16 @@
+# India batch 9 source review
+
+Ten selected topics in plan.json, releaseBatches number 9. Publication not yet performed. Source check date 6 November 2026. No live price or target is to be invented. Each page should explain the actual company and its industry-specific financial measures.
+
+- Suzlon: https://www.suzlon.com/media/press/press-releases/suzlon-q2-revenue-grows-26-yo-y-on-record-deliveries/ (29 October 2026 Q2 FY27; revenue up 26% YoY; H1 intake over 1.5 GW, order book over 6 GW). Do not mix with Q3 FY26 or Q4 FY26 figures. https://www.suzlon.com/investors/financial-reports/
+- Cummins India: https://www.cummins.com/en-in/en/in/investors/india-investors-overview and https://www.cummins.com/en-in/en/in/investors/india-financials . Distinguish the listed Indian entity from Cummins Inc.; four units in official overview.
+- BSE Limited: https://www.nseindia.com/get-quote/equity/BSE/BSE-Limited and https://nsearchives.nseindia.com/corporate/BSE1_07052026180422_NSEintimation07052026.pdf . Q2 event calendar 4 November 2026 verified; avoid secondary exact result values until primary filing is read.
+- ITC: https://itcportal.com/investors.html and https://itcportal.com/investors/proposed-demerger-hotels-business.html . Preserve hotels demerger and comparable-period distinctions.
+- Lenskart: https://www.lenskart.com/corporate/investorrelations ; https://assets.lenskart.com/documents/2026/05/20/ShareholderResult-Q4-2026.pdf ; NSE LENSKART filing dated 20 May 2026 confirms listed identity. No fresh IPO or new share-price claim.
+- BEL: https://bel-india.in/news-bel/bel-registers-a-growth-of-26-in-revenue-from-operations-during-1st-half-of-fy-2026-27/ . H1 revenue growth 26%, order book as of 1 October 2026 Rs 68,717 crore. Public financial scope only.
+- IndiGo: https://www.goindigo.in/information/investor-relations.html official primary page is crawler-blocked; search index confirms InterGlobe Aviation. Do not confuse with group-indigo.com parking operator. Avoid current management claims and unverified results.
+- Tata Motors: official CV report https://cv.tatamotors.com/news/tata-motors-limited-formerly-tml-commercial-vehicles-ltd-Q2-FY26-results-commercial-vehicles-segment-financials confirms effective 1 October 2025, CV renamed Tata Motors Limited and listed 12 November 2025 ticker TMCV. Passenger entity is Tata Motors Passenger Vehicles, TMPV. Ignore broker typo TATCOV. Verify both exact listing identities if giving quote links.
+- SBI: official updated domain sbi.bank.in. https://sbi.bank.in/en/web/investor-relations/analyst-presentation and https://sbi.bank.in/web/corporate-governance/corporate-governance list 30 September 2026 financial statements. Do not confuse State Bank with central bank or RBI.
+- PI Industries: https://www.piindustries.com/what-we-do/csm/ ; https://www.piindustries.com/investor/financial-performance/financial-results/ . Explain process research, scale-up and manufacturing; no invented contract pipeline or confidential customer chemistry.
+
+Image search cache: artifacts/india-november5/image-api/<key>-options.json. Image search completed. Twenty final photographs visually reviewed; an ITC screenshot and a misidentified historical illustration were replaced before publication. No subagents or heavy local build used.

@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 48,
-  "bodyWords": 98385,
-  "uniqueImages": 96,
+  "state": "local-verified-unpublished",
+  "articles": 58,
+  "bodyWords": 120030,
+  "uniqueImages": 116,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -340,7 +340,76 @@
       "words": 2236,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "suzlon-shares",
+      "slug": "suzlon-share-price-orders-cash-flow-guide",
+      "words": 2025,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "cummins-india-shares",
+      "slug": "cummins-india-share-price-business-results-guide",
+      "words": 2167,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bse-shares",
+      "slug": "bse-share-price-exchange-business-revenue-guide",
+      "words": 2140,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "itc-shares",
+      "slug": "itc-share-price-segments-demerger-cash-flow-guide",
+      "words": 2140,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "lenskart-shares",
+      "slug": "lenskart-share-price-retail-results-store-guide",
+      "words": 2240,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bel-shares",
+      "slug": "bel-share-price-order-book-revenue-cash-guide",
+      "words": 2078,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "indigo-shares",
+      "slug": "indigo-share-price-airline-metrics-costs-guide",
+      "words": 2221,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "tata-motors-shares",
+      "slug": "tata-motors-share-price-tmcv-tmpv-demerger-guide",
+      "words": 2102,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "sbi-shares",
+      "slug": "sbi-share-price-bank-results-nim-npa-guide",
+      "words": 2209,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "pi-industries-shares",
+      "slug": "pi-industries-share-price-csm-results-cash-guide",
+      "words": 2323,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "batch-08-live-verification.json"
+  ]
 }
