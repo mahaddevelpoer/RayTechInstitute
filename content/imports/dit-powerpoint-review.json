@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-11-06",
+  "sourceSha256": "d05298138b210e992e59fdbb7483a6050eb2221756591e68d2bbd9c548340551",
+  "questions": 100,
+  "topics": 10,
+  "questionsPerTopic": 10,
+  "teacherKeyAndHighlights": "all 100 match",
+  "languages": [
+    "en",
+    "ur"
+  ],
+  "book": "MS Office",
+  "displayChapter": 3,
+  "storageChapter": 5,
+  "pdf": {
+    "path": "public/documents/dit/ms-office-chapter-3-microsoft-powerpoint.pdf",
+    "bytes": 698039,
+    "sha256": "e580495f47bcff214876f869ec2dafa20f612ec0d5ec4a7b93e2ce3e3ae9d903",
+    "pages": 31,
+    "allQuestionLabelsPresent": true,
+    "textWithinPageBounds": true,
+    "visualReview": "all 31 pages rendered and reviewed"
+  },
+  "publication": "awaiting database and hosting"
+}

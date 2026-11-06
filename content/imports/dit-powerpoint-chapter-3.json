@@ -1,0 +1,1530 @@
+{
+  "sourceFile": "RayTech_PowerPoint_Conceptual_MCQs_Teacher-0.docx",
+  "sourceSha256": "d05298138b210e992e59fdbb7483a6050eb2221756591e68d2bbd9c548340551",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "chapterId": "chapter-dit-computer-science-powerpoint",
+  "chapterNumber": 5,
+  "chapterTitle": "Microsoft PowerPoint",
+  "bookTitle": "MS Office",
+  "displayChapterNumber": 3,
+  "languages": [
+    "en",
+    "ur"
+  ],
+  "sourceSections": [
+    "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+    "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+    "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+    "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+    "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+    "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+    "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+    "Tables and Charts / ٹیبلز اور چارٹس",
+    "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+    "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس"
+  ],
+  "questions": [
+    {
+      "id": "dit-powerpoint-ch3-q001",
+      "sourceNumber": 1,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "Which task best matches PowerPoint's purpose?\nپاورپوائنٹ کا بنیادی مقصد کون سا کام ہے؟",
+      "options": [
+        "Performing complex calculations\nپیچیدہ حساب کرنا",
+        "Managing databases\nڈیٹابیس کا انتظام کرنا",
+        "Creating slide-based presentations\nسلائیڈز پر مشتمل پریزنٹیشن بنانا",
+        "Writing operating systems\nآپریٹنگ سسٹم لکھنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Creating slide-based presentations\nدرست جواب: سلائیڈز پر مشتمل پریزنٹیشن بنانا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q002",
+      "sourceNumber": 2,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "A teacher needs to explain a lesson with pictures and text. Which tool fits?\nاستاد کو تصاویر اور متن سے سبق سمجھانا ہے۔ کون سا پروگرام موزوں ہے؟",
+      "options": [
+        "File Explorer\nفائل ایکسپلورر",
+        "Microsoft PowerPoint\nمائیکروسافٹ پاورپوائنٹ",
+        "Notepad only\nصرف نوٹ پیڈ",
+        "Calculator\nکیلکولیٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Microsoft PowerPoint\nدرست جواب: مائیکروسافٹ پاورپوائنٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q003",
+      "sourceNumber": 3,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "A presentation is mainly organized into which units?\nپریزنٹیشن بنیادی طور پر کن اکائیوں پر مشتمل ہوتی ہے؟",
+      "options": [
+        "Folders\nفولڈرز",
+        "Worksheets\nورک شیٹس",
+        "Slides\nسلائیڈز",
+        "Records\nریکارڈز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Slides\nدرست جواب: سلائیڈز"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q004",
+      "sourceNumber": 4,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "Why are images and charts useful in presentations?\nپریزنٹیشن میں تصاویر اور چارٹس کیوں مفید ہیں؟",
+      "options": [
+        "They help explain information visually\nیہ معلومات کو بصری طور پر سمجھانے میں مدد دیتے ہیں",
+        "They automatically save files\nیہ فائلیں خود بخود محفوظ کرتے ہیں",
+        "They replace every slide\nیہ ہر سلائیڈ کی جگہ لیتے ہیں",
+        "They change Windows settings\nیہ ونڈوز کی ترتیبات بدلتے ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: They help explain information visually\nدرست جواب: یہ معلومات کو بصری طور پر سمجھانے میں مدد دیتے ہیں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q005",
+      "sourceNumber": 5,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "Which example is a reasonable use of a presentation?\nپریزنٹیشن کے استعمال کی مناسب مثال کون سی ہے؟",
+      "options": [
+        "Explaining a project to an audience\nسامعین کو پروجیکٹ سمجھانا",
+        "Installing a printer driver\nپرنٹر ڈرائیور انسٹال کرنا",
+        "Changing screen hardware\nاسکرین کا ہارڈویئر بدلنا",
+        "Formatting a hard disk\nہارڈ ڈسک فارمیٹ کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Explaining a project to an audience\nدرست جواب: سامعین کو پروجیکٹ سمجھانا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q006",
+      "sourceNumber": 6,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "What is a slide in PowerPoint?\nپاورپوائنٹ میں سلائیڈ کیا ہوتی ہے؟",
+      "options": [
+        "A database field\nڈیٹابیس کا فیلڈ",
+        "A complete workbook\nمکمل ورک بک",
+        "A Windows user account\nونڈوز کا صارف اکاؤنٹ",
+        "A single page of a presentation\nپریزنٹیشن کا ایک صفحہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A single page of a presentation\nدرست جواب: پریزنٹیشن کا ایک صفحہ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q007",
+      "sourceNumber": 7,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "Which element can be combined on one slide?\nایک سلائیڈ پر کن عناصر کو اکٹھا رکھا جا سکتا ہے؟",
+      "options": [
+        "Text and pictures\nمتن اور تصاویر",
+        "Only folders\nصرف فولڈرز",
+        "Only file names\nصرف فائلوں کے نام",
+        "Only keyboard commands\nصرف کی بورڈ کمانڈز"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Text and pictures\nدرست جواب: متن اور تصاویر"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q008",
+      "sourceNumber": 8,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "Why use several slides instead of one crowded slide?\nایک بھری ہوئی سلائیڈ کے بجائے کئی سلائیڈز کیوں استعمال کریں؟",
+      "options": [
+        "To remove the title bar\nٹائٹل بار ہٹانے کے لیے",
+        "To disable editing\nترمیم بند کرنے کے لیے",
+        "To delete the presentation\nپریزنٹیشن حذف کرنے کے لیے",
+        "To organize content clearly\nمواد کو واضح انداز میں ترتیب دینے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To organize content clearly\nدرست جواب: مواد کو واضح انداز میں ترتیب دینے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q009",
+      "sourceNumber": 9,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "Which audience can use PowerPoint according to the chapter?\nباب کے مطابق پاورپوائنٹ کون استعمال کر سکتا ہے؟",
+      "options": [
+        "Only programmers\nصرف پروگرامرز",
+        "Only accountants\nصرف اکاؤنٹنٹس",
+        "Students, teachers and professionals\nطلبہ، اساتذہ اور پیشہ ور افراد",
+        "Only system administrators\nصرف سسٹم ایڈمنسٹریٹرز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Students, teachers and professionals\nدرست جواب: طلبہ، اساتذہ اور پیشہ ور افراد"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q010",
+      "sourceNumber": 10,
+      "sourceSection": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "topic": "Introduction to PowerPoint / پاورپوائنٹ کا تعارف",
+      "question": "What is the best reason to choose a theme or template?\nتھیم یا ٹیمپلیٹ منتخب کرنے کی بہترین وجہ کیا ہے؟",
+      "options": [
+        "To uninstall fonts\nفونٹس اَن انسٹال کرنے کے لیے",
+        "To apply a consistent appearance\nیکساں ظاہری انداز دینے کے لیے",
+        "To turn slides into folders\nسلائیڈز کو فولڈرز میں بدلنے کے لیے",
+        "To close all slides\nتمام سلائیڈز بند کرنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To apply a consistent appearance\nدرست جواب: یکساں ظاہری انداز دینے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q011",
+      "sourceNumber": 11,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Where does the name of the open presentation appear?\nکھلی ہوئی پریزنٹیشن کا نام کہاں ظاہر ہوتا ہے؟",
+      "options": [
+        "Slide Pane\nسلائیڈ پین",
+        "Title Bar\nٹائٹل بار",
+        "Notes Pane\nنوٹس پین",
+        "Status Bar\nاسٹیٹس بار"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Title Bar\nدرست جواب: ٹائٹل بار"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q012",
+      "sourceNumber": 12,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Which interface area contains tabs such as Home and Insert?\nانٹرفیس کے کس حصے میں Home اور Insert جیسے ٹیب ہوتے ہیں؟",
+      "options": [
+        "Ribbon\nربن",
+        "Notes area\nنوٹس کا حصہ",
+        "Slide canvas\nسلائیڈ کینوس",
+        "Status Bar\nاسٹیٹس بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ribbon\nدرست جواب: ربن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q013",
+      "sourceNumber": 13,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Where do you normally edit the current slide's content?\nموجودہ سلائیڈ کے مواد میں عام طور پر کہاں ترمیم کی جاتی ہے؟",
+      "options": [
+        "Slide Pane\nسلائیڈ پین",
+        "Status Bar\nاسٹیٹس بار",
+        "Quick Access Toolbar\nکوئک ایکسس ٹول بار",
+        "Title Bar\nٹائٹل بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Slide Pane\nدرست جواب: سلائیڈ پین"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q014",
+      "sourceNumber": 14,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Which area shows miniature previews of slides?\nسلائیڈز کی چھوٹی جھلکیاں کس حصے میں نظر آتی ہیں؟",
+      "options": [
+        "Title Bar\nٹائٹل بار",
+        "Clipboard\nکلپ بورڈ",
+        "Ribbon\nربن",
+        "Thumbnail Pane\nتھمب نیل پین"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Thumbnail Pane\nدرست جواب: تھمب نیل پین"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q015",
+      "sourceNumber": 15,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "A user wants a quick Save command regardless of the open tab. What helps?\nصارف ہر ٹیب سے فوری Save کرنا چاہتا ہے۔ کیا مدد دے گا؟",
+      "options": [
+        "Slide Sorter\nسلائیڈ سورٹر",
+        "Notes Page\nنوٹس پیج",
+        "Placeholder\nپلیس ہولڈر",
+        "Quick Access Toolbar\nکوئک ایکسس ٹول بار"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Quick Access Toolbar\nدرست جواب: کوئک ایکسس ٹول بار"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q016",
+      "sourceNumber": 16,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "What is the main role of the Status Bar?\nاسٹیٹس بار کا بنیادی کام کیا ہے؟",
+      "options": [
+        "Typing body text\nباڈی متن لکھنا",
+        "Showing slide and view information\nسلائیڈ اور ویو کی معلومات دکھانا",
+        "Adding charts\nچارٹس شامل کرنا",
+        "Changing themes only\nصرف تھیم بدلنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Showing slide and view information\nدرست جواب: سلائیڈ اور ویو کی معلومات دکھانا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q017",
+      "sourceNumber": 17,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Which option is appropriate when beginning a presentation without a preset design?\nپہلے سے طے شدہ ڈیزائن کے بغیر پریزنٹیشن شروع کرنے کے لیے کیا منتخب کریں؟",
+      "options": [
+        "Slide Sorter\nسلائیڈ سورٹر",
+        "Print Preview\nپرنٹ پری ویو",
+        "Animation Pane\nاینیمیشن پین",
+        "Blank Presentation\nبلینک پریزنٹیشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Blank Presentation\nدرست جواب: بلینک پریزنٹیشن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q018",
+      "sourceNumber": 18,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Which control helps change the magnification of the workspace?\nکام کرنے کی جگہ کو بڑا یا چھوٹا دکھانے میں کون سا کنٹرول مدد دیتا ہے؟",
+      "options": [
+        "Font Color\nفونٹ کلر",
+        "Zoom Slider\nزوم سلائیڈر",
+        "Title Bar\nٹائٹل بار",
+        "Paste button\nپیسٹ بٹن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Zoom Slider\nدرست جواب: زوم سلائیڈر"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q019",
+      "sourceNumber": 19,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "Why is the Ribbon divided into tabs?\nربن کو مختلف ٹیبز میں کیوں تقسیم کیا گیا ہے؟",
+      "options": [
+        "To create user accounts\nصارف اکاؤنٹس بنانے کے لیے",
+        "To hide every slide\nہر سلائیڈ چھپانے کے لیے",
+        "To group related commands\nمتعلقہ کمانڈز کو گروپ کرنے کے لیے",
+        "To turn text into numbers\nمتن کو اعداد میں بدلنے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To group related commands\nدرست جواب: متعلقہ کمانڈز کو گروپ کرنے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q020",
+      "sourceNumber": 20,
+      "sourceSection": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "topic": "Startup Screen and Interface / ابتدائی اسکرین اور انٹرفیس",
+      "question": "A user cannot find a formatting command on Insert. What should they check?\nصارف کو Insert میں فارمیٹنگ کمانڈ نہیں مل رہی۔ اسے کیا دیکھنا چاہیے؟",
+      "options": [
+        "The recycle bin\nری سائیکل بن",
+        "The computer clock\nکمپیوٹر کی گھڑی",
+        "The relevant Ribbon tab\nربن کا متعلقہ ٹیب",
+        "The file extension only\nصرف فائل ایکسٹینشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: The relevant Ribbon tab\nدرست جواب: ربن کا متعلقہ ٹیب"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q021",
+      "sourceNumber": 21,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "What should a student choose to start a new empty file?\nنئی خالی فائل شروع کرنے کے لیے طالب علم کیا منتخب کرے؟",
+      "options": [
+        "View then Sorter\nویو پھر سورٹر",
+        "New then Blank Presentation\nنیو پھر بلینک پریزنٹیشن",
+        "Print then Preview\nپرنٹ پھر پری ویو",
+        "Review then Spelling\nریویو پھر اسپیلنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: New then Blank Presentation\nدرست جواب: نیو پھر بلینک پریزنٹیشن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q022",
+      "sourceNumber": 22,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "Which command stores changes in the current presentation?\nموجودہ پریزنٹیشن میں تبدیلیاں محفوظ کرنے کی کمانڈ کون سی ہے؟",
+      "options": [
+        "Undo\nاَن ڈو",
+        "Close\nکلوز",
+        "Save\nسیو",
+        "Cut\nکٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Save\nدرست جواب: سیو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q023",
+      "sourceNumber": 23,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "When is Save As more suitable than Save?\nSave کے مقابلے میں Save As کب زیادہ مناسب ہے؟",
+      "options": [
+        "When changing font size\nجب فونٹ سائز بدلنا ہو",
+        "When choosing a new name or location\nجب نیا نام یا مقام منتخب کرنا ہو",
+        "When moving a slide\nجب سلائیڈ منتقل کرنی ہو",
+        "When starting a show\nجب سلائیڈ شو شروع کرنا ہو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: When choosing a new name or location\nدرست جواب: جب نیا نام یا مقام منتخب کرنا ہو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q024",
+      "sourceNumber": 24,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "A saved presentation needs to be edited tomorrow. What should be used?\nمحفوظ پریزنٹیشن میں کل ترمیم کرنی ہو تو کیا استعمال کریں؟",
+      "options": [
+        "Crop\nکراپ",
+        "New Slide\nنیو سلائیڈ",
+        "Animation\nاینیمیشن",
+        "Open\nاوپن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Open\nدرست جواب: اوپن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q025",
+      "sourceNumber": 25,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "What does Close normally do in PowerPoint?\nپاورپوائنٹ میں Close عام طور پر کیا کرتا ہے؟",
+      "options": [
+        "Closes the current presentation\nموجودہ پریزنٹیشن بند کرتا ہے",
+        "Adds a new slide\nنئی سلائیڈ شامل کرتا ہے",
+        "Starts Slide Show\nسلائیڈ شو شروع کرتا ہے",
+        "Deletes the selected slide\nمنتخب سلائیڈ حذف کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Closes the current presentation\nدرست جواب: موجودہ پریزنٹیشن بند کرتا ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q026",
+      "sourceNumber": 26,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "Which action is safest before closing an edited presentation?\nترمیم شدہ پریزنٹیشن بند کرنے سے پہلے محفوظ ترین عمل کیا ہے؟",
+      "options": [
+        "Delete the first slide\nپہلی سلائیڈ حذف کریں",
+        "Hide thumbnails\nتھمب نیلز چھپائیں",
+        "Save the changes\nتبدیلیاں محفوظ کریں",
+        "Change the view\nویو تبدیل کریں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Save the changes\nدرست جواب: تبدیلیاں محفوظ کریں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q027",
+      "sourceNumber": 27,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "What will opening an existing file allow the user to do?\nپہلے سے موجود فائل کھولنے سے صارف کیا کر سکے گا؟",
+      "options": [
+        "Continue working on its slides\nاس کی سلائیڈز پر کام جاری رکھ سکے گا",
+        "Erase the Ribbon\nربن مٹا سکے گا",
+        "Remove all shortcuts\nتمام شارٹ کٹس ہٹا سکے گا",
+        "Format Windows\nونڈوز فارمیٹ کر سکے گا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Continue working on its slides\nدرست جواب: اس کی سلائیڈز پر کام جاری رکھ سکے گا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q028",
+      "sourceNumber": 28,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "Which command shows how slides may look on printed pages?\nکون سی کمانڈ سلائیڈز کا پرنٹ ہونے والا منظر دکھاتی ہے؟",
+      "options": [
+        "Print Preview\nپرنٹ پری ویو",
+        "Slide Layout\nسلائیڈ لے آؤٹ",
+        "Format Painter\nفارمیٹ پینٹر",
+        "Animation Pane\nاینیمیشن پین"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Print Preview\nدرست جواب: پرنٹ پری ویو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q029",
+      "sourceNumber": 29,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "Why check Print Preview before printing?\nپرنٹ کرنے سے پہلے پرنٹ پری ویو کیوں دیکھنا چاہیے؟",
+      "options": [
+        "To add slide motion\nسلائیڈ کی حرکت شامل کرنے کے لیے",
+        "To rename the Ribbon\nربن کا نام بدلنے کے لیے",
+        "To merge worksheets\nورک شیٹس ملانے کے لیے",
+        "To inspect layout and page arrangement\nلے آؤٹ اور صفحات کی ترتیب جانچنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To inspect layout and page arrangement\nدرست جواب: لے آؤٹ اور صفحات کی ترتیب جانچنے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q030",
+      "sourceNumber": 30,
+      "sourceSection": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "topic": "Presentation File Management / پریزنٹیشن فائل کا انتظام",
+      "question": "Which menu area usually provides Open, Save and Print?\nOpen، Save اور Print عام طور پر کس حصے میں ملتے ہیں؟",
+      "options": [
+        "Design tab\nڈیزائن ٹیب",
+        "Transitions tab\nٹرانزیشنز ٹیب",
+        "File tab\nفائل ٹیب",
+        "Animations tab\nاینیمیشنز ٹیب"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: File tab\nدرست جواب: فائل ٹیب"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q031",
+      "sourceNumber": 31,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "A slide needs a heading and two content areas. What should be changed?\nسلائیڈ میں عنوان اور مواد کے دو حصے چاہییں۔ کیا تبدیل کریں؟",
+      "options": [
+        "File name\nفائل کا نام",
+        "Slide Layout\nسلائیڈ لے آؤٹ",
+        "Printer name\nپرنٹر کا نام",
+        "Slide Show speed\nسلائیڈ شو کی رفتار"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Slide Layout\nدرست جواب: سلائیڈ لے آؤٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q032",
+      "sourceNumber": 32,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "What does a slide layout mainly determine?\nسلائیڈ لے آؤٹ بنیادی طور پر کیا طے کرتا ہے؟",
+      "options": [
+        "File storage drive\nفائل اسٹوریج ڈرائیو",
+        "Computer memory size\nکمپیوٹر میموری کا حجم",
+        "Presentation password\nپریزنٹیشن کا پاس ورڈ",
+        "Arrangement of content placeholders\nمواد کے پلیس ہولڈرز کی ترتیب"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Arrangement of content placeholders\nدرست جواب: مواد کے پلیس ہولڈرز کی ترتیب"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q033",
+      "sourceNumber": 33,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "What is a placeholder designed for?\nپلیس ہولڈر کس مقصد کے لیے ہوتا ہے؟",
+      "options": [
+        "Changing the file extension\nفائل کی ایکسٹینشن بدلنے کے لیے",
+        "Holding content such as text or pictures\nمتن یا تصویر جیسے مواد کو رکھنے کے لیے",
+        "Printing without preview\nپری ویو کے بغیر پرنٹ کرنے کے لیے",
+        "Switching off PowerPoint\nپاورپوائنٹ بند کرنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Holding content such as text or pictures\nدرست جواب: متن یا تصویر جیسے مواد کو رکھنے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q034",
+      "sourceNumber": 34,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "Which choice is useful for a slide containing only a main heading?\nصرف مرکزی عنوان والی سلائیڈ کے لیے کون سا انتخاب مناسب ہے؟",
+      "options": [
+        "Two Content layout\nٹو کانٹینٹ لے آؤٹ",
+        "Blank layout\nبلینک لے آؤٹ",
+        "Title Only layout\nٹائٹل اونلی لے آؤٹ",
+        "Comparison layout\nکمپیریزن لے آؤٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Title Only layout\nدرست جواب: ٹائٹل اونلی لے آؤٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q035",
+      "sourceNumber": 35,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "Why change a slide's layout after adding it?\nسلائیڈ شامل کرنے کے بعد اس کا لے آؤٹ کیوں بدلتے ہیں؟",
+      "options": [
+        "To close the presentation\nپریزنٹیشن بند کرنے کے لیے",
+        "To open another program\nدوسرا پروگرام کھولنے کے لیے",
+        "To rename the computer\nکمپیوٹر کا نام بدلنے کے لیے",
+        "To fit the intended content structure\nمطلوبہ مواد کی ساخت کے مطابق بنانے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To fit the intended content structure\nدرست جواب: مطلوبہ مواد کی ساخت کے مطابق بنانے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q036",
+      "sourceNumber": 36,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "A title and subtitle are needed for an opening slide. Which layout fits?\nابتدائی سلائیڈ میں عنوان اور ذیلی عنوان درکار ہوں تو کون سا لے آؤٹ مناسب ہے؟",
+      "options": [
+        "Title Slide\nٹائٹل سلائیڈ",
+        "Blank\nبلینک",
+        "Picture with Caption\nپکچر ود کیپشن",
+        "Section Header only\nصرف سیکشن ہیڈر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Title Slide\nدرست جواب: ٹائٹل سلائیڈ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q037",
+      "sourceNumber": 37,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "What happens if a user selects a different layout?\nصارف مختلف لے آؤٹ منتخب کرے تو کیا ہوتا ہے؟",
+      "options": [
+        "All files are deleted\nتمام فائلیں حذف ہو جاتی ہیں",
+        "The presentation automatically closes\nپریزنٹیشن خود بند ہو جاتی ہے",
+        "The placeholder arrangement changes\nپلیس ہولڈرز کی ترتیب بدلتی ہے",
+        "The monitor turns off\nمانیٹر بند ہو جاتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: The placeholder arrangement changes\nدرست جواب: پلیس ہولڈرز کی ترتیب بدلتی ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q038",
+      "sourceNumber": 38,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "Which Ribbon path is associated with changing a layout?\nلے آؤٹ تبدیل کرنے کے لیے ربن میں کون سا راستہ استعمال ہوتا ہے؟",
+      "options": [
+        "File → Print\nفائل ← پرنٹ",
+        "Home → Layout\nہوم ← لے آؤٹ",
+        "View → Zoom\nویو ← زوم",
+        "Review → Spelling\nریویو ← اسپیلنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Home → Layout\nدرست جواب: ہوم ← لے آؤٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q039",
+      "sourceNumber": 39,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "Which layout is appropriate when no built-in placeholders are wanted?\nجب پہلے سے موجود پلیس ہولڈرز نہ چاہییں تو کون سا لے آؤٹ مناسب ہے؟",
+      "options": [
+        "Title and Content\nٹائٹل اینڈ کانٹینٹ",
+        "Title Slide\nٹائٹل سلائیڈ",
+        "Two Content\nٹو کانٹینٹ",
+        "Blank layout\nبلینک لے آؤٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Blank layout\nدرست جواب: بلینک لے آؤٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q040",
+      "sourceNumber": 40,
+      "sourceSection": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "topic": "Slide Layouts and Placeholders / سلائیڈ لے آؤٹس اور پلیس ہولڈرز",
+      "question": "Why choose the layout before typing a lot of text?\nزیادہ متن لکھنے سے پہلے لے آؤٹ منتخب کرنا کیوں مفید ہے؟",
+      "options": [
+        "It helps organize material from the start\nیہ شروع سے مواد منظم کرنے میں مدد دیتا ہے",
+        "It replaces the operating system\nیہ آپریٹنگ سسٹم بدل دیتا ہے",
+        "It prevents saving\nیہ محفوظ کرنے سے روکتا ہے",
+        "It disables images\nیہ تصاویر بند کر دیتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It helps organize material from the start\nدرست جواب: یہ شروع سے مواد منظم کرنے میں مدد دیتا ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q041",
+      "sourceNumber": 41,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "How can a user add another slide to the presentation?\nپریزنٹیشن میں ایک اور سلائیڈ کیسے شامل کی جا سکتی ہے؟",
+      "options": [
+        "Use New Slide\nنیو سلائیڈ استعمال کریں",
+        "Use Font Color\nفونٹ کلر استعمال کریں",
+        "Use Print Preview\nپرنٹ پری ویو استعمال کریں",
+        "Use Spelling\nاسپیلنگ استعمال کریں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Use New Slide\nدرست جواب: نیو سلائیڈ استعمال کریں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q042",
+      "sourceNumber": 42,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "Which action copies an existing slide including its content?\nکون سا عمل موجودہ سلائیڈ کو اس کے مواد سمیت نقل کرتا ہے؟",
+      "options": [
+        "Hide Slide\nہائیڈ سلائیڈ",
+        "Duplicate Slide\nڈپلیکیٹ سلائیڈ",
+        "Delete Slide\nڈیلیٹ سلائیڈ",
+        "Slide Zoom\nسلائیڈ زوم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Duplicate Slide\nدرست جواب: ڈپلیکیٹ سلائیڈ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q043",
+      "sourceNumber": 43,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "A slide is no longer needed. What is appropriate?\nکسی سلائیڈ کی اب ضرورت نہیں۔ مناسب عمل کیا ہے؟",
+      "options": [
+        "Choose Chart\nچارٹ منتخب کریں",
+        "Choose Save As\nسیو ایز منتخب کریں",
+        "Select it and Delete\nاسے منتخب کر کے ڈیلیٹ کریں",
+        "Choose Font Size\nفونٹ سائز منتخب کریں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Select it and Delete\nدرست جواب: اسے منتخب کر کے ڈیلیٹ کریں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q044",
+      "sourceNumber": 44,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "Which view is most suitable for rearranging many slides?\nبہت سی سلائیڈز کی ترتیب بدلنے کے لیے کون سا ویو مناسب ہے؟",
+      "options": [
+        "Format Painter\nفارمیٹ پینٹر",
+        "Reading a text box\nٹیکسٹ باکس پڑھنا",
+        "Slide Sorter View\nسلائیڈ سورٹر ویو",
+        "Print Preview\nپرنٹ پری ویو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Slide Sorter View\nدرست جواب: سلائیڈ سورٹر ویو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q045",
+      "sourceNumber": 45,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "How is a slide commonly moved to another position?\nسلائیڈ کو دوسری جگہ عام طور پر کیسے منتقل کیا جاتا ہے؟",
+      "options": [
+        "Insert a chart\nچارٹ شامل کریں",
+        "Drag its thumbnail to the new position\nاس کے تھمب نیل کو نئی جگہ گھسیٹیں",
+        "Change its font size\nاس کا فونٹ سائز بدلیں",
+        "Start spelling check\nاسپیلنگ چیک شروع کریں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Drag its thumbnail to the new position\nدرست جواب: اس کے تھمب نیل کو نئی جگہ گھسیٹیں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q046",
+      "sourceNumber": 46,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "What happens when a selected slide is duplicated?\nمنتخب سلائیڈ ڈپلیکیٹ کرنے پر کیا ہوتا ہے؟",
+      "options": [
+        "The entire file closes\nپوری فائل بند ہوتی ہے",
+        "All slides become blank\nتمام سلائیڈز خالی ہو جاتی ہیں",
+        "Its text is deleted\nاس کا متن حذف ہوتا ہے",
+        "A copy is added\nاس کی ایک نقل شامل ہوتی ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A copy is added\nدرست جواب: اس کی ایک نقل شامل ہوتی ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q047",
+      "sourceNumber": 47,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "Which area allows quick selection of a slide while editing?\nترمیم کے دوران سلائیڈ تیزی سے منتخب کرنے کے لیے کون سا حصہ استعمال ہوتا ہے؟",
+      "options": [
+        "Thumbnail Pane\nتھمب نیل پین",
+        "Quick Access Toolbar\nکوئک ایکسس ٹول بار",
+        "Title Bar\nٹائٹل بار",
+        "Status Bar\nاسٹیٹس بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Thumbnail Pane\nدرست جواب: تھمب نیل پین"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q048",
+      "sourceNumber": 48,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "A user wants to remove several slides together. What should happen first?\nصارف کئی سلائیڈز اکٹھی حذف کرنا چاہتا ہے۔ پہلے کیا کرے؟",
+      "options": [
+        "Choose a font\nفونٹ منتخب کرے",
+        "Insert a table\nٹیبل شامل کرے",
+        "Change slide background\nسلائیڈ کا پس منظر بدلے",
+        "Select the intended slides\nمطلوبہ سلائیڈز منتخب کرے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Select the intended slides\nدرست جواب: مطلوبہ سلائیڈز منتخب کرے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q049",
+      "sourceNumber": 49,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "Why is Slide Sorter useful before delivering a talk?\nتقریر سے پہلے سلائیڈ سورٹر کیوں مفید ہے؟",
+      "options": [
+        "It removes file names\nیہ فائلوں کے نام ہٹاتا ہے",
+        "It automatically writes the speech\nیہ تقریر خود لکھتا ہے",
+        "It helps check the sequence of slides\nیہ سلائیڈز کی ترتیب جانچنے میں مدد دیتا ہے",
+        "It edits every picture automatically\nیہ ہر تصویر خود ایڈٹ کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: It helps check the sequence of slides\nدرست جواب: یہ سلائیڈز کی ترتیب جانچنے میں مدد دیتا ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q050",
+      "sourceNumber": 50,
+      "sourceSection": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "topic": "Slide Management and Views / سلائیڈ مینجمنٹ اور ویوز",
+      "question": "What is the difference between Slide Pane and Thumbnail Pane?\nسلائیڈ پین اور تھمب نیل پین میں کیا فرق ہے؟",
+      "options": [
+        "One edits the current slide; the other previews slides\nایک میں موجودہ سلائیڈ ایڈٹ ہوتی ہے؛ دوسرے میں سلائیڈز کی جھلکیاں ملتی ہیں",
+        "Both only print files\nدونوں صرف فائلیں پرنٹ کرتے ہیں",
+        "Neither shows slides\nدونوں میں سلائیڈز نہیں دکھتیں",
+        "Both only play sounds\nدونوں صرف آواز چلاتے ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: One edits the current slide; the other previews slides\nدرست جواب: ایک میں موجودہ سلائیڈ ایڈٹ ہوتی ہے؛ دوسرے میں سلائیڈز کی جھلکیاں ملتی ہیں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q051",
+      "sourceNumber": 51,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "Where should a user type text in an existing text placeholder?\nموجودہ ٹیکسٹ پلیس ہولڈر میں متن کہاں لکھنا چاہیے؟",
+      "options": [
+        "In Print Preview\nپرنٹ پری ویو میں",
+        "On the Title Bar\nٹائٹل بار پر",
+        "In the Status Bar\nاسٹیٹس بار میں",
+        "Inside the placeholder\nپلیس ہولڈر کے اندر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Inside the placeholder\nدرست جواب: پلیس ہولڈر کے اندر"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q052",
+      "sourceNumber": 52,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "What should be inserted to add text anywhere on a slide?\nسلائیڈ پر کسی بھی جگہ متن لکھنے کے لیے کیا شامل کریں؟",
+      "options": [
+        "Slide Sorter\nسلائیڈ سورٹر",
+        "Text Box\nٹیکسٹ باکس",
+        "Print Preview\nپرنٹ پری ویو",
+        "Chart Legend\nچارٹ لیجنڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Text Box\nدرست جواب: ٹیکسٹ باکس"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q053",
+      "sourceNumber": 53,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "Which feature is appropriate for an unordered list of points?\nنکات کی غیر عددی فہرست کے لیے کون سی سہولت مناسب ہے؟",
+      "options": [
+        "Bullets\nبلٹس",
+        "Numbering\nنمبرنگ",
+        "Zoom\nزوم",
+        "Slide Transition\nسلائیڈ ٹرانزیشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Bullets\nدرست جواب: بلٹس"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q054",
+      "sourceNumber": 54,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "Which feature fits a list of steps that must be followed in order?\nترتیب سے کیے جانے والے مراحل کی فہرست کے لیے کیا مناسب ہے؟",
+      "options": [
+        "Animation Preview\nاینیمیشن پری ویو",
+        "Bullets only\nصرف بلٹس",
+        "Print Preview\nپرنٹ پری ویو",
+        "Numbering\nنمبرنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Numbering\nدرست جواب: نمبرنگ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q055",
+      "sourceNumber": 55,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "How can a heading be made visually larger?\nعنوان کو ظاہری طور پر بڑا کیسے کیا جا سکتا ہے؟",
+      "options": [
+        "Choose Slide Sorter\nسلائیڈ سورٹر منتخب کریں",
+        "Open Print Preview\nپرنٹ پری ویو کھولیں",
+        "Increase Font Size\nفونٹ سائز بڑھائیں",
+        "Delete the slide\nسلائیڈ حذف کریں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Increase Font Size\nدرست جواب: فونٹ سائز بڑھائیں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q056",
+      "sourceNumber": 56,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "Which command applies a chosen color to selected text?\nمنتخب متن پر مخصوص رنگ لگانے کی کمانڈ کون سی ہے؟",
+      "options": [
+        "New Slide\nنیو سلائیڈ",
+        "Font Color\nفونٹ کلر",
+        "Slide Show\nسلائیڈ شو",
+        "Close\nکلوز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Font Color\nدرست جواب: فونٹ کلر"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q057",
+      "sourceNumber": 57,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "A list is difficult to read because every item runs together. What helps?\nفہرست کے نکات آپس میں مل رہے ہیں اور پڑھنا مشکل ہے۔ کیا مدد کرے گا؟",
+      "options": [
+        "Turn off the monitor\nمانیٹر بند کریں",
+        "Use bullets or numbering\nبلٹس یا نمبرنگ استعمال کریں",
+        "Change the file type\nفائل کی قسم بدلیں",
+        "Delete the Ribbon\nربن حذف کریں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Use bullets or numbering\nدرست جواب: بلٹس یا نمبرنگ استعمال کریں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q058",
+      "sourceNumber": 58,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "What is the purpose of Format Painter?\nفارمیٹ پینٹر کا مقصد کیا ہے؟",
+      "options": [
+        "Insert a new chart\nنیا چارٹ شامل کرنا",
+        "Print every presentation\nہر پریزنٹیشن پرنٹ کرنا",
+        "Copy a whole slide show\nپورا سلائیڈ شو نقل کرنا",
+        "Copy formatting from one item to another\nایک چیز کی فارمیٹنگ دوسری پر لگانا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Copy formatting from one item to another\nدرست جواب: ایک چیز کی فارمیٹنگ دوسری پر لگانا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q059",
+      "sourceNumber": 59,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "Which operation changes the appearance of words without altering their meaning?\nکون سا عمل الفاظ کے معنی بدلے بغیر ان کی ظاہری شکل بدلتا ہے؟",
+      "options": [
+        "Changing font style\nفونٹ اسٹائل بدلنا",
+        "Moving all slides\nتمام سلائیڈز منتقل کرنا",
+        "Deleting the slide\nسلائیڈ حذف کرنا",
+        "Closing the file\nفائل بند کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Changing font style\nدرست جواب: فونٹ اسٹائل بدلنا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q060",
+      "sourceNumber": 60,
+      "sourceSection": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "topic": "Text, Bullets and Formatting / متن، بلٹس اور فارمیٹنگ",
+      "question": "What is the purpose of Spell Check?\nاسپیل چیک کا مقصد کیا ہے؟",
+      "options": [
+        "Change slide order\nسلائیڈز کی ترتیب بدلنا",
+        "Create charts\nچارٹس بنانا",
+        "Find possible spelling mistakes\nممکنہ املا کی غلطیاں تلاش کرنا",
+        "Duplicate slides\nسلائیڈز کی نقل بنانا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Find possible spelling mistakes\nدرست جواب: ممکنہ املا کی غلطیاں تلاش کرنا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q061",
+      "sourceNumber": 61,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Which command is appropriate for drawing an arrow on a slide?\nسلائیڈ پر تیر بنانے کے لیے کون سی کمانڈ مناسب ہے؟",
+      "options": [
+        "Review → Spelling\nریویو ← اسپیلنگ",
+        "View → Slide Sorter\nویو ← سلائیڈ سورٹر",
+        "Insert → Shapes\nانسرٹ ← شیپس",
+        "File → Print\nفائل ← پرنٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Insert → Shapes\nدرست جواب: انسرٹ ← شیپس"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q062",
+      "sourceNumber": 62,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "A rectangle needs a blue interior. Which setting is used?\nمستطیل کے اندر نیلا رنگ چاہیے۔ کون سی سیٹنگ استعمال ہو گی؟",
+      "options": [
+        "Slide Show\nسلائیڈ شو",
+        "Shape Fill\nشیپ فل",
+        "Shape Outline\nشیپ آؤٹ لائن",
+        "Print Preview\nپرنٹ پری ویو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Shape Fill\nدرست جواب: شیپ فل"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q063",
+      "sourceNumber": 63,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Which setting changes the border of a selected shape?\nمنتخب شیپ کی سرحد بدلنے کے لیے کون سی سیٹنگ استعمال ہوتی ہے؟",
+      "options": [
+        "Save As\nسیو ایز",
+        "Slide Layout\nسلائیڈ لے آؤٹ",
+        "Slide Sorter\nسلائیڈ سورٹر",
+        "Shape Outline\nشیپ آؤٹ لائن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Shape Outline\nدرست جواب: شیپ آؤٹ لائن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q064",
+      "sourceNumber": 64,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "A picture looks too large on a slide. What is the suitable action?\nسلائیڈ پر تصویر بہت بڑی لگ رہی ہے۔ مناسب عمل کیا ہے؟",
+      "options": [
+        "Delete all slides\nتمام سلائیڈز حذف کریں",
+        "Close PowerPoint\nپاورپوائنٹ بند کریں",
+        "Resize the picture\nتصویر کا سائز بدلیں",
+        "Change file name\nفائل کا نام بدلیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Resize the picture\nدرست جواب: تصویر کا سائز بدلیں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q065",
+      "sourceNumber": 65,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Which feature fills a shape with a pattern or texture?\nشیپ میں پیٹرن یا ٹیکسچر بھرنے کی سہولت کون سی ہے؟",
+      "options": [
+        "Shape Fill options\nشیپ فل کے اختیارات",
+        "Slide Sorter\nسلائیڈ سورٹر",
+        "Undo history\nاَن ڈو ہسٹری",
+        "Notes Pane\nنوٹس پین"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Shape Fill options\nدرست جواب: شیپ فل کے اختیارات"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q066",
+      "sourceNumber": 66,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Why apply a shape effect?\nشیپ ایفیکٹ کیوں لگایا جاتا ہے؟",
+      "options": [
+        "To save a presentation\nپریزنٹیشن محفوظ کرنے کے لیے",
+        "To number slides automatically\nسلائیڈز کو خود نمبر دینے کے لیے",
+        "To close the Ribbon\nربن بند کرنے کے لیے",
+        "To change a shape's visual appearance\nشیپ کی ظاہری شکل بدلنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To change a shape's visual appearance\nدرست جواب: شیپ کی ظاہری شکل بدلنے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q067",
+      "sourceNumber": 67,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "When copying a shape's formatting to another shape, what helps?\nایک شیپ کی فارمیٹنگ دوسری پر نقل کرنے کے لیے کیا مفید ہے؟",
+      "options": [
+        "Print\nپرنٹ",
+        "New Presentation\nنیو پریزنٹیشن",
+        "Format Painter\nفارمیٹ پینٹر",
+        "Slide Show\nسلائیڈ شو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Format Painter\nدرست جواب: فارمیٹ پینٹر"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q068",
+      "sourceNumber": 68,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Which change affects the line around a shape rather than its interior?\nکون سی تبدیلی شیپ کے اندر کے بجائے اس کے گرد لائن کو متاثر کرتی ہے؟",
+      "options": [
+        "Outline color\nآؤٹ لائن کا رنگ",
+        "Background texture\nپس منظر کا ٹیکسچر",
+        "Slide title\nسلائیڈ کا عنوان",
+        "Fill color\nفل کا رنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Outline color\nدرست جواب: آؤٹ لائن کا رنگ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q069",
+      "sourceNumber": 69,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Why resize or move a shape after inserting it?\nشیپ شامل کرنے کے بعد اسے منتقل یا ری سائز کیوں کیا جاتا ہے؟",
+      "options": [
+        "To fit the slide layout\nسلائیڈ لے آؤٹ کے مطابق کرنے کے لیے",
+        "To delete the file\nفائل حذف کرنے کے لیے",
+        "To change the computer clock\nکمپیوٹر کی گھڑی بدلنے کے لیے",
+        "To disable Save\nسیو بند کرنے کے لیے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: To fit the slide layout\nدرست جواب: سلائیڈ لے آؤٹ کے مطابق کرنے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q070",
+      "sourceNumber": 70,
+      "sourceSection": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "topic": "Shapes and Picture Formatting / شیپس اور تصاویر کی فارمیٹنگ",
+      "question": "Which Ribbon tab is used to insert pictures and shapes?\nتصاویر اور شیپس شامل کرنے کے لیے کون سا ربن ٹیب استعمال ہوتا ہے؟",
+      "options": [
+        "Review\nریویو",
+        "Insert\nانسرٹ",
+        "Slide Show\nسلائیڈ شو",
+        "File only\nصرف فائل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Insert\nدرست جواب: انسرٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q071",
+      "sourceNumber": 71,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "A teacher needs to show data in rows and columns. What should be inserted?\nاستاد کو ڈیٹا قطاروں اور کالموں میں دکھانا ہے۔ کیا شامل کرے؟",
+      "options": [
+        "Table\nٹیبل",
+        "Transition\nٹرانزیشن",
+        "Title Bar\nٹائٹل بار",
+        "Slide Show\nسلائیڈ شو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Table\nدرست جواب: ٹیبل"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q072",
+      "sourceNumber": 72,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "Which action is needed when inserting a table?\nٹیبل شامل کرتے وقت کیا طے کرنا ضروری ہے؟",
+      "options": [
+        "Mouse speed\nماؤس کی رفتار",
+        "Slide Show duration only\nصرف سلائیڈ شو کا دورانیہ",
+        "Presentation password\nپریزنٹیشن کا پاس ورڈ",
+        "Number of rows and columns\nقطاروں اور کالموں کی تعداد"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Number of rows and columns\nدرست جواب: قطاروں اور کالموں کی تعداد"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q073",
+      "sourceNumber": 73,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "A comparison of numerical values should be shown visually. What helps?\nعددی قدروں کا موازنہ بصری طور پر دکھانا ہو تو کیا مفید ہے؟",
+      "options": [
+        "Text Box only\nصرف ٹیکسٹ باکس",
+        "Chart\nچارٹ",
+        "Status Bar\nاسٹیٹس بار",
+        "Slide Transition\nسلائیڈ ٹرانزیشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Chart\nدرست جواب: چارٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q074",
+      "sourceNumber": 74,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "Which chart is a suitable choice for comparing categories?\nمختلف زمروں کا موازنہ کرنے کے لیے کون سا چارٹ موزوں ہے؟",
+      "options": [
+        "Title Slide\nٹائٹل سلائیڈ",
+        "Column Chart\nکالم چارٹ",
+        "Slide Sorter\nسلائیڈ سورٹر",
+        "Notes Pane\nنوٹس پین"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Column Chart\nدرست جواب: کالم چارٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q075",
+      "sourceNumber": 75,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "What is the purpose of the worksheet that appears while editing chart data?\nچارٹ ڈیٹا میں ترمیم کے دوران ظاہر ہونے والی ورک شیٹ کا مقصد کیا ہے؟",
+      "options": [
+        "Renaming the Ribbon\nربن کا نام بدلنا",
+        "Deleting PowerPoint\nپاورپوائنٹ حذف کرنا",
+        "Starting a slideshow\nسلائیڈ شو شروع کرنا",
+        "Entering chart values\nچارٹ کی قدریں درج کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Entering chart values\nدرست جواب: چارٹ کی قدریں درج کرنا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q076",
+      "sourceNumber": 76,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "A table has too few rows. What is a reasonable next step?\nٹیبل میں قطاریں کم ہیں۔ مناسب اگلا قدم کیا ہے؟",
+      "options": [
+        "Change font color only\nصرف فونٹ کلر بدلیں",
+        "Add the required rows\nمطلوبہ قطاریں شامل کریں",
+        "Delete the file\nفائل حذف کریں",
+        "Remove the chart tab\nچارٹ ٹیب ہٹائیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Add the required rows\nدرست جواب: مطلوبہ قطاریں شامل کریں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q077",
+      "sourceNumber": 77,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "Which objects can be resized or moved on a slide?\nسلائیڈ پر کن اشیا کا سائز یا مقام بدلا جا سکتا ہے؟",
+      "options": [
+        "Charts and tables\nچارٹس اور ٹیبلز",
+        "File extension only\nصرف فائل ایکسٹینشن",
+        "Title Bar and Ribbon\nٹائٹل بار اور ربن",
+        "Windows taskbar only\nصرف ونڈوز ٹاسک بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Charts and tables\nدرست جواب: چارٹس اور ٹیبلز"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q078",
+      "sourceNumber": 78,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "When should a chart be preferred over a text paragraph?\nمتنی پیراگراف کے مقابلے میں چارٹ کب بہتر ہے؟",
+      "options": [
+        "When closing a file\nجب فائل بند کی جائے",
+        "When changing a password\nجب پاس ورڈ بدلا جائے",
+        "When a data comparison needs visual clarity\nجب ڈیٹا کا موازنہ بصری وضاحت سے دکھانا ہو",
+        "When no numerical data exists\nجب کوئی عددی ڈیٹا موجود نہ ہو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: When a data comparison needs visual clarity\nدرست جواب: جب ڈیٹا کا موازنہ بصری وضاحت سے دکھانا ہو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q079",
+      "sourceNumber": 79,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "What is the most direct route to adding a chart?\nچارٹ شامل کرنے کا سب سے سیدھا راستہ کون سا ہے؟",
+      "options": [
+        "File → Close\nفائل ← کلوز",
+        "Review → Spelling\nریویو ← اسپیلنگ",
+        "Insert → Chart\nانسرٹ ← چارٹ",
+        "View → Zoom\nویو ← زوم"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Insert → Chart\nدرست جواب: انسرٹ ← چارٹ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q080",
+      "sourceNumber": 80,
+      "sourceSection": "Tables and Charts / ٹیبلز اور چارٹس",
+      "topic": "Tables and Charts / ٹیبلز اور چارٹس",
+      "question": "Why format a table after inserting it?\nٹیبل شامل کرنے کے بعد فارمیٹنگ کیوں کی جاتی ہے؟",
+      "options": [
+        "To delete all values\nتمام قدریں حذف کرنے کے لیے",
+        "To disable editing\nترمیم بند کرنے کے لیے",
+        "To start transitions\nٹرانزیشنز شروع کرنے کے لیے",
+        "To make data easier to read\nڈیٹا کو آسانی سے پڑھنے کے قابل بنانے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To make data easier to read\nدرست جواب: ڈیٹا کو آسانی سے پڑھنے کے قابل بنانے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q081",
+      "sourceNumber": 81,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "What does a slide transition control?\nسلائیڈ ٹرانزیشن کس چیز کو کنٹرول کرتی ہے؟",
+      "options": [
+        "How text is spelled\nمتن کی املا",
+        "How rows are numbered\nقطاروں کی نمبرنگ",
+        "How one slide changes to the next\nایک سلائیڈ سے اگلی سلائیڈ کی تبدیلی کا انداز",
+        "How a file is saved\nفائل محفوظ کرنے کا طریقہ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: How one slide changes to the next\nدرست جواب: ایک سلائیڈ سے اگلی سلائیڈ کی تبدیلی کا انداز"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q082",
+      "sourceNumber": 82,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "What does an animation normally affect?\nاینیمیشن عام طور پر کس پر اثر کرتی ہے؟",
+      "options": [
+        "The computer's operating system\nکمپیوٹر کے آپریٹنگ سسٹم پر",
+        "The printer settings\nپرنٹر کی ترتیبات پر",
+        "The file location\nفائل کے مقام پر",
+        "An object on a slide\nسلائیڈ کے کسی آبجیکٹ پر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: An object on a slide\nدرست جواب: سلائیڈ کے کسی آبجیکٹ پر"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q083",
+      "sourceNumber": 83,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "A heading should appear after the slide opens. Which feature is needed?\nسلائیڈ کھلنے کے بعد عنوان ظاہر ہونا چاہیے۔ کون سی سہولت درکار ہے؟",
+      "options": [
+        "Animation\nاینیمیشن",
+        "Print Preview\nپرنٹ پری ویو",
+        "Save As\nسیو ایز",
+        "Slide Sorter\nسلائیڈ سورٹر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Animation\nدرست جواب: اینیمیشن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q084",
+      "sourceNumber": 84,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "Which feature changes the effect between two slides?\nدو سلائیڈز کے درمیان اثر کون سی سہولت بدلتی ہے؟",
+      "options": [
+        "Bullets\nبلٹس",
+        "Chart Data\nچارٹ ڈیٹا",
+        "Transition\nٹرانزیشن",
+        "Shape Fill\nشیپ فل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Transition\nدرست جواب: ٹرانزیشن"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q085",
+      "sourceNumber": 85,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "A user wants to test a selected transition before presenting. What should they use?\nصارف پریزنٹیشن سے پہلے منتخب ٹرانزیشن جانچنا چاہتا ہے۔ کیا استعمال کرے؟",
+      "options": [
+        "Delete Slide\nڈیلیٹ سلائیڈ",
+        "Print\nپرنٹ",
+        "Save As\nسیو ایز",
+        "Preview\nپری ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Preview\nدرست جواب: پری ویو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q086",
+      "sourceNumber": 86,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "What is controlled by animation timing?\nاینیمیشن ٹائمنگ سے کیا کنٹرول ہوتا ہے؟",
+      "options": [
+        "When and how long the effect plays\nایفیکٹ کب اور کتنی دیر چلے گا",
+        "Number of installed fonts\nانسٹال شدہ فونٹس کی تعداد",
+        "Monitor brightness\nمانیٹر کی روشنی",
+        "File size in megabytes\nفائل کا میگا بائٹس میں حجم"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: When and how long the effect plays\nدرست جواب: ایفیکٹ کب اور کتنی دیر چلے گا"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q087",
+      "sourceNumber": 87,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "Why use Animation Pane?\nاینیمیشن پین کیوں استعمال کیا جاتا ہے؟",
+      "options": [
+        "To add table rows\nٹیبل میں قطاریں شامل کرنے کے لیے",
+        "To review and manage object animations\nآبجیکٹس کی اینیمیشنز دیکھنے اور منظم کرنے کے لیے",
+        "To print slides\nسلائیڈز پرنٹ کرنے کے لیے",
+        "To change file names\nفائلوں کے نام بدلنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To review and manage object animations\nدرست جواب: آبجیکٹس کی اینیمیشنز دیکھنے اور منظم کرنے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q088",
+      "sourceNumber": 88,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "Which option allows the same transition to be used on every slide?\nایک ہی ٹرانزیشن تمام سلائیڈز پر لگانے کے لیے کون سا اختیار ہے؟",
+      "options": [
+        "Apply to All\nاپلائی ٹو آل",
+        "Insert Table\nانسرٹ ٹیبل",
+        "Save As\nسیو ایز",
+        "New Slide\nنیو سلائیڈ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Apply to All\nدرست جواب: اپلائی ٹو آل"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q089",
+      "sourceNumber": 89,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "What is the useful difference between transitions and animations?\nٹرانزیشنز اور اینیمیشنز میں اہم فرق کیا ہے؟",
+      "options": [
+        "Both only check spelling\nدونوں صرف املا چیک کرتے ہیں",
+        "Transitions affect slides; animations affect objects\nٹرانزیشن سلائیڈز پر اور اینیمیشن آبجیکٹس پر اثر کرتی ہے",
+        "Neither affects appearance\nدونوں ظاہری شکل پر اثر نہیں کرتے",
+        "Both only print files\nدونوں صرف فائلیں پرنٹ کرتے ہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Transitions affect slides; animations affect objects\nدرست جواب: ٹرانزیشن سلائیڈز پر اور اینیمیشن آبجیکٹس پر اثر کرتی ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q090",
+      "sourceNumber": 90,
+      "sourceSection": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "topic": "Transitions and Animations / ٹرانزیشنز اور اینیمیشنز",
+      "question": "Which action makes an animation follow a different path?\nاینیمیشن کو مختلف راستے پر چلانے کے لیے کون سا عمل ہے؟",
+      "options": [
+        "Open a new workbook\nنئی ورک بک کھولیں",
+        "Delete the title bar\nٹائٹل بار حذف کریں",
+        "Choose or edit a Motion Path\nموشن پاتھ منتخب یا تبدیل کریں",
+        "Change print copies\nپرنٹ کاپیوں کی تعداد بدلیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Choose or edit a Motion Path\nدرست جواب: موشن پاتھ منتخب یا تبدیل کریں"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q091",
+      "sourceNumber": 91,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which key starts the slide show from the beginning?\nسلائیڈ شو شروع سے چلانے کے لیے کون سی کلید ہے؟",
+      "options": [
+        "F5\nایف فائیو",
+        "Ctrl+P\nکنٹرول پلس پی",
+        "Esc\nایسکیپ",
+        "Ctrl+S\nکنٹرول پلس ایس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: F5\nدرست جواب: ایف فائیو"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q092",
+      "sourceNumber": 92,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which key is commonly used to exit Slide Show?\nسلائیڈ شو سے نکلنے کے لیے عام طور پر کون سی کلید استعمال ہوتی ہے؟",
+      "options": [
+        "Ctrl+M\nکنٹرول پلس ایم",
+        "F5\nایف فائیو",
+        "Esc\nایسکیپ",
+        "Ctrl+N\nکنٹرول پلس این"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Esc\nدرست جواب: ایسکیپ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q093",
+      "sourceNumber": 93,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "How does Presenter View assist a speaker?\nپریزینٹر ویو مقرر کی کیسے مدد کرتا ہے؟",
+      "options": [
+        "Disables every animation\nہر اینیمیشن بند کرتا ہے",
+        "Deletes the presentation\nپریزنٹیشن حذف کرتا ہے",
+        "Converts slides into tables\nسلائیڈز کو ٹیبلز میں بدلتا ہے",
+        "Shows speaker tools such as notes and next-slide preview\nنوٹس اور اگلی سلائیڈ کی جھلک جیسے اوزار دکھاتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Shows speaker tools such as notes and next-slide preview\nدرست جواب: نوٹس اور اگلی سلائیڈ کی جھلک جیسے اوزار دکھاتا ہے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q094",
+      "sourceNumber": 94,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "What is the purpose of Zoom during a presentation?\nپریزنٹیشن کے دوران زوم کا مقصد کیا ہے؟",
+      "options": [
+        "To save the file automatically\nفائل خود محفوظ کرنے کے لیے",
+        "To focus on or magnify slide content\nسلائیڈ کے مواد پر توجہ دینے یا بڑا دکھانے کے لیے",
+        "To remove the Ribbon permanently\nربن مستقل ہٹانے کے لیے",
+        "To change the computer keyboard\nکمپیوٹر کا کی بورڈ بدلنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To focus on or magnify slide content\nدرست جواب: سلائیڈ کے مواد پر توجہ دینے یا بڑا دکھانے کے لیے"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q095",
+      "sourceNumber": 95,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which shortcut creates a new slide in PowerPoint?\nپاورپوائنٹ میں نئی سلائیڈ بنانے کا شارٹ کٹ کون سا ہے؟",
+      "options": [
+        "Ctrl+P\nکنٹرول پلس پی",
+        "Ctrl+S\nکنٹرول پلس ایس",
+        "Ctrl+Z\nکنٹرول پلس زیڈ",
+        "Ctrl+M\nکنٹرول پلس ایم"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Ctrl+M\nدرست جواب: کنٹرول پلس ایم"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q096",
+      "sourceNumber": 96,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which shortcut saves the current presentation?\nموجودہ پریزنٹیشن محفوظ کرنے کا شارٹ کٹ کون سا ہے؟",
+      "options": [
+        "Ctrl+S\nکنٹرول پلس ایس",
+        "Ctrl+D\nکنٹرول پلس ڈی",
+        "Ctrl+N\nکنٹرول پلس این",
+        "Ctrl+V\nکنٹرول پلس وی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ctrl+S\nدرست جواب: کنٹرول پلس ایس"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q097",
+      "sourceNumber": 97,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which shortcut reverses the last editing action?\nآخری ترمیم واپس لینے کا شارٹ کٹ کون سا ہے؟",
+      "options": [
+        "Ctrl+O\nکنٹرول پلس او",
+        "Ctrl+Z\nکنٹرول پلس زیڈ",
+        "Ctrl+Y\nکنٹرول پلس وائی",
+        "Ctrl+P\nکنٹرول پلس پی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ctrl+Z\nدرست جواب: کنٹرول پلس زیڈ"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q098",
+      "sourceNumber": 98,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which shortcut duplicates a selected slide?\nمنتخب سلائیڈ کی نقل بنانے کا شارٹ کٹ کون سا ہے؟",
+      "options": [
+        "Ctrl+S\nکنٹرول پلس ایس",
+        "Ctrl+F\nکنٹرول پلس ایف",
+        "Ctrl+O\nکنٹرول پلس او",
+        "Ctrl+D\nکنٹرول پلس ڈی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Ctrl+D\nدرست جواب: کنٹرول پلس ڈی"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q099",
+      "sourceNumber": 99,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "Which shortcut opens a saved presentation?\nمحفوظ پریزنٹیشن کھولنے کا شارٹ کٹ کون سا ہے؟",
+      "options": [
+        "Ctrl+B\nکنٹرول پلس بی",
+        "Ctrl+M\nکنٹرول پلس ایم",
+        "Ctrl+O\nکنٹرول پلس او",
+        "Ctrl+L\nکنٹرول پلس ایل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ctrl+O\nدرست جواب: کنٹرول پلس او"
+    },
+    {
+      "id": "dit-powerpoint-ch3-q100",
+      "sourceNumber": 100,
+      "sourceSection": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "topic": "Slide Show, Zoom and Shortcuts / سلائیڈ شو، زوم اور شارٹ کٹس",
+      "question": "What is useful about rehearsing the Slide Show before class?\nکلاس سے پہلے سلائیڈ شو کی مشق کیوں مفید ہے؟",
+      "options": [
+        "It automatically creates charts\nیہ خود چارٹس بناتی ہے",
+        "It helps check flow and timing\nیہ ترتیب اور وقت جانچنے میں مدد دیتی ہے",
+        "It removes every slide\nیہ ہر سلائیڈ حذف کرتی ہے",
+        "It changes the operating system\nیہ آپریٹنگ سسٹم بدل دیتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It helps check flow and timing\nدرست جواب: یہ ترتیب اور وقت جانچنے میں مدد دیتی ہے"
+    }
+  ]
+}
