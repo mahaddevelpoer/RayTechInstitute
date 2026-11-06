@@ -432,7 +432,7 @@
         "विराट कोहली का बर्थडे कब है",
         "ವಿರಾಟ್ ಕೊಹ್ಲಿ"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
@@ -442,7 +442,7 @@
       "queries": [
         "lewis hamilton"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "lewis-hamilton-seven-titles-teams-career-guide"
     },
     {
@@ -452,7 +452,7 @@
       "queries": [
         "పి.వి. సింధు"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "pv-sindhu-olympic-medals-world-title-guide"
     },
     {
@@ -462,7 +462,7 @@
       "queries": [
         "chamari athapaththu"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "chamari-athapaththu-career-innings-sri-lanka-guide"
     },
     {
@@ -472,7 +472,7 @@
       "queries": [
         "alexander zverev"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "alexander-zverev-2026-major-titles-career-guide"
     }
   ],
@@ -745,8 +745,9 @@
       "row": 45,
       "topic": "virat kohli photo",
       "breakdown": "virat kohli photo,virat kohli photos,virat birthday,virat kohli ka birthday kab aata hai,king kohli,virat kohli ka photo,happy birthday virat kohli,happy birthday,virat kohli ka birthday,virat kohli stats",
-      "state": "research-pending",
-      "group": "virat-kohli-birthday"
+      "state": "published-live-verified",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 46,
@@ -776,8 +777,9 @@
       "row": 50,
       "topic": "virat kohli age",
       "breakdown": "virat kohli age",
-      "state": "research-pending",
-      "group": "virat-kohli-birthday"
+      "state": "published-live-verified",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 51,
@@ -1352,8 +1354,9 @@
       "row": 143,
       "topic": "விராட் கோலி",
       "breakdown": "விராட் கோலி",
-      "state": "research-pending",
-      "group": "virat-kohli-birthday"
+      "state": "published-live-verified",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 144,
@@ -1444,8 +1447,9 @@
       "row": 157,
       "topic": "વિરાટ કોહલી",
       "breakdown": "વિરાટ કોહલી",
-      "state": "research-pending",
-      "group": "virat-kohli-birthday"
+      "state": "published-live-verified",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 158,
@@ -1984,8 +1988,9 @@
       "row": 245,
       "topic": "పి.వి. సింధు",
       "breakdown": "పి.వి. సింధు",
-      "state": "research-pending",
-      "group": "pv-sindhu"
+      "state": "published-live-verified",
+      "group": "pv-sindhu",
+      "target": "pv-sindhu-olympic-medals-world-title-guide"
     },
     {
       "row": 246,
@@ -2053,8 +2058,9 @@
       "row": 256,
       "topic": "alexander zverev",
       "breakdown": "alexander zverev,lorenzo musetti,djokovic,zverev",
-      "state": "research-pending",
-      "group": "alexander-zverev"
+      "state": "published-live-verified",
+      "group": "alexander-zverev",
+      "target": "alexander-zverev-2026-major-titles-career-guide"
     },
     {
       "row": 257,
@@ -2078,8 +2084,9 @@
       "row": 260,
       "topic": "lewis hamilton",
       "breakdown": "lewis hamilton",
-      "state": "research-pending",
-      "group": "lewis-hamilton"
+      "state": "published-live-verified",
+      "group": "lewis-hamilton",
+      "target": "lewis-hamilton-seven-titles-teams-career-guide"
     },
     {
       "row": 261,
@@ -2393,8 +2400,9 @@
       "row": 310,
       "topic": "विराट कोहली का बर्थडे कब है",
       "breakdown": "विराट कोहली का बर्थडे कब है",
-      "state": "research-pending",
-      "group": "virat-kohli-birthday"
+      "state": "published-live-verified",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 311,
@@ -3064,8 +3072,9 @@
       "row": 418,
       "topic": "ವಿರಾಟ್ ಕೊಹ್ಲಿ",
       "breakdown": "ವಿರಾಟ್ ಕೊಹ್ಲಿ",
-      "state": "research-pending",
-      "group": "virat-kohli-birthday"
+      "state": "published-live-verified",
+      "group": "virat-kohli-birthday",
+      "target": "virat-kohli-birthday-age-2026-career-guide"
     },
     {
       "row": 419,
@@ -3077,8 +3086,9 @@
       "row": 420,
       "topic": "chamari athapaththu",
       "breakdown": "chamari athapaththu",
-      "state": "research-pending",
-      "group": "chamari-athapaththu"
+      "state": "published-live-verified",
+      "group": "chamari-athapaththu",
+      "target": "chamari-athapaththu-career-innings-sri-lanka-guide"
     },
     {
       "row": 421,
@@ -3242,14 +3252,21 @@
       "expectedSize": 5,
       "explicitUserAuthorization": true,
       "authorization": "User requested continuation of the old CSV work, with standing authorization to publish completed reviewed articles.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42162720227,
+      "verificationRun": 42162720227,
+      "checkedAt": "2026-11-06T04:32:46.327Z",
+      "databaseReadback": {
+        "inserted": 5,
+        "preserved": 337
+      }
     }
   ],
-  "prepared": 40,
-  "published": 40,
+  "prepared": 45,
+  "published": 45,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 5,
+  "remainingSelected": 0,
   "intentReview": {
     "sameIntentCovered": 15,
     "unclear": 38,

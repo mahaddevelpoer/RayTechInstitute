@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T04:12:47.079Z",
+  "checkedAt": "2026-11-06T04:32:46.327Z",
   "resolver": "Cloudflare DNS-over-HTTPS; canonical hostname with verified TLS",
   "edgeAddress": "172.67.139.27",
   "results": [
@@ -1149,6 +1149,151 @@
         },
         {
           "url": "/images/editorial/trending-in-20261105-daily/typhoon-science-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "alexander-zverev",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/alexander-zverev-2026-major-titles-career-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/alexander-zverev-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/alexander-zverev-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "chamari-athapaththu",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/chamari-athapaththu-career-innings-sri-lanka-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/chamari-athapaththu-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/chamari-athapaththu-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "lewis-hamilton",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/lewis-hamilton-seven-titles-teams-career-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/lewis-hamilton-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/lewis-hamilton-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pv-sindhu",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/pv-sindhu-olympic-medals-world-title-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/pv-sindhu-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/pv-sindhu-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "virat-kohli-birthday",
+      "batch": "20261105-daily",
+      "url": "https://raytechinstitute.com/blogs/virat-kohli-birthday-age-2026-career-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/virat-kohli-birthday-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-in-20261105-daily/virat-kohli-birthday-inline.webp",
           "status": 200,
           "present": true
         }
