@@ -2,6 +2,12 @@ import type { ChapterItem } from '@/types/educational';
 
 type ChapterIdentity = Pick<ChapterItem, 'classSlug' | 'subjectSlug' | 'chapterNumber' | 'title'> & { id?: string; bookTitle?:string; displayChapterNumber?:number };
 
+// Notes store the chapter position; book metadata belongs to the chapter record.
+export function resolveChapterForResource(resource: ChapterIdentity, chapters: ChapterItem[]) {
+  return chapters.find(chapter => chapter.classSlug === resource.classSlug &&
+    chapter.subjectSlug === resource.subjectSlug && chapter.chapterNumber === resource.chapterNumber) || resource;
+}
+
 // Display positions are separate from the stored chapter numbers used by MCQs and URLs.
 const ditChapters = [
   { id: 'chapter-dit-intermediate-dit-computer-science-1', titles: ['basic terminologies'], bookId: 'computer-networking', bookTitle: 'Computer Networking', number: 1, title: 'Basic Terminologies' },

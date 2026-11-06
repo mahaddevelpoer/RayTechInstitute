@@ -1,5 +1,5 @@
 import { withSocialMetadata } from '@/utils/social-metadata';
-import { chapterDisplayLabel, chapterPlacement } from '@/utils/chapter-books';
+import { chapterDisplayLabel, chapterPlacement, resolveChapterForResource } from '@/utils/chapter-books';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -13,6 +13,7 @@ import {
   INITIAL_SUBJECTS,
   INITIAL_NOTES,
   INITIAL_MCQS,
+  INITIAL_CHAPTERS,
 } from "@/data/staticCatalog";
 import { buildSeoTitle, buildDocumentDescription, serializeJsonLd } from "@/utils/seo";
 import { noteStructuredData, studyResourceKeywords } from '@/utils/study-resource-seo';
@@ -52,7 +53,8 @@ export async function generateMetadata({
   const currentClass = INITIAL_CLASSES.find(item => item.slug === classSlug);
   if (!note || !currentSubject) return withSocialMetadata({});
   const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
-  const displayChapterNumber = chapterPlacement({ ...note, title: note.chapterTitle })?.number || note.chapterNumber;
+  const sourceChapter = resolveChapterForResource({ ...note, title: note.chapterTitle }, INITIAL_CHAPTERS);
+  const displayChapterNumber = chapterPlacement(sourceChapter)?.number || note.chapterNumber;
   const title = buildSeoTitle(
     `${className} ${note.chapterTitle} Ch ${displayChapterNumber} Notes PDF`,
   );
@@ -97,6 +99,7 @@ export default async function NoteDetailPage({
   );
   if (!note || !currentClass || !currentSubject) notFound();
   const canonical = siteUrl(`/classes/${classSlug}/${subjectSlug}/notes/${noteSlug}/`);
+  const sourceChapter = resolveChapterForResource({ ...note, title: note.chapterTitle }, INITIAL_CHAPTERS);
   const topics = Array.from(new Set(INITIAL_MCQS.filter(item => item.classSlug === classSlug && item.subjectSlug === subjectSlug && item.chapterNumber === note.chapterNumber).map(item => item.topic?.trim()).filter((topic): topic is string => !!topic)));
   return (
     <div className="flex min-h-screen flex-col bg-white text-slate-800">
@@ -105,7 +108,7 @@ export default async function NoteDetailPage({
       <PdfDetailClientView
         backHref={`/classes/${classSlug}/${subjectSlug}/notes/`}
         backLabel="Back to notes"
-        eyebrow={chapterDisplayLabel({ ...note!, title: note!.chapterTitle })}
+        eyebrow={chapterDisplayLabel(sourceChapter)}
         title={note!.title}
         description={note!.description}
         content={note!.content}
@@ -114,7 +117,7 @@ export default async function NoteDetailPage({
         metadata={[
           currentClass!.title,
           currentSubject!.title,
-          chapterDisplayLabel({ ...note!, title: note!.chapterTitle }),
+          chapterDisplayLabel(sourceChapter),
           note!.fileSize || "PDF resource",
         ]}
       />

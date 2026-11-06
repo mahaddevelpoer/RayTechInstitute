@@ -2,7 +2,16 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {loadTypescript} from './load-typescript.mjs';
-const {chapterPlacement,groupChapterBooks,chapterDisplayLabel}=await loadTypescript('src/utils/chapter-books.ts');
+const {chapterPlacement,groupChapterBooks,chapterDisplayLabel,resolveChapterForResource}=await loadTypescript('src/utils/chapter-books.ts');
+
+test('resource details use saved book numbering and never match another class or subject',()=>{
+ const resource={id:'powerpoint-note',classSlug:'dit-intermediate',subjectSlug:'dit-computer-science',chapterNumber:5,title:'Microsoft PowerPoint'};
+ const chapter={...resource,id:'powerpoint-chapter',bookTitle:'MS Office',displayChapterNumber:3,isActive:true};
+ const resolved=resolveChapterForResource(resource,[{...chapter,classSlug:'other-class'},{...chapter,subjectSlug:'other-subject'},chapter]);
+ assert.equal(chapterDisplayLabel(resolved),'MS Office / Chapter 3: Microsoft PowerPoint');
+ assert.equal(resource.chapterNumber,5);
+ assert.equal(resolveChapterForResource(resource,[{...chapter,classSlug:'other-class'}]),resource);
+});
 test('topology note labels retain book chapter 2 when note records contain only the stored chapter position',()=>{
  const note={id:'dit-cn-chapter-2-network-topology-mcq-notes',classSlug:'dit-intermediate',subjectSlug:'dit-computer-science',chapterNumber:4,title:'Network Topology'};
  assert.equal(chapterDisplayLabel(note),'Computer Networking / Chapter 2: Network Topology');
