@@ -606,6 +606,106 @@
       "category": "economy",
       "state": "published-live-verified",
       "slug": "pi-industries-share-price-csm-results-cash-guide"
+    },
+    {
+      "key": "ril-shares",
+      "topic": "Reliance Industries: segments, reporting scope and cash",
+      "category": "economy",
+      "queries": [
+        "ril share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "reliance-industries-shares-segments-cash-flow-guide"
+    },
+    {
+      "key": "jio-financial-shares",
+      "topic": "Jio Financial Services: holding company and financial businesses",
+      "category": "economy",
+      "queries": [
+        "jio finance share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "jio-financial-shares-businesses-results-guide"
+    },
+    {
+      "key": "adani-power-shares",
+      "topic": "Adani Power: generation, tariffs and electricity economics",
+      "category": "economy",
+      "queries": [
+        "adani power share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "adani-power-shares-generation-costs-results-guide"
+    },
+    {
+      "key": "gail-shares",
+      "topic": "GAIL: gas transmission, marketing and petrochemicals",
+      "category": "economy",
+      "queries": [
+        "gail share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "gail-shares-transmission-marketing-results-guide"
+    },
+    {
+      "key": "tata-steel-shares",
+      "topic": "Tata Steel: steel spreads, production and regional accounts",
+      "category": "economy",
+      "queries": [
+        "tata steel share"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "tata-steel-shares-production-spreads-cash-guide"
+    },
+    {
+      "key": "bajaj-finance-shares",
+      "topic": "Bajaj Finance: AUM, credit cost and lending economics",
+      "category": "economy",
+      "queries": [
+        "bajaj finance share"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "bajaj-finance-shares-aum-credit-results-guide"
+    },
+    {
+      "key": "mcx-shares",
+      "topic": "MCX: commodity exchange shares versus derivatives",
+      "category": "economy",
+      "queries": [
+        "mcx share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "mcx-shares-commodity-exchange-revenue-guide"
+    },
+    {
+      "key": "titan-shares",
+      "topic": "Titan: jewellery, watches and retail financial results",
+      "category": "economy",
+      "queries": [
+        "titan share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "titan-shares-jewellery-watches-results-guide"
+    },
+    {
+      "key": "asian-paints-shares",
+      "topic": "Asian Paints: decorative paints, volume and margins",
+      "category": "economy",
+      "queries": [
+        "asian paints share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "asian-paints-shares-volume-margins-results-guide"
+    },
+    {
+      "key": "bhel-shares",
+      "topic": "BHEL: equipment orders, project execution and cash",
+      "category": "economy",
+      "queries": [
+        "bhel share price"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "bhel-shares-orders-projects-revenue-cash-guide"
     }
   ],
   "rowDisposition": [
@@ -1249,19 +1349,22 @@
       "row": 98,
       "topic": "ril share price",
       "breakdown": "ril share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "ril-shares"
     },
     {
       "row": 99,
       "topic": "jio finance share price",
       "breakdown": "jio finance share price,jio financial services share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "jio-financial-shares"
     },
     {
       "row": 100,
       "topic": "adani power share price",
       "breakdown": "adani power share price,adani power share",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "adani-power-shares"
     },
     {
       "row": 101,
@@ -1287,7 +1390,8 @@
       "row": 104,
       "topic": "gail share price",
       "breakdown": "gail share price,icicidirect,gift nifty live today",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "gail-shares"
     },
     {
       "row": 105,
@@ -1359,7 +1463,8 @@
       "row": 115,
       "topic": "tata steel share",
       "breakdown": "tata steel share,tata steel share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "tata-steel-shares"
     },
     {
       "row": 116,
@@ -1371,13 +1476,15 @@
       "row": 117,
       "topic": "bajaj finance share",
       "breakdown": "bajaj finance share",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "bajaj-finance-shares"
     },
     {
       "row": 118,
       "topic": "mcx share price",
       "breakdown": "mcx share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "mcx-shares"
     },
     {
       "row": 119,
@@ -1395,7 +1502,8 @@
       "row": 121,
       "topic": "titan share price",
       "breakdown": "titan share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "titan-shares"
     },
     {
       "row": 122,
@@ -1623,7 +1731,8 @@
       "row": 156,
       "topic": "asian paints share price",
       "breakdown": "asian paints share price",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "asian-paints-shares"
     },
     {
       "row": 157,
@@ -1777,7 +1886,8 @@
       "row": 180,
       "topic": "bhel share price",
       "breakdown": "bhel share price,bhel",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "bhel-shares"
     },
     {
       "row": 181,
@@ -3500,16 +3610,35 @@
         "inserted": 10,
         "preserved": 367
       }
+    },
+    {
+      "number": 10,
+      "keys": [
+        "ril-shares",
+        "jio-financial-shares",
+        "adani-power-shares",
+        "gail-shares",
+        "tata-steel-shares",
+        "bajaj-finance-shares",
+        "mcx-shares",
+        "titan-shares",
+        "asian-paints-shares",
+        "bhel-shares"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "Standing ten-article publication batches, reiterated by user on 6 November 2026; no subagents.",
+      "state": "research-pending"
     }
   ],
-  "prepared": 58,
+  "prepared": 68,
   "published": 58,
   "firstBatchRemaining": 4,
   "pendingIntentReviewRows": 356,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "intentReview": {
     "sameIntentCovered": 20,
     "unclear": 50,
-    "unreviewed": 282
+    "unreviewed": 272
   }
 }

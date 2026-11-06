@@ -1,8 +1,8 @@
 {
-  "state": "published-live-verified",
-  "articles": 58,
-  "bodyWords": 120030,
-  "uniqueImages": 116,
+  "state": "local-verified-unpublished",
+  "articles": 68,
+  "bodyWords": 141971,
+  "uniqueImages": 136,
   "existingArticlesCompared": 296,
   "results": [
     {
@@ -410,7 +410,76 @@
       "words": 2323,
       "tags": 42,
       "images": 2
+    },
+    {
+      "key": "ril-shares",
+      "slug": "reliance-industries-shares-segments-cash-flow-guide",
+      "words": 2091,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jio-financial-shares",
+      "slug": "jio-financial-shares-businesses-results-guide",
+      "words": 2228,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "adani-power-shares",
+      "slug": "adani-power-shares-generation-costs-results-guide",
+      "words": 2156,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "gail-shares",
+      "slug": "gail-shares-transmission-marketing-results-guide",
+      "words": 2150,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "tata-steel-shares",
+      "slug": "tata-steel-shares-production-spreads-cash-guide",
+      "words": 2183,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bajaj-finance-shares",
+      "slug": "bajaj-finance-shares-aum-credit-results-guide",
+      "words": 2184,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mcx-shares",
+      "slug": "mcx-shares-commodity-exchange-revenue-guide",
+      "words": 2162,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "titan-shares",
+      "slug": "titan-shares-jewellery-watches-results-guide",
+      "words": 2262,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "asian-paints-shares",
+      "slug": "asian-paints-shares-volume-margins-results-guide",
+      "words": 2236,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bhel-shares",
+      "slug": "bhel-shares-orders-projects-revenue-cash-guide",
+      "words": 2289,
+      "tags": 42,
+      "images": 2
     }
-  ],
-  "liveEvidence": "batch-09-live-verification.json"
+  ]
 }
