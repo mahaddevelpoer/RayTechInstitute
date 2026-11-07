@@ -1,6 +1,6 @@
 # Pakistan 7 November queue
 
-Input: 60 CSV rows. Published new articles: 20, covering 22 rows. Already-covered searches: 11. Unclear searches skipped: 15. Remaining intent review: 12. Selected but unfinished: 0.
+Input: 60 CSV rows. Published new articles: 20, covering 22 rows. Already-covered searches: 11. Unclear searches skipped: 15. Remaining intent review: 10. Prepared for the next batch: 2. Selected but unfinished: 0.
 
 Earlier backlog preserved: India 5 November has 230 unreviewed rows; Pakistan 6 November has 38 unreviewed rows. These 268 rows are not 268 confirmed new articles. Pakistan 5 November selected queue is complete, with one separately unresolved exact fixture. User priority is this 7 November CSV first, then earlier pending work.
 

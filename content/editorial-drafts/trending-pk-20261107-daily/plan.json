@@ -153,7 +153,9 @@
       "searchVolume": "500+",
       "started": "7 November 2026 at 00:40:00 UTC+5",
       "breakdown": "everton vs coventry",
-      "state": "needs-intent-review"
+      "state": "draft-prepared",
+      "group": "everton-coventry",
+      "target": "everton-coventry-3-1-november-2026-match-report"
     },
     {
       "row": 16,
@@ -382,7 +384,9 @@
       "searchVolume": "1k+",
       "started": "6 November 2026 at 10:20:00 UTC+5",
       "breakdown": "fata vs lahore whites,lahore whites vs fata",
-      "state": "needs-intent-review"
+      "state": "draft-prepared",
+      "group": "fata-lahore-whites",
+      "target": "fata-lahore-whites-241-runs-quaid-e-azam-trophy-2026"
     },
     {
       "row": 40,
@@ -785,6 +789,26 @@
       ],
       "state": "published-live-verified",
       "slug": "sevilla-alaves-0-0-november-2026-match-guide"
+    },
+    {
+      "key": "everton-coventry",
+      "topic": "Everton vs Coventry City 3-1: Barry’s Brace and Moyes’s 592nd Match",
+      "category": "sports",
+      "queries": [
+        "everton vs coventry"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "everton-coventry-3-1-november-2026-match-report"
+    },
+    {
+      "key": "fata-lahore-whites",
+      "topic": "FATA vs Lahore Whites: 241-Run Win and Quaid-e-Azam Trophy Scorecard",
+      "category": "sports",
+      "queries": [
+        "fata vs lahore whites"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "fata-lahore-whites-241-runs-quaid-e-azam-trophy-2026"
     }
   ],
   "releaseBatches": [
@@ -839,6 +863,17 @@
         "inserted": 10,
         "preserved": 429
       }
+    },
+    {
+      "number": 3,
+      "expectedSize": 2,
+      "explicitUserAuthorization": true,
+      "keys": [
+        "everton-coventry",
+        "fata-lahore-whites"
+      ],
+      "state": "draft-written-checks-pending",
+      "validationFile": "validation-batch-03.json"
     }
   ],
   "published": 20,
@@ -846,8 +881,9 @@
   "remainingSelected": 0,
   "counts": {
     "published-live-verified": 22,
-    "needs-intent-review": 12,
+    "needs-intent-review": 10,
     "already-covered": 11,
-    "skipped-unclear": 15
+    "skipped-unclear": 15,
+    "draft-prepared": 2
   }
 }
