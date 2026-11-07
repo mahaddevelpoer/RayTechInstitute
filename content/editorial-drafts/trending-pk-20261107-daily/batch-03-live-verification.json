@@ -1,0 +1,75 @@
+{
+  "run": 42337982102,
+  "verificationRun": 42337982102,
+  "checkedAt": "2026-11-07T04:24:09.089Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 2,
+    "verified": 2,
+    "existingArticlesPreserved": 439,
+    "articles": [
+      "everton-coventry-3-1-november-2026-match-report",
+      "fata-lahore-whites-241-runs-quaid-e-azam-trophy-2026"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "everton-coventry",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/everton-coventry-3-1-november-2026-match-report/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/everton-coventry-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/everton-coventry-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "fata-lahore-whites",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/fata-lahore-whites-241-runs-quaid-e-azam-trophy-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/fata-lahore-whites-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/fata-lahore-whites-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

@@ -1,9 +1,13 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2037,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-07",
   "sourceReview": "BATCH-03-RESEARCH.md",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "hostingRun": 42337982102,
+  "verificationRun": 42337982102,
+  "liveUrl": "https://raytechinstitute.com/blogs/everton-coventry-3-1-november-2026-match-report/",
+  "liveCheckedAt": "2026-11-07T04:24:09.089Z"
 }

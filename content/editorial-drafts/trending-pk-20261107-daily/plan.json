@@ -153,7 +153,7 @@
       "searchVolume": "500+",
       "started": "7 November 2026 at 00:40:00 UTC+5",
       "breakdown": "everton vs coventry",
-      "state": "draft-prepared",
+      "state": "published-live-verified",
       "group": "everton-coventry",
       "target": "everton-coventry-3-1-november-2026-match-report"
     },
@@ -384,7 +384,7 @@
       "searchVolume": "1k+",
       "started": "6 November 2026 at 10:20:00 UTC+5",
       "breakdown": "fata vs lahore whites,lahore whites vs fata",
-      "state": "draft-prepared",
+      "state": "published-live-verified",
       "group": "fata-lahore-whites",
       "target": "fata-lahore-whites-241-runs-quaid-e-azam-trophy-2026"
     },
@@ -797,7 +797,7 @@
       "queries": [
         "everton vs coventry"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "everton-coventry-3-1-november-2026-match-report"
     },
     {
@@ -807,7 +807,7 @@
       "queries": [
         "fata vs lahore whites"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "fata-lahore-whites-241-runs-quaid-e-azam-trophy-2026"
     }
   ],
@@ -872,18 +872,24 @@
         "everton-coventry",
         "fata-lahore-whites"
       ],
-      "state": "draft-written-checks-pending",
-      "validationFile": "validation-batch-03.json"
+      "state": "published-live-verified",
+      "validationFile": "validation-batch-03.json",
+      "hostingRun": 42337982102,
+      "verificationRun": 42337982102,
+      "checkedAt": "2026-11-07T04:24:09.089Z",
+      "databaseReadback": {
+        "inserted": 2,
+        "preserved": 439
+      }
     }
   ],
-  "published": 20,
-  "prepared": 20,
+  "published": 22,
+  "prepared": 22,
   "remainingSelected": 0,
   "counts": {
-    "published-live-verified": 22,
+    "published-live-verified": 24,
     "needs-intent-review": 10,
     "already-covered": 11,
-    "skipped-unclear": 15,
-    "draft-prepared": 2
+    "skipped-unclear": 15
   }
 }
