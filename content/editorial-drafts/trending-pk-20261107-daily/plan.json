@@ -20,7 +20,7 @@
       "sha256": "c3cb80291b99aca6659763595131bc793bde06cc5ce297183f72ed8ba7aaccc2"
     }
   ],
-  "state": "selected-batch-published-more-review-pending",
+  "state": "research-in-progress",
   "rowDisposition": [
     {
       "row": 2,
@@ -28,7 +28,8 @@
       "searchVolume": "50k+",
       "started": "6 November 2026 at 09:00:00 UTC+5",
       "breakdown": "pak u19 vs uae u19,pak vs uae under 19,united arab emirates national under-19 cricket team,pak vs uae u19,pak vs uae,uae u19 vs pak u19,united arab emirates u-19 vs pakistan u-19,u19 asia cup 2026,asia cup under 19,pakistan u19 asia cup,pak u19,pakistan national under-19 cricket team vs united arab emirates national under-19 cricket team match scorecard,united arab emirates national under-19 cricket team vs pakistan national under-19 cricket team match scorecard,pak vs uae today match,paku19 vs uae u19,pak vs uae u19 live score,u 19 asia cup,u19,pakistan vs uae under 19,pak vs uae u19 live,uae vs pak,pak vs uae live,pak u19 vs uae,u19 pak vs uae,pak vs uae under 19 live score,pak 19 vs uae u19,pakistan national under-19 cricket team vs united arab emirates national under-19 cricket team standings",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "pakistan-uae-u19"
     },
     {
       "row": 3,
@@ -54,7 +55,8 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 14:10:00 UTC+5",
       "breakdown": "jaecoo j5 bev price in pakistan",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "jaecoo-j5"
     },
     {
       "row": 6,
@@ -79,7 +81,8 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 08:50:00 UTC+5",
       "breakdown": "t10,abu dhabi t10 league,t10 league,abu dhabi t10",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "abu-dhabi-t10"
     },
     {
       "row": 9,
@@ -137,7 +140,8 @@
       "searchVolume": "500+",
       "started": "7 November 2026 at 00:40:00 UTC+5",
       "breakdown": "sevilla vs alavés",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "sevilla-alaves"
     },
     {
       "row": 15,
@@ -153,7 +157,8 @@
       "searchVolume": "200+",
       "started": "7 November 2026 at 04:10:00 UTC+5",
       "breakdown": "abu dhabi t10 matches,t10 league 2026 schedule",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "abu-dhabi-t10"
     },
     {
       "row": 17,
@@ -191,7 +196,8 @@
       "searchVolume": "500+",
       "started": "6 November 2026 at 17:20:00 UTC+5",
       "breakdown": "icc women's champions trophy",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "womens-champions-trophy"
     },
     {
       "row": 21,
@@ -264,7 +270,8 @@
       "searchVolume": "200+",
       "started": "6 November 2026 at 20:00:00 UTC+5",
       "breakdown": "campus drivers",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "campus-drivers"
     },
     {
       "row": 29,
@@ -280,7 +287,8 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 11:40:00 UTC+5",
       "breakdown": "whatsapp android chat previews beta",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "whatsapp-preview"
     },
     {
       "row": 31,
@@ -288,7 +296,8 @@
       "searchVolume": "1k+",
       "started": "6 November 2026 at 08:10:00 UTC+5",
       "breakdown": "foreign exchange reserves",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "pakistan-reserves"
     },
     {
       "row": 32,
@@ -453,7 +462,8 @@
       "searchVolume": "200+",
       "started": "6 November 2026 at 21:40:00 UTC+5",
       "breakdown": "diwali",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "diwali-guide"
     },
     {
       "row": 50,
@@ -531,7 +541,8 @@
       "searchVolume": "100+",
       "started": "6 November 2026 at 14:20:00 UTC+5",
       "breakdown": "bbl women",
-      "state": "needs-intent-review"
+      "state": "already-covered",
+      "target": "wbbl-2026-fixtures-season-points-table-guide"
     },
     {
       "row": 59,
@@ -548,7 +559,8 @@
       "searchVolume": "100+",
       "started": "6 November 2026 at 17:30:00 UTC+5",
       "breakdown": "wwe",
-      "state": "needs-intent-review"
+      "state": "research-pending",
+      "group": "wwe-guide"
     },
     {
       "row": 61,
@@ -661,6 +673,107 @@
       ],
       "state": "published-live-verified",
       "slug": "immaf-amateur-mma-history-results-guide"
+    },
+    {
+      "key": "abu-dhabi-t10",
+      "topic": "Abu Dhabi T10 2026: dates, teams, format and Pakistan viewing-time literacy",
+      "category": "sports",
+      "queries": [
+        "t10",
+        "abu dhabi t10 matches"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "abu-dhabi-t10-2026-dates-teams-pakistan-time"
+    },
+    {
+      "key": "womens-champions-trophy",
+      "topic": "ICC Women's Champions Trophy 2027: India venues and six-team format",
+      "category": "sports",
+      "queries": [
+        "icc women's champions trophy"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "icc-womens-champions-trophy-2027-india-dates"
+    },
+    {
+      "key": "jaecoo-j5",
+      "topic": "Jaecoo J5 BEV Pakistan introductory prices and EV cost calculations",
+      "category": "technology",
+      "queries": [
+        "jaecoo j5 bev price in pakistan"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "jaecoo-j5-bev-price-pakistan-comfort-premium"
+    },
+    {
+      "key": "campus-drivers",
+      "topic": "Campus Drivers by C.S. Quill: reading order and adaptation literacy",
+      "category": "entertainment",
+      "queries": [
+        "campus drivers"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "campus-drivers-reading-order-prime-video-guide"
+    },
+    {
+      "key": "pakistan-reserves",
+      "topic": "Pakistan foreign exchange reserves: SBP components and data interpretation",
+      "category": "world",
+      "queries": [
+        "foreign exchange reserves"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "pakistan-foreign-exchange-reserves-sbp-data-guide"
+    },
+    {
+      "key": "diwali-guide",
+      "topic": "Diwali: cultural traditions, lamps, calendars and respectful learning",
+      "category": "world",
+      "queries": [
+        "diwali"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "diwali-2026-date-diyas-deepavali-traditions"
+    },
+    {
+      "key": "pakistan-uae-u19",
+      "topic": "Pakistan U19 vs UAE U19: 6 November scorecard and Usman Khan 139 not out",
+      "category": "sports",
+      "queries": [
+        "pak u19 vs uae u19"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "pakistan-uae-u19-2026-usman-khan-139-result"
+    },
+    {
+      "key": "wwe-guide",
+      "topic": "WWE SmackDown: programme guide, previews and entertainment literacy",
+      "category": "entertainment",
+      "queries": [
+        "wwe"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "wwe-smackdown-november-6-2026-owens-punk-results"
+    },
+    {
+      "key": "whatsapp-preview",
+      "topic": "WhatsApp Android contextual preview development and privacy limits",
+      "category": "technology",
+      "queries": [
+        "whatsapp android chat previews beta"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "whatsapp-android-contextual-chat-preview-beta-status"
+    },
+    {
+      "key": "sevilla-alaves",
+      "topic": "Sevilla versus Alaves: 6 November 2026 goalless draw and match statistics",
+      "category": "sports",
+      "queries": [
+        "sevilla vs alavés"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "sevilla-alaves-0-0-november-2026-match-guide"
     }
   ],
   "releaseBatches": [
@@ -689,14 +802,34 @@
         "inserted": 10,
         "preserved": 419
       }
+    },
+    {
+      "number": 2,
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "keys": [
+        "abu-dhabi-t10",
+        "womens-champions-trophy",
+        "jaecoo-j5",
+        "campus-drivers",
+        "pakistan-reserves",
+        "diwali-guide",
+        "pakistan-uae-u19",
+        "wwe-guide",
+        "whatsapp-preview",
+        "sevilla-alaves"
+      ],
+      "state": "draft-written-checks-pending",
+      "validationFile": "validation-batch-02.json"
     }
   ],
   "published": 10,
   "prepared": 10,
-  "remainingSelected": 0,
+  "remainingSelected": 10,
   "counts": {
-    "needs-intent-review": 24,
-    "already-covered": 10,
+    "research-pending": 11,
+    "needs-intent-review": 12,
+    "already-covered": 11,
     "skipped-unclear": 15,
     "published-live-verified": 11
   }

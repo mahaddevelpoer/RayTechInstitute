@@ -4,20 +4,25 @@ import crypto from 'node:crypto';
 import sharp from 'sharp';
 import {hasPrivateCredential} from './private-credential-patterns.mjs';
 const root='content/editorial-drafts/trending-pk-20261107-daily',read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const plan=read(root+'/plan.json'),existing=read('artifacts/november7-pk/published-index.json');
+const plan=read(root+'/plan.json');
+const batchNumber=Number(process.argv.find(arg=>arg.startsWith('--batch-number='))?.slice(15)||'1');
+const batch=plan.releaseBatches.find(entry=>entry.number===batchNumber);
+assert.ok(batch?.explicitUserAuthorization,'An authorised batch is required');
+const selection=new Set(batch.keys);
+const existing=read('artifacts/november7-pk/'+(batchNumber===1?'published-index.json':`published-index-batch-${batchNumber}.json`));
 const oldSlugs=new Set(existing.map(p=>p.slug)),oldIds=new Set(existing.map(p=>p.id));
-const prepared=plan.groups.filter(g=>g.slug&&fs.existsSync(root+'/'+g.key+'/images.json'));const slugs=new Set(prepared.map(g=>g.slug)),imagesUsed=new Set(),results=[];
-assert.equal(slugs.size,prepared.length);assert.equal(plan.rowDisposition.length,60);assert.ok(prepared.length>=1);assert.equal(new Set(plan.groups.map(g=>g.key)).size,plan.groups.length);
+const prepared=plan.groups.filter(g=>selection.has(g.key)&&g.slug&&fs.existsSync(root+'/'+g.key+'/images.json'));const slugs=new Set(prepared.map(g=>g.slug)),imagesUsed=new Set(),results=[];
+assert.equal(slugs.size,prepared.length);assert.equal(plan.rowDisposition.length,60);assert.equal(prepared.length,batch.expectedSize);assert.equal(new Set(plan.groups.map(g=>g.key)).size,plan.groups.length);
 for(const d of fs.readdirSync('content/editorial-drafts')){
- if(d==='trending-pk-20261107-daily')continue;
  const dir='content/editorial-drafts/'+d;
- for(const name of fs.readdirSync(dir)){const p=dir+'/'+name+'/images.json';if(fs.existsSync(p))for(const i of read(p))imagesUsed.add(i.sha1);}
+ for(const name of fs.readdirSync(dir)){if(dir===root&&selection.has(name))continue;const p=dir+'/'+name+'/images.json';if(fs.existsSync(p))for(const i of read(p))imagesUsed.add(i.sha1);}
 }
 for(const row of read('content/editorial-revisions/trending-pk-20261030/images.json'))for(const i of [row.cover,row.inline])imagesUsed.add(i.sha1);
 const hashes=new Set();sharp.concurrency(1);sharp.cache({memory:16,files:0,items:0});
 for(const g of prepared){
  const dir=root+'/'+g.key,p=read(dir+'/post.json'),images=read(dir+'/images.json'),article=fs.readFileSync(dir+'/article.md','utf8');
- const words=article.split('## Sources')[0].trim().split(/\s+/).length;
+ const tokens=article.split('## Sources')[0].trim().split(/\s+/);
+ const words=(batchNumber===1?tokens:tokens.filter(token=>/[\p{L}\p{N}]/u.test(token))).length;
  assert.ok(words>=2000,g.key+' incomplete');assert.ok(!oldSlugs.has(p.slug)&&!oldIds.has(p.id),g.key+' already published');
  assert.equal(p.tags.length,42);assert.equal(new Set(p.tags.map(t=>t.toLowerCase())).size,42);
  assert.equal(p.slug,g.slug);assert.match(p.slug,/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
@@ -35,4 +40,4 @@ for(const g of prepared){
  if(fs.existsSync(dir+'/review.json'))review.imageVisualReview=read(dir+'/review.json').imageVisualReview;
  fs.writeFileSync(dir+'/review.json',JSON.stringify(review,null,2));results.push({key:g.key,slug:p.slug,words,tags:p.tags.length,images:images.length});
 }
-const report={state:'local-verified-unpublished',articles:results.length,bodyWords:results.reduce((sum,r)=>sum+r.words,0),uniqueImages:results.length*2,existingArticlesCompared:existing.length,results};fs.writeFileSync(root+'/validation.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+const report={state:'local-verified-unpublished',articles:results.length,bodyWords:results.reduce((sum,r)=>sum+r.words,0),uniqueImages:results.length*2,existingArticlesCompared:existing.length,results};fs.writeFileSync(root+'/'+(batch.validationFile||'validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));

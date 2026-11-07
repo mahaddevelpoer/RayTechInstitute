@@ -1,0 +1,125 @@
+Diwali, also called Deepavali, is a festival of lights marked through practices that vary across families, regions and communities. India's U R Rao Satellite Centre lists Sunday, 8 November 2026, for Diwali on its holiday calendar. That is a dated calendar reference; it does not settle every local celebration schedule or establish a school or office closure in Pakistan.
+
+The festival is often pictured through lamps, patterned decorations and gatherings. Understanding it means looking beyond one photograph or one explanation. This guide introduces familiar traditions, explains UNESCO's recognition of Deepavali and offers ways for students to document a living tradition respectfully without assuming that every household celebrates in the same way.
+
+## What is Diwali and why are lights important?
+
+Diwali is widely known as the festival of lights. India's tourism ministry describes lamps decorating homes and public spaces and connects them with the triumph of light over darkness. That broad symbolism is a useful introduction, but it should not flatten the specific stories, rituals and family meanings people associate with the festival. Ask how a practice is understood in its own setting.
+
+### A diya is both an object and a practice
+
+A traditional diya is a small lamp, commonly pictured as a clay vessel with a wick. A photograph can show the shape of the lamp, but learning about a festival also means noticing who makes, arranges and uses such objects. Two people might describe the same lamp in different ways: one through craft and materials, the other through family memories. Both observations can add context.
+
+### Light can organise a whole space
+
+A single lamp draws attention to one place. A row of lamps can guide the eye along a doorstep, a courtyard or a public walkway. That visual effect helps explain why a photograph of a celebration can feel different from a close-up of one object. It is an observation about composition, not a rule about where everyone must put a lamp.
+
+## When is Diwali in 2026?
+
+Sunday, 8 November 2026, is the date listed for Diwali in the cited Indian institutional calendar. Festival observances can extend around that date, and the schedule of a particular community, temple or public event may have its own timing. A calendar row is useful for the date it names. It should not be stretched into an announcement about every surrounding day.
+
+### Festival dates and office holidays are different
+
+A festival date describes the observance identified by a calendar. An office holiday notice describes the working arrangement of a particular organisation or jurisdiction. A student in Pakistan should check their own school or examination authority before assuming a class is cancelled. A screenshot from a different country, year or employer cannot establish that school's decision.
+
+### Compare the calendar's year and institution
+
+Save the issuer's name, year, date and weekday together. If two graphics disagree, one might belong to another year or refer to a different part of the festival period. Start with those simple checks before assuming an official date changed. The same reading method helps with exam timetables, where a familiar design can conceal an old or unrelated notice.
+
+## What are rangoli and other decorations?
+
+Rangoli refers to decorative patterns often made on the floor or at an entrance. Designs and materials can differ by place and occasion. During Diwali, some arrangements place lamps beside or within a pattern. That combination brings together shape, colour and light. A useful description names what is visible without claiming to know the maker's religious intent from an image alone.
+
+### Notice symmetry without reducing the art to mathematics
+
+A student can identify a repeating petal, a reflection line or a pattern arranged around a centre. Mathematics helps describe those features. It does not replace the cultural meaning of the work or explain why the maker chose a particular symbol. In a classroom drawing, label the geometric idea and give credit if the design was inspired by a named artist or family example.
+
+### Use an original design for a classroom exercise
+
+Draw one small shape in a square, rotate it through four positions and observe which details line up. Try a second version where one position has a contrasting colour. The activity teaches rotation and repetition without copying someone's ceremonial design. An explanation can mention rangoli as inspiration while making clear that the worksheet is an original geometry exercise, not a demonstration of a prescribed ritual.
+
+## Are all Diwali celebrations alike?
+
+No single description represents every celebration. Different communities can connect the period to different traditions, and individual families can adapt what they do. Even within one city, a public programme, a home observance and a school event may emphasise different things. Describe the practice with its place or source rather than writing that every person celebrates in one identical way.
+
+### Use precise language for examples
+
+Phrases such as some families, in this account or at this event make the scope of a claim clear. They are especially useful when a source describes a regional custom. Saying that a lamp arrangement was seen at one named event is stronger than claiming it represents everyone. Precision protects both the reader and the people whose traditions are being described.
+
+### Respect the difference between invitation and observation
+
+If you are invited to a celebration, ask the host what is welcome. Observing a public event does not give permission to photograph a private moment, and seeing an image online does not mean it may be reused without checking its licence. These boundaries are part of good reporting. They also help make a school project respectful without requiring students to adopt anyone else's beliefs.
+
+## What did UNESCO recognise?
+
+UNESCO announced on 10 December 2025 that Deepavali had been inscribed on the Representative List of the Intangible Cultural Heritage of Humanity. The announcement places it in the area of social practices, rituals and festive events. The listing concerns a living cultural practice. It is not a designation of one building or a declaration that there is only one approved way to observe the festival.
+
+### Intangible heritage is not an invisible object
+
+The word intangible can be confusing because the festival includes visible things such as lamps and decorations. The distinction is that heritage also includes the knowledge and practices people carry, teach and adapt. A lamp can be collected as an object, while the knowledge of how a community uses it is learned through people. The two are connected but not interchangeable.
+
+### Safeguarding involves transmission
+
+Think of an artisan showing someone how to shape a lamp or a family explaining why a gathering matters. A photograph preserves one moment; teaching allows another generation to understand and continue a practice. A student can ask what knowledge needs to be passed along without assuming a tradition must remain frozen in its oldest recorded form. Living practices can change while retaining continuity.
+
+## How can students document the festival carefully?
+
+Start with one narrow question. For example: how does one participant describe preparing a shared space, or how does one artisan explain a material choice? Keep the person's account separate from a broader historical claim. Obtain permission for recording or publishing names and images, and offer to share the finished account if the participant wishes to see it.
+
+### Prepare an interview that does not lead the answer
+
+Ask what the person remembers, what they choose to do now and whether anything has changed. Avoid a question that presumes everyone in a community shares the same practice. If someone prefers not to discuss a private observance, change the question or stop. A good interview is a conversation with boundaries, not an attempt to extract a complete explanation from one person.
+
+### Separate observation from interpretation
+
+An observation might be that a pattern used four repeating sections. An interpretation might be that the repetition creates a feeling of balance. Record the two separately. If a participant explains a symbolic meaning, attribute it to the participant or a reliable source rather than inventing one. This distinction is useful in art, history and everyday reporting.
+
+## How should festival images be captioned?
+
+A caption should tell the reader what the image depicts, when or where it was made if known, and why it is relevant. An earlier photograph can illustrate a practice without claiming to depict the 2026 celebration. If the exact location is unknown, say only what the image record supports. Do not infer a household's identity, religion or private circumstances from a decorative detail.
+
+### A photo licence is different from a source link
+
+Linking to a photograph credits where it was found, but does not automatically grant reuse. Check the licence and follow its terms for creator credit and modifications. When resizing or cropping, say so when required. For an assignment, original illustrations and authorised photographs are better choices than downloading whatever appears at the top of an image search.
+
+### Describe the image for readers who cannot see it
+
+An alt description can name the lamps, colours or visible pattern relevant to the text. Avoid adding a long promotional sentence or repeating the entire article title. A person using a screen reader benefits from a description of the image's purpose. If the caption carries provenance, the alt text can focus on what the image shows.
+
+## What is a respectful way to write or share a greeting?
+
+A simple greeting to someone who celebrates can be enough. If you are uncertain what a person prefers, let them choose how much to share. For a class notice or public post, use language that welcomes participants without implying that every reader observes the festival. A thoughtful message focuses on the people receiving it rather than displaying the author's knowledge.
+
+### Do not mistake a greeting for an announcement
+
+A community message wishing readers a happy festival does not necessarily announce an event, a closure or an official date change. If sharing practical information, include a separate organiser notice with its time, location and current status. This distinction reduces confusion when a colourful image is forwarded without the surrounding text that originally explained it.
+
+### Keep public and private materials separate
+
+An invitation may include a family address or contact details intended for a limited audience. Do not repost it as a public event listing without permission. When documenting a celebration, select material that can be shared openly and remove unnecessary personal details. Cultural learning should not require exposing participants' private information.
+
+## A small heritage project for a classroom
+
+Choose one publicly documented example of a lamp, pattern or event. Write a caption, identify its source and note one uncertainty. Add a short comparison with a second example from a different place or period. The aim is to describe variation rather than rank which version is more authentic. Use sources with dates and avoid presenting an anonymous repost as the original record.
+
+### Make a simple visual archive
+
+Record title, creator, place, date, licence and description in separate fields. When a date is not known, use an explicit unknown entry. Sort by place or object type without dropping the source field. Students can build a small web page for the archive using [programming courses](/courses/) and consult [class resources](/classes/) for more study material. Keep the sample collection small enough to check every record.
+
+### What should a reader remember?
+
+Diwali and Deepavali are familiar names for a festival of lights with varied observances. The cited 2026 calendar identifies 8 November, and UNESCO's 2025 recognition concerns the living tradition. Neither fact replaces a local notice or a participant's own account. The best introduction leaves readers with a clear date, an understanding of variation and a respectful way to learn more.
+
+### Use a safe alternative in a school display
+
+A paper drawing, a photograph used with permission or a battery light can show the visual idea of a row of lamps without an open flame in a classroom. Ask the school about its display rules before planning a demonstration. The purpose is to learn about the practice and design, not to reproduce a ceremony.
+
+### Record local names as people use them
+
+If a source uses another spelling, preserve it in a quoted label or record field and note the more familiar spelling for search. Correcting everyone to one version can erase useful information about language and place.
+
+## Sources
+
+- [2026 Diwali date in the U R Rao Satellite Centre calendar](https://www.ursc.gov.in/holidays.jsp)
+- [India Ministry of Tourism's festival introduction](https://www.incredibleindia.gov.in/en/festivals-and-events/diwali)
+- [UNESCO's December 2025 inscription announcement](https://www.unesco.org/en/articles/deepavali-inscribed-unescos-representative-list-intangible-cultural-heritage-humanity)
