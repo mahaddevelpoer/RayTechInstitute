@@ -1,0 +1,685 @@
+{
+  "date": "2026-11-07",
+  "sourceCsv": "trending_PK_1d_20261107-0742.csv",
+  "sourceSha256": "7e44fb936968ea2ad3b5a45602d2c0a566dc2dfd453d8c5abdb99a6fbaffff63",
+  "publicationAuthorized": true,
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "priority": "Latest 7 November Pakistan CSV first, then pending earlier queues, per explicit user instruction.",
+  "oldQueueSnapshot": [
+    {
+      "queue": "trending-in-20261105-daily",
+      "sha256": "99d0b673454cbd97d457dcb29f4770737c65b9622f3742fd1e43ce059dbcbe59"
+    },
+    {
+      "queue": "trending-pk-20261105-daily",
+      "sha256": "bc65a3077116a398c6b6c7dd479a73aa2397d4f0597eecb8621497c65b92e147"
+    },
+    {
+      "queue": "trending-pk-20261106-daily",
+      "sha256": "c3cb80291b99aca6659763595131bc793bde06cc5ce297183f72ed8ba7aaccc2"
+    }
+  ],
+  "state": "research-in-progress",
+  "rowDisposition": [
+    {
+      "row": 2,
+      "topic": "pak u19 vs uae u19",
+      "searchVolume": "50k+",
+      "started": "6 November 2026 at 09:00:00 UTC+5",
+      "breakdown": "pak u19 vs uae u19,pak vs uae under 19,united arab emirates national under-19 cricket team,pak vs uae u19,pak vs uae,uae u19 vs pak u19,united arab emirates u-19 vs pakistan u-19,u19 asia cup 2026,asia cup under 19,pakistan u19 asia cup,pak u19,pakistan national under-19 cricket team vs united arab emirates national under-19 cricket team match scorecard,united arab emirates national under-19 cricket team vs pakistan national under-19 cricket team match scorecard,pak vs uae today match,paku19 vs uae u19,pak vs uae u19 live score,u 19 asia cup,u19,pakistan vs uae under 19,pak vs uae u19 live,uae vs pak,pak vs uae live,pak u19 vs uae,u19 pak vs uae,pak vs uae under 19 live score,pak 19 vs uae u19,pakistan national under-19 cricket team vs united arab emirates national under-19 cricket team standings",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 3,
+      "topic": "new zealand vs india",
+      "searchVolume": "10k+",
+      "started": "7 November 2026 at 06:50:00 UTC+5",
+      "breakdown": "new zealand vs india,wellington weather,virat kohli batting performance auckland odi",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 4,
+      "topic": "iqbal day public holiday notification",
+      "searchVolume": "5k+",
+      "started": "6 November 2026 at 17:50:00 UTC+5",
+      "breakdown": "iqbal day public holiday notification,9 november holiday in pakistan 2026,allama iqbal day",
+      "state": "already-covered",
+      "target": "9-november-holiday-2026-pakistan-iqbal-day-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 5,
+      "topic": "jaecoo j5 bev price in pakistan",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 14:10:00 UTC+5",
+      "breakdown": "jaecoo j5 bev price in pakistan",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 6,
+      "topic": "aryavir sehwag",
+      "searchVolume": "10k+",
+      "started": "6 November 2026 at 11:00:00 UTC+5",
+      "breakdown": "aryavir sehwag,lakshya raichandani,nepal national under-19 cricket team vs india national under-19 cricket team standings,anvay dravid,nep u19 vs ind u19,asia cup u19,ind u19 vs nep u19,nepal u-19 vs india u-19,u19 asia cup 2026 schedule,under 19 asia cup 2026",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 7,
+      "topic": "debt",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 10:20:00 UTC+5",
+      "breakdown": "debt",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 8,
+      "topic": "t10",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 08:50:00 UTC+5",
+      "breakdown": "t10,abu dhabi t10 league,t10 league,abu dhabi t10",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 9,
+      "topic": "harmeet dhillon",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 21:20:00 UTC+5",
+      "breakdown": "harmeet dhillon",
+      "state": "research-pending",
+      "group": "harmeet-dhillon"
+    },
+    {
+      "row": 10,
+      "topic": "sediqullah atal",
+      "searchVolume": "20k+",
+      "started": "6 November 2026 at 15:30:00 UTC+5",
+      "breakdown": "sediqullah atal,zimbabwe vs afghanistan,graeme cremer",
+      "state": "research-pending",
+      "group": "sediqullah-atal"
+    },
+    {
+      "row": 11,
+      "topic": "petrol price in pakistan today",
+      "searchVolume": "2k+",
+      "started": "7 November 2026 at 00:30:00 UTC+5",
+      "breakdown": "petrol price in pakistan today,today petrol price in pakistan,pakistan petrol prices,diesel price in pakistan,petrol price today in pakistan,petrol price in pakistan today 2026,fuel price in pakistan today,today fuel price in pakistan,petrol rate,diesel price in pakistan today,oil prices,petrol",
+      "state": "already-covered",
+      "target": "pakistan-petrol-price-notification-reading-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 12,
+      "topic": "chris lynn",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 17:00:00 UTC+5",
+      "breakdown": "chris lynn",
+      "state": "research-pending",
+      "group": "chris-lynn"
+    },
+    {
+      "row": 13,
+      "topic": "jisoo",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 18:40:00 UTC+5",
+      "breakdown": "jisoo",
+      "state": "research-pending",
+      "group": "jisoo"
+    },
+    {
+      "row": 14,
+      "topic": "sevilla vs alavés",
+      "searchVolume": "500+",
+      "started": "7 November 2026 at 00:40:00 UTC+5",
+      "breakdown": "sevilla vs alavés",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 15,
+      "topic": "everton vs coventry",
+      "searchVolume": "500+",
+      "started": "7 November 2026 at 00:40:00 UTC+5",
+      "breakdown": "everton vs coventry",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 16,
+      "topic": "abu dhabi t10 matches",
+      "searchVolume": "200+",
+      "started": "7 November 2026 at 04:10:00 UTC+5",
+      "breakdown": "abu dhabi t10 matches,t10 league 2026 schedule",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 17,
+      "topic": "gta vi launch gallery",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 22:40:00 UTC+5",
+      "breakdown": "gta vi launch gallery",
+      "state": "already-covered",
+      "target": "gta-vi-official-release-information-safety-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 18,
+      "topic": "usman khawaja",
+      "searchVolume": "100+",
+      "started": "7 November 2026 at 07:10:00 UTC+5",
+      "breakdown": "usman khawaja",
+      "state": "already-covered",
+      "target": "usman-khawaja-international-retirement-bbl-2026",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 19,
+      "topic": "dean norris",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 13:20:00 UTC+5",
+      "breakdown": "dean norris",
+      "state": "research-pending",
+      "group": "dean-norris"
+    },
+    {
+      "row": 20,
+      "topic": "icc women's champions trophy",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 17:20:00 UTC+5",
+      "breakdown": "icc women's champions trophy",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 21,
+      "topic": "economy",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 12:50:00 UTC+5",
+      "breakdown": "economy",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 22,
+      "topic": "video",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 23:10:00 UTC+5",
+      "breakdown": "video",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 23,
+      "topic": "mixed martial arts",
+      "searchVolume": "100+",
+      "started": "7 November 2026 at 05:20:00 UTC+5",
+      "breakdown": "mixed martial arts",
+      "state": "research-pending",
+      "group": "immaf-guide"
+    },
+    {
+      "row": 24,
+      "topic": "rahim pardesi vs manish sharma",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 19:10:00 UTC+5",
+      "breakdown": "rahim pardesi vs manish sharma",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 25,
+      "topic": "rockstar games gta vi",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 23:30:00 UTC+5",
+      "breakdown": "rockstar games gta vi",
+      "state": "already-covered",
+      "target": "gta-vi-official-release-information-safety-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 26,
+      "topic": "hasan mahmud",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 09:20:00 UTC+5",
+      "breakdown": "hasan mahmud,mushfiqur rahim,shamar joseph",
+      "state": "research-pending",
+      "group": "hasan-mahmud"
+    },
+    {
+      "row": 27,
+      "topic": "samsung",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 18:20:00 UTC+5",
+      "breakdown": "samsung",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 28,
+      "topic": "campus drivers",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 20:00:00 UTC+5",
+      "breakdown": "campus drivers",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 29,
+      "topic": "eric armstrong iowa",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 20:50:00 UTC+5",
+      "breakdown": "eric armstrong iowa",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 30,
+      "topic": "whatsapp android chat previews beta",
+      "searchVolume": "2k+",
+      "started": "6 November 2026 at 11:40:00 UTC+5",
+      "breakdown": "whatsapp android chat previews beta",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 31,
+      "topic": "foreign exchange reserves",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 08:10:00 UTC+5",
+      "breakdown": "foreign exchange reserves",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 32,
+      "topic": "carlos alcaraz",
+      "searchVolume": "200+",
+      "started": "7 November 2026 at 00:50:00 UTC+5",
+      "breakdown": "carlos alcaraz",
+      "state": "already-covered",
+      "target": "carlos-alcaraz-career-grand-slam-australian-open-2026",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 33,
+      "topic": "azad kashmir",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 20:20:00 UTC+5",
+      "breakdown": "azad kashmir",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 34,
+      "topic": "forex factory",
+      "searchVolume": "5k+",
+      "started": "6 November 2026 at 17:10:00 UTC+5",
+      "breakdown": "forex factory,forex factory news",
+      "state": "already-covered",
+      "target": "forex-factory-calendar-pakistan-time-data-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 35,
+      "topic": "byd yangwang u9 xtreme",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 23:50:00 UTC+5",
+      "breakdown": "byd yangwang u9 xtreme",
+      "state": "research-pending",
+      "group": "yangwang-u9-xtreme"
+    },
+    {
+      "row": 36,
+      "topic": "olivia rodrigo",
+      "searchVolume": "200+",
+      "started": "7 November 2026 at 00:00:00 UTC+5",
+      "breakdown": "olivia rodrigo",
+      "state": "research-pending",
+      "group": "olivia-rodrigo"
+    },
+    {
+      "row": 37,
+      "topic": "young sohn",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 17:30:00 UTC+5",
+      "breakdown": "young sohn",
+      "state": "research-pending",
+      "group": "young-sohn"
+    },
+    {
+      "row": 38,
+      "topic": "حکومت",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 09:20:00 UTC+5",
+      "breakdown": "حکومت",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 39,
+      "topic": "fata vs lahore whites",
+      "searchVolume": "1k+",
+      "started": "6 November 2026 at 10:20:00 UTC+5",
+      "breakdown": "fata vs lahore whites,lahore whites vs fata",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 40,
+      "topic": "petroleum",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 10:10:00 UTC+5",
+      "breakdown": "petroleum,karachi",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 41,
+      "topic": "sale",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 23:30:00 UTC+5",
+      "breakdown": "sale,on",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 42,
+      "topic": "karl bushby",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 21:20:00 UTC+5",
+      "breakdown": "karl bushby",
+      "state": "already-covered",
+      "target": "karl-bushby-homecoming-goliath-expedition-explained",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 43,
+      "topic": "world economy",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 08:50:00 UTC+5",
+      "breakdown": "world economy",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 44,
+      "topic": "newjeans",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 11:20:00 UTC+5",
+      "breakdown": "newjeans",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 45,
+      "topic": "international mixed martial arts federation",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 19:10:00 UTC+5",
+      "breakdown": "international mixed martial arts federation",
+      "state": "research-pending",
+      "group": "immaf-guide"
+    },
+    {
+      "row": 46,
+      "topic": "and",
+      "searchVolume": "100+",
+      "started": "7 November 2026 at 01:50:00 UTC+5",
+      "breakdown": "and",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 47,
+      "topic": "engine",
+      "searchVolume": "500+",
+      "started": "6 November 2026 at 16:00:00 UTC+5",
+      "breakdown": "engine",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 48,
+      "topic": "pak u19 vs ind u19",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 10:20:00 UTC+5",
+      "breakdown": "pak u19 vs ind u19",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 49,
+      "topic": "diwali",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 21:40:00 UTC+5",
+      "breakdown": "diwali",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 50,
+      "topic": "history",
+      "searchVolume": "100+",
+      "started": "7 November 2026 at 03:00:00 UTC+5",
+      "breakdown": "history",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 51,
+      "topic": "gpt 6.2 astra",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 10:40:00 UTC+5",
+      "breakdown": "gpt 6.2 astra",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 52,
+      "topic": "gold price in pakistan today per tola",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 13:50:00 UTC+5",
+      "breakdown": "gold price in pakistan today per tola",
+      "state": "already-covered",
+      "target": "pakistan-gold-price-tola-purity-quote-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 53,
+      "topic": "chaudhry salik hussain",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 08:50:00 UTC+5",
+      "breakdown": "chaudhry salik hussain",
+      "state": "already-covered",
+      "target": "salik-hussain-minister-overseas-pakistanis-guide",
+      "reason": "Reuse existing same-intent canonical; no duplicate article."
+    },
+    {
+      "row": 54,
+      "topic": "cholesterol",
+      "searchVolume": "200+",
+      "started": "6 November 2026 at 09:30:00 UTC+5",
+      "breakdown": "cholesterol",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 55,
+      "topic": "owono goalkeeper",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 11:00:00 UTC+5",
+      "breakdown": "owono goalkeeper",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 56,
+      "topic": "rising stars asia cup",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 10:50:00 UTC+5",
+      "breakdown": "rising stars asia cup",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 57,
+      "topic": "plus",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 08:20:00 UTC+5",
+      "breakdown": "plus",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 58,
+      "topic": "bbl women",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 14:20:00 UTC+5",
+      "breakdown": "bbl women",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 59,
+      "topic": "india",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 13:40:00 UTC+5",
+      "breakdown": "india",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    },
+    {
+      "row": 60,
+      "topic": "wwe",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 17:30:00 UTC+5",
+      "breakdown": "wwe",
+      "state": "needs-intent-review"
+    },
+    {
+      "row": 61,
+      "topic": "zero",
+      "searchVolume": "100+",
+      "started": "6 November 2026 at 15:00:00 UTC+5",
+      "breakdown": "zero",
+      "state": "skipped-unclear",
+      "reason": "No sufficiently specific event, entity or intent in breakdown; standing instruction is to skip unclear queries."
+    }
+  ],
+  "groups": [
+    {
+      "key": "harmeet-dhillon",
+      "topic": "Harmeet Dhillon: reported resignation, dated appointment records and civic roles",
+      "category": "world",
+      "queries": [
+        "harmeet dhillon"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "harmeet-dhillon-resignation-public-records-guide"
+    },
+    {
+      "key": "sediqullah-atal",
+      "topic": "Sediqullah Atal: Afghanistan batting milestones and innings analysis",
+      "category": "sports",
+      "queries": [
+        "sediqullah atal"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "sediqullah-atal-century-batting-records-guide"
+    },
+    {
+      "key": "chris-lynn",
+      "topic": "Chris Lynn: T20 career, power hitting and strike-rate context",
+      "category": "sports",
+      "queries": [
+        "chris lynn"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "chris-lynn-t20-career-power-hitting-guide"
+    },
+    {
+      "key": "jisoo",
+      "topic": "Jisoo: BLACKPINK, solo releases and reading music credits",
+      "category": "entertainment",
+      "queries": [
+        "jisoo"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "jisoo-solo-releases-music-credits-guide"
+    },
+    {
+      "key": "dean-norris",
+      "topic": "Dean Norris: Hank Schrader, screen roles and performance analysis",
+      "category": "entertainment",
+      "queries": [
+        "dean norris"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "dean-norris-screen-roles-acting-guide"
+    },
+    {
+      "key": "hasan-mahmud",
+      "topic": "Hasan Mahmud: Bangladesh fast bowling and reading bowling figures",
+      "category": "sports",
+      "queries": [
+        "hasan mahmud"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "hasan-mahmud-five-wickets-bowling-figures"
+    },
+    {
+      "key": "olivia-rodrigo",
+      "topic": "Olivia Rodrigo: SOUR, GUTS and songwriting structure",
+      "category": "entertainment",
+      "queries": [
+        "olivia rodrigo"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "olivia-rodrigo-sour-guts-songwriting-guide"
+    },
+    {
+      "key": "young-sohn",
+      "topic": "Young Sohn: technology leadership, connected systems and role timelines",
+      "category": "technology",
+      "queries": [
+        "young sohn"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "young-sohn-technology-leadership-systems-guide"
+    },
+    {
+      "key": "yangwang-u9-xtreme",
+      "topic": "YANGWANG U9 Xtreme: updated speed record and EV engineering measures",
+      "category": "technology",
+      "queries": [
+        "byd yangwang u9 xtreme"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "yangwang-u9-xtreme-503-17-speed-record-guide"
+    },
+    {
+      "key": "immaf-guide",
+      "topic": "IMMAF: amateur MMA history, event structure and result literacy",
+      "category": "sports",
+      "queries": [
+        "international mixed martial arts federation",
+        "mixed martial arts"
+      ],
+      "state": "draft-written-checks-pending",
+      "slug": "immaf-amateur-mma-history-results-guide"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "harmeet-dhillon",
+        "sediqullah-atal",
+        "chris-lynn",
+        "jisoo",
+        "dean-norris",
+        "hasan-mahmud",
+        "olivia-rodrigo",
+        "young-sohn",
+        "yangwang-u9-xtreme",
+        "immaf-guide"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "User instructed processing latest CSV first with standing publication of completed ten-article batches.",
+      "state": "research-pending"
+    }
+  ],
+  "published": 0,
+  "prepared": 0,
+  "remainingSelected": 10,
+  "counts": {
+    "needs-intent-review": 24,
+    "already-covered": 10,
+    "skipped-unclear": 15,
+    "research-pending": 11
+  }
+}

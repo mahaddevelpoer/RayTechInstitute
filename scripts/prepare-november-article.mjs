@@ -3,7 +3,7 @@ import sharp from 'sharp';
 import {execFileSync} from 'node:child_process';
 const name=process.argv[2];if(!/^[a-z0-9-]+$/.test(name||''))throw Error('Article directory required');
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261101';
-if(!/^2026110[12345](?:-daily)?$/.test(batch))throw Error('Unsupported November batch');
+if(!/^2026110[123457](?:-daily)?$/.test(batch))throw Error('Unsupported November batch');
 const region=process.argv.find(a=>a.startsWith('--region='))?.slice(9)||'PK';if(!['PK','IN'].includes(region))throw Error('Unsupported region');
 const root=`content/editorial-drafts/trending-${region.toLowerCase()}-${batch}`,dir=`${root}/${name}`,output=`public/images/editorial/trending-${region.toLowerCase()}-${batch}`;
 const candidates=JSON.parse(fs.readFileSync(`${dir}/images-candidates.json`,'utf8'));

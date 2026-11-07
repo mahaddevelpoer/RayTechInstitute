@@ -1,0 +1,139 @@
+The International Mixed Martial Arts Federation, usually shortened to IMMAF, is associated with the organisation and development of amateur mixed martial arts. A federation, a national member body and a commercial event promoter are different kinds of organisation. Understanding that structure helps readers interpret a championship result without assuming every MMA event uses the same rules or belongs to the same body.
+
+This guide explains IMMAF's documented history and provides a practical way to read event categories, brackets and results. It is not instruction in fighting techniques, a medical clearance guide or a claim that any specific local event is officially affiliated. For participation, age eligibility and safety procedures, the relevant current event and federation documents must be checked directly.
+
+## What is IMMAF?
+
+IMMAF stands for the International Mixed Martial Arts Federation. Its official history records its founding in 2012 and its first world championships in Las Vegas in 2014. The International Testing Agency also describes its role in developing and regulating amateur MMA through national federations. Those records establish the organisation's broad purpose, not a universal rulebook for every event carrying MMA in its name.
+
+### Amateur and professional are not interchangeable labels
+
+Competitions can have different eligibility, rules and organisational arrangements. A professional promotion's title should not be inserted into an amateur federation record as though it were the same championship. Identify the sanctioning body and category before describing a result. The word amateur is a competition context, not a judgement that the athletes' preparation or effort is unimportant.
+
+### A national federation and an international body differ
+
+A national organisation can be linked to an international federation while managing its own defined responsibilities. The relationship should be verified from the appropriate current records. Do not assume that a club, gym or event is a member simply because its name sounds official. An organisational diagram is useful only when the links are supported rather than invented.
+
+## What does the history establish?
+
+IMMAF's history identifies its formation in Sweden in 2012 and the inaugural world championships in 2014. It also describes the later merger with WMMAA in 2018. These are separate institutional milestones. A founding date does not mean every later competition format, member or procedure already existed in the same form from the beginning.
+
+### An anniversary is not a new founding event
+
+A tenth-anniversary article can provide historical context without describing a new organisation created that year. Read the date attached to each milestone. A timeline should preserve formation, first championship and merger as distinct entries. This prevents a short summary from shifting the organisation's origin simply because an anniversary page appears high in search results.
+
+### Recognition goals and achieved recognition differ
+
+An organisation can state an ambition to gain wider recognition. That does not establish that every recognition has already been granted. Preserve the difference between a goal and a documented status. A responsible explainer should not convert future-oriented language into a claim about a current Olympic programme or universal authority over every competition.
+
+## How should an MMA event be identified?
+
+Record the full event name, organiser, date, location and category. A world championship, a national trial and a club exhibition are different events. Similar venue photographs or familiar athletes do not make them interchangeable. The official event record should establish which competition a result belongs to before the score or medal is described.
+
+### A result needs more than a fighter's name
+
+The same athlete can enter different competitions over time, and another person can have a similar name. Match the identity to the country, event and category where reliable records provide them. A search result or forwarded card can omit the qualifiers. A student report should restore enough context to identify the actual achievement without publishing unnecessary private details.
+
+### The category is part of the result
+
+Age and weight categories can define separate fields. A title in one category is not an unrestricted title across all competitors. Keep the official category with the medal or bracket result. This is not diminishing the achievement; it is explaining exactly what was won and making comparisons fairer between events with different structures.
+
+### A photograph does not prove affiliation
+
+A picture of an amateur bout can illustrate the sport without showing an IMMAF championship. The caption must make that distinction. A cage, mat or official-looking banner does not by itself establish the sanctioning body. This guide uses images as clearly labelled context rather than claiming that every pictured contest was run by the federation.
+
+## What is a competition bracket?
+
+A bracket shows how entrants progress through an event's structure. It may include byes or other arrangements, so the round reached does not always reveal the exact number of contests won. Use the actual bracket when counting results. A generic diagram can teach the idea, but it should not replace the event record for a real athlete's route.
+
+### Entry and advancement are separate stages
+
+Being listed in a field establishes entry, while a later result establishes advancement or elimination. A predicted opponent is not the same as a confirmed completed contest. Keep those stages separate in a timeline. A preview announcing a possible final should not be rewritten as a medal result before the official outcome is available.
+
+### A bye is not a recorded bout win
+
+Advancing without a contest can place an athlete in a later round, but it should not be counted as a fought victory unless the record's definition explicitly supports that label. A clear table distinguishes advancement from contest outcome. The same principle applies to many sports and helps prevent inflated win counts from a simple reading of bracket positions.
+
+## How should results be read?
+
+An official result can identify the winner, method and stage under the event's system. Use the stated terminology rather than replace every outcome with knockout or points. This article does not teach technical interpretation of every rule or officiating decision. For a specific contest, the official result and applicable rules are the reference.
+
+### A decision is not a personal rating
+
+A recorded decision establishes the contest outcome under the judging system. It does not provide a complete measure of an athlete's character or future potential. A close result can be discussed with the relevant evidence, but an edited clip is not enough to declare every judge wrong. Keep a result description separate from an unsupported accusation.
+
+### An injury claim needs appropriate evidence
+
+A visible pause or medical attention does not establish a diagnosis. Avoid guessing about an athlete's health from a photograph or short clip. Participation and return decisions belong with appropriate professionals and the relevant event processes. A general educational article should explain the limits of observation rather than give a personal clearance judgement.
+
+## Why do age and eligibility rules need current documents?
+
+Rules can differ across competitions and change over time. A youth event and an adult event should not be assumed to allow identical actions or use the same procedures. This guide deliberately avoids supplying a universal age or participation checklist. Readers seeking to enter an event should use the current official documentation and the relevant responsible organisation.
+
+### A historical rule is not automatically today's rule
+
+An old tournament handbook can accurately describe its own event without applying to a later competition. Store the edition and date when using it as a source. If a new document supersedes it, preserve the history but do not present the old version as the current instruction. This is an important research habit for sport as well as other regulated activities.
+
+### Eligibility is not proved by a social post
+
+An athlete or gym announcing an intention to compete does not establish that all entry checks are complete. The official accepted field is another record. Avoid treating promotion as final approval. A clear report can describe the announcement while identifying what remains unconfirmed, rather than make a participation promise on behalf of an organisation.
+
+## What does anti-doping context mean here?
+
+The International Testing Agency identifies IMMAF among its partners and describes the organisation's broad purpose. That relationship is relevant institutional context. It is not evidence that every athlete has passed every possible test or that a particular product is safe to use. Individual rules, procedures and results require their own authoritative records rather than assumptions from a partner page.
+
+### A partnership is not a personal certificate
+
+An institutional relationship can support a programme without resolving every individual case. Do not infer a competitor's testing history from the federation's logo or a sponsor banner. A student profile should avoid unsupported personal allegations as well as unsupported assurances. The evidence must be specific to the claim, especially when it could affect an athlete's reputation.
+
+### Do not offer supplement shortcuts
+
+This guide does not recommend substances, weight-cutting methods or ways to bypass eligibility safeguards. Its purpose is organisational and result literacy. Practical participation questions should be taken to the appropriate qualified people and official documents. A source-reading exercise can be valuable without giving instructions that depend on personal health, age or a particular competition's requirements.
+
+## How can students compare medal records?
+
+Use the same event scope, period and category definitions. A country's medal total and one athlete's record are different quantities. A team delegation can include several categories, while one competitor enters a defined field. A larger total does not automatically establish a stronger individual performance. Label the units before ranking or combining records.
+
+### A fictional medal table example
+
+Imagine one delegation earns two golds and one silver, while another earns one gold and three bronzes. The first has more gold medals; the second has more medals overall. Which comes first depends on the stated ranking convention. These are invented teaching inputs, not an IMMAF event result. The example shows why a table needs its sorting rule visible.
+
+### A medal and a bout count differ
+
+A medal position does not by itself reveal the exact number of contests completed. Bracket size, byes and event structure can affect the path. Use the actual records rather than infer a win total from the colour of a medal. This prevents a correct podium finish from being turned into an invented sequence of victories.
+
+## What should a respectful athlete profile include?
+
+Focus on verified competition identity, category, result and the evidence behind it. Avoid private contact details, medical speculation or a fictional personal story added to make the article emotional. A genuine achievement can be engaging without embellishment. If an athlete is young, public result information does not make every part of the person's life relevant to a sports report.
+
+### Historical images should stay historical
+
+An older competition photograph can illustrate amateur MMA when labelled accurately. It should not be captioned as the current final, a new injury or a particular athlete unless the source establishes that identity. Two images from the same event can show different aspects of the sport, but the captions should preserve what they actually depict rather than manufacture separate occasions.
+
+## A federation-and-results project for students
+
+Build two linked tables: organisations and events. Give each organisation a verified name and source, then connect an event only where the evidence supports the relationship. Add a separate results table with athlete, category, stage and official outcome. This structure is clearer than one large text field mixing an institution's history with an individual's latest result.
+
+### Add validation that matches the records
+
+Require event dates and source links, keep pending results distinct from completed ones and prevent the same result from being counted twice. A correction should retain a short explanation. Do not invent a medal when a source only shows entry or a future fixture. Meaningful checks protect the actual competition logic rather than merely make every row look complete.
+
+### Use the learning resources
+
+The [class resources](/classes/) can support the data and arithmetic, while the [programming courses](/courses/) offer a place to build the catalogue. Use fictional data first and keep it labelled. When adding real records, preserve category and date. A small transparent project can teach governance, source reading and data integrity without pretending to act as an official federation service.
+
+## Questions about IMMAF
+
+### Is IMMAF the same thing as every MMA promoter?
+
+No. An international amateur federation and a commercial promoter are different organisational categories. An event needs its own verified affiliation and rules. The broad term MMA does not establish who organised a particular contest or which framework applied. A clear article names the body and competition rather than use the sport's name as a substitute for those details.
+
+### Does a final appearance mean the athlete won gold?
+
+Not by itself. Reaching a final and winning it are separate stages. Use the official completed result before assigning the medal outcome. A preview or celebration of advancement can be genuine without being a championship announcement. Preserving that distinction respects the athlete's actual achievement and prevents an unfinished bracket from becoming a false published result.
+
+## Sources
+
+- [IMMAF: official institutional history](https://immaf.org/about/history/)
+- [IMMAF: tenth-anniversary history and merger context](https://immaf.org/2022/01/03/immaf-is-10-years-old/)
+- [International Testing Agency: IMMAF partner profile](https://ita.sport/partner/international-mixed-martial-arts-federation-immaf/)

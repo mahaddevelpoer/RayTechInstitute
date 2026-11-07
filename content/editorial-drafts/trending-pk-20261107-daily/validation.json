@@ -1,0 +1,79 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 20422,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 419,
+  "results": [
+    {
+      "key": "harmeet-dhillon",
+      "slug": "harmeet-dhillon-resignation-public-records-guide",
+      "words": 2078,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "sediqullah-atal",
+      "slug": "sediqullah-atal-century-batting-records-guide",
+      "words": 2017,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "chris-lynn",
+      "slug": "chris-lynn-t20-career-power-hitting-guide",
+      "words": 2023,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jisoo",
+      "slug": "jisoo-solo-releases-music-credits-guide",
+      "words": 2012,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "dean-norris",
+      "slug": "dean-norris-screen-roles-acting-guide",
+      "words": 2048,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "hasan-mahmud",
+      "slug": "hasan-mahmud-five-wickets-bowling-figures",
+      "words": 2010,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "olivia-rodrigo",
+      "slug": "olivia-rodrigo-sour-guts-songwriting-guide",
+      "words": 2046,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "young-sohn",
+      "slug": "young-sohn-technology-leadership-systems-guide",
+      "words": 2008,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "yangwang-u9-xtreme",
+      "slug": "yangwang-u9-xtreme-503-17-speed-record-guide",
+      "words": 2014,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "immaf-guide",
+      "slug": "immaf-amateur-mma-history-results-guide",
+      "words": 2166,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
