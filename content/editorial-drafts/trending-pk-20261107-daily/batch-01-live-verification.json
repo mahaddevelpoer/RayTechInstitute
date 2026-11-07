@@ -1,0 +1,315 @@
+{
+  "run": 42332549370,
+  "verificationRun": 42332549370,
+  "checkedAt": "2026-11-07T03:12:06.793Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 10,
+    "verified": 10,
+    "existingArticlesPreserved": 419,
+    "articles": [
+      "harmeet-dhillon-resignation-public-records-guide",
+      "sediqullah-atal-century-batting-records-guide",
+      "chris-lynn-t20-career-power-hitting-guide",
+      "jisoo-solo-releases-music-credits-guide",
+      "dean-norris-screen-roles-acting-guide",
+      "hasan-mahmud-five-wickets-bowling-figures",
+      "olivia-rodrigo-sour-guts-songwriting-guide",
+      "young-sohn-technology-leadership-systems-guide",
+      "yangwang-u9-xtreme-503-17-speed-record-guide",
+      "immaf-amateur-mma-history-results-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "harmeet-dhillon",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/harmeet-dhillon-resignation-public-records-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/harmeet-dhillon-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/harmeet-dhillon-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "sediqullah-atal",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/sediqullah-atal-century-batting-records-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/sediqullah-atal-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/sediqullah-atal-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "chris-lynn",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/chris-lynn-t20-career-power-hitting-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/chris-lynn-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/chris-lynn-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "jisoo",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/jisoo-solo-releases-music-credits-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/jisoo-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/jisoo-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "dean-norris",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/dean-norris-screen-roles-acting-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/dean-norris-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/dean-norris-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "hasan-mahmud",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/hasan-mahmud-five-wickets-bowling-figures/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/hasan-mahmud-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/hasan-mahmud-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "olivia-rodrigo",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/olivia-rodrigo-sour-guts-songwriting-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/olivia-rodrigo-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/olivia-rodrigo-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "young-sohn",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/young-sohn-technology-leadership-systems-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/young-sohn-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/young-sohn-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "yangwang-u9-xtreme",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/yangwang-u9-xtreme-503-17-speed-record-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/yangwang-u9-xtreme-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/yangwang-u9-xtreme-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "immaf-guide",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/immaf-amateur-mma-history-results-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/immaf-guide-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/immaf-guide-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

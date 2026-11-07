@@ -20,7 +20,7 @@
       "sha256": "c3cb80291b99aca6659763595131bc793bde06cc5ce297183f72ed8ba7aaccc2"
     }
   ],
-  "state": "research-in-progress",
+  "state": "selected-batch-published-more-review-pending",
   "rowDisposition": [
     {
       "row": 2,
@@ -87,8 +87,9 @@
       "searchVolume": "1k+",
       "started": "6 November 2026 at 21:20:00 UTC+5",
       "breakdown": "harmeet dhillon",
-      "state": "research-pending",
-      "group": "harmeet-dhillon"
+      "state": "published-live-verified",
+      "group": "harmeet-dhillon",
+      "target": "harmeet-dhillon-resignation-public-records-guide"
     },
     {
       "row": 10,
@@ -96,8 +97,9 @@
       "searchVolume": "20k+",
       "started": "6 November 2026 at 15:30:00 UTC+5",
       "breakdown": "sediqullah atal,zimbabwe vs afghanistan,graeme cremer",
-      "state": "research-pending",
-      "group": "sediqullah-atal"
+      "state": "published-live-verified",
+      "group": "sediqullah-atal",
+      "target": "sediqullah-atal-century-batting-records-guide"
     },
     {
       "row": 11,
@@ -115,8 +117,9 @@
       "searchVolume": "1k+",
       "started": "6 November 2026 at 17:00:00 UTC+5",
       "breakdown": "chris lynn",
-      "state": "research-pending",
-      "group": "chris-lynn"
+      "state": "published-live-verified",
+      "group": "chris-lynn",
+      "target": "chris-lynn-t20-career-power-hitting-guide"
     },
     {
       "row": 13,
@@ -124,8 +127,9 @@
       "searchVolume": "500+",
       "started": "6 November 2026 at 18:40:00 UTC+5",
       "breakdown": "jisoo",
-      "state": "research-pending",
-      "group": "jisoo"
+      "state": "published-live-verified",
+      "group": "jisoo",
+      "target": "jisoo-solo-releases-music-credits-guide"
     },
     {
       "row": 14,
@@ -177,8 +181,9 @@
       "searchVolume": "500+",
       "started": "6 November 2026 at 13:20:00 UTC+5",
       "breakdown": "dean norris",
-      "state": "research-pending",
-      "group": "dean-norris"
+      "state": "published-live-verified",
+      "group": "dean-norris",
+      "target": "dean-norris-screen-roles-acting-guide"
     },
     {
       "row": 20,
@@ -212,8 +217,9 @@
       "searchVolume": "100+",
       "started": "7 November 2026 at 05:20:00 UTC+5",
       "breakdown": "mixed martial arts",
-      "state": "research-pending",
-      "group": "immaf-guide"
+      "state": "published-live-verified",
+      "group": "immaf-guide",
+      "target": "immaf-amateur-mma-history-results-guide"
     },
     {
       "row": 24,
@@ -239,8 +245,9 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 09:20:00 UTC+5",
       "breakdown": "hasan mahmud,mushfiqur rahim,shamar joseph",
-      "state": "research-pending",
-      "group": "hasan-mahmud"
+      "state": "published-live-verified",
+      "group": "hasan-mahmud",
+      "target": "hasan-mahmud-five-wickets-bowling-figures"
     },
     {
       "row": 27,
@@ -318,8 +325,9 @@
       "searchVolume": "500+",
       "started": "6 November 2026 at 23:50:00 UTC+5",
       "breakdown": "byd yangwang u9 xtreme",
-      "state": "research-pending",
-      "group": "yangwang-u9-xtreme"
+      "state": "published-live-verified",
+      "group": "yangwang-u9-xtreme",
+      "target": "yangwang-u9-xtreme-503-17-speed-record-guide"
     },
     {
       "row": 36,
@@ -327,8 +335,9 @@
       "searchVolume": "200+",
       "started": "7 November 2026 at 00:00:00 UTC+5",
       "breakdown": "olivia rodrigo",
-      "state": "research-pending",
-      "group": "olivia-rodrigo"
+      "state": "published-live-verified",
+      "group": "olivia-rodrigo",
+      "target": "olivia-rodrigo-sour-guts-songwriting-guide"
     },
     {
       "row": 37,
@@ -336,8 +345,9 @@
       "searchVolume": "500+",
       "started": "6 November 2026 at 17:30:00 UTC+5",
       "breakdown": "young sohn",
-      "state": "research-pending",
-      "group": "young-sohn"
+      "state": "published-live-verified",
+      "group": "young-sohn",
+      "target": "young-sohn-technology-leadership-systems-guide"
     },
     {
       "row": 38,
@@ -407,8 +417,9 @@
       "searchVolume": "200+",
       "started": "6 November 2026 at 19:10:00 UTC+5",
       "breakdown": "international mixed martial arts federation",
-      "state": "research-pending",
-      "group": "immaf-guide"
+      "state": "published-live-verified",
+      "group": "immaf-guide",
+      "target": "immaf-amateur-mma-history-results-guide"
     },
     {
       "row": 46,
@@ -557,7 +568,7 @@
       "queries": [
         "harmeet dhillon"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "harmeet-dhillon-resignation-public-records-guide"
     },
     {
@@ -567,7 +578,7 @@
       "queries": [
         "sediqullah atal"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "sediqullah-atal-century-batting-records-guide"
     },
     {
@@ -577,7 +588,7 @@
       "queries": [
         "chris lynn"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "chris-lynn-t20-career-power-hitting-guide"
     },
     {
@@ -587,7 +598,7 @@
       "queries": [
         "jisoo"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "jisoo-solo-releases-music-credits-guide"
     },
     {
@@ -597,7 +608,7 @@
       "queries": [
         "dean norris"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "dean-norris-screen-roles-acting-guide"
     },
     {
@@ -607,7 +618,7 @@
       "queries": [
         "hasan mahmud"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "hasan-mahmud-five-wickets-bowling-figures"
     },
     {
@@ -617,7 +628,7 @@
       "queries": [
         "olivia rodrigo"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "olivia-rodrigo-sour-guts-songwriting-guide"
     },
     {
@@ -627,7 +638,7 @@
       "queries": [
         "young sohn"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "young-sohn-technology-leadership-systems-guide"
     },
     {
@@ -637,7 +648,7 @@
       "queries": [
         "byd yangwang u9 xtreme"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "yangwang-u9-xtreme-503-17-speed-record-guide"
     },
     {
@@ -648,7 +659,7 @@
         "international mixed martial arts federation",
         "mixed martial arts"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "immaf-amateur-mma-history-results-guide"
     }
   ],
@@ -670,16 +681,23 @@
       "expectedSize": 10,
       "explicitUserAuthorization": true,
       "authorization": "User instructed processing latest CSV first with standing publication of completed ten-article batches.",
-      "state": "research-pending"
+      "state": "published-live-verified",
+      "hostingRun": 42332549370,
+      "verificationRun": 42332549370,
+      "checkedAt": "2026-11-07T03:12:06.793Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 419
+      }
     }
   ],
-  "published": 0,
-  "prepared": 0,
-  "remainingSelected": 10,
+  "published": 10,
+  "prepared": 10,
+  "remainingSelected": 0,
   "counts": {
     "needs-intent-review": 24,
     "already-covered": 10,
     "skipped-unclear": 15,
-    "research-pending": 11
+    "published-live-verified": 11
   }
 }
