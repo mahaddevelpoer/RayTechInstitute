@@ -1,0 +1,315 @@
+{
+  "run": 42335822967,
+  "verificationRun": 42335822967,
+  "checkedAt": "2026-11-07T03:55:52.160Z",
+  "receipt": {
+    "state": "database-saved-awaiting-hosting",
+    "inserted": 10,
+    "verified": 10,
+    "existingArticlesPreserved": 429,
+    "articles": [
+      "abu-dhabi-t10-2026-dates-teams-pakistan-time",
+      "icc-womens-champions-trophy-2027-india-dates",
+      "jaecoo-j5-bev-price-pakistan-comfort-premium",
+      "campus-drivers-reading-order-prime-video-guide",
+      "pakistan-foreign-exchange-reserves-sbp-data-guide",
+      "diwali-2026-date-diyas-deepavali-traditions",
+      "pakistan-uae-u19-2026-usman-khan-139-result",
+      "wwe-smackdown-november-6-2026-owens-punk-results",
+      "whatsapp-android-contextual-chat-preview-beta-status",
+      "sevilla-alaves-0-0-november-2026-match-guide"
+    ]
+  },
+  "evidence": [
+    {
+      "name": "abu-dhabi-t10",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/abu-dhabi-t10-2026-dates-teams-pakistan-time/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/abu-dhabi-t10-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/abu-dhabi-t10-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "womens-champions-trophy",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/icc-womens-champions-trophy-2027-india-dates/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/womens-champions-trophy-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/womens-champions-trophy-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "jaecoo-j5",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/jaecoo-j5-bev-price-pakistan-comfort-premium/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/jaecoo-j5-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/jaecoo-j5-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "campus-drivers",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/campus-drivers-reading-order-prime-video-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/campus-drivers-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/campus-drivers-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pakistan-reserves",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-foreign-exchange-reserves-sbp-data-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/pakistan-reserves-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/pakistan-reserves-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "diwali-guide",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/diwali-2026-date-diyas-deepavali-traditions/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/diwali-guide-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/diwali-guide-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pakistan-uae-u19",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-uae-u19-2026-usman-khan-139-result/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/pakistan-uae-u19-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/pakistan-uae-u19-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "wwe-guide",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/wwe-smackdown-november-6-2026-owens-punk-results/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/wwe-guide-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/wwe-guide-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "whatsapp-preview",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/whatsapp-android-contextual-chat-preview-beta-status/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/whatsapp-preview-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/whatsapp-preview-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "sevilla-alaves",
+      "batch": "20261107-daily",
+      "url": "https://raytechinstitute.com/blogs/sevilla-alaves-0-0-november-2026-match-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/sevilla-alaves-cover.webp",
+          "status": 200,
+          "present": true
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261107-daily/sevilla-alaves-inline.webp",
+          "status": 200,
+          "present": true
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

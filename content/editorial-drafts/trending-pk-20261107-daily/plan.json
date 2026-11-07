@@ -20,7 +20,7 @@
       "sha256": "c3cb80291b99aca6659763595131bc793bde06cc5ce297183f72ed8ba7aaccc2"
     }
   ],
-  "state": "research-in-progress",
+  "state": "selected-batch-published-more-review-pending",
   "rowDisposition": [
     {
       "row": 2,
@@ -28,8 +28,9 @@
       "searchVolume": "50k+",
       "started": "6 November 2026 at 09:00:00 UTC+5",
       "breakdown": "pak u19 vs uae u19,pak vs uae under 19,united arab emirates national under-19 cricket team,pak vs uae u19,pak vs uae,uae u19 vs pak u19,united arab emirates u-19 vs pakistan u-19,u19 asia cup 2026,asia cup under 19,pakistan u19 asia cup,pak u19,pakistan national under-19 cricket team vs united arab emirates national under-19 cricket team match scorecard,united arab emirates national under-19 cricket team vs pakistan national under-19 cricket team match scorecard,pak vs uae today match,paku19 vs uae u19,pak vs uae u19 live score,u 19 asia cup,u19,pakistan vs uae under 19,pak vs uae u19 live,uae vs pak,pak vs uae live,pak u19 vs uae,u19 pak vs uae,pak vs uae under 19 live score,pak 19 vs uae u19,pakistan national under-19 cricket team vs united arab emirates national under-19 cricket team standings",
-      "state": "research-pending",
-      "group": "pakistan-uae-u19"
+      "state": "published-live-verified",
+      "group": "pakistan-uae-u19",
+      "target": "pakistan-uae-u19-2026-usman-khan-139-result"
     },
     {
       "row": 3,
@@ -55,8 +56,9 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 14:10:00 UTC+5",
       "breakdown": "jaecoo j5 bev price in pakistan",
-      "state": "research-pending",
-      "group": "jaecoo-j5"
+      "state": "published-live-verified",
+      "group": "jaecoo-j5",
+      "target": "jaecoo-j5-bev-price-pakistan-comfort-premium"
     },
     {
       "row": 6,
@@ -81,8 +83,9 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 08:50:00 UTC+5",
       "breakdown": "t10,abu dhabi t10 league,t10 league,abu dhabi t10",
-      "state": "research-pending",
-      "group": "abu-dhabi-t10"
+      "state": "published-live-verified",
+      "group": "abu-dhabi-t10",
+      "target": "abu-dhabi-t10-2026-dates-teams-pakistan-time"
     },
     {
       "row": 9,
@@ -140,8 +143,9 @@
       "searchVolume": "500+",
       "started": "7 November 2026 at 00:40:00 UTC+5",
       "breakdown": "sevilla vs alavés",
-      "state": "research-pending",
-      "group": "sevilla-alaves"
+      "state": "published-live-verified",
+      "group": "sevilla-alaves",
+      "target": "sevilla-alaves-0-0-november-2026-match-guide"
     },
     {
       "row": 15,
@@ -157,8 +161,9 @@
       "searchVolume": "200+",
       "started": "7 November 2026 at 04:10:00 UTC+5",
       "breakdown": "abu dhabi t10 matches,t10 league 2026 schedule",
-      "state": "research-pending",
-      "group": "abu-dhabi-t10"
+      "state": "published-live-verified",
+      "group": "abu-dhabi-t10",
+      "target": "abu-dhabi-t10-2026-dates-teams-pakistan-time"
     },
     {
       "row": 17,
@@ -196,8 +201,9 @@
       "searchVolume": "500+",
       "started": "6 November 2026 at 17:20:00 UTC+5",
       "breakdown": "icc women's champions trophy",
-      "state": "research-pending",
-      "group": "womens-champions-trophy"
+      "state": "published-live-verified",
+      "group": "womens-champions-trophy",
+      "target": "icc-womens-champions-trophy-2027-india-dates"
     },
     {
       "row": 21,
@@ -270,8 +276,9 @@
       "searchVolume": "200+",
       "started": "6 November 2026 at 20:00:00 UTC+5",
       "breakdown": "campus drivers",
-      "state": "research-pending",
-      "group": "campus-drivers"
+      "state": "published-live-verified",
+      "group": "campus-drivers",
+      "target": "campus-drivers-reading-order-prime-video-guide"
     },
     {
       "row": 29,
@@ -287,8 +294,9 @@
       "searchVolume": "2k+",
       "started": "6 November 2026 at 11:40:00 UTC+5",
       "breakdown": "whatsapp android chat previews beta",
-      "state": "research-pending",
-      "group": "whatsapp-preview"
+      "state": "published-live-verified",
+      "group": "whatsapp-preview",
+      "target": "whatsapp-android-contextual-chat-preview-beta-status"
     },
     {
       "row": 31,
@@ -296,8 +304,9 @@
       "searchVolume": "1k+",
       "started": "6 November 2026 at 08:10:00 UTC+5",
       "breakdown": "foreign exchange reserves",
-      "state": "research-pending",
-      "group": "pakistan-reserves"
+      "state": "published-live-verified",
+      "group": "pakistan-reserves",
+      "target": "pakistan-foreign-exchange-reserves-sbp-data-guide"
     },
     {
       "row": 32,
@@ -462,8 +471,9 @@
       "searchVolume": "200+",
       "started": "6 November 2026 at 21:40:00 UTC+5",
       "breakdown": "diwali",
-      "state": "research-pending",
-      "group": "diwali-guide"
+      "state": "published-live-verified",
+      "group": "diwali-guide",
+      "target": "diwali-2026-date-diyas-deepavali-traditions"
     },
     {
       "row": 50,
@@ -559,8 +569,9 @@
       "searchVolume": "100+",
       "started": "6 November 2026 at 17:30:00 UTC+5",
       "breakdown": "wwe",
-      "state": "research-pending",
-      "group": "wwe-guide"
+      "state": "published-live-verified",
+      "group": "wwe-guide",
+      "target": "wwe-smackdown-november-6-2026-owens-punk-results"
     },
     {
       "row": 61,
@@ -682,7 +693,7 @@
         "t10",
         "abu dhabi t10 matches"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "abu-dhabi-t10-2026-dates-teams-pakistan-time"
     },
     {
@@ -692,7 +703,7 @@
       "queries": [
         "icc women's champions trophy"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "icc-womens-champions-trophy-2027-india-dates"
     },
     {
@@ -702,7 +713,7 @@
       "queries": [
         "jaecoo j5 bev price in pakistan"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "jaecoo-j5-bev-price-pakistan-comfort-premium"
     },
     {
@@ -712,7 +723,7 @@
       "queries": [
         "campus drivers"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "campus-drivers-reading-order-prime-video-guide"
     },
     {
@@ -722,7 +733,7 @@
       "queries": [
         "foreign exchange reserves"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "pakistan-foreign-exchange-reserves-sbp-data-guide"
     },
     {
@@ -732,7 +743,7 @@
       "queries": [
         "diwali"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "diwali-2026-date-diyas-deepavali-traditions"
     },
     {
@@ -742,7 +753,7 @@
       "queries": [
         "pak u19 vs uae u19"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "pakistan-uae-u19-2026-usman-khan-139-result"
     },
     {
@@ -752,7 +763,7 @@
       "queries": [
         "wwe"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "wwe-smackdown-november-6-2026-owens-punk-results"
     },
     {
@@ -762,7 +773,7 @@
       "queries": [
         "whatsapp android chat previews beta"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "whatsapp-android-contextual-chat-preview-beta-status"
     },
     {
@@ -772,7 +783,7 @@
       "queries": [
         "sevilla vs alavés"
       ],
-      "state": "draft-written-checks-pending",
+      "state": "published-live-verified",
       "slug": "sevilla-alaves-0-0-november-2026-match-guide"
     }
   ],
@@ -819,18 +830,24 @@
         "whatsapp-preview",
         "sevilla-alaves"
       ],
-      "state": "draft-written-checks-pending",
-      "validationFile": "validation-batch-02.json"
+      "state": "published-live-verified",
+      "validationFile": "validation-batch-02.json",
+      "hostingRun": 42335822967,
+      "verificationRun": 42335822967,
+      "checkedAt": "2026-11-07T03:55:52.160Z",
+      "databaseReadback": {
+        "inserted": 10,
+        "preserved": 429
+      }
     }
   ],
-  "published": 10,
-  "prepared": 10,
-  "remainingSelected": 10,
+  "published": 20,
+  "prepared": 20,
+  "remainingSelected": 0,
   "counts": {
-    "research-pending": 11,
+    "published-live-verified": 22,
     "needs-intent-review": 12,
     "already-covered": 11,
-    "skipped-unclear": 15,
-    "published-live-verified": 11
+    "skipped-unclear": 15
   }
 }

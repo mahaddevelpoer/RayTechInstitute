@@ -2,8 +2,12 @@
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-07",
   "sourceReview": "BATCH-02-RESEARCH.md",
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2032,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "hostingRun": 42335822967,
+  "verificationRun": 42335822967,
+  "liveUrl": "https://raytechinstitute.com/blogs/icc-womens-champions-trophy-2027-india-dates/",
+  "liveCheckedAt": "2026-11-07T03:55:52.160Z"
 }
