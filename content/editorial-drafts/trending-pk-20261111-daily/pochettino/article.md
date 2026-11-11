@@ -1,0 +1,135 @@
+## Mauricio Pochettino prepares the USMNT for Haiti
+
+Mauricio Pochettino's United States squad is preparing for a two-leg Concacaf Nations League quarter-final against Haiti. The first game is scheduled in Miami on 14 November 2026, followed by Cincinnati on 17 November. Jack McGlynn has replaced injured midfielder Gio Reyna in the 25-player training-camp roster.
+
+This is a national-team competition update, not confirmation of a club coaching appointment. It covers the latest roster changes, the unusual home designation for the Miami match and the Pakistan dates for both kick-offs. It also explains the aggregate-score rules that make this different from a single knockout game.
+
+The matches are still upcoming as of this preview. No starting eleven, first-leg score or eventual winner is presented as confirmed. The most useful preparation is to know the correct fixtures and understand the choices Pochettino faces when bringing players from different clubs together for a short international window.
+
+## Haiti–USA dates, venues and Pakistan time
+
+| Leg | Designated fixture | Venue | Eastern time | Pakistan time |
+| --- | --- | --- | --- | --- |
+| First | Haiti vs United States | Nu Stadium, Miami | 14 November, 4:30pm | 15 November, 2:30am |
+| Second | United States vs Haiti | TQL Stadium, Cincinnati | 17 November, 7:00pm | 18 November, 5:00am |
+
+The U.S. federation's team hub also displays the first kick-off as 21:30 GMT on 14 November and the second as 00:00 GMT on 18 November. Adding Pakistan's five-hour offset produces the morning times above. The change of calendar day is important when setting a reminder.
+
+A Tuesday evening fixture in Cincinnati can therefore be a Wednesday morning viewing appointment in Pakistan. Writing only “17 November” beside an unlabelled 5:00am would give Pakistan readers the wrong day, even if the hour itself had been converted correctly.
+
+These are scheduled kick-offs, not guarantees that every surrounding activity starts at the same time. Team announcements, television build-up, stadium gates and the actual start of play are separate events. Check the official match hub for any late alteration.
+
+## Why Haiti's home game is being played in Miami
+
+Concacaf approved an exceptional hosting arrangement for the Haitian federation. The first leg was moved from its previously announced Kingston, Jamaica location to Nu Stadium in Miami. It remains Haiti's home-designated match despite being played within the United States.
+
+The governing body's announcement says this arrangement requires the relevant approvals and is subject to review. It does not establish a permanent rule that every future Haiti match must take place in the opponent's country. The decision concerns an approved fixture under an exceptional arrangement.
+
+For a spectator reading the fixture order, home designation and physical location are therefore separate pieces of information. “Haiti vs USA” is not evidence that the stadium is in Haiti; “Miami” is not evidence that the USA has been assigned the home side for that leg.
+
+This distinction also prevents a misleading description of the tie as two ordinary U.S. home games. Both are physically in the country, but their competition designations differ. When applying competition rules, follow those designations rather than the nationality of the stadium's location.
+
+## What changed in Pochettino's roster?
+
+Pochettino initially named a 25-player camp group on 4 November. A subsequent federation update added defender Mark McKenzie in place of George Campbell, who withdrew through injury. The 7 November update then brought in McGlynn for Reyna. The group remained at 25 players after the replacements.
+
+That sequence matters when comparing a saved roster graphic with a newer article. A name missing from the original graphic may have been added officially later. Conversely, a player shown on the first list may no longer be available. The newest dated federation notice takes precedence over an older screenshot.
+
+The roster is a camp selection, not a promised starting side. A player can train with the team without starting either match, and a substitute can still make an important contribution. Wait for the match-day lineup before converting a roster position into a claim about a particular tactical assignment.
+
+The published group spans goalkeepers, defenders, midfielders and forwards. Those labels help organise the list, but they do not settle whether a full-back moves into midfield, a forward drops deeper or the coach changes shape during possession. That requires evidence from the actual game.
+
+## McGlynn's call-up: club form and a different team environment
+
+At the time of the federation's update, McGlynn had 13 senior U.S. appearances, two goals and two assists. The same report recorded five goals and two assists in eleven appearances for Stoke City after his summer move. Those are dated figures, not permanently fixed career totals.
+
+A good club run can make a player an attractive option, but international football changes the surrounding relationships. Teammates arrive from different leagues and may have only a few sessions to establish passing patterns. A familiar movement at club level might need explanation or adjustment in the national team.
+
+That is why a replacement should not automatically be described as an identical tactical substitute for the player who withdrew. Two midfielders can share a positional label while offering different preferred receiving spaces, passing choices or defensive habits. The coach must fit the available qualities into the team's wider plan.
+
+The call-up confirms selection; it does not confirm that McGlynn will start or reproduce a particular club statistic against Haiti. A preview can identify the question to watch without turning a possible role into a reported fact.
+
+## How to watch the midfield without following only the ball
+
+Pick one midfielder for a short passage and watch his position before he receives. Does he move away from a marker, show for a pass or stay behind the attack? The preparation often explains why the eventual pass appears simple.
+
+Then look at the receiver's body position. A player facing forward can see a different set of options from one receiving with his back to pressure. Teammates can help by offering a short support pass or moving into another lane. This is a useful way to study a team shape without needing tracking data.
+
+Finally, watch the first reaction after possession is lost. Does the nearest player pressure the ball while another protects the space behind? Does the team recover into a compact block? The answer may vary by situation, so one example should not become a blanket claim about Pochettino's full match plan.
+
+These are observational exercises, not instructions supposedly taken from the team's training ground. The actual selection and match footage will provide evidence of what the players do. Private tactical intentions should not be invented to fill the gap.
+
+## A two-leg tie is decided across both matches
+
+Concacaf's announcement specifies an aggregate winner across the quarter-final legs. Add each side's goals from the two matches. Winning one evening does not necessarily win the series, because the other match contributes to the same aggregate total.
+
+For an invented example, suppose Team A wins the first leg 2–0 and loses the second 1–0. Team A advances 2–1 on aggregate. It has lost the second match while still winning the tie. A headline about the individual game and a headline about the series can therefore describe different outcomes without contradicting each other.
+
+The important discipline is to keep the team labels fixed when doing the addition. Fixture order reverses between legs. Adding the left-hand score from each row would mix the two teams' goals if the first row is Haiti–USA and the second USA–Haiti.
+
+Create a simple two-column note, one for each country, if following the tie live. Record both first-leg totals and update only the appropriate country's column during the return. This avoids treating the second-leg scoreboard as if the series had restarted at zero.
+
+## Away goals apply here: do not import another tournament's rules
+
+Concacaf's current November schedule announcement says that away goals are the first tie-breaker if the aggregate is level. If the teams remain tied, extra time and, if necessary, a penalty shoot-out follow. Fans familiar with a competition that removed away goals should not assume the same rule applies everywhere.
+
+Consider another hypothetical tie: Team A draws 1–1 in its designated home leg and 0–0 away. The aggregate is 1–1, but Team B has scored one designated away goal and Team A none. Under the stated away-goals rule, that distinction matters even though the aggregate totals match.
+
+An away goal is not literally recorded as two goals on the match scoreboard. It is used to separate otherwise tied teams under the competition's rule. Keep the actual score and the tie-breaking calculation separate when describing the result.
+
+For this fixture, use the officially designated home and away sides, not a guess based on which country contains the stadium. The Miami hosting exception makes that particularly important. The published fixture labels establish Haiti's first-leg home designation and the USA's second-leg home designation.
+
+## What is at stake beyond the quarter-final?
+
+The quarter-final winners advance to the 2027 Concacaf Nations League Finals and qualify directly for the 2027 Concacaf Gold Cup. Losing quarter-finalists go to the Gold Cup Prelims. These are different paths, not an assertion that a defeated team has qualified directly for the main tournament.
+
+An earlier-round victory is also not the same as winning the Nations League trophy. Progression creates another stage to play. Keeping the stage in the headline helps distinguish a quarter-final preview, a semi-final appearance and a championship result.
+
+The [UEFA Nations League guide](/blogs/uefa-nations-league-november-2026-pakistan-times/) concerns a separate competition in Europe. This U.S.–Haiti tie belongs to Concacaf. The competitions share a name, but their teams, calendars and rules must not be blended into a single table.
+
+For a different format comparison, our [India–Maldives report](/blogs/india-maldives-saff-2026-result-group-b-standings/) explains a South Asian group-stage result. Group points there and aggregate goals here answer different questions. Reading the stage first is the quickest way to avoid mixing them up.
+
+## Why the first-leg plan may differ from a single final
+
+A two-leg contest gives the coach an additional context: another full match remains after the first. That can influence risk, substitutions and how a team responds to a late score. It does not prove that either side will play defensively or accept a particular result in advance.
+
+Imagine a team leading near the end of the first leg. Committing another player forward might create a chance to increase the advantage but also expose space on the counterattack. The decision depends on the actual game, available players and competition rules, not a slogan that one approach is always correct.
+
+The return leg changes the information available. Both sides know the first-leg score and can calculate what is needed. A substitution that appears cautious from the single-match scoreboard may serve the aggregate situation. Equally, a team chasing the tie may need to accept more risk.
+
+When judging Pochettino's decisions, connect the minute, the score and the series position. Avoid explaining every substitution through a presumed personal preference or a club rumour. The visible match context is a stronger starting point for analysis.
+
+## Broadcast information needs a territory label
+
+The U.S. federation lists TBS, truTV, Universo, HBO Max and Peacock for the matches. That is U.S. broadcast information. It does not establish that every listed service holds rights in Pakistan or that a subscription purchased in another territory will include the game.
+
+For Pakistan viewing, consult the local authorised schedule near kick-off. This article does not promise a verified free stream. An official live match hub can still provide the score, lineup and match status even where video access requires a separate rights holder.
+
+Short highlight clips are different from full live coverage. They can help review a goal or a tactical sequence after the game, but they should not be advertised as a complete broadcast. Before relying on any link, check what it actually offers and the date of the fixture it describes.
+
+## Questions about Pochettino's November matches
+
+### Is this article confirming a new club job?
+
+No. The verified news concerns Pochettino's current U.S. national-team preparations and roster changes. A search phrase containing another coach's name does not itself establish an appointment, departure or negotiation.
+
+### Why do Pakistan dates differ from U.S. dates?
+
+Pakistan is ahead of the listed U.S. kick-off zone, so both games fall after midnight here. Use 15 November for the first Pakistan viewing date and 18 November for the second, with the hours shown in the fixture table.
+
+### Does McGlynn's inclusion mean he is starting?
+
+No. He has been added to the camp roster. The starting lineup is a separate announcement for each match, and the coach can select different teams across the two legs.
+
+### Can the first-leg winner still be eliminated?
+
+Yes. The second match can change the aggregate result. Add the goals across both legs and apply the competition's tie-breakers if necessary, rather than treating one match as the entire contest.
+
+## Sources
+
+- [U.S. Soccer: Pochettino's original 25-player camp announcement](https://www.ussoccer.com/stories/2026/11/usmnt/nations-league-roster-vs-haiti-miami-cincinnati)
+- [U.S. Soccer: Jack McGlynn replaces Gio Reyna, 7 November 2026](https://www.ussoccer.com/stories/2026/11/usmnt/pochettino-adds-midfielder-jack-mcglynn-to-usmnt-roster-for-concacaf-nations-league-quarterfinals-haiti)
+- [U.S. Soccer: Mark McKenzie replaces George Campbell](https://www.ussoccer.com/stories/2026/11/usmnt/pochettino-adds-defender-mark-mckenzie-roster-concacaf-nations-league-haiti)
+- [Concacaf: exceptional hosting arrangement for Haiti](https://www.concacaf.com/competitions/nations-league/news/concacaf-council-approves-exceptional-hosting-arrangement-for-the-haitian-football-federation)
+- [Concacaf: November schedule and quarter-final progression rules](https://www.concacaf.com/competitions/nations-league/news/2026-27-concacaf-nations-league-november-schedule-confirmed)
+- [U.S. Soccer: current USMNT match hub and GMT schedule](https://www.ussoccer.com/teams/usmnt)

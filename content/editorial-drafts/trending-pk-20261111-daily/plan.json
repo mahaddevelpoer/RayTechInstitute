@@ -633,7 +633,9 @@
       "rows": [
         12
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Mauricio Pochettino: USMNT Haiti Roster, Dates and Pakistan Times",
+      "slug": "pochettino-usmnt-haiti-roster-november-2026-pakistan-times"
     },
     {
       "key": "abdul-majeed-achakzai",
@@ -1023,6 +1025,16 @@
       "revision": "23b285bf29c2251cff5fe41a76f3c2cb90030ca5",
       "workflowRun": "43076591514",
       "liveVerifiedAt": "2026-11-11T18:24:54.379Z"
+    },
+    {
+      "number": 10,
+      "keys": [
+        "pochettino"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
+      "state": "draft-written",
+      "validationFile": "batch-10-validation.json"
     }
   ],
   "state": "batch-09-published-next-research-pending"
