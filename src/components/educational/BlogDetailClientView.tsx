@@ -349,7 +349,7 @@ export function BlogDetailClientView({
         </Link>{" "}
         with the article URL and original source.
       </p>
-      {post.seo?.enabled?.includes('sources')&&post.seo.sources&&<section className="mt-8 text-sm"><h2 className="font-semibold">Sources</h2><ul>{post.seo.sources.split('\n').filter(url=>/^https:\/\//.test(url.trim())).map(url=><li key={url}><a href={sanitizeUrl(url.trim())} target="_blank" rel="noopener noreferrer">Source</a></li>)}</ul></section>}
+      {post.seo?.enabled?.includes('sources')&&post.seo.sources&&!/^#{1,6}\s+Sources\s*$/mi.test(post.content)&&<section className="mt-8 text-sm"><h2 className="font-semibold">Sources</h2><ul>{post.seo.sources.split('\n').filter(url=>/^https:\/\//.test(url.trim())).map(url=><li key={url}><a href={sanitizeUrl(url.trim())} target="_blank" rel="noopener noreferrer">Source</a></li>)}</ul></section>}
       {post.seo?.enabled?.includes('internalLinks')&&post.seo.internalLinks&&<nav aria-label="Related pages" className="mt-6"><h2 className="font-semibold">Related reading</h2>{post.seo.internalLinks.split('\n').filter(url=>url.startsWith('/')&&!url.startsWith('//')).map(url=><p key={url}><Link href={url.trim()}>{url.trim()}</Link></p>)}</nav>}
       {/* Tags */}
       <div className="mt-8 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">

@@ -35,6 +35,8 @@ const CHAPTER_REVIEW_PENDING = new Set(['mcq-1791959684546-sn62b','mcq-179195968
 export const INITIAL_MCQS = (STATIC_OVERRIDES.mcqs ?? SEED_MCQS).filter(item=>!CHAPTER_REVIEW_PENDING.has(item.id));
 export const INITIAL_PAST_PAPERS = STATIC_OVERRIDES.pastPapers ?? SEED_PAST_PAPERS;
 export const INITIAL_GAZETTES = STATIC_OVERRIDES.gazettes ?? SEED_GAZETTES;
-export const INITIAL_BLOGS = STATIC_OVERRIDES.blogs ?? SEED_BLOGS;
+// Identical 8-November duplicate retained in the database for editorial history.
+// Its public URL redirects permanently to the original article in public/_redirects.
+export const INITIAL_BLOGS = (STATIC_OVERRIDES.blogs ?? SEED_BLOGS).filter(post => post.id !== 'blog-1794137592576');
 export const INITIAL_VIDEO_MCQS = STATIC_OVERRIDES.videoMcqs ?? SEED_VIDEO_MCQS;
 export const INITIAL_CHAPTERS = STATIC_OVERRIDES.chapters ?? Object.values(derivedSeedChapters);
