@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2272,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-11",
   "scope": "Completed first-Test result and independently calculated scorecard arithmetic. Different intent from the existing October series-planning and country-profile articles. No unresolved exact start time or future result asserted.",
   "imageReviewNote": "Viewed final player portrait and club-cricket ball image. Rejected unrelated singer, reused venue files and a mislabelled airport image. Final captions explicitly distinguish illustrative archive images from the Sharjah Test.",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/zimbabwe-afghanistan-sharjah-test-draw-november-2026/",
+  "liveVerifiedAt": "2026-11-11T14:54:36.448Z",
+  "releaseRevision": "63dbacf5f3524867dfe12237766173bf3ba8aff7",
+  "workflowRun": "43042204923"
 }

@@ -64,8 +64,9 @@
       "row": 8,
       "query": "زمبابوے قومی کرکٹ ٹیم",
       "breakdown": "زمبابوے قومی کرکٹ ٹیم",
-      "state": "needs-research",
-      "group": "zimbabwe-cricket"
+      "state": "published-live-verified",
+      "group": "zimbabwe-cricket",
+      "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026"
     },
     {
       "row": 9,
@@ -588,7 +589,7 @@
       "rows": [
         8
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Zimbabwe vs Afghanistan Test Draw: Sharjah Scores and Next Match",
       "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
       "queries": [
@@ -949,9 +950,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval; current user request to continue the November 11 queue.",
-      "state": "draft-written",
-      "validationFile": "batch-05-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-05-validation.json",
+      "revision": "63dbacf5f3524867dfe12237766173bf3ba8aff7",
+      "workflowRun": "43042204923",
+      "liveVerifiedAt": "2026-11-11T14:54:36.448Z"
     }
   ],
-  "state": "batch-04-published-next-research-pending"
+  "state": "batch-05-published-next-research-pending"
 }

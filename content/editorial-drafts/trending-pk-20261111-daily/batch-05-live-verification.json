@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T14:54:36.448Z",
+  "expectedRevision": "63dbacf5f3524867dfe12237766173bf3ba8aff7",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T14:51:46.806Z",
+    "revision": "63dbacf5f3524867dfe12237766173bf3ba8aff7",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 580,
+    "sitemapSha256": "ea192f435e16c3d60ed4ef7ac8a728291ea4f0d0876632efe81e71bdbeb3dc3c",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43042204923"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "zimbabwe-cricket",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/zimbabwe-afghanistan-sharjah-test-draw-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/zimbabwe-cricket-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/zimbabwe-cricket-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
