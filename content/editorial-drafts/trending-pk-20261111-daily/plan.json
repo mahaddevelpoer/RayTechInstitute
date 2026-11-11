@@ -456,8 +456,9 @@
       "row": 61,
       "query": "real madrid vs paris fc",
       "breakdown": "real madrid vs paris fc",
-      "state": "needs-research",
-      "group": "real-madrid-paris-fc"
+      "state": "published-live-verified",
+      "group": "real-madrid-paris-fc",
+      "slug": "real-madrid-paris-fc-3-0-womens-champions-league-2026"
     },
     {
       "row": 62,
@@ -817,7 +818,7 @@
       "rows": [
         61
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Real Madrid vs Paris FC 3-0: Goals and Women’s Champions League Context",
       "slug": "real-madrid-paris-fc-3-0-womens-champions-league-2026"
     },
@@ -1001,9 +1002,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-08-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-08-validation.json",
+      "revision": "5536036a1613668f92ec745ed5776eebd84a9352",
+      "workflowRun": "43071932369",
+      "liveVerifiedAt": "2026-11-11T17:56:56.352Z"
     }
   ],
-  "state": "batch-07-published-next-research-pending"
+  "state": "batch-08-published-next-research-pending"
 }

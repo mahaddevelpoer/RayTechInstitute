@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T17:56:56.352Z",
+  "expectedRevision": "5536036a1613668f92ec745ed5776eebd84a9352",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T17:52:36.152Z",
+    "revision": "5536036a1613668f92ec745ed5776eebd84a9352",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 583,
+    "sitemapSha256": "6248420808031ff17a8cbe3d692230bec89c310f0ccd7312a6a06e229b9d9fdf",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43071932369"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "real-madrid-paris-fc",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/real-madrid-paris-fc-3-0-womens-champions-league-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/real-madrid-paris-fc-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/real-madrid-paris-fc-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
