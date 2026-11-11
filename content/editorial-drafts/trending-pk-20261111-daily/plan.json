@@ -817,7 +817,9 @@
       "rows": [
         61
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Real Madrid vs Paris FC 3-0: Goals and Women’s Champions League Context",
+      "slug": "real-madrid-paris-fc-3-0-womens-champions-league-2026"
     },
     {
       "key": "tradingview",
@@ -991,6 +993,16 @@
       "revision": "ef145b0c4c6e4dc70861b8a7c914bcf3cca351f8",
       "workflowRun": "43050236272",
       "liveVerifiedAt": "2026-11-11T15:43:03.289Z"
+    },
+    {
+      "number": 8,
+      "keys": [
+        "real-madrid-paris-fc"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
+      "state": "draft-written",
+      "validationFile": "batch-08-validation.json"
     }
   ],
   "state": "batch-07-published-next-research-pending"
