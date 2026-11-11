@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Bay Oval.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bay_Oval.jpg/1280px-Bay_Oval.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bay_Oval.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Bay_Oval.jpg",
+    "creator": "Bradley-John Watling",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Bay Oval cricket ground in Mount Maunganui, photographed in 2017",
+    "description": "Bay Oval is a cricket ground in Mount Maunganui, Tauranga, New Zealand.",
+    "caption": "Archive venue view: Bay Oval, Mount Maunganui, December 2017. Not a photograph of the November 2026 India matches.",
+    "width": 2048,
+    "height": 936,
+    "bytes": 220884,
+    "sha1": "4fdf8de257ea4262abb08d75b6095c91a05612c4",
+    "photographedAt": "2017-12-13",
+    "query": "intitle:Bay intitle:Oval",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Bay Oval 2024.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Bay_Oval_2024.jpg/1280px-Bay_Oval_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bay_Oval_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Bay_Oval_2024.jpg",
+    "creator": "NZDF",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "A second view of Bay Oval cricket ground from January 2024",
+    "description": "Bay Oval Bay Oval",
+    "caption": "Archive: Bay Oval in January 2024. This image illustrates the venue, not the forthcoming matches or current pitch conditions.",
+    "width": 3936,
+    "height": 2624,
+    "bytes": 7577108,
+    "sha1": "5225d7427188cc0469333133587c447f8a4d9d5a",
+    "photographedAt": "2024-01-20 15:41:39",
+    "query": "intitle:Bay intitle:Oval",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

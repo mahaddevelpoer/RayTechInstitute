@@ -736,7 +736,9 @@
       "rows": [
         31
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "New Zealand vs India: Bay Oval ODI Dates, Squads and Time Check",
+      "slug": "new-zealand-india-bay-oval-odis-november-2026-guide"
     },
     {
       "key": "visionquest-episode8",
@@ -1007,6 +1009,16 @@
       "revision": "5536036a1613668f92ec745ed5776eebd84a9352",
       "workflowRun": "43071932369",
       "liveVerifiedAt": "2026-11-11T17:56:56.352Z"
+    },
+    {
+      "number": 9,
+      "keys": [
+        "new-zealand-cricket"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
+      "state": "draft-written",
+      "validationFile": "batch-09-validation.json"
     }
   ],
   "state": "batch-08-published-next-research-pending"
