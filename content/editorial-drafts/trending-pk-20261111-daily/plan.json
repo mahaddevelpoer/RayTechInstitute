@@ -798,7 +798,13 @@
       "rows": [
         65
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "TradingView Beginner Guide: Charts, Data and Paper Trading",
+      "slug": "tradingview-beginner-guide-charts-data-paper-trading",
+      "queries": [
+        "New York Stock Exchange trading floor",
+        "London Stock Exchange"
+      ]
     },
     {
       "key": "uefa-nations-league",
@@ -875,6 +881,16 @@
       "revision": "ac4624eefb60f70fa33e27c1d7be720802eb2942",
       "workflowRun": "43007079491",
       "liveVerifiedAt": "2026-11-11T11:02:54.216Z"
+    },
+    {
+      "number": 2,
+      "keys": [
+        "tradingview"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "User requested the next topic; standing authorization to publish completed articles.",
+      "state": "draft-written",
+      "validationFile": "batch-02-validation.json"
     }
   ],
   "state": "batch-01-published-next-research-pending"

@@ -23,4 +23,6 @@ async function candidates(query){
  });
 }
 
-for(const g of plan.groups.filter(g=>plan.releaseBatches[0].keys.includes(g.key))){const dir=root+'/'+g.key;fs.mkdirSync(dir,{recursive:true});const file=dir+'/images-candidates.json';if(fs.existsSync(file)){console.log(g.key+': cached');continue;}const selected=[];for(let n=0;n<2;n++){try{const found=await candidates(g.queries[n]);const pick=found.find(i=>!used.has(i.sha1));if(pick){selected.push({...pick,role:n?'inline':'cover'});used.add(pick.sha1);}else console.log(g.key+': missing '+g.queries[n]);}catch(e){console.log(g.key+': '+e.message);}}fs.writeFileSync(file,JSON.stringify(selected,null,2));console.log(g.key+': '+selected.length+' images');}
+const selectedKeys=process.argv.find(a=>a.startsWith('--articles='))?.slice(11).split(',')||plan.releaseBatches[0].keys;
+if(selectedKeys.some(key=>!plan.groups.some(g=>g.key===key)))throw Error('Unknown current-CSV article');
+for(const g of plan.groups.filter(g=>selectedKeys.includes(g.key))){const dir=root+'/'+g.key;fs.mkdirSync(dir,{recursive:true});const file=dir+'/images-candidates.json';if(fs.existsSync(file)){console.log(g.key+': cached');continue;}const selected=[];for(let n=0;n<2;n++){try{const found=await candidates(g.queries[n]);const pick=found.find(i=>!used.has(i.sha1));if(pick){selected.push({...pick,role:n?'inline':'cover'});used.add(pick.sha1);}else console.log(g.key+': missing '+g.queries[n]);}catch(e){console.log(g.key+': '+e.message);}}fs.writeFileSync(file,JSON.stringify(selected,null,2));console.log(g.key+': '+selected.length+' images');}

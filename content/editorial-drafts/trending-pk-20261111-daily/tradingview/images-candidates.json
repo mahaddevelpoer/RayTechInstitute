@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Frankfurt Stock Exchange (Ank Kumar) 03.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg/1280px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
+    "creator": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Archival photograph of the Frankfurt Stock Exchange",
+    "description": "Frankfurt Stock Exchange (Ank Kumar)",
+    "caption": "The Frankfurt Stock Exchange in an archival photograph, illustrating the markets behind financial charts. This is not the TradingView interface.",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 4155710,
+    "sha1": "3d6b352c1a276d6893f6a565ed7cbd1655f0bd7e",
+    "photographedAt": "2015-11-17 12:49:05",
+    "query": "Frankfurt Stock Exchange",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:NY stock exchange interior LC-USZ62-94123.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/NY_stock_exchange_interior_LC-USZ62-94123.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/NY_stock_exchange_interior_LC-USZ62-94123.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:NY_stock_exchange_interior_LC-USZ62-94123.jpg",
+    "creator": "Unknown author Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:NY_stock_exchange_interior_LC-USZ62-94123.jpg",
+    "alt": "Historical interior photograph of the New York Stock Exchange",
+    "description": "Interior of New York Stock Exchange",
+    "caption": "An archival interior photograph of the New York Stock Exchange. It illustrates the history of organised markets, not a TradingView screen or current trading conditions.",
+    "width": 640,
+    "height": 485,
+    "bytes": 50808,
+    "sha1": "bf1721242eaf7ed2e2c737c677cbf9e10dd15888",
+    "photographedAt": "1920-09-04",
+    "query": "New York Stock Exchange trading floor",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

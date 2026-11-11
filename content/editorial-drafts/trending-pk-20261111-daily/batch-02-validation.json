@@ -1,0 +1,16 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 1,
+  "bodyWords": 2157,
+  "uniqueImages": 2,
+  "existingArticlesCompared": 469,
+  "results": [
+    {
+      "key": "tradingview",
+      "slug": "tradingview-beginner-guide-charts-data-paper-trading",
+      "words": 2157,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
