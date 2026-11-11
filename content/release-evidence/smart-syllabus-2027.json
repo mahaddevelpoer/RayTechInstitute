@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-11-11T09:44:04.979Z",
+  "revision": "017af851fd1b0edca54f20e92f6a94727973c416",
+  "workflow": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/42996806710",
+  "workflowConclusion": "success",
+  "articles": 15,
+  "subjectResources": 15,
+  "pdfs": 15,
+  "pdfPagesVerifiedAgainstOriginal": 127,
+  "sitemapMatchesBuild": true,
+  "adminNoindex": true,
+  "liveBrowser": {
+    "results": [
+      {
+        "width": 360,
+        "resourceNavigation": true,
+        "pdfPreview": true,
+        "pdfDownload": true,
+        "horizontalOverflow": false
+      },
+      {
+        "width": 1280,
+        "resourceNavigation": true,
+        "pdfPreview": true,
+        "pdfDownload": true,
+        "horizontalOverflow": false
+      }
+    ],
+    "errors": [],
+    "publicDatabaseReads": 0
+  },
+  "legacyDuplicate301Verified": true,
+  "classAndSubjectLinksVerified": true,
+  "databaseArticlesBefore": 444,
+  "insertedArticles": 15,
+  "databaseRowsDeleted": 0,
+  "existingArticleLinkRepair": "blog-1794136001771",
+  "duplicateDatabaseRowRetained": "blog-1794137592576",
+  "priorFullBuildFailure": 42995643192,
+  "cancelledContentOnlyRun": 42995377122,
+  "sourceGaps": [
+    "Current Grade 10 ALP not verified",
+    "Current Grade 9 Computer Science ALP not verified",
+    "Grade 11 Islamiat section footer says 2025-26 despite a 2026-27 heading; visibly disclosed"
+  ],
+  "articlesChecked": [
+    "/blogs/punjab-grade-9-physics-smart-syllabus-2027/",
+    "/blogs/punjab-grade-9-mathematics-smart-syllabus-2027/",
+    "/blogs/punjab-grade-9-chemistry-smart-syllabus-2027/",
+    "/blogs/punjab-grade-9-urdu-smart-syllabus-2027/",
+    "/blogs/punjab-grade-9-english-smart-syllabus-2027/",
+    "/blogs/punjab-grade-9-biology-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-english-smart-syllabus-2027/",
+    "/blogs/punjab-grade-9-islamiat-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-urdu-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-mathematics-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-physics-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-islamiat-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-computer-science-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-chemistry-smart-syllabus-2027/",
+    "/blogs/punjab-grade-11-biology-smart-syllabus-2027/"
+  ]
+}

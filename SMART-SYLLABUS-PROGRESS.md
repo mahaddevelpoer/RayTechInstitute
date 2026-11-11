@@ -30,4 +30,18 @@ Checked 11 November 2026. Scope: verified Punjab subject resources for session 2
 
 ## Hosting release
 
-Source and local checks are ready. GitHub login has been renewed. Database insert, hosted CI build and live article/PDF/sitemap verification remain pending until recorded below. Do not describe this release as live before those steps pass.
+Published and live-verified. Source revision: 017af851fd1b0edca54f20e92f6a94727973c416.
+
+- Full Cloudflare workflow 42996806710 succeeded, including source/security tests, static export, SEO gate and browser checks.
+- Fifteen new article records inserted and read back exactly. No database rows deleted.
+- Fifteen live articles, fifteen subject resources and fifteen PDFs returned correctly. PDF hashes and sitemap entries match the reviewed source/export.
+- Live 360px and 1280px browser checks passed for navigation, PDF preview and successful PDF download, with no horizontal overflow or page errors. Public database reads observed: zero.
+- Class and subject syllabus links verified live. Admin route has noindex.
+- A pre-existing notes test fixture was repaired; a long-token metadata edge case was fixed. The initial full run 42995643192 then identified two existing identical overview articles and broken links. Both database rows remain; only the original is listed publicly and the duplicate URL now returns a verified 301. Broken links in the original were repaired. The failed run is retained in the evidence history.
+- An initially dispatched content-only run 42995377122 was intentionally cancelled in favour of full source validation.
+
+Public directory: https://raytechinstitute.com/smart-syllabus/
+Admin editor: https://raytechinstitute.com/admin/smart-syllabus/
+Evidence: content/release-evidence/smart-syllabus-2027.json
+
+The source-verification gaps above remain explicit. This release does not claim a nonexistent Grade 10 or Grade 9 Computer Science document, resolution of the Islamiat footer conflict, guaranteed Google indexing/ranking, or a production-account end-to-end admin login test.
