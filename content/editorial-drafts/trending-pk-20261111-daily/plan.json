@@ -197,8 +197,9 @@
       "row": 26,
       "query": "ebenezer scrooge",
       "breakdown": "ebenezer scrooge,film",
-      "state": "needs-research",
-      "group": "ebenezer-scrooge"
+      "state": "published-live-verified",
+      "group": "ebenezer-scrooge",
+      "slug": "ebenezer-scrooge-2026-film-christmas-carol-guide"
     },
     {
       "row": 27,
@@ -683,7 +684,7 @@
       "rows": [
         26
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Ebenezer Scrooge: The 2026 Film and a Christmas Carol Reading Guide",
       "slug": "ebenezer-scrooge-2026-film-christmas-carol-guide",
       "queries": [
@@ -909,9 +910,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval; user asked to resume current article queue.",
-      "state": "draft-written",
-      "validationFile": "batch-03-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-03-validation.json",
+      "revision": "8427dc30b3e6bef3968c1424c2c87dae36f14266",
+      "workflowRun": "43034416210",
+      "liveVerifiedAt": "2026-11-11T14:05:54.667Z"
     }
   ],
-  "state": "batch-02-published-next-research-pending"
+  "state": "batch-03-published-next-research-pending"
 }

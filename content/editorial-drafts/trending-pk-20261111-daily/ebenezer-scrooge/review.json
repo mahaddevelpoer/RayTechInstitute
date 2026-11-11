@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2196,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-11",
   "scope": "New CSV only. Confirmed film announcement plus original literary analysis; no unverified Pakistan release or unseen-film review.",
   "imageReviewNote": "Inspected both final images: licensed Comic-Con 2026 promotional photograph and public-domain 1843 John Leech illustration. Captions distinguish event, original book and film.",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/ebenezer-scrooge-2026-film-christmas-carol-guide/",
+  "liveVerifiedAt": "2026-11-11T14:05:54.667Z",
+  "releaseRevision": "8427dc30b3e6bef3968c1424c2c87dae36f14266",
+  "workflowRun": "43034416210"
 }

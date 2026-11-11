@@ -30,4 +30,6 @@ Only the 11 November CSV is active. These are research leads, not published arti
 
 ## Next completion requirements
 
+Latest follow-up: organizer's updated English Nations League schedule is https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-uefa-nations-league-all-the-league-phase-fixtures/ . It explicitly uses CET, with 20:45 default kick-off unless stated. For November, CET is UTC+1 and Pakistan UTC+5; 20:45 CET becomes 00:45 PKT on the following calendar day. England's official page separately lists England-Croatia on 12 November at 19:45 GMT, corroborating that conversion: https://www.englandfootball.com/england/mens-senior-team/ . A federation update describes revised 2026/27 promotion/relegation treatment, so do not recycle older format rules: https://www.figc.it/en/figc/news/nations-league-2026-27-set-for-changes-the-two-best-third-placed-teams-remain-in-league-a-with-only-the-two-worst-fourth-placed-sides-relegated-automatically-nd7l449n . This remains research, not a completed article.
+
 Each manuscript still needs factual research, original writing, 42 relevant tags, two distinct licensed and visually reviewed images, exact metadata, duplicate checks, publication readback, and live HTML/listing/sitemap verification. This document supplies leads only.

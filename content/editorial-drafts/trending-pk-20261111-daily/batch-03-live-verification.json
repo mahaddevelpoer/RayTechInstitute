@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T14:05:54.667Z",
+  "expectedRevision": "8427dc30b3e6bef3968c1424c2c87dae36f14266",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T14:03:37.044Z",
+    "revision": "8427dc30b3e6bef3968c1424c2c87dae36f14266",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 578,
+    "sitemapSha256": "99da3a96d4b0355a6340f4141c17f7d8a3c594b4af7a56157cc567689c442eab",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43034416210"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "ebenezer-scrooge",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/ebenezer-scrooge-2026-film-christmas-carol-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/ebenezer-scrooge-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/ebenezer-scrooge-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
