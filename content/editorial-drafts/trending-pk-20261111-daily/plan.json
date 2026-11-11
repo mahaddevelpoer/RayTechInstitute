@@ -192,8 +192,9 @@
       "row": 25,
       "query": "kamindu mendis",
       "breakdown": "kamindu mendis",
-      "state": "needs-research",
-      "group": "kamindu-mendis"
+      "state": "published-live-verified",
+      "group": "kamindu-mendis",
+      "slug": "kamindu-mendis-rawalpindi-58-test-records-guide"
     },
     {
       "row": 26,
@@ -692,7 +693,7 @@
       "rows": [
         25
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Kamindu Mendis: Rawalpindi 58, Test Records and Bowling Explained",
       "slug": "kamindu-mendis-rawalpindi-58-test-records-guide"
     },
@@ -985,9 +986,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-07-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-07-validation.json",
+      "revision": "ef145b0c4c6e4dc70861b8a7c914bcf3cca351f8",
+      "workflowRun": "43050236272",
+      "liveVerifiedAt": "2026-11-11T15:43:03.289Z"
     }
   ],
-  "state": "batch-06-published-next-research-pending"
+  "state": "batch-07-published-next-research-pending"
 }

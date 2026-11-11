@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T15:43:03.289Z",
+  "expectedRevision": "ef145b0c4c6e4dc70861b8a7c914bcf3cca351f8",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T15:39:58.265Z",
+    "revision": "ef145b0c4c6e4dc70861b8a7c914bcf3cca351f8",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 582,
+    "sitemapSha256": "996dae3ba50e538bf4348fc08a3988d2ebb41f37e5d597e64903fb47502418fc",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43050236272"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "kamindu-mendis",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/kamindu-mendis-rawalpindi-58-test-records-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/kamindu-mendis-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/kamindu-mendis-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
