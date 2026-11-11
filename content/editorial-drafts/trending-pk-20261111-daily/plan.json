@@ -491,8 +491,9 @@
       "row": 66,
       "query": "uefa nations league",
       "breakdown": "uefa nations league",
-      "state": "needs-research",
-      "group": "uefa-nations-league"
+      "state": "published-live-verified",
+      "group": "uefa-nations-league",
+      "slug": "uefa-nations-league-november-2026-pakistan-times"
     },
     {
       "row": 67,
@@ -819,7 +820,7 @@
       "rows": [
         66
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "UEFA Nations League November 2026: Pakistan Times and Format",
       "slug": "uefa-nations-league-november-2026-pakistan-times",
       "queries": [
@@ -929,9 +930,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and current request to continue this CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-04-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-04-validation.json",
+      "revision": "19f96cdac02c07bec08b886082a0ebdcdc8c6b32",
+      "workflowRun": "43038251253",
+      "liveVerifiedAt": "2026-11-11T14:29:07.134Z"
     }
   ],
-  "state": "batch-03-published-next-research-pending"
+  "state": "batch-04-published-next-research-pending"
 }

@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T14:29:07.134Z",
+  "expectedRevision": "19f96cdac02c07bec08b886082a0ebdcdc8c6b32",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T14:27:15.371Z",
+    "revision": "19f96cdac02c07bec08b886082a0ebdcdc8c6b32",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 579,
+    "sitemapSha256": "48a09673bcec80681e8b3a147ecc0c3729c6cc68d090f6483edb0225ddec0f5d",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43038251253"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "uefa-nations-league",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/uefa-nations-league-november-2026-pakistan-times/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/uefa-nations-league-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/uefa-nations-league-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

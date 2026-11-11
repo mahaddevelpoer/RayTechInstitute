@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2203,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-11",
   "scope": "Upcoming fixtures and independently calculated PKT conversions; revised 2026/27 rules; no invented scores, broadcast rights or qualification claims.",
   "imageReviewNote": "Inspected final museum trophy and exterior Wembley photographs. Rejected maintenance and club-crowd candidates; final captions identify archival context. PKT conversions cross-checked with Intl Asia/Karachi.",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/uefa-nations-league-november-2026-pakistan-times/",
+  "liveVerifiedAt": "2026-11-11T14:29:07.134Z",
+  "releaseRevision": "19f96cdac02c07bec08b886082a0ebdcdc8c6b32",
+  "workflowRun": "43038251253"
 }
