@@ -819,7 +819,13 @@
       "rows": [
         66
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "UEFA Nations League November 2026: Pakistan Times and Format",
+      "slug": "uefa-nations-league-november-2026-pakistan-times",
+      "queries": [
+        "UEFA Nations League trophy",
+        "Wembley Stadium arch exterior"
+      ]
     },
     {
       "key": "love-in-disguise",
@@ -915,6 +921,16 @@
       "revision": "8427dc30b3e6bef3968c1424c2c87dae36f14266",
       "workflowRun": "43034416210",
       "liveVerifiedAt": "2026-11-11T14:05:54.667Z"
+    },
+    {
+      "number": 4,
+      "keys": [
+        "uefa-nations-league"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval and current request to continue this CSV.",
+      "state": "draft-written",
+      "validationFile": "batch-04-validation.json"
     }
   ],
   "state": "batch-03-published-next-research-pending"
