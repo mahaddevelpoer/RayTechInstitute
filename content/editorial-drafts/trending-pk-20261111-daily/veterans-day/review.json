@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2008,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-11",
   "scope": "Latest CSV only; no older pending queue resumed",
-  "localChecks": "validation.json",
-  "imageReviewNote": "Reviewed the 20-image contact sheet; replaced a blank game-logo image with a visible licensed photograph and inspected the replacement separately. Archival context explicitly captioned."
+  "localChecks": "batch-01-validation.json",
+  "imageReviewNote": "Reviewed the 20-image contact sheet; replaced a blank game-logo image with a visible licensed photograph and inspected the replacement separately. Archival context explicitly captioned.",
+  "liveVerifiedAt": "2026-11-11T11:02:54.216Z",
+  "liveUrl": "https://raytechinstitute.com/blogs/veterans-day-2026-date-history-meaning/",
+  "releaseRevision": "ac4624eefb60f70fa33e27c1d7be720802eb2942",
+  "workflowRun": "43007079491"
 }

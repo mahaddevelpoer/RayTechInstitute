@@ -19,15 +19,17 @@
       "row": 2,
       "query": "india national under-19 cricket team vs united arab emirates national under-19 cricket team standings",
       "breakdown": "india national under-19 cricket team vs united arab emirates national under-19 cricket team standings,acc u-19 asia cup,india national under-19 cricket team vs united arab emirates national under-19 cricket team match scorecard",
-      "state": "needs-research",
-      "group": "india-uae-u19"
+      "state": "published-live-verified",
+      "group": "india-uae-u19",
+      "slug": "india-uae-u19-2026-result-group-a-standings"
     },
     {
       "row": 3,
       "query": "oppo reno 17",
       "breakdown": "oppo reno 17",
-      "state": "needs-research",
-      "group": "oppo-reno17"
+      "state": "published-live-verified",
+      "group": "oppo-reno17",
+      "slug": "oppo-reno17-launch-november-2026-pakistan-time"
     },
     {
       "row": 4,
@@ -47,8 +49,9 @@
       "row": 6,
       "query": "whatsapp ios beta contacts tab",
       "breakdown": "whatsapp ios beta contacts tab",
-      "state": "needs-research",
-      "group": "whatsapp-ios-contacts"
+      "state": "published-live-verified",
+      "group": "whatsapp-ios-contacts",
+      "slug": "whatsapp-ios-beta-contacts-tab-rollout-privacy"
     },
     {
       "row": 7,
@@ -75,8 +78,9 @@
       "row": 10,
       "query": "single day",
       "breakdown": "single day",
-      "state": "needs-research",
-      "group": "singles-day"
+      "state": "published-live-verified",
+      "group": "singles-day",
+      "slug": "11-11-sale-pakistan-2026-price-voucher-checks"
     },
     {
       "row": 11,
@@ -140,15 +144,17 @@
       "row": 19,
       "query": "sydney thunder vs perth scorchers",
       "breakdown": "sydney thunder vs perth scorchers",
-      "state": "needs-research",
-      "group": "thunder-scorchers"
+      "state": "published-live-verified",
+      "group": "thunder-scorchers",
+      "slug": "perth-scorchers-sydney-thunder-women-november11-2026"
     },
     {
       "row": 20,
       "query": "veterans day 2026",
       "breakdown": "veterans day 2026",
-      "state": "needs-research",
-      "group": "veterans-day"
+      "state": "published-live-verified",
+      "group": "veterans-day",
+      "slug": "veterans-day-2026-date-history-meaning"
     },
     {
       "row": 21,
@@ -162,8 +168,9 @@
       "row": 22,
       "query": "pubg",
       "breakdown": "pubg",
-      "state": "needs-research",
-      "group": "pubg-mobile-47"
+      "state": "published-live-verified",
+      "group": "pubg-mobile-47",
+      "slug": "pubg-mobile-4-7-update-november-12-2026-guide"
     },
     {
       "row": 23,
@@ -218,8 +225,9 @@
       "row": 30,
       "query": "womens emerging nations trophy",
       "breakdown": "womens emerging nations trophy",
-      "state": "needs-research",
-      "group": "womens-emerging-trophy"
+      "state": "published-live-verified",
+      "group": "womens-emerging-trophy",
+      "slug": "womens-emerging-nations-trophy-2026-groups-pakistan"
     },
     {
       "row": 31,
@@ -267,8 +275,9 @@
       "row": 37,
       "query": "pubg mobile 4.7 update release date",
       "breakdown": "pubg mobile 4.7 update release date",
-      "state": "needs-research",
-      "group": "pubg-mobile-47"
+      "state": "published-live-verified",
+      "group": "pubg-mobile-47",
+      "slug": "pubg-mobile-4-7-update-november-12-2026-guide"
     },
     {
       "row": 38,
@@ -296,8 +305,9 @@
       "row": 41,
       "query": "pm youth loan scheme 2026",
       "breakdown": "pm youth loan scheme 2026",
-      "state": "needs-research",
-      "group": "pm-youth-loan"
+      "state": "published-live-verified",
+      "group": "pm-youth-loan",
+      "slug": "pm-youth-loan-2026-new-tier-25-million-guide"
     },
     {
       "row": 42,
@@ -361,8 +371,9 @@
       "row": 50,
       "query": "veterans day",
       "breakdown": "veterans day",
-      "state": "needs-research",
-      "group": "veterans-day"
+      "state": "published-live-verified",
+      "group": "veterans-day",
+      "slug": "veterans-day-2026-date-history-meaning"
     },
     {
       "row": 51,
@@ -383,8 +394,9 @@
       "row": 53,
       "query": "p@sha",
       "breakdown": "p@sha",
-      "state": "needs-research",
-      "group": "pasha"
+      "state": "published-live-verified",
+      "group": "pasha",
+      "slug": "pasha-it-firms-nccia-statement-explained"
     },
     {
       "row": 54,
@@ -397,8 +409,9 @@
       "row": 55,
       "query": "11.11 sale",
       "breakdown": "11.11 sale",
-      "state": "needs-research",
-      "group": "singles-day"
+      "state": "published-live-verified",
+      "group": "singles-day",
+      "slug": "11-11-sale-pakistan-2026-price-voucher-checks"
     },
     {
       "row": 56,
@@ -516,7 +529,7 @@
       "rows": [
         2
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "India under 19 cricket",
         "United Arab Emirates cricket"
@@ -529,7 +542,7 @@
       "rows": [
         3
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "OPPO Reno smartphone",
         "OPPO smartphone store"
@@ -552,7 +565,7 @@
       "rows": [
         6
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "WhatsApp mobile phone",
         "iPhone smartphone hand"
@@ -587,7 +600,7 @@
         10,
         55
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "online shopping smartphone",
         "parcel delivery"
@@ -621,7 +634,7 @@
       "rows": [
         19
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Perth Scorchers Women",
         "Sydney Thunder Women"
@@ -635,7 +648,7 @@
         20,
         50
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Veterans Day Arlington wreath",
         "Veterans Day parade"
@@ -649,7 +662,7 @@
         22,
         37
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "PUBG Mobile tournament",
         "mobile esports tournament"
@@ -683,7 +696,7 @@
       "rows": [
         30
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Thailand women cricket",
         "Scotland women cricket"
@@ -717,7 +730,7 @@
       "rows": [
         41
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "small business Pakistan shop",
         "agriculture farmer Pakistan"
@@ -744,7 +757,7 @@
       "rows": [
         53
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Pakistan software office",
         "software developer office"
@@ -857,9 +870,12 @@
       ],
       "expectedSize": 10,
       "explicitUserAuthorization": "Standing publication approval and latest user request for this CSV only.",
-      "state": "validated-ready-to-publish",
-      "validationFile": "batch-01-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-01-validation.json",
+      "revision": "ac4624eefb60f70fa33e27c1d7be720802eb2942",
+      "workflowRun": "43007079491",
+      "liveVerifiedAt": "2026-11-11T11:02:54.216Z"
     }
   ],
-  "state": "batch-01-validated"
+  "state": "batch-01-published-next-research-pending"
 }
