@@ -482,8 +482,9 @@
       "row": 65,
       "query": "tradingview",
       "breakdown": "tradingview",
-      "state": "needs-research",
-      "group": "tradingview"
+      "state": "published-live-verified",
+      "group": "tradingview",
+      "slug": "tradingview-beginner-guide-charts-data-paper-trading"
     },
     {
       "row": 66,
@@ -798,7 +799,7 @@
       "rows": [
         65
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "TradingView Beginner Guide: Charts, Data and Paper Trading",
       "slug": "tradingview-beginner-guide-charts-data-paper-trading",
       "queries": [
@@ -889,9 +890,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "User requested the next topic; standing authorization to publish completed articles.",
-      "state": "draft-written",
-      "validationFile": "batch-02-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-02-validation.json",
+      "revision": "d372c5fb246bd06455f7a31db5c8e0e6a5000810",
+      "workflowRun": "43028463534",
+      "liveVerifiedAt": "2026-11-11T13:25:58.021Z"
     }
   ],
-  "state": "batch-01-published-next-research-pending"
+  "state": "batch-02-published-next-research-pending"
 }

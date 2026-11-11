@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T13:25:58.021Z",
+  "expectedRevision": "d372c5fb246bd06455f7a31db5c8e0e6a5000810",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T13:24:00.137Z",
+    "revision": "d372c5fb246bd06455f7a31db5c8e0e6a5000810",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 570,
+    "sitemapSha256": "df785ac239bdf24ff998ed5c84b3903b7dd9c337a1a7c002b0024821e2ecb261",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43028463534"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "tradingview",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/tradingview-beginner-guide-charts-data-paper-trading/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/tradingview-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/tradingview-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
