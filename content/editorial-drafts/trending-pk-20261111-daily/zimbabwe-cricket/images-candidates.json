@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Craig-Ervine-Zimbabwe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Craig-Ervine-Zimbabwe.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Craig-Ervine-Zimbabwe.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Craig-Ervine-Zimbabwe.jpg",
+    "creator": "TheCricketer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Craig Ervine in an archival Zimbabwe cricket photograph",
+    "description": "Craig Ervine",
+    "caption": "Craig Ervine in an archival photograph. The image is not from the November 2026 Sharjah Test.",
+    "width": 1200,
+    "height": 900,
+    "bytes": 61887,
+    "sha1": "9b6b847eaf6ce49aa1224eab922392ec53204e5c",
+    "photographedAt": "2021-08-24",
+    "query": "Craig Ervine",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Cricket ball at Epping Foresters Cricket Club.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Cricket_ball_at_Epping_Foresters_Cricket_Club.jpg/1280px-Cricket_ball_at_Epping_Foresters_Cricket_Club.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Cricket_ball_at_Epping_Foresters_Cricket_Club.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricket_ball_at_Epping_Foresters_Cricket_Club.jpg",
+    "creator": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A cricket ball photographed at Epping Foresters Cricket Club in England",
+    "description": "Cricket ball at Epping Foresters Cricket Club at Epping , Essex , England. Mobile device view : Wikimedia (2021) makes it difficult to immediately view photo groups related to this image. To see its most relevant allied photos, click on Epping Foresters Cricket Club and this uploader's Cricket photos . You can add a click-through 'categories' button to the very bottom of photo-pages you view by going to settings... three-bar icon top left. Desktop view : Wikimedia (2021) makes it difficult to immediately view the helpful category links where you can find images related to this one in a variety of ways; for these go to the very bottom of the page. This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name number and/or time marking. Camera : Canon PowerShot SX60 HS Software : File lens-corrected, optimized, perhaps cropped, with DxO PhotoLab 4 Elite , and likely further optimized with Adobe Photoshop CS2 .",
+    "caption": "A club-cricket ball photographed in England, illustrating cricket equipment. It is not a match ball or photograph from the November 2026 Sharjah Test.",
+    "width": 3350,
+    "height": 3350,
+    "bytes": 10487054,
+    "sha1": "8b5a7851dabaadd84073e8b1c575f246927875fb",
+    "photographedAt": "2020-08-30 16:11:44",
+    "query": "intitle:Cricket intitle:ball",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

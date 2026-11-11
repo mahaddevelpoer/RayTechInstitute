@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2272,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-11",
+  "scope": "Completed first-Test result and independently calculated scorecard arithmetic. Different intent from the existing October series-planning and country-profile articles. No unresolved exact start time or future result asserted.",
+  "imageReviewNote": "Viewed final player portrait and club-cricket ball image. Rejected unrelated singer, reused venue files and a mislabelled airport image. Final captions explicitly distinguish illustrative archive images from the Sharjah Test.",
+  "localChecks": "validation.json"
+}

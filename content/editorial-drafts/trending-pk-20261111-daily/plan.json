@@ -588,7 +588,13 @@
       "rows": [
         8
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Zimbabwe vs Afghanistan Test Draw: Sharjah Scores and Next Match",
+      "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
+      "queries": [
+        "Craig Ervine",
+        "intitle:Cricket intitle:ball"
+      ]
     },
     {
       "key": "sania-saeed",
@@ -935,6 +941,16 @@
       "revision": "19f96cdac02c07bec08b886082a0ebdcdc8c6b32",
       "workflowRun": "43038251253",
       "liveVerifiedAt": "2026-11-11T14:29:07.134Z"
+    },
+    {
+      "number": 5,
+      "keys": [
+        "zimbabwe-cricket"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval; current user request to continue the November 11 queue.",
+      "state": "draft-written",
+      "validationFile": "batch-05-validation.json"
     }
   ],
   "state": "batch-04-published-next-research-pending"
