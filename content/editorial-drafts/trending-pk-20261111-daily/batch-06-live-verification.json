@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T15:24:06.555Z",
+  "expectedRevision": "461e245e3d3e95e60bba0202c526d06268f08839",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T15:21:11.451Z",
+    "revision": "461e245e3d3e95e60bba0202c526d06268f08839",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 581,
+    "sitemapSha256": "52971ce9f6a42b4b6c0036f1d6b1002c37d16f0b7e4aad7d3c5d425e74d5f29d",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43047038540"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "india-maldives",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/india-maldives-saff-2026-result-group-b-standings/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/india-maldives-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/india-maldives-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
