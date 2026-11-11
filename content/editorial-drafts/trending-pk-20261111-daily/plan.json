@@ -683,7 +683,13 @@
       "rows": [
         26
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Ebenezer Scrooge: The 2026 Film and a Christmas Carol Reading Guide",
+      "slug": "ebenezer-scrooge-2026-film-christmas-carol-guide",
+      "queries": [
+        "Johnny Depp portrait",
+        "John Leech Christmas Carol Marley Ghost"
+      ]
     },
     {
       "key": "pakistan-bangladesh-u19",
@@ -895,6 +901,16 @@
       "revision": "d372c5fb246bd06455f7a31db5c8e0e6a5000810",
       "workflowRun": "43028463534",
       "liveVerifiedAt": "2026-11-11T13:25:58.021Z"
+    },
+    {
+      "number": 3,
+      "keys": [
+        "ebenezer-scrooge"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval; user asked to resume current article queue.",
+      "state": "draft-written",
+      "validationFile": "batch-03-validation.json"
     }
   ],
   "state": "batch-02-published-next-research-pending"

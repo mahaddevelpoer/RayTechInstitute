@@ -1,0 +1,16 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 1,
+  "bodyWords": 2196,
+  "uniqueImages": 2,
+  "existingArticlesCompared": 470,
+  "results": [
+    {
+      "key": "ebenezer-scrooge",
+      "slug": "ebenezer-scrooge-2026-film-christmas-carol-guide",
+      "words": 2196,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
