@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Sania Saeed 2024.png",
+    "url": "/images/editorial/trending-pk-20261111-daily/sania-saeed-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sania_Saeed_2024.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Sania_Saeed_2024.png",
+    "creator": "The Citizens Foundation",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Sania Saeed in a public portrait from 2024",
+    "description": "Sania Saeed in 2024",
+    "caption": "Archive portrait: Sania Saeed in 2024. This is not a still from the November 2026 interview.",
+    "width": 720,
+    "height": 960,
+    "bytes": 25268,
+    "sha1": "2c78aa991b3616d46894d2dba2f62831e8c3934b",
+    "photographedAt": "2024-02-25",
+    "query": "intitle:Sania intitle:Saeed",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Pakistani Cat.JPG",
+    "url": "/images/editorial/trending-pk-20261111-daily/sania-saeed-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Pakistani_Cat.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Pakistani_Cat.JPG",
+    "creator": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "A cat photographed in Pakistan, used to illustrate animal-care discussion",
+    "description": "پاکستانی بلَی",
+    "caption": "Illustrative photograph of a cat in Pakistan. It is not identified as Saeed’s cat, an ACF animal or a particular rescue case.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 217114,
+    "sha1": "522d35fbcf42da32edfa67675860736f3e015eff",
+    "photographedAt": "",
+    "query": "intitle:cat intitle:Pakistan",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]
