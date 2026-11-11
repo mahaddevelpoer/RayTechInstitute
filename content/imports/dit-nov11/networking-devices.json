@@ -1,0 +1,1424 @@
+{
+  "key": "networking-devices",
+  "sourceFile": "Networking_Devices_chp 3 Mcqs.docx",
+  "sourceSha256": "b20085b1322651d4cc806d8ff587f2f379fa61186eb3821ccafa26d3115f60e0",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "Computer Networking",
+  "displayChapterNumber": 3,
+  "sourceSections": [
+    "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+    "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+    "3.3 Modem / موڈیم",
+    "3.4 Hub / ہب",
+    "3.5 Switch / سوئچ",
+    "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+    "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+    "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+    "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+    "3.7.1 Router / راؤٹر"
+  ],
+  "questions": [
+    {
+      "id": "dit-networking-devices-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "Which description best defines a node in a network?\nنیٹ ورک میں نوڈ کی درست تعریف کیا ہے؟",
+      "options": [
+        "A type of cable\nکیبل کی ایک قسم",
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ",
+        "A network address\nنیٹ ورک کا ایڈریس",
+        "A device connected to a network\nنیٹ ورک سے منسلک ڈیوائس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A device connected to a network\nنیٹ ورک سے منسلک ڈیوائس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "Which group provides examples of end nodes?\nاینڈ نوڈز کی مثالیں کون سی ہیں؟",
+      "options": [
+        "Computers and printers\nکمپیوٹر اور پرنٹر",
+        "Routers and switches\nراؤٹر اور سوئچ",
+        "A type of cable\nکیبل کی ایک قسم",
+        "A network address\nنیٹ ورک کا ایڈریس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Computers and printers\nکمپیوٹر اور پرنٹر"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "Which group includes networking nodes?\nنیٹ ورکنگ نوڈز کس گروپ میں شامل ہیں؟",
+      "options": [
+        "A type of cable\nکیبل کی ایک قسم",
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ",
+        "Computers and printers\nکمپیوٹر اور پرنٹر",
+        "Routers and switches\nراؤٹر اور سوئچ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Routers and switches\nراؤٹر اور سوئچ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "Why might a network node need an address?\nنیٹ ورک نوڈ کو ایڈریس کی ضرورت کیوں ہو سکتی ہے؟",
+      "options": [
+        "A type of cable\nکیبل کی ایک قسم",
+        "To identify a device\nڈیوائس کی شناخت کے لیے",
+        "To store passwords\nپاس ورڈ محفوظ کرنے کے لیے",
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To identify a device\nڈیوائس کی شناخت کے لیے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "When does a computer act as a network node?\nکمپیوٹر کب نیٹ ورک نوڈ کے طور پر کام کرتا ہے؟",
+      "options": [
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ",
+        "To store passwords\nپاس ورڈ محفوظ کرنے کے لیے",
+        "Only when it is offline\nصرف آف لائن ہونے پر",
+        "When it joins the network\nجب وہ نیٹ ورک سے جڑتی ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: When it joins the network\nجب وہ نیٹ ورک سے جڑتی ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "A printer connected to a network is best described as what?\nنیٹ ورک سے جڑا پرنٹر کس چیز کی مثال ہے؟",
+      "options": [
+        "A type of cable\nکیبل کی ایک قسم",
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ",
+        "A device connected to a network\nنیٹ ورک سے منسلک ڈیوائس",
+        "A network address\nنیٹ ورک کا ایڈریس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A device connected to a network\nنیٹ ورک سے منسلک ڈیوائس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "Which device is primarily a networking node rather than an end node?\nکون سی ڈیوائس اینڈ نوڈ کی بجائے نیٹ ورکنگ نوڈ ہے؟",
+      "options": [
+        "A device that only prints\nایسی ڈیوائس جو صرف پرنٹ کرتی ہے",
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ",
+        "A type of cable\nکیبل کی ایک قسم",
+        "A device that forwards traffic\nڈیٹا آگے بھیجنے والی ڈیوائس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A device that forwards traffic\nڈیٹا آگے بھیجنے والی ڈیوائس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "In a classroom LAN, which pair is an example of end nodes?\nکلاس روم کے LAN میں کون سا جوڑا اینڈ نوڈز کی مثال ہے؟",
+      "options": [
+        "A type of cable\nکیبل کی ایک قسم",
+        "Routers and switches\nراؤٹر اور سوئچ",
+        "Computers and printers\nکمپیوٹر اور پرنٹر",
+        "A network address\nنیٹ ورک کا ایڈریس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Computers and printers\nکمپیوٹر اور پرنٹر"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "What is the main distinction between an end node and a forwarding node?\nاینڈ نوڈ اور ڈیٹا آگے بھیجنے والے نوڈ میں بنیادی فرق کیا ہے؟",
+      "options": [
+        "A device that forwards traffic\nڈیٹا آگے بھیجنے والی ڈیوائس",
+        "A network address\nنیٹ ورک کا ایڈریس",
+        "A software update\nسافٹ ویئر کی اپ ڈیٹ",
+        "A device that only prints\nایسی ڈیوائس جو صرف پرنٹ کرتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A device that forwards traffic\nڈیٹا آگے بھیجنے والی ڈیوائس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "3.1 Node — Network Nodes / نیٹ ورک نوڈز",
+      "question": "Which item is NOT itself a network node?\nدرج ذیل میں سے کون سی چیز بذاتِ خود نیٹ ورک نوڈ نہیں ہے؟",
+      "options": [
+        "A device that only prints\nایسی ڈیوائس جو صرف پرنٹ کرتی ہے",
+        "A device that forwards traffic\nڈیٹا آگے بھیجنے والی ڈیوائس",
+        "A device connected to a network\nنیٹ ورک سے منسلک ڈیوائس",
+        "A type of cable\nکیبل کی ایک قسم"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A type of cable\nکیبل کی ایک قسم"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "What is the basic purpose of a NIC?\nNIC کا بنیادی مقصد کیا ہے؟",
+      "options": [
+        "Connects different networks by IP\nIP کی مدد سے مختلف نیٹ ورکس جوڑتا ہے",
+        "Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے",
+        "Displays web pages\nویب صفحات دکھاتا ہے",
+        "Connects a computer to a network\nکمپیوٹر کو نیٹ ورک سے جوڑتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Connects a computer to a network\nکمپیوٹر کو نیٹ ورک سے جوڑتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "Which identifier is commonly associated with a NIC?\nNIC کے ساتھ عموماً کون سی شناخت وابستہ ہوتی ہے؟",
+      "options": [
+        "Website URL\nویب سائٹ کا URL",
+        "MAC address\nMAC ایڈریس",
+        "Screen resolution\nاسکرین کی ریزولوشن",
+        "Printer name\nپرنٹر کا نام"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: MAC address\nMAC ایڈریس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "Which NIC type is appropriate for a wired LAN?\nوائرڈ LAN کے لیے کون سا NIC مناسب ہے؟",
+      "options": [
+        "Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے",
+        "Ethernet NIC\nایتھرنیٹ NIC",
+        "Wireless NIC\nوائرلیس NIC",
+        "Displays web pages\nویب صفحات دکھاتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ethernet NIC\nایتھرنیٹ NIC"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "Which NIC type allows network access without an Ethernet cable?\nایتھرنیٹ کیبل کے بغیر نیٹ ورک تک رسائی کے لیے کون سا NIC ہوتا ہے؟",
+      "options": [
+        "Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے",
+        "Displays web pages\nویب صفحات دکھاتا ہے",
+        "Ethernet NIC\nایتھرنیٹ NIC",
+        "Wireless NIC\nوائرلیس NIC"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Wireless NIC\nوائرلیس NIC"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "Which connector is typically used by a wired Ethernet NIC?\nوائرڈ ایتھرنیٹ NIC میں عموماً کون سا کنیکٹر استعمال ہوتا ہے؟",
+      "options": [
+        "RJ-45 port\nRJ-45 پورٹ",
+        "Screen resolution\nاسکرین کی ریزولوشن",
+        "Website URL\nویب سائٹ کا URL",
+        "HDMI port\nHDMI پورٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: RJ-45 port\nRJ-45 پورٹ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "A computer lacks any network interface. Which component should be added?\nکمپیوٹر میں نیٹ ورک انٹرفیس نہیں؛ کون سا جزو شامل کرنا چاہیے؟",
+      "options": [
+        "Connects different networks by IP\nIP کی مدد سے مختلف نیٹ ورکس جوڑتا ہے",
+        "Antivirus software\nاینٹی وائرس سافٹ ویئر",
+        "Hardware interface\nہارڈویئر انٹرفیس",
+        "Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Hardware interface\nہارڈویئر انٹرفیس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "Which OSI layer is most closely associated with the NIC MAC address?\nNIC کے MAC ایڈریس کا تعلق زیادہ تر OSI کی کس لیئر سے ہے؟",
+      "options": [
+        "Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے",
+        "Application layer\nایپلی کیشن لیئر",
+        "Data Link layer\nڈیٹا لنک لیئر",
+        "Displays web pages\nویب صفحات دکھاتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Data Link layer\nڈیٹا لنک لیئر"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "Which is NOT a primary function of a NIC?\nان میں سے کون سا NIC کا بنیادی کام نہیں ہے؟",
+      "options": [
+        "Connects a computer to a network\nکمپیوٹر کو نیٹ ورک سے جوڑتا ہے",
+        "Ethernet NIC\nایتھرنیٹ NIC",
+        "Hardware interface\nہارڈویئر انٹرفیس",
+        "Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Stores backup files\nبیک اَپ فائلیں محفوظ کرتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "What component lets a desktop send frames onto a wired LAN?\nڈیسک ٹاپ کو وائرڈ LAN پر فریم بھیجنے کے قابل کون بناتا ہے؟",
+      "options": [
+        "Connects different networks by IP\nIP کی مدد سے مختلف نیٹ ورکس جوڑتا ہے",
+        "Ethernet NIC\nایتھرنیٹ NIC",
+        "Antivirus software\nاینٹی وائرس سافٹ ویئر",
+        "Displays web pages\nویب صفحات دکھاتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ethernet NIC\nایتھرنیٹ NIC"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "3.2 Network Interface Card (NIC) / نیٹ ورک انٹرفیس کارڈ",
+      "question": "What type of component is a physical NIC?\nفزیکل NIC کس نوعیت کا جزو ہے؟",
+      "options": [
+        "Antivirus software\nاینٹی وائرس سافٹ ویئر",
+        "Screen resolution\nاسکرین کی ریزولوشن",
+        "Hardware interface\nہارڈویئر انٹرفیس",
+        "Website URL\nویب سائٹ کا URL"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Hardware interface\nہارڈویئر انٹرفیس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "What is the primary job of a modem?\nموڈیم کا بنیادی کام کیا ہے؟",
+      "options": [
+        "Modulates and demodulates signals\nسگنلز کی ماڈیولیشن اور ڈی ماڈیولیشن کرتا ہے",
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "Prints documents\nدستاویزات پرنٹ کرتا ہے",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Modulates and demodulates signals\nسگنلز کی ماڈیولیشن اور ڈی ماڈیولیشن کرتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "What is digital-to-transmission-signal conversion called?\nڈیجیٹل ڈیٹا کو ترسیلی سگنل میں بدلنے کا عمل کیا کہلاتا ہے؟",
+      "options": [
+        "Demodulation\nڈی ماڈیولیشن",
+        "Prints documents\nدستاویزات پرنٹ کرتا ہے",
+        "Modulation\nماڈیولیشن",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Modulation\nماڈیولیشن"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "What is conversion of a received signal back to digital data called?\nموصولہ سگنل کو دوبارہ ڈیجیٹل ڈیٹا میں بدلنے کا عمل کیا ہے؟",
+      "options": [
+        "Demodulation\nڈی ماڈیولیشن",
+        "Modulation\nماڈیولیشن",
+        "Prints documents\nدستاویزات پرنٹ کرتا ہے",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Demodulation\nڈی ماڈیولیشن"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "Which process prepares digital information for a suitable carrier signal?\nڈیجیٹل معلومات کو موزوں کیریئر سگنل پر منتقل کرنے کی تیاری کون سا عمل کرتا ہے؟",
+      "options": [
+        "Converts digital data for transmission\nڈیجیٹل ڈیٹا کو ترسیل کے قابل سگنل میں بدلتا ہے",
+        "Converts received signal to digital data\nموصولہ سگنل کو ڈیجیٹل ڈیٹا میں بدلتا ہے",
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Converts digital data for transmission\nڈیجیٹل ڈیٹا کو ترسیل کے قابل سگنل میں بدلتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "Which process recovers digital information from an incoming signal?\nآنے والے سگنل سے ڈیجیٹل معلومات واپس حاصل کرنے کا کام کیا ہے؟",
+      "options": [
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "Converts received signal to digital data\nموصولہ سگنل کو ڈیجیٹل ڈیٹا میں بدلتا ہے",
+        "Converts digital data for transmission\nڈیجیٹل ڈیٹا کو ترسیل کے قابل سگنل میں بدلتا ہے",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Converts received signal to digital data\nموصولہ سگنل کو ڈیجیٹل ڈیٹا میں بدلتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "A user needs equipment for an ISP line. Which connection is relevant?\nصارف کو ISP لائن کے لیے سامان چاہیے؛ کون سا کنکشن متعلق ہے؟",
+      "options": [
+        "Internet service connection\nانٹرنیٹ سروس سے کنکشن",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے",
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "Local monitor connection\nمقامی مانیٹر سے کنکشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Internet service connection\nانٹرنیٹ سروس سے کنکشن"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "Which is a type of modem mentioned in the chapter?\nباب میں موڈیم کی کون سی قسم بیان ہوئی ہے؟",
+      "options": [
+        "Prints documents\nدستاویزات پرنٹ کرتا ہے",
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "DSL modem\nDSL موڈیم",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: DSL modem\nDSL موڈیم"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "Which other modem type is also used for broadband access?\nبراڈبینڈ کے لیے موڈیم کی دوسری کون سی قسم استعمال ہوتی ہے؟",
+      "options": [
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "Prints documents\nدستاویزات پرنٹ کرتا ہے",
+        "Assigns file names\nفائلوں کے نام رکھتا ہے",
+        "Cable modem\nکیبل موڈیم"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Cable modem\nکیبل موڈیم"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "What task distinguishes a modem from a basic hub?\nکون سا کام موڈیم کو عام ہب سے ممتاز کرتا ہے؟",
+      "options": [
+        "Screen brightness control\nاسکرین کی روشنی کا کنٹرول",
+        "Prints documents\nدستاویزات پرنٹ کرتا ہے",
+        "Connects hosts within one LAN\nایک LAN میں ہوسٹس کو جوڑتا ہے",
+        "Network signal conversion\nنیٹ ورک سگنل کی تبدیلی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Network signal conversion\nنیٹ ورک سگنل کی تبدیلی"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "3.3 Modem / موڈیم",
+      "question": "Which task is unrelated to the modem?\nکون سا کام موڈیم سے متعلق نہیں ہے؟",
+      "options": [
+        "Demodulation\nڈی ماڈیولیشن",
+        "Modulates and demodulates signals\nسگنلز کی ماڈیولیشن اور ڈی ماڈیولیشن کرتا ہے",
+        "Screen brightness control\nاسکرین کی روشنی کا کنٹرول",
+        "Modulation\nماڈیولیشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Screen brightness control\nاسکرین کی روشنی کا کنٹرول"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "3.4 Hub / ہب",
+      "question": "What happens when a hub receives data on one port?\nجب ہب کو ایک پورٹ پر ڈیٹا ملتا ہے تو کیا ہوتا ہے؟",
+      "options": [
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے",
+        "Repeats incoming data to all other ports\nآنے والا ڈیٹا دوسرے تمام پورٹس پر بھیجتا ہے",
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے",
+        "Sends frames only to the intended MAC\nفریم صرف مطلوبہ MAC کو بھیجتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Repeats incoming data to all other ports\nآنے والا ڈیٹا دوسرے تمام پورٹس پر بھیجتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "3.4 Hub / ہب",
+      "question": "At which OSI layer does a basic hub operate?\nعام ہب OSI کی کس لیئر پر کام کرتا ہے؟",
+      "options": [
+        "Sends frames only to the intended MAC\nفریم صرف مطلوبہ MAC کو بھیجتا ہے",
+        "Network layer (Layer 3)\nنیٹ ورک لیئر (لیئر 3)",
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے",
+        "Physical layer (Layer 1)\nفزیکل لیئر (لیئر 1)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Physical layer (Layer 1)\nفزیکل لیئر (لیئر 1)"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "3.4 Hub / ہب",
+      "question": "How are collision domains arranged on a hub?\nہب میں کولیشن ڈومین کی ترتیب کیسی ہوتی ہے؟",
+      "options": [
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے",
+        "Separate collision domain per port\nہر پورٹ کا الگ کولیشن ڈومین",
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے",
+        "Shared collision domain\nمشترکہ کولیشن ڈومین"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Shared collision domain\nمشترکہ کولیشن ڈومین"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "3.4 Hub / ہب",
+      "question": "Which communication mode is characteristic of traditional hubs?\nروایتی ہب کی خاص کمیونیکیشن کون سی ہے؟",
+      "options": [
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے",
+        "Full-duplex communication\nفل ڈوپلیکس کمیونیکیشن",
+        "Half-duplex communication\nہاف ڈوپلیکس کمیونیکیشن",
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Half-duplex communication\nہاف ڈوپلیکس کمیونیکیشن"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "3.4 Hub / ہب",
+      "question": "Why does a hub create unnecessary traffic?\nہب غیر ضروری ٹریفک کیوں پیدا کرتا ہے؟",
+      "options": [
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے",
+        "Repeats incoming data to all other ports\nآنے والا ڈیٹا دوسرے تمام پورٹس پر بھیجتا ہے",
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے",
+        "Sends frames only to the intended MAC\nفریم صرف مطلوبہ MAC کو بھیجتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Repeats incoming data to all other ports\nآنے والا ڈیٹا دوسرے تمام پورٹس پر بھیجتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "3.4 Hub / ہب",
+      "question": "Which device behavior is more selective than a hub?\nکون سا طرزِ عمل ہب کی نسبت زیادہ منتخب ہے؟",
+      "options": [
+        "Sends frames only to the intended MAC\nفریم صرف مطلوبہ MAC کو بھیجتا ہے",
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے",
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے",
+        "Repeats incoming data to all other ports\nآنے والا ڈیٹا دوسرے تمام پورٹس پر بھیجتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Sends frames only to the intended MAC\nفریم صرف مطلوبہ MAC کو بھیجتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "3.4 Hub / ہب",
+      "question": "What is a common advantage of a basic hub?\nعام ہب کا ایک فائدہ کیا ہے؟",
+      "options": [
+        "Advanced routing features\nجدید راؤٹنگ خصوصیات",
+        "Simple and inexpensive\nسادہ اور کم قیمت",
+        "Converts signals for an ISP\nISP کے لیے سگنلز تبدیل کرتا ہے",
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Simple and inexpensive\nسادہ اور کم قیمت"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "3.4 Hub / ہب",
+      "question": "What is a common disadvantage of using hubs?\nہب استعمال کرنے کا ایک نقصان کیا ہے؟",
+      "options": [
+        "Advanced routing features\nجدید راؤٹنگ خصوصیات",
+        "More unnecessary traffic\nزیادہ غیر ضروری ٹریفک",
+        "Selects Internet routes using IP\nIP سے انٹرنیٹ کے راستے منتخب کرتا ہے",
+        "Less unnecessary traffic\nکم غیر ضروری ٹریفک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: More unnecessary traffic\nزیادہ غیر ضروری ٹریفک"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "3.4 Hub / ہب",
+      "question": "Which feature is NOT expected from a simple hub?\nسادہ ہب سے کس خصوصیت کی توقع نہیں کی جاتی؟",
+      "options": [
+        "Repeats incoming data to all other ports\nآنے والا ڈیٹا دوسرے تمام پورٹس پر بھیجتا ہے",
+        "Shared collision domain\nمشترکہ کولیشن ڈومین",
+        "Advanced routing features\nجدید راؤٹنگ خصوصیات",
+        "Physical layer (Layer 1)\nفزیکل لیئر (لیئر 1)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Advanced routing features\nجدید راؤٹنگ خصوصیات"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "3.4 Hub / ہب",
+      "question": "When two stations send simultaneously through a hub, what is the main concern?\nہب پر دو اسٹیشن ایک ساتھ بھیجیں تو بنیادی مسئلہ کیا ہوتا ہے؟",
+      "options": [
+        "Separate collision domain per port\nہر پورٹ کا الگ کولیشن ڈومین",
+        "Less unnecessary traffic\nکم غیر ضروری ٹریفک",
+        "Advanced routing features\nجدید راؤٹنگ خصوصیات",
+        "Shared collision domain\nمشترکہ کولیشن ڈومین"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Shared collision domain\nمشترکہ کولیشن ڈومین"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "How does a switch normally forward a known unicast frame?\nسوئچ عام طور پر معلوم یونی کاسٹ فریم کیسے آگے بھیجتا ہے؟",
+      "options": [
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "Converts ISP signals\nISP کے سگنلز تبدیل کرتا ہے",
+        "Repeats data to every port\nڈیٹا ہر پورٹ پر دہراتا ہے",
+        "Forwards data to the intended port\nڈیٹا مطلوبہ پورٹ تک پہنچاتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Forwards data to the intended port\nڈیٹا مطلوبہ پورٹ تک پہنچاتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "Which address does an ordinary Ethernet switch use to learn forwarding decisions?\nعام ایتھرنیٹ سوئچ فریم آگے بھیجنے کے فیصلے کے لیے کون سا ایڈریس استعمال کرتا ہے؟",
+      "options": [
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "MAC address\nMAC ایڈریس",
+        "Converts ISP signals\nISP کے سگنلز تبدیل کرتا ہے",
+        "Only a website name\nصرف ویب سائٹ کا نام"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: MAC address\nMAC ایڈریس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "At which OSI layer does a standard LAN switch primarily operate?\nمعیاری LAN سوئچ بنیادی طور پر OSI کی کس لیئر پر کام کرتا ہے؟",
+      "options": [
+        "Physical layer (Layer 1)\nفزیکل لیئر (لیئر 1)",
+        "Data Link layer (Layer 2)\nڈیٹا لنک لیئر (لیئر 2)",
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "Only a website name\nصرف ویب سائٹ کا نام"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Data Link layer (Layer 2)\nڈیٹا لنک لیئر (لیئر 2)"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "Which duplex mode can modern switches support?\nجدید سوئچ کون سا ڈوپلیکس موڈ سپورٹ کرتے ہیں؟",
+      "options": [
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "Converts ISP signals\nISP کے سگنلز تبدیل کرتا ہے",
+        "Half-duplex only\nصرف ہاف ڈوپلیکس",
+        "Full-duplex communication\nفل ڈوپلیکس کمیونیکیشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Full-duplex communication\nفل ڈوپلیکس کمیونیکیشن"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "How are collision domains divided by a switch?\nسوئچ میں کولیشن ڈومین کیسے تقسیم ہوتے ہیں؟",
+      "options": [
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "A separate collision domain on each port\nہر پورٹ پر الگ کولیشن ڈومین",
+        "Only a website name\nصرف ویب سائٹ کا نام",
+        "One shared collision domain\nایک مشترکہ کولیشن ڈومین"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A separate collision domain on each port\nہر پورٹ پر الگ کولیشن ڈومین"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "What is a benefit of sending frames only where needed?\nفریم صرف مطلوبہ جگہ بھیجنے کا فائدہ کیا ہے؟",
+      "options": [
+        "Converts ISP signals\nISP کے سگنلز تبدیل کرتا ہے",
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "Reduced unnecessary traffic\nغیر ضروری ٹریفک میں کمی",
+        "Increased unnecessary traffic\nغیر ضروری ٹریفک میں اضافہ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Reduced unnecessary traffic\nغیر ضروری ٹریفک میں کمی"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "Which feature can a managed switch provide?\nمینیجڈ سوئچ کون سی سہولت دے سکتا ہے؟",
+      "options": [
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "Converts ISP signals\nISP کے سگنلز تبدیل کرتا ہے",
+        "Telephone-line modulation\nٹیلی فون لائن ماڈیولیشن",
+        "VLAN and port security\nVLAN اور پورٹ سکیورٹی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: VLAN and port security\nVLAN اور پورٹ سکیورٹی"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "What is a switch’s main advantage compared with a hub?\nہب کے مقابلے میں سوئچ کا بنیادی فائدہ کیا ہے؟",
+      "options": [
+        "Telephone-line modulation\nٹیلی فون لائن ماڈیولیشن",
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "Reduced unnecessary traffic\nغیر ضروری ٹریفک میں کمی",
+        "Increased unnecessary traffic\nغیر ضروری ٹریفک میں اضافہ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Reduced unnecessary traffic\nغیر ضروری ٹریفک میں کمی"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "Which task is NOT normally performed by a basic Layer-2 switch?\nعام لیئر 2 سوئچ عموماً کون سا کام نہیں کرتا؟",
+      "options": [
+        "Forwards data to the intended port\nڈیٹا مطلوبہ پورٹ تک پہنچاتا ہے",
+        "VLAN and port security\nVLAN اور پورٹ سکیورٹی",
+        "Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے",
+        "MAC address\nMAC ایڈریس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Routes between distant networks\nدور کے نیٹ ورکس میں راؤٹنگ کرتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "3.5 Switch / سوئچ",
+      "question": "A company wants fewer collisions and efficient LAN bandwidth. What feature helps?\nکمپنی کو کم کولیشن اور مؤثر LAN بینڈوڈتھ چاہیے؛ کون سی خصوصیت مدد دیتی ہے؟",
+      "options": [
+        "Half-duplex only\nصرف ہاف ڈوپلیکس",
+        "One shared collision domain\nایک مشترکہ کولیشن ڈومین",
+        "Telephone-line modulation\nٹیلی فون لائن ماڈیولیشن",
+        "A separate collision domain on each port\nہر پورٹ پر الگ کولیشن ڈومین"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A separate collision domain on each port\nہر پورٹ پر الگ کولیشن ڈومین"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "How do the wireless devices in the chapter normally communicate?\nباب میں وائرلیس ڈیوائسز عام طور پر کیسے رابطہ کرتی ہیں؟",
+      "options": [
+        "Uses radio waves to communicate\nرابطے کے لیے ریڈیو لہریں استعمال کرتا ہے",
+        "Requires a cable to every client\nہر کلائنٹ کے لیے کیبل ضروری ہے",
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Uses radio waves to communicate\nرابطے کے لیے ریڈیو لہریں استعمال کرتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "What is a major advantage of wireless networking?\nوائرلیس نیٹ ورکنگ کا اہم فائدہ کیا ہے؟",
+      "options": [
+        "Mobility and flexibility\nنقل و حرکت اور لچک",
+        "No need for any security\nکسی سکیورٹی کی ضرورت نہیں",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے",
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Mobility and flexibility\nنقل و حرکت اور لچک"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "Which device can provide wireless access to a wired LAN?\nکون سی ڈیوائس وائرڈ LAN تک وائرلیس رسائی دیتی ہے؟",
+      "options": [
+        "Serial printer cable\nسیریل پرنٹر کیبل",
+        "Wired-only hub\nصرف وائرڈ ہب",
+        "Wireless access point\nوائرلیس ایکسس پوائنٹ",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Wireless access point\nوائرلیس ایکسس پوائنٹ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "Which device can add Wi-Fi capability to a desktop?\nکون سی ڈیوائس ڈیسک ٹاپ میں Wi-Fi کی سہولت شامل کرتی ہے؟",
+      "options": [
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے",
+        "Serial printer cable\nسیریل پرنٹر کیبل",
+        "Wireless USB adapter\nوائرلیس USB اڈاپٹر",
+        "Wired-only hub\nصرف وائرڈ ہب"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Wireless USB adapter\nوائرلیس USB اڈاپٹر"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "What can reduce wireless network reliability?\nکون سی چیز وائرلیس نیٹ ورک کی قابلِ اعتماد کارکردگی کم کر سکتی ہے؟",
+      "options": [
+        "Signal interference\nسگنل میں مداخلت",
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے",
+        "Perfect signal through all barriers\nہر رکاوٹ سے مکمل سگنل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Signal interference\nسگنل میں مداخلت"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "What limits how far a user can move while staying connected?\nکنکشن برقرار رکھتے ہوئے صارف کتنی دور جا سکتا ہے، یہ کس چیز پر منحصر ہے؟",
+      "options": [
+        "Wireless coverage range\nوائرلیس کوریج کی حد",
+        "Printer ink level\nپرنٹر کی سیاہی کی مقدار",
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Wireless coverage range\nوائرلیس کوریج کی حد"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "A laptop moves between rooms while staying on Wi-Fi. What advantage is shown?\nلیپ ٹاپ کمروں میں حرکت کرتے ہوئے Wi-Fi سے جڑا رہتا ہے؛ کون سا فائدہ ظاہر ہوا؟",
+      "options": [
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے",
+        "Mobility and flexibility\nنقل و حرکت اور لچک",
+        "No need for any security\nکسی سکیورٹی کی ضرورت نہیں",
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Mobility and flexibility\nنقل و حرکت اور لچک"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "What should be checked if Wi-Fi is weak far from the access point?\nایکسس پوائنٹ سے دور Wi-Fi کمزور ہو تو کیا چیک کرنا چاہیے؟",
+      "options": [
+        "Wireless coverage range\nوائرلیس کوریج کی حد",
+        "Printer ink level\nپرنٹر کی سیاہی کی مقدار",
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Wireless coverage range\nوائرلیس کوریج کی حد"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "Which is NOT a genuine advantage of wireless devices?\nوائرلیس ڈیوائسز کا حقیقی فائدہ کون سا نہیں ہے؟",
+      "options": [
+        "No need for any security\nکسی سکیورٹی کی ضرورت نہیں",
+        "Uses radio waves to communicate\nرابطے کے لیے ریڈیو لہریں استعمال کرتا ہے",
+        "Wireless access point\nوائرلیس ایکسس پوائنٹ",
+        "Mobility and flexibility\nنقل و حرکت اور لچک"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: No need for any security\nکسی سکیورٹی کی ضرورت نہیں"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "3.6 Wireless Networking Devices / وائرلیس نیٹ ورکنگ ڈیوائسز",
+      "question": "Which problem is more relevant to radio-based connections than to a local monitor cable?\nریڈیو پر مبنی کنکشن میں مقامی مانیٹر کیبل کی نسبت کون سا مسئلہ زیادہ متعلق ہے؟",
+      "options": [
+        "Uses paper signals\nکاغذی سگنلز استعمال کرتا ہے",
+        "Requires a printer for every client\nہر کلائنٹ کے لیے پرنٹر ضروری ہے",
+        "Printer ink level\nپرنٹر کی سیاہی کی مقدار",
+        "Signal interference\nسگنل میں مداخلت"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Signal interference\nسگنل میں مداخلت"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "What is the main role of a wireless access point?\nوائرلیس ایکسس پوائنٹ کا بنیادی کردار کیا ہے؟",
+      "options": [
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Prints network reports\nنیٹ ورک رپورٹس پرنٹ کرتا ہے",
+        "Connects Wi-Fi clients to a network\nWi-Fi کلائنٹس کو نیٹ ورک سے جوڑتا ہے",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Connects Wi-Fi clients to a network\nWi-Fi کلائنٹس کو نیٹ ورک سے جوڑتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "What can an access point extend in an office?\nایکسس پوائنٹ دفتر میں کس چیز کو بڑھا سکتا ہے؟",
+      "options": [
+        "Wireless coverage\nوائرلیس کوریج",
+        "Cable-only access\nصرف کیبل کی رسائی",
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Wireless coverage\nوائرلیس کوریج"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "What network name is commonly broadcast by a Wi-Fi access point?\nWi-Fi ایکسس پوائنٹ عام طور پر نیٹ ورک کے لیے کون سا نام نشر کرتا ہے؟",
+      "options": [
+        "SSID\nSSID",
+        "File extension\nفائل ایکسٹینشن",
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: SSID\nSSID"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "Who can connect through one access point?\nایک ایکسس پوائنٹ کے ذریعے کون جڑ سکتا ہے؟",
+      "options": [
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Multiple wireless clients\nمتعدد وائرلیس کلائنٹس",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے",
+        "One local keyboard\nایک مقامی کی بورڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Multiple wireless clients\nمتعدد وائرلیس کلائنٹس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "To add wireless access to an existing cabled LAN, what is appropriate?\nموجودہ کیبل والے LAN میں وائرلیس رسائی شامل کرنے کے لیے کیا مناسب ہے؟",
+      "options": [
+        "Prints network reports\nنیٹ ورک رپورٹس پرنٹ کرتا ہے",
+        "Connects Wi-Fi clients to a network\nWi-Fi کلائنٹس کو نیٹ ورک سے جوڑتا ہے",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے",
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Connects Wi-Fi clients to a network\nWi-Fi کلائنٹس کو نیٹ ورک سے جوڑتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "What network is commonly bridged to wireless users by a WAP?\nWAP عموماً وائرلیس صارفین کو کس نیٹ ورک سے جوڑتا ہے؟",
+      "options": [
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے",
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Existing wired LAN\nموجودہ وائرڈ LAN",
+        "USB flash storage\nUSB فلیش اسٹوریج"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Existing wired LAN\nموجودہ وائرڈ LAN"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "Why might a student lose Wi-Fi when moving far from a WAP?\nWAP سے دور جانے پر طالب علم کا Wi-Fi کیوں ختم ہو سکتا ہے؟",
+      "options": [
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے",
+        "Signal range and obstacles\nسگنل کی حد اور رکاوٹیں",
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Screen size\nاسکرین کا سائز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Signal range and obstacles\nسگنل کی حد اور رکاوٹیں"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "Which is NOT a purpose of a wireless access point?\nوائرلیس ایکسس پوائنٹ کا مقصد کون سا نہیں ہے؟",
+      "options": [
+        "Connects Wi-Fi clients to a network\nWi-Fi کلائنٹس کو نیٹ ورک سے جوڑتا ہے",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے",
+        "Wireless coverage\nوائرلیس کوریج",
+        "Multiple wireless clients\nمتعدد وائرلیس کلائنٹس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "Which setting identifies the wireless network to clients?\nکون سی سیٹنگ کلائنٹس کو وائرلیس نیٹ ورک کی شناخت دیتی ہے؟",
+      "options": [
+        "SSID\nSSID",
+        "One local keyboard\nایک مقامی کی بورڈ",
+        "Screen size\nاسکرین کا سائز",
+        "File extension\nفائل ایکسٹینشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: SSID\nSSID"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "3.6.1 Wireless Access Point (WAP) / وائرلیس ایکسس پوائنٹ",
+      "question": "Who can access the network after a WAP is installed?\nWAP نصب ہونے کے بعد کون نیٹ ورک تک رسائی حاصل کر سکتا ہے؟",
+      "options": [
+        "Converts ISP carrier signals\nISP کے کیریئر سگنلز تبدیل کرتا ہے",
+        "Stores user documents\nصارف کی دستاویزات محفوظ کرتا ہے",
+        "One local keyboard\nایک مقامی کی بورڈ",
+        "Multiple wireless clients\nمتعدد وائرلیس کلائنٹس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Multiple wireless clients\nمتعدد وائرلیس کلائنٹس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "What is the purpose of a wireless USB adapter?\nوائرلیس USB اڈاپٹر کا مقصد کیا ہے؟",
+      "options": [
+        "Routes between WANs\nمختلف WANs میں راؤٹنگ کرتا ہے",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے",
+        "Adds Wi-Fi connectivity through USB\nUSB کے ذریعے Wi-Fi کی سہولت دیتا ہے",
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Adds Wi-Fi connectivity through USB\nUSB کے ذریعے Wi-Fi کی سہولت دیتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "Where is a typical wireless USB adapter plugged in?\nعام وائرلیس USB اڈاپٹر کہاں لگایا جاتا ہے؟",
+      "options": [
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے",
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے",
+        "HDMI display port\nHDMI ڈسپلے پورٹ",
+        "USB port\nUSB پورٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: USB port\nUSB پورٹ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "What does the adapter transmit and receive?\nیہ اڈاپٹر کیا بھیجتا اور وصول کرتا ہے؟",
+      "options": [
+        "Paper documents\nکاغذی دستاویزات",
+        "Wireless network signals\nوائرلیس نیٹ ورک سگنلز",
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless network signals\nوائرلیس نیٹ ورک سگنلز"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "Which PC benefits most directly from a wireless USB adapter?\nکس کمپیوٹر کو وائرلیس USB اڈاپٹر سے براہِ راست فائدہ ہوگا؟",
+      "options": [
+        "Computer with broken monitor\nخراب مانیٹر والا کمپیوٹر",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے",
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے",
+        "Desktop without built-in Wi-Fi\nایسا ڈیسک ٹاپ جس میں بلٹ اِن Wi-Fi نہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Desktop without built-in Wi-Fi\nایسا ڈیسک ٹاپ جس میں بلٹ اِن Wi-Fi نہیں"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "What might be necessary if the adapter is not detected?\nاگر اڈاپٹر شناخت نہ ہو تو کس چیز کی ضرورت ہو سکتی ہے؟",
+      "options": [
+        "Driver or compatible support\nڈرائیور یا مطابقت پذیر سپورٹ",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے",
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے",
+        "Printer cartridge\nپرنٹر کارٹریج"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Driver or compatible support\nڈرائیور یا مطابقت پذیر سپورٹ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "What is one practical advantage of a USB Wi-Fi adapter?\nUSB Wi-Fi اڈاپٹر کا عملی فائدہ کیا ہے؟",
+      "options": [
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے",
+        "Replaces an Internet service provider\nانٹرنیٹ سروس فراہم کرنے والے کی جگہ لیتا ہے",
+        "Portable and easy to install\nپورٹیبل اور آسان تنصیب",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Portable and easy to install\nپورٹیبل اور آسان تنصیب"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "A wired-only PC must join a Wi-Fi network. Which device meets the need?\nصرف وائرڈ کمپیوٹر کو Wi-Fi سے جوڑنا ہو تو کون سی ڈیوائس مناسب ہے؟",
+      "options": [
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے",
+        "Adds Wi-Fi connectivity through USB\nUSB کے ذریعے Wi-Fi کی سہولت دیتا ہے",
+        "Routes between WANs\nمختلف WANs میں راؤٹنگ کرتا ہے",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Adds Wi-Fi connectivity through USB\nUSB کے ذریعے Wi-Fi کی سہولت دیتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "What does a wireless USB adapter NOT replace?\nوائرلیس USB اڈاپٹر کس چیز کا متبادل نہیں؟",
+      "options": [
+        "Replaces an Internet service provider\nانٹرنیٹ سروس فراہم کرنے والے کی جگہ لیتا ہے",
+        "Wireless network signals\nوائرلیس نیٹ ورک سگنلز",
+        "USB port\nUSB پورٹ",
+        "Adds Wi-Fi connectivity through USB\nUSB کے ذریعے Wi-Fi کی سہولت دیتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Replaces an Internet service provider\nانٹرنیٹ سروس فراہم کرنے والے کی جگہ لیتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "Which existing computer feature is needed for a standard USB Wi-Fi adapter?\nعام USB Wi-Fi اڈاپٹر کے لیے کمپیوٹر میں کیا ہونا ضروری ہے؟",
+      "options": [
+        "Paper documents\nکاغذی دستاویزات",
+        "Printer cartridge\nپرنٹر کارٹریج",
+        "USB port\nUSB پورٹ",
+        "HDMI display port\nHDMI ڈسپلے پورٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: USB port\nUSB پورٹ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "3.6.2 Wireless USB Adapter / وائرلیس USB اڈاپٹر",
+      "question": "What type of connection does the USB adapter enable?\nUSB اڈاپٹر کس قسم کا کنکشن ممکن بناتا ہے؟",
+      "options": [
+        "Paper documents\nکاغذی دستاویزات",
+        "Provides a printer’s ink\nپرنٹر کی سیاہی فراہم کرتا ہے",
+        "Wireless network signals\nوائرلیس نیٹ ورک سگنلز",
+        "Stores operating systems\nآپریٹنگ سسٹم محفوظ کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Wireless network signals\nوائرلیس نیٹ ورک سگنلز"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "What does WLAN mean in this chapter?\nاس باب میں WLAN سے کیا مراد ہے؟",
+      "options": [
+        "A printer driver\nپرنٹر ڈرائیور",
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "A worldwide wired network only\nصرف دنیا بھر کا وائرڈ نیٹ ورک",
+        "A local network using wireless communication\nوائرلیس رابطے والا مقامی نیٹ ورک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A local network using wireless communication\nوائرلیس رابطے والا مقامی نیٹ ورک"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "Which technology is commonly used for a WLAN?\nWLAN کے لیے عام طور پر کون سی ٹیکنالوجی استعمال ہوتی ہے؟",
+      "options": [
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "Only a telephone cable\nصرف ٹیلی فون کیبل",
+        "Wi-Fi\nWi-Fi",
+        "A printer driver\nپرنٹر ڈرائیور"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Wi-Fi\nWi-Fi"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "How does WLAN differ from a wired LAN?\nWLAN وائرڈ LAN سے کیسے مختلف ہے؟",
+      "options": [
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "A printer driver\nپرنٹر ڈرائیور",
+        "Every device requires an Ethernet cable\nہر ڈیوائس کو ایتھرنیٹ کیبل درکار ہے",
+        "Devices connect without network cables\nڈیوائسز نیٹ ورک کیبل کے بغیر جڑتی ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Devices connect without network cables\nڈیوائسز نیٹ ورک کیبل کے بغیر جڑتی ہیں"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "Which device often provides client access in an infrastructure WLAN?\nانفراسٹرکچر WLAN میں عموماً کون سی ڈیوائس کلائنٹس کو رسائی دیتی ہے؟",
+      "options": [
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "Inkjet printer\nانک جیٹ پرنٹر",
+        "A printer driver\nپرنٹر ڈرائیور",
+        "Wireless access point\nوائرلیس ایکسس پوائنٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Wireless access point\nوائرلیس ایکسس پوائنٹ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "Which environment is a typical WLAN deployment?\nWLAN عموماً کہاں استعمال ہوتا ہے؟",
+      "options": [
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "Office or school local coverage\nدفتر یا اسکول کی مقامی کوریج",
+        "A printer driver\nپرنٹر ڈرائیور",
+        "Entire global Internet by itself\nاپنے طور پر پوری عالمی انٹرنیٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Office or school local coverage\nدفتر یا اسکول کی مقامی کوریج"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "What is a practical advantage of a WLAN?\nWLAN کا عملی فائدہ کیا ہے؟",
+      "options": [
+        "Unlimited range with no interference\nبغیر مداخلت لامحدود حد",
+        "Mobility within the coverage area\nکوریج کے اندر نقل و حرکت",
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "A printer driver\nپرنٹر ڈرائیور"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Mobility within the coverage area\nکوریج کے اندر نقل و حرکت"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "A school connects laptops without network cables. What is the network called?\nاسکول لیپ ٹاپس کو نیٹ ورک کیبل کے بغیر جوڑتا ہے؛ یہ نیٹ ورک کیا کہلاتا ہے؟",
+      "options": [
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "A worldwide wired network only\nصرف دنیا بھر کا وائرڈ نیٹ ورک",
+        "A printer driver\nپرنٹر ڈرائیور",
+        "A local network using wireless communication\nوائرلیس رابطے والا مقامی نیٹ ورک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A local network using wireless communication\nوائرلیس رابطے والا مقامی نیٹ ورک"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "Why does a WLAN not guarantee access at any distance?\nWLAN ہر فاصلے پر رسائی کی ضمانت کیوں نہیں دیتا؟",
+      "options": [
+        "Unlimited range with no interference\nبغیر مداخلت لامحدود حد",
+        "Limited wireless coverage range\nوائرلیس کوریج کی محدود حد",
+        "Entire global Internet by itself\nاپنے طور پر پوری عالمی انٹرنیٹ",
+        "A printer driver\nپرنٹر ڈرائیور"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Limited wireless coverage range\nوائرلیس کوریج کی محدود حد"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "Which claim about WLANs is incorrect?\nWLAN کے بارے میں کون سا دعویٰ غلط ہے؟",
+      "options": [
+        "Unlimited range with no interference\nبغیر مداخلت لامحدود حد",
+        "A local network using wireless communication\nوائرلیس رابطے والا مقامی نیٹ ورک",
+        "Mobility within the coverage area\nکوریج کے اندر نقل و حرکت",
+        "Wi-Fi\nWi-Fi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Unlimited range with no interference\nبغیر مداخلت لامحدود حد"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "3.6.3 Wireless LAN (WLAN) / وائرلیس LAN",
+      "question": "What connection property makes a WLAN useful for moving laptops?\nکون سی خوبی WLAN کو حرکت کرتے لیپ ٹاپس کے لیے مفید بناتی ہے؟",
+      "options": [
+        "A television broadcast station\nٹیلی ویژن نشریاتی اسٹیشن",
+        "A printer driver\nپرنٹر ڈرائیور",
+        "Mobility within the coverage area\nکوریج کے اندر نقل و حرکت",
+        "Every device requires an Ethernet cable\nہر ڈیوائس کو ایتھرنیٹ کیبل درکار ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Mobility within the coverage area\nکوریج کے اندر نقل و حرکت"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "What is the primary purpose of a router?\nراؤٹر کا بنیادی مقصد کیا ہے؟",
+      "options": [
+        "Connects different networks\nمختلف نیٹ ورکس کو آپس میں جوڑتا ہے",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Connects only a monitor\nصرف مانیٹر کو جوڑتا ہے",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Connects different networks\nمختلف نیٹ ورکس کو آپس میں جوڑتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "At which OSI layer does a router operate?\nراؤٹر OSI کی کس لیئر پر کام کرتا ہے؟",
+      "options": [
+        "Network layer (Layer 3)\nنیٹ ورک لیئر (لیئر 3)",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے",
+        "Physical layer (Layer 1)\nفزیکل لیئر (لیئر 1)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Network layer (Layer 3)\nنیٹ ورک لیئر (لیئر 3)"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "Which address does a router examine to forward packets?\nراؤٹر پیکٹس آگے بھیجنے کے لیے کون سا ایڈریس دیکھتا ہے؟",
+      "options": [
+        "Paper document name\nکاغذی دستاویز کا نام",
+        "IP address\nIP ایڈریس",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: IP address\nIP ایڈریس"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "Which function lets several local devices share one public IP?\nکون سا فنکشن کئی مقامی ڈیوائسز کو ایک پبلک IP شیئر کرنے دیتا ہے؟",
+      "options": [
+        "Network Address Translation (NAT)\nنیٹ ورک ایڈریس ٹرانسلیشن (NAT)",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے",
+        "Font size adjustment\nفونٹ سائز کی تبدیلی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Network Address Translation (NAT)\nنیٹ ورک ایڈریس ٹرانسلیشن (NAT)"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "Which task is a common use of a home router?\nگھریلو راؤٹر کا عام استعمال کون سا ہے؟",
+      "options": [
+        "LAN to Internet connection\nLAN کو انٹرنیٹ سے جوڑنا",
+        "Connecting a keyboard to a PC\nکی بورڈ کو کمپیوٹر سے جوڑنا",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: LAN to Internet connection\nLAN کو انٹرنیٹ سے جوڑنا"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "Which security capability may be built into a router?\nراؤٹر میں کون سی سکیورٹی سہولت موجود ہو سکتی ہے؟",
+      "options": [
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Firewall and VPN features\nفائر وال اور VPN کی سہولیات",
+        "Ink and toner control\nسیاہی اور ٹونر کا کنٹرول"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Firewall and VPN features\nفائر وال اور VPN کی سہولیات"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "What does a router choose for packets between networks?\nنیٹ ورکس کے درمیان پیکٹس کے لیے راؤٹر کیا منتخب کرتا ہے؟",
+      "options": [
+        "Best path for packets\nڈیٹا پیکٹس کے لیے بہترین راستہ",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "One shared hub collision domain\nہب کا ایک مشترکہ کولیشن ڈومین",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Best path for packets\nڈیٹا پیکٹس کے لیے بہترین راستہ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "Which device should connect a LAN to a different IP network?\nLAN کو دوسرے IP نیٹ ورک سے جوڑنے کے لیے کون سی ڈیوائس مناسب ہے؟",
+      "options": [
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Connects only a monitor\nصرف مانیٹر کو جوڑتا ہے",
+        "Connects different networks\nمختلف نیٹ ورکس کو آپس میں جوڑتا ہے",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Connects different networks\nمختلف نیٹ ورکس کو آپس میں جوڑتا ہے"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "What distinguishes a router from a basic Layer-2 switch?\nراؤٹر کو عام لیئر 2 سوئچ سے کون سی چیز ممتاز کرتی ہے؟",
+      "options": [
+        "One shared hub collision domain\nہب کا ایک مشترکہ کولیشن ڈومین",
+        "Best path for packets\nڈیٹا پیکٹس کے لیے بہترین راستہ",
+        "Prints Internet pages\nانٹرنیٹ صفحات پرنٹ کرتا ہے",
+        "Acts only as a hub\nصرف ہب کا کام کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Best path for packets\nڈیٹا پیکٹس کے لیے بہترین راستہ"
+    },
+    {
+      "id": "dit-networking-devices-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "3.7.1 Router / راؤٹر",
+      "question": "Which item is NOT a router function?\nکون سا کام راؤٹر کا نہیں ہے؟",
+      "options": [
+        "Firewall and VPN features\nفائر وال اور VPN کی سہولیات",
+        "Ink and toner control\nسیاہی اور ٹونر کا کنٹرول",
+        "Network Address Translation (NAT)\nنیٹ ورک ایڈریس ٹرانسلیشن (NAT)",
+        "Connects different networks\nمختلف نیٹ ورکس کو آپس میں جوڑتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ink and toner control\nسیاہی اور ٹونر کا کنٹرول"
+    }
+  ]
+}

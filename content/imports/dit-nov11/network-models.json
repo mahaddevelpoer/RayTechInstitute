@@ -1,0 +1,2129 @@
+{
+  "key": "network-models",
+  "sourceFile": "Chapter5_Network_Models.docx",
+  "sourceSha256": "c33a713f3f69da8ff86e0599cb27b0444a8fb72904fb8c4bb2bab1fdbf4e1a54",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "Computer Networking",
+  "displayChapterNumber": 5,
+  "sourceSections": [
+    "OSI Model: Purpose and Principles",
+    "OSI Application Layer (Layer 7)",
+    "OSI Presentation Layer (Layer 6)",
+    "OSI Session Layer (Layer 5)",
+    "OSI Transport Layer (Layer 4)",
+    "TCP versus UDP",
+    "OSI Network Layer (Layer 3)",
+    "OSI Data Link Layer (Layer 2)",
+    "OSI Physical Layer (Layer 1)",
+    "TCP/IP Model: Foundation and Structure",
+    "TCP/IP Application Layer",
+    "TCP/IP Transport Layer",
+    "TCP/IP Network / Internet Layer",
+    "TCP/IP Physical-Link / Link Layer",
+    "OSI and TCP/IP Comparison"
+  ],
+  "questions": [
+    {
+      "id": "dit-network-models-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "Why can devices from different manufacturers communicate by using common networking standards?\nمختلف کمپنیوں کے آلات مشترکہ نیٹ ورک معیار استعمال کر کے بات چیت کیوں کر سکتے ہیں؟",
+      "options": [
+        "Interoperability through standards\nمعیارات کے ذریعے باہمی مطابقت",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Interoperability through standards\nمعیارات کے ذریعے باہمی مطابقت"
+    },
+    {
+      "id": "dit-network-models-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "A technician narrows a network fault to a single layer. Which OSI benefit does this illustrate?\nٹیکنیشن نے نیٹ ورک خرابی کو ایک ہی لیئر تک محدود کر دیا۔ یہ OSI کے کس فائدے کی مثال ہے؟",
+      "options": [
+        "Data compression\nڈیٹا کمپریشن",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Layer-based troubleshooting\nلیئر کی بنیاد پر خرابی تلاش کرنا",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Layer-based troubleshooting\nلیئر کی بنیاد پر خرابی تلاش کرنا"
+    },
+    {
+      "id": "dit-network-models-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "A vendor upgrades one protocol layer without redesigning all other layers. Which feature allows this?\nایک کمپنی باقی لیئرز بدلے بغیر ایک پروٹوکول لیئر کو اپ گریڈ کرتی ہے۔ کون سی خصوصیت یہ ممکن بناتی ہے؟",
+      "options": [
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Modularity of layers\nلیئرز کی الگ الگ ساخت",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Modularity of layers\nلیئرز کی الگ الگ ساخت"
+    },
+    {
+      "id": "dit-network-models-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "How many layers does the OSI reference model divide communication into?\nOSI ریفرنس ماڈل مواصلات کو کتنی لیئرز میں تقسیم کرتا ہے؟",
+      "options": [
+        "Seven layers\nسات لیئرز",
+        "Five layers\nپانچ لیئرز",
+        "Three layers\nتین لیئرز",
+        "Four layers\nچار لیئرز"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Seven layers\nسات لیئرز"
+    },
+    {
+      "id": "dit-network-models-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "What does a sending layer generally add before handing data to the next lower layer?\nبھیجنے والی لیئر ڈیٹا کو نیچے والی لیئر کے حوالے کرنے سے پہلے عموماً کیا شامل کرتی ہے؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "A protocol header\nپروٹوکول ہیڈر",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A protocol header\nپروٹوکول ہیڈر"
+    },
+    {
+      "id": "dit-network-models-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "What happens to layer-specific headers as received data moves upward?\nجب موصول شدہ ڈیٹا اوپر کی لیئرز میں جاتا ہے تو متعلقہ ہیڈرز کا کیا ہوتا ہے؟",
+      "options": [
+        "They are removed during decapsulation\nڈی کیپسولیشن کے دوران ہٹا دیے جاتے ہیں",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: They are removed during decapsulation\nڈی کیپسولیشن کے دوران ہٹا دیے جاتے ہیں"
+    },
+    {
+      "id": "dit-network-models-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "Which organization developed the OSI reference model?\nOSI ریفرنس ماڈل کس تنظیم نے تیار کیا؟",
+      "options": [
+        "Institute of Electrical and Electronics Engineers (IEEE)\nانسٹی ٹیوٹ آف الیکٹریکل اینڈ الیکٹرانکس انجینئرز (IEEE)",
+        "International Organization for Standardization (ISO)\nانٹرنیشنل آرگنائزیشن فار اسٹینڈرڈائزیشن (ISO)",
+        "World Wide Web Consortium (W3C)\nورلڈ وائڈ ویب کنسورشیم (W3C)",
+        "Internet Engineering Task Force (IETF)\nانٹرنیٹ انجینئرنگ ٹاسک فورس (IETF)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: International Organization for Standardization (ISO)\nانٹرنیشنل آرگنائزیشن فار اسٹینڈرڈائزیشن (ISO)"
+    },
+    {
+      "id": "dit-network-models-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "In the textbook, what year is associated with the OSI reference model?\nکتاب کے مطابق OSI ریفرنس ماڈل کس سال سے منسوب ہے؟",
+      "options": [
+        "2000\n۲۰۰۰",
+        "1970\n۱۹۷۰",
+        "1984\n۱۹۸۴",
+        "1995\n۱۹۹۵"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: 1984\n۱۹۸۴"
+    },
+    {
+      "id": "dit-network-models-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "Why is a layered model useful for teaching how data moves across a network?\nنیٹ ورک میں ڈیٹا کی نقل و حرکت سکھانے کے لیے لیئرڈ ماڈل کیوں مفید ہے؟",
+      "options": [
+        "It separates complex tasks into defined functions\nیہ پیچیدہ کاموں کو واضح افعال میں تقسیم کرتا ہے",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It separates complex tasks into defined functions\nیہ پیچیدہ کاموں کو واضح افعال میں تقسیم کرتا ہے"
+    },
+    {
+      "id": "dit-network-models-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "OSI Model: Purpose and Principles",
+      "question": "When a device sends data, in which direction does it pass through OSI layers?\nجب آلہ ڈیٹا بھیجتا ہے تو وہ OSI لیئرز میں کس سمت جاتا ہے؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Data compression\nڈیٹا کمپریشن",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "From Application toward Physical\nایپلیکیشن سے فزیکل کی طرف"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: From Application toward Physical\nایپلیکیشن سے فزیکل کی طرف"
+    },
+    {
+      "id": "dit-network-models-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "A user opens a web browser. Which OSI layer provides network services closest to that user?\nصارف ویب براؤزر کھولتا ہے۔ کون سی OSI لیئر صارف کے قریب ترین نیٹ ورک سروس دیتی ہے؟",
+      "options": [
+        "Application layer\nایپلیکیشن لیئر",
+        "Physical-Link layer\nفزیکل لنک لیئر",
+        "Physical layer\nفزیکل لیئر",
+        "Presentation layer\nپریزنٹیشن لیئر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Application layer\nایپلیکیشن لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "Which layer is the topmost layer of the OSI model?\nOSI ماڈل کی سب سے اوپر والی لیئر کون سی ہے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Layer 7\nلیئر ۷"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Layer 7\nلیئر ۷"
+    },
+    {
+      "id": "dit-network-models-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "An email program needs network access. Which layer serves its application-level requirements?\nای میل پروگرام کو نیٹ ورک تک رسائی چاہیے۔ کون سی لیئر ایپلیکیشن کی ضروریات پوری کرتی ہے؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Application services\nایپلیکیشن سروسز",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Application services\nایپلیکیشن سروسز"
+    },
+    {
+      "id": "dit-network-models-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "Before communicating, an application checks whether the intended service is available. Which responsibility is this?\nمواصلات سے پہلے ایپلیکیشن مطلوبہ سروس کی دستیابی چیک کرتی ہے۔ یہ کون سی ذمہ داری ہے؟",
+      "options": [
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Identifying service availability\nسروس کی دستیابی معلوم کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Identifying service availability\nسروس کی دستیابی معلوم کرنا"
+    },
+    {
+      "id": "dit-network-models-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "Which layer lets end-user software interact with network services?\nکون سی لیئر صارف کے سافٹ ویئر کو نیٹ ورک سروسز کے ساتھ رابطہ دیتی ہے؟",
+      "options": [
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "User-to-network service interface\nصارف اور نیٹ ورک سروس کے درمیان رابطہ",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: User-to-network service interface\nصارف اور نیٹ ورک سروس کے درمیان رابطہ"
+    },
+    {
+      "id": "dit-network-models-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "A student says the Application layer itself is the browser window. What is the better description?\nطالب علم کہتا ہے ایپلیکیشن لیئر براؤزر کی کھڑکی ہی ہے۔ بہتر وضاحت کیا ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "It provides network services to applications\nیہ ایپلیکیشنز کو نیٹ ورک سروسز فراہم کرتی ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It provides network services to applications\nیہ ایپلیکیشنز کو نیٹ ورک سروسز فراہم کرتی ہے"
+    },
+    {
+      "id": "dit-network-models-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "For web browsing, which OSI layer is directly concerned with providing application-level access?\nویب براؤزنگ میں کون سی OSI لیئر براہ راست ایپلیکیشن کی سطح پر رسائی دیتی ہے؟",
+      "options": [
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Topmost user-facing layer\nسب سے اوپر کی صارف سے متعلق لیئر",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Topmost user-facing layer\nسب سے اوپر کی صارف سے متعلق لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "A user sends email through a client. Which type of responsibility belongs to Layer 7?\nصارف ای میل کلائنٹ سے پیغام بھیجتا ہے۔ لیئر ۷ کی ذمہ داری کس نوعیت کی ہے؟",
+      "options": [
+        "End-user network service\nصارف کے لیے نیٹ ورک سروس",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: End-user network service\nصارف کے لیے نیٹ ورک سروس"
+    },
+    {
+      "id": "dit-network-models-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "A network program needs to request a service rather than transmit raw electrical signals. Which OSI layer is relevant?\nنیٹ ورک پروگرام کو برقی سگنل بھیجنے کے بجائے سروس مانگنی ہے۔ کون سی OSI لیئر متعلقہ ہے؟",
+      "options": [
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Application-level interaction\nایپلیکیشن کی سطح پر رابطہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Application-level interaction\nایپلیکیشن کی سطح پر رابطہ"
+    },
+    {
+      "id": "dit-network-models-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "OSI Application Layer (Layer 7)",
+      "question": "Which OSI layer sits immediately above Presentation?\nپریزنٹیشن لیئر کے فوراً اوپر کون سی OSI لیئر ہے؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Application (Layer 7)\nایپلیکیشن (لیئر ۷)",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Application (Layer 7)\nایپلیکیشن (لیئر ۷)"
+    },
+    {
+      "id": "dit-network-models-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "Two systems use different text encodings. Which layer handles conversion between representations?\nدو سسٹمز کی ٹیکسٹ انکوڈنگ مختلف ہے۔ کون سی لیئر فارمیٹ تبدیل کرتی ہے؟",
+      "options": [
+        "Transport layer\nٹرانسپورٹ لیئر",
+        "Session layer\nسیشن لیئر",
+        "Data Link layer\nڈیٹا لنک لیئر",
+        "Presentation layer\nپریزنٹیشن لیئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Presentation layer\nپریزنٹیشن لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "A message must be encrypted before transmission. Which OSI layer performs this function?\nپیغام بھیجنے سے پہلے انکرپٹ کرنا ہے۔ کون سی OSI لیئر یہ کام کرتی ہے؟",
+      "options": [
+        "Encryption\nانکرپشن",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Encryption\nانکرپشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "An encrypted message reaches its recipient. Which presentation function makes it readable?\nانکرپٹ شدہ پیغام وصول کنندہ تک پہنچ گیا۔ کون سا پریزنٹیشن فنکشن اسے پڑھنے کے قابل کرتا ہے؟",
+      "options": [
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Decryption\nڈی کرپشن",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Decryption\nڈی کرپشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "A large data file is made smaller for efficient transmission. Which function is involved?\nمؤثر ترسیل کے لیے بڑی فائل کا حجم کم کیا گیا۔ کون سا عمل استعمال ہوا؟",
+      "options": [
+        "Compression\nکمپریشن",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Compression\nکمپریشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "A receiver restores compressed data to usable size and form. What is this called?\nوصول کنندہ کمپریسڈ ڈیٹا کو اصل استعمال کے قابل شکل میں واپس لاتا ہے۔ اسے کیا کہتے ہیں؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Decompression\nڈی کمپریشن",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Session synchronization\nسیشن سنکرونائزیشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Decompression\nڈی کمپریشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "Converting ASCII text to another character encoding is an example of what?\nASCII متن کو کسی دوسری کریکٹر انکوڈنگ میں بدلنا کس کی مثال ہے؟",
+      "options": [
+        "Data translation\nڈیٹا ٹرانسلیشن",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Session synchronization\nسیشن سنکرونائزیشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Data translation\nڈیٹا ٹرانسلیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "Which OSI layer is also described as the translation or syntax layer?\nکون سی OSI لیئر ٹرانسلیشن یا سنٹیکس لیئر بھی کہلاتی ہے؟",
+      "options": [
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Layer 6\nلیئر ۶"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Layer 6\nلیئر ۶"
+    },
+    {
+      "id": "dit-network-models-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "A program converts structured records to a transmission-ready representation. Which task is this?\nپروگرام ریکارڈز کو ترسیل کے قابل شکل میں بدلتا ہے۔ یہ کون سا کام ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Serialization\nسیریلائزیشن",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Serialization\nسیریلائزیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "Which layer prepares data so dissimilar systems can interpret it?\nکون سی لیئر ڈیٹا کو اس طرح تیار کرتی ہے کہ مختلف سسٹمز اسے سمجھ سکیں؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Format representation\nڈیٹا کے فارمیٹ کی نمائندگی",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Format representation\nڈیٹا کے فارمیٹ کی نمائندگی"
+    },
+    {
+      "id": "dit-network-models-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "OSI Presentation Layer (Layer 6)",
+      "question": "Which layer is located between Application and Session?\nایپلیکیشن اور سیشن لیئر کے درمیان کون سی لیئر ہے؟",
+      "options": [
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Presentation (Layer 6)\nپریزنٹیشن (لیئر ۶)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Presentation (Layer 6)\nپریزنٹیشن (لیئر ۶)"
+    },
+    {
+      "id": "dit-network-models-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "Two applications need to open a conversation. Which layer establishes their communication session?\nدو ایپلیکیشنز کو گفتگو شروع کرنی ہے۔ کون سی لیئر ان کا مواصلاتی سیشن قائم کرتی ہے؟",
+      "options": [
+        "Session layer\nسیشن لیئر",
+        "Network layer\nنیٹ ورک لیئر",
+        "Transport layer\nٹرانسپورٹ لیئر",
+        "Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Session layer\nسیشن لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "A long-running communication must remain active while data is exchanged. Which responsibility applies?\nڈیٹا کی ترسیل کے دوران رابطہ برقرار رہنا چاہیے۔ یہ کس کی ذمہ داری ہے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Session maintenance\nسیشن برقرار رکھنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Session maintenance\nسیشن برقرار رکھنا"
+    },
+    {
+      "id": "dit-network-models-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "After an application finishes communicating, what should its session be?\nایپلیکیشن کی گفتگو ختم ہونے کے بعد سیشن کے ساتھ کیا ہونا چاہیے؟",
+      "options": [
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Properly terminated\nمناسب طریقے سے ختم",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Properly terminated\nمناسب طریقے سے ختم"
+    },
+    {
+      "id": "dit-network-models-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "A session uses checkpoints so it can resume after a failure. Which feature helps?\nخرابی کے بعد دوبارہ آغاز کے لیے سیشن میں چیک پوائنٹس رکھے جاتے ہیں۔ یہ کون سی خصوصیت ہے؟",
+      "options": [
+        "Synchronization\nسنکرونائزیشن",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Synchronization\nسنکرونائزیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "Two systems negotiate how their communication session begins. What process is occurring?\nدو سسٹمز بات چیت شروع کرنے کے طریقے پر اتفاق کرتے ہیں۔ کون سا عمل ہو رہا ہے؟",
+      "options": [
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Session establishment\nسیشن قائم کرنا",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Session establishment\nسیشن قائم کرنا"
+    },
+    {
+      "id": "dit-network-models-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "Which feature determines whether one or both sides may transmit at a given time?\nکون سی خصوصیت طے کرتی ہے کہ ایک وقت میں ایک یا دونوں طرف سے ڈیٹا بھیجا جا سکتا ہے؟",
+      "options": [
+        "Dialog control\nڈائیلاگ کنٹرول",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Dialog control\nڈائیلاگ کنٹرول"
+    },
+    {
+      "id": "dit-network-models-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "A half-duplex session permits what kind of turn-taking?\nہاف ڈوپلیکس سیشن میں ڈیٹا بھیجنے کی باری کا کیا اصول ہے؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Only one direction at a time\nایک وقت میں صرف ایک سمت"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Only one direction at a time\nایک وقت میں صرف ایک سمت"
+    },
+    {
+      "id": "dit-network-models-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "A full-duplex session supports which communication pattern?\nفل ڈوپلیکس سیشن کس قسم کی مواصلات کی اجازت دیتا ہے؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Both directions simultaneously\nدونوں سمتوں میں بیک وقت",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Both directions simultaneously\nدونوں سمتوں میں بیک وقت"
+    },
+    {
+      "id": "dit-network-models-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "What can limit repeated data transfer after a session failure?\nسیشن ناکام ہونے پر پورا ڈیٹا دوبارہ بھیجنے کی ضرورت کو کیا کم کر سکتا ہے؟",
+      "options": [
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Recovery from checkpoints\nچیک پوائنٹس سے بحالی",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Recovery from checkpoints\nچیک پوائنٹس سے بحالی"
+    },
+    {
+      "id": "dit-network-models-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "OSI Session Layer (Layer 5)",
+      "question": "Which OSI layer sits between Presentation and Transport?\nپریزنٹیشن اور ٹرانسپورٹ کے درمیان کون سی OSI لیئر ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Session (Layer 5)\nسیشن (لیئر ۵)",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Session (Layer 5)\nسیشن (لیئر ۵)"
+    },
+    {
+      "id": "dit-network-models-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "A message is divided into smaller pieces before transmission. Which Transport function is used?\nبھیجنے سے پہلے پیغام چھوٹے حصوں میں تقسیم کیا گیا۔ ٹرانسپورٹ کا کون سا کام ہوا؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Segmentation\nسیگمنٹیشن",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Segmentation\nسیگمنٹیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "The receiver joins the pieces of a message into the original sequence. What is this process?\nوصول کنندہ پیغام کے حصوں کو اصل ترتیب میں جوڑتا ہے۔ یہ کیا عمل ہے؟",
+      "options": [
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Reassembly\nری اسمبلی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Reassembly\nری اسمبلی"
+    },
+    {
+      "id": "dit-network-models-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "A fast sender must avoid overwhelming a slow receiver. Which transport mechanism helps?\nتیز بھیجنے والا سست وصول کنندہ کو زیادہ ڈیٹا سے نہیں بھرنا چاہتا۔ کون سا طریقہ مدد کرتا ہے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Flow control\nفلو کنٹرول",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Flow control\nفلو کنٹرول"
+    },
+    {
+      "id": "dit-network-models-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "Which layer provides end-to-end communication between hosts?\nکون سی لیئر دو ہوسٹس کے درمیان اینڈ ٹو اینڈ رابطہ فراہم کرتی ہے؟",
+      "options": [
+        "Transport layer\nٹرانسپورٹ لیئر",
+        "Presentation layer\nپریزنٹیشن لیئر",
+        "Application layer\nایپلیکیشن لیئر",
+        "Data Link layer\nڈیٹا لنک لیئر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Transport layer\nٹرانسپورٹ لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "An application must receive data despite lost segments. Which transport responsibility is relevant?\nکچھ سیگمنٹس ضائع ہو جائیں تب بھی ایپلیکیشن کو ڈیٹا چاہیے۔ ٹرانسپورٹ کی کون سی ذمہ داری متعلقہ ہے؟",
+      "options": [
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Error recovery and control\nخرابی کی اصلاح اور کنٹرول"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Error recovery and control\nخرابی کی اصلاح اور کنٹرول"
+    },
+    {
+      "id": "dit-network-models-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "A destination host runs several apps. What identifies the correct receiving application?\nمنزل والے ہوسٹ پر کئی ایپلیکیشنز ہیں۔ درست ایپلیکیشن کی شناخت کیسے ہو گی؟",
+      "options": [
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Port addressing\nپورٹ ایڈریسنگ",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Port addressing\nپورٹ ایڈریسنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "Which transport choice is connection-oriented in this chapter?\nاس باب میں کون سا ٹرانسپورٹ پروٹوکول کنکشن اورینٹڈ ہے؟",
+      "options": [
+        "CRC\nسی آر سی",
+        "IP\nآئی پی",
+        "TCP\nٹی سی پی",
+        "CSMA/CD\nسی ایس ایم اے / سی ڈی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: TCP\nٹی سی پی"
+    },
+    {
+      "id": "dit-network-models-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "Which transport choice is connectionless in this chapter?\nاس باب میں کون سا ٹرانسپورٹ پروٹوکول کنکشن لیس ہے؟",
+      "options": [
+        "TCP\nٹی سی پی",
+        "CSMA/CA\nسی ایس ایم اے / سی اے",
+        "CSMA/CD\nسی ایس ایم اے / سی ڈی",
+        "UDP\nیو ڈی پی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: UDP\nیو ڈی پی"
+    },
+    {
+      "id": "dit-network-models-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "Which task prevents too much traffic from overwhelming the network itself?\nنیٹ ورک کو بہت زیادہ ٹریفک سے بچانے والا عمل کون سا ہے؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Congestion control\nکنجیشن کنٹرول",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Session synchronization\nسیشن سنکرونائزیشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Congestion control\nکنجیشن کنٹرول"
+    },
+    {
+      "id": "dit-network-models-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "OSI Transport Layer (Layer 4)",
+      "question": "Which OSI layer is directly below Session?\nسیشن لیئر کے فوراً نیچے کون سی OSI لیئر ہے؟",
+      "options": [
+        "Layer 4\nلیئر ۴",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Layer 4\nلیئر ۴"
+    },
+    {
+      "id": "dit-network-models-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "TCP versus UDP",
+      "question": "A file transfer requires ordered and dependable delivery. Which transport protocol is appropriate?\nفائل کی ترسیل میں درست ترتیب اور قابل اعتماد ڈیلیوری چاہیے۔ کون سا ٹرانسپورٹ پروٹوکول موزوں ہے؟",
+      "options": [
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "TCP for reliable delivery\nقابل اعتماد ترسیل کے لیے TCP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: TCP for reliable delivery\nقابل اعتماد ترسیل کے لیے TCP"
+    },
+    {
+      "id": "dit-network-models-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "TCP versus UDP",
+      "question": "A live stream favors low delay over guaranteed delivery of every packet. Which protocol fits?\nلائیو اسٹریم میں ہر پیکٹ کی یقینی ڈیلیوری سے زیادہ کم تاخیر اہم ہے۔ کون سا پروٹوکول موزوں ہے؟",
+      "options": [
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "UDP for low latency\nکم تاخیر کے لیے UDP",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: UDP for low latency\nکم تاخیر کے لیے UDP"
+    },
+    {
+      "id": "dit-network-models-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "TCP versus UDP",
+      "question": "Which protocol establishes a connection using a three-way handshake?\nکون سا پروٹوکول تھری وے ہینڈشیک سے کنکشن قائم کرتا ہے؟",
+      "options": [
+        "TCP connection setup\nTCP کنکشن قائم کرنا",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Session synchronization\nسیشن سنکرونائزیشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: TCP connection setup\nTCP کنکشن قائم کرنا"
+    },
+    {
+      "id": "dit-network-models-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "TCP versus UDP",
+      "question": "A protocol does not wait for acknowledgments before sending further datagrams. Which one is it?\nایک پروٹوکول مزید ڈیٹاگرام بھیجنے سے پہلے تصدیقی پیغام کا انتظار نہیں کرتا۔ یہ کون سا ہے؟",
+      "options": [
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "UDP without ACK requirement\nACK کی شرط کے بغیر UDP",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: UDP without ACK requirement\nACK کی شرط کے بغیر UDP"
+    },
+    {
+      "id": "dit-network-models-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "TCP versus UDP",
+      "question": "Which protocol retransmits missing segments to improve reliability?\nکون سا پروٹوکول گم شدہ سیگمنٹس دوبارہ بھیج کر اعتماد بڑھاتا ہے؟",
+      "options": [
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "TCP retransmission\nTCP کے ذریعے دوبارہ ترسیل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: TCP retransmission\nTCP کے ذریعے دوبارہ ترسیل"
+    },
+    {
+      "id": "dit-network-models-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "TCP versus UDP",
+      "question": "A developer needs the smaller transport header described in the text. Which protocol is preferable?\nڈویلپر کو کتاب میں بتایا گیا چھوٹا ٹرانسپورٹ ہیڈر چاہیے۔ کون سا پروٹوکول بہتر ہے؟",
+      "options": [
+        "UDP with an 8-byte header\n۸ بائٹ ہیڈر والا UDP",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: UDP with an 8-byte header\n۸ بائٹ ہیڈر والا UDP"
+    },
+    {
+      "id": "dit-network-models-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "TCP versus UDP",
+      "question": "Which protocol normally uses a larger header and has more overhead?\nکس پروٹوکول میں عام طور پر بڑا ہیڈر اور زیادہ اوورہیڈ ہوتا ہے؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "TCP with a 20–60-byte header\n۲۰ تا ۶۰ بائٹ ہیڈر والا TCP",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: TCP with a 20–60-byte header\n۲۰ تا ۶۰ بائٹ ہیڈر والا TCP"
+    },
+    {
+      "id": "dit-network-models-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "TCP versus UDP",
+      "question": "A protocol delivers data without a preliminary connection establishment. What type is it?\nپروٹوکول پہلے کنکشن قائم کیے بغیر ڈیٹا بھیجتا ہے۔ یہ کس قسم کا ہے؟",
+      "options": [
+        "Connectionless communication\nکنکشن لیس مواصلات",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Connectionless communication\nکنکشن لیس مواصلات"
+    },
+    {
+      "id": "dit-network-models-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "TCP versus UDP",
+      "question": "Which protocol uses sliding-window flow control?\nکون سا پروٹوکول سلائیڈنگ ونڈو فلو کنٹرول استعمال کرتا ہے؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "TCP sliding window\nTCP سلائیڈنگ ونڈو",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: TCP sliding window\nTCP سلائیڈنگ ونڈو"
+    },
+    {
+      "id": "dit-network-models-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "TCP versus UDP",
+      "question": "Which protocol has datagrams as its protocol data unit?\nکس پروٹوکول کے ڈیٹا یونٹ کو ڈیٹاگرام کہا جاتا ہے؟",
+      "options": [
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "UDP datagram\nUDP ڈیٹاگرام",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: UDP datagram\nUDP ڈیٹاگرام"
+    },
+    {
+      "id": "dit-network-models-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "Packets must cross different networks to reach a remote machine. Which layer selects the path?\nپیکٹس کو دوسری نیٹ ورکس سے گزر کر منزل تک جانا ہے۔ کون سی لیئر راستہ منتخب کرتی ہے؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Network layer routing\nنیٹ ورک لیئر کی روٹنگ",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Network layer routing\nنیٹ ورک لیئر کی روٹنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "A device is identified across the internet by a logical address. What address is used?\nانٹرنیٹ پر آلہ منطقی ایڈریس سے پہچانا جاتا ہے۔ کون سا ایڈریس استعمال ہوتا ہے؟",
+      "options": [
+        "IP address\nآئی پی ایڈریس",
+        "Port number\nپورٹ نمبر",
+        "MAC address\nمیک ایڈریس",
+        "URL\nیو آر ایل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: IP address\nآئی پی ایڈریس"
+    },
+    {
+      "id": "dit-network-models-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "Routers examine a destination before sending packets onward. Which function is this?\nراؤٹر پیکٹ آگے بھیجنے سے پہلے منزل دیکھتے ہیں۔ یہ کون سا کام ہے؟",
+      "options": [
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Packet forwarding\nپیکٹ فارورڈنگ",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Packet forwarding\nپیکٹ فارورڈنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "A large packet must fit a network with a smaller MTU. Which operation may be needed?\nبڑے پیکٹ کو چھوٹے MTU والے نیٹ ورک سے گزرنا ہے۔ کون سا عمل درکار ہو سکتا ہے؟",
+      "options": [
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Fragmentation\nفریگمنٹیشن",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Fragmentation\nفریگمنٹیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "Which layer works primarily with packets rather than frames or raw bits?\nکون سی لیئر فریمز یا خام بٹس کے بجائے بنیادی طور پر پیکٹس پر کام کرتی ہے؟",
+      "options": [
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Layer 3\nلیئر ۳"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Layer 3\nلیئر ۳"
+    },
+    {
+      "id": "dit-network-models-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "A route is computed using a routing table. Which function is being performed?\nروٹنگ ٹیبل سے راستہ معلوم کیا جا رہا ہے۔ یہ کون سا کام ہے؟",
+      "options": [
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Best-path selection\nبہترین راستے کا انتخاب",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Best-path selection\nبہترین راستے کا انتخاب"
+    },
+    {
+      "id": "dit-network-models-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "A host needs to communicate beyond its own local network. Which addressing scope is relevant?\nہوسٹ کو اپنے مقامی نیٹ ورک سے باہر رابطہ کرنا ہے۔ کس ایڈریسنگ کی ضرورت ہے؟",
+      "options": [
+        "Port number\nپورٹ نمبر",
+        "Logical addressing across networks\nنیٹ ورکس کے درمیان منطقی ایڈریسنگ",
+        "IP address\nآئی پی ایڈریس",
+        "URL\nیو آر ایل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Logical addressing across networks\nنیٹ ورکس کے درمیان منطقی ایڈریسنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "Which layer lies between Transport and Data Link?\nٹرانسپورٹ اور ڈیٹا لنک کے درمیان کون سی OSI لیئر ہے؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Network (Layer 3)\nنیٹ ورک (لیئر ۳)",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Network (Layer 3)\nنیٹ ورک (لیئر ۳)"
+    },
+    {
+      "id": "dit-network-models-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "A sender does not know the physical path across the internet. Which function can determine it?\nبھیجنے والے کو انٹرنیٹ کے پار اصل راستہ معلوم نہیں۔ کون سا کام راستہ طے کرتا ہے؟",
+      "options": [
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Routing algorithms\nروٹنگ الگورتھمز",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Routing algorithms\nروٹنگ الگورتھمز"
+    },
+    {
+      "id": "dit-network-models-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "OSI Network Layer (Layer 3)",
+      "question": "Which layer enables communication between different networks rather than only within a local link?\nکون سی لیئر صرف مقامی لنک کے بجائے مختلف نیٹ ورکس کے درمیان رابطہ ممکن بناتی ہے؟",
+      "options": [
+        "Internetwork packet delivery\nمختلف نیٹ ورکس میں پیکٹ کی ترسیل",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Internetwork packet delivery\nمختلف نیٹ ورکس میں پیکٹ کی ترسیل"
+    },
+    {
+      "id": "dit-network-models-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "A node sends data to the next node on the same link. Which OSI layer handles this?\nایک نوڈ اسی لنک پر اگلے نوڈ کو ڈیٹا بھیجتا ہے۔ کون سی OSI لیئر یہ کام کرتی ہے؟",
+      "options": [
+        "Application layer\nایپلیکیشن لیئر",
+        "Physical layer\nفزیکل لیئر",
+        "Data Link layer\nڈیٹا لنک لیئر",
+        "Transport layer\nٹرانسپورٹ لیئر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Data Link layer\nڈیٹا لنک لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "Which address identifies a device on a local link?\nمقامی لنک پر آلے کی شناخت کس ایڈریس سے ہوتی ہے؟",
+      "options": [
+        "Port number\nپورٹ نمبر",
+        "MAC address\nمیک ایڈریس",
+        "URL\nیو آر ایل",
+        "IP address\nآئی پی ایڈریس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: MAC address\nمیک ایڈریس"
+    },
+    {
+      "id": "dit-network-models-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "A Network-layer packet is placed inside a link-layer structure. What is that structure?\nنیٹ ورک لیئر کے پیکٹ کو لنک لیئر کی ساخت میں رکھا جاتا ہے۔ اسے کیا کہتے ہیں؟",
+      "options": [
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Frame\nفریم",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Frame\nفریم"
+    },
+    {
+      "id": "dit-network-models-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "Which sublayer manages who may use a shared communication medium?\nکون سی ذیلی لیئر مشترکہ مواصلاتی ذریعے کے استعمال کو کنٹرول کرتی ہے؟",
+      "options": [
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "MAC sublayer\nمیک سب لیئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: MAC sublayer\nمیک سب لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "Which sublayer is associated with link-level control and error management?\nکون سی ذیلی لیئر لنک کنٹرول اور خرابی کے انتظام سے متعلق ہے؟",
+      "options": [
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "LLC sublayer\nایل ایل سی سب لیئر",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: LLC sublayer\nایل ایل سی سب لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "An Ethernet frame is checked for corruption. Which mechanism is relevant?\nایتھرنیٹ فریم میں خرابی چیک ہو رہی ہے۔ کون سا طریقہ متعلقہ ہے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Congestion management\nکنجیشن کا انتظام",
+        "CRC error detection\nCRC سے خرابی کا پتا لگانا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: CRC error detection\nCRC سے خرابی کا پتا لگانا"
+    },
+    {
+      "id": "dit-network-models-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "Which layer packages packets with header and trailer for local transmission?\nمقامی ترسیل کے لیے کون سی لیئر پیکٹ کے ساتھ ہیڈر اور ٹریلر شامل کرتی ہے؟",
+      "options": [
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Framing\nفریمنگ",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Framing\nفریمنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "A Wi-Fi network controls access to a shared channel. Which access scheme is mentioned in the text?\nوائی فائی نیٹ ورک مشترکہ چینل کا استعمال کنٹرول کرتا ہے۔ کتاب میں کون سا طریقہ مذکور ہے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "CSMA/CA\nسی ایس ایم اے / سی اے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: CSMA/CA\nسی ایس ایم اے / سی اے"
+    },
+    {
+      "id": "dit-network-models-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "An Ethernet network is discussed with which access-control mechanism in the textbook?\nکتاب میں ایتھرنیٹ کے ساتھ کون سا رسائی کنٹرول طریقہ بتایا گیا ہے؟",
+      "options": [
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "CSMA/CD\nسی ایس ایم اے / سی ڈی",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: CSMA/CD\nسی ایس ایم اے / سی ڈی"
+    },
+    {
+      "id": "dit-network-models-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "OSI Data Link Layer (Layer 2)",
+      "question": "Which layer sits immediately above the Physical layer?\nفزیکل لیئر کے فوراً اوپر کون سی OSI لیئر ہے؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Data Link (Layer 2)\nڈیٹا لنک (لیئر ۲)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Data Link (Layer 2)\nڈیٹا لنک (لیئر ۲)"
+    },
+    {
+      "id": "dit-network-models-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "A cable carries electrical pulses representing zeros and ones. Which OSI layer is responsible?\nتار صفر اور ایک کو برقی پلسز کی صورت میں لے جاتی ہے۔ کون سی OSI لیئر ذمہ دار ہے؟",
+      "options": [
+        "Physical layer\nفزیکل لیئر",
+        "Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر",
+        "Presentation layer\nپریزنٹیشن لیئر",
+        "Network layer\nنیٹ ورک لیئر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Physical layer\nفزیکل لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "Data is converted into electrical, optical or radio signals. What is this function?\nڈیٹا برقی، نوری یا ریڈیو سگنلز میں بدلا جاتا ہے۔ اس عمل کو کیا کہتے ہیں؟",
+      "options": [
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Bit transmission as physical signals\nبٹس کو جسمانی سگنلز میں منتقل کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Bit transmission as physical signals\nبٹس کو جسمانی سگنلز میں منتقل کرنا"
+    },
+    {
+      "id": "dit-network-models-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "A technician selects the connector shape for a network cable. Which layer specification is involved?\nٹیکنیشن نیٹ ورک کیبل کے کنیکٹر کی شکل منتخب کرتا ہے۔ یہ کس لیئر کی وضاحت ہے؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Physical connector specification\nفزیکل کنیکٹر کی وضاحت",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Physical connector specification\nفزیکل کنیکٹر کی وضاحت"
+    },
+    {
+      "id": "dit-network-models-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "Which type of unit is sent at the Physical layer?\nفزیکل لیئر میں کون سا ڈیٹا یونٹ منتقل ہوتا ہے؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Raw bits\nخام بٹس",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Raw bits\nخام بٹس"
+    },
+    {
+      "id": "dit-network-models-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "A system uses fiber-optic cable rather than copper wire. Which layer concerns the medium?\nسسٹم تانبے کی تار کے بجائے فائبر آپٹک کیبل استعمال کرتا ہے۔ کس لیئر کا تعلق میڈیم سے ہے؟",
+      "options": [
+        "Physical medium selection\nفزیکل میڈیم کا انتخاب",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Physical medium selection\nفزیکل میڈیم کا انتخاب"
+    },
+    {
+      "id": "dit-network-models-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "Which layer is the lowest OSI layer?\nOSI کی سب سے نچلی لیئر کون سی ہے؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Layer 1\nلیئر ۱",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Layer 1\nلیئر ۱"
+    },
+    {
+      "id": "dit-network-models-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "A standard defines how long a signal bit lasts. Which level handles the physical signaling characteristics?\nمعیار طے کرتا ہے کہ ایک سگنل بٹ کتنی دیر رہے گا۔ یہ کس سطح کا معاملہ ہے؟",
+      "options": [
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Physical signaling\nفزیکل سگنلنگ",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Physical signaling\nفزیکل سگنلنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "A device sends light pulses through fiber. What is represented by the pulses?\nآلہ فائبر میں روشنی کی پلسز بھیجتا ہے۔ پلسز کس چیز کی نمائندگی کرتی ہیں؟",
+      "options": [
+        "Binary data\nبائنری ڈیٹا",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Binary data\nبائنری ڈیٹا"
+    },
+    {
+      "id": "dit-network-models-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "Which layer specifies network hardware and physical transmission properties?\nکون سی لیئر نیٹ ورک ہارڈویئر اور جسمانی ترسیل کی خصوصیات بتاتی ہے؟",
+      "options": [
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Hardware and transmission specifications\nہارڈویئر اور ترسیل کی وضاحت"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Hardware and transmission specifications\nہارڈویئر اور ترسیل کی وضاحت"
+    },
+    {
+      "id": "dit-network-models-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "OSI Physical Layer (Layer 1)",
+      "question": "Which OSI layer operates directly below Data Link?\nڈیٹا لنک کے فوراً نیچے کون سی OSI لیئر کام کرتی ہے؟",
+      "options": [
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Physical (Layer 1)\nفزیکل (لیئر ۱)",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Physical (Layer 1)\nفزیکل (لیئر ۱)"
+    },
+    {
+      "id": "dit-network-models-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Which model is the practical foundation of modern internet communication?\nجدید انٹرنیٹ مواصلات کی عملی بنیاد کون سا ماڈل ہے؟",
+      "options": [
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "TCP/IP model\nٹی سی پی / آئی پی ماڈل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: TCP/IP model\nٹی سی پی / آئی پی ماڈل"
+    },
+    {
+      "id": "dit-network-models-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "How many layers does the textbook's TCP/IP model use?\nکتاب کا TCP/IP ماڈل کتنی لیئرز استعمال کرتا ہے؟",
+      "options": [
+        "Seven layers\nسات لیئرز",
+        "Three layers\nتین لیئرز",
+        "Four layers\nچار لیئرز",
+        "Five layers\nپانچ لیئرز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Four layers\nچار لیئرز"
+    },
+    {
+      "id": "dit-network-models-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Which model was developed for practical internetworking rather than only as a reference framework?\nصرف ریفرنس فریم ورک کے بجائے عملی انٹرنیٹ ورکنگ کے لیے کون سا ماڈل تیار ہوا؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "TCP/IP practical architecture\nٹی سی پی / آئی پی کی عملی ساخت"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: TCP/IP practical architecture\nٹی سی پی / آئی پی کی عملی ساخت"
+    },
+    {
+      "id": "dit-network-models-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Why does TCP/IP remain central to real networks?\nحقیقی نیٹ ورکس میں TCP/IP کی اہمیت کیوں برقرار ہے؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Its protocols are actually deployed\nاس کے پروٹوکول حقیقت میں استعمال ہوتے ہیں",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Its protocols are actually deployed\nاس کے پروٹوکول حقیقت میں استعمال ہوتے ہیں"
+    },
+    {
+      "id": "dit-network-models-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "What is the highest layer in the four-layer TCP/IP model?\nچار لیئر والے TCP/IP ماڈل میں سب سے اوپر کون سی لیئر ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Application\nایپلیکیشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Application\nایپلیکیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "What is the lowest TCP/IP layer in this chapter?\nاس باب میں TCP/IP کی سب سے نچلی لیئر کون سی ہے؟",
+      "options": [
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Link / Physical-Link\nلنک / فزیکل لنک",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Link / Physical-Link\nلنک / فزیکل لنک"
+    },
+    {
+      "id": "dit-network-models-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Which TCP/IP layer handles communication across multiple networks?\nکون سی TCP/IP لیئر مختلف نیٹ ورکس کے درمیان مواصلات سنبھالتی ہے؟",
+      "options": [
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Which TCP/IP layer delivers data between application processes?\nکون سی TCP/IP لیئر ایپلیکیشن پراسیسز کے درمیان ڈیٹا منتقل کرتی ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Transport layer\nٹرانسپورٹ لیئر",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Transport layer\nٹرانسپورٹ لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Which TCP/IP layer includes functions corresponding to OSI Application, Presentation and Session?\nTCP/IP کی کون سی لیئر OSI کی ایپلیکیشن، پریزنٹیشن اور سیشن کے کاموں کو یکجا کرتی ہے؟",
+      "options": [
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Unified TCP/IP Application layer\nTCP/IP کی متحدہ ایپلیکیشن لیئر",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Unified TCP/IP Application layer\nTCP/IP کی متحدہ ایپلیکیشن لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "TCP/IP Model: Foundation and Structure",
+      "question": "Why is OSI still studied alongside TCP/IP?\nTCP/IP کے ساتھ OSI کو اب بھی کیوں پڑھایا جاتا ہے؟",
+      "options": [
+        "For conceptual understanding and troubleshooting\nتصوری سمجھ اور خرابی کی تشخیص کے لیے",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: For conceptual understanding and troubleshooting\nتصوری سمجھ اور خرابی کی تشخیص کے لیے"
+    },
+    {
+      "id": "dit-network-models-nov11-q101",
+      "sourceNumber": 101,
+      "topic": "TCP/IP Application Layer",
+      "question": "A web browser accesses an online page. Which TCP/IP layer includes that service?\nویب براؤزر آن لائن صفحہ کھولتا ہے۔ TCP/IP کی کون سی لیئر یہ سروس شامل کرتی ہے؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Application layer\nایپلیکیشن لیئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Application layer\nایپلیکیشن لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q102",
+      "sourceNumber": 102,
+      "topic": "TCP/IP Application Layer",
+      "question": "Which TCP/IP layer combines the functions of the top three OSI layers?\nTCP/IP کی کون سی لیئر OSI کی اوپر والی تین لیئرز کے کام جمع کرتی ہے؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "Top TCP/IP layer\nTCP/IP کی سب سے اوپر والی لیئر",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Top TCP/IP layer\nTCP/IP کی سب سے اوپر والی لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q103",
+      "sourceNumber": 103,
+      "topic": "TCP/IP Application Layer",
+      "question": "Which TCP/IP layer provides the interface between user software and network services?\nکون سی TCP/IP لیئر صارف کے سافٹ ویئر اور نیٹ ورک سروسز کے درمیان رابطہ دیتی ہے؟",
+      "options": [
+        "User application interface\nصارف کی ایپلیکیشن کا رابطہ",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: User application interface\nصارف کی ایپلیکیشن کا رابطہ"
+    },
+    {
+      "id": "dit-network-models-nov11-q104",
+      "sourceNumber": 104,
+      "topic": "TCP/IP Application Layer",
+      "question": "A message's representation is formatted at the application level in TCP/IP. Which function does this reflect?\nTCP/IP میں پیغام کا فارمیٹ ایپلیکیشن کی سطح پر تیار کیا جاتا ہے۔ یہ کون سا کام ہے؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Data presentation\nڈیٹا پریزنٹیشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Data presentation\nڈیٹا پریزنٹیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q105",
+      "sourceNumber": 105,
+      "topic": "TCP/IP Application Layer",
+      "question": "An app maintains a communication dialog using functions combined into TCP/IP's upper layer. Which service is this?\nایپلیکیشن گفتگو برقرار رکھتی ہے اور TCP/IP کی اوپری لیئر کے کام استعمال کرتی ہے۔ یہ کون سی سروس ہے؟",
+      "options": [
+        "Session-related services\nسیشن سے متعلق سروسز",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Session-related services\nسیشن سے متعلق سروسز"
+    },
+    {
+      "id": "dit-network-models-nov11-q106",
+      "sourceNumber": 106,
+      "topic": "TCP/IP Application Layer",
+      "question": "A mail client uses the network to exchange messages. Which layer exposes that service?\nای میل کلائنٹ نیٹ ورک پر پیغامات کا تبادلہ کرتا ہے۔ کون سی لیئر یہ سروس فراہم کرتی ہے؟",
+      "options": [
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Application networking services\nایپلیکیشن نیٹ ورکنگ سروسز",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Application networking services\nایپلیکیشن نیٹ ورکنگ سروسز"
+    },
+    {
+      "id": "dit-network-models-nov11-q107",
+      "sourceNumber": 107,
+      "topic": "TCP/IP Application Layer",
+      "question": "Which TCP/IP layer is directly above Transport?\nٹرانسپورٹ کے فوراً اوپر TCP/IP کی کون سی لیئر ہے؟",
+      "options": [
+        "Application above Transport\nٹرانسپورٹ کے اوپر ایپلیکیشن",
+        "Data compression\nڈیٹا کمپریشن",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Application above Transport\nٹرانسپورٹ کے اوپر ایپلیکیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q108",
+      "sourceNumber": 108,
+      "topic": "TCP/IP Application Layer",
+      "question": "A program needs encryption or format conversion at the application level. Which model combines these concerns there?\nپروگرام کو ایپلیکیشن سطح پر انکرپشن یا فارمیٹ تبدیلی درکار ہے۔ کس ماڈل میں یہ کام یہاں یکجا ہیں؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "TCP/IP merged upper-layer approach\nTCP/IP کا متحدہ اوپری لیئر طریقہ",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: TCP/IP merged upper-layer approach\nTCP/IP کا متحدہ اوپری لیئر طریقہ"
+    },
+    {
+      "id": "dit-network-models-nov11-q109",
+      "sourceNumber": 109,
+      "topic": "TCP/IP Application Layer",
+      "question": "Which TCP/IP layer is closest to end-user services?\nکون سی TCP/IP لیئر صارف کی سروسز سے سب سے قریب ہے؟",
+      "options": [
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Application-facing services\nایپلیکیشن سے متعلق سروسز"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Application-facing services\nایپلیکیشن سے متعلق سروسز"
+    },
+    {
+      "id": "dit-network-models-nov11-q110",
+      "sourceNumber": 110,
+      "topic": "TCP/IP Application Layer",
+      "question": "An application publishes a service for other machines on the network. Which layer organizes the user-facing interaction?\nایپلیکیشن دوسرے کمپیوٹرز کے لیے نیٹ ورک سروس فراہم کرتی ہے۔ صارف سے متعلق رابطہ کس لیئر میں ہوتا ہے؟",
+      "options": [
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Application service interaction\nایپلیکیشن سروس کا رابطہ",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Application service interaction\nایپلیکیشن سروس کا رابطہ"
+    },
+    {
+      "id": "dit-network-models-nov11-q111",
+      "sourceNumber": 111,
+      "topic": "TCP/IP Transport Layer",
+      "question": "Two applications on different hosts need end-to-end exchange. Which TCP/IP layer supports it?\nمختلف ہوسٹس کی دو ایپلیکیشنز کو اینڈ ٹو اینڈ تبادلہ چاہیے۔ TCP/IP کی کون سی لیئر مدد کرتی ہے؟",
+      "options": [
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Transport layer\nٹرانسپورٹ لیئر",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Transport layer\nٹرانسپورٹ لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q112",
+      "sourceNumber": 112,
+      "topic": "TCP/IP Transport Layer",
+      "question": "Which protocol ensures connection-oriented reliable delivery?\nکون سا پروٹوکول کنکشن کے ساتھ قابل اعتماد ڈیلیوری فراہم کرتا ہے؟",
+      "options": [
+        "TCP\nٹی سی پی",
+        "IP\nآئی پی",
+        "CRC\nسی آر سی",
+        "UDP\nیو ڈی پی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: TCP\nٹی سی پی"
+    },
+    {
+      "id": "dit-network-models-nov11-q113",
+      "sourceNumber": 113,
+      "topic": "TCP/IP Transport Layer",
+      "question": "Which protocol offers lightweight connectionless transport?\nکون سا پروٹوکول ہلکی کنکشن لیس ترسیل دیتا ہے؟",
+      "options": [
+        "CSMA/CA\nسی ایس ایم اے / سی اے",
+        "UDP\nیو ڈی پی",
+        "TCP\nٹی سی پی",
+        "CRC\nسی آر سی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: UDP\nیو ڈی پی"
+    },
+    {
+      "id": "dit-network-models-nov11-q114",
+      "sourceNumber": 114,
+      "topic": "TCP/IP Transport Layer",
+      "question": "A web transfer needs lost data resent. Which transport function is required?\nویب ترسیل میں گم شدہ ڈیٹا دوبارہ بھیجنا ہے۔ کون سا ٹرانسپورٹ فنکشن چاہیے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Retransmission\nدوبارہ ترسیل",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Retransmission\nدوبارہ ترسیل"
+    },
+    {
+      "id": "dit-network-models-nov11-q115",
+      "sourceNumber": 115,
+      "topic": "TCP/IP Transport Layer",
+      "question": "A program must select the right receiving service on a host. Which addressing mechanism helps?\nپروگرام کو ہوسٹ پر درست وصول کنندہ سروس منتخب کرنی ہے۔ کون سا ایڈریسنگ طریقہ مدد کرتا ہے؟",
+      "options": [
+        "URL\nیو آر ایل",
+        "Port numbers\nپورٹ نمبرز",
+        "IP address\nآئی پی ایڈریس",
+        "MAC address\nمیک ایڈریس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Port numbers\nپورٹ نمبرز"
+    },
+    {
+      "id": "dit-network-models-nov11-q116",
+      "sourceNumber": 116,
+      "topic": "TCP/IP Transport Layer",
+      "question": "Which service reduces the risk that a sender will overwhelm the receiver?\nکون سی سروس بھیجنے والے کو وصول کنندہ پر بہت زیادہ ڈیٹا ڈالنے سے روکتی ہے؟",
+      "options": [
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Flow regulation\nڈیٹا کے بہاؤ کا کنٹرول"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Flow regulation\nڈیٹا کے بہاؤ کا کنٹرول"
+    },
+    {
+      "id": "dit-network-models-nov11-q117",
+      "sourceNumber": 117,
+      "topic": "TCP/IP Transport Layer",
+      "question": "What is TCP's transport PDU called in the textbook?\nکتاب کے مطابق TCP کے ٹرانسپورٹ ڈیٹا یونٹ کو کیا کہتے ہیں؟",
+      "options": [
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Segment\nسیگمنٹ",
+        "Congestion management\nکنجیشن کا انتظام",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Segment\nسیگمنٹ"
+    },
+    {
+      "id": "dit-network-models-nov11-q118",
+      "sourceNumber": 118,
+      "topic": "TCP/IP Transport Layer",
+      "question": "What is UDP's transport PDU called?\nUDP کے ٹرانسپورٹ ڈیٹا یونٹ کو کیا کہتے ہیں؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Datagram\nڈیٹاگرام"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Datagram\nڈیٹاگرام"
+    },
+    {
+      "id": "dit-network-models-nov11-q119",
+      "sourceNumber": 119,
+      "topic": "TCP/IP Transport Layer",
+      "question": "Which layer divides app data into pieces for network transfer?\nکون سی لیئر ایپلیکیشن ڈیٹا کو نیٹ ورک کے لیے حصوں میں تقسیم کرتی ہے؟",
+      "options": [
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Transport segmentation\nٹرانسپورٹ سیگمنٹیشن",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Session synchronization\nسیشن سنکرونائزیشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Transport segmentation\nٹرانسپورٹ سیگمنٹیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q120",
+      "sourceNumber": 120,
+      "topic": "TCP/IP Transport Layer",
+      "question": "Which layer sits between Application and Network/Internet in TCP/IP?\nTCP/IP میں ایپلیکیشن اور نیٹ ورک/انٹرنیٹ کے درمیان کون سی لیئر ہے؟",
+      "options": [
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Data compression\nڈیٹا کمپریشن",
+        "Second layer from the top\nاوپر سے دوسری لیئر",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Second layer from the top\nاوپر سے دوسری لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q121",
+      "sourceNumber": 121,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "A packet moves across several routers toward its destination. Which TCP/IP layer is at work?\nپیکٹ کئی راؤٹرز سے ہوتا ہوا منزل کی طرف بڑھتا ہے۔ TCP/IP کی کون سی لیئر کام کر رہی ہے؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q122",
+      "sourceNumber": 122,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "Which addressing system identifies a host across interconnected networks?\nمنسلک نیٹ ورکس میں ہوسٹ کی شناخت کس ایڈریسنگ سے ہوتی ہے؟",
+      "options": [
+        "IP address\nآئی پی ایڈریس",
+        "IP logical addressing\nآئی پی منطقی ایڈریسنگ",
+        "URL\nیو آر ایل",
+        "Port number\nپورٹ نمبر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: IP logical addressing\nآئی پی منطقی ایڈریسنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q123",
+      "sourceNumber": 123,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "A router selects the best destination path. Which function does it perform?\nراؤٹر منزل تک بہترین راستہ منتخب کرتا ہے۔ یہ کون سا کام ہے؟",
+      "options": [
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Packet routing\nپیکٹ روٹنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Packet routing\nپیکٹ روٹنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q124",
+      "sourceNumber": 124,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "What is moving packets to the next router called?\nپیکٹ کو اگلے راؤٹر تک پہنچانے کو کیا کہتے ہیں؟",
+      "options": [
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Packet forwarding\nپیکٹ فارورڈنگ",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Packet forwarding\nپیکٹ فارورڈنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q125",
+      "sourceNumber": 125,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "A packet exceeds the outgoing network MTU. Which function can address this?\nپیکٹ باہر جانے والے نیٹ ورک کے MTU سے بڑا ہے۔ کون سا عمل مدد کرتا ہے؟",
+      "options": [
+        "Packet fragmentation\nپیکٹ فریگمنٹیشن",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Packet fragmentation\nپیکٹ فریگمنٹیشن"
+    },
+    {
+      "id": "dit-network-models-nov11-q126",
+      "sourceNumber": 126,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "Which protocol is named as the central logical addressing and routing protocol?\nمنطقی ایڈریسنگ اور روٹنگ کا بنیادی پروٹوکول کون سا بتایا گیا ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "Internet Protocol (IP)\nانٹرنیٹ پروٹوکول (IP)",
+        "Session synchronization\nسیشن سنکرونائزیشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Internet Protocol (IP)\nانٹرنیٹ پروٹوکول (IP)"
+    },
+    {
+      "id": "dit-network-models-nov11-q127",
+      "sourceNumber": 127,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "What is the OSI counterpart to TCP/IP's Network/Internet layer?\nTCP/IP کی نیٹ ورک/انٹرنیٹ لیئر کے مقابل OSI کی کون سی لیئر ہے؟",
+      "options": [
+        "Congestion management\nکنجیشن کا انتظام",
+        "OSI Network layer\nOSI نیٹ ورک لیئر",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: OSI Network layer\nOSI نیٹ ورک لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q128",
+      "sourceNumber": 128,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "Which TCP/IP layer is directly below Transport?\nٹرانسپورٹ کے فوراً نیچے TCP/IP کی کون سی لیئر ہے؟",
+      "options": [
+        "Network layer below Transport\nٹرانسپورٹ کے نیچے نیٹ ورک لیئر",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Network layer below Transport\nٹرانسپورٹ کے نیچے نیٹ ورک لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q129",
+      "sourceNumber": 129,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "A sender needs delivery beyond one Ethernet segment. What scope is this?\nبھیجنے والے کو ایک ایتھرنیٹ سیگمنٹ سے آگے ڈیلیوری چاہیے۔ یہ کون سی سطح ہے؟",
+      "options": [
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Inter-network delivery\nمختلف نیٹ ورکس کے درمیان ترسیل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Inter-network delivery\nمختلف نیٹ ورکس کے درمیان ترسیل"
+    },
+    {
+      "id": "dit-network-models-nov11-q130",
+      "sourceNumber": 130,
+      "topic": "TCP/IP Network / Internet Layer",
+      "question": "Packets are routed by destination IP rather than MAC alone. Which layer's task is this?\nپیکٹس کو صرف MAC کے بجائے منزل کے IP سے روٹ کیا جاتا ہے۔ یہ کس لیئر کا کام ہے؟",
+      "options": [
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Internet-layer routing\nانٹرنیٹ لیئر روٹنگ",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Internet-layer routing\nانٹرنیٹ لیئر روٹنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q131",
+      "sourceNumber": 131,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "An IP packet must be transmitted on an Ethernet segment. Which TCP/IP layer frames it?\nIP پیکٹ کو ایتھرنیٹ سیگمنٹ پر بھیجنا ہے۔ TCP/IP کی کون سی لیئر اسے فریم میں رکھتی ہے؟",
+      "options": [
+        "Physical-Link layer\nفزیکل لنک لیئر",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Physical-Link layer\nفزیکل لنک لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q132",
+      "sourceNumber": 132,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "Which TCP/IP layer combines OSI Data Link and Physical duties?\nTCP/IP کی کون سی لیئر OSI کی ڈیٹا لنک اور فزیکل لیئر کے کام یکجا کرتی ہے؟",
+      "options": [
+        "Data compression\nڈیٹا کمپریشن",
+        "Bottom two OSI functions combined\nOSI کی دو نچلی لیئرز کے مشترکہ کام",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Bottom two OSI functions combined\nOSI کی دو نچلی لیئرز کے مشترکہ کام"
+    },
+    {
+      "id": "dit-network-models-nov11-q133",
+      "sourceNumber": 133,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "A frame receives source and destination hardware addresses. What kind of addresses are used?\nفریم میں سورس اور منزل کے ہارڈویئر ایڈریس شامل ہوتے ہیں۔ یہ کون سے ایڈریس ہیں؟",
+      "options": [
+        "MAC addresses\nمیک ایڈریسز",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Congestion management\nکنجیشن کا انتظام",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: MAC addresses\nمیک ایڈریسز"
+    },
+    {
+      "id": "dit-network-models-nov11-q134",
+      "sourceNumber": 134,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "Sending data as light pulses over fiber is part of which TCP/IP layer?\nفائبر پر روشنی کی پلسز سے ڈیٹا بھیجنا TCP/IP کی کس لیئر کا کام ہے؟",
+      "options": [
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Link physical transmission\nلنک کی فزیکل ترسیل",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Link physical transmission\nلنک کی فزیکل ترسیل"
+    },
+    {
+      "id": "dit-network-models-nov11-q135",
+      "sourceNumber": 135,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "A packet is encapsulated into a frame before local delivery. What function occurs?\nمقامی ترسیل سے پہلے پیکٹ کو فریم میں رکھا جاتا ہے۔ کون سا عمل ہوتا ہے؟",
+      "options": [
+        "Framing\nفریمنگ",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Combining data into a frame\nڈیٹا کو فریم میں جمع کرنا",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Framing\nفریمنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q136",
+      "sourceNumber": 136,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "What is used to detect corruption in an Ethernet frame?\nایتھرنیٹ فریم میں خرابی جانچنے کے لیے کیا استعمال ہوتا ہے؟",
+      "options": [
+        "Link-layer MAC addressing\nلنک لیئر کی میک ایڈریسنگ",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "CRC check\nCRC چیک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: CRC check\nCRC چیک"
+    },
+    {
+      "id": "dit-network-models-nov11-q137",
+      "sourceNumber": 137,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "A Wi-Fi interface coordinates access to the shared wireless channel. Which function is this?\nوائی فائی انٹرفیس مشترکہ وائرلیس چینل تک رسائی منظم کرتا ہے۔ یہ کون سا کام ہے؟",
+      "options": [
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Media access control\nمیڈیا ایکسس کنٹرول",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Media access control\nمیڈیا ایکسس کنٹرول"
+    },
+    {
+      "id": "dit-network-models-nov11-q138",
+      "sourceNumber": 138,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "Which TCP/IP layer has the physical network medium and hardware as its concern?\nTCP/IP کی کون سی لیئر نیٹ ورک کے میڈیم اور ہارڈویئر سے متعلق ہے؟",
+      "options": [
+        "Lowest Link layer\nسب سے نچلی لنک لیئر",
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Lowest Link layer\nسب سے نچلی لنک لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q139",
+      "sourceNumber": 139,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "On a local cable, data goes from one network node to the next. Which layer handles this?\nمقامی تار پر ڈیٹا ایک نوڈ سے دوسرے تک جاتا ہے۔ کون سی لیئر ذمہ دار ہے؟",
+      "options": [
+        "Direct transmission of raw bits\nخام بٹس کی براہ راست ترسیل",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "IP-based packet routing\nآئی پی کے مطابق پیکٹ روٹنگ",
+        "Node-to-node Link delivery\nلنک پر نوڈ سے نوڈ ترسیل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Node-to-node Link delivery\nلنک پر نوڈ سے نوڈ ترسیل"
+    },
+    {
+      "id": "dit-network-models-nov11-q140",
+      "sourceNumber": 140,
+      "topic": "TCP/IP Physical-Link / Link Layer",
+      "question": "Which TCP/IP layer lies directly beneath the Network/Internet layer?\nTCP/IP میں نیٹ ورک/انٹرنیٹ لیئر کے بالکل نیچے کون سی لیئر ہے؟",
+      "options": [
+        "Link / Physical-Link layer\nلنک / فزیکل لنک لیئر",
+        "Establishing a dialog\nگفتگو کا سیشن قائم کرنا",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Port-based delivery\nپورٹ کے مطابق ترسیل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Link / Physical-Link layer\nلنک / فزیکل لنک لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q141",
+      "sourceNumber": 141,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "One model has seven layers and another has four. Which pair is correct?\nایک ماڈل کی سات اور دوسرے کی چار لیئرز ہیں۔ درست جوڑا کون سا ہے؟",
+      "options": [
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا",
+        "OSI: 7; TCP/IP: 4\nOSI: ۷؛ TCP/IP: ۴"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: OSI: 7; TCP/IP: 4\nOSI: ۷؛ TCP/IP: ۴"
+    },
+    {
+      "id": "dit-network-models-nov11-q142",
+      "sourceNumber": 142,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "Which model is primarily used as a conceptual reference for teaching?\nتعلیم کے لیے بنیادی تصوری ریفرنس ماڈل کون سا ہے؟",
+      "options": [
+        "OSI reference model\nOSI ریفرنس ماڈل",
+        "Selecting a router path\nراؤٹر کے راستے کا انتخاب",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: OSI reference model\nOSI ریفرنس ماڈل"
+    },
+    {
+      "id": "dit-network-models-nov11-q143",
+      "sourceNumber": 143,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "Which model forms the protocol foundation of today's internet?\nآج کے انٹرنیٹ کے پروٹوکول کی بنیاد کون سا ماڈل ہے؟",
+      "options": [
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "TCP/IP protocol model\nTCP/IP پروٹوکول ماڈل",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Encrypting a message\nپیغام کو انکرپٹ کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: TCP/IP protocol model\nTCP/IP پروٹوکول ماڈل"
+    },
+    {
+      "id": "dit-network-models-nov11-q144",
+      "sourceNumber": 144,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "What happens to OSI's Session and Presentation functions in the four-layer TCP/IP model?\nچار لیئر والے TCP/IP ماڈل میں OSI کی سیشن اور پریزنٹیشن کے کام کہاں جاتے ہیں؟",
+      "options": [
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا",
+        "Merged into Application\nایپلیکیشن میں ضم ہو جاتے ہیں",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Merged into Application\nایپلیکیشن میں ضم ہو جاتے ہیں"
+    },
+    {
+      "id": "dit-network-models-nov11-q145",
+      "sourceNumber": 145,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "Which OSI layers correspond to TCP/IP's Link layer in the textbook?\nکتاب کے مطابق TCP/IP کی لنک لیئر کے مقابل OSI کی کون سی لیئرز ہیں؟",
+      "options": [
+        "Physical and Data Link\nفزیکل اور ڈیٹا لنک",
+        "Session synchronization\nسیشن سنکرونائزیشن",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Congestion management\nکنجیشن کا انتظام"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Physical and Data Link\nفزیکل اور ڈیٹا لنک"
+    },
+    {
+      "id": "dit-network-models-nov11-q146",
+      "sourceNumber": 146,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "Which layer has essentially equivalent routing duties in both models?\nدونوں ماڈلز میں روٹنگ کا تقریباً یکساں کام کس لیئر کا ہے؟",
+      "options": [
+        "Network layer\nنیٹ ورک لیئر",
+        "Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر",
+        "Application layer\nایپلیکیشن لیئر",
+        "Presentation layer\nپریزنٹیشن لیئر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Network / Internet layer\nنیٹ ورک / انٹرنیٹ لیئر"
+    },
+    {
+      "id": "dit-network-models-nov11-q147",
+      "sourceNumber": 147,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "How do the two models treat transport communication?\nدونوں ماڈلز ٹرانسپورٹ مواصلات کو کیسے دیکھتے ہیں؟",
+      "options": [
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "Physical signal transmission\nفزیکل سگنل کی ترسیل",
+        "Both include a Transport layer\nدونوں میں ٹرانسپورٹ لیئر موجود ہے",
+        "Data compression\nڈیٹا کمپریشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Both include a Transport layer\nدونوں میں ٹرانسپورٹ لیئر موجود ہے"
+    },
+    {
+      "id": "dit-network-models-nov11-q148",
+      "sourceNumber": 148,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "When an instructor explains all seven separate network functions, which model is being used?\nاستاد نیٹ ورک کے سات الگ افعال سمجھاتا ہے۔ کون سا ماڈل استعمال ہو رہا ہے؟",
+      "options": [
+        "OSI's detailed layering\nOSI کی تفصیلی لیئرنگ",
+        "Data compression\nڈیٹا کمپریشن",
+        "User-facing network services\nصارف کے لیے نیٹ ورک سروسز",
+        "Splitting a message into segments\nپیغام کو سیگمنٹس میں بانٹنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: OSI's detailed layering\nOSI کی تفصیلی لیئرنگ"
+    },
+    {
+      "id": "dit-network-models-nov11-q149",
+      "sourceNumber": 149,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "Which model is associated with operational TCP and IP protocols?\nعملی TCP اور IP پروٹوکول سے کون سا ماڈل منسلک ہے؟",
+      "options": [
+        "Port-based delivery\nپورٹ کے مطابق ترسیل",
+        "TCP/IP implementation\nTCP/IP کی عملی تنصیب",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Local media access control\nمقامی میڈیا ایکسس کنٹرول"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: TCP/IP implementation\nTCP/IP کی عملی تنصیب"
+    },
+    {
+      "id": "dit-network-models-nov11-q150",
+      "sourceNumber": 150,
+      "topic": "OSI and TCP/IP Comparison",
+      "question": "Why is a four-layer model easier to represent compactly?\nچار لیئر والے ماڈل کو مختصر شکل میں دکھانا کیوں آسان ہے؟",
+      "options": [
+        "Some OSI functions are grouped together\nOSI کے بعض کام ایک ساتھ ملا دیے گئے ہیں",
+        "Converting a text format\nٹیکسٹ کے فارمیٹ کی تبدیلی",
+        "Checking a frame with CRC\nCRC سے فریم کی جانچ",
+        "Error retransmission\nخراب ڈیٹا دوبارہ بھیجنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Some OSI functions are grouped together\nOSI کے بعض کام ایک ساتھ ملا دیے گئے ہیں"
+    }
+  ]
+}

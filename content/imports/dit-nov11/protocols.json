@@ -1,0 +1,1424 @@
+{
+  "key": "protocols",
+  "sourceFile": "Chapter7_Protocols_MCQS.docx",
+  "sourceSha256": "aac3a3a04d1fad7707dc88e6cdf3b9657ffe1c8829138a8264b4eefa6520ca3c",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "Computer Networking",
+  "displayChapterNumber": 7,
+  "sourceSections": [
+    "1. Network Protocols: Fundamentals",
+    "2. HTTP and HTTPS",
+    "3. FTP and File Transfer",
+    "4. SMTP and Email",
+    "5. DNS and Domain Names",
+    "6. TCP: Reliable Transport",
+    "7. UDP: Fast Datagram Transfer",
+    "8. Routed Protocols: IP and IPX",
+    "9. Routing Protocols and RIP",
+    "10. OSPF, BGP and EIGRP"
+  ],
+  "questions": [
+    {
+      "id": "dit-protocols-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "What is the main purpose of a network protocol?\nنیٹ ورک پروٹوکول کا بنیادی مقصد کیا ہے؟",
+      "options": [
+        "Store printed pages\nچھپے ہوئے صفحات محفوظ کرنا",
+        "Replace network cables\nنیٹ ورک کیبلز بدلنا",
+        "Increase monitor brightness\nمانیٹر کی روشنی بڑھانا",
+        "Set rules for exchanging data\nڈیٹا کے تبادلے کے اصول مقرر کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Set rules for exchanging data\nڈیٹا کے تبادلے کے اصول مقرر کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Two devices use different communication rules. What problem can occur?\nدو ڈیوائسز کے رابطے کے اصول مختلف ہوں تو کیا مسئلہ ہو سکتا ہے؟",
+      "options": [
+        "Their clocks stop permanently\nان کی گھڑیاں مستقل بند ہو جائیں گی",
+        "Their screens become larger\nان کی اسکرینیں بڑی ہو جائیں گی",
+        "Both automatically gain storage\nدونوں کی اسٹوریج خودبخود بڑھ جائے گی",
+        "They may fail to understand exchanged data\nوہ ایک دوسرے کے بھیجے گئے ڈیٹا کو نہیں سمجھ پائیں گی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: They may fail to understand exchanged data\nوہ ایک دوسرے کے بھیجے گئے ڈیٹا کو نہیں سمجھ پائیں گی"
+    },
+    {
+      "id": "dit-protocols-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Which activity is directly controlled by communication protocols?\nکون سا عمل براہِ راست کمیونیکیشن پروٹوکولز کے ذریعے کنٹرول ہوتا ہے؟",
+      "options": [
+        "How a desk is arranged\nمیز کیسے ترتیب دی جاتی ہے",
+        "How paper is folded\nکاغذ کیسے تہہ کیا جاتا ہے",
+        "How data is transmitted and received\nڈیٹا کیسے بھیجا اور وصول کیا جاتا ہے",
+        "How a keyboard is painted\nکی بورڈ کا رنگ کیسے کیا جاتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: How data is transmitted and received\nڈیٹا کیسے بھیجا اور وصول کیا جاتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Why do computers need agreed message formats?\nکمپیوٹرز کو پیغامات کی متفقہ ساخت کیوں درکار ہوتی ہے؟",
+      "options": [
+        "To interpret messages consistently\nتاکہ پیغامات یکساں طور پر سمجھے جائیں",
+        "To change their physical size\nتاکہ ان کا جسمانی سائز بدلے",
+        "To remove all software\nتاکہ تمام سافٹ ویئر ختم ہو",
+        "To avoid using memory\nتاکہ میموری استعمال نہ ہو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: To interpret messages consistently\nتاکہ پیغامات یکساں طور پر سمجھے جائیں"
+    },
+    {
+      "id": "dit-protocols-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "A protocol defines when a device may send information. Which aspect is being regulated?\nپروٹوکول یہ طے کرتا ہے کہ ڈیوائس کب معلومات بھیجے۔ یہ کس چیز کو منظم کرتا ہے؟",
+      "options": [
+        "Timing of communication\nرابطے کا وقت",
+        "Mouse sensitivity\nماؤس کی حساسیت",
+        "Printer ink level\nپرنٹر کی سیاہی کی مقدار",
+        "Screen resolution\nاسکرین کی ریزولوشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Timing of communication\nرابطے کا وقت"
+    },
+    {
+      "id": "dit-protocols-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Which statement best describes a protocol in networking?\nنیٹ ورکنگ میں پروٹوکول کی بہترین وضاحت کیا ہے؟",
+      "options": [
+        "A physical computer cabinet\nکمپیوٹر کی جسمانی الماری",
+        "A type of electrical plug\nبجلی کے پلگ کی قسم",
+        "An image-editing application\nتصویر میں ترمیم کا پروگرام",
+        "A common set of communication rules\nرابطے کے مشترکہ اصولوں کا مجموعہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A common set of communication rules\nرابطے کے مشترکہ اصولوں کا مجموعہ"
+    },
+    {
+      "id": "dit-protocols-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Devices exchange information successfully when they follow what?\nڈیوائسز معلومات کا کامیاب تبادلہ کب کرتی ہیں؟",
+      "options": [
+        "Different alphabets only\nصرف مختلف حروف استعمال کر کے",
+        "Compatible communication rules\nہم آہنگ رابطہ اصولوں پر عمل کر کے",
+        "Different power sockets only\nصرف مختلف بجلی ساکٹ استعمال کر کے",
+        "Unrelated file names\nغیر متعلقہ فائل ناموں سے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Compatible communication rules\nہم آہنگ رابطہ اصولوں پر عمل کر کے"
+    },
+    {
+      "id": "dit-protocols-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Which function belongs to protocols rather than computer hardware appearance?\nکمپیوٹر کی ظاہری شکل کے بجائے پروٹوکولز کا کام کون سا ہے؟",
+      "options": [
+        "Selecting case color\nکیس کا رنگ منتخب کرنا",
+        "Cleaning the keyboard\nکی بورڈ صاف کرنا",
+        "Controlling message exchange\nپیغامات کے تبادلے کو کنٹرول کرنا",
+        "Choosing desk height\nمیز کی اونچائی منتخب کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Controlling message exchange\nپیغامات کے تبادلے کو کنٹرول کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "Why are network protocols useful across different computers?\nمختلف کمپیوٹرز کے درمیان نیٹ ورک پروٹوکولز کیوں مفید ہیں؟",
+      "options": [
+        "They turn cables into printers\nوہ کیبلز کو پرنٹر بناتے ہیں",
+        "They make all screens identical\nوہ تمام اسکرینیں یکساں کرتے ہیں",
+        "They remove the need for electricity\nوہ بجلی کی ضرورت ختم کرتے ہیں",
+        "They provide shared rules for communication\nوہ رابطے کے لیے مشترکہ اصول فراہم کرتے ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: They provide shared rules for communication\nوہ رابطے کے لیے مشترکہ اصول فراہم کرتے ہیں"
+    },
+    {
+      "id": "dit-protocols-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "1. Network Protocols: Fundamentals",
+      "question": "What can be specified by a networking protocol?\nنیٹ ورکنگ پروٹوکول کس چیز کی وضاحت کر سکتا ہے؟",
+      "options": [
+        "CPU packaging design only\nصرف سی پی یو کی پیکنگ",
+        "Desk material and room color\nمیز کا مواد اور کمرے کا رنگ",
+        "Message format and transmission procedure\nپیغام کی ساخت اور ترسیل کا طریقہ",
+        "Physical weight of documents\nدستاویزات کا جسمانی وزن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Message format and transmission procedure\nپیغام کی ساخت اور ترسیل کا طریقہ"
+    },
+    {
+      "id": "dit-protocols-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "2. HTTP and HTTPS",
+      "question": "Which protocol is commonly used to request web pages?\nویب صفحات طلب کرنے کے لیے عموماً کون سا پروٹوکول استعمال ہوتا ہے؟",
+      "options": [
+        "RIP\nRIP",
+        "HTTP\nHTTP",
+        "UDP alone\nصرف UDP",
+        "SMTP\nSMTP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: HTTP\nHTTP"
+    },
+    {
+      "id": "dit-protocols-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "2. HTTP and HTTPS",
+      "question": "A browser requests a webpage from a server. Which model best describes this exchange?\nبراؤزر سرور سے ویب صفحہ طلب کرتا ہے۔ اس تبادلے کا موزوں ماڈل کیا ہے؟",
+      "options": [
+        "Print and scan\nپرنٹ اور اسکین",
+        "Route and reboot\nروٹنگ اور ری اسٹارٹ",
+        "Encrypt and format only\nصرف انکرپٹ اور فارمیٹ",
+        "Request and response\nدرخواست اور جواب"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Request and response\nدرخواست اور جواب"
+    },
+    {
+      "id": "dit-protocols-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "2. HTTP and HTTPS",
+      "question": "Why is HTTPS preferred for entering passwords on websites?\nویب سائٹ پر پاس ورڈ داخل کرنے کے لیے HTTPS کو کیوں ترجیح دی جاتی ہے؟",
+      "options": [
+        "It guarantees a faster processor\nیہ تیز پروسیسر کی ضمانت دیتا ہے",
+        "It encrypts data in transit\nیہ دورانِ ترسیل ڈیٹا کو انکرپٹ کرتا ہے",
+        "It increases screen brightness\nیہ اسکرین کی روشنی بڑھاتا ہے",
+        "It removes the need for browsers\nیہ براؤزر کی ضرورت ختم کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It encrypts data in transit\nیہ دورانِ ترسیل ڈیٹا کو انکرپٹ کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "2. HTTP and HTTPS",
+      "question": "What is the key security difference between HTTP and HTTPS?\nHTTP اور HTTPS میں سیکیورٹی کا بنیادی فرق کیا ہے؟",
+      "options": [
+        "HTTP always encrypts more\nHTTP ہمیشہ زیادہ انکرپٹ کرتا ہے",
+        "HTTPS cannot use websites\nHTTPS ویب سائٹس کے لیے استعمال نہیں ہوتا",
+        "HTTP is used only for email\nHTTP صرف ای میل کے لیے ہوتا ہے",
+        "HTTPS uses TLS encryption\nHTTPS میں TLS انکرپشن استعمال ہوتی ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: HTTPS uses TLS encryption\nHTTPS میں TLS انکرپشن استعمال ہوتی ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "2. HTTP and HTTPS",
+      "question": "A website starts with https://. What does this most directly indicate?\nویب ایڈریس https:// سے شروع ہو تو یہ براہِ راست کیا ظاہر کرتا ہے؟",
+      "options": [
+        "An encrypted connection is intended\nانکرپٹڈ کنکشن استعمال ہونا مقصود ہے",
+        "All downloads are virus-free\nہر ڈاؤن لوڈ وائرس سے پاک ہے",
+        "The website needs no server\nویب سائٹ کو سرور درکار نہیں",
+        "The site is necessarily truthful\nویب سائٹ لازماً سچی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: An encrypted connection is intended\nانکرپٹڈ کنکشن استعمال ہونا مقصود ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "2. HTTP and HTTPS",
+      "question": "Which participant usually sends an HTTP request?\nعموماً HTTP درخواست کون بھیجتا ہے؟",
+      "options": [
+        "Power supply\nبجلی فراہم کرنے والا حصہ",
+        "Printer cartridge\nپرنٹر کارٹریج",
+        "Web client or browser\nویب کلائنٹ یا براؤزر",
+        "Monitor stand\nمانیٹر اسٹینڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Web client or browser\nویب کلائنٹ یا براؤزر"
+    },
+    {
+      "id": "dit-protocols-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "2. HTTP and HTTPS",
+      "question": "Which participant returns an HTTP response?\nHTTP جواب عموماً کون دیتا ہے؟",
+      "options": [
+        "Mouse pad\nماؤس پیڈ",
+        "Keyboard cover\nکی بورڈ کور",
+        "Web server\nویب سرور",
+        "Ethernet cable alone\nصرف ایتھرنیٹ کیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Web server\nویب سرور"
+    },
+    {
+      "id": "dit-protocols-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "2. HTTP and HTTPS",
+      "question": "Which protocol is appropriate for secure web browsing?\nمحفوظ ویب براؤزنگ کے لیے کون سا پروٹوکول مناسب ہے؟",
+      "options": [
+        "FTP without encryption\nبغیر انکرپشن FTP",
+        "HTTPS\nHTTPS",
+        "ARP only\nصرف ARP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: HTTPS\nHTTPS"
+    },
+    {
+      "id": "dit-protocols-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "2. HTTP and HTTPS",
+      "question": "When a browser loads a site, what is an HTTP response likely to contain?\nبراؤزر جب سائٹ کھولتا ہے تو HTTP جواب میں کیا ہو سکتا ہے؟",
+      "options": [
+        "Keyboard batteries only\nصرف کی بورڈ کی بیٹریاں",
+        "Requested web content\nطلب کردہ ویب مواد",
+        "Physical router screws\nراؤٹر کے پیچ",
+        "Printer toner\nپرنٹر ٹونر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Requested web content\nطلب کردہ ویب مواد"
+    },
+    {
+      "id": "dit-protocols-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "2. HTTP and HTTPS",
+      "question": "Which statement about HTTPS is most accurate?\nHTTPS کے متعلق کون سا بیان زیادہ درست ہے؟",
+      "options": [
+        "It makes every website honest\nیہ ہر ویب سائٹ کو دیانت دار بناتا ہے",
+        "It means no server is involved\nاس کا مطلب ہے کہ سرور شامل نہیں",
+        "It replaces all network addresses\nیہ تمام نیٹ ورک ایڈریس بدل دیتا ہے",
+        "It protects data in transit but not every website risk\nیہ دورانِ ترسیل ڈیٹا کو محفوظ بناتا ہے مگر ہر ویب خطرہ ختم نہیں کرتا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It protects data in transit but not every website risk\nیہ دورانِ ترسیل ڈیٹا کو محفوظ بناتا ہے مگر ہر ویب خطرہ ختم نہیں کرتا"
+    },
+    {
+      "id": "dit-protocols-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "3. FTP and File Transfer",
+      "question": "Which protocol is associated with transferring files between computers?\nکمپیوٹرز کے درمیان فائلیں منتقل کرنے سے کون سا پروٹوکول متعلق ہے؟",
+      "options": [
+        "BGP\nBGP",
+        "DNS\nDNS",
+        "FTP\nFTP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: FTP\nFTP"
+    },
+    {
+      "id": "dit-protocols-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "3. FTP and File Transfer",
+      "question": "A user uploads a document to a remote file server. Which protocol from the chapter fits this purpose?\nصارف ریموٹ فائل سرور پر دستاویز اپ لوڈ کرتا ہے۔ باب کا کون سا پروٹوکول اس مقصد سے متعلق ہے؟",
+      "options": [
+        "RIP\nRIP",
+        "SMTP for routing\nروٹنگ کے لیے SMTP",
+        "OSPF\nOSPF",
+        "FTP\nFTP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: FTP\nFTP"
+    },
+    {
+      "id": "dit-protocols-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "3. FTP and File Transfer",
+      "question": "What does uploading a file mean?\nفائل اپ لوڈ کرنے کا کیا مطلب ہے؟",
+      "options": [
+        "Sending a file from a client to a remote server\nکلائنٹ سے ریموٹ سرور کو فائل بھیجنا",
+        "Changing a cable connector\nکیبل کا کنیکٹر بدلنا",
+        "Deleting a file from every device\nہر ڈیوائس سے فائل حذف کرنا",
+        "Receiving a file from a server\nسرور سے فائل وصول کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Sending a file from a client to a remote server\nکلائنٹ سے ریموٹ سرور کو فائل بھیجنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "3. FTP and File Transfer",
+      "question": "What does downloading mean in file transfer?\nفائل ٹرانسفر میں ڈاؤن لوڈ کا کیا مطلب ہے؟",
+      "options": [
+        "Sending a local file away\nمقامی فائل باہر بھیجنا",
+        "Rebooting a server\nسرور ری اسٹارٹ کرنا",
+        "Renaming a network cable\nنیٹ ورک کیبل کا نام بدلنا",
+        "Receiving a remote file on the local device\nریموٹ فائل کو مقامی ڈیوائس پر وصول کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Receiving a remote file on the local device\nریموٹ فائل کو مقامی ڈیوائس پر وصول کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "3. FTP and File Transfer",
+      "question": "What is a major limitation of traditional FTP?\nروایتی FTP کی بڑی کمی کیا ہے؟",
+      "options": [
+        "It does not encrypt the transfer by default\nیہ عام طور پر ترسیل کو انکرپٹ نہیں کرتا",
+        "It works only without servers\nیہ صرف سرور کے بغیر چلتا ہے",
+        "It cannot transfer files\nیہ فائلیں منتقل نہیں کر سکتا",
+        "It is a wireless antenna\nیہ وائرلیس اینٹینا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It does not encrypt the transfer by default\nیہ عام طور پر ترسیل کو انکرپٹ نہیں کرتا"
+    },
+    {
+      "id": "dit-protocols-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "3. FTP and File Transfer",
+      "question": "Which activity best demonstrates the purpose of FTP?\nکون سا عمل FTP کے مقصد کو بہتر ظاہر کرتا ہے؟",
+      "options": [
+        "Resolving domain names\nڈومین نام حل کرنا",
+        "Encrypting browser sessions only\nصرف براؤزر سیشن انکرپٹ کرنا",
+        "Moving files between a client and server\nکلائنٹ اور سرور کے درمیان فائلیں منتقل کرنا",
+        "Selecting shortest router paths\nراؤٹر کا مختصر ترین راستہ منتخب کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Moving files between a client and server\nکلائنٹ اور سرور کے درمیان فائلیں منتقل کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "3. FTP and File Transfer",
+      "question": "What is an FTP server mainly used for?\nFTP سرور بنیادی طور پر کس لیے استعمال ہوتا ہے؟",
+      "options": [
+        "Choosing web page colors\nویب صفحے کے رنگ منتخب کرنا",
+        "Calculating shortest routes\nمختصر راستے کا حساب لگانا",
+        "Making files available for transfer\nفائلیں منتقلی کے لیے دستیاب کرنا",
+        "Controlling monitor brightness\nمانیٹر کی روشنی کنٹرول کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Making files available for transfer\nفائلیں منتقلی کے لیے دستیاب کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "3. FTP and File Transfer",
+      "question": "Which pair describes opposite file-transfer directions?\nفائل منتقلی کی مخالف سمتوں کو کون سا جوڑا ظاہر کرتا ہے؟",
+      "options": [
+        "Encrypt and decrypt only\nصرف انکرپٹ اور ڈیکرپٹ",
+        "Ping and reboot\nپنگ اور ری اسٹارٹ",
+        "Route and subnet\nروٹ اور سب نیٹ",
+        "Upload and download\nاپ لوڈ اور ڈاؤن لوڈ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Upload and download\nاپ لوڈ اور ڈاؤن لوڈ"
+    },
+    {
+      "id": "dit-protocols-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "3. FTP and File Transfer",
+      "question": "Which protocol in this chapter is specifically named for file transfer?\nاس باب میں فائل ٹرانسفر کے نام سے کون سا پروٹوکول ہے؟",
+      "options": [
+        "Routing Information Protocol\nروٹنگ انفارمیشن پروٹوکول",
+        "Border Gateway Protocol\nبارڈر گیٹ وے پروٹوکول",
+        "File Transfer Protocol\nفائل ٹرانسفر پروٹوکول",
+        "Internet Control Message Protocol\nانٹرنیٹ کنٹرول میسج پروٹوکول"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: File Transfer Protocol\nفائل ٹرانسفر پروٹوکول"
+    },
+    {
+      "id": "dit-protocols-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "3. FTP and File Transfer",
+      "question": "When confidentiality is important, what should be considered instead of unprotected FTP?\nجب رازداری اہم ہو تو غیر محفوظ FTP کے بجائے کس چیز پر غور کرنا چاہیے؟",
+      "options": [
+        "A shorter file name only\nصرف چھوٹا فائل نام",
+        "A secure file-transfer method\nمحفوظ فائل ٹرانسفر طریقہ",
+        "A slower keyboard\nسست کی بورڈ",
+        "A larger monitor\nبڑا مانیٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A secure file-transfer method\nمحفوظ فائل ٹرانسفر طریقہ"
+    },
+    {
+      "id": "dit-protocols-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "4. SMTP and Email",
+      "question": "Which protocol is mainly used to send email messages?\nای میل پیغامات بھیجنے کے لیے بنیادی طور پر کون سا پروٹوکول استعمال ہوتا ہے؟",
+      "options": [
+        "DNS\nDNS",
+        "OSPF\nOSPF",
+        "RIP\nRIP",
+        "SMTP\nSMTP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: SMTP\nSMTP"
+    },
+    {
+      "id": "dit-protocols-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "4. SMTP and Email",
+      "question": "A mail program submits an outgoing email. Which service is involved?\nای میل پروگرام باہر جانے والا پیغام جمع کراتا ہے۔ کون سی سروس شامل ہوتی ہے؟",
+      "options": [
+        "SMTP mail service\nSMTP میل سروس",
+        "DNS zone printing\nDNS زون پرنٹنگ",
+        "RIP routing only\nصرف RIP روٹنگ",
+        "FTP file listing\nFTP فائل لسٹنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: SMTP mail service\nSMTP میل سروس"
+    },
+    {
+      "id": "dit-protocols-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "4. SMTP and Email",
+      "question": "What does SMTP stand for?\nSMTP کا پورا نام کیا ہے؟",
+      "options": [
+        "Simple Media Transfer Port\nسمپل میڈیا ٹرانسفر پورٹ",
+        "Secure Message Transport Path\nسیکیور میسج ٹرانسپورٹ پاتھ",
+        "Simple Mail Transfer Protocol\nسمپل میل ٹرانسفر پروٹوکول",
+        "System Mail Tracking Process\nسسٹم میل ٹریکنگ پروسیس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Simple Mail Transfer Protocol\nسمپل میل ٹرانسفر پروٹوکول"
+    },
+    {
+      "id": "dit-protocols-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "4. SMTP and Email",
+      "question": "Which task does SMTP primarily handle?\nSMTP بنیادی طور پر کون سا کام کرتا ہے؟",
+      "options": [
+        "Converting names to IP addresses\nناموں کو آئی پی ایڈریس میں تبدیل کرنا",
+        "Assigning monitor resolutions\nمانیٹر کی ریزولوشن مقرر کرنا",
+        "Selecting shortest network paths\nنیٹ ورک کا مختصر راستہ منتخب کرنا",
+        "Transferring outgoing email\nباہر جانے والی ای میل منتقل کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Transferring outgoing email\nباہر جانے والی ای میل منتقل کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "4. SMTP and Email",
+      "question": "A sender's mail server forwards a message to another mail server. Which protocol is appropriate?\nبھیجنے والے کا میل سرور پیغام دوسرے میل سرور کو بھیجتا ہے۔ کون سا پروٹوکول مناسب ہے؟",
+      "options": [
+        "SMTP\nSMTP",
+        "OSPF\nOSPF",
+        "FTP only\nصرف FTP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: SMTP\nSMTP"
+    },
+    {
+      "id": "dit-protocols-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "4. SMTP and Email",
+      "question": "What is the role of a mail server when using SMTP?\nSMTP استعمال کرتے وقت میل سرور کا کردار کیا ہے؟",
+      "options": [
+        "Choose display wallpaper\nڈسپلے وال پیپر چننا",
+        "Create physical network cables\nجسمانی نیٹ ورک کیبلز بنانا",
+        "Accept and relay outgoing messages\nباہر جانے والے پیغامات وصول اور آگے بھیجنا",
+        "Calculate router hop counts only\nصرف راؤٹر ہاپ گننا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Accept and relay outgoing messages\nباہر جانے والے پیغامات وصول اور آگے بھیجنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "4. SMTP and Email",
+      "question": "Which scenario is NOT the main use of SMTP?\nکون سی صورت SMTP کا بنیادی استعمال نہیں ہے؟",
+      "options": [
+        "Sending email to recipients\nوصول کنندگان کو ای میل بھیجنا",
+        "Relaying email between mail servers\nمیل سرورز کے درمیان ای میل آگے بھیجنا",
+        "Submitting an outgoing message\nباہر جانے والا پیغام جمع کرانا",
+        "Finding the shortest route between routers\nراؤٹرز کے درمیان مختصر راستہ معلوم کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Finding the shortest route between routers\nراؤٹرز کے درمیان مختصر راستہ معلوم کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "4. SMTP and Email",
+      "question": "What type of information is carried when SMTP forwards a message?\nSMTP کے ذریعے پیغام آگے بھیجتے وقت کس نوعیت کی معلومات منتقل ہوتی ہیں؟",
+      "options": [
+        "Only wireless signal strength\nصرف وائرلیس سگنل کی طاقت",
+        "Only a screen's brightness setting\nصرف اسکرین کی روشنی کی ترتیب",
+        "Email message data\nای میل پیغام کا ڈیٹا",
+        "Only cable length\nصرف کیبل کی لمبائی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Email message data\nای میل پیغام کا ڈیٹا"
+    },
+    {
+      "id": "dit-protocols-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "4. SMTP and Email",
+      "question": "If outgoing email cannot be sent, which protocol's configuration is especially relevant?\nاگر باہر جانے والی ای میل نہیں بھیجی جا رہی تو کس پروٹوکول کی ترتیب خاص طور پر متعلق ہے؟",
+      "options": [
+        "OSPF\nOSPF",
+        "BGP\nBGP",
+        "SMTP\nSMTP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: SMTP\nSMTP"
+    },
+    {
+      "id": "dit-protocols-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "4. SMTP and Email",
+      "question": "Which comparison correctly distinguishes SMTP from FTP?\nSMTP اور FTP میں درست فرق کون سا ہے؟",
+      "options": [
+        "SMTP selects routes while FTP assigns IP addresses\nSMTP راستے چنتا اور FTP آئی پی دیتا ہے",
+        "FTP sends email while SMTP configures routers\nFTP ای میل بھیجتا اور SMTP راؤٹر ترتیب دیتا ہے",
+        "SMTP sends email while FTP transfers files\nSMTP ای میل بھیجتا ہے جبکہ FTP فائلیں منتقل کرتا ہے",
+        "Both are only physical cables\nدونوں صرف جسمانی کیبلز ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: SMTP sends email while FTP transfers files\nSMTP ای میل بھیجتا ہے جبکہ FTP فائلیں منتقل کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "5. DNS and Domain Names",
+      "question": "What is the main function of DNS?\nDNS کا بنیادی کام کیا ہے؟",
+      "options": [
+        "Encrypt every file automatically\nہر فائل کو خودبخود انکرپٹ کرنا",
+        "Translate domain names into IP addresses\nڈومین ناموں کو آئی پی ایڈریس میں تبدیل کرنا",
+        "Measure physical cable length\nکیبل کی لمبائی ناپنا",
+        "Send email messages\nای میل پیغامات بھیجنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Translate domain names into IP addresses\nڈومین ناموں کو آئی پی ایڈریس میں تبدیل کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "5. DNS and Domain Names",
+      "question": "Why is DNS helpful to web users?\nDNS ویب صارفین کے لیے کیوں مفید ہے؟",
+      "options": [
+        "It increases printer speed\nیہ پرنٹر کی رفتار بڑھاتا ہے",
+        "People can use readable names instead of remembering IP numbers\nلوگ آئی پی نمبرز یاد کرنے کے بجائے آسان نام استعمال کر سکتے ہیں",
+        "It eliminates all network problems\nیہ نیٹ ورک کے تمام مسائل ختم کرتا ہے",
+        "It replaces the browser\nیہ براؤزر کی جگہ لیتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: People can use readable names instead of remembering IP numbers\nلوگ آئی پی نمبرز یاد کرنے کے بجائے آسان نام استعمال کر سکتے ہیں"
+    },
+    {
+      "id": "dit-protocols-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "5. DNS and Domain Names",
+      "question": "A user enters a website name. Which service helps find the corresponding address?\nصارف ویب سائٹ کا نام لکھتا ہے۔ متعلقہ ایڈریس تلاش کرنے میں کون سی سروس مدد دیتی ہے؟",
+      "options": [
+        "DNS\nDNS",
+        "SMTP\nSMTP",
+        "FTP\nFTP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: DNS\nDNS"
+    },
+    {
+      "id": "dit-protocols-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "5. DNS and Domain Names",
+      "question": "What does DNS stand for?\nDNS کا پورا نام کیا ہے؟",
+      "options": [
+        "Domain Name System\nڈومین نیم سسٹم",
+        "Digital Name Storage\nڈیجیٹل نیم اسٹوریج",
+        "Data Network Signal\nڈیٹا نیٹ ورک سگنل",
+        "Direct Node Service\nڈائریکٹ نوڈ سروس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Domain Name System\nڈومین نیم سسٹم"
+    },
+    {
+      "id": "dit-protocols-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "5. DNS and Domain Names",
+      "question": "Which example best illustrates DNS resolution?\nکون سی مثال DNS ریزولوشن کو بہترین ظاہر کرتی ہے؟",
+      "options": [
+        "Changing a keyboard's language\nکی بورڈ کی زبان بدلنا",
+        "Finding an IP address for a domain name\nڈومین نام کے لیے آئی پی ایڈریس معلوم کرنا",
+        "Printing a network diagram\nنیٹ ورک خاکہ چھاپنا",
+        "Converting a PDF into a photo\nپی ڈی ایف کو تصویر بنانا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Finding an IP address for a domain name\nڈومین نام کے لیے آئی پی ایڈریس معلوم کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "5. DNS and Domain Names",
+      "question": "What could happen if a domain name cannot be resolved?\nاگر ڈومین نام حل نہ ہو سکے تو کیا ہو سکتا ہے؟",
+      "options": [
+        "The monitor must shut down\nمانیٹر لازماً بند ہو جائے",
+        "The printer will create an IP address\nپرنٹر آئی پی ایڈریس بنا دے",
+        "The browser may fail to reach the site by its name\nبراؤزر نام کے ذریعے سائٹ تک نہ پہنچ سکے",
+        "The mouse becomes a router\nماؤس راؤٹر بن جائے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: The browser may fail to reach the site by its name\nبراؤزر نام کے ذریعے سائٹ تک نہ پہنچ سکے"
+    },
+    {
+      "id": "dit-protocols-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "5. DNS and Domain Names",
+      "question": "Which information does a DNS lookup commonly provide for a website?\nویب سائٹ کے لیے DNS تلاش عموماً کون سی معلومات فراہم کرتی ہے؟",
+      "options": [
+        "The monitor model\nمانیٹر کا ماڈل",
+        "An IP address\nایک آئی پی ایڈریس",
+        "The user's password\nصارف کا پاس ورڈ",
+        "The keyboard color\nکی بورڈ کا رنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: An IP address\nایک آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-protocols-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "5. DNS and Domain Names",
+      "question": "Which protocol would you check first if the website name fails but its numeric IP works?\nاگر ویب سائٹ کا نام کام نہ کرے مگر عددی آئی پی کام کرے تو پہلے کس نظام کو جانچیں گے؟",
+      "options": [
+        "SMTP\nSMTP",
+        "FTP\nFTP",
+        "UDP alone\nصرف UDP",
+        "DNS\nDNS"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: DNS\nDNS"
+    },
+    {
+      "id": "dit-protocols-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "5. DNS and Domain Names",
+      "question": "Which statement distinguishes a domain name from an IP address?\nڈومین نام اور آئی پی ایڈریس میں کون سا فرق درست ہے؟",
+      "options": [
+        "A domain is a readable name; an IP address identifies a network endpoint\nڈومین ایک قابلِ مطالعہ نام ہے جبکہ آئی پی نیٹ ورک اینڈپوائنٹ کی شناخت کرتا ہے",
+        "An IP is always a website title\nآئی پی ہمیشہ ویب سائٹ کا عنوان ہے",
+        "A domain is always a cable\nڈومین ہمیشہ کیبل ہوتا ہے",
+        "Both are printer drivers\nدونوں پرنٹر ڈرائیور ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A domain is a readable name; an IP address identifies a network endpoint\nڈومین ایک قابلِ مطالعہ نام ہے جبکہ آئی پی نیٹ ورک اینڈپوائنٹ کی شناخت کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "5. DNS and Domain Names",
+      "question": "Why does DNS support convenient Internet use?\nDNS انٹرنیٹ کے استعمال کو آسان کیوں بناتا ہے؟",
+      "options": [
+        "It prevents all spam email\nیہ تمام اسپام ای میل روکتا ہے",
+        "It associates memorable names with network addresses\nیہ یاد رہنے والے ناموں کو نیٹ ورک ایڈریس سے جوڑتا ہے",
+        "It removes every server\nیہ ہر سرور ختم کرتا ہے",
+        "It repairs broken cables\nیہ ٹوٹی ہوئی کیبلز ٹھیک کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It associates memorable names with network addresses\nیہ یاد رہنے والے ناموں کو نیٹ ورک ایڈریس سے جوڑتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "Which transport protocol focuses on reliable delivery?\nکون سا ٹرانسپورٹ پروٹوکول قابلِ اعتماد ترسیل پر توجہ دیتا ہے؟",
+      "options": [
+        "UDP\nUDP",
+        "DNS\nDNS",
+        "RIP\nRIP",
+        "TCP\nTCP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: TCP\nTCP"
+    },
+    {
+      "id": "dit-protocols-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "Why does TCP use acknowledgements?\nTCP تصدیقی پیغامات کیوں استعمال کرتا ہے؟",
+      "options": [
+        "To change screen fonts\nاسکرین فونٹ بدلنے کے لیے",
+        "To confirm received data\nوصول شدہ ڈیٹا کی تصدیق کے لیے",
+        "To select wireless channels only\nصرف وائرلیس چینل چننے کے لیے",
+        "To allocate printer paper\nپرنٹر کا کاغذ دینے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To confirm received data\nوصول شدہ ڈیٹا کی تصدیق کے لیے"
+    },
+    {
+      "id": "dit-protocols-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "If a TCP segment is lost, what can TCP do?\nاگر TCP کا کوئی سیگمنٹ ضائع ہو جائے تو TCP کیا کر سکتا ہے؟",
+      "options": [
+        "Erase the operating system\nآپریٹنگ سسٹم مٹا سکتا ہے",
+        "Retransmit missing data\nضائع شدہ ڈیٹا دوبارہ بھیج سکتا ہے",
+        "Switch off all routers\nتمام راؤٹر بند کر سکتا ہے",
+        "Change monitor size\nمانیٹر کا سائز بدل سکتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Retransmit missing data\nضائع شدہ ڈیٹا دوبارہ بھیج سکتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "Which TCP feature helps reconstruct the original data order?\nTCP کی کون سی خصوصیت ڈیٹا کی اصل ترتیب بحال کرنے میں مدد دیتی ہے؟",
+      "options": [
+        "Sequence numbers\nسیکوئنس نمبرز",
+        "Cable labels\nکیبل لیبلز",
+        "Screen pixels\nاسکرین پکسلز",
+        "File colors\nفائل کے رنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Sequence numbers\nسیکوئنس نمبرز"
+    },
+    {
+      "id": "dit-protocols-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "What is meant by TCP being connection-oriented?\nTCP کو کنکشن اورینٹڈ کہنے کا کیا مطلب ہے؟",
+      "options": [
+        "It is a domain-name service\nیہ ڈومین نام کی سروس ہے",
+        "It requires only wireless cables\nاسے صرف وائرلیس کیبلز چاہییں",
+        "It establishes a logical connection before data exchange\nیہ ڈیٹا تبادلے سے پہلے منطقی کنکشن قائم کرتا ہے",
+        "It never sends acknowledgements\nیہ کبھی تصدیق نہیں بھیجتا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: It establishes a logical connection before data exchange\nیہ ڈیٹا تبادلے سے پہلے منطقی کنکشن قائم کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "A large file must arrive completely and in order. Which choice is preferable?\nایک بڑی فائل مکمل اور درست ترتیب میں پہنچنی چاہیے۔ کون سا انتخاب بہتر ہے؟",
+      "options": [
+        "DNS\nDNS",
+        "UDP without recovery\nبغیر ریکوری UDP",
+        "TCP\nTCP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: TCP\nTCP"
+    },
+    {
+      "id": "dit-protocols-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "How does TCP handle detected missing segments?\nTCP ضائع شدہ سیگمنٹس کو کیسے سنبھالتا ہے؟",
+      "options": [
+        "Converts packets into images\nپیکٹس کو تصاویر میں بدل دیتا ہے",
+        "Requests or performs retransmission\nدوبارہ ترسیل طلب یا انجام دیتا ہے",
+        "Disables the website\nویب سائٹ بند کر دیتا ہے",
+        "Changes the destination keyboard\nمنزل کا کی بورڈ بدل دیتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Requests or performs retransmission\nدوبارہ ترسیل طلب یا انجام دیتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "What is a trade-off of TCP reliability features?\nTCP کی قابلِ اعتماد خصوصیات کا ممکنہ نقصان کیا ہے؟",
+      "options": [
+        "Additional overhead\nاضافی اوورہیڈ",
+        "No use on the Internet\nانٹرنیٹ پر استعمال نہیں",
+        "No ability to transfer files\nفائلیں منتقل کرنے کی صلاحیت ختم",
+        "No error detection at all\nغلطی کی جانچ بالکل نہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Additional overhead\nاضافی اوورہیڈ"
+    },
+    {
+      "id": "dit-protocols-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "Which mechanism helps TCP avoid overwhelming a receiver?\nکون سا طریقہ TCP کو وصول کنندہ پر ضرورت سے زیادہ ڈیٹا بھیجنے سے روکتا ہے؟",
+      "options": [
+        "Flow control\nفلو کنٹرول",
+        "Monitor calibration\nمانیٹر کی ترتیب",
+        "Image cropping\nتصویر کو تراشنا",
+        "Printer alignment\nپرنٹر کی سیدھ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Flow control\nفلو کنٹرول"
+    },
+    {
+      "id": "dit-protocols-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "6. TCP: Reliable Transport",
+      "question": "Compared with UDP, why can TCP be preferable for important documents?\nUDP کے مقابلے میں اہم دستاویزات کے لیے TCP کیوں بہتر ہو سکتا ہے؟",
+      "options": [
+        "It is a routing table\nیہ روٹنگ ٹیبل ہے",
+        "It provides ordered and reliable delivery\nیہ ترتیب وار اور قابلِ اعتماد ترسیل فراہم کرتا ہے",
+        "It never uses packets\nیہ کبھی پیکٹس استعمال نہیں کرتا",
+        "It removes the need for IP\nیہ آئی پی کی ضرورت ختم کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It provides ordered and reliable delivery\nیہ ترتیب وار اور قابلِ اعتماد ترسیل فراہم کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "Which protocol sends datagrams without first establishing a connection?\nکون سا پروٹوکول پہلے کنکشن قائم کیے بغیر ڈیٹاگرام بھیجتا ہے؟",
+      "options": [
+        "FTP\nFTP",
+        "TCP\nTCP",
+        "UDP\nUDP",
+        "SMTP\nSMTP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: UDP\nUDP"
+    },
+    {
+      "id": "dit-protocols-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "Why is UDP often suitable for live video or voice?\nلائیو ویڈیو یا آواز کے لیے UDP اکثر کیوں موزوں ہوتا ہے؟",
+      "options": [
+        "Low delay is often more important than retransmission\nکم تاخیر اکثر دوبارہ ترسیل سے زیادہ اہم ہوتی ہے",
+        "It uses printed letters\nیہ چھپے خطوط استعمال کرتا ہے",
+        "It cannot transmit over networks\nیہ نیٹ ورک پر ترسیل نہیں کر سکتا",
+        "It guarantees every packet in order\nیہ ہر پیکٹ کی ترتیب کی ضمانت دیتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Low delay is often more important than retransmission\nکم تاخیر اکثر دوبارہ ترسیل سے زیادہ اہم ہوتی ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "What does UDP not guarantee by itself?\nUDP بذاتِ خود کس چیز کی ضمانت نہیں دیتا؟",
+      "options": [
+        "Carrying application data\nایپلی کیشن ڈیٹا لے جانا",
+        "Sending datagrams\nڈیٹاگرام بھیجنا",
+        "Delivery and ordering of every datagram\nہر ڈیٹاگرام کی وصولی اور ترتیب",
+        "Using IP networks\nآئی پی نیٹ ورک استعمال کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Delivery and ordering of every datagram\nہر ڈیٹاگرام کی وصولی اور ترتیب"
+    },
+    {
+      "id": "dit-protocols-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "Which is a likely benefit of UDP over TCP?\nTCP کے مقابلے میں UDP کا ممکنہ فائدہ کیا ہے؟",
+      "options": [
+        "Mandatory connection setup\nکنکشن قائم کرنا لازمی",
+        "Less protocol overhead\nکم پروٹوکول اوورہیڈ",
+        "Guaranteed sequence restoration\nترتیب کی لازمی بحالی",
+        "Built-in retransmission of all losses\nتمام نقصانات کی خودکار دوبارہ ترسیل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Less protocol overhead\nکم پروٹوکول اوورہیڈ"
+    },
+    {
+      "id": "dit-protocols-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "A game needs quick position updates and can tolerate an occasional lost update. Which suits it?\nکسی گیم کو فوری پوزیشن اپ ڈیٹس چاہییں اور کبھی کبھار اپ ڈیٹ ضائع ہونا قابلِ قبول ہے۔ کیا موزوں ہے؟",
+      "options": [
+        "UDP\nUDP",
+        "RIP\nRIP",
+        "FTP\nFTP",
+        "SMTP\nSMTP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: UDP\nUDP"
+    },
+    {
+      "id": "dit-protocols-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "How does UDP generally compare with TCP in connection setup?\nکنکشن قائم کرنے کے لحاظ سے UDP عموماً TCP سے کیسے مختلف ہے؟",
+      "options": [
+        "TCP never makes a connection\nTCP کبھی کنکشن نہیں بناتا",
+        "UDP does not require a connection handshake\nUDP میں کنکشن ہینڈشیک ضروری نہیں",
+        "Both are routing algorithms\nدونوں روٹنگ الگورتھم ہیں",
+        "UDP needs more handshakes\nUDP میں زیادہ ہینڈشیکس درکار ہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: UDP does not require a connection handshake\nUDP میں کنکشن ہینڈشیک ضروری نہیں"
+    },
+    {
+      "id": "dit-protocols-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "What may an application need to manage itself when using UDP?\nUDP استعمال کرتے وقت ایپلی کیشن کو خود کس چیز کا انتظام کرنا پڑ سکتا ہے؟",
+      "options": [
+        "Mouse button labels\nماؤس بٹنوں کے نام",
+        "Keyboard size\nکی بورڈ کا سائز",
+        "Monitor frame color\nمانیٹر فریم کا رنگ",
+        "Recovery from lost data if required\nاگر ضروری ہو تو ضائع شدہ ڈیٹا کی بحالی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Recovery from lost data if required\nاگر ضروری ہو تو ضائع شدہ ڈیٹا کی بحالی"
+    },
+    {
+      "id": "dit-protocols-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "Which statement is true of UDP?\nUDP کے بارے میں کون سا بیان درست ہے؟",
+      "options": [
+        "It is used only to print files\nیہ صرف فائل پرنٹ کرتا ہے",
+        "It guarantees every packet is received\nیہ ہر پیکٹ کی وصولی یقینی بناتا ہے",
+        "It is connectionless and does not inherently ensure delivery\nیہ کنکشن لیس ہے اور بذاتِ خود ترسیل کی ضمانت نہیں دیتا",
+        "It is a domain-name database\nیہ ڈومین ناموں کا ڈیٹا بیس ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: It is connectionless and does not inherently ensure delivery\nیہ کنکشن لیس ہے اور بذاتِ خود ترسیل کی ضمانت نہیں دیتا"
+    },
+    {
+      "id": "dit-protocols-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "Which type of traffic commonly prioritizes timeliness over perfect delivery?\nکون سی ٹریفک عموماً مکمل ترسیل کے مقابلے میں بروقت پہنچنے کو ترجیح دیتی ہے؟",
+      "options": [
+        "Software installation files\nسافٹ ویئر انسٹالیشن فائلیں",
+        "Real-time audio and video\nریئل ٹائم آڈیو اور ویڈیو",
+        "Archived legal documents\nمحفوظ قانونی دستاویزات",
+        "Database backups\nڈیٹا بیس بیک اپ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Real-time audio and video\nریئل ٹائم آڈیو اور ویڈیو"
+    },
+    {
+      "id": "dit-protocols-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "7. UDP: Fast Datagram Transfer",
+      "question": "What is a correct TCP-versus-UDP comparison?\nTCP اور UDP کا درست تقابل کیا ہے؟",
+      "options": [
+        "Both are web browsers\nدونوں ویب براؤزر ہیں",
+        "UDP always guarantees order but TCP never does\nUDP ہمیشہ ترتیب دیتا ہے مگر TCP نہیں",
+        "TCP is a router and UDP a cable\nTCP راؤٹر اور UDP کیبل ہے",
+        "TCP provides reliability features; UDP has fewer built-in guarantees\nTCP قابلِ اعتماد خصوصیات دیتا ہے جبکہ UDP میں کم اندرونی ضمانتیں ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: TCP provides reliability features; UDP has fewer built-in guarantees\nTCP قابلِ اعتماد خصوصیات دیتا ہے جبکہ UDP میں کم اندرونی ضمانتیں ہیں"
+    },
+    {
+      "id": "dit-protocols-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "What is a routed protocol primarily used for?\nروٹڈ پروٹوکول بنیادی طور پر کس لیے استعمال ہوتا ہے؟",
+      "options": [
+        "Cleaning a router\nراؤٹر صاف کرنے کے لیے",
+        "Painting network cables\nنیٹ ورک کیبلز رنگنے کے لیے",
+        "Selecting printer font\nپرنٹر فونٹ منتخب کرنے کے لیے",
+        "Carrying addressed data across networks\nایڈریس شدہ ڈیٹا کو نیٹ ورکس کے درمیان لے جانے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Carrying addressed data across networks\nایڈریس شدہ ڈیٹا کو نیٹ ورکس کے درمیان لے جانے کے لیے"
+    },
+    {
+      "id": "dit-protocols-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Which of these is a routed protocol?\nان میں سے کون سا روٹڈ پروٹوکول ہے؟",
+      "options": [
+        "IP\nIP",
+        "OSPF\nOSPF",
+        "BGP\nBGP",
+        "RIP\nRIP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: IP\nIP"
+    },
+    {
+      "id": "dit-protocols-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "What information helps an IP packet reach the intended network?\nکون سی معلومات IP پیکٹ کو مطلوبہ نیٹ ورک تک پہنچانے میں مدد دیتی ہیں؟",
+      "options": [
+        "Destination IP address\nمنزل کا آئی پی ایڈریس",
+        "Printer paper size\nپرنٹر کاغذ کا سائز",
+        "Keyboard layout\nکی بورڈ لے آؤٹ",
+        "Monitor serial number\nمانیٹر کا سیریل نمبر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Destination IP address\nمنزل کا آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-protocols-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Which statement correctly distinguishes a routed protocol from a routing protocol?\nروٹڈ اور روٹنگ پروٹوکول میں درست فرق کیا ہے؟",
+      "options": [
+        "A routing protocol stores website images\nروٹنگ پروٹوکول ویب تصاویر محفوظ کرتا ہے",
+        "A routed protocol carries packets; a routing protocol exchanges route information\nروٹڈ پروٹوکول پیکٹس لے جاتا ہے جبکہ روٹنگ پروٹوکول راستوں کی معلومات کا تبادلہ کرتا ہے",
+        "A routed protocol paints routers\nروٹڈ پروٹوکول راؤٹرز کو رنگتا ہے",
+        "Both are only email clients\nدونوں صرف ای میل کلائنٹ ہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A routed protocol carries packets; a routing protocol exchanges route information\nروٹڈ پروٹوکول پیکٹس لے جاتا ہے جبکہ روٹنگ پروٹوکول راستوں کی معلومات کا تبادلہ کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Which address family is associated with IPv4?\nIPv4 کس نوعیت کے ایڈریس سے متعلق ہے؟",
+      "options": [
+        "32-bit IP addresses\n32 بٹ آئی پی ایڈریس",
+        "Email subject lines\nای میل کے عنوانات",
+        "128-byte printer names\n128 بائٹ پرنٹر نام",
+        "Only physical MAC labels\nصرف جسمانی MAC لیبل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 32-bit IP addresses\n32 بٹ آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-protocols-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Which address family is associated with IPv6?\nIPv6 کس نوعیت کے ایڈریس سے متعلق ہے؟",
+      "options": [
+        "8-bit router colors\n8 بٹ راؤٹر رنگ",
+        "128-bit IP addresses\n128 بٹ آئی پی ایڈریس",
+        "32-bit file names\n32 بٹ فائل نام",
+        "16-bit screen resolutions\n16 بٹ اسکرین ریزولوشن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 128-bit IP addresses\n128 بٹ آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-protocols-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Which older routed protocol is mentioned alongside IP in the chapter?\nباب میں IP کے ساتھ کون سا پرانا روٹڈ پروٹوکول ذکر ہوا ہے؟",
+      "options": [
+        "FTP\nFTP",
+        "HTTPS\nHTTPS",
+        "IPX\nIPX",
+        "SMTP\nSMTP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: IPX\nIPX"
+    },
+    {
+      "id": "dit-protocols-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Why must packets contain network addressing information?\nپیکٹس میں نیٹ ورک ایڈریس کی معلومات کیوں ضروری ہیں؟",
+      "options": [
+        "Routers need it to forward packets toward destinations\nراؤٹرز کو پیکٹس منزل کی طرف بھیجنے کے لیے اس کی ضرورت ہوتی ہے",
+        "It makes monitors brighter\nاس سے مانیٹر زیادہ روشن ہوتا ہے",
+        "It changes the operating system\nاس سے آپریٹنگ سسٹم بدلتا ہے",
+        "It increases cable thickness\nاس سے کیبل موٹی ہوتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Routers need it to forward packets toward destinations\nراؤٹرز کو پیکٹس منزل کی طرف بھیجنے کے لیے اس کی ضرورت ہوتی ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "What would a router inspect when forwarding an IP packet?\nآئی پی پیکٹ آگے بھیجتے وقت راؤٹر کیا دیکھتا ہے؟",
+      "options": [
+        "Destination IP information\nمنزل کی آئی پی معلومات",
+        "Mouse pointer shape\nماؤس پوائنٹر کی شکل",
+        "Page margin size\nصفحے کے مارجن",
+        "Video color palette\nویڈیو کے رنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Destination IP information\nمنزل کی آئی پی معلومات"
+    },
+    {
+      "id": "dit-protocols-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "8. Routed Protocols: IP and IPX",
+      "question": "Which pairing is accurate?\nکون سا جوڑا درست ہے؟",
+      "options": [
+        "UDP: printer; TCP: monitor\nUDP: پرنٹر؛ TCP: مانیٹر",
+        "SMTP: routed protocol; DNS: cable\nSMTP: روٹڈ پروٹوکول؛ DNS: کیبل",
+        "FTP: routing protocol; HTTPS: router\nFTP: روٹنگ پروٹوکول؛ HTTPS: راؤٹر",
+        "IP: routed protocol; RIP: routing protocol\nIP: روٹڈ پروٹوکول؛ RIP: روٹنگ پروٹوکول"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: IP: routed protocol; RIP: routing protocol\nIP: روٹڈ پروٹوکول؛ RIP: روٹنگ پروٹوکول"
+    },
+    {
+      "id": "dit-protocols-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "What do routing protocols help routers exchange?\nروٹنگ پروٹوکولز راؤٹرز کو کس چیز کا تبادلہ کرنے میں مدد دیتے ہیں؟",
+      "options": [
+        "Monitor color settings\nمانیٹر کے رنگوں کی ترتیبات",
+        "Keyboard shortcuts only\nصرف کی بورڈ شارٹ کٹس",
+        "Information about available network routes\nدستیاب نیٹ ورک راستوں کی معلومات",
+        "Printer ink formulas\nپرنٹر کی سیاہی کے فارمولے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Information about available network routes\nدستیاب نیٹ ورک راستوں کی معلومات"
+    },
+    {
+      "id": "dit-protocols-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "Which metric is commonly used by RIP?\nRIP عموماً کون سا میٹرک استعمال کرتا ہے؟",
+      "options": [
+        "Hop count\nہاپ کاؤنٹ",
+        "Monitor width\nمانیٹر کی چوڑائی",
+        "File extension\nفائل ایکسٹینشن",
+        "Disk capacity\nڈسک کی گنجائش"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Hop count\nہاپ کاؤنٹ"
+    },
+    {
+      "id": "dit-protocols-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "If RIP has two routes with 2 and 5 hops, which would it prefer on hop count?\nاگر RIP کے پاس 2 اور 5 ہاپ والے راستے ہوں تو ہاپ کاؤنٹ کی بنیاد پر کون سا چنے گا؟",
+      "options": [
+        "The 2-hop route\nدو ہاپ والا راستہ",
+        "The 5-hop route\nپانچ ہاپ والا راستہ",
+        "Always both simultaneously\nہمیشہ دونوں ایک ساتھ",
+        "Neither because hops are ignored\nکوئی نہیں کیونکہ ہاپس نظرانداز ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The 2-hop route\nدو ہاپ والا راستہ"
+    },
+    {
+      "id": "dit-protocols-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "RIP belongs to which broad routing approach?\nRIP کس بنیادی روٹنگ طریقے سے تعلق رکھتا ہے؟",
+      "options": [
+        "Distance vector\nڈسٹنس ویکٹر",
+        "Web request-response\nویب درخواست اور جواب",
+        "Link-state only\nصرف لنک اسٹیٹ",
+        "Email forwarding\nای میل فارورڈنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Distance vector\nڈسٹنس ویکٹر"
+    },
+    {
+      "id": "dit-protocols-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "What does hop count represent?\nہاپ کاؤنٹ کس چیز کو ظاہر کرتا ہے؟",
+      "options": [
+        "Number of monitor pixels\nمانیٹر پکسلز کی تعداد",
+        "Number of routers traversed along a path\nراستے میں گزرنے والے راؤٹرز کی تعداد",
+        "Number of files in a folder\nفولڈر کی فائلوں کی تعداد",
+        "Number of email accounts\nای میل اکاؤنٹس کی تعداد"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Number of routers traversed along a path\nراستے میں گزرنے والے راؤٹرز کی تعداد"
+    },
+    {
+      "id": "dit-protocols-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "Why can RIP be less suitable for very large networks?\nبہت بڑے نیٹ ورکس کے لیے RIP کم موزوں کیوں ہو سکتا ہے؟",
+      "options": [
+        "It is only a browser\nیہ صرف براؤزر ہے",
+        "It cannot use routers\nیہ راؤٹر استعمال نہیں کر سکتا",
+        "Its hop-count limit and simple metric restrict scalability\nہاپ کاؤنٹ کی حد اور سادہ میٹرک اس کی توسیع محدود کرتے ہیں",
+        "It changes screen brightness\nیہ اسکرین کی روشنی بدلتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Its hop-count limit and simple metric restrict scalability\nہاپ کاؤنٹ کی حد اور سادہ میٹرک اس کی توسیع محدود کرتے ہیں"
+    },
+    {
+      "id": "dit-protocols-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "What is the maximum usable RIP hop count before a route is treated as unreachable?\nRIP میں ناقابلِ رسائی سمجھے جانے سے پہلے زیادہ سے زیادہ قابلِ استعمال ہاپ کتنے ہیں؟",
+      "options": [
+        "255 hops\n255 ہاپس",
+        "Unlimited hops\nلامحدود ہاپس",
+        "One thousand hops\nایک ہزار ہاپس",
+        "15 hops\n15 ہاپس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 15 hops\n15 ہاپس"
+    },
+    {
+      "id": "dit-protocols-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "A router learns a new destination path from another router. What information exchange is taking place?\nایک راؤٹر دوسرے راؤٹر سے منزل کا نیا راستہ سیکھتا ہے۔ کس قسم کی معلومات کا تبادلہ ہو رہا ہے؟",
+      "options": [
+        "Webpage styling\nویب صفحے کی اسٹائلنگ",
+        "Email attachment editing\nای میل اٹیچمنٹ میں ترمیم",
+        "Keyboard calibration\nکی بورڈ کی ترتیب",
+        "Routing information\nروٹنگ کی معلومات"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Routing information\nروٹنگ کی معلومات"
+    },
+    {
+      "id": "dit-protocols-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "What is the main purpose of a routing table?\nروٹنگ ٹیبل کا بنیادی مقصد کیا ہے؟",
+      "options": [
+        "Adjust monitor resolution\nمانیٹر کی ریزولوشن بدلنا",
+        "Record paths to network destinations\nنیٹ ورک منزلوں تک راستے محفوظ کرنا",
+        "Store only web bookmarks\nصرف ویب بک مارکس محفوظ کرنا",
+        "Keep a list of printer fonts\nپرنٹر فونٹس کی فہرست رکھنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Record paths to network destinations\nنیٹ ورک منزلوں تک راستے محفوظ کرنا"
+    },
+    {
+      "id": "dit-protocols-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "9. Routing Protocols and RIP",
+      "question": "Which is a correct statement about RIP?\nRIP کے بارے میں کون سا بیان درست ہے؟",
+      "options": [
+        "It encrypts web browsing\nیہ ویب براؤزنگ انکرپٹ کرتا ہے",
+        "It converts domains to IP addresses\nیہ ڈومین کو آئی پی میں بدلتا ہے",
+        "It sends outgoing email\nیہ باہر جانے والی ای میل بھیجتا ہے",
+        "It chooses routes based primarily on hop count\nیہ بنیادی طور پر ہاپ کاؤنٹ کی بنیاد پر راستہ منتخب کرتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It chooses routes based primarily on hop count\nیہ بنیادی طور پر ہاپ کاؤنٹ کی بنیاد پر راستہ منتخب کرتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "Which routing protocol uses a link-state approach?\nکون سا روٹنگ پروٹوکول لنک اسٹیٹ طریقہ استعمال کرتا ہے؟",
+      "options": [
+        "FTP\nFTP",
+        "OSPF\nOSPF",
+        "SMTP\nSMTP",
+        "UDP\nUDP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: OSPF\nOSPF"
+    },
+    {
+      "id": "dit-protocols-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "What does OSPF stand for?\nOSPF کا پورا نام کیا ہے؟",
+      "options": [
+        "Optimized Simple Port Filter\nآپٹمائزڈ سمپل پورٹ فلٹر",
+        "Open Server Packet Format\nاوپن سرور پیکٹ فارمیٹ",
+        "Open Shortest Path First\nاوپن شارٹسٹ پاتھ فرسٹ",
+        "Online Secure Path File\nآن لائن سیکیور پاتھ فائل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Open Shortest Path First\nاوپن شارٹسٹ پاتھ فرسٹ"
+    },
+    {
+      "id": "dit-protocols-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "What kind of information is important for OSPF path calculation?\nOSPF میں راستے کے حساب کے لیے کون سی معلومات اہم ہیں؟",
+      "options": [
+        "Webpage background image\nویب صفحے کی پس منظر تصویر",
+        "Printer paper color\nپرنٹر کاغذ کا رنگ",
+        "Keyboard font size\nکی بورڈ فونٹ کا سائز",
+        "Network link-state information\nنیٹ ورک لنکس کی حالت کی معلومات"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Network link-state information\nنیٹ ورک لنکس کی حالت کی معلومات"
+    },
+    {
+      "id": "dit-protocols-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "Which protocol is typically associated with exchanging routes between autonomous systems?\nکون سا پروٹوکول عموماً مختلف خودمختار سسٹمز کے درمیان راستوں کے تبادلے سے متعلق ہے؟",
+      "options": [
+        "FTP\nFTP",
+        "SMTP\nSMTP",
+        "HTTP\nHTTP",
+        "BGP\nBGP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: BGP\nBGP"
+    },
+    {
+      "id": "dit-protocols-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "What does BGP stand for?\nBGP کا پورا نام کیا ہے؟",
+      "options": [
+        "Broad Group Printer\nبراڈ گروپ پرنٹر",
+        "Border Gateway Protocol\nبارڈر گیٹ وے پروٹوکول",
+        "Binary Gateway Port\nبائنری گیٹ وے پورٹ",
+        "Basic Graphics Program\nبیسک گرافکس پروگرام"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Border Gateway Protocol\nبارڈر گیٹ وے پروٹوکول"
+    },
+    {
+      "id": "dit-protocols-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "Which routing category is BGP commonly associated with?\nBGP عموماً کس روٹنگ قسم سے متعلق ہے؟",
+      "options": [
+        "Path vector\nپاتھ ویکٹر",
+        "Email protocol\nای میل پروٹوکول",
+        "Physical cable standard\nجسمانی کیبل معیار",
+        "File-transfer service\nفائل ٹرانسفر سروس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Path vector\nپاتھ ویکٹر"
+    },
+    {
+      "id": "dit-protocols-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "What distinguishes BGP from RIP in typical use?\nعام استعمال میں BGP کو RIP سے کیا چیز مختلف کرتی ہے؟",
+      "options": [
+        "BGP is an image format\nBGP تصویر کی فارمیٹ ہے",
+        "Both only send emails\nدونوں صرف ای میل بھیجتے ہیں",
+        "BGP handles inter-domain routing while RIP uses hop count within networks\nBGP مختلف ڈومینز کے درمیان روٹنگ کرتا ہے جبکہ RIP نیٹ ورکس کے اندر ہاپ گنتا ہے",
+        "RIP encrypts websites\nRIP ویب سائٹس کو انکرپٹ کرتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: BGP handles inter-domain routing while RIP uses hop count within networks\nBGP مختلف ڈومینز کے درمیان روٹنگ کرتا ہے جبکہ RIP نیٹ ورکس کے اندر ہاپ گنتا ہے"
+    },
+    {
+      "id": "dit-protocols-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "Which named routing protocol is described as an advanced distance-vector or hybrid approach?\nکون سا روٹنگ پروٹوکول جدید ڈسٹنس ویکٹر یا ہائبرڈ طریقے کے طور پر بیان ہوتا ہے؟",
+      "options": [
+        "EIGRP\nEIGRP",
+        "DNS\nDNS",
+        "FTP\nFTP",
+        "HTTPS\nHTTPS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: EIGRP\nEIGRP"
+    },
+    {
+      "id": "dit-protocols-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "Why do routers use routing algorithms such as OSPF?\nراؤٹرز OSPF جیسے روٹنگ الگورتھم کیوں استعمال کرتے ہیں؟",
+      "options": [
+        "To recolor network cables\nنیٹ ورک کیبلز کا رنگ بدلنے کے لیے",
+        "To calculate suitable paths for packet forwarding\nپیکٹس آگے بھیجنے کے لیے موزوں راستوں کا حساب کرنے کے لیے",
+        "To open PDF files\nپی ڈی ایف فائلیں کھولنے کے لیے",
+        "To write email messages\nای میل پیغامات لکھنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To calculate suitable paths for packet forwarding\nپیکٹس آگے بھیجنے کے لیے موزوں راستوں کا حساب کرنے کے لیے"
+    },
+    {
+      "id": "dit-protocols-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "10. OSPF, BGP and EIGRP",
+      "question": "Which set contains only routing protocols mentioned in the textbook?\nکون سے مجموعے میں صرف کتاب میں ذکر کردہ روٹنگ پروٹوکولز ہیں؟",
+      "options": [
+        "FTP, HTTP, HTTPS, SMTP\nFTP، HTTP، HTTPS، SMTP",
+        "TCP, UDP, FTP, DNS\nTCP، UDP، FTP، DNS",
+        "HTTP, IP, FTP, SMTP\nHTTP، IP، FTP، SMTP",
+        "RIP, OSPF, BGP, EIGRP\nRIP، OSPF، BGP، EIGRP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: RIP, OSPF, BGP, EIGRP\nRIP، OSPF، BGP، EIGRP"
+    }
+  ]
+}

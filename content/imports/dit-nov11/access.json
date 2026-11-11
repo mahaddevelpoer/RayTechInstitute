@@ -1,0 +1,1424 @@
+{
+  "key": "access",
+  "sourceFile": "MS_Access_Chapter5 MCQS.docx",
+  "sourceSha256": "2eec3c9b40f3ea5074054bc857c7453cca69bb686e28f782d0d421c177be4f73",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "MS Office",
+  "displayChapterNumber": 5,
+  "sourceSections": [
+    "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+    "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+    "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+    "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+    "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+    "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+    "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+    "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+    "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+    "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم"
+  ],
+  "questions": [
+    {
+      "id": "dit-access-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "A school stores related student and fee details together. What is this collection called?\nایک سکول طلبہ اور فیس کی متعلقہ معلومات ایک جگہ محفوظ کرتا ہے۔ اس مجموعے کو کیا کہتے ہیں؟",
+      "options": [
+        "Form\nفارم",
+        "Field\nفیلڈ",
+        "Query\nکوئری",
+        "Database\nڈیٹابیس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Database\nڈیٹابیس"
+    },
+    {
+      "id": "dit-access-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "Which type of software helps users create, organize, and maintain such collections?\nایسے مجموعوں کو بنانے، ترتیب دینے اور برقرار رکھنے کے لیے کس قسم کا سافٹ ویئر استعمال ہوتا ہے؟",
+      "options": [
+        "Query\nکوئری",
+        "DBMS\nڈی بی ایم ایس",
+        "Table\nٹیبل",
+        "Form\nفارم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: DBMS\nڈی بی ایم ایس"
+    },
+    {
+      "id": "dit-access-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "A teacher wants an MS Office application designed for database work. Which should be selected?\nاستاد کو ایم ایس آفس میں ڈیٹابیس کے کام کے لیے کون سی ایپلی کیشن منتخب کرنی چاہیے؟",
+      "options": [
+        "Report\nرپورٹ",
+        "Query\nکوئری",
+        "Table\nٹیبل",
+        "Microsoft Access\nمائیکروسافٹ ایکسیس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Microsoft Access\nمائیکروسافٹ ایکسیس"
+    },
+    {
+      "id": "dit-access-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "All details of one student occupy a single row. What is that row called?\nایک طالب علم کی تمام معلومات ایک قطار میں ہیں۔ اس قطار کو کیا کہتے ہیں؟",
+      "options": [
+        "Report\nرپورٹ",
+        "Database\nڈیٹابیس",
+        "Record\nریکارڈ",
+        "Microsoft Access\nمائیکروسافٹ ایکسیس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Record\nریکارڈ"
+    },
+    {
+      "id": "dit-access-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "The column StudentName stores the same category of information for everyone. What is it?\nStudentName کالم تمام طلبہ کے لیے ایک ہی قسم کی معلومات رکھتا ہے۔ یہ کیا ہے؟",
+      "options": [
+        "Query\nکوئری",
+        "Table\nٹیبل",
+        "Field\nفیلڈ",
+        "Database\nڈیٹابیس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Field\nفیلڈ"
+    },
+    {
+      "id": "dit-access-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "Which object stores student entries in rows and attributes in columns?\nکون سا آبجیکٹ طلبہ کے اندراجات قطاروں اور خصوصیات کالموں میں محفوظ کرتا ہے؟",
+      "options": [
+        "Query\nکوئری",
+        "Table\nٹیبل",
+        "Record\nریکارڈ",
+        "Microsoft Access\nمائیکروسافٹ ایکسیس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Table\nٹیبل"
+    },
+    {
+      "id": "dit-access-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "A principal needs only students with unpaid fees. Which object is used to retrieve that subset?\nپرنسپل کو صرف بقایا فیس والے طلبہ کا ڈیٹا چاہیے۔ کون سا آبجیکٹ استعمال ہوگا؟",
+      "options": [
+        "Record\nریکارڈ",
+        "Form\nفارم",
+        "Query\nکوئری",
+        "Field\nفیلڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Query\nکوئری"
+    },
+    {
+      "id": "dit-access-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "A clerk needs a user-friendly screen to enter new admissions. Which object fits best?\nکلرک کو نئے داخلے درج کرنے کے لیے آسان سکرین چاہیے۔ کون سا آبجیکٹ مناسب ہے؟",
+      "options": [
+        "Form\nفارم",
+        "Table\nٹیبل",
+        "Record\nریکارڈ",
+        "Query\nکوئری"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Form\nفارم"
+    },
+    {
+      "id": "dit-access-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "To print an organized list of student results, which object is most suitable?\nطلبہ کے نتائج کی منظم فہرست پرنٹ کرنے کے لیے کون سا آبجیکٹ موزوں ہے؟",
+      "options": [
+        "Report\nرپورٹ",
+        "Record\nریکارڈ",
+        "Field\nفیلڈ",
+        "Microsoft Access\nمائیکروسافٹ ایکسیس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Report\nرپورٹ"
+    },
+    {
+      "id": "dit-access-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "Section 01 — Microsoft Access Fundamentals / مائیکروسافٹ ایکسیس کی بنیادی معلومات",
+      "question": "Two tables share student IDs so matching information can be connected. What is this connection called?\nدو ٹیبلز مشترک Student ID سے معلومات ملاتے ہیں۔ اس ربط کو کیا کہتے ہیں؟",
+      "options": [
+        "Relationship\nریلیشن شپ",
+        "Report\nرپورٹ",
+        "Table\nٹیبل",
+        "Query\nکوئری"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Relationship\nریلیشن شپ"
+    },
+    {
+      "id": "dit-access-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "You need to see the name of the currently open Access window. Where should you look?\nکھلی ہوئی ایکسیس ونڈو کا نام دیکھنا ہو تو کہاں دیکھیں گے؟",
+      "options": [
+        "Status Bar\nسٹیٹس بار",
+        "Navigation Pane\nنیویگیشن پین",
+        "Title Bar\nٹائٹل بار",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Title Bar\nٹائٹل بار"
+    },
+    {
+      "id": "dit-access-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "You use Save repeatedly and want its button always close at hand. Which area is designed for this?\nآپ Save بار بار استعمال کرتے ہیں اور بٹن سامنے چاہتے ہیں۔ کون سا حصہ اس کام کے لیے ہے؟",
+      "options": [
+        "Status Bar\nسٹیٹس بار",
+        "Quick Access Toolbar\nکوئک ایکسیس ٹول بار",
+        "Create Tab\nکری ایٹ ٹیب",
+        "Datasheet View\nڈیٹا شیٹ ویو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Quick Access Toolbar\nکوئک ایکسیس ٹول بار"
+    },
+    {
+      "id": "dit-access-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "Where are Access commands arranged under tabs such as Home and Create?\nHome اور Create جیسے ٹیبز کے تحت ایکسیس کی کمانڈز کہاں ہوتی ہیں؟",
+      "options": [
+        "File Tab\nفائل ٹیب",
+        "Ribbon\nربن",
+        "Quick Access Toolbar\nکوئک ایکسیس ٹول بار",
+        "Create Tab\nکری ایٹ ٹیب"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Ribbon\nربن"
+    },
+    {
+      "id": "dit-access-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "You want to open a table or form already stored in the database. Which panel lists them?\nڈیٹابیس میں موجود ٹیبل یا فارم کھولنے کے لیے ان کی فہرست کس پین میں ملے گی؟",
+      "options": [
+        "Title Bar\nٹائٹل بار",
+        "Ribbon Tab\nربن ٹیب",
+        "File Tab\nفائل ٹیب",
+        "Navigation Pane\nنیویگیشن پین"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Navigation Pane\nنیویگیشن پین"
+    },
+    {
+      "id": "dit-access-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "Which tab would you use to open an existing database file?\nموجودہ ڈیٹابیس فائل کھولنے کے لیے کون سا ٹیب استعمال ہوگا؟",
+      "options": [
+        "Navigation Pane\nنیویگیشن پین",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Ribbon\nربن",
+        "File Tab\nفائل ٹیب"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: File Tab\nفائل ٹیب"
+    },
+    {
+      "id": "dit-access-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "Which tab is appropriate when you need to build a new form or table?\nنیا فارم یا ٹیبل بناتے وقت کون سا ٹیب مناسب ہے؟",
+      "options": [
+        "Status Bar\nسٹیٹس بار",
+        "Title Bar\nٹائٹل بار",
+        "Create Tab\nکری ایٹ ٹیب",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Create Tab\nکری ایٹ ٹیب"
+    },
+    {
+      "id": "dit-access-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "You need to inspect many records as a grid. Which view is appropriate?\nبہت سے ریکارڈز کو گرڈ کی شکل میں دیکھنا ہو تو کون سا ویو مناسب ہے؟",
+      "options": [
+        "Design View\nڈیزائن ویو",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Create Tab\nکری ایٹ ٹیب",
+        "Ribbon Tab\nربن ٹیب"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Datasheet View\nڈیٹا شیٹ ویو"
+    },
+    {
+      "id": "dit-access-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "Before entering data, you must change a field type. Which view should you open?\nڈیٹا درج کرنے سے پہلے فیلڈ کی قسم بدلنی ہو تو کون سا ویو کھولیں گے؟",
+      "options": [
+        "Design View\nڈیزائن ویو",
+        "File Tab\nفائل ٹیب",
+        "Ribbon\nربن",
+        "Quick Access Toolbar\nکوئک ایکسیس ٹول بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Design View\nڈیزائن ویو"
+    },
+    {
+      "id": "dit-access-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "Commands for a similar activity are grouped together under what?\nایک جیسے کام کی کمانڈز کو کس چیز کے تحت گروپ کیا جاتا ہے؟",
+      "options": [
+        "Ribbon Tab\nربن ٹیب",
+        "Title Bar\nٹائٹل بار",
+        "Quick Access Toolbar\nکوئک ایکسیس ٹول بار",
+        "Create Tab\nکری ایٹ ٹیب"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ribbon Tab\nربن ٹیب"
+    },
+    {
+      "id": "dit-access-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "Section 02 — Access Interface / ایکسیس کا انٹرفیس",
+      "question": "Where might you see information about the current state of the Access window?\nایکسیس ونڈو کی موجودہ حالت کی معلومات عام طور پر کہاں ہوتی ہیں؟",
+      "options": [
+        "File Tab\nفائل ٹیب",
+        "Ribbon\nربن",
+        "Ribbon Tab\nربن ٹیب",
+        "Status Bar\nسٹیٹس بار"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Status Bar\nسٹیٹس بار"
+    },
+    {
+      "id": "dit-access-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "You are starting a database for a new shop with no existing file. Which choice starts it?\nنئی دکان کے لیے کوئی موجودہ فائل نہیں۔ کون سا انتخاب نیا ڈیٹابیس شروع کرے گا؟",
+      "options": [
+        "Close\nکلوز",
+        "Blank Database\nخالی ڈیٹابیس",
+        "Data Type\nڈیٹا ٹائپ",
+        "Field Name\nفیلڈ نیم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Blank Database\nخالی ڈیٹابیس"
+    },
+    {
+      "id": "dit-access-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "A colleague sends you an existing Access file. Which command loads it?\nساتھی آپ کو موجودہ ایکسیس فائل بھیجتا ہے۔ اسے لوڈ کرنے کی کمانڈ کیا ہے؟",
+      "options": [
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Open\nاوپن",
+        "New Record\nنیا ریکارڈ",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Open\nاوپن"
+    },
+    {
+      "id": "dit-access-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "After modifying student details, which action keeps those changes?\nطلبہ کی تفصیلات بدلنے کے بعد ان تبدیلیوں کو محفوظ رکھنے کے لیے کیا کریں گے؟",
+      "options": [
+        "Close\nکلوز",
+        "Save\nسیو",
+        "New Record\nنیا ریکارڈ",
+        "Datasheet View\nڈیٹا شیٹ ویو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Save\nسیو"
+    },
+    {
+      "id": "dit-access-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "Which Access object should hold all product inventory entries?\nمصنوعات کے تمام اسٹاک اندراجات کس ایکسیس آبجیکٹ میں رکھیں گے؟",
+      "options": [
+        "New Record\nنیا ریکارڈ",
+        "Close\nکلوز",
+        "Blank Database\nخالی ڈیٹابیس",
+        "Table\nٹیبل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Table\nٹیبل"
+    },
+    {
+      "id": "dit-access-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "You want to type rows of marks quickly into an existing table. Which view is suitable?\nموجودہ ٹیبل میں نمبروں کی قطاریں تیزی سے درج کرنی ہوں تو کون سا ویو مناسب ہے؟",
+      "options": [
+        "Save\nسیو",
+        "Design View\nڈیزائن ویو",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Open\nاوپن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Datasheet View\nڈیٹا شیٹ ویو"
+    },
+    {
+      "id": "dit-access-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "You want to define columns before entering any records. Which view is suitable?\nریکارڈز درج کرنے سے پہلے کالموں کی ساخت مقرر کرنی ہو تو کون سا ویو مناسب ہے؟",
+      "options": [
+        "Data Type\nڈیٹا ٹائپ",
+        "New Record\nنیا ریکارڈ",
+        "Save\nسیو",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Design View\nڈیزائن ویو"
+    },
+    {
+      "id": "dit-access-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "The column should be called AdmissionNo. Which table property specifies this label?\nکالم کا نام AdmissionNo رکھنا ہو تو کون سی خصوصیت استعمال ہوگی؟",
+      "options": [
+        "Open\nاوپن",
+        "New Record\nنیا ریکارڈ",
+        "Field Name\nفیلڈ نیم",
+        "Blank Database\nخالی ڈیٹابیس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Field Name\nفیلڈ نیم"
+    },
+    {
+      "id": "dit-access-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "To prevent text in a marks-only field, which setting should be selected appropriately?\nنمبروں والی فیلڈ میں غیر متعلقہ متن روکنے کے لیے کون سی سیٹنگ درست رکھیں گے؟",
+      "options": [
+        "Blank Database\nخالی ڈیٹابیس",
+        "Close\nکلوز",
+        "Data Type\nڈیٹا ٹائپ",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Data Type\nڈیٹا ٹائپ"
+    },
+    {
+      "id": "dit-access-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "A new student joins and must be added as another row. What are you adding?\nنیا طالب علم آئے اور ایک اور قطار شامل کرنی ہو تو کیا شامل کیا جا رہا ہے؟",
+      "options": [
+        "New Record\nنیا ریکارڈ",
+        "Design View\nڈیزائن ویو",
+        "Open\nاوپن",
+        "Close\nکلوز"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: New Record\nنیا ریکارڈ"
+    },
+    {
+      "id": "dit-access-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "Section 03 — Database and Table Operations / ڈیٹابیس اور ٹیبل کے کام",
+      "question": "You finished inspecting a table but want the database to remain open. Which action closes that table?\nٹیبل دیکھ لیا لیکن ڈیٹابیس کھلا رکھنا ہے۔ ٹیبل بند کرنے کی کارروائی کیا ہے؟",
+      "options": [
+        "Close\nکلوز",
+        "Design View\nڈیزائن ویو",
+        "Open\nاوپن",
+        "Save\nسیو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Close\nکلوز"
+    },
+    {
+      "id": "dit-access-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "A field stores employee names such as Ali and Sana. Which type best fits?\nفیلڈ میں Ali اور Sana جیسے ملازمین کے نام ہوں تو کون سی قسم موزوں ہے؟",
+      "options": [
+        "Short Text\nشارٹ ٹیکسٹ",
+        "Number\nنمبر",
+        "OLE Object\nاو ایل ای آبجیکٹ",
+        "AutoNumber\nآٹو نمبر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Short Text\nشارٹ ٹیکسٹ"
+    },
+    {
+      "id": "dit-access-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "A field contains several paragraphs of student remarks. Which type is suitable?\nفیلڈ میں طالب علم کے بارے میں کئی پیراگراف ہوں تو کون سی قسم مناسب ہے؟",
+      "options": [
+        "Hyperlink\nہائپر لنک",
+        "Long Text\nلانگ ٹیکسٹ",
+        "Number\nنمبر",
+        "OLE Object\nاو ایل ای آبجیکٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Long Text\nلانگ ٹیکسٹ"
+    },
+    {
+      "id": "dit-access-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "You want to calculate the average of scores stored in a field. Which type supports that purpose?\nفیلڈ میں محفوظ نمبروں کی اوسط نکالنا ہو تو کون سی قسم مناسب ہے؟",
+      "options": [
+        "Long Text\nلانگ ٹیکسٹ",
+        "Number\nنمبر",
+        "OLE Object\nاو ایل ای آبجیکٹ",
+        "Yes/No\nیس نو"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Number\nنمبر"
+    },
+    {
+      "id": "dit-access-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "You need to record the exact joining date of each employee. Which data type should be used?\nہر ملازم کی شمولیت کی تاریخ محفوظ کرنے کے لیے کون سی ڈیٹا ٹائپ ہوگی؟",
+      "options": [
+        "Number\nنمبر",
+        "Short Text\nشارٹ ٹیکسٹ",
+        "AutoNumber\nآٹو نمبر",
+        "Date/Time\nڈیٹ ٹائم"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Date/Time\nڈیٹ ٹائم"
+    },
+    {
+      "id": "dit-access-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "You record prices and fees with monetary formatting. Which data type is intended for this?\nقیمتوں اور فیسوں کو رقم کی شکل میں محفوظ کرنے کے لیے کون سی قسم مناسب ہے؟",
+      "options": [
+        "Number\nنمبر",
+        "AutoNumber\nآٹو نمبر",
+        "Currency\nکرنسی",
+        "Long Text\nلانگ ٹیکسٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Currency\nکرنسی"
+    },
+    {
+      "id": "dit-access-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "You want Access to assign each new record a number automatically. Which type helps?\nآپ چاہتے ہیں کہ ایکسیس ہر نئے ریکارڈ کو خود نمبر دے۔ کون سی قسم مدد کرتی ہے؟",
+      "options": [
+        "OLE Object\nاو ایل ای آبجیکٹ",
+        "AutoNumber\nآٹو نمبر",
+        "Number\nنمبر",
+        "Attachment\nاٹیچمنٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: AutoNumber\nآٹو نمبر"
+    },
+    {
+      "id": "dit-access-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "A field records whether a student is present or absent as a two-state answer. Which type fits?\nفیلڈ میں طالب علم کی حاضری دو ممکنہ حالتوں میں درج ہو تو کون سی قسم مناسب ہے؟",
+      "options": [
+        "Date/Time\nڈیٹ ٹائم",
+        "Yes/No\nیس نو",
+        "Attachment\nاٹیچمنٹ",
+        "OLE Object\nاو ایل ای آبجیکٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Yes/No\nیس نو"
+    },
+    {
+      "id": "dit-access-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "You need a clickable website address in a field. Which type is most appropriate?\nفیلڈ میں کلک ہونے والا ویب ایڈریس رکھنا ہو تو کون سی قسم مناسب ہے؟",
+      "options": [
+        "Attachment\nاٹیچمنٹ",
+        "Currency\nکرنسی",
+        "Hyperlink\nہائپر لنک",
+        "Yes/No\nیس نو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Hyperlink\nہائپر لنک"
+    },
+    {
+      "id": "dit-access-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "You want to store an associated document file with a record. Which type supports it?\nایک ریکارڈ کے ساتھ دستاویز کی فائل منسلک کرنی ہو تو کون سی قسم استعمال ہوگی؟",
+      "options": [
+        "Hyperlink\nہائپر لنک",
+        "Date/Time\nڈیٹ ٹائم",
+        "Attachment\nاٹیچمنٹ",
+        "Long Text\nلانگ ٹیکسٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Attachment\nاٹیچمنٹ"
+    },
+    {
+      "id": "dit-access-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "Section 04 — Field Data Types / فیلڈ ڈیٹا ٹائپس",
+      "question": "A database field needs to contain an embedded object from another application. Which type addresses this?\nدوسری ایپلی کیشن کا آبجیکٹ ڈیٹابیس فیلڈ میں شامل کرنا ہو تو کون سی قسم ہے؟",
+      "options": [
+        "AutoNumber\nآٹو نمبر",
+        "Currency\nکرنسی",
+        "OLE Object\nاو ایل ای آبجیکٹ",
+        "Attachment\nاٹیچمنٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: OLE Object\nاو ایل ای آبجیکٹ"
+    },
+    {
+      "id": "dit-access-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "Which setting makes StudentID uniquely identify every row?\nکون سی سیٹنگ StudentID کے ذریعے ہر قطار کی منفرد شناخت بناتی ہے؟",
+      "options": [
+        "Primary Key\nپرائمری کی",
+        "Caption\nکیپشن",
+        "Indexed\nانڈیکسڈ",
+        "Validation Rule\nویلیڈیشن رول"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Primary Key\nپرائمری کی"
+    },
+    {
+      "id": "dit-access-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "A code must not exceed a set number of characters. Which property is relevant?\nکوڈ کے حروف مقررہ حد سے زیادہ نہ ہوں تو کون سی خصوصیت متعلقہ ہے؟",
+      "options": [
+        "Indexed\nانڈیکسڈ",
+        "Primary Key\nپرائمری کی",
+        "Field Size\nفیلڈ سائز",
+        "Input Mask\nان پٹ ماسک"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Field Size\nفیلڈ سائز"
+    },
+    {
+      "id": "dit-access-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "A date is displayed differently without changing its underlying value. Which property handles this?\nاصل قدر بدلے بغیر تاریخ دکھانے کا انداز بدلنا ہو تو کون سی خصوصیت کام آئے گی؟",
+      "options": [
+        "Format\nفارمیٹ",
+        "Caption\nکیپشن",
+        "Field Size\nفیلڈ سائز",
+        "Indexed\nانڈیکسڈ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Format\nفارمیٹ"
+    },
+    {
+      "id": "dit-access-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "New registrations should initially show Active unless changed. Which property sets that starting value?\nنئے اندراج میں ابتدا میں Active دکھانا ہو تو کون سی خصوصیت استعمال ہوگی؟",
+      "options": [
+        "Default Value\nڈیفالٹ ویلیو",
+        "Input Mask\nان پٹ ماسک",
+        "Caption\nکیپشن",
+        "Validation Rule\nویلیڈیشن رول"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Default Value\nڈیفالٹ ویلیو"
+    },
+    {
+      "id": "dit-access-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "Marks entered must stay between 0 and 100. Which property imposes the restriction?\nدرج کردہ نمبر 0 سے 100 کے درمیان رہیں۔ کون سی خصوصیت پابندی لگاتی ہے؟",
+      "options": [
+        "Caption\nکیپشن",
+        "Input Mask\nان پٹ ماسک",
+        "Validation Rule\nویلیڈیشن رول",
+        "Field Size\nفیلڈ سائز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Validation Rule\nویلیڈیشن رول"
+    },
+    {
+      "id": "dit-access-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "A record must not be saved without a student name. Which property helps enforce this?\nطالب علم کا نام دیے بغیر ریکارڈ محفوظ نہ ہو۔ کون سی خصوصیت کام آتی ہے؟",
+      "options": [
+        "Primary Key\nپرائمری کی",
+        "Default Value\nڈیفالٹ ویلیو",
+        "Validation Rule\nویلیڈیشن رول",
+        "Required\nریکوائرڈ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Required\nریکوائرڈ"
+    },
+    {
+      "id": "dit-access-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "A large table is often searched by roll number. Which property can improve search performance?\nبڑے ٹیبل میں رول نمبر سے اکثر تلاش ہوتی ہے۔ کون سی خصوصیت تلاش تیز کر سکتی ہے؟",
+      "options": [
+        "Input Mask\nان پٹ ماسک",
+        "Indexed\nانڈیکسڈ",
+        "Caption\nکیپشن",
+        "Primary Key\nپرائمری کی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Indexed\nانڈیکسڈ"
+    },
+    {
+      "id": "dit-access-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "A phone number must follow a consistent typing pattern. Which property can guide data entry?\nفون نمبر ایک ہی ترتیب میں لکھوانا ہو تو کون سی خصوصیت مدد کرے گی؟",
+      "options": [
+        "Input Mask\nان پٹ ماسک",
+        "Format\nفارمیٹ",
+        "Primary Key\nپرائمری کی",
+        "Caption\nکیپشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Input Mask\nان پٹ ماسک"
+    },
+    {
+      "id": "dit-access-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "The column stored as DOB should display Birth Date to users. Which property changes its displayed label?\nDOB کالم صارف کو Birth Date کے نام سے دکھانا ہو تو کون سی خصوصیت بدلے گی؟",
+      "options": [
+        "Format\nفارمیٹ",
+        "Caption\nکیپشن",
+        "Required\nریکوائرڈ",
+        "Indexed\nانڈیکسڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Caption\nکیپشن"
+    },
+    {
+      "id": "dit-access-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "Section 05 — Field Properties and Keys / فیلڈ خصوصیات اور کیز",
+      "question": "You want a note explaining why a field exists in table design. Where can you put it?\nٹیبل ڈیزائن میں فیلڈ کے مقصد کی وضاحت لکھنی ہو تو کہاں لکھیں گے؟",
+      "options": [
+        "Field Size\nفیلڈ سائز",
+        "Default Value\nڈیفالٹ ویلیو",
+        "Description\nڈسکرپشن",
+        "Caption\nکیپشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Description\nڈسکرپشن"
+    },
+    {
+      "id": "dit-access-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Each employee is linked to exactly one personal ID detail record. What relationship fits?\nہر ملازم کے ساتھ صرف ایک شناختی تفصیل کا ریکارڈ ہو تو کون سا ربط ہے؟",
+      "options": [
+        "Related Table\nمتعلقہ ٹیبل",
+        "Primary Key\nپرائمری کی",
+        "One-to-One\nون ٹو ون",
+        "Parent Table\nپیرنٹ ٹیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: One-to-One\nون ٹو ون"
+    },
+    {
+      "id": "dit-access-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "One customer can place several orders. What relationship best describes it?\nایک گاہک کئی آرڈر دے سکتا ہے۔ یہ کون سا ربط ہے؟",
+      "options": [
+        "Primary Key\nپرائمری کی",
+        "Junction Table\nجنکشن ٹیبل",
+        "Relationships Window\nریلیشن شپ ونڈو",
+        "One-to-Many\nون ٹو مینی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: One-to-Many\nون ٹو مینی"
+    },
+    {
+      "id": "dit-access-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Many students enroll in many courses. What underlying relationship is this?\nکئی طلبہ کئی کورسز میں داخل ہوں تو یہ کون سا ربط ہے؟",
+      "options": [
+        "Many-to-Many\nمینی ٹو مینی",
+        "Relationships Window\nریلیشن شپ ونڈو",
+        "Referential Integrity\nریفرینشل انٹیگریٹی",
+        "One-to-One\nون ٹو ون"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Many-to-Many\nمینی ٹو مینی"
+    },
+    {
+      "id": "dit-access-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Which key uniquely identifies a record in the original Customers table?\nاصل Customers ٹیبل میں ریکارڈ کو منفرد شناخت کون سی کی دیتی ہے؟",
+      "options": [
+        "Foreign Key\nفارن کی",
+        "One-to-One\nون ٹو ون",
+        "Junction Table\nجنکشن ٹیبل",
+        "Primary Key\nپرائمری کی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Primary Key\nپرائمری کی"
+    },
+    {
+      "id": "dit-access-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Orders contains CustomerID to link back to Customers. What is CustomerID in Orders?\nOrders ٹیبل میں Customers سے ربط کے لیے CustomerID ہو تو Orders میں یہ کیا ہے؟",
+      "options": [
+        "Referential Integrity\nریفرینشل انٹیگریٹی",
+        "Junction Table\nجنکشن ٹیبل",
+        "Foreign Key\nفارن کی",
+        "Relationships Window\nریلیشن شپ ونڈو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Foreign Key\nفارن کی"
+    },
+    {
+      "id": "dit-access-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Which Access window is used to draw and edit links among tables?\nٹیبلز کے درمیان روابط بنانے اور بدلنے کے لیے کون سی ایکسیس ونڈو استعمال ہوتی ہے؟",
+      "options": [
+        "Referential Integrity\nریفرینشل انٹیگریٹی",
+        "Junction Table\nجنکشن ٹیبل",
+        "Related Table\nمتعلقہ ٹیبل",
+        "Relationships Window\nریلیشن شپ ونڈو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Relationships Window\nریلیشن شپ ونڈو"
+    },
+    {
+      "id": "dit-access-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Which rule helps prevent an order from referring to a nonexistent customer?\nکون سا اصول غیر موجود گاہک کے نام آرڈر بننے سے روکنے میں مدد دیتا ہے؟",
+      "options": [
+        "Referential Integrity\nریفرینشل انٹیگریٹی",
+        "Relationships Window\nریلیشن شپ ونڈو",
+        "One-to-Many\nون ٹو مینی",
+        "Foreign Key\nفارن کی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Referential Integrity\nریفرینشل انٹیگریٹی"
+    },
+    {
+      "id": "dit-access-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "For students and courses with many-to-many links, what additional table is often used?\nطلبہ اور کورسز کے مینی ٹو مینی ربط میں اکثر کون سا اضافی ٹیبل استعمال ہوتا ہے؟",
+      "options": [
+        "One-to-Many\nون ٹو مینی",
+        "Junction Table\nجنکشن ٹیبل",
+        "Foreign Key\nفارن کی",
+        "Related Table\nمتعلقہ ٹیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Junction Table\nجنکشن ٹیبل"
+    },
+    {
+      "id": "dit-access-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "The Customers table provides the unique CustomerID referenced by Orders. What role does Customers play?\nCustomers ٹیبل منفرد CustomerID دیتا ہے جسے Orders استعمال کرتا ہے۔ Customers کا کردار کیا ہے؟",
+      "options": [
+        "One-to-Many\nون ٹو مینی",
+        "Related Table\nمتعلقہ ٹیبل",
+        "Parent Table\nپیرنٹ ٹیبل",
+        "Relationships Window\nریلیشن شپ ونڈو"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Parent Table\nپیرنٹ ٹیبل"
+    },
+    {
+      "id": "dit-access-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "Section 06 — Table Relationships / ٹیبل ریلیشن شپ",
+      "question": "Two tables are joined on matching IDs. What can the second linked table be called?\nدو ٹیبلز مشترک شناخت سے جڑے ہوں تو دوسرے جڑے ٹیبل کو کیا کہیں گے؟",
+      "options": [
+        "Referential Integrity\nریفرینشل انٹیگریٹی",
+        "Many-to-Many\nمینی ٹو مینی",
+        "Related Table\nمتعلقہ ٹیبل",
+        "Primary Key\nپرائمری کی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Related Table\nمتعلقہ ٹیبل"
+    },
+    {
+      "id": "dit-access-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "A receptionist needs a simple screen instead of a raw table for entering visitors. Which object should be built?\nریسیپشنسٹ کو خام ٹیبل کے بجائے آسان اندراج سکرین چاہیے۔ کون سا آبجیکٹ بنے گا؟",
+      "options": [
+        "Form Wizard\nفارم وزرڈ",
+        "Form View\nفارم ویو",
+        "Form\nفارم",
+        "Bound Form\nباؤنڈ فارم"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Form\nفارم"
+    },
+    {
+      "id": "dit-access-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "A beginner wants step-by-step help choosing fields and layout for a form. Which feature should be used?\nابتدائی صارف فارم کی فیلڈز اور ترتیب میں مرحلہ وار مدد چاہتا ہے۔ کون سی سہولت مناسب ہے؟",
+      "options": [
+        "Form Wizard\nفارم وزرڈ",
+        "Blank Form\nبلینک فارم",
+        "Save Form\nسیو فارم",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Form Wizard\nفارم وزرڈ"
+    },
+    {
+      "id": "dit-access-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "A designer wants to start a new form with no controls already placed. Which option is appropriate?\nڈیزائنر بغیر کسی پہلے سے موجود کنٹرول کے فارم بنانا چاہتا ہے۔ کون سا انتخاب مناسب ہے؟",
+      "options": [
+        "Design View\nڈیزائن ویو",
+        "Blank Form\nبلینک فارم",
+        "Text Box\nٹیکسٹ باکس",
+        "Bound Form\nباؤنڈ فارم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Blank Form\nبلینک فارم"
+    },
+    {
+      "id": "dit-access-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "A user wants to type information into the finished form. Which view is intended for that?\nصارف تیار فارم میں معلومات درج کرنا چاہتا ہے۔ کون سا ویو مناسب ہے؟",
+      "options": [
+        "Record Navigation\nریکارڈ نیویگیشن",
+        "Bound Form\nباؤنڈ فارم",
+        "Design View\nڈیزائن ویو",
+        "Form View\nفارم ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Form View\nفارم ویو"
+    },
+    {
+      "id": "dit-access-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "You need to move a control and change the form layout. Which view should you select?\nفارم میں کنٹرول کی جگہ اور ترتیب بدلنی ہو تو کون سا ویو منتخب کریں گے؟",
+      "options": [
+        "Form Wizard\nفارم وزرڈ",
+        "Design View\nڈیزائن ویو",
+        "Blank Form\nبلینک فارم",
+        "Label\nلیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Design View\nڈیزائن ویو"
+    },
+    {
+      "id": "dit-access-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "Where would someone type a student telephone number on a form?\nفارم میں طالب علم کا فون نمبر کس کنٹرول میں درج کیا جائے گا؟",
+      "options": [
+        "Text Box\nٹیکسٹ باکس",
+        "Blank Form\nبلینک فارم",
+        "Label\nلیبل",
+        "Form\nفارم"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Text Box\nٹیکسٹ باکس"
+    },
+    {
+      "id": "dit-access-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "You want the words Telephone Number beside an entry area. Which control provides the caption?\nاندراج کے خانے کے ساتھ Telephone Number لکھنا ہو تو کون سا کنٹرول استعمال ہوگا؟",
+      "options": [
+        "Label\nلیبل",
+        "Record Navigation\nریکارڈ نیویگیشن",
+        "Bound Form\nباؤنڈ فارم",
+        "Text Box\nٹیکسٹ باکس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Label\nلیبل"
+    },
+    {
+      "id": "dit-access-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "What lets a form user move to the next or previous student entry?\nفارم میں اگلے یا پچھلے طالب علم کے ریکارڈ پر جانے کے لیے کیا استعمال ہوگا؟",
+      "options": [
+        "Form\nفارم",
+        "Label\nلیبل",
+        "Design View\nڈیزائن ویو",
+        "Record Navigation\nریکارڈ نیویگیشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Record Navigation\nریکارڈ نیویگیشن"
+    },
+    {
+      "id": "dit-access-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "A form shows and updates records from the Students table. What kind of form is it?\nStudents ٹیبل کے ریکارڈ دکھانے اور بدلنے والا فارم کس قسم کا ہے؟",
+      "options": [
+        "Save Form\nسیو فارم",
+        "Bound Form\nباؤنڈ فارم",
+        "Text Box\nٹیکسٹ باکس",
+        "Label\nلیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Bound Form\nباؤنڈ فارم"
+    },
+    {
+      "id": "dit-access-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "Section 07 — Forms and Data Entry / فارم اور ڈیٹا انٹری",
+      "question": "After positioning all controls, which action keeps the form design?\nتمام کنٹرولز کی جگہ طے کرنے کے بعد فارم ڈیزائن محفوظ رکھنے کے لیے کیا کریں گے؟",
+      "options": [
+        "Save Form\nسیو فارم",
+        "Bound Form\nباؤنڈ فارم",
+        "Form\nفارم",
+        "Text Box\nٹیکسٹ باکس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Save Form\nسیو فارم"
+    },
+    {
+      "id": "dit-access-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "Names must appear alphabetically from A to Z. Which operation is appropriate?\nنام A سے Z تک حروفِ تہجی کی ترتیب میں ہوں تو کون سا عمل ہوگا؟",
+      "options": [
+        "Filter by Selection\nفلٹر بائی سلیکشن",
+        "Criteria\nکرائیٹیریا",
+        "Ascending Sort\nصعودی ترتیب",
+        "Filter by Form\nفلٹر بائی فارم"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ascending Sort\nصعودی ترتیب"
+    },
+    {
+      "id": "dit-access-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "Marks should appear from highest to lowest. Which operation is appropriate?\nنمبر سب سے زیادہ سے سب سے کم دکھانا ہو تو کون سا عمل ہوگا؟",
+      "options": [
+        "Filter\nفلٹر",
+        "Filter by Form\nفلٹر بائی فارم",
+        "Sort\nسارٹ",
+        "Descending Sort\nنزولی ترتیب"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Descending Sort\nنزولی ترتیب"
+    },
+    {
+      "id": "dit-access-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "Only students from Lahore should be visible temporarily. What should you apply?\nصرف لاہور کے طلبہ عارضی طور پر دکھانے ہوں تو کیا لگائیں گے؟",
+      "options": [
+        "Filter\nفلٹر",
+        "Sort\nسارٹ",
+        "Descending Sort\nنزولی ترتیب",
+        "Datasheet View\nڈیٹا شیٹ ویو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Filter\nفلٹر"
+    },
+    {
+      "id": "dit-access-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "After viewing only Lahore students, you want every student visible again. What should you do?\nصرف لاہور کے طلبہ دیکھنے کے بعد سب کو دوبارہ دکھانا ہو تو کیا کریں گے؟",
+      "options": [
+        "Criteria\nکرائیٹیریا",
+        "Filter by Selection\nفلٹر بائی سلیکشن",
+        "Filter\nفلٹر",
+        "Clear Filter\nکلیئر فلٹر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Clear Filter\nکلیئر فلٹر"
+    },
+    {
+      "id": "dit-access-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "You want all records ordered by registration date. What general operation is required?\nتمام ریکارڈز رجسٹریشن تاریخ کے مطابق ترتیب دینے ہوں تو کون سا عمومی عمل چاہیے؟",
+      "options": [
+        "Descending Sort\nنزولی ترتیب",
+        "Criteria\nکرائیٹیریا",
+        "Filter\nفلٹر",
+        "Sort\nسارٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Sort\nسارٹ"
+    },
+    {
+      "id": "dit-access-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "You select the value Passed in one row and show matching rows. Which method is this?\nایک قطار میں Passed منتخب کر کے ملتے ریکارڈ دکھائیں تو کون سا طریقہ ہے؟",
+      "options": [
+        "Clear Filter\nکلیئر فلٹر",
+        "Filter\nفلٹر",
+        "Filter by Form\nفلٹر بائی فارم",
+        "Filter by Selection\nفلٹر بائی سلیکشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Filter by Selection\nفلٹر بائی سلیکشن"
+    },
+    {
+      "id": "dit-access-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "You need to filter by city and class using a form-like entry screen. Which filtering method fits?\nشہر اور کلاس دونوں شرائط فارم نما سکرین سے دینا ہوں تو کون سا فلٹر طریقہ مناسب ہے؟",
+      "options": [
+        "Record\nریکارڈ",
+        "Clear Filter\nکلیئر فلٹر",
+        "Filter by Form\nفلٹر بائی فارم",
+        "Filter\nفلٹر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Filter by Form\nفلٹر بائی فارم"
+    },
+    {
+      "id": "dit-access-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "The expression Marks > 50 is used to limit displayed records. What is the expression called?\nMarks > 50 سے دکھائے جانے والے ریکارڈ محدود ہوں تو اس شرط کو کیا کہتے ہیں؟",
+      "options": [
+        "Sort\nسارٹ",
+        "Descending Sort\nنزولی ترتیب",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Criteria\nکرائیٹیریا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Criteria\nکرائیٹیریا"
+    },
+    {
+      "id": "dit-access-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "In an Access table, what is one complete student row called?\nایکسیس ٹیبل میں طالب علم کی مکمل ایک قطار کیا کہلاتی ہے؟",
+      "options": [
+        "Sort\nسارٹ",
+        "Filter by Form\nفلٹر بائی فارم",
+        "Record\nریکارڈ",
+        "Ascending Sort\nصعودی ترتیب"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Record\nریکارڈ"
+    },
+    {
+      "id": "dit-access-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "Section 08 — Sorting and Filtering / ترتیب اور فلٹرنگ",
+      "question": "You want to inspect the resulting ordered rows in a spreadsheet-like grid. Which view is suitable?\nترتیب شدہ قطاریں شیٹ نما گرڈ میں دیکھنے کے لیے کون سا ویو مناسب ہے؟",
+      "options": [
+        "Record\nریکارڈ",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Ascending Sort\nصعودی ترتیب",
+        "Filter\nفلٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Datasheet View\nڈیٹا شیٹ ویو"
+    },
+    {
+      "id": "dit-access-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "The office needs a clean printed list of monthly sales. Which object is best?\nدفتر کو ماہانہ فروخت کی صاف پرنٹ شدہ فہرست چاہیے۔ کون سا آبجیکٹ بہتر ہے؟",
+      "options": [
+        "Delete Query\nڈیلیٹ کوئری",
+        "Query\nکوئری",
+        "Report Layout\nرپورٹ لے آؤٹ",
+        "Report\nرپورٹ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Report\nرپورٹ"
+    },
+    {
+      "id": "dit-access-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "A beginner wants assistance choosing report fields one step at a time. Which feature is intended?\nابتدائی صارف مرحلہ وار رپورٹ فیلڈز منتخب کرنا چاہتا ہے۔ کون سی سہولت ہے؟",
+      "options": [
+        "Query\nکوئری",
+        "Report Wizard\nرپورٹ وزرڈ",
+        "Report\nرپورٹ",
+        "Query Criteria\nکوئری کرائیٹیریا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Report Wizard\nرپورٹ وزرڈ"
+    },
+    {
+      "id": "dit-access-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "You want to request certain records from the database instead of opening the whole table. Which object helps?\nمکمل ٹیبل کے بجائے مخصوص ریکارڈز مانگنے ہوں تو کون سا آبجیکٹ مدد کرتا ہے؟",
+      "options": [
+        "Append Query\nاپینڈ کوئری",
+        "Select Query\nسلیکٹ کوئری",
+        "Query\nکوئری",
+        "Report Wizard\nرپورٹ وزرڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Query\nکوئری"
+    },
+    {
+      "id": "dit-access-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "You want to display students scoring above 80 without changing their marks. Which query fits?\n80 سے زیادہ نمبر والے طلبہ دکھانے ہوں اور اصل نمبر نہ بدلیں تو کون سی کوئری ہوگی؟",
+      "options": [
+        "Query\nکوئری",
+        "Select Query\nسلیکٹ کوئری",
+        "Report\nرپورٹ",
+        "Report Wizard\nرپورٹ وزرڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Select Query\nسلیکٹ کوئری"
+    },
+    {
+      "id": "dit-access-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "All employees in a department need their allowance changed. Which query type modifies existing data?\nایک شعبے کے ملازمین کا الاؤنس بدلنا ہو تو کون سی کوئری موجودہ ڈیٹا بدلتی ہے؟",
+      "options": [
+        "Report\nرپورٹ",
+        "Make Table Query\nمیک ٹیبل کوئری",
+        "Select Query\nسلیکٹ کوئری",
+        "Update Query\nاپ ڈیٹ کوئری"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Update Query\nاپ ڈیٹ کوئری"
+    },
+    {
+      "id": "dit-access-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "Records older than the retention period must be removed. Which query type performs this task?\nمقررہ مدت سے پرانے ریکارڈ حذف کرنے ہوں تو کون سی کوئری ہوگی؟",
+      "options": [
+        "Delete Query\nڈیلیٹ کوئری",
+        "Query\nکوئری",
+        "Report Wizard\nرپورٹ وزرڈ",
+        "Append Query\nاپینڈ کوئری"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Delete Query\nڈیلیٹ کوئری"
+    },
+    {
+      "id": "dit-access-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "A set of new rows must be added to an existing archive table. Which query type does this?\nنئی قطاریں موجودہ آرکائیو ٹیبل میں شامل کرنی ہوں تو کون سی کوئری ہے؟",
+      "options": [
+        "Append Query\nاپینڈ کوئری",
+        "Query\nکوئری",
+        "Report\nرپورٹ",
+        "Query Criteria\nکوئری کرائیٹیریا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Append Query\nاپینڈ کوئری"
+    },
+    {
+      "id": "dit-access-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "The results of a query must become a separate new table. Which query is appropriate?\nکوئری کے نتائج کو الگ نیا ٹیبل بنانا ہو تو کون سی کوئری مناسب ہے؟",
+      "options": [
+        "Select Query\nسلیکٹ کوئری",
+        "Make Table Query\nمیک ٹیبل کوئری",
+        "Report\nرپورٹ",
+        "Query\nکوئری"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Make Table Query\nمیک ٹیبل کوئری"
+    },
+    {
+      "id": "dit-access-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "A query should return only students in class 10. What part defines this restriction?\nکوئری صرف دسویں کلاس کے طلبہ دکھائے تو یہ پابندی کس حصے میں دی جاتی ہے؟",
+      "options": [
+        "Query Criteria\nکوئری کرائیٹیریا",
+        "Append Query\nاپینڈ کوئری",
+        "Select Query\nسلیکٹ کوئری",
+        "Report\nرپورٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Query Criteria\nکوئری کرائیٹیریا"
+    },
+    {
+      "id": "dit-access-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "Section 09 — Reports and Queries / رپورٹس اور کوئریز",
+      "question": "The printed report needs headings and fields in the correct positions. What should be adjusted?\nپرنٹ شدہ رپورٹ میں عنوان اور فیلڈز کی جگہ درست کرنی ہو تو کیا بدلیں گے؟",
+      "options": [
+        "Report Layout\nرپورٹ لے آؤٹ",
+        "Delete Query\nڈیلیٹ کوئری",
+        "Append Query\nاپینڈ کوئری",
+        "Make Table Query\nمیک ٹیبل کوئری"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Report Layout\nرپورٹ لے آؤٹ"
+    },
+    {
+      "id": "dit-access-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "Where do you find commands for adding a new table to the database?\nڈیٹابیس میں نیا ٹیبل بنانے کی کمانڈز کہاں ملیں گی؟",
+      "options": [
+        "Delete Field\nڈیلیٹ فیلڈ",
+        "Create Tab\nکری ایٹ ٹیب",
+        "Data Type\nڈیٹا ٹائپ",
+        "Save Table\nسیو ٹیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Create Tab\nکری ایٹ ٹیب"
+    },
+    {
+      "id": "dit-access-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "You want to choose field names and types before typing data. Which creation method fits?\nڈیٹا درج کرنے سے پہلے فیلڈ کے نام اور اقسام منتخب کرنا ہوں تو کون سا طریقہ درست ہے؟",
+      "options": [
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Table Design\nٹیبل ڈیزائن",
+        "Design View\nڈیزائن ویو",
+        "New Field\nنیو فیلڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Table Design\nٹیبل ڈیزائن"
+    },
+    {
+      "id": "dit-access-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "You are naming a column StudentAge. Which part of the field definition do you edit?\nکالم کا نام StudentAge رکھنا ہو تو فیلڈ کی کون سی تعریف بدلیں گے؟",
+      "options": [
+        "Field Name\nفیلڈ نیم",
+        "Delete Field\nڈیلیٹ فیلڈ",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "New Field\nنیو فیلڈ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Field Name\nفیلڈ نیم"
+    },
+    {
+      "id": "dit-access-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "You want the Age column to accept numeric data. Which property determines its basic kind?\nAge کالم میں عددی ڈیٹا رکھنا ہو تو اس کی بنیادی قسم کون سی خصوصیت مقرر کرتی ہے؟",
+      "options": [
+        "Save Table\nسیو ٹیبل",
+        "Table Design\nٹیبل ڈیزائن",
+        "Field Name\nفیلڈ نیم",
+        "Data Type\nڈیٹا ٹائپ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Data Type\nڈیٹا ٹائپ"
+    },
+    {
+      "id": "dit-access-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "Every record must be identified by its own unique number. Which table setting should be assigned?\nہر ریکارڈ کی شناخت منفرد نمبر سے ہونی چاہیے۔ کون سی سیٹنگ استعمال ہوگی؟",
+      "options": [
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Delete Field\nڈیلیٹ فیلڈ",
+        "New Field\nنیو فیلڈ",
+        "Primary Key\nپرائمری کی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Primary Key\nپرائمری کی"
+    },
+    {
+      "id": "dit-access-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "After defining a table, which view shows data in rows and columns for entry?\nٹیبل کی ساخت بنانے کے بعد قطاروں اور کالموں میں ڈیٹا درج کرنے کے لیے کون سا ویو ہوگا؟",
+      "options": [
+        "Data Type\nڈیٹا ٹائپ",
+        "New Field\nنیو فیلڈ",
+        "Field Name\nفیلڈ نیم",
+        "Datasheet View\nڈیٹا شیٹ ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Datasheet View\nڈیٹا شیٹ ویو"
+    },
+    {
+      "id": "dit-access-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "A field type needs correcting in an existing table. Which view is used to change it?\nموجودہ ٹیبل میں فیلڈ کی قسم درست کرنی ہو تو کون سا ویو استعمال ہوگا؟",
+      "options": [
+        "Field Name\nفیلڈ نیم",
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Save Table\nسیو ٹیبل",
+        "Design View\nڈیزائن ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Design View\nڈیزائن ویو"
+    },
+    {
+      "id": "dit-access-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "What action preserves the structure of a table you have just created?\nابھی بنائے گئے ٹیبل کی ساخت محفوظ کرنے کے لیے کیا عمل کریں گے؟",
+      "options": [
+        "Datasheet View\nڈیٹا شیٹ ویو",
+        "Design View\nڈیزائن ویو",
+        "Save Table\nسیو ٹیبل",
+        "Delete Field\nڈیلیٹ فیلڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Save Table\nسیو ٹیبل"
+    },
+    {
+      "id": "dit-access-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "A school starts recording student email addresses in addition to names. What is added to the table?\nسکول ناموں کے ساتھ ای میل بھی محفوظ کرنا شروع کرے تو ٹیبل میں کیا اضافہ ہوگا؟",
+      "options": [
+        "New Field\nنیو فیلڈ",
+        "Table Design\nٹیبل ڈیزائن",
+        "Field Name\nفیلڈ نیم",
+        "Datasheet View\nڈیٹا شیٹ ویو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: New Field\nنیو فیلڈ"
+    },
+    {
+      "id": "dit-access-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "Section 10 — Creating and Editing Tables / ٹیبل بنانا اور ترمیم",
+      "question": "An obsolete column is no longer needed in a table. Which action removes it?\nٹیبل میں پرانا غیر ضروری کالم ہٹانا ہو تو کون سا عمل کیا جائے گا؟",
+      "options": [
+        "Primary Key\nپرائمری کی",
+        "Delete Field\nڈیلیٹ فیلڈ",
+        "New Field\nنیو فیلڈ",
+        "Table Design\nٹیبل ڈیزائن"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Delete Field\nڈیلیٹ فیلڈ"
+    }
+  ]
+}

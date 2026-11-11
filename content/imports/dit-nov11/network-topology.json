@@ -1,0 +1,1424 @@
+{
+  "key": "network-topology",
+  "sourceFile": "Raytech_Network_Topology_chp # 2.docx",
+  "sourceSha256": "592fe54f6a10f73c3aa4c300275692bc230fb0edea996b57861542f26f0fdd51",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "Computer Networking",
+  "displayChapterNumber": 2,
+  "sourceSections": [
+    "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+    "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+    "Bus Topology / بس ٹوپولوجی",
+    "Star Topology / اسٹار ٹوپولوجی",
+    "Ring Topology / رنگ ٹوپولوجی",
+    "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+    "Mesh Topology / میش ٹوپولوجی",
+    "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+    "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+    "Radio Wave Topology / ریڈیو ویو ٹوپولوجی"
+  ],
+  "questions": [
+    {
+      "id": "dit-network-topology-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "What does network topology describe?\nنیٹ ورک ٹوپولوجی کس چیز کو ظاہر کرتی ہے؟",
+      "options": [
+        "Only the speed of computers\nصرف کمپیوٹروں کی رفتار",
+        "Only the operating system\nصرف آپریٹنگ سسٹم",
+        "Arrangement of network devices and links\nنیٹ ورک ڈیوائسز اور رابطوں کی ترتیب",
+        "The number of software programs\nسافٹ ویئر پروگراموں کی تعداد"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Arrangement of network devices and links\nنیٹ ورک ڈیوائسز اور رابطوں کی ترتیب"
+    },
+    {
+      "id": "dit-network-topology-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Which feature belongs to physical topology?\nفزیکل ٹوپولوجی کی کون سی خصوصیت ہے؟",
+      "options": [
+        "Actual layout of devices and cables\nڈیوائسز اور کیبلز کی حقیقی ترتیب",
+        "Rules for data movement only\nصرف ڈیٹا کی نقل و حرکت کے اصول",
+        "Passwords used on a network\nنیٹ ورک کے پاس ورڈ",
+        "Names of application files\nایپلی کیشن فائلوں کے نام"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Actual layout of devices and cables\nڈیوائسز اور کیبلز کی حقیقی ترتیب"
+    },
+    {
+      "id": "dit-network-topology-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Logical topology mainly explains what?\nلاجیکل ٹوپولوجی بنیادی طور پر کیا بتاتی ہے؟",
+      "options": [
+        "Color of network cables\nنیٹ ورک کیبلز کا رنگ",
+        "Weight of each computer\nہر کمپیوٹر کا وزن",
+        "Physical size of the room\nکمرے کا حقیقی سائز",
+        "How data travels between nodes\nنوڈز کے درمیان ڈیٹا کیسے منتقل ہوتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: How data travels between nodes\nنوڈز کے درمیان ڈیٹا کیسے منتقل ہوتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Two networks use similar cables but different data paths. What differs?\nدو نیٹ ورکس کی کیبلز ملتی جلتی ہیں مگر ڈیٹا کے راستے مختلف ہیں۔ کیا مختلف ہے؟",
+      "options": [
+        "Their keyboard layout\nان کے کی بورڈ کی ترتیب",
+        "Their logical topology\nان کی لاجیکل ٹوپولوجی",
+        "Their monitor size\nان کے مانیٹر کا سائز",
+        "Their room temperature\nان کے کمرے کا درجہ حرارت"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Their logical topology\nان کی لاجیکل ٹوپولوجی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Why is network topology chosen before installation?\nتنصیب سے پہلے نیٹ ورک ٹوپولوجی کیوں منتخب کی جاتی ہے؟",
+      "options": [
+        "To change the screen resolution\nاسکرین ریزولوشن بدلنے کے لیے",
+        "To plan connections and communication\nرابطوں اور مواصلات کی منصوبہ بندی کے لیے",
+        "To replace every application\nہر ایپلی کیشن بدلنے کے لیے",
+        "To remove all network devices\nتمام نیٹ ورک ڈیوائسز ہٹانے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To plan connections and communication\nرابطوں اور مواصلات کی منصوبہ بندی کے لیے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Which pair describes the main forms of topology?\nکون سا جوڑا ٹوپولوجی کی بنیادی اقسام ظاہر کرتا ہے؟",
+      "options": [
+        "Analog and digital screens\nاینالاگ اور ڈیجیٹل اسکرینیں",
+        "Public and private files\nپبلک اور پرائیویٹ فائلیں",
+        "Physical and logical\nفزیکل اور لاجیکل",
+        "Input and output\nان پٹ اور آؤٹ پٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Physical and logical\nفزیکل اور لاجیکل"
+    },
+    {
+      "id": "dit-network-topology-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "In topology diagrams, a node usually represents what?\nٹوپولوجی کے خاکے میں نوڈ عموماً کیا ظاہر کرتا ہے؟",
+      "options": [
+        "A monitor color\nمانیٹر کا رنگ",
+        "A software license\nسافٹ ویئر لائسنس",
+        "A connected network device\nنیٹ ورک سے منسلک ڈیوائس",
+        "Only a printed page\nصرف چھپا ہوا صفحہ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A connected network device\nنیٹ ورک سے منسلک ڈیوائس"
+    },
+    {
+      "id": "dit-network-topology-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "What is a link in a network diagram?\nنیٹ ورک خاکے میں لنک سے کیا مراد ہے؟",
+      "options": [
+        "A folder name\nفولڈر کا نام",
+        "A computer password\nکمپیوٹر کا پاس ورڈ",
+        "A program icon\nپروگرام کا آئیکن",
+        "Connection between nodes\nنوڈز کے درمیان رابطہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Connection between nodes\nنوڈز کے درمیان رابطہ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Why can topology affect network performance?\nٹوپولوجی نیٹ ورک کی کارکردگی پر کیوں اثر ڈال سکتی ہے؟",
+      "options": [
+        "It determines how devices communicate\nیہ طے کرتی ہے کہ ڈیوائسز کیسے رابطہ کرتی ہیں",
+        "It increases monitor brightness\nیہ مانیٹر کی روشنی بڑھاتی ہے",
+        "It changes processor brands\nیہ پروسیسر کے برانڈ بدلتی ہے",
+        "It fixes every software error\nیہ تمام سافٹ ویئر غلطیاں ٹھیک کرتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It determines how devices communicate\nیہ طے کرتی ہے کہ ڈیوائسز کیسے رابطہ کرتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "Network Topology: Fundamental Concepts / نیٹ ورک ٹوپولوجی کے بنیادی تصورات",
+      "question": "Which question is about physical rather than logical topology?\nکون سا سوال لاجیکل کے بجائے فزیکل ٹوپولوجی سے متعلق ہے؟",
+      "options": [
+        "In what order does data pass?\nڈیٹا کس ترتیب سے گزرتا ہے؟",
+        "Where are devices and cables placed?\nڈیوائسز اور کیبلز کہاں رکھی گئی ہیں؟",
+        "Which route does a message follow?\nپیغام کون سا راستہ اختیار کرتا ہے؟",
+        "How is data shared between nodes?\nنوڈز میں ڈیٹا کیسے بانٹا جاتا ہے؟"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Where are devices and cables placed?\nڈیوائسز اور کیبلز کہاں رکھی گئی ہیں؟"
+    },
+    {
+      "id": "dit-network-topology-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "A classroom uses cables to connect every PC. Which category applies?\nکلاس روم میں تمام کمپیوٹر کیبلز سے جڑے ہیں۔ یہ کون سی قسم ہے؟",
+      "options": [
+        "Wired topology\nوائرڈ ٹوپولوجی",
+        "Satellite-only network\nصرف سیٹلائٹ نیٹ ورک",
+        "Cable-free topology\nبغیر کیبل والی ٹوپولوجی",
+        "Radio-only network\nصرف ریڈیو نیٹ ورک"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Wired topology\nوائرڈ ٹوپولوجی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "Which feature most clearly distinguishes wireless topology?\nوائرلیس ٹوپولوجی کی نمایاں پہچان کیا ہے؟",
+      "options": [
+        "Mandatory shared backbone cable\nلازمی مشترکہ بیک بون کیبل",
+        "Only a circular cable path\nصرف گول کیبل راستہ",
+        "A cable for every device\nہر ڈیوائس کے لیے کیبل",
+        "Communication without physical connecting cables\nجسمانی رابطہ کیبلز کے بغیر مواصلات"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Communication without physical connecting cables\nجسمانی رابطہ کیبلز کے بغیر مواصلات"
+    },
+    {
+      "id": "dit-network-topology-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "Which is an example of a wired topology in the chapter?\nباب میں وائرڈ ٹوپولوجی کی مثال کون سی ہے؟",
+      "options": [
+        "Wi-Fi topology\nوائی فائی ٹوپولوجی",
+        "Bus topology\nبس ٹوپولوجی",
+        "Satellite topology\nسیٹلائٹ ٹوپولوجی",
+        "Radio wave topology\nریڈیو ویو ٹوپولوجی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Bus topology\nبس ٹوپولوجی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "Which is a wireless topology example from the chapter?\nباب میں وائرلیس ٹوپولوجی کی مثال کون سی ہے؟",
+      "options": [
+        "Ring topology\nرنگ ٹوپولوجی",
+        "Wi-Fi topology\nوائی فائی ٹوپولوجی",
+        "Star cable topology\nاسٹار کیبل ٹوپولوجی",
+        "Bus topology\nبس ٹوپولوجی"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wi-Fi topology\nوائی فائی ٹوپولوجی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "A network must serve mobile devices without individual cables. What fits?\nایک نیٹ ورک کو موبائل ڈیوائسز بغیر الگ کیبلز کے جوڑنی ہیں۔ کیا مناسب ہے؟",
+      "options": [
+        "Ring cable loop\nرنگ کیبل کا حلقہ",
+        "Wireless connection\nوائرلیس رابطہ",
+        "Dedicated wired link\nمخصوص وائرڈ لنک",
+        "Bus backbone cable\nبس بیک بون کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless connection\nوائرلیس رابطہ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "What is the shared purpose of wired and wireless topologies?\nوائرڈ اور وائرلیس ٹوپولوجیز کا مشترکہ مقصد کیا ہے؟",
+      "options": [
+        "Replace computer storage\nکمپیوٹر اسٹوریج بدلنا",
+        "Prevent any data exchange\nہر قسم کے ڈیٹا تبادلے کو روکنا",
+        "Connect devices for communication\nمواصلات کے لیے ڈیوائسز کو جوڑنا",
+        "Change display colors\nڈسپلے کے رنگ بدلنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Connect devices for communication\nمواصلات کے لیے ڈیوائسز کو جوڑنا"
+    },
+    {
+      "id": "dit-network-topology-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "Which group contains only wired topologies named in the chapter?\nکون سے گروپ میں باب کی صرف وائرڈ ٹوپولوجیز ہیں؟",
+      "options": [
+        "Bus, Star and Ring\nبس، اسٹار اور رنگ",
+        "Bus, Wi-Fi and Satellite\nبس، وائی فائی اور سیٹلائٹ",
+        "Wi-Fi, Satellite and Radio Wave\nوائی فائی، سیٹلائٹ اور ریڈیو ویو",
+        "Star, Radio Wave and Wi-Fi\nاسٹار، ریڈیو ویو اور وائی فائی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Bus, Star and Ring\nبس، اسٹار اور رنگ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "Which group contains only wireless technologies discussed in the chapter?\nکون سے گروپ میں باب کی صرف وائرلیس ٹیکنالوجیز ہیں؟",
+      "options": [
+        "Star, Bus and Hybrid\nاسٹار، بس اور ہائبرڈ",
+        "Bus, Mesh and Ring\nبس، میش اور رنگ",
+        "Mesh, Star and Ring\nمیش، اسٹار اور رنگ",
+        "Wi-Fi, Satellite and Radio Wave\nوائی فائی، سیٹلائٹ اور ریڈیو ویو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Wi-Fi, Satellite and Radio Wave\nوائی فائی، سیٹلائٹ اور ریڈیو ویو"
+    },
+    {
+      "id": "dit-network-topology-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "A network relies on a long shared physical cable. It is most likely what?\nایک نیٹ ورک لمبی مشترکہ کیبل پر انحصار کرتا ہے۔ یہ غالباً کیا ہے؟",
+      "options": [
+        "A wired bus network\nوائرڈ بس نیٹ ورک",
+        "A satellite network\nسیٹلائٹ نیٹ ورک",
+        "A radio-only link\nصرف ریڈیو رابطہ",
+        "A Wi-Fi hotspot\nوائی فائی ہاٹ اسپاٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A wired bus network\nوائرڈ بس نیٹ ورک"
+    },
+    {
+      "id": "dit-network-topology-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "Wired and Wireless Topologies / وائرڈ اور وائرلیس ٹوپولوجیز",
+      "question": "Why might a designer compare wired and wireless methods?\nڈیزائنر وائرڈ اور وائرلیس طریقوں کا موازنہ کیوں کرتا ہے؟",
+      "options": [
+        "To change the alphabet\nحروف تہجی بدلنے کے لیے",
+        "To select textbook cover color\nکتاب کے سرورق کا رنگ منتخب کرنے کے لیے",
+        "To select a suitable way to connect devices\nڈیوائسز جوڑنے کا موزوں طریقہ منتخب کرنے کے لیے",
+        "To remove the need for data\nڈیٹا کی ضرورت ختم کرنے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To select a suitable way to connect devices\nڈیوائسز جوڑنے کا موزوں طریقہ منتخب کرنے کے لیے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "In a bus network, devices share which connection?\nبس نیٹ ورک میں ڈیوائسز کون سا رابطہ مشترک استعمال کرتی ہیں؟",
+      "options": [
+        "A closed circular cable\nبند گول کیبل",
+        "A separate central switch link\nمرکزی سوئچ سے الگ لنک",
+        "One main backbone cable\nایک مرکزی بیک بون کیبل",
+        "A direct cable to every other node\nہر دوسرے نوڈ تک براہ راست کیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: One main backbone cable\nایک مرکزی بیک بون کیبل"
+    },
+    {
+      "id": "dit-network-topology-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "What is the purpose of terminators at bus cable ends?\nبس کیبل کے سروں پر ٹرمینیٹرز کا مقصد کیا ہے؟",
+      "options": [
+        "Prevent signal reflection\nسگنل کے انعکاس کو روکنا",
+        "Create wireless coverage\nوائرلیس کوریج بنانا",
+        "Turn the bus into a ring\nبس کو رنگ میں بدلنا",
+        "Increase monitor size\nمانیٹر کا سائز بڑھانا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Prevent signal reflection\nسگنل کے انعکاس کو روکنا"
+    },
+    {
+      "id": "dit-network-topology-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "If the main bus backbone breaks, what is the likely result?\nاگر بس کی مرکزی بیک بون کیبل ٹوٹ جائے تو کیا ہوگا؟",
+      "options": [
+        "The entire network may stop working\nپورا نیٹ ورک کام کرنا بند کر سکتا ہے",
+        "Every device gets a separate path\nہر ڈیوائس کو الگ راستہ مل جائے گا",
+        "Only one screen becomes brighter\nصرف ایک اسکرین روشن ہوگی",
+        "The network becomes a mesh\nنیٹ ورک میش بن جائے گا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The entire network may stop working\nپورا نیٹ ورک کام کرنا بند کر سکتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "Why can bus topology be inexpensive?\nبس ٹوپولوجی کم خرچ کیوں ہو سکتی ہے؟",
+      "options": [
+        "It requires satellite equipment\nاسے سیٹلائٹ آلات درکار ہیں",
+        "It uses relatively little cable\nاس میں نسبتاً کم کیبل استعمال ہوتی ہے",
+        "It requires all-to-all cables\nہر ڈیوائس کا ہر ڈیوائس سے کیبل رابطہ ضروری ہے",
+        "It needs a switch per device\nہر ڈیوائس کے لیے سوئچ چاہیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It uses relatively little cable\nاس میں نسبتاً کم کیبل استعمال ہوتی ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "Two bus devices transmit together. What problem can occur?\nبس کی دو ڈیوائسز ایک ساتھ ڈیٹا بھیجیں تو کیا مسئلہ ہو سکتا ہے؟",
+      "options": [
+        "Automatic mesh routing\nخودکار میش روٹنگ",
+        "Extra central hubs\nاضافی مرکزی ہب",
+        "Satellite delay\nسیٹلائٹ کی تاخیر",
+        "Data collision\nڈیٹا کولیزن یا ٹکراؤ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Data collision\nڈیٹا کولیزن یا ٹکراؤ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "Why does adding many devices slow a shared bus?\nبہت سی ڈیوائسز شامل کرنے سے مشترکہ بس سست کیوں ہو سکتی ہے؟",
+      "options": [
+        "Every device gains its own cable\nہر ڈیوائس کو اپنی کیبل مل جاتی ہے",
+        "Signals stop using the backbone\nسگنلز بیک بون استعمال کرنا چھوڑ دیتے ہیں",
+        "The network becomes wireless\nنیٹ ورک وائرلیس بن جاتا ہے",
+        "More devices compete for the same medium\nزیادہ ڈیوائسز ایک ہی ذریعے کے لیے مقابلہ کرتی ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: More devices compete for the same medium\nزیادہ ڈیوائسز ایک ہی ذریعے کے لیے مقابلہ کرتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "Which topology is usually easy to set up for a small simple network?\nچھوٹے سادہ نیٹ ورک کے لیے عموماً کون سی ٹوپولوجی لگانا آسان ہے؟",
+      "options": [
+        "Multiple hybrid networks\nمتعدد ہائبرڈ نیٹ ورکس",
+        "Bus\nبس",
+        "Satellite\nسیٹلائٹ",
+        "Full mesh\nفل میش"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Bus\nبس"
+    },
+    {
+      "id": "dit-network-topology-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "A fault anywhere in the main shared cable affects many computers. Which topology?\nمرکزی مشترکہ کیبل میں خرابی بہت سے کمپیوٹروں کو متاثر کرتی ہے۔ کون سی ٹوپولوجی ہے؟",
+      "options": [
+        "Wi-Fi\nوائی فائی",
+        "Star\nاسٹار",
+        "Full mesh\nفل میش",
+        "Bus\nبس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Bus\nبس"
+    },
+    {
+      "id": "dit-network-topology-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "What connects a computer to the bus backbone in the chapter diagram?\nباب کے خاکے میں کمپیوٹر کو بس بیک بون سے کیا ملاتا ہے؟",
+      "options": [
+        "A radio tower\nریڈیو ٹاور",
+        "A circular hub\nگول ہب",
+        "A drop line\nڈراپ لائن",
+        "A satellite\nسیٹلائٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A drop line\nڈراپ لائن"
+    },
+    {
+      "id": "dit-network-topology-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "Bus Topology / بس ٹوپولوجی",
+      "question": "Which is a limitation of bus topology?\nبس ٹوپولوجی کی ایک حد کیا ہے؟",
+      "options": [
+        "It needs no common medium\nاسے مشترکہ ذریعہ نہیں چاہیے",
+        "Fault detection can be difficult\nخرابی تلاش کرنا مشکل ہو سکتا ہے",
+        "Every node has multiple independent routes\nہر نوڈ کے کئی آزاد راستے ہوتے ہیں",
+        "It cannot use cables\nاس میں کیبلز استعمال نہیں ہو سکتیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Fault detection can be difficult\nخرابی تلاش کرنا مشکل ہو سکتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "In a star topology, all nodes connect to what?\nاسٹار ٹوپولوجی میں تمام نوڈز کس سے جڑتے ہیں؟",
+      "options": [
+        "A central device\nمرکزی ڈیوائس",
+        "One continuous ring\nایک مسلسل حلقہ",
+        "Every other node directly\nبراہ راست ہر دوسرے نوڈ سے",
+        "A shared bus without a center\nمرکز کے بغیر مشترکہ بس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A central device\nمرکزی ڈیوائس"
+    },
+    {
+      "id": "dit-network-topology-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "What device may act as the center of a star network?\nاسٹار نیٹ ورک کا مرکز کون سی ڈیوائس ہو سکتی ہے؟",
+      "options": [
+        "Satellite dish only\nصرف سیٹلائٹ ڈش",
+        "Terminator only\nصرف ٹرمینیٹر",
+        "A keyboard\nکی بورڈ",
+        "Hub or switch\nہب یا سوئچ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Hub or switch\nہب یا سوئچ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "What happens if one computer cable fails in a star?\nاسٹار میں ایک کمپیوٹر کی کیبل خراب ہو جائے تو کیا ہوتا ہے؟",
+      "options": [
+        "Usually only that computer disconnects\nعموماً صرف وہ کمپیوٹر منقطع ہوتا ہے",
+        "A ring is formed\nرنگ بن جاتی ہے",
+        "All other links become wireless\nباقی لنکس وائرلیس ہو جاتے ہیں",
+        "All connections must fail\nتمام رابطے لازماً بند ہو جاتے ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Usually only that computer disconnects\nعموماً صرف وہ کمپیوٹر منقطع ہوتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "What happens if the central star device fails?\nاگر اسٹار کی مرکزی ڈیوائس خراب ہو جائے تو کیا ہوگا؟",
+      "options": [
+        "Only the printer loses paper\nصرف پرنٹر کا کاغذ ختم ہوتا ہے",
+        "The connected network stops communicating\nمنسلک نیٹ ورک کا رابطہ بند ہو جاتا ہے",
+        "Every node gains a backup route\nہر نوڈ کو متبادل راستہ ملتا ہے",
+        "The central cable becomes a satellite\nمرکزی کیبل سیٹلائٹ بن جاتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: The connected network stops communicating\nمنسلک نیٹ ورک کا رابطہ بند ہو جاتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "Why is troubleshooting often easier in a star topology?\nاسٹار ٹوپولوجی میں خرابی تلاش کرنا عموماً آسان کیوں ہے؟",
+      "options": [
+        "Every node is linked to all others\nہر نوڈ سب سے جڑا ہوتا ہے",
+        "Nodes never use cables\nنوڈز کبھی کیبل نہیں استعمال کرتے",
+        "Each node has an individual connection\nہر نوڈ کا الگ رابطہ ہوتا ہے",
+        "All devices share one unbroken cable\nسب ڈیوائسز ایک ہی مسلسل کیبل استعمال کرتی ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Each node has an individual connection\nہر نوڈ کا الگ رابطہ ہوتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "Which topology is often easy to expand by attaching a node to a central switch?\nمرکزی سوئچ سے نیا نوڈ جوڑ کر کون سی ٹوپولوجی پھیلانا آسان ہے؟",
+      "options": [
+        "Ring\nرنگ",
+        "Satellite only\nصرف سیٹلائٹ",
+        "Bus without a center\nمرکز کے بغیر بس",
+        "Star\nاسٹار"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Star\nاسٹار"
+    },
+    {
+      "id": "dit-network-topology-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "Compared with a basic bus, star generally requires what?\nسادہ بس کے مقابلے میں اسٹار کو عموماً کس چیز کی زیادہ ضرورت ہوتی ہے؟",
+      "options": [
+        "No central device\nکسی مرکزی ڈیوائس کی ضرورت نہیں",
+        "More individual cabling\nزیادہ الگ الگ کیبلز",
+        "Only terminators\nصرف ٹرمینیٹرز",
+        "Only radio waves\nصرف ریڈیو لہریں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: More individual cabling\nزیادہ الگ الگ کیبلز"
+    },
+    {
+      "id": "dit-network-topology-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "A switch fails and all attached PCs lose connectivity. Which design is shown?\nسوئچ خراب ہونے سے اس سے جڑے تمام پی سی کا رابطہ ختم ہو جاتا ہے۔ یہ کون سا ڈیزائن ہے؟",
+      "options": [
+        "Full mesh\nفل میش",
+        "Satellite\nسیٹلائٹ",
+        "Star\nاسٹار",
+        "Bus with no switch\nبغیر سوئچ کے بس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Star\nاسٹار"
+    },
+    {
+      "id": "dit-network-topology-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "Which statement about a star link failure is correct?\nاسٹار میں ایک لنک کی خرابی کے متعلق کون سا بیان درست ہے؟",
+      "options": [
+        "Other independent links usually keep working\nدوسرے آزاد لنکس عموماً کام کرتے رہتے ہیں",
+        "Every other cable also breaks\nباقی ہر کیبل بھی ٹوٹ جاتی ہے",
+        "The hub becomes a terminator\nہب ٹرمینیٹر بن جاتا ہے",
+        "The topology automatically becomes ring\nٹوپولوجی خودبخود رنگ بن جاتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Other independent links usually keep working\nدوسرے آزاد لنکس عموماً کام کرتے رہتے ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "Star Topology / اسٹار ٹوپولوجی",
+      "question": "What is a major drawback of star topology?\nاسٹار ٹوپولوجی کی بڑی خرابی کیا ہے؟",
+      "options": [
+        "No separate cable paths\nالگ کیبل راستے نہ ہونا",
+        "No way to add nodes\nنئے نوڈز شامل نہ کر سکنا",
+        "No central management\nمرکزی انتظام کا نہ ہونا",
+        "Dependence on the central device\nمرکزی ڈیوائس پر انحصار"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Dependence on the central device\nمرکزی ڈیوائس پر انحصار"
+    },
+    {
+      "id": "dit-network-topology-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "How are devices arranged in a ring topology?\nرنگ ٹوپولوجی میں ڈیوائسز کیسے ترتیب دی جاتی ہیں؟",
+      "options": [
+        "Around a single central switch only\nصرف ایک مرکزی سوئچ کے گرد",
+        "On one straight backbone\nایک سیدھی بیک بون پر",
+        "Without any connections\nبغیر کسی رابطے کے",
+        "In a closed loop\nبند حلقے میں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: In a closed loop\nبند حلقے میں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "In a simple ring, a device is directly linked to how many neighbors?\nسادہ رنگ میں ایک ڈیوائس براہ راست کتنے پڑوسیوں سے جڑی ہوتی ہے؟",
+      "options": [
+        "One only\nصرف ایک",
+        "Every device\nہر ڈیوائس",
+        "None\nکوئی نہیں",
+        "Two\nدو"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Two\nدو"
+    },
+    {
+      "id": "dit-network-topology-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "How does data commonly move in the basic ring described?\nبیان کردہ بنیادی رنگ میں ڈیٹا عموماً کیسے جاتا ہے؟",
+      "options": [
+        "Only to a central hub\nصرف مرکزی ہب تک",
+        "From node to node around the loop\nحلقے میں ایک نوڈ سے دوسرے نوڈ تک",
+        "Through a single bus backbone\nصرف ایک بس بیک بون سے",
+        "Straight to a satellite\nسیدھا سیٹلائٹ تک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: From node to node around the loop\nحلقے میں ایک نوڈ سے دوسرے نوڈ تک"
+    },
+    {
+      "id": "dit-network-topology-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "A break in a simple single ring may cause what?\nسادہ سنگل رنگ میں ایک جگہ خرابی سے کیا ہو سکتا ہے؟",
+      "options": [
+        "Every node receives an extra link\nہر نوڈ کو اضافی لنک مل جاتا ہے",
+        "Communication across the ring may fail\nرنگ میں مواصلات بند ہو سکتی ہیں",
+        "All devices become wireless\nسب ڈیوائسز وائرلیس بن جاتی ہیں",
+        "Cables are no longer needed\nکیبلز کی ضرورت ختم ہو جاتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Communication across the ring may fail\nرنگ میں مواصلات بند ہو سکتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "Why can adding or removing a node disturb a basic ring?\nبنیادی رنگ میں نوڈ شامل یا ہٹانے سے خلل کیوں پڑ سکتا ہے؟",
+      "options": [
+        "The satellite must be moved\nسیٹلائٹ منتقل کرنا پڑتا ہے",
+        "The bus terminators disappear\nبس ٹرمینیٹر غائب ہو جاتے ہیں",
+        "The closed path must be modified\nبند راستہ بدلنا پڑتا ہے",
+        "The central switch loses power\nمرکزی سوئچ کی بجلی ختم ہوتی ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: The closed path must be modified\nبند راستہ بدلنا پڑتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "Which topology best matches a circular data path?\nگول ڈیٹا راستے کے مطابق کون سی ٹوپولوجی ہے؟",
+      "options": [
+        "Bus\nبس",
+        "Star\nاسٹار",
+        "Ring\nرنگ",
+        "Satellite\nسیٹلائٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ring\nرنگ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "What distinguishes a ring from a bus?\nرنگ کو بس سے کون سی بات مختلف کرتی ہے؟",
+      "options": [
+        "Ability to transfer data\nڈیٹا منتقل کرنے کی صلاحیت",
+        "A shared cable in both cases\nدونوں میں مشترکہ کیبل",
+        "Use of computers in both\nدونوں میں کمپیوٹر",
+        "A closed loop instead of one main line\nایک مرکزی لائن کے بجائے بند حلقہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A closed loop instead of one main line\nایک مرکزی لائن کے بجائے بند حلقہ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "A message passes intermediate neighboring nodes to reach its destination. Which topology fits?\nپیغام منزل تک پہنچنے کے لیے درمیان کے پڑوسی نوڈز سے گزرتا ہے۔ کون سی ٹوپولوجی مناسب ہے؟",
+      "options": [
+        "Ring\nرنگ",
+        "A standalone computer\nاکیلا کمپیوٹر",
+        "Star center-only path\nصرف اسٹار مرکز والا راستہ",
+        "Direct full mesh link\nبراہ راست فل میش لنک"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ring\nرنگ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "What structural feature keeps the ring connected?\nرنگ کو منسلک رکھنے والی ساختی خصوصیت کیا ہے؟",
+      "options": [
+        "The last node connects back to the first\nآخری نوڈ پہلے نوڈ سے دوبارہ جڑتا ہے",
+        "All nodes use no cable\nتمام نوڈز بغیر کیبل کے ہیں",
+        "Every node must connect to a satellite\nہر نوڈ کا سیٹلائٹ سے جڑنا ضروری ہے",
+        "A terminator ends each link\nہر لنک کے آخر میں ٹرمینیٹر ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The last node connects back to the first\nآخری نوڈ پہلے نوڈ سے دوبارہ جڑتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "Ring Topology / رنگ ٹوپولوجی",
+      "question": "Which limitation is associated with a simple ring?\nسادہ رنگ کے ساتھ کون سی حد وابستہ ہے؟",
+      "options": [
+        "Every node has many independent routes\nہر نوڈ کے کئی آزاد راستے ہوتے ہیں",
+        "No data passes between nodes\nنوڈز کے درمیان ڈیٹا نہیں جاتا",
+        "A node or link fault can interrupt traffic\nنوڈ یا لنک کی خرابی ٹریفک میں خلل ڈال سکتی ہے",
+        "It is always a wireless design\nیہ ہمیشہ وائرلیس ڈیزائن ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A node or link fault can interrupt traffic\nنوڈ یا لنک کی خرابی ٹریفک میں خلل ڈال سکتی ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "What makes a network topology hybrid?\nکسی نیٹ ورک ٹوپولوجی کو ہائبرڈ کیا بناتا ہے؟",
+      "options": [
+        "Using just one uninterrupted cable\nصرف ایک مسلسل کیبل استعمال کرنا",
+        "Using one computer only\nصرف ایک کمپیوٹر استعمال کرنا",
+        "Combining two or more topology types\nدو یا زیادہ ٹوپولوجیز کو ملانا",
+        "Using radio alone\nصرف ریڈیو استعمال کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Combining two or more topology types\nدو یا زیادہ ٹوپولوجیز کو ملانا"
+    },
+    {
+      "id": "dit-network-topology-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "A network joins star sections with a bus backbone. What is it?\nنیٹ ورک اسٹار حصوں کو بس بیک بون سے ملاتا ہے۔ یہ کیا ہے؟",
+      "options": [
+        "Pure bus only\nصرف خالص بس",
+        "Hybrid topology\nہائبرڈ ٹوپولوجی",
+        "Standalone Wi-Fi device\nاکیلی وائی فائی ڈیوائس",
+        "Pure ring\nخالص رنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Hybrid topology\nہائبرڈ ٹوپولوجی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "Why is hybrid topology useful for different departments?\nمختلف شعبوں کے لیے ہائبرڈ ٹوپولوجی کیوں مفید ہے؟",
+      "options": [
+        "All departments must use identical cables\nہر شعبے کو یکساں کیبلز چاہیے",
+        "It prevents network expansion\nیہ نیٹ ورک کی توسیع روکتی ہے",
+        "Different sections can use suitable layouts\nمختلف حصے مناسب ترتیب استعمال کر سکتے ہیں",
+        "It eliminates all hardware\nیہ تمام ہارڈویئر ختم کرتی ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Different sections can use suitable layouts\nمختلف حصے مناسب ترتیب استعمال کر سکتے ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "What is a likely disadvantage of a hybrid topology?\nہائبرڈ ٹوپولوجی کا ممکنہ نقصان کیا ہے؟",
+      "options": [
+        "It cannot combine layouts\nیہ ترتیبیں ملا نہیں سکتی",
+        "It has no physical connections\nاس میں جسمانی رابطے نہیں ہوتے",
+        "Greater design and maintenance complexity\nڈیزائن اور دیکھ بھال کی زیادہ پیچیدگی",
+        "It needs only one node\nاسے صرف ایک نوڈ چاہیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Greater design and maintenance complexity\nڈیزائن اور دیکھ بھال کی زیادہ پیچیدگی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "Why may a hybrid network cost more than a simple bus?\nہائبرڈ نیٹ ورک سادہ بس سے زیادہ مہنگا کیوں ہو سکتا ہے؟",
+      "options": [
+        "It never uses any equipment\nیہ کبھی آلات استعمال نہیں کرتا",
+        "It may need more equipment and cabling\nاسے زیادہ آلات اور کیبلز درکار ہو سکتی ہیں",
+        "It cannot be expanded\nاسے پھیلایا نہیں جا سکتا",
+        "It has no branches\nاس کی کوئی شاخ نہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It may need more equipment and cabling\nاسے زیادہ آلات اور کیبلز درکار ہو سکتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "Which choice correctly describes a hybrid design?\nکون سا انتخاب ہائبرڈ ڈیزائن درست بیان کرتا ہے؟",
+      "options": [
+        "A compulsory single ring\nلازمی ایک رنگ",
+        "No connections between devices\nڈیوائسز میں کوئی رابطہ نہیں",
+        "A compulsory single bus\nلازمی ایک بس",
+        "Integration of different network structures\nمختلف نیٹ ورک ساختوں کا امتزاج"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Integration of different network structures\nمختلف نیٹ ورک ساختوں کا امتزاج"
+    },
+    {
+      "id": "dit-network-topology-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "A school needs separate star networks connected together. What approach fits?\nاسکول کو الگ اسٹار نیٹ ورکس آپس میں جوڑنے ہیں۔ کیا طریقہ مناسب ہے؟",
+      "options": [
+        "Single isolated PC\nایک الگ کمپیوٹر",
+        "Hybrid network design\nہائبرڈ نیٹ ورک ڈیزائن",
+        "No network topology\nبغیر نیٹ ورک ٹوپولوجی",
+        "Only ring without branches\nصرف بغیر شاخوں کی رنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Hybrid network design\nہائبرڈ نیٹ ورک ڈیزائن"
+    },
+    {
+      "id": "dit-network-topology-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "What is one advantage of combining network layouts?\nنیٹ ورک کی ترتیبیں ملانے کا ایک فائدہ کیا ہے؟",
+      "options": [
+        "No planning required\nمنصوبہ بندی کی ضرورت نہیں",
+        "Removal of all costs\nتمام اخراجات کا خاتمہ",
+        "Guaranteed zero faults\nخرابی کبھی نہ ہونے کی ضمانت",
+        "Flexibility in network design\nنیٹ ورک ڈیزائن میں لچک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Flexibility in network design\nنیٹ ورک ڈیزائن میں لچک"
+    },
+    {
+      "id": "dit-network-topology-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "Which situation is NOT an example of hybrid topology?\nکون سی صورت ہائبرڈ ٹوپولوجی کی مثال نہیں ہے؟",
+      "options": [
+        "Only one unchanged bus layout\nصرف ایک ہی بس کی غیر تبدیل شدہ ترتیب",
+        "Different topology segments combined\nمختلف ٹوپولوجی حصوں کا امتزاج",
+        "Ring and star together\nرنگ اور اسٹار کا امتزاج",
+        "Bus and star together\nبس اور اسٹار کا امتزاج"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Only one unchanged bus layout\nصرف ایک ہی بس کی غیر تبدیل شدہ ترتیب"
+    },
+    {
+      "id": "dit-network-topology-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "Hybrid Topology / ہائبرڈ ٹوپولوجی",
+      "question": "Why can troubleshooting a hybrid design be harder?\nہائبرڈ ڈیزائن میں خرابی تلاش کرنا مشکل کیوں ہو سکتا ہے؟",
+      "options": [
+        "Several topology types must be examined\nکئی قسم کی ٹوپولوجیز چیک کرنا پڑتی ہیں",
+        "There are never any links\nاس میں کبھی لنکس نہیں ہوتے",
+        "All devices are one node\nتمام ڈیوائسز ایک ہی نوڈ ہیں",
+        "Every link is automatically wireless\nہر لنک خودکار وائرلیس ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Several topology types must be examined\nکئی قسم کی ٹوپولوجیز چیک کرنا پڑتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "In a full mesh network, each node connects directly to what?\nفل میش نیٹ ورک میں ہر نوڈ براہ راست کس سے جڑتا ہے؟",
+      "options": [
+        "One central hub only\nصرف ایک مرکزی ہب سے",
+        "Every other node\nہر دوسرے نوڈ سے",
+        "Only a shared bus\nصرف مشترکہ بس سے",
+        "A single satellite\nایک سیٹلائٹ سے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Every other node\nہر دوسرے نوڈ سے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "Which mesh type connects only some pairs directly?\nمیش کی کون سی قسم صرف کچھ جوڑوں کو براہ راست ملاتی ہے؟",
+      "options": [
+        "Partial mesh\nپارشل میش",
+        "Full mesh\nفل میش",
+        "Single bus\nسنگل بس",
+        "Simple ring\nسادہ رنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Partial mesh\nپارشل میش"
+    },
+    {
+      "id": "dit-network-topology-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "Why is full mesh considered reliable?\nفل میش کو قابل اعتماد کیوں سمجھا جاتا ہے؟",
+      "options": [
+        "It uses only one shared cable\nیہ صرف ایک مشترکہ کیبل استعمال کرتا ہے",
+        "Multiple paths can remain available\nمتعدد راستے دستیاب رہ سکتے ہیں",
+        "It has a required central hub\nاس میں لازمی مرکزی ہب ہوتا ہے",
+        "It prevents any data movement\nیہ ڈیٹا کی حرکت روکتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Multiple paths can remain available\nمتعدد راستے دستیاب رہ سکتے ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "What is a major disadvantage of full mesh?\nفل میش کا بڑا نقصان کیا ہے؟",
+      "options": [
+        "No alternative path is possible\nمتبادل راستہ ممکن نہیں",
+        "Only one node can join\nصرف ایک نوڈ شامل ہو سکتا ہے",
+        "Every node must be wireless\nہر نوڈ کا وائرلیس ہونا ضروری ہے",
+        "Many cables and connections are needed\nبہت سی کیبلز اور رابطے درکار ہوتے ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Many cables and connections are needed\nبہت سی کیبلز اور رابطے درکار ہوتے ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "One direct link fails but another route exists. Which design best supports this?\nایک براہ راست لنک خراب ہے مگر دوسرا راستہ موجود ہے۔ کون سا ڈیزائن بہتر ہے؟",
+      "options": [
+        "Standalone computer\nاکیلا کمپیوٹر",
+        "Simple bus\nسادہ بس",
+        "Mesh\nمیش",
+        "Single ring\nسنگل رنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Mesh\nمیش"
+    },
+    {
+      "id": "dit-network-topology-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "Which is more costly to wire as node count rises?\nنوڈز بڑھنے پر کس کی وائرنگ زیادہ مہنگی ہو سکتی ہے؟",
+      "options": [
+        "Simple bus\nسادہ بس",
+        "A single direct link\nایک براہ راست لنک",
+        "Single shared line\nایک مشترکہ لائن",
+        "Full mesh\nفل میش"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Full mesh\nفل میش"
+    },
+    {
+      "id": "dit-network-topology-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "What is a key difference between full and partial mesh?\nفل اور پارشل میش میں بنیادی فرق کیا ہے؟",
+      "options": [
+        "Whether nodes require electricity\nنوڈز کو بجلی درکار ہونے یا نہ ہونے کا فرق",
+        "Whether computers have screens\nکمپیوٹروں کی اسکرین ہونے یا نہ ہونے کا فرق",
+        "Number of direct inter-node links\nنوڈز کے درمیان براہ راست لنکس کی تعداد",
+        "Whether data exists\nڈیٹا موجود ہونے یا نہ ہونے کا فرق"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Number of direct inter-node links\nنوڈز کے درمیان براہ راست لنکس کی تعداد"
+    },
+    {
+      "id": "dit-network-topology-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "Which topology offers direct connections between every device pair?\nکون سی ٹوپولوجی ہر دو ڈیوائسز کے درمیان براہ راست رابطہ دیتی ہے؟",
+      "options": [
+        "Full mesh\nفل میش",
+        "Ring\nرنگ",
+        "Bus\nبس",
+        "Star\nاسٹار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Full mesh\nفل میش"
+    },
+    {
+      "id": "dit-network-topology-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "Why does full mesh become difficult to install in large networks?\nبڑے نیٹ ورکس میں فل میش کی تنصیب مشکل کیوں ہو جاتی ہے؟",
+      "options": [
+        "The number of connections increases greatly\nرابطوں کی تعداد بہت بڑھ جاتی ہے",
+        "It needs one terminator only\nاسے صرف ایک ٹرمینیٹر چاہیے",
+        "There are no links to install\nلگانے کے لیے کوئی لنک نہیں",
+        "All nodes share one cable\nتمام نوڈز ایک کیبل استعمال کرتے ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The number of connections increases greatly\nرابطوں کی تعداد بہت بڑھ جاتی ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "Mesh Topology / میش ٹوپولوجی",
+      "question": "Which benefit can justify the higher cost of mesh?\nمیش کی زیادہ لاگت کے باوجود کون سا فائدہ اہم ہو سکتا ہے؟",
+      "options": [
+        "No physical equipment\nکسی جسمانی آلات کی ضرورت نہیں",
+        "Only a single point of failure\nصرف ایک مقام پر خرابی کا امکان",
+        "Guaranteed zero maintenance\nدیکھ بھال کبھی نہ ہونے کی ضمانت",
+        "Fault tolerance through alternate paths\nمتبادل راستوں کی وجہ سے خرابی برداشت کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Fault tolerance through alternate paths\nمتبادل راستوں کی وجہ سے خرابی برداشت کرنا"
+    },
+    {
+      "id": "dit-network-topology-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "What does Wi-Fi use to connect devices without cables?\nوائی فائی ڈیوائسز کو بغیر کیبل کیسے جوڑتا ہے؟",
+      "options": [
+        "A ring of wired nodes\nوائرڈ نوڈز کا حلقہ",
+        "Wireless radio signals\nوائرلیس ریڈیو سگنلز",
+        "Terminator devices\nٹرمینیٹر ڈیوائسز",
+        "Only copper backbone cable\nصرف تانبے کی بیک بون کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless radio signals\nوائرلیس ریڈیو سگنلز"
+    },
+    {
+      "id": "dit-network-topology-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "In infrastructure Wi-Fi, devices commonly connect through what?\nانفراسٹرکچر وائی فائی میں ڈیوائسز عموماً کس کے ذریعے جڑتی ہیں؟",
+      "options": [
+        "An access point\nایکسس پوائنٹ",
+        "A satellite orbit\nسیٹلائٹ مدار",
+        "A bus terminator\nبس ٹرمینیٹر",
+        "A physical ring connector\nرنگ کا جسمانی کنیکٹر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: An access point\nایکسس پوائنٹ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "Which Wi-Fi mode permits devices to connect directly to each other?\nوائی فائی کا کون سا موڈ ڈیوائسز کو براہ راست آپس میں جوڑتا ہے؟",
+      "options": [
+        "Infrastructure mode via access point\nایکسس پوائنٹ والا انفراسٹرکچر موڈ",
+        "Wired ring mode\nوائرڈ رنگ موڈ",
+        "Ad-hoc mode\nایڈہاک موڈ",
+        "Wired bus mode\nوائرڈ بس موڈ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ad-hoc mode\nایڈہاک موڈ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "What is a key advantage of Wi-Fi for laptop users?\nلیپ ٹاپ صارفین کے لیے وائی فائی کا اہم فائدہ کیا ہے؟",
+      "options": [
+        "Mobility within wireless coverage\nوائرلیس کوریج میں نقل و حرکت",
+        "No use of radio signals\nریڈیو سگنلز کا استعمال نہ ہونا",
+        "A direct cable to all laptops\nتمام لیپ ٹاپس سے براہ راست کیبل",
+        "Mandatory fixed cable\nلازمی مستقل کیبل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Mobility within wireless coverage\nوائرلیس کوریج میں نقل و حرکت"
+    },
+    {
+      "id": "dit-network-topology-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "What can limit Wi-Fi connectivity?\nوائی فائی رابطے کو کیا محدود کر سکتا ہے؟",
+      "options": [
+        "A broken ring cable only\nصرف رنگ کی ٹوٹی کیبل",
+        "A missing mesh cable only\nصرف میش کی غائب کیبل",
+        "Too many bus terminators\nبہت زیادہ بس ٹرمینیٹرز",
+        "Limited wireless signal range\nوائرلیس سگنل کی محدود حد"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Limited wireless signal range\nوائرلیس سگنل کی محدود حد"
+    },
+    {
+      "id": "dit-network-topology-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "Which situation best uses Wi-Fi?\nکس صورت میں وائی فائی زیادہ موزوں ہے؟",
+      "options": [
+        "Building a wired closed ring\nوائرڈ بند رنگ بنانا",
+        "Linking all nodes using separate copper cables\nسب نوڈز کو الگ تانبے کی کیبلز سے ملانا",
+        "Connecting phones without network cables\nفونز کو نیٹ ورک کیبلز کے بغیر جوڑنا",
+        "Using a terminator at each cable end\nہر کیبل کے سرے پر ٹرمینیٹر لگانا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Connecting phones without network cables\nفونز کو نیٹ ورک کیبلز کے بغیر جوڑنا"
+    },
+    {
+      "id": "dit-network-topology-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "What feature separates Wi-Fi from a wired bus?\nوائی فائی کو وائرڈ بس سے کون سی بات مختلف کرتی ہے؟",
+      "options": [
+        "Existence of a network\nنیٹ ورک کا ہونا",
+        "Need for connected devices\nمنسلک ڈیوائسز کی ضرورت",
+        "Ability to share data\nڈیٹا بانٹنے کی صلاحیت",
+        "A wireless communication medium\nوائرلیس مواصلاتی ذریعہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A wireless communication medium\nوائرلیس مواصلاتی ذریعہ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "What may happen when a Wi-Fi user moves outside coverage?\nوائی فائی صارف کوریج سے باہر جائے تو کیا ہو سکتا ہے؟",
+      "options": [
+        "A physical ring is formed\nفزیکل رنگ بن جاتی ہے",
+        "Wireless connection may be lost\nوائرلیس رابطہ ختم ہو سکتا ہے",
+        "All cables break\nتمام کیبلز ٹوٹ جاتی ہیں",
+        "The device becomes a bus terminator\nڈیوائس بس ٹرمینیٹر بن جاتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless connection may be lost\nوائرلیس رابطہ ختم ہو سکتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "Which part is central in infrastructure-mode Wi-Fi?\nانفراسٹرکچر موڈ وائی فائی میں کون سا حصہ مرکزی ہوتا ہے؟",
+      "options": [
+        "Full mesh wire\nفل میش تار",
+        "Wireless access point\nوائرلیس ایکسس پوائنٹ",
+        "Ring neighbor cable\nرنگ کی پڑوسی کیبل",
+        "Bus backbone\nبس بیک بون"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless access point\nوائرلیس ایکسس پوائنٹ"
+    },
+    {
+      "id": "dit-network-topology-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "Wi-Fi Topology / وائی فائی ٹوپولوجی",
+      "question": "Why is Wi-Fi called a wireless topology here?\nیہاں وائی فائی کو وائرلیس ٹوپولوجی کیوں کہتے ہیں؟",
+      "options": [
+        "A terminator must be installed\nٹرمینیٹر لگانا ضروری ہے",
+        "Every device is fixed in a ring\nہر ڈیوائس رنگ میں مستقل ہوتی ہے",
+        "Devices communicate through radio instead of connecting cables\nڈیوائسز کیبلز کے بجائے ریڈیو سے رابطہ کرتی ہیں",
+        "All devices require a common copper line\nتمام ڈیوائسز کو مشترکہ تانبے کی لائن چاہیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Devices communicate through radio instead of connecting cables\nڈیوائسز کیبلز کے بجائے ریڈیو سے رابطہ کرتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "What enables long-distance satellite communication?\nسیٹلائٹ دور دراز مواصلات کیسے ممکن بناتا ہے؟",
+      "options": [
+        "Signals relayed through a satellite\nسیٹلائٹ کے ذریعے سگنلز کی ترسیل",
+        "Only local copper cabling\nصرف مقامی تانبے کی کیبلنگ",
+        "A bus terminator\nبس ٹرمینیٹر",
+        "A fixed ring of PCs\nکمپیوٹروں کی مستقل رنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Signals relayed through a satellite\nسیٹلائٹ کے ذریعے سگنلز کی ترسیل"
+    },
+    {
+      "id": "dit-network-topology-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Which pair appears in the chapter satellite diagram?\nباب کے سیٹلائٹ خاکے میں کون سا جوڑا دکھایا گیا ہے؟",
+      "options": [
+        "Two ring connectors\nدو رنگ کنیکٹرز",
+        "Two central hubs\nدو مرکزی ہب",
+        "Two earth stations\nدو زمینی اسٹیشن",
+        "Two bus terminators\nدو بس ٹرمینیٹرز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Two earth stations\nدو زمینی اسٹیشن"
+    },
+    {
+      "id": "dit-network-topology-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Which communication path is used by a satellite system?\nسیٹلائٹ نظام میں کون سا مواصلاتی راستہ استعمال ہوتا ہے؟",
+      "options": [
+        "Only around a wired ring\nصرف وائرڈ رنگ کے گرد",
+        "Only node to nearby bus cable\nصرف نوڈ سے قریبی بس کیبل",
+        "Only PC to star hub\nصرف پی سی سے اسٹار ہب",
+        "Earth station to satellite to earth station\nزمینی اسٹیشن سے سیٹلائٹ اور پھر زمینی اسٹیشن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Earth station to satellite to earth station\nزمینی اسٹیشن سے سیٹلائٹ اور پھر زمینی اسٹیشن"
+    },
+    {
+      "id": "dit-network-topology-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Why is satellite networking suitable for remote areas?\nدور دراز علاقوں میں سیٹلائٹ نیٹ ورک کیوں مناسب ہے؟",
+      "options": [
+        "It needs a cable to each remote home\nہر دور گھر تک کیبل ضروری ہے",
+        "It can connect widely separated locations\nیہ بہت دور مقامات کو جوڑ سکتا ہے",
+        "It works only within one room\nیہ صرف ایک کمرے میں کام کرتا ہے",
+        "It requires a local wired ring everywhere\nاسے ہر جگہ مقامی وائرڈ رنگ چاہیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It can connect widely separated locations\nیہ بہت دور مقامات کو جوڑ سکتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "What is a common disadvantage of satellite communication?\nسیٹلائٹ مواصلات کا عام نقصان کیا ہے؟",
+      "options": [
+        "High cost\nزیادہ لاگت",
+        "No wireless transmission\nوائرلیس ترسیل نہ ہونا",
+        "Must use a bus backbone\nبس بیک بون لازمی ہونا",
+        "No wide-area coverage\nوسیع علاقائی کوریج نہ ہونا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: High cost\nزیادہ لاگت"
+    },
+    {
+      "id": "dit-network-topology-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Which system best suits links between far-apart earth stations?\nبہت دور زمینی اسٹیشنز کو جوڑنے کے لیے کون سا نظام مناسب ہے؟",
+      "options": [
+        "Single-room bus\nایک کمرے کی بس",
+        "Small wired ring\nچھوٹی وائرڈ رنگ",
+        "Satellite communication\nسیٹلائٹ مواصلات",
+        "One direct computer cable\nایک براہ راست کمپیوٹر کیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Satellite communication\nسیٹلائٹ مواصلات"
+    },
+    {
+      "id": "dit-network-topology-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "What role does a satellite play in the shown communication system?\nدکھائے گئے مواصلاتی نظام میں سیٹلائٹ کا کردار کیا ہے؟",
+      "options": [
+        "Form a cable ring on the ground\nزمین پر کیبل کی رنگ بنانا",
+        "Serve as a bus terminator\nبس ٹرمینیٹر کے طور پر کام کرنا",
+        "Replace every computer keyboard\nہر کمپیوٹر کا کی بورڈ بدلنا",
+        "Relay signals between ground stations\nزمینی اسٹیشنوں کے درمیان سگنلز پہنچانا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Relay signals between ground stations\nزمینی اسٹیشنوں کے درمیان سگنلز پہنچانا"
+    },
+    {
+      "id": "dit-network-topology-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Which component stays on Earth in the satellite diagram?\nسیٹلائٹ خاکے میں کون سا حصہ زمین پر ہوتا ہے؟",
+      "options": [
+        "The space relay\nخلائی ریلے",
+        "Orbiting satellite\nمدار میں گردش کرنے والا سیٹلائٹ",
+        "Earth station\nزمینی اسٹیشن",
+        "An orbital transmitter\nمداری ٹرانسمیٹر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Earth station\nزمینی اسٹیشن"
+    },
+    {
+      "id": "dit-network-topology-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Which advantage of satellites is emphasized in wide-area networking?\nوسیع علاقائی نیٹ ورکنگ میں سیٹلائٹ کا کون سا فائدہ نمایاں ہے؟",
+      "options": [
+        "Only short cable distances\nصرف مختصر کیبل فاصلہ",
+        "Wide geographical coverage\nوسیع جغرافیائی کوریج",
+        "Mandatory local ring\nلازمی مقامی رنگ",
+        "No equipment required\nآلات کی ضرورت نہ ہونا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wide geographical coverage\nوسیع جغرافیائی کوریج"
+    },
+    {
+      "id": "dit-network-topology-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "Satellite Topology / سیٹلائٹ ٹوپولوجی",
+      "question": "Which statement correctly compares satellite with a local wired bus?\nسیٹلائٹ اور مقامی وائرڈ بس کا درست موازنہ کیا ہے؟",
+      "options": [
+        "Both require one shared ground cable\nدونوں کو ایک مشترکہ زمینی کیبل چاہیے",
+        "Bus uses an orbiting relay\nبس مداری ریلے استعمال کرتی ہے",
+        "Satellite requires terminators at cable ends\nسیٹلائٹ کیبل سروں پر ٹرمینیٹر چاہتا ہے",
+        "Satellite links distant sites through space\nسیٹلائٹ خلا کے ذریعے دور مقامات کو جوڑتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Satellite links distant sites through space\nسیٹلائٹ خلا کے ذریعے دور مقامات کو جوڑتا ہے"
+    },
+    {
+      "id": "dit-network-topology-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "What carries information in radio wave topology?\nریڈیو ویو ٹوپولوجی میں معلومات کس کے ذریعے جاتی ہیں؟",
+      "options": [
+        "Fiber cable only\nصرف فائبر کیبل",
+        "Printed documents\nچھپی دستاویزات",
+        "Copper wire only\nصرف تانبے کی تار",
+        "Radio waves\nریڈیو لہریں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Radio waves\nریڈیو لہریں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "Which radio wave application is listed in the chapter?\nباب میں ریڈیو ویو کی کون سی مثال دی گئی ہے؟",
+      "options": [
+        "Bus drop-line cabling\nبس ڈراپ لائن کیبلنگ",
+        "Wired ring terminators\nوائرڈ رنگ ٹرمینیٹرز",
+        "Star cable testers\nاسٹار کیبل ٹیسٹرز",
+        "Mobile phone communication\nموبائل فون مواصلات"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Mobile phone communication\nموبائل فون مواصلات"
+    },
+    {
+      "id": "dit-network-topology-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "A radio tower sends signals to another tower. Which medium is used?\nایک ریڈیو ٹاور دوسرے ٹاور کو سگنل بھیجتا ہے۔ کون سا ذریعہ استعمال ہوتا ہے؟",
+      "options": [
+        "A common bus cable\nمشترکہ بس کیبل",
+        "Wireless electromagnetic waves\nوائرلیس برقی مقناطیسی لہریں",
+        "A wired central hub\nوائرڈ مرکزی ہب",
+        "A ring of copper wires\nتانبے کی تاروں کی رنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless electromagnetic waves\nوائرلیس برقی مقناطیسی لہریں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "Why are radio waves useful in wireless networks?\nوائرلیس نیٹ ورکس میں ریڈیو لہریں کیوں مفید ہیں؟",
+      "options": [
+        "They carry signals without a connecting cable\nیہ رابطہ کیبل کے بغیر سگنلز لے جاتی ہیں",
+        "They eliminate all receiving equipment\nیہ تمام وصول کرنے والے آلات ختم کرتی ہیں",
+        "They form physical terminators\nیہ جسمانی ٹرمینیٹر بناتی ہیں",
+        "They require all nodes to be wired together\nان کے لیے تمام نوڈز کا تاروں سے جڑنا ضروری ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: They carry signals without a connecting cable\nیہ رابطہ کیبل کے بغیر سگنلز لے جاتی ہیں"
+    },
+    {
+      "id": "dit-network-topology-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "Which example in the chapter uses radio-wave communication?\nباب کی کون سی مثال ریڈیو لہروں کی مواصلات استعمال کرتی ہے؟",
+      "options": [
+        "A fully cabled mesh\nمکمل کیبل والی میش",
+        "A closed cable ring\nبند کیبل رنگ",
+        "Radio and television broadcasting\nریڈیو اور ٹی وی نشریات",
+        "A wired bus backbone\nوائرڈ بس بیک بون"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Radio and television broadcasting\nریڈیو اور ٹی وی نشریات"
+    },
+    {
+      "id": "dit-network-topology-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "Which feature distinguishes radio links from wired topology?\nریڈیو لنکس کو وائرڈ ٹوپولوجی سے کون سی بات مختلف کرتی ہے؟",
+      "options": [
+        "No transmitter is required\nٹرانسمیٹر کی ضرورت نہیں",
+        "No physical cable between transmitting points\nترسیلی مقامات کے درمیان جسمانی کیبل نہیں ہوتی",
+        "No receiver is required\nریسیور کی ضرورت نہیں",
+        "No information can be sent\nمعلومات نہیں بھیجی جا سکتیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No physical cable between transmitting points\nترسیلی مقامات کے درمیان جسمانی کیبل نہیں ہوتی"
+    },
+    {
+      "id": "dit-network-topology-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "What converts information into transmitted radio signals?\nمعلومات کو نشر ہونے والے ریڈیو سگنلز میں کون بدلتا ہے؟",
+      "options": [
+        "Bus terminator\nبس ٹرمینیٹر",
+        "Computer mouse\nکمپیوٹر ماؤس",
+        "A wired drop line\nوائرڈ ڈراپ لائن",
+        "Transmitter\nٹرانسمیٹر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Transmitter\nٹرانسمیٹر"
+    },
+    {
+      "id": "dit-network-topology-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "What receives signals sent through radio waves?\nریڈیو لہروں سے بھیجے گئے سگنلز کون وصول کرتا ہے؟",
+      "options": [
+        "Printer cartridge\nپرنٹر کارٹریج",
+        "Bus terminator\nبس ٹرمینیٹر",
+        "Receiver\nریسیور",
+        "Ring cable connector\nرنگ کیبل کنیکٹر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Receiver\nریسیور"
+    },
+    {
+      "id": "dit-network-topology-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "Which situation best demonstrates radio wave networking?\nکون سی صورت ریڈیو ویو نیٹ ورکنگ کی بہترین مثال ہے؟",
+      "options": [
+        "Wireless communication between radio stations\nریڈیو اسٹیشنوں کے درمیان وائرلیس مواصلات",
+        "Computers linked in a wired ring\nوائرڈ رنگ میں جڑے کمپیوٹر",
+        "Two PCs connected by one copper cable\nتانبے کی ایک کیبل سے جڑے دو پی سی",
+        "A star network with only cables\nصرف کیبلز والا اسٹار نیٹ ورک"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Wireless communication between radio stations\nریڈیو اسٹیشنوں کے درمیان وائرلیس مواصلات"
+    },
+    {
+      "id": "dit-network-topology-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "Radio Wave Topology / ریڈیو ویو ٹوپولوجی",
+      "question": "Which condition can reduce radio-link quality?\nکون سی حالت ریڈیو لنک کا معیار کم کر سکتی ہے؟",
+      "options": [
+        "Signal interference\nسگنل میں مداخلت",
+        "Using a wired ring instead\nاس کے بجائے وائرڈ رنگ استعمال کرنا",
+        "Correct placement of a bus terminator\nبس ٹرمینیٹر کی درست جگہ",
+        "A direct copper connection\nبراہ راست تانبے کا رابطہ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Signal interference\nسگنل میں مداخلت"
+    }
+  ]
+}

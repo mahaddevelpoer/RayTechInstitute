@@ -1,0 +1,154 @@
+{
+  "state": "locally-staged-not-published",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semester": 1,
+  "existing": [
+    {
+      "key": "network-topology",
+      "questions": 100,
+      "sourceSha256": "592fe54f6a10f73c3aa4c300275692bc230fb0edea996b57861542f26f0fdd51",
+      "action": "leave-unchanged",
+      "verifiedAgainstLiveSnapshot": true
+    },
+    {
+      "key": "powerpoint",
+      "questions": 100,
+      "sourceSha256": "d05298138b210e992e59fdbb7483a6050eb2221756591e68d2bbd9c548340551",
+      "action": "Preserve all questions and URLs; update the approved chapter label from 3 to 4.",
+      "verifiedAgainstLiveSnapshot": true
+    }
+  ],
+  "missing": [
+    {
+      "key": "networking-devices",
+      "title": "Networking Devices",
+      "book": "Computer Networking",
+      "displayChapter": 3,
+      "storageChapter": 6,
+      "questions": 100,
+      "topics": 10,
+      "sourceSha256": "b20085b1322651d4cc806d8ff587f2f379fa61186eb3821ccafa26d3115f60e0"
+    },
+    {
+      "key": "transmission-media",
+      "title": "Transmission Media",
+      "book": "Computer Networking",
+      "displayChapter": 4,
+      "storageChapter": 7,
+      "questions": 110,
+      "topics": 11,
+      "sourceSha256": "6fd470d8d9c60d59348fd32f4777e286eebbebe1a67a075df4cfa419bf1cfd90"
+    },
+    {
+      "key": "network-models",
+      "title": "Network Models",
+      "book": "Computer Networking",
+      "displayChapter": 5,
+      "storageChapter": 8,
+      "questions": 150,
+      "topics": 15,
+      "sourceSha256": "c33a713f3f69da8ff86e0599cb27b0444a8fb72904fb8c4bb2bab1fdbf4e1a54"
+    },
+    {
+      "key": "ip-addresses",
+      "title": "IP Addresses",
+      "book": "Computer Networking",
+      "displayChapter": 6,
+      "storageChapter": 9,
+      "questions": 70,
+      "topics": 7,
+      "sourceSha256": "37eaa6667dd993d152b7d08e80541f27683f0446aa2cb0d735f447f17cc503b5"
+    },
+    {
+      "key": "protocols",
+      "title": "Protocols",
+      "book": "Computer Networking",
+      "displayChapter": 7,
+      "storageChapter": 10,
+      "questions": 100,
+      "topics": 10,
+      "sourceSha256": "aac3a3a04d1fad7707dc88e6cdf3b9657ffe1c8829138a8264b4eefa6520ca3c"
+    },
+    {
+      "key": "excel",
+      "title": "Microsoft Excel",
+      "book": "MS Office",
+      "displayChapter": 3,
+      "storageChapter": 11,
+      "questions": 130,
+      "topics": 13,
+      "sourceSha256": "50ea9baf17bbdab608d4c40bd7517dcceb2af1900a2a309d107f904327da77f6"
+    },
+    {
+      "key": "access",
+      "title": "Microsoft Access",
+      "book": "MS Office",
+      "displayChapter": 5,
+      "storageChapter": 12,
+      "questions": 100,
+      "topics": 10,
+      "sourceSha256": "2eec3c9b40f3ea5074054bc857c7453cca69bb686e28f782d0d421c177be4f73"
+    }
+  ],
+  "questions": 760,
+  "topics": 76,
+  "overwrites": 0,
+  "pending": [
+    "Publishing this academic import requires explicit approval."
+  ],
+  "officeOrderConfirmed": true,
+  "officeOrder": [
+    "Introduction to MS Office",
+    "Microsoft Word 2016",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "Microsoft Access"
+  ],
+  "payloadSha256": "f81dc8267c81339c84b486a1e18a144441617b1dffeeab1dd0f400aa92867f81",
+  "pdfs": [
+    {
+      "key": "networking-devices",
+      "path": "public/documents/dit/nov11/networking-devices.pdf",
+      "bytes": 739494,
+      "sha256": "4960661b266c7d974a7a015b37b67eaa402f3f67786b5c7b954b713231265ed8"
+    },
+    {
+      "key": "transmission-media",
+      "path": "public/documents/dit/nov11/transmission-media.pdf",
+      "bytes": 792392,
+      "sha256": "79046ee95b20aa95eaaedbd890e823f58bb9b170873f6ce6f14e183fc3aef7aa"
+    },
+    {
+      "key": "network-models",
+      "path": "public/documents/dit/nov11/network-models.pdf",
+      "bytes": 1055150,
+      "sha256": "cdb149d8caf7c0a0e1dfff4b5be6e2f337bf6a8f6368b04949cc8cec661c0d3d"
+    },
+    {
+      "key": "ip-addresses",
+      "path": "public/documents/dit/nov11/ip-addresses.pdf",
+      "bytes": 544461,
+      "sha256": "5973bc85b98c657395a7ee109e2aa90b909a63be0e4b6dd43f793ba63bb2cf75"
+    },
+    {
+      "key": "protocols",
+      "path": "public/documents/dit/nov11/protocols.pdf",
+      "bytes": 745151,
+      "sha256": "8bac5c4a705e74e97e827c0b78667779efe92c259a061305c3e4c681e08e05a9"
+    },
+    {
+      "key": "excel",
+      "path": "public/documents/dit/nov11/excel.pdf",
+      "bytes": 923980,
+      "sha256": "e8c43d6d05c6830f6c9db08a53535c29dcae94b46a5e0663b431a1baed87fda4"
+    },
+    {
+      "key": "access",
+      "path": "public/documents/dit/nov11/access.pdf",
+      "bytes": 726063,
+      "sha256": "8f1552b2d98ee72794938078432d3caf2538bf913eae7a774d25f984042a26bc"
+    }
+  ],
+  "approvedMetadataUpdates": 2
+}

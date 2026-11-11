@@ -1,0 +1,1001 @@
+{
+  "key": "ip-addresses",
+  "sourceFile": "Chapter6_IP_Addresses.docx",
+  "sourceSha256": "37eaa6667dd993d152b7d08e80541f27683f0446aa2cb0d735f447f17cc503b5",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "Computer Networking",
+  "displayChapterNumber": 6,
+  "sourceSections": [
+    "IP Address: Concept and Purpose",
+    "Why IP Addresses Are Needed",
+    "IPv4 Structure and Dotted-Decimal Notation",
+    "IPv4 Address Classes A, B, C, D and E",
+    "Network and Host Portions, Masks and Examples",
+    "IPv6 Introduction and Need",
+    "IPv6 Length and Hexadecimal Representation"
+  ],
+  "questions": [
+    {
+      "id": "dit-ip-addresses-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "Two devices need to exchange data over a network. What identifies the intended destination?\nدو ڈیوائسز کو نیٹ ورک پر ڈیٹا بھیجنا ہے۔ مطلوبہ منزل کی شناخت کس سے ہوتی ہے؟",
+      "options": [
+        "Monitor size\nمانیٹر کا سائز",
+        "Keyboard layout\nکی بورڈ کی ترتیب",
+        "Printer paper\nپرنٹر کا کاغذ",
+        "IP address\nآئی پی ایڈریس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: IP address\nآئی پی ایڈریس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "Which description best explains an IP address?\nآئی پی ایڈریس کی بہترین وضاحت کون سی ہے؟",
+      "options": [
+        "A logical numerical address for a network device\nنیٹ ورک ڈیوائس کا منطقی عددی پتہ",
+        "A password for an application\nایپلی کیشن کا پاس ورڈ",
+        "A physical cable type\nکیبل کی ایک قسم",
+        "A screen resolution\nاسکرین کی ریزولوشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A logical numerical address for a network device\nنیٹ ورک ڈیوائس کا منطقی عددی پتہ"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "If the destination IP is wrong, what is the likely result?\nاگر منزل کا آئی پی ایڈریس غلط ہو تو ممکنہ نتیجہ کیا ہوگا؟",
+      "options": [
+        "The monitor gets brighter\nمانیٹر زیادہ روشن ہو جائے گا",
+        "The keyboard changes language\nکی بورڈ کی زبان بدل جائے گی",
+        "Data may fail to reach the intended device\nڈیٹا مطلوبہ ڈیوائس تک نہیں پہنچ پائے گا",
+        "The computer gains RAM\nکمپیوٹر کی ریم بڑھ جائے گی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Data may fail to reach the intended device\nڈیٹا مطلوبہ ڈیوائس تک نہیں پہنچ پائے گا"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "Which situation illustrates the use of an IP address?\nکون سی صورت حال آئی پی ایڈریس کے استعمال کو ظاہر کرتی ہے؟",
+      "options": [
+        "A browser communicates with a website server\nبراؤزر ویب سائٹ کے سرور سے رابطہ کرتا ہے",
+        "A user cleans a monitor\nصارف مانیٹر صاف کرتا ہے",
+        "A user changes wallpaper\nصارف وال پیپر بدلتا ہے",
+        "A printer runs out of ink\nپرنٹر کی سیاہی ختم ہو جاتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A browser communicates with a website server\nبراؤزر ویب سائٹ کے سرور سے رابطہ کرتا ہے"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "Why must an IP address identify a particular network interface within its network?\nکسی نیٹ ورک میں آئی پی ایڈریس کو مخصوص نیٹ ورک انٹرفیس کی شناخت کیوں کرنی چاہیے؟",
+      "options": [
+        "To increase screen brightness\nاسکرین کی روشنی بڑھانے کے لیے",
+        "So data can be directed to the right endpoint\nتاکہ ڈیٹا درست ڈیوائس تک پہنچایا جا سکے",
+        "To change the power supply\nپاور سپلائی بدلنے کے لیے",
+        "To delete stored documents\nمحفوظ دستاویزات حذف کرنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: So data can be directed to the right endpoint\nتاکہ ڈیٹا درست ڈیوائس تک پہنچایا جا سکے"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "What does the “IP” in IP address stand for?\nآئی پی ایڈریس میں IP کا کیا مطلب ہے؟",
+      "options": [
+        "Internal Program\nانٹرنل پروگرام",
+        "Input Printer\nان پٹ پرنٹر",
+        "Internet Processor\nانٹرنیٹ پروسیسر",
+        "Internet Protocol\nانٹرنیٹ پروٹوکول"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Internet Protocol\nانٹرنیٹ پروٹوکول"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "Which of these is an example of an IPv4 address used in the chapter?\nان میں سے کون سا باب میں استعمال ہونے والے IPv4 ایڈریس کی مثال ہے؟",
+      "options": [
+        "192.168.1.105\n192.168.1.105",
+        "192:168:1:105\n192:168:1:105",
+        "192-168-1-105\n192-168-1-105",
+        "192/168/1/105\n192/168/1/105"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 192.168.1.105\n192.168.1.105"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "Which component helps the network send data to the correct machine?\nنیٹ ورک کو ڈیٹا درست کمپیوٹر تک بھیجنے میں کون سی چیز مدد دیتی ہے؟",
+      "options": [
+        "Folder icon\nفولڈر کا آئیکن",
+        "Destination IP address\nمنزل کا آئی پی ایڈریس",
+        "Mouse wheel\nماؤس کا پہیہ",
+        "Text font\nمتن کا فونٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Destination IP address\nمنزل کا آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "An address is used to distinguish devices during communication. Which address is discussed in this chapter?\nرابطے کے دوران ڈیوائسز میں فرق کرنے کے لیے کون سا ایڈریس استعمال ہوتا ہے جس پر اس باب میں بحث کی گئی ہے؟",
+      "options": [
+        "Postal ZIP code\nڈاک کا زپ کوڈ",
+        "Building number\nعمارت کا نمبر",
+        "IP address\nآئی پی ایڈریس",
+        "Class roll number\nکلاس کا رول نمبر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: IP address\nآئی پی ایڈریس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "IP Address: Concept and Purpose",
+      "question": "What is the primary role of an IP address in network communication?\nنیٹ ورک رابطے میں آئی پی ایڈریس کا بنیادی کردار کیا ہے؟",
+      "options": [
+        "Adjusting audio volume\nآواز کی سطح بدلنا",
+        "Addressing and routing data to a device\nڈیٹا کو ڈیوائس تک پہنچانے کے لیے پتہ فراہم کرنا",
+        "Formatting a hard disk\nہارڈ ڈسک فارمیٹ کرنا",
+        "Charging a battery\nبیٹری چارج کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Addressing and routing data to a device\nڈیٹا کو ڈیوائس تک پہنچانے کے لیے پتہ فراہم کرنا"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "Two computers share a network. Why do they need distinguishable IP addresses?\nدو کمپیوٹر ایک ہی نیٹ ورک پر ہیں۔ ان کے الگ شناختی آئی پی ایڈریس کیوں ضروری ہیں؟",
+      "options": [
+        "To make both screens identical\nدونوں اسکرینیں ایک جیسی بنانے کے لیے",
+        "To increase keyboard speed\nکی بورڈ کی رفتار بڑھانے کے لیے",
+        "To deliver data to the intended computer\nڈیٹا مطلوبہ کمپیوٹر تک پہنچانے کے لیے",
+        "To change device color\nڈیوائس کا رنگ بدلنے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To deliver data to the intended computer\nڈیٹا مطلوبہ کمپیوٹر تک پہنچانے کے لیے"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "What analogy best matches the purpose of an IP address?\nآئی پی ایڈریس کے مقصد کو کون سی مثال بہتر واضح کرتی ہے؟",
+      "options": [
+        "A paint color for a wall\nدیوار کے پینٹ کا رنگ",
+        "A notebook cover\nکاپی کا سرورق",
+        "A battery indicator\nبیٹری کا اشارہ",
+        "A postal address identifying a delivery destination\nڈاک کا پتہ جو ترسیل کی منزل بتاتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A postal address identifying a delivery destination\nڈاک کا پتہ جو ترسیل کی منزل بتاتا ہے"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "A server wants to respond to a computer. Which information guides the response?\nسرور کسی کمپیوٹر کو جواب دینا چاہتا ہے۔ جواب کی ترسیل کس معلومات سے رہنمائی پاتی ہے؟",
+      "options": [
+        "Computer brand\nکمپیوٹر کا برانڈ",
+        "Desktop wallpaper\nڈیسک ٹاپ وال پیپر",
+        "Monitor stand\nمانیٹر کا اسٹینڈ",
+        "The computer’s IP address\nکمپیوٹر کا آئی پی ایڈریس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: The computer’s IP address\nکمپیوٹر کا آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "What problem would arise if network devices could not be addressed?\nاگر نیٹ ورک ڈیوائسز کے پتے نہ ہوں تو کون سا مسئلہ پیدا ہوگا؟",
+      "options": [
+        "All screens would turn off\nتمام اسکرینیں بند ہو جائیں گی",
+        "Delivering data to the correct destination would be difficult\nڈیٹا درست منزل تک پہنچانا مشکل ہوگا",
+        "Mouse buttons would stop clicking\nماؤس کے بٹن کام چھوڑ دیں گے",
+        "Printers would use more paper\nپرنٹر زیادہ کاغذ استعمال کریں گے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Delivering data to the correct destination would be difficult\nڈیٹا درست منزل تک پہنچانا مشکل ہوگا"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "When visiting a website, what does addressing help establish?\nویب سائٹ کھولتے وقت ایڈریسنگ کس چیز کے قیام میں مدد دیتی ہے؟",
+      "options": [
+        "The color of the webpage\nویب صفحے کا رنگ",
+        "Size of keyboard keys\nکی بورڈ کے بٹنوں کا سائز",
+        "Communication with the correct server\nدرست سرور سے رابطہ",
+        "Room temperature\nکمرے کا درجہ حرارت"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Communication with the correct server\nدرست سرور سے رابطہ"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "What is the main benefit of assigning network addresses?\nنیٹ ورک ایڈریس دینے کا بنیادی فائدہ کیا ہے؟",
+      "options": [
+        "Longer battery life\nبیٹری کی زیادہ مدت",
+        "Identification of communicating endpoints\nرابطہ کرنے والی ڈیوائسز کی شناخت",
+        "Improved desk space\nمیز پر زیادہ جگہ",
+        "More screen pixels\nاسکرین پر زیادہ پکسلز"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Identification of communicating endpoints\nرابطہ کرنے والی ڈیوائسز کی شناخت"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "In a network message, why is destination information essential?\nنیٹ ورک پیغام میں منزل کی معلومات کیوں ضروری ہیں؟",
+      "options": [
+        "It tells the network where the message should go\nیہ نیٹ ورک کو بتاتی ہے کہ پیغام کہاں جانا ہے",
+        "It selects keyboard language\nیہ کی بورڈ کی زبان چنتی ہے",
+        "It changes the CPU fan speed\nیہ سی پی یو پنکھے کی رفتار بدلتی ہے",
+        "It cleans the hard drive\nیہ ہارڈ ڈرائیو صاف کرتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It tells the network where the message should go\nیہ نیٹ ورک کو بتاتی ہے کہ پیغام کہاں جانا ہے"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "Which activity most clearly requires network addressing?\nکون سا کام نیٹ ورک ایڈریسنگ کی ضرورت کو سب سے واضح کرتا ہے؟",
+      "options": [
+        "Typing a sentence offline\nآف لائن جملہ ٹائپ کرنا",
+        "Adjusting chair height\nکرسی کی اونچائی بدلنا",
+        "Replacing a mouse pad\nماؤس پیڈ تبدیل کرنا",
+        "Sending information from one computer to another\nایک کمپیوٹر سے دوسرے کمپیوٹر کو معلومات بھیجنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Sending information from one computer to another\nایک کمپیوٹر سے دوسرے کمپیوٹر کو معلومات بھیجنا"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "What does an IP address help prevent during data delivery?\nڈیٹا کی ترسیل میں آئی پی ایڈریس کس مسئلے سے بچنے میں مدد دیتا ہے؟",
+      "options": [
+        "A scratched computer case\nکمپیوٹر کے کور پر خراش",
+        "A dim room light\nکمرے کی مدھم روشنی",
+        "Confusion about the intended destination\nمطلوبہ منزل کے بارے میں الجھن",
+        "A worn keyboard label\nکی بورڈ کے مٹے ہوئے حروف"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Confusion about the intended destination\nمطلوبہ منزل کے بارے میں الجھن"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "Why IP Addresses Are Needed",
+      "question": "A computer is communicating across networks. Which addressing information is most relevant?\nایک کمپیوٹر مختلف نیٹ ورکس میں رابطہ کر رہا ہے۔ کون سی ایڈریسنگ معلومات زیادہ متعلق ہے؟",
+      "options": [
+        "IP addresses of the communicating devices\nرابطے میں موجود ڈیوائسز کے آئی پی ایڈریس",
+        "Names of installed fonts\nانسٹال فونٹس کے نام",
+        "Monitor serial color\nمانیٹر کا رنگ",
+        "Mouse pointer shape\nماؤس پوائنٹر کی شکل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: IP addresses of the communicating devices\nرابطے میں موجود ڈیوائسز کے آئی پی ایڈریس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "How many bits make up an IPv4 address?\nIPv4 ایڈریس کتنے بٹس پر مشتمل ہوتا ہے؟",
+      "options": [
+        "16 bits\n16 بٹس",
+        "64 bits\n64 بٹس",
+        "128 bits\n128 بٹس",
+        "32 bits\n32 بٹس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 32 bits\n32 بٹس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "How many decimal octets are displayed in a standard IPv4 address?\nمعیاری IPv4 ایڈریس میں کتنے اعشاری آکٹیٹ ہوتے ہیں؟",
+      "options": [
+        "Four\nچار",
+        "Two\nدو",
+        "Six\nچھ",
+        "Eight\nآٹھ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Four\nچار"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "What separates the four parts of a dotted-decimal IPv4 address?\nڈاٹڈ ڈیسیمل IPv4 ایڈریس کے چار حصوں کو کیا الگ کرتا ہے؟",
+      "options": [
+        "Colons\nکولن",
+        "Slashes\nسلیش",
+        "Dots (periods)\nنقطے (ڈاٹس)",
+        "Spaces only\nصرف خالی جگہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Dots (periods)\nنقطے (ڈاٹس)"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "What is the largest valid decimal value in a single IPv4 octet?\nIPv4 کے ایک آکٹیٹ کی سب سے بڑی درست اعشاری قدر کیا ہے؟",
+      "options": [
+        "255\n255",
+        "256\n256",
+        "512\n512",
+        "999\n999"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 255\n255"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "Which address contains an invalid IPv4 octet?\nکس ایڈریس میں IPv4 کا ایک غلط آکٹیٹ موجود ہے؟",
+      "options": [
+        "192.168.1.1\n192.168.1.1",
+        "10.0.0.5\n10.0.0.5",
+        "172.16.4.9\n172.16.4.9",
+        "192.168.300.1\n192.168.300.1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 192.168.300.1\n192.168.300.1"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "Each IPv4 octet represents how many bits?\nIPv4 کا ہر آکٹیٹ کتنے بٹس کو ظاہر کرتا ہے؟",
+      "options": [
+        "4 bits\n4 بٹس",
+        "8 bits\n8 بٹس",
+        "12 bits\n12 بٹس",
+        "16 bits\n16 بٹس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 8 bits\n8 بٹس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "Which notation is a correctly written IPv4 address?\nکون سی تحریر درست IPv4 ایڈریس کی مثال ہے؟",
+      "options": [
+        "10.0.0.1\n10.0.0.1",
+        "10:0:0:1\n10:0:0:1",
+        "10.0.1\n10.0.1",
+        "10.0.0.0.1\n10.0.0.0.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 10.0.0.1\n10.0.0.1"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "Why can no IPv4 octet exceed 255?\nIPv4 کے کسی آکٹیٹ کی قدر 255 سے زیادہ کیوں نہیں ہو سکتی؟",
+      "options": [
+        "IPv4 has eight octets\nکیونکہ IPv4 میں آٹھ آکٹیٹ ہیں",
+        "Dots count to 255\nکیونکہ ڈاٹس کی تعداد 255 ہے",
+        "It is represented by eight bits\nکیونکہ یہ آٹھ بٹس سے ظاہر ہوتا ہے",
+        "It uses Roman numerals\nکیونکہ یہ رومن ہندسوں میں ہوتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: It is represented by eight bits\nکیونکہ یہ آٹھ بٹس سے ظاہر ہوتا ہے"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "Which IPv4 address has four octets and values in range?\nکون سا IPv4 ایڈریس چار درست حدود والے آکٹیٹ رکھتا ہے؟",
+      "options": [
+        "172.16.0.500\n172.16.0.500",
+        "172.16.0.5\n172.16.0.5",
+        "172.16\n172.16",
+        "172.16.0.5.8\n172.16.0.5.8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 172.16.0.5\n172.16.0.5"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "IPv4 Structure and Dotted-Decimal Notation",
+      "question": "Which statement describes IPv4 notation correctly?\nکون سا بیان IPv4 کی تحریر کی درست وضاحت کرتا ہے؟",
+      "options": [
+        "Eight hexadecimal groups separated by colons\nآٹھ ہیکسا ڈیسیمل گروپ جو کولن سے الگ ہوں",
+        "Four decimal numbers separated by dots\nچار اعشاری اعداد جو نقطوں سے الگ ہوں",
+        "One continuous 128-bit hexadecimal string\n128 بٹس کی مسلسل ہیکسا ڈیسیمل عبارت",
+        "Two words separated by a slash\nدو الفاظ جو سلیش سے الگ ہوں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Four decimal numbers separated by dots\nچار اعشاری اعداد جو نقطوں سے الگ ہوں"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "An address begins with 10. Which class does it belong to in classful addressing?\nایک ایڈریس 10 سے شروع ہوتا ہے۔ کلاس فل ایڈریسنگ میں یہ کس کلاس کا ہے؟",
+      "options": [
+        "Class B\nکلاس B",
+        "Class C\nکلاس C",
+        "Class A\nکلاس A",
+        "Class D\nکلاس D"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Class A\nکلاس A"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "An address begins with 172. Which class is it in classful addressing?\nایک ایڈریس 172 سے شروع ہوتا ہے۔ کلاس فل ایڈریسنگ میں اس کی کلاس کیا ہے؟",
+      "options": [
+        "Class A\nکلاس A",
+        "Class C\nکلاس C",
+        "Class E\nکلاس E",
+        "Class B\nکلاس B"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Class B\nکلاس B"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "Which class contains the example address 192.168.1.10?\nمثالی ایڈریس 192.168.1.10 کس کلاس میں آتا ہے؟",
+      "options": [
+        "Class C\nکلاس C",
+        "Class A\nکلاس A",
+        "Class B\nکلاس B",
+        "Class D\nکلاس D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Class C\nکلاس C"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "In classful IPv4, which first-octet range belongs to Class A usable network numbers?\nکلاس فل IPv4 میں کلاس A کے عام استعمال کے پہلے آکٹیٹ کی حد کون سی ہے؟",
+      "options": [
+        "128–191\n128 تا 191",
+        "192–223\n192 تا 223",
+        "224–239\n224 تا 239",
+        "1–126\n1 تا 126"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 1–126\n1 تا 126"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "Which first-octet range defines Class B addresses?\nکون سی پہلی آکٹیٹ کی حد کلاس B کو ظاہر کرتی ہے؟",
+      "options": [
+        "1–126\n1 تا 126",
+        "192–223\n192 تا 223",
+        "128–191\n128 تا 191",
+        "240–255\n240 تا 255"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: 128–191\n128 تا 191"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "Which first-octet range defines Class C addresses?\nکون سی پہلی آکٹیٹ کی حد کلاس C کو ظاہر کرتی ہے؟",
+      "options": [
+        "128–191\n128 تا 191",
+        "192–223\n192 تا 223",
+        "1–126\n1 تا 126",
+        "224–239\n224 تا 239"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 192–223\n192 تا 223"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "An address starts with 230. What is its class and common purpose?\nایک ایڈریس 230 سے شروع ہوتا ہے۔ اس کی کلاس اور عام مقصد کیا ہے؟",
+      "options": [
+        "Class D; multicast\nکلاس D؛ ملٹی کاسٹ",
+        "Class A; large network\nکلاس A؛ بڑا نیٹ ورک",
+        "Class C; small network\nکلاس C؛ چھوٹا نیٹ ورک",
+        "Class E; ordinary host\nکلاس E؛ عام ہوسٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Class D; multicast\nکلاس D؛ ملٹی کاسٹ"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "Which address class is reserved for experimental or research purposes?\nکون سی ایڈریس کلاس تجرباتی یا تحقیقی مقاصد کے لیے مخصوص ہے؟",
+      "options": [
+        "Class B\nکلاس B",
+        "Class E\nکلاس E",
+        "Class C\nکلاس C",
+        "Class A\nکلاس A"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Class E\nکلاس E"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "Which class is traditionally suitable for large networks with many hosts?\nروایتی طور پر بہت سے ہوسٹس والے بڑے نیٹ ورک کے لیے کون سی کلاس مناسب ہے؟",
+      "options": [
+        "Class C\nکلاس C",
+        "Class D\nکلاس D",
+        "Class E\nکلاس E",
+        "Class A\nکلاس A"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Class A\nکلاس A"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "IPv4 Address Classes A, B, C, D and E",
+      "question": "Which class is traditionally associated with small networks?\nروایتی طور پر چھوٹے نیٹ ورکس سے کون سی کلاس منسلک ہے؟",
+      "options": [
+        "Class A\nکلاس A",
+        "Class D\nکلاس D",
+        "Class C\nکلاس C",
+        "Class E\nکلاس E"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Class C\nکلاس C"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "In the default Class C mask 255.255.255.0, how many bits identify the network?\nڈیفالٹ کلاس C ماسک 255.255.255.0 میں کتنے بٹس نیٹ ورک کی شناخت کرتے ہیں؟",
+      "options": [
+        "8 bits\n8 بٹس",
+        "24 bits\n24 بٹس",
+        "16 bits\n16 بٹس",
+        "32 bits\n32 بٹس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 24 bits\n24 بٹس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "Which default subnet mask belongs to Class A?\nکلاس A کا ڈیفالٹ سب نیٹ ماسک کون سا ہے؟",
+      "options": [
+        "255.255.0.0\n255.255.0.0",
+        "255.255.255.0\n255.255.255.0",
+        "255.255.255.255\n255.255.255.255",
+        "255.0.0.0\n255.0.0.0"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 255.0.0.0\n255.0.0.0"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "Which default subnet mask belongs to Class B?\nکلاس B کا ڈیفالٹ سب نیٹ ماسک کون سا ہے؟",
+      "options": [
+        "255.255.0.0\n255.255.0.0",
+        "255.0.0.0\n255.0.0.0",
+        "255.255.255.0\n255.255.255.0",
+        "0.0.0.0\n0.0.0.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 255.255.0.0\n255.255.0.0"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "For 192.168.1.25/24, what is the network address?\n192.168.1.25/24 کا نیٹ ورک ایڈریس کیا ہے؟",
+      "options": [
+        "192.168.1.25\n192.168.1.25",
+        "192.168.1.255\n192.168.1.255",
+        "192.168.0.0\n192.168.0.0",
+        "192.168.1.0\n192.168.1.0"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 192.168.1.0\n192.168.1.0"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "For 192.168.1.25/24, which is the directed broadcast address?\n192.168.1.25/24 کے لیے ڈائریکٹڈ براڈکاسٹ ایڈریس کیا ہے؟",
+      "options": [
+        "192.168.1.255\n192.168.1.255",
+        "192.168.1.0\n192.168.1.0",
+        "192.168.1.25\n192.168.1.25",
+        "192.168.0.255\n192.168.0.255"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 192.168.1.255\n192.168.1.255"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "How many usable host addresses exist in a traditional /24 subnet?\nروایتی /24 سب نیٹ میں کتنے قابلِ استعمال ہوسٹ ایڈریس ہوتے ہیں؟",
+      "options": [
+        "256\n256",
+        "254\n254",
+        "255\n255",
+        "24\n24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 254\n254"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "For the default Class B subnet mask, how many bits form the host portion?\nڈیفالٹ کلاس B سب نیٹ ماسک میں ہوسٹ حصے کے کتنے بٹس ہوتے ہیں؟",
+      "options": [
+        "8 bits\n8 بٹس",
+        "16 bits\n16 بٹس",
+        "24 bits\n24 بٹس",
+        "32 bits\n32 بٹس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 16 bits\n16 بٹس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "Why are the network and broadcast addresses not assigned to ordinary hosts in a typical /24 network?\nعام /24 نیٹ ورک میں نیٹ ورک اور براڈکاسٹ ایڈریس عام ہوسٹس کو کیوں نہیں دیے جاتے؟",
+      "options": [
+        "They have invalid decimal digits\nان میں غلط اعشاری ہندسے ہیں",
+        "They contain too many octets\nان میں بہت زیادہ آکٹیٹ ہیں",
+        "They have special network-wide meanings\nان کے نیٹ ورک میں خصوصی مقاصد ہیں",
+        "They are IPv6 addresses\nیہ IPv6 ایڈریس ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: They have special network-wide meanings\nان کے نیٹ ورک میں خصوصی مقاصد ہیں"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "In 10.0.0.5 with default Class A addressing, which part represents the network?\nڈیفالٹ کلاس A ایڈریسنگ میں 10.0.0.5 کا کون سا حصہ نیٹ ورک ظاہر کرتا ہے؟",
+      "options": [
+        "The first octet (10)\nپہلا آکٹیٹ (10)",
+        "The last octet (5)\nآخری آکٹیٹ (5)",
+        "The last two octets\nآخری دو آکٹیٹ",
+        "All four octets as host bits\nچاروں آکٹیٹ بطور ہوسٹ بٹس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The first octet (10)\nپہلا آکٹیٹ (10)"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "Network and Host Portions, Masks and Examples",
+      "question": "Which pair correctly matches Class C with its default prefix?\nکون سا جوڑا کلاس C کو اس کے ڈیفالٹ پری فکس سے درست ملاتا ہے؟",
+      "options": [
+        "Class C — /8\nکلاس C — /8",
+        "Class C — /16\nکلاس C — /16",
+        "Class C — /24\nکلاس C — /24",
+        "Class C — /32 only\nکلاس C — صرف /32"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Class C — /24\nکلاس C — /24"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "IPv6 Introduction and Need",
+      "question": "What was a main reason for developing IPv6?\nIPv6 تیار کرنے کی بنیادی وجہ کیا تھی؟",
+      "options": [
+        "Removing all network cables\nتمام نیٹ ورک کیبلز ختم کرنا",
+        "Replacing computer keyboards\nکمپیوٹر کے کی بورڈ بدلنا",
+        "Making IPv4 octets larger than 255\nIPv4 آکٹیٹ کو 255 سے بڑا کرنا",
+        "Shortage of available IPv4 addresses\nدستیاب IPv4 ایڈریسز کی کمی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Shortage of available IPv4 addresses\nدستیاب IPv4 ایڈریسز کی کمی"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "IPv6 Introduction and Need",
+      "question": "Why did IPv4 address space become insufficient?\nIPv4 ایڈریس اسپیس ناکافی کیوں ہونے لگی؟",
+      "options": [
+        "Fewer people using the internet\nانٹرنیٹ استعمال کرنے والوں کی کمی",
+        "Disappearance of servers\nسرورز کا ختم ہونا",
+        "Rapid growth of internet-connected devices\nانٹرنیٹ سے جڑی ڈیوائسز کی تیز رفتار بڑھوتری",
+        "Reduced number of networks\nنیٹ ورکس کی تعداد میں کمی"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Rapid growth of internet-connected devices\nانٹرنیٹ سے جڑی ڈیوائسز کی تیز رفتار بڑھوتری"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "IPv6 Introduction and Need",
+      "question": "Which technology trend increases demand for IP addresses?\nکون سا ٹیکنالوجی رجحان آئی پی ایڈریسز کی طلب بڑھاتا ہے؟",
+      "options": [
+        "Fewer connected devices\nمنسلک ڈیوائسز کی کمی",
+        "More smartphones and IoT devices\nزیادہ اسمارٹ فون اور IoT ڈیوائسز",
+        "Only offline software\nصرف آف لائن سافٹ ویئر",
+        "Smaller monitors\nچھوٹے مانیٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: More smartphones and IoT devices\nزیادہ اسمارٹ فون اور IoT ڈیوائسز"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "IPv6 Introduction and Need",
+      "question": "What is the major address-space advantage of IPv6 over IPv4?\nIPv4 کے مقابلے میں IPv6 کی ایڈریس اسپیس کا بڑا فائدہ کیا ہے؟",
+      "options": [
+        "Only four available addresses\nصرف چار دستیاب ایڈریس",
+        "A vastly larger number of addresses\nایڈریسز کی بہت زیادہ بڑی تعداد",
+        "No logical addressing\nمنطقی ایڈریسنگ کا نہ ہونا",
+        "Only private network use\nصرف نجی نیٹ ورک پر استعمال"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A vastly larger number of addresses\nایڈریسز کی بہت زیادہ بڑی تعداد"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "IPv6 Introduction and Need",
+      "question": "According to the chapter, which IPv6 feature helps efficient packet processing?\nباب کے مطابق IPv6 کی کون سی خصوصیت پیکٹ پروسیسنگ کو مؤثر بناتی ہے؟",
+      "options": [
+        "Longer dotted-decimal octets\nلمبے ڈاٹڈ ڈیسیمل آکٹیٹ",
+        "No packet headers\nپیکٹ ہیڈر بالکل نہیں",
+        "Removing the IP layer\nآئی پی لیئر ختم کرنا",
+        "Simplified header\nسادہ ہیڈر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Simplified header\nسادہ ہیڈر"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "IPv6 Introduction and Need",
+      "question": "Which security-related feature is listed as a motivation for IPv6?\nIPv6 کی وجہِ ترقی میں سکیورٹی کی کون سی خصوصیت درج ہے؟",
+      "options": [
+        "IPsec support\nIPsec کی سپورٹ",
+        "Mandatory antivirus on every device\nہر ڈیوائس پر لازمی اینٹی وائرس",
+        "Password-free internet\nبغیر پاس ورڈ انٹرنیٹ",
+        "Disabling all encryption\nتمام انکرپشن بند کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: IPsec support\nIPsec کی سپورٹ"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "IPv6 Introduction and Need",
+      "question": "IPv6 is especially useful for future expansion because it provides what?\nمستقبل میں توسیع کے لیے IPv6 خاص طور پر مفید کیوں ہے؟",
+      "options": [
+        "Exactly 256 addresses\nبالکل 256 ایڈریس",
+        "Only one network address\nصرف ایک نیٹ ورک ایڈریس",
+        "A very large address space\nبہت بڑی ایڈریس اسپیس",
+        "A 16-bit address\n16 بٹس کا ایڈریس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A very large address space\nبہت بڑی ایڈریس اسپیس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "IPv6 Introduction and Need",
+      "question": "Which devices are explicitly discussed as part of the growth motivating IPv6?\nIPv6 کی ضرورت پیدا کرنے والی بڑھوتری میں کن ڈیوائسز کا خاص ذکر ہے؟",
+      "options": [
+        "Typewriters and film cameras\nٹائپ رائٹر اور فلم کیمرے",
+        "Paper folders and pens\nکاغذی فولڈر اور قلم",
+        "Mechanical clocks only\nصرف مکینیکل گھڑیاں",
+        "Smartphones and IoT devices\nاسمارٹ فونز اور IoT ڈیوائسز"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Smartphones and IoT devices\nاسمارٹ فونز اور IoT ڈیوائسز"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "IPv6 Introduction and Need",
+      "question": "What does “address exhaustion” mean in the IPv6 discussion?\nIPv6 کی بحث میں ایڈریس ایگزاسشن کا کیا مطلب ہے؟",
+      "options": [
+        "Battery power becoming low\nبیٹری کی طاقت کم ہونا",
+        "Printer ink running out\nپرنٹر کی سیاہی ختم ہونا",
+        "Running out of available IPv4 addresses\nدستیاب IPv4 ایڈریسز کا کم پڑ جانا",
+        "Internet cables becoming short\nانٹرنیٹ کیبلز کا چھوٹا ہونا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Running out of available IPv4 addresses\nدستیاب IPv4 ایڈریسز کا کم پڑ جانا"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "IPv6 Introduction and Need",
+      "question": "Which protocol version was developed after IPv4 to address its limitations?\nIPv4 کی محدودیت دور کرنے کے لیے بعد میں کون سا پروٹوکول ورژن بنایا گیا؟",
+      "options": [
+        "IPv6\nIPv6",
+        "IPv2\nIPv2",
+        "IPv3\nIPv3",
+        "IPv1\nIPv1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: IPv6\nIPv6"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "How long is an IPv6 address?\nIPv6 ایڈریس کی لمبائی کتنی ہوتی ہے؟",
+      "options": [
+        "32 bits\n32 بٹس",
+        "128 bits\n128 بٹس",
+        "48 bits\n48 بٹس",
+        "64 bits\n64 بٹس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 128 bits\n128 بٹس"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "How many groups are shown in the full written IPv6 address format?\nIPv6 کے مکمل تحریری فارمیٹ میں کتنے گروپ ہوتے ہیں؟",
+      "options": [
+        "Four groups\nچار گروپ",
+        "Two groups\nدو گروپ",
+        "Eight groups\nآٹھ گروپ",
+        "Six groups\nچھ گروپ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Eight groups\nآٹھ گروپ"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "What separates the groups of an IPv6 address?\nIPv6 ایڈریس کے گروپس کو کون سی علامت الگ کرتی ہے؟",
+      "options": [
+        "Colons (:)\nکولن (:)",
+        "Dots (.)\nنقطے (.)",
+        "Hyphens (-)\nہائفن (-)",
+        "Commas (,)\nکاما (،)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Colons (:)\nکولن (:)"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "Which number system is used to write IPv6 address groups?\nIPv6 ایڈریس کے گروپس لکھنے کے لیے کون سا عددی نظام استعمال ہوتا ہے؟",
+      "options": [
+        "Only decimal\nصرف اعشاری",
+        "Only Roman numerals\nصرف رومن اعداد",
+        "Only octal\nصرف آکٹل",
+        "Hexadecimal\nہیکسا ڈیسیمل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Hexadecimal\nہیکسا ڈیسیمل"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "How many hexadecimal digits can each full IPv6 group contain?\nIPv6 کے ہر مکمل گروپ میں زیادہ سے زیادہ کتنے ہیکسا ڈیسیمل ہندسے ہوتے ہیں؟",
+      "options": [
+        "Four\nچار",
+        "Eight\nآٹھ",
+        "Sixteen\nسولہ",
+        "Two\nدو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Four\nچار"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "Which is the correctly formatted full IPv6 address?\nکون سا مکمل IPv6 ایڈریس درست فارمیٹ میں لکھا گیا ہے؟",
+      "options": [
+        "192.168.1.5\n192.168.1.5",
+        "2001.0db8.0000.0001\n2001.0db8.0000.0001",
+        "2001-0db8-0000-0001\n2001-0db8-0000-0001",
+        "2001:0db8:0000:0000:0000:0000:0000:0001\n2001:0db8:0000:0000:0000:0000:0000:0001"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 2001:0db8:0000:0000:0000:0000:0000:0001\n2001:0db8:0000:0000:0000:0000:0000:0001"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "How many times as many bits does IPv6 have compared with IPv4?\nIPv4 کے مقابلے میں IPv6 میں کتنے گنا زیادہ بٹس ہیں؟",
+      "options": [
+        "Two times\nدو گنا",
+        "Four times\nچار گنا",
+        "Eight times\nآٹھ گنا",
+        "Sixteen times\nسولہ گنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Four times\nچار گنا"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "Which character may appear as a hexadecimal digit in an IPv6 address?\nIPv6 ایڈریس میں کون سا حرف ہیکسا ڈیسیمل ہندسے کے طور پر آ سکتا ہے؟",
+      "options": [
+        "G\nG",
+        "Z\nZ",
+        "A\nA",
+        "P\nP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A\nA"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "Which statement correctly contrasts IPv4 and IPv6 written notation?\nIPv4 اور IPv6 کی تحریری شکل کا درست فرق کون سا ہے؟",
+      "options": [
+        "Both use only dotted decimal\nدونوں صرف ڈاٹڈ ڈیسیمل استعمال کرتے ہیں",
+        "IPv4 uses dotted decimals; IPv6 uses colon-separated hexadecimal groups\nIPv4 میں نقطوں والے اعشاری عدد اور IPv6 میں کولن سے الگ ہیکسا ڈیسیمل گروپ ہوتے ہیں",
+        "IPv4 uses colons and IPv6 uses only dots\nIPv4 کولن اور IPv6 صرف ڈاٹس استعمال کرتا ہے",
+        "Both use five octets\nدونوں پانچ آکٹیٹ رکھتے ہیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: IPv4 uses dotted decimals; IPv6 uses colon-separated hexadecimal groups\nIPv4 میں نقطوں والے اعشاری عدد اور IPv6 میں کولن سے الگ ہیکسا ڈیسیمل گروپ ہوتے ہیں"
+    },
+    {
+      "id": "dit-ip-addresses-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "IPv6 Length and Hexadecimal Representation",
+      "question": "What mainly explains IPv6’s much larger possible address count?\nIPv6 میں ممکنہ ایڈریسز کی تعداد بہت زیادہ ہونے کی بنیادی وجہ کیا ہے؟",
+      "options": [
+        "Its 128-bit address length\nاس کی 128 بٹس والی ایڈریس لمبائی",
+        "A four-bit address\nچار بٹس والا ایڈریس",
+        "Use of exactly two octets\nبالکل دو آکٹیٹ استعمال کرنا",
+        "Lack of logical addressing\nمنطقی ایڈریسنگ کا نہ ہونا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Its 128-bit address length\nاس کی 128 بٹس والی ایڈریس لمبائی"
+    }
+  ]
+}

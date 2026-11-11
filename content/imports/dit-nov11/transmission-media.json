@@ -1,0 +1,1565 @@
+{
+  "key": "transmission-media",
+  "sourceFile": "chp 4_Transmission_Media_.docx",
+  "sourceSha256": "6fd470d8d9c60d59348fd32f4777e286eebbebe1a67a075df4cfa419bf1cfd90",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "Computer Networking",
+  "displayChapterNumber": 4,
+  "sourceSections": [
+    "1. Transmission Media and Wired Communication",
+    "2. Coaxial Cable: Structure and Uses",
+    "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+    "4. BNC Connectors and Coaxial Network Connections",
+    "5. Twisted Pair Cable and UTP",
+    "6. UTP Categories and RJ45 Connectors",
+    "7. Shielded Twisted Pair (STP)",
+    "8. Fiber-Optic Cable and Its Construction",
+    "9. Single-Mode and Multi-Mode Fiber",
+    "10. Wireless Media and Communication Technologies",
+    "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices"
+  ],
+  "questions": [
+    {
+      "id": "dit-transmission-media-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "What is the main purpose of transmission media?\nٹرانسمیشن میڈیا کا بنیادی مقصد کیا ہے؟",
+      "options": [
+        "To store files permanently\nفائلیں مستقل محفوظ کرنا",
+        "To print documents\nدستاویزات پرنٹ کرنا",
+        "To install software\nسافٹ ویئر انسٹال کرنا",
+        "To carry data between devices\nآلات کے درمیان ڈیٹا منتقل کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To carry data between devices\nآلات کے درمیان ڈیٹا منتقل کرنا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "A classroom uses a physical cable to connect two computers. Which category applies?\nایک کلاس روم میں دو کمپیوٹرز کو کیبل سے جوڑا گیا ہے۔ یہ کون سی قسم ہے؟",
+      "options": [
+        "Guided media\nگائیڈڈ میڈیا",
+        "Unguided media\nاَن گائیڈڈ میڈیا",
+        "Satellite link\nسیٹلائٹ رابطہ",
+        "Radio broadcasting\nریڈیو نشریات"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Guided media\nگائیڈڈ میڈیا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "Which medium carries signals without a physical cable?\nکون سا ذریعہ جسمانی کیبل کے بغیر سگنلز منتقل کرتا ہے؟",
+      "options": [
+        "Coaxial cable\nکواکسیئل کیبل",
+        "Wireless media\nوائرلیس میڈیا",
+        "Twisted pair cable\nٹوئسٹڈ پیئر کیبل",
+        "Fiber-optic cable\nفائبر آپٹک کیبل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Wireless media\nوائرلیس میڈیا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "A network must follow a fixed physical path. What should it use?\nنیٹ ورک میں سگنل کو ایک مقررہ جسمانی راستے سے گزارنا ہو تو کیا استعمال ہوگا؟",
+      "options": [
+        "Radio waves\nریڈیو لہریں",
+        "Satellite communication\nسیٹلائٹ کمیونیکیشن",
+        "Wired transmission media\nوائرڈ ٹرانسمیشن میڈیا",
+        "Bluetooth\nبلوٹوتھ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Wired transmission media\nوائرڈ ٹرانسمیشن میڈیا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "Which is an example of guided transmission media?\nدرج ذیل میں سے گائیڈڈ ٹرانسمیشن میڈیا کی مثال کون سی ہے؟",
+      "options": [
+        "Microwave communication\nمائیکروویو کمیونیکیشن",
+        "Wi-Fi\nوائی فائی",
+        "Radio waves\nریڈیو لہریں",
+        "Twisted pair cable\nٹوئسٹڈ پیئر کیبل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Twisted pair cable\nٹوئسٹڈ پیئر کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "A laptop connects over Wi-Fi. What carries its data?\nلیپ ٹاپ وائی فائی سے جڑتا ہے۔ اس کا ڈیٹا کس کے ذریعے منتقل ہوتا ہے؟",
+      "options": [
+        "Electromagnetic waves\nبرقی مقناطیسی لہریں",
+        "Copper conductors only\nصرف تانبے کی تاریں",
+        "Glass core only\nصرف شیشے کا کور",
+        "PVC jacket only\nصرف پی وی سی غلاف"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Electromagnetic waves\nبرقی مقناطیسی لہریں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "Which group contains only wired media from the chapter?\nکون سے گروپ میں اس باب کے صرف وائرڈ ذرائع شامل ہیں؟",
+      "options": [
+        "Wi-Fi, Bluetooth, radio\nوائی فائی، بلوٹوتھ، ریڈیو",
+        "Coaxial, twisted pair, fiber optic\nکواکسیئل، ٹوئسٹڈ پیئر، فائبر آپٹک",
+        "Satellite, microwave, Wi-Fi\nسیٹلائٹ، مائیکروویو، وائی فائی",
+        "Radio, coaxial, Bluetooth\nریڈیو، کواکسیئل، بلوٹوتھ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Coaxial, twisted pair, fiber optic\nکواکسیئل، ٹوئسٹڈ پیئر، فائبر آپٹک"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "Why are cables called guided media?\nکیبلز کو گائیڈڈ میڈیا کیوں کہا جاتا ہے؟",
+      "options": [
+        "Signals travel only through space\nسگنلز صرف خلا میں سفر کرتے ہیں",
+        "They store network passwords\nیہ نیٹ ورک پاس ورڈ محفوظ کرتی ہیں",
+        "Signals follow a physical route\nسگنلز جسمانی راستے پر چلتے ہیں",
+        "They create applications\nیہ ایپلی کیشنز بناتی ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Signals follow a physical route\nسگنلز جسمانی راستے پر چلتے ہیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "Which environment may benefit from avoiding cable installation?\nکس ماحول میں کیبل لگانے سے بچنا فائدہ مند ہو سکتا ہے؟",
+      "options": [
+        "Temporary wireless setup\nعارضی وائرلیس انتظام",
+        "A coaxial backbone\nکواکسیئل بیک بون",
+        "A fixed twisted-pair run\nمقررہ ٹوئسٹڈ پیئر کنکشن",
+        "A fiber-optic trunk\nفائبر آپٹک ٹرنک"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Temporary wireless setup\nعارضی وائرلیس انتظام"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "1. Transmission Media and Wired Communication",
+      "question": "What distinguishes wired from wireless transmission?\nوائرڈ اور وائرلیس ٹرانسمیشن میں بنیادی فرق کیا ہے؟",
+      "options": [
+        "Whether computers have screens\nکمپیوٹر اسکرین کا ہونا",
+        "Presence or absence of a physical cable\nجسمانی کیبل کا ہونا یا نہ ہونا",
+        "Whether files are compressed\nفائلوں کا کمپریس ہونا",
+        "Whether a printer is attached\nپرنٹر کا منسلک ہونا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Presence or absence of a physical cable\nجسمانی کیبل کا ہونا یا نہ ہونا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "What surrounds the central conductor in a coaxial cable?\nکواکسیئل کیبل کے مرکزی کنڈکٹر کے گرد کیا ہوتا ہے؟",
+      "options": [
+        "A second keyboard\nدوسرا کی بورڈ",
+        "A Wi-Fi antenna\nوائی فائی اینٹینا",
+        "A glass light source\nشیشے کا نوری ذریعہ",
+        "Dielectric insulation\nڈائی الیکٹرک موصلیت"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Dielectric insulation\nڈائی الیکٹرک موصلیت"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "Which coaxial part helps block outside interference?\nکواکسیئل کیبل کا کون سا حصہ بیرونی مداخلت کم کرنے میں مدد دیتا ہے؟",
+      "options": [
+        "Monitor screen\nمانیٹر کی اسکرین",
+        "Network software\nنیٹ ورک سافٹ ویئر",
+        "Metal shielding or braid\nدھاتی شیلڈ یا جالی",
+        "Fiber core\nفائبر کور"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Metal shielding or braid\nدھاتی شیلڈ یا جالی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "A cable has a copper center, insulation, metal shield and outer jacket. Identify it.\nایک کیبل میں تانبے کا مرکز، موصلیت، دھاتی شیلڈ اور بیرونی غلاف ہے۔ یہ کون سی کیبل ہے؟",
+      "options": [
+        "Coaxial cable\nکواکسیئل کیبل",
+        "Unshielded twisted pair\nاَن شیلڈڈ ٹوئسٹڈ پیئر",
+        "Single-mode fiber\nسنگل موڈ فائبر",
+        "Wireless link\nوائرلیس رابطہ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Coaxial cable\nکواکسیئل کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "Why can coaxial cable be more resistant to interference than unshielded wire?\nکواکسیئل کیبل غیر محفوظ تار کے مقابلے میں مداخلت سے زیادہ محفوظ کیوں ہوتی ہے؟",
+      "options": [
+        "It uses no conductor\nاس میں کوئی کنڈکٹر نہیں ہوتا",
+        "Its shielding protects the signal\nاس کی شیلڈ سگنل کی حفاظت کرتی ہے",
+        "It needs no insulation\nاس میں موصلیت نہیں ہوتی",
+        "It transmits only by satellite\nیہ صرف سیٹلائٹ سے منتقل کرتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Its shielding protects the signal\nاس کی شیلڈ سگنل کی حفاظت کرتی ہے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "Which use is specifically associated with coaxial cable in the text?\nکتاب میں کواکسیئل کیبل کا استعمال کس کام کے لیے بتایا گیا ہے؟",
+      "options": [
+        "Wireless keyboard pairing\nوائرلیس کی بورڈ کی جوڑی",
+        "Satellite navigation\nسیٹلائٹ نیویگیشن",
+        "Bluetooth earbuds\nبلوٹوتھ ایئربڈز",
+        "Cable television\nکیبل ٹیلی ویژن"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Cable television\nکیبل ٹیلی ویژن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "The textbook compares coaxial cable with twisted pair. Which drawback belongs to coaxial?\nکتاب میں کواکسیئل اور ٹوئسٹڈ پیئر کا تقابل ہے۔ کواکسیئل کی خامی کون سی ہے؟",
+      "options": [
+        "No shielding at all\nبالکل شیلڈ نہ ہونا",
+        "Uses only light pulses\nصرف روشنی کی نبضیں استعمال کرنا",
+        "Thicker and heavier cable\nزیادہ موٹی اور بھاری کیبل",
+        "Works only without cables\nصرف بغیر کیبل کام کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Thicker and heavier cable\nزیادہ موٹی اور بھاری کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "Why is the outer jacket useful in coaxial cable?\nکواکسیئل کیبل کا بیرونی غلاف کیوں مفید ہے؟",
+      "options": [
+        "It protects internal layers\nیہ اندرونی تہوں کی حفاظت کرتا ہے",
+        "It converts light to sound\nیہ روشنی کو آواز بناتا ہے",
+        "It broadcasts radio stations\nیہ ریڈیو اسٹیشن نشر کرتا ہے",
+        "It assigns IP addresses\nیہ آئی پی پتے دیتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It protects internal layers\nیہ اندرونی تہوں کی حفاظت کرتا ہے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "Which is a trade-off of coaxial cable described in the chapter?\nباب میں کواکسیئل کیبل کی کون سی کمی بیان ہوئی ہے؟",
+      "options": [
+        "Cannot carry electrical signals\nبرقی سگنل منتقل نہیں کر سکتی",
+        "Needs no connector\nاسے کنیکٹر کی ضرورت نہیں",
+        "Always requires satellites\nہمیشہ سیٹلائٹ درکار ہوتا ہے",
+        "Higher cost than twisted pair\nٹوئسٹڈ پیئر سے زیادہ قیمت"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Higher cost than twisted pair\nٹوئسٹڈ پیئر سے زیادہ قیمت"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "A technician wants a cable with a braided metallic shield. Which should they consider?\nٹیکنیشن کو دھاتی جالی والی کیبل چاہیے۔ کون سی کیبل مناسب ہے؟",
+      "options": [
+        "Ordinary unshielded pair\nعام اَن شیلڈڈ پیئر",
+        "Coaxial cable\nکواکسیئل کیبل",
+        "Radio link\nریڈیو رابطہ",
+        "Bluetooth link\nبلوٹوتھ رابطہ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Coaxial cable\nکواکسیئل کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "2. Coaxial Cable: Structure and Uses",
+      "question": "What is the role of dielectric insulation in a coaxial cable?\nکواکسیئل کیبل میں ڈائی الیکٹرک موصلیت کا کیا کام ہے؟",
+      "options": [
+        "Store received packets\nموصولہ پیکٹ محفوظ کرنا",
+        "Create wireless coverage\nوائرلیس کوریج بنانا",
+        "Separate center conductor from shield\nمرکزی کنڈکٹر کو شیلڈ سے الگ رکھنا",
+        "Display video on screen\nاسکرین پر ویڈیو دکھانا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Separate center conductor from shield\nمرکزی کنڈکٹر کو شیلڈ سے الگ رکھنا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "Which standard is described as Thinnet?\nکون سا معیار تھِن نیٹ کہلاتا ہے؟",
+      "options": [
+        "10BASE2\n10BASE2",
+        "10BASE5\n10BASE5",
+        "10BASE-T\n10BASE-T",
+        "100BASE-TX\n100BASE-TX"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 10BASE2\n10BASE2"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "Which standard is called Thicknet?\nکون سا معیار تھِک نیٹ کہلاتا ہے؟",
+      "options": [
+        "10BASE2\n10BASE2",
+        "10BASE-T\n10BASE-T",
+        "10BASE5\n10BASE5",
+        "100BASE-TX\n100BASE-TX"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: 10BASE5\n10BASE5"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "What is the approximate maximum 10BASE2 segment length in the text?\nکتاب کے مطابق 10BASE2 سیگمنٹ کی تقریباً زیادہ سے زیادہ لمبائی کتنی ہے؟",
+      "options": [
+        "100 metres\n100 میٹر",
+        "500 metres\n500 میٹر",
+        "10 metres\n10 میٹر",
+        "185 metres\n185 میٹر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 185 metres\n185 میٹر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "What is the maximum segment length given for 10BASE5?\n10BASE5 سیگمنٹ کی زیادہ سے زیادہ لمبائی کتنی بتائی گئی ہے؟",
+      "options": [
+        "185 metres\n185 میٹر",
+        "500 metres\n500 میٹر",
+        "100 metres\n100 میٹر",
+        "10 metres\n10 میٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 500 metres\n500 میٹر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "Which 10 Mbps Ethernet variant uses twisted-pair cabling?\nکون سا 10 Mbps ایتھرنیٹ معیار ٹوئسٹڈ پیئر کیبل استعمال کرتا ہے؟",
+      "options": [
+        "10BASE2\n10BASE2",
+        "10BASE5\n10BASE5",
+        "10BASE-FX\n10BASE-FX",
+        "10BASE-T\n10BASE-T"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: 10BASE-T\n10BASE-T"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "A cable system uses thin coaxial cable and BNC T-connectors. What is its likely standard?\nایک نظام پتلی کواکسیئل کیبل اور BNC ٹی کنیکٹر استعمال کرتا ہے۔ اس کا معیار کون سا ہے؟",
+      "options": [
+        "10BASE5\n10BASE5",
+        "10BASE-T\n10BASE-T",
+        "10BASE2\n10BASE2",
+        "100BASE-TX\n100BASE-TX"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: 10BASE2\n10BASE2"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "Which coaxial Ethernet standard provides the longer segment?\nکون سا کواکسیئل ایتھرنیٹ معیار زیادہ لمبا سیگمنٹ دیتا ہے؟",
+      "options": [
+        "10BASE5\n10BASE5",
+        "10BASE2\n10BASE2",
+        "10BASE-T\n10BASE-T",
+        "100BASE-TX\n100BASE-TX"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: 10BASE5\n10BASE5"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "What is the nominal data rate of both 10BASE2 and 10BASE5?\n10BASE2 اور 10BASE5 دونوں کی بنیادی رفتار کتنی ہے؟",
+      "options": [
+        "100 Mbps\n100 میگابٹ فی سیکنڈ",
+        "10 Mbps\n10 میگابٹ فی سیکنڈ",
+        "1 Gbps\n1 گیگابٹ فی سیکنڈ",
+        "10 Gbps\n10 گیگابٹ فی سیکنڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 10 Mbps\n10 میگابٹ فی سیکنڈ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "Which limitation makes traditional 10BASE2 less suitable for large modern networks?\nروایتی 10BASE2 بڑی جدید نیٹ ورکنگ کے لیے کیوں کم موزوں ہے؟",
+      "options": [
+        "Unlimited bandwidth\nلامحدود بینڈوڈتھ",
+        "Wireless mobility\nوائرلیس نقل و حرکت",
+        "No cable required\nکیبل کی ضرورت نہیں",
+        "Limited speed and shared coaxial cabling\nمحدود رفتار اور مشترکہ کواکسیئل کیبل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Limited speed and shared coaxial cabling\nمحدود رفتار اور مشترکہ کواکسیئل کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "3. Coaxial Ethernet: 10BASE2, 10BASE5 and 10BASE-T",
+      "question": "A designer needs a 500-metre coaxial Ethernet segment as described in the book. Which matches?\nڈیزائنر کو کتاب کے مطابق 500 میٹر کا کواکسیئل ایتھرنیٹ سیگمنٹ چاہیے۔ کون سا معیار درست ہے؟",
+      "options": [
+        "10BASE2\n10BASE2",
+        "10BASE-T\n10BASE-T",
+        "10BASE5\n10BASE5",
+        "100BASE-TX\n100BASE-TX"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: 10BASE5\n10BASE5"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "What type of cable is a BNC connector designed for?\nBNC کنیکٹر کس قسم کی کیبل کے لیے بنایا جاتا ہے؟",
+      "options": [
+        "Fiber-optic cable\nفائبر آپٹک کیبل",
+        "Coaxial cable\nکواکسیئل کیبل",
+        "UTP cable\nیو ٹی پی کیبل",
+        "Wireless signal\nوائرلیس سگنل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Coaxial cable\nکواکسیئل کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "Which mechanism secures a typical BNC connector?\nعام BNC کنیکٹر کس طریقے سے مضبوطی سے لگتا ہے؟",
+      "options": [
+        "Bayonet twist lock\nبیونیٹ ٹوئسٹ لاک",
+        "Magnetic pairing\nمقناطیسی پیئرنگ",
+        "Software password\nسافٹ ویئر پاس ورڈ",
+        "Light reflection\nروشنی کا انعکاس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Bayonet twist lock\nبیونیٹ ٹوئسٹ لاک"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "What does a BNC T-connector help connect in a bus network?\nبس نیٹ ورک میں BNC ٹی کنیکٹر کس چیز کو جوڑنے میں مدد دیتا ہے؟",
+      "options": [
+        "Laptop to a satellite\nلیپ ٹاپ کو سیٹلائٹ سے",
+        "Keyboard to Bluetooth\nکی بورڈ کو بلوٹوتھ سے",
+        "Network interface to coaxial bus\nنیٹ ورک انٹرفیس کو کواکسیئل بس سے",
+        "Optical core to LED\nآپٹیکل کور کو ایل ای ڈی سے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Network interface to coaxial bus\nنیٹ ورک انٹرفیس کو کواکسیئل بس سے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "Which connector characteristic makes BNC quick to attach and remove?\nBNC کو جلد لگانے اور نکالنے میں کون سی خاصیت مدد دیتی ہے؟",
+      "options": [
+        "Permanent soldering only\nصرف مستقل سولڈرنگ",
+        "Twist-and-lock design\nگھما کر لاک کرنے والا ڈیزائن",
+        "Wireless authentication\nوائرلیس تصدیق",
+        "Optical splitting\nروشنی کی تقسیم"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Twist-and-lock design\nگھما کر لاک کرنے والا ڈیزائن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "What should be connected at the end of a traditional coaxial bus segment?\nروایتی کواکسیئل بس سیگمنٹ کے سرے پر کیا لگایا جاتا ہے؟",
+      "options": [
+        "Terminator\nٹرمینیٹر",
+        "Wi-Fi access point\nوائی فائی ایکسس پوائنٹ",
+        "RJ45 plug\nآر جے 45 پلگ",
+        "Optical LED\nآپٹیکل ایل ای ڈی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Terminator\nٹرمینیٹر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "Why is termination important in coaxial Ethernet?\nکواکسیئل ایتھرنیٹ میں ٹرمینیشن کیوں ضروری ہے؟",
+      "options": [
+        "To increase Wi-Fi range\nوائی فائی کی حد بڑھانے کے لیے",
+        "To power the monitor\nمانیٹر چلانے کے لیے",
+        "To change copper into glass\nتانبے کو شیشے میں بدلنے کے لیے",
+        "To reduce signal reflections\nسگنل کے انعکاس کو کم کرنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To reduce signal reflections\nسگنل کے انعکاس کو کم کرنے کے لیے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "Which application of BNC connectors is mentioned alongside networking?\nنیٹ ورکنگ کے علاوہ BNC کنیکٹر کا کون سا استعمال درج ہے؟",
+      "options": [
+        "Wireless phone charging\nوائرلیس فون چارجنگ",
+        "Bluetooth headphones\nبلوٹوتھ ہیڈفون",
+        "CCTV and video surveillance\nسی سی ٹی وی اور ویڈیو نگرانی",
+        "Laser printing\nلیزر پرنٹنگ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: CCTV and video surveillance\nسی سی ٹی وی اور ویڈیو نگرانی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "A plug must rotate to lock onto a socket. Which matches the chapter?\nایک پلگ ساکٹ پر گھما کر لاک کیا جاتا ہے۔ کتاب کے مطابق کون سا کنیکٹر ہے؟",
+      "options": [
+        "RJ45 connector\nآر جے 45 کنیکٹر",
+        "BNC connector\nبی این سی کنیکٹر",
+        "Fiber splice\nفائبر جوڑ",
+        "USB Wi-Fi dongle\nیو ایس بی وائی فائی ڈونگل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: BNC connector\nبی این سی کنیکٹر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "Why is a BNC connector associated with shielding?\nBNC کنیکٹر کا تعلق شیلڈنگ سے کیوں ہے؟",
+      "options": [
+        "It generates light pulses\nیہ روشنی کی نبضیں بناتا ہے",
+        "It broadcasts Wi-Fi signals\nیہ وائی فائی سگنلز نشر کرتا ہے",
+        "It stores network data\nیہ نیٹ ورک ڈیٹا محفوظ کرتا ہے",
+        "It connects shielded coaxial cable\nیہ شیلڈڈ کواکسیئل کیبل جوڑتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: It connects shielded coaxial cable\nیہ شیلڈڈ کواکسیئل کیبل جوڑتا ہے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "4. BNC Connectors and Coaxial Network Connections",
+      "question": "Which topology commonly used coaxial cable with BNC T-connectors?\nکون سی ٹوپولوجی میں کواکسیئل کیبل کے ساتھ BNC ٹی کنیکٹر استعمال ہوتے تھے؟",
+      "options": [
+        "Bus topology\nبس ٹوپولوجی",
+        "Star-only wireless topology\nصرف وائرلیس اسٹار ٹوپولوجی",
+        "Satellite mesh\nسیٹلائٹ میش",
+        "Optical ring only\nصرف آپٹیکل رِنگ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Bus topology\nبس ٹوپولوجی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "Why are copper wires twisted in pairs?\nتانبے کی تاریں جوڑوں میں کیوں بل دی جاتی ہیں؟",
+      "options": [
+        "To store more files\nمزید فائلیں محفوظ کرنے کے لیے",
+        "To create light pulses\nروشنی کی نبضیں بنانے کے لیے",
+        "To strengthen a Wi-Fi password\nوائی فائی پاس ورڈ مضبوط کرنے کے لیے",
+        "To reduce electromagnetic interference\nبرقی مقناطیسی مداخلت کم کرنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To reduce electromagnetic interference\nبرقی مقناطیسی مداخلت کم کرنے کے لیے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "How many copper wires are commonly present in a UTP Ethernet cable?\nعام UTP ایتھرنیٹ کیبل میں تانبے کی کتنی تاریں ہوتی ہیں؟",
+      "options": [
+        "Two wires\nدو تاریں",
+        "Four wires\nچار تاریں",
+        "Eight wires\nآٹھ تاریں",
+        "Twelve wires\nبارہ تاریں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Eight wires\nآٹھ تاریں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "What does UTP stand for?\nUTP کا مکمل نام کیا ہے؟",
+      "options": [
+        "Universal Transfer Protocol\nیونیورسل ٹرانسفر پروٹوکول",
+        "Unshielded Twisted Pair\nاَن شیلڈڈ ٹوئسٹڈ پیئر",
+        "Unified Telephone Port\nیونیفائیڈ ٹیلی فون پورٹ",
+        "Uncoded Transmission Path\nاَن کوڈڈ ٹرانسمیشن پاتھ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Unshielded Twisted Pair\nاَن شیلڈڈ ٹوئسٹڈ پیئر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "Which property makes UTP attractive for office installation?\nدفاتر میں UTP لگانے کی کون سی خوبی مفید ہے؟",
+      "options": [
+        "Low cost and flexibility\nکم قیمت اور لچک",
+        "Very heavy construction\nبہت بھاری ساخت",
+        "Needs satellite dish\nسیٹلائٹ ڈِش کی ضرورت",
+        "Requires glass core\nشیشے کے کور کی ضرورت"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Low cost and flexibility\nکم قیمت اور لچک"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "What is a major UTP weakness compared with better-shielded media?\nبہتر شیلڈنگ والے ذرائع کے مقابلے میں UTP کی بڑی کمزوری کیا ہے؟",
+      "options": [
+        "It cannot bend\nیہ مڑ نہیں سکتی",
+        "It sends only light\nیہ صرف روشنی بھیجتی ہے",
+        "Susceptibility to interference\nمداخلت سے زیادہ متاثر ہونا",
+        "It works only in space\nیہ صرف خلا میں چلتی ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Susceptibility to interference\nمداخلت سے زیادہ متاثر ہونا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "A school needs inexpensive LAN cabling. Which medium fits the textbook description?\nاسکول کو کم لاگت LAN کیبلنگ چاہیے۔ کتاب کے مطابق کون سی مناسب ہے؟",
+      "options": [
+        "Single-mode optical fiber\nسنگل موڈ آپٹیکل فائبر",
+        "Satellite link\nسیٹلائٹ رابطہ",
+        "Microwave tower\nمائیکروویو ٹاور",
+        "UTP cable\nیو ٹی پی کیبل"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: UTP cable\nیو ٹی پی کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "Which factor helps twisted pairs cancel induced noise?\nٹوئسٹڈ جوڑوں میں شور کے اثرات کم ہونے کی وجہ کیا ہے؟",
+      "options": [
+        "Opposing interference in neighboring twists\nقریبی بلوں میں مداخلت کا باہمی اثر کم ہونا",
+        "Absence of copper\nتانبے کا نہ ہونا",
+        "Use of a satellite\nسیٹلائٹ کا استعمال",
+        "Use of an optical core\nآپٹیکل کور کا استعمال"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Opposing interference in neighboring twists\nقریبی بلوں میں مداخلت کا باہمی اثر کم ہونا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "A UTP cable is widely used in which setting according to the chapter?\nکتاب کے مطابق UTP کیبل عام طور پر کہاں استعمال ہوتی ہے؟",
+      "options": [
+        "Only satellite links\nصرف سیٹلائٹ روابط",
+        "Computer and internet connections\nکمپیوٹر اور انٹرنیٹ کنکشن",
+        "Only radio stations\nصرف ریڈیو اسٹیشن",
+        "Only underwater optics\nصرف زیرِ آب آپٹکس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Computer and internet connections\nکمپیوٹر اور انٹرنیٹ کنکشن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "What usually surrounds the pairs in a basic UTP cable?\nبنیادی UTP کیبل میں جوڑوں کے گرد کیا ہوتا ہے؟",
+      "options": [
+        "Metal shield around each pair\nہر جوڑے کے گرد دھاتی شیلڈ",
+        "Glass cladding\nشیشے کی کلیڈنگ",
+        "Outer plastic jacket\nبیرونی پلاسٹک غلاف",
+        "Dish antenna\nڈش اینٹینا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Outer plastic jacket\nبیرونی پلاسٹک غلاف"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "5. Twisted Pair Cable and UTP",
+      "question": "What cable-distance limitation is commonly given for Ethernet over UTP?\nUTP پر ایتھرنیٹ کی عام حدِ فاصل کتنی بتائی گئی ہے؟",
+      "options": [
+        "500 metres\n500 میٹر",
+        "100 metres\n100 میٹر",
+        "1000 kilometres\n1000 کلومیٹر",
+        "10 kilometres\n10 کلومیٹر"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 100 metres\n100 میٹر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "Which UTP category is described as mainly for voice communication?\nUTP کی کون سی کیٹیگری بنیادی طور پر آواز کی ترسیل کے لیے بتائی گئی ہے؟",
+      "options": [
+        "Cat 2\nکیٹ 2",
+        "Cat 5\nکیٹ 5",
+        "Cat 6\nکیٹ 6",
+        "Cat 6a\nکیٹ 6a"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Cat 2\nکیٹ 2"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "Which category is presented as suitable for Fast Ethernet at 100 Mbps?\nکون سی کیٹیگری 100 Mbps فاسٹ ایتھرنیٹ کے لیے موزوں بتائی گئی ہے؟",
+      "options": [
+        "Cat 2\nکیٹ 2",
+        "Cat 3\nکیٹ 3",
+        "Coaxial RG-58\nکواکسیئل آر جی 58",
+        "Cat 5\nکیٹ 5"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Cat 5\nکیٹ 5"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "What is the stated speed capability of Cat 6 in the chapter?\nباب میں Cat 6 کی زیادہ سے زیادہ رفتار کیا درج ہے؟",
+      "options": [
+        "Up to 4 Mbps\n4 میگابٹ فی سیکنڈ تک",
+        "Up to 10 Gbps\n10 گیگابٹ فی سیکنڈ تک",
+        "Only 10 Mbps\nصرف 10 میگابٹ فی سیکنڈ",
+        "Only 16 Mbps\nصرف 16 میگابٹ فی سیکنڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Up to 10 Gbps\n10 گیگابٹ فی سیکنڈ تک"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "Which connector is commonly attached to Ethernet UTP cables?\nایتھرنیٹ UTP کیبل کے سرے پر عام طور پر کون سا کنیکٹر لگتا ہے؟",
+      "options": [
+        "RJ45\nآر جے 45",
+        "BNC\nبی این سی",
+        "Optical SC only\nصرف آپٹیکل ایس سی",
+        "Satellite LNB\nسیٹلائٹ ایل این بی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: RJ45\nآر جے 45"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "How many contact positions does an RJ45 Ethernet plug have?\nRJ45 ایتھرنیٹ پلگ میں کتنی رابطہ پوزیشنز ہوتی ہیں؟",
+      "options": [
+        "Two positions\nدو پوزیشنز",
+        "Four positions\nچار پوزیشنز",
+        "Eight positions\nآٹھ پوزیشنز",
+        "Twelve positions\nبارہ پوزیشنز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Eight positions\nآٹھ پوزیشنز"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "What does the term 8P8C on an Ethernet plug indicate?\nایتھرنیٹ پلگ پر 8P8C کا کیا مطلب ہے؟",
+      "options": [
+        "Eight passwords and eight computers\nآٹھ پاس ورڈ اور آٹھ کمپیوٹر",
+        "Eight ports and eight cables\nآٹھ پورٹس اور آٹھ کیبلز",
+        "Eight packets and eight channels\nآٹھ پیکٹ اور آٹھ چینلز",
+        "Eight positions and eight contacts\nآٹھ پوزیشنز اور آٹھ کانٹیکٹس"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Eight positions and eight contacts\nآٹھ پوزیشنز اور آٹھ کانٹیکٹس"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "Which wiring standards are shown for terminating RJ45 cables?\nRJ45 کیبل ختم کرنے کے کون سے وائرنگ معیار دکھائے گئے ہیں؟",
+      "options": [
+        "10BASE2 and 10BASE5\n10BASE2 اور 10BASE5",
+        "SMF and MMF\nایس ایم ایف اور ایم ایم ایف",
+        "T568A and T568B\nٹی 568 اے اور ٹی 568 بی",
+        "AM and FM\nاے ایم اور ایف ایم"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: T568A and T568B\nٹی 568 اے اور ٹی 568 بی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "A standard patch cable connects matching pin positions at both ends. What is it called?\nعام پیچ کیبل دونوں سروں پر ملتی جلتی پن پوزیشنز جوڑتی ہے۔ اسے کیا کہتے ہیں؟",
+      "options": [
+        "Crossover cable\nکراس اوور کیبل",
+        "Straight-through cable\nاسٹریٹ تھرو کیبل",
+        "Coaxial terminator\nکواکسیئل ٹرمینیٹر",
+        "Fiber cladding\nفائبر کلیڈنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Straight-through cable\nاسٹریٹ تھرو کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "What distinguishes a crossover cable from a straight-through cable?\nکراس اوور کیبل اسٹریٹ تھرو سے کس طرح مختلف ہوتی ہے؟",
+      "options": [
+        "It has no copper wires\nاس میں تانبے کی تاریں نہیں",
+        "It uses radio waves\nیہ ریڈیو لہریں استعمال کرتی ہے",
+        "It has a glass core\nاس میں شیشے کا کور ہوتا ہے",
+        "Some transmit and receive pairs cross\nکچھ بھیجنے اور وصول کرنے والے جوڑے بدلتے ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Some transmit and receive pairs cross\nکچھ بھیجنے اور وصول کرنے والے جوڑے بدلتے ہیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "6. UTP Categories and RJ45 Connectors",
+      "question": "For a higher-speed LAN with better crosstalk control, which category from the chapter is appropriate?\nکم کراس ٹاک کے ساتھ تیز رفتار LAN کے لیے باب میں دی گئی کون سی کیٹیگری مناسب ہے؟",
+      "options": [
+        "Cat 6\nکیٹ 6",
+        "Cat 2\nکیٹ 2",
+        "Cat 3\nکیٹ 3",
+        "10BASE2 coaxial\n10BASE2 کواکسیئل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Cat 6\nکیٹ 6"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "What distinguishes STP from UTP?\nSTP اور UTP میں بنیادی فرق کیا ہے؟",
+      "options": [
+        "Absence of twisted wires\nٹوئسٹڈ تاروں کا نہ ہونا",
+        "Use of satellite signals\nسیٹلائٹ سگنلز کا استعمال",
+        "Additional metallic shielding\nاضافی دھاتی شیلڈنگ",
+        "Use of only glass\nصرف شیشے کا استعمال"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Additional metallic shielding\nاضافی دھاتی شیلڈنگ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "Why might STP be selected in an electrically noisy factory?\nبرقی شور والی فیکٹری میں STP کیوں منتخب کی جا سکتی ہے؟",
+      "options": [
+        "It has no outer insulation\nاس میں بیرونی موصلیت نہیں",
+        "Better protection from interference\nمداخلت سے بہتر تحفظ",
+        "It always needs no connectors\nاسے ہمیشہ کنیکٹر نہیں چاہئیں",
+        "It uses radio rather than cable\nیہ کیبل کے بجائے ریڈیو استعمال کرتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Better protection from interference\nمداخلت سے بہتر تحفظ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "Which conductive material is mentioned as an STP shielding layer?\nSTP کی شیلڈنگ تہہ کے لیے کون سا مواد بتایا گیا ہے؟",
+      "options": [
+        "Paper only\nصرف کاغذ",
+        "Glass core\nشیشے کا کور",
+        "Wooden cover\nلکڑی کا غلاف",
+        "Metal foil or mesh\nدھاتی ورق یا جالی"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Metal foil or mesh\nدھاتی ورق یا جالی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "What is one purpose of the twisting inside STP?\nSTP کے اندر تاروں کو بل دینے کا ایک مقصد کیا ہے؟",
+      "options": [
+        "Reduce crosstalk between pairs\nتاروں کے جوڑوں کے درمیان کراس ٹاک کم کرنا",
+        "Increase printed page count\nپرنٹ صفحات کی تعداد بڑھانا",
+        "Generate satellites\nسیٹلائٹ بنانا",
+        "Remove the need for conductors\nکنڈکٹر کی ضرورت ختم کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Reduce crosstalk between pairs\nتاروں کے جوڑوں کے درمیان کراس ٹاک کم کرنا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "What is the outer jacket of STP primarily used for?\nSTP کا بیرونی غلاف بنیادی طور پر کس لیے ہے؟",
+      "options": [
+        "Radio broadcasting\nریڈیو نشریات",
+        "Converting signals into light\nسگنلز کو روشنی میں بدلنا",
+        "Physical protection of internal layers\nاندرونی تہوں کی جسمانی حفاظت",
+        "Storing passwords\nپاس ورڈ محفوظ کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Physical protection of internal layers\nاندرونی تہوں کی جسمانی حفاظت"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "Which is a reasonable trade-off of STP over basic UTP?\nبنیادی UTP کے مقابلے میں STP کا کون سا ممکنہ سمجھوتہ ہے؟",
+      "options": [
+        "More shielding but more complex cable\nزیادہ شیلڈنگ لیکن پیچیدہ کیبل",
+        "No wire pairs at all\nتاروں کے جوڑے بالکل نہیں",
+        "Always less protection\nہمیشہ کم تحفظ",
+        "Only wireless transmission\nصرف وائرلیس ٹرانسمیشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: More shielding but more complex cable\nزیادہ شیلڈنگ لیکن پیچیدہ کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "What phenomenon does the chapter say STP shielding helps resist?\nباب کے مطابق STP کی شیلڈنگ کس چیز کے خلاف مدد دیتی ہے؟",
+      "options": [
+        "Hard-disk fragmentation\nہارڈ ڈسک کی تقسیم",
+        "External electromagnetic noise\nبیرونی برقی مقناطیسی شور",
+        "Monitor brightness\nمانیٹر کی روشنی",
+        "Software licensing\nسافٹ ویئر لائسنسنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: External electromagnetic noise\nبیرونی برقی مقناطیسی شور"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "What does the STP abbreviation expand to?\nSTP کا مکمل نام کیا ہے؟",
+      "options": [
+        "Satellite Transmission Protocol\nسیٹلائٹ ٹرانسمیشن پروٹوکول",
+        "Simple Telephone Port\nسمپل ٹیلی فون پورٹ",
+        "Single Transfer Path\nسنگل ٹرانسفر پاتھ",
+        "Shielded Twisted Pair\nشیلڈڈ ٹوئسٹڈ پیئر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Shielded Twisted Pair\nشیلڈڈ ٹوئسٹڈ پیئر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "Which layer separates copper conductors from one another in STP?\nSTP میں تانبے کی تاروں کو ایک دوسرے سے کون سی تہہ الگ کرتی ہے؟",
+      "options": [
+        "Radio antenna\nریڈیو اینٹینا",
+        "Router software\nراؤٹر سافٹ ویئر",
+        "Insulation layer\nموصلیت کی تہہ",
+        "Optical receiver\nآپٹیکل ریسیور"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Insulation layer\nموصلیت کی تہہ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "7. Shielded Twisted Pair (STP)",
+      "question": "A network is installed near motors that generate interference. Which twisted-pair type is preferable?\nموٹروں کے قریب نیٹ ورک لگایا جا رہا ہے جہاں مداخلت زیادہ ہے۔ کون سا ٹوئسٹڈ پیئر بہتر ہے؟",
+      "options": [
+        "STP\nایس ٹی پی",
+        "UTP without shielding\nبغیر شیلڈ والا یو ٹی پی",
+        "Bluetooth only\nصرف بلوٹوتھ",
+        "Radio broadcast only\nصرف ریڈیو نشریات"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: STP\nایس ٹی پی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "What carries information through a fiber-optic cable?\nفائبر آپٹک کیبل میں معلومات کس چیز کے ذریعے منتقل ہوتی ہیں؟",
+      "options": [
+        "Electrical current in copper\nتانبے میں برقی رو",
+        "Light signals\nروشنی کے سگنلز",
+        "Radio broadcasts\nریڈیو نشریات",
+        "Sound vibrations\nآواز کی ارتعاشات"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Light signals\nروشنی کے سگنلز"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "What is the central path of light in a fiber called?\nفائبر میں روشنی کے مرکزی راستے کو کیا کہتے ہیں؟",
+      "options": [
+        "Braid\nدھاتی جالی",
+        "BNC plug\nبی این سی پلگ",
+        "Copper pair\nتانبے کا جوڑا",
+        "Core\nکور"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Core\nکور"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "Which layer surrounds the optical core and helps keep light inside?\nآپٹیکل کور کے گرد کون سی تہہ روشنی کو اندر رکھنے میں مدد دیتی ہے؟",
+      "options": [
+        "RJ45 contact\nآر جے 45 کانٹیکٹ",
+        "Metal braid\nدھاتی جالی",
+        "Cladding\nکلیڈنگ",
+        "Coaxial dielectric\nکواکسیئل ڈائی الیکٹرک"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Cladding\nکلیڈنگ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "Why is fiber useful in electrically noisy locations?\nبرقی شور والے مقامات پر فائبر کیوں مفید ہے؟",
+      "options": [
+        "It is immune to electromagnetic interference\nیہ برقی مقناطیسی مداخلت سے متاثر نہیں ہوتی",
+        "It needs a copper center\nاسے تانبے کا مرکز چاہیے",
+        "It uses a BNC T-connector\nیہ بی این سی ٹی کنیکٹر استعمال کرتی ہے",
+        "It transmits by Wi-Fi\nیہ وائی فائی سے منتقل کرتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It is immune to electromagnetic interference\nیہ برقی مقناطیسی مداخلت سے متاثر نہیں ہوتی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "Which feature of fiber optic supports long-distance communication?\nفائبر آپٹک کی کون سی خصوصیت لمبی دوری کے مواصلات میں مفید ہے؟",
+      "options": [
+        "High radio interference\nزیادہ ریڈیو مداخلت",
+        "Low signal loss\nسگنل کا کم نقصان",
+        "Thick copper core\nموٹا تانبے کا کور",
+        "Short Bluetooth range\nبلوٹوتھ کی مختصر حد"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Low signal loss\nسگنل کا کم نقصان"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "Which source is mentioned for producing light in fiber communication?\nفائبر کمیونیکیشن میں روشنی بنانے کے لیے کون سا ذریعہ بتایا گیا ہے؟",
+      "options": [
+        "BNC connector\nبی این سی کنیکٹر",
+        "Copper braid\nتانبے کی جالی",
+        "Wi-Fi password\nوائی فائی پاس ورڈ",
+        "LED or laser\nایل ای ڈی یا لیزر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: LED or laser\nایل ای ڈی یا لیزر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "A campus needs fast data between distant buildings. Which medium suits the chapter description?\nکیمپس میں دور عمارتوں کے درمیان تیز ڈیٹا چاہیے۔ کتاب کے مطابق کون سا ذریعہ موزوں ہے؟",
+      "options": [
+        "Fiber-optic cable\nفائبر آپٹک کیبل",
+        "Short-range Bluetooth\nمختصر فاصلے کا بلوٹوتھ",
+        "10BASE2 segment\n10BASE2 سیگمنٹ",
+        "Telephone Cat 2 cable\nٹیلی فون کیٹ 2 کیبل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Fiber-optic cable\nفائبر آپٹک کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "How does a fiber-optic signal differ from a UTP signal?\nفائبر آپٹک کا سگنل UTP سے کیسے مختلف ہے؟",
+      "options": [
+        "Both use only radio waves\nدونوں صرف ریڈیو لہریں استعمال کرتی ہیں",
+        "Fiber uses copper current only\nفائبر صرف تانبے کی رو استعمال کرتی ہے",
+        "Fiber uses light; UTP uses electrical signals\nفائبر روشنی اور UTP برقی سگنل استعمال کرتی ہے",
+        "UTP uses a glass core\nیو ٹی پی میں شیشے کا کور ہوتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Fiber uses light; UTP uses electrical signals\nفائبر روشنی اور UTP برقی سگنل استعمال کرتی ہے"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "Which cable type is less affected by electrical equipment interference?\nکون سی کیبل برقی آلات کی مداخلت سے کم متاثر ہوتی ہے؟",
+      "options": [
+        "Unshielded copper cable\nبغیر شیلڈ کی تانبے والی کیبل",
+        "Fiber-optic cable\nفائبر آپٹک کیبل",
+        "Telephone copper pair\nٹیلی فون کا تانبے والا جوڑا",
+        "10BASE2 coaxial\n10BASE2 کواکسیئل"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Fiber-optic cable\nفائبر آپٹک کیبل"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "8. Fiber-Optic Cable and Its Construction",
+      "question": "Which fiber layer provides mechanical protection from the outside?\nفائبر کی کون سی تہہ باہر سے جسمانی حفاظت فراہم کرتی ہے؟",
+      "options": [
+        "Light source\nروشنی کا ذریعہ",
+        "RJ45 plug\nآر جے 45 پلگ",
+        "Radio receiver\nریڈیو ریسیور",
+        "Outer jacket\nبیرونی غلاف"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Outer jacket\nبیرونی غلاف"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which fiber type carries essentially one light path or mode?\nکس قسم کی فائبر میں روشنی کا بنیادی طور پر ایک موڈ سفر کرتا ہے؟",
+      "options": [
+        "Multi-mode fiber\nملٹی موڈ فائبر",
+        "UTP\nیو ٹی پی",
+        "Single-mode fiber\nسنگل موڈ فائبر",
+        "Coaxial cable\nکواکسیئل کیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Single-mode fiber\nسنگل موڈ فائبر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which fiber type is described with a smaller core?\nکس قسم کی فائبر کا کور چھوٹا بتایا گیا ہے؟",
+      "options": [
+        "Multi-mode fiber\nملٹی موڈ فائبر",
+        "Single-mode fiber\nسنگل موڈ فائبر",
+        "Twisted pair\nٹوئسٹڈ پیئر",
+        "Thicknet\nتھِک نیٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Single-mode fiber\nسنگل موڈ فائبر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which type is normally selected for long-distance optical communication?\nلمبی دوری کی آپٹیکل کمیونیکیشن کے لیے عام طور پر کون سی قسم منتخب ہوتی ہے؟",
+      "options": [
+        "Multi-mode fiber\nملٹی موڈ فائبر",
+        "Bluetooth\nبلوٹوتھ",
+        "Cat 2\nکیٹ 2",
+        "Single-mode fiber\nسنگل موڈ فائبر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Single-mode fiber\nسنگل موڈ فائبر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which fiber supports multiple light paths through a larger core?\nکون سی فائبر بڑے کور کے ذریعے روشنی کے متعدد راستوں کو سہارا دیتی ہے؟",
+      "options": [
+        "Multi-mode fiber\nملٹی موڈ فائبر",
+        "Single-mode fiber\nسنگل موڈ فائبر",
+        "UTP\nیو ٹی پی",
+        "BNC coaxial\nبی این سی کواکسیئل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Multi-mode fiber\nملٹی موڈ فائبر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which light source is commonly associated with single-mode fiber in the textbook?\nکتاب میں سنگل موڈ فائبر کے لیے عام طور پر کون سا نوری ذریعہ بتایا گیا ہے؟",
+      "options": [
+        "BNC connector\nبی این سی کنیکٹر",
+        "RJ45 plug\nآر جے 45 پلگ",
+        "Copper braid\nتانبے کی جالی",
+        "Laser\nلیزر"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Laser\nلیزر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which source is associated with multi-mode fiber in the text?\nکتاب میں ملٹی موڈ فائبر کے لیے کون سا ذریعہ بتایا گیا ہے؟",
+      "options": [
+        "LED light source\nایل ای ڈی روشنی کا ذریعہ",
+        "Wi-Fi antenna\nوائی فائی اینٹینا",
+        "BNC terminator\nبی این سی ٹرمینیٹر",
+        "Copper conductor\nتانبے کا کنڈکٹر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: LED light source\nایل ای ڈی روشنی کا ذریعہ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "An office uses optical fiber for shorter links inside a building. Which type is commonly suitable?\nدفتر میں عمارت کے اندر مختصر آپٹیکل رابطے درکار ہیں۔ عموماً کون سی قسم مناسب ہے؟",
+      "options": [
+        "Single-mode only for every link\nہر رابطے کے لیے صرف سنگل موڈ",
+        "10BASE5 coaxial\n10BASE5 کواکسیئل",
+        "Multi-mode fiber\nملٹی موڈ فائبر",
+        "Bluetooth\nبلوٹوتھ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Multi-mode fiber\nملٹی موڈ فائبر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Why can multi-mode fiber have more signal spreading?\nملٹی موڈ فائبر میں سگنل زیادہ کیوں پھیل سکتا ہے؟",
+      "options": [
+        "It uses copper wires\nیہ تانبے کی تاریں استعمال کرتی ہے",
+        "Multiple light paths reach at different times\nروشنی کے مختلف راستے مختلف وقت پر پہنچتے ہیں",
+        "It uses BNC plugs\nیہ بی این سی پلگ استعمال کرتی ہے",
+        "It has no core\nاس میں کور نہیں ہوتا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Multiple light paths reach at different times\nروشنی کے مختلف راستے مختلف وقت پر پہنچتے ہیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "Which fiber is described as preferable for communication between cities?\nشہروں کے درمیان مواصلات کے لیے کون سی فائبر بہتر بتائی گئی ہے؟",
+      "options": [
+        "Multi-mode fiber\nملٹی موڈ فائبر",
+        "Cat 3 twisted pair\nکیٹ 3 ٹوئسٹڈ پیئر",
+        "Single-mode fiber\nسنگل موڈ فائبر",
+        "Bluetooth\nبلوٹوتھ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Single-mode fiber\nسنگل موڈ فائبر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "9. Single-Mode and Multi-Mode Fiber",
+      "question": "What do both SMF and MMF have in common?\nSMF اور MMF میں مشترک خاصیت کیا ہے؟",
+      "options": [
+        "Both use copper cores\nدونوں میں تانبے کے کور ہیں",
+        "Both need BNC T-connectors\nدونوں کو بی این سی ٹی کنیکٹر چاہیے",
+        "Both are radio technologies\nدونوں ریڈیو ٹیکنالوجیز ہیں",
+        "Both transmit information as light\nدونوں معلومات روشنی سے منتقل کرتی ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Both transmit information as light\nدونوں معلومات روشنی سے منتقل کرتی ہیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "Which feature allows wireless devices to move while connected?\nوائرلیس آلات کنکشن کے دوران حرکت کیسے کر سکتے ہیں؟",
+      "options": [
+        "No physical network cable is required\nجسمانی نیٹ ورک کیبل ضروری نہیں",
+        "They contain coaxial terminators\nان میں کواکسیئل ٹرمینیٹر ہوتے ہیں",
+        "They all use glass cores\nسب شیشے کے کور استعمال کرتے ہیں",
+        "They need RJ45 plugs at all times\nانہیں ہمیشہ آر جے 45 پلگ چاہیے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: No physical network cable is required\nجسمانی نیٹ ورک کیبل ضروری نہیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "What is an advantage of wireless media for a temporary event?\nعارضی تقریب میں وائرلیس میڈیا کا کیا فائدہ ہے؟",
+      "options": [
+        "Must dig cable trenches\nکیبل کے لیے کھدائی ضروری",
+        "Quick installation without extensive cables\nزیادہ کیبل کے بغیر جلد تنصیب",
+        "Needs BNC terminators\nبی این سی ٹرمینیٹر لازمی",
+        "Cannot support moving devices\nحرکت پذیر آلات نہیں چلا سکتا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Quick installation without extensive cables\nزیادہ کیبل کے بغیر جلد تنصیب"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "What is a common wireless-network risk identified in the chapter?\nباب میں وائرلیس نیٹ ورک کا کون سا عام خطرہ بتایا گیا ہے؟",
+      "options": [
+        "All signals require glass cable\nہر سگنل کے لیے شیشے کی کیبل چاہیے",
+        "It has zero interference\nاس میں مداخلت بالکل نہیں",
+        "It can never be hacked\nاسے کبھی ہیک نہیں کیا جا سکتا",
+        "Signals may be intercepted if unsecured\nتحفظ نہ ہو تو سگنل پکڑے جا سکتے ہیں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Signals may be intercepted if unsecured\nتحفظ نہ ہو تو سگنل پکڑے جا سکتے ہیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "Which technology uses orbiting satellites for distant links?\nکون سی ٹیکنالوجی دور دراز رابطوں کے لیے مدار میں موجود سیٹلائٹ استعمال کرتی ہے؟",
+      "options": [
+        "Bluetooth\nبلوٹوتھ",
+        "Satellite communication\nسیٹلائٹ کمیونیکیشن",
+        "UTP Ethernet\nیو ٹی پی ایتھرنیٹ",
+        "Coaxial 10BASE2\nکواکسیئل 10BASE2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Satellite communication\nسیٹلائٹ کمیونیکیشن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "A television broadcast reaches a remote region by an orbiting relay. Which system is used?\nٹی وی نشریات مدار میں موجود ریلے کے ذریعے دور علاقے تک پہنچتی ہیں۔ یہ کون سا نظام ہے؟",
+      "options": [
+        "RJ45 wiring\nآر جے 45 وائرنگ",
+        "STP cabling\nایس ٹی پی کیبلنگ",
+        "Satellite communication\nسیٹلائٹ کمیونیکیشن",
+        "BNC termination\nبی این سی ٹرمینیشن"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Satellite communication\nسیٹلائٹ کمیونیکیشن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "What is a key constraint of terrestrial microwave communication?\nزمینی مائیکروویو کمیونیکیشن کی اہم شرط کیا ہے؟",
+      "options": [
+        "Clear line of sight\nواضح براہِ راست راستہ",
+        "An RJ45 plug on every antenna\nہر اینٹینا پر آر جے 45 پلگ",
+        "A fiber core inside air\nہوا میں فائبر کور",
+        "A BNC T-junction in space\nخلا میں بی این سی ٹی کنکشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Clear line of sight\nواضح براہِ راست راستہ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "Which communication method uses radio waves that can travel in multiple directions?\nکون سا طریقہ ایسی ریڈیو لہریں استعمال کرتا ہے جو مختلف سمتوں میں جا سکتی ہیں؟",
+      "options": [
+        "Straight-through cable\nاسٹریٹ تھرو کیبل",
+        "Optical cladding\nآپٹیکل کلیڈنگ",
+        "Radio-wave communication\nریڈیو ویو کمیونیکیشن",
+        "RJ45 Ethernet\nآر جے 45 ایتھرنیٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Radio-wave communication\nریڈیو ویو کمیونیکیشن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "Which common use of radio-wave communication appears in the chapter?\nباب میں ریڈیو ویو کمیونیکیشن کا کون سا استعمال درج ہے؟",
+      "options": [
+        "Fiber-core splicing\nفائبر کور کو جوڑنا",
+        "RJ45 crimping\nآر جے 45 کرمپنگ",
+        "Coaxial terminators\nکواکسیئل ٹرمینیٹر",
+        "FM and AM broadcasting\nایف ایم اور اے ایم نشریات"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: FM and AM broadcasting\nایف ایم اور اے ایم نشریات"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "Which factor can weaken wireless signals in a building?\nعمارت میں وائرلیس سگنلز کس وجہ سے کمزور ہو سکتے ہیں؟",
+      "options": [
+        "Correct cable crimping\nدرست کیبل کرمپنگ",
+        "Walls and obstacles\nدیواریں اور رکاوٹیں",
+        "Optical cladding\nآپٹیکل کلیڈنگ",
+        "Copper insulation\nتانبے کی موصلیت"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Walls and obstacles\nدیواریں اور رکاوٹیں"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "10. Wireless Media and Communication Technologies",
+      "question": "A remote area cannot practically receive cables. Which option in the chapter can cover large distances?\nدور علاقے تک کیبل پہنچانا مشکل ہے۔ باب میں کون سا طریقہ طویل فاصلے طے کر سکتا ہے؟",
+      "options": [
+        "Satellite communication\nسیٹلائٹ کمیونیکیشن",
+        "Short-range Bluetooth\nمختصر فاصلے کا بلوٹوتھ",
+        "RJ45 patch lead\nآر جے 45 پیچ کیبل",
+        "Cat 2 phone cable\nکیٹ 2 فون کیبل"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Satellite communication\nسیٹلائٹ کمیونیکیشن"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q101",
+      "sourceNumber": 101,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "Which technology is commonly used for wireless Internet in a school?\nاسکول میں وائرلیس انٹرنیٹ کے لیے عام طور پر کون سی ٹیکنالوجی استعمال ہوتی ہے؟",
+      "options": [
+        "BNC coaxial\nبی این سی کواکسیئل",
+        "STP only\nصرف ایس ٹی پی",
+        "Wi-Fi\nوائی فائی",
+        "Single-mode fiber only\nصرف سنگل موڈ فائبر"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Wi-Fi\nوائی فائی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q102",
+      "sourceNumber": 102,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "What is the main function of a wireless access point?\nوائرلیس ایکسس پوائنٹ کا بنیادی کام کیا ہے؟",
+      "options": [
+        "Print pages without a computer\nبغیر کمپیوٹر صفحات پرنٹ کرنا",
+        "Connect wireless devices to a network\nوائرلیس آلات کو نیٹ ورک سے جوڑنا",
+        "Store the operating system\nآپریٹنگ سسٹم محفوظ کرنا",
+        "Replace every cable with glass\nہر کیبل کو شیشے سے بدلنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Connect wireless devices to a network\nوائرلیس آلات کو نیٹ ورک سے جوڑنا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q103",
+      "sourceNumber": 103,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "What does WLAN stand for?\nWLAN کا مکمل نام کیا ہے؟",
+      "options": [
+        "Wired Large Area Node\nوائرڈ لارج ایریا نوڈ",
+        "Wide Laser Access Network\nوائیڈ لیزر ایکسس نیٹ ورک",
+        "Wireless Long Audio Network\nوائرلیس لانگ آڈیو نیٹ ورک",
+        "Wireless Local Area Network\nوائرلیس لوکل ایریا نیٹ ورک"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Wireless Local Area Network\nوائرلیس لوکل ایریا نیٹ ورک"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q104",
+      "sourceNumber": 104,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "A phone connects wirelessly to an office LAN. Which network type is it using?\nفون دفتر کے LAN سے بغیر تار کے جڑتا ہے۔ یہ کس قسم کا نیٹ ورک ہے؟",
+      "options": [
+        "WLAN\nڈبلیو ایل اے این",
+        "Coaxial bus only\nصرف کواکسیئل بس",
+        "Fiber ring only\nصرف فائبر رِنگ",
+        "Cable TV only\nصرف کیبل ٹی وی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: WLAN\nڈبلیو ایل اے این"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q105",
+      "sourceNumber": 105,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "Which technology is best described as short-range wireless device communication?\nکون سی ٹیکنالوجی مختصر فاصلے کی وائرلیس ڈیوائس کمیونیکیشن ہے؟",
+      "options": [
+        "Single-mode fiber\nسنگل موڈ فائبر",
+        "10BASE5\n10BASE5",
+        "BNC connector\nبی این سی کنیکٹر",
+        "Bluetooth\nبلوٹوتھ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Bluetooth\nبلوٹوتھ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q106",
+      "sourceNumber": 106,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "A student pairs wireless earbuds to a mobile phone. Which technology is used?\nطالب علم وائرلیس ایئربڈز کو موبائل سے جوڑتا ہے۔ کون سی ٹیکنالوجی استعمال ہوتی ہے؟",
+      "options": [
+        "Coaxial Ethernet\nکواکسیئل ایتھرنیٹ",
+        "Bluetooth\nبلوٹوتھ",
+        "RJ45 cable\nآر جے 45 کیبل",
+        "Fiber-optic cladding\nفائبر آپٹک کلیڈنگ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Bluetooth\nبلوٹوتھ"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q107",
+      "sourceNumber": 107,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "What does a wireless network interface card enable?\nوائرلیس نیٹ ورک انٹرفیس کارڈ کس کام کے قابل بناتا ہے؟",
+      "options": [
+        "A device to join Wi-Fi networks\nڈیوائس کو وائی فائی نیٹ ورک سے جوڑنا",
+        "Copper cable to become optical\nتانبے کی کیبل کو آپٹیکل بنانا",
+        "A monitor to print\nمانیٹر سے پرنٹ کرنا",
+        "A BNC cable to broadcast radio\nبی این سی کیبل سے ریڈیو نشر کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A device to join Wi-Fi networks\nڈیوائس کو وائی فائی نیٹ ورک سے جوڑنا"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q108",
+      "sourceNumber": 108,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "Which external accessory can add Wi-Fi capability to a computer?\nکون سا بیرونی آلہ کمپیوٹر میں وائی فائی کی سہولت شامل کر سکتا ہے؟",
+      "options": [
+        "Coaxial terminator\nکواکسیئل ٹرمینیٹر",
+        "BNC T-connector\nبی این سی ٹی کنیکٹر",
+        "USB Wi-Fi adapter\nیو ایس بی وائی فائی اڈاپٹر",
+        "Optical glass core\nآپٹیکل شیشے کا کور"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: USB Wi-Fi adapter\nیو ایس بی وائی فائی اڈاپٹر"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q109",
+      "sourceNumber": 109,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "Too many wireless users connect to one access point. What problem does the text mention?\nایک ایکسس پوائنٹ سے بہت زیادہ صارفین جڑ جائیں تو کتاب کے مطابق کیا مسئلہ ہو سکتا ہے؟",
+      "options": [
+        "Overloading and reduced performance\nزیادہ بوجھ اور کارکردگی میں کمی",
+        "Fiber becomes copper\nفائبر تانبہ بن جاتی ہے",
+        "RJ45 positions double\nآر جے 45 پوزیشنز دگنی ہو جاتی ہیں",
+        "Satellite orbit changes\nسیٹلائٹ کا مدار بدل جاتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Overloading and reduced performance\nزیادہ بوجھ اور کارکردگی میں کمی"
+    },
+    {
+      "id": "dit-transmission-media-nov11-q110",
+      "sourceNumber": 110,
+      "topic": "11. Wi-Fi, Bluetooth, WLAN and Wireless Devices",
+      "question": "What is a practical disadvantage of WLAN compared with wired LAN?\nوائرڈ LAN کے مقابلے میں WLAN کی ایک عملی خامی کیا ہے؟",
+      "options": [
+        "Users cannot move at all\nصارف بالکل حرکت نہیں کر سکتے",
+        "Speed and stability may be lower\nرفتار اور استحکام کم ہو سکتے ہیں",
+        "It must use coaxial cable\nاسے کواکسیئل کیبل لازمی چاہیے",
+        "It cannot connect laptops\nیہ لیپ ٹاپ نہیں جوڑ سکتا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Speed and stability may be lower\nرفتار اور استحکام کم ہو سکتے ہیں"
+    }
+  ]
+}

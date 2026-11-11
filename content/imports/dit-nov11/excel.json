@@ -1,0 +1,1847 @@
+{
+  "key": "excel",
+  "sourceFile": "Excel_Chapter3.docx",
+  "sourceSha256": "50ea9baf17bbdab608d4c40bd7517dcceb2af1900a2a309d107f904327da77f6",
+  "classSlug": "dit-intermediate",
+  "subjectSlug": "dit-computer-science",
+  "semesterNumber": 1,
+  "bookTitle": "MS Office",
+  "displayChapterNumber": 3,
+  "sourceSections": [
+    "01  Excel Fundamentals and Spreadsheet Features",
+    "02  Excel Interface and Navigation",
+    "03  Workbooks and Worksheets",
+    "04  Cells, Rows and Data Editing",
+    "05  Formatting and Data Organization",
+    "06  Formulas and Common Functions",
+    "07  Cell References: Relative, Absolute and Mixed",
+    "08  Logical and Summary Functions",
+    "09  Text Functions and Formula Ranges",
+    "10  Charts and Their Types",
+    "11  Creating and Formatting Charts",
+    "12  Excel Macros, Developer Tab and Recording",
+    "13  VBA, Macro References and Controls"
+  ],
+  "questions": [
+    {
+      "id": "dit-excel-nov11-q001",
+      "sourceNumber": 1,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "Which task is most suitable for Microsoft Excel?\nMicrosoft Excel کس کام کے لیے سب سے زیادہ موزوں ہے؟",
+      "options": [
+        "Editing a video timeline\nویڈیو ٹائم لائن میں ترمیم کرنا",
+        "Installing an operating system\nآپریٹنگ سسٹم نصب کرنا",
+        "Drawing a network cable\nنیٹ ورک کیبل بنانا",
+        "Calculating and analyzing tabular data\nجدولی ڈیٹا کا حساب اور تجزیہ کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Calculating and analyzing tabular data\nجدولی ڈیٹا کا حساب اور تجزیہ کرنا"
+    },
+    {
+      "id": "dit-excel-nov11-q002",
+      "sourceNumber": 2,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "Why is Excel called a spreadsheet program?\nExcel کو اسپریڈشیٹ پروگرام کیوں کہا جاتا ہے؟",
+      "options": [
+        "It can run only on paper\nیہ صرف کاغذ پر چلتا ہے",
+        "It organizes information in rows and columns\nیہ معلومات کو قطاروں اور کالموں میں منظم کرتا ہے",
+        "It displays only slides\nیہ صرف سلائیڈز دکھاتا ہے",
+        "It stores only pictures\nیہ صرف تصاویر محفوظ کرتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It organizes information in rows and columns\nیہ معلومات کو قطاروں اور کالموں میں منظم کرتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q003",
+      "sourceNumber": 3,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "What is a workbook in Excel?\nExcel میں ورک بک کیا ہوتی ہے؟",
+      "options": [
+        "A printer queue\nپرنٹر کی قطار",
+        "A chart title only\nصرف چارٹ کا عنوان",
+        "A file containing one or more worksheets\nایک فائل جس میں ایک یا زیادہ ورک شیٹس ہوں",
+        "A single formula symbol\nصرف ایک فارمولے کی علامت"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A file containing one or more worksheets\nایک فائل جس میں ایک یا زیادہ ورک شیٹس ہوں"
+    },
+    {
+      "id": "dit-excel-nov11-q004",
+      "sourceNumber": 4,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "Which feature helps compare values visually?\nکون سی خصوصیت قدروں کا بصری موازنہ کرنے میں مدد دیتی ہے؟",
+      "options": [
+        "Charts\nچارٹس",
+        "Window border\nونڈو کا کنارہ",
+        "Zoom cursor\nزوم کرسر",
+        "File extension\nفائل ایکسٹینشن"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Charts\nچارٹس"
+    },
+    {
+      "id": "dit-excel-nov11-q005",
+      "sourceNumber": 5,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "If sales figures change, what makes Excel useful?\nاگر فروخت کے اعداد بدل جائیں تو Excel کیوں مفید ہے؟",
+      "options": [
+        "All values become permanent pictures\nتمام قدریں مستقل تصاویر بن جاتی ہیں",
+        "It switches off the computer\nیہ کمپیوٹر بند کر دیتا ہے",
+        "Formulas can recalculate results\nفارمولے نتائج دوبارہ حساب کر سکتے ہیں",
+        "It deletes other worksheets\nیہ دوسری ورک شیٹس حذف کر دیتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Formulas can recalculate results\nفارمولے نتائج دوبارہ حساب کر سکتے ہیں"
+    },
+    {
+      "id": "dit-excel-nov11-q006",
+      "sourceNumber": 6,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "What does a worksheet primarily contain?\nورک شیٹ میں بنیادی طور پر کیا ہوتا ہے؟",
+      "options": [
+        "A physical keyboard\nایک حقیقی کی بورڈ",
+        "Only audio tracks\nصرف آڈیو ٹریکس",
+        "Only page thumbnails\nصرف صفحوں کی چھوٹی تصاویر",
+        "A grid of cells\nسیلز کا جال"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A grid of cells\nسیلز کا جال"
+    },
+    {
+      "id": "dit-excel-nov11-q007",
+      "sourceNumber": 7,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "Which Excel feature can arrange records alphabetically?\nExcel کی کون سی خصوصیت ریکارڈ کو حروف تہجی کے مطابق ترتیب دیتی ہے؟",
+      "options": [
+        "Sorting\nترتیب دینا (Sorting)",
+        "Printing\nپرنٹ کرنا",
+        "Freezing panes\nپینز کو فریز کرنا",
+        "Zooming\nزوم کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Sorting\nترتیب دینا (Sorting)"
+    },
+    {
+      "id": "dit-excel-nov11-q008",
+      "sourceNumber": 8,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "Which operation narrows a list to matching records?\nکون سا عمل فہرست کو مخصوص شرط کے مطابق ریکارڈز تک محدود کرتا ہے؟",
+      "options": [
+        "Merging cells\nسیلز ضم کرنا",
+        "Filtering\nفلٹر کرنا",
+        "Renaming a sheet\nشیٹ کا نام بدلنا",
+        "Inserting a chart title\nچارٹ کا عنوان داخل کرنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Filtering\nفلٹر کرنا"
+    },
+    {
+      "id": "dit-excel-nov11-q009",
+      "sourceNumber": 9,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "Why might a teacher use Excel for marks?\nاستاد نمبروں کے لیے Excel کیوں استعمال کرے گا؟",
+      "options": [
+        "To connect a monitor cable\nمانیٹر کیبل جوڑنے کے لیے",
+        "To replace the mouse driver\nماؤس ڈرائیور بدلنے کے لیے",
+        "To create a boot disk\nبوٹ ڈسک بنانے کے لیے",
+        "To total and summarize student scores\nطلبہ کے نمبر جمع اور خلاصہ کرنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To total and summarize student scores\nطلبہ کے نمبر جمع اور خلاصہ کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q010",
+      "sourceNumber": 10,
+      "topic": "01  Excel Fundamentals and Spreadsheet Features",
+      "question": "What distinguishes a worksheet from a workbook?\nورک شیٹ اور ورک بک میں کیا فرق ہے؟",
+      "options": [
+        "Both terms mean a formula\nدونوں الفاظ ایک فارمولہ ہیں",
+        "A worksheet is one sheet inside a workbook\nورک شیٹ ورک بک کے اندر ایک شیٹ ہوتی ہے",
+        "A worksheet is a chart type\nورک شیٹ چارٹ کی قسم ہے",
+        "A workbook is only a single cell\nورک بک صرف ایک سیل ہوتی ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A worksheet is one sheet inside a workbook\nورک شیٹ ورک بک کے اندر ایک شیٹ ہوتی ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q011",
+      "sourceNumber": 11,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "Where do you see the address of the active cell?\nفعال سیل کا پتہ کہاں دکھائی دیتا ہے؟",
+      "options": [
+        "Name Box\nنیم باکس",
+        "Title bar\nٹائٹل بار",
+        "Zoom slider\nزوم سلائیڈر",
+        "Status bar\nاسٹیٹس بار"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Name Box\nنیم باکس"
+    },
+    {
+      "id": "dit-excel-nov11-q012",
+      "sourceNumber": 12,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "Which bar shows the contents or formula of the selected cell?\nمنتخب سیل کی تحریر یا فارمولا کس بار میں نظر آتا ہے؟",
+      "options": [
+        "Scroll Bar\nاسکرول بار",
+        "Title Bar\nٹائٹل بار",
+        "Status Bar\nاسٹیٹس بار",
+        "Formula Bar\nفارمولا بار"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Formula Bar\nفارمولا بار"
+    },
+    {
+      "id": "dit-excel-nov11-q013",
+      "sourceNumber": 13,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "Where are Excel commands organized into tabs and groups?\nExcel کے کمانڈز ٹیبز اور گروپس میں کہاں ہوتے ہیں؟",
+      "options": [
+        "Ribbon\nربن",
+        "Sheet tab\nشیٹ ٹیب",
+        "Worksheet grid\nورک شیٹ کا جال",
+        "Name Box\nنیم باکس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ribbon\nربن"
+    },
+    {
+      "id": "dit-excel-nov11-q014",
+      "sourceNumber": 14,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "What does clicking a sheet tab do?\nشیٹ ٹیب پر کلک کرنے سے کیا ہوتا ہے؟",
+      "options": [
+        "It prints all sheets\nتمام شیٹس پرنٹ ہو جاتی ہیں",
+        "It closes the workbook\nورک بک بند ہو جاتی ہے",
+        "It activates that worksheet\nوہ ورک شیٹ فعال ہو جاتی ہے",
+        "It deletes its formulas\nاس کے فارمولے حذف ہو جاتے ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: It activates that worksheet\nوہ ورک شیٹ فعال ہو جاتی ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q015",
+      "sourceNumber": 15,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "Which interface part identifies the open workbook?\nانٹرفیس کا کون سا حصہ کھلی ورک بک کا نام بتاتا ہے؟",
+      "options": [
+        "Title Bar\nٹائٹل بار",
+        "Fill handle\nفل ہینڈل",
+        "Row heading\nقطار کی سرخی",
+        "Cell border\nسیل کا بارڈر"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Title Bar\nٹائٹل بار"
+    },
+    {
+      "id": "dit-excel-nov11-q016",
+      "sourceNumber": 16,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "What is the purpose of the Quick Access Toolbar?\nکوئیک ایکسیس ٹول بار کا مقصد کیا ہے؟",
+      "options": [
+        "Quick access to frequently used commands\nزیادہ استعمال ہونے والے کمانڈز تک فوری رسائی",
+        "To display only charts\nصرف چارٹس دکھانا",
+        "To replace worksheet cells\nورک شیٹ کے سیلز بدلنا",
+        "To calculate row numbers\nقطاروں کے نمبر گننا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Quick access to frequently used commands\nزیادہ استعمال ہونے والے کمانڈز تک فوری رسائی"
+    },
+    {
+      "id": "dit-excel-nov11-q017",
+      "sourceNumber": 17,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "What does the status bar normally provide?\nاسٹیٹس بار عموماً کیا دکھاتی ہے؟",
+      "options": [
+        "The computer serial number\nکمپیوٹر کا سیریل نمبر",
+        "The full VBA program\nمکمل VBA پروگرام",
+        "The saved file password\nمحفوظ فائل کا پاس ورڈ",
+        "Information about the current worksheet state\nورک شیٹ کی موجودہ حالت کی معلومات"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Information about the current worksheet state\nورک شیٹ کی موجودہ حالت کی معلومات"
+    },
+    {
+      "id": "dit-excel-nov11-q018",
+      "sourceNumber": 18,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "Which control changes the worksheet display magnification?\nکون سا کنٹرول ورک شیٹ کے دکھائی دینے والے سائز کو بدلتا ہے؟",
+      "options": [
+        "Formula separator\nفارمولا جداکار",
+        "Zoom control\nزوم کنٹرول",
+        "Sheet rename command\nشیٹ کا نام بدلنے کا کمانڈ",
+        "Name Box\nنیم باکس"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Zoom control\nزوم کنٹرول"
+    },
+    {
+      "id": "dit-excel-nov11-q019",
+      "sourceNumber": 19,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "How can you move to a cell whose address you know?\nاگر سیل کا پتہ معلوم ہو تو وہاں کیسے جائیں گے؟",
+      "options": [
+        "Open Page Layout view\nپیج لے آؤٹ ویو کھولیں",
+        "Type the reference in the Name Box\nنیم باکس میں سیل کا حوالہ لکھیں",
+        "Change the font color\nفونٹ کا رنگ بدلیں",
+        "Rename the workbook\nورک بک کا نام بدلیں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Type the reference in the Name Box\nنیم باکس میں سیل کا حوالہ لکھیں"
+    },
+    {
+      "id": "dit-excel-nov11-q020",
+      "sourceNumber": 20,
+      "topic": "02  Excel Interface and Navigation",
+      "question": "What do column headings identify?\nکالم کی سرخیاں کس چیز کی شناخت کرتی ہیں؟",
+      "options": [
+        "Printer settings\nپرنٹر کی ترتیبات",
+        "Only charts in the workbook\nورک بک کے صرف چارٹس",
+        "Vertical columns, usually labeled with letters\nعمودی کالم، عموماً حروف سے نشان زدہ",
+        "Horizontal rows numbered 1 onward\nافقی قطاریں جو 1 سے نمبر ہوتی ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Vertical columns, usually labeled with letters\nعمودی کالم، عموماً حروف سے نشان زدہ"
+    },
+    {
+      "id": "dit-excel-nov11-q021",
+      "sourceNumber": 21,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "Which action creates a separate new Excel file?\nکون سا عمل نئی علیحدہ Excel فائل بناتا ہے؟",
+      "options": [
+        "Adding a border to a cell\nسیل پر بارڈر لگانا",
+        "Creating a new workbook\nنئی ورک بک بنانا",
+        "Selecting one row\nایک قطار منتخب کرنا",
+        "Changing a chart color\nچارٹ کا رنگ بدلنا"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Creating a new workbook\nنئی ورک بک بنانا"
+    },
+    {
+      "id": "dit-excel-nov11-q022",
+      "sourceNumber": 22,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "How can an existing workbook be opened?\nموجودہ ورک بک کیسے کھولی جا سکتی ہے؟",
+      "options": [
+        "Select an empty cell\nخالی سیل منتخب کریں",
+        "Insert a column\nکالم داخل کریں",
+        "Change the zoom level\nزوم کی سطح بدلیں",
+        "Use Open and select the workbook file\nاوپن کمانڈ سے ورک بک کی فائل منتخب کریں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Use Open and select the workbook file\nاوپن کمانڈ سے ورک بک کی فائل منتخب کریں"
+    },
+    {
+      "id": "dit-excel-nov11-q023",
+      "sourceNumber": 23,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "Why use Save As instead of only Save?\nصرف Save کے بجائے Save As کیوں استعمال کرتے ہیں؟",
+      "options": [
+        "To sort numeric values\nاعداد ترتیب دینے کے لیے",
+        "To erase all formulas\nتمام فارمولے مٹانے کے لیے",
+        "To store a copy with a new name or location\nنئے نام یا مقام پر ایک نقل محفوظ کرنے کے لیے",
+        "To turn a row into a chart\nقطار کو چارٹ بنانے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To store a copy with a new name or location\nنئے نام یا مقام پر ایک نقل محفوظ کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q024",
+      "sourceNumber": 24,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "What is the effect of renaming a worksheet?\nورک شیٹ کا نام بدلنے کا کیا اثر ہوتا ہے؟",
+      "options": [
+        "Its tab label changes but cell data remains\nاس کے ٹیب کا نام بدلتا ہے مگر ڈیٹا برقرار رہتا ہے",
+        "The workbook closes\nورک بک بند ہو جاتی ہے",
+        "Every cell becomes empty\nہر سیل خالی ہو جاتا ہے",
+        "All charts disappear\nتمام چارٹس غائب ہو جاتے ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Its tab label changes but cell data remains\nاس کے ٹیب کا نام بدلتا ہے مگر ڈیٹا برقرار رہتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q025",
+      "sourceNumber": 25,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "When would you insert a worksheet?\nآپ نئی ورک شیٹ کب شامل کریں گے؟",
+      "options": [
+        "To replace the formula bar\nفارمولا بار بدلنے کے لیے",
+        "To edit an image driver\nتصویر کا ڈرائیور بدلنے کے لیے",
+        "To increase screen brightness\nاسکرین کی روشنی بڑھانے کے لیے",
+        "To organize another set of related data\nمتعلقہ ڈیٹا کے دوسرے مجموعے کو الگ منظم کرنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To organize another set of related data\nمتعلقہ ڈیٹا کے دوسرے مجموعے کو الگ منظم کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q026",
+      "sourceNumber": 26,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "What happens when a worksheet is deleted?\nورک شیٹ حذف کرنے سے کیا ہوتا ہے؟",
+      "options": [
+        "That sheet and its contents are removed\nوہ شیٹ اور اس کا مواد ختم ہو جاتا ہے",
+        "Only its tab color changes\nصرف ٹیب کا رنگ بدلتا ہے",
+        "The keyboard is disabled\nکی بورڈ بند ہو جاتا ہے",
+        "A copy is added automatically\nخودکار طور پر نقل شامل ہو جاتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: That sheet and its contents are removed\nوہ شیٹ اور اس کا مواد ختم ہو جاتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q027",
+      "sourceNumber": 27,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "Which option makes a second version of a sheet inside a workbook?\nکون سا آپشن ورک بک کے اندر شیٹ کی دوسری نقل بناتا ہے؟",
+      "options": [
+        "Move or Copy with Create a copy\nموو یا کاپی میں Create a copy",
+        "Delete Cells\nسیلز حذف کرنا",
+        "Change Font Size\nفونٹ سائز بدلنا",
+        "Sort A to Z\nالف سے یے ترتیب دینا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Move or Copy with Create a copy\nموو یا کاپی میں Create a copy"
+    },
+    {
+      "id": "dit-excel-nov11-q028",
+      "sourceNumber": 28,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "How is a workbook different from its saved filename?\nورک بک اور محفوظ فائل کے نام میں کیا فرق ہے؟",
+      "options": [
+        "They refer to two different printers\nیہ دو مختلف پرنٹرز ہیں",
+        "Workbook is only a row\nورک بک صرف ایک قطار ہے",
+        "Filename is always a cell address\nفائل کا نام ہمیشہ سیل کا پتہ ہوتا ہے",
+        "Workbook is the file content; filename identifies it\nورک بک فائل کا مواد ہے جبکہ فائل کا نام اس کی شناخت ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Workbook is the file content; filename identifies it\nورک بک فائل کا مواد ہے جبکہ فائل کا نام اس کی شناخت ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q029",
+      "sourceNumber": 29,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "What should you do before closing an edited workbook?\nترمیم شدہ ورک بک بند کرنے سے پہلے کیا کرنا چاہیے؟",
+      "options": [
+        "Delete the active cell\nفعال سیل حذف کریں",
+        "Save changes if you want to keep them\nاگر تبدیلیاں برقرار رکھنی ہوں تو محفوظ کریں",
+        "Remove all formulas\nتمام فارمولے ختم کریں",
+        "Turn off worksheet headings\nورک شیٹ کی سرخیاں بند کریں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Save changes if you want to keep them\nاگر تبدیلیاں برقرار رکھنی ہوں تو محفوظ کریں"
+    },
+    {
+      "id": "dit-excel-nov11-q030",
+      "sourceNumber": 30,
+      "topic": "03  Workbooks and Worksheets",
+      "question": "What is the purpose of moving a worksheet tab?\nورک شیٹ کے ٹیب کو منتقل کرنے کا مقصد کیا ہے؟",
+      "options": [
+        "To change the sheet order\nشیٹس کی ترتیب بدلنے کے لیے",
+        "To remove its columns\nاس کے کالم ختم کرنے کے لیے",
+        "To open a web browser\nویب براؤزر کھولنے کے لیے",
+        "To calculate an average\nاوسط نکالنے کے لیے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: To change the sheet order\nشیٹس کی ترتیب بدلنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q031",
+      "sourceNumber": 31,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "What does the reference C5 identify?\nحوالہ C5 کس جگہ کی شناخت کرتا ہے؟",
+      "options": [
+        "Cell C in five files\nپانچ فائلوں میں سیل C",
+        "Column 5 and row C\nکالم 5 اور قطار C",
+        "Column C and row 5\nکالم C اور قطار 5",
+        "Five workbooks\nپانچ ورک بکس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Column C and row 5\nکالم C اور قطار 5"
+    },
+    {
+      "id": "dit-excel-nov11-q032",
+      "sourceNumber": 32,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "What happens when you type in a selected cell and press Enter?\nمنتخب سیل میں لکھ کر Enter دبانے سے کیا ہوتا ہے؟",
+      "options": [
+        "The worksheet is deleted\nورک شیٹ حذف ہو جاتی ہے",
+        "The entry is accepted\nاندراج قبول ہو جاتا ہے",
+        "The formula bar disappears\nفارمولا بار غائب ہو جاتی ہے",
+        "A chart appears automatically\nخودکار چارٹ بن جاتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: The entry is accepted\nاندراج قبول ہو جاتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q033",
+      "sourceNumber": 33,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "When is Edit mode useful?\nایڈٹ موڈ کب مفید ہوتا ہے؟",
+      "options": [
+        "When changing part of an existing cell entry\nجب سیل کے موجودہ اندراج کا کچھ حصہ بدلنا ہو",
+        "When locking the keyboard\nجب کی بورڈ لاک کرنا ہو",
+        "When installing a printer\nجب پرنٹر نصب کرنا ہو",
+        "When turning off Excel\nجب Excel بند کرنا ہو"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: When changing part of an existing cell entry\nجب سیل کے موجودہ اندراج کا کچھ حصہ بدلنا ہو"
+    },
+    {
+      "id": "dit-excel-nov11-q034",
+      "sourceNumber": 34,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "What does selecting a range A1:A5 mean?\nرینج A1:A5 منتخب کرنے کا کیا مطلب ہے؟",
+      "options": [
+        "Selecting only cell A5\nصرف سیل A5 منتخب کرنا",
+        "Selecting five different workbooks\nپانچ مختلف ورک بکس منتخب کرنا",
+        "Selecting five columns\nپانچ کالم منتخب کرنا",
+        "Selecting five cells in column A\nکالم A کے پانچ سیلز منتخب کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Selecting five cells in column A\nکالم A کے پانچ سیلز منتخب کرنا"
+    },
+    {
+      "id": "dit-excel-nov11-q035",
+      "sourceNumber": 35,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "Which operation places a duplicate of data at a new position?\nکون سا عمل ڈیٹا کی نقل نئی جگہ رکھتا ہے؟",
+      "options": [
+        "Cut without Paste\nصرف کٹ کرنا",
+        "Close\nبند کرنا",
+        "Copy and Paste\nکاپی اور پیسٹ",
+        "Delete\nحذف کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Copy and Paste\nکاپی اور پیسٹ"
+    },
+    {
+      "id": "dit-excel-nov11-q036",
+      "sourceNumber": 36,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "What is the main difference between Cut and Copy?\nCut اور Copy میں بنیادی فرق کیا ہے؟",
+      "options": [
+        "Copy changes all formulas to text\nکاپی تمام فارمولوں کو متن بناتی ہے",
+        "Both always delete the original\nدونوں ہمیشہ اصل مواد مٹا دیتے ہیں",
+        "Cut is used only for printing\nکٹ صرف پرنٹنگ کے لیے ہے",
+        "Cut moves content; Copy duplicates it\nکٹ مواد منتقل کرتا ہے جبکہ کاپی نقل بناتی ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Cut moves content; Copy duplicates it\nکٹ مواد منتقل کرتا ہے جبکہ کاپی نقل بناتی ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q037",
+      "sourceNumber": 37,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "How do you create space for a new column among existing columns?\nموجودہ کالموں کے درمیان نیا کالم کیسے شامل کریں گے؟",
+      "options": [
+        "Increase zoom\nزوم بڑھائیں",
+        "Save the file\nفائل محفوظ کریں",
+        "Insert a column\nکالم داخل کریں",
+        "Insert a chart legend\nچارٹ کی لیجنڈ شامل کریں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Insert a column\nکالم داخل کریں"
+    },
+    {
+      "id": "dit-excel-nov11-q038",
+      "sourceNumber": 38,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "Which task is achieved by deleting a selected row?\nمنتخب قطار کو حذف کرنے سے کیا ہوتا ہے؟",
+      "options": [
+        "The entire selected row is removed\nمکمل منتخب قطار ختم ہو جاتی ہے",
+        "The workbook renames itself\nورک بک خود اپنا نام بدلتی ہے",
+        "The formula bar resets\nفارمولا بار ری سیٹ ہوتی ہے",
+        "Only its font changes\nصرف فونٹ بدلتا ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The entire selected row is removed\nمکمل منتخب قطار ختم ہو جاتی ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q039",
+      "sourceNumber": 39,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "Why use AutoFill for a number series?\nاعداد کی ترتیب کے لیے AutoFill کیوں استعمال کرتے ہیں؟",
+      "options": [
+        "To continue a detected pattern efficiently\nشناخت شدہ ترتیب کو تیزی سے آگے بڑھانے کے لیے",
+        "To erase all cell values\nتمام سیلز کی قدریں مٹانے کے لیے",
+        "To print every formula\nہر فارمولا پرنٹ کرنے کے لیے",
+        "To create a new workbook file\nورک بک کی نئی فائل بنانے کے لیے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: To continue a detected pattern efficiently\nشناخت شدہ ترتیب کو تیزی سے آگے بڑھانے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q040",
+      "sourceNumber": 40,
+      "topic": "04  Cells, Rows and Data Editing",
+      "question": "Which feature is most suitable to find a specific word in many cells?\nبہت سے سیلز میں مخصوص لفظ ڈھونڈنے کے لیے کون سی خصوصیت مناسب ہے؟",
+      "options": [
+        "Merge\nمرج (Merge)",
+        "Zoom\nزوم (Zoom)",
+        "New Sheet\nنئی شیٹ",
+        "Find\nفائنڈ (Find)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Find\nفائنڈ (Find)"
+    },
+    {
+      "id": "dit-excel-nov11-q041",
+      "sourceNumber": 41,
+      "topic": "05  Formatting and Data Organization",
+      "question": "Why format cells as Currency?\nسیلز کو Currency فارمیٹ میں کیوں دکھاتے ہیں؟",
+      "options": [
+        "To delete decimal values\nاعشاری قدریں حذف کرنے کے لیے",
+        "To convert numbers into pictures\nاعداد کو تصاویر بنانے کے لیے",
+        "To create a hyperlink\nہائپر لنک بنانے کے لیے",
+        "To present money values clearly\nرقم کی قدریں واضح انداز میں دکھانے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To present money values clearly\nرقم کی قدریں واضح انداز میں دکھانے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q042",
+      "sourceNumber": 42,
+      "topic": "05  Formatting and Data Organization",
+      "question": "What does cell alignment control?\nسیل الائنمنٹ کس چیز کو کنٹرول کرتی ہے؟",
+      "options": [
+        "Workbook file name\nورک بک کی فائل کا نام",
+        "Worksheet count\nورک شیٹس کی تعداد",
+        "Position of content within the cell\nسیل کے اندر مواد کی جگہ",
+        "Formula calculation order\nفارمولے کے حساب کی ترتیب"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Position of content within the cell\nسیل کے اندر مواد کی جگہ"
+    },
+    {
+      "id": "dit-excel-nov11-q043",
+      "sourceNumber": 43,
+      "topic": "05  Formatting and Data Organization",
+      "question": "Why might you apply a border around a table?\nٹیبل کے گرد بارڈر کیوں لگاتے ہیں؟",
+      "options": [
+        "To change numbers into dates\nاعداد کو تاریخ بنانے کے لیے",
+        "To hide the workbook\nورک بک چھپانے کے لیے",
+        "To distinguish cells and improve readability\nسیلز الگ دکھانے اور پڑھنے میں آسانی کے لیے",
+        "To write a macro automatically\nخودکار میکرو لکھنے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To distinguish cells and improve readability\nسیلز الگ دکھانے اور پڑھنے میں آسانی کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q044",
+      "sourceNumber": 44,
+      "topic": "05  Formatting and Data Organization",
+      "question": "Which option changes the appearance but not the underlying number?\nکون سا آپشن بنیادی عدد بدلے بغیر اس کی ظاہری شکل بدلتا ہے؟",
+      "options": [
+        "Deleting the cell\nسیل حذف کرنا",
+        "Replacing the formula\nفارمولا بدلنا",
+        "Cutting the column\nکالم کٹ کرنا",
+        "Number formatting\nنمبر فارمیٹنگ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Number formatting\nنمبر فارمیٹنگ"
+    },
+    {
+      "id": "dit-excel-nov11-q045",
+      "sourceNumber": 45,
+      "topic": "05  Formatting and Data Organization",
+      "question": "What is the effect of merging adjacent cells?\nمتصل سیلز کو مرج کرنے سے کیا ہوتا ہے؟",
+      "options": [
+        "They become one larger cell area\nوہ ایک بڑے سیل کے حصے میں بدل جاتے ہیں",
+        "The worksheet becomes read-only\nورک شیٹ صرف پڑھنے کے قابل ہو جاتی ہے",
+        "All values are sorted\nتمام قدریں ترتیب میں آ جاتی ہیں",
+        "Every row is deleted\nہر قطار حذف ہو جاتی ہے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: They become one larger cell area\nوہ ایک بڑے سیل کے حصے میں بدل جاتے ہیں"
+    },
+    {
+      "id": "dit-excel-nov11-q046",
+      "sourceNumber": 46,
+      "topic": "05  Formatting and Data Organization",
+      "question": "How can you emphasize a heading in a worksheet?\nورک شیٹ میں سرخی نمایاں کیسے کریں گے؟",
+      "options": [
+        "Apply bold font or suitable fill color\nبولڈ فونٹ یا مناسب فل رنگ لگائیں",
+        "Close the formula bar\nفارمولا بار بند کریں",
+        "Change the file extension\nفائل کی ایکسٹینشن بدلیں",
+        "Remove its entire row\nاس کی پوری قطار حذف کریں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Apply bold font or suitable fill color\nبولڈ فونٹ یا مناسب فل رنگ لگائیں"
+    },
+    {
+      "id": "dit-excel-nov11-q047",
+      "sourceNumber": 47,
+      "topic": "05  Formatting and Data Organization",
+      "question": "Which command arranges a data column from smallest to largest?\nکون سا کمانڈ ڈیٹا کے کالم کو چھوٹی سے بڑی قدر تک ترتیب دیتا ہے؟",
+      "options": [
+        "Descending sort\nنزولی ترتیب",
+        "Freeze Panes\nفریز پینز",
+        "Ascending sort\nصعودی ترتیب",
+        "Merge Cells\nمرج سیلز"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Ascending sort\nصعودی ترتیب"
+    },
+    {
+      "id": "dit-excel-nov11-q048",
+      "sourceNumber": 48,
+      "topic": "05  Formatting and Data Organization",
+      "question": "What is the benefit of filtering a large table?\nبڑے ٹیبل کو فلٹر کرنے کا فائدہ کیا ہے؟",
+      "options": [
+        "Show records meeting chosen conditions\nصرف منتخب شرائط پر پورا اترنے والے ریکارڈ دکھانا",
+        "Convert the table into a macro\nٹیبل کو میکرو بنانا",
+        "Permanently delete all hidden records\nتمام چھپے ریکارڈ مستقل حذف کرنا",
+        "Change worksheet size to A4\nورک شیٹ کا سائز A4 کرنا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Show records meeting chosen conditions\nصرف منتخب شرائط پر پورا اترنے والے ریکارڈ دکھانا"
+    },
+    {
+      "id": "dit-excel-nov11-q049",
+      "sourceNumber": 49,
+      "topic": "05  Formatting and Data Organization",
+      "question": "Why would you change column width?\nکالم کی چوڑائی کیوں بدلتے ہیں؟",
+      "options": [
+        "To erase the sheet name\nشیٹ کا نام مٹانے کے لیے",
+        "To alter formula logic\nفارمولے کی منطق بدلنے کے لیے",
+        "To show longer entries more clearly\nطویل اندراجات بہتر دکھانے کے لیے",
+        "To turn rows into pages\nقطاروں کو صفحات بنانے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To show longer entries more clearly\nطویل اندراجات بہتر دکھانے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q050",
+      "sourceNumber": 50,
+      "topic": "05  Formatting and Data Organization",
+      "question": "What does wrapping text in a cell do?\nسیل میں Wrap Text کا کیا کام ہے؟",
+      "options": [
+        "Deletes extra words\nاضافی الفاظ حذف کرتا ہے",
+        "Adds a new sheet\nنئی شیٹ بناتا ہے",
+        "Changes letters to formulas\nحروف کو فارمولوں میں بدلتا ہے",
+        "Displays long text on multiple lines inside the cell\nلمبی تحریر سیل کے اندر کئی سطروں میں دکھاتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Displays long text on multiple lines inside the cell\nلمبی تحریر سیل کے اندر کئی سطروں میں دکھاتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q051",
+      "sourceNumber": 51,
+      "topic": "06  Formulas and Common Functions",
+      "question": "Which symbol normally begins an Excel formula?\nExcel میں فارمولا عموماً کس علامت سے شروع ہوتا ہے؟",
+      "options": [
+        "Hash sign (#)\nہیش (#)",
+        "Percent sign (%)\nفیصد (%)",
+        "At sign (@)\nایٹ سائن (@)",
+        "Equals sign (=)\nبرابر کی علامت (=)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Equals sign (=)\nبرابر کی علامت (=)"
+    },
+    {
+      "id": "dit-excel-nov11-q052",
+      "sourceNumber": 52,
+      "topic": "06  Formulas and Common Functions",
+      "question": "If A1 is 4 and B1 is 6, what does =A1+B1 return?\nاگر A1 میں 4 اور B1 میں 6 ہو تو =A1+B1 کیا دے گا؟",
+      "options": [
+        "46\n46",
+        "10\n10",
+        "24\n24",
+        "2\n2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 10\n10"
+    },
+    {
+      "id": "dit-excel-nov11-q053",
+      "sourceNumber": 53,
+      "topic": "06  Formulas and Common Functions",
+      "question": "Which formula adds values in A1 through A5?\nکون سا فارمولا A1 سے A5 کی قدریں جمع کرتا ہے؟",
+      "options": [
+        "=AVERAGE(A1:A5)\n=AVERAGE(A1:A5)",
+        "=SUM(A1,A5) only\n=SUM(A1,A5) صرف",
+        "=SUM(A1:A5)\n=SUM(A1:A5)",
+        "=COUNT(A1:A5)\n=COUNT(A1:A5)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: =SUM(A1:A5)\n=SUM(A1:A5)"
+    },
+    {
+      "id": "dit-excel-nov11-q054",
+      "sourceNumber": 54,
+      "topic": "06  Formulas and Common Functions",
+      "question": "What does =AVERAGE(B1:B4) calculate?\n=AVERAGE(B1:B4) کیا حساب کرتا ہے؟",
+      "options": [
+        "Largest value only\nصرف سب سے بڑی قدر",
+        "Smallest value only\nصرف سب سے چھوٹی قدر",
+        "Arithmetic mean of the values\nقدروں کا حسابی اوسط",
+        "Total count of words\nالفاظ کی کل تعداد"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Arithmetic mean of the values\nقدروں کا حسابی اوسط"
+    },
+    {
+      "id": "dit-excel-nov11-q055",
+      "sourceNumber": 55,
+      "topic": "06  Formulas and Common Functions",
+      "question": "Which function finds the largest number in a range?\nکون سا فنکشن رینج میں سب سے بڑا عدد تلاش کرتا ہے؟",
+      "options": [
+        "COUNT\nCOUNT",
+        "MIN\nMIN",
+        "LEFT\nLEFT",
+        "MAX\nMAX"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: MAX\nMAX"
+    },
+    {
+      "id": "dit-excel-nov11-q056",
+      "sourceNumber": 56,
+      "topic": "06  Formulas and Common Functions",
+      "question": "Which function finds the smallest numerical value?\nکون سا فنکشن سب سے چھوٹی عددی قدر تلاش کرتا ہے؟",
+      "options": [
+        "RIGHT\nRIGHT",
+        "MIN\nMIN",
+        "MAX\nMAX",
+        "SUM\nSUM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: MIN\nMIN"
+    },
+    {
+      "id": "dit-excel-nov11-q057",
+      "sourceNumber": 57,
+      "topic": "06  Formulas and Common Functions",
+      "question": "Which function counts cells containing numbers?\nکون سا فنکشن عددی ڈیٹا والے سیلز گنتا ہے؟",
+      "options": [
+        "COUNT\nCOUNT",
+        "SUM\nSUM",
+        "AVERAGE\nAVERAGE",
+        "UPPER\nUPPER"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: COUNT\nCOUNT"
+    },
+    {
+      "id": "dit-excel-nov11-q058",
+      "sourceNumber": 58,
+      "topic": "06  Formulas and Common Functions",
+      "question": "Why are cell references useful in a formula?\nفارمولے میں سیل ریفرنس استعمال کرنا کیوں مفید ہے؟",
+      "options": [
+        "They turn the formula into an image\nیہ فارمولے کو تصویر بناتے ہیں",
+        "Results update when referenced values change\nحوالہ شدہ قدریں بدلیں تو نتیجہ بھی بدل جاتا ہے",
+        "They remove rows automatically\nیہ قطاریں خود حذف کرتے ہیں",
+        "They prevent saving the file\nیہ فائل محفوظ نہیں ہونے دیتے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Results update when referenced values change\nحوالہ شدہ قدریں بدلیں تو نتیجہ بھی بدل جاتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q059",
+      "sourceNumber": 59,
+      "topic": "06  Formulas and Common Functions",
+      "question": "What does =A2*B2 calculate?\n=A2*B2 کیا حساب کرتا ہے؟",
+      "options": [
+        "Sum of A2 and B2\nA2 اور B2 کا مجموعہ",
+        "Product of A2 and B2\nA2 اور B2 کا حاصل ضرب",
+        "Average of A2 and B2\nA2 اور B2 کا اوسط",
+        "Difference between A2 and B2\nA2 اور B2 کا فرق"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Product of A2 and B2\nA2 اور B2 کا حاصل ضرب"
+    },
+    {
+      "id": "dit-excel-nov11-q060",
+      "sourceNumber": 60,
+      "topic": "06  Formulas and Common Functions",
+      "question": "If a formula is entered correctly, what appears in its cell by default?\nاگر فارمولا درست درج ہو تو سیل میں عموماً کیا نظر آتا ہے؟",
+      "options": [
+        "Its calculated result\nاس کا حساب شدہ نتیجہ",
+        "The file path\nفائل کا راستہ",
+        "The ribbon tab name\nربن ٹیب کا نام",
+        "Only a printed page\nصرف پرنٹ شدہ صفحہ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Its calculated result\nاس کا حساب شدہ نتیجہ"
+    },
+    {
+      "id": "dit-excel-nov11-q061",
+      "sourceNumber": 61,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "When copying =A1+B1 one row down, what is expected?\n=A1+B1 کو ایک قطار نیچے کاپی کرنے پر کیا ہوگا؟",
+      "options": [
+        "It becomes =A2+B2\nیہ =A2+B2 ہو جائے گا",
+        "It becomes =C1+D1\nیہ =C1+D1 ہو جائے گا",
+        "It becomes =$A$1+$B$1\nیہ =$A$1+$B$1 ہو جائے گا",
+        "It remains =A1+B1 in every case\nیہ ہر حال میں =A1+B1 رہے گا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: It becomes =A2+B2\nیہ =A2+B2 ہو جائے گا"
+    },
+    {
+      "id": "dit-excel-nov11-q062",
+      "sourceNumber": 62,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "Which reference keeps both column and row fixed when copied?\nکون سا حوالہ کاپی کرنے پر کالم اور قطار دونوں مستقل رکھتا ہے؟",
+      "options": [
+        "$A1\n$A1",
+        "A$1\nA$1",
+        "A1\nA1",
+        "$A$1\n$A$1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: $A$1\n$A$1"
+    },
+    {
+      "id": "dit-excel-nov11-q063",
+      "sourceNumber": 63,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "What does $A1 lock in a copied formula?\nکاپی کیے گئے فارمولے میں $A1 کس چیز کو مستقل رکھتا ہے؟",
+      "options": [
+        "Row 1 only\nصرف قطار 1",
+        "Neither row nor column\nنہ قطار نہ کالم",
+        "Both row and column\nقطار اور کالم دونوں",
+        "Column A only\nصرف کالم A"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Column A only\nصرف کالم A"
+    },
+    {
+      "id": "dit-excel-nov11-q064",
+      "sourceNumber": 64,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "What does A$1 lock in a copied formula?\nکاپی کیے گئے فارمولے میں A$1 کس چیز کو مستقل رکھتا ہے؟",
+      "options": [
+        "Both row and column\nقطار اور کالم دونوں",
+        "Neither row nor column\nنہ قطار نہ کالم",
+        "Row 1 only\nصرف قطار 1",
+        "Column A only\nصرف کالم A"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Row 1 only\nصرف قطار 1"
+    },
+    {
+      "id": "dit-excel-nov11-q065",
+      "sourceNumber": 65,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "Why use an absolute reference for a tax-rate cell?\nٹیکس کی شرح والے سیل کے لیے ایبسولوٹ ریفرنس کیوں استعمال کریں گے؟",
+      "options": [
+        "To remove tax from all rows\nتمام قطاروں سے ٹیکس ختم کرنے کے لیے",
+        "To sort rates alphabetically\nشرحوں کو حروف تہجی سے ترتیب دینے کے لیے",
+        "To insert a blank chart\nخالی چارٹ بنانے کے لیے",
+        "To keep the same rate cell when copying the formula\nفارمولا کاپی کرنے پر شرح والا سیل ایک ہی رکھنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To keep the same rate cell when copying the formula\nفارمولا کاپی کرنے پر شرح والا سیل ایک ہی رکھنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q066",
+      "sourceNumber": 66,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "Which reference changes both its row and column when copied across and down?\nکون سا ریفرنس دائیں اور نیچے کاپی کرنے پر قطار اور کالم دونوں بدلتا ہے؟",
+      "options": [
+        "Fully fixed reference\nمکمل مستقل ریفرنس",
+        "Relative reference\nریلیٹو ریفرنس",
+        "Absolute reference\nایبسولوٹ ریفرنس",
+        "Named file path\nفائل کا نامی راستہ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Relative reference\nریلیٹو ریفرنس"
+    },
+    {
+      "id": "dit-excel-nov11-q067",
+      "sourceNumber": 67,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "Which reference is mixed rather than fully absolute or relative?\nکون سا ریفرنس مکمل ایبسولوٹ یا ریلیٹو کے بجائے مکسڈ ہے؟",
+      "options": [
+        "B3\nB3",
+        "B$3\nB$3",
+        "3B\n3B",
+        "$B$3\n$B$3"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: B$3\nB$3"
+    },
+    {
+      "id": "dit-excel-nov11-q068",
+      "sourceNumber": 68,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "If =$C$2*A4 is copied to the next row, which part stays fixed?\nاگر =$C$2*A4 اگلی قطار میں کاپی ہو تو کون سا حصہ مستقل رہے گا؟",
+      "options": [
+        "The multiplication operator disappears\nضرب کی علامت ختم ہو جائے گی",
+        "A4\nA4",
+        "$C$2\n$C$2",
+        "Both references change\nدونوں ریفرنس بدلیں گے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: $C$2\n$C$2"
+    },
+    {
+      "id": "dit-excel-nov11-q069",
+      "sourceNumber": 69,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "Why is relative referencing useful in a marks sheet?\nمارکس شیٹ میں ریلیٹو ریفرنسنگ کیوں مفید ہے؟",
+      "options": [
+        "It automatically creates a chart\nیہ خود چارٹ بنا دیتا ہے",
+        "Every student's mark becomes identical\nہر طالب علم کے نمبر یکساں ہو جاتے ہیں",
+        "It removes the need for cell data\nاس سے سیل ڈیٹا کی ضرورت ختم ہو جاتی ہے",
+        "One formula can adapt to different student rows\nایک فارمولا مختلف طلبہ کی قطاروں کے مطابق بدل سکتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: One formula can adapt to different student rows\nایک فارمولا مختلف طلبہ کی قطاروں کے مطابق بدل سکتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q070",
+      "sourceNumber": 70,
+      "topic": "07  Cell References: Relative, Absolute and Mixed",
+      "question": "What is the purpose of the dollar sign in Excel references?\nExcel ریفرنس میں ڈالر ($) کی علامت کا مقصد کیا ہے؟",
+      "options": [
+        "To start a new worksheet\nنئی ورک شیٹ شروع کرنا",
+        "To format every value as money\nہر قدر کو روپے میں دکھانا",
+        "To fix a row or column reference\nقطار یا کالم کا حوالہ مستقل کرنا",
+        "To add two numbers\nدو عدد جمع کرنا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To fix a row or column reference\nقطار یا کالم کا حوالہ مستقل کرنا"
+    },
+    {
+      "id": "dit-excel-nov11-q071",
+      "sourceNumber": 71,
+      "topic": "08  Logical and Summary Functions",
+      "question": "Which function counts cells that meet a condition?\nکون سا فنکشن شرط پوری کرنے والے سیلز کو گنتا ہے؟",
+      "options": [
+        "COUNT\nCOUNT",
+        "COUNTIF\nCOUNTIF",
+        "MAX\nMAX",
+        "LEFT\nLEFT"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: COUNTIF\nCOUNTIF"
+    },
+    {
+      "id": "dit-excel-nov11-q072",
+      "sourceNumber": 72,
+      "topic": "08  Logical and Summary Functions",
+      "question": "Which function sums values only when a condition is true?\nکون سا فنکشن صرف شرط پوری ہونے پر قدروں کو جمع کرتا ہے؟",
+      "options": [
+        "RIGHT\nRIGHT",
+        "MIN\nMIN",
+        "SUM\nSUM",
+        "SUMIF\nSUMIF"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: SUMIF\nSUMIF"
+    },
+    {
+      "id": "dit-excel-nov11-q073",
+      "sourceNumber": 73,
+      "topic": "08  Logical and Summary Functions",
+      "question": "If student marks are in B2:B10, which function gives the highest mark?\nاگر طلبہ کے نمبر B2:B10 میں ہوں تو سب سے زیادہ نمبر کون سا فنکشن دے گا؟",
+      "options": [
+        "MIN(B2:B10)\nMIN(B2:B10)",
+        "MAX(B2:B10)\nMAX(B2:B10)",
+        "LEFT(B2:B10)\nLEFT(B2:B10)",
+        "COUNT(B2:B10)\nCOUNT(B2:B10)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: MAX(B2:B10)\nMAX(B2:B10)"
+    },
+    {
+      "id": "dit-excel-nov11-q074",
+      "sourceNumber": 74,
+      "topic": "08  Logical and Summary Functions",
+      "question": "What does =IF(A1>=50,\"Pass\",\"Fail\") do?\n=IF(A1>=50,\"Pass\",\"Fail\") کیا کرتا ہے؟",
+      "options": [
+        "Adds 50 to A1\nA1 میں 50 جمع کرتا ہے",
+        "Returns Pass if A1 is at least 50; otherwise Fail\nA1 کم از کم 50 ہو تو Pass ورنہ Fail دیتا ہے",
+        "Counts text in A1\nA1 میں متن گنتا ہے",
+        "Always returns Pass\nہمیشہ Pass دیتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Returns Pass if A1 is at least 50; otherwise Fail\nA1 کم از کم 50 ہو تو Pass ورنہ Fail دیتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q075",
+      "sourceNumber": 75,
+      "topic": "08  Logical and Summary Functions",
+      "question": "When does AND return TRUE?\nAND کب TRUE دیتا ہے؟",
+      "options": [
+        "When any one condition is true\nجب کوئی ایک شرط درست ہو",
+        "Only when values are text\nصرف جب قدریں متن ہوں",
+        "Whenever a cell is empty\nجب بھی سیل خالی ہو",
+        "When every supplied condition is true\nجب دی گئی تمام شرائط درست ہوں"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: When every supplied condition is true\nجب دی گئی تمام شرائط درست ہوں"
+    },
+    {
+      "id": "dit-excel-nov11-q076",
+      "sourceNumber": 76,
+      "topic": "08  Logical and Summary Functions",
+      "question": "When does OR return TRUE?\nOR کب TRUE دیتا ہے؟",
+      "options": [
+        "When at least one condition is true\nجب کم از کم ایک شرط درست ہو",
+        "Only when all conditions are false\nصرف جب تمام شرائط غلط ہوں",
+        "When the workbook is saved\nجب ورک بک محفوظ ہو",
+        "Only when all numbers are zero\nصرف جب تمام اعداد صفر ہوں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: When at least one condition is true\nجب کم از کم ایک شرط درست ہو"
+    },
+    {
+      "id": "dit-excel-nov11-q077",
+      "sourceNumber": 77,
+      "topic": "08  Logical and Summary Functions",
+      "question": "Why use COUNTIF for attendance data?\nحاضری کے ڈیٹا میں COUNTIF کیوں مفید ہے؟",
+      "options": [
+        "To change student names\nطلبہ کے نام بدلنے کے لیے",
+        "To merge every column\nتمام کالم ضم کرنے کے لیے",
+        "To count entries marked Present\nPresent نشان والے اندراج گننے کے لیے",
+        "To draw a pie chart directly\nبراہ راست پائی چارٹ بنانے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To count entries marked Present\nPresent نشان والے اندراج گننے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q078",
+      "sourceNumber": 78,
+      "topic": "08  Logical and Summary Functions",
+      "question": "Which function is appropriate to find the mean of monthly expenses?\nماہانہ اخراجات کا اوسط معلوم کرنے کے لیے کون سا فنکشن موزوں ہے؟",
+      "options": [
+        "RIGHT\nRIGHT",
+        "COUNTIF\nCOUNTIF",
+        "CONCATENATE\nCONCATENATE",
+        "AVERAGE\nAVERAGE"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: AVERAGE\nAVERAGE"
+    },
+    {
+      "id": "dit-excel-nov11-q079",
+      "sourceNumber": 79,
+      "topic": "08  Logical and Summary Functions",
+      "question": "How do SUM and SUMIF differ?\nSUM اور SUMIF میں کیا فرق ہے؟",
+      "options": [
+        "SUM adds values; SUMIF adds those meeting a criterion\nSUM تمام قدریں جمع کرتا ہے جبکہ SUMIF شرط والی قدریں",
+        "SUMIF always multiplies values\nSUMIF ہمیشہ ضرب دیتا ہے",
+        "SUM works only on words\nSUM صرف الفاظ پر کام کرتا ہے",
+        "Both change font formatting\nدونوں فونٹ فارمیٹنگ بدلتے ہیں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: SUM adds values; SUMIF adds those meeting a criterion\nSUM تمام قدریں جمع کرتا ہے جبکہ SUMIF شرط والی قدریں"
+    },
+    {
+      "id": "dit-excel-nov11-q080",
+      "sourceNumber": 80,
+      "topic": "08  Logical and Summary Functions",
+      "question": "Which logical function is best when both eligibility conditions must hold?\nاگر اہلیت کی دونوں شرائط پوری ہونا ضروری ہوں تو کون سا فنکشن مناسب ہے؟",
+      "options": [
+        "COUNT\nCOUNT",
+        "AND\nAND",
+        "MAX\nMAX",
+        "OR\nOR"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: AND\nAND"
+    },
+    {
+      "id": "dit-excel-nov11-q081",
+      "sourceNumber": 81,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "What does LEFT(\"Excel\",2) return?\nLEFT(\"Excel\",2) کیا واپس کرتا ہے؟",
+      "options": [
+        "Ex\nEx",
+        "Excel2\nExcel2",
+        "ce\nce",
+        "el\nel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Ex\nEx"
+    },
+    {
+      "id": "dit-excel-nov11-q082",
+      "sourceNumber": 82,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "What does RIGHT(\"Excel\",2) return?\nRIGHT(\"Excel\",2) کیا واپس کرتا ہے؟",
+      "options": [
+        "2\n2",
+        "el\nel",
+        "xc\nxc",
+        "Ex\nEx"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: el\nel"
+    },
+    {
+      "id": "dit-excel-nov11-q083",
+      "sourceNumber": 83,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "Which function extracts characters from the middle of text?\nکون سا فنکشن متن کے درمیان سے حروف نکالتا ہے؟",
+      "options": [
+        "MAX\nMAX",
+        "MID\nMID",
+        "COUNT\nCOUNT",
+        "SUM\nSUM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: MID\nMID"
+    },
+    {
+      "id": "dit-excel-nov11-q084",
+      "sourceNumber": 84,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "What is the purpose of TRIM in text data?\nمتنی ڈیٹا میں TRIM کا مقصد کیا ہے؟",
+      "options": [
+        "Count only blank rows\nصرف خالی قطاریں گننا",
+        "Add a numeric total\nعددی مجموعہ بنانا",
+        "Change all text to uppercase\nتمام متن بڑے حروف میں کرنا",
+        "Remove extra spaces\nاضافی اسپیس ختم کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Remove extra spaces\nاضافی اسپیس ختم کرنا"
+    },
+    {
+      "id": "dit-excel-nov11-q085",
+      "sourceNumber": 85,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "Which function converts text to uppercase letters?\nکون سا فنکشن متن کو بڑے انگریزی حروف میں بدلتا ہے؟",
+      "options": [
+        "UPPER\nUPPER",
+        "LEFT\nLEFT",
+        "MIN\nMIN",
+        "LOWER\nLOWER"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: UPPER\nUPPER"
+    },
+    {
+      "id": "dit-excel-nov11-q086",
+      "sourceNumber": 86,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "Which function converts text to lowercase letters?\nکون سا فنکشن متن کو چھوٹے انگریزی حروف میں بدلتا ہے؟",
+      "options": [
+        "LOWER\nLOWER",
+        "SUM\nSUM",
+        "UPPER\nUPPER",
+        "COUNT\nCOUNT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: LOWER\nLOWER"
+    },
+    {
+      "id": "dit-excel-nov11-q087",
+      "sourceNumber": 87,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "Which function can join a first name and last name?\nکون سا فنکشن پہلا اور آخری نام آپس میں جوڑ سکتا ہے؟",
+      "options": [
+        "MIN\nMIN",
+        "MAX\nMAX",
+        "COUNTIF\nCOUNTIF",
+        "CONCATENATE\nCONCATENATE"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: CONCATENATE\nCONCATENATE"
+    },
+    {
+      "id": "dit-excel-nov11-q088",
+      "sourceNumber": 88,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "What does the colon mean in A1:A10?\nA1:A10 میں کولن (:) کا کیا مطلب ہے؟",
+      "options": [
+        "A chart title\nچارٹ کا عنوان",
+        "A new workbook\nنئی ورک بک",
+        "A continuous cell range\nمسلسل سیلز کی رینج",
+        "An absolute reference\nایبسولوٹ ریفرنس"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: A continuous cell range\nمسلسل سیلز کی رینج"
+    },
+    {
+      "id": "dit-excel-nov11-q089",
+      "sourceNumber": 89,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "Which formula sums the continuous range C2 to C6?\nکون سا فارمولا C2 سے C6 تک مسلسل رینج جمع کرتا ہے؟",
+      "options": [
+        "=SUM(C2;C6) only\n=SUM(C2;C6) صرف",
+        "=SUM(C2:C6)\n=SUM(C2:C6)",
+        "=LEFT(C2:C6)\n=LEFT(C2:C6)",
+        "=MID(C2:C6)\n=MID(C2:C6)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: =SUM(C2:C6)\n=SUM(C2:C6)"
+    },
+    {
+      "id": "dit-excel-nov11-q090",
+      "sourceNumber": 90,
+      "topic": "09  Text Functions and Formula Ranges",
+      "question": "Why use text functions on an imported name list?\nدرآمد شدہ ناموں کی فہرست پر ٹیکسٹ فنکشنز کیوں استعمال کریں گے؟",
+      "options": [
+        "To raise screen resolution\nاسکرین ریزولوشن بڑھانے کے لیے",
+        "To extract, combine or clean text consistently\nمتن کو یکساں انداز میں نکالنے، جوڑنے یا صاف کرنے کے لیے",
+        "To edit printer firmware\nپرنٹر فرم ویئر میں ترمیم کرنے کے لیے",
+        "To replace worksheet tabs\nورک شیٹ ٹیب بدلنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To extract, combine or clean text consistently\nمتن کو یکساں انداز میں نکالنے، جوڑنے یا صاف کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q091",
+      "sourceNumber": 91,
+      "topic": "10  Charts and Their Types",
+      "question": "Which chart is useful for comparing categories side by side?\nزمروں کا ساتھ ساتھ موازنہ کرنے کے لیے کون سا چارٹ مفید ہے؟",
+      "options": [
+        "Column chart\nکالم چارٹ",
+        "Pie chart only\nصرف پائی چارٹ",
+        "Scatter plot only\nصرف اسکیٹر پلاٹ",
+        "Area chart only\nصرف ایریا چارٹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Column chart\nکالم چارٹ"
+    },
+    {
+      "id": "dit-excel-nov11-q092",
+      "sourceNumber": 92,
+      "topic": "10  Charts and Their Types",
+      "question": "Which chart best emphasizes a trend over time?\nوقت کے ساتھ رجحان ظاہر کرنے کے لیے کون سا چارٹ بہتر ہے؟",
+      "options": [
+        "Radar chart\nریڈار چارٹ",
+        "Line chart\nلائن چارٹ",
+        "Pie chart\nپائی چارٹ",
+        "Doughnut chart\nڈونٹ چارٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Line chart\nلائن چارٹ"
+    },
+    {
+      "id": "dit-excel-nov11-q093",
+      "sourceNumber": 93,
+      "topic": "10  Charts and Their Types",
+      "question": "Which chart displays parts of a whole as slices?\nکون سا چارٹ کل کے حصوں کو ٹکڑوں کی صورت دکھاتا ہے؟",
+      "options": [
+        "Scatter chart\nاسکیٹر چارٹ",
+        "Pie chart\nپائی چارٹ",
+        "Stock chart\nاسٹاک چارٹ",
+        "Line chart\nلائن چارٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Pie chart\nپائی چارٹ"
+    },
+    {
+      "id": "dit-excel-nov11-q094",
+      "sourceNumber": 94,
+      "topic": "10  Charts and Their Types",
+      "question": "Why use a bar chart for long category names?\nلمبے زمروں کے ناموں کے لیے بار چارٹ کیوں مناسب ہے؟",
+      "options": [
+        "It cannot compare values\nیہ قدروں کا موازنہ نہیں کر سکتا",
+        "It can display only dates\nیہ صرف تاریخیں دکھاتا ہے",
+        "Horizontal bars leave room for labels\nافقی بارز نام دکھانے کے لیے جگہ دیتے ہیں",
+        "It hides all category labels\nیہ تمام زمروں کے نام چھپاتا ہے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Horizontal bars leave room for labels\nافقی بارز نام دکھانے کے لیے جگہ دیتے ہیں"
+    },
+    {
+      "id": "dit-excel-nov11-q095",
+      "sourceNumber": 95,
+      "topic": "10  Charts and Their Types",
+      "question": "What is a chart legend used for?\nچارٹ لیجنڈ کس کام آتی ہے؟",
+      "options": [
+        "Deleting worksheet rows\nورک شیٹ کی قطاریں حذف کرنا",
+        "Changing cell references\nسیل ریفرنس بدلنا",
+        "Locking the workbook\nورک بک لاک کرنا",
+        "Identifying data series by color or symbol\nرنگ یا علامت سے ڈیٹا سیریز کی شناخت کرنا"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Identifying data series by color or symbol\nرنگ یا علامت سے ڈیٹا سیریز کی شناخت کرنا"
+    },
+    {
+      "id": "dit-excel-nov11-q096",
+      "sourceNumber": 96,
+      "topic": "10  Charts and Their Types",
+      "question": "What is usually shown on a chart axis?\nچارٹ کے محور پر عموماً کیا دکھایا جاتا ہے؟",
+      "options": [
+        "Categories or numerical scale\nزمرے یا عددی پیمانہ",
+        "Only file passwords\nصرف فائل پاس ورڈ",
+        "Only worksheet names\nصرف ورک شیٹس کے نام",
+        "Only printer information\nصرف پرنٹر کی معلومات"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Categories or numerical scale\nزمرے یا عددی پیمانہ"
+    },
+    {
+      "id": "dit-excel-nov11-q097",
+      "sourceNumber": 97,
+      "topic": "10  Charts and Their Types",
+      "question": "What does a scatter chart help examine?\nاسکیٹر چارٹ کس چیز کی جانچ میں مدد کرتا ہے؟",
+      "options": [
+        "Workbook password strength\nورک بک پاس ورڈ کی مضبوطی",
+        "Relationship between two numerical variables\nدو عددی متغیرات کا باہمی تعلق",
+        "Font family choices\nفونٹ کی اقسام",
+        "The number of sheet tabs only\nصرف شیٹ ٹیب کی تعداد"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Relationship between two numerical variables\nدو عددی متغیرات کا باہمی تعلق"
+    },
+    {
+      "id": "dit-excel-nov11-q098",
+      "sourceNumber": 98,
+      "topic": "10  Charts and Their Types",
+      "question": "Which chart is appropriate for contributions to a total?\nکل مقدار میں مختلف حصوں کی شرکت دکھانے کے لیے کون سا چارٹ مناسب ہے؟",
+      "options": [
+        "Stock chart\nاسٹاک چارٹ",
+        "Pie chart\nپائی چارٹ",
+        "Line chart\nلائن چارٹ",
+        "Scatter chart\nاسکیٹر چارٹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Pie chart\nپائی چارٹ"
+    },
+    {
+      "id": "dit-excel-nov11-q099",
+      "sourceNumber": 99,
+      "topic": "10  Charts and Their Types",
+      "question": "What makes a chart easier to interpret?\nچارٹ کو سمجھنا کس چیز سے آسان ہوتا ہے؟",
+      "options": [
+        "Using unrelated data\nغیر متعلقہ ڈیٹا استعمال کرنا",
+        "Removing every label\nتمام لیبل ختم کرنا",
+        "Clear title and appropriate labels\nواضح عنوان اور مناسب لیبل",
+        "Hiding the axis values always\nہمیشہ محور کی قدریں چھپانا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Clear title and appropriate labels\nواضح عنوان اور مناسب لیبل"
+    },
+    {
+      "id": "dit-excel-nov11-q100",
+      "sourceNumber": 100,
+      "topic": "10  Charts and Their Types",
+      "question": "Which chart type uses a circular ring with a hole?\nکون سا چارٹ درمیان میں سوراخ والے دائرے کی شکل میں ہوتا ہے؟",
+      "options": [
+        "Column chart\nکالم چارٹ",
+        "Line chart\nلائن چارٹ",
+        "Doughnut chart\nڈونٹ چارٹ",
+        "Surface chart\nسرفیس چارٹ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Doughnut chart\nڈونٹ چارٹ"
+    },
+    {
+      "id": "dit-excel-nov11-q101",
+      "sourceNumber": 101,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "What should you select before inserting a chart?\nچارٹ داخل کرنے سے پہلے کیا منتخب کرنا چاہیے؟",
+      "options": [
+        "The operating system icon\nآپریٹنگ سسٹم کا آئیکن",
+        "The relevant data range\nمتعلقہ ڈیٹا رینج",
+        "Only the formula bar\nصرف فارمولا بار",
+        "Only an empty workbook\nصرف خالی ورک بک"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: The relevant data range\nمتعلقہ ڈیٹا رینج"
+    },
+    {
+      "id": "dit-excel-nov11-q102",
+      "sourceNumber": 102,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "Where can you typically insert a chart in Excel?\nExcel میں عموماً چارٹ کس ٹیب سے داخل کرتے ہیں؟",
+      "options": [
+        "Review tab only\nصرف ریویو ٹیب",
+        "Insert tab\nانسَرٹ ٹیب",
+        "Developer code window\nڈویلپر کوڈ ونڈو",
+        "File Close command\nفائل کلوز کمانڈ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Insert tab\nانسَرٹ ٹیب"
+    },
+    {
+      "id": "dit-excel-nov11-q103",
+      "sourceNumber": 103,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "Why might you switch a chart's row and column data?\nچارٹ میں Row/Column کیوں بدلتے ہیں؟",
+      "options": [
+        "To change how series and categories are plotted\nسیریز اور زمروں کی پیشکش بدلنے کے لیے",
+        "To delete the source data\nاصل ڈیٹا حذف کرنے کے لیے",
+        "To disable formulas\nفارمولے بند کرنے کے لیے",
+        "To create a new password\nنیا پاس ورڈ بنانے کے لیے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: To change how series and categories are plotted\nسیریز اور زمروں کی پیشکش بدلنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q104",
+      "sourceNumber": 104,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "What does Change Chart Type allow?\nChange Chart Type سے کیا کیا جا سکتا ہے؟",
+      "options": [
+        "Rename the workbook file\nورک بک فائل کا نام بدلنا",
+        "Replace all cell values with zero\nتمام سیلز کو صفر کرنا",
+        "Display the same data with a different chart style\nاسی ڈیٹا کو مختلف چارٹ قسم میں دکھانا",
+        "Hide the ribbon forever\nربن ہمیشہ کے لیے چھپانا"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Display the same data with a different chart style\nاسی ڈیٹا کو مختلف چارٹ قسم میں دکھانا"
+    },
+    {
+      "id": "dit-excel-nov11-q105",
+      "sourceNumber": 105,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "When should a chart title be edited?\nچارٹ کا عنوان کب تبدیل کرنا چاہیے؟",
+      "options": [
+        "When it does not clearly describe the data\nجب وہ ڈیٹا کی واضح وضاحت نہ کرے",
+        "Before deleting the workbook\nورک بک حذف کرنے سے پہلے",
+        "Whenever the workbook is saved\nجب بھی ورک بک محفوظ ہو",
+        "Only when formulas contain errors\nصرف جب فارمولوں میں غلطیاں ہوں"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: When it does not clearly describe the data\nجب وہ ڈیٹا کی واضح وضاحت نہ کرے"
+    },
+    {
+      "id": "dit-excel-nov11-q106",
+      "sourceNumber": 106,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "How can a chart be moved without recreating it?\nچارٹ دوبارہ بنائے بغیر کیسے منتقل ہوگا؟",
+      "options": [
+        "Clear all cells\nتمام سیلز خالی کر کے",
+        "Change the keyboard language\nکی بورڈ کی زبان بدل کر",
+        "Use Move Chart or reposition the chart\nMove Chart سے یا چارٹ کی جگہ بدل کر",
+        "Delete its source data\nاس کا اصل ڈیٹا حذف کر کے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Use Move Chart or reposition the chart\nMove Chart سے یا چارٹ کی جگہ بدل کر"
+    },
+    {
+      "id": "dit-excel-nov11-q107",
+      "sourceNumber": 107,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "What is the purpose of chart data labels?\nچارٹ ڈیٹا لیبلز کا مقصد کیا ہے؟",
+      "options": [
+        "Show values on chart elements\nچارٹ کے عناصر پر قدریں دکھانا",
+        "Replace the workbook title\nورک بک کا عنوان بدلنا",
+        "Create worksheet rows\nورک شیٹ کی قطاریں بنانا",
+        "Run VBA code\nVBA کوڈ چلانا"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Show values on chart elements\nچارٹ کے عناصر پر قدریں دکھانا"
+    },
+    {
+      "id": "dit-excel-nov11-q108",
+      "sourceNumber": 108,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "Why edit chart axis titles?\nچارٹ کے محوروں کے عنوان کیوں تبدیل کرتے ہیں؟",
+      "options": [
+        "To change all formulas automatically\nتمام فارمولے خود بدلنے کے لیے",
+        "To remove chart data\nچارٹ کا ڈیٹا ختم کرنے کے لیے",
+        "To explain what each axis measures\nواضح کرنے کے لیے کہ ہر محور کیا ناپتا ہے",
+        "To protect cells with password\nسیلز کو پاس ورڈ سے محفوظ کرنے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: To explain what each axis measures\nواضح کرنے کے لیے کہ ہر محور کیا ناپتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q109",
+      "sourceNumber": 109,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "What can be changed in the chart's formatting options?\nچارٹ فارمیٹنگ آپشنز میں کیا بدلا جا سکتا ہے؟",
+      "options": [
+        "Colors, styles and chart elements\nرنگ، انداز اور چارٹ کے عناصر",
+        "The monitor hardware\nمانیٹر کا ہارڈ ویئر",
+        "The processor speed\nپروسیسر کی رفتار",
+        "The operating system license\nآپریٹنگ سسٹم کا لائسنس"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Colors, styles and chart elements\nرنگ، انداز اور چارٹ کے عناصر"
+    },
+    {
+      "id": "dit-excel-nov11-q110",
+      "sourceNumber": 110,
+      "topic": "11  Creating and Formatting Charts",
+      "question": "If a chart uses the wrong source range, what should be corrected?\nاگر چارٹ غلط سورس رینج استعمال کرے تو کیا درست کرنا ہوگا؟",
+      "options": [
+        "Printer orientation only\nصرف پرنٹر کی سمت",
+        "Select Data source range\nSelect Data میں سورس رینج",
+        "Only font color\nصرف فونٹ کا رنگ",
+        "The sheet tab name only\nصرف شیٹ ٹیب کا نام"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Select Data source range\nSelect Data میں سورس رینج"
+    },
+    {
+      "id": "dit-excel-nov11-q111",
+      "sourceNumber": 111,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "What is a macro in Excel?\nExcel میں میکرو کیا ہوتا ہے؟",
+      "options": [
+        "A workbook password\nورک بک کا پاس ورڈ",
+        "Only a chart legend\nصرف چارٹ کی لیجنڈ",
+        "A cell color\nسیل کا رنگ",
+        "A set of commands used to automate tasks\nکام خودکار کرنے والے کمانڈز کا مجموعہ"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: A set of commands used to automate tasks\nکام خودکار کرنے والے کمانڈز کا مجموعہ"
+    },
+    {
+      "id": "dit-excel-nov11-q112",
+      "sourceNumber": 112,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "Why record a macro for repetitive formatting?\nبار بار کی فارمیٹنگ کے لیے میکرو کیوں ریکارڈ کریں گے؟",
+      "options": [
+        "To make every cell read-only\nہر سیل کو صرف پڑھنے کے قابل کرنے کے لیے",
+        "To delete Excel\nExcel حذف کرنے کے لیے",
+        "To remove the ribbon\nربن ختم کرنے کے لیے",
+        "To replay the same sequence of actions\nوہی اقدامات دوبارہ چلانے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To replay the same sequence of actions\nوہی اقدامات دوبارہ چلانے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q113",
+      "sourceNumber": 113,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "Where are macro tools commonly accessed?\nمیکرو ٹولز تک عموماً کہاں سے رسائی ملتی ہے؟",
+      "options": [
+        "Status Bar only\nصرف اسٹیٹس بار",
+        "Sheet headings\nشیٹ کی سرخیاں",
+        "Developer tab\nڈویلپر ٹیب",
+        "Title Bar\nٹائٹل بار"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Developer tab\nڈویلپر ٹیب"
+    },
+    {
+      "id": "dit-excel-nov11-q114",
+      "sourceNumber": 114,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "If the Developer tab is hidden, where can you enable it?\nاگر Developer ٹیب چھپا ہو تو اسے کہاں سے ظاہر کر سکتے ہیں؟",
+      "options": [
+        "Chart Axis Format only\nصرف Chart Axis Format سے",
+        "Excel Options and Customize Ribbon\nExcel Options اور Customize Ribbon سے",
+        "Name Box only\nصرف نیم باکس سے",
+        "Find and Replace only\nصرف Find and Replace سے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Excel Options and Customize Ribbon\nExcel Options اور Customize Ribbon سے"
+    },
+    {
+      "id": "dit-excel-nov11-q115",
+      "sourceNumber": 115,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "What does Record Macro do?\nRecord Macro کیا کرتا ہے؟",
+      "options": [
+        "Builds a chart by itself\nخود چارٹ بناتا ہے",
+        "Deletes the active workbook\nفعال ورک بک حذف کرتا ہے",
+        "Encrypts all worksheet cells\nتمام سیلز کو خفیہ بناتا ہے",
+        "Captures user actions for later replay\nبعد میں دہرانے کے لیے صارف کے اقدامات ریکارڈ کرتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Captures user actions for later replay\nبعد میں دہرانے کے لیے صارف کے اقدامات ریکارڈ کرتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q116",
+      "sourceNumber": 116,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "Why is a macro name needed?\nمیکرو کا نام کیوں ضروری ہے؟",
+      "options": [
+        "To make row numbers disappear\nقطاروں کے نمبر غائب کرنے کے لیے",
+        "To identify and run the recorded procedure\nریکارڈ شدہ عمل کی شناخت اور اسے چلانے کے لیے",
+        "To identify the computer monitor\nکمپیوٹر مانیٹر کی شناخت کے لیے",
+        "To change printer ink\nپرنٹر کی سیاہی بدلنے کے لیے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To identify and run the recorded procedure\nریکارڈ شدہ عمل کی شناخت اور اسے چلانے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q117",
+      "sourceNumber": 117,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "What should you do after performing the desired actions during macro recording?\nمیکرو ریکارڈ کرتے ہوئے مطلوبہ اقدامات کے بعد کیا کرنا چاہیے؟",
+      "options": [
+        "Delete the worksheet\nورک شیٹ حذف کریں",
+        "Stop Recording\nStop Recording منتخب کریں",
+        "Clear the ribbon tabs\nربن ٹیبز صاف کریں",
+        "Close Excel without saving\nبغیر محفوظ کیے Excel بند کریں"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Stop Recording\nStop Recording منتخب کریں"
+    },
+    {
+      "id": "dit-excel-nov11-q118",
+      "sourceNumber": 118,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "What is a macro-enabled workbook used for?\nMacro-enabled workbook کس لیے استعمال ہوتی ہے؟",
+      "options": [
+        "Storing only photographs\nصرف تصاویر محفوظ کرنے کے لیے",
+        "Replacing all formulas with pictures\nتمام فارمولے تصاویر سے بدلنے کے لیے",
+        "Saving an Excel file that contains macros\nمیکروز والی Excel فائل محفوظ کرنے کے لیے",
+        "Printing without worksheets\nورک شیٹ کے بغیر پرنٹنگ کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Saving an Excel file that contains macros\nمیکروز والی Excel فائل محفوظ کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q119",
+      "sourceNumber": 119,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "What is the difference between recording and running a macro?\nمیکرو ریکارڈ کرنے اور چلانے میں کیا فرق ہے؟",
+      "options": [
+        "Recording always prints a report\nریکارڈنگ ہمیشہ رپورٹ پرنٹ کرتی ہے",
+        "Both permanently delete formulas\nدونوں فارمولے مستقل حذف کرتے ہیں",
+        "Running captures keyboard hardware\nچلانا کی بورڈ ہارڈ ویئر محفوظ کرتا ہے",
+        "Recording captures actions; running replays them\nریکارڈنگ اقدامات محفوظ کرتی ہے اور چلانا انہیں دہراتا ہے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: Recording captures actions; running replays them\nریکارڈنگ اقدامات محفوظ کرتی ہے اور چلانا انہیں دہراتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q120",
+      "sourceNumber": 120,
+      "topic": "12  Excel Macros, Developer Tab and Recording",
+      "question": "Why should macros from unknown files be treated carefully?\nنامعلوم فائلوں کے میکروز میں احتیاط کیوں ضروری ہے؟",
+      "options": [
+        "They cannot perform actions\nوہ کوئی عمل نہیں کر سکتے",
+        "They are always plain text\nوہ ہمیشہ سادہ متن ہوتے ہیں",
+        "They may execute unwanted code\nوہ غیر مطلوب کوڈ چلا سکتے ہیں",
+        "They can only change font size\nوہ صرف فونٹ سائز بدل سکتے ہیں"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: They may execute unwanted code\nوہ غیر مطلوب کوڈ چلا سکتے ہیں"
+    },
+    {
+      "id": "dit-excel-nov11-q121",
+      "sourceNumber": 121,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "What does VBA stand for in Excel?\nExcel میں VBA کا مکمل نام کیا ہے؟",
+      "options": [
+        "Visual Basic for Applications\nVisual Basic for Applications",
+        "Virtual Binary Access\nVirtual Binary Access",
+        "Visual Board Analysis\nVisual Board Analysis",
+        "Variable Backup Archive\nVariable Backup Archive"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Visual Basic for Applications\nVisual Basic for Applications"
+    },
+    {
+      "id": "dit-excel-nov11-q122",
+      "sourceNumber": 122,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "What is the VBA editor used for?\nVBA ایڈیٹر کس کام آتا ہے؟",
+      "options": [
+        "Changing monitor resolution\nمانیٹر کی ریزولوشن بدلنے کے لیے",
+        "Making sheet tabs larger\nشیٹ ٹیبز بڑے کرنے کے لیے",
+        "Viewing and editing macro code\nمیکرو کوڈ دیکھنے اور تبدیل کرنے کے لیے",
+        "Printing a chart directly\nبراہ راست چارٹ پرنٹ کرنے کے لیے"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Viewing and editing macro code\nمیکرو کوڈ دیکھنے اور تبدیل کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q123",
+      "sourceNumber": 123,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "Why might a macro use relative references?\nمیکرو میں ریلیٹو ریفرنسز کیوں استعمال کریں گے؟",
+      "options": [
+        "To act relative to the currently selected cell\nموجودہ منتخب سیل کے لحاظ سے عمل کرنے کے لیے",
+        "To lock every action to one absolute location\nہر عمل کو ایک ہی مستقل مقام تک محدود کرنے کے لیے",
+        "To change chart shapes only\nصرف چارٹ کی شکل بدلنے کے لیے",
+        "To remove all active cells\nتمام فعال سیلز ختم کرنے کے لیے"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: To act relative to the currently selected cell\nموجودہ منتخب سیل کے لحاظ سے عمل کرنے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q124",
+      "sourceNumber": 124,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "How does an absolute reference affect a recorded macro?\nایبسولوٹ ریفرنس ریکارڈ شدہ میکرو پر کیا اثر ڈالتا ہے؟",
+      "options": [
+        "It prevents all formatting\nیہ تمام فارمیٹنگ روک دیتا ہے",
+        "It targets fixed cell addresses\nیہ مستقل سیل پتوں کو استعمال کرتا ہے",
+        "It targets only the current relative offset\nیہ صرف موجودہ نسبتاً فاصلے کو استعمال کرتا ہے",
+        "It changes Excel into PowerPoint\nیہ Excel کو PowerPoint بناتا ہے"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: It targets fixed cell addresses\nیہ مستقل سیل پتوں کو استعمال کرتا ہے"
+    },
+    {
+      "id": "dit-excel-nov11-q125",
+      "sourceNumber": 125,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "Why assign a macro to a button?\nبٹن کے ساتھ میکرو کیوں منسلک کرتے ہیں؟",
+      "options": [
+        "To replace formulas with images\nفارمولوں کو تصاویر سے بدلنے کے لیے",
+        "To hide the program window\nپروگرام کی ونڈو چھپانے کے لیے",
+        "To rename every worksheet automatically\nہر ورک شیٹ کا نام خود بدلنے کے لیے",
+        "To run the macro by clicking the button\nبٹن پر کلک کر کے میکرو چلانے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To run the macro by clicking the button\nبٹن پر کلک کر کے میکرو چلانے کے لیے"
+    },
+    {
+      "id": "dit-excel-nov11-q126",
+      "sourceNumber": 126,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "Which Excel tab contains controls used to assign macros to buttons?\nExcel کے کس ٹیب میں میکروز کو بٹنوں سے منسلک کرنے والے کنٹرولز ملتے ہیں؟",
+      "options": [
+        "View only\nصرف View",
+        "Page Layout only\nصرف Page Layout",
+        "Developer\nDeveloper",
+        "Data only\nصرف Data"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Developer\nDeveloper"
+    },
+    {
+      "id": "dit-excel-nov11-q127",
+      "sourceNumber": 127,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "What is a VBA module used to hold?\nVBA ماڈیول میں کیا رکھا جاتا ہے؟",
+      "options": [
+        "Only cell borders\nصرف سیل بارڈرز",
+        "Only worksheet names\nصرف ورک شیٹ کے نام",
+        "Procedures and program code\nپروسیجرز اور پروگرام کوڈ",
+        "Only chart axis labels\nصرف چارٹ محور کے لیبل"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Procedures and program code\nپروسیجرز اور پروگرام کوڈ"
+    },
+    {
+      "id": "dit-excel-nov11-q128",
+      "sourceNumber": 128,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "Which keyword commonly starts a VBA macro procedure?\nVBA میکرو پروسیجر عموماً کس لفظ سے شروع ہوتا ہے؟",
+      "options": [
+        "Sub\nSub",
+        "Print\nPrint",
+        "Chart\nChart",
+        "Cell\nCell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Sub\nSub"
+    },
+    {
+      "id": "dit-excel-nov11-q129",
+      "sourceNumber": 129,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "What ends a VBA Sub procedure?\nVBA کے Sub پروسیجر کا اختتام کس سے ہوتا ہے؟",
+      "options": [
+        "Stop Sheet\nStop Sheet",
+        "Close Table\nClose Table",
+        "End Sub\nEnd Sub",
+        "Finish Cell\nFinish Cell"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: End Sub\nEnd Sub"
+    },
+    {
+      "id": "dit-excel-nov11-q130",
+      "sourceNumber": 130,
+      "topic": "13  VBA, Macro References and Controls",
+      "question": "What is the practical benefit of editing a recorded macro in VBA?\nریکارڈ شدہ میکرو کو VBA میں ایڈٹ کرنے کا عملی فائدہ کیا ہے؟",
+      "options": [
+        "To make formulas impossible\nفارمولے استعمال کرنا ناممکن بنانے کے لیے",
+        "To erase the operating system\nآپریٹنگ سسٹم مٹانے کے لیے",
+        "To turn all cells into charts\nتمام سیلز چارٹس میں بدلنے کے لیے",
+        "To refine or extend its automated steps\nاس کے خودکار مراحل بہتر یا زیادہ کرنے کے لیے"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: To refine or extend its automated steps\nاس کے خودکار مراحل بہتر یا زیادہ کرنے کے لیے"
+    }
+  ]
+}

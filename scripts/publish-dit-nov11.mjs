@@ -1,0 +1,20 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+import {readLearningServiceKey,learningProject} from './learning-cli-access.mjs';import {fetchCatalogRows} from './catalog-fetch.mjs';
+const root='content/imports/dit-nov11',read=p=>JSON.parse(fs.readFileSync(p,'utf8')),payload=read(root+'/payload.json'),review=read(root+'/REVIEW.json');
+assert.equal(review.officeOrderConfirmed,true);assert.equal(createHash('sha256').update(JSON.stringify(payload)).digest('hex'),review.payloadSha256);
+assert.equal(read(root+'/APPROVAL.json').payloadSha256,review.payloadSha256,'Publication approval must match this exact reviewed payload');
+for(const pdf of review.pdfs)assert.equal(createHash('sha256').update(fs.readFileSync(pdf.path)).digest('hex'),pdf.sha256);
+const base='https://'+learningProject+'.supabase.co',key=readLearningServiceKey(),tables=['chapters','mcqs','notes'],before={};
+for(const table of tables)before[table]=await fetchCatalogRows(base,key,table);
+const missing={};
+for(const table of tables){missing[table]=[];for(const row of payload[table]){const old=before[table].find(r=>r.id===row.id);if(old){for(const[k,v]of Object.entries(row))assert.deepEqual(old[k],v,'Refusing overwrite '+table+'/'+row.id+'/'+k);}else missing[table].push(row);}}
+for(const c of payload.chapters)assert.ok(!before.chapters.some(x=>x.class_slug===c.class_slug&&x.subject_slug===c.subject_slug&&x.chapter_number===c.chapter_number&&x.id!==c.id),'Storage collision');
+for(const change of payload.updates){const old=before[change.table].find(r=>r.id===change.id);assert.ok(old);for(const k of Object.keys(change.after))assert.ok(JSON.stringify(old[k])===JSON.stringify(change.before[k])||JSON.stringify(old[k])===JSON.stringify(change.after[k]),'Approved metadata changed '+change.id+'/'+k);}
+console.log(JSON.stringify({mode:process.argv.includes('--publish')?'publish':'dry-run',missing:Object.fromEntries(tables.map(t=>[t,missing[t].length])),metadataUpdates:payload.updates.length,questionOverwrites:0}));if(!process.argv.includes('--publish'))process.exit(0);
+fs.mkdirSync('artifacts/dit-nov11',{recursive:true});fs.writeFileSync('artifacts/dit-nov11/before-publish-'+Date.now()+'.json',JSON.stringify(before));
+async function mutate(table,method,body,id){const r=await fetch(base+'/rest/v1/'+table+(id?'?id=eq.'+encodeURIComponent(id):''),{method,headers:{apikey:key,Authorization:'Bearer '+key,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify(body),signal:AbortSignal.timeout(60000)});assert.ok(r.ok,'Database mutation failed HTTP '+r.status+'; rerun dry-run to safely reconcile.');}
+// Each bulk insert is transactional. Read-back reconciles all tables before a static release.
+for(const table of tables)if(missing[table].length)await mutate(table,'POST',missing[table]);
+for(const change of payload.updates)await mutate(change.table,'PATCH',change.after,change.id);
+const after={};for(const table of tables){after[table]=await fetchCatalogRows(base,key,table);for(const row of payload[table]){const actual=after[table].find(r=>r.id===row.id);for(const[k,v]of Object.entries(row))assert.deepEqual(actual?.[k],v,'Read-back mismatch '+row.id+'/'+k);}for(const old of before[table]){const change=payload.updates.find(u=>u.table===table&&u.id===old.id);const patch=change?.after||{};const actual=after[table].find(r=>r.id===old.id);for(const[k,v]of Object.entries(old)){if(k==='updated_at'&&change){assert.ok(Date.parse(actual[k])>=Date.parse(v),'Invalid update timestamp');continue;}assert.deepEqual(actual?.[k],k in patch?patch[k]:v,'Unrelated field changed '+old.id+'/'+k);}}}
+const receipt={state:'database-verified-awaiting-hosting',checkedAt:new Date().toISOString(),inserted:Object.fromEntries(tables.map(t=>[t,missing[t].length])),verified:{chapters:7,mcqs:760,notes:7},metadataUpdates:2,preserved:Object.fromEntries(tables.map(t=>[t,before[t].length])),payloadSha256:review.payloadSha256};fs.writeFileSync('artifacts/dit-nov11/publication-receipt.json',JSON.stringify(receipt,null,2));console.log(JSON.stringify(receipt));
