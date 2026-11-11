@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Watching Sri Lanka vs New Zealand play cricket from Galle Fort.jpg",
+    "url": "/images/editorial/trending-pk-20261111-daily/kamindu-mendis-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Watching_Sri_Lanka_vs_New_Zealand_play_cricket_from_Galle_Fort.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Watching_Sri_Lanka_vs_New_Zealand_play_cricket_from_Galle_Fort.jpg",
+    "creator": "Bex Walton",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Archival view of Sri Lanka and New Zealand playing cricket in Galle",
+    "description": "Watching Sri Lanka vs New Zealand play cricket from Galle Fort",
+    "caption": "Archive: Sri Lanka versus New Zealand viewed from Galle Fort. This is not the November 2026 Rawalpindi match.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 331496,
+    "sha1": "b0f4c5a785a27690c30009a238b4a46b749410a3",
+    "photographedAt": "2024-09-26 17:15:12",
+    "query": "intitle:Galle intitle:Cricket",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Cricket at Galle Fort.jpg",
+    "url": "/images/editorial/trending-pk-20261111-daily/kamindu-mendis-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cricket_at_Galle_Fort.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Cricket_at_Galle_Fort.jpg",
+    "creator": "Kandukuru Nagarjun",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Young people playing cricket at Galle Fort in Sri Lanka",
+    "description": "Young Sri Lankans play cricket at Galle Fort, Dec '23.",
+    "caption": "Cricket at Galle Fort, photographed in December 2023. An illustration of local cricket, not Kamindu Mendis or the Rawalpindi Test.",
+    "width": 1280,
+    "height": 720,
+    "bytes": 82382,
+    "sha1": "15456121be2e046e79899041ac4bb58e71e348c4",
+    "photographedAt": "2023-12-26 17:34:34",
+    "query": "intitle:Galle intitle:Cricket",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

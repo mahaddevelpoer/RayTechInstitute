@@ -692,7 +692,9 @@
       "rows": [
         25
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Kamindu Mendis: Rawalpindi 58, Test Records and Bowling Explained",
+      "slug": "kamindu-mendis-rawalpindi-58-test-records-guide"
     },
     {
       "key": "ebenezer-scrooge",
@@ -975,6 +977,16 @@
       "revision": "461e245e3d3e95e60bba0202c526d06268f08839",
       "workflowRun": "43047038540",
       "liveVerifiedAt": "2026-11-11T15:24:06.555Z"
+    },
+    {
+      "number": 7,
+      "keys": [
+        "kamindu-mendis"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
+      "state": "draft-written",
+      "validationFile": "batch-07-validation.json"
     }
   ],
   "state": "batch-06-published-next-research-pending"
