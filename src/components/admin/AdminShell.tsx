@@ -117,6 +117,7 @@ export default function AdminShell({
     { label: "Courses & Lessons", href: "/admin/courses", icon: BookOpen },
     { label: "Health & Release Review", href: "/admin/health", icon: Shield },
     { label: "Subjects", href: "/admin/subjects", icon: BookOpen },
+    { label: "Smart Syllabus", href: "/admin/smart-syllabus", icon: FileText },
     { label: "Notes Manager", href: "/admin/notes", icon: FileText },
     { label: "MCQs Builder", href: "/admin/mcqs", icon: HelpCircle },
     { label: "Weekly Competition", href: "/admin/competition", icon: Award },

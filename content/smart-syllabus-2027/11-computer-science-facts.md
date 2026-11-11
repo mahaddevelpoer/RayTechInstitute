@@ -1,0 +1,7 @@
+The official subject title is Computer Science and Entrepreneurship. The first table excludes section 1.5, Graphical Representation of Software Systems, and specified exercise questions in Introduction to Software Development. It does not delete the whole software-development unit.
+
+For Python Programming the listed exclusions include object-oriented programming in Python, advanced Python concepts, and testing/debugging, with separate exercise references. Algorithms and Problem Solving includes the specified complexity classes, with its own MCQ and long-question exclusions. The Data Analytics row includes building statistical models and boxplots.
+
+Two useful counterexamples appear explicitly: Unit 4, Computational Structures, and Unit 8, Online Research and Digital Literacy, retain their complete chapters and exercises. Emerging Technologies identifies specified blockchain material; Legal and Ethical Aspects identifies the digital-divide material; the entrepreneurship unit has its own selected exclusions. Always check the complete table for exact exercise numbers.
+
+The paper carries 75 marks: 15 objective and 60 subjective. The stated total time is two hours and thirty minutes, with twenty minutes for the objective part and two hours and ten minutes for the subjective part. This is the written-paper structure in the supplied section, not a claim about every possible practical assessment.

@@ -1,0 +1,5 @@
+The Mathematics section begins with Real Numbers, Logarithms, Sets and Functions, and Factorization and Algebraic Manipulation. The exclusions are granular: some concern whole exercises, others selected questions, examples or a subsection. The revised review-exercise entries are particularly important when comparing an older photocopy with this release.
+
+For Real Numbers, the opening table excludes specified introductory/application material and Exercise 1.3. Its revised Review Exercise 1 entry identifies questions 3 and 8-10. For Logarithms, it names section 2.4, Examples 12-15 and Exercise 2.4, followed by selected revised review questions.
+
+The Sets and Functions row contains several distinct references, including selected questions from Exercise 3.2 and the whole of Exercise 3.3. The factorisation row identifies the specified square-root/application material and Exercise 4.4, plus selected review questions. These are examples from the opening page, not a complete deletion list. The eleven-page subject PDF supplies the continuation, paper instructions and model-paper material.

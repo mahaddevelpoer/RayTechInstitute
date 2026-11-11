@@ -1,0 +1,5 @@
+The opening Biology table starts with The Science of Biology and Biodiversity. In Chapter 1 it identifies the relationship of biology with other sciences, careers in biology, science as a collaborative field and the malaria example of the biological method. It separately lists key points and selected exercise questions.
+
+Chapter 1 exercise references include MCQs 9 and 10, short answers 3 and 5, long questions 1-3 and 6-7, and all inquisitive questions. The fact that one category says all does not mean all categories or all content in the chapter are deleted.
+
+For Biodiversity, the opening page identifies the advantages and history of classification, particular tables and a box, key points, and selected exercise questions. These references must be matched to the printed textbook page numbers because a generic heading such as table is not enough to identify the correct material. Other chapter entries and assessment pages follow in the nine-page PDF. This article's examples do not replace that complete list.

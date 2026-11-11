@@ -1,0 +1,242 @@
+[
+  {
+    "grade": 9,
+    "subject": "physics",
+    "sourcePages": [
+      2,
+      9
+    ],
+    "pages": 8,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/physics.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-physics.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "5f0dafaa1a6b08f01d002cb60fc8a6f1e1f8dcfe5d56a25d7e9b29652d808b81"
+  },
+  {
+    "grade": 9,
+    "subject": "chemistry",
+    "sourcePages": [
+      10,
+      17
+    ],
+    "pages": 8,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/chemistry.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-chemistry.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "7b3b3da42d843deab086edd3b645e95e1882625d4f078806e029d1f687fde97b"
+  },
+  {
+    "grade": 9,
+    "subject": "mathematics",
+    "sourcePages": [
+      18,
+      28
+    ],
+    "pages": 11,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/mathematics.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-mathematics.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "5add69b48b5214b946bd7e90f16071eaf8b5aaa0dd64b84b36a2cec898601f35"
+  },
+  {
+    "grade": 9,
+    "subject": "biology",
+    "sourcePages": [
+      29,
+      37
+    ],
+    "pages": 9,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/biology.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-biology.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "4894ef22240f20186605dd5d8f829bfa7b2bd608cb257ad07af76a03665d0112"
+  },
+  {
+    "grade": 9,
+    "subject": "urdu",
+    "sourcePages": [
+      38,
+      46
+    ],
+    "pages": 9,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/urdu.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-urdu.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "12c629ba99046ac5f4e56aad32115e8314fdd4b08b7abefbe6783d788e2e8acc"
+  },
+  {
+    "grade": 9,
+    "subject": "english",
+    "sourcePages": [
+      47,
+      53
+    ],
+    "pages": 7,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/english.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-english.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "b4d89727e6918879658156f34811b915c72fe1846b32ee24d37214c75cabfca4"
+  },
+  {
+    "grade": 9,
+    "subject": "islamiat",
+    "sourcePages": [
+      54,
+      58
+    ],
+    "pages": 5,
+    "pdf": "/documents/smart-syllabus/2027/grade-9/islamiat.pdf",
+    "image": "/images/smart-syllabus/2027/grade-9-islamiat.webp",
+    "notificationImage": "/images/smart-syllabus/2027/grade-9-notification.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-9-Notification-06.11.2026-F_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1238",
+    "date": "2026-11-06",
+    "sha256": "080e1dd083f1565bd6216e2cc8a1b46a48977bc1c0096c1d7b6b5f5086ef5bab"
+  },
+  {
+    "grade": 11,
+    "subject": "urdu",
+    "sourcePages": [
+      2,
+      11
+    ],
+    "pages": 10,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/urdu.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-urdu.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "45990552ba225732e5240109c5305f2add35e48a90b5b2ae69b26c2163b1925e"
+  },
+  {
+    "grade": 11,
+    "subject": "english",
+    "sourcePages": [
+      12,
+      19
+    ],
+    "pages": 8,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/english.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-english.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "07ba9484984672cd20f281cc0ac2bf7242a7a334d773695ef8216bf8bd55b3e8"
+  },
+  {
+    "grade": 11,
+    "subject": "islamiat",
+    "sourcePages": [
+      20,
+      23
+    ],
+    "pages": 4,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/islamiat.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-islamiat.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "63af981ceeb9ee311cdf16bd2b650c8d5d88fc1ca483e9cefa0c44a8db25afbe"
+  },
+  {
+    "grade": 11,
+    "subject": "mathematics",
+    "sourcePages": [
+      24,
+      32
+    ],
+    "pages": 9,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/mathematics.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-mathematics.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "9895b10566c8872fc8b41fb4617974e241ccfc0ac9cd0b212ab272d98b732c44"
+  },
+  {
+    "grade": 11,
+    "subject": "physics",
+    "sourcePages": [
+      33,
+      42
+    ],
+    "pages": 10,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/physics.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-physics.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "ba2a05467826f1a223064c94cfedf47e81c6f8d5aaec9e1c38af07e808d6dbfe"
+  },
+  {
+    "grade": 11,
+    "subject": "computer-science",
+    "sourcePages": [
+      43,
+      51
+    ],
+    "pages": 9,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/computer-science.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-computer-science.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "4553b25a6eb2bc564fdd0df020167599046836e916e70fa7739794cf42182705"
+  },
+  {
+    "grade": 11,
+    "subject": "biology",
+    "sourcePages": [
+      52,
+      60
+    ],
+    "pages": 9,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/biology.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-biology.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "493aff7d6f1cb5266a7dcb25e935f7bdb831d20cb3d84a302977d6d5c9a477ce"
+  },
+  {
+    "grade": 11,
+    "subject": "chemistry",
+    "sourcePages": [
+      61,
+      71
+    ],
+    "pages": 11,
+    "pdf": "/documents/smart-syllabus/2027/grade-11/chemistry.pdf",
+    "notificationImage": "/images/smart-syllabus/2027/grade-11-notification.webp",
+    "image": "/images/smart-syllabus/2027/grade-11-chemistry.webp",
+    "source": "https://pectaa.edu.pk/wp-content/uploads/2026/11/ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+    "notification": "PECTAA/C&C Unit/2026/1239",
+    "date": "2026-11-06",
+    "sha256": "bb1d9286272e7c4f564cd89415883c16ca873f8dbcd8c2ae374e73ac30298255"
+  }
+]

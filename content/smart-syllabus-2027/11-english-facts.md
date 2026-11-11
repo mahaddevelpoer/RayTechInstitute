@@ -1,0 +1,5 @@
+The Grade 11 English ALP excludes four units from the fourteen-unit compulsory textbook. These are Unit 4, Team Moon, pages 42-55; Unit 7, What You Do is What You Are, pages 82-94; Unit 9, Freedom (Poem), pages 105-113; and Unit 12, The Impact of AI on Society, Human Relationships, and Ethics, pages 131-138.
+
+The paper instructions specify 100 marks, divided into a 20-mark objective part with 30 minutes and an 80-mark subjective part with two hours and thirty minutes. The objective plan draws synonyms and MCQs from named retained unit groups and includes five marks for correct verb forms. The complete allocation is reproduced in the PDF.
+
+The subjective short-answer groups are not interchangeable: the first group takes seven of ten questions from Units 1, 2, 5, 8 and 10; the next takes five of eight from Units 3, 6, 11 and 13; Unit 14 supplies a separate three-of-five group. Grammar and composition instructions follow. These details make the eight-page subject PDF more useful than a list of deleted unit titles alone.

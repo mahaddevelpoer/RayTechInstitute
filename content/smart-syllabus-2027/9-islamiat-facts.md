@@ -1,0 +1,5 @@
+The Grade 9 Islamiat compulsory section identifies selected Hadith numbers and named material from several chapters. In Chapter 1 the listed Hadith numbers are 3, 6, 7, 12 and 14. The opening page then identifies particular moral and social topics in Chapter 4, rather than deleting all of that chapter.
+
+The Chapter 5 entries concern the named material on oaths and the Islamic state. Chapter 6 lists selected personalities in several categories; Chapter 7 identifies named themes including self-reliance, health and physical activity, planning and the effects of Islamic civilisation. Match each original Urdu name and heading in the source instead of assuming that an entire biographical category is removed.
+
+The page identifies session 2026-27. It also instructs paper setters not to include questions from the specified excluded material. This file is for Islamiat compulsory, not a separately titled Quran-translation subject. The five-page PDF preserves the original wording and the following assessment pages, which should be used together.

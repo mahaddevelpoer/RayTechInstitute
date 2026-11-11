@@ -1,0 +1,5 @@
+The Grade 11 Islamiat compulsory page lists selected exclusions: Hadith numbers 3, 5, 8 and 12 in Chapter 1; named social-relations/etiquette material in Chapter 4; and the specified national-identity material in Chapter 5. Further rows identify selected biographical material in Chapter 6 and particular family/social responsibilities in Chapter 7. Match the original Urdu names rather than deleting entire categories.
+
+**There is an internal year inconsistency in the official booklet.** The section heading states session 2026-27 and the covering Grade 11 notification concerns the 2027 examination, but the footer note on this subject's first page says session 2025-26. We preserve both statements in the source rather than silently correcting the official document.
+
+Before changing a final examination plan, ask your school or board to confirm how that conflicting footer should be read and check for a corrected PECTAA notice. The four-page subject PDF is supplied for transparency and contains the original wording plus accompanying assessment material. This article does not claim that the conflicting year note has already been formally resolved.

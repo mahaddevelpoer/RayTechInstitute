@@ -1,0 +1,5 @@
+The opening exclusion table identifies selected parts of Physical Quantities and Measurements, Kinematics, Dynamics and Turning Effects of Force. Examples include mass-measuring instruments, time-measuring instruments, measurement errors, uncertainty, precision and accuracy in Chapter 1. These are topic-level entries, not an instruction to discard every measurement concept.
+
+In Kinematics the table names types of motion and the gradients of distance-time and speed-time graphs. In Dynamics it identifies fundamental forces, forces in a free-body diagram, limitations of Newton's laws and mechanical/electronic balances. Chapter 4 includes centre of gravity and centre of mass, selected stability material and the comparison of rotational and translational motion.
+
+The exercise column separately identifies MCQs, short answers, constructed responses, comprehensive questions and numerical problems. A revised reference appears in the Dynamics constructed-response row. These examples come from the first subject page; the remaining pages contain further instructions and assessment material. Read the complete eight-page subject PDF before preparing a final checklist.

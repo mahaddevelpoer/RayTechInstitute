@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
 import React from "react";
@@ -57,6 +58,7 @@ export default function ClassesIndexPage() {
           dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
 
+        <Link href="/smart-syllabus/" className="mb-6 inline-flex min-h-12 items-center rounded-md border border-blue-200 px-4 font-semibold">Smart syllabus: subject PDFs and exam guidance</Link>
         <ClassesClientView
           classes={INITIAL_CLASSES.filter(item => item.isActive)}
           subjects={INITIAL_SUBJECTS}

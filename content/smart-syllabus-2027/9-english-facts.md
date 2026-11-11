@@ -1,0 +1,5 @@
+The Grade 9 English ALP removes three units from the twelve-unit textbook and directs students towards the remaining nine. The excluded units are Unit 5, Women Empowerment through Entrepreneurship, pages 58-71; Unit 8, The Impact of Globalisation on Culture and Economy, pages 93-105; and Unit 10, The Silent Predator and the Majestic Prey: Snow Leopard and Markhor, pages 120-131.
+
+The notice instructs paper setters not to take objective, subjective or other question types from the excluded units. This is wider than simply removing their short-answer exercises. At the same time, removing these units does not mean that every grammar or composition task has disappeared. Consult the following paper-preparation instructions for the tasks that remain.
+
+Use unit numbers, titles and page ranges together. A remembered title from an older edition is not a reliable substitute for this matching process. The seven-page subject PDF includes the exclusion notice and the accompanying assessment material for this subject.
