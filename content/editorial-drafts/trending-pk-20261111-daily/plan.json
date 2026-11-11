@@ -1,0 +1,865 @@
+{
+  "date": "2026-11-11",
+  "sourceCsv": "trending_PK_1d_20261111-1509.csv",
+  "sourceSha256": "8d22804aef46c613c0c440b5aedc8966811a5dc0d47fced27fce1000dfeb8233",
+  "publicationAuthorized": true,
+  "priority": "Only this CSV. Do not resume any unfinished older article queue.",
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "kusal mendis",
+      "breakdown": "kusal mendis,ghazi ghori",
+      "state": "already-covered",
+      "slug": "kusal-mendis-wicketkeeper-batter-analysis-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 2,
+      "query": "india national under-19 cricket team vs united arab emirates national under-19 cricket team standings",
+      "breakdown": "india national under-19 cricket team vs united arab emirates national under-19 cricket team standings,acc u-19 asia cup,india national under-19 cricket team vs united arab emirates national under-19 cricket team match scorecard",
+      "state": "needs-research",
+      "group": "india-uae-u19"
+    },
+    {
+      "row": 3,
+      "query": "oppo reno 17",
+      "breakdown": "oppo reno 17",
+      "state": "needs-research",
+      "group": "oppo-reno17"
+    },
+    {
+      "row": 4,
+      "query": "place of worship",
+      "breakdown": "place of worship",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 5,
+      "query": "pakistan petrol price",
+      "breakdown": "pakistan petrol price,petrol price pakistan,propakistani,petrol price in pakistan today,today petrol price,petrol price today,diesel price in pakistan,petrol,petrol price today in pakistan,fuel price in pakistan",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 6,
+      "query": "whatsapp ios beta contacts tab",
+      "breakdown": "whatsapp ios beta contacts tab",
+      "state": "needs-research",
+      "group": "whatsapp-ios-contacts"
+    },
+    {
+      "row": 7,
+      "query": "india vs maldives",
+      "breakdown": "india vs maldives",
+      "state": "needs-research",
+      "group": "india-maldives"
+    },
+    {
+      "row": 8,
+      "query": "زمبابوے قومی کرکٹ ٹیم",
+      "breakdown": "زمبابوے قومی کرکٹ ٹیم",
+      "state": "needs-research",
+      "group": "zimbabwe-cricket"
+    },
+    {
+      "row": 9,
+      "query": "sania saeed",
+      "breakdown": "sania saeed",
+      "state": "needs-research",
+      "group": "sania-saeed"
+    },
+    {
+      "row": 10,
+      "query": "single day",
+      "breakdown": "single day",
+      "state": "needs-research",
+      "group": "singles-day"
+    },
+    {
+      "row": 11,
+      "query": "psl",
+      "breakdown": "psl",
+      "state": "already-covered",
+      "slug": "hbl-psl-2026-final-zalmi-hardie-scorecard-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 12,
+      "query": "mauricio pochettino",
+      "breakdown": "mauricio pochettino,michael carrick",
+      "state": "needs-research",
+      "group": "pochettino"
+    },
+    {
+      "row": 13,
+      "query": "bisp",
+      "breakdown": "bisp",
+      "state": "already-covered",
+      "slug": "bisp-8171-survey-payment-official-help-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 14,
+      "query": "weather",
+      "breakdown": "weather,weather forecast",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 15,
+      "query": "abdul majeed achakzai",
+      "breakdown": "abdul majeed achakzai",
+      "state": "needs-research",
+      "group": "abdul-majeed-achakzai"
+    },
+    {
+      "row": 16,
+      "query": "snow",
+      "breakdown": "snow",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 17,
+      "query": "zero",
+      "breakdown": "zero",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 18,
+      "query": "nitish bharadwaj",
+      "breakdown": "nitish bharadwaj",
+      "state": "needs-research",
+      "group": "nitish-bharadwaj"
+    },
+    {
+      "row": 19,
+      "query": "sydney thunder vs perth scorchers",
+      "breakdown": "sydney thunder vs perth scorchers",
+      "state": "needs-research",
+      "group": "thunder-scorchers"
+    },
+    {
+      "row": 20,
+      "query": "veterans day 2026",
+      "breakdown": "veterans day 2026",
+      "state": "needs-research",
+      "group": "veterans-day"
+    },
+    {
+      "row": 21,
+      "query": "diwali",
+      "breakdown": "diwali",
+      "state": "already-covered",
+      "slug": "diwali-2026-date-diyas-deepavali-traditions",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 22,
+      "query": "pubg",
+      "breakdown": "pubg",
+      "state": "needs-research",
+      "group": "pubg-mobile-47"
+    },
+    {
+      "row": 23,
+      "query": "drawing",
+      "breakdown": "drawing",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 24,
+      "query": "موٹروے",
+      "breakdown": "موٹروے",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 25,
+      "query": "kamindu mendis",
+      "breakdown": "kamindu mendis",
+      "state": "needs-research",
+      "group": "kamindu-mendis"
+    },
+    {
+      "row": 26,
+      "query": "ebenezer scrooge",
+      "breakdown": "ebenezer scrooge,film",
+      "state": "needs-research",
+      "group": "ebenezer-scrooge"
+    },
+    {
+      "row": 27,
+      "query": "fuel",
+      "breakdown": "fuel",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 28,
+      "query": "pak u19 vs ban u19",
+      "breakdown": "pak u19 vs ban u19,pakistan vs nepal u19 asia cup,pak vs nepal under 19 live score,asia cup u19,under 19 asia cup 2026,pakistan vs nepal under 19,u 19 asia cup",
+      "state": "needs-research",
+      "group": "pakistan-bangladesh-u19"
+    },
+    {
+      "row": 29,
+      "query": "gasoline",
+      "breakdown": "gasoline",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 30,
+      "query": "womens emerging nations trophy",
+      "breakdown": "womens emerging nations trophy",
+      "state": "needs-research",
+      "group": "womens-emerging-trophy"
+    },
+    {
+      "row": 31,
+      "query": "new zealand national cricket team",
+      "breakdown": "new zealand national cricket team",
+      "state": "needs-research",
+      "group": "new-zealand-cricket"
+    },
+    {
+      "row": 32,
+      "query": "bottled water",
+      "breakdown": "bottled water",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 33,
+      "query": "visionquest episode 8",
+      "breakdown": "visionquest episode 8,vision quest episode 8 release date",
+      "state": "needs-research",
+      "group": "visionquest-episode8"
+    },
+    {
+      "row": 34,
+      "query": "fraud",
+      "breakdown": "fraud",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 35,
+      "query": "ڈیزل",
+      "breakdown": "ڈیزل",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 36,
+      "query": "import",
+      "breakdown": "import",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 37,
+      "query": "pubg mobile 4.7 update release date",
+      "breakdown": "pubg mobile 4.7 update release date",
+      "state": "needs-research",
+      "group": "pubg-mobile-47"
+    },
+    {
+      "row": 38,
+      "query": "government debt",
+      "breakdown": "government debt",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 39,
+      "query": "lalit modi",
+      "breakdown": "lalit modi",
+      "state": "needs-research",
+      "group": "lalit-modi"
+    },
+    {
+      "row": 40,
+      "query": "abu dhabi t10 league",
+      "breakdown": "abu dhabi t10 league,t 10",
+      "state": "already-covered",
+      "slug": "abu-dhabi-t10-2026-dates-teams-pakistan-time",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 41,
+      "query": "pm youth loan scheme 2026",
+      "breakdown": "pm youth loan scheme 2026",
+      "state": "needs-research",
+      "group": "pm-youth-loan"
+    },
+    {
+      "row": 42,
+      "query": "military aircraft",
+      "breakdown": "military aircraft",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 43,
+      "query": "atonement",
+      "breakdown": "atonement",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 44,
+      "query": "missile",
+      "breakdown": "missile",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 45,
+      "query": "sshura khan",
+      "breakdown": "sshura khan",
+      "state": "needs-research",
+      "group": "sshura-khan"
+    },
+    {
+      "row": 46,
+      "query": "copa del rey",
+      "breakdown": "copa del rey",
+      "state": "needs-research",
+      "group": "copa-del-rey"
+    },
+    {
+      "row": 47,
+      "query": "forex factory",
+      "breakdown": "forex factory",
+      "state": "already-covered",
+      "slug": "forex-factory-calendar-pakistan-time-data-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 48,
+      "query": "موسم",
+      "breakdown": "موسم",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 49,
+      "query": "t10 live",
+      "breakdown": "t10 live,t10 live match today,t10 live match,t10 league live,t10 league 2026 schedule,t10 league schedule",
+      "state": "already-covered",
+      "slug": "abu-dhabi-t10-2026-dates-teams-pakistan-time",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 50,
+      "query": "veterans day",
+      "breakdown": "veterans day",
+      "state": "needs-research",
+      "group": "veterans-day"
+    },
+    {
+      "row": 51,
+      "query": "england lions cricket team",
+      "breakdown": "england lions cricket team",
+      "state": "already-covered",
+      "slug": "west-indies-a-vs-england-lions-explained-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 52,
+      "query": "weather update",
+      "breakdown": "weather update",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 53,
+      "query": "p@sha",
+      "breakdown": "p@sha",
+      "state": "needs-research",
+      "group": "pasha"
+    },
+    {
+      "row": 54,
+      "query": "work permit",
+      "breakdown": "work permit",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 55,
+      "query": "11.11 sale",
+      "breakdown": "11.11 sale",
+      "state": "needs-research",
+      "group": "singles-day"
+    },
+    {
+      "row": 56,
+      "query": "east west pipeline saudi arabia",
+      "breakdown": "east west pipeline saudi arabia",
+      "state": "needs-research",
+      "group": "east-west-pipeline"
+    },
+    {
+      "row": 57,
+      "query": "karachi",
+      "breakdown": "karachi",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 58,
+      "query": "aqi lahore",
+      "breakdown": "aqi lahore",
+      "state": "needs-research",
+      "group": "lahore-aqi"
+    },
+    {
+      "row": 59,
+      "query": "kareena kapoor",
+      "breakdown": "kareena kapoor",
+      "state": "needs-research",
+      "group": "kareena-kapoor"
+    },
+    {
+      "row": 60,
+      "query": "today",
+      "breakdown": "today",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 61,
+      "query": "real madrid vs paris fc",
+      "breakdown": "real madrid vs paris fc",
+      "state": "needs-research",
+      "group": "real-madrid-paris-fc"
+    },
+    {
+      "row": 62,
+      "query": "boy",
+      "breakdown": "boy",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    },
+    {
+      "row": 63,
+      "query": "gta 6",
+      "breakdown": "gta 6",
+      "state": "already-covered",
+      "slug": "gta-6-release-date-platforms-pakistan-buying-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 64,
+      "query": "kusal mendis",
+      "breakdown": "kusal mendis",
+      "state": "already-covered",
+      "slug": "kusal-mendis-wicketkeeper-batter-analysis-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 65,
+      "query": "tradingview",
+      "breakdown": "tradingview",
+      "state": "needs-research",
+      "group": "tradingview"
+    },
+    {
+      "row": 66,
+      "query": "uefa nations league",
+      "breakdown": "uefa nations league",
+      "state": "needs-research",
+      "group": "uefa-nations-league"
+    },
+    {
+      "row": 67,
+      "query": "u19 asia cup 2026 schedule",
+      "breakdown": "u19 asia cup 2026 schedule",
+      "state": "already-covered",
+      "slug": "acc-u19-asia-cup-2026-pakistan-schedule-oman",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 68,
+      "query": "love in disguise ep 8",
+      "breakdown": "love in disguise ep 8",
+      "state": "needs-research",
+      "group": "love-in-disguise"
+    },
+    {
+      "row": 69,
+      "query": "forex factory news",
+      "breakdown": "forex factory news",
+      "state": "already-covered",
+      "slug": "forex-factory-calendar-pakistan-time-data-guide",
+      "reason": "Existing article covers this search intent; no duplicate is created."
+    },
+    {
+      "row": 70,
+      "query": "email",
+      "breakdown": "email",
+      "state": "unclear-skipped",
+      "reason": "No named event, location, product or other sufficient context. Do not invent a news angle."
+    }
+  ],
+  "groups": [
+    {
+      "key": "india-uae-u19",
+      "rows": [
+        2
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "India under 19 cricket",
+        "United Arab Emirates cricket"
+      ],
+      "slug": "india-uae-u19-2026-result-group-a-standings",
+      "title": "India U19 Beat UAE by 70 Runs: Asia Cup 2026 Result and Standings"
+    },
+    {
+      "key": "oppo-reno17",
+      "rows": [
+        3
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "OPPO Reno smartphone",
+        "OPPO smartphone store"
+      ],
+      "slug": "oppo-reno17-launch-november-2026-pakistan-time",
+      "title": "OPPO Reno17 Launch on 16 November: Pakistan Time and Confirmed Details"
+    },
+    {
+      "key": "petrol-diesel-pakistan",
+      "rows": [
+        5,
+        27,
+        29,
+        35
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "whatsapp-ios-contacts",
+      "rows": [
+        6
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "WhatsApp mobile phone",
+        "iPhone smartphone hand"
+      ],
+      "slug": "whatsapp-ios-beta-contacts-tab-rollout-privacy",
+      "title": "WhatsApp iOS Beta Contacts Tab: Rollout, Privacy and What Changed"
+    },
+    {
+      "key": "india-maldives",
+      "rows": [
+        7
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "zimbabwe-cricket",
+      "rows": [
+        8
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "sania-saeed",
+      "rows": [
+        9
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "singles-day",
+      "rows": [
+        10,
+        55
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "online shopping smartphone",
+        "parcel delivery"
+      ],
+      "slug": "11-11-sale-pakistan-2026-price-voucher-checks",
+      "title": "11.11 Sale Pakistan 2026: Check Prices, Vouchers and the Final Cost"
+    },
+    {
+      "key": "pochettino",
+      "rows": [
+        12
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "abdul-majeed-achakzai",
+      "rows": [
+        15
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "nitish-bharadwaj",
+      "rows": [
+        18
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "thunder-scorchers",
+      "rows": [
+        19
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Perth Scorchers Women",
+        "Sydney Thunder Women"
+      ],
+      "slug": "perth-scorchers-sydney-thunder-women-november11-2026",
+      "title": "Perth Scorchers vs Sydney Thunder Women: WBBL Date, Venue and PKT Time"
+    },
+    {
+      "key": "veterans-day",
+      "rows": [
+        20,
+        50
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Veterans Day Arlington wreath",
+        "Veterans Day parade"
+      ],
+      "slug": "veterans-day-2026-date-history-meaning",
+      "title": "Veterans Day 2026: November 11 Date, History and Meaning Explained"
+    },
+    {
+      "key": "pubg-mobile-47",
+      "rows": [
+        22,
+        37
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "PUBG Mobile tournament",
+        "mobile esports tournament"
+      ],
+      "slug": "pubg-mobile-4-7-update-november-12-2026-guide",
+      "title": "PUBG Mobile 4.7 Update: November 12 Date and Safe Installation Guide"
+    },
+    {
+      "key": "kamindu-mendis",
+      "rows": [
+        25
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "ebenezer-scrooge",
+      "rows": [
+        26
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "pakistan-bangladesh-u19",
+      "rows": [
+        28
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "womens-emerging-trophy",
+      "rows": [
+        30
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Thailand women cricket",
+        "Scotland women cricket"
+      ],
+      "slug": "womens-emerging-nations-trophy-2026-groups-pakistan",
+      "title": "Women's Emerging Nations Trophy 2026: Teams, Groups and Pakistan Guide"
+    },
+    {
+      "key": "new-zealand-cricket",
+      "rows": [
+        31
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "visionquest-episode8",
+      "rows": [
+        33
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "lalit-modi",
+      "rows": [
+        39
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "pm-youth-loan",
+      "rows": [
+        41
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "small business Pakistan shop",
+        "agriculture farmer Pakistan"
+      ],
+      "slug": "pm-youth-loan-2026-new-tier-25-million-guide",
+      "title": "PM Youth Loan Scheme 2026: New Rs25 Million Tier and Application Guide"
+    },
+    {
+      "key": "sshura-khan",
+      "rows": [
+        45
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "copa-del-rey",
+      "rows": [
+        46
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "pasha",
+      "rows": [
+        53
+      ],
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Pakistan software office",
+        "software developer office"
+      ],
+      "slug": "pasha-it-firms-nccia-statement-explained",
+      "title": "P@SHA Calls for Distinction Between Genuine IT Firms and Scam Centres"
+    },
+    {
+      "key": "east-west-pipeline",
+      "rows": [
+        56
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "lahore-aqi",
+      "rows": [
+        58
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "kareena-kapoor",
+      "rows": [
+        59
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "real-madrid-paris-fc",
+      "rows": [
+        61
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "tradingview",
+      "rows": [
+        65
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "uefa-nations-league",
+      "rows": [
+        66
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "love-in-disguise",
+      "rows": [
+        68
+      ],
+      "state": "needs-research"
+    }
+  ],
+  "oldQueueSnapshot": [
+    {
+      "path": "content/editorial-drafts/trending-in-20261105-daily/plan.json",
+      "sha256": "99d0b673454cbd97d457dcb29f4770737c65b9622f3742fd1e43ce059dbcbe59"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261101/plan.json",
+      "sha256": "c02b76c76f89abaf0097ac4e39f96757216bb2be497a92b3e24f7a9525e42be8"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261102/plan.json",
+      "sha256": "b23475a800499561c2e8604f44860a99b67e1a717e736e0f56e420d5eff66d24"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261103/plan.json",
+      "sha256": "333cb2322e02f2a279b53812b7459a1e49186a0340c5bea638edb85e378d02c7"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261104/plan.json",
+      "sha256": "8d4723638126a9e4e310ea3c71574039dd5020a3005fbde6b1b5fcca580e9e4b"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261104-daily/plan.json",
+      "sha256": "72e2d9492c30254fd3219794ca66f47ae96b41bf004a9d8217200dbcf700032c"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261105-daily/plan.json",
+      "sha256": "bc65a3077116a398c6b6c7dd479a73aa2397d4f0597eecb8621497c65b92e147"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261106-daily/plan.json",
+      "sha256": "c3cb80291b99aca6659763595131bc793bde06cc5ce297183f72ed8ba7aaccc2"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261107-daily/plan.json",
+      "sha256": "edbbc323875421e73607df66fa331dce432cd96b9c93f80736ea8b397207b43b"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "oppo-reno17",
+        "whatsapp-ios-contacts",
+        "veterans-day",
+        "pubg-mobile-47",
+        "pm-youth-loan",
+        "pasha",
+        "womens-emerging-trophy",
+        "india-uae-u19",
+        "thunder-scorchers",
+        "singles-day"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": "Standing publication approval and latest user request for this CSV only.",
+      "state": "validated-ready-to-publish",
+      "validationFile": "batch-01-validation.json"
+    }
+  ],
+  "state": "batch-01-validated"
+}
