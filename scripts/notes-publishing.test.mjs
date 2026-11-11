@@ -102,7 +102,9 @@ test('the real note detail metadata cannot block publishing for a 183-character 
   for (const summary of ['', 'A', 'X'.repeat(183), 'Detailed study guidance. '.repeat(100)]) {
     note.description = summary;
     const metadata = await module.exports.generateMetadata({ params: Promise.resolve({ classSlug: note.classSlug, subjectSlug: note.subjectSlug, noteSlug: note.id }) });
-    assert.ok(metadata.description.length>0&&!metadata.description.endsWith('…'));if(summary)assert.ok(metadata.description.includes(summary.trim()));
+    assert.ok(metadata.description.length >= 120 && metadata.description.length <= 155);
+    if (summary && summary.length < 60) assert.ok(metadata.description.includes(summary.trim()));
+    assert.ok(metadata.description.includes('Class 11 Introduction Chapter 1 notes PDF'));
     assert.equal(metadata.openGraph.description, metadata.description);
     assert.match(metadata.title,/Class 11/);
     assert.ok(metadata.keywords.includes('Introduction'));

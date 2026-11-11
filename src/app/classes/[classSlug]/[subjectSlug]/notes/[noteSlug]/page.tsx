@@ -59,7 +59,11 @@ export async function generateMetadata({
     `${className} ${note.chapterTitle} Ch ${displayChapterNumber} Notes PDF`,
   );
   const fullDescription = buildDocumentDescription(note.description || '', `${className} ${note.chapterTitle} Chapter ${displayChapterNumber} notes PDF`);
-  const description = fullDescription.length > 155 ? fullDescription.slice(0, 154).replace(/\s+\S*$/, '') + '…' : fullDescription;
+  const limitedDescription = fullDescription.slice(0, 154);
+  const wordBoundary = limitedDescription.replace(/\s+\S*$/, '');
+  const description = fullDescription.length > 155
+    ? (wordBoundary.length >= 120 ? wordBoundary : limitedDescription) + '…'
+    : fullDescription;
   return withSocialMetadata({
     title,
     description,
