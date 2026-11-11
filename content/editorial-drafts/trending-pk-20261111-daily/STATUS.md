@@ -3,7 +3,7 @@
 Only this CSV is active; older unfinished article queues remain unchanged.
 
 - Input: 70 rows.
-- 20 new articles are published and live verified, covering 23 input rows.
+- 21 new articles are published and live verified, covering 24 input rows.
 - Batch 1: 10 article(s), 20,160 body words, 420 tags and 20 distinct licensed images.
 - Batch 2: 1 article(s), 2,157 body words, 42 tags and 2 distinct licensed images.
 - Batch 3: 1 article(s), 2,196 body words, 42 tags and 2 distinct licensed images.
@@ -15,8 +15,9 @@ Only this CSV is active; older unfinished article queues remain unchanged.
 - Batch 9: 1 article(s), 2,135 body words, 42 tags and 2 distinct licensed images.
 - Batch 10: 1 article(s), 2,107 body words, 42 tags and 2 distinct licensed images.
 - Batch 11: 1 article(s), 2,217 body words, 42 tags and 2 distinct licensed images.
+- Batch 12: 1 article(s), 2,358 body words, 42 tags and 2 distinct licensed images.
 - 12 input rows already have relevant published articles.
 - 20 generic rows are skipped for insufficient context.
-- 12 topic groups remain incomplete, subject to further research.
-- Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed. Latest workflow: 43082013606.
+- 11 topic groups remain incomplete, subject to further research.
+- Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed. Latest workflow: 43084154645.
 - See batch evidence files and NEXT-RESEARCH.md.

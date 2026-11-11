@@ -73,8 +73,9 @@
       "row": 9,
       "query": "sania saeed",
       "breakdown": "sania saeed",
-      "state": "needs-research",
-      "group": "sania-saeed"
+      "state": "published-live-verified",
+      "group": "sania-saeed",
+      "slug": "sania-saeed-rescued-animals-interview-responsible-care"
     },
     {
       "row": 10,
@@ -614,7 +615,7 @@
       "rows": [
         9
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Sania Saeed on Rescued Animals: Interview Context and Responsible Care",
       "slug": "sania-saeed-rescued-animals-interview-responsible-care"
     },
@@ -1065,9 +1066,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-12-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-12-validation.json",
+      "revision": "366d6d28353a3856b247a34c60678dab4653bdec",
+      "workflowRun": "43084154645",
+      "liveVerifiedAt": "2026-11-11T19:12:19.620Z"
     }
   ],
-  "state": "batch-11-published-next-research-pending"
+  "state": "batch-12-published-next-research-pending"
 }
