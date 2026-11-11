@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2135,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-11",
   "scope": "Upcoming fixtures, explicitly conflicting timing listings, dated split-squad plan. No invented current series score, final eleven or Pakistan broadcast rights.",
   "imageVisualReviewNotes": "Both final WebPs reviewed: 2017 floodlit venue panorama and January 2024 aerial with flyover. Same verified venue, distinct photos and archive captions, no current-match claims.",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/new-zealand-india-bay-oval-odis-november-2026-guide/",
+  "liveVerifiedAt": "2026-11-11T18:24:54.379Z",
+  "releaseRevision": "23b285bf29c2251cff5fe41a76f3c2cb90030ca5",
+  "workflowRun": "43076591514"
 }

@@ -237,8 +237,9 @@
       "row": 31,
       "query": "new zealand national cricket team",
       "breakdown": "new zealand national cricket team",
-      "state": "needs-research",
-      "group": "new-zealand-cricket"
+      "state": "published-live-verified",
+      "group": "new-zealand-cricket",
+      "slug": "new-zealand-india-bay-oval-odis-november-2026-guide"
     },
     {
       "row": 32,
@@ -736,7 +737,7 @@
       "rows": [
         31
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "New Zealand vs India: Bay Oval ODI Dates, Squads and Time Check",
       "slug": "new-zealand-india-bay-oval-odis-november-2026-guide"
     },
@@ -1017,9 +1018,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-09-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-09-validation.json",
+      "revision": "23b285bf29c2251cff5fe41a76f3c2cb90030ca5",
+      "workflowRun": "43076591514",
+      "liveVerifiedAt": "2026-11-11T18:24:54.379Z"
     }
   ],
-  "state": "batch-08-published-next-research-pending"
+  "state": "batch-09-published-next-research-pending"
 }
