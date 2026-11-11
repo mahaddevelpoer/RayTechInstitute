@@ -1,0 +1,51 @@
+[
+  {
+    "key": "networking-devices",
+    "pages": 37,
+    "questionsVerified": 100,
+    "missingEnglishQuestions": [],
+    "bytes": 739494
+  },
+  {
+    "key": "transmission-media",
+    "pages": 41,
+    "questionsVerified": 110,
+    "missingEnglishQuestions": [],
+    "bytes": 792392
+  },
+  {
+    "key": "network-models",
+    "pages": 56,
+    "questionsVerified": 150,
+    "missingEnglishQuestions": [],
+    "bytes": 1055150
+  },
+  {
+    "key": "ip-addresses",
+    "pages": 27,
+    "questionsVerified": 70,
+    "missingEnglishQuestions": [],
+    "bytes": 544461
+  },
+  {
+    "key": "protocols",
+    "pages": 38,
+    "questionsVerified": 100,
+    "missingEnglishQuestions": [],
+    "bytes": 745151
+  },
+  {
+    "key": "excel",
+    "pages": 48,
+    "questionsVerified": 130,
+    "missingEnglishQuestions": [],
+    "bytes": 923980
+  },
+  {
+    "key": "access",
+    "pages": 37,
+    "questionsVerified": 100,
+    "missingEnglishQuestions": [],
+    "bytes": 726063
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-11-11T13:54:03.093Z",
+  "results": [
+    {
+      "key": "networking-devices",
+      "topics": 10,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    },
+    {
+      "key": "transmission-media",
+      "topics": 11,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    },
+    {
+      "key": "network-models",
+      "topics": 15,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    },
+    {
+      "key": "ip-addresses",
+      "topics": 7,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    },
+    {
+      "key": "protocols",
+      "topics": 10,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    },
+    {
+      "key": "excel",
+      "topics": 13,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    },
+    {
+      "key": "access",
+      "topics": 10,
+      "realSourceQuestion": true,
+      "mobileOverflow": false
+    }
+  ],
+  "unhandledErrors": []
+}

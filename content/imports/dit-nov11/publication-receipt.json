@@ -1,0 +1,21 @@
+{
+  "state": "database-verified-awaiting-hosting",
+  "checkedAt": "2026-11-11T13:46:28.867Z",
+  "inserted": {
+    "chapters": 7,
+    "mcqs": 760,
+    "notes": 7
+  },
+  "verified": {
+    "chapters": 7,
+    "mcqs": 760,
+    "notes": 7
+  },
+  "metadataUpdates": 2,
+  "preserved": {
+    "chapters": 6,
+    "mcqs": 465,
+    "notes": 6
+  },
+  "payloadSha256": "f81dc8267c81339c84b486a1e18a144441617b1dffeeab1dd0f400aa92867f81"
+}

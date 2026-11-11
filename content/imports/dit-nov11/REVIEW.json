@@ -1,5 +1,5 @@
 {
-  "state": "locally-staged-not-published",
+  "state": "published-live-verified",
   "classSlug": "dit-intermediate",
   "subjectSlug": "dit-computer-science",
   "semester": 1,
@@ -94,9 +94,7 @@
   "questions": 760,
   "topics": 76,
   "overwrites": 0,
-  "pending": [
-    "Publishing this academic import requires explicit approval."
-  ],
+  "pending": [],
   "officeOrderConfirmed": true,
   "officeOrder": [
     "Introduction to MS Office",
@@ -150,5 +148,8 @@
       "sha256": "8f1552b2d98ee72794938078432d3caf2538bf913eae7a774d25f984042a26bc"
     }
   ],
-  "approvedMetadataUpdates": 2
+  "approvedMetadataUpdates": 2,
+  "liveRevision": "7ebcb0c734391ba83f4c35a04fc45c8a0d573762",
+  "workflow": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43032190987",
+  "liveVerifiedAt": "2026-11-11T13:52:34.386Z"
 }

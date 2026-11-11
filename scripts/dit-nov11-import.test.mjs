@@ -1,4 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {PGlite} from '@electric-sql/pglite';
+import {loadTypescript} from './load-typescript.mjs';
 const payload=JSON.parse(fs.readFileSync('content/imports/dit-nov11/payload.json'));
 test('new DIT import is atomic, idempotent, preserves existing IDs and rejects edited answers',async()=>{
  const db=new PGlite();
@@ -23,4 +24,13 @@ test('new DIT import is atomic, idempotent, preserves existing IDs and rejects e
   await assert.rejects(db.exec(sql),/refusing overwrite/);await db.exec('ROLLBACK');
   assert.notEqual((await db.query('SELECT correct_index FROM mcqs WHERE id=$1',[payload.mcqs[0].id])).rows[0].correct_index,payload.mcqs[0].correct_index);
  }finally{await db.close();}
+});
+test('student book navigation uses independent numbering and resolves notes by stable storage identity',async()=>{
+ const {groupChapterBooks,resolveChapterForResource,chapterDisplayLabel}=await loadTypescript('src/utils/chapter-books.ts');
+ const base={classSlug:'dit-intermediate',subjectSlug:'dit-computer-science',isActive:true};
+ const old=[{...base,id:'chapter-dit-computer-science-ms-office',chapterNumber:2,title:'MS Office'},{...base,id:'chapter-dit-computer-science-ms-word-2016',chapterNumber:3,title:'Microsoft Word 2016'},{...base,id:'chapter-dit-computer-science-powerpoint',chapterNumber:5,title:'Microsoft PowerPoint',bookTitle:'MS Office',displayChapterNumber:4}];
+ const chapters=[...old,...payload.chapters.map(c=>({...base,id:c.id,title:c.title,chapterNumber:c.chapter_number,bookTitle:c.book_title,displayChapterNumber:c.display_chapter_number}))];
+ const books=groupChapterBooks(chapters),office=books.find(b=>b.id==='ms-office');
+ assert.deepEqual(office.chapters.map(c=>c.number),[1,2,3,4,5]);
+ for(const n of payload.notes){const resource={...base,id:n.id,title:n.title,chapterNumber:n.chapter_number};const resolved=resolveChapterForResource(resource,chapters);assert.ok(chapterDisplayLabel(resolved).includes(payload.chapters.find(c=>c.chapter_number===n.chapter_number).title));assert.equal(resolved.chapterNumber,n.chapter_number);}
 });

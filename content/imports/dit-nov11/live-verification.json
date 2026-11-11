@@ -1,0 +1,87 @@
+{
+  "revision": "7ebcb0c734391ba83f4c35a04fc45c8a0d573762",
+  "checkedAt": "2026-11-11T13:52:34.386Z",
+  "chapters": 7,
+  "newMcqs": 760,
+  "pdfs": 7,
+  "existingPowerPointUrlPreserved": true,
+  "results": [
+    {
+      "chapter": "Networking Devices",
+      "book": "Computer Networking",
+      "number": 3,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-networking-devices-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/networking-devices.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    },
+    {
+      "chapter": "Transmission Media",
+      "book": "Computer Networking",
+      "number": 4,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-transmission-media-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/transmission-media.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    },
+    {
+      "chapter": "Network Models",
+      "book": "Computer Networking",
+      "number": 5,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-network-models-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/network-models.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    },
+    {
+      "chapter": "IP Addresses",
+      "book": "Computer Networking",
+      "number": 6,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-ip-addresses-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/ip-addresses.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    },
+    {
+      "chapter": "Protocols",
+      "book": "Computer Networking",
+      "number": 7,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-protocols-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/protocols.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    },
+    {
+      "chapter": "Microsoft Excel",
+      "book": "MS Office",
+      "number": 3,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-excel-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/excel.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    },
+    {
+      "chapter": "Microsoft Access",
+      "book": "MS Office",
+      "number": 5,
+      "note": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-access-mcq-notes/",
+      "pdf": "https://raytechinstitute.com/documents/dit/nov11/access.pdf",
+      "pdfHashVerified": true,
+      "listing": true,
+      "sitemap": true,
+      "canonical": true
+    }
+  ]
+}
