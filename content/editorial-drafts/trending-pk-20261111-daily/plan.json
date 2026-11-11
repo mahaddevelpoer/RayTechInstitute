@@ -582,7 +582,13 @@
       "rows": [
         7
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "India vs Maldives 1-0: SAFF 2026 Result and Group B Standings",
+      "slug": "india-maldives-saff-2026-result-group-b-standings",
+      "queries": [
+        "intitle:Maldives intitle:football",
+        "intitle:Dhaka intitle:Stadium"
+      ]
     },
     {
       "key": "zimbabwe-cricket",
@@ -955,6 +961,16 @@
       "revision": "63dbacf5f3524867dfe12237766173bf3ba8aff7",
       "workflowRun": "43042204923",
       "liveVerifiedAt": "2026-11-11T14:54:36.448Z"
+    },
+    {
+      "number": 6,
+      "keys": [
+        "india-maldives"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Standing editorial publication approval and user request to continue the current CSV.",
+      "state": "draft-written",
+      "validationFile": "batch-06-validation.json"
     }
   ],
   "state": "batch-05-published-next-research-pending"

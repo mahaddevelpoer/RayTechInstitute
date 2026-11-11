@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Maldives National Football Team in the 2018 SAFF Championship final.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Maldives_National_Football_Team_in_the_2018_SAFF_Championship_final.jpg/1280px-Maldives_National_Football_Team_in_the_2018_SAFF_Championship_final.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Maldives_National_Football_Team_in_the_2018_SAFF_Championship_final.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Maldives_National_Football_Team_in_the_2018_SAFF_Championship_final.jpg",
+    "creator": "The President's Office of the Republic of Maldives",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Maldives football team at the 2018 SAFF Championship final",
+    "description": "Award winning Maldives National Football Team in the 2018 SAFF Championship final against India.",
+    "caption": "Archive photograph: Maldives at the 2018 SAFF final, not the November 2026 match.",
+    "width": 1400,
+    "height": 791,
+    "bytes": 333563,
+    "sha1": "535cac44aee697181a6bfbb490013a5dc8146876",
+    "photographedAt": "2018-09-15",
+    "query": "intitle:Maldives intitle:football",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:National Stadium, Dhaka.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/National_Stadium%2C_Dhaka.jpg/1280px-National_Stadium%2C_Dhaka.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/National_Stadium%2C_Dhaka.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Stadium,_Dhaka.jpg",
+    "creator": "Jubair Bin Iqbal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "National Stadium in Dhaka, Bangladesh",
+    "description": "National Stadium, Dhaka",
+    "caption": "National Stadium, Dhaka. This venue photograph is not a still from the India-Maldives match.",
+    "width": 8192,
+    "height": 6144,
+    "bytes": 39278043,
+    "sha1": "cdff9bb6460d6fad2dc7f8029e010e5697ab26c8",
+    "photographedAt": "2026-03-06 15:00:45",
+    "query": "intitle:National intitle:Stadium intitle:Dhaka",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]
