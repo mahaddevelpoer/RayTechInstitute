@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T18:41:44.157Z",
+  "expectedRevision": "8154ae3f89aab61f8f7f3b3b42a861ad3047d174",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T18:39:13.457Z",
+    "revision": "8154ae3f89aab61f8f7f3b3b42a861ad3047d174",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 585,
+    "sitemapSha256": "50a4632b365c01cd79af0c6039b6e49c6847c99d4d49929ccc6dffaa49e63b8e",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43079378490"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "pochettino",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/pochettino-usmnt-haiti-roster-november-2026-pakistan-times/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/pochettino-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/pochettino-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

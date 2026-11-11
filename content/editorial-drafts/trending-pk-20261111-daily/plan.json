@@ -96,8 +96,9 @@
       "row": 12,
       "query": "mauricio pochettino",
       "breakdown": "mauricio pochettino,michael carrick",
-      "state": "needs-research",
-      "group": "pochettino"
+      "state": "published-live-verified",
+      "group": "pochettino",
+      "slug": "pochettino-usmnt-haiti-roster-november-2026-pakistan-times"
     },
     {
       "row": 13,
@@ -633,7 +634,7 @@
       "rows": [
         12
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Mauricio Pochettino: USMNT Haiti Roster, Dates and Pakistan Times",
       "slug": "pochettino-usmnt-haiti-roster-november-2026-pakistan-times"
     },
@@ -1033,9 +1034,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-10-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-10-validation.json",
+      "revision": "8154ae3f89aab61f8f7f3b3b42a861ad3047d174",
+      "workflowRun": "43079378490",
+      "liveVerifiedAt": "2026-11-11T18:41:44.157Z"
     }
   ],
-  "state": "batch-09-published-next-research-pending"
+  "state": "batch-10-published-next-research-pending"
 }
