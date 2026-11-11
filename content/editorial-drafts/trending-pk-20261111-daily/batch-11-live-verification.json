@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-11T18:58:42.458Z",
+  "expectedRevision": "55360dbf26339a7c8b93041df8d31421884fd11b",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-11T18:55:46.609Z",
+    "revision": "55360dbf26339a7c8b93041df8d31421884fd11b",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 586,
+    "sitemapSha256": "282caef9cb25adab5367e7e8f9617adc365774fbb67211829b5583055ba33e63",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43082013606"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "pakistan-bangladesh-u19",
+      "batch": "20261111-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-bangladesh-u19-asia-cup-semi-final-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/pakistan-bangladesh-u19-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261111-daily/pakistan-bangladesh-u19-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

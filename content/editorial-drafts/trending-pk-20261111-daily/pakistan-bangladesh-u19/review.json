@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2217,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-11",
   "scope": "Confirmed upcoming semi-final and completed Nepal/India matches. No invented playing eleven, semi-final result or broadcast rights.",
   "imageVisualReviewNotes": "Both final WebPs reviewed: Bangladesh-Pakistan spectators in Mirpur July 2025 and generic Trent Bridge practice. Captions clearly exclude current U19 event, teams and Oman location.",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-bangladesh-u19-asia-cup-semi-final-november-2026/",
+  "liveVerifiedAt": "2026-11-11T18:58:42.458Z",
+  "releaseRevision": "55360dbf26339a7c8b93041df8d31421884fd11b",
+  "workflowRun": "43082013606"
 }

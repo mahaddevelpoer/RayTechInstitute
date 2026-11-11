@@ -216,8 +216,9 @@
       "row": 28,
       "query": "pak u19 vs ban u19",
       "breakdown": "pak u19 vs ban u19,pakistan vs nepal u19 asia cup,pak vs nepal under 19 live score,asia cup u19,under 19 asia cup 2026,pakistan vs nepal under 19,u 19 asia cup",
-      "state": "needs-research",
-      "group": "pakistan-bangladesh-u19"
+      "state": "published-live-verified",
+      "group": "pakistan-bangladesh-u19",
+      "slug": "pakistan-bangladesh-u19-asia-cup-semi-final-november-2026"
     },
     {
       "row": 29,
@@ -720,7 +721,7 @@
       "rows": [
         28
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Pakistan U19 vs Bangladesh: Asia Cup Semi-Final Time and Nepal Win",
       "slug": "pakistan-bangladesh-u19-asia-cup-semi-final-november-2026"
     },
@@ -1049,9 +1050,12 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Standing editorial publication approval and user request to continue current CSV.",
-      "state": "draft-written",
-      "validationFile": "batch-11-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-11-validation.json",
+      "revision": "55360dbf26339a7c8b93041df8d31421884fd11b",
+      "workflowRun": "43082013606",
+      "liveVerifiedAt": "2026-11-11T18:58:42.458Z"
     }
   ],
-  "state": "batch-10-published-next-research-pending"
+  "state": "batch-11-published-next-research-pending"
 }
