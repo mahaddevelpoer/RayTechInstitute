@@ -1,0 +1,1299 @@
+{
+  "key": "chapter-3",
+  "title": "Algorithms and Problem Solving",
+  "chapter": 3,
+  "source": "Raytech_Class11_Computer_Chapter3_Study_Guide.docx",
+  "sourceSha256": "c2930850e9779b4f69b4df0acbb12d4f07b51d6ccba88145c538d2d3c40bda06",
+  "topics": [
+    "3.1 Computational Problems",
+    "3.2 Generate-and-Test Method",
+    "3.3 Solvability and Tractability",
+    "3.4 Algorithm Analysis",
+    "3.5 Algorithm Design Techniques",
+    "3.6 Sorting Algorithms",
+    "3.6 Searching Algorithms",
+    "3.6 Graph Traversal (BFS and DFS)"
+  ],
+  "questions": [
+    {
+      "id": "class11-nov12-ch3-q001",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "What is the input of a computational problem?",
+      "options": [
+        "Data provided to an algorithm",
+        "Only a flowchart",
+        "A programming error",
+        "The final answer"
+      ],
+      "correct_index": 0,
+      "explanation": "Input is the information the algorithm receives.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q002",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "What is the output of an algorithm?",
+      "options": [
+        "The original data",
+        "A syntax rule",
+        "Its produced result",
+        "The processor speed"
+      ],
+      "correct_index": 2,
+      "explanation": "Output is the answer after processing.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q003",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "A problem asking whether a number is even is a:",
+      "options": [
+        "Sorting problem",
+        "Decision problem",
+        "Counting problem",
+        "Optimization problem"
+      ],
+      "correct_index": 1,
+      "explanation": "It requires a yes/no decision.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q004",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "Finding the shortest route between two cities is an example of:",
+      "options": [
+        "Syntax checking",
+        "Counting problem",
+        "File copying",
+        "Optimization problem"
+      ],
+      "correct_index": 3,
+      "explanation": "Optimization seeks the best solution against a criterion.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q005",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "Counting how many passwords meet a condition is a:",
+      "options": [
+        "Optimization problem",
+        "Counting problem",
+        "Decision problem",
+        "Compilation task"
+      ],
+      "correct_index": 1,
+      "explanation": "A counting problem asks for the number of valid solutions.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q006",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "Which feature is essential to a well-defined problem?",
+      "options": [
+        "Missing constraints",
+        "Clearly specified inputs and goals",
+        "Unknown outputs",
+        "Ambiguous goals"
+      ],
+      "correct_index": 1,
+      "explanation": "A well-defined problem has precise objectives and inputs.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q007",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "Why is the instruction “make a good drawing” ill-defined?",
+      "options": [
+        "Its success criteria are ambiguous",
+        "It has a known output",
+        "It specifies all constraints",
+        "It uses numeric input"
+      ],
+      "correct_index": 0,
+      "explanation": "Good is subjective unless measurable criteria are given.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q008",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "The computational processing stage mainly consists of:",
+      "options": [
+        "Only the user name",
+        "The keyboard layout",
+        "The final output alone",
+        "A sequence of steps or rules"
+      ],
+      "correct_index": 3,
+      "explanation": "Processing applies the algorithm to input.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q009",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "Which problem asks for a yes/no answer?",
+      "options": [
+        "Optimization",
+        "Enumeration only",
+        "Counting",
+        "Decision"
+      ],
+      "correct_index": 3,
+      "explanation": "Decision problems have binary outcomes.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q010",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.1 Computational Problems",
+      "question": "Which best illustrates a well-defined problem?",
+      "options": [
+        "Check whether integer n is divisible by 2",
+        "Make everything fast",
+        "Find something interesting",
+        "Design a beautiful thing"
+      ],
+      "correct_index": 0,
+      "explanation": "Divisibility is a precise test.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q011",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "Generate-and-test first produces:",
+      "options": [
+        "A sorted database",
+        "Final verified answers",
+        "Candidate solutions",
+        "Only machine code"
+      ],
+      "correct_index": 2,
+      "explanation": "The generator proposes candidates.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q012",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "The tester in generate-and-test:",
+      "options": [
+        "Writes all possible questions",
+        "Changes a CPU",
+        "Checks whether a candidate meets conditions",
+        "Creates a computer network"
+      ],
+      "correct_index": 2,
+      "explanation": "The tester evaluates the candidate.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q013",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "What happens when a generated candidate is invalid?",
+      "options": [
+        "Delete all inputs",
+        "Assume it is correct",
+        "Always stop successfully",
+        "Try another candidate"
+      ],
+      "correct_index": 3,
+      "explanation": "An unsuccessful candidate leads to another attempt.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q014",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "Generate-and-test may be inefficient because:",
+      "options": [
+        "It always finds an optimal answer first",
+        "It can examine many possibilities",
+        "It requires no input",
+        "It never evaluates results"
+      ],
+      "correct_index": 1,
+      "explanation": "Exhaustive search can require many trials.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q015",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "Which application is well suited to generate-and-test?",
+      "options": [
+        "Trying puzzle arrangements",
+        "Renaming a folder",
+        "Formatting a heading",
+        "Changing screen brightness"
+      ],
+      "correct_index": 0,
+      "explanation": "Puzzle solutions can be proposed and checked.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q016",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "A heuristic can improve generate-and-test by:",
+      "options": [
+        "Removing test conditions",
+        "Making each candidate correct",
+        "Guaranteeing zero computation",
+        "Reducing the candidates to explore"
+      ],
+      "correct_index": 3,
+      "explanation": "Heuristics prioritize promising candidates.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q017",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "A candidate is accepted when it:",
+      "options": [
+        "Satisfies the required test",
+        "Appears first",
+        "Uses the most memory",
+        "Contains the most characters"
+      ],
+      "correct_index": 0,
+      "explanation": "Acceptance depends on requirements.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q018",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "An exhaustive generate-and-test strategy explores:",
+      "options": [
+        "All relevant candidates until resolved",
+        "No candidates",
+        "Only the smallest number",
+        "Only the first possibility"
+      ],
+      "correct_index": 0,
+      "explanation": "Exhaustive means systematically testing possible candidates.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q019",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "The sequence of generate-and-test is:",
+      "options": [
+        "Sort → Encrypt → Exit",
+        "Generate → Test → Repeat if needed",
+        "Compile → Print → Delete",
+        "Test → Stop → Input"
+      ],
+      "correct_index": 1,
+      "explanation": "The testing loop follows candidate generation.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q020",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "question": "A major limitation of exhaustive search is:",
+      "options": [
+        "Lack of a test step",
+        "Large search spaces",
+        "Only numeric inputs",
+        "Requirement for sorted arrays"
+      ],
+      "correct_index": 1,
+      "explanation": "Many possibilities may be computationally costly.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q021",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "A solvable computational problem has:",
+      "options": [
+        "An infinite alphabet",
+        "No possible solution procedure",
+        "Only graphical input",
+        "An algorithm that produces a solution"
+      ],
+      "correct_index": 3,
+      "explanation": "Solvability means an algorithm exists.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q022",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "The halting problem is a famous example of an:",
+      "options": [
+        "Unsolvable problem",
+        "Optimization heuristic",
+        "Linear search",
+        "Sorting algorithm"
+      ],
+      "correct_index": 0,
+      "explanation": "No general algorithm can decide halting for every program-input pair.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q023",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "A tractable problem can generally be solved in:",
+      "options": [
+        "No defined amount of time",
+        "Polynomial time",
+        "Constant memory always",
+        "Infinite time only"
+      ],
+      "correct_index": 1,
+      "explanation": "Tractable commonly means efficiently solvable as input grows.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q024",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "Which time bound is polynomial?",
+      "options": [
+        "O(3ⁿ)",
+        "O(n!)",
+        "O(2ⁿ)",
+        "O(n²)"
+      ],
+      "correct_index": 3,
+      "explanation": "n squared is polynomial.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q025",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "Which time bound grows exponentially?",
+      "options": [
+        "O(n)",
+        "O(2ⁿ)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "correct_index": 1,
+      "explanation": "Two to the n grows exponentially.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q026",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "Why do intractable problems become impractical?",
+      "options": [
+        "Their resource needs rise rapidly with input size",
+        "Their input is always empty",
+        "They cannot be written in English",
+        "They never use arithmetic"
+      ],
+      "correct_index": 0,
+      "explanation": "Very fast growth may make large instances infeasible.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q027",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "What is the Traveling Salesman Problem seeking?",
+      "options": [
+        "The fastest CPU brand",
+        "A shortest tour visiting cities and returning",
+        "A list of book titles",
+        "The largest integer"
+      ],
+      "correct_index": 1,
+      "explanation": "TSP asks for a minimum-cost visiting tour.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q028",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "Before selecting a solving algorithm, we should check:",
+      "options": [
+        "How many icons are installed",
+        "Whether the file name is short",
+        "The color of the keyboard",
+        "Whether the problem is solvable and practical"
+      ],
+      "correct_index": 3,
+      "explanation": "Feasibility and resources should be evaluated.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q029",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "Which generally scales better for large n?",
+      "options": [
+        "O(n!) than O(n)",
+        "All growth rates are equal",
+        "O(n²) than O(2ⁿ)",
+        "O(2ⁿ) than O(n²)"
+      ],
+      "correct_index": 2,
+      "explanation": "Polynomial growth is generally more manageable than exponential.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q030",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "question": "What does a computationally unsolvable problem lack?",
+      "options": [
+        "Any input",
+        "A name",
+        "An algorithm correct for every relevant instance",
+        "Any examples"
+      ],
+      "correct_index": 2,
+      "explanation": "Unsolvability means no general algorithm can solve all cases.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q031",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Time complexity describes:",
+      "options": [
+        "The color of source code",
+        "The number of files",
+        "Physical clock type",
+        "How runtime grows with input size"
+      ],
+      "correct_index": 3,
+      "explanation": "It studies growth in work or execution time.\nاردو وضاحت: Time complexity اِن پٹ کے بڑھنے پر وقت کے اضافے کو بیان کرتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q032",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Space complexity measures:",
+      "options": [
+        "Memory requirements as input size changes",
+        "Internet speed",
+        "Output screen size",
+        "Time zone"
+      ],
+      "correct_index": 0,
+      "explanation": "Space complexity models memory use.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q033",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Big O notation is commonly used to describe:",
+      "options": [
+        "A variable name",
+        "An IDE",
+        "A file format",
+        "An asymptotic upper bound"
+      ],
+      "correct_index": 3,
+      "explanation": "Big O provides an upper bound on growth.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q034",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Which complexity is constant?",
+      "options": [
+        "O(1)",
+        "O(2ⁿ)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "correct_index": 0,
+      "explanation": "O(1) does not grow with input size.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q035",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Which complexity is linear?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n²)",
+        "O(n)"
+      ],
+      "correct_index": 3,
+      "explanation": "O(n) grows proportionally with input length.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q036",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Which complexity commonly describes halving the search interval?",
+      "options": [
+        "O(2ⁿ)",
+        "O(log n)",
+        "O(n²)",
+        "O(n!)"
+      ],
+      "correct_index": 1,
+      "explanation": "Repeated halving is logarithmic.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q037",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Two nested loops each running n times often produce:",
+      "options": [
+        "O(n²)",
+        "O(log n)",
+        "O(1)",
+        "O(n³) always"
+      ],
+      "correct_index": 0,
+      "explanation": "n times n is quadratic.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q038",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Which is typically fastest-growing?",
+      "options": [
+        "O(log n)",
+        "O(1)",
+        "O(n²)",
+        "O(n)"
+      ],
+      "correct_index": 2,
+      "explanation": "Quadratic grows faster than listed alternatives for large n.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q039",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "For large datasets, efficiency is judged mainly by:",
+      "options": [
+        "Growth in resource consumption",
+        "Monitor model",
+        "Desktop wallpaper",
+        "Text font size"
+      ],
+      "correct_index": 0,
+      "explanation": "Asymptotic trends help compare algorithms.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q040",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "question": "Why may O(log n) be preferable to O(n)?",
+      "options": [
+        "It grows more slowly as input increases",
+        "It requires no comparisons",
+        "It works on every problem",
+        "It always consumes no memory"
+      ],
+      "correct_index": 0,
+      "explanation": "Logarithmic growth is slower than linear growth.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q041",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Divide-and-conquer works by:",
+      "options": [
+        "Splitting a problem into smaller subproblems",
+        "Using only one variable",
+        "Removing all constraints",
+        "Trying only random answers"
+      ],
+      "correct_index": 0,
+      "explanation": "It solves smaller parts then combines results.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q042",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Merge sort exemplifies:",
+      "options": [
+        "Divide-and-conquer",
+        "Trial-and-error only",
+        "Linear search",
+        "Greedy choice only"
+      ],
+      "correct_index": 0,
+      "explanation": "Merge sort divides, sorts, and merges.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q043",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "A greedy algorithm makes:",
+      "options": [
+        "A locally best choice at each step",
+        "Only random decisions",
+        "Every future choice simultaneously",
+        "No decisions"
+      ],
+      "correct_index": 0,
+      "explanation": "Greedy methods select locally attractive options.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q044",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "A greedy strategy is guaranteed globally optimal:",
+      "options": [
+        "Whenever code is short",
+        "Only for suitable problems with required properties",
+        "For every possible problem",
+        "When no data is provided"
+      ],
+      "correct_index": 1,
+      "explanation": "Greedy choices do not always yield a global optimum.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q045",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Dynamic programming helps when subproblems:",
+      "options": [
+        "Cannot be identified",
+        "Never repeat",
+        "Overlap and can reuse stored results",
+        "Have no outputs"
+      ],
+      "correct_index": 2,
+      "explanation": "DP stores and reuses solutions to overlapping subproblems.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q046",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "The Fibonacci sequence is often used to demonstrate:",
+      "options": [
+        "Binary search on text",
+        "Network routing only",
+        "Dynamic programming",
+        "Machine translation"
+      ],
+      "correct_index": 2,
+      "explanation": "Memoization avoids repeated Fibonacci work.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q047",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Backtracking involves:",
+      "options": [
+        "Undoing an unsuccessful partial choice",
+        "Always keeping each choice",
+        "No checking",
+        "Only sorting numbers"
+      ],
+      "correct_index": 0,
+      "explanation": "It explores alternatives after dead ends.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q048",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Maze solving can illustrate:",
+      "options": [
+        "Only interpolation",
+        "Backtracking",
+        "Encryption",
+        "Compiling"
+      ],
+      "correct_index": 1,
+      "explanation": "Dead-end routes can be undone.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q049",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Which method uses a split-solve-combine structure?",
+      "options": [
+        "Code formatting",
+        "Linear search",
+        "Divide-and-conquer",
+        "Selection sort alone"
+      ],
+      "correct_index": 2,
+      "explanation": "The parts are solved then combined.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q050",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "question": "Which technique is especially useful for overlapping subproblems?",
+      "options": [
+        "Bubble swapping",
+        "Dynamic programming",
+        "Always greedy",
+        "Brute-force without caching"
+      ],
+      "correct_index": 1,
+      "explanation": "DP avoids recalculating the same cases.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q051",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Bubble sort compares:",
+      "options": [
+        "Adjacent items",
+        "Only first and last items",
+        "Graph vertices only",
+        "Random file names"
+      ],
+      "correct_index": 0,
+      "explanation": "Bubble sort compares neighbors and swaps if needed.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q052",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Bubble sort worst-case complexity is:",
+      "options": [
+        "O(1)",
+        "O(n log log n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "correct_index": 3,
+      "explanation": "Repeated passes generate quadratic work.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q053",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Selection sort repeatedly selects:",
+      "options": [
+        "The smallest remaining element for ascending order",
+        "A random graph node",
+        "The average of all values",
+        "The last line of code"
+      ],
+      "correct_index": 0,
+      "explanation": "It places the minimum of the remaining portion next.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q054",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Selection sort worst-case time is:",
+      "options": [
+        "O(log n)",
+        "O(2ⁿ)",
+        "O(1)",
+        "O(n²)"
+      ],
+      "correct_index": 3,
+      "explanation": "Finding a minimum repeatedly is quadratic.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q055",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "What is the goal of sorting?",
+      "options": [
+        "Remove every duplicate necessarily",
+        "Compress the data always",
+        "Arrange items in a specified order",
+        "Translate Python into Java"
+      ],
+      "correct_index": 2,
+      "explanation": "Sorting orders elements by a key.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q056",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "After one ordinary bubble-sort pass, the largest item generally:",
+      "options": [
+        "Changes value",
+        "Disappears",
+        "Moves to the middle always",
+        "Moves to the end"
+      ],
+      "correct_index": 3,
+      "explanation": "Successive adjacent swaps push the maximum rightward.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q057",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Which sort repeatedly searches the unsorted region for a minimum?",
+      "options": [
+        "BFS",
+        "Bubble sort",
+        "Selection sort",
+        "Binary search"
+      ],
+      "correct_index": 2,
+      "explanation": "Selection sort finds and places the minimum.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q058",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Which list is ascending?",
+      "options": [
+        "[8, 2, 11, 5]",
+        "[2, 11, 5, 8]",
+        "[2, 5, 8, 11]",
+        "[11, 8, 5, 2]"
+      ],
+      "correct_index": 2,
+      "explanation": "Ascending order increases from left to right.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q059",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Which algorithm is generally less suitable for large datasets?",
+      "options": [
+        "Merge sort",
+        "Bubble sort",
+        "Efficient divide-and-conquer sort",
+        "O(n log n) sort"
+      ],
+      "correct_index": 1,
+      "explanation": "Quadratic sorting becomes costly on large inputs.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q060",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "question": "Sorting is often useful before applying:",
+      "options": [
+        "Linear search exclusively",
+        "BFS exclusively",
+        "Binary search",
+        "DFS exclusively"
+      ],
+      "correct_index": 2,
+      "explanation": "Binary search requires sorted data.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q061",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Linear search examines elements:",
+      "options": [
+        "Only at the middle",
+        "One by one",
+        "Only after sorting",
+        "By using a queue of nodes"
+      ],
+      "correct_index": 1,
+      "explanation": "Linear search checks items sequentially.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q062",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Linear search works on:",
+      "options": [
+        "Only graph edges",
+        "Only binary trees",
+        "Only sorted lists",
+        "Sorted or unsorted lists"
+      ],
+      "correct_index": 3,
+      "explanation": "It does not require sorted input.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q063",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Linear search worst-case time is:",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "correct_index": 1,
+      "explanation": "It may inspect all n elements.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q064",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Binary search requires the input to be:",
+      "options": [
+        "Encrypted",
+        "A graph",
+        "Sorted",
+        "Randomly shuffled"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct binary search needs ordered data.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q065",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Binary search initially inspects the:",
+      "options": [
+        "Largest value always",
+        "Last element only",
+        "First element only",
+        "Middle element"
+      ],
+      "correct_index": 3,
+      "explanation": "The midpoint divides the search interval.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q066",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Binary search worst-case time is:",
+      "options": [
+        "O(n²)",
+        "O(n!)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "correct_index": 3,
+      "explanation": "The remaining interval is halved each step.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q067",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "If a binary-search target is smaller than the midpoint, continue:",
+      "options": [
+        "At the same position forever",
+        "Outside the list",
+        "In the right half",
+        "In the left half"
+      ],
+      "correct_index": 3,
+      "explanation": "Sorted ordering excludes the larger half.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q068",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "If a binary-search target is larger than the midpoint, continue:",
+      "options": [
+        "With every element",
+        "At the first element always",
+        "In the right half",
+        "In the left half"
+      ],
+      "correct_index": 2,
+      "explanation": "The smaller half can be eliminated.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q069",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "Which method is simpler for a small unsorted list?",
+      "options": [
+        "Binary search without sorting",
+        "Merge sort alone",
+        "Linear search",
+        "Graph traversal only"
+      ],
+      "correct_index": 2,
+      "explanation": "Linear search works directly on unsorted data.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q070",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Searching Algorithms",
+      "question": "For a large sorted list, the more efficient search is generally:",
+      "options": [
+        "Linear search",
+        "Selection sort",
+        "Binary search",
+        "Bubble sort"
+      ],
+      "correct_index": 2,
+      "explanation": "Logarithmic binary search scales better.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q071",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "Breadth-first search typically uses a:",
+      "options": [
+        "Compiler",
+        "Priority sorting",
+        "Queue",
+        "Stack only"
+      ],
+      "correct_index": 2,
+      "explanation": "BFS processes discovered vertices FIFO.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q072",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "Depth-first search typically uses a:",
+      "options": [
+        "Stack or recursion",
+        "Hashing only",
+        "Queue exclusively",
+        "Spreadsheet"
+      ],
+      "correct_index": 0,
+      "explanation": "DFS explores deeply using stack behavior.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q073",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "BFS explores a graph:",
+      "options": [
+        "By sorting keys first",
+        "Level by level",
+        "In descending value order",
+        "Only one edge"
+      ],
+      "correct_index": 1,
+      "explanation": "BFS visits nearby levels first.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q074",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "DFS explores:",
+      "options": [
+        "Only weighted edges",
+        "Every level completely before descending",
+        "Only disconnected components",
+        "A path deeply before backtracking"
+      ],
+      "correct_index": 3,
+      "explanation": "DFS follows one branch before returning.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q075",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "BFS can find shortest paths in an:",
+      "options": [
+        "Any negative-weight graph automatically",
+        "Unsorted array only",
+        "Unweighted graph",
+        "Arbitrary weighted graph without adaptation"
+      ],
+      "correct_index": 2,
+      "explanation": "BFS minimizes number of edges in unweighted graphs.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q076",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "For a maze, exploring one route to a dead end resembles:",
+      "options": [
+        "DFS",
+        "Selection sort",
+        "Binary search",
+        "Bubble sort"
+      ],
+      "correct_index": 0,
+      "explanation": "DFS can follow and backtrack from routes.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q077",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "A graph consists of:",
+      "options": [
+        "Vertices and edges",
+        "Rows and columns only",
+        "Only numbers",
+        "Only loops"
+      ],
+      "correct_index": 0,
+      "explanation": "Vertices are nodes and edges connect them.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q078",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "A queue follows:",
+      "options": [
+        "Last in, first out",
+        "Random deletion",
+        "First in, first out",
+        "Largest first necessarily"
+      ],
+      "correct_index": 2,
+      "explanation": "FIFO is queue order.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q079",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "A stack follows:",
+      "options": [
+        "First in, first out",
+        "Smallest first always",
+        "Sorted order",
+        "Last in, first out"
+      ],
+      "correct_index": 3,
+      "explanation": "LIFO describes stack operations.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch3-q080",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "question": "Typical BFS and DFS time on adjacency-list graphs is:",
+      "options": [
+        "O(V × E) always",
+        "O(2ᴱ) always",
+        "O(V + E)",
+        "O(1) for any graph"
+      ],
+      "correct_index": 2,
+      "explanation": "Each vertex and edge can be processed in linear total work.\nاردو وضاحت: درست جواب متعلقہ تعریف یا الگورتھم کے بنیادی اصول کو ظاہر کرتا ہے۔"
+    }
+  ]
+}

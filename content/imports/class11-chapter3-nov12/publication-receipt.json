@@ -1,0 +1,21 @@
+{
+  "state": "database-verified-awaiting-static-release",
+  "checkedAt": "2026-11-12T14:16:31.684Z",
+  "tables": {
+    "chapters": {
+      "inserted": 1,
+      "verified": 1,
+      "preserved": 2
+    },
+    "mcqs": {
+      "inserted": 80,
+      "verified": 80,
+      "preserved": 185
+    },
+    "notes": {
+      "inserted": 1,
+      "verified": 1,
+      "preserved": 3
+    }
+  }
+}

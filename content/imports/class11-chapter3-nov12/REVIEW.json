@@ -1,0 +1,20 @@
+{
+  "state": "prepared-unpublished",
+  "chapter": 3,
+  "title": "Algorithms and Problem Solving",
+  "questions": 80,
+  "topics": [
+    "3.1 Computational Problems",
+    "3.2 Generate-and-Test Method",
+    "3.3 Solvability and Tractability",
+    "3.4 Algorithm Analysis",
+    "3.5 Algorithm Design Techniques",
+    "3.6 Sorting Algorithms",
+    "3.6 Searching Algorithms",
+    "3.6 Graph Traversal (BFS and DFS)"
+  ],
+  "sourceDocx": "Raytech_Class11_Computer_Chapter3_Study_Guide.docx",
+  "sourceDocxSha256": "c2930850e9779b4f69b4df0acbb12d4f07b51d6ccba88145c538d2d3c40bda06",
+  "pdf": "public/documents/class11/nov12/chapter-3.pdf",
+  "pdfUnchanged": true
+}
