@@ -62,8 +62,9 @@
       "row": 8,
       "query": "whatsapp android beta transparent navigation bar",
       "breakdown": "whatsapp android beta transparent navigation bar",
-      "state": "needs-research",
-      "group": "whatsapp-android-navigation"
+      "state": "published-live-verified",
+      "group": "whatsapp-android-navigation",
+      "slug": "whatsapp-android-floating-navigation-bar-beta-november-2026"
     },
     {
       "row": 9,
@@ -83,8 +84,9 @@
       "row": 11,
       "query": "electric comb for hair growth",
       "breakdown": "electric comb for hair growth,detangle electric comb",
-      "state": "needs-research",
-      "group": "electric-comb"
+      "state": "published-live-verified",
+      "group": "electric-comb",
+      "slug": "detangle-electric-comb-hair-growth-mouse-study-explained"
     },
     {
       "row": 12,
@@ -118,8 +120,9 @@
       "row": 16,
       "query": "tax return",
       "breakdown": "tax return",
-      "state": "needs-research",
-      "group": "fbr-atl-late-filers"
+      "state": "published-live-verified",
+      "group": "fbr-atl-late-filers",
+      "slug": "fbr-form-atl-u-late-filers-six-month-undertaking-2026"
     },
     {
       "row": 17,
@@ -132,8 +135,9 @@
       "row": 18,
       "query": "fbr form atl u late filers",
       "breakdown": "fbr form atl u late filers",
-      "state": "needs-research",
-      "group": "fbr-atl-late-filers"
+      "state": "published-live-verified",
+      "group": "fbr-atl-late-filers",
+      "slug": "fbr-form-atl-u-late-filers-six-month-undertaking-2026"
     },
     {
       "row": 19,
@@ -169,8 +173,9 @@
       "row": 23,
       "query": "papua new guinea vs scotland",
       "breakdown": "papua new guinea vs scotland",
-      "state": "needs-research",
-      "group": "png-scotland-women"
+      "state": "published-live-verified",
+      "group": "png-scotland-women",
+      "slug": "png-scotland-women-result-katherine-fraser-november-2026"
     },
     {
       "row": 24,
@@ -205,8 +210,9 @@
       "row": 28,
       "query": "kimberly powell",
       "breakdown": "kimberly powell,whether,artificial intelligence",
-      "state": "needs-research",
-      "group": "kimberly-powell"
+      "state": "published-live-verified",
+      "group": "kimberly-powell",
+      "slug": "kimberly-powell-nvidia-healthcare-ai-professional-profile"
     },
     {
       "row": 29,
@@ -261,8 +267,9 @@
       "row": 36,
       "query": "avengers endgame encore",
       "breakdown": "avengers endgame encore,avengers doomsday",
-      "state": "needs-research",
-      "group": "endgame-encore"
+      "state": "published-live-verified",
+      "group": "endgame-encore",
+      "slug": "avengers-endgame-encore-disney-plus-november-2026-guide"
     },
     {
       "row": 37,
@@ -282,8 +289,9 @@
       "row": 39,
       "query": "razaullah",
       "breakdown": "razaullah",
-      "state": "needs-research",
-      "group": "razaullah"
+      "state": "published-live-verified",
+      "group": "razaullah",
+      "slug": "razaullah-pakistan-pace-bowler-edgbaston-debut-profile"
     },
     {
       "row": 40,
@@ -296,8 +304,9 @@
       "row": 41,
       "query": "rahmat shah icc test rankings",
       "breakdown": "rahmat shah icc test rankings,icc men test player rankings,rahmat shah icc top 10 batter",
-      "state": "needs-research",
-      "group": "rahmat-shah-rankings"
+      "state": "published-live-verified",
+      "group": "rahmat-shah-rankings",
+      "slug": "rahmat-shah-seventh-test-batting-rankings-november-2026"
     },
     {
       "row": 42,
@@ -448,8 +457,9 @@
       "row": 62,
       "query": "2027 coachella lineup",
       "breakdown": "2027 coachella lineup",
-      "state": "needs-research",
-      "group": "coachella-2027"
+      "state": "published-live-verified",
+      "group": "coachella-2027",
+      "slug": "coachella-2027-lineup-dates-passes-viewing-guide"
     },
     {
       "row": 63,
@@ -484,8 +494,9 @@
       "row": 67,
       "query": "thatta cement fauji foundation agreement",
       "breakdown": "thatta cement fauji foundation agreement",
-      "state": "needs-research",
-      "group": "thatta-cement"
+      "state": "published-live-verified",
+      "group": "thatta-cement",
+      "slug": "thatta-cement-fauji-foundation-pakistan-services-agreement-2026"
     },
     {
       "row": 68,
@@ -545,7 +556,7 @@
       "rows": [
         8
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "WhatsApp Android Floating Navigation Bar: Beta Rollout Explained",
       "slug": "whatsapp-android-floating-navigation-bar-beta-november-2026"
     },
@@ -568,7 +579,7 @@
       "rows": [
         11
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Detangle Electric Comb Study: Mouse Results, Human Evidence and Limits",
       "slug": "detangle-electric-comb-hair-growth-mouse-study-explained"
     },
@@ -578,7 +589,7 @@
         16,
         18
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "FBR Form ATL-U: Final Late-Filer Rules and the Six-Month Undertaking",
       "slug": "fbr-form-atl-u-late-filers-six-month-undertaking-2026"
     },
@@ -598,7 +609,7 @@
       "rows": [
         23
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "PNG Women v Scotland Women: Seven-Wicket Result and Fraser’s All-Round Impact",
       "slug": "png-scotland-women-result-katherine-fraser-november-2026"
     },
@@ -629,7 +640,7 @@
       "rows": [
         28
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Kimberly Powell at NVIDIA: Healthcare AI, Medical Imaging and Student Learning",
       "slug": "kimberly-powell-nvidia-healthcare-ai-professional-profile"
     },
@@ -653,7 +664,7 @@
       "rows": [
         36
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Avengers Endgame: Encore on Disney+: Release Date and Version Guide",
       "slug": "avengers-endgame-encore-disney-plus-november-2026-guide"
     },
@@ -669,7 +680,7 @@
       "rows": [
         39
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Razaullah Profile: The Pakistan Pace Bowler and His Edgbaston Debut",
       "slug": "razaullah-pakistan-pace-bowler-edgbaston-debut-profile"
     },
@@ -678,7 +689,7 @@
       "rows": [
         41
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Rahmat Shah Reaches Seventh in Test Rankings: The Milestone Explained",
       "slug": "rahmat-shah-seventh-test-batting-rankings-november-2026"
     },
@@ -736,7 +747,7 @@
       "rows": [
         62
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Coachella 2027: Headliners, Two Weekend Dates and Practical Planning",
       "slug": "coachella-2027-lineup-dates-passes-viewing-guide"
     },
@@ -759,7 +770,7 @@
       "rows": [
         67
       ],
-      "state": "draft-written",
+      "state": "published-live-verified",
       "title": "Thatta Cement and Fauji Foundation: What the PSL Agreement Actually Says",
       "slug": "thatta-cement-fauji-foundation-pakistan-services-agreement-2026"
     },
@@ -798,9 +809,12 @@
       ],
       "expectedSize": 10,
       "explicitUserAuthorization": "User supplied November 12 CSV and explicitly requested ten complete articles together, then publication.",
-      "state": "draft-written",
-      "validationFile": "batch-01-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-01-validation.json",
+      "revision": "f52a24473101df221c54549833f85817443ae8c6",
+      "workflowRun": "43196055268",
+      "liveVerifiedAt": "2026-11-12T10:04:20.085Z"
     }
   ],
-  "state": "batch-01-research-in-progress"
+  "state": "batch-01-published-next-research-pending"
 }
