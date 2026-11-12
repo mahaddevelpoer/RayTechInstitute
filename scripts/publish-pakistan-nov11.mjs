@@ -4,7 +4,7 @@ import {learningProject,readLearningServiceKey} from './learning-cli-access.mjs'
 import {fetchCatalogRows} from './catalog-fetch.mjs';
 import {hasPrivateCredential} from './private-credential-patterns.mjs';
 import {editorialRoot as root, editorialArtifacts as artifactRoot} from './editorial-daily-queue.mjs';
-const region=process.argv.find(a=>a.startsWith('--region='))?.slice(9)||'PK';assert.equal(region,'PK','This publication script is scoped to Pakistan daily queues');
+const region=process.argv.find(a=>a.startsWith('--region='))?.slice(9)||'PK';assert.ok(['PK','US'].includes(region),'Unsupported publication region');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const plan=read(root+'/plan.json');assert.equal(plan.publicationAuthorized,true);
 const selection=process.argv.find(a=>a.startsWith('--articles='))?.slice(11).split(',').filter(Boolean);

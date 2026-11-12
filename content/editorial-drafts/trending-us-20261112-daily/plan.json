@@ -1,0 +1,6204 @@
+{
+  "date": "2026-11-12",
+  "region": "US",
+  "sourceCsv": "trending_US_1d_20261112-1948.csv",
+  "sourceSha256": "a47d91bb0e4607bdc85b59791810f2ec572cddf1123e032259505bba8873c29c",
+  "publicationAuthorized": true,
+  "minimumBodyWords": 2000,
+  "batchSize": 10,
+  "state": "batch-01-research-in-progress",
+  "oldQueueSnapshot": [
+    {
+      "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
+      "sha256": "0344035029209daf08d774f66c646e141acfd2fec1595cdd4aa1906079f7967b"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261112-daily/STATUS.md",
+      "sha256": "e0db8567852886f13f0315fa850d4ebfff6523535ee384da69a1331a0f915898"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "kimberly powell",
+      "breakdown": "kimberly powell,kimberly powell nvidia,colette kress,jensen huang second affair,jensen,nvidia news,huang,jensen huang resigns,nvidia board of directors,jensen huang resign,jensen huang resignation,nvidia ceo jensen huang kimberly powell,ian buck,kimberly powell nvidia husband,jensen huang resigned,nvidia ceo resign,yahoo finance,jensen resigns,nvda news,did jensen huang resign,jensen resigned,what is nvidia,kimberly powell husband,jensen huang age,graham gerade,cnbc,jensen huang fired,jenson huang,nvidia stocks,nvdia stock,harvey c jones,jensen resign,ceo of nvidia,nvidia stock price today,nvidia kimberly powell,how old is jensen huang,colette kress nvidia,nividia stock,nvidia new ceo,nvidia stock price chart,nvidia cfo,jensen huang news,nvda premarket,huang resigns,jensen huang resignation polymarket,nvda ceo,$nvda,nvidia ceo net worth,will nvidia stock go back up,amd,nvidia executive kimberly powell,is nvidia a buy right now,nvida stock,nvidia ticker,nvidia ceo resigned,nvidea stock,new nvidia ceo,who founded nvidia,nvidia premarket,wsj,nvidia share price,bloomberg,johny srouji,huang resign,nvidia ceo transition,nvdia ceo,nvidia jensen,nvidia shares,who is colette kress,jensen wong,nvidia jensen huang,broadcom stock,did jensen resign,huang wife,colette kress,,英伟达,nvidia resign,nivida stock,jensen huang affairs,huang second affair,jensen resignation,nvidia futures,nvidia stock price live,oust,china,jensen huang kimberly powell,nvidia micron broadcom amd stock analysis,kimberly powell,,nvidia second affair,jay puri,madison huang,nvidia board,ian buck nvidia,kimberly powell.,jensen second affair,kimberly powell, nvidia’s vice president of health care,wordle — the new york times,kimberly powell nvda,kimberley powell,wall street journal,nvda after hours,nvidia affair,huang affair,kimberly powell, nvidia,kim powell nvidia,jensen affair,nvidia is preparing to oust ceo jensen huang,jensen huang second affair kimberly powell,kimberly powell jensen huang,kimberly powell, vice president of health care at nvidia,nvidia executive kimberly powell.,jensen huang powell,wsj jensen huang,jensen huang wsj,kimberly powell nvidia net worth,kimberley powell nvidia,lori huang young,jensen huang oust,why is nvidia stock going down,jensen fired,nvidia after hours,nvidia ceo second affair,as,is,jensen huang nyt,powell nvidia,kalshi jensen huang,jensen huang ousted",
+      "volume": "500k+",
+      "state": "already-covered",
+      "slug": "kimberly-powell-nvidia-healthcare-ai-professional-profile"
+    },
+    {
+      "row": 2,
+      "query": "building collapse nyc",
+      "breakdown": "building collapse nyc,brooklyn building,brooklyn building collapse,nyc building collapse,building collapse brooklyn,flatbush building collapse,brooklyn collapse,new york building collapse,brooklyn building collapsed,brooklyn building collapse address,1321 flatbush ave,brooklyn,brooklyn building collapses,new york,1321 flatbush avenue brooklyn ny,building collapse,flatbush,collapsed building brooklyn,1321 flatbush avenue,brooklyn bridge collapse,flatbush brooklyn,nyc,building collapse in brooklyn today,new york building rescue operation,building collapse in brooklyn,building collapse flatbush,new york city building collapse,2625 bedford ave,what building collapsed in brooklyn,1321 flatbush ave brooklyn ny,ny building collapse,flatbush building,nyc building collapse today,brooklyn news,2625 bedford avenue brooklyn ny,new york city,building in brooklyn collapse,brooklyn apartment collapse,building collapse brooklyn ny today,new york news,2625 bedford avenue,nyc news,brooklyn building colapse,building collapse brooklyn today,brooklyn building collapse 11 11 26,building collapse nyc today,brooklyn ny,brooklyn collapse today,building collapse in brooklyn new york",
+      "volume": "500k+",
+      "state": "needs-research",
+      "group": "brooklyn-collapse"
+    },
+    {
+      "row": 3,
+      "query": "anthony clark",
+      "breakdown": "anthony clark,anthony clark comedian,comedian anthony clark death,anthony clark cause of death,yes dear,yes dear anthony clark,comedian anthony clark yes dear,how did anthony clark die,yes dear tv show,mike o'malley,anthony clark death,anthony clark what happened,yes, dear",
+      "volume": "200k+",
+      "state": "needs-research",
+      "group": "anthony-clark"
+    },
+    {
+      "row": 4,
+      "query": "snow",
+      "breakdown": "snow,winter,winter storm watch",
+      "volume": "100k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 5,
+      "query": "disco singer rochelle fleming passes",
+      "breakdown": "disco singer rochelle fleming passes",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "rochelle-fleming"
+    },
+    {
+      "row": 6,
+      "query": "warriors vs rockets",
+      "breakdown": "warriors vs rockets,steph curry injury,curry injury,rockets vs warriors,steph curry,stephen curry,warriors steph curry injury,golden state warriors vs houston rockets match player stats,warriors - rockets,stephen curry injury,reed sheppard,gsw vs rockets,warriors news,rockets,is steph curry playing tonight,warriors rockets,warriors game,golden state warriors vs houston rockets,warriors score,what happened to steph curry,rockets game,is curry injured,houston rockets vs golden state warriors match player stats,curry steph,did steph curry get hurt tonight,is steph curry injured,curry basketball,curry injured,rockets warriors,steph curry hurt,steph injury,is steph curry hurt,what happened to curry",
+      "volume": "200k+",
+      "state": "needs-research",
+      "group": "warriors-rockets"
+    },
+    {
+      "row": 7,
+      "query": "active shooter dc",
+      "breakdown": "active shooter dc,dc shooting,logan circle,dc active shooter,logan circle shooting,logan circle dc,washington dc,dc news,dc shooter,shooting in dc,active shooter in dc,active shooter washington,active shooter logan circle,shooting dc,dc,active shooter,washington dc shooting,active shooter washington dc,vida fitness logan circle,active shooter dc today,dc shooting today,vida fitness dc,washington dc active shooter,shooter dc,logan circle washington dc,dc active shooter today,washington dc news,shooting in dc today,shooting logan circle,logan circle shooter,shooter in dc,vida logan circle,wtop news,vida gym,vida gym dc,shooting washington,active shooter logan circle dc,shooting in washington dc,dc shelter in place,dc logan circle,active shooter in dc today,washington dc shooting today,shooting washington dc,active shooter today,shooting,active shooting dc,15th and p street nw,logan circle shooting dc,shooting dc today,15th and p,fox 5 dc",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "logan-circle-shooting"
+    },
+    {
+      "row": 8,
+      "query": "usman nurmagomedov",
+      "breakdown": "usman nurmagomedov,merab dvalishvili,umar nurmagomedov,merab,usman nurmagomedov ufc,usman,ilia topuria,merab jumped,merab dvalishvili usman nurmagomedov brawl,merab dvalishvili usman nurmagomedov,merab dvalishvili jumped,khabib nurmagomedov,why did usman attack merab",
+      "volume": "200k+",
+      "state": "needs-research",
+      "group": "usman-nurmagomedov"
+    },
+    {
+      "row": 9,
+      "query": "rex ryan",
+      "breakdown": "rex ryan,rex ryan arrested,rex ryan arrest,former nfl coach rex ryan,coach rex ryan",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "rex-ryan"
+    },
+    {
+      "row": 10,
+      "query": "mark mcguinn",
+      "breakdown": "mark mcguinn",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "mark-mcguinn"
+    },
+    {
+      "row": 11,
+      "query": "cavaliers vs knicks",
+      "breakdown": "cavaliers vs knicks,james harden,cavs vs knicks,cleveland cavaliers vs knicks match player stats,knicks vs cavs,cavaliers - knicks,cavaliers vs knicks where to watch,donovan mitchell,knicks cavs",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "cavaliers-knicks"
+    },
+    {
+      "row": 12,
+      "query": "spurs vs bulls",
+      "breakdown": "spurs vs bulls,bulls vs spurs,spurs - bulls,where to watch san antonio spurs vs chicago bulls,matas buzelis,spurs vs bulls where to watch",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "spurs-bulls"
+    },
+    {
+      "row": 13,
+      "query": "lakers vs bucks",
+      "breakdown": "lakers vs bucks,lakers vs milwaukee bucks match player stats,lakers - bucks,lakers vs milwaukee bucks timeline,lakers vs milwaukee bucks,where to watch lakers vs milwaukee bucks,bucks vs lakers",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "lakers-bucks"
+    },
+    {
+      "row": 14,
+      "query": "mo3",
+      "breakdown": "mo3,yella beezy verdict,mo3 death,yella beezy trial,yella beezy trial update,yella beezy found guilty,yella beezy jail sentence,did yella beezy get sentenced,was yella beezy convicted,yella beezy guilty,when did mo3 get killed,yella breezy,who killed mo3,yella beezy sentence",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "mo3"
+    },
+    {
+      "row": 15,
+      "query": "frankie muniz",
+      "breakdown": "frankie muniz,frankie muniz daytona crash,frankie muniz crash,malcolm in the middle,the middle",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "frankie-muniz"
+    },
+    {
+      "row": 16,
+      "query": "celtics vs raptors",
+      "breakdown": "celtics vs raptors,boston celtics vs toronto raptors match player stats,is paul george playing today,celtics - raptors,celtics vs raptors where to watch,raptors vs celtics,celtics raptors",
+      "volume": "100k+",
+      "state": "needs-research",
+      "group": "celtics-vs-raptors"
+    },
+    {
+      "row": 17,
+      "query": "billy gray",
+      "breakdown": "billy gray,billy gray father knows best actor",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "billy-gray"
+    },
+    {
+      "row": 18,
+      "query": "hegseth tomb of the unknown soldier",
+      "breakdown": "hegseth tomb of the unknown soldier,pete hegseth tomb of the unknown soldier,what is the tomb of the unknown soldier,hegseth reprimanded,tomb of the unknown soldier guards,the tomb of the unknown soldier,tomb of the unknown soldier hegseth,pete hegseth news,arlington national cemetery,hegseth at tomb of the unknown soldier,hegseth reprimanded at tomb of unknown soldier,hegseth unknown soldier,tomb of unknown soldier,reprimanded,hegseth at tomb of unknown soldier today",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "hegseth-tomb-of-the-unknown-soldier"
+    },
+    {
+      "row": 19,
+      "query": "scarlett johansson studio pitch criticism",
+      "breakdown": "scarlett johansson studio pitch criticism",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "scarlett-johansson-studio-pitch-criticism"
+    },
+    {
+      "row": 20,
+      "query": "uss united states sinking",
+      "breakdown": "uss united states sinking,sinking of the ss united states,why did they sink the ss united states,ss united states live stream,why are they sinking the ss united states,ss united states sinking livestream,ss united states artificial reef sinking,ss united states sinking artificial reef,ss united states ship sinking,did the ss united states sink,has the ss united states been sunk yet",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "uss-united-states-sinking"
+    },
+    {
+      "row": 21,
+      "query": "ayesha curry",
+      "breakdown": "ayesha curry,gilbert arenas,second chance holiday,ayesha curry kissing scene,nick young,steph curry wife,gilbert arenas ayesha curry,matthew daddario",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "ayesha-curry"
+    },
+    {
+      "row": 22,
+      "query": "randall england",
+      "breakdown": "randall england,jack slater general hospital,randall england general hospital",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "randall-england"
+    },
+    {
+      "row": 23,
+      "query": "aspyn ovard",
+      "breakdown": "aspyn ovard,secret lives of mormon wives,aspyn ovard kids,aspyn ovard daughter diagnosis,aspyn ovard daughters,mormon wives orange county,secret lives of mormon wives oc,aspyn ovard cove,aspyn ovard daughter cancer,aspyn ovard daughter",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "aspyn-ovard"
+    },
+    {
+      "row": 24,
+      "query": "social security trust fund depletion 2032",
+      "breakdown": "social security trust fund depletion 2032,social security gdp link aarp,payroll",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "social-security-trust-fund-depletion-2032"
+    },
+    {
+      "row": 25,
+      "query": "nuggets vs grizzlies",
+      "breakdown": "nuggets vs grizzlies,nuggets,jamal murray,denver nuggets,denver nuggets vs memphis grizzlies match player stats,nikola jokić,denver nuggets vs memphis grizzlies timeline,nuggets game",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "nuggets-vs-grizzlies"
+    },
+    {
+      "row": 26,
+      "query": "ricky alvarez",
+      "breakdown": "ricky alvarez,ariana grande,who is ricky alvarez,ariana grande boyfriend",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "ricky-alvarez"
+    },
+    {
+      "row": 27,
+      "query": "aaron reitz letter richard blumenthal",
+      "breakdown": "aaron reitz letter richard blumenthal",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "aaron-reitz-letter-richard-blumenthal"
+    },
+    {
+      "row": 28,
+      "query": "mandalorian",
+      "breakdown": "mandalorian",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "mandalorian"
+    },
+    {
+      "row": 29,
+      "query": "isabelle huppert",
+      "breakdown": "isabelle huppert",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "isabelle-huppert"
+    },
+    {
+      "row": 30,
+      "query": "jeremiah smith ohio state football news",
+      "breakdown": "jeremiah smith ohio state football news",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "jeremiah-smith-ohio-state-football-news"
+    },
+    {
+      "row": 31,
+      "query": "penguins vs sharks",
+      "breakdown": "penguins vs sharks,san jose sharks,sharks game,sj sharks,penguins,sharks hockey,sharks vs penguins,pittsburgh penguins",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "penguins-vs-sharks"
+    },
+    {
+      "row": 32,
+      "query": "pick another protein ad",
+      "breakdown": "pick another protein ad,cindy hyde smith,scott colom wife,colom,tougaloo college,hiram revels,colom mississippi,scott colom results,scott colom election results,senate race mississippi,when was the last time mississippi had a democratic senator,mississippi senate race results,2026 united states senate election in mississippi results,mississippi senate race cnn,bennie thompson,ms senate race 2026,scott colom twin brother,ap mississippi senate,cnn mississippi senate race,is mississippi red or blue,did scott colom win,hyde smith,mississippi senators,reconstruction,scott colom wins,cindy hyde smith concession,has mississippi been called,how old is scott colom,last black senator from mississippi,cnn scott colom",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "pick-another-protein-ad"
+    },
+    {
+      "row": 33,
+      "query": "colin mizuo toenail lawsuit portland",
+      "breakdown": "colin mizuo toenail lawsuit portland",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "colin-mizuo-toenail-lawsuit-portland"
+    },
+    {
+      "row": 34,
+      "query": "pat desiato passing rock bassist",
+      "breakdown": "pat desiato passing rock bassist",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "pat-desiato-passing-rock-bassist"
+    },
+    {
+      "row": 35,
+      "query": "walmart black friday ad",
+      "breakdown": "walmart black friday ad,walmart black friday deals 2026,walmart black friday deals,when is black friday,walmart black friday sales,when is black friday 2026,walmart black friday ad 2026,walmart.com,walmart early black friday deals 2026",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "walmart-black-friday-ad"
+    },
+    {
+      "row": 36,
+      "query": "joao below deck",
+      "breakdown": "joao below deck,joao franco,page six",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "joao-below-deck"
+    },
+    {
+      "row": 37,
+      "query": "last time i checked tour",
+      "breakdown": "last time i checked tour,last time i checked,last time i checked morgan wallen,morgan wallen presale",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "last-time-i-checked-tour"
+    },
+    {
+      "row": 38,
+      "query": "nbis stock",
+      "breakdown": "nbis stock,nbis,nebius stock,nbis earnings,nebius earnings,nebius",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "nbis-stock"
+    },
+    {
+      "row": 39,
+      "query": "pep guardiola",
+      "breakdown": "pep guardiola",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "pep-guardiola"
+    },
+    {
+      "row": 40,
+      "query": "weather",
+      "breakdown": "weather,weather snow,snow storm weather forecast,new york weather,weather.com,weather new york,weather forecast,boston",
+      "volume": "200k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 41,
+      "query": "bethesda skyrim 15th anniversary remaster",
+      "breakdown": "bethesda skyrim 15th anniversary remaster,bethesda skyrim remastered",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "bethesda-skyrim-15th-anniversary-remaster"
+    },
+    {
+      "row": 42,
+      "query": "ayanna pressley",
+      "breakdown": "ayanna pressley",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "ayanna-pressley"
+    },
+    {
+      "row": 43,
+      "query": "lisa su",
+      "breakdown": "lisa su",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "lisa-su"
+    },
+    {
+      "row": 44,
+      "query": "eroica",
+      "breakdown": "eroica,eroica symphony",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "eroica"
+    },
+    {
+      "row": 45,
+      "query": "house advances major richard star act",
+      "breakdown": "house advances major richard star act,3.6 percent va benefit raise,take care of america's veterans act,military retirement,veterans benefits cut,tcava,tcava bill,major richard star act",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "house-advances-major-richard-star-act"
+    },
+    {
+      "row": 46,
+      "query": "tim cook",
+      "breakdown": "tim cook,tim cook nvidia",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "tim-cook"
+    },
+    {
+      "row": 47,
+      "query": "polar vortex el niño winter weather",
+      "breakdown": "polar vortex el niño winter weather,polar vortex",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "polar-vortex-el-ni-o-winter-weather"
+    },
+    {
+      "row": 48,
+      "query": "unruly aircraft passenger",
+      "breakdown": "unruly aircraft passenger",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "unruly-aircraft-passenger"
+    },
+    {
+      "row": 49,
+      "query": "regina torné",
+      "breakdown": "regina torné",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "regina-torn"
+    },
+    {
+      "row": 50,
+      "query": "when does the stock market open",
+      "breakdown": "when does the stock market open,when does stock market open,what time does the stock market open,what time does stock market open,what time does the market open,costco open on veterans day,was the stock market open today",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "when-does-the-stock-market-open"
+    },
+    {
+      "row": 51,
+      "query": "supreme court of the united states",
+      "breakdown": "supreme court of the united states",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "supreme-court-of-the-united-states"
+    },
+    {
+      "row": 52,
+      "query": "normandy",
+      "breakdown": "normandy",
+      "volume": "2k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 53,
+      "query": "dhs proposed h-1b extension rule",
+      "breakdown": "dhs proposed h-1b extension rule,h-1b visa",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "dhs-proposed-h-1b-extension-rule"
+    },
+    {
+      "row": 54,
+      "query": "elon musk spacex tesla merger",
+      "breakdown": "elon musk spacex tesla merger",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "elon-musk-spacex-tesla-merger"
+    },
+    {
+      "row": 55,
+      "query": "kaylee hottle",
+      "breakdown": "kaylee hottle",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "kaylee-hottle"
+    },
+    {
+      "row": 56,
+      "query": "northern taurids meteor shower",
+      "breakdown": "northern taurids meteor shower,meteor shower tonight,meteor shower",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "northern-taurids-meteor-shower"
+    },
+    {
+      "row": 57,
+      "query": "teri polo",
+      "breakdown": "teri polo",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "teri-polo"
+    },
+    {
+      "row": 58,
+      "query": "bankruptcy",
+      "breakdown": "bankruptcy",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "bankruptcy"
+    },
+    {
+      "row": 59,
+      "query": "dc new supergirl identity announced",
+      "breakdown": "dc new supergirl identity announced,kara zor-el",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "dc-new-supergirl-identity-announced"
+    },
+    {
+      "row": 60,
+      "query": "clima",
+      "breakdown": "clima",
+      "volume": "50k+",
+      "state": "needs-research",
+      "group": "clima"
+    },
+    {
+      "row": 61,
+      "query": "carson hocevar jr motorsports 2027",
+      "breakdown": "carson hocevar jr motorsports 2027",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "carson-hocevar-jr-motorsports-2027"
+    },
+    {
+      "row": 62,
+      "query": "amd stock",
+      "breakdown": "amd stock",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "amd-stock"
+    },
+    {
+      "row": 63,
+      "query": "ghana vs somalia",
+      "breakdown": "ghana vs somalia",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "ghana-vs-somalia"
+    },
+    {
+      "row": 64,
+      "query": "malik beasley",
+      "breakdown": "malik beasley",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "malik-beasley"
+    },
+    {
+      "row": 65,
+      "query": "michael carrick",
+      "breakdown": "michael carrick,carrick",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "michael-carrick"
+    },
+    {
+      "row": 66,
+      "query": "wizards vs pacers",
+      "breakdown": "wizards vs pacers",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "wizards-vs-pacers"
+    },
+    {
+      "row": 67,
+      "query": "gma deals and steals",
+      "breakdown": "gma deals and steals,gma deals and steals today,oprah's favorite things 2026,good morning america",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "gma-deals-and-steals"
+    },
+    {
+      "row": 68,
+      "query": "black friday deals",
+      "breakdown": "black friday deals,black friday,black friday 2026",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "black-friday-deals"
+    },
+    {
+      "row": 69,
+      "query": "harvey jones",
+      "breakdown": "harvey jones",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "harvey-jones"
+    },
+    {
+      "row": 70,
+      "query": "john allen rubio",
+      "breakdown": "john allen rubio",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "john-allen-rubio"
+    },
+    {
+      "row": 71,
+      "query": "amd stock price",
+      "breakdown": "amd stock price,amd ceo",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "amd-stock-price"
+    },
+    {
+      "row": 72,
+      "query": "nets vs pelicans",
+      "breakdown": "nets vs pelicans,nets,moritz wagner,brooklyn nets",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "nets-vs-pelicans"
+    },
+    {
+      "row": 73,
+      "query": "swing set back to the future",
+      "breakdown": "swing set back to the future,doc brown marty mcfly flux capacitor,flux capacitor marty mcfly",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "swing-set-back-to-the-future"
+    },
+    {
+      "row": 74,
+      "query": "texas roadhouse",
+      "breakdown": "texas roadhouse,olive garden,chilis,veterans day free meals military,chilis veterans day,applebee's veterans day menu,chilis veterans day 2026 menu,buffalo wild wings veterans day 2026,in n out veterans day,military veterans day free meals,golden corral,chipotle veterans day deal,olive garden veterans day menu,in n out veterans day 2026,dairy queen veterans day 2026,longhorn veterans day 2026,outback veterans day 2026,applebee's near me,shake shack veterans day,texas roadhouse near me,applebees veterans day menu,applebees veterans day 2026,applebee's veterans day menu 2026,red lobster veterans day 2026,veterans day military free meals,texas road house,applebee's veterans day,free breakfast veterans day 2026,burger king veterans day 2026,free meals veterans day 2026,panera veterans day 2026",
+      "volume": "200k+",
+      "state": "needs-research",
+      "group": "texas-roadhouse"
+    },
+    {
+      "row": 75,
+      "query": "daiyan henley",
+      "breakdown": "daiyan henley,daiyan henley trade,broncos trade,henley chargers",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "daiyan-henley"
+    },
+    {
+      "row": 76,
+      "query": "giants vs commanders",
+      "breakdown": "giants vs commanders,commanders vs giants",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "giants-vs-commanders"
+    },
+    {
+      "row": 77,
+      "query": "magic vs jazz",
+      "breakdown": "magic vs jazz,magic,franz wagner,orlando magic,jazz vs magic",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "magic-vs-jazz"
+    },
+    {
+      "row": 78,
+      "query": "黄仁勋",
+      "breakdown": "黄仁勋",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "query-78"
+    },
+    {
+      "row": 79,
+      "query": "chicago bears coach ben johnson",
+      "breakdown": "chicago bears coach ben johnson",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "chicago-bears-coach-ben-johnson"
+    },
+    {
+      "row": 80,
+      "query": "confession movie",
+      "breakdown": "confession movie,rob lowe,james franco,confession movie 2026",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "confession-movie"
+    },
+    {
+      "row": 81,
+      "query": "nvidia price",
+      "breakdown": "nvidia price,nvda ticker",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "nvidia-price"
+    },
+    {
+      "row": 82,
+      "query": "should i buy nvidia stock now",
+      "breakdown": "should i buy nvidia stock now,nvidia market cap",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "should-i-buy-nvidia-stock-now"
+    },
+    {
+      "row": 83,
+      "query": "xbox game pass 25th anniversary discount",
+      "breakdown": "xbox game pass 25th anniversary discount",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "xbox-game-pass-25th-anniversary-discount"
+    },
+    {
+      "row": 84,
+      "query": "黄仁勋辞职",
+      "breakdown": "黄仁勋辞职",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "query-84"
+    },
+    {
+      "row": 85,
+      "query": "christina applegate",
+      "breakdown": "christina applegate",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "christina-applegate"
+    },
+    {
+      "row": 86,
+      "query": "el niño",
+      "breakdown": "el niño",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "el-ni-o"
+    },
+    {
+      "row": 87,
+      "query": "hong kong",
+      "breakdown": "hong kong",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "hong-kong"
+    },
+    {
+      "row": 88,
+      "query": "xochitl gomez",
+      "breakdown": "xochitl gomez",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "xochitl-gomez"
+    },
+    {
+      "row": 89,
+      "query": "avgo stock",
+      "breakdown": "avgo stock,avgo",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "avgo-stock"
+    },
+    {
+      "row": 90,
+      "query": "richard todd",
+      "breakdown": "richard todd,richard todd nfl,domestic violence",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "richard-todd"
+    },
+    {
+      "row": 91,
+      "query": "ohio state buckeyes football",
+      "breakdown": "ohio state buckeyes football,daylon gordon",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "ohio-state-buckeyes-football"
+    },
+    {
+      "row": 92,
+      "query": "mlb mvp",
+      "breakdown": "mlb mvp,mlb mvp 2026,baseball",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "mlb-mvp"
+    },
+    {
+      "row": 93,
+      "query": "starbucks red cup day 2026",
+      "breakdown": "starbucks red cup day 2026,red cup day 2026,starbucks red cup day,when is red cup day at starbucks,red cup day,when is starbucks red cup day",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "starbucks-red-cup-day-2026"
+    },
+    {
+      "row": 94,
+      "query": "pga tour",
+      "breakdown": "pga tour,rory mcilroy",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "pga-tour"
+    },
+    {
+      "row": 95,
+      "query": "marquette vs michigan",
+      "breakdown": "marquette vs michigan,michigan basketball,marquette basketball,shaka smart,michigan vs marquette prediction",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "marquette-vs-michigan"
+    },
+    {
+      "row": 96,
+      "query": "flyers vs oilers",
+      "breakdown": "flyers vs oilers,oilers,edmonton oilers,flyers score",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "flyers-vs-oilers"
+    },
+    {
+      "row": 97,
+      "query": "terafab",
+      "breakdown": "terafab",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "terafab"
+    },
+    {
+      "row": 98,
+      "query": "avgo",
+      "breakdown": "avgo",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "avgo"
+    },
+    {
+      "row": 99,
+      "query": "mammoth vs golden knights",
+      "breakdown": "mammoth vs golden knights,utah mammoth,vgk",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "mammoth-vs-golden-knights"
+    },
+    {
+      "row": 100,
+      "query": "lightning vs sabres",
+      "breakdown": "lightning vs sabres,sabres,buffalo sabres,sabres game",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "lightning-vs-sabres"
+    },
+    {
+      "row": 101,
+      "query": "robinhood",
+      "breakdown": "robinhood",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "robinhood"
+    },
+    {
+      "row": 102,
+      "query": "hubspot",
+      "breakdown": "hubspot",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "hubspot"
+    },
+    {
+      "row": 103,
+      "query": "winter weather advisory",
+      "breakdown": "winter weather advisory",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "winter-weather-advisory"
+    },
+    {
+      "row": 104,
+      "query": "connections answers",
+      "breakdown": "connections answers",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "connections-answers"
+    },
+    {
+      "row": 105,
+      "query": "buffalo vs ball state",
+      "breakdown": "buffalo vs ball state,ball state football,buffalo football,buffalo vs ball state prediction",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "buffalo-vs-ball-state"
+    },
+    {
+      "row": 106,
+      "query": "usher chris brown tour cancellations",
+      "breakdown": "usher chris brown tour cancellations",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "usher-chris-brown-tour-cancellations"
+    },
+    {
+      "row": 107,
+      "query": "cloud gaming",
+      "breakdown": "cloud gaming,ps5 pro features gta 6,lucia gta 6,youfibre gta 6 network issues,gta 6 pc,gta 6 ultimate edition",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "cloud-gaming"
+    },
+    {
+      "row": 108,
+      "query": "lindenwood vs nebraska",
+      "breakdown": "lindenwood vs nebraska,nebraska basketball,lindenwood basketball",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "lindenwood-vs-nebraska"
+    },
+    {
+      "row": 109,
+      "query": "phil mickelson",
+      "breakdown": "phil mickelson",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "phil-mickelson"
+    },
+    {
+      "row": 110,
+      "query": "luka injury",
+      "breakdown": "luka injury,luka doncic injury,austin reaves injury,austin reaves,kyle kuzma,lakers news",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "luka-injury"
+    },
+    {
+      "row": 111,
+      "query": "predators vs ducks",
+      "breakdown": "predators vs ducks,anaheim ducks,ducks,nashville predators,ducks game",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "predators-vs-ducks"
+    },
+    {
+      "row": 112,
+      "query": "australia",
+      "breakdown": "australia",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "australia"
+    },
+    {
+      "row": 113,
+      "query": "bill cosby",
+      "breakdown": "bill cosby",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "bill-cosby"
+    },
+    {
+      "row": 114,
+      "query": "kuru",
+      "breakdown": "kuru",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "kuru"
+    },
+    {
+      "row": 115,
+      "query": "richard posner",
+      "breakdown": "richard posner,judge posner,posner",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "richard-posner"
+    },
+    {
+      "row": 116,
+      "query": "dwayne johnson",
+      "breakdown": "dwayne johnson",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "dwayne-johnson"
+    },
+    {
+      "row": 117,
+      "query": "the vow",
+      "breakdown": "the vow,the vow chris harrison,the vow show,fox nation",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "the-vow"
+    },
+    {
+      "row": 118,
+      "query": "tsmc stock",
+      "breakdown": "tsmc stock",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "tsmc-stock"
+    },
+    {
+      "row": 119,
+      "query": "caitlin clark",
+      "breakdown": "caitlin clark",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "caitlin-clark"
+    },
+    {
+      "row": 120,
+      "query": "rangers vs flames",
+      "breakdown": "rangers vs flames",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "rangers-vs-flames"
+    },
+    {
+      "row": 121,
+      "query": "week 10 start e m sit em",
+      "breakdown": "week 10 start e m sit em",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "week-10-start-e-m-sit-em"
+    },
+    {
+      "row": 122,
+      "query": "alex michelsen",
+      "breakdown": "alex michelsen",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "alex-michelsen"
+    },
+    {
+      "row": 123,
+      "query": "streamer awards 2026",
+      "breakdown": "streamer awards 2026,streamer awards",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "streamer-awards-2026"
+    },
+    {
+      "row": 124,
+      "query": "marcus smart",
+      "breakdown": "marcus smart",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "marcus-smart"
+    },
+    {
+      "row": 125,
+      "query": "tiempo",
+      "breakdown": "tiempo",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "tiempo"
+    },
+    {
+      "row": 126,
+      "query": "umass vs toledo",
+      "breakdown": "umass vs toledo,toledo football",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "umass-vs-toledo"
+    },
+    {
+      "row": 127,
+      "query": "howard lutnick",
+      "breakdown": "howard lutnick",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "howard-lutnick"
+    },
+    {
+      "row": 128,
+      "query": "jalen smith",
+      "breakdown": "jalen smith",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "jalen-smith"
+    },
+    {
+      "row": 129,
+      "query": "france vs italy",
+      "breakdown": "france vs italy",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "france-vs-italy"
+    },
+    {
+      "row": 130,
+      "query": "arnold schwarzenegger",
+      "breakdown": "arnold schwarzenegger",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "arnold-schwarzenegger"
+    },
+    {
+      "row": 131,
+      "query": "searching",
+      "breakdown": "searching",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "searching"
+    },
+    {
+      "row": 132,
+      "query": "mortgage interest rates",
+      "breakdown": "mortgage interest rates,mortgage rates today,mortgage rates",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "mortgage-interest-rates"
+    },
+    {
+      "row": 133,
+      "query": "latin grammys 2026",
+      "breakdown": "latin grammys 2026",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "latin-grammys-2026"
+    },
+    {
+      "row": 134,
+      "query": "brad ausmus",
+      "breakdown": "brad ausmus,astros",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "brad-ausmus"
+    },
+    {
+      "row": 135,
+      "query": "resident evil code veronica remake",
+      "breakdown": "resident evil code veronica remake,resident evil veronica delayed,resident evil veronica remake",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "resident-evil-code-veronica-remake"
+    },
+    {
+      "row": 136,
+      "query": "cy young award 2026",
+      "breakdown": "cy young award 2026,cam schittler,cy young,nl cy young,yankees,cy young award",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "cy-young-award-2026"
+    },
+    {
+      "row": 137,
+      "query": "brandon mall shooting",
+      "breakdown": "brandon mall shooting,brandon mall,brandon mall shooting today",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "brandon-mall-shooting"
+    },
+    {
+      "row": 138,
+      "query": "météo",
+      "breakdown": "météo",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "m-t-o"
+    },
+    {
+      "row": 139,
+      "query": "finance",
+      "breakdown": "finance",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "finance"
+    },
+    {
+      "row": 140,
+      "query": "tyler perry new movie",
+      "breakdown": "tyler perry new movie,the gospel of christmas tyler perry cast",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "tyler-perry-new-movie"
+    },
+    {
+      "row": 141,
+      "query": "kayla harrison",
+      "breakdown": "kayla harrison,amanda nunes",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "kayla-harrison"
+    },
+    {
+      "row": 142,
+      "query": "kelsey grammer",
+      "breakdown": "kelsey grammer",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "kelsey-grammer"
+    },
+    {
+      "row": 143,
+      "query": "sacramento st vs central mi",
+      "breakdown": "sacramento st vs central mi,central michigan football",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "sacramento-st-vs-central-mi"
+    },
+    {
+      "row": 144,
+      "query": "apache http2 vulnerability cve 2026 119618",
+      "breakdown": "apache http2 vulnerability cve 2026 119618",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "apache-http2-vulnerability-cve-2026-119618"
+    },
+    {
+      "row": 145,
+      "query": "fortnite server status",
+      "breakdown": "fortnite server status,when will fortnite servers be back up,fortnite servers,is fortnite down,fortnite update,is fortnite down right now,are fortnite servers down,did typical gamer get the pirate token,how long is fortnite downtime today,fortnite update today",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "fortnite-server-status"
+    },
+    {
+      "row": 146,
+      "query": "josh downs trade reaction",
+      "breakdown": "josh downs trade reaction,nikko remigio",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "josh-downs-trade-reaction"
+    },
+    {
+      "row": 147,
+      "query": "optimum outage",
+      "breakdown": "optimum outage,optimum outage map,optimum internet outage",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "optimum-outage"
+    },
+    {
+      "row": 148,
+      "query": "american airlines international route cancellations 2027",
+      "breakdown": "american airlines international route cancellations 2027",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "american-airlines-international-route-cancellations-2027"
+    },
+    {
+      "row": 149,
+      "query": "mexico vs jamaica",
+      "breakdown": "mexico vs jamaica",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "mexico-vs-jamaica"
+    },
+    {
+      "row": 150,
+      "query": "applebee's",
+      "breakdown": "applebee's",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "applebee-s"
+    },
+    {
+      "row": 151,
+      "query": "usc vs california",
+      "breakdown": "usc vs california,usc basketball,cal basketball,usc vs california prediction,alijah arenas,usc vs cal",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "usc-vs-california"
+    },
+    {
+      "row": 152,
+      "query": "blazers",
+      "breakdown": "blazers,deni avdija,oklahoma city thunder vs portland trail blazers match player stats,damian lillard,portland trail blazers,thunder,trail blazers,okc thunder,thunder vs trail blazers where to watch,trailblazers,thunder - trail blazers,oklahoma city thunder vs portland trail blazers timeline,blazers game,where to watch oklahoma city thunder vs portland trail blazers,okc game,oklahoma city thunder,portland trail blazers vs oklahoma city thunder match player stats,okc vs trail blazers,blazers vs thunder,trail blazers vs thunder",
+      "volume": "20k+",
+      "state": "needs-research",
+      "group": "blazers"
+    },
+    {
+      "row": 153,
+      "query": "погода",
+      "breakdown": "погода",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "query-153"
+    },
+    {
+      "row": 154,
+      "query": "ann lawani",
+      "breakdown": "ann lawani",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "ann-lawani"
+    },
+    {
+      "row": 155,
+      "query": "landfill",
+      "breakdown": "landfill",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "landfill"
+    },
+    {
+      "row": 156,
+      "query": "amen thompson",
+      "breakdown": "amen thompson",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "amen-thompson"
+    },
+    {
+      "row": 157,
+      "query": "anthony mackie",
+      "breakdown": "anthony mackie",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "anthony-mackie"
+    },
+    {
+      "row": 158,
+      "query": "tyler herro",
+      "breakdown": "tyler herro",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "tyler-herro"
+    },
+    {
+      "row": 159,
+      "query": "amanda bynes",
+      "breakdown": "amanda bynes",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "amanda-bynes"
+    },
+    {
+      "row": 160,
+      "query": "miguel díaz-canel",
+      "breakdown": "miguel díaz-canel",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "miguel-d-az-canel"
+    },
+    {
+      "row": 161,
+      "query": "mlb awards",
+      "breakdown": "mlb awards,mlb awards 2026",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "mlb-awards"
+    },
+    {
+      "row": 162,
+      "query": "alexander darchiev",
+      "breakdown": "alexander darchiev,russian ambassador to us",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "alexander-darchiev"
+    },
+    {
+      "row": 163,
+      "query": "bobbi althoff",
+      "breakdown": "bobbi althoff",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "bobbi-althoff"
+    },
+    {
+      "row": 164,
+      "query": "robert morris vs arkansas",
+      "breakdown": "robert morris vs arkansas,arkansas basketball,razorback basketball,robert morris basketball",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "robert-morris-vs-arkansas"
+    },
+    {
+      "row": 165,
+      "query": "noah's ark discovery",
+      "breakdown": "noah's ark discovery",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "noah-s-ark-discovery"
+    },
+    {
+      "row": 166,
+      "query": "nathaniel buzolic",
+      "breakdown": "nathaniel buzolic",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nathaniel-buzolic"
+    },
+    {
+      "row": 167,
+      "query": "nelly korda",
+      "breakdown": "nelly korda",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nelly-korda"
+    },
+    {
+      "row": 168,
+      "query": "is cam skattebo playing this week",
+      "breakdown": "is cam skattebo playing this week",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "is-cam-skattebo-playing-this-week"
+    },
+    {
+      "row": 169,
+      "query": "fred vanvleet",
+      "breakdown": "fred vanvleet",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "fred-vanvleet"
+    },
+    {
+      "row": 170,
+      "query": "kevin durant",
+      "breakdown": "kevin durant,warriors vs rockets where to watch,warriors game today,jabari smith jr,tari eason",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "kevin-durant"
+    },
+    {
+      "row": 171,
+      "query": "danielle fishel",
+      "breakdown": "danielle fishel,ben savage",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "danielle-fishel"
+    },
+    {
+      "row": 172,
+      "query": "cma awards 2026",
+      "breakdown": "cma awards 2026",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "cma-awards-2026"
+    },
+    {
+      "row": 173,
+      "query": "aryna sabalenka",
+      "breakdown": "aryna sabalenka,sabalenka,mirra andreeva,andreeva,karolina muchova",
+      "volume": "10k+",
+      "state": "needs-research",
+      "group": "aryna-sabalenka"
+    },
+    {
+      "row": 174,
+      "query": "los angeles lakers bronny james",
+      "breakdown": "los angeles lakers bronny james",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "los-angeles-lakers-bronny-james"
+    },
+    {
+      "row": 175,
+      "query": "loop parkway bridge",
+      "breakdown": "loop parkway bridge",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "loop-parkway-bridge"
+    },
+    {
+      "row": 176,
+      "query": "sandro mamukelashvili",
+      "breakdown": "sandro mamukelashvili",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "sandro-mamukelashvili"
+    },
+    {
+      "row": 177,
+      "query": "jaime jaquez jr.",
+      "breakdown": "jaime jaquez jr.",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "jaime-jaquez-jr"
+    },
+    {
+      "row": 178,
+      "query": "天气",
+      "breakdown": "天气",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "query-178"
+    },
+    {
+      "row": 179,
+      "query": "softbank $3.7 billion turbine loss",
+      "breakdown": "softbank $3.7 billion turbine loss",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "softbank-3-7-billion-turbine-loss"
+    },
+    {
+      "row": 180,
+      "query": "reasons for falling us gas prices",
+      "breakdown": "reasons for falling us gas prices,why are gas prices going down?",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "reasons-for-falling-us-gas-prices"
+    },
+    {
+      "row": 181,
+      "query": "michael jackson estate value $2 billion",
+      "breakdown": "michael jackson estate value $2 billion",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "michael-jackson-estate-value-2-billion"
+    },
+    {
+      "row": 182,
+      "query": "rockstar gta vi",
+      "breakdown": "rockstar gta vi,rockstar",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "rockstar-gta-vi"
+    },
+    {
+      "row": 183,
+      "query": "i heart radio",
+      "breakdown": "i heart radio",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "i-heart-radio"
+    },
+    {
+      "row": 184,
+      "query": "bucs wide receiver roster cuts",
+      "breakdown": "bucs wide receiver roster cuts",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "bucs-wide-receiver-roster-cuts"
+    },
+    {
+      "row": 185,
+      "query": "nintendo zelda ocarina",
+      "breakdown": "nintendo zelda ocarina",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nintendo-zelda-ocarina"
+    },
+    {
+      "row": 186,
+      "query": "local weather",
+      "breakdown": "local weather",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "local-weather"
+    },
+    {
+      "row": 187,
+      "query": "joseph zada",
+      "breakdown": "joseph zada",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "joseph-zada"
+    },
+    {
+      "row": 188,
+      "query": "kylie jenner former staff lawsuits",
+      "breakdown": "kylie jenner former staff lawsuits",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "kylie-jenner-former-staff-lawsuits"
+    },
+    {
+      "row": 189,
+      "query": "measles outbreak pennsylvania",
+      "breakdown": "measles outbreak pennsylvania",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "measles-outbreak-pennsylvania"
+    },
+    {
+      "row": 190,
+      "query": "south park new episode",
+      "breakdown": "south park new episode,comedy central,south park we be clubbin'",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "south-park-new-episode"
+    },
+    {
+      "row": 191,
+      "query": "avengers endgame encore disney plus",
+      "breakdown": "avengers endgame encore disney plus,avengers endgame encore disney+ release",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "avengers-endgame-encore-disney-plus"
+    },
+    {
+      "row": 192,
+      "query": "saqib khan",
+      "breakdown": "saqib khan",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "saqib-khan"
+    },
+    {
+      "row": 193,
+      "query": "box office",
+      "breakdown": "box office",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "box-office"
+    },
+    {
+      "row": 194,
+      "query": "deportación",
+      "breakdown": "deportación",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "deportaci-n"
+    },
+    {
+      "row": 195,
+      "query": "jessica chastain",
+      "breakdown": "jessica chastain",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "jessica-chastain"
+    },
+    {
+      "row": 196,
+      "query": "kavya maran",
+      "breakdown": "kavya maran,anirudh ravichander",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "kavya-maran"
+    },
+    {
+      "row": 197,
+      "query": "severe thunderstorm watch",
+      "breakdown": "severe thunderstorm watch",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "severe-thunderstorm-watch"
+    },
+    {
+      "row": 198,
+      "query": "applebees menu",
+      "breakdown": "applebees menu",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "applebees-menu"
+    },
+    {
+      "row": 199,
+      "query": "backward retirement approach gen x",
+      "breakdown": "backward retirement approach gen x",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "backward-retirement-approach-gen-x"
+    },
+    {
+      "row": 200,
+      "query": "alejandro tabilo",
+      "breakdown": "alejandro tabilo",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "alejandro-tabilo"
+    },
+    {
+      "row": 201,
+      "query": "el niño 2026",
+      "breakdown": "el niño 2026",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "el-ni-o-2026"
+    },
+    {
+      "row": 202,
+      "query": "nfl week 10",
+      "breakdown": "nfl week 10",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nfl-week-10"
+    },
+    {
+      "row": 203,
+      "query": "eric chen su",
+      "breakdown": "eric chen su",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "eric-chen-su"
+    },
+    {
+      "row": 204,
+      "query": "brooklyn bridge",
+      "breakdown": "brooklyn bridge",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "brooklyn-bridge"
+    },
+    {
+      "row": 205,
+      "query": "copa mundial de fútbol sub-17",
+      "breakdown": "copa mundial de fútbol sub-17",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "copa-mundial-de-f-tbol-sub-17"
+    },
+    {
+      "row": 206,
+      "query": "karla souza",
+      "breakdown": "karla souza",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "karla-souza"
+    },
+    {
+      "row": 207,
+      "query": "liga mx femenil",
+      "breakdown": "liga mx femenil",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "liga-mx-femenil"
+    },
+    {
+      "row": 208,
+      "query": "sidy cissoko",
+      "breakdown": "sidy cissoko",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "sidy-cissoko"
+    },
+    {
+      "row": 209,
+      "query": "miles teller",
+      "breakdown": "miles teller",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "miles-teller"
+    },
+    {
+      "row": 210,
+      "query": "caleb wilson",
+      "breakdown": "caleb wilson,caleb wilson injury",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "caleb-wilson"
+    },
+    {
+      "row": 211,
+      "query": "jacey birch",
+      "breakdown": "jacey birch",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "jacey-birch"
+    },
+    {
+      "row": 212,
+      "query": "nayib bukele",
+      "breakdown": "nayib bukele",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nayib-bukele"
+    },
+    {
+      "row": 213,
+      "query": "the body netflix cast",
+      "breakdown": "the body netflix cast",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "the-body-netflix-cast"
+    },
+    {
+      "row": 214,
+      "query": "target black friday 2026",
+      "breakdown": "target black friday 2026,amazon black friday 2026",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "target-black-friday-2026"
+    },
+    {
+      "row": 215,
+      "query": "ihor demianenko",
+      "breakdown": "ihor demianenko,los angeles",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "ihor-demianenko"
+    },
+    {
+      "row": 216,
+      "query": "날씨",
+      "breakdown": "날씨,내일 날씨",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "query-216"
+    },
+    {
+      "row": 217,
+      "query": "disability",
+      "breakdown": "disability",
+      "volume": "2k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 218,
+      "query": "taylor kinney",
+      "breakdown": "taylor kinney",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "taylor-kinney"
+    },
+    {
+      "row": 219,
+      "query": "okc",
+      "breakdown": "okc",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "okc"
+    },
+    {
+      "row": 220,
+      "query": "chipotle tattoo deal",
+      "breakdown": "chipotle tattoo deal",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "chipotle-tattoo-deal"
+    },
+    {
+      "row": 221,
+      "query": "children's place",
+      "breakdown": "children's place",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "children-s-place"
+    },
+    {
+      "row": 222,
+      "query": "prince",
+      "breakdown": "prince",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "prince"
+    },
+    {
+      "row": 223,
+      "query": "ucla basketball",
+      "breakdown": "ucla basketball",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "ucla-basketball"
+    },
+    {
+      "row": 224,
+      "query": "anne hathaway",
+      "breakdown": "anne hathaway",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "anne-hathaway"
+    },
+    {
+      "row": 225,
+      "query": "storage units",
+      "breakdown": "storage units",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "storage-units"
+    },
+    {
+      "row": 226,
+      "query": "slomw oc",
+      "breakdown": "slomw oc,when does secret lives of mormon wives oc come out",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "slomw-oc"
+    },
+    {
+      "row": 227,
+      "query": "tampa bay lightning",
+      "breakdown": "tampa bay lightning",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "tampa-bay-lightning"
+    },
+    {
+      "row": 228,
+      "query": "wealthy investors alternative assets growth",
+      "breakdown": "wealthy investors alternative assets growth",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "wealthy-investors-alternative-assets-growth"
+    },
+    {
+      "row": 229,
+      "query": "manny pacquiao",
+      "breakdown": "manny pacquiao",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "manny-pacquiao"
+    },
+    {
+      "row": 230,
+      "query": "vegas golden knights",
+      "breakdown": "vegas golden knights",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "vegas-golden-knights"
+    },
+    {
+      "row": 231,
+      "query": "england vs croatia",
+      "breakdown": "england vs croatia",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "england-vs-croatia"
+    },
+    {
+      "row": 232,
+      "query": "maria flores garcia ice detention",
+      "breakdown": "maria flores garcia ice detention",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "maria-flores-garcia-ice-detention"
+    },
+    {
+      "row": 233,
+      "query": "hoedown hill windsor ski resort news",
+      "breakdown": "hoedown hill windsor ski resort news",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "hoedown-hill-windsor-ski-resort-news"
+    },
+    {
+      "row": 234,
+      "query": "jim cramer nvidia stock comments",
+      "breakdown": "jim cramer nvidia stock comments",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "jim-cramer-nvidia-stock-comments"
+    },
+    {
+      "row": 235,
+      "query": "nick wright",
+      "breakdown": "nick wright",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "nick-wright"
+    },
+    {
+      "row": 236,
+      "query": "elina svitolina",
+      "breakdown": "elina svitolina,muchova,svitolina",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "elina-svitolina"
+    },
+    {
+      "row": 237,
+      "query": "irán",
+      "breakdown": "irán",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "ir-n"
+    },
+    {
+      "row": 238,
+      "query": "lj cryer",
+      "breakdown": "lj cryer",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "lj-cryer"
+    },
+    {
+      "row": 239,
+      "query": "brigham nurses strike",
+      "breakdown": "brigham nurses strike",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "brigham-nurses-strike"
+    },
+    {
+      "row": 240,
+      "query": "the pitt season 3",
+      "breakdown": "the pitt season 3",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "the-pitt-season-3"
+    },
+    {
+      "row": 241,
+      "query": "tiempo de hoy",
+      "breakdown": "tiempo de hoy",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "tiempo-de-hoy"
+    },
+    {
+      "row": 242,
+      "query": "ja'kobe walter",
+      "breakdown": "ja'kobe walter",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "ja-kobe-walter"
+    },
+    {
+      "row": 243,
+      "query": "cantante",
+      "breakdown": "cantante",
+      "volume": "1k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 244,
+      "query": "météo demain",
+      "breakdown": "météo demain",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "m-t-o-demain"
+    },
+    {
+      "row": 245,
+      "query": "zachariah schuck",
+      "breakdown": "zachariah schuck",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "zachariah-schuck"
+    },
+    {
+      "row": 246,
+      "query": "daniela bittner",
+      "breakdown": "daniela bittner",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "daniela-bittner"
+    },
+    {
+      "row": 247,
+      "query": "pittsburgh weather",
+      "breakdown": "pittsburgh weather",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "pittsburgh-weather"
+    },
+    {
+      "row": 248,
+      "query": "super el niño",
+      "breakdown": "super el niño,forecast",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "super-el-ni-o"
+    },
+    {
+      "row": 249,
+      "query": "nuclear submarine",
+      "breakdown": "nuclear submarine",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nuclear-submarine"
+    },
+    {
+      "row": 250,
+      "query": "lpga",
+      "breakdown": "lpga",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "lpga"
+    },
+    {
+      "row": 251,
+      "query": "gary trent jr",
+      "breakdown": "gary trent jr",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "gary-trent-jr"
+    },
+    {
+      "row": 252,
+      "query": "taylor fritz",
+      "breakdown": "taylor fritz,holger rune",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "taylor-fritz"
+    },
+    {
+      "row": 253,
+      "query": "juju watkins",
+      "breakdown": "juju watkins",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "juju-watkins"
+    },
+    {
+      "row": 254,
+      "query": "jim caviezel",
+      "breakdown": "jim caviezel",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "jim-caviezel"
+    },
+    {
+      "row": 255,
+      "query": "al horford",
+      "breakdown": "al horford,sengun",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "al-horford"
+    },
+    {
+      "row": 256,
+      "query": "ryan seacrest",
+      "breakdown": "ryan seacrest",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "ryan-seacrest"
+    },
+    {
+      "row": 257,
+      "query": "isaiah hartenstein",
+      "breakdown": "isaiah hartenstein",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "isaiah-hartenstein"
+    },
+    {
+      "row": 258,
+      "query": "organized crime",
+      "breakdown": "organized crime",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "organized-crime"
+    },
+    {
+      "row": 259,
+      "query": "san antonio spurs vs chicago bulls match player stats",
+      "breakdown": "san antonio spurs vs chicago bulls match player stats",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "spurs-bulls"
+    },
+    {
+      "row": 260,
+      "query": "katherine kealoha",
+      "breakdown": "katherine kealoha",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "katherine-kealoha"
+    },
+    {
+      "row": 261,
+      "query": "clima para amanhã",
+      "breakdown": "clima para amanhã",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "clima-para-amanh"
+    },
+    {
+      "row": 262,
+      "query": "sasha obama",
+      "breakdown": "sasha obama",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "sasha-obama"
+    },
+    {
+      "row": 263,
+      "query": "bangladesh vs pakistan",
+      "breakdown": "bangladesh vs pakistan",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "bangladesh-vs-pakistan"
+    },
+    {
+      "row": 264,
+      "query": "indie games festival ai backlash",
+      "breakdown": "indie games festival ai backlash",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "indie-games-festival-ai-backlash"
+    },
+    {
+      "row": 265,
+      "query": "angie martinez",
+      "breakdown": "angie martinez",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "angie-martinez"
+    },
+    {
+      "row": 266,
+      "query": "casper ruud",
+      "breakdown": "casper ruud",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "casper-ruud"
+    },
+    {
+      "row": 267,
+      "query": "nic claxton",
+      "breakdown": "nic claxton",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "nic-claxton"
+    },
+    {
+      "row": 268,
+      "query": "weather philadelphia",
+      "breakdown": "weather philadelphia",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "weather-philadelphia"
+    },
+    {
+      "row": 269,
+      "query": "alperen şengün",
+      "breakdown": "alperen şengün",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "alperen-eng-n"
+    },
+    {
+      "row": 270,
+      "query": "toumani camara",
+      "breakdown": "toumani camara,aday mara,tre johnson,day'ron sharpe",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "toumani-camara"
+    },
+    {
+      "row": 271,
+      "query": "james acaster",
+      "breakdown": "james acaster",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "james-acaster"
+    },
+    {
+      "row": 272,
+      "query": "noah kahan 2027 stadium tour",
+      "breakdown": "noah kahan 2027 stadium tour",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "noah-kahan-2027-stadium-tour"
+    },
+    {
+      "row": 273,
+      "query": "alex karp",
+      "breakdown": "alex karp,palantir",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "alex-karp"
+    },
+    {
+      "row": 274,
+      "query": "golden knights",
+      "breakdown": "golden knights",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "golden-knights"
+    },
+    {
+      "row": 275,
+      "query": "trump letter to biden",
+      "breakdown": "trump letter to biden",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "trump-letter-to-biden"
+    },
+    {
+      "row": 276,
+      "query": "alaska senate race 2026",
+      "breakdown": "alaska senate race 2026",
+      "volume": "5k+",
+      "state": "needs-research",
+      "group": "alaska-senate-race-2026"
+    },
+    {
+      "row": 277,
+      "query": "11 month old buried alive",
+      "breakdown": "11 month old buried alive",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "11-month-old-buried-alive"
+    },
+    {
+      "row": 278,
+      "query": "spacex launch",
+      "breakdown": "spacex launch,spacex launch today",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "spacex-launch"
+    },
+    {
+      "row": 279,
+      "query": "hank aaron award",
+      "breakdown": "hank aaron award",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "hank-aaron-award"
+    },
+    {
+      "row": 280,
+      "query": "tyrese proctor",
+      "breakdown": "tyrese proctor",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "tyrese-proctor"
+    },
+    {
+      "row": 281,
+      "query": "dc weather",
+      "breakdown": "dc weather",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "dc-weather"
+    },
+    {
+      "row": 282,
+      "query": "rj barrett",
+      "breakdown": "rj barrett",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "rj-barrett"
+    },
+    {
+      "row": 283,
+      "query": "st john's basketball",
+      "breakdown": "st john's basketball,colgate vs st john's",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "st-john-s-basketball"
+    },
+    {
+      "row": 284,
+      "query": "jrue holiday",
+      "breakdown": "jrue holiday",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "jrue-holiday"
+    },
+    {
+      "row": 285,
+      "query": "travel vaccine",
+      "breakdown": "travel vaccine",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "travel-vaccine"
+    },
+    {
+      "row": 286,
+      "query": "spx",
+      "breakdown": "spx",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "spx"
+    },
+    {
+      "row": 287,
+      "query": "stockholm open",
+      "breakdown": "stockholm open",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "stockholm-open"
+    },
+    {
+      "row": 288,
+      "query": "golden state warriors vs houston rockets timeline",
+      "breakdown": "golden state warriors vs houston rockets timeline,warriors vs rockets score,rockets score",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "warriors-rockets"
+    },
+    {
+      "row": 289,
+      "query": "ryan gosling",
+      "breakdown": "ryan gosling",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "ryan-gosling"
+    },
+    {
+      "row": 290,
+      "query": "navy basketball",
+      "breakdown": "navy basketball",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "navy-basketball"
+    },
+    {
+      "row": 291,
+      "query": "nc central vs unc",
+      "breakdown": "nc central vs unc",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nc-central-vs-unc"
+    },
+    {
+      "row": 292,
+      "query": "new zealand vs india soccer",
+      "breakdown": "new zealand vs india soccer",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "new-zealand-vs-india-soccer"
+    },
+    {
+      "row": 293,
+      "query": "keith cooper jr.",
+      "breakdown": "keith cooper jr.",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "keith-cooper-jr"
+    },
+    {
+      "row": 294,
+      "query": "miles mcbride",
+      "breakdown": "miles mcbride",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "miles-mcbride"
+    },
+    {
+      "row": 295,
+      "query": "the rock",
+      "breakdown": "the rock",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "the-rock"
+    },
+    {
+      "row": 296,
+      "query": "vandenberg launch schedule",
+      "breakdown": "vandenberg launch schedule,rocket launch today,vandenberg launch,space x launch",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "vandenberg-launch-schedule"
+    },
+    {
+      "row": 297,
+      "query": "amazing race",
+      "breakdown": "amazing race,amazing race 2026,matt and michelle amazing race",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "amazing-race"
+    },
+    {
+      "row": 298,
+      "query": "mason plumlee",
+      "breakdown": "mason plumlee",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "mason-plumlee"
+    },
+    {
+      "row": 299,
+      "query": "game of thrones",
+      "breakdown": "game of thrones",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "game-of-thrones"
+    },
+    {
+      "row": 300,
+      "query": "fugitive",
+      "breakdown": "fugitive",
+      "volume": "200+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 301,
+      "query": "south florida basketball",
+      "breakdown": "south florida basketball,usf basketball,saint joseph's vs south florida",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "south-florida-basketball"
+    },
+    {
+      "row": 302,
+      "query": "amber alert",
+      "breakdown": "amber alert",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "amber-alert"
+    },
+    {
+      "row": 303,
+      "query": "hunger games sunrise on the reaping release date",
+      "breakdown": "hunger games sunrise on the reaping release date",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "hunger-games-sunrise-on-the-reaping-release-date"
+    },
+    {
+      "row": 304,
+      "query": "jared mccain",
+      "breakdown": "jared mccain",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "jared-mccain"
+    },
+    {
+      "row": 305,
+      "query": "portugal",
+      "breakdown": "portugal",
+      "volume": "2k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 306,
+      "query": "pakistan vs sri lanka",
+      "breakdown": "pakistan vs sri lanka",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "pakistan-vs-sri-lanka"
+    },
+    {
+      "row": 307,
+      "query": "suspect",
+      "breakdown": "suspect",
+      "volume": "2k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 308,
+      "query": "olivia ponton",
+      "breakdown": "olivia ponton",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "olivia-ponton"
+    },
+    {
+      "row": 309,
+      "query": "supplemental nutrition assistance program",
+      "breakdown": "supplemental nutrition assistance program",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "supplemental-nutrition-assistance-program"
+    },
+    {
+      "row": 310,
+      "query": "east texas a&m basketball",
+      "breakdown": "east texas a&m basketball",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "east-texas-a-m-basketball"
+    },
+    {
+      "row": 311,
+      "query": "alex caruso",
+      "breakdown": "alex caruso",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "alex-caruso"
+    },
+    {
+      "row": 312,
+      "query": "embajador",
+      "breakdown": "embajador",
+      "volume": "100+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 313,
+      "query": "chicago fire over the edge",
+      "breakdown": "chicago fire over the edge",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "chicago-fire-over-the-edge"
+    },
+    {
+      "row": 314,
+      "query": "hulu",
+      "breakdown": "hulu",
+      "volume": "5k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 315,
+      "query": "pick 4",
+      "breakdown": "pick 4",
+      "volume": "200+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 316,
+      "query": "ruaridh mollica",
+      "breakdown": "ruaridh mollica,ultron,jocasta marvel",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "ruaridh-mollica"
+    },
+    {
+      "row": 317,
+      "query": "bbc sport",
+      "breakdown": "bbc sport",
+      "volume": "100+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 318,
+      "query": "charlotte weather",
+      "breakdown": "charlotte weather,noaa weather",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "charlotte-weather"
+    },
+    {
+      "row": 319,
+      "query": "new york times",
+      "breakdown": "new york times",
+      "volume": "1k+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 320,
+      "query": "spacex",
+      "breakdown": "spacex,space x",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "spacex"
+    },
+    {
+      "row": 321,
+      "query": "nvidia stock price prediction 2027",
+      "breakdown": "nvidia stock price prediction 2027",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "nvidia-stock-price-prediction-2027"
+    },
+    {
+      "row": 322,
+      "query": "eric schmidt",
+      "breakdown": "eric schmidt",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "eric-schmidt"
+    },
+    {
+      "row": 323,
+      "query": "riley patterson",
+      "breakdown": "riley patterson",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "riley-patterson"
+    },
+    {
+      "row": 324,
+      "query": "lampard",
+      "breakdown": "lampard",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "lampard"
+    },
+    {
+      "row": 325,
+      "query": "umass basketball",
+      "breakdown": "umass basketball",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "umass-basketball"
+    },
+    {
+      "row": 326,
+      "query": "childrens hospital",
+      "breakdown": "childrens hospital,children's wisconsin",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "childrens-hospital"
+    },
+    {
+      "row": 327,
+      "query": "boston celtics vs toronto raptors timeline",
+      "breakdown": "boston celtics vs toronto raptors timeline",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "boston-celtics-vs-toronto-raptors-timeline"
+    },
+    {
+      "row": 328,
+      "query": "washington wizards vs pacers match player stats",
+      "breakdown": "washington wizards vs pacers match player stats,pacers vs wizards",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "washington-wizards-vs-pacers-match-player-stats"
+    },
+    {
+      "row": 329,
+      "query": "tony robbins",
+      "breakdown": "tony robbins",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "tony-robbins"
+    },
+    {
+      "row": 330,
+      "query": "san diego state basketball",
+      "breakdown": "san diego state basketball",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "san-diego-state-basketball"
+    },
+    {
+      "row": 331,
+      "query": "gwen stefani gavin rossdale son concert",
+      "breakdown": "gwen stefani gavin rossdale son concert",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "gwen-stefani-gavin-rossdale-son-concert"
+    },
+    {
+      "row": 332,
+      "query": "air force basketball",
+      "breakdown": "air force basketball,loyola chicago basketball",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "air-force-basketball"
+    },
+    {
+      "row": 333,
+      "query": "irma p hall soul food",
+      "breakdown": "irma p hall soul food",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "irma-p-hall-soul-food"
+    },
+    {
+      "row": 334,
+      "query": "todays weather",
+      "breakdown": "todays weather",
+      "volume": "200+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 335,
+      "query": "measles symptoms",
+      "breakdown": "measles symptoms",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "measles-symptoms"
+    },
+    {
+      "row": 336,
+      "query": "weather boston",
+      "breakdown": "weather boston",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "weather-boston"
+    },
+    {
+      "row": 337,
+      "query": "the lowdown",
+      "breakdown": "the lowdown",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "the-lowdown"
+    },
+    {
+      "row": 338,
+      "query": "adults season 3",
+      "breakdown": "adults season 3",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "adults-season-3"
+    },
+    {
+      "row": 339,
+      "query": "alaska airlines diverted flight yakima",
+      "breakdown": "alaska airlines diverted flight yakima",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "alaska-airlines-diverted-flight-yakima"
+    },
+    {
+      "row": 340,
+      "query": "nate ament",
+      "breakdown": "nate ament",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nate-ament"
+    },
+    {
+      "row": 341,
+      "query": "google play store",
+      "breakdown": "google play store",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "google-play-store"
+    },
+    {
+      "row": 342,
+      "query": "bob woodruff",
+      "breakdown": "bob woodruff",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "bob-woodruff"
+    },
+    {
+      "row": 343,
+      "query": "kamario taylor",
+      "breakdown": "kamario taylor",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "kamario-taylor"
+    },
+    {
+      "row": 344,
+      "query": "peyton watson",
+      "breakdown": "peyton watson",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "peyton-watson"
+    },
+    {
+      "row": 345,
+      "query": "nevada basketball",
+      "breakdown": "nevada basketball",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nevada-basketball"
+    },
+    {
+      "row": 346,
+      "query": "josh giddey",
+      "breakdown": "josh giddey",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "josh-giddey"
+    },
+    {
+      "row": 347,
+      "query": "chicago med",
+      "breakdown": "chicago med",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "chicago-med"
+    },
+    {
+      "row": 348,
+      "query": "alperen sengun",
+      "breakdown": "alperen sengun",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "alperen-sengun"
+    },
+    {
+      "row": 349,
+      "query": "mikal bridges",
+      "breakdown": "mikal bridges",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "mikal-bridges"
+    },
+    {
+      "row": 350,
+      "query": "secretario de defensa de los estados unidos",
+      "breakdown": "secretario de defensa de los estados unidos",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "secretario-de-defensa-de-los-estados-unidos"
+    },
+    {
+      "row": 351,
+      "query": "behemoth movie",
+      "breakdown": "behemoth movie",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "behemoth-movie"
+    },
+    {
+      "row": 352,
+      "query": "芒果tv",
+      "breakdown": "芒果tv",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "tv"
+    },
+    {
+      "row": 353,
+      "query": "hltv",
+      "breakdown": "hltv",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "hltv"
+    },
+    {
+      "row": 354,
+      "query": "chicago fire cast",
+      "breakdown": "chicago fire cast",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "chicago-fire-cast"
+    },
+    {
+      "row": 355,
+      "query": "dustin hoffman",
+      "breakdown": "dustin hoffman",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "dustin-hoffman"
+    },
+    {
+      "row": 356,
+      "query": "vanguard",
+      "breakdown": "vanguard",
+      "volume": "2k+",
+      "state": "needs-research",
+      "group": "vanguard"
+    },
+    {
+      "row": 357,
+      "query": "hinterland 2027",
+      "breakdown": "hinterland 2027",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "hinterland-2027"
+    },
+    {
+      "row": 358,
+      "query": "boise state basketball",
+      "breakdown": "boise state basketball",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "boise-state-basketball"
+    },
+    {
+      "row": 359,
+      "query": "john wayne",
+      "breakdown": "john wayne",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "john-wayne"
+    },
+    {
+      "row": 360,
+      "query": "dane cook brother",
+      "breakdown": "dane cook brother,darryl mccauley",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "dane-cook-brother"
+    },
+    {
+      "row": 361,
+      "query": "john allen mrballen siriusxm deal",
+      "breakdown": "john allen mrballen siriusxm deal",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "john-allen-mrballen-siriusxm-deal"
+    },
+    {
+      "row": 362,
+      "query": "lendeborg",
+      "breakdown": "lendeborg",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "lendeborg"
+    },
+    {
+      "row": 363,
+      "query": "brady survivor 51",
+      "breakdown": "brady survivor 51,survivor load the ark, two by two",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "brady-survivor-51"
+    },
+    {
+      "row": 364,
+      "query": "sdsu basketball",
+      "breakdown": "sdsu basketball",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "sdsu-basketball"
+    },
+    {
+      "row": 365,
+      "query": "walmart drawing",
+      "breakdown": "walmart drawing",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "walmart-drawing"
+    },
+    {
+      "row": 366,
+      "query": "tyler kolek",
+      "breakdown": "tyler kolek",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "tyler-kolek"
+    },
+    {
+      "row": 367,
+      "query": "scoot henderson",
+      "breakdown": "scoot henderson,blazers standings",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "scoot-henderson"
+    },
+    {
+      "row": 368,
+      "query": "macklin celebrini",
+      "breakdown": "macklin celebrini",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "macklin-celebrini"
+    },
+    {
+      "row": 369,
+      "query": "kawhi leonard",
+      "breakdown": "kawhi leonard",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "kawhi-leonard"
+    },
+    {
+      "row": 370,
+      "query": "temple basketball",
+      "breakdown": "temple basketball",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "temple-basketball"
+    },
+    {
+      "row": 371,
+      "query": "ducks hockey",
+      "breakdown": "ducks hockey",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "ducks-hockey"
+    },
+    {
+      "row": 372,
+      "query": "andre drummond",
+      "breakdown": "andre drummond",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "andre-drummond"
+    },
+    {
+      "row": 373,
+      "query": "san antonio spurs vs chicago bulls timeline",
+      "breakdown": "san antonio spurs vs chicago bulls timeline",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "spurs-bulls"
+    },
+    {
+      "row": 374,
+      "query": "michael porter jr.",
+      "breakdown": "michael porter jr.",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "michael-porter-jr"
+    },
+    {
+      "row": 375,
+      "query": "saint peter's vs south carolina",
+      "breakdown": "saint peter's vs south carolina",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "saint-peter-s-vs-south-carolina"
+    },
+    {
+      "row": 376,
+      "query": "baylor scheierman",
+      "breakdown": "baylor scheierman",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "baylor-scheierman"
+    },
+    {
+      "row": 377,
+      "query": "knicks standings",
+      "breakdown": "knicks standings",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "knicks-standings"
+    },
+    {
+      "row": 378,
+      "query": "cleveland cavaliers vs knicks timeline",
+      "breakdown": "cleveland cavaliers vs knicks timeline",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "cavaliers-knicks"
+    },
+    {
+      "row": 379,
+      "query": "julius randle",
+      "breakdown": "julius randle",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "julius-randle"
+    },
+    {
+      "row": 380,
+      "query": "danny wolf",
+      "breakdown": "danny wolf",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "danny-wolf"
+    },
+    {
+      "row": 381,
+      "query": "rob kardashian",
+      "breakdown": "rob kardashian",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "rob-kardashian"
+    },
+    {
+      "row": 382,
+      "query": "tatjana maria",
+      "breakdown": "tatjana maria",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "tatjana-maria"
+    },
+    {
+      "row": 383,
+      "query": "new heights",
+      "breakdown": "new heights",
+      "volume": "1k+",
+      "state": "needs-research",
+      "group": "new-heights"
+    },
+    {
+      "row": 384,
+      "query": "wendell carter jr",
+      "breakdown": "wendell carter jr",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "wendell-carter-jr"
+    },
+    {
+      "row": 385,
+      "query": "eddie glaude",
+      "breakdown": "eddie glaude",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "eddie-glaude"
+    },
+    {
+      "row": 386,
+      "query": "lauri markkanen",
+      "breakdown": "lauri markkanen,jazz utah",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "lauri-markkanen"
+    },
+    {
+      "row": 387,
+      "query": "noel fielding",
+      "breakdown": "noel fielding",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "noel-fielding"
+    },
+    {
+      "row": 388,
+      "query": "weather atlanta",
+      "breakdown": "weather atlanta",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "weather-atlanta"
+    },
+    {
+      "row": 389,
+      "query": "uc davis basketball",
+      "breakdown": "uc davis basketball",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "uc-davis-basketball"
+    },
+    {
+      "row": 390,
+      "query": "nikole hannah-jones",
+      "breakdown": "nikole hannah-jones",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nikole-hannah-jones"
+    },
+    {
+      "row": 391,
+      "query": "rob dillingham",
+      "breakdown": "rob dillingham",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "rob-dillingham"
+    },
+    {
+      "row": 392,
+      "query": "mexico vs",
+      "breakdown": "mexico vs",
+      "volume": "500+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 393,
+      "query": "cathay pacific",
+      "breakdown": "cathay pacific",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "cathay-pacific"
+    },
+    {
+      "row": 394,
+      "query": "carter bryant",
+      "breakdown": "carter bryant",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "carter-bryant"
+    },
+    {
+      "row": 395,
+      "query": "carson cooper",
+      "breakdown": "carson cooper",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "carson-cooper"
+    },
+    {
+      "row": 396,
+      "query": "dartmouth basketball",
+      "breakdown": "dartmouth basketball",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "dartmouth-basketball"
+    },
+    {
+      "row": 397,
+      "query": "sc state vs notre dame",
+      "breakdown": "sc state vs notre dame",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "sc-state-vs-notre-dame"
+    },
+    {
+      "row": 398,
+      "query": "raphael warnock",
+      "breakdown": "raphael warnock",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "raphael-warnock"
+    },
+    {
+      "row": 399,
+      "query": "korean war",
+      "breakdown": "korean war",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "korean-war"
+    },
+    {
+      "row": 400,
+      "query": "gary sinise son",
+      "breakdown": "gary sinise son",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "gary-sinise-son"
+    },
+    {
+      "row": 401,
+      "query": "cameron johnson",
+      "breakdown": "cameron johnson",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "cameron-johnson"
+    },
+    {
+      "row": 402,
+      "query": "ugo humbert",
+      "breakdown": "ugo humbert",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "ugo-humbert"
+    },
+    {
+      "row": 403,
+      "query": "science fiction",
+      "breakdown": "science fiction",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "science-fiction"
+    },
+    {
+      "row": 404,
+      "query": "pete davidson",
+      "breakdown": "pete davidson",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "pete-davidson"
+    },
+    {
+      "row": 405,
+      "query": "evan mobley",
+      "breakdown": "evan mobley",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "evan-mobley"
+    },
+    {
+      "row": 406,
+      "query": "megan fox",
+      "breakdown": "megan fox",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "megan-fox"
+    },
+    {
+      "row": 407,
+      "query": "dji",
+      "breakdown": "dji",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "dji"
+    },
+    {
+      "row": 408,
+      "query": "toronto raptors",
+      "breakdown": "toronto raptors",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "toronto-raptors"
+    },
+    {
+      "row": 409,
+      "query": "violent night 2",
+      "breakdown": "violent night 2",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "violent-night-2"
+    },
+    {
+      "row": 410,
+      "query": "joe kennedy iii",
+      "breakdown": "joe kennedy iii",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "joe-kennedy-iii"
+    },
+    {
+      "row": 411,
+      "query": "alec bohm",
+      "breakdown": "alec bohm",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "alec-bohm"
+    },
+    {
+      "row": 412,
+      "query": "north texas basketball",
+      "breakdown": "north texas basketball",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "north-texas-basketball"
+    },
+    {
+      "row": 413,
+      "query": "oregon basketball",
+      "breakdown": "oregon basketball",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "oregon-basketball"
+    },
+    {
+      "row": 414,
+      "query": "robert williams iii",
+      "breakdown": "robert williams iii",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "robert-williams-iii"
+    },
+    {
+      "row": 415,
+      "query": "zoe saldana",
+      "breakdown": "zoe saldana",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "zoe-saldana"
+    },
+    {
+      "row": 416,
+      "query": "free",
+      "breakdown": "free",
+      "volume": "100+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 417,
+      "query": "robert noaker",
+      "breakdown": "robert noaker",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "robert-noaker"
+    },
+    {
+      "row": 418,
+      "query": "chase young",
+      "breakdown": "chase young",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "chase-young"
+    },
+    {
+      "row": 419,
+      "query": "nl mvp",
+      "breakdown": "nl mvp",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "nl-mvp"
+    },
+    {
+      "row": 420,
+      "query": "kyle fletcher",
+      "breakdown": "kyle fletcher",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "kyle-fletcher"
+    },
+    {
+      "row": 421,
+      "query": "alexandra daddario",
+      "breakdown": "alexandra daddario",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "alexandra-daddario"
+    },
+    {
+      "row": 422,
+      "query": "roy cohn",
+      "breakdown": "roy cohn",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "roy-cohn"
+    },
+    {
+      "row": 423,
+      "query": "jennifer aniston",
+      "breakdown": "jennifer aniston",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "jennifer-aniston"
+    },
+    {
+      "row": 424,
+      "query": "weather los angeles",
+      "breakdown": "weather los angeles",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "weather-los-angeles"
+    },
+    {
+      "row": 425,
+      "query": "john hamm",
+      "breakdown": "john hamm",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "john-hamm"
+    },
+    {
+      "row": 426,
+      "query": "lauren mayfield go fund me",
+      "breakdown": "lauren mayfield go fund me",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "lauren-mayfield-go-fund-me"
+    },
+    {
+      "row": 427,
+      "query": "fall out boy presale code",
+      "breakdown": "fall out boy presale code",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "fall-out-boy-presale-code"
+    },
+    {
+      "row": 428,
+      "query": "nfl football trade deadline",
+      "breakdown": "nfl football trade deadline",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "nfl-football-trade-deadline"
+    },
+    {
+      "row": 429,
+      "query": "jordan firstman",
+      "breakdown": "jordan firstman",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "jordan-firstman"
+    },
+    {
+      "row": 430,
+      "query": "senegal",
+      "breakdown": "senegal",
+      "volume": "200+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 431,
+      "query": "whoopi goldberg",
+      "breakdown": "whoopi goldberg",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "whoopi-goldberg"
+    },
+    {
+      "row": 432,
+      "query": "alix small cause of death",
+      "breakdown": "alix small cause of death",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "alix-small-cause-of-death"
+    },
+    {
+      "row": 433,
+      "query": "immanuel quickley",
+      "breakdown": "immanuel quickley",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "immanuel-quickley"
+    },
+    {
+      "row": 434,
+      "query": "desi lydic",
+      "breakdown": "desi lydic",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "desi-lydic"
+    },
+    {
+      "row": 435,
+      "query": "stick season 2",
+      "breakdown": "stick season 2",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "stick-season-2"
+    },
+    {
+      "row": 436,
+      "query": "cutter gauthier",
+      "breakdown": "cutter gauthier",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "cutter-gauthier"
+    },
+    {
+      "row": 437,
+      "query": "malevy leons",
+      "breakdown": "malevy leons",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "malevy-leons"
+    },
+    {
+      "row": 438,
+      "query": "relocation",
+      "breakdown": "relocation",
+      "volume": "500+",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 439,
+      "query": "pat tillman",
+      "breakdown": "pat tillman",
+      "volume": "500+",
+      "state": "needs-research",
+      "group": "pat-tillman"
+    },
+    {
+      "row": 440,
+      "query": "caleb williams baker mayfield interaction",
+      "breakdown": "caleb williams baker mayfield interaction",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "caleb-williams-baker-mayfield-interaction"
+    },
+    {
+      "row": 441,
+      "query": "will scharf",
+      "breakdown": "will scharf",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "will-scharf"
+    },
+    {
+      "row": 442,
+      "query": "sidney crosby",
+      "breakdown": "sidney crosby",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "sidney-crosby"
+    },
+    {
+      "row": 443,
+      "query": "cboe volatility index",
+      "breakdown": "cboe volatility index",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "cboe-volatility-index"
+    },
+    {
+      "row": 444,
+      "query": "a24",
+      "breakdown": "a24",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "a24"
+    },
+    {
+      "row": 445,
+      "query": "dame lillard",
+      "breakdown": "dame lillard",
+      "volume": "100+",
+      "state": "needs-research",
+      "group": "dame-lillard"
+    },
+    {
+      "row": 446,
+      "query": "high surf warning",
+      "breakdown": "high surf warning",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "high-surf-warning"
+    },
+    {
+      "row": 447,
+      "query": "evansville vs kentucky",
+      "breakdown": "evansville vs kentucky",
+      "volume": "200+",
+      "state": "needs-research",
+      "group": "evansville-vs-kentucky"
+    },
+    {
+      "row": 448,
+      "query": "saudi arabia",
+      "breakdown": "saudi arabia",
+      "volume": "500+",
+      "state": "unclear-skipped"
+    }
+  ],
+  "groups": [
+    {
+      "key": "brooklyn-collapse",
+      "query": "building collapse nyc",
+      "state": "draft-written",
+      "queries": [
+        "Flatbush Avenue Brooklyn",
+        "FDNY firefighters Brooklyn"
+      ],
+      "title": "Brooklyn Building Collapse: November 12 Update and Official Information",
+      "slug": "brooklyn-building-collapse-november-12-2026-confirmed-updates"
+    },
+    {
+      "key": "anthony-clark",
+      "query": "anthony clark",
+      "state": "draft-written",
+      "queries": [
+        "Anthony Clark comedian",
+        "stand up comedy microphone stage"
+      ],
+      "title": "Anthony Clark Remembered: Yes, Dear, Stand-Up and the Craft of Comedy",
+      "slug": "anthony-clark-yes-dear-comedy-career-remembrance"
+    },
+    {
+      "key": "rochelle-fleming",
+      "query": "disco singer rochelle fleming passes",
+      "state": "draft-written",
+      "queries": [
+        "Rochelle Fleming First Choice",
+        "Philadelphia soul vinyl records"
+      ],
+      "title": "Rochelle Fleming Remembered: First Choice and a Soul and Disco Legacy",
+      "slug": "rochelle-fleming-first-choice-soul-disco-legacy"
+    },
+    {
+      "key": "warriors-rockets",
+      "query": "warriors vs rockets",
+      "state": "draft-written",
+      "queries": [
+        "Stephen Curry basketball",
+        "Toyota Center Houston basketball"
+      ],
+      "title": "Rockets Beat Warriors 115–108: Curry’s Early Exit and Score Context",
+      "slug": "warriors-rockets-115-108-curry-november-11-2026"
+    },
+    {
+      "key": "logan-circle-shooting",
+      "query": "active shooter dc",
+      "state": "draft-written",
+      "queries": [
+        "Logan Circle Washington DC",
+        "Metropolitan Police Department Washington DC"
+      ],
+      "title": "Logan Circle Shooting: Dated November 12 Report and Official Alert Routes",
+      "slug": "logan-circle-dc-shooting-november-12-2026-report"
+    },
+    {
+      "key": "usman-nurmagomedov",
+      "query": "usman nurmagomedov",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rex-ryan",
+      "query": "rex ryan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mark-mcguinn",
+      "query": "mark mcguinn",
+      "state": "draft-written",
+      "queries": [
+        "Mark McGuinn singer",
+        "country music acoustic guitar stage"
+      ],
+      "title": "Mark McGuinn Remembered: Mrs. Steven Rudy and His Country-Music Legacy",
+      "slug": "mark-mcguinn-mrs-steven-rudy-country-music-remembrance"
+    },
+    {
+      "key": "cavaliers-knicks",
+      "query": "cavaliers vs knicks",
+      "state": "draft-written",
+      "queries": [
+        "James Harden basketball",
+        "Madison Square Garden basketball court"
+      ],
+      "title": "Cavaliers Beat Knicks 115–107: Harden’s 32 and the Scoring Maths",
+      "slug": "cavaliers-knicks-115-107-harden-november-11-2026"
+    },
+    {
+      "key": "spurs-bulls",
+      "query": "spurs vs bulls",
+      "state": "draft-written",
+      "queries": [
+        "Victor Wembanyama",
+        "United Center Chicago basketball"
+      ],
+      "title": "Spurs Beat Bulls 124–119: Wembanyama and Reading Defensive Contributions",
+      "slug": "spurs-bulls-124-119-wembanyama-november-11-2026"
+    },
+    {
+      "key": "lakers-bucks",
+      "query": "lakers vs bucks",
+      "state": "draft-written",
+      "queries": [
+        "Luka Doncic basketball",
+        "Fiserv Forum Milwaukee"
+      ],
+      "title": "Lakers Beat Bucks 123–112: Quarter Scores and the Cumulative Lead Explained",
+      "slug": "lakers-bucks-123-112-quarter-scores-november-11-2026"
+    },
+    {
+      "key": "mo3",
+      "query": "mo3",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "frankie-muniz",
+      "query": "frankie muniz",
+      "state": "draft-written",
+      "queries": [
+        "Frankie Muniz racing",
+        "Daytona International Speedway road course"
+      ],
+      "title": "Frankie Muniz Released After Daytona Practice Crash: The Public Update",
+      "slug": "frankie-muniz-daytona-practice-crash-release-november-2026"
+    },
+    {
+      "key": "celtics-vs-raptors",
+      "query": "celtics vs raptors",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "billy-gray",
+      "query": "billy gray",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hegseth-tomb-of-the-unknown-soldier",
+      "query": "hegseth tomb of the unknown soldier",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "scarlett-johansson-studio-pitch-criticism",
+      "query": "scarlett johansson studio pitch criticism",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "uss-united-states-sinking",
+      "query": "uss united states sinking",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ayesha-curry",
+      "query": "ayesha curry",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "randall-england",
+      "query": "randall england",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "aspyn-ovard",
+      "query": "aspyn ovard",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "social-security-trust-fund-depletion-2032",
+      "query": "social security trust fund depletion 2032",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nuggets-vs-grizzlies",
+      "query": "nuggets vs grizzlies",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ricky-alvarez",
+      "query": "ricky alvarez",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "aaron-reitz-letter-richard-blumenthal",
+      "query": "aaron reitz letter richard blumenthal",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mandalorian",
+      "query": "mandalorian",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "isabelle-huppert",
+      "query": "isabelle huppert",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jeremiah-smith-ohio-state-football-news",
+      "query": "jeremiah smith ohio state football news",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "penguins-vs-sharks",
+      "query": "penguins vs sharks",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pick-another-protein-ad",
+      "query": "pick another protein ad",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "colin-mizuo-toenail-lawsuit-portland",
+      "query": "colin mizuo toenail lawsuit portland",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pat-desiato-passing-rock-bassist",
+      "query": "pat desiato passing rock bassist",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "walmart-black-friday-ad",
+      "query": "walmart black friday ad",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "joao-below-deck",
+      "query": "joao below deck",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "last-time-i-checked-tour",
+      "query": "last time i checked tour",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nbis-stock",
+      "query": "nbis stock",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pep-guardiola",
+      "query": "pep guardiola",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bethesda-skyrim-15th-anniversary-remaster",
+      "query": "bethesda skyrim 15th anniversary remaster",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ayanna-pressley",
+      "query": "ayanna pressley",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lisa-su",
+      "query": "lisa su",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "eroica",
+      "query": "eroica",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "house-advances-major-richard-star-act",
+      "query": "house advances major richard star act",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tim-cook",
+      "query": "tim cook",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "polar-vortex-el-ni-o-winter-weather",
+      "query": "polar vortex el niño winter weather",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "unruly-aircraft-passenger",
+      "query": "unruly aircraft passenger",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "regina-torn",
+      "query": "regina torné",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "when-does-the-stock-market-open",
+      "query": "when does the stock market open",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "supreme-court-of-the-united-states",
+      "query": "supreme court of the united states",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dhs-proposed-h-1b-extension-rule",
+      "query": "dhs proposed h-1b extension rule",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "elon-musk-spacex-tesla-merger",
+      "query": "elon musk spacex tesla merger",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kaylee-hottle",
+      "query": "kaylee hottle",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "northern-taurids-meteor-shower",
+      "query": "northern taurids meteor shower",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "teri-polo",
+      "query": "teri polo",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bankruptcy",
+      "query": "bankruptcy",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dc-new-supergirl-identity-announced",
+      "query": "dc new supergirl identity announced",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "clima",
+      "query": "clima",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "carson-hocevar-jr-motorsports-2027",
+      "query": "carson hocevar jr motorsports 2027",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "amd-stock",
+      "query": "amd stock",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ghana-vs-somalia",
+      "query": "ghana vs somalia",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "malik-beasley",
+      "query": "malik beasley",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "michael-carrick",
+      "query": "michael carrick",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "wizards-vs-pacers",
+      "query": "wizards vs pacers",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "gma-deals-and-steals",
+      "query": "gma deals and steals",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "black-friday-deals",
+      "query": "black friday deals",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "harvey-jones",
+      "query": "harvey jones",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "john-allen-rubio",
+      "query": "john allen rubio",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "amd-stock-price",
+      "query": "amd stock price",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nets-vs-pelicans",
+      "query": "nets vs pelicans",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "swing-set-back-to-the-future",
+      "query": "swing set back to the future",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "texas-roadhouse",
+      "query": "texas roadhouse",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "daiyan-henley",
+      "query": "daiyan henley",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "giants-vs-commanders",
+      "query": "giants vs commanders",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "magic-vs-jazz",
+      "query": "magic vs jazz",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "query-78",
+      "query": "黄仁勋",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "chicago-bears-coach-ben-johnson",
+      "query": "chicago bears coach ben johnson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "confession-movie",
+      "query": "confession movie",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nvidia-price",
+      "query": "nvidia price",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "should-i-buy-nvidia-stock-now",
+      "query": "should i buy nvidia stock now",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "xbox-game-pass-25th-anniversary-discount",
+      "query": "xbox game pass 25th anniversary discount",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "query-84",
+      "query": "黄仁勋辞职",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "christina-applegate",
+      "query": "christina applegate",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "el-ni-o",
+      "query": "el niño",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hong-kong",
+      "query": "hong kong",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "xochitl-gomez",
+      "query": "xochitl gomez",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "avgo-stock",
+      "query": "avgo stock",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "richard-todd",
+      "query": "richard todd",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ohio-state-buckeyes-football",
+      "query": "ohio state buckeyes football",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mlb-mvp",
+      "query": "mlb mvp",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "starbucks-red-cup-day-2026",
+      "query": "starbucks red cup day 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pga-tour",
+      "query": "pga tour",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "marquette-vs-michigan",
+      "query": "marquette vs michigan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "flyers-vs-oilers",
+      "query": "flyers vs oilers",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "terafab",
+      "query": "terafab",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "avgo",
+      "query": "avgo",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mammoth-vs-golden-knights",
+      "query": "mammoth vs golden knights",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lightning-vs-sabres",
+      "query": "lightning vs sabres",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "robinhood",
+      "query": "robinhood",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hubspot",
+      "query": "hubspot",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "winter-weather-advisory",
+      "query": "winter weather advisory",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "connections-answers",
+      "query": "connections answers",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "buffalo-vs-ball-state",
+      "query": "buffalo vs ball state",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "usher-chris-brown-tour-cancellations",
+      "query": "usher chris brown tour cancellations",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cloud-gaming",
+      "query": "cloud gaming",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lindenwood-vs-nebraska",
+      "query": "lindenwood vs nebraska",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "phil-mickelson",
+      "query": "phil mickelson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "luka-injury",
+      "query": "luka injury",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "predators-vs-ducks",
+      "query": "predators vs ducks",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "australia",
+      "query": "australia",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bill-cosby",
+      "query": "bill cosby",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kuru",
+      "query": "kuru",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "richard-posner",
+      "query": "richard posner",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dwayne-johnson",
+      "query": "dwayne johnson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "the-vow",
+      "query": "the vow",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tsmc-stock",
+      "query": "tsmc stock",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "caitlin-clark",
+      "query": "caitlin clark",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rangers-vs-flames",
+      "query": "rangers vs flames",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "week-10-start-e-m-sit-em",
+      "query": "week 10 start e m sit em",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alex-michelsen",
+      "query": "alex michelsen",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "streamer-awards-2026",
+      "query": "streamer awards 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "marcus-smart",
+      "query": "marcus smart",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tiempo",
+      "query": "tiempo",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "umass-vs-toledo",
+      "query": "umass vs toledo",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "howard-lutnick",
+      "query": "howard lutnick",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jalen-smith",
+      "query": "jalen smith",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "france-vs-italy",
+      "query": "france vs italy",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "arnold-schwarzenegger",
+      "query": "arnold schwarzenegger",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "searching",
+      "query": "searching",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mortgage-interest-rates",
+      "query": "mortgage interest rates",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "latin-grammys-2026",
+      "query": "latin grammys 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "brad-ausmus",
+      "query": "brad ausmus",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "resident-evil-code-veronica-remake",
+      "query": "resident evil code veronica remake",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cy-young-award-2026",
+      "query": "cy young award 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "brandon-mall-shooting",
+      "query": "brandon mall shooting",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "m-t-o",
+      "query": "météo",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "finance",
+      "query": "finance",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tyler-perry-new-movie",
+      "query": "tyler perry new movie",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kayla-harrison",
+      "query": "kayla harrison",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kelsey-grammer",
+      "query": "kelsey grammer",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sacramento-st-vs-central-mi",
+      "query": "sacramento st vs central mi",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "apache-http2-vulnerability-cve-2026-119618",
+      "query": "apache http2 vulnerability cve 2026 119618",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "fortnite-server-status",
+      "query": "fortnite server status",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "josh-downs-trade-reaction",
+      "query": "josh downs trade reaction",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "optimum-outage",
+      "query": "optimum outage",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "american-airlines-international-route-cancellations-2027",
+      "query": "american airlines international route cancellations 2027",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mexico-vs-jamaica",
+      "query": "mexico vs jamaica",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "applebee-s",
+      "query": "applebee's",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "usc-vs-california",
+      "query": "usc vs california",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "blazers",
+      "query": "blazers",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "query-153",
+      "query": "погода",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ann-lawani",
+      "query": "ann lawani",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "landfill",
+      "query": "landfill",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "amen-thompson",
+      "query": "amen thompson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "anthony-mackie",
+      "query": "anthony mackie",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tyler-herro",
+      "query": "tyler herro",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "amanda-bynes",
+      "query": "amanda bynes",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "miguel-d-az-canel",
+      "query": "miguel díaz-canel",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mlb-awards",
+      "query": "mlb awards",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alexander-darchiev",
+      "query": "alexander darchiev",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bobbi-althoff",
+      "query": "bobbi althoff",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "robert-morris-vs-arkansas",
+      "query": "robert morris vs arkansas",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "noah-s-ark-discovery",
+      "query": "noah's ark discovery",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nathaniel-buzolic",
+      "query": "nathaniel buzolic",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nelly-korda",
+      "query": "nelly korda",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "is-cam-skattebo-playing-this-week",
+      "query": "is cam skattebo playing this week",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "fred-vanvleet",
+      "query": "fred vanvleet",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kevin-durant",
+      "query": "kevin durant",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "danielle-fishel",
+      "query": "danielle fishel",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cma-awards-2026",
+      "query": "cma awards 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "aryna-sabalenka",
+      "query": "aryna sabalenka",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "los-angeles-lakers-bronny-james",
+      "query": "los angeles lakers bronny james",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "loop-parkway-bridge",
+      "query": "loop parkway bridge",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sandro-mamukelashvili",
+      "query": "sandro mamukelashvili",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jaime-jaquez-jr",
+      "query": "jaime jaquez jr.",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "query-178",
+      "query": "天气",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "softbank-3-7-billion-turbine-loss",
+      "query": "softbank $3.7 billion turbine loss",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "reasons-for-falling-us-gas-prices",
+      "query": "reasons for falling us gas prices",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "michael-jackson-estate-value-2-billion",
+      "query": "michael jackson estate value $2 billion",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rockstar-gta-vi",
+      "query": "rockstar gta vi",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "i-heart-radio",
+      "query": "i heart radio",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bucs-wide-receiver-roster-cuts",
+      "query": "bucs wide receiver roster cuts",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nintendo-zelda-ocarina",
+      "query": "nintendo zelda ocarina",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "local-weather",
+      "query": "local weather",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "joseph-zada",
+      "query": "joseph zada",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kylie-jenner-former-staff-lawsuits",
+      "query": "kylie jenner former staff lawsuits",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "measles-outbreak-pennsylvania",
+      "query": "measles outbreak pennsylvania",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "south-park-new-episode",
+      "query": "south park new episode",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "avengers-endgame-encore-disney-plus",
+      "query": "avengers endgame encore disney plus",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "saqib-khan",
+      "query": "saqib khan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "box-office",
+      "query": "box office",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "deportaci-n",
+      "query": "deportación",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jessica-chastain",
+      "query": "jessica chastain",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kavya-maran",
+      "query": "kavya maran",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "severe-thunderstorm-watch",
+      "query": "severe thunderstorm watch",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "applebees-menu",
+      "query": "applebees menu",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "backward-retirement-approach-gen-x",
+      "query": "backward retirement approach gen x",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alejandro-tabilo",
+      "query": "alejandro tabilo",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "el-ni-o-2026",
+      "query": "el niño 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nfl-week-10",
+      "query": "nfl week 10",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "eric-chen-su",
+      "query": "eric chen su",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "brooklyn-bridge",
+      "query": "brooklyn bridge",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "copa-mundial-de-f-tbol-sub-17",
+      "query": "copa mundial de fútbol sub-17",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "karla-souza",
+      "query": "karla souza",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "liga-mx-femenil",
+      "query": "liga mx femenil",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sidy-cissoko",
+      "query": "sidy cissoko",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "miles-teller",
+      "query": "miles teller",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "caleb-wilson",
+      "query": "caleb wilson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jacey-birch",
+      "query": "jacey birch",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nayib-bukele",
+      "query": "nayib bukele",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "the-body-netflix-cast",
+      "query": "the body netflix cast",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "target-black-friday-2026",
+      "query": "target black friday 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ihor-demianenko",
+      "query": "ihor demianenko",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "query-216",
+      "query": "날씨",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "taylor-kinney",
+      "query": "taylor kinney",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "okc",
+      "query": "okc",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "chipotle-tattoo-deal",
+      "query": "chipotle tattoo deal",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "children-s-place",
+      "query": "children's place",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "prince",
+      "query": "prince",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ucla-basketball",
+      "query": "ucla basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "anne-hathaway",
+      "query": "anne hathaway",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "storage-units",
+      "query": "storage units",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "slomw-oc",
+      "query": "slomw oc",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tampa-bay-lightning",
+      "query": "tampa bay lightning",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "wealthy-investors-alternative-assets-growth",
+      "query": "wealthy investors alternative assets growth",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "manny-pacquiao",
+      "query": "manny pacquiao",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "vegas-golden-knights",
+      "query": "vegas golden knights",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "england-vs-croatia",
+      "query": "england vs croatia",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "maria-flores-garcia-ice-detention",
+      "query": "maria flores garcia ice detention",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hoedown-hill-windsor-ski-resort-news",
+      "query": "hoedown hill windsor ski resort news",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jim-cramer-nvidia-stock-comments",
+      "query": "jim cramer nvidia stock comments",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nick-wright",
+      "query": "nick wright",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "elina-svitolina",
+      "query": "elina svitolina",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ir-n",
+      "query": "irán",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lj-cryer",
+      "query": "lj cryer",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "brigham-nurses-strike",
+      "query": "brigham nurses strike",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "the-pitt-season-3",
+      "query": "the pitt season 3",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tiempo-de-hoy",
+      "query": "tiempo de hoy",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ja-kobe-walter",
+      "query": "ja'kobe walter",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "m-t-o-demain",
+      "query": "météo demain",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "zachariah-schuck",
+      "query": "zachariah schuck",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "daniela-bittner",
+      "query": "daniela bittner",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pittsburgh-weather",
+      "query": "pittsburgh weather",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "super-el-ni-o",
+      "query": "super el niño",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nuclear-submarine",
+      "query": "nuclear submarine",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lpga",
+      "query": "lpga",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "gary-trent-jr",
+      "query": "gary trent jr",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "taylor-fritz",
+      "query": "taylor fritz",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "juju-watkins",
+      "query": "juju watkins",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jim-caviezel",
+      "query": "jim caviezel",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "al-horford",
+      "query": "al horford",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ryan-seacrest",
+      "query": "ryan seacrest",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "isaiah-hartenstein",
+      "query": "isaiah hartenstein",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "organized-crime",
+      "query": "organized crime",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "katherine-kealoha",
+      "query": "katherine kealoha",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "clima-para-amanh",
+      "query": "clima para amanhã",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sasha-obama",
+      "query": "sasha obama",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bangladesh-vs-pakistan",
+      "query": "bangladesh vs pakistan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "indie-games-festival-ai-backlash",
+      "query": "indie games festival ai backlash",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "angie-martinez",
+      "query": "angie martinez",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "casper-ruud",
+      "query": "casper ruud",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nic-claxton",
+      "query": "nic claxton",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "weather-philadelphia",
+      "query": "weather philadelphia",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alperen-eng-n",
+      "query": "alperen şengün",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "toumani-camara",
+      "query": "toumani camara",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "james-acaster",
+      "query": "james acaster",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "noah-kahan-2027-stadium-tour",
+      "query": "noah kahan 2027 stadium tour",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alex-karp",
+      "query": "alex karp",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "golden-knights",
+      "query": "golden knights",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "trump-letter-to-biden",
+      "query": "trump letter to biden",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alaska-senate-race-2026",
+      "query": "alaska senate race 2026",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "11-month-old-buried-alive",
+      "query": "11 month old buried alive",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "spacex-launch",
+      "query": "spacex launch",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hank-aaron-award",
+      "query": "hank aaron award",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tyrese-proctor",
+      "query": "tyrese proctor",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dc-weather",
+      "query": "dc weather",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rj-barrett",
+      "query": "rj barrett",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "st-john-s-basketball",
+      "query": "st john's basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jrue-holiday",
+      "query": "jrue holiday",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "travel-vaccine",
+      "query": "travel vaccine",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "spx",
+      "query": "spx",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "stockholm-open",
+      "query": "stockholm open",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ryan-gosling",
+      "query": "ryan gosling",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "navy-basketball",
+      "query": "navy basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nc-central-vs-unc",
+      "query": "nc central vs unc",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "new-zealand-vs-india-soccer",
+      "query": "new zealand vs india soccer",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "keith-cooper-jr",
+      "query": "keith cooper jr.",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "miles-mcbride",
+      "query": "miles mcbride",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "the-rock",
+      "query": "the rock",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "vandenberg-launch-schedule",
+      "query": "vandenberg launch schedule",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "amazing-race",
+      "query": "amazing race",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mason-plumlee",
+      "query": "mason plumlee",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "game-of-thrones",
+      "query": "game of thrones",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "south-florida-basketball",
+      "query": "south florida basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "amber-alert",
+      "query": "amber alert",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hunger-games-sunrise-on-the-reaping-release-date",
+      "query": "hunger games sunrise on the reaping release date",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jared-mccain",
+      "query": "jared mccain",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pakistan-vs-sri-lanka",
+      "query": "pakistan vs sri lanka",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "olivia-ponton",
+      "query": "olivia ponton",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "supplemental-nutrition-assistance-program",
+      "query": "supplemental nutrition assistance program",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "east-texas-a-m-basketball",
+      "query": "east texas a&m basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alex-caruso",
+      "query": "alex caruso",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "chicago-fire-over-the-edge",
+      "query": "chicago fire over the edge",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ruaridh-mollica",
+      "query": "ruaridh mollica",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "charlotte-weather",
+      "query": "charlotte weather",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "spacex",
+      "query": "spacex",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nvidia-stock-price-prediction-2027",
+      "query": "nvidia stock price prediction 2027",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "eric-schmidt",
+      "query": "eric schmidt",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "riley-patterson",
+      "query": "riley patterson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lampard",
+      "query": "lampard",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "umass-basketball",
+      "query": "umass basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "childrens-hospital",
+      "query": "childrens hospital",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "boston-celtics-vs-toronto-raptors-timeline",
+      "query": "boston celtics vs toronto raptors timeline",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "washington-wizards-vs-pacers-match-player-stats",
+      "query": "washington wizards vs pacers match player stats",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tony-robbins",
+      "query": "tony robbins",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "san-diego-state-basketball",
+      "query": "san diego state basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "gwen-stefani-gavin-rossdale-son-concert",
+      "query": "gwen stefani gavin rossdale son concert",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "air-force-basketball",
+      "query": "air force basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "irma-p-hall-soul-food",
+      "query": "irma p hall soul food",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "measles-symptoms",
+      "query": "measles symptoms",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "weather-boston",
+      "query": "weather boston",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "the-lowdown",
+      "query": "the lowdown",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "adults-season-3",
+      "query": "adults season 3",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alaska-airlines-diverted-flight-yakima",
+      "query": "alaska airlines diverted flight yakima",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nate-ament",
+      "query": "nate ament",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "google-play-store",
+      "query": "google play store",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bob-woodruff",
+      "query": "bob woodruff",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kamario-taylor",
+      "query": "kamario taylor",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "peyton-watson",
+      "query": "peyton watson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nevada-basketball",
+      "query": "nevada basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "josh-giddey",
+      "query": "josh giddey",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "chicago-med",
+      "query": "chicago med",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alperen-sengun",
+      "query": "alperen sengun",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mikal-bridges",
+      "query": "mikal bridges",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "secretario-de-defensa-de-los-estados-unidos",
+      "query": "secretario de defensa de los estados unidos",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "behemoth-movie",
+      "query": "behemoth movie",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tv",
+      "query": "芒果tv",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hltv",
+      "query": "hltv",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "chicago-fire-cast",
+      "query": "chicago fire cast",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dustin-hoffman",
+      "query": "dustin hoffman",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "vanguard",
+      "query": "vanguard",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "hinterland-2027",
+      "query": "hinterland 2027",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "boise-state-basketball",
+      "query": "boise state basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "john-wayne",
+      "query": "john wayne",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dane-cook-brother",
+      "query": "dane cook brother",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "john-allen-mrballen-siriusxm-deal",
+      "query": "john allen mrballen siriusxm deal",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lendeborg",
+      "query": "lendeborg",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "brady-survivor-51",
+      "query": "brady survivor 51",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sdsu-basketball",
+      "query": "sdsu basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "walmart-drawing",
+      "query": "walmart drawing",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tyler-kolek",
+      "query": "tyler kolek",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "scoot-henderson",
+      "query": "scoot henderson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "macklin-celebrini",
+      "query": "macklin celebrini",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kawhi-leonard",
+      "query": "kawhi leonard",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "temple-basketball",
+      "query": "temple basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ducks-hockey",
+      "query": "ducks hockey",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "andre-drummond",
+      "query": "andre drummond",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "michael-porter-jr",
+      "query": "michael porter jr.",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "saint-peter-s-vs-south-carolina",
+      "query": "saint peter's vs south carolina",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "baylor-scheierman",
+      "query": "baylor scheierman",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "knicks-standings",
+      "query": "knicks standings",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "julius-randle",
+      "query": "julius randle",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "danny-wolf",
+      "query": "danny wolf",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rob-kardashian",
+      "query": "rob kardashian",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tatjana-maria",
+      "query": "tatjana maria",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "new-heights",
+      "query": "new heights",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "wendell-carter-jr",
+      "query": "wendell carter jr",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "eddie-glaude",
+      "query": "eddie glaude",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lauri-markkanen",
+      "query": "lauri markkanen",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "noel-fielding",
+      "query": "noel fielding",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "weather-atlanta",
+      "query": "weather atlanta",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "uc-davis-basketball",
+      "query": "uc davis basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nikole-hannah-jones",
+      "query": "nikole hannah-jones",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rob-dillingham",
+      "query": "rob dillingham",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cathay-pacific",
+      "query": "cathay pacific",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "carter-bryant",
+      "query": "carter bryant",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "carson-cooper",
+      "query": "carson cooper",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dartmouth-basketball",
+      "query": "dartmouth basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sc-state-vs-notre-dame",
+      "query": "sc state vs notre dame",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "raphael-warnock",
+      "query": "raphael warnock",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "korean-war",
+      "query": "korean war",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "gary-sinise-son",
+      "query": "gary sinise son",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cameron-johnson",
+      "query": "cameron johnson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ugo-humbert",
+      "query": "ugo humbert",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "science-fiction",
+      "query": "science fiction",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pete-davidson",
+      "query": "pete davidson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "evan-mobley",
+      "query": "evan mobley",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "megan-fox",
+      "query": "megan fox",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dji",
+      "query": "dji",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "toronto-raptors",
+      "query": "toronto raptors",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "violent-night-2",
+      "query": "violent night 2",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "joe-kennedy-iii",
+      "query": "joe kennedy iii",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alec-bohm",
+      "query": "alec bohm",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "north-texas-basketball",
+      "query": "north texas basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "oregon-basketball",
+      "query": "oregon basketball",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "robert-williams-iii",
+      "query": "robert williams iii",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "zoe-saldana",
+      "query": "zoe saldana",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "robert-noaker",
+      "query": "robert noaker",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "chase-young",
+      "query": "chase young",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nl-mvp",
+      "query": "nl mvp",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kyle-fletcher",
+      "query": "kyle fletcher",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alexandra-daddario",
+      "query": "alexandra daddario",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "roy-cohn",
+      "query": "roy cohn",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jennifer-aniston",
+      "query": "jennifer aniston",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "weather-los-angeles",
+      "query": "weather los angeles",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "john-hamm",
+      "query": "john hamm",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "lauren-mayfield-go-fund-me",
+      "query": "lauren mayfield go fund me",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "fall-out-boy-presale-code",
+      "query": "fall out boy presale code",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nfl-football-trade-deadline",
+      "query": "nfl football trade deadline",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jordan-firstman",
+      "query": "jordan firstman",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "whoopi-goldberg",
+      "query": "whoopi goldberg",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alix-small-cause-of-death",
+      "query": "alix small cause of death",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "immanuel-quickley",
+      "query": "immanuel quickley",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "desi-lydic",
+      "query": "desi lydic",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "stick-season-2",
+      "query": "stick season 2",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cutter-gauthier",
+      "query": "cutter gauthier",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "malevy-leons",
+      "query": "malevy leons",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pat-tillman",
+      "query": "pat tillman",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "caleb-williams-baker-mayfield-interaction",
+      "query": "caleb williams baker mayfield interaction",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "will-scharf",
+      "query": "will scharf",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "sidney-crosby",
+      "query": "sidney crosby",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cboe-volatility-index",
+      "query": "cboe volatility index",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "a24",
+      "query": "a24",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "dame-lillard",
+      "query": "dame lillard",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "high-surf-warning",
+      "query": "high surf warning",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "evansville-vs-kentucky",
+      "query": "evansville vs kentucky",
+      "state": "needs-research",
+      "queries": []
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "brooklyn-collapse",
+        "anthony-clark",
+        "rochelle-fleming",
+        "warriors-rockets",
+        "logan-circle-shooting",
+        "mark-mcguinn",
+        "cavaliers-knicks",
+        "spurs-bulls",
+        "lakers-bucks",
+        "frankie-muniz"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": "User requested this US CSV in complete batches of ten, continuing the established write-and-publish workflow. Existing 2,000-word, unique-image and source-verification rules retained.",
+      "state": "draft-written",
+      "validationFile": "batch-01-validation.json"
+    }
+  ]
+}

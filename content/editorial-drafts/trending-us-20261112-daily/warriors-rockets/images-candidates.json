@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Stephen Curry shooting.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Stephen_Curry_shooting.jpg/1280px-Stephen_Curry_shooting.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Stephen_Curry_shooting.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_shooting.jpg",
+    "creator": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Archive Stephen Curry basketball photograph; not an image of the November 11, 2026 game or early departure.",
+    "description": "Stephen Curry of Golden State Warriors",
+    "caption": "Archive Stephen Curry basketball photograph; not an image of the November 11, 2026 game or early departure.",
+    "width": 1748,
+    "height": 3029,
+    "bytes": 2908415,
+    "sha1": "7370d2fec2687091df94a5eb949b7d96409fd1a8",
+    "photographedAt": "2011-03-02 19:26",
+    "query": "Stephen Curry shooting",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Houston rockets mascot.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Houston_rockets_mascot.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Houston_rockets_mascot.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Houston_rockets_mascot.JPG",
+    "creator": "Pkantz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Archive illustration: Houston Rockets mascot Clutch the Bear entertains the crowd prior to an NBA basketball game between the Rockets and the Dallas Mavericks, Nov. 1, 2013, at the Toyota Center in Houston, Texas. Not a photograph of the November 11 game or current incident.",
+    "description": "Houston Rockets mascot Clutch the Bear entertains the crowd prior to an NBA basketball game between the Rockets and the Dallas Mavericks, Nov. 1, 2013, at the Toyota Center in Houston, Texas.",
+    "caption": "Archive illustration: Houston Rockets mascot Clutch the Bear entertains the crowd prior to an NBA basketball game between the Rockets and the Dallas Mavericks, Nov. 1, 2013, at the Toyota Center in Houston, Texas. Not a photograph of the November 11 game or current incident.",
+    "width": 859,
+    "height": 1301,
+    "bytes": 404905,
+    "sha1": "da631c052eb098327aa892c09eaabe3f7efbf7f9",
+    "photographedAt": "2013-11-01 19:17:35",
+    "query": "Toyota Center Houston basketball",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

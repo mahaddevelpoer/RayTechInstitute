@@ -1,0 +1,79 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 20375,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 511,
+  "results": [
+    {
+      "key": "brooklyn-collapse",
+      "slug": "brooklyn-building-collapse-november-12-2026-confirmed-updates",
+      "words": 2055,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "anthony-clark",
+      "slug": "anthony-clark-yes-dear-comedy-career-remembrance",
+      "words": 2026,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "rochelle-fleming",
+      "slug": "rochelle-fleming-first-choice-soul-disco-legacy",
+      "words": 2019,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "warriors-rockets",
+      "slug": "warriors-rockets-115-108-curry-november-11-2026",
+      "words": 2032,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "logan-circle-shooting",
+      "slug": "logan-circle-dc-shooting-november-12-2026-report",
+      "words": 2078,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mark-mcguinn",
+      "slug": "mark-mcguinn-mrs-steven-rudy-country-music-remembrance",
+      "words": 2022,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "cavaliers-knicks",
+      "slug": "cavaliers-knicks-115-107-harden-november-11-2026",
+      "words": 2033,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "spurs-bulls",
+      "slug": "spurs-bulls-124-119-wembanyama-november-11-2026",
+      "words": 2049,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "lakers-bucks",
+      "slug": "lakers-bucks-123-112-quarter-scores-november-11-2026",
+      "words": 2033,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "frankie-muniz",
+      "slug": "frankie-muniz-daytona-practice-crash-release-november-2026",
+      "words": 2028,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

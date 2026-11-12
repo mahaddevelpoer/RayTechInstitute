@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Washington DC neighborhood near Logan Circle.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/logan-circle-shooting-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Washington_DC_neighborhood_near_Logan_Circle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Washington_DC_neighborhood_near_Logan_Circle.jpg",
+    "creator": "Kurt Kaiser",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Archive illustration: neighborhood. Not a photograph of the November 11 game or current incident.",
+    "description": "neighborhood",
+    "caption": "Archive illustration: neighborhood. Not a photograph of the November 11 game or current incident.",
+    "width": 720,
+    "height": 960,
+    "bytes": 221796,
+    "sha1": "72ca95becdc050e339d155be63c2d54d6b69a24c",
+    "photographedAt": "11 July 2021 (according to Exif data)",
+    "query": "Logan Circle Washington DC",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:CBP supports D C Metropolitan Police patrols (54723338588).jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/logan-circle-shooting-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/CBP_supports_D_C_Metropolitan_Police_patrols_%2854723338588%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:CBP_supports_D_C_Metropolitan_Police_patrols_(54723338588).jpg",
+    "creator": "CBP Photography",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:CBP_supports_D_C_Metropolitan_Police_patrols_(54723338588).jpg",
+    "alt": "Archive law-enforcement photograph in Washington, D.C.; not a photograph of the November 12 Logan Circle incident.",
+    "description": "A Washington, D.C., Metropolitan Police Department vehicle leads the way as seen from a U.S. Border Patrol truck as federal law enforcement and D.C. Police embark on joint patrols in Washington, D.C., August 14, 2025. CBP Photo by Glenn Fawcett",
+    "caption": "Archive law-enforcement photograph in Washington, D.C.; not a photograph of the November 12 Logan Circle incident.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 67976,
+    "sha1": "a3a6927baa6ad8a6146a09372b035879152cdadd",
+    "photographedAt": "Taken on 14 August 2025, 20:34:39",
+    "query": "Metropolitan Police Department vehicle Washington DC",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]
