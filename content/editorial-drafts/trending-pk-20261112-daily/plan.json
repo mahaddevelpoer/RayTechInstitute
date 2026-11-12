@@ -1,0 +1,806 @@
+{
+  "date": "2026-11-12",
+  "sourceCsv": "trending_PK_1d_20261112-1417.csv",
+  "sourceSha256": "ad03a6b24bce5ba48418f2d130df484f99dead27cb8d54991ed66bab2ddacfa4",
+  "publicationAuthorized": true,
+  "priority": "New November 12 CSV plus earlier November 11 pending topics. No duplicate article per overlapping search. Publish only completed batches of ten.",
+  "batchSize": 10,
+  "minimumBodyWords": 2000,
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "bangladesh u-19 vs pakistan u-19",
+      "breakdown": "bangladesh u-19 vs pakistan u-19,u19 asia cup,under 19 asia cup,pak vs ban u19 live score today,pak vs ban u19 today match,bangladesh vs pakistan,pak vs ban,acc u-19 asia cup,paku19 vs ban u19,pak u19,u19 asia cup 2026,pak u 19 vs ban u19,pak vs ban u19 live,ban u19 vs pak u19,pak vs ban u19 live score,pakistan u-19 vs bangladesh u-19,pak vs bangladesh u19,pak vs sl test,pakistan vs bangladesh u19,pakistan u19 vs bangladesh u19,pak u19 vs bangladesh u19,pak vs ban under 19,pak vs ban u19 semi final,asia cup u19,pakistan vs bangladesh,pak vs ban u19 today match live,u19 pak vs ban,pakistan national under-19 cricket team vs bangladesh u-19 match scorecard,acc u-19 asia cup schedule,pak vs bng,pak u19 vs ban u19 live score,pak vs bang u19,u19 asia cup 2026 schedule,pak vs ban under 19 live score,ban vs pak u19,pak u19 vs,bangladesh u-19 vs pakistan national under-19 cricket team match scorecard,pak u19 vs ban,pak vs bng u19,paku19 vs banu19,pakistan u19,pak under 19,pak vs ban 19,u 19 asia cup 2026",
+      "state": "already-covered",
+      "slug": "pakistan-bangladesh-u19-asia-cup-semi-final-november-2026",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 2,
+      "query": "ind u19 vs afg u19",
+      "breakdown": "ind u19 vs afg u19,afghanistan u-19 vs india u-19,ind vs afg u19,afg u19 vs ind u19,ind vs afg u19 today match,u 19 asia cup,afg vs ind u19,u19,ind vs afg,india u19 vs afghanistan u19,indu19 vs afgu19,afg vs ind,ind u19,ind vs afg u19 today match live",
+      "state": "needs-research",
+      "group": "india-afghanistan-u19"
+    },
+    {
+      "row": 3,
+      "query": "veena malik",
+      "breakdown": "veena malik",
+      "state": "needs-research",
+      "group": "veena-malik"
+    },
+    {
+      "row": 4,
+      "query": "weather",
+      "breakdown": "weather",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 5,
+      "query": "weather today",
+      "breakdown": "weather today,weather update",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 6,
+      "query": "samsung galaxy s27 ultra",
+      "breakdown": "samsung galaxy s27 ultra",
+      "state": "already-covered",
+      "slug": "samsung-galaxy-s27-ultra-rumours-evidence-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 7,
+      "query": "saudi arabia",
+      "breakdown": "saudi arabia",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 8,
+      "query": "whatsapp android beta transparent navigation bar",
+      "breakdown": "whatsapp android beta transparent navigation bar",
+      "state": "needs-research",
+      "group": "whatsapp-android-navigation"
+    },
+    {
+      "row": 9,
+      "query": "pakistan vs sri lanka",
+      "breakdown": "pakistan vs sri lanka,pak vs bangladesh,pakistan vs sri lanka test,pak vs sl test match,pak vs sri live score today match,cricket pakistan vs sri lanka,dhananjaya de silva kusal mendis centuries",
+      "state": "needs-research",
+      "group": "pakistan-sri-lanka-test"
+    },
+    {
+      "row": 10,
+      "query": "always lalisa",
+      "breakdown": "always lalisa",
+      "state": "needs-research",
+      "group": "always-lalisa"
+    },
+    {
+      "row": 11,
+      "query": "electric comb for hair growth",
+      "breakdown": "electric comb for hair growth,detangle electric comb",
+      "state": "needs-research",
+      "group": "electric-comb"
+    },
+    {
+      "row": 12,
+      "query": "طلاق",
+      "breakdown": "طلاق",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 13,
+      "query": "sohail khan",
+      "breakdown": "sohail khan",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 14,
+      "query": "today weather",
+      "breakdown": "today weather",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 15,
+      "query": "school",
+      "breakdown": "school",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 16,
+      "query": "tax return",
+      "breakdown": "tax return",
+      "state": "needs-research",
+      "group": "fbr-atl-late-filers"
+    },
+    {
+      "row": 17,
+      "query": "weather tomorrow",
+      "breakdown": "weather tomorrow",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 18,
+      "query": "fbr form atl u late filers",
+      "breakdown": "fbr form atl u late filers",
+      "state": "needs-research",
+      "group": "fbr-atl-late-filers"
+    },
+    {
+      "row": 19,
+      "query": "ind u19 vs uae u19",
+      "breakdown": "ind u19 vs uae u19",
+      "state": "already-covered",
+      "slug": "india-uae-u19-2026-result-group-a-standings",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 20,
+      "query": "pubg",
+      "breakdown": "pubg",
+      "state": "already-covered",
+      "slug": "pubg-mobile-4-7-update-november-12-2026-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 21,
+      "query": "high speed diesel price cut",
+      "breakdown": "high speed diesel price cut",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 22,
+      "query": "lottery",
+      "breakdown": "lottery",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 23,
+      "query": "papua new guinea vs scotland",
+      "breakdown": "papua new guinea vs scotland",
+      "state": "needs-research",
+      "group": "png-scotland-women"
+    },
+    {
+      "row": 24,
+      "query": "hardik pandya",
+      "breakdown": "hardik pandya",
+      "state": "needs-research",
+      "group": "hardik-pandya"
+    },
+    {
+      "row": 25,
+      "query": "under 19 asia cup 2026",
+      "breakdown": "under 19 asia cup 2026",
+      "state": "already-covered",
+      "slug": "acc-u19-asia-cup-2026-pakistan-schedule-oman",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 26,
+      "query": "marvel vision quest",
+      "breakdown": "marvel vision quest",
+      "state": "needs-research",
+      "group": "visionquest-finale"
+    },
+    {
+      "row": 27,
+      "query": "stacy keach",
+      "breakdown": "stacy keach",
+      "state": "needs-research",
+      "group": "stacy-keach"
+    },
+    {
+      "row": 28,
+      "query": "kimberly powell",
+      "breakdown": "kimberly powell,whether,artificial intelligence",
+      "state": "needs-research",
+      "group": "kimberly-powell"
+    },
+    {
+      "row": 29,
+      "query": "weather forecast",
+      "breakdown": "weather forecast",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 30,
+      "query": "felix nmecha",
+      "breakdown": "felix nmecha",
+      "state": "needs-research",
+      "group": "felix-nmecha"
+    },
+    {
+      "row": 31,
+      "query": "aus vs eng",
+      "breakdown": "aus vs eng,eng vs aus",
+      "state": "needs-research",
+      "group": "australia-england"
+    },
+    {
+      "row": 32,
+      "query": "videos video",
+      "breakdown": "videos video",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 33,
+      "query": "joo",
+      "breakdown": "joo",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 34,
+      "query": "موسم",
+      "breakdown": "موسم",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 35,
+      "query": "petrol fuel prices",
+      "breakdown": "petrol fuel prices",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 36,
+      "query": "avengers endgame encore",
+      "breakdown": "avengers endgame encore,avengers doomsday",
+      "state": "needs-research",
+      "group": "endgame-encore"
+    },
+    {
+      "row": 37,
+      "query": "actor",
+      "breakdown": "actor",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 38,
+      "query": "merab dvalishvili",
+      "breakdown": "merab dvalishvili,usman nurmagomedov",
+      "state": "needs-research",
+      "group": "merab-dvalishvili"
+    },
+    {
+      "row": 39,
+      "query": "razaullah",
+      "breakdown": "razaullah",
+      "state": "needs-research",
+      "group": "razaullah"
+    },
+    {
+      "row": 40,
+      "query": "airline",
+      "breakdown": "airline",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 41,
+      "query": "rahmat shah icc test rankings",
+      "breakdown": "rahmat shah icc test rankings,icc men test player rankings,rahmat shah icc top 10 batter",
+      "state": "needs-research",
+      "group": "rahmat-shah-rankings"
+    },
+    {
+      "row": 42,
+      "query": "solar energy",
+      "breakdown": "solar energy",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 43,
+      "query": "rockstar games gta vi",
+      "breakdown": "rockstar games gta vi",
+      "state": "already-covered",
+      "slug": "gta-6-release-date-platforms-pakistan-buying-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 44,
+      "query": "gadi eisenkot",
+      "breakdown": "gadi eisenkot",
+      "state": "needs-research",
+      "group": "gadi-eisenkot"
+    },
+    {
+      "row": 45,
+      "query": "pubg mobile update",
+      "breakdown": "pubg mobile update,pubg update,pubg new update,pubg mobile new update",
+      "state": "already-covered",
+      "slug": "pubg-mobile-4-7-update-november-12-2026-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 46,
+      "query": "women's big bash league",
+      "breakdown": "women's big bash league",
+      "state": "needs-research",
+      "group": "womens-big-bash"
+    },
+    {
+      "row": 47,
+      "query": "kitco metals inc.",
+      "breakdown": "kitco metals inc.",
+      "state": "needs-research",
+      "group": "kitco-metals"
+    },
+    {
+      "row": 48,
+      "query": "grand theft auto",
+      "breakdown": "grand theft auto",
+      "state": "already-covered",
+      "slug": "gta-vi-official-release-information-safety-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 49,
+      "query": "dar-e-nijaat",
+      "breakdown": "dar-e-nijaat",
+      "state": "needs-research",
+      "group": "dar-e-nijaat"
+    },
+    {
+      "row": 50,
+      "query": "australia national cricket team",
+      "breakdown": "australia national cricket team",
+      "state": "needs-research",
+      "group": "australia-england"
+    },
+    {
+      "row": 51,
+      "query": "آبوهوا",
+      "breakdown": "آبوهوا",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 52,
+      "query": "anirudh ravichander",
+      "breakdown": "anirudh ravichander",
+      "state": "needs-research",
+      "group": "anirudh-ravichander"
+    },
+    {
+      "row": 53,
+      "query": "india national football team vs maldives national football team standings",
+      "breakdown": "india national football team vs maldives national football team standings",
+      "state": "already-covered",
+      "slug": "india-maldives-saff-2026-result-group-b-standings",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 54,
+      "query": "بارش",
+      "breakdown": "بارش",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 55,
+      "query": "currency",
+      "breakdown": "currency",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 56,
+      "query": "سلمان خان",
+      "breakdown": "سلمان خان",
+      "state": "needs-research",
+      "group": "salman-khan"
+    },
+    {
+      "row": 57,
+      "query": "لاہور",
+      "breakdown": "لاہور",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 58,
+      "query": "ऐश्वर्या राय बच्चन",
+      "breakdown": "ऐश्वर्या राय बच्चन",
+      "state": "needs-research",
+      "group": "aishwarya-rai"
+    },
+    {
+      "row": 59,
+      "query": "rain",
+      "breakdown": "rain",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 60,
+      "query": "petrol price",
+      "breakdown": "petrol price,petrol price reduction",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    },
+    {
+      "row": 61,
+      "query": "oppo reno 17 pro",
+      "breakdown": "oppo reno 17 pro",
+      "state": "already-covered",
+      "slug": "oppo-reno17-launch-november-2026-pakistan-time",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 62,
+      "query": "2027 coachella lineup",
+      "breakdown": "2027 coachella lineup",
+      "state": "needs-research",
+      "group": "coachella-2027"
+    },
+    {
+      "row": 63,
+      "query": "f",
+      "breakdown": "f",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 64,
+      "query": "samreen kaur",
+      "breakdown": "samreen kaur",
+      "state": "needs-research",
+      "group": "samreen-kaur"
+    },
+    {
+      "row": 65,
+      "query": "bayern munich",
+      "breakdown": "bayern munich",
+      "state": "already-covered",
+      "slug": "bayern-munich-history-campus-code-kick-student-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 66,
+      "query": "kse 100 index",
+      "breakdown": "kse 100 index",
+      "state": "needs-research",
+      "group": "kse-100"
+    },
+    {
+      "row": 67,
+      "query": "thatta cement fauji foundation agreement",
+      "breakdown": "thatta cement fauji foundation agreement",
+      "state": "needs-research",
+      "group": "thatta-cement"
+    },
+    {
+      "row": 68,
+      "query": "karachi weather",
+      "breakdown": "karachi weather",
+      "state": "needs-research",
+      "group": "karachi-weather"
+    },
+    {
+      "row": 69,
+      "query": "gta vi",
+      "breakdown": "gta vi,internet speed",
+      "state": "already-covered",
+      "slug": "gta-6-release-date-platforms-pakistan-buying-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 70,
+      "query": "ebenezer scrooge",
+      "breakdown": "ebenezer scrooge",
+      "state": "already-covered",
+      "slug": "ebenezer-scrooge-2026-film-christmas-carol-guide",
+      "reason": "Existing coverage matches the search intent; later developments require a targeted review, not a duplicate."
+    },
+    {
+      "row": 71,
+      "query": "وضعیت هوای فردا",
+      "breakdown": "وضعیت هوای فردا",
+      "state": "unclear-skipped",
+      "reason": "Generic or insufficiently identified search. No event or claim will be invented."
+    },
+    {
+      "row": 72,
+      "query": "پٹرولیم",
+      "breakdown": "پٹرولیم",
+      "state": "needs-research",
+      "group": "petrol-diesel-pakistan"
+    }
+  ],
+  "groups": [
+    {
+      "key": "india-afghanistan-u19",
+      "rows": [
+        2
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "veena-malik",
+      "rows": [
+        3
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "whatsapp-android-navigation",
+      "rows": [
+        8
+      ],
+      "state": "draft-written",
+      "title": "WhatsApp Android Floating Navigation Bar: Beta Rollout Explained",
+      "slug": "whatsapp-android-floating-navigation-bar-beta-november-2026"
+    },
+    {
+      "key": "pakistan-sri-lanka-test",
+      "rows": [
+        9
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "always-lalisa",
+      "rows": [
+        10
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "electric-comb",
+      "rows": [
+        11
+      ],
+      "state": "draft-written",
+      "title": "Detangle Electric Comb Study: Mouse Results, Human Evidence and Limits",
+      "slug": "detangle-electric-comb-hair-growth-mouse-study-explained"
+    },
+    {
+      "key": "fbr-atl-late-filers",
+      "rows": [
+        16,
+        18
+      ],
+      "state": "draft-written",
+      "title": "FBR Form ATL-U: Final Late-Filer Rules and the Six-Month Undertaking",
+      "slug": "fbr-form-atl-u-late-filers-six-month-undertaking-2026"
+    },
+    {
+      "key": "petrol-diesel-pakistan",
+      "rows": [
+        21,
+        35,
+        60,
+        72
+      ],
+      "state": "needs-research",
+      "earlierPendingGroup": "trending-pk-20261111-daily/petrol-diesel-pakistan"
+    },
+    {
+      "key": "png-scotland-women",
+      "rows": [
+        23
+      ],
+      "state": "draft-written",
+      "title": "PNG Women v Scotland Women: Seven-Wicket Result and Fraser’s All-Round Impact",
+      "slug": "png-scotland-women-result-katherine-fraser-november-2026"
+    },
+    {
+      "key": "hardik-pandya",
+      "rows": [
+        24
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "visionquest-finale",
+      "rows": [
+        26
+      ],
+      "state": "needs-research",
+      "earlierPendingGroup": "trending-pk-20261111-daily/visionquest-episode8"
+    },
+    {
+      "key": "stacy-keach",
+      "rows": [
+        27
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "kimberly-powell",
+      "rows": [
+        28
+      ],
+      "state": "draft-written",
+      "title": "Kimberly Powell at NVIDIA: Healthcare AI, Medical Imaging and Student Learning",
+      "slug": "kimberly-powell-nvidia-healthcare-ai-professional-profile"
+    },
+    {
+      "key": "felix-nmecha",
+      "rows": [
+        30
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "australia-england",
+      "rows": [
+        31,
+        50
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "endgame-encore",
+      "rows": [
+        36
+      ],
+      "state": "draft-written",
+      "title": "Avengers Endgame: Encore on Disney+: Release Date and Version Guide",
+      "slug": "avengers-endgame-encore-disney-plus-november-2026-guide"
+    },
+    {
+      "key": "merab-dvalishvili",
+      "rows": [
+        38
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "razaullah",
+      "rows": [
+        39
+      ],
+      "state": "draft-written",
+      "title": "Razaullah Profile: The Pakistan Pace Bowler and His Edgbaston Debut",
+      "slug": "razaullah-pakistan-pace-bowler-edgbaston-debut-profile"
+    },
+    {
+      "key": "rahmat-shah-rankings",
+      "rows": [
+        41
+      ],
+      "state": "draft-written",
+      "title": "Rahmat Shah Reaches Seventh in Test Rankings: The Milestone Explained",
+      "slug": "rahmat-shah-seventh-test-batting-rankings-november-2026"
+    },
+    {
+      "key": "gadi-eisenkot",
+      "rows": [
+        44
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "womens-big-bash",
+      "rows": [
+        46
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "kitco-metals",
+      "rows": [
+        47
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "dar-e-nijaat",
+      "rows": [
+        49
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "anirudh-ravichander",
+      "rows": [
+        52
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "salman-khan",
+      "rows": [
+        56
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "aishwarya-rai",
+      "rows": [
+        58
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "coachella-2027",
+      "rows": [
+        62
+      ],
+      "state": "draft-written",
+      "title": "Coachella 2027: Headliners, Two Weekend Dates and Practical Planning",
+      "slug": "coachella-2027-lineup-dates-passes-viewing-guide"
+    },
+    {
+      "key": "samreen-kaur",
+      "rows": [
+        64
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "kse-100",
+      "rows": [
+        66
+      ],
+      "state": "needs-research"
+    },
+    {
+      "key": "thatta-cement",
+      "rows": [
+        67
+      ],
+      "state": "draft-written",
+      "title": "Thatta Cement and Fauji Foundation: What the PSL Agreement Actually Says",
+      "slug": "thatta-cement-fauji-foundation-pakistan-services-agreement-2026"
+    },
+    {
+      "key": "karachi-weather",
+      "rows": [
+        68
+      ],
+      "state": "needs-research"
+    }
+  ],
+  "oldQueueSnapshot": [
+    {
+      "path": "content/editorial-drafts/trending-pk-20261111-daily/plan.json",
+      "sha256": "41739d0a6b02999f0a480c9de4b78d9a0bd53ff7e5be785e2e398e1c1e5dfd30"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261111-daily/STATUS.md",
+      "sha256": "2422a886e08f6ed9b16c9329b5b2ddee5f8a193a487faee25cc8d85d0f50c956"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "whatsapp-android-navigation",
+        "kimberly-powell",
+        "rahmat-shah-rankings",
+        "razaullah",
+        "coachella-2027",
+        "thatta-cement",
+        "electric-comb",
+        "fbr-atl-late-filers",
+        "png-scotland-women",
+        "endgame-encore"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": "User supplied November 12 CSV and explicitly requested ten complete articles together, then publication.",
+      "state": "draft-written",
+      "validationFile": "batch-01-validation.json"
+    }
+  ],
+  "state": "batch-01-research-in-progress"
+}

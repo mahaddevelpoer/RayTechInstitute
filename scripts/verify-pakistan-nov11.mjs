@@ -3,16 +3,17 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
 import {hasPrivateCredential} from './private-credential-patterns.mjs';
-const root='content/editorial-drafts/trending-pk-20261111-daily',read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+import {editorialRoot as root, editorialArtifacts, editorialInputRows} from './editorial-daily-queue.mjs';
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const plan=read(root+'/plan.json');
 const batchNumber=Number(process.argv.find(arg=>arg.startsWith('--batch-number='))?.slice(15)||'1');
 const batch=plan.releaseBatches.find(entry=>entry.number===batchNumber);
 assert.ok(batch?.explicitUserAuthorization,'An authorised batch is required');
 const selection=new Set(batch.keys);
-const existing=read('artifacts/pakistan-nov11/'+(batchNumber===1?'published-index.json':`published-index-batch-${batchNumber}.json`));
+const existing=read(editorialArtifacts+'/'+(batchNumber===1?'published-index.json':`published-index-batch-${batchNumber}.json`));
 const oldSlugs=new Set(existing.map(p=>p.slug)),oldIds=new Set(existing.map(p=>p.id));
 const prepared=plan.groups.filter(g=>selection.has(g.key)&&g.slug&&fs.existsSync(root+'/'+g.key+'/images.json'));const slugs=new Set(prepared.map(g=>g.slug)),imagesUsed=new Set(),results=[];
-assert.equal(slugs.size,prepared.length);assert.equal(plan.rowDisposition.length,70);assert.equal(prepared.length,batch.expectedSize);assert.equal(new Set(plan.groups.map(g=>g.key)).size,plan.groups.length);
+assert.equal(slugs.size,prepared.length);assert.equal(plan.rowDisposition.length,editorialInputRows);assert.equal(prepared.length,batch.expectedSize);assert.equal(new Set(plan.groups.map(g=>g.key)).size,plan.groups.length);
 for(const d of fs.readdirSync('content/editorial-drafts')){
  const dir='content/editorial-drafts/'+d;
  for(const name of fs.readdirSync(dir)){if(dir===root&&selection.has(name))continue;const p=dir+'/'+name+'/images.json';if(fs.existsSync(p))for(const i of read(p))imagesUsed.add(i.sha1);}

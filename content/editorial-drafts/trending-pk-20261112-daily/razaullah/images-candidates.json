@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Edgbaston Stadium August 2023.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Edgbaston_Stadium_August_2023.jpg/1280px-Edgbaston_Stadium_August_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Edgbaston_Stadium_August_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Edgbaston_Stadium_August_2023.jpg",
+    "creator": "Asheiou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Edgbaston stadium exterior in August 2023",
+    "description": "Exterior of Edgbaston stadium taken during Animeleague Birmingham in August 2023.",
+    "caption": "Archive venue context: Edgbaston in 2023, not a photograph of Razaullah’s debut.",
+    "width": 4080,
+    "height": 3072,
+    "bytes": 3140564,
+    "sha1": "38dfd2dd8ebfeb9da3a067cfdae207783a3d3a53",
+    "photographedAt": "2023-08-27 10:58:45",
+    "query": "intitle:Edgbaston intitle:stadium",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Edgbaston Stadium, 2009 Ashes.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Edgbaston_Stadium%2C_2009_Ashes.jpg/1280px-Edgbaston_Stadium%2C_2009_Ashes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Edgbaston_Stadium%2C_2009_Ashes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Edgbaston_Stadium,_2009_Ashes.jpg",
+    "creator": "nic_r",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Archive exterior view of Edgbaston stadium",
+    "description": "5th Day, 3rd Test: England v Australia, Edgbaston, 3rd August 2009",
+    "caption": "Archive Edgbaston venue photograph. It is not a photograph of Razaullah or the September 2026 debut.",
+    "width": 2136,
+    "height": 2056,
+    "bytes": 3469362,
+    "sha1": "509022fd6ddc15aca126e0d2e8ee3e9d7b30dcf6",
+    "photographedAt": "2009-08-03 16:23:53",
+    "query": "intitle:Edgbaston intitle:stadium",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "inline"
+  }
+]

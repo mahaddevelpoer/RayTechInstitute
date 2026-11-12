@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Pearl Continental Hotel, Karachi.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/thatta-cement-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pearl_Continental_Hotel%2C_Karachi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Pearl_Continental_Hotel,_Karachi.jpg",
+    "creator": "Zainub Razvi from Pakistan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Exterior of the Pearl Continental Hotel in Karachi",
+    "description": "Pearl Continental Hotel, Karachi",
+    "caption": "Hotel-business context: Pearl Continental Karachi. The image does not establish completion of the proposed restructuring.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 102816,
+    "sha1": "ef818488559bf7179abb5dfc55cbdd3ba937e6fb",
+    "photographedAt": "2007-04-28 21:01",
+    "query": "intitle:Pearl intitle:Continental intitle:Karachi",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Cement plant - geograph.org.uk - 2645756.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/thatta-cement-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cement_plant_-_geograph.org.uk_-_2645756.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Cement_plant_-_geograph.org.uk_-_2645756.jpg",
+    "creator": "Cement plant by James Allan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "A cement plant illustrating the industrial-sector context",
+    "description": "Cement plant",
+    "caption": "Illustrative cement plant from the UK image archive. It is not Thatta Cement’s facility or an asset identified in the restructuring notice.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 104894,
+    "sha1": "98d9bef9f12a5cab68d3e826fbcbf0e3c180223a",
+    "photographedAt": "2011-10-07",
+    "query": "intitle:cement intitle:plant",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

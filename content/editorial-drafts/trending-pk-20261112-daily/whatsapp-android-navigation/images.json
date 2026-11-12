@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:WhatsApp chatting.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/whatsapp-android-navigation-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/WhatsApp_chatting.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:WhatsApp_chatting.jpg",
+    "creator": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A phone displaying a WhatsApp conversation",
+    "description": "Messaging with WhatsApp.",
+    "caption": "Illustrative WhatsApp photograph. It does not show the November 2026 floating-navigation beta.",
+    "width": 774,
+    "height": 960,
+    "bytes": 70880,
+    "sha1": "6202c7d08f1955f0b3af750e00210801ad2422d5",
+    "photographedAt": "2016-08-20 20:01:49",
+    "query": "intitle:WhatsApp -intitle:Windows -intitle:logo -intitle:icon",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Android Smartphones.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/whatsapp-android-navigation-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Android_Smartphones.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Android_Smartphones.jpg",
+    "creator": "Android Open Source project",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "alt": "Android smartphones used to illustrate app and system navigation",
+    "description": "Smartphones with Android operating system",
+    "caption": "Archive Android devices illustrating platform context, not a demonstration of the new WhatsApp test.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 212884,
+    "sha1": "b51953c5fc61015d539cdf7ada8ffa58586cc3d9",
+    "photographedAt": "2017-11-30",
+    "query": "intitle:Android intitle:smartphone",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "inline"
+  }
+]

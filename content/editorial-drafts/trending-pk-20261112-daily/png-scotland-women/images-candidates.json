@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Grange Cricket Ground - geograph.org.uk - 3452154.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Grange_Cricket_Ground_-_geograph.org.uk_-_3452154.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Grange_Cricket_Ground_-_geograph.org.uk_-_3452154.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Grange_Cricket_Ground_-_geograph.org.uk_-_3452154.jpg",
+    "creator": "Grange Cricket Ground by kim traynor",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "The Grange cricket ground in Scotland",
+    "description": "Grange Cricket Ground",
+    "caption": "Archive Scottish cricket context. This is not the Ajman venue or a photograph of the 12 November match.",
+    "width": 640,
+    "height": 462,
+    "bytes": 53110,
+    "sha1": "0c21312132c9dc43e768a89ce4dc6e35f4ddc7f6",
+    "photographedAt": "2013-05-04",
+    "query": "intitle:Grange intitle:cricket",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Kookaburra Gold Crown A Cricket ball.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Kookaburra_Gold_Crown_A_Cricket_ball.jpg/1280px-Kookaburra_Gold_Crown_A_Cricket_ball.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Kookaburra_Gold_Crown_A_Cricket_ball.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Kookaburra_Gold_Crown_A_Cricket_ball.jpg",
+    "creator": "WhiteTailedEagle",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "A cricket ball illustrating the match-score explainer",
+    "description": "Cricket ball",
+    "caption": "Illustrative cricket equipment, not a photograph of the ball used in the PNG–Scotland match.",
+    "width": 1800,
+    "height": 4000,
+    "bytes": 2604485,
+    "sha1": "b295d75bc92a35e431b00ccee2af62b1290097d9",
+    "photographedAt": "2025-05-10 10:52:35",
+    "query": "intitle:Cricket intitle:ball -intitle:Cricketer",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "inline"
+  }
+]

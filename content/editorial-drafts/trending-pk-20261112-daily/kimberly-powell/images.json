@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:MRI Scanner.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/kimberly-powell-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/MRI_Scanner.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:MRI_Scanner.jpg",
+    "creator": "Lizadeborah03",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "An MRI scanner at King Faisal hospital",
+    "description": "MRI Scanner at King Faisal hospital",
+    "caption": "Illustrative medical-imaging equipment. It is not evidence of a particular NVIDIA installation or clinical outcome.",
+    "width": 720,
+    "height": 960,
+    "bytes": 42324,
+    "sha1": "3e23afefce28315d7cbdbb845654b3f00347689c",
+    "photographedAt": "2021-04-06",
+    "query": "intitle:MRI intitle:scanner",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:NVIDIA GPU.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/kimberly-powell-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/NVIDIA_GPU.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU.jpg",
+    "creator": "Mickael Courtiade",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "An NVIDIA graphics processor photographed for computing context",
+    "description": "NVIDIA GPU",
+    "caption": "Illustrative GPU hardware. It is not a photograph of Powell or a benchmark of current healthcare systems.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 283830,
+    "sha1": "6d95d7089f77ac6d62cabc3ccdba1859703c61cd",
+    "photographedAt": "2023-02-10 23:55:21",
+    "query": "intitle:NVIDIA intitle:GPU",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "inline"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "fileTitle": "File:Rahmat Shah.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Rahmat_Shah.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Rahmat_Shah.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Rahmat_Shah.jpg",
+    "creator": "Afghanistan Cricket Board",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Shah celebrating his hundred vs Ireland in 2021.",
+    "width": 395,
+    "height": 436,
+    "bytes": 146689,
+    "sha1": "63518f5f3409ebf88e8fdfe782d4912a6db0d702",
+    "photographedAt": "2021-02-09",
+    "role": "cover",
+    "alt": "Archive portrait of Afghanistan cricketer Rahmat Shah",
+    "caption": "Archive portrait of Rahmat Shah, not a photograph from the November 2026 Sharjah innings.",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review"
+  },
+  {
+    "fileTitle": "File:Victorious Slazenger Cricket Ball.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Victorious_Slazenger_Cricket_Ball.jpg/1280px-Victorious_Slazenger_Cricket_Ball.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Victorious_Slazenger_Cricket_Ball.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Victorious_Slazenger_Cricket_Ball.jpg",
+    "creator": "WhiteTailedEagle",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "A cricket ball illustrating the Test-cricket explainer",
+    "description": "Cricket ball",
+    "caption": "Illustrative cricket equipment, not the ball used in Rahmat’s innings.",
+    "width": 1800,
+    "height": 4000,
+    "bytes": 2322781,
+    "sha1": "57ffd5cf02802061562a69d3b831d0eb62cd048c",
+    "photographedAt": "2025-05-21 21:17:50",
+    "query": "intitle:Cricket intitle:ball -intitle:Cricketer",
+    "reviewState": "metadata-reviewed-awaiting-final-visual-review",
+    "role": "inline"
+  }
+]
