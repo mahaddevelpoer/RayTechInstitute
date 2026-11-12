@@ -1,6 +1,6 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2016,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-12",
@@ -9,5 +9,9 @@
     "artifacts/us-nov12/batch02-visual-1.png",
     "artifacts/us-nov12/batch02-visual-2.png"
   ],
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/when-does-stock-market-open-nyse-hours-pakistan-time-2026/",
+  "liveVerifiedAt": "2026-11-12T17:07:35.692Z",
+  "releaseRevision": "d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806",
+  "workflowRun": "43264312677"
 }

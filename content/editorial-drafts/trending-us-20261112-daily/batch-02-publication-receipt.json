@@ -1,0 +1,23 @@
+{
+  "state": "published-live-verified",
+  "inserted": 10,
+  "verified": 10,
+  "existingArticlesPreserved": 521,
+  "articles": [
+    "rex-ryan-nashville-police-announcement-nfl-career-2026",
+    "celtics-raptors-98-93-tatum-scoring-november-11-2026",
+    "ayesha-curry-second-chance-holiday-film-public-response-2026",
+    "social-security-trust-fund-depletion-2032-2026-report-explained",
+    "nuggets-grizzlies-123-118-murray-november-11-2026",
+    "mandalorian-and-grogu-2026-film-streaming-viewing-guide",
+    "isabelle-huppert-cannes-career-performance-guide",
+    "lisa-su-amd-engineering-career-computing-guide",
+    "when-does-stock-market-open-nyse-hours-pakistan-time-2026",
+    "supreme-court-united-states-cases-opinions-student-guide"
+  ],
+  "sourceRevision": "d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806",
+  "workflowRun": "43264312677",
+  "liveVerification": "batch-02-live-verification.json",
+  "workflowEvidence": "batch-02-workflow-result.json",
+  "allCurrentUsArticlesVerified": 20
+}

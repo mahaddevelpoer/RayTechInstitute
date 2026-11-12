@@ -1,0 +1,351 @@
+{
+  "checkedAt": "2026-11-12T17:07:35.692Z",
+  "expectedRevision": "d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-12T17:00:01.887Z",
+    "revision": "d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 642,
+    "sitemapSha256": "273bae3ad46b2ea08afbabcd69568e1c403fdd1cdb8ee138b7a2eb0e8199ef67",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43264312677"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "rex-ryan",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/rex-ryan-nashville-police-announcement-nfl-career-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/rex-ryan-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/rex-ryan-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "celtics-vs-raptors",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/celtics-raptors-98-93-tatum-scoring-november-11-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/celtics-vs-raptors-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/celtics-vs-raptors-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ayesha-curry",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/ayesha-curry-second-chance-holiday-film-public-response-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/ayesha-curry-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/ayesha-curry-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "social-security-trust-fund-depletion-2032",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/social-security-trust-fund-depletion-2032-2026-report-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/social-security-trust-fund-depletion-2032-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/social-security-trust-fund-depletion-2032-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "nuggets-vs-grizzlies",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/nuggets-grizzlies-123-118-murray-november-11-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/nuggets-vs-grizzlies-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/nuggets-vs-grizzlies-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "mandalorian",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/mandalorian-and-grogu-2026-film-streaming-viewing-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/mandalorian-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/mandalorian-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "isabelle-huppert",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/isabelle-huppert-cannes-career-performance-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/isabelle-huppert-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/isabelle-huppert-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "when-does-the-stock-market-open",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/when-does-stock-market-open-nyse-hours-pakistan-time-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/when-does-the-stock-market-open-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/when-does-the-stock-market-open-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "lisa-su",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/lisa-su-amd-engineering-career-computing-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/lisa-su-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/lisa-su-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "supreme-court-of-the-united-states",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/supreme-court-united-states-cases-opinions-student-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/supreme-court-of-the-united-states-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/supreme-court-of-the-united-states-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

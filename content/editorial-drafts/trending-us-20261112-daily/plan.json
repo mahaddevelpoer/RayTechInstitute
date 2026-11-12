@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-02-local-verified-awaiting-publication",
+  "state": "batch-02-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
@@ -91,8 +91,9 @@
       "query": "rex ryan",
       "breakdown": "rex ryan,rex ryan arrested,rex ryan arrest,former nfl coach rex ryan,coach rex ryan",
       "volume": "100k+",
-      "state": "needs-research",
-      "group": "rex-ryan"
+      "state": "published-live-verified",
+      "group": "rex-ryan",
+      "slug": "rex-ryan-nashville-police-announcement-nfl-career-2026"
     },
     {
       "row": 10,
@@ -152,8 +153,9 @@
       "query": "celtics vs raptors",
       "breakdown": "celtics vs raptors,boston celtics vs toronto raptors match player stats,is paul george playing today,celtics - raptors,celtics vs raptors where to watch,raptors vs celtics,celtics raptors",
       "volume": "100k+",
-      "state": "needs-research",
-      "group": "celtics-vs-raptors"
+      "state": "published-live-verified",
+      "group": "celtics-vs-raptors",
+      "slug": "celtics-raptors-98-93-tatum-scoring-november-11-2026"
     },
     {
       "row": 17,
@@ -192,8 +194,9 @@
       "query": "ayesha curry",
       "breakdown": "ayesha curry,gilbert arenas,second chance holiday,ayesha curry kissing scene,nick young,steph curry wife,gilbert arenas ayesha curry,matthew daddario",
       "volume": "50k+",
-      "state": "needs-research",
-      "group": "ayesha-curry"
+      "state": "published-live-verified",
+      "group": "ayesha-curry",
+      "slug": "ayesha-curry-second-chance-holiday-film-public-response-2026"
     },
     {
       "row": 22,
@@ -216,16 +219,18 @@
       "query": "social security trust fund depletion 2032",
       "breakdown": "social security trust fund depletion 2032,social security gdp link aarp,payroll",
       "volume": "10k+",
-      "state": "needs-research",
-      "group": "social-security-trust-fund-depletion-2032"
+      "state": "published-live-verified",
+      "group": "social-security-trust-fund-depletion-2032",
+      "slug": "social-security-trust-fund-depletion-2032-2026-report-explained"
     },
     {
       "row": 25,
       "query": "nuggets vs grizzlies",
       "breakdown": "nuggets vs grizzlies,nuggets,jamal murray,denver nuggets,denver nuggets vs memphis grizzlies match player stats,nikola jokić,denver nuggets vs memphis grizzlies timeline,nuggets game",
       "volume": "50k+",
-      "state": "needs-research",
-      "group": "nuggets-vs-grizzlies"
+      "state": "published-live-verified",
+      "group": "nuggets-vs-grizzlies",
+      "slug": "nuggets-grizzlies-123-118-murray-november-11-2026"
     },
     {
       "row": 26,
@@ -248,16 +253,18 @@
       "query": "mandalorian",
       "breakdown": "mandalorian",
       "volume": "10k+",
-      "state": "needs-research",
-      "group": "mandalorian"
+      "state": "published-live-verified",
+      "group": "mandalorian",
+      "slug": "mandalorian-and-grogu-2026-film-streaming-viewing-guide"
     },
     {
       "row": 29,
       "query": "isabelle huppert",
       "breakdown": "isabelle huppert",
       "volume": "10k+",
-      "state": "needs-research",
-      "group": "isabelle-huppert"
+      "state": "published-live-verified",
+      "group": "isabelle-huppert",
+      "slug": "isabelle-huppert-cannes-career-performance-guide"
     },
     {
       "row": 30,
@@ -367,8 +374,9 @@
       "query": "lisa su",
       "breakdown": "lisa su",
       "volume": "5k+",
-      "state": "needs-research",
-      "group": "lisa-su"
+      "state": "published-live-verified",
+      "group": "lisa-su",
+      "slug": "lisa-su-amd-engineering-career-computing-guide"
     },
     {
       "row": 44,
@@ -423,16 +431,18 @@
       "query": "when does the stock market open",
       "breakdown": "when does the stock market open,when does stock market open,what time does the stock market open,what time does stock market open,what time does the market open,costco open on veterans day,was the stock market open today",
       "volume": "5k+",
-      "state": "needs-research",
-      "group": "when-does-the-stock-market-open"
+      "state": "published-live-verified",
+      "group": "when-does-the-stock-market-open",
+      "slug": "when-does-stock-market-open-nyse-hours-pakistan-time-2026"
     },
     {
       "row": 51,
       "query": "supreme court of the united states",
       "breakdown": "supreme court of the united states",
       "volume": "2k+",
-      "state": "needs-research",
-      "group": "supreme-court-of-the-united-states"
+      "state": "published-live-verified",
+      "group": "supreme-court-of-the-united-states",
+      "slug": "supreme-court-united-states-cases-opinions-student-guide"
     },
     {
       "row": 52,
@@ -3663,7 +3673,7 @@
     {
       "key": "rex-ryan",
       "query": "rex ryan",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Rex Ryan",
         "Nashville Broadway street"
@@ -3735,7 +3745,7 @@
     {
       "key": "celtics-vs-raptors",
       "query": "celtics vs raptors",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Jayson Tatum basketball",
         "Scotiabank Arena basketball"
@@ -3770,7 +3780,7 @@
     {
       "key": "ayesha-curry",
       "query": "ayesha curry",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Ayesha Curry",
         "film camera cinema"
@@ -3793,7 +3803,7 @@
     {
       "key": "social-security-trust-fund-depletion-2032",
       "query": "social security trust fund depletion 2032",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Social Security Administration building",
         "United States Treasury building"
@@ -3804,7 +3814,7 @@
     {
       "key": "nuggets-vs-grizzlies",
       "query": "nuggets vs grizzlies",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Jamal Murray basketball",
         "FedExForum basketball"
@@ -3827,7 +3837,7 @@
     {
       "key": "mandalorian",
       "query": "mandalorian",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Pedro Pascal",
         "Mandalorian costume"
@@ -3838,7 +3848,7 @@
     {
       "key": "isabelle-huppert",
       "query": "isabelle huppert",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Isabelle Huppert Cannes",
         "Isabelle Huppert actress"
@@ -3921,7 +3931,7 @@
     {
       "key": "lisa-su",
       "query": "lisa su",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Lisa Su AMD",
         "AMD Ryzen processor"
@@ -3968,7 +3978,7 @@
     {
       "key": "when-does-the-stock-market-open",
       "query": "when does the stock market open",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "New York Stock Exchange building",
         "Wall Street clock"
@@ -3979,7 +3989,7 @@
     {
       "key": "supreme-court-of-the-united-states",
       "query": "supreme court of the united states",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "United States Supreme Court building",
         "Supreme Court courtroom"
@@ -6283,8 +6293,11 @@
       ],
       "expectedSize": 10,
       "explicitUserAuthorization": "Current continue instruction and standing approval: manually write and verify ten complete US CSV articles before publishing together. No external drafting helper or subagents.",
-      "state": "local-verified-unpublished",
-      "validationFile": "batch-02-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-02-validation.json",
+      "revision": "d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806",
+      "workflowRun": "43264312677",
+      "liveVerifiedAt": "2026-11-12T17:07:35.692Z"
     }
   ]
 }

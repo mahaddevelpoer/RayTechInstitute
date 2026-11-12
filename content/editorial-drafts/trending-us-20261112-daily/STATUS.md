@@ -3,17 +3,11 @@
 This daily CSV is active; earlier pending queues remain tracked separately and unchanged by this release.
 
 - Input: 448 rows.
-- 10 new articles are published and live verified, covering 14 input rows.
+- 20 new articles are published and live verified, covering 24 input rows.
 - Batch 1: 10 article(s), 20,375 body words, 420 tags and 20 distinct licensed images.
+- Batch 2: 10 article(s), 20,213 body words, 420 tags and 20 distinct licensed images.
 - 1 input rows already have relevant published articles.
 - 19 generic rows are skipped for insufficient context.
-- 414 topic groups remain incomplete, subject to further research.
-- Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed. Latest workflow: 43251099699.
+- 404 topic groups remain incomplete, subject to further research.
+- Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed. Latest workflow: 43264312677.
 - See batch evidence files and NEXT-RESEARCH.md.
-
-## Second batch in progress
-
-- All ten articles are written and locally verified, including Rex Ryan, Celtics/Raptors, Ayesha Curry, Nuggets/Grizzlies and Isabelle Huppert.
-- The complete second batch contains 20,213 body words, twenty distinct licensed images and 420 tags. Each article is above 2,000 body words.
-- No second-batch production writes, push or deployment have occurred. The live total remains ten articles from this US CSV.
-- See batch-02-research.md and batch-02-validation.json. The earlier batch-02-progress-validation.json is a historical partial checkpoint.

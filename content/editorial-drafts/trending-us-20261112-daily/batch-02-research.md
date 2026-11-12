@@ -81,3 +81,7 @@ No death, new award or specific cause for current search interest has been verif
 Keep the first ten published articles and prior PK queue unchanged. Baseline is 521 published records in `artifacts/us-nov12/published-index-batch-2.json`. The full validator with `--batch-number=2` has passed. Perform publication dry run and readback, then dispatch one release. Verify exact live revision, metadata, images, sitemap and listing before recording published status. Do not mistake the historical partial progress report for the full validator's batch-02-validation.json.
 
 The local full-record snapshot hit the original helper's 20-second timeout at 500 records per page. A one-record authenticated request succeeded. A local-only copy of the publication helper reduces the snapshot page size to 50 while retaining complete pagination, exact insert checks, full readback and preservation comparisons. No production API, timeout policy or public website feature was changed for this workaround.
+
+## Completed release
+
+All ten articles were saved and read back with 521 existing records preserved. Deployment 43264312677 succeeded for source d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806. Exact-revision live checks passed for all twenty US articles, including both image files, metadata, listing and sitemap. Batch-specific proof is recorded alongside this file.
