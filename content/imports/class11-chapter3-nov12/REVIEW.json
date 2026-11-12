@@ -1,5 +1,5 @@
 {
-  "state": "prepared-unpublished",
+  "state": "published-live-verified",
   "chapter": 3,
   "title": "Algorithms and Problem Solving",
   "questions": 80,
@@ -16,5 +16,8 @@
   "sourceDocx": "Raytech_Class11_Computer_Chapter3_Study_Guide.docx",
   "sourceDocxSha256": "c2930850e9779b4f69b4df0acbb12d4f07b51d6ccba88145c538d2d3c40bda06",
   "pdf": "public/documents/class11/nov12/chapter-3.pdf",
-  "pdfUnchanged": true
+  "pdfUnchanged": true,
+  "liveRevision": "044b354dd31c15530ee0aadd8966910144f43d43",
+  "workflow": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43235549983",
+  "liveVerifiedAt": "2026-11-12T14:22:46.160Z"
 }

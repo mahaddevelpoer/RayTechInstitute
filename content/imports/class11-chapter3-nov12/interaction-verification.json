@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-12T14:23:01.509Z",
+  "results": [
+    {
+      "chapter": 3,
+      "topic": "3.1 Computational Problems",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.2 Generate-and-Test Method",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.3 Solvability and Tractability",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.4 Algorithm Analysis",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.5 Algorithm Design Techniques",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.6 Sorting Algorithms",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.6 Searching Algorithms",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 3,
+      "topic": "3.6 Graph Traversal (BFS and DFS)",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    }
+  ],
+  "unhandledErrors": []
+}
