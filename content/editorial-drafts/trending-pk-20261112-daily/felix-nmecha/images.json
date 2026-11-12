@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Felix Nmecha Ecuador v Germany 25 June 2026-172.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/felix-nmecha-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Felix_Nmecha_Ecuador_v_Germany_25_June_2026-172.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Felix_Nmecha_Ecuador_v_Germany_25_June_2026-172.jpg",
+    "creator": "Bryan Berlin / WikiPortraits",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Felix Nmecha during Ecuador versus Germany in June 2026",
+    "description": "Felix Nmecha during Ecuador v Germany on 25 June 2026 at the 2026 FIFA World Cup",
+    "caption": "Archive June 2026 football photograph. It does not depict the November celebration discussed in the article.",
+    "width": 640,
+    "height": 960,
+    "bytes": 54316,
+    "sha1": "217f49210ffae55e61ad7c6241c472c48a1a8de0",
+    "photographedAt": "2026-06-25 17:06:53",
+    "query": "intitle:Felix intitle:Nmecha",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Leeres Westfalenstadion.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/felix-nmecha-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Leeres_Westfalenstadion.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Leeres_Westfalenstadion.jpg",
+    "creator": "Tbachner at German Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leeres_Westfalenstadion.jpg",
+    "alt": "An empty Westfalenstadion in Dortmund",
+    "description": "Bildbeschreibung: Westfalenstadion Nord- und Osttribüne Fotograf/Zeichner: Thorsten Bachner Datum: 21.3.2006 Rheien: 100",
+    "caption": "Archive Dortmund venue context, not a photograph of a specific November fixture.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 229158,
+    "sha1": "6ede364ee0e3800ce76ec53d278dea2fa1172af3",
+    "photographedAt": "22 March 2006 (original upload date)",
+    "query": "intitle:Westfalenstadion",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

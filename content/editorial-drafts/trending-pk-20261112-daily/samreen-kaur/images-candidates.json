@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Wellington Waterfront 11.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Wellington_Waterfront_11.jpg/1280px-Wellington_Waterfront_11.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wellington_Waterfront_11.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Wellington_Waterfront_11.jpg",
+    "creator": "Panamitsu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Wellington waterfront in New Zealand",
+    "description": "Wellington Waterfront in May 2026",
+    "caption": "Illustrative New Zealand location context. This is not identified as the proposal site and does not show the couple.",
+    "width": 4000,
+    "height": 3000,
+    "bytes": 4176204,
+    "sha1": "a09b32284fbc84ce16dcbe6b3bff6832b137b597",
+    "photographedAt": "2026-05-01 14:35:18",
+    "query": "intitle:Wellington intitle:waterfront",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Vintage diamond engagement ring.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vintage_diamond_engagement_ring.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vintage_diamond_engagement_ring.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Vintage_diamond_engagement_ring.jpg",
+    "creator": "CatherineLewis1976",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A vintage diamond engagement ring",
+    "description": "A D color antique diamond, set in handcrafted platinum, and accented by two side diamonds. This ring was handcrafted circa 1920 and is part of the Estate Diamond Jewelry Collection located at https://www.estatediamondjewelry.com",
+    "caption": "Illustrative ring, not Samreen Kaur’s ring or evidence of its design, brand or value.",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 179687,
+    "sha1": "6e1b2e1331efdbcf159bd2582ddec6e8f1d3cafa",
+    "photographedAt": "2019-07-15",
+    "query": "intitle:engagement intitle:ring",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

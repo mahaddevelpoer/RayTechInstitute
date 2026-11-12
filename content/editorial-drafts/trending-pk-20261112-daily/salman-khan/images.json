@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Kabbir khan with Salman khan.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/salman-khan-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Kabbir_khan_with_Salman_khan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Kabbir_khan_with_Salman_khan.jpg",
+    "creator": "Xxhanxxx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Kabir Khan and actor Salman Khan in an archive photograph",
+    "description": "Kabbir khan and Salman khan together Bollywood actors",
+    "caption": "Archive photograph of the actor with Kabir Khan. It is not a frame from the disputed viral clip.",
+    "width": 540,
+    "height": 960,
+    "bytes": 14990,
+    "sha1": "64c5990b1b674681639eba32cc8c12f6382ff1be",
+    "photographedAt": "2021-08-23",
+    "query": "intitle:Salman intitle:Khan -intitle:Academy",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Mahesh Bhatt with Salim Khan and Salman Khan at an event.png",
+    "url": "/images/editorial/trending-pk-20261112-daily/salman-khan-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Mahesh_Bhatt_with_Salim_Khan_and_Salman_Khan_at_an_event.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Mahesh_Bhatt_with_Salim_Khan_and_Salman_Khan_at_an_event.png",
+    "creator": "Bollywood Hungama",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Mahesh Bhatt, Salim Khan and Salman Khan at a public event",
+    "description": "Bhatt with Salim Khan and Salman Khan at an event",
+    "caption": "Archive event image, not evidence of a new endorsement or the authenticity of the circulated video.",
+    "width": 1280,
+    "height": 855,
+    "bytes": 79598,
+    "sha1": "e8f550555310f1effc193be4eb1fd8fe0c060757",
+    "photographedAt": "2019-01-29",
+    "query": "intitle:Salman intitle:Khan -intitle:Academy",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

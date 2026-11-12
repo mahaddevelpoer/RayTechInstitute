@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Anirudh Ravichander.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/anirudh-ravichander-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Anirudh_Ravichander.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Anirudh_Ravichander.jpg",
+    "creator": "Surajram Kumaravel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Anirudh Ravichander in an archive public photograph",
+    "description": "Anirudh Ravichander at the Egmore Museum Theater, Chennai",
+    "caption": "Archive artist portrait, not a wedding photograph from Greece.",
+    "width": 720,
+    "height": 960,
+    "bytes": 117766,
+    "sha1": "9e55d9ef47770180546c366c67321fff8ce9035f",
+    "photographedAt": "2013-02-09 17:53:46",
+    "query": "intitle:Anirudh intitle:Ravichander",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Anirudh Ravichander at the Velaikkaran Audio Launch.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/anirudh-ravichander-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Anirudh_Ravichander_at_the_Velaikkaran_Audio_Launch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Anirudh_Ravichander_at_the_Velaikkaran_Audio_Launch.jpg",
+    "creator": "Dani Charles, Silverscreen Media Inc. (https://silverscreen.in)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Anirudh Ravichander at the Velaikkaran audio launch",
+    "description": "Anirudh Ravichander at the Velaikkaran Audio Launch",
+    "caption": "Archive professional appearance, not the November 2026 ceremony.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 83862,
+    "sha1": "61a5f39b1678fce8a940c5b8ee9fc70c3793ab62",
+    "photographedAt": "2017-12-04",
+    "query": "intitle:Anirudh intitle:Ravichander",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Karachi Chundrigar skyline.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/kse-100-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Karachi_Chundrigar_skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Karachi_Chundrigar_skyline.jpg",
+    "creator": "User:Swerveut",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Karachi_Chundrigar_skyline.jpg",
+    "alt": "Karachi’s Chundrigar Road skyline",
+    "description": "This picture shows the I. I. Chundrigar Road skyline of Karachi , Pakistan . This road is the financial center of Pakistan and has two of its tallest buildings: the MCB Tower on the right and the Habib Bank Plaza on the left.",
+    "caption": "Archive financial-district context, not a live trading floor or a photograph of the dated market close.",
+    "width": 1280,
+    "height": 563,
+    "bytes": 60122,
+    "sha1": "9195eac26afbd7b477d0455af60414a6756fcd0b",
+    "photographedAt": "24 January 2004 (according to Exif data)",
+    "query": "intitle:Karachi intitle:skyline",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Karachi downtown skyline.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/kse-100-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Karachi_downtown_skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Karachi_downtown_skyline.jpg",
+    "creator": "Public-domain source",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Karachi_downtown_skyline.jpg",
+    "alt": "Downtown Karachi skyline",
+    "description": "",
+    "caption": "Illustrative city context, not a chart or evidence of an index level.",
+    "width": 813,
+    "height": 305,
+    "bytes": 18728,
+    "sha1": "2dac23c0487d000727b89336d54e96896998c350",
+    "photographedAt": "",
+    "query": "intitle:Karachi intitle:skyline",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

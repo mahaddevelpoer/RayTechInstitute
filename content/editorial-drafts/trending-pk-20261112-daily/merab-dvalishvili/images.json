@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Merab Dvalishvili 2022.png",
+    "url": "/images/editorial/trending-pk-20261112-daily/merab-dvalishvili-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Merab_Dvalishvili_2022.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Merab_Dvalishvili_2022.png",
+    "creator": "Onlyfans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Merab Dvalishvili in an archive 2022 photograph",
+    "description": "Merab Dvalishvili in a video from the OnlyFans YouTube channel (cropped at minute 0:40)",
+    "caption": "Archive athlete photograph, not evidence of a current bout or a reported off-field incident.",
+    "width": 753,
+    "height": 960,
+    "bytes": 17858,
+    "sha1": "0bab54da173eb4f044f27c6053270fea6dc5f48d",
+    "photographedAt": "2022-05-05",
+    "query": "intitle:Merab intitle:Dvalishvili",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:UFC-Octagon-USMCPhoto.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/merab-dvalishvili-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/UFC-Octagon-USMCPhoto.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:UFC-Octagon-USMCPhoto.jpg",
+    "creator": "Public-domain source",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:UFC-Octagon-USMCPhoto.jpg",
+    "alt": "A UFC octagon illustrating the sporting setting",
+    "description": "",
+    "caption": "Illustrative octagon photograph, not an image of a specified Dvalishvili contest.",
+    "width": 638,
+    "height": 960,
+    "bytes": 80260,
+    "sha1": "6e1e984bd9aee79a24f3036be42f9a7eb8e0c727",
+    "photographedAt": "",
+    "query": "intitle:UFC intitle:octagon",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

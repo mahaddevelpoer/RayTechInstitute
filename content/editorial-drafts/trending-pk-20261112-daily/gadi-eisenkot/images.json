@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Gadi Eisenkot 2.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/gadi-eisenkot-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gadi_Eisenkot_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Gadi_Eisenkot_2.jpg",
+    "creator": "יהב טרודלר (Yahav Studio‬‏)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Gadi Eisenkot in an archive portrait",
+    "description": "גדי איזנקוט",
+    "caption": "Archive portrait, not a photograph of the November 2026 mandate ceremony.",
+    "width": 1280,
+    "height": 854,
+    "bytes": 36686,
+    "sha1": "4270ff676599a454b784eb01f1827a7cf25fdb4c",
+    "photographedAt": "14:03, 7 ביוני 2026",
+    "query": "intitle:Gadi intitle:Eisenkot",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:A Knesset session with Knesset Members and Ministers (FL45867626).jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/gadi-eisenkot-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/A_Knesset_session_with_Knesset_Members_and_Ministers_%28FL45867626%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Knesset_session_with_Knesset_Members_and_Ministers_(FL45867626).jpg",
+    "creator": "Dan Hadani collection / National Library of Israel / The Pritzker Family National Photography Collection",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "An archive session of the Knesset",
+    "description": "A Knesset session with Knesset Members and Ministers. Photo shows: The empty Knesset during the session.",
+    "caption": "Historical parliamentary image. It does not depict the 26th Knesset or a current coalition vote.",
+    "width": 1280,
+    "height": 862,
+    "bytes": 176498,
+    "sha1": "843ca3110ae73ba8921f88ae7a574442f7f05b00",
+    "photographedAt": "Taken on 6 January 1983",
+    "query": "intitle:Knesset",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

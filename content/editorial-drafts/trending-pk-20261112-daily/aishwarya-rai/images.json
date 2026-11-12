@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Aishwarya Rai Cannes 2017 3.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/aishwarya-rai-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Aishwarya_Rai_Cannes_2017_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Aishwarya_Rai_Cannes_2017_3.jpg",
+    "creator": "Georges Biard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Aishwarya Rai at Cannes in 2017",
+    "description": "Aishwarya Rai au festival de Cannes",
+    "caption": "Archive Cannes portrait, not a photograph of a new November 2026 event.",
+    "width": 1280,
+    "height": 958,
+    "bytes": 106866,
+    "sha1": "0cd02bdfaac406296d9a4b0dd52267b7e0a0753d",
+    "photographedAt": "2017-05-18",
+    "query": "intitle:Aishwarya intitle:Cannes",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Aishwarya Rai Bachchan at the launch of Longines Dolcevita.jpg",
+    "url": "/images/editorial/trending-pk-20261112-daily/aishwarya-rai-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Aishwarya_Rai_Bachchan_at_the_launch_of_Longines_Dolcevita.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Aishwarya_Rai_Bachchan_at_the_launch_of_Longines_Dolcevita.jpg",
+    "creator": "Bollywood Hungama",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Aishwarya Rai Bachchan at a Longines event",
+    "description": "Aishwarya Rai Bachchan at the launch of Longines Dolcevita",
+    "caption": "Archive public appearance. The image is not presented as a L’Oréal or UNAIDS event.",
+    "width": 600,
+    "height": 900,
+    "bytes": 60050,
+    "sha1": "86f7342720c0bb4cb4a5f0e9e563c1285fb2421d",
+    "photographedAt": "2010",
+    "query": "intitle:Aishwarya intitle:Rai",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

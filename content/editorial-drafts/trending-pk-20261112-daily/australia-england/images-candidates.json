@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Perth Stadium opening 210118 gnangarra-19.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Perth_Stadium_opening_210118_gnangarra-19.jpg/1280px-Perth_Stadium_opening_210118_gnangarra-19.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Perth_Stadium_opening_210118_gnangarra-19.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Perth_Stadium_opening_210118_gnangarra-19.jpg",
+    "creator": "Photographs by Gnangarra...commons.wikimedia.org",
+    "license": "CC BY 2.5 au",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/au/deed.en",
+    "alt": "Perth Stadium during its 2018 opening",
+    "description": "Perth stadium open day",
+    "caption": "Archive Perth Stadium view, not a photograph of the future November 2026 ODI.",
+    "width": 4788,
+    "height": 7174,
+    "bytes": 11297712,
+    "sha1": "67d56d82051b3bb0ee020c366d12e7bae7175fd4",
+    "photographedAt": "2018-01-21 16:55:26",
+    "query": "intitle:Perth intitle:stadium",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Adelaide Oval scoreboard 2008.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Adelaide_Oval_scoreboard_2008.jpg/1280px-Adelaide_Oval_scoreboard_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adelaide_Oval_scoreboard_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Adelaide_Oval_scoreboard_2008.jpg",
+    "creator": "Richard Woods from Adelaide; cropped by Blackcat",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Adelaide Oval scoreboard in 2008",
+    "description": "The scoreboard at Adelaide Oval during the first day of the test match between Australia and New Zealand, November 2008.",
+    "caption": "Archive Adelaide venue photograph. Visible scores are not current series results.",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 1040210,
+    "sha1": "98ccf5e16ffd60f3b1f9d459183a4a44e2ede820",
+    "photographedAt": "Taken on 28 November 2008 11:52:25 UTC+9:30",
+    "query": "intitle:Adelaide intitle:Oval",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

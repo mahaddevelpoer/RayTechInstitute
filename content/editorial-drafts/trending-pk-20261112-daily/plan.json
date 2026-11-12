@@ -3,7 +3,7 @@
   "sourceCsv": "trending_PK_1d_20261112-1417.csv",
   "sourceSha256": "ad03a6b24bce5ba48418f2d130df484f99dead27cb8d54991ed66bab2ddacfa4",
   "publicationAuthorized": true,
-  "priority": "New November 12 CSV plus earlier November 11 pending topics. No duplicate article per overlapping search. Publish only completed batches of ten.",
+  "priority": "First ten completed articles published; user explicitly authorised all remaining 21 together at 2,000+ body words each.",
   "batchSize": 10,
   "minimumBodyWords": 2000,
   "rowDisposition": [
@@ -542,14 +542,18 @@
       "rows": [
         2
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "India–Afghanistan U19: Asia Cup Semi-Final Score and Match Context",
+      "slug": "india-afghanistan-u19-asia-cup-semi-final-november-2026"
     },
     {
       "key": "veena-malik",
       "rows": [
         3
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Veena Malik on Abu Bakar: Fiction and Relationship Expectations",
+      "slug": "veena-malik-abu-bakar-fiction-relationship-expectations"
     },
     {
       "key": "whatsapp-android-navigation",
@@ -565,14 +569,18 @@
       "rows": [
         9
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Pakistan–Sri Lanka Test: Rawalpindi Score Context and Venue Update",
+      "slug": "pakistan-sri-lanka-rawalpindi-test-day-three-venue-update-2026"
     },
     {
       "key": "always-lalisa",
       "rows": [
         10
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Always Lalisa: Documentary, Cinema Release and Streaming Checks",
+      "slug": "always-lalisa-documentary-release-streaming-guide"
     },
     {
       "key": "electric-comb",
@@ -601,8 +609,10 @@
         60,
         72
       ],
-      "state": "needs-research",
-      "earlierPendingGroup": "trending-pk-20261111-daily/petrol-diesel-pakistan"
+      "state": "draft-written",
+      "earlierPendingGroup": "trending-pk-20261111-daily/petrol-diesel-pakistan",
+      "title": "Pakistan Fuel Prices, 12 November 2026: Petrol, Diesel and Travel Costs",
+      "slug": "pakistan-petrol-diesel-prices-12-november-2026-pso"
     },
     {
       "key": "png-scotland-women",
@@ -618,22 +628,28 @@
       "rows": [
         24
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Hardik Pandya to Punjab Kings: Arshdeep’s Mumbai Trade and Team Balance",
+      "slug": "hardik-pandya-punjab-kings-arshdeep-mumbai-ipl-2027-trade"
     },
     {
       "key": "visionquest-finale",
       "rows": [
         26
       ],
-      "state": "needs-research",
-      "earlierPendingGroup": "trending-pk-20261111-daily/visionquest-episode8"
+      "state": "draft-written",
+      "earlierPendingGroup": "trending-pk-20261111-daily/visionquest-episode8",
+      "title": "VisionQuest Finale: Episode Eight, Time Zones and Story Context",
+      "slug": "visionquest-finale-episode-eight-release-context-2026"
     },
     {
       "key": "stacy-keach",
       "rows": [
         27
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Stacy Keach Remembered: Mike Hammer, Broadway and the Craft of Acting",
+      "slug": "stacy-keach-remembered-mike-hammer-broadway-career"
     },
     {
       "key": "kimberly-powell",
@@ -649,7 +665,9 @@
       "rows": [
         30
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Felix Nmecha: Dortmund Profile and the Goal-Celebration Discussion",
+      "slug": "felix-nmecha-dortmund-profile-celebration-discussion-2026"
     },
     {
       "key": "australia-england",
@@ -657,7 +675,9 @@
         31,
         50
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Australia–England ODI Series: Perth Start, Schedule and Viewing Context",
+      "slug": "australia-england-odi-series-perth-november-2026-guide"
     },
     {
       "key": "endgame-encore",
@@ -673,7 +693,9 @@
       "rows": [
         38
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Merab Dvalishvili: Bantamweight Profile and Understanding MMA Records",
+      "slug": "merab-dvalishvili-ufc-bantamweight-wrestling-profile"
     },
     {
       "key": "razaullah",
@@ -698,49 +720,63 @@
       "rows": [
         44
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Gadi Eisenkot’s Government-Formation Mandate: What the Announcement Means",
+      "slug": "gadi-eisenkot-government-formation-mandate-november-2026"
     },
     {
       "key": "womens-big-bash",
       "rows": [
         46
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "WBBL 2026–27: Dates, Teams and Following the Season from Pakistan",
+      "slug": "wbbl-2026-27-dates-teams-fixtures-season-guide"
     },
     {
       "key": "kitco-metals",
       "rows": [
         47
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Kitco Metals: Gold Quotes, Bid and Ask and Pakistan Price Comparisons",
+      "slug": "kitco-metals-gold-quotes-purity-pakistan-comparison-guide"
     },
     {
       "key": "dar-e-nijaat",
       "rows": [
         49
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Dar-e-Nijaat: Cast, Story Themes and Finding the Official Episodes",
+      "slug": "dar-e-nijaat-cast-story-official-episodes-viewing-guide"
     },
     {
       "key": "anirudh-ravichander",
       "rows": [
         52
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Anirudh Ravichander: Public Wedding Report and a Guide to His Music",
+      "slug": "anirudh-ravichander-kavya-maran-announcement-music-context"
     },
     {
       "key": "salman-khan",
       "rows": [
         56
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Salman Khan Viral Video: The Reported Fact Check and Verification Steps",
+      "slug": "salman-khan-viral-video-reported-fact-check-verification"
     },
     {
       "key": "aishwarya-rai",
       "rows": [
         58
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Aishwarya Rai Bachchan: Acting, Advocacy and Reading Celebrity Claims",
+      "slug": "aishwarya-rai-bachchan-professional-profile-advocacy"
     },
     {
       "key": "coachella-2027",
@@ -756,14 +792,18 @@
       "rows": [
         64
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Samreen Kaur and Arshdeep Singh: Engagement Report and Professional Credits",
+      "slug": "samreen-kaur-arshdeep-singh-engagement-career-context"
     },
     {
       "key": "kse-100",
       "rows": [
         66
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "KSE-100: The 11 November Close and Understanding Index Moves",
+      "slug": "kse-100-11-november-2026-close-index-moves-explained"
     },
     {
       "key": "thatta-cement",
@@ -779,7 +819,9 @@
       "rows": [
         68
       ],
-      "state": "needs-research"
+      "state": "draft-written",
+      "title": "Karachi Weather, 12–14 November 2026: PMD Drizzle Outlook Explained",
+      "slug": "karachi-weather-12-14-november-2026-pmd-outlook"
     }
   ],
   "oldQueueSnapshot": [
@@ -814,6 +856,38 @@
       "revision": "f52a24473101df221c54549833f85817443ae8c6",
       "workflowRun": "43196055268",
       "liveVerifiedAt": "2026-11-12T10:04:20.085Z"
+    },
+    {
+      "number": 2,
+      "keys": [
+        "india-afghanistan-u19",
+        "veena-malik",
+        "pakistan-sri-lanka-test",
+        "always-lalisa",
+        "petrol-diesel-pakistan",
+        "hardik-pandya",
+        "visionquest-finale",
+        "stacy-keach",
+        "felix-nmecha",
+        "australia-england",
+        "merab-dvalishvili",
+        "gadi-eisenkot",
+        "womens-big-bash",
+        "kitco-metals",
+        "dar-e-nijaat",
+        "anirudh-ravichander",
+        "salman-khan",
+        "aishwarya-rai",
+        "samreen-kaur",
+        "kse-100",
+        "karachi-weather"
+      ],
+      "expectedSize": 21,
+      "explicitUserAuthorization": "User explicitly requested all remaining 21 articles together, then a combined publication.",
+      "state": "draft-written",
+      "validationFile": "batch-02-validation.json",
+      "minimumBodyWords": 2000,
+      "lengthConfirmedByUser": "Every article must contain at least 2,000 words; all 21 together."
     }
   ],
   "state": "batch-01-published-next-research-pending"

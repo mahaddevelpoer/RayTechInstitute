@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Gold Doré Bar.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gold_Dor%C3%A9_Bar.jpg/1280px-Gold_Dor%C3%A9_Bar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Gold_Dor%C3%A9_Bar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Gold_Dor%C3%A9_Bar.jpg",
+    "creator": "Dave Craw, Christine McLachlan, Marianne Negrini and Noel Becker",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "A gold doré bar illustrating precious-metal purity",
+    "description": "a) Gold concentrate, dominated by flakes ~0.5–1 mm across; (b) Doré bar produced from the gold concentrate",
+    "caption": "Illustrative doré bar. It is not identified as Kitco inventory, a 24-karat retail bar or a current quote.",
+    "width": 2317,
+    "height": 788,
+    "bytes": 230366,
+    "sha1": "32caebd7d7110da775e068751f5439ea8d937215",
+    "photographedAt": "2017-11-19",
+    "query": "intitle:Gold intitle:bars",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Silver coin hoard.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Silver_coin_hoard.jpg/1280px-Silver_coin_hoard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Silver_coin_hoard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Silver_coin_hoard.jpg",
+    "creator": "© Hans Hillewaert",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "A collection of silver coins",
+    "description": "Silver coins hoard from around 1700, England - U.K. at the British Museum . Half crowns of Charles I, shillings of James I and sixpences of Elisabeth I.",
+    "caption": "Illustrative silver coins, not a current dealer offer or evidence of a quoted metal price.",
+    "width": 2600,
+    "height": 1950,
+    "bytes": 2788976,
+    "sha1": "20954cf583038c3c3e007b2dbe86399cab9338f4",
+    "photographedAt": "2007-11-21",
+    "query": "intitle:Silver intitle:coins",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

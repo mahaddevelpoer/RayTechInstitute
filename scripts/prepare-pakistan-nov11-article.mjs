@@ -15,7 +15,8 @@ for(const candidate of candidates){
  const item={...candidate,licenseUrl:candidate.licenseUrl?.replace(/^http:\/\/(creativecommons\.org\/)/i,'https://$1')};
  if(used.has(item.sha1))throw Error('Duplicate image source');used.add(item.sha1);
  const ogl1=item.license==='OGL v1.0'&&/^https?:\/\/(?:www\.)?nationalarchives\.gov\.uk\/doc\/open-government-licence\/version\/1\/?$/i.test(item.licenseUrl||'');
- if(!item.source||!item.creator||(!/(CC BY|CC0|Public domain)/i.test(item.license)&&!ogl1))throw Error('Incomplete licence record');
+ const godl=item.license==='GODL-India'&&/^https:\/\/(?:www\.)?data\.gov\.in\/(?:government-open-data-license-india\/?|sites\/default\/files\/Gazette_Notification_OGDL\.pdf)$/i.test(item.licenseUrl||'');
+ if(!item.source||!item.creator||(!/(CC BY|CC0|Public domain)/i.test(item.license)&&!ogl1&&!godl))throw Error('Incomplete licence record');
  const raw=`artifacts/november-${item.sha1}.image`,destination=`${output}/${name}-${item.role}.webp`;
  let cached=false;if(fs.existsSync(raw)){try{await sharp(raw).stats();cached=true;}catch{cached=false;}}
  if(!cached){const u=new URL(item.url);u.search='';const match=u.pathname.match(/^\/wikipedia\/commons\/(?!thumb\/)(.+)$/);const filename=u.pathname.split('/').at(-1);const thumb=match?`https://upload.wikimedia.org/wikipedia/commons/thumb/${match[1]}/1280px-${filename}`:u.href;

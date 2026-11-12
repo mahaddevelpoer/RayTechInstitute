@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Ellyse Perry batting.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ellyse_Perry_batting.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ellyse_Perry_batting.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Ellyse_Perry_batting.jpg",
+    "creator": "YellowMonkey",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Ellyse Perry batting in an archive cricket photograph",
+    "description": "Named person engaging in named action at Adelaide Oval nets/training ground",
+    "caption": "Archive women’s cricket photograph, not a specific WBBL12 result or selection announcement.",
+    "width": 1257,
+    "height": 1601,
+    "bytes": 936151,
+    "sha1": "2e0b7c3540c59aacf4c92c33c6684826f28f38ad",
+    "photographedAt": "8/9 February 2010",
+    "query": "intitle:Ellyse intitle:Perry",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Junction Oval panoramic.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Junction_Oval_panoramic.jpg/1280px-Junction_Oval_panoramic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Junction_Oval_panoramic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Junction_Oval_panoramic.jpg",
+    "creator": "Global-Cityzen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Panoramic view of Junction Oval",
+    "description": "Panoramic view of the Junction Oval in October 2019",
+    "caption": "Archive venue context for the league guide, not a photograph of a 2026 match.",
+    "width": 4096,
+    "height": 1508,
+    "bytes": 1563541,
+    "sha1": "baffdb25a8bff208c87fb807e2468497c0e89d3d",
+    "photographedAt": "2019-10-01 14:19:10",
+    "query": "intitle:Junction intitle:Oval",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]

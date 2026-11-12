@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Television remote control - black colour.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Television_remote_control_-_black_colour.jpg/1280px-Television_remote_control_-_black_colour.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Television_remote_control_-_black_colour.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Television_remote_control_-_black_colour.jpg",
+    "creator": "Dmitry Makeev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A television remote illustrating the official-episode viewing guide",
+    "description": "Television remote control",
+    "caption": "Illustrative viewing equipment, not a prop from Dar-e-Nijaat.",
+    "width": 1932,
+    "height": 3320,
+    "bytes": 2224216,
+    "sha1": "b97e09b9ed4323e67dce95a2051af2aa09c69c89",
+    "photographedAt": "2019-04-21",
+    "query": "intitle:television intitle:remote",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Digital clapperboard.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Digital_clapperboard.jpg/1280px-Digital_clapperboard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Digital_clapperboard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Digital_clapperboard.jpg",
+    "creator": "Clapperboard,_O2_film,_September_2008.jpg : Matt Batchelor on Flickr derivative work: Octave.H",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "A digital film clapperboard",
+    "description": "A Denecke TS-3 clapperboard in use during the shooting of a film for O2 .",
+    "caption": "Illustrative production equipment. It is not identified with ARY Digital or the drama’s production.",
+    "width": 1753,
+    "height": 1702,
+    "bytes": 1757085,
+    "sha1": "b5811e1dd349568521d4428ade945e8a60279640",
+    "photographedAt": "2012-12-12 22:01",
+    "query": "intitle:clapperboard",
+    "reviewState": "metadata-reviewed-awaiting-visual-review",
+    "role": "inline"
+  }
+]
