@@ -1,5 +1,5 @@
 {
-  "state": "extracted-awaiting-pdf-and-database-checks",
+  "state": "published-live-verified",
   "files": [
     {
       "key": "chapter-1",
@@ -35,5 +35,9 @@
       ],
       "sourceSha256": "f08e1ef7d0646e381046a253e09be160a66672d09fd523cd7663df0d96b2dd1c"
     }
-  ]
+  ],
+  "liveRevision": "f102bdd084380cb6bb9288833a7e418a1eecf24a",
+  "workflow": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43222586101",
+  "pdfVisualReview": "All 71 rendered pages reviewed; source study material and available Urdu explanations preserved.",
+  "liveVerifiedAt": "2026-11-12T13:03:03.774Z"
 }

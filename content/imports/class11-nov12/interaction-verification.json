@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-11-12T13:05:39.879Z",
+  "results": [
+    {
+      "chapter": 1,
+      "topic": "1.1 Software Development",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.4 Project Planning and Management",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 1,
+      "topic": "1.8 Software Development Tools",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.3 Operators and Expressions",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.4 Control Structures",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    },
+    {
+      "chapter": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "sourceQuestionVerified": true,
+      "mobileOverflow": false
+    }
+  ],
+  "unhandledErrors": []
+}

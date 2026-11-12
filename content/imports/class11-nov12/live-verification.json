@@ -1,0 +1,23 @@
+{
+  "revision": "f102bdd084380cb6bb9288833a7e418a1eecf24a",
+  "checkedAt": "2026-11-12T13:03:03.774Z",
+  "results": [
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-1-study-guide/",
+      "pdf": "https://raytechinstitute.com/documents/class11/nov12/chapter-1.pdf",
+      "pdfBytes": 217064,
+      "sitemap": true,
+      "listing": true,
+      "pdfHashVerified": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-2-study-guide/",
+      "pdf": "https://raytechinstitute.com/documents/class11/nov12/chapter-2.pdf",
+      "pdfBytes": 333422,
+      "sitemap": true,
+      "listing": true,
+      "pdfHashVerified": true
+    }
+  ],
+  "chapterLabelsVerified": true
+}
