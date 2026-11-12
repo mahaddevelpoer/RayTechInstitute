@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:AMD CEO Lisa Su 20130415.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/lisa-su-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/AMD_CEO_Lisa_Su_20130415.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:AMD_CEO_Lisa_Su_20130415.jpg",
+    "creator": "AMD Global",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Lisa Su at an AMD event in 2013",
+    "description": "Lisa Su, President and Chief Executive Officer of Advanced Micro Devices.",
+    "caption": "Archive portrait of Lisa Su at an AMD event in 2013; not a photograph of a new 2026 announcement.",
+    "width": 686,
+    "height": 960,
+    "bytes": 24728,
+    "sha1": "3a066e36d499d7b6e69c17f85fdfec5c079eca77",
+    "photographedAt": "2013-04-15 16:35:46",
+    "query": "Lisa Su AMD",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:AMD Ryzen 7 1800X.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/lisa-su-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/AMD_Ryzen_7_1800X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_1800X.jpg",
+    "creator": "Brian Wong",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "AMD Ryzen 7 1800X processor",
+    "description": "There's an AMD Ryzen 7 1800X eight-core processor in the socket.",
+    "caption": "Archive photograph of an AMD Ryzen 7 1800X, illustrating processor hardware. The article does not present a benchmark of this chip.",
+    "width": 1280,
+    "height": 854,
+    "bytes": 222374,
+    "sha1": "84aa2fee7517cca02d07c21b9a7ef03e87b55ee8",
+    "photographedAt": "2017-10-23 16:56:57",
+    "query": "AMD Ryzen processor",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

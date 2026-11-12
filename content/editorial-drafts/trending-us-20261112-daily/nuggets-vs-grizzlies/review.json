@@ -1,0 +1,13 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2002,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-12",
+  "scope": "Dated attributed reporting and original learning analysis. No private claims, invented conviction, medical inference, first-hand viewing or future-result prediction.",
+  "visualReviewEvidence": [
+    "artifacts/us-nov12/batch02-visual-1.png",
+    "artifacts/us-nov12/batch02-visual-2.png"
+  ],
+  "localChecks": "validation.json"
+}

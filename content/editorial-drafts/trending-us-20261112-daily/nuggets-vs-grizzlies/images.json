@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Jamal Murray free throw.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/nuggets-vs-grizzlies-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Jamal_Murray_free_throw.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamal_Murray_free_throw.jpg",
+    "creator": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Jamal Murray taking a free throw",
+    "description": "Jamal Murray free throw",
+    "caption": "Archive photograph of Jamal Murray taking a free throw, not a photograph of the completed November 2026 fixture.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 132618,
+    "sha1": "7616cf4a7b417286fe9642fb19e3fb2bd838b5fd",
+    "photographedAt": "2020-01-04 22:45:15",
+    "query": "Jamal Murray Nuggets",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:FedExForum 2015.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/nuggets-vs-grizzlies-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/FedExForum_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:FedExForum_2015.jpg",
+    "creator": "Trev0B",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "FedExForum in 2015",
+    "description": "Photo of the FedExForum in Memphis, TN during a Memphis Grizzlies basketball game.",
+    "caption": "Archive photograph of FedExForum in 2015, provided as Memphis venue context.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 326698,
+    "sha1": "efb4b5a476c28c635c1b7c74c9b2346073fdfc36",
+    "photographedAt": "2015-04-22 20:04:06",
+    "query": "FedExForum basketball",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

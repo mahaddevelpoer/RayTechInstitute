@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Panorama of United States Supreme Court Building at Dusk.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/supreme-court-of-the-united-states-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg",
+    "creator": "Joe Ravi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "United States Supreme Court building at dusk",
+    "description": "Panorama of the west facade of United States Supreme Court Building at dusk in Washington, D.C., United States of America.",
+    "caption": "Archive view of the United States Supreme Court building at dusk. This is the federal court in Washington, DC.",
+    "width": 1280,
+    "height": 660,
+    "bytes": 87672,
+    "sha1": "65a044caaf8cf96bfb3ab96d3b9708c45d4f90c0",
+    "photographedAt": "2011-10-10",
+    "query": "\"United States Supreme Court\" building",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:United States Supreme Court Building Front Door photo Don Ramey Logan.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/supreme-court-of-the-united-states-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/United_States_Supreme_Court_Building_Front_Door_photo_Don_Ramey_Logan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Supreme_Court_Building_Front_Door_photo_Don_Ramey_Logan.jpg",
+    "creator": "Photograph by Don Ramey Logan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Front entrance of the United States Supreme Court building",
+    "description": "United States Supreme Court Building Front Door photo Don Ramey Logan",
+    "caption": "Archive photograph of the Supreme Court building entrance. Case research uses the official docket and documents, not the building photograph.",
+    "width": 573,
+    "height": 960,
+    "bytes": 129964,
+    "sha1": "8d678ee5fc50bcb94a06e479f2e9ebedf1f648ea",
+    "photographedAt": "2014-11-11 18:18:29",
+    "query": "\"United States Supreme Court\" building",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

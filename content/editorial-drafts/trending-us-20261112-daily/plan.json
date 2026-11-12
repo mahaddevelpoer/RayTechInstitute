@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-01-published-next-research-pending",
+  "state": "batch-02-local-verified-awaiting-publication",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
@@ -3663,8 +3663,13 @@
     {
       "key": "rex-ryan",
       "query": "rex ryan",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Rex Ryan",
+        "Nashville Broadway street"
+      ],
+      "title": "Rex Ryan: Nashville Police Announcement and His NFL Coaching Background",
+      "slug": "rex-ryan-nashville-police-announcement-nfl-career-2026"
     },
     {
       "key": "mark-mcguinn",
@@ -3730,8 +3735,13 @@
     {
       "key": "celtics-vs-raptors",
       "query": "celtics vs raptors",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Jayson Tatum basketball",
+        "Scotiabank Arena basketball"
+      ],
+      "title": "Celtics Beat Raptors 98–93: Tatum’s Scoring and the Free-Throw Difference",
+      "slug": "celtics-raptors-98-93-tatum-scoring-november-11-2026"
     },
     {
       "key": "billy-gray",
@@ -3760,8 +3770,13 @@
     {
       "key": "ayesha-curry",
       "query": "ayesha curry",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Ayesha Curry",
+        "film camera cinema"
+      ],
+      "title": "Ayesha Curry in Second Chance Holiday: Film Details and the Public Response",
+      "slug": "ayesha-curry-second-chance-holiday-film-public-response-2026"
     },
     {
       "key": "randall-england",
@@ -3778,14 +3793,24 @@
     {
       "key": "social-security-trust-fund-depletion-2032",
       "query": "social security trust fund depletion 2032",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Social Security Administration building",
+        "United States Treasury building"
+      ],
+      "title": "Social Security Trust Fund Depletion in 2032: What the 2026 Report Says",
+      "slug": "social-security-trust-fund-depletion-2032-2026-report-explained"
     },
     {
       "key": "nuggets-vs-grizzlies",
       "query": "nuggets vs grizzlies",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Jamal Murray basketball",
+        "FedExForum basketball"
+      ],
+      "title": "Nuggets Beat Grizzlies 123–118: Murray’s Late Scoring and Team Statistics",
+      "slug": "nuggets-grizzlies-123-118-murray-november-11-2026"
     },
     {
       "key": "ricky-alvarez",
@@ -3802,14 +3827,24 @@
     {
       "key": "mandalorian",
       "query": "mandalorian",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Pedro Pascal",
+        "Mandalorian costume"
+      ],
+      "title": "The Mandalorian and Grogu: Film, Streaming and a Spoiler-Light Viewing Guide",
+      "slug": "mandalorian-and-grogu-2026-film-streaming-viewing-guide"
     },
     {
       "key": "isabelle-huppert",
       "query": "isabelle huppert",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Isabelle Huppert Cannes",
+        "Isabelle Huppert actress"
+      ],
+      "title": "Isabelle Huppert: Cannes Record, Career and a Guide to Studying Performance",
+      "slug": "isabelle-huppert-cannes-career-performance-guide"
     },
     {
       "key": "jeremiah-smith-ohio-state-football-news",
@@ -3886,8 +3921,13 @@
     {
       "key": "lisa-su",
       "query": "lisa su",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Lisa Su AMD",
+        "AMD Ryzen processor"
+      ],
+      "title": "Lisa Su: Her Engineering Career and a Student Guide to AMD Computing",
+      "slug": "lisa-su-amd-engineering-career-computing-guide"
     },
     {
       "key": "eroica",
@@ -3928,14 +3968,24 @@
     {
       "key": "when-does-the-stock-market-open",
       "query": "when does the stock market open",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "New York Stock Exchange building",
+        "Wall Street clock"
+      ],
+      "title": "When Does the Stock Market Open? NYSE Hours and Pakistan Time",
+      "slug": "when-does-stock-market-open-nyse-hours-pakistan-time-2026"
     },
     {
       "key": "supreme-court-of-the-united-states",
       "query": "supreme court of the united states",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "United States Supreme Court building",
+        "Supreme Court courtroom"
+      ],
+      "title": "Supreme Court of the United States: Cases, Opinions and Public Records",
+      "slug": "supreme-court-united-states-cases-opinions-student-guide"
     },
     {
       "key": "dhs-proposed-h-1b-extension-rule",
@@ -6216,6 +6266,25 @@
       "revision": "62d527247bfd2698bd3047757342616a6a8c3170",
       "workflowRun": "43251099699",
       "liveVerifiedAt": "2026-11-12T15:51:27.556Z"
+    },
+    {
+      "number": 2,
+      "keys": [
+        "rex-ryan",
+        "celtics-vs-raptors",
+        "ayesha-curry",
+        "social-security-trust-fund-depletion-2032",
+        "nuggets-vs-grizzlies",
+        "mandalorian",
+        "isabelle-huppert",
+        "when-does-the-stock-market-open",
+        "lisa-su",
+        "supreme-court-of-the-united-states"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": "Current continue instruction and standing approval: manually write and verify ten complete US CSV articles before publishing together. No external drafting helper or subagents.",
+      "state": "local-verified-unpublished",
+      "validationFile": "batch-02-validation.json"
     }
   ]
 }

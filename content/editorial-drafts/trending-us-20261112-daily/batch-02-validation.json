@@ -1,0 +1,79 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 20213,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 521,
+  "results": [
+    {
+      "key": "rex-ryan",
+      "slug": "rex-ryan-nashville-police-announcement-nfl-career-2026",
+      "words": 2011,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "celtics-vs-raptors",
+      "slug": "celtics-raptors-98-93-tatum-scoring-november-11-2026",
+      "words": 2021,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ayesha-curry",
+      "slug": "ayesha-curry-second-chance-holiday-film-public-response-2026",
+      "words": 2012,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "social-security-trust-fund-depletion-2032",
+      "slug": "social-security-trust-fund-depletion-2032-2026-report-explained",
+      "words": 2001,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nuggets-vs-grizzlies",
+      "slug": "nuggets-grizzlies-123-118-murray-november-11-2026",
+      "words": 2002,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mandalorian",
+      "slug": "mandalorian-and-grogu-2026-film-streaming-viewing-guide",
+      "words": 2015,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "isabelle-huppert",
+      "slug": "isabelle-huppert-cannes-career-performance-guide",
+      "words": 2042,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "lisa-su",
+      "slug": "lisa-su-amd-engineering-career-computing-guide",
+      "words": 2053,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "when-does-the-stock-market-open",
+      "slug": "when-does-stock-market-open-nyse-hours-pakistan-time-2026",
+      "words": 2016,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "supreme-court-of-the-united-states",
+      "slug": "supreme-court-united-states-cases-opinions-student-guide",
+      "words": 2040,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

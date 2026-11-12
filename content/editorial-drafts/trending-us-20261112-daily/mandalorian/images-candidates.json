@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Pedro Pascal by Gage Skidmore.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg/1280px-Pedro_Pascal_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_by_Gage_Skidmore.jpg",
+    "creator": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Pedro Pascal photographed at a public event",
+    "description": "Pedro Pascal speaking at the 2017 San Diego Comic-Con International in San Diego, California.",
+    "caption": "Archive portrait of Pedro Pascal, who plays Din Djarin. This photograph is not a frame from the film.",
+    "width": 1464,
+    "height": 2195,
+    "bytes": 2331648,
+    "sha1": "087f6784d097aeadc0b271920ca19e0ea5f54fa4",
+    "photographedAt": "2017-07-20",
+    "query": "Pedro Pascal",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Cosplay of Blue Mandalorian at GalaxyCon Richmond 2020 (49667541902).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Cosplay_of_Blue_Mandalorian_at_GalaxyCon_Richmond_2020_%2849667541902%29.jpg/1280px-Cosplay_of_Blue_Mandalorian_at_GalaxyCon_Richmond_2020_%2849667541902%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cosplay_of_Blue_Mandalorian_at_GalaxyCon_Richmond_2020_%2849667541902%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Blue_Mandalorian_at_GalaxyCon_Richmond_2020_(49667541902).jpg",
+    "creator": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Blue Mandalorian cosplay at GalaxyCon Richmond in 2020",
+    "description": "Cosplay of Blue Mandalorian at GalaxyCon Richmond 2020",
+    "caption": "A fan in a blue Mandalorian costume at GalaxyCon Richmond in 2020. This is cosplay, not a production costume or still from the 2026 film.",
+    "width": 4024,
+    "height": 6048,
+    "bytes": 11465343,
+    "sha1": "8afcb26b82dbe28ddccd51571c8876c6e7a11948",
+    "photographedAt": "2020-03-01 00:41",
+    "query": "Mandalorian costume",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

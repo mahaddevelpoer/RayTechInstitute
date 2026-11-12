@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Social Security Administration Building, Griffin.JPG",
+    "url": "/images/editorial/trending-us-20261112-daily/social-security-trust-fund-depletion-2032-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Social_Security_Administration_Building%2C_Griffin.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Social_Security_Administration_Building,_Griffin.JPG",
+    "creator": "Michael Rivera",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Social Security Administration office building in Griffin",
+    "description": "Social Security Administration building on Flynt St. in Griffin, Spalding County, Georgia",
+    "caption": "Archive photograph of a Social Security Administration office building in Griffin. Funding figures are from the cited 2026 Trustees Report.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 108842,
+    "sha1": "5b406f44b8ae042b496564be8024e2ea27b4265a",
+    "photographedAt": "2013-04-05 10:50:21",
+    "query": "Social Security Administration building",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:United States Treasury building 2023.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/social-security-trust-fund-depletion-2032-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/United_States_Treasury_building_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Treasury_building_2023.jpg",
+    "creator": "Wisneyykarin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "United States Treasury building in 2023",
+    "description": "View of the United States Treasury building, 2023",
+    "caption": "Archive photograph of the US Treasury building in 2023, illustrating the public-finance context; it is not an individual Social Security office.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 132008,
+    "sha1": "941c800c40337e6eb6a16dd4ddf21fb743dcca3d",
+    "photographedAt": "2023-02-13 18:01:54",
+    "query": "United States Treasury building",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

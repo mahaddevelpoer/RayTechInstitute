@@ -1,0 +1,13 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2016,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-12",
+  "scope": "Verified public record plus explicitly labelled original educational examples. No invented fresh event, private information, personalised legal or financial recommendation.",
+  "visualReviewEvidence": [
+    "artifacts/us-nov12/batch02-visual-1.png",
+    "artifacts/us-nov12/batch02-visual-2.png"
+  ],
+  "localChecks": "validation.json"
+}

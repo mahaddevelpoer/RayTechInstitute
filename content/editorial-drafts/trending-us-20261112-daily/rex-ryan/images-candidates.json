@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Rex Ryan.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rex_Ryan.jpg/1280px-Rex_Ryan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Rex_Ryan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Rex_Ryan.jpg",
+    "creator": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Archive photograph of NFL coach Rex Ryan",
+    "description": "An image of en:Rex Ryan during his tenure as Baltimore Ravens coach.",
+    "caption": "Archive portrait of Rex Ryan, provided for identification rather than as a photograph of the Nashville booking.",
+    "width": 2592,
+    "height": 3888,
+    "bytes": 2473783,
+    "sha1": "0f54087f2bdbb256c5de25941f9da9e457ce963f",
+    "photographedAt": "2008-08-03",
+    "query": "Rex Ryan coach",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Broadway, Nashville, TN.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Broadway%2C_Nashville%2C_TN.jpg/1280px-Broadway%2C_Nashville%2C_TN.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Broadway%2C_Nashville%2C_TN.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Broadway,_Nashville,_TN.jpg",
+    "creator": "w_lemay",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Broadway in Nashville",
+    "description": "Built in the late 19th Century, 20th Century, and early 21st Century, these buildings are characteristic of Downtown Nashville. The older buildings are contributing structures in the Broadway Historic District, listed on the National Register of Historic Places in 1980.",
+    "caption": "Archive view of Broadway in Nashville. It illustrates the location context and does not show the alleged incident.",
+    "width": 2816,
+    "height": 3755,
+    "bytes": 2338602,
+    "sha1": "76369bd495bbe14bb936c0f48cec850594b4f329",
+    "photographedAt": "2024-05-28 17:27:33",
+    "query": "Nashville Broadway street",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

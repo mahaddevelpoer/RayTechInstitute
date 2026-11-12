@@ -1,0 +1,119 @@
+The regular New York Stock Exchange equity session opens at **9:30 a.m. Eastern Time and closes at 4:00 p.m. Eastern Time**, subject to exchange holidays and special schedules. For a reader in Pakistan on 12 November 2026, that means 7:30 p.m. until 2:00 a.m. the following day. A broker accepting an order earlier does not mean that the regular session has opened.
+
+That last distinction explains much of the confusion around the question “When does the stock market open?” An app can display prices, receive an instruction or show a countdown while a particular exchange is closed. This guide explains the clock, the calendar and the trading-session labels. It does not recommend a security or a time to buy or sell.
+
+## Which stock market does the question mean?
+
+There is no single opening bell for every financial instrument worldwide. Here, “stock market” means the NYSE regular equity session in the United States. A London share, a bond, an options contract and a cryptocurrency can operate under different schedules. Even within one exchange group, different venues have different early and late sessions.
+
+Start by naming the instrument and venue rather than naming only the app. A broker is the service through which a customer submits an instruction; the venue is where a transaction can take place. Those roles can overlap commercially, but they are different concepts. An app's availability does not establish an exchange's operating hours.
+
+For a classroom example, imagine a fictional share called EXAMPLE on a US exchange. The broker displays its last completed price on Sunday. That display is information about an earlier transaction, not evidence that a new Sunday trade can execute. The same screen may also contain a calculated indication that has a different meaning from an executed trade.
+
+## Regular hours and the 2026 holiday exceptions
+
+The exchange's published calendar is the authority for its scheduled sessions. Its standard core equity hours run for six and a half hours. Count from 9:30 to noon, which is two and a half hours, and then from noon to 4:00, another four hours. Do not round the opening time to ten o'clock.
+
+The following are selected late-2026 calendar entries, not a complete holiday calendar:
+
+| NYSE calendar date | Scheduled regular equity session |
+| --- | --- |
+| Thursday, 26 November 2026 | Closed for Thanksgiving |
+| Friday, 27 November 2026 | Early close at 1:00 p.m. Eastern |
+| Thursday, 24 December 2026 | Early close at 1:00 p.m. Eastern |
+| Friday, 25 December 2026 | Closed for Christmas |
+
+The published calendar also distinguishes eligible options and certain late sessions. The table above deliberately describes regular equities, so a reader does not mistake an options exception for a different closing time for all stocks. Always match the row's instrument to the instrument you are researching.
+
+Veterans Day, 11 November, is not listed among the NYSE's 2026 full-day market holidays. A federal holiday, bank closure or school holiday does not automatically close this equity session. Conversely, an exchange holiday can affect a market even when another business is open. Calendars belong to institutions, not to a universal definition of a working day.
+
+## Why Eastern Time changes the Pakistan conversion
+
+Eastern Time is a regional time designation. Its offset changes between standard time and daylight saving time. Pakistan uses a different offset, so the clock difference is not identical throughout the year. Writing “US time” without a city or zone leaves the conversion incomplete.
+
+For the November date in this guide, New York is on Eastern Standard Time, UTC minus five hours. Pakistan Standard Time is UTC plus five hours. Add ten hours to convert that New York time into Pakistan time. Thus 9:30 a.m. becomes 7:30 p.m.; 4:00 p.m. becomes 2:00 a.m. on the next calendar day.
+
+During Eastern daylight saving time, the corresponding difference is nine hours. The ordinary opening therefore converts to 6:30 p.m. in Pakistan and the ordinary close to 1:00 a.m. the following day. These are seasonal conversions of the standard session, not a promise that an exchange holiday has disappeared.
+
+For a student building a timetable, keep two fields: an exchange date and a local date. A Thursday US session can finish early Friday in Pakistan. Sorting events only by the reader's local date may put a closing event alongside the wrong opening event. This is a date-handling problem as much as a clock-handling problem.
+
+## Work through an early-close conversion
+
+Consider the scheduled Friday after Thanksgiving, 27 November 2026. The regular equity session starts at the usual 9:30 a.m. Eastern, but closes at 1:00 p.m. Eastern. In Pakistan, the corresponding interval is 7:30 p.m. to 11:00 p.m. on that same Friday.
+
+The arithmetic also changes the session length. From 9:30 to 1:00 is three and a half hours, compared with the usual six and a half. The difference is three hours. An application that changes its holiday flag but leaves a normal closing countdown unchanged would therefore mislead its users.
+
+Notice how this differs from a full-day closure. A shorter session has an opening, trading activity and a closing time. A closed day has no regular session to convert. Adding ten hours to a normal opening time cannot turn a holiday into an open market. Check the calendar before performing the conversion.
+
+## Pre-opening is different from premarket trading
+
+A venue may have a pre-opening period in which instructions are entered or queued for a later auction. Other venues may have an actual early trading session. These descriptions sound similar but do different jobs. Read the exchange's specific session label rather than treating every activity before 9:30 as the same service.
+
+An opening auction brings eligible interest together under the venue's rules. Continuous trading is a different process, in which orders can interact as trading proceeds. This distinction helps explain why an order status can change around the bell and why the last price before the bell is not a guaranteed opening price.
+
+A broker may also restrict which customers, securities or order types can use extended hours. Therefore a venue's published early-session timetable does not by itself prove that your particular account has access. The relevant broker documentation must explain that access. An educational calendar should keep those two sources separate.
+
+## Why an order can remain pending
+
+“Submitted” and “executed” describe different stages. Submission means an instruction was sent or accepted into a system. Execution means a transaction occurred. Between those stages, an instruction may wait, be rejected, expire or remain unmatched, depending on its terms and the applicable venue rules.
+
+Imagine a fictional buyer willing to pay at most 20 units while the available seller requests 21 units. An open session does not erase the difference. Without compatible interest or a changed instruction, the example does not produce a trade merely because the clock says 9:30. Opening hours describe availability of a process, not a guaranteed outcome.
+
+Likewise, an overnight instruction may carry a validity setting that matters when the next session begins. Do not infer those terms from a generic countdown. Read the order ticket, its confirmation and the broker's explanation. This guide explains the vocabulary; account-specific questions require the service's own support and documentation.
+
+## Price timestamps matter as much as the bell
+
+A displayed number may be the previous session's last trade, a delayed quote or an extended-hours observation. Those are not interchangeable. Before comparing two screens, identify the timestamp, currency, instrument and price type. A difference can result from comparing different observations rather than from an incorrect exchange clock.
+
+Suppose a classroom screen shows a fictional closing observation of 50 and a later indication of 51. Calling that a one-unit “opening gain” would be premature before the opening transaction being discussed has occurred. It is more precise to identify what the 51 actually represents and when it was recorded.
+
+The same care applies to screenshots shared across time zones. A screenshot labelled 8:00 p.m. is incomplete without its date and zone. It might be before the US open for one reader, after the close for another, or simply an old image. A proper note records a full timestamp instead of relying on the author's location.
+
+Keep the original exchange timestamp alongside the converted value. That makes an incorrect seasonal offset easier to spot when someone reviews your calculation later.
+
+## A useful checklist for a market-hours page
+
+Readers can resolve most calendar questions in a repeatable order. First identify the exchange and security type. Next open the exchange's current-year calendar. Then check for a full-day holiday, an early close or a special notice. Only after that should you convert the published session into your own time zone.
+
+Finally, check the broker's access conditions separately. This prevents a common mistake: using an exchange schedule to promise functionality that an account does not support. The schedule answers when the venue operates; the broker's conditions answer how the customer can use it. Neither source should silently substitute for the other.
+
+For a saved note, a practical format is “NYSE regular equities; exchange date; open and close in Eastern Time; local open and close; calendar checked on date.” That compact record is easier to audit later than a screenshot of a countdown with no explanation of its inputs.
+
+## Build a small time-zone learning exercise
+
+Create three fictional calendar records: one ordinary session, one early-closing session and one closed day. Give each record an exchange date, a session label and a time zone. Convert the two active sessions into Pakistan time, then leave the closed day's opening and closing values empty rather than inventing times.
+
+Now sort by exchange date and compare that with a sort by local closing date. The ordinary November session crosses midnight in Pakistan, while the November early close in the example does not. This exercise makes the date boundary visible without requiring money, a trading account or a connection to a live price feed.
+
+If you are writing software, use a time-zone-aware date library or the runtime's regional time facilities. A permanent instruction to “add ten hours” will fail during part of the year. The business calendar and the time-zone conversion are separate inputs, and both must be correct for the displayed answer to be reliable.
+
+For more study material and explanations, visit the [RayTech updates and guides](/blogs/). This exercise is about dates and data modelling, so it can also be completed with a spreadsheet and a paper calendar. A live brokerage connection adds complexity that is unnecessary for learning the underlying logic.
+
+## Common questions about the opening time
+
+### Does the stock market open at 9:00 a.m.?
+
+For the NYSE regular equity session, the scheduled opening is 9:30 a.m. Eastern, not 9:00. Earlier order entry or an early session on a particular venue is a separate category. State the session name whenever you give a time, especially when answering someone who is looking at an app before the regular bell.
+
+### Is the market closed every US public holiday?
+
+No universal public-holiday rule should replace the exchange calendar. The NYSE publishes its own observed holidays and early-closing dates. Veterans Day illustrates why a general federal-holiday list is insufficient. Check the relevant year, since observed dates can also differ from the calendar date of a holiday.
+
+### Does an open app mean the exchange is open?
+
+No. An app can remain available to display information or receive instructions while the regular session is closed. Check the timestamp and order status, then consult the venue and broker documentation. The availability of the interface is a property of the service, not proof of an executed market transaction.
+
+### Is the Pakistan opening time always 7:30 p.m.?
+
+No. That conversion applies to the normal 9:30 a.m. Eastern opening while New York uses standard time. During Eastern daylight saving time, the corresponding Pakistan time is normally 6:30 p.m. The exchange's holiday calendar still determines whether a regular session takes place on the selected date.
+
+### What should I check before using this guide later?
+
+Recheck the current exchange calendar, the correct time-zone offset for your date and any special trading notices. This page records the 2026 schedule checked for publication on 12 November. It is a reference for understanding schedules, not a live exchange-status monitor, price service or personalised investing instruction.
+
+## Sources
+
+- [NYSE official holidays and trading hours](https://www.nyse.com/trade/hours-calendars)
+- [NYSE explanation of the opening and closing bell](https://www.nyse.com/bell)
+- [SEC Investor.gov explanation of after-hours trading and broker access](https://www.investor.gov/introduction-investing/investing-basics/glossary/after-hours-trading)
+- [Nasdaq official market activity and regular-session hours](https://www.nasdaq.com/market-activity)

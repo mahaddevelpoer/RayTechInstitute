@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Jayson Tatum, Olympic Games 2024.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/celtics-vs-raptors-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jayson_Tatum%2C_Olympic_Games_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Jayson_Tatum,_Olympic_Games_2024.jpg",
+    "creator": "Clément Bardot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Jayson Tatum at the 2024 Olympic Games",
+    "description": "Jayson Tatum during Olympic Games 2024",
+    "caption": "Jayson Tatum photographed at the 2024 Olympic Games. Archive image, not the November 2026 Toronto fixture.",
+    "width": 793,
+    "height": 960,
+    "bytes": 79234,
+    "sha1": "73d055c03295dd31ab99a501e1bbe38204ff34de",
+    "photographedAt": "2024-08-03 16:54:35",
+    "query": "Jayson Tatum basketball",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Raptors vs Bucks 2.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/celtics-vs-raptors-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Raptors_vs_Bucks_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Raptors_vs_Bucks_2.jpg",
+    "creator": "Luke",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "An archive Toronto Raptors game against Milwaukee",
+    "description": "A Toronto Raptors home basketball game against the Milwaukee Bucks at the Scotiabank Arena in 2012.",
+    "caption": "Archive photograph of Toronto playing Milwaukee. It illustrates basketball context and does not show the Boston game discussed here.",
+    "width": 1280,
+    "height": 956,
+    "bytes": 252336,
+    "sha1": "7048c666b247575006cf144539a226ed9a05d475",
+    "photographedAt": "2012-02-11 12:08:07",
+    "query": "Scotiabank Arena basketball",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

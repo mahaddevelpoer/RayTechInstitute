@@ -1,0 +1,63 @@
+{
+  "state": "partial-batch-local-verified-unpublished",
+  "expectedBatchSize": 10,
+  "completedDrafts": 5,
+  "pendingDrafts": [
+    "rex-ryan",
+    "celtics-vs-raptors",
+    "ayesha-curry",
+    "nuggets-vs-grizzlies",
+    "isabelle-huppert"
+  ],
+  "bodyWords": 10125,
+  "uniqueLicensedImages": 10,
+  "tags": 210,
+  "productionContentMutated": false,
+  "deploymentDispatched": false,
+  "checks": [
+    "body words",
+    "metadata limits",
+    "42 distinct tags per article",
+    "global image uniqueness",
+    "image dimensions and format",
+    "visual review",
+    "source fields",
+    "duplicate slugs and IDs",
+    "private credential patterns",
+    "safe Markdown",
+    "unchanged PK queue",
+    "time-zone examples and arithmetic"
+  ],
+  "results": [
+    {
+      "key": "social-security-trust-fund-depletion-2032",
+      "words": 2001,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mandalorian",
+      "words": 2015,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "when-does-the-stock-market-open",
+      "words": 2016,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "lisa-su",
+      "words": 2053,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "supreme-court-of-the-united-states",
+      "words": 2040,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
