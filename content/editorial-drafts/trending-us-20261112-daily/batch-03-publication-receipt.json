@@ -1,0 +1,18 @@
+{
+  "state": "published-live-verified",
+  "inserted": 5,
+  "verified": 5,
+  "existingArticlesPreserved": 531,
+  "articles": [
+    "polar-vortex-el-nino-winter-weather-2026-outlook-explained",
+    "northern-taurid-meteor-shower-2026-viewing-science-guide",
+    "hubspot-crm-records-relationships-beginner-guide",
+    "cloud-gaming-browser-latency-client-server-guide",
+    "google-play-store-app-safety-updates-student-guide"
+  ],
+  "sourceRevision": "75227712b0592d46b4fff2878303a124cad9e6fb",
+  "workflowRun": "43274196636",
+  "liveVerification": "batch-03-live-verification.json",
+  "workflowEvidence": "batch-03-workflow-result.json",
+  "allCurrentUsArticlesVerified": 25
+}

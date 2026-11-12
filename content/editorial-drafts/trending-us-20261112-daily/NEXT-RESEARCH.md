@@ -1,10 +1,20 @@
-# Next United States November 12 batch
+# Next United States November 12 work
 
-20 articles from this CSV are published and live verified. Continue in complete batches of ten, manually written without subagents or an external drafting API. Each article needs at least 2,000 body words, 42 relevant distinct tags and two globally unique licensed network images. Do not invent a fresh event for a name-only query.
+25 US CSV articles are published and live verified. The latest user explicitly requested publication of the five ready articles; batch 3 was released with five rather than waiting for ten. The other five proposals remain unwritten and unapproved as factual stories until researched.
 
-404 candidate groups remain, subject to source research, duplicate checks and clear context. They are not guaranteed to be 404 publishable separate articles. Existing coverage and ambiguous rows must remain distinguished from new stories. Earlier PK queues stay unchanged.
+399 candidate groups remain, subject to relevance, source, duplicate and context checks. They are not a promise of 399 separate publishable articles. Prioritise useful technology, science and educational work as described in US-EDITORIAL-STRATEGY.md. Keep earlier PK queues unchanged.
 
-## Next candidates in original order
+## Deferred proposals to research first
+
+- tim cook (tim-cook)
+- bethesda skyrim 15th anniversary remaster (bethesda-skyrim-15th-anniversary-remaster)
+- dji (dji)
+- science fiction (science-fiction)
+- spacex launch (spacex-launch)
+
+Verify primary sources and current context before drafting. In particular, Tim Cook is identified by Apple as executive chair; do not invent a Nvidia appointment. Bethesda’s verified anniversary announcement concerns a Creation Bundle, not automatically a remaster. Establish a dated actual SpaceX mission before writing a launch story. See batch-03-research.md.
+
+## Further candidates in original order
 
 - usman nurmagomedov (usman-nurmagomedov)
 - mo3 (mo3)
@@ -26,14 +36,9 @@
 - last time i checked tour (last-time-i-checked-tour)
 - nbis stock (nbis-stock)
 - pep guardiola (pep-guardiola)
-- bethesda skyrim 15th anniversary remaster (bethesda-skyrim-15th-anniversary-remaster)
-- ayanna pressley (ayanna-pressley)
-- eroica (eroica)
-- house advances major richard star act (house-advances-major-richard-star-act)
-- tim cook (tim-cook)
 
-## Release procedure
+## Next release
 
-Start with a fresh published-index-batch-3.json duplicate baseline. Add a third explicit release-batch record only after selecting ten clear, nonduplicate topics. Verify current sources, write full articles, review all image licences and actual images, validate the exact batch, dry-run publication, preserve existing records, save and read back, dispatch one static release, and verify exact live revision, page metadata, image bytes, listing and sitemap.
+Take a fresh published-index-batch-4.json baseline; the prior release preserved 531 existing records and inserted five, giving an expected count of 536 before any later independent admin changes. Refresh rather than assuming that count remains current. Write manually without subagents or external drafting APIs. Retain the owner’s 2,000-body-word requirement, 42 relevant distinct tags and two globally unique licensed images per article. Follow the latest ready-work publication instruction with an explicit release-batch record matching the actual selected ready articles.
 
-Large local full-record reads timed out at 500 rows per page. The local-only publisher copy in artifacts/us-nov12-publish-small-pages.mjs uses complete 50-row pagination with the original insert, readback and preservation checks. It changes no production API or public runtime. Regenerate it from the current scripts before another release instead of assuming an old helper matches later changes.
+Run full batch validation, publication dry run, full database readback/preservation checks, one static release and exact-revision live page/image/metadata/listing/sitemap verification. Record publication only after those checks pass. The local 50-row snapshot publisher workaround is documented in batch-03-research.md; regenerate it from current scripts before reuse.

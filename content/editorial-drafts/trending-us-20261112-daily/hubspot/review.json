@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2157,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-12",
   "scope": "Verified official source context plus original educational exercises. No invented trend cause, current local weather guarantee, product testing claim or subscription entitlement.",
   "visualReviewEvidence": "artifacts/us-nov12/batch03-first-five-review.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/hubspot-crm-records-relationships-beginner-guide/",
+  "liveVerifiedAt": "2026-11-12T18:00:47.718Z",
+  "releaseRevision": "75227712b0592d46b4fff2878303a124cad9e6fb",
+  "workflowRun": "43274196636"
 }

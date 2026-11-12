@@ -1,0 +1,186 @@
+{
+  "checkedAt": "2026-11-12T18:00:47.718Z",
+  "expectedRevision": "75227712b0592d46b4fff2878303a124cad9e6fb",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-12T17:56:39.262Z",
+    "revision": "75227712b0592d46b4fff2878303a124cad9e6fb",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 647,
+    "sitemapSha256": "f8e9af90be23f923e83aff3ee0662be2f23df46c0a0e11fd4eca60edbe084d41",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43274196636"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "northern-taurids-meteor-shower",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/northern-taurid-meteor-shower-2026-viewing-science-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/northern-taurids-meteor-shower-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/northern-taurids-meteor-shower-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "cloud-gaming",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/cloud-gaming-browser-latency-client-server-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/cloud-gaming-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/cloud-gaming-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "google-play-store",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/google-play-store-app-safety-updates-student-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/google-play-store-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/google-play-store-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "polar-vortex-el-ni-o-winter-weather",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/polar-vortex-el-nino-winter-weather-2026-outlook-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/polar-vortex-el-ni-o-winter-weather-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/polar-vortex-el-ni-o-winter-weather-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "hubspot",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/hubspot-crm-records-relationships-beginner-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/hubspot-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/hubspot-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

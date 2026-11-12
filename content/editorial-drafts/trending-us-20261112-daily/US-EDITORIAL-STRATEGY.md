@@ -35,7 +35,7 @@ Review a consistent several-week window rather than treating one newly indexed p
 
 ## Current implementation
 
-Twenty US CSV articles remain published and live verified. Batch 3 has five locally verified, unpublished educational/technology drafts: Northern Taurids, cloud gaming, Google Play Store, polar vortex and El Niño, and HubSpot CRM. Each exceeds 2,000 body words and has 42 relevant distinct tags and two globally unique licensed images. Their combined totals are 10,364 body words, 210 tags and ten images.
+The assessment began with twenty published US CSV articles. After the user's explicit instruction to publish the ready work, batch 3's five educational/technology articles were also published: Northern Taurids, cloud gaming, Google Play Store, polar vortex and El Niño, and HubSpot CRM. Each exceeds 2,000 body words and has 42 relevant distinct tags and two globally unique licensed images. Their combined totals are 10,364 body words, 210 tags and ten images. All twenty-five current US articles passed exact-revision live verification.
 
 The assessment itself changed no production records, hosting deployment or public interface. Subsequently, the user explicitly authorised publishing the five ready articles, overriding the earlier ten-article release preference for this release. Consult STATUS.md and batch-03 evidence for the publication outcome; the other five proposals remain deferred.
 

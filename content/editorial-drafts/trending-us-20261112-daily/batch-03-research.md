@@ -43,3 +43,7 @@ These are proposals, not guaranteed publishable topics. Select verified, useful 
 Fresh duplicate baseline: `artifacts/us-nov12/published-index-batch-3.json`, containing 531 published records. Preserve all existing articles and the protected PK queue. The full five-article validator and publication dry run have passed. Commit reviewed assets, publish with complete readback and preservation checks, dispatch one static build, verify exact live revision and all page/image/sitemap/listing checks, then record proof. Do not publish the deferred proposals as part of this release.
 
 The local publisher's 500-row full-record reads previously timed out. The local-only helper using 50-row pagination completed safely while preserving all comparison checks. Regenerate it from current scripts before reuse. No production API or public runtime was changed for that workaround.
+
+## Completed five-article release
+
+All five authorised articles were saved and read back with 531 existing records preserved. Workflow 43274196636 succeeded for source 75227712b0592d46b4fff2878303a124cad9e6fb. Exact-revision live checks passed for all 25 current US articles, including page metadata, both image files, listing and sitemap. The deferred proposals were not published.

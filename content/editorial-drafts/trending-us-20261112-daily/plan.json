@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-03-five-article-release-authorised",
+  "state": "batch-03-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
@@ -407,8 +407,9 @@
       "query": "polar vortex el niño winter weather",
       "breakdown": "polar vortex el niño winter weather,polar vortex",
       "volume": "2k+",
-      "state": "needs-research",
-      "group": "polar-vortex-el-ni-o-winter-weather"
+      "state": "published-live-verified",
+      "group": "polar-vortex-el-ni-o-winter-weather",
+      "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained"
     },
     {
       "row": 48,
@@ -480,8 +481,9 @@
       "query": "northern taurids meteor shower",
       "breakdown": "northern taurids meteor shower,meteor shower tonight,meteor shower",
       "volume": "10k+",
-      "state": "needs-research",
-      "group": "northern-taurids-meteor-shower"
+      "state": "published-live-verified",
+      "group": "northern-taurids-meteor-shower",
+      "slug": "northern-taurid-meteor-shower-2026-viewing-science-guide"
     },
     {
       "row": 57,
@@ -848,8 +850,9 @@
       "query": "hubspot",
       "breakdown": "hubspot",
       "volume": "500+",
-      "state": "needs-research",
-      "group": "hubspot"
+      "state": "published-live-verified",
+      "group": "hubspot",
+      "slug": "hubspot-crm-records-relationships-beginner-guide"
     },
     {
       "row": 103,
@@ -888,8 +891,9 @@
       "query": "cloud gaming",
       "breakdown": "cloud gaming,ps5 pro features gta 6,lucia gta 6,youfibre gta 6 network issues,gta 6 pc,gta 6 ultimate edition",
       "volume": "5k+",
-      "state": "needs-research",
-      "group": "cloud-gaming"
+      "state": "published-live-verified",
+      "group": "cloud-gaming",
+      "slug": "cloud-gaming-browser-latency-client-server-guide"
     },
     {
       "row": 108,
@@ -2751,8 +2755,9 @@
       "query": "google play store",
       "breakdown": "google play store",
       "volume": "100+",
-      "state": "needs-research",
-      "group": "google-play-store"
+      "state": "published-live-verified",
+      "group": "google-play-store",
+      "slug": "google-play-store-app-safety-updates-student-guide"
     },
     {
       "row": 342,
@@ -3966,7 +3971,7 @@
     {
       "key": "polar-vortex-el-ni-o-winter-weather",
       "query": "polar vortex el niño winter weather",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "polar vortex diagram NOAA",
         "equatorial Pacific ocean"
@@ -4029,7 +4034,7 @@
     {
       "key": "northern-taurids-meteor-shower",
       "query": "northern taurids meteor shower",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Taurid meteor shower",
         "Taurus constellation stars"
@@ -4310,7 +4315,7 @@
     {
       "key": "hubspot",
       "query": "hubspot",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "business contact management notebook",
         "office computer workspace"
@@ -4345,7 +4350,7 @@
     {
       "key": "cloud-gaming",
       "query": "cloud gaming",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "game controller computer",
         "data center servers"
@@ -5679,7 +5684,7 @@
     {
       "key": "google-play-store",
       "query": "google play store",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "Android smartphone apps",
         "Android smartphone settings"
@@ -6350,7 +6355,7 @@
       ],
       "expectedSize": 5,
       "explicitUserAuthorization": "User explicitly instructed: continue and publish the articles already written. This authorises the five completed reviewed drafts now, overriding the prior ten-article release preference for this batch.",
-      "state": "local-verified-awaiting-release",
+      "state": "published-live-verified",
       "validationFile": "batch-03-validation.json",
       "deferredProposals": [
         "tim-cook",
@@ -6358,7 +6363,10 @@
         "dji",
         "science-fiction",
         "spacex-launch"
-      ]
+      ],
+      "revision": "75227712b0592d46b4fff2878303a124cad9e6fb",
+      "workflowRun": "43274196636",
+      "liveVerifiedAt": "2026-11-12T18:00:47.718Z"
     }
   ]
 }
