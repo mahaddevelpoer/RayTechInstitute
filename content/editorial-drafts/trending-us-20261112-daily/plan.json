@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-02-published-next-research-pending",
+  "state": "batch-03-five-article-release-authorised",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
@@ -3920,7 +3920,10 @@
       "key": "bethesda-skyrim-15th-anniversary-remaster",
       "query": "bethesda skyrim 15th anniversary remaster",
       "state": "needs-research",
-      "queries": []
+      "queries": [
+        "Skyrim landscape game",
+        "Skyrim cosplay"
+      ]
     },
     {
       "key": "ayanna-pressley",
@@ -3955,13 +3958,21 @@
       "key": "tim-cook",
       "query": "tim cook",
       "state": "needs-research",
-      "queries": []
+      "queries": [
+        "Tim Cook Apple",
+        "Apple Park Cupertino"
+      ]
     },
     {
       "key": "polar-vortex-el-ni-o-winter-weather",
       "query": "polar vortex el niño winter weather",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "polar vortex diagram NOAA",
+        "equatorial Pacific ocean"
+      ],
+      "title": "Polar Vortex and El Niño Winter Weather: Reading the November 2026 Outlook",
+      "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained"
     },
     {
       "key": "unruly-aircraft-passenger",
@@ -4018,8 +4029,13 @@
     {
       "key": "northern-taurids-meteor-shower",
       "query": "northern taurids meteor shower",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Taurid meteor shower",
+        "Taurus constellation stars"
+      ],
+      "title": "Northern Taurid Meteor Shower 2026: Viewing, Rates and a Student Observing Guide",
+      "slug": "northern-taurid-meteor-shower-2026-viewing-science-guide"
     },
     {
       "key": "teri-polo",
@@ -4294,8 +4310,13 @@
     {
       "key": "hubspot",
       "query": "hubspot",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "business contact management notebook",
+        "office computer workspace"
+      ],
+      "title": "HubSpot CRM for Beginners: Records, Relationships and a Practical Data Project",
+      "slug": "hubspot-crm-records-relationships-beginner-guide"
     },
     {
       "key": "winter-weather-advisory",
@@ -4324,8 +4345,13 @@
     {
       "key": "cloud-gaming",
       "query": "cloud gaming",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "game controller computer",
+        "data center servers"
+      ],
+      "title": "Cloud Gaming Explained: Browser Play, Latency and the Client-Server Model",
+      "slug": "cloud-gaming-browser-latency-client-server-guide"
     },
     {
       "key": "lindenwood-vs-nebraska",
@@ -5333,7 +5359,10 @@
       "key": "spacex-launch",
       "query": "spacex launch",
       "state": "needs-research",
-      "queries": []
+      "queries": [
+        "SpaceX Falcon 9 launch",
+        "SpaceX rocket launch pad"
+      ]
     },
     {
       "key": "hank-aaron-award",
@@ -5650,8 +5679,13 @@
     {
       "key": "google-play-store",
       "query": "google play store",
-      "state": "needs-research",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "Android smartphone apps",
+        "Android smartphone settings"
+      ],
+      "title": "Google Play Store Guide: App Safety, Updates and Sensible Troubleshooting",
+      "slug": "google-play-store-app-safety-updates-student-guide"
     },
     {
       "key": "bob-woodruff",
@@ -6005,7 +6039,10 @@
       "key": "science-fiction",
       "query": "science fiction",
       "state": "needs-research",
-      "queries": []
+      "queries": [
+        "science fiction books library",
+        "science fiction reading"
+      ]
     },
     {
       "key": "pete-davidson",
@@ -6029,7 +6066,10 @@
       "key": "dji",
       "query": "dji",
       "state": "needs-research",
-      "queries": []
+      "queries": [
+        "DJI camera drone",
+        "drone aerial photography"
+      ]
     },
     {
       "key": "toronto-raptors",
@@ -6298,6 +6338,27 @@
       "revision": "d2f084a31b6c8e85be9f47fbb4278e8c6dd7f806",
       "workflowRun": "43264312677",
       "liveVerifiedAt": "2026-11-12T17:07:35.692Z"
+    },
+    {
+      "number": 3,
+      "keys": [
+        "northern-taurids-meteor-shower",
+        "cloud-gaming",
+        "google-play-store",
+        "polar-vortex-el-ni-o-winter-weather",
+        "hubspot"
+      ],
+      "expectedSize": 5,
+      "explicitUserAuthorization": "User explicitly instructed: continue and publish the articles already written. This authorises the five completed reviewed drafts now, overriding the prior ten-article release preference for this batch.",
+      "state": "local-verified-awaiting-release",
+      "validationFile": "batch-03-validation.json",
+      "deferredProposals": [
+        "tim-cook",
+        "bethesda-skyrim-15th-anniversary-remaster",
+        "dji",
+        "science-fiction",
+        "spacex-launch"
+      ]
     }
   ]
 }

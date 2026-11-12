@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Taurid Meteor Shower - Joshua Tree, California - 6 Nov. 2015.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Taurid_Meteor_Shower_-_Joshua_Tree%2C_California_-_6_Nov._2015.jpg/1280px-Taurid_Meteor_Shower_-_Joshua_Tree%2C_California_-_6_Nov._2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Taurid_Meteor_Shower_-_Joshua_Tree%2C_California_-_6_Nov._2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Taurid_Meteor_Shower_-_Joshua_Tree,_California_-_6_Nov._2015.jpg",
+    "creator": "Channone Arif",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Taurid meteor shower photographed at Joshua Tree in November 2015",
+    "description": "Canon 6d - Rokinon 14mm - F2.8 - ISO 6400 - 30s Exposure",
+    "caption": "Archive Taurid photograph at Joshua Tree, California, on 6 November 2015. It does not document the 2026 peak.",
+    "width": 5472,
+    "height": 3648,
+    "bytes": 22197738,
+    "sha1": "9d69db8ace36291d6a532aefb9976e14e4ad47b4",
+    "photographedAt": "2015-11-06 01:23",
+    "query": "Taurid meteor shower",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Emission nebulae behind molecular clouds in Perseus and Taurus.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Emission_nebulae_behind_molecular_clouds_in_Perseus_and_Taurus.jpg/1280px-Emission_nebulae_behind_molecular_clouds_in_Perseus_and_Taurus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Emission_nebulae_behind_molecular_clouds_in_Perseus_and_Taurus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Emission_nebulae_behind_molecular_clouds_in_Perseus_and_Taurus.jpg",
+    "creator": "TK833",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Nebulae and molecular clouds in the Perseus and Taurus sky region",
+    "description": "Emission nebulae behind molecular clouds in the constellations Perseus and Taurus seen by the Northern Sky Narrowband Survey . Ionized hydrogen (Hα at 656.3 nm, without continuum) is mapped to red, blue continuum (including some [OIII] and Hβ emissions) is mapped to green, and red continuum (without Hα but with some [SII] emissions) is mapped to blue. Emission nebulae are reddish while reflection nebulae are green to blue. Stars are partially subtracted in order to make the faint nebulae visible. The field of view is 32° × 32°. Equatorial center coordinates are RA=3h43m and DEC=34°. North is up. The bright, pinkish nebula near the center is the California Nebula . It appears to be the brightest part of a much larger structure that is partially obscured by dense molecular clouds. In this image, the Taurus Molecular Cloud and the Pleiades seem to be connected (lower left quarter of the image; see annotations). Indeed, they lie at the same distance, making it likely that these objects are related.",
+    "caption": "An astronomical image of nebulae and molecular clouds in Perseus and Taurus. This is not a meteor photograph or a prediction of where a streak will appear.",
+    "width": 3865,
+    "height": 3865,
+    "bytes": 7654315,
+    "sha1": "5b06e30c42efd1dd13ad9d4959d23def86624bae",
+    "photographedAt": "2025-10-28",
+    "query": "Taurus constellation stars",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

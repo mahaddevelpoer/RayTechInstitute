@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2105,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-12",
+  "scope": "Verified official source context plus original educational exercises. No invented trend cause, current local weather guarantee, product testing claim or subscription entitlement.",
+  "visualReviewEvidence": "artifacts/us-nov12/batch03-first-five-review.png",
+  "localChecks": "validation.json"
+}

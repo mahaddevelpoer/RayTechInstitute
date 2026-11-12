@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:November2013 polar vortex geopotentialheight mean Large.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/November2013_polar_vortex_geopotentialheight_mean_Large.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/November2013_polar_vortex_geopotentialheight_mean_Large.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:November2013_polar_vortex_geopotentialheight_mean_Large.jpg",
+    "creator": "National Oceanic and Atmospheric Administration - Pacific Marine Environmental Laboratory",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:November2013_polar_vortex_geopotentialheight_mean_Large.jpg",
+    "alt": "NOAA polar-vortex circulation illustration from November 2013",
+    "description": "Typical polar vortex configuration in November, 2013.",
+    "caption": "Archive NOAA depiction of polar circulation in November 2013. It explains the atmospheric context and is not a 2026 forecast.",
+    "width": 636,
+    "height": 689,
+    "bytes": 267585,
+    "sha1": "56bf1bf02905807bfc809848f97cf5aed9e14b9c",
+    "photographedAt": "2014-01-08 08:44:21",
+    "query": "polar vortex diagram NOAA",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:El Niño global impacts, December to February.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/El_Ni%C3%B1o_global_impacts%2C_December_to_February.jpg/1280px-El_Ni%C3%B1o_global_impacts%2C_December_to_February.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/El_Ni%C3%B1o_global_impacts%2C_December_to_February.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Ni%C3%B1o_global_impacts,_December_to_February.jpg",
+    "creator": "NOAA NWS/NCEP Climate Prediction Center",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:El_Ni%C3%B1o_global_impacts,_December_to_February.jpg",
+    "alt": "NOAA illustration of typical El Nino impacts from December to February",
+    "description": "Global impacts of El Niño in December to February",
+    "caption": "NOAA educational illustration of general El Niño patterns. It is not a local forecast or a map of guaranteed conditions in winter 2026–27.",
+    "width": 2100,
+    "height": 1292,
+    "bytes": 471283,
+    "sha1": "9ad347751747b926d0da144780aa86817a412e94",
+    "photographedAt": "Unknown date",
+    "query": "\"El Nino\" NOAA",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

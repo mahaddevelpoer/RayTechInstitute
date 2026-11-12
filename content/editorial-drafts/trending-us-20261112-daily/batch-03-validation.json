@@ -1,0 +1,44 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 5,
+  "bodyWords": 10364,
+  "uniqueImages": 10,
+  "existingArticlesCompared": 531,
+  "results": [
+    {
+      "key": "polar-vortex-el-ni-o-winter-weather",
+      "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained",
+      "words": 2009,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "northern-taurids-meteor-shower",
+      "slug": "northern-taurid-meteor-shower-2026-viewing-science-guide",
+      "words": 2021,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "hubspot",
+      "slug": "hubspot-crm-records-relationships-beginner-guide",
+      "words": 2157,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "cloud-gaming",
+      "slug": "cloud-gaming-browser-latency-client-server-guide",
+      "words": 2105,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "google-play-store",
+      "slug": "google-play-store-app-safety-updates-student-guide",
+      "words": 2072,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

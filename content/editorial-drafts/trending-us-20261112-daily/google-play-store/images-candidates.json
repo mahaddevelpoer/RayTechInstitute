@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Google Pixel 9 Pro XL (back).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Google_Pixel_9_Pro_XL_%28back%29.jpg/1280px-Google_Pixel_9_Pro_XL_%28back%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Google_Pixel_9_Pro_XL_%28back%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_Pixel_9_Pro_XL_(back).jpg",
+    "creator": "D.328",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Back of a Google Pixel 9 Pro XL Android phone",
+    "description": "Google Pixel 9 Pro XL Back Side (Hazel)",
+    "caption": "Archive device photograph illustrating Android hardware. It does not establish a particular app’s current store availability.",
+    "width": 4794,
+    "height": 3175,
+    "bytes": 3528850,
+    "sha1": "df7322810e3096952d527762f91e81164cc5dfc5",
+    "photographedAt": "2024-12-11 11:28:32",
+    "query": "\"Google Pixel 9\" phone",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Google Play App Download.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Play_App_Download.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Play_App_Download.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_Play_App_Download.png",
+    "creator": "RWambua-WMF",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Example Wikipedia Android app listing on Google Play",
+    "description": "This is the Android Wikipedia App download page on Google Play Store.",
+    "caption": "An archive example of an app listing on Google Play. The illustrated app is Wikipedia; this is not a guarantee of the current interface layout.",
+    "width": 896,
+    "height": 1760,
+    "bytes": 163875,
+    "sha1": "172acbdd789f1748c55225e42073bfc4d8582187",
+    "photographedAt": "2023-06-26",
+    "query": "\"Google Play Store\" Android",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

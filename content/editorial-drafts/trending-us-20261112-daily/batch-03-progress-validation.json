@@ -1,0 +1,62 @@
+{
+  "state": "partial-batch-local-verified-unpublished",
+  "expectedBatchSize": 10,
+  "completedDrafts": 5,
+  "pendingDrafts": [
+    "tim-cook",
+    "bethesda-skyrim-15th-anniversary-remaster",
+    "dji",
+    "science-fiction",
+    "spacex-launch"
+  ],
+  "bodyWords": 10364,
+  "uniqueLicensedImages": 10,
+  "tags": 210,
+  "productionContentMutated": false,
+  "deploymentDispatched": false,
+  "checks": [
+    "body words",
+    "metadata limits",
+    "42 distinct tags per article",
+    "global image uniqueness",
+    "image dimensions and format",
+    "visual review",
+    "source fields",
+    "duplicate slugs and IDs",
+    "private credential patterns",
+    "safe Markdown",
+    "unchanged PK queue"
+  ],
+  "results": [
+    {
+      "key": "northern-taurids-meteor-shower",
+      "words": 2021,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "cloud-gaming",
+      "words": 2105,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "google-play-store",
+      "words": 2072,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "polar-vortex-el-ni-o-winter-weather",
+      "words": 2009,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "hubspot",
+      "words": 2157,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

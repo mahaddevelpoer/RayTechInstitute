@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Microsoft-Xbox-One-controller.jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/cloud-gaming-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Microsoft-Xbox-One-controller.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Microsoft-Xbox-One-controller.jpg",
+    "creator": "Evan-Amos",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Microsoft-Xbox-One-controller.jpg",
+    "alt": "An Xbox One controller",
+    "description": "The Xbox One controller, included with the various editions of Microsoft's Xbox One console.",
+    "caption": "Archive photograph of an Xbox One controller, illustrating game input. Check the cloud service’s current device and game compatibility.",
+    "width": 1057,
+    "height": 960,
+    "bytes": 70472,
+    "sha1": "8de07db328569b29665663301ae40d8726cfa5fd",
+    "photographedAt": "2014-01-28 10:38:09",
+    "query": "\"Xbox One\" controller",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Datacenter Server Racks (22370909788).jpg",
+    "url": "/images/editorial/trending-us-20261112-daily/cloud-gaming-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+    "creator": "Carl Lender from Sunrise, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Server racks in a data centre",
+    "description": "Real Estate",
+    "caption": "Archive data-centre photograph illustrating remote computing. These racks are not identified as Xbox infrastructure.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 164458,
+    "sha1": "0896eefb2ef41acbd3dead171a020d8bc78d5c79",
+    "photographedAt": "2015-11-04 11:52",
+    "query": "server racks data center",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]
