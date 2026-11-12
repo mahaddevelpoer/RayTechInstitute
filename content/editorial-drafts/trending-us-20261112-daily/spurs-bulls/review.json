@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2049,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-12",
   "scope": "Dated attributed reporting plus original learning examples. No invented medical diagnosis, suspect identity, cause, first-hand viewing or future availability. Archive images explicitly captioned.",
   "imageVisualReviewEvidence": "All 20 final images visually reviewed in two labelled contact sheets. Unrelated performer and political-appearance photographs replaced before release. Archive/context captions preserved.",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/spurs-bulls-124-119-wembanyama-november-11-2026/",
+  "liveVerifiedAt": "2026-11-12T15:51:27.556Z",
+  "releaseRevision": "62d527247bfd2698bd3047757342616a6a8c3170",
+  "workflowRun": "43251099699"
 }

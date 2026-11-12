@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-01-research-in-progress",
+  "state": "batch-01-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
@@ -31,16 +31,18 @@
       "query": "building collapse nyc",
       "breakdown": "building collapse nyc,brooklyn building,brooklyn building collapse,nyc building collapse,building collapse brooklyn,flatbush building collapse,brooklyn collapse,new york building collapse,brooklyn building collapsed,brooklyn building collapse address,1321 flatbush ave,brooklyn,brooklyn building collapses,new york,1321 flatbush avenue brooklyn ny,building collapse,flatbush,collapsed building brooklyn,1321 flatbush avenue,brooklyn bridge collapse,flatbush brooklyn,nyc,building collapse in brooklyn today,new york building rescue operation,building collapse in brooklyn,building collapse flatbush,new york city building collapse,2625 bedford ave,what building collapsed in brooklyn,1321 flatbush ave brooklyn ny,ny building collapse,flatbush building,nyc building collapse today,brooklyn news,2625 bedford avenue brooklyn ny,new york city,building in brooklyn collapse,brooklyn apartment collapse,building collapse brooklyn ny today,new york news,2625 bedford avenue,nyc news,brooklyn building colapse,building collapse brooklyn today,brooklyn building collapse 11 11 26,building collapse nyc today,brooklyn ny,brooklyn collapse today,building collapse in brooklyn new york",
       "volume": "500k+",
-      "state": "needs-research",
-      "group": "brooklyn-collapse"
+      "state": "published-live-verified",
+      "group": "brooklyn-collapse",
+      "slug": "brooklyn-building-collapse-november-12-2026-confirmed-updates"
     },
     {
       "row": 3,
       "query": "anthony clark",
       "breakdown": "anthony clark,anthony clark comedian,comedian anthony clark death,anthony clark cause of death,yes dear,yes dear anthony clark,comedian anthony clark yes dear,how did anthony clark die,yes dear tv show,mike o'malley,anthony clark death,anthony clark what happened,yes, dear",
       "volume": "200k+",
-      "state": "needs-research",
-      "group": "anthony-clark"
+      "state": "published-live-verified",
+      "group": "anthony-clark",
+      "slug": "anthony-clark-yes-dear-comedy-career-remembrance"
     },
     {
       "row": 4,
@@ -54,24 +56,27 @@
       "query": "disco singer rochelle fleming passes",
       "breakdown": "disco singer rochelle fleming passes",
       "volume": "100k+",
-      "state": "needs-research",
-      "group": "rochelle-fleming"
+      "state": "published-live-verified",
+      "group": "rochelle-fleming",
+      "slug": "rochelle-fleming-first-choice-soul-disco-legacy"
     },
     {
       "row": 6,
       "query": "warriors vs rockets",
       "breakdown": "warriors vs rockets,steph curry injury,curry injury,rockets vs warriors,steph curry,stephen curry,warriors steph curry injury,golden state warriors vs houston rockets match player stats,warriors - rockets,stephen curry injury,reed sheppard,gsw vs rockets,warriors news,rockets,is steph curry playing tonight,warriors rockets,warriors game,golden state warriors vs houston rockets,warriors score,what happened to steph curry,rockets game,is curry injured,houston rockets vs golden state warriors match player stats,curry steph,did steph curry get hurt tonight,is steph curry injured,curry basketball,curry injured,rockets warriors,steph curry hurt,steph injury,is steph curry hurt,what happened to curry",
       "volume": "200k+",
-      "state": "needs-research",
-      "group": "warriors-rockets"
+      "state": "published-live-verified",
+      "group": "warriors-rockets",
+      "slug": "warriors-rockets-115-108-curry-november-11-2026"
     },
     {
       "row": 7,
       "query": "active shooter dc",
       "breakdown": "active shooter dc,dc shooting,logan circle,dc active shooter,logan circle shooting,logan circle dc,washington dc,dc news,dc shooter,shooting in dc,active shooter in dc,active shooter washington,active shooter logan circle,shooting dc,dc,active shooter,washington dc shooting,active shooter washington dc,vida fitness logan circle,active shooter dc today,dc shooting today,vida fitness dc,washington dc active shooter,shooter dc,logan circle washington dc,dc active shooter today,washington dc news,shooting in dc today,shooting logan circle,logan circle shooter,shooter in dc,vida logan circle,wtop news,vida gym,vida gym dc,shooting washington,active shooter logan circle dc,shooting in washington dc,dc shelter in place,dc logan circle,active shooter in dc today,washington dc shooting today,shooting washington dc,active shooter today,shooting,active shooting dc,15th and p street nw,logan circle shooting dc,shooting dc today,15th and p,fox 5 dc",
       "volume": "50k+",
-      "state": "needs-research",
-      "group": "logan-circle-shooting"
+      "state": "published-live-verified",
+      "group": "logan-circle-shooting",
+      "slug": "logan-circle-dc-shooting-november-12-2026-report"
     },
     {
       "row": 8,
@@ -94,32 +99,36 @@
       "query": "mark mcguinn",
       "breakdown": "mark mcguinn",
       "volume": "20k+",
-      "state": "needs-research",
-      "group": "mark-mcguinn"
+      "state": "published-live-verified",
+      "group": "mark-mcguinn",
+      "slug": "mark-mcguinn-mrs-steven-rudy-country-music-remembrance"
     },
     {
       "row": 11,
       "query": "cavaliers vs knicks",
       "breakdown": "cavaliers vs knicks,james harden,cavs vs knicks,cleveland cavaliers vs knicks match player stats,knicks vs cavs,cavaliers - knicks,cavaliers vs knicks where to watch,donovan mitchell,knicks cavs",
       "volume": "100k+",
-      "state": "needs-research",
-      "group": "cavaliers-knicks"
+      "state": "published-live-verified",
+      "group": "cavaliers-knicks",
+      "slug": "cavaliers-knicks-115-107-harden-november-11-2026"
     },
     {
       "row": 12,
       "query": "spurs vs bulls",
       "breakdown": "spurs vs bulls,bulls vs spurs,spurs - bulls,where to watch san antonio spurs vs chicago bulls,matas buzelis,spurs vs bulls where to watch",
       "volume": "100k+",
-      "state": "needs-research",
-      "group": "spurs-bulls"
+      "state": "published-live-verified",
+      "group": "spurs-bulls",
+      "slug": "spurs-bulls-124-119-wembanyama-november-11-2026"
     },
     {
       "row": 13,
       "query": "lakers vs bucks",
       "breakdown": "lakers vs bucks,lakers vs milwaukee bucks match player stats,lakers - bucks,lakers vs milwaukee bucks timeline,lakers vs milwaukee bucks,where to watch lakers vs milwaukee bucks,bucks vs lakers",
       "volume": "100k+",
-      "state": "needs-research",
-      "group": "lakers-bucks"
+      "state": "published-live-verified",
+      "group": "lakers-bucks",
+      "slug": "lakers-bucks-123-112-quarter-scores-november-11-2026"
     },
     {
       "row": 14,
@@ -134,8 +143,9 @@
       "query": "frankie muniz",
       "breakdown": "frankie muniz,frankie muniz daytona crash,frankie muniz crash,malcolm in the middle,the middle",
       "volume": "50k+",
-      "state": "needs-research",
-      "group": "frankie-muniz"
+      "state": "published-live-verified",
+      "group": "frankie-muniz",
+      "slug": "frankie-muniz-daytona-practice-crash-release-november-2026"
     },
     {
       "row": 16,
@@ -2082,8 +2092,9 @@
       "query": "san antonio spurs vs chicago bulls match player stats",
       "breakdown": "san antonio spurs vs chicago bulls match player stats",
       "volume": "1k+",
-      "state": "needs-research",
-      "group": "spurs-bulls"
+      "state": "published-live-verified",
+      "group": "spurs-bulls",
+      "slug": "spurs-bulls-124-119-wembanyama-november-11-2026"
     },
     {
       "row": 260,
@@ -2314,8 +2325,9 @@
       "query": "golden state warriors vs houston rockets timeline",
       "breakdown": "golden state warriors vs houston rockets timeline,warriors vs rockets score,rockets score",
       "volume": "1k+",
-      "state": "needs-research",
-      "group": "warriors-rockets"
+      "state": "published-live-verified",
+      "group": "warriors-rockets",
+      "slug": "warriors-rockets-115-108-curry-november-11-2026"
     },
     {
       "row": 289,
@@ -2985,8 +2997,9 @@
       "query": "san antonio spurs vs chicago bulls timeline",
       "breakdown": "san antonio spurs vs chicago bulls timeline",
       "volume": "500+",
-      "state": "needs-research",
-      "group": "spurs-bulls"
+      "state": "published-live-verified",
+      "group": "spurs-bulls",
+      "slug": "spurs-bulls-124-119-wembanyama-november-11-2026"
     },
     {
       "row": 374,
@@ -3025,8 +3038,9 @@
       "query": "cleveland cavaliers vs knicks timeline",
       "breakdown": "cleveland cavaliers vs knicks timeline",
       "volume": "500+",
-      "state": "needs-research",
-      "group": "cavaliers-knicks"
+      "state": "published-live-verified",
+      "group": "cavaliers-knicks",
+      "slug": "cavaliers-knicks-115-107-harden-november-11-2026"
     },
     {
       "row": 379,
@@ -3588,7 +3602,7 @@
     {
       "key": "brooklyn-collapse",
       "query": "building collapse nyc",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Flatbush Avenue Brooklyn",
         "FDNY firefighters Brooklyn"
@@ -3599,7 +3613,7 @@
     {
       "key": "anthony-clark",
       "query": "anthony clark",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Anthony Clark comedian",
         "stand up comedy microphone stage"
@@ -3610,7 +3624,7 @@
     {
       "key": "rochelle-fleming",
       "query": "disco singer rochelle fleming passes",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Rochelle Fleming First Choice",
         "Philadelphia soul vinyl records"
@@ -3621,7 +3635,7 @@
     {
       "key": "warriors-rockets",
       "query": "warriors vs rockets",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Stephen Curry basketball",
         "Toyota Center Houston basketball"
@@ -3632,7 +3646,7 @@
     {
       "key": "logan-circle-shooting",
       "query": "active shooter dc",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Logan Circle Washington DC",
         "Metropolitan Police Department Washington DC"
@@ -3655,7 +3669,7 @@
     {
       "key": "mark-mcguinn",
       "query": "mark mcguinn",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Mark McGuinn singer",
         "country music acoustic guitar stage"
@@ -3666,7 +3680,7 @@
     {
       "key": "cavaliers-knicks",
       "query": "cavaliers vs knicks",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "James Harden basketball",
         "Madison Square Garden basketball court"
@@ -3677,7 +3691,7 @@
     {
       "key": "spurs-bulls",
       "query": "spurs vs bulls",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Victor Wembanyama",
         "United Center Chicago basketball"
@@ -3688,7 +3702,7 @@
     {
       "key": "lakers-bucks",
       "query": "lakers vs bucks",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Luka Doncic basketball",
         "Fiserv Forum Milwaukee"
@@ -3705,7 +3719,7 @@
     {
       "key": "frankie-muniz",
       "query": "frankie muniz",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Frankie Muniz racing",
         "Daytona International Speedway road course"
@@ -6197,8 +6211,11 @@
       ],
       "expectedSize": 10,
       "explicitUserAuthorization": "User requested this US CSV in complete batches of ten, continuing the established write-and-publish workflow. Existing 2,000-word, unique-image and source-verification rules retained.",
-      "state": "draft-written",
-      "validationFile": "batch-01-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-01-validation.json",
+      "revision": "62d527247bfd2698bd3047757342616a6a8c3170",
+      "workflowRun": "43251099699",
+      "liveVerifiedAt": "2026-11-12T15:51:27.556Z"
     }
   ]
 }

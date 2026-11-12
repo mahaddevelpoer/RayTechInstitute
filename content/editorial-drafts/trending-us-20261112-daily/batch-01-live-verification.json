@@ -1,0 +1,351 @@
+{
+  "checkedAt": "2026-11-12T15:51:27.556Z",
+  "expectedRevision": "62d527247bfd2698bd3047757342616a6a8c3170",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-12T15:47:37.718Z",
+    "revision": "62d527247bfd2698bd3047757342616a6a8c3170",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 632,
+    "sitemapSha256": "c04c8388bbaf2185bcfa21ee1c67602df0b598f3b690f6d102a5e10db6bec1f5",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43251099699"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "brooklyn-collapse",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/brooklyn-building-collapse-november-12-2026-confirmed-updates/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/brooklyn-collapse-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/brooklyn-collapse-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "anthony-clark",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/anthony-clark-yes-dear-comedy-career-remembrance/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/anthony-clark-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/anthony-clark-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "rochelle-fleming",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/rochelle-fleming-first-choice-soul-disco-legacy/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/rochelle-fleming-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/rochelle-fleming-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "warriors-rockets",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/warriors-rockets-115-108-curry-november-11-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/warriors-rockets-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/warriors-rockets-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "logan-circle-shooting",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/logan-circle-dc-shooting-november-12-2026-report/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/logan-circle-shooting-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/logan-circle-shooting-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "mark-mcguinn",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/mark-mcguinn-mrs-steven-rudy-country-music-remembrance/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/mark-mcguinn-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/mark-mcguinn-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "cavaliers-knicks",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/cavaliers-knicks-115-107-harden-november-11-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/cavaliers-knicks-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/cavaliers-knicks-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "spurs-bulls",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/spurs-bulls-124-119-wembanyama-november-11-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/spurs-bulls-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/spurs-bulls-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "lakers-bucks",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/lakers-bucks-123-112-quarter-scores-november-11-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/lakers-bucks-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/lakers-bucks-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "frankie-muniz",
+      "batch": "20261112-daily",
+      "url": "https://raytechinstitute.com/blogs/frankie-muniz-daytona-practice-crash-release-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/frankie-muniz-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-us-20261112-daily/frankie-muniz-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
