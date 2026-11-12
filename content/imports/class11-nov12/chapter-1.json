@@ -1,0 +1,1299 @@
+{
+  "key": "chapter-1",
+  "title": "Introduction to Software Development",
+  "chapter": 1,
+  "source": "Raytech_Class11_Chapter01_Important_MCQs.docx",
+  "sourceSha256": "3d34f2cb991262659453d6ec91d9e6238e2282844bf8cd4c5afd46fee7512d29",
+  "topics": [
+    "1.1 Software Development",
+    "1.2 Software Development Life Cycle (SDLC)",
+    "1.3 Software Development Methodologies",
+    "1.4 Project Planning and Management",
+    "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+    "1.6 Introduction to Design Patterns",
+    "1.7 Software Debugging and Testing",
+    "1.8 Software Development Tools"
+  ],
+  "questions": [
+    {
+      "id": "class11-nov12-ch1-q001",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "What is the main purpose of software development?",
+      "options": [
+        "To create programs for specific tasks",
+        "To manufacture monitors",
+        "To repair printers only",
+        "To connect cables"
+      ],
+      "correct_index": 0,
+      "explanation": "Software development creates software to solve needs.\nاردو وضاحت: سافٹ ویئر ڈویلپمنٹ میں پروگرام بنانا، اس کی جانچ کرنا اور غلطیاں دور کرنا شامل ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q002",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which activity belongs to software development?",
+      "options": [
+        "Painting a wall",
+        "Writing program code",
+        "Printing a book",
+        "Replacing a keyboard"
+      ],
+      "correct_index": 1,
+      "explanation": "Coding is a core software-development activity."
+    },
+    {
+      "id": "class11-nov12-ch1-q003",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "What should be checked before software is released?",
+      "options": [
+        "Its packaging color",
+        "Its keyboard brand",
+        "Whether it works correctly",
+        "The user’s handwriting"
+      ],
+      "correct_index": 2,
+      "explanation": "Testing helps confirm expected behavior."
+    },
+    {
+      "id": "class11-nov12-ch1-q004",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "What is a bug in a software program?",
+      "options": [
+        "A memory card",
+        "A website theme",
+        "A user manual",
+        "An error in the software"
+      ],
+      "correct_index": 3,
+      "explanation": "A bug is a mistake causing unexpected behavior."
+    },
+    {
+      "id": "class11-nov12-ch1-q005",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which action directly corrects a detected bug?",
+      "options": [
+        "Debugging",
+        "Buying hardware",
+        "Changing screen size",
+        "Deleting a user guide"
+      ],
+      "correct_index": 0,
+      "explanation": "Debugging is the process of finding and fixing errors.\nاردو وضاحت: سافٹ ویئر ڈویلپمنٹ میں پروگرام بنانا، اس کی جانچ کرنا اور غلطیاں دور کرنا شامل ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q006",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which is an example of software?",
+      "options": [
+        "A metal case",
+        "A library-management application",
+        "A mouse pad",
+        "A network cable"
+      ],
+      "correct_index": 1,
+      "explanation": "An application is software used to perform tasks."
+    },
+    {
+      "id": "class11-nov12-ch1-q007",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Why is planning useful before coding?",
+      "options": [
+        "It removes all need for testing",
+        "It makes errors impossible",
+        "It clarifies requirements and tasks",
+        "It replaces the user"
+      ],
+      "correct_index": 2,
+      "explanation": "Planning helps define what the software must do."
+    },
+    {
+      "id": "class11-nov12-ch1-q008",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which statement best describes software maintenance?",
+      "options": [
+        "It is always done before coding",
+        "It means manufacturing disks",
+        "It is only naming variables",
+        "It includes updates after release"
+      ],
+      "correct_index": 3,
+      "explanation": "Maintenance continues after deployment."
+    },
+    {
+      "id": "class11-nov12-ch1-q009",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "A student builds a calculator application. This is an example of what?",
+      "options": [
+        "Software development",
+        "Hardware assembly",
+        "Network cabling",
+        "Document printing"
+      ],
+      "correct_index": 0,
+      "explanation": "Building a calculator application is software creation."
+    },
+    {
+      "id": "class11-nov12-ch1-q010",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which sequence makes sense for creating a simple app?",
+      "options": [
+        "Deploy before any testing",
+        "Understand the need, code, test",
+        "Ignore needs, then release",
+        "Test without a program"
+      ],
+      "correct_index": 1,
+      "explanation": "A software solution begins by understanding the task.\nاردو وضاحت: سافٹ ویئر ڈویلپمنٹ میں پروگرام بنانا، اس کی جانچ کرنا اور غلطیاں دور کرنا شامل ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q011",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "What is the primary purpose of SDLC?",
+      "options": [
+        "To manufacture hardware",
+        "To organize high-quality software development",
+        "To remove all maintenance",
+        "To manage only databases"
+      ],
+      "correct_index": 1,
+      "explanation": "SDLC structures development from initial idea to maintenance.\nاردو وضاحت: SDLC سافٹ ویئر بنانے کے مراحل کو منظم کرتا ہے۔ Functional ضرورت کام بتاتی ہے جبکہ Non-functional معیار بتاتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q012",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which SDLC phase identifies user needs?",
+      "options": [
+        "Testing",
+        "Deployment",
+        "Requirement gathering",
+        "Maintenance"
+      ],
+      "correct_index": 2,
+      "explanation": "Requirements are collected before design and coding."
+    },
+    {
+      "id": "class11-nov12-ch1-q013",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which is a functional requirement?",
+      "options": [
+        "Response within two seconds",
+        "Availability of 99.9%",
+        "Encrypted storage",
+        "Users can borrow books"
+      ],
+      "correct_index": 3,
+      "explanation": "A functional requirement states an action the system performs."
+    },
+    {
+      "id": "class11-nov12-ch1-q014",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which is a non-functional requirement?",
+      "options": [
+        "The system supports 1,000 users",
+        "Users can register",
+        "Users can search books",
+        "Staff can add inventory"
+      ],
+      "correct_index": 0,
+      "explanation": "Capacity is a quality/performance constraint."
+    },
+    {
+      "id": "class11-nov12-ch1-q015",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which phase converts specifications into program code?",
+      "options": [
+        "Deployment",
+        "Coding",
+        "Maintenance",
+        "Requirement gathering"
+      ],
+      "correct_index": 1,
+      "explanation": "Implementation translates the design into code.\nاردو وضاحت: SDLC سافٹ ویئر بنانے کے مراحل کو منظم کرتا ہے۔ Functional ضرورت کام بتاتی ہے جبکہ Non-functional معیار بتاتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q016",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which SDLC stage decides software structure and diagrams?",
+      "options": [
+        "Testing",
+        "Maintenance",
+        "Design",
+        "Deployment"
+      ],
+      "correct_index": 2,
+      "explanation": "Design specifies architecture, models, and components."
+    },
+    {
+      "id": "class11-nov12-ch1-q017",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which stage makes the software available to users?",
+      "options": [
+        "Requirement gathering",
+        "Design",
+        "Testing",
+        "Deployment"
+      ],
+      "correct_index": 3,
+      "explanation": "Deployment installs or releases the working system."
+    },
+    {
+      "id": "class11-nov12-ch1-q018",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which activity is typical of requirement gathering?",
+      "options": [
+        "Interviews and surveys",
+        "Writing compiled code only",
+        "Publishing the app",
+        "Fixing post-release bugs"
+      ],
+      "correct_index": 0,
+      "explanation": "Interviews and surveys identify stakeholder needs."
+    },
+    {
+      "id": "class11-nov12-ch1-q019",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which SDLC phase includes updates after release?",
+      "options": [
+        "Design",
+        "Maintenance",
+        "Requirement gathering",
+        "Initial coding only"
+      ],
+      "correct_index": 1,
+      "explanation": "Maintenance fixes defects and adapts released software."
+    },
+    {
+      "id": "class11-nov12-ch1-q020",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which statement best defines a software framework?",
+      "options": [
+        "A finished laptop",
+        "A substitute for user needs",
+        "A reusable structure and components for apps",
+        "A physical network switch"
+      ],
+      "correct_index": 2,
+      "explanation": "Frameworks provide predefined components and architecture.\nاردو وضاحت: SDLC سافٹ ویئر بنانے کے مراحل کو منظم کرتا ہے۔ Functional ضرورت کام بتاتی ہے جبکہ Non-functional معیار بتاتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q021",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which methodology uses sequential development phases?",
+      "options": [
+        "Agile",
+        "Scrum",
+        "Waterfall",
+        "Pair programming"
+      ],
+      "correct_index": 2,
+      "explanation": "Waterfall progresses through defined phases.\nاردو وضاحت: Waterfall میں مراحل ترتیب سے مکمل ہوتے ہیں جبکہ Agile میں مختصر iterations اور مسلسل feedback لیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q022",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which model is generally suitable when requirements are stable?",
+      "options": [
+        "Rapid iteration",
+        "Unplanned development",
+        "Frequent requirement changes",
+        "Waterfall"
+      ],
+      "correct_index": 3,
+      "explanation": "Stable, well-defined requirements suit Waterfall."
+    },
+    {
+      "id": "class11-nov12-ch1-q023",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "What is a sprint in Agile development?",
+      "options": [
+        "A short, planned work iteration",
+        "The final maintenance phase",
+        "A type of computer virus",
+        "A hardware test"
+      ],
+      "correct_index": 0,
+      "explanation": "Agile work is organized into short iterations."
+    },
+    {
+      "id": "class11-nov12-ch1-q024",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which is an Agile practice mentioned in the chapter?",
+      "options": [
+        "Never testing software",
+        "Continuous integration",
+        "Skipping user feedback",
+        "Fixing requirements permanently"
+      ],
+      "correct_index": 1,
+      "explanation": "Continuous integration merges code changes regularly."
+    },
+    {
+      "id": "class11-nov12-ch1-q025",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which approach commonly responds better to changing requirements?",
+      "options": [
+        "Waterfall only",
+        "Neither approach",
+        "Agile",
+        "Hardware design"
+      ],
+      "correct_index": 2,
+      "explanation": "Agile is designed for adapting through iterations.\nاردو وضاحت: Waterfall میں مراحل ترتیب سے مکمل ہوتے ہیں جبکہ Agile میں مختصر iterations اور مسلسل feedback لیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q026",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "What is a challenge of the Waterfall model?",
+      "options": [
+        "It cannot have documentation",
+        "It has no phases",
+        "It never requires testing",
+        "Late changes can be costly"
+      ],
+      "correct_index": 3,
+      "explanation": "Waterfall is less flexible after phase completion."
+    },
+    {
+      "id": "class11-nov12-ch1-q027",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "In pair programming, how many developers work together at one workstation?",
+      "options": [
+        "Two",
+        "One hundred",
+        "Zero",
+        "Ten"
+      ],
+      "correct_index": 0,
+      "explanation": "Pair programming uses two developers collaborating."
+    },
+    {
+      "id": "class11-nov12-ch1-q028",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "In test-driven development, developers typically write what first?",
+      "options": [
+        "Deployment documentation",
+        "Tests before code",
+        "Marketing material",
+        "User accounts"
+      ],
+      "correct_index": 1,
+      "explanation": "TDD begins by defining expected behavior in tests."
+    },
+    {
+      "id": "class11-nov12-ch1-q029",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "What is a benefit of Agile increments?",
+      "options": [
+        "No need for a team",
+        "Guaranteed fixed costs",
+        "Frequent feedback on working software",
+        "No requirement changes"
+      ],
+      "correct_index": 2,
+      "explanation": "Small deliverables enable frequent customer review."
+    },
+    {
+      "id": "class11-nov12-ch1-q030",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which issue can complicate Agile projects involving many teams?",
+      "options": [
+        "No communication needed",
+        "No user input ever",
+        "No iterative planning",
+        "Coordinating a large project"
+      ],
+      "correct_index": 3,
+      "explanation": "Agile at scale requires careful coordination.\nاردو وضاحت: Waterfall میں مراحل ترتیب سے مکمل ہوتے ہیں جبکہ Agile میں مختصر iterations اور مسلسل feedback لیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q031",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What is the main purpose of project planning?",
+      "options": [
+        "To avoid defining tasks",
+        "To understand scope, time and cost",
+        "To remove teamwork",
+        "To skip risk management"
+      ],
+      "correct_index": 1,
+      "explanation": "Planning defines project work, schedule, and resources.\nاردو وضاحت: Project planning میں اہداف، وقت، اخراجات، خطرات اور معیار کی جانچ کا انتظام کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q032",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which factor generally affects development cost?",
+      "options": [
+        "Wallpaper color",
+        "Computer brand logo",
+        "Development team size",
+        "Office wall paint"
+      ],
+      "correct_index": 2,
+      "explanation": "The number and skill of developers influence cost."
+    },
+    {
+      "id": "class11-nov12-ch1-q033",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What does a project timeline specify?",
+      "options": [
+        "The color of diagrams",
+        "User passwords",
+        "Coding language only",
+        "When tasks should be completed"
+      ],
+      "correct_index": 3,
+      "explanation": "A timeline schedules project activities."
+    },
+    {
+      "id": "class11-nov12-ch1-q034",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which step comes first in risk management?",
+      "options": [
+        "Identify potential risks",
+        "Ignore all risks",
+        "Release software immediately",
+        "Remove quality checks"
+      ],
+      "correct_index": 0,
+      "explanation": "Risks must be identified before mitigation."
+    },
+    {
+      "id": "class11-nov12-ch1-q035",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What does risk mitigation mean?",
+      "options": [
+        "Estimating screen resolution",
+        "Reducing the impact of identified risks",
+        "Writing user stories only",
+        "Deleting the schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "Mitigation is a response plan to limit risk.\nاردو وضاحت: Project planning میں اہداف، وقت، اخراجات، خطرات اور معیار کی جانچ کا انتظام کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q036",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which is an example of a technical project risk?",
+      "options": [
+        "A font preference",
+        "A staff birthday",
+        "Server failure",
+        "A logo color"
+      ],
+      "correct_index": 2,
+      "explanation": "Technology failures can disrupt delivery."
+    },
+    {
+      "id": "class11-nov12-ch1-q037",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which activity belongs to execution?",
+      "options": [
+        "Deciding nothing",
+        "Writing no code",
+        "Skipping all meetings",
+        "Developing software and tracking progress"
+      ],
+      "correct_index": 3,
+      "explanation": "Execution is the active implementation phase."
+    },
+    {
+      "id": "class11-nov12-ch1-q038",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What is the purpose of quality assurance?",
+      "options": [
+        "To verify standards and correct operation",
+        "To choose only logo colors",
+        "To avoid reviews",
+        "To replace requirements"
+      ],
+      "correct_index": 0,
+      "explanation": "QA checks software quality throughout the project."
+    },
+    {
+      "id": "class11-nov12-ch1-q039",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What is a milestone?",
+      "options": [
+        "A physical keyboard",
+        "An important scheduled project checkpoint",
+        "A type of database",
+        "A programming language"
+      ],
+      "correct_index": 1,
+      "explanation": "Milestones mark progress toward major deliverables."
+    },
+    {
+      "id": "class11-nov12-ch1-q040",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What should a team do when a major new risk appears?",
+      "options": [
+        "Ignore it",
+        "Delete every milestone",
+        "Review the risk and adjust plans",
+        "Stop all communication"
+      ],
+      "correct_index": 2,
+      "explanation": "Continuous monitoring allows prompt response.\nاردو وضاحت: Project planning میں اہداف، وقت، اخراجات، خطرات اور معیار کی جانچ کا انتظام کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q041",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "What does UML stand for?",
+      "options": [
+        "Universal Machine Logic",
+        "User Modeling List",
+        "Unified Modeling Language",
+        "Uniform Memory Layout"
+      ],
+      "correct_index": 2,
+      "explanation": "UML is the standard visual modeling language discussed here.\nاردو وضاحت: UML کے ذریعے سسٹم کو diagram کی شکل میں دکھایا جاتا ہے۔ ہر diagram مختلف پہلو واضح کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q042",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which UML diagram shows interactions from a user perspective?",
+      "options": [
+        "Class diagram",
+        "Sequence diagram",
+        "Activity diagram",
+        "Use case diagram"
+      ],
+      "correct_index": 3,
+      "explanation": "Use cases describe how actors interact with system functions."
+    },
+    {
+      "id": "class11-nov12-ch1-q043",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "In a use case diagram, an actor represents what?",
+      "options": [
+        "A user or external system interacting with the system",
+        "A database column",
+        "A programming error",
+        "A hidden algorithm"
+      ],
+      "correct_index": 0,
+      "explanation": "Actors are people or other systems outside the modeled system."
+    },
+    {
+      "id": "class11-nov12-ch1-q044",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which diagram primarily represents classes and their relationships?",
+      "options": [
+        "Activity diagram",
+        "Class diagram",
+        "Use case diagram",
+        "Flowchart only"
+      ],
+      "correct_index": 1,
+      "explanation": "Class diagrams describe structural organization."
+    },
+    {
+      "id": "class11-nov12-ch1-q045",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which diagram emphasizes messages over time?",
+      "options": [
+        "Class diagram",
+        "Use case diagram",
+        "Sequence diagram",
+        "Table of contents"
+      ],
+      "correct_index": 2,
+      "explanation": "Sequence diagrams show time-ordered interactions.\nاردو وضاحت: UML کے ذریعے سسٹم کو diagram کی شکل میں دکھایا جاتا ہے۔ ہر diagram مختلف پہلو واضح کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q046",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which diagram represents workflow and decisions?",
+      "options": [
+        "Sequence diagram",
+        "Class diagram",
+        "Use case diagram",
+        "Activity diagram"
+      ],
+      "correct_index": 3,
+      "explanation": "Activity diagrams model process flow and decisions."
+    },
+    {
+      "id": "class11-nov12-ch1-q047",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "What does an attribute describe in a class diagram?",
+      "options": [
+        "A property of a class or object",
+        "A deployment schedule",
+        "An external user",
+        "A testing stage"
+      ],
+      "correct_index": 0,
+      "explanation": "Attributes describe data held by objects."
+    },
+    {
+      "id": "class11-nov12-ch1-q048",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which is an example of a method?",
+      "options": [
+        "The color of a box",
+        "open() on a Box object",
+        "The year of an exam",
+        "A type of watermark"
+      ],
+      "correct_index": 1,
+      "explanation": "Methods represent operations or behaviors."
+    },
+    {
+      "id": "class11-nov12-ch1-q049",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "What is the purpose of identifying actors in use case modeling?",
+      "options": [
+        "To design hardware",
+        "To assign website colors",
+        "To determine system users or external systems",
+        "To compile a program"
+      ],
+      "correct_index": 2,
+      "explanation": "Actors identify who interacts with the system."
+    },
+    {
+      "id": "class11-nov12-ch1-q050",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which notation generally shows a choice in an activity diagram?",
+      "options": [
+        "A page border",
+        "A page header",
+        "A plain paragraph",
+        "A decision diamond"
+      ],
+      "correct_index": 3,
+      "explanation": "Diamonds represent decision points in activity diagrams.\nاردو وضاحت: UML کے ذریعے سسٹم کو diagram کی شکل میں دکھایا جاتا ہے۔ ہر diagram مختلف پہلو واضح کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q051",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "What is a software design pattern?",
+      "options": [
+        "A reusable solution to a common design problem",
+        "A type of computer monitor",
+        "A software license only",
+        "A network cable"
+      ],
+      "correct_index": 0,
+      "explanation": "Patterns provide established approaches to recurring problems.\nاردو وضاحت: Design patterns عام مسائل کے دوبارہ استعمال ہونے والے حل ہیں، مثلاً Observer تبدیلی پر متعلقہ افراد کو اطلاع دیتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q052",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern is intended to permit one instance of a class?",
+      "options": [
+        "Observer",
+        "Singleton",
+        "Strategy",
+        "Factory"
+      ],
+      "correct_index": 1,
+      "explanation": "Singleton controls creation so one instance is shared."
+    },
+    {
+      "id": "class11-nov12-ch1-q053",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern helps create objects without exposing all creation details?",
+      "options": [
+        "Observer",
+        "Strategy",
+        "Factory",
+        "Sequence"
+      ],
+      "correct_index": 2,
+      "explanation": "Factory separates object creation from its use."
+    },
+    {
+      "id": "class11-nov12-ch1-q054",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern notifies interested objects when a subject changes?",
+      "options": [
+        "Singleton",
+        "Factory",
+        "Strategy",
+        "Observer"
+      ],
+      "correct_index": 3,
+      "explanation": "Observer supports subscription and notification."
+    },
+    {
+      "id": "class11-nov12-ch1-q055",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern lets the program choose among alternative algorithms?",
+      "options": [
+        "Strategy",
+        "Singleton",
+        "Observer",
+        "Factory"
+      ],
+      "correct_index": 0,
+      "explanation": "Strategy encapsulates alternative behaviors.\nاردو وضاحت: Design patterns عام مسائل کے دوبارہ استعمال ہونے والے حل ہیں، مثلاً Observer تبدیلی پر متعلقہ افراد کو اطلاع دیتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q056",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern suits a single shared configuration manager?",
+      "options": [
+        "Observer",
+        "Singleton",
+        "Factory",
+        "Strategy"
+      ],
+      "correct_index": 1,
+      "explanation": "A configuration manager can be maintained as one instance."
+    },
+    {
+      "id": "class11-nov12-ch1-q057",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern might notify followers about a new post?",
+      "options": [
+        "Singleton",
+        "Strategy",
+        "Observer",
+        "Factory"
+      ],
+      "correct_index": 2,
+      "explanation": "Observers receive updates after a subject changes."
+    },
+    {
+      "id": "class11-nov12-ch1-q058",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Why are design patterns used?",
+      "options": [
+        "To eliminate all coding",
+        "To replace requirements",
+        "To ban testing",
+        "To improve reuse and maintainability"
+      ],
+      "correct_index": 3,
+      "explanation": "Patterns can improve design clarity and reusability."
+    },
+    {
+      "id": "class11-nov12-ch1-q059",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern is suitable for producing different types of reports?",
+      "options": [
+        "Factory",
+        "Observer",
+        "Singleton",
+        "Sequence"
+      ],
+      "correct_index": 0,
+      "explanation": "A factory can centralize report-object creation."
+    },
+    {
+      "id": "class11-nov12-ch1-q060",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which choice best represents the Strategy pattern?",
+      "options": [
+        "One fixed object for all purposes",
+        "Switchable payment calculation methods",
+        "Automatically notify subscribers",
+        "Draw actors and use cases"
+      ],
+      "correct_index": 1,
+      "explanation": "Strategy allows selecting an algorithm for a task.\nاردو وضاحت: Design patterns عام مسائل کے دوبارہ استعمال ہونے والے حل ہیں، مثلاً Observer تبدیلی پر متعلقہ افراد کو اطلاع دیتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q061",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What is debugging?",
+      "options": [
+        "Checking printer ink",
+        "Finding and fixing program errors",
+        "Designing a brochure",
+        "Releasing software without tests"
+      ],
+      "correct_index": 1,
+      "explanation": "Debugging investigates and corrects bugs.\nاردو وضاحت: Debugging غلطی تلاش اور درست کرتا ہے؛ Testing سافٹ ویئر کے درست کام کرنے کی جانچ ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q062",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What is unit testing?",
+      "options": [
+        "Testing all branches at once",
+        "Testing customer satisfaction only",
+        "Testing an individual component",
+        "Testing hardware packaging"
+      ],
+      "correct_index": 2,
+      "explanation": "Unit tests focus on a small testable part."
+    },
+    {
+      "id": "class11-nov12-ch1-q063",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which testing checks interaction between modules?",
+      "options": [
+        "Acceptance testing",
+        "Unit testing only",
+        "Color testing",
+        "Integration testing"
+      ],
+      "correct_index": 3,
+      "explanation": "Integration tests verify combined component interactions."
+    },
+    {
+      "id": "class11-nov12-ch1-q064",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which testing examines the application as a whole?",
+      "options": [
+        "System testing",
+        "Syntax highlighting",
+        "Unit testing only",
+        "Code formatting"
+      ],
+      "correct_index": 0,
+      "explanation": "System tests assess the entire integrated application."
+    },
+    {
+      "id": "class11-nov12-ch1-q065",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Who typically checks software against end-user expectations during acceptance testing?",
+      "options": [
+        "Only the compiler",
+        "Users or clients",
+        "Only the network router",
+        "Only the printer"
+      ],
+      "correct_index": 1,
+      "explanation": "Acceptance verifies whether delivered software meets needs.\nاردو وضاحت: Debugging غلطی تلاش اور درست کرتا ہے؛ Testing سافٹ ویئر کے درست کام کرنے کی جانچ ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q066",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which debugging approach prints values during execution?",
+      "options": [
+        "Version control",
+        "Deployment",
+        "Print statements",
+        "Requirement interviews"
+      ],
+      "correct_index": 2,
+      "explanation": "Print statements expose runtime values."
+    },
+    {
+      "id": "class11-nov12-ch1-q067",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What does a debugger help a developer do?",
+      "options": [
+        "Change the school syllabus",
+        "Print books",
+        "Draw only a logo",
+        "Inspect execution and variables"
+      ],
+      "correct_index": 3,
+      "explanation": "Debuggers help locate faults during program execution."
+    },
+    {
+      "id": "class11-nov12-ch1-q068",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which is an example of a code review?",
+      "options": [
+        "Another developer inspects code for issues",
+        "The user changes the wallpaper",
+        "The student checks a keyboard",
+        "The editor changes the document font"
+      ],
+      "correct_index": 0,
+      "explanation": "Reviews can spot code defects before release."
+    },
+    {
+      "id": "class11-nov12-ch1-q069",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Why is testing necessary?",
+      "options": [
+        "To guarantee software never needs maintenance",
+        "To evaluate whether requirements are met",
+        "To replace the design phase",
+        "To avoid user needs"
+      ],
+      "correct_index": 1,
+      "explanation": "Testing checks expected behavior and quality."
+    },
+    {
+      "id": "class11-nov12-ch1-q070",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What is the usual progression from narrow to broader testing?",
+      "options": [
+        "System, unit, integration",
+        "Acceptance, unit, system",
+        "Unit, integration, system, acceptance",
+        "Deployment, design, unit"
+      ],
+      "correct_index": 2,
+      "explanation": "Testing can progress from components to full product acceptance.\nاردو وضاحت: Debugging غلطی تلاش اور درست کرتا ہے؛ Testing سافٹ ویئر کے درست کام کرنے کی جانچ ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q071",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "What is the main use of a code editor?",
+      "options": [
+        "Designing a classroom",
+        "Writing and editing source code",
+        "Installing only hardware",
+        "Printing examination papers"
+      ],
+      "correct_index": 1,
+      "explanation": "Code editors help create and modify code.\nاردو وضاحت: Code editor کوڈ لکھنے، compiler/interpreter اسے چلانے، debugger غلطیاں تلاش کرنے اور repository کوڈ محفوظ کرنے میں مدد دیتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q072",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which tool commonly translates code line by line?",
+      "options": [
+        "Compiler",
+        "Debugger",
+        "Interpreter",
+        "Repository"
+      ],
+      "correct_index": 2,
+      "explanation": "Interpreters execute code stepwise as described in the chapter."
+    },
+    {
+      "id": "class11-nov12-ch1-q073",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which tool typically translates an entire program before execution?",
+      "options": [
+        "Debugger",
+        "Code editor",
+        "Version control",
+        "Compiler"
+      ],
+      "correct_index": 3,
+      "explanation": "Compilers translate complete programs to executable form."
+    },
+    {
+      "id": "class11-nov12-ch1-q074",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "What does IDE stand for?",
+      "options": [
+        "Integrated Development Environment",
+        "Internet Data Exchange",
+        "Internal Debugging Engine",
+        "Integrated Digital Editor"
+      ],
+      "correct_index": 0,
+      "explanation": "IDEs combine programming-related tools."
+    },
+    {
+      "id": "class11-nov12-ch1-q075",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which is an IDE mentioned in the chapter?",
+      "options": [
+        "Notepad++ only",
+        "Visual Studio",
+        "An HDMI cable",
+        "A PDF watermark"
+      ],
+      "correct_index": 1,
+      "explanation": "Visual Studio is a full integrated development environment.\nاردو وضاحت: Code editor کوڈ لکھنے، compiler/interpreter اسے چلانے، debugger غلطیاں تلاش کرنے اور repository کوڈ محفوظ کرنے میں مدد دیتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q076",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which tool helps trace mistakes in source code?",
+      "options": [
+        "Font manager",
+        "Spreadsheet",
+        "Debugger",
+        "Scanner"
+      ],
+      "correct_index": 2,
+      "explanation": "A debugger helps developers identify errors."
+    },
+    {
+      "id": "class11-nov12-ch1-q077",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which is an example of a source code repository platform?",
+      "options": [
+        "PowerPoint",
+        "Keyboard Manager",
+        "Paint",
+        "GitHub"
+      ],
+      "correct_index": 3,
+      "explanation": "GitHub hosts repositories for projects."
+    },
+    {
+      "id": "class11-nov12-ch1-q078",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "What is a benefit of source code repositories?",
+      "options": [
+        "Track changes and collaborate",
+        "Avoid writing any software",
+        "Replace all testing",
+        "Eliminate team communication"
+      ],
+      "correct_index": 0,
+      "explanation": "Repositories provide version history and collaboration support."
+    },
+    {
+      "id": "class11-nov12-ch1-q079",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which platform type requires internet/cloud access in the chapter?",
+      "options": [
+        "Offline platform",
+        "Online platform",
+        "Local compiler only",
+        "Desktop text editor only"
+      ],
+      "correct_index": 1,
+      "explanation": "Online environments are accessed through the internet."
+    },
+    {
+      "id": "class11-nov12-ch1-q080",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which environment typically runs locally on a developer computer?",
+      "options": [
+        "Cloud service only",
+        "Remote browser only",
+        "Offline development platform",
+        "Internet search engine"
+      ],
+      "correct_index": 2,
+      "explanation": "Offline development can use local tools without the internet.\nاردو وضاحت: Code editor کوڈ لکھنے، compiler/interpreter اسے چلانے، debugger غلطیاں تلاش کرنے اور repository کوڈ محفوظ کرنے میں مدد دیتی ہے۔"
+    }
+  ]
+}

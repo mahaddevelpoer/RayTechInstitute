@@ -1,0 +1,2945 @@
+{
+  "chapters": [
+    {
+      "id": "chapter-11th-class-computer-science-2",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "title": "Python Programming",
+      "description": "Python fundamentals, syntax, operators, control structures, functions, data structures and modular programming.",
+      "is_active": true
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "class11-nov12-ch1-q001",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "What is the main purpose of software development?",
+      "options": [
+        "To create programs for specific tasks",
+        "To manufacture monitors",
+        "To repair printers only",
+        "To connect cables"
+      ],
+      "correct_index": 0,
+      "explanation": "Software development creates software to solve needs.\nاردو وضاحت: سافٹ ویئر ڈویلپمنٹ میں پروگرام بنانا، اس کی جانچ کرنا اور غلطیاں دور کرنا شامل ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q002",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which activity belongs to software development?",
+      "options": [
+        "Painting a wall",
+        "Writing program code",
+        "Printing a book",
+        "Replacing a keyboard"
+      ],
+      "correct_index": 1,
+      "explanation": "Coding is a core software-development activity."
+    },
+    {
+      "id": "class11-nov12-ch1-q003",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "What should be checked before software is released?",
+      "options": [
+        "Its packaging color",
+        "Its keyboard brand",
+        "Whether it works correctly",
+        "The user’s handwriting"
+      ],
+      "correct_index": 2,
+      "explanation": "Testing helps confirm expected behavior."
+    },
+    {
+      "id": "class11-nov12-ch1-q004",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "What is a bug in a software program?",
+      "options": [
+        "A memory card",
+        "A website theme",
+        "A user manual",
+        "An error in the software"
+      ],
+      "correct_index": 3,
+      "explanation": "A bug is a mistake causing unexpected behavior."
+    },
+    {
+      "id": "class11-nov12-ch1-q005",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which action directly corrects a detected bug?",
+      "options": [
+        "Debugging",
+        "Buying hardware",
+        "Changing screen size",
+        "Deleting a user guide"
+      ],
+      "correct_index": 0,
+      "explanation": "Debugging is the process of finding and fixing errors.\nاردو وضاحت: سافٹ ویئر ڈویلپمنٹ میں پروگرام بنانا، اس کی جانچ کرنا اور غلطیاں دور کرنا شامل ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q006",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which is an example of software?",
+      "options": [
+        "A metal case",
+        "A library-management application",
+        "A mouse pad",
+        "A network cable"
+      ],
+      "correct_index": 1,
+      "explanation": "An application is software used to perform tasks."
+    },
+    {
+      "id": "class11-nov12-ch1-q007",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Why is planning useful before coding?",
+      "options": [
+        "It removes all need for testing",
+        "It makes errors impossible",
+        "It clarifies requirements and tasks",
+        "It replaces the user"
+      ],
+      "correct_index": 2,
+      "explanation": "Planning helps define what the software must do."
+    },
+    {
+      "id": "class11-nov12-ch1-q008",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which statement best describes software maintenance?",
+      "options": [
+        "It is always done before coding",
+        "It means manufacturing disks",
+        "It is only naming variables",
+        "It includes updates after release"
+      ],
+      "correct_index": 3,
+      "explanation": "Maintenance continues after deployment."
+    },
+    {
+      "id": "class11-nov12-ch1-q009",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "A student builds a calculator application. This is an example of what?",
+      "options": [
+        "Software development",
+        "Hardware assembly",
+        "Network cabling",
+        "Document printing"
+      ],
+      "correct_index": 0,
+      "explanation": "Building a calculator application is software creation."
+    },
+    {
+      "id": "class11-nov12-ch1-q010",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.1 Software Development",
+      "question": "Which sequence makes sense for creating a simple app?",
+      "options": [
+        "Deploy before any testing",
+        "Understand the need, code, test",
+        "Ignore needs, then release",
+        "Test without a program"
+      ],
+      "correct_index": 1,
+      "explanation": "A software solution begins by understanding the task.\nاردو وضاحت: سافٹ ویئر ڈویلپمنٹ میں پروگرام بنانا، اس کی جانچ کرنا اور غلطیاں دور کرنا شامل ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q011",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "What is the primary purpose of SDLC?",
+      "options": [
+        "To manufacture hardware",
+        "To organize high-quality software development",
+        "To remove all maintenance",
+        "To manage only databases"
+      ],
+      "correct_index": 1,
+      "explanation": "SDLC structures development from initial idea to maintenance.\nاردو وضاحت: SDLC سافٹ ویئر بنانے کے مراحل کو منظم کرتا ہے۔ Functional ضرورت کام بتاتی ہے جبکہ Non-functional معیار بتاتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q012",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which SDLC phase identifies user needs?",
+      "options": [
+        "Testing",
+        "Deployment",
+        "Requirement gathering",
+        "Maintenance"
+      ],
+      "correct_index": 2,
+      "explanation": "Requirements are collected before design and coding."
+    },
+    {
+      "id": "class11-nov12-ch1-q013",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which is a functional requirement?",
+      "options": [
+        "Response within two seconds",
+        "Availability of 99.9%",
+        "Encrypted storage",
+        "Users can borrow books"
+      ],
+      "correct_index": 3,
+      "explanation": "A functional requirement states an action the system performs."
+    },
+    {
+      "id": "class11-nov12-ch1-q014",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which is a non-functional requirement?",
+      "options": [
+        "The system supports 1,000 users",
+        "Users can register",
+        "Users can search books",
+        "Staff can add inventory"
+      ],
+      "correct_index": 0,
+      "explanation": "Capacity is a quality/performance constraint."
+    },
+    {
+      "id": "class11-nov12-ch1-q015",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which phase converts specifications into program code?",
+      "options": [
+        "Deployment",
+        "Coding",
+        "Maintenance",
+        "Requirement gathering"
+      ],
+      "correct_index": 1,
+      "explanation": "Implementation translates the design into code.\nاردو وضاحت: SDLC سافٹ ویئر بنانے کے مراحل کو منظم کرتا ہے۔ Functional ضرورت کام بتاتی ہے جبکہ Non-functional معیار بتاتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q016",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which SDLC stage decides software structure and diagrams?",
+      "options": [
+        "Testing",
+        "Maintenance",
+        "Design",
+        "Deployment"
+      ],
+      "correct_index": 2,
+      "explanation": "Design specifies architecture, models, and components."
+    },
+    {
+      "id": "class11-nov12-ch1-q017",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which stage makes the software available to users?",
+      "options": [
+        "Requirement gathering",
+        "Design",
+        "Testing",
+        "Deployment"
+      ],
+      "correct_index": 3,
+      "explanation": "Deployment installs or releases the working system."
+    },
+    {
+      "id": "class11-nov12-ch1-q018",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which activity is typical of requirement gathering?",
+      "options": [
+        "Interviews and surveys",
+        "Writing compiled code only",
+        "Publishing the app",
+        "Fixing post-release bugs"
+      ],
+      "correct_index": 0,
+      "explanation": "Interviews and surveys identify stakeholder needs."
+    },
+    {
+      "id": "class11-nov12-ch1-q019",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which SDLC phase includes updates after release?",
+      "options": [
+        "Design",
+        "Maintenance",
+        "Requirement gathering",
+        "Initial coding only"
+      ],
+      "correct_index": 1,
+      "explanation": "Maintenance fixes defects and adapts released software."
+    },
+    {
+      "id": "class11-nov12-ch1-q020",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.2 Software Development Life Cycle (SDLC)",
+      "question": "Which statement best defines a software framework?",
+      "options": [
+        "A finished laptop",
+        "A substitute for user needs",
+        "A reusable structure and components for apps",
+        "A physical network switch"
+      ],
+      "correct_index": 2,
+      "explanation": "Frameworks provide predefined components and architecture.\nاردو وضاحت: SDLC سافٹ ویئر بنانے کے مراحل کو منظم کرتا ہے۔ Functional ضرورت کام بتاتی ہے جبکہ Non-functional معیار بتاتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q021",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which methodology uses sequential development phases?",
+      "options": [
+        "Agile",
+        "Scrum",
+        "Waterfall",
+        "Pair programming"
+      ],
+      "correct_index": 2,
+      "explanation": "Waterfall progresses through defined phases.\nاردو وضاحت: Waterfall میں مراحل ترتیب سے مکمل ہوتے ہیں جبکہ Agile میں مختصر iterations اور مسلسل feedback لیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q022",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which model is generally suitable when requirements are stable?",
+      "options": [
+        "Rapid iteration",
+        "Unplanned development",
+        "Frequent requirement changes",
+        "Waterfall"
+      ],
+      "correct_index": 3,
+      "explanation": "Stable, well-defined requirements suit Waterfall."
+    },
+    {
+      "id": "class11-nov12-ch1-q023",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "What is a sprint in Agile development?",
+      "options": [
+        "A short, planned work iteration",
+        "The final maintenance phase",
+        "A type of computer virus",
+        "A hardware test"
+      ],
+      "correct_index": 0,
+      "explanation": "Agile work is organized into short iterations."
+    },
+    {
+      "id": "class11-nov12-ch1-q024",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which is an Agile practice mentioned in the chapter?",
+      "options": [
+        "Never testing software",
+        "Continuous integration",
+        "Skipping user feedback",
+        "Fixing requirements permanently"
+      ],
+      "correct_index": 1,
+      "explanation": "Continuous integration merges code changes regularly."
+    },
+    {
+      "id": "class11-nov12-ch1-q025",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which approach commonly responds better to changing requirements?",
+      "options": [
+        "Waterfall only",
+        "Neither approach",
+        "Agile",
+        "Hardware design"
+      ],
+      "correct_index": 2,
+      "explanation": "Agile is designed for adapting through iterations.\nاردو وضاحت: Waterfall میں مراحل ترتیب سے مکمل ہوتے ہیں جبکہ Agile میں مختصر iterations اور مسلسل feedback لیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q026",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "What is a challenge of the Waterfall model?",
+      "options": [
+        "It cannot have documentation",
+        "It has no phases",
+        "It never requires testing",
+        "Late changes can be costly"
+      ],
+      "correct_index": 3,
+      "explanation": "Waterfall is less flexible after phase completion."
+    },
+    {
+      "id": "class11-nov12-ch1-q027",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "In pair programming, how many developers work together at one workstation?",
+      "options": [
+        "Two",
+        "One hundred",
+        "Zero",
+        "Ten"
+      ],
+      "correct_index": 0,
+      "explanation": "Pair programming uses two developers collaborating."
+    },
+    {
+      "id": "class11-nov12-ch1-q028",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "In test-driven development, developers typically write what first?",
+      "options": [
+        "Deployment documentation",
+        "Tests before code",
+        "Marketing material",
+        "User accounts"
+      ],
+      "correct_index": 1,
+      "explanation": "TDD begins by defining expected behavior in tests."
+    },
+    {
+      "id": "class11-nov12-ch1-q029",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "What is a benefit of Agile increments?",
+      "options": [
+        "No need for a team",
+        "Guaranteed fixed costs",
+        "Frequent feedback on working software",
+        "No requirement changes"
+      ],
+      "correct_index": 2,
+      "explanation": "Small deliverables enable frequent customer review."
+    },
+    {
+      "id": "class11-nov12-ch1-q030",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.3 Software Development Methodologies",
+      "question": "Which issue can complicate Agile projects involving many teams?",
+      "options": [
+        "No communication needed",
+        "No user input ever",
+        "No iterative planning",
+        "Coordinating a large project"
+      ],
+      "correct_index": 3,
+      "explanation": "Agile at scale requires careful coordination.\nاردو وضاحت: Waterfall میں مراحل ترتیب سے مکمل ہوتے ہیں جبکہ Agile میں مختصر iterations اور مسلسل feedback لیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q031",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What is the main purpose of project planning?",
+      "options": [
+        "To avoid defining tasks",
+        "To understand scope, time and cost",
+        "To remove teamwork",
+        "To skip risk management"
+      ],
+      "correct_index": 1,
+      "explanation": "Planning defines project work, schedule, and resources.\nاردو وضاحت: Project planning میں اہداف، وقت، اخراجات، خطرات اور معیار کی جانچ کا انتظام کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q032",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which factor generally affects development cost?",
+      "options": [
+        "Wallpaper color",
+        "Computer brand logo",
+        "Development team size",
+        "Office wall paint"
+      ],
+      "correct_index": 2,
+      "explanation": "The number and skill of developers influence cost."
+    },
+    {
+      "id": "class11-nov12-ch1-q033",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What does a project timeline specify?",
+      "options": [
+        "The color of diagrams",
+        "User passwords",
+        "Coding language only",
+        "When tasks should be completed"
+      ],
+      "correct_index": 3,
+      "explanation": "A timeline schedules project activities."
+    },
+    {
+      "id": "class11-nov12-ch1-q034",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which step comes first in risk management?",
+      "options": [
+        "Identify potential risks",
+        "Ignore all risks",
+        "Release software immediately",
+        "Remove quality checks"
+      ],
+      "correct_index": 0,
+      "explanation": "Risks must be identified before mitigation."
+    },
+    {
+      "id": "class11-nov12-ch1-q035",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What does risk mitigation mean?",
+      "options": [
+        "Estimating screen resolution",
+        "Reducing the impact of identified risks",
+        "Writing user stories only",
+        "Deleting the schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "Mitigation is a response plan to limit risk.\nاردو وضاحت: Project planning میں اہداف، وقت، اخراجات، خطرات اور معیار کی جانچ کا انتظام کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q036",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which is an example of a technical project risk?",
+      "options": [
+        "A font preference",
+        "A staff birthday",
+        "Server failure",
+        "A logo color"
+      ],
+      "correct_index": 2,
+      "explanation": "Technology failures can disrupt delivery."
+    },
+    {
+      "id": "class11-nov12-ch1-q037",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "Which activity belongs to execution?",
+      "options": [
+        "Deciding nothing",
+        "Writing no code",
+        "Skipping all meetings",
+        "Developing software and tracking progress"
+      ],
+      "correct_index": 3,
+      "explanation": "Execution is the active implementation phase."
+    },
+    {
+      "id": "class11-nov12-ch1-q038",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What is the purpose of quality assurance?",
+      "options": [
+        "To verify standards and correct operation",
+        "To choose only logo colors",
+        "To avoid reviews",
+        "To replace requirements"
+      ],
+      "correct_index": 0,
+      "explanation": "QA checks software quality throughout the project."
+    },
+    {
+      "id": "class11-nov12-ch1-q039",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What is a milestone?",
+      "options": [
+        "A physical keyboard",
+        "An important scheduled project checkpoint",
+        "A type of database",
+        "A programming language"
+      ],
+      "correct_index": 1,
+      "explanation": "Milestones mark progress toward major deliverables."
+    },
+    {
+      "id": "class11-nov12-ch1-q040",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.4 Project Planning and Management",
+      "question": "What should a team do when a major new risk appears?",
+      "options": [
+        "Ignore it",
+        "Delete every milestone",
+        "Review the risk and adjust plans",
+        "Stop all communication"
+      ],
+      "correct_index": 2,
+      "explanation": "Continuous monitoring allows prompt response.\nاردو وضاحت: Project planning میں اہداف، وقت، اخراجات، خطرات اور معیار کی جانچ کا انتظام کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q041",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "What does UML stand for?",
+      "options": [
+        "Universal Machine Logic",
+        "User Modeling List",
+        "Unified Modeling Language",
+        "Uniform Memory Layout"
+      ],
+      "correct_index": 2,
+      "explanation": "UML is the standard visual modeling language discussed here.\nاردو وضاحت: UML کے ذریعے سسٹم کو diagram کی شکل میں دکھایا جاتا ہے۔ ہر diagram مختلف پہلو واضح کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q042",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which UML diagram shows interactions from a user perspective?",
+      "options": [
+        "Class diagram",
+        "Sequence diagram",
+        "Activity diagram",
+        "Use case diagram"
+      ],
+      "correct_index": 3,
+      "explanation": "Use cases describe how actors interact with system functions."
+    },
+    {
+      "id": "class11-nov12-ch1-q043",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "In a use case diagram, an actor represents what?",
+      "options": [
+        "A user or external system interacting with the system",
+        "A database column",
+        "A programming error",
+        "A hidden algorithm"
+      ],
+      "correct_index": 0,
+      "explanation": "Actors are people or other systems outside the modeled system."
+    },
+    {
+      "id": "class11-nov12-ch1-q044",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which diagram primarily represents classes and their relationships?",
+      "options": [
+        "Activity diagram",
+        "Class diagram",
+        "Use case diagram",
+        "Flowchart only"
+      ],
+      "correct_index": 1,
+      "explanation": "Class diagrams describe structural organization."
+    },
+    {
+      "id": "class11-nov12-ch1-q045",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which diagram emphasizes messages over time?",
+      "options": [
+        "Class diagram",
+        "Use case diagram",
+        "Sequence diagram",
+        "Table of contents"
+      ],
+      "correct_index": 2,
+      "explanation": "Sequence diagrams show time-ordered interactions.\nاردو وضاحت: UML کے ذریعے سسٹم کو diagram کی شکل میں دکھایا جاتا ہے۔ ہر diagram مختلف پہلو واضح کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q046",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which diagram represents workflow and decisions?",
+      "options": [
+        "Sequence diagram",
+        "Class diagram",
+        "Use case diagram",
+        "Activity diagram"
+      ],
+      "correct_index": 3,
+      "explanation": "Activity diagrams model process flow and decisions."
+    },
+    {
+      "id": "class11-nov12-ch1-q047",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "What does an attribute describe in a class diagram?",
+      "options": [
+        "A property of a class or object",
+        "A deployment schedule",
+        "An external user",
+        "A testing stage"
+      ],
+      "correct_index": 0,
+      "explanation": "Attributes describe data held by objects."
+    },
+    {
+      "id": "class11-nov12-ch1-q048",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which is an example of a method?",
+      "options": [
+        "The color of a box",
+        "open() on a Box object",
+        "The year of an exam",
+        "A type of watermark"
+      ],
+      "correct_index": 1,
+      "explanation": "Methods represent operations or behaviors."
+    },
+    {
+      "id": "class11-nov12-ch1-q049",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "What is the purpose of identifying actors in use case modeling?",
+      "options": [
+        "To design hardware",
+        "To assign website colors",
+        "To determine system users or external systems",
+        "To compile a program"
+      ],
+      "correct_index": 2,
+      "explanation": "Actors identify who interacts with the system."
+    },
+    {
+      "id": "class11-nov12-ch1-q050",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.5 Graphical Representation and UML (Supplementary: excluded in 2027)",
+      "question": "Which notation generally shows a choice in an activity diagram?",
+      "options": [
+        "A page border",
+        "A page header",
+        "A plain paragraph",
+        "A decision diamond"
+      ],
+      "correct_index": 3,
+      "explanation": "Diamonds represent decision points in activity diagrams.\nاردو وضاحت: UML کے ذریعے سسٹم کو diagram کی شکل میں دکھایا جاتا ہے۔ ہر diagram مختلف پہلو واضح کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q051",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "What is a software design pattern?",
+      "options": [
+        "A reusable solution to a common design problem",
+        "A type of computer monitor",
+        "A software license only",
+        "A network cable"
+      ],
+      "correct_index": 0,
+      "explanation": "Patterns provide established approaches to recurring problems.\nاردو وضاحت: Design patterns عام مسائل کے دوبارہ استعمال ہونے والے حل ہیں، مثلاً Observer تبدیلی پر متعلقہ افراد کو اطلاع دیتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q052",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern is intended to permit one instance of a class?",
+      "options": [
+        "Observer",
+        "Singleton",
+        "Strategy",
+        "Factory"
+      ],
+      "correct_index": 1,
+      "explanation": "Singleton controls creation so one instance is shared."
+    },
+    {
+      "id": "class11-nov12-ch1-q053",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern helps create objects without exposing all creation details?",
+      "options": [
+        "Observer",
+        "Strategy",
+        "Factory",
+        "Sequence"
+      ],
+      "correct_index": 2,
+      "explanation": "Factory separates object creation from its use."
+    },
+    {
+      "id": "class11-nov12-ch1-q054",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern notifies interested objects when a subject changes?",
+      "options": [
+        "Singleton",
+        "Factory",
+        "Strategy",
+        "Observer"
+      ],
+      "correct_index": 3,
+      "explanation": "Observer supports subscription and notification."
+    },
+    {
+      "id": "class11-nov12-ch1-q055",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern lets the program choose among alternative algorithms?",
+      "options": [
+        "Strategy",
+        "Singleton",
+        "Observer",
+        "Factory"
+      ],
+      "correct_index": 0,
+      "explanation": "Strategy encapsulates alternative behaviors.\nاردو وضاحت: Design patterns عام مسائل کے دوبارہ استعمال ہونے والے حل ہیں، مثلاً Observer تبدیلی پر متعلقہ افراد کو اطلاع دیتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q056",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern suits a single shared configuration manager?",
+      "options": [
+        "Observer",
+        "Singleton",
+        "Factory",
+        "Strategy"
+      ],
+      "correct_index": 1,
+      "explanation": "A configuration manager can be maintained as one instance."
+    },
+    {
+      "id": "class11-nov12-ch1-q057",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern might notify followers about a new post?",
+      "options": [
+        "Singleton",
+        "Strategy",
+        "Observer",
+        "Factory"
+      ],
+      "correct_index": 2,
+      "explanation": "Observers receive updates after a subject changes."
+    },
+    {
+      "id": "class11-nov12-ch1-q058",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Why are design patterns used?",
+      "options": [
+        "To eliminate all coding",
+        "To replace requirements",
+        "To ban testing",
+        "To improve reuse and maintainability"
+      ],
+      "correct_index": 3,
+      "explanation": "Patterns can improve design clarity and reusability."
+    },
+    {
+      "id": "class11-nov12-ch1-q059",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which pattern is suitable for producing different types of reports?",
+      "options": [
+        "Factory",
+        "Observer",
+        "Singleton",
+        "Sequence"
+      ],
+      "correct_index": 0,
+      "explanation": "A factory can centralize report-object creation."
+    },
+    {
+      "id": "class11-nov12-ch1-q060",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.6 Introduction to Design Patterns",
+      "question": "Which choice best represents the Strategy pattern?",
+      "options": [
+        "One fixed object for all purposes",
+        "Switchable payment calculation methods",
+        "Automatically notify subscribers",
+        "Draw actors and use cases"
+      ],
+      "correct_index": 1,
+      "explanation": "Strategy allows selecting an algorithm for a task.\nاردو وضاحت: Design patterns عام مسائل کے دوبارہ استعمال ہونے والے حل ہیں، مثلاً Observer تبدیلی پر متعلقہ افراد کو اطلاع دیتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q061",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What is debugging?",
+      "options": [
+        "Checking printer ink",
+        "Finding and fixing program errors",
+        "Designing a brochure",
+        "Releasing software without tests"
+      ],
+      "correct_index": 1,
+      "explanation": "Debugging investigates and corrects bugs.\nاردو وضاحت: Debugging غلطی تلاش اور درست کرتا ہے؛ Testing سافٹ ویئر کے درست کام کرنے کی جانچ ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q062",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What is unit testing?",
+      "options": [
+        "Testing all branches at once",
+        "Testing customer satisfaction only",
+        "Testing an individual component",
+        "Testing hardware packaging"
+      ],
+      "correct_index": 2,
+      "explanation": "Unit tests focus on a small testable part."
+    },
+    {
+      "id": "class11-nov12-ch1-q063",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which testing checks interaction between modules?",
+      "options": [
+        "Acceptance testing",
+        "Unit testing only",
+        "Color testing",
+        "Integration testing"
+      ],
+      "correct_index": 3,
+      "explanation": "Integration tests verify combined component interactions."
+    },
+    {
+      "id": "class11-nov12-ch1-q064",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which testing examines the application as a whole?",
+      "options": [
+        "System testing",
+        "Syntax highlighting",
+        "Unit testing only",
+        "Code formatting"
+      ],
+      "correct_index": 0,
+      "explanation": "System tests assess the entire integrated application."
+    },
+    {
+      "id": "class11-nov12-ch1-q065",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Who typically checks software against end-user expectations during acceptance testing?",
+      "options": [
+        "Only the compiler",
+        "Users or clients",
+        "Only the network router",
+        "Only the printer"
+      ],
+      "correct_index": 1,
+      "explanation": "Acceptance verifies whether delivered software meets needs.\nاردو وضاحت: Debugging غلطی تلاش اور درست کرتا ہے؛ Testing سافٹ ویئر کے درست کام کرنے کی جانچ ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q066",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which debugging approach prints values during execution?",
+      "options": [
+        "Version control",
+        "Deployment",
+        "Print statements",
+        "Requirement interviews"
+      ],
+      "correct_index": 2,
+      "explanation": "Print statements expose runtime values."
+    },
+    {
+      "id": "class11-nov12-ch1-q067",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What does a debugger help a developer do?",
+      "options": [
+        "Change the school syllabus",
+        "Print books",
+        "Draw only a logo",
+        "Inspect execution and variables"
+      ],
+      "correct_index": 3,
+      "explanation": "Debuggers help locate faults during program execution."
+    },
+    {
+      "id": "class11-nov12-ch1-q068",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Which is an example of a code review?",
+      "options": [
+        "Another developer inspects code for issues",
+        "The user changes the wallpaper",
+        "The student checks a keyboard",
+        "The editor changes the document font"
+      ],
+      "correct_index": 0,
+      "explanation": "Reviews can spot code defects before release."
+    },
+    {
+      "id": "class11-nov12-ch1-q069",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "Why is testing necessary?",
+      "options": [
+        "To guarantee software never needs maintenance",
+        "To evaluate whether requirements are met",
+        "To replace the design phase",
+        "To avoid user needs"
+      ],
+      "correct_index": 1,
+      "explanation": "Testing checks expected behavior and quality."
+    },
+    {
+      "id": "class11-nov12-ch1-q070",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.7 Software Debugging and Testing",
+      "question": "What is the usual progression from narrow to broader testing?",
+      "options": [
+        "System, unit, integration",
+        "Acceptance, unit, system",
+        "Unit, integration, system, acceptance",
+        "Deployment, design, unit"
+      ],
+      "correct_index": 2,
+      "explanation": "Testing can progress from components to full product acceptance.\nاردو وضاحت: Debugging غلطی تلاش اور درست کرتا ہے؛ Testing سافٹ ویئر کے درست کام کرنے کی جانچ ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q071",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "What is the main use of a code editor?",
+      "options": [
+        "Designing a classroom",
+        "Writing and editing source code",
+        "Installing only hardware",
+        "Printing examination papers"
+      ],
+      "correct_index": 1,
+      "explanation": "Code editors help create and modify code.\nاردو وضاحت: Code editor کوڈ لکھنے، compiler/interpreter اسے چلانے، debugger غلطیاں تلاش کرنے اور repository کوڈ محفوظ کرنے میں مدد دیتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q072",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which tool commonly translates code line by line?",
+      "options": [
+        "Compiler",
+        "Debugger",
+        "Interpreter",
+        "Repository"
+      ],
+      "correct_index": 2,
+      "explanation": "Interpreters execute code stepwise as described in the chapter."
+    },
+    {
+      "id": "class11-nov12-ch1-q073",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which tool typically translates an entire program before execution?",
+      "options": [
+        "Debugger",
+        "Code editor",
+        "Version control",
+        "Compiler"
+      ],
+      "correct_index": 3,
+      "explanation": "Compilers translate complete programs to executable form."
+    },
+    {
+      "id": "class11-nov12-ch1-q074",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "What does IDE stand for?",
+      "options": [
+        "Integrated Development Environment",
+        "Internet Data Exchange",
+        "Internal Debugging Engine",
+        "Integrated Digital Editor"
+      ],
+      "correct_index": 0,
+      "explanation": "IDEs combine programming-related tools."
+    },
+    {
+      "id": "class11-nov12-ch1-q075",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which is an IDE mentioned in the chapter?",
+      "options": [
+        "Notepad++ only",
+        "Visual Studio",
+        "An HDMI cable",
+        "A PDF watermark"
+      ],
+      "correct_index": 1,
+      "explanation": "Visual Studio is a full integrated development environment.\nاردو وضاحت: Code editor کوڈ لکھنے، compiler/interpreter اسے چلانے، debugger غلطیاں تلاش کرنے اور repository کوڈ محفوظ کرنے میں مدد دیتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch1-q076",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which tool helps trace mistakes in source code?",
+      "options": [
+        "Font manager",
+        "Spreadsheet",
+        "Debugger",
+        "Scanner"
+      ],
+      "correct_index": 2,
+      "explanation": "A debugger helps developers identify errors."
+    },
+    {
+      "id": "class11-nov12-ch1-q077",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which is an example of a source code repository platform?",
+      "options": [
+        "PowerPoint",
+        "Keyboard Manager",
+        "Paint",
+        "GitHub"
+      ],
+      "correct_index": 3,
+      "explanation": "GitHub hosts repositories for projects."
+    },
+    {
+      "id": "class11-nov12-ch1-q078",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "What is a benefit of source code repositories?",
+      "options": [
+        "Track changes and collaborate",
+        "Avoid writing any software",
+        "Replace all testing",
+        "Eliminate team communication"
+      ],
+      "correct_index": 0,
+      "explanation": "Repositories provide version history and collaboration support."
+    },
+    {
+      "id": "class11-nov12-ch1-q079",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which platform type requires internet/cloud access in the chapter?",
+      "options": [
+        "Offline platform",
+        "Online platform",
+        "Local compiler only",
+        "Desktop text editor only"
+      ],
+      "correct_index": 1,
+      "explanation": "Online environments are accessed through the internet."
+    },
+    {
+      "id": "class11-nov12-ch1-q080",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "topic": "1.8 Software Development Tools",
+      "question": "Which environment typically runs locally on a developer computer?",
+      "options": [
+        "Cloud service only",
+        "Remote browser only",
+        "Offline development platform",
+        "Internet search engine"
+      ],
+      "correct_index": 2,
+      "explanation": "Offline development can use local tools without the internet.\nاردو وضاحت: Code editor کوڈ لکھنے، compiler/interpreter اسے چلانے، debugger غلطیاں تلاش کرنے اور repository کوڈ محفوظ کرنے میں مدد دیتی ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q001",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "What is Python primarily classified as?",
+      "options": [
+        "A high-level programming language",
+        "A database server",
+        "A hardware device",
+        "An operating system"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: A high-level programming language. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q002",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Which step converts instructions into a form a computer can execute?",
+      "options": [
+        "Compile/interpret",
+        "Name a file",
+        "Draw a diagram",
+        "Print output"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Compile/interpret. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q003",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Which step comes after running a program in the textbook programming basics sequence?",
+      "options": [
+        "Installing RAM",
+        "Typing a filename",
+        "Output",
+        "Writing code"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Output. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q004",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Which tool is needed to write and execute Python programs?",
+      "options": [
+        "A Python interpreter",
+        "A spreadsheet printer",
+        "A video editor",
+        "A web camera"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: A Python interpreter. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q005",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Which website is identified for downloading Python?",
+      "options": [
+        "github.io",
+        "python.org",
+        "wikipedia.org",
+        "example.com"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: python.org. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q006",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Why is Python suitable for beginners?",
+      "options": [
+        "It needs machine code from users",
+        "It has straightforward syntax",
+        "It only runs on phones",
+        "It cannot use variables"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: It has straightforward syntax. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q007",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Which is a standard Python file extension?",
+      "options": [
+        ".docx",
+        ".exe",
+        ".py",
+        ".jpg"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: .py. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q008",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "What is meant by execution of a program?",
+      "options": [
+        "Deleting source code",
+        "Designing a logo",
+        "Checking a monitor",
+        "Running code to perform its task"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Running code to perform its task. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q009",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "Which application field is mentioned for Python?",
+      "options": [
+        "Only mechanical drawing",
+        "Only video playback",
+        "Data analysis",
+        "Only bookbinding"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Data analysis. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q010",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.1 Introduction to Python Programming",
+      "question": "What does an IDE provide?",
+      "options": [
+        "Only electricity",
+        "Tools to write and run code",
+        "Only a keyboard",
+        "Only a printer"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Tools to write and run code. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q011",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which function displays output in Python?",
+      "options": [
+        "print()",
+        "input()",
+        "int()",
+        "len()"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: print(). This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q012",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which character begins a single-line comment?",
+      "options": [
+        "&",
+        "#",
+        "@",
+        "$"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: #. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q013",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which is a valid Python variable name?",
+      "options": [
+        "2students",
+        "student-age",
+        "class",
+        "student_age"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: student_age. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q014",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which data type stores True or False?",
+      "options": [
+        "float",
+        "list",
+        "bool",
+        "str"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: bool. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q015",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "What does the input() function normally return?",
+      "options": [
+        "A float always",
+        "A string",
+        "A boolean always",
+        "An integer always"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: A string. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q016",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which function converts a numeric string to an integer?",
+      "options": [
+        "input()",
+        "str()",
+        "int()",
+        "print()"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: int(). This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q017",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which value is a floating-point number?",
+      "options": [
+        "12",
+        "True",
+        "3.14",
+        "\"book\""
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: 3.14. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q018",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which statement assigns 15 to age?",
+      "options": [
+        "age = 15",
+        "15 = age",
+        "age == 15",
+        "age => 15"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: age = 15. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q019",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Why are meaningful variable names recommended?",
+      "options": [
+        "They improve code readability",
+        "They change Python syntax",
+        "They eliminate testing",
+        "They increase CPU speed directly"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: They improve code readability. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q020",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.2 Basic Python Syntax and Structure",
+      "question": "Which symbol encloses a typical string literal?",
+      "options": [
+        "Angle brackets",
+        "Quotation marks",
+        "Curly braces only",
+        "Percent signs"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Quotation marks. This follows Python syntax, naming rules, data types, or input/output behavior. اردو وضاحت: یہ جواب پائتھن کے قواعد، متغیرات، ڈیٹا ٹائپس یا ان پٹ اور آؤٹ پٹ کے اصول کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q021",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "What is the result of 10 // 3?",
+      "options": [
+        "3",
+        "1",
+        "3.333",
+        "30"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: 3. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q022",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "What is the result of 10 % 3?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "3"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: 1. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q023",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "What does ** represent in Python?",
+      "options": [
+        "Assignment",
+        "Multiplication only",
+        "Floor division",
+        "Exponentiation"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Exponentiation. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q024",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "Which operator checks equality?",
+      "options": [
+        "==",
+        "!=",
+        "=",
+        ">="
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: ==. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q025",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "What does += do?",
+      "options": [
+        "Divides only",
+        "Compares equality",
+        "Joins statements",
+        "Adds and assigns"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Adds and assigns. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q026",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "What is the result of 2 + 3 * 4?",
+      "options": [
+        "9",
+        "24",
+        "14",
+        "20"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: 14. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q027",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "Which logical operator is True only when both conditions are True?",
+      "options": [
+        "or",
+        "not",
+        "and",
+        "in"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: and. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q028",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "What is the value of not True?",
+      "options": [
+        "False",
+        "1.0",
+        "True",
+        "None"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: False. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q029",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "Which operator has higher precedence than addition?",
+      "options": [
+        "Multiplication (*)",
+        "Assignment (=)",
+        "Logical or",
+        "Comparison (==)"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Multiplication (*). Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q030",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.3 Operators and Expressions",
+      "question": "Which is an expression?",
+      "options": [
+        "# comment only",
+        "a + b",
+        "def without a body",
+        "import without a module"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: a + b. Apply the stated Python operator and its precedence or Boolean meaning to determine the result. اردو وضاحت: درست جواب حاصل کرنے کے لیے متعلقہ آپریٹر اور اس کی ترجیح یا منطقی قاعدہ استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q031",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "Which statement executes a block only when a condition is True?",
+      "options": [
+        "import",
+        "def",
+        "for",
+        "if"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: if. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q032",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "Which keyword provides the alternative branch of an if statement?",
+      "options": [
+        "from",
+        "break",
+        "pass",
+        "else"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: else. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q033",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "Which keyword checks additional conditions after if?",
+      "options": [
+        "while",
+        "return",
+        "print",
+        "elif"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: elif. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q034",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "What is the main purpose of a loop?",
+      "options": [
+        "Store images",
+        "Load an operating system",
+        "Name variables",
+        "Repeat a block of instructions"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Repeat a block of instructions. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q035",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "Which loop checks its condition before each iteration?",
+      "options": [
+        "def",
+        "while",
+        "import",
+        "class"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: while. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q036",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "Which loop directly iterates over elements of a list?",
+      "options": [
+        "elif",
+        "if",
+        "for",
+        "try"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: for. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q037",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "What values are generated by range(3)?",
+      "options": [
+        "1, 2, 3",
+        "3 only",
+        "0, 1, 2",
+        "0, 1, 2, 3"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: 0, 1, 2. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q038",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "What is the output of list(range(2, 6, 2))?",
+      "options": [
+        "[1, 3, 5]",
+        "[2, 4, 6]",
+        "[2, 4]",
+        "[2, 3, 4, 5]"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: [2, 4]. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q039",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "Which punctuation appears after an if condition?",
+      "options": [
+        "Full stop (.)",
+        "Semicolon (;)",
+        "Colon (:)",
+        "Question mark (?)"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Colon (:). Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q040",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.4 Control Structures",
+      "question": "What defines code blocks in Python?",
+      "options": [
+        "Different file extensions",
+        "Capital letters",
+        "Indentation",
+        "Line numbers"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Indentation. Selection and repetition statements control when and how often code executes. اردو وضاحت: شرطی بیانات اور لوپس یہ طے کرتے ہیں کہ کوڈ کب اور کتنی بار چلے گا۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q041",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "Which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "method",
+        "make"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: def. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q042",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "What is the purpose of a function?",
+      "options": [
+        "Change file extension",
+        "Group reusable instructions",
+        "Always print text",
+        "Delete variables"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Group reusable instructions. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q043",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "What is a parameter?",
+      "options": [
+        "A compiler",
+        "A syntax error",
+        "A variable in a function definition",
+        "A file extension"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: A variable in a function definition. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q044",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "Which keyword sends a value back from a function?",
+      "options": [
+        "print",
+        "import",
+        "input",
+        "return"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: return. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q045",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "What is a default parameter?",
+      "options": [
+        "A global error",
+        "An empty program",
+        "A parameter with a predefined value",
+        "A required file"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: A parameter with a predefined value. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q046",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "Which keyword imports a module?",
+      "options": [
+        "include",
+        "attach",
+        "import",
+        "require"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: import. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q047",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "Which Python module is used for random number generation?",
+      "options": [
+        "mathtext",
+        "random",
+        "statistics",
+        "datetime"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: random. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q048",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "Which library example is used for current date and time?",
+      "options": [
+        "turtle3d",
+        "random",
+        "htmlprint",
+        "datetime"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: datetime. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q049",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "What is a Python package?",
+      "options": [
+        "A collection of modules organized together",
+        "A loop",
+        "A data type",
+        "A keyboard shortcut"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: A collection of modules organized together. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q050",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.5 Functions, Modules and Libraries",
+      "question": "Why use modules and libraries?",
+      "options": [
+        "Replace the interpreter",
+        "Reuse existing functionality",
+        "Disable debugging",
+        "Avoid all code"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Reuse existing functionality. Functions, parameters, returns, and imported modules enable reusable code. اردو وضاحت: فنکشن، پیرامیٹر، ریٹرن اور ماڈیول کوڈ دوبارہ استعمال کرنے میں مدد دیتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q051",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "Which structure is mutable and uses square brackets?",
+      "options": [
+        "int",
+        "str",
+        "list",
+        "tuple"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: list. Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q052",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "Which expression creates a tuple?",
+      "options": [
+        "[1, 2, 3]",
+        "\"1,2,3\"",
+        "{1: 2}",
+        "(1, 2, 3)"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: (1, 2, 3). Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q053",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "At what index does Python sequence indexing begin?",
+      "options": [
+        "-1",
+        "10",
+        "0",
+        "1"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: 0. Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q054",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "Which list method adds an item at the end?",
+      "options": [
+        "append()",
+        "sort()",
+        "reverse()",
+        "remove()"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: append(). Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q055",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "Which list method removes the first matching item?",
+      "options": [
+        "remove()",
+        "index()",
+        "copy()",
+        "append()"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: remove(). Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q056",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "What does fruits[-1] access?",
+      "options": [
+        "The middle element always",
+        "The last element",
+        "The first element",
+        "The list length"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: The last element. Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q057",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "What does a slice list[1:3] select?",
+      "options": [
+        "Elements at indexes 1 and 2",
+        "Elements at indexes 1, 2, 3",
+        "Only index 3",
+        "Elements before index 1"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Elements at indexes 1 and 2. Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q058",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "Which list method arranges items in order?",
+      "options": [
+        "count()",
+        "sort()",
+        "clear()",
+        "append()"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: sort(). Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q059",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "Which property distinguishes tuples from lists?",
+      "options": [
+        "Tuples use append()",
+        "Tuples are immutable",
+        "Tuples must hold numbers",
+        "Tuples have no indexes"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Tuples are immutable. Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q060",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.6 Built-in Data Structures",
+      "question": "What does len([4, 5, 6]) produce?",
+      "options": [
+        "2",
+        "4",
+        "15",
+        "3"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: 3. Lists and tuples are ordered sequences; indexing begins at zero and slicing excludes its stop index. اردو وضاحت: لسٹ اور ٹپل ترتیب وار ڈیٹا رکھتے ہیں؛ انڈیکس صفر سے شروع ہوتا ہے اور سلائس کی آخری حد شامل نہیں ہوتی۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q061",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "What is modular programming?",
+      "options": [
+        "Changing a program into hardware",
+        "Using no functions",
+        "Dividing software into reusable modules",
+        "Writing all code in one line"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Dividing software into reusable modules. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q062",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "What does __name__ == \"__main__\" check?",
+      "options": [
+        "Whether syntax is correct",
+        "Whether Python is installed",
+        "Whether a list is empty",
+        "Whether a file runs as the main script"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Whether a file runs as the main script. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q063",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "What happens to guarded main code when a module is imported?",
+      "options": [
+        "It converts to a class",
+        "It always executes twice",
+        "It deletes the module",
+        "It does not automatically execute"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: It does not automatically execute. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q064",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "Which file extension normally stores a Python module?",
+      "options": [
+        ".xlsx",
+        ".py",
+        ".pdf",
+        ".png"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: .py. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q065",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "What is a benefit of modular code?",
+      "options": [
+        "No need for functions",
+        "No need for testing",
+        "Guaranteed absence of bugs",
+        "Easier maintenance"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Easier maintenance. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q066",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "Which statement imports a module named calculator?",
+      "options": [
+        "print calculator",
+        "include calculator",
+        "import calculator",
+        "module calculator"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: import calculator. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q067",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "How can a function add() from calculator be invoked after import calculator?",
+      "options": [
+        "calculator.add(2, 3)",
+        "print.import(2, 3)",
+        "add.calculator(2, 3)",
+        "calculator->add(2, 3)"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: calculator.add(2, 3). Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q068",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "Which concept supports reuse across programs?",
+      "options": [
+        "Repeated manual copying only",
+        "Modules",
+        "Hard-coded inputs only",
+        "Avoiding functions"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Modules. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q069",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "Which function name is conventionally used as an entry point?",
+      "options": [
+        "launch_os()",
+        "main()",
+        "start_python()",
+        "init_system()"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: main(). Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q070",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.7 Modular Programming in Python",
+      "question": "Which design goal does modular programming support?",
+      "options": [
+        "Organization and readability",
+        "Removing imports",
+        "Forcing one giant function",
+        "Replacing data structures"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Organization and readability. Modules separate reusable functionality; the main guard controls direct script execution. اردو وضاحت: ماڈیولز پروگرام کو منظم کرتے ہیں اور مین گارڈ براہِ راست چلانے والے کوڈ کو کنٹرول کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q071",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "What is a class in Python?",
+      "options": [
+        "A blueprint for objects",
+        "A numeric operator",
+        "A file mode",
+        "A loop counter"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: A blueprint for objects. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q072",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "What is an object?",
+      "options": [
+        "A type of comment",
+        "A compiler",
+        "An instance of a class",
+        "A syntax keyword"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: An instance of a class. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q073",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "Which method commonly initializes instance attributes?",
+      "options": [
+        "__main__()",
+        "__name__()",
+        "__file__()",
+        "__init__()"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: __init__(). Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q074",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "What does self refer to in instance methods?",
+      "options": [
+        "The file name",
+        "The current instance",
+        "The operating system",
+        "Every class in Python"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: The current instance. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q075",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "Which keyword defines a class?",
+      "options": [
+        "class",
+        "define",
+        "module",
+        "object"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: class. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q076",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "What is an attribute?",
+      "options": [
+        "Data associated with an object",
+        "A Python extension",
+        "A loop condition only",
+        "A comment"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Data associated with an object. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q077",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "What is a method?",
+      "options": [
+        "An external monitor",
+        "A function defined in a class",
+        "A string delimiter",
+        "A spreadsheet cell"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: A function defined in a class. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q078",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "What does ToyCar('red', 'small', 4) create when ToyCar is a valid class?",
+      "options": [
+        "A new Python keyword",
+        "A loop",
+        "A ToyCar instance",
+        "A package folder"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: A ToyCar instance. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q079",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "Which is a benefit of using classes?",
+      "options": [
+        "Organizing related data and behavior",
+        "Preventing all runtime errors",
+        "Removing indentation",
+        "Making strings immutable"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Organizing related data and behavior. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q080",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.8 Object-Oriented Programming (Supplementary: excluded in 2027)",
+      "question": "How can multiple objects relate to one class?",
+      "options": [
+        "A class cannot make objects",
+        "Every object changes class name",
+        "Only one object is allowed",
+        "They can be separate instances of it"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: They can be separate instances of it. Classes are blueprints and objects are instances with attributes and methods. اردو وضاحت: کلاس ایک نمونہ ہے جبکہ آبجیکٹ اس کی مثال ہوتی ہے جس میں خصوصیات اور طریقے ہوتے ہیں۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q081",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which construct is used to handle exceptions?",
+      "options": [
+        "def/return",
+        "try/except",
+        "if/else only",
+        "for/range"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: try/except. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q082",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which exception occurs for division by zero?",
+      "options": [
+        "NameError always",
+        "ZeroDivisionError",
+        "FileNotFoundError",
+        "IndexError always"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: ZeroDivisionError. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q083",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "What is the purpose of the except block?",
+      "options": [
+        "Import packages",
+        "Define a class",
+        "Create a tuple",
+        "Handle a matching exception"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Handle a matching exception. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q084",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which mode opens a file for reading?",
+      "options": [
+        "x+",
+        "a",
+        "r",
+        "w"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: r. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q085",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which mode opens a file for overwriting and writing?",
+      "options": [
+        "rb",
+        "r",
+        "a",
+        "w"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: w. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q086",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which mode adds new text to the end of a file?",
+      "options": [
+        "rb",
+        "w",
+        "a",
+        "r"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: a. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q087",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Why is with open(...) useful?",
+      "options": [
+        "It always deletes the file",
+        "It closes the file automatically after the block",
+        "It removes all exceptions",
+        "It converts text to numbers"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: It closes the file automatically after the block. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q088",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which method writes text to a file?",
+      "options": [
+        "read()",
+        "write()",
+        "input()",
+        "close_only()"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: write(). Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q089",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "Which method reads all contents of a text file?",
+      "options": [
+        "append()",
+        "read()",
+        "range()",
+        "write()"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: read(). Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q090",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.9 Advanced Python Concepts (Supplementary: excluded in 2027)",
+      "question": "What is a purpose of exception handling?",
+      "options": [
+        "Convert code into machine hardware",
+        "Increase monitor brightness",
+        "Prevent abrupt failure from certain runtime errors",
+        "Prevent every logical bug"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Prevent abrupt failure from certain runtime errors. Exception handling manages runtime errors, while file modes control reading, writing, or appending. اردو وضاحت: ایکسپشن ہینڈلنگ چلتے پروگرام کی غلطیوں کو سنبھالتی ہے اور فائل موڈ پڑھنے یا لکھنے کا تعین کرتا ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q091",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "What is software testing?",
+      "options": [
+        "Checking whether code behaves as expected",
+        "Installing an IDE",
+        "Only writing comments",
+        "Changing a font"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct concept: Checking whether code behaves as expected. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q092",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "What is debugging?",
+      "options": [
+        "Deleting all code",
+        "Finding and fixing program errors",
+        "Only printing results",
+        "Making a flowchart"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Finding and fixing program errors. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q093",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "Which test checks a single function in isolation?",
+      "options": [
+        "Acceptance testing",
+        "Stress-only testing",
+        "System testing",
+        "Unit testing"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Unit testing. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q094",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "Which test examines interactions between modules?",
+      "options": [
+        "Unit testing only",
+        "Integration testing",
+        "Syntax highlighting",
+        "Code formatting"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Integration testing. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q095",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "Which test checks the complete application?",
+      "options": [
+        "A keyboard test",
+        "Only variable naming",
+        "Functional/system testing",
+        "Only code comments"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Functional/system testing. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q096",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "Which test guards against reintroduced bugs?",
+      "options": [
+        "Color testing",
+        "Typing testing",
+        "Regression testing",
+        "Manual copying"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Regression testing. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q097",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "How can print() help debugging?",
+      "options": [
+        "Compile code to binary",
+        "Automatically fix every error",
+        "Show intermediate variable values",
+        "Replace all tests"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Show intermediate variable values. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q098",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "What is a breakpoint used for?",
+      "options": [
+        "Opening websites",
+        "Pausing execution to inspect state",
+        "Creating a module",
+        "Ending every loop forever"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct concept: Pausing execution to inspect state. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q099",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "Which tool helps inspect variable values step by step?",
+      "options": [
+        "Printer",
+        "Spreadsheet chart",
+        "Debugger",
+        "Browser cache"
+      ],
+      "correct_index": 2,
+      "explanation": "Correct concept: Debugger. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    },
+    {
+      "id": "class11-nov12-ch2-q100",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "topic": "2.10 Testing and Debugging (Supplementary: excluded in 2027)",
+      "question": "What does a Python traceback help identify?",
+      "options": [
+        "The computer price",
+        "The Wi-Fi speed",
+        "The textbook page count",
+        "Where and why an exception occurred"
+      ],
+      "correct_index": 3,
+      "explanation": "Correct concept: Where and why an exception occurred. This is the correct concept or tool according to the textbook introduction to Python and the basic programming workflow. اردو وضاحت: یہ جواب پائتھن کے تعارف اور پروگرام بنانے کے بنیادی مراحل کے مطابق ہے۔"
+    }
+  ],
+  "notes": [
+    {
+      "id": "class11-nov12-chapter-1-study-guide",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Software Development",
+      "title": "Chapter 1: Introduction to Software Development - Study Guide and MCQs",
+      "description": "Class 11 Computer Science: 80 topic-wise MCQs, explanations, a practice test and the supplied examination-syllabus notice.",
+      "pdf_url": "https://raytechinstitute.com/documents/class11/nov12/chapter-1.pdf",
+      "preview_pdf_url": "https://raytechinstitute.com/documents/class11/nov12/chapter-1.pdf",
+      "file_size": "212 KB",
+      "download_count": 0,
+      "last_updated": "2026-11-12",
+      "action_button_text": null,
+      "action_button_url": null,
+      "content": "## Chapter 1: Introduction to Software Development\n\nThis supplied Class 11 Computer Science and Entrepreneurship study document combines topic-wise MCQ revision with explanations and a separate practice test. It is a classroom preparation resource, not a reproduced board examination paper. The online question bank contains 80 questions organised into 8 topics. Questions and options retain the supplied English wording; Urdu explanations are retained wherever the document supplies them.\n\n## What you can study\n\n- 1.1 Software Development\n- 1.2 Software Development Life Cycle (SDLC)\n- 1.3 Software Development Methodologies\n- 1.4 Project Planning and Management\n- 1.5 Graphical Representation and UML (Supplementary: excluded in 2027)\n- 1.6 Introduction to Design Patterns\n- 1.7 Software Debugging and Testing\n- 1.8 Software Development Tools\n\n## Read the examination notice first\n\nSection 1.5, graphical representation and UML, is labelled supplementary and excluded in the supplied 2027 guide. These topics remain available for wider learning and are clearly named as supplementary in the online topic selector. Check the applicable official syllabus before planning an examination revision schedule. The document also identifies excluded exercise questions. No historical board appearance or repetition count is claimed for these original practice questions.\n\n## Practise before checking the key\n\nChoose a single topic and attempt its questions independently. The interactive test shows feedback at the result stage. Use the English and available Urdu explanations to work out why your selected option fits or does not fit. The downloadable study document includes marked answers and a separate practice-test answer key, so it is intended for revision as well as self-testing.\n\n## PDF preview and offline study\n\nPreview the complete document in the viewer below or download the same PDF for offline revision. The source notice, topic order, explanations, study material and practice-test sections are preserved.\n\n## Continue learning\n\nOpen [chapter-wise Computer Science MCQs](/classes/11th-class/computer-science/mcqs/) to select this chapter and a topic. Browse [Computer Science notes](/classes/11th-class/computer-science/notes/) for the other supplied documents or return to [subject resources](/classes/11th-class/computer-science/)."
+    },
+    {
+      "id": "class11-nov12-chapter-2-study-guide",
+      "class_slug": "11th-class",
+      "subject_slug": "computer-science",
+      "chapter_number": 2,
+      "chapter_title": "Python Programming",
+      "title": "Chapter 2: Python Programming - Study Guide and MCQs",
+      "description": "Class 11 Computer Science: 100 topic-wise MCQs, explanations, a practice test and the supplied examination-syllabus notice.",
+      "pdf_url": "https://raytechinstitute.com/documents/class11/nov12/chapter-2.pdf",
+      "preview_pdf_url": "https://raytechinstitute.com/documents/class11/nov12/chapter-2.pdf",
+      "file_size": "326 KB",
+      "download_count": 0,
+      "last_updated": "2026-11-12",
+      "action_button_text": null,
+      "action_button_url": null,
+      "content": "## Chapter 2: Python Programming\n\nThis supplied Class 11 Computer Science and Entrepreneurship study document combines topic-wise MCQ revision with explanations and a separate practice test. It is a classroom preparation resource, not a reproduced board examination paper. The online question bank contains 100 questions organised into 10 topics. Questions and options retain the supplied English wording; Urdu explanations are retained wherever the document supplies them.\n\n## What you can study\n\n- 2.1 Introduction to Python Programming\n- 2.2 Basic Python Syntax and Structure\n- 2.3 Operators and Expressions\n- 2.4 Control Structures\n- 2.5 Functions, Modules and Libraries\n- 2.6 Built-in Data Structures\n- 2.7 Modular Programming in Python\n- 2.8 Object-Oriented Programming (Supplementary: excluded in 2027)\n- 2.9 Advanced Python Concepts (Supplementary: excluded in 2027)\n- 2.10 Testing and Debugging (Supplementary: excluded in 2027)\n\n## Read the examination notice first\n\nSections 2.8 to 2.10, covering object-oriented programming, advanced concepts, testing and debugging, are labelled supplementary and excluded in the supplied 2027 guide. These topics remain available for wider learning and are clearly named as supplementary in the online topic selector. Check the applicable official syllabus before planning an examination revision schedule. The document also identifies excluded exercise questions. No historical board appearance or repetition count is claimed for these original practice questions.\n\n## Practise before checking the key\n\nChoose a single topic and attempt its questions independently. The interactive test shows feedback at the result stage. Use the English and available Urdu explanations to work out why your selected option fits or does not fit. The downloadable study document includes marked answers and a separate practice-test answer key, so it is intended for revision as well as self-testing.\n\n## Notes and worked Python examples\n\nThe Chapter 2 guide also contains topic notes, Python examples, comparison tables, short questions, long questions with model answers, and a revision checklist. Type the examples yourself, predict the output and compare it with what the program produces. Keep the supplementary sections separate from the retained examination topics when planning your study.\n\n## PDF preview and offline study\n\nPreview the complete document in the viewer below or download the same PDF for offline revision. The source notice, topic order, explanations, study material and practice-test sections are preserved.\n\n## Continue learning\n\nOpen [chapter-wise Computer Science MCQs](/classes/11th-class/computer-science/mcqs/) to select this chapter and a topic. Browse [Computer Science notes](/classes/11th-class/computer-science/notes/) for the other supplied documents or return to [subject resources](/classes/11th-class/computer-science/)."
+    }
+  ],
+  "updates": [
+    {
+      "table": "chapters",
+      "id": "chapter-11th-class-computer-science-1",
+      "before": {
+        "title": "Software Development Life Cycle (SDLC)",
+        "description": "Software Development Life Cycle (SDLC)"
+      },
+      "after": {
+        "title": "Introduction to Software Development",
+        "description": "Software development, SDLC, methodologies, project planning, design patterns, debugging and development tools."
+      }
+    }
+  ]
+}
