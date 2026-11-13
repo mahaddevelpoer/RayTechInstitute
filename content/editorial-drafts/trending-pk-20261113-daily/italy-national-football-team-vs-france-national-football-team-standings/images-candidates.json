@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:San Siro Stadium 18.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/San_Siro_Stadium_18.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/San_Siro_Stadium_18.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Siro_Stadium_18.jpg",
+    "creator": "Zakarie Faibis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "San Siro stadium in an archive photograph",
+    "description": "San Siro Stadium",
+    "caption": "Archive view of San Siro. It illustrates the Milan venue, not the crowd or conditions during the November 2026 match.",
+    "width": 2364,
+    "height": 1330,
+    "bytes": 1296789,
+    "sha1": "8ab127be1fa5c62c5cfc0cb276c0d267736d82b2",
+    "photographedAt": "2025-12-28 12:29:57",
+    "query": "\"San Siro\" stadium",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Norway Italy - June 2025 A 30.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Norway_Italy_-_June_2025_A_30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Norway_Italy_-_June_2025_A_30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_30.jpg",
+    "creator": "MichaelEmilio",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "A scene from Norway versus Italy in June 2025",
+    "description": "Norway 3 - Italy 0. World Cup 2026 Qualifications",
+    "caption": "Archive: Norway–Italy, June 2025. This is international-football background, not Italy’s November 2026 match against France.",
+    "width": 5940,
+    "height": 3960,
+    "bytes": 7288355,
+    "sha1": "e78cf5a8034a517d7172ca0adf8ba4bad18825ad",
+    "photographedAt": "2025-06-06 18:25:02",
+    "query": "\"Davide Frattesi\"",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 5,
+  "bodyWords": 10624,
+  "uniqueImages": 10,
+  "existingArticlesCompared": 543,
+  "results": [
+    {
+      "key": "italy-national-football-team-vs-france-national-football-team-standings",
+      "slug": "italy-france-nations-league-result-standings-november-12-2026",
+      "words": 2100,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "england-national-football-team-vs-croatia-national-football-team-standings",
+      "slug": "england-croatia-nations-league-result-kane-november-12-2026",
+      "words": 2161,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "pak-vs-ind-u19-final",
+      "slug": "pakistan-india-u19-asia-cup-final-november-14-2026-preview",
+      "words": 2080,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "pubg-mobile-flash",
+      "slug": "pubg-mobile-flash-launch-official-download-account-storage-guide",
+      "words": 2112,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen-google-launch-coding-workflow-guide",
+      "words": 2171,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

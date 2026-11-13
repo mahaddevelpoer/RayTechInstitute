@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-03-published-next-research-pending",
+  "state": "batch-04-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -96,8 +96,13 @@
     {
       "key": "italy-national-football-team-vs-france-national-football-team-standings",
       "query": "italy national football team vs france national football team standings",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "San Siro stadium",
+        "Davide Frattesi"
+      ],
+      "title": "Italy Beat France 3–1: Nations League Result and Group A1 Standings Explained",
+      "slug": "italy-france-nations-league-result-standings-november-12-2026"
     },
     {
       "key": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
@@ -114,8 +119,13 @@
     {
       "key": "england-national-football-team-vs-croatia-national-football-team-standings",
       "query": "england national football team vs croatia national football team standings",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Harry Kane",
+        "Wembley Stadium"
+      ],
+      "title": "England Beat Croatia 2–1: Kane’s Record Night and Nations League Qualification",
+      "slug": "england-croatia-nations-league-result-kane-november-12-2026"
     },
     {
       "key": "whatsapp-view-once-text-android",
@@ -231,14 +241,24 @@
     {
       "key": "pak-vs-ind-u19-final",
       "query": "pak vs ind u19 final",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Oman cricket stadium",
+        "cricket ball bat"
+      ],
+      "title": "Pakistan U19 vs India U19 Final: 14 November Schedule, Pakistan Time and Preview",
+      "slug": "pakistan-india-u19-asia-cup-final-november-14-2026-preview"
     },
     {
       "key": "pubg-mobile-flash",
       "query": "pubg flash",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "PUBG Mobile esports",
+        "mobile gaming smartphone"
+      ],
+      "title": "PUBG MOBILE FLASH Launch: Official Download, Accounts and Storage Explained",
+      "slug": "pubg-mobile-flash-launch-official-download-account-storage-guide"
     },
     {
       "key": "naruto",
@@ -249,8 +269,13 @@
     {
       "key": "gemini-4-hydrogen",
       "query": "gemini 4 hydrogen",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Google campus",
+        "Android smartphone"
+      ],
+      "title": "Gemini 4 Hydrogen: Google’s Launch, Coding Workflows and Practical Limits",
+      "slug": "gemini-4-hydrogen-google-launch-coding-workflow-guide"
     },
     {
       "key": "petrol-price",
@@ -1159,6 +1184,20 @@
       "revision": "83804648efbca426d5196c6b1f7f8a9352b87ba0",
       "workflowRun": "43411425096",
       "liveVerifiedAt": "2026-11-13T13:10:30.165Z"
+    },
+    {
+      "number": 4,
+      "keys": [
+        "gemini-4-hydrogen",
+        "pubg-mobile-flash",
+        "pak-vs-ind-u19-final",
+        "italy-national-football-team-vs-france-national-football-team-standings",
+        "england-national-football-team-vs-croatia-national-football-team-standings"
+      ],
+      "expectedSize": 5,
+      "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these five completed verified articles after exact validation and readback.",
+      "state": "drafting",
+      "validationFile": "batch-04-validation.json"
     }
   ],
   "excludedGroups": [

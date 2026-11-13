@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Googleplex sign.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/gemini-4-hydrogen-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Googleplex_sign.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Googleplex_sign.jpg",
+    "creator": "Runner1928",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "A Googleplex sign in Mountain View, California",
+    "description": "Charleston and Huff, Mountain View, California",
+    "caption": "Archive Googleplex sign photograph from Mountain View. It provides company context and does not depict the Hydrogen model or its November 2026 launch.",
+    "width": 720,
+    "height": 960,
+    "bytes": 87440,
+    "sha1": "42a9606d4e2e1babea295002233cbfada5f38079",
+    "photographedAt": "28 May 2014 (according to Exif data)",
+    "query": "\"Googleplex\"",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Highscreen Boost - Android smartphone.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/gemini-4-hydrogen-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Highscreen_Boost_-_Android_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Highscreen_Boost_-_Android_smartphone.jpg",
+    "creator": "Sergey solom",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "A Highscreen Boost Android smartphone",
+    "description": "Highscreen Boost - смартфон с аккумулятором, большая емкость которого обеспечивает до 7 дней работы без подзарядки",
+    "caption": "Archive smartphone illustration. It does not show the current Gemini interface or establish model availability on this pictured device.",
+    "width": 1280,
+    "height": 847,
+    "bytes": 25344,
+    "sha1": "0df8909147267faf2d4816fd0b4858630d554217",
+    "photographedAt": "2012-03-10 21:02:54",
+    "query": "\"Android\" smartphone",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]
