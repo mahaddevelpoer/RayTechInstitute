@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "triaged-research-in-progress",
+  "state": "batch-01-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -65,7 +65,7 @@
     {
       "key": "outlook",
       "query": "outlook",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Microsoft office sign",
         "laptop keyboard"
@@ -583,7 +583,8 @@
       "row": 3,
       "query": "outlook",
       "group": "outlook",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "outlook-service-status-sign-in-troubleshooting-guide"
     },
     {
       "row": 4,
@@ -1084,8 +1085,11 @@
       ],
       "expectedSize": 1,
       "explicitUserAuthorization": "Current Pakistan CSV continues the established editorial task. Standing owner instruction authorises publishing completed verified articles as ready; this release contains only the completed Outlook guide.",
-      "state": "draft-written",
-      "validationFile": "batch-01-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-01-validation.json",
+      "revision": "b58fb05dbd7fb0fa4a5c0ccf962bc61ec0f46456",
+      "workflowRun": "43406230564",
+      "liveVerifiedAt": "2026-11-13T10:10:00.893Z"
     }
   ],
   "excludedGroups": [

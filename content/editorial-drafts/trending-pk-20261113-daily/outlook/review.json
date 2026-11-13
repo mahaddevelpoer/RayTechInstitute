@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2236,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-13",
   "scope": "Official support guidance and original troubleshooting explanation. No claim that a live global outage is confirmed or resolved; no invented first-hand account access.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/outlook-image-review.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/outlook-service-status-sign-in-troubleshooting-guide/",
+  "liveVerifiedAt": "2026-11-13T10:10:00.893Z",
+  "releaseRevision": "b58fb05dbd7fb0fa4a5c0ccf962bc61ec0f46456",
+  "workflowRun": "43406230564"
 }

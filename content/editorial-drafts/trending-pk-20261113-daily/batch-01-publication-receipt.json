@@ -1,0 +1,13 @@
+{
+  "state": "published-live-verified",
+  "inserted": 1,
+  "verified": 1,
+  "existingArticlesPreserved": 536,
+  "articles": [
+    "outlook-service-status-sign-in-troubleshooting-guide"
+  ],
+  "sourceRevision": "b58fb05dbd7fb0fa4a5c0ccf962bc61ec0f46456",
+  "workflowRun": "43406230564",
+  "liveVerification": "batch-01-live-verification.json",
+  "workflowEvidence": "batch-01-workflow-result.json"
+}

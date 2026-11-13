@@ -1,9 +1,12 @@
 # Pakistan 13 November editorial queue
 
-- Source CSV: 84 rows.
-- Six repeated alias rows are grouped with their corresponding topics.
-- Four rows already have relevant published Karachi weather and polar-vortex coverage.
-- Sixteen generic rows are skipped under the existing owner instruction.
-- Sixty candidate groups require research and context checks. They are not guaranteed to become sixty separate articles.
-- Outlook passed local checks: 2,236 body words, 42 tags and two unique licensed images. Publication and live checks are pending.
-- Prior PK and US queues remain unchanged.
+This daily CSV is active; earlier pending queues remain tracked separately and unchanged by this release.
+
+- Input: 84 rows.
+- 1 new articles are published and live verified, covering 1 input rows.
+- Batch 1: 1 article(s), 2,236 body words, 42 tags and 2 distinct licensed images.
+- 4 input rows already have relevant published articles.
+- 16 generic rows are skipped for insufficient context.
+- 59 topic groups remain incomplete, subject to further research.
+- Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed. Latest workflow: 43406230564.
+- See batch evidence files and NEXT-RESEARCH.md.

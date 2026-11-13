@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-13T10:10:00.893Z",
+  "expectedRevision": "b58fb05dbd7fb0fa4a5c0ccf962bc61ec0f46456",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-13T10:07:00.285Z",
+    "revision": "b58fb05dbd7fb0fa4a5c0ccf962bc61ec0f46456",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 648,
+    "sitemapSha256": "a47cb256276269d73ab9708f757fe46030089991427d1eab71855ff199a10940",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43406230564"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "outlook",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/outlook-service-status-sign-in-troubleshooting-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/outlook-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/outlook-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
