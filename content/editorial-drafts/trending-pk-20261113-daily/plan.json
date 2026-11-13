@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-04-drafting",
+  "state": "batch-04-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -96,7 +96,7 @@
     {
       "key": "italy-national-football-team-vs-france-national-football-team-standings",
       "query": "italy national football team vs france national football team standings",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "San Siro stadium",
         "Davide Frattesi"
@@ -119,7 +119,7 @@
     {
       "key": "england-national-football-team-vs-croatia-national-football-team-standings",
       "query": "england national football team vs croatia national football team standings",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Harry Kane",
         "Wembley Stadium"
@@ -241,7 +241,7 @@
     {
       "key": "pak-vs-ind-u19-final",
       "query": "pak vs ind u19 final",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Oman cricket stadium",
         "cricket ball bat"
@@ -252,7 +252,7 @@
     {
       "key": "pubg-mobile-flash",
       "query": "pubg flash",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "PUBG Mobile esports",
         "mobile gaming smartphone"
@@ -269,7 +269,7 @@
     {
       "key": "gemini-4-hydrogen",
       "query": "gemini 4 hydrogen",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Google campus",
         "Android smartphone"
@@ -647,7 +647,8 @@
       "row": 4,
       "query": "italy national football team vs france national football team standings",
       "group": "italy-national-football-team-vs-france-national-football-team-standings",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "italy-france-nations-league-result-standings-november-12-2026"
     },
     {
       "row": 5,
@@ -665,7 +666,8 @@
       "row": 7,
       "query": "england national football team vs croatia national football team standings",
       "group": "england-national-football-team-vs-croatia-national-football-team-standings",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "england-croatia-nations-league-result-kane-november-12-2026"
     },
     {
       "row": 8,
@@ -804,7 +806,8 @@
       "row": 29,
       "query": "pak vs ind u19 final",
       "group": "pak-vs-ind-u19-final",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "pakistan-india-u19-asia-cup-final-november-14-2026-preview"
     },
     {
       "row": 30,
@@ -816,7 +819,8 @@
       "row": 31,
       "query": "pubg flash",
       "group": "pubg-mobile-flash",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "pubg-mobile-flash-launch-official-download-account-storage-guide"
     },
     {
       "row": 32,
@@ -828,7 +832,8 @@
       "row": 33,
       "query": "gemini 4 hydrogen",
       "group": "gemini-4-hydrogen",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "gemini-4-hydrogen-google-launch-coding-workflow-guide"
     },
     {
       "row": 34,
@@ -1126,7 +1131,8 @@
       "row": 82,
       "query": "pubg mobile flash release date",
       "group": "pubg-mobile-flash",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "pubg-mobile-flash-launch-official-download-account-storage-guide"
     },
     {
       "row": 83,
@@ -1196,8 +1202,11 @@
       ],
       "expectedSize": 5,
       "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these five completed verified articles after exact validation and readback.",
-      "state": "drafting",
-      "validationFile": "batch-04-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-04-validation.json",
+      "revision": "06652ffcb656f2fb45d0e80eae722303d95422e8",
+      "workflowRun": "43434199069",
+      "liveVerifiedAt": "2026-11-13T13:36:53.404Z"
     }
   ],
   "excludedGroups": [

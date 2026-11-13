@@ -1,0 +1,186 @@
+{
+  "checkedAt": "2026-11-13T13:36:53.404Z",
+  "expectedRevision": "06652ffcb656f2fb45d0e80eae722303d95422e8",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-13T13:32:48.413Z",
+    "revision": "06652ffcb656f2fb45d0e80eae722303d95422e8",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 659,
+    "sitemapSha256": "f666682aaeeecc932c0e2c6d1c2a1928f755f0964245ae14169e4b867524bafa",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43434199069"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "gemini-4-hydrogen",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/gemini-4-hydrogen-google-launch-coding-workflow-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/gemini-4-hydrogen-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/gemini-4-hydrogen-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pubg-mobile-flash",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/pubg-mobile-flash-launch-official-download-account-storage-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/pubg-mobile-flash-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/pubg-mobile-flash-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pak-vs-ind-u19-final",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-india-u19-asia-cup-final-november-14-2026-preview/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/pak-vs-ind-u19-final-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/pak-vs-ind-u19-final-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "italy-national-football-team-vs-france-national-football-team-standings",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/italy-france-nations-league-result-standings-november-12-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/italy-national-football-team-vs-france-national-football-team-standings-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/italy-national-football-team-vs-france-national-football-team-standings-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "england-national-football-team-vs-croatia-national-football-team-standings",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/england-croatia-nations-league-result-kane-november-12-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/england-national-football-team-vs-croatia-national-football-team-standings-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/england-national-football-team-vs-croatia-national-football-team-standings-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

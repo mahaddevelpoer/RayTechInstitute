@@ -1,0 +1,17 @@
+{
+  "state": "published-live-verified",
+  "inserted": 5,
+  "verified": 5,
+  "existingArticlesPreserved": 543,
+  "articles": [
+    "italy-france-nations-league-result-standings-november-12-2026",
+    "england-croatia-nations-league-result-kane-november-12-2026",
+    "pakistan-india-u19-asia-cup-final-november-14-2026-preview",
+    "pubg-mobile-flash-launch-official-download-account-storage-guide",
+    "gemini-4-hydrogen-google-launch-coding-workflow-guide"
+  ],
+  "sourceRevision": "06652ffcb656f2fb45d0e80eae722303d95422e8",
+  "workflowRun": "43434199069",
+  "liveVerification": "batch-04-live-verification.json",
+  "workflowEvidence": "batch-04-workflow-result.json"
+}

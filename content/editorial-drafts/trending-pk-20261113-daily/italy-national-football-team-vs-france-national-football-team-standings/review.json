@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2100,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-13",
   "scope": "Completed official match result with separately labelled table context; no invented technical statistics or future qualification result.",
   "localChecks": "validation.json",
-  "visualReviewEvidence": "artifacts/pakistan-nov13/batch-04-image-review.png"
+  "visualReviewEvidence": "artifacts/pakistan-nov13/batch-04-image-review.png",
+  "liveUrl": "https://raytechinstitute.com/blogs/italy-france-nations-league-result-standings-november-12-2026/",
+  "liveVerifiedAt": "2026-11-13T13:36:53.404Z",
+  "releaseRevision": "06652ffcb656f2fb45d0e80eae722303d95422e8",
+  "workflowRun": "43434199069"
 }
