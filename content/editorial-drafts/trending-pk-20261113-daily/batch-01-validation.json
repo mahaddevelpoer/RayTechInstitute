@@ -1,0 +1,16 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 1,
+  "bodyWords": 2236,
+  "uniqueImages": 2,
+  "existingArticlesCompared": 536,
+  "results": [
+    {
+      "key": "outlook",
+      "slug": "outlook-service-status-sign-in-troubleshooting-guide",
+      "words": 2236,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Microsoft sign at the Microsoft Visitor Center Building 92.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Microsoft_sign_at_the_Microsoft_Visitor_Center_Building_92.jpg/1280px-Microsoft_sign_at_the_Microsoft_Visitor_Center_Building_92.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Microsoft_sign_at_the_Microsoft_Visitor_Center_Building_92.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Microsoft_sign_at_the_Microsoft_Visitor_Center_Building_92.jpg",
+    "creator": "Lectrician1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Microsoft campus building and sign",
+    "description": "Microsoft sign at the Microsoft Visitor Center Building 92",
+    "caption": "Archive photograph of the Microsoft campus, illustrating the provider. It is not evidence of a current Outlook incident.",
+    "width": 4032,
+    "height": 3024,
+    "bytes": 3632144,
+    "sha1": "3f5e7b3402575ed1e24e69bf86e050576069bb74",
+    "photographedAt": "2022-05-29 16:50:14",
+    "query": "\"Microsoft\" building",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Lenovo G500s laptop-2905.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lenovo_G500s_laptop-2905.jpg/1280px-Lenovo_G500s_laptop-2905.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lenovo_G500s_laptop-2905.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Lenovo_G500s_laptop-2905.jpg",
+    "creator": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "A laptop used to illustrate browser and email troubleshooting",
+    "description": "Lenovo G500s laptop with German keyboard layout",
+    "caption": "Archive laptop photograph illustrating device troubleshooting. No personal mailbox or live Outlook status is shown.",
+    "width": 3861,
+    "height": 2896,
+    "bytes": 3788483,
+    "sha1": "edd525768af77139d097c5cf6099577fcd0343e9",
+    "photographedAt": "2015-11-19",
+    "query": "laptop email keyboard",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

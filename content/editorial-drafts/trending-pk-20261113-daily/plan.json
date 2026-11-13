@@ -1,0 +1,1203 @@
+{
+  "date": "2026-11-13",
+  "region": "PK",
+  "sourceCsv": "trending_PK_1d_20261113-1451.csv",
+  "sourceSha256": "253fb1f5ba5aaa3689a009e7fb7f2438b4c27eb70f0b98b591448f9a96e01b1f",
+  "publicationAuthorized": true,
+  "minimumBodyWords": 2000,
+  "batchSize": 10,
+  "state": "triaged-research-in-progress",
+  "oldQueueSnapshot": [
+    {
+      "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
+      "sha256": "142609ddfea4a4b424ad838b7a9a7ac714fdde767de2e470af766d8bbe53fe4c"
+    },
+    {
+      "path": "content/editorial-drafts/trending-us-20261112-daily/STATUS.md",
+      "sha256": "e0b3dc22a43b6b414767259b717e6e5051461799818476b8dacc3aa61cac6bdf"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261112-daily/plan.json",
+      "sha256": "0344035029209daf08d774f66c646e141acfd2fec1595cdd4aa1906079f7967b"
+    },
+    {
+      "path": "content/editorial-drafts/trending-pk-20261112-daily/STATUS.md",
+      "sha256": "e0db8567852886f13f0315fa850d4ebfff6523535ee384da69a1331a0f915898"
+    }
+  ],
+  "groups": [
+    {
+      "key": "england-vs-australia",
+      "query": "england vs australia",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "australia-england-odi-series-perth-november-2026-guide",
+          "title": "Australia–England ODI Series: Perth Start, Schedule and Viewing Context"
+        }
+      ]
+    },
+    {
+      "key": "new-zealand-vs-india",
+      "query": "new zealand vs india",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "india-new-zealand-hamilton-fifth-t20i-scorecard-context",
+          "title": "India vs New Zealand: Hamilton Scorecard and Series Context"
+        },
+        {
+          "slug": "new-zealand-india-first-odi-kohli-dls-november-2026",
+          "title": "New Zealand vs India First ODI: Kohli, DLS and the Five-Wicket Win"
+        },
+        {
+          "slug": "new-zealand-vs-india-4th-t20i-october-30-2026-guide",
+          "title": "New Zealand vs India: T20I Match Guide"
+        },
+        {
+          "slug": "new-zealand-india-bay-oval-odis-november-2026-guide",
+          "title": "New Zealand vs India: Bay Oval ODI Dates, Squads and Time Check"
+        }
+      ]
+    },
+    {
+      "key": "outlook",
+      "query": "outlook",
+      "state": "draft-written",
+      "queries": [
+        "Microsoft office sign",
+        "laptop keyboard"
+      ],
+      "title": "Outlook Not Working? Official Status and Safe Sign-In Troubleshooting",
+      "slug": "outlook-service-status-sign-in-troubleshooting-guide",
+      "potentialExisting": [
+        {
+          "slug": "karachi-weather-12-14-november-2026-pmd-outlook",
+          "title": "Karachi Weather, 12–14 November 2026: PMD Drizzle Outlook Explained"
+        },
+        {
+          "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained",
+          "title": "Polar Vortex and El Niño Winter Weather: Reading the November 2026 Outlook"
+        }
+      ]
+    },
+    {
+      "key": "italy-national-football-team-vs-france-national-football-team-standings",
+      "query": "italy national football team vs france national football team standings",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
+      "query": "czech republic national football team vs spain national football team standings",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ruturaj-gaikwad",
+      "query": "ruturaj gaikwad",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "england-national-football-team-vs-croatia-national-football-team-standings",
+      "query": "england national football team vs croatia national football team standings",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "whatsapp-view-once-text-android",
+      "query": "whatsapp view once text android",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "saud-shakeel",
+      "query": "saud shakeel",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "alfaaz-alan-walker",
+      "query": "alfaaz alan walker",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "kuldeep-yadav",
+      "query": "kuldeep yadav",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "icc",
+      "query": "icc",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "icc-rankings-rank-rating-team-player-tables-explained",
+          "title": "ICC Rankings Explained: Rank, Rating and Cricket Tables"
+        },
+        {
+          "slug": "icc-cricket-world-cup-2027-dates-hosts-format",
+          "title": "ICC Cricket World Cup 2027: Dates, Hosts and the New Format Explained"
+        },
+        {
+          "slug": "sahibzada-farhan-icc-t20i-rankings-explained",
+          "title": "Sahibzada Farhan: How ICC T20I Rankings Work"
+        },
+        {
+          "slug": "icc-womens-champions-trophy-2027-india-dates",
+          "title": "ICC Women’s Champions Trophy 2027: India Venues, Dates and Format"
+        }
+      ]
+    },
+    {
+      "key": "nadra",
+      "query": "nadra",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "tuba-hassan",
+      "query": "tuba hassan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jack-edwards",
+      "query": "jack edwards",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "axar-patel",
+      "query": "axar patel",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "james-anderson",
+      "query": "james anderson",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "arda-guler",
+      "query": "arda güler",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "nvidia-ceo-jensen-huang",
+      "query": "nvidia ceo jensen huang",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "finn-allen",
+      "query": "finn allen",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pak-vs-ind-u19-final",
+      "query": "pak vs ind u19 final",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pubg-mobile-flash",
+      "query": "pubg flash",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "naruto",
+      "query": "naruto",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "gemini-4-hydrogen",
+      "query": "gemini 4 hydrogen",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "petrol-price",
+      "query": "petrol price",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "pakistan-refinery-costs-petrol-price-pass-through-explained",
+          "title": "Why Refineries Can Absorb Higher Petrol Costs in Pakistan"
+        },
+        {
+          "slug": "pakistan-petrol-price-notification-reading-guide",
+          "title": "Pakistan Petrol Price: Verify the Rate and Date"
+        },
+        {
+          "slug": "pakistan-petrol-diesel-prices-12-november-2026-pso",
+          "title": "Pakistan Fuel Prices, 12 November 2026: Petrol, Diesel and Travel Costs"
+        }
+      ]
+    },
+    {
+      "key": "turkiye-vs-belgium",
+      "query": "türkiye vs belgium",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "bruno-fernandes",
+      "query": "bruno fernandes",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "bruno-fernandes-career-creative-midfield-guide",
+          "title": "Bruno Fernandes: United Timeline, Creative Midfield and Passing Risk"
+        }
+      ]
+    },
+    {
+      "key": "class-10-smart-syllabus-2027",
+      "query": "class 10 smart syllabus 2027",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "smart-syllabus-2027-9th-10th-11th-12th-all-in-one-pdf",
+          "title": "Punjab Smart Syllabus 2026–27 Released: Official PECTAA Notification, 9th & 11th Class PDF Downloads and 2027 Exam Updates"
+        },
+        {
+          "slug": "smart-syllabus-2027-9th-class-10th-class-11th-class-12th-class-all-in-one-pdf",
+          "title": "Punjab Smart Syllabus 2026–27 Released: Official PECTAA Notification, 9th & 11th Class PDF Downloads and 2027 Exam Updates"
+        }
+      ]
+    },
+    {
+      "key": "michael-bracewell",
+      "query": "michael bracewell",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "michael-carrick",
+      "query": "michael carrick",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "michael-carrick-playing-career-midfield-guide",
+          "title": "Michael Carrick: Playing Career, Passing Lanes and Midfield Control"
+        }
+      ]
+    },
+    {
+      "key": "chinese-yuan",
+      "query": "chinese yuan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "mohammed-siraj",
+      "query": "mohammed siraj",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "joe-root",
+      "query": "joe root",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "zimbabwe-national-cricket-team",
+      "query": "zimbabwe national cricket team",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "afghanistan-zimbabwe-series-planning-guide",
+          "title": "Afghanistan vs Zimbabwe: Understanding the Series"
+        },
+        {
+          "slug": "zimbabwe-geography-country-cricket-context-guide",
+          "title": "Zimbabwe: Country Geography and Cricket Context"
+        },
+        {
+          "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
+          "title": "Zimbabwe vs Afghanistan Test Draw: Sharjah Scores and Next Match"
+        }
+      ]
+    },
+    {
+      "key": "detangle-comb-for-hair-growth",
+      "query": "detangle comb for hair growth",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "aryna-sabalenka",
+      "query": "aryna sabalenka",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "rahmat-shah-icc-top-10-batter",
+      "query": "rahmat shah icc top 10 batter",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "cameron-green",
+      "query": "cameron green",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "cameron-green-career-batting-bowling-role-stats-guide",
+          "title": "Cameron Green: Career, All-Rounder Role and Stats Explained"
+        }
+      ]
+    },
+    {
+      "key": "afg-vs-zim",
+      "query": "afg vs zim",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "afg-zim-match-day-cricket-checklist",
+          "title": "AFG vs ZIM: A Match-Day Cricket Reading Checklist"
+        }
+      ]
+    },
+    {
+      "key": "tim-seifert",
+      "query": "tim seifert",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "tim-seifert-wicketkeeping-batting-study-guide",
+          "title": "Tim Seifert: Keeping and Batting Beyond Highlights"
+        }
+      ]
+    },
+    {
+      "key": "johnny-depp",
+      "query": "johnny depp",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "spain-national-football-team",
+      "query": "spain national football team",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "spain-train-crash-official-updates-reading-guide",
+          "title": "Spain Train Crash: Verified Updates and News Context"
+        }
+      ]
+    },
+    {
+      "key": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
+      "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "arshdeep-singh",
+      "query": "arshdeep singh",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "arshdeep-singh-records-and-learning-guide",
+          "title": "Arshdeep Singh: Left-Arm Bowling and Tournament Records"
+        },
+        {
+          "slug": "samreen-kaur-arshdeep-singh-engagement-career-context",
+          "title": "Samreen Kaur and Arshdeep Singh: Engagement Report and Professional Credits"
+        }
+      ]
+    },
+    {
+      "key": "mm-somaya",
+      "query": "mm somaya",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
+      "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "visionquest",
+      "query": "visionquest",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "visionquest-finale-episode-eight-release-context-2026",
+          "title": "VisionQuest Finale: Episode Eight, Time Zones and Story Context"
+        }
+      ]
+    },
+    {
+      "key": "will-jacks",
+      "query": "will jacks",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "barcelona-vs-arsenal",
+      "query": "barcelona vs arsenal",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "pete-hegseth",
+      "query": "pete hegseth",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "jemima-goldsmith",
+      "query": "jemima goldsmith",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "topic-069",
+      "query": "پاکستان قومی کرکٹ ٹیم",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ghana-vs-somalia",
+      "query": "ghana vs somalia",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "houthis",
+      "query": "houthis",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "ziaur-rahman",
+      "query": "ziaur rahman",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "uzma-khan-noreen-niazi-released",
+      "query": "uzma khan noreen niazi released",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "live-cricket-match-u19-asia-cup",
+      "query": "live cricket match u19 asia cup",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "acc-u19-asia-cup-2026-pakistan-schedule-oman",
+          "title": "ACC U19 Asia Cup 2026: Pakistan Schedule, Groups and Oman Tournament Guide"
+        },
+        {
+          "slug": "india-uae-u19-2026-result-group-a-standings",
+          "title": "India U19 Beat UAE by 70 Runs: Asia Cup 2026 Result and Standings"
+        },
+        {
+          "slug": "pakistan-bangladesh-u19-asia-cup-semi-final-november-2026",
+          "title": "Pakistan U19 vs Bangladesh: Asia Cup Semi-Final Time and Nepal Win"
+        },
+        {
+          "slug": "india-afghanistan-u19-asia-cup-semi-final-november-2026",
+          "title": "India–Afghanistan U19: Asia Cup Semi-Final Score and Match Context"
+        }
+      ]
+    },
+    {
+      "key": "dr-congo-vs-sierra-leone",
+      "query": "dr congo vs sierra leone",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "imran-khan",
+      "query": "imran khan",
+      "state": "needs-research",
+      "queries": []
+    },
+    {
+      "key": "psl",
+      "query": "psl",
+      "state": "needs-research",
+      "queries": [],
+      "potentialExisting": [
+        {
+          "slug": "babar-azam-103-from-59-psl-2026-batting-stats-guide",
+          "title": "Babar Azam's 103 from 59: Batting Stats and PSL 2026 Context"
+        },
+        {
+          "slug": "hbl-psl-2026-final-zalmi-hardie-scorecard-guide",
+          "title": "HBL PSL 2026 Final: Zalmi Win and the Scorecard Explained"
+        },
+        {
+          "slug": "thatta-cement-fauji-foundation-pakistan-services-agreement-2026",
+          "title": "Thatta Cement and Fauji Foundation: What the PSL Agreement Actually Says"
+        }
+      ]
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "england vs australia",
+      "group": "england-vs-australia",
+      "state": "needs-research"
+    },
+    {
+      "row": 2,
+      "query": "new zealand vs india",
+      "group": "new-zealand-vs-india",
+      "state": "needs-research"
+    },
+    {
+      "row": 3,
+      "query": "outlook",
+      "group": "outlook",
+      "state": "needs-research"
+    },
+    {
+      "row": 4,
+      "query": "italy national football team vs france national football team standings",
+      "group": "italy-national-football-team-vs-france-national-football-team-standings",
+      "state": "needs-research"
+    },
+    {
+      "row": 5,
+      "query": "czech republic national football team vs spain national football team standings",
+      "group": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
+      "state": "needs-research"
+    },
+    {
+      "row": 6,
+      "query": "ruturaj gaikwad",
+      "group": "ruturaj-gaikwad",
+      "state": "needs-research"
+    },
+    {
+      "row": 7,
+      "query": "england national football team vs croatia national football team standings",
+      "group": "england-national-football-team-vs-croatia-national-football-team-standings",
+      "state": "needs-research"
+    },
+    {
+      "row": 8,
+      "query": "whatsapp view once text android",
+      "group": "whatsapp-view-once-text-android",
+      "state": "needs-research"
+    },
+    {
+      "row": 9,
+      "query": "saud shakeel",
+      "group": "saud-shakeel",
+      "state": "needs-research"
+    },
+    {
+      "row": 10,
+      "query": "alfaaz alan walker",
+      "group": "alfaaz-alan-walker",
+      "state": "needs-research"
+    },
+    {
+      "row": 11,
+      "query": "kuldeep yadav",
+      "group": "kuldeep-yadav",
+      "state": "needs-research"
+    },
+    {
+      "row": 12,
+      "query": "weather karachi",
+      "group": "karachi-weather",
+      "state": "already-covered",
+      "slug": "karachi-weather-12-14-november-2026-pmd-outlook"
+    },
+    {
+      "row": 13,
+      "query": "icc",
+      "group": "icc",
+      "state": "needs-research"
+    },
+    {
+      "row": 14,
+      "query": "nadra",
+      "group": "nadra",
+      "state": "needs-research"
+    },
+    {
+      "row": 15,
+      "query": "tuba hassan",
+      "group": "tuba-hassan",
+      "state": "needs-research"
+    },
+    {
+      "row": 16,
+      "query": "karachi weather",
+      "group": "karachi-weather",
+      "state": "already-covered",
+      "slug": "karachi-weather-12-14-november-2026-pmd-outlook"
+    },
+    {
+      "row": 17,
+      "query": "jack edwards",
+      "group": "jack-edwards",
+      "state": "needs-research"
+    },
+    {
+      "row": 18,
+      "query": "weather polar vortex",
+      "group": "polar-vortex-el-nino",
+      "state": "already-covered",
+      "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained"
+    },
+    {
+      "row": 19,
+      "query": "weather",
+      "group": "weather",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 20,
+      "query": "axar patel",
+      "group": "axar-patel",
+      "state": "needs-research"
+    },
+    {
+      "row": 21,
+      "query": "spain",
+      "group": "spain",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 22,
+      "query": "افغانستان",
+      "group": "topic-022",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 23,
+      "query": "james anderson",
+      "group": "james-anderson",
+      "state": "needs-research"
+    },
+    {
+      "row": 24,
+      "query": "arda güler",
+      "group": "arda-guler",
+      "state": "needs-research"
+    },
+    {
+      "row": 25,
+      "query": "india vs new zealand live",
+      "group": "new-zealand-vs-india",
+      "state": "needs-research"
+    },
+    {
+      "row": 26,
+      "query": "singapore",
+      "group": "singapore",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 27,
+      "query": "nvidia ceo jensen huang",
+      "group": "nvidia-ceo-jensen-huang",
+      "state": "needs-research"
+    },
+    {
+      "row": 28,
+      "query": "finn allen",
+      "group": "finn-allen",
+      "state": "needs-research"
+    },
+    {
+      "row": 29,
+      "query": "pak vs ind u19 final",
+      "group": "pak-vs-ind-u19-final",
+      "state": "needs-research"
+    },
+    {
+      "row": 30,
+      "query": "weather tomorrow",
+      "group": "weather-tomorrow",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 31,
+      "query": "pubg flash",
+      "group": "pubg-mobile-flash",
+      "state": "needs-research"
+    },
+    {
+      "row": 32,
+      "query": "naruto",
+      "group": "naruto",
+      "state": "needs-research"
+    },
+    {
+      "row": 33,
+      "query": "gemini 4 hydrogen",
+      "group": "gemini-4-hydrogen",
+      "state": "needs-research"
+    },
+    {
+      "row": 34,
+      "query": "petrol price",
+      "group": "petrol-price",
+      "state": "needs-research"
+    },
+    {
+      "row": 35,
+      "query": "türkiye vs belgium",
+      "group": "turkiye-vs-belgium",
+      "state": "needs-research"
+    },
+    {
+      "row": 36,
+      "query": "bruno fernandes",
+      "group": "bruno-fernandes",
+      "state": "needs-research"
+    },
+    {
+      "row": 37,
+      "query": "نیوزی لینڈ بمقابلہ بھارت",
+      "group": "new-zealand-vs-india",
+      "state": "needs-research"
+    },
+    {
+      "row": 38,
+      "query": "polar vortex el niño winter weather",
+      "group": "polar-vortex-el-nino",
+      "state": "already-covered",
+      "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained"
+    },
+    {
+      "row": 39,
+      "query": "ind vs new",
+      "group": "new-zealand-vs-india",
+      "state": "needs-research"
+    },
+    {
+      "row": 40,
+      "query": "class 10 smart syllabus 2027",
+      "group": "class-10-smart-syllabus-2027",
+      "state": "needs-research"
+    },
+    {
+      "row": 41,
+      "query": "michael bracewell",
+      "group": "michael-bracewell",
+      "state": "needs-research"
+    },
+    {
+      "row": 42,
+      "query": "michael carrick",
+      "group": "michael-carrick",
+      "state": "needs-research"
+    },
+    {
+      "row": 43,
+      "query": "chinese yuan",
+      "group": "chinese-yuan",
+      "state": "needs-research"
+    },
+    {
+      "row": 44,
+      "query": "mohammed siraj",
+      "group": "mohammed-siraj",
+      "state": "needs-research"
+    },
+    {
+      "row": 45,
+      "query": "joe root",
+      "group": "joe-root",
+      "state": "needs-research"
+    },
+    {
+      "row": 46,
+      "query": "zimbabwe national cricket team",
+      "group": "zimbabwe-national-cricket-team",
+      "state": "needs-research"
+    },
+    {
+      "row": 47,
+      "query": "detangle comb for hair growth",
+      "group": "detangle-comb-for-hair-growth",
+      "state": "needs-research"
+    },
+    {
+      "row": 48,
+      "query": "aryna sabalenka",
+      "group": "aryna-sabalenka",
+      "state": "needs-research"
+    },
+    {
+      "row": 49,
+      "query": "پنجاب",
+      "group": "topic-049",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 50,
+      "query": "police",
+      "group": "police",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 51,
+      "query": "rahmat shah icc top 10 batter",
+      "group": "rahmat-shah-icc-top-10-batter",
+      "state": "needs-research"
+    },
+    {
+      "row": 52,
+      "query": "cameron green",
+      "group": "cameron-green",
+      "state": "needs-research"
+    },
+    {
+      "row": 53,
+      "query": "afg vs zim",
+      "group": "afg-vs-zim",
+      "state": "needs-research"
+    },
+    {
+      "row": 54,
+      "query": "turkey",
+      "group": "turkey",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 55,
+      "query": "tim seifert",
+      "group": "tim-seifert",
+      "state": "needs-research"
+    },
+    {
+      "row": 56,
+      "query": "johnny depp",
+      "group": "johnny-depp",
+      "state": "needs-research"
+    },
+    {
+      "row": 57,
+      "query": "spain national football team",
+      "group": "spain-national-football-team",
+      "state": "needs-research"
+    },
+    {
+      "row": 58,
+      "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
+      "group": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
+      "state": "needs-research"
+    },
+    {
+      "row": 59,
+      "query": "arshdeep singh",
+      "group": "arshdeep-singh",
+      "state": "needs-research"
+    },
+    {
+      "row": 60,
+      "query": "mm somaya",
+      "group": "mm-somaya",
+      "state": "needs-research"
+    },
+    {
+      "row": 61,
+      "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
+      "group": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
+      "state": "needs-research"
+    },
+    {
+      "row": 62,
+      "query": "visionquest",
+      "group": "visionquest",
+      "state": "needs-research"
+    },
+    {
+      "row": 63,
+      "query": "will jacks",
+      "group": "will-jacks",
+      "state": "needs-research"
+    },
+    {
+      "row": 64,
+      "query": "dubai",
+      "group": "dubai",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 65,
+      "query": "barcelona vs arsenal",
+      "group": "barcelona-vs-arsenal",
+      "state": "needs-research"
+    },
+    {
+      "row": 66,
+      "query": "pete hegseth",
+      "group": "pete-hegseth",
+      "state": "needs-research"
+    },
+    {
+      "row": 67,
+      "query": "jemima goldsmith",
+      "group": "jemima-goldsmith",
+      "state": "needs-research"
+    },
+    {
+      "row": 68,
+      "query": "موسم",
+      "group": "topic-068",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 69,
+      "query": "پاکستان قومی کرکٹ ٹیم",
+      "group": "topic-069",
+      "state": "needs-research"
+    },
+    {
+      "row": 70,
+      "query": "azad jammu and kashmir",
+      "group": "azad-jammu-and-kashmir",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 71,
+      "query": "ghana vs somalia",
+      "group": "ghana-vs-somalia",
+      "state": "needs-research"
+    },
+    {
+      "row": 72,
+      "query": "houthis",
+      "group": "houthis",
+      "state": "needs-research"
+    },
+    {
+      "row": 73,
+      "query": "trying",
+      "group": "trying",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 74,
+      "query": "ziaur rahman",
+      "group": "ziaur-rahman",
+      "state": "needs-research"
+    },
+    {
+      "row": 75,
+      "query": "uzma khan noreen niazi released",
+      "group": "uzma-khan-noreen-niazi-released",
+      "state": "needs-research"
+    },
+    {
+      "row": 76,
+      "query": "live cricket match u19 asia cup",
+      "group": "live-cricket-match-u19-asia-cup",
+      "state": "needs-research"
+    },
+    {
+      "row": 77,
+      "query": "find",
+      "group": "find",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 78,
+      "query": "dr congo vs sierra leone",
+      "group": "dr-congo-vs-sierra-leone",
+      "state": "needs-research"
+    },
+    {
+      "row": 79,
+      "query": "imran khan",
+      "group": "imran-khan",
+      "state": "needs-research"
+    },
+    {
+      "row": 80,
+      "query": "france",
+      "group": "france",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 81,
+      "query": "detention",
+      "group": "detention",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 82,
+      "query": "pubg mobile flash release date",
+      "group": "pubg-mobile-flash",
+      "state": "needs-research"
+    },
+    {
+      "row": 83,
+      "query": "balochistan",
+      "group": "balochistan",
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 84,
+      "query": "psl",
+      "group": "psl",
+      "state": "needs-research"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "outlook"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": "Current Pakistan CSV continues the established editorial task. Standing owner instruction authorises publishing completed verified articles as ready; this release contains only the completed Outlook guide.",
+      "state": "draft-written",
+      "validationFile": "batch-01-validation.json"
+    }
+  ],
+  "excludedGroups": [
+    {
+      "key": "karachi-weather",
+      "query": "weather karachi",
+      "state": "already-covered",
+      "queries": [],
+      "slug": "karachi-weather-12-14-november-2026-pmd-outlook"
+    },
+    {
+      "key": "polar-vortex-el-nino",
+      "query": "weather polar vortex",
+      "state": "already-covered",
+      "queries": [],
+      "slug": "polar-vortex-el-nino-winter-weather-2026-outlook-explained"
+    },
+    {
+      "key": "weather",
+      "query": "weather",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "spain",
+      "query": "spain",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "topic-022",
+      "query": "افغانستان",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "singapore",
+      "query": "singapore",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "weather-tomorrow",
+      "query": "weather tomorrow",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "topic-049",
+      "query": "پنجاب",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "police",
+      "query": "police",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "turkey",
+      "query": "turkey",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "dubai",
+      "query": "dubai",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "topic-068",
+      "query": "موسم",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "azad-jammu-and-kashmir",
+      "query": "azad jammu and kashmir",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "trying",
+      "query": "trying",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "find",
+      "query": "find",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "france",
+      "query": "france",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "detention",
+      "query": "detention",
+      "state": "unclear-skipped",
+      "queries": []
+    },
+    {
+      "key": "balochistan",
+      "query": "balochistan",
+      "state": "unclear-skipped",
+      "queries": []
+    }
+  ]
+}
