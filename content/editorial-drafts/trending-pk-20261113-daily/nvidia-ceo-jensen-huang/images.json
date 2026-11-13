@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Jensen huang stanford 2026-04-30 010.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/nvidia-ceo-jensen-huang-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jensen_huang_stanford_2026-04-30_010.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_010.jpg",
+    "creator": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Jensen Huang at Stanford University on 30 April 2026",
+    "description": "Jensen Huang, founder and CEO of Nvidia, during a fireside chat in Stanford University's CS 153 course on April 30, 2026.",
+    "caption": "Archive: Jensen Huang at Stanford in April 2026, before the November leadership transition.",
+    "width": 720,
+    "height": 960,
+    "bytes": 97594,
+    "sha1": "d63d0e5737a065916c3b809f0896d68366d897bd",
+    "photographedAt": "2026-04-30",
+    "query": "\"Jensen Huang\"",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Nvidia HQ.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/nvidia-ceo-jensen-huang-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nvidia_HQ.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+    "creator": "Kevin McCarthy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "NVIDIA headquarters in an archive photograph from 2005",
+    "description": "View of the NVIDIA headquarters from 2005.",
+    "caption": "Archive photograph of NVIDIA headquarters from 2005. It is background illustration, not a photograph of the November 2026 announcement.",
+    "width": 1280,
+    "height": 960,
+    "bytes": 439600,
+    "sha1": "1f492a35ccb024cf9e9b21364753af469078526b",
+    "photographedAt": "2005-05-26 20:52:37",
+    "query": "\"NVIDIA\" headquarters",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-02-published-next-research-pending",
+  "state": "batch-03-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -46,8 +46,11 @@
     {
       "key": "new-zealand-vs-india",
       "query": "new zealand vs india",
-      "state": "needs-research",
-      "queries": [],
+      "state": "draft-written",
+      "queries": [
+        "Matt Henry cricket",
+        "Bay Oval cricket"
+      ],
       "potentialExisting": [
         {
           "slug": "india-new-zealand-hamilton-fifth-t20i-scorecard-context",
@@ -65,7 +68,9 @@
           "slug": "new-zealand-india-bay-oval-odis-november-2026-guide",
           "title": "New Zealand vs India: Bay Oval ODI Dates, Squads and Time Check"
         }
-      ]
+      ],
+      "title": "New Zealand Beat India by 244 Runs: Young Century and Henry Six-Wicket Haul",
+      "slug": "new-zealand-india-fourth-odi-result-november-13-2026"
     },
     {
       "key": "outlook",
@@ -209,8 +214,13 @@
     {
       "key": "nvidia-ceo-jensen-huang",
       "query": "nvidia ceo jensen huang",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Jensen Huang",
+        "NVIDIA headquarters"
+      ],
+      "title": "NVIDIA CEO Transition: Jensen Huang Steps Down and Colette Kress Takes Interim Role",
+      "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026"
     },
     {
       "key": "finn-allen",
@@ -317,8 +327,13 @@
     {
       "key": "chinese-yuan",
       "query": "chinese yuan",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Renminbi coins",
+        "Chinese yuan banknotes"
+      ],
+      "title": "Chinese Yuan Explained: RMB, CNY, CNH and Reading CNY-to-PKR Quotes",
+      "slug": "chinese-yuan-rmb-cny-cnh-pkr-conversion-guide"
     },
     {
       "key": "mohammed-siraj",
@@ -1123,6 +1138,18 @@
       "revision": "74a6cf047141be9c3c6f3f3707a078a3dce5f66f",
       "workflowRun": "43409245261",
       "liveVerifiedAt": "2026-11-13T10:32:06.317Z"
+    },
+    {
+      "number": 3,
+      "keys": [
+        "new-zealand-vs-india",
+        "nvidia-ceo-jensen-huang",
+        "chinese-yuan"
+      ],
+      "expectedSize": 3,
+      "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these three completed verified articles after exact validation and readback.",
+      "state": "drafting",
+      "validationFile": "batch-03-validation.json"
     }
   ],
   "excludedGroups": [

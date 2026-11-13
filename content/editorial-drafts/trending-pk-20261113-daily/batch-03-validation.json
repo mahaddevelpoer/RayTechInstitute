@@ -1,0 +1,30 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 3,
+  "bodyWords": 6192,
+  "uniqueImages": 6,
+  "existingArticlesCompared": 540,
+  "results": [
+    {
+      "key": "new-zealand-vs-india",
+      "slug": "new-zealand-india-fourth-odi-result-november-13-2026",
+      "words": 2062,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nvidia-ceo-jensen-huang",
+      "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026",
+      "words": 2114,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "chinese-yuan",
+      "slug": "chinese-yuan-rmb-cny-cnh-pkr-conversion-guide",
+      "words": 2016,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
