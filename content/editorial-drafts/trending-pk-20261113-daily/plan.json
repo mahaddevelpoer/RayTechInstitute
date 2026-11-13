@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-03-drafting",
+  "state": "batch-03-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -46,7 +46,7 @@
     {
       "key": "new-zealand-vs-india",
       "query": "new zealand vs india",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Matt Henry cricket",
         "Bay Oval cricket"
@@ -214,7 +214,7 @@
     {
       "key": "nvidia-ceo-jensen-huang",
       "query": "nvidia ceo jensen huang",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Jensen Huang",
         "NVIDIA headquarters"
@@ -327,7 +327,7 @@
     {
       "key": "chinese-yuan",
       "query": "chinese yuan",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Renminbi coins",
         "Chinese yuan banknotes"
@@ -608,7 +608,8 @@
       "row": 2,
       "query": "new zealand vs india",
       "group": "new-zealand-vs-india",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "new-zealand-india-fourth-odi-result-november-13-2026"
     },
     {
       "row": 3,
@@ -752,7 +753,8 @@
       "row": 25,
       "query": "india vs new zealand live",
       "group": "new-zealand-vs-india",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "new-zealand-india-fourth-odi-result-november-13-2026"
     },
     {
       "row": 26,
@@ -764,7 +766,8 @@
       "row": 27,
       "query": "nvidia ceo jensen huang",
       "group": "nvidia-ceo-jensen-huang",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026"
     },
     {
       "row": 28,
@@ -824,7 +827,8 @@
       "row": 37,
       "query": "نیوزی لینڈ بمقابلہ بھارت",
       "group": "new-zealand-vs-india",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "new-zealand-india-fourth-odi-result-november-13-2026"
     },
     {
       "row": 38,
@@ -837,7 +841,8 @@
       "row": 39,
       "query": "ind vs new",
       "group": "new-zealand-vs-india",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "new-zealand-india-fourth-odi-result-november-13-2026"
     },
     {
       "row": 40,
@@ -861,7 +866,8 @@
       "row": 43,
       "query": "chinese yuan",
       "group": "chinese-yuan",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "chinese-yuan-rmb-cny-cnh-pkr-conversion-guide"
     },
     {
       "row": 44,
@@ -1148,8 +1154,11 @@
       ],
       "expectedSize": 3,
       "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these three completed verified articles after exact validation and readback.",
-      "state": "drafting",
-      "validationFile": "batch-03-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-03-validation.json",
+      "revision": "83804648efbca426d5196c6b1f7f8a9352b87ba0",
+      "workflowRun": "43411425096",
+      "liveVerifiedAt": "2026-11-13T13:10:30.165Z"
     }
   ],
   "excludedGroups": [

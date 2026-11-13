@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2062,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-13",
   "scope": "Completed fourth ODI; distinct from earlier previews and first ODI; own arithmetic labelled, no historical ranking or invented quotes.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/batch-03-image-review.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/new-zealand-india-fourth-odi-result-november-13-2026/",
+  "liveVerifiedAt": "2026-11-13T13:10:30.165Z",
+  "releaseRevision": "83804648efbca426d5196c6b1f7f8a9352b87ba0",
+  "workflowRun": "43411425096"
 }

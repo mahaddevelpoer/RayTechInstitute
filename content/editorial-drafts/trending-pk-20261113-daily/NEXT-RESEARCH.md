@@ -6,8 +6,8 @@ Review potentialExisting matches before creating another URL. Verify whether an 
 
 - Batch 2 covers WhatsApp view-once Android beta, NADRA application-tracking guidance and the completed Australia–England first ODI. Do not create another page for these same intents. Retain beta-only availability, no perfect privacy promise, no unverified NADRA fee/deadline, and the distinction between the completed match report and older series preview.
 - Class 10 smart syllabus 2027: no new official Class 10 notification was verified. Check the authority domain pectaa.edu.pk and confirmed board notices. The similarly named pectaa.pk is a third-party site. Do not invent an official PDF.
-- New Zealand/India: verify format, date, match status and scorecard through ICC or board records. The CSV timestamp is not the match start time. Keep NZ/India aliases grouped. Australia–England first-ODI result has its own reviewed batch-2 article; a later event requires a genuinely different intent.
-- NVIDIA, Gemini 4 Hydrogen and PUBG Flash: establish the particular fresh announcement from primary sources. Check existing related coverage before adding a page.
+- Batch 3 covers the completed New Zealand–India fourth ODI, NVIDIA's official 12 November leadership transition and a Chinese-yuan quote-reading guide. Do not create another article for these same intents. Keep NZ/India aliases grouped; the fourth-match result is distinct from the earlier first-ODI and schedule coverage. NVIDIA company statements remain attributed and the guide excludes private allegations. Currency examples are hypothetical, not live offers.
+- Gemini 4 Hydrogen and PUBG Flash: establish the particular fresh announcement from primary sources. Check existing related coverage before adding a page. Sports fixtures must have verified format, date, status and standings; the CSV timestamp is not a match start time.
 
 ## Release
 

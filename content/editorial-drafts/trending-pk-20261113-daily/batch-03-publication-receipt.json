@@ -1,0 +1,15 @@
+{
+  "state": "published-live-verified",
+  "inserted": 3,
+  "verified": 3,
+  "existingArticlesPreserved": 540,
+  "articles": [
+    "new-zealand-india-fourth-odi-result-november-13-2026",
+    "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026",
+    "chinese-yuan-rmb-cny-cnh-pkr-conversion-guide"
+  ],
+  "sourceRevision": "83804648efbca426d5196c6b1f7f8a9352b87ba0",
+  "workflowRun": "43411425096",
+  "liveVerification": "batch-03-live-verification.json",
+  "workflowEvidence": "batch-03-workflow-result.json"
+}

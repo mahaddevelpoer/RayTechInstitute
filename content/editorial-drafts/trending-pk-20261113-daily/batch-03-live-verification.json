@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-11-13T13:10:30.165Z",
+  "expectedRevision": "83804648efbca426d5196c6b1f7f8a9352b87ba0",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-13T10:47:17.483Z",
+    "revision": "83804648efbca426d5196c6b1f7f8a9352b87ba0",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 654,
+    "sitemapSha256": "0aeff6a14e2bb8ce52f77b76900c4170e310847f2e669124769d9951a6e8dc13",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43411425096"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "new-zealand-vs-india",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/new-zealand-india-fourth-odi-result-november-13-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/new-zealand-vs-india-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/new-zealand-vs-india-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "nvidia-ceo-jensen-huang",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/nvidia-ceo-transition-jensen-huang-colette-kress-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/nvidia-ceo-jensen-huang-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/nvidia-ceo-jensen-huang-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "chinese-yuan",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/chinese-yuan-rmb-cny-cnh-pkr-conversion-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/chinese-yuan-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/chinese-yuan-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
