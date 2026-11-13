@@ -1,0 +1,30 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 3,
+  "bodyWords": 6259,
+  "uniqueImages": 6,
+  "existingArticlesCompared": 537,
+  "results": [
+    {
+      "key": "england-vs-australia",
+      "slug": "australia-england-first-odi-result-beardman-november-13-2026",
+      "words": 2045,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "whatsapp-view-once-text-android",
+      "slug": "whatsapp-view-once-text-android-beta-rollout-privacy-2026",
+      "words": 2105,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nadra",
+      "slug": "nadra-pakid-application-tracking-official-services-guide",
+      "words": 2109,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

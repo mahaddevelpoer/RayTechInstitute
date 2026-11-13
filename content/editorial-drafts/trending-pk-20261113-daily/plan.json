@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-01-published-next-research-pending",
+  "state": "batch-02-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -29,14 +29,19 @@
     {
       "key": "england-vs-australia",
       "query": "england vs australia",
-      "state": "needs-research",
-      "queries": [],
+      "state": "draft-written",
+      "queries": [
+        "Mitchell Marsh cricket",
+        "Perth Stadium cricket"
+      ],
       "potentialExisting": [
         {
           "slug": "australia-england-odi-series-perth-november-2026-guide",
           "title": "Australia–England ODI Series: Perth Start, Schedule and Viewing Context"
         }
-      ]
+      ],
+      "title": "Beardman Takes Six as Australia Beat England by Seven Wickets in Perth",
+      "slug": "australia-england-first-odi-result-beardman-november-13-2026"
     },
     {
       "key": "new-zealand-vs-india",
@@ -110,8 +115,13 @@
     {
       "key": "whatsapp-view-once-text-android",
       "query": "whatsapp view once text android",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "WhatsApp smartphone message",
+        "Android phone keyboard"
+      ],
+      "title": "WhatsApp View-Once Text on Android: Beta Rollout and Privacy Limits",
+      "slug": "whatsapp-view-once-text-android-beta-rollout-privacy-2026"
     },
     {
       "key": "saud-shakeel",
@@ -158,8 +168,13 @@
     {
       "key": "nadra",
       "query": "nadra",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "NADRA registration centre",
+        "Pakistan identity card office"
+      ],
+      "title": "Track Your NADRA Application: PakID, Official Fees and Privacy",
+      "slug": "nadra-pakid-application-tracking-official-services-guide"
     },
     {
       "key": "tuba-hassan",
@@ -1090,6 +1105,18 @@
       "revision": "b58fb05dbd7fb0fa4a5c0ccf962bc61ec0f46456",
       "workflowRun": "43406230564",
       "liveVerifiedAt": "2026-11-13T10:10:00.893Z"
+    },
+    {
+      "number": 2,
+      "keys": [
+        "whatsapp-view-once-text-android",
+        "nadra",
+        "england-vs-australia"
+      ],
+      "expectedSize": 3,
+      "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these three completed verified articles after exact validation and readback.",
+      "state": "drafting",
+      "validationFile": "batch-02-validation.json"
     }
   ],
   "excludedGroups": [
