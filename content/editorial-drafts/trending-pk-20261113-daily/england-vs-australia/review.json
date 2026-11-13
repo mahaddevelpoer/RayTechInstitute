@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2045,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-13",
   "scope": "Completed first ODI result distinct from prior series preview; derived cricket arithmetic labelled; no invented ball-by-ball narrative.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/batch-02-image-review.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/australia-england-first-odi-result-beardman-november-13-2026/",
+  "liveVerifiedAt": "2026-11-13T10:32:06.317Z",
+  "releaseRevision": "74a6cf047141be9c3c6f3f3707a078a3dce5f66f",
+  "workflowRun": "43409245261"
 }

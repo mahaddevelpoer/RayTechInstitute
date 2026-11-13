@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-11-13T10:32:06.317Z",
+  "expectedRevision": "74a6cf047141be9c3c6f3f3707a078a3dce5f66f",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-13T10:29:43.720Z",
+    "revision": "74a6cf047141be9c3c6f3f3707a078a3dce5f66f",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 651,
+    "sitemapSha256": "799490761660d27a83968248a95a96b22c57dca5f057469a8b1d5835244806ff",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43409245261"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "whatsapp-view-once-text-android",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/whatsapp-view-once-text-android-beta-rollout-privacy-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/whatsapp-view-once-text-android-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/whatsapp-view-once-text-android-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "nadra",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/nadra-pakid-application-tracking-official-services-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/nadra-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/nadra-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "england-vs-australia",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/australia-england-first-odi-result-beardman-november-13-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/england-vs-australia-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/england-vs-australia-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

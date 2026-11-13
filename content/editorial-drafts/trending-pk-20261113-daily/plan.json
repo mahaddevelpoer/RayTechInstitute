@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-02-drafting",
+  "state": "batch-02-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -29,7 +29,7 @@
     {
       "key": "england-vs-australia",
       "query": "england vs australia",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Mitchell Marsh cricket",
         "Perth Stadium cricket"
@@ -115,7 +115,7 @@
     {
       "key": "whatsapp-view-once-text-android",
       "query": "whatsapp view once text android",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "WhatsApp smartphone message",
         "Android phone keyboard"
@@ -168,7 +168,7 @@
     {
       "key": "nadra",
       "query": "nadra",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "NADRA registration centre",
         "Pakistan identity card office"
@@ -586,7 +586,8 @@
       "row": 1,
       "query": "england vs australia",
       "group": "england-vs-australia",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "australia-england-first-odi-result-beardman-november-13-2026"
     },
     {
       "row": 2,
@@ -629,7 +630,8 @@
       "row": 8,
       "query": "whatsapp view once text android",
       "group": "whatsapp-view-once-text-android",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "whatsapp-view-once-text-android-beta-rollout-privacy-2026"
     },
     {
       "row": 9,
@@ -666,7 +668,8 @@
       "row": 14,
       "query": "nadra",
       "group": "nadra",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "nadra-pakid-application-tracking-official-services-guide"
     },
     {
       "row": 15,
@@ -1115,8 +1118,11 @@
       ],
       "expectedSize": 3,
       "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these three completed verified articles after exact validation and readback.",
-      "state": "drafting",
-      "validationFile": "batch-02-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-02-validation.json",
+      "revision": "74a6cf047141be9c3c6f3f3707a078a3dce5f66f",
+      "workflowRun": "43409245261",
+      "liveVerifiedAt": "2026-11-13T10:32:06.317Z"
     }
   ],
   "excludedGroups": [
