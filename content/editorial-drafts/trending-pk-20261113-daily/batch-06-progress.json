@@ -1,5 +1,5 @@
 {
-  "state": "local-verified-unpublished",
+  "state": "published-live-verified",
   "articles": 10,
   "bodyWords": 21364,
   "uniqueImages": 20,
@@ -79,6 +79,9 @@
   "expectedArticles": 10,
   "writtenArticles": 10,
   "imageVisualReview": "all twenty images inspected in two contact sheets",
-  "productionWrites": 0,
-  "hosting": "not yet released"
+  "productionWrites": 10,
+  "hosting": "live verified",
+  "existingArticlesPreserved": 558,
+  "sourceRevision": "34e38d5b4501417d763f78eba4a7b3d522ea5acf",
+  "workflowRun": "43584655668"
 }

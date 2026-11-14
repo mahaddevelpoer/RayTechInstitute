@@ -1,0 +1,22 @@
+{
+  "state": "published-live-verified",
+  "inserted": 10,
+  "verified": 10,
+  "existingArticlesPreserved": 558,
+  "articles": [
+    "alfaaz-alan-walker-relight-release-credits-guide",
+    "finn-allen-dunedin-137-opening-batting-guide",
+    "naruto-beginner-watch-order-shippuden-boruto-guide",
+    "michael-bracewell-hyderabad-140-odi-chase-guide",
+    "mohammed-siraj-asia-cup-six-wickets-bowling-guide",
+    "joe-root-lords-ten-thousand-test-batting-guide",
+    "aryna-sabalenka-australian-open-tennis-scoring-guide",
+    "mm-somaya-olympic-hockey-gold-career-record-guide",
+    "will-jacks-england-batting-bowling-role-guide",
+    "barcelona-arsenal-women-draw-november-12-2026"
+  ],
+  "sourceRevision": "34e38d5b4501417d763f78eba4a7b3d522ea5acf",
+  "workflowRun": "43584655668",
+  "liveVerification": "batch-06-live-verification.json",
+  "workflowEvidence": "batch-06-workflow-result.json"
+}

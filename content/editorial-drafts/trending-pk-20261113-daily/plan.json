@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-06-research-and-drafting",
+  "state": "batch-06-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -162,7 +162,7 @@
     {
       "key": "alfaaz-alan-walker",
       "query": "alfaaz alan walker",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Alan Walker\" concert",
         "\"Lahore Fort\""
@@ -285,7 +285,7 @@
     {
       "key": "finn-allen",
       "query": "finn allen",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Finn Allen\" cricket",
         "\"University Oval\" Dunedin"
@@ -318,7 +318,7 @@
     {
       "key": "naruto",
       "query": "naruto",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Naruto\" exhibition",
         "\"manga\" bookstore Japan"
@@ -399,7 +399,7 @@
     {
       "key": "michael-bracewell",
       "query": "michael bracewell",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Michael Bracewell\" cricket",
         "\"Hyderabad\" cricket stadium"
@@ -433,7 +433,7 @@
     {
       "key": "mohammed-siraj",
       "query": "mohammed siraj",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Mohammed Siraj\"",
         "\"R Premadasa\" stadium"
@@ -444,7 +444,7 @@
     {
       "key": "joe-root",
       "query": "joe root",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Joe Root\" cricket",
         "\"Lord’s\" cricket ground"
@@ -481,7 +481,7 @@
     {
       "key": "aryna-sabalenka",
       "query": "aryna sabalenka",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Aryna Sabalenka\" tennis",
         "\"Rod Laver Arena\" tennis"
@@ -574,7 +574,7 @@
     {
       "key": "mm-somaya",
       "query": "mm somaya",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"M M Somaya\" hockey",
         "\"field hockey\" India"
@@ -603,7 +603,7 @@
     {
       "key": "will-jacks",
       "query": "will jacks",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Will Jacks\" cricket",
         "\"The Oval\" cricket ground"
@@ -614,7 +614,7 @@
     {
       "key": "barcelona-vs-arsenal",
       "query": "barcelona vs arsenal",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Barcelona women\" football",
         "\"Arsenal women\" football"
@@ -789,7 +789,8 @@
       "row": 10,
       "query": "alfaaz alan walker",
       "group": "alfaaz-alan-walker",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "alfaaz-alan-walker-relight-release-credits-guide"
     },
     {
       "row": 11,
@@ -909,7 +910,8 @@
       "row": 28,
       "query": "finn allen",
       "group": "finn-allen",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "finn-allen-dunedin-137-opening-batting-guide"
     },
     {
       "row": 29,
@@ -935,7 +937,8 @@
       "row": 32,
       "query": "naruto",
       "group": "naruto",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "naruto-beginner-watch-order-shippuden-boruto-guide"
     },
     {
       "row": 33,
@@ -994,7 +997,8 @@
       "row": 41,
       "query": "michael bracewell",
       "group": "michael-bracewell",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "michael-bracewell-hyderabad-140-odi-chase-guide"
     },
     {
       "row": 42,
@@ -1013,13 +1017,15 @@
       "row": 44,
       "query": "mohammed siraj",
       "group": "mohammed-siraj",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "mohammed-siraj-asia-cup-six-wickets-bowling-guide"
     },
     {
       "row": 45,
       "query": "joe root",
       "group": "joe-root",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "joe-root-lords-ten-thousand-test-batting-guide"
     },
     {
       "row": 46,
@@ -1037,7 +1043,8 @@
       "row": 48,
       "query": "aryna sabalenka",
       "group": "aryna-sabalenka",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "aryna-sabalenka-australian-open-tennis-scoring-guide"
     },
     {
       "row": 49,
@@ -1109,7 +1116,8 @@
       "row": 60,
       "query": "mm somaya",
       "group": "mm-somaya",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "mm-somaya-olympic-hockey-gold-career-record-guide"
     },
     {
       "row": 61,
@@ -1127,7 +1135,8 @@
       "row": 63,
       "query": "will jacks",
       "group": "will-jacks",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "will-jacks-england-batting-bowling-role-guide"
     },
     {
       "row": 64,
@@ -1139,7 +1148,8 @@
       "row": 65,
       "query": "barcelona vs arsenal",
       "group": "barcelona-vs-arsenal",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "barcelona-arsenal-women-draw-november-12-2026"
     },
     {
       "row": 66,
@@ -1356,8 +1366,11 @@
       ],
       "expectedSize": 10,
       "explicitUserAuthorization": "Continue ten complete articles together, then publish after checks under standing editorial approval.",
-      "state": "drafts-images-reviewed",
-      "validationFile": "batch-06-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-06-validation.json",
+      "revision": "34e38d5b4501417d763f78eba4a7b3d522ea5acf",
+      "workflowRun": "43584655668",
+      "liveVerifiedAt": "2026-11-14T10:29:41.556Z"
     }
   ],
   "excludedGroups": [

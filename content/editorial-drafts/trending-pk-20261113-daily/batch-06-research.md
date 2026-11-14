@@ -27,3 +27,7 @@ All twenty selected source hashes are globally distinct across editorial queues 
 The original Wikimedia delivery host returned HTTP 429. The legitimate thumb.wikimedia.org endpoint subsequently delivered the selected images; all bytes were decoded and converted to local WebP. No repeated requests are needed on the public page.
 
 The full ten-article validator passed: 21,364 body words, 420 tags, twenty unique images, metadata lengths, known internal links, no private credentials or injected scripts, unique slugs against 558 existing articles, and preserved earlier queue hashes. Publication, exact database readback, one static release and live revision checks follow in separate evidence files.
+
+## Completed release evidence
+
+All ten records saved and read back exactly; 558 existing records preserved. Source revision 34e38d5b4501417d763f78eba4a7b3d522ea5acf, successful workflow 43584655668. Live checks verified all 32 published queue articles with no pending result, including HTML, image bytes, metadata, listing and sitemap. One older page needed a targeted retry through the alternate Cloudflare DNS resolver after an initial request failure. The retry passed without a code or content change.
