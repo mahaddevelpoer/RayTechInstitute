@@ -1,6 +1,6 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2159,
   "tags": 42,
   "imageVisualReview": "passed",
@@ -17,5 +17,9 @@
   ],
   "releasePolicy": "Hold for one combined final release under latest user instruction.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/batch-07-image-review-1.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/dr-congo-sierra-leone-result-november-12-2026/",
+  "liveVerifiedAt": "2026-11-14T11:23:50.883Z",
+  "releaseRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+  "workflowRun": "43589267029"
 }

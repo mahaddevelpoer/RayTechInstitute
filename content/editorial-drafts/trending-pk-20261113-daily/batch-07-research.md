@@ -31,3 +31,7 @@ Network photographs retain creator, licence and source links at the end. Archive
 ## Release
 
 Run the exact publication dry run, commit only these editorial records/assets, push the reviewed source, save and read back all seven records while preserving existing rows, dispatch one static release, and verify the exact revision live before recording publication.
+
+## Completed publication
+
+All seven new records saved and read back exactly; 568 prior database records were preserved. One repository-dispatch release completed successfully: workflow 43589267029, source revision 3f3b64682b92eb090a3aa8e867f6bb1398ddeac9. Live verification passed for all 39 published articles from this CSV with no pending result. New pages, image bytes, metadata, canonical URLs, listing and sitemap passed. No local production build was run.

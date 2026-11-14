@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2021,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
   "scope": "Verified dated event, original educational explanations, no unverified live table, legal outcome, private motive or firsthand review.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/batch-07-image-review-2.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/pete-hegseth-arlington-sentinel-award-context/",
+  "liveVerifiedAt": "2026-11-14T11:23:50.883Z",
+  "releaseRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+  "workflowRun": "43589267029"
 }

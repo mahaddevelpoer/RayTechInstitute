@@ -1,0 +1,252 @@
+{
+  "checkedAt": "2026-11-14T11:23:50.883Z",
+  "expectedRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T11:19:31.498Z",
+    "revision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 686,
+    "sitemapSha256": "0decfe5b598b357f57b92254577fe28df151b724f514f82acb53b1ac1351920a",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43589267029"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "dr-congo-vs-sierra-leone",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/dr-congo-sierra-leone-result-november-12-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/dr-congo-vs-sierra-leone-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/dr-congo-vs-sierra-leone-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "ghana-vs-somalia",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/ghana-somalia-result-november-12-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/ghana-vs-somalia-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/ghana-vs-somalia-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-bangladesh-women-result-group-b-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/scotland-sri-lanka-women-result-november-13-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "johnny-depp",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/johnny-depp-ebenezer-release-dickens-reading-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/johnny-depp-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/johnny-depp-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "pete-hegseth",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/pete-hegseth-arlington-sentinel-award-context/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/pete-hegseth-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/pete-hegseth-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "uzma-khan-noreen-niazi-released",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/uzma-khan-noreen-niazi-release-old-video-fact-check/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/uzma-khan-noreen-niazi-released-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/uzma-khan-noreen-niazi-released-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

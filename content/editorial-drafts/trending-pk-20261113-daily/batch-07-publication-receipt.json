@@ -1,0 +1,19 @@
+{
+  "state": "published-live-verified",
+  "inserted": 7,
+  "verified": 7,
+  "existingArticlesPreserved": 568,
+  "articles": [
+    "johnny-depp-ebenezer-release-dickens-reading-guide",
+    "pakistan-bangladesh-women-result-group-b-november-2026",
+    "scotland-sri-lanka-women-result-november-13-2026",
+    "pete-hegseth-arlington-sentinel-award-context",
+    "ghana-somalia-result-november-12-2026",
+    "uzma-khan-noreen-niazi-release-old-video-fact-check",
+    "dr-congo-sierra-leone-result-november-12-2026"
+  ],
+  "sourceRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+  "workflowRun": "43589267029",
+  "liveVerification": "batch-07-live-verification.json",
+  "workflowEvidence": "batch-07-workflow-result.json"
+}

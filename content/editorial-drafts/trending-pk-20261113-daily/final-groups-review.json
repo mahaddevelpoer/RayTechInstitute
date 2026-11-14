@@ -4,10 +4,10 @@
   "existingCatalogCount": 568,
   "scope": "Every remaining group reviewed. Seven verified new articles form one combined release; sixteen existing/overlapping intents are not duplicated; five unverifiable claims remain explicitly held.",
   "publicationAuthorized": true,
-  "newArticlesPublishedThisReview": 0,
+  "newArticlesPublishedThisReview": 7,
   "groupsReviewed": 28,
   "existingCoverage": 16,
-  "remainingResearchOrDrafting": 0,
+  "remainingResearchOrDrafting": 5,
   "groups": [
     {
       "key": "icc",
@@ -91,13 +91,14 @@
     {
       "key": "johnny-depp",
       "query": "johnny depp",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://www.boxofficemojo.com/calendar/2026-11-09/",
         "https://filmexpos.com/wp-content/uploads/2025/12/CA25_PJ-ALL.pdf"
       ],
       "note": "Ebenezer scheduled 13 November 2026. Verify current studio release before saying locally available. A site branding itself official is not independently proof of ownership; no film review without viewing.",
-      "slug": "johnny-depp-ebenezer-release-dickens-reading-guide"
+      "slug": "johnny-depp-ebenezer-release-dickens-reading-guide",
+      "liveUrl": "https://raytechinstitute.com/blogs/johnny-depp-ebenezer-release-dickens-reading-guide/"
     },
     {
       "key": "spain-national-football-team",
@@ -112,13 +113,14 @@
     {
       "key": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
       "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://www.pcb.com.pk/icc-womens-emerging-nations-trophy-2026/match/36975.html",
         "https://www.pcb.com.pk/press-release-detail/pakistan-squad-announced-for-icc-women-s-emerging-nations-trophy.html"
       ],
       "note": "PCB indexed result confirms Pakistan eight-wicket win on 12 November. Web open returned 403; do not treat Reddit totals as primary confirmation. Verify complete scorecard and dated group table before drafting standings.",
-      "slug": "pakistan-bangladesh-women-result-group-b-november-2026"
+      "slug": "pakistan-bangladesh-women-result-group-b-november-2026",
+      "liveUrl": "https://raytechinstitute.com/blogs/pakistan-bangladesh-women-result-group-b-november-2026/"
     },
     {
       "key": "arshdeep-singh",
@@ -130,13 +132,14 @@
     {
       "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
       "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/icc-women-s-emerging-nations-trophy-day-2-wrap-x2546",
         "https://www.icc-cricket.com/media-releases/sri-lanka-pakistan-maintain-winning-starts-on-day-2-of-icc-women-s-emerging-nations-trophy-2026"
       ],
       "note": "ICC confirms Sri Lanka four-wicket win, 11 balls remaining, Ajman 13 November. Reject third-party six-wicket version; read full primary report for batting details.",
-      "slug": "scotland-sri-lanka-women-result-november-13-2026"
+      "slug": "scotland-sri-lanka-women-result-november-13-2026",
+      "liveUrl": "https://raytechinstitute.com/blogs/scotland-sri-lanka-women-result-november-13-2026/"
     },
     {
       "key": "visionquest",
@@ -148,14 +151,15 @@
     {
       "key": "pete-hegseth",
       "query": "pete hegseth",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://clerk.house.gov/Votes/2026317?Page=1",
         "https://apnews.com/article/cd59fd7ae20c6f80b51f57305fb0a7a0",
         "https://www.dvidshub.net/video/1029354/hegseth-holds-press-conference"
       ],
       "note": "Distinguish tabled impeachment motion from impeachment or conviction. Arlington award reporting is separate. Allegations remain attributed; no unsupported intent claims.",
-      "slug": "pete-hegseth-arlington-sentinel-award-context"
+      "slug": "pete-hegseth-arlington-sentinel-award-context",
+      "liveUrl": "https://raytechinstitute.com/blogs/pete-hegseth-arlington-sentinel-award-context/"
     },
     {
       "key": "jemima-goldsmith",
@@ -175,13 +179,14 @@
     {
       "key": "ghana-vs-somalia",
       "query": "ghana vs somalia",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://www.ghanafa.org/scintillating-black-stars-beat-somalia-in-sekondi",
         "https://gna.org.gh/2026/11/black-stars-revive-afcon-hopes-with-comfortable-win-over-somalia/"
       ],
       "note": "Ghana 2–0 Somalia, 12 November 2026. No invented current qualification.",
-      "slug": "ghana-somalia-result-november-12-2026"
+      "slug": "ghana-somalia-result-november-12-2026",
+      "liveUrl": "https://raytechinstitute.com/blogs/ghana-somalia-result-november-12-2026/"
     },
     {
       "key": "houthis",
@@ -203,12 +208,13 @@
     {
       "key": "uzma-khan-noreen-niazi-released",
       "query": "uzma khan noreen niazi released",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://news.johnwarburton.net/story.php?article_id=16286957"
       ],
       "note": "Indexed AFP report attributes release and withdrawal of detention order to counsel. Detention release is not acquittal. Seek original wire/court or directly attributable source before publishing.",
-      "slug": "uzma-khan-noreen-niazi-release-old-video-fact-check"
+      "slug": "uzma-khan-noreen-niazi-release-old-video-fact-check",
+      "liveUrl": "https://raytechinstitute.com/blogs/uzma-khan-noreen-niazi-release-old-video-fact-check/"
     },
     {
       "key": "live-cricket-match-u19-asia-cup",
@@ -220,13 +226,14 @@
     {
       "key": "dr-congo-vs-sierra-leone",
       "query": "dr congo vs sierra leone",
-      "status": "local-verified-awaiting-combined-release",
+      "status": "published-live-verified",
       "sources": [
         "https://www.cafonline.com/afcon2025/news/totalenergies-caf-afcon-2027-qualifiers-dr-congo-extend-perfect-run-as-guinea-bissau-and-zimbabwe-held-to-draws/",
         "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race"
       ],
       "note": "CAF confirms 3–1, not the 3–0 shown on some third-party lists. Wissa 4, Moutoussamy 35, Kayembe 58, Bekoe 83; nine points after three; return 17 November.",
-      "slug": "dr-congo-sierra-leone-result-november-12-2026"
+      "slug": "dr-congo-sierra-leone-result-november-12-2026",
+      "liveUrl": "https://raytechinstitute.com/blogs/dr-congo-sierra-leone-result-november-12-2026/"
     },
     {
       "key": "imran-khan",
@@ -247,5 +254,9 @@
   "relatedExistingCoverage": 2,
   "verifiedNewArticles": 7,
   "verificationHeld": 5,
-  "releaseStatus": "local-verified-awaiting-combined-release"
+  "releaseStatus": "published-live-verified",
+  "sourceRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+  "workflowRun": "43589267029",
+  "newArticlesInThisCsvPublished": 39,
+  "remainingWriting": 0
 }

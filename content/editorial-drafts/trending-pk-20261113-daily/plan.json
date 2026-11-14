@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "final-review-seven-awaiting-release-five-verification-holds",
+  "state": "verified-articles-published-five-explicit-verification-holds",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -555,7 +555,7 @@
     {
       "key": "johnny-depp",
       "query": "johnny depp",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Johnny Depp portrait",
         "Charles Dickens Museum London"
@@ -580,7 +580,7 @@
     {
       "key": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
       "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Pakistan women cricket",
         "Bangladesh women cricket"
@@ -620,7 +620,7 @@
     {
       "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
       "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Scotland women cricket",
         "Sri Lanka women cricket"
@@ -667,7 +667,7 @@
     {
       "key": "pete-hegseth",
       "query": "pete hegseth",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Tomb Unknown Soldier Arlington",
         "Arlington sentinel guard"
@@ -693,7 +693,7 @@
     {
       "key": "ghana-vs-somalia",
       "query": "ghana vs somalia",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Ghana national football",
         "Sekondi stadium"
@@ -718,7 +718,7 @@
     {
       "key": "uzma-khan-noreen-niazi-released",
       "query": "uzma khan noreen niazi released",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Lahore High Court building",
         "Lahore skyline"
@@ -755,7 +755,7 @@
     {
       "key": "dr-congo-vs-sierra-leone",
       "query": "dr congo vs sierra leone",
-      "state": "draft-written-unpublished",
+      "state": "published-live-verified",
       "queries": [
         "DR Congo football",
         "Stade des Martyrs Kinshasa"
@@ -1175,7 +1175,8 @@
       "row": 56,
       "query": "johnny depp",
       "group": "johnny-depp",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "johnny-depp-ebenezer-release-dickens-reading-guide"
     },
     {
       "row": 57,
@@ -1188,7 +1189,8 @@
       "row": 58,
       "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
       "group": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "pakistan-bangladesh-women-result-group-b-november-2026"
     },
     {
       "row": 59,
@@ -1208,7 +1210,8 @@
       "row": 61,
       "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
       "group": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "scotland-sri-lanka-women-result-november-13-2026"
     },
     {
       "row": 62,
@@ -1241,7 +1244,8 @@
       "row": 66,
       "query": "pete hegseth",
       "group": "pete-hegseth",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "pete-hegseth-arlington-sentinel-award-context"
     },
     {
       "row": 67,
@@ -1273,7 +1277,8 @@
       "row": 71,
       "query": "ghana vs somalia",
       "group": "ghana-vs-somalia",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "ghana-somalia-result-november-12-2026"
     },
     {
       "row": 72,
@@ -1299,7 +1304,8 @@
       "row": 75,
       "query": "uzma khan noreen niazi released",
       "group": "uzma-khan-noreen-niazi-released",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "uzma-khan-noreen-niazi-release-old-video-fact-check"
     },
     {
       "row": 76,
@@ -1318,7 +1324,8 @@
       "row": 78,
       "query": "dr congo vs sierra leone",
       "group": "dr-congo-vs-sierra-leone",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "dr-congo-sierra-leone-result-november-12-2026"
     },
     {
       "row": 79,
@@ -1477,9 +1484,12 @@
         "uzma-khan-noreen-niazi-released"
       ],
       "expectedSize": 7,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "explicitUserAuthorization": "User instructed all remaining verified work together; publish one combined release after completion. Existing coverage is not duplicated and unverified claims are held.",
-      "validationFile": "batch-07-validation.json"
+      "validationFile": "batch-07-validation.json",
+      "revision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
+      "workflowRun": "43589267029",
+      "liveVerifiedAt": "2026-11-14T11:23:50.883Z"
     }
   ],
   "excludedGroups": [
