@@ -1,0 +1,472 @@
+{
+  "date": "2026-11-14",
+  "region": "PK",
+  "sourceCsv": "trending_PK_1d_20261114-1729.csv",
+  "publicationAuthorized": true,
+  "minimumBodyWords": 2000,
+  "batchSize": 10,
+  "state": "batch-01-preparing",
+  "groups": [
+    {
+      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
+      "key": "pakistan-india-u19-final",
+      "state": "local-verified-unpublished",
+      "query": "pakistan u-19 vs india u-19"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "pakistan u-19 vs india u-19",
+      "group": "pakistan-india-u19-final",
+      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 2,
+      "query": "japan vs brazil",
+      "group": "japan-vs-brazil",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 3,
+      "query": "argentina vs uruguay",
+      "group": "argentina-vs-uruguay",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 4,
+      "query": "abdul qadir",
+      "group": "abdul-qadir",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 5,
+      "query": "tamasha",
+      "group": "tamasha",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 6,
+      "query": "mineral",
+      "group": "mineral",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 7,
+      "query": "pak vs ind u19 score",
+      "group": "pakistan-india-u19-final",
+      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 8,
+      "query": "arjun rajput",
+      "group": "arjun-rajput",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 9,
+      "query": "rizwanullah",
+      "group": "rizwanullah",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 10,
+      "query": "mohammad sayyam",
+      "group": "mohammad-sayyam",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 11,
+      "query": "student of the year after dark",
+      "group": "student-of-the-year-after-dark",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 12,
+      "query": "india vs bhutan",
+      "group": "india-vs-bhutan",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 13,
+      "query": "sharad kapoor",
+      "group": "sharad-kapoor",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 14,
+      "query": "برق",
+      "group": "",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 15,
+      "query": "faa ground stop flights cancelled",
+      "group": "faa-ground-stop-flights-cancelled",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 16,
+      "query": "grand theft auto online",
+      "group": "grand-theft-auto-online",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 17,
+      "query": "microsoft 365 outlook outages",
+      "group": "microsoft-365-outlook-outages",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 18,
+      "query": "karakoram highway blocked containers snow",
+      "group": "karakoram-highway-blocked-containers-snow",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 19,
+      "query": "serbia national football team vs germany national football team standings",
+      "group": "serbia-national-football-team-vs-germany-national-football-team-standings",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 20,
+      "query": "zakir naik",
+      "group": "zakir-naik",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 21,
+      "query": "david warner",
+      "group": "david-warner",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 22,
+      "query": "کرینہ کپور",
+      "group": "",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 23,
+      "query": "morocco national football team vs niger national football team standings",
+      "group": "morocco-national-football-team-vs-niger-national-football-team-standings",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 24,
+      "query": "egypt national football team",
+      "group": "egypt-national-football-team",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 25,
+      "query": "سونے کی قیمت",
+      "group": "",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 26,
+      "query": "netherlands vs greece",
+      "group": "netherlands-vs-greece",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 27,
+      "query": "kaviya maran",
+      "group": "kaviya-maran",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 28,
+      "query": "whatsapp android beta text messages",
+      "group": "whatsapp-android-beta-text-messages",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 29,
+      "query": "حکومت پنجاب",
+      "group": "",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 30,
+      "query": "adelaide strikers vs perth scorchers",
+      "group": "adelaide-strikers-vs-perth-scorchers",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 31,
+      "query": "acc",
+      "group": "acc",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 32,
+      "query": "portugal vs denmark",
+      "group": "portugal-vs-denmark",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 33,
+      "query": "colette kress nvidia interim ceo",
+      "group": "colette-kress-nvidia-interim-ceo",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 34,
+      "query": "sara boustany",
+      "group": "sara-boustany",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 35,
+      "query": "toxic",
+      "group": "toxic",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 36,
+      "query": "czech republic national football team",
+      "group": "czech-republic-national-football-team",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 37,
+      "query": "miss universe",
+      "group": "miss-universe",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 38,
+      "query": "africa cup of nations qualification",
+      "group": "africa-cup-of-nations-qualification",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 39,
+      "query": "electric vehicle",
+      "group": "electric-vehicle",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 40,
+      "query": "guatemala vs canada",
+      "group": "guatemala-vs-canada",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 41,
+      "query": "treasury bill",
+      "group": "treasury-bill",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 42,
+      "query": "portugal national football team",
+      "group": "portugal-national-football-team",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 43,
+      "query": "mohammad rizwan nccia probe update",
+      "group": "mohammad-rizwan-nccia-probe-update",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 44,
+      "query": "cabo verde vs liberia",
+      "group": "cabo-verde-vs-liberia",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 45,
+      "query": "south africa vs kenya",
+      "group": "south-africa-vs-kenya",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 46,
+      "query": "forex factory",
+      "group": "forex-factory",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 47,
+      "query": "portugal",
+      "group": "portugal",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 48,
+      "query": "turkiye qatar bilateral military pact",
+      "group": "turkiye-qatar-bilateral-military-pact",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 49,
+      "query": "colombia vs chile",
+      "group": "colombia-vs-chile",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 50,
+      "query": "pakistan women's national cricket team vs thailand women's national cricket team standings",
+      "group": "pakistan-women-s-national-cricket-team-vs-thailand-women-s-national-cricket-team-standings",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 51,
+      "query": "ind u19 vs uae u19",
+      "group": "ind-u19-vs-uae-u19",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 52,
+      "query": "usa",
+      "group": "usa",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 53,
+      "query": "t10",
+      "group": "t10",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 54,
+      "query": "bahrain",
+      "group": "bahrain",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 55,
+      "query": "slovenia vs switzerland",
+      "group": "slovenia-vs-switzerland",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 56,
+      "query": "grand theft auto",
+      "group": "grand-theft-auto",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 57,
+      "query": "daayra movie",
+      "group": "daayra-movie",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 58,
+      "query": "diesel price in pakistan",
+      "group": "diesel-price-in-pakistan",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 59,
+      "query": "fbr electronic scrutiny tax returns",
+      "group": "fbr-electronic-scrutiny-tax-returns",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 60,
+      "query": "cricket nz",
+      "group": "cricket-nz",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 61,
+      "query": "film",
+      "group": "film",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 62,
+      "query": "ut vs ee",
+      "group": "ut-vs-ee",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 63,
+      "query": "ghost soldier",
+      "group": "ghost-soldier",
+      "slug": null,
+      "state": "research-pending"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "validationFile": "batch-01-validation.json",
+      "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; one finished verified article releases first.",
+      "state": "preparing",
+      "keys": [
+        "pakistan-india-u19-final"
+      ],
+      "expectedSize": 1,
+      "number": 1
+    }
+  ]
+}
