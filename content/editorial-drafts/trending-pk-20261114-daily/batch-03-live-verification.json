@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-14T14:43:41.119Z",
+  "expectedRevision": "2c3d785fdc2322133f4edf9d35059a9939459a38",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T14:39:58.575Z",
+    "revision": "2c3d785fdc2322133f4edf9d35059a9939459a38",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 692,
+    "sitemapSha256": "d688062a931330f3ebb715b8a57bfd96e68d9bac19fe1c16ab3072b887acd33f",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43605796464"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "japan-vs-brazil",
+      "batch": "20261114-daily",
+      "url": "https://raytechinstitute.com/blogs/japan-brazil-3-2-november-2026-singapore-goals-result/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/japan-vs-brazil-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/japan-vs-brazil-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

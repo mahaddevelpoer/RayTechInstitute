@@ -2,8 +2,12 @@
   "scope": "JFA completed match card, CBF match narrative and JFA 2025 comparison; archive images reviewed and labelled.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2032,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/japan-brazil-3-2-november-2026-singapore-goals-result/",
+  "liveVerifiedAt": "2026-11-14T14:43:41.119Z",
+  "releaseRevision": "2c3d785fdc2322133f4edf9d35059a9939459a38",
+  "workflowRun": "43605796464"
 }
