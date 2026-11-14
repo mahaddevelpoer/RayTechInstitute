@@ -1,0 +1,137 @@
+**Spain beat Czechia 2–0 in Prague on 12 November 2026 in UEFA Nations League Group A3.** Álex Baena converted a penalty and Marc Pubill added the second goal late in the match. The victory preserved Spain's perfect points return through five group fixtures, with the final meeting against England still to come.
+
+For readers searching for Czech Republic versus Spain standings, the key distinction is between this match's score and the full group record. The 2–0 result awards Spain three points; it is not the complete table. England's separate win against Croatia also affects the Group A3 picture.
+
+This article was checked on 13 November 2026. It explains the completed result, the points arithmetic and the next-fixture context. It does not invent a final group ranking, a full statistical dashboard or a result for the upcoming Spain–England match. Czechia and Czech Republic refer here to the same national side.
+
+## The completed Prague result
+
+The match finished Czechia zero, Spain two. The reviewed score report identifies Baena's first-half penalty and Pubill's late goal as the scoring events. A penalty conversion and a late second goal are separate contributions, and neither should be confused with a goal in an earlier meeting between these teams.
+
+The result is an away win for Spain. Match order matters: the host is shown first in the fixture used here. A reader scanning only two national flags can easily miss that detail when comparing the Prague game with Spain's earlier home match against Czechia.
+
+Preserve the date and competition when sharing the score. These sides have met in other years, and an old result can appear beside a current one in search. A familiar name is not enough to establish which match a screenshot describes.
+
+## How Spain reached fifteen points
+
+UEFA's published record lists Spanish wins in the first four group fixtures, followed by this victory in Prague. Five wins at three points each produce fifteen points. This is a simple calculation from the reviewed results, not an invented rating of the team's overall quality.
+
+The number also explains the phrase perfect points return at this stage. It concerns results in these five fixtures. It does not mean Spain conceded no goals, had no difficult periods or played every phase without error. A points record and a technical performance assessment answer different questions.
+
+For a student, write the calculation with the scope beside it: five Group A3 wins multiplied by three points. That label prevents the total being confused with a wider national-team ranking or a record from another competition.
+
+## England's result belongs in the same group context
+
+England beat Croatia 2–1 on the same matchday and confirmed a quarter-final place. Their three earlier group wins plus this fourth victory produce twelve points. The two results therefore leave Spain ahead of England in points before their final scheduled meeting.
+
+Our [England–Croatia result guide](/blogs/england-croatia-nations-league-result-kane-november-12-2026/) covers that match separately. Linking the context is useful, but the score should not be copied into this fixture as though the two games were one event. Each has its own teams, venue and scoring sequence.
+
+The same principle applies when reading a live group table. A change in one match can affect how another result is interpreted. Check whether all relevant fixtures are finished before treating a provisional position as the final order.
+
+## Czechia's position needs the full record
+
+The reviewed fixture list records defeats for Czechia in each of the first five group games. That leaves them without points at this stage. It describes a particular Nations League campaign, not the worth of every player or the complete history of Czech football.
+
+A table can show a difficult run without justifying personal attacks or sweeping national claims. A factual report should explain the actual competition record and leave broader judgments to evidence that fits their scope. Disappointment does not make an unsupported statement more accurate.
+
+For a useful note, keep the team, group and update date attached to the points figure. Without those labels, a zero can be copied into a context where it no longer belongs. Good sports reporting is often a matter of preserving small but essential details.
+
+## What the penalty tells us
+
+Baena's penalty contributed the first Spanish goal. That scoring label tells readers the type of restart from which the goal came. It does not, on its own, supply a complete account of the incident leading to the award or settle every possible debate about the decision.
+
+If you want to analyse the decision, use the relevant footage and official rules. Do not construct a referee's reasoning from a single line in a score list. The confirmed goal is a reliable fact even when a more detailed legal or technical explanation requires additional material.
+
+For a simple score summary, preserve the penalty designation rather than replacing it with an imagined open-play finish. Accuracy in a small event description matters because later readers may use that description to understand the sequence of the match.
+
+## A late goal and match time
+
+Pubill's late goal made the final score 2–0. A goal near the end can settle the visible scoreline without proving that the entire match had been comfortable. The timing describes when an event occurred; a claim about overall control needs a different type of evidence.
+
+Football clock notation can include added time. Read a minute label carefully instead of treating an extra number as a second goal or a different period. If the exact time is not needed for the explanation, it is better to use a supported description such as late in the match than guess a precise minute.
+
+This article does not reconstruct every stoppage. It gives the verified result and the roles of the two scoring events. A concise account can remain informative without pretending to be a full live commentary record.
+
+## The next Spain–England meeting
+
+The official schedule lists Spain hosting England on 15 November. That fixture is a separate contest with its own current listing, lineup and result still to be established. A perfect points return before it does not place goals on the next scoreboard.
+
+The points gap explains why the meeting attracts attention, but any exact scenario for first place must use the competition's current ranking rules. Do not borrow a tiebreak procedure from another tournament and present the resulting calculation as official.
+
+Before following the match, check the actual timezone on the fixture page. A localised display and a venue's local time can differ without a schedule change. The date, place and time setting should be read together rather than copied from an unlabelled screenshot.
+
+## Points, goals and ranking are different measures
+
+A win produces three points under this group system. Goal difference is goals scored minus goals conceded. A competition ranking can then require a specified procedure when teams are level. These are connected ideas, but one number does not automatically replace the others.
+
+Imagine two fictional sides both on six points. One won two games 1–0 and lost twice; the other also won twice but by different margins. Equal points do not tell us their exact goal difference or which tiebreak criterion the competition would apply.
+
+The example is not a hidden version of the current table. It is an exercise in identifying missing information. A reader can understand the points system while still recognising that a complete ranking conclusion needs more verified inputs.
+
+## Why a match score cannot supply every statistic
+
+The 2–0 score does not reveal possession, shots on target, expected goals or the number of passes completed. Those require event data and defined counting methods. This report does not invent those figures to fill a panel beside the result.
+
+If you compare statistics from different providers, inspect the labels and scope. A shot count and an expected-goals model are not the same kind of measurement. A decimal can look precise while still requiring an explanation of how it was produced.
+
+For students, ask what information is needed to answer each question. Goals need the scoring record. Possession needs a method for measuring possession. A final result cannot be stretched into evidence for every detail of a performance simply because it is the most visible number.
+
+## Reading a national-team performance without a false certainty
+
+A team can win while still facing problems in particular phases. It can also lose while producing actions worth studying. To discuss those phases, inspect the relevant evidence rather than deciding that the final score proves every tactical choice was either perfect or wrong.
+
+This does not make the result less important. It keeps the analysis honest about what the result establishes. Spain won this match and earned the points; a detailed account of pressing, chance creation or defensive shape needs more than that single fact.
+
+When watching a highlight, describe the visible action and mark any inference. A player receiving in space may be clear on screen. A claim that the coach planned the exact sequence requires another source. The difference helps build better observation skills.
+
+## Keep earlier meetings separate
+
+Spain's earlier group meeting with Czechia appears in the same campaign record. It is useful background but not part of this match's 2–0 score. An aggregate across meetings is another calculation and should be labelled if it is actually relevant to the question being asked.
+
+The same warning applies to old video titles. A clip from a previous home fixture may show the correct national teams but the wrong venue, date and goals. Check the description before using it to explain a current event.
+
+In a personal match log, give every fixture its own row. Record the date, home side, away side and result separately. This simple structure prevents an old score from quietly replacing a newer one when the teams meet again.
+
+## A useful mobile table should retain its labels
+
+On a phone, a compact table can place points, goal difference and matches played close together. Read the column heading before copying a value. A short abbreviation is only useful if the reader knows what it stands for.
+
+If you make a result graphic for friends, prefer a few clearly labelled facts over a crowded set of unexplained numbers. Team names, score, date and competition usually provide a strong starting point. Add standings only when the row and update time have been checked.
+
+An attractive design is not a substitute for that check. A mistaken points total can spread faster when it appears on a polished card. Clear evidence should come before colour choices, badges and decorative statistics.
+
+## A short points exercise
+
+Start a fictional team on twelve points with one match remaining. Calculate the totals after a win, draw and loss. Next place another team three points behind and ask which combinations can produce equal points. Keep the example separate from any claim about the actual final-match rules.
+
+Then identify what else you would need to rank tied teams. The answer includes the relevant competition procedure and its required data. Correct addition is one part of the task, not permission to invent a missing head-to-head result.
+
+This exercise helps explain why a preview and a final table are different records. Before play, several outcomes may be possible. After the relevant matches finish, the official table can establish the order. A careful report preserves that change in certainty.
+
+## The main information to retain
+
+Spain won 2–0 in Prague on 12 November and reached fifteen points from five group wins. Czechia remained without points in the reviewed campaign record. England's separate victory left the next Spain–England fixture as an important remaining part of the group schedule.
+
+More [football and educational guides](/blogs/) are available here. For later changes, use the official completed table and fixture pages. This article records the reviewed match result without pretending that the last group game or a later knockout round has already happened.
+
+Always keep the score, points and qualification status labelled. Those details turn a short news update into something readers can understand and check. They also help a search visitor distinguish a current result from an older page with similar team names.
+
+## Common questions
+
+### What was Czechia's result against Spain?
+
+Spain won 2–0 in Prague on 12 November 2026. The reviewed reports identify Baena's penalty and Pubill's late goal. This is the completed away fixture, not Spain's earlier home meeting with Czechia.
+
+### How did Spain reach fifteen points?
+
+The reviewed campaign record shows five wins. At three points for each win, the total is fifteen. That describes this group's points return and should not be confused with a world ranking or a rating of every phase of play.
+
+### Has the next match already been decided?
+
+No. The schedule lists Spain against England on 15 November, but this report does not supply a future result. Check the current official listing and later completed table for the final group outcome.
+
+## Sources
+
+- [UEFA: Matchday 5 official results](https://es.uefa.com/uefanationsleague/news/02ab-220e6268d58a-e92318b891c9-1000--resumen-y-videos-de-la-jornada-5-de-la-uefa-nations-leagu/)
+- [UEFA: campaign fixtures and results by team](https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-/)
+- [Sofascore: completed Prague match report](https://www.sofascore.com/es/news/chequia-0-2-espana-penalti-de-baena-y-gol-de-pubill-en-el-descuento-sentencian-el-partido)

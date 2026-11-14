@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Arun Jaitley stadium.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/kuldeep-yadav-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Arun_Jaitley_stadium.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Arun_Jaitley_stadium.jpg",
+    "creator": "Ciell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Arun Jaitley stadium",
+    "description": "Arun Jaitley stadium in Delhi, India",
+    "caption": "Archive Delhi stadium illustration for the cricket profile. Kuldeep and a current match are not depicted.",
+    "width": 500,
+    "height": 375,
+    "bytes": 43736,
+    "sha1": "6fc0797c177e7f1006f9712fcb733c7bce6ba0ac",
+    "photographedAt": "25 October 2023 (according to Exif data)",
+    "query": "\"Delhi\" cricket stadium",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Mendis bowling.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/kuldeep-yadav-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Mendis_bowling.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Mendis_bowling.jpg",
+    "creator": "Harrias",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Mendis bowling",
+    "description": "Ajantha Mendis at the point of delivery. He bowls with the carrom ball style, flicking between his middle finger and thumb to release it, giving him the ability to spin the ball in either direction without the batsman noticing a difference in his action. Picture taken during day one of the County Championship match between Somerset and Warwickshire at the County Ground, Taunton.",
+    "caption": "Archive Ajantha Mendis delivery photograph. This illustrates a different spin method for comparison, not Kuldeep Yadav or his wrist-spin action.",
+    "width": 500,
+    "height": 913,
+    "bytes": 49602,
+    "sha1": "a31b845bc2a5448617a4c5f1f12aeed6cbc503cf",
+    "photographedAt": "2011-04-14",
+    "query": "\"cricket\" spin bowling",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

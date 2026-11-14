@@ -1,0 +1,79 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 21297,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 548,
+  "results": [
+    {
+      "key": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
+      "slug": "czechia-spain-nations-league-result-november-12-2026",
+      "words": 2132,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ruturaj-gaikwad",
+      "slug": "ruturaj-gaikwad-profile-top-order-batting-guide",
+      "words": 2163,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "saud-shakeel",
+      "slug": "saud-shakeel-galle-208-test-batting-profile-guide",
+      "words": 2095,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "kuldeep-yadav",
+      "slug": "kuldeep-yadav-left-arm-wrist-spin-profile-guide",
+      "words": 2053,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "tuba-hassan",
+      "slug": "tuba-hassan-pakistan-leg-spin-debut-profile-guide",
+      "words": 2146,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "jack-edwards",
+      "slug": "jack-edwards-australia-all-rounder-profile-guide",
+      "words": 2104,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "axar-patel",
+      "slug": "axar-patel-orthodox-spin-all-round-role-guide",
+      "words": 2140,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "james-anderson",
+      "slug": "james-anderson-704-test-wickets-bowling-guide",
+      "words": 2144,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "arda-guler",
+      "slug": "arda-guler-profile-creative-play-football-guide",
+      "words": 2227,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "turkiye-vs-belgium",
+      "slug": "turkiye-belgium-nations-league-result-november-12-2026",
+      "words": 2093,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

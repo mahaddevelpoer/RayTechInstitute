@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:1 37 Saud Shakeel.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/saud-shakeel-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/1_37_Saud_Shakeel.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:1_37_Saud_Shakeel.jpg",
+    "creator": "Dave Morton",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:1_37_Saud_Shakeel.jpg",
+    "alt": "1 37 Saud Shakeel",
+    "description": "An innings which showed ability, in conditions totally alien to him.",
+    "caption": "Archive photograph of Saud Shakeel. It is not presented as a photograph of the July 2023 Galle double century.",
+    "width": 330,
+    "height": 337,
+    "bytes": 14818,
+    "sha1": "881e79337153fd0ce88e1265ce0c9a10caa7073b",
+    "photographedAt": "2023-05-04 17:32:01",
+    "query": "\"Saud Shakeel\"",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:GALLE CRICKET GROUND SRI LANKA JAN 2013 (8580281360).jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/saud-shakeel-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/GALLE_CRICKET_GROUND_SRI_LANKA_JAN_2013_%288580281360%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:GALLE_CRICKET_GROUND_SRI_LANKA_JAN_2013_(8580281360).jpg",
+    "creator": "calflier001",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "GALLE CRICKET GROUND SRI LANKA JAN 2013 (8580281360)",
+    "description": "GALLE CRICKET GROUND SRI LANKA JAN 2013",
+    "caption": "Archive Galle cricket-ground photograph from January 2013, providing venue context rather than depicting the 2023 innings.",
+    "width": 330,
+    "height": 181,
+    "bytes": 13632,
+    "sha1": "24f0c34ebd4b5d5e084f9027702eb9555bd7b88e",
+    "photographedAt": "2013-01-16 06:59",
+    "query": "\"Galle\" cricket",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

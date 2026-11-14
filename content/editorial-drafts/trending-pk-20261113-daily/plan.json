@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-04-published-next-research-pending",
+  "state": "batch-05-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -107,14 +107,24 @@
     {
       "key": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
       "query": "czech republic national football team vs spain national football team standings",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Prague\" stadium",
+        "\"Spain national football\""
+      ],
+      "title": "Czechia 0–2 Spain: Prague Result and Nations League Group A3 Explained",
+      "slug": "czechia-spain-nations-league-result-november-12-2026"
     },
     {
       "key": "ruturaj-gaikwad",
       "query": "ruturaj gaikwad",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Ruturaj Gaikwad\"",
+        "\"Pune\" cricket"
+      ],
+      "title": "Ruturaj Gaikwad: Official Profile, Top-Order Batting and Scorecard Skills",
+      "slug": "ruturaj-gaikwad-profile-top-order-batting-guide"
     },
     {
       "key": "england-national-football-team-vs-croatia-national-football-team-standings",
@@ -141,8 +151,13 @@
     {
       "key": "saud-shakeel",
       "query": "saud shakeel",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Saud Shakeel\"",
+        "\"Galle\" cricket"
+      ],
+      "title": "Saud Shakeel: Galle 208 Not Out and the Skills Behind Reading Test Batting",
+      "slug": "saud-shakeel-galle-208-test-batting-profile-guide"
     },
     {
       "key": "alfaaz-alan-walker",
@@ -153,8 +168,13 @@
     {
       "key": "kuldeep-yadav",
       "query": "kuldeep yadav",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Kuldeep Yadav\"",
+        "\"cricket\" spin bowling"
+      ],
+      "title": "Kuldeep Yadav: Left-Arm Wrist Spin, Bowling Figures and Match Context",
+      "slug": "kuldeep-yadav-left-arm-wrist-spin-profile-guide"
     },
     {
       "key": "icc",
@@ -194,32 +214,57 @@
     {
       "key": "tuba-hassan",
       "query": "tuba hassan",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Tuba Hassan\"",
+        "\"women cricket\" Pakistan"
+      ],
+      "title": "Tuba Hassan: Pakistan Leg-Spinner, Debut Record and Bowling Figures Explained",
+      "slug": "tuba-hassan-pakistan-leg-spin-debut-profile-guide"
     },
     {
       "key": "jack-edwards",
       "query": "jack edwards",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Jack Edwards\" cricket",
+        "\"New South Wales\" cricket"
+      ],
+      "title": "Jack Edwards: Australian All-Rounder, Early Century and Role Explained",
+      "slug": "jack-edwards-australia-all-rounder-profile-guide"
     },
     {
       "key": "axar-patel",
       "query": "axar patel",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Axar Patel\"",
+        "\"Delhi\" cricket stadium"
+      ],
+      "title": "Axar Patel: Orthodox Spin, Batting Opportunity and the All-Round Role",
+      "slug": "axar-patel-orthodox-spin-all-round-role-guide"
     },
     {
       "key": "james-anderson",
       "query": "james anderson",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"James Anderson\" cricket",
+        "\"Lord’s\" cricket"
+      ],
+      "title": "James Anderson: 704 Test Wickets, Swing, Seam and Career Statistics Explained",
+      "slug": "james-anderson-704-test-wickets-bowling-guide"
     },
     {
       "key": "arda-guler",
       "query": "arda güler",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Arda Güler\"",
+        "\"Real Madrid\" training"
+      ],
+      "title": "Arda Güler: Official Profile, Creative Play and Football Statistics Explained",
+      "slug": "arda-guler-profile-creative-play-football-guide"
     },
     {
       "key": "nvidia-ceo-jensen-huang",
@@ -300,8 +345,13 @@
     {
       "key": "turkiye-vs-belgium",
       "query": "türkiye vs belgium",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Kevin De Bruyne\"",
+        "\"Gürsel Aksel\""
+      ],
+      "title": "Türkiye 1–2 Belgium: Comeback, Scorers and Group A1 Qualification Race",
+      "slug": "turkiye-belgium-nations-league-result-november-12-2026"
     },
     {
       "key": "bruno-fernandes",
@@ -1207,6 +1257,25 @@
       "revision": "06652ffcb656f2fb45d0e80eae722303d95422e8",
       "workflowRun": "43434199069",
       "liveVerifiedAt": "2026-11-13T13:36:53.404Z"
+    },
+    {
+      "number": 5,
+      "keys": [
+        "czech-republic-national-football-team-vs-spain-national-football-team-standings",
+        "turkiye-vs-belgium",
+        "ruturaj-gaikwad",
+        "saud-shakeel",
+        "kuldeep-yadav",
+        "tuba-hassan",
+        "jack-edwards",
+        "axar-patel",
+        "james-anderson",
+        "arda-guler"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these ten completed verified articles after exact validation and readback.",
+      "state": "drafting",
+      "validationFile": "batch-05-validation.json"
     }
   ],
   "excludedGroups": [
