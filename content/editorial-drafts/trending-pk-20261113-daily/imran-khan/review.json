@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2088,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-14",
+  "scope": "Attributable news reports, not independently authenticated complete court record. No inferred release, medical diagnosis or private negotiation.",
+  "visualReviewEvidence": "artifacts/pakistan-nov13/batch-08-image-review.png",
+  "localChecks": "validation.json"
+}

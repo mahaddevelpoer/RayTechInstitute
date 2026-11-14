@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Taiz city from AlQahirah Castle.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Taiz_city_from_AlQahirah_Castle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Taiz_city_from_AlQahirah_Castle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Taiz_city_from_AlQahirah_Castle.jpg",
+    "creator": "SharabSalam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Archive view of Taiz from Al-Qahirah Castle",
+    "description": "A view of Taiz city, Yemen from AlQahirah Castle",
+    "caption": "Archive Taiz city view from 2014. It illustrates geography, not current damage, displacement or conditions described in the November 2026 update.",
+    "width": 3264,
+    "height": 2448,
+    "bytes": 7946034,
+    "sha1": "31cd5e5c4ec806ad49b807c9c65f9e9ce210a300",
+    "photographedAt": "2014-07-30 17:08:58",
+    "query": "Taiz Yemen city",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Iss069e080312.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Iss069e080312.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Iss069e080312.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Iss069e080312.jpg",
+    "creator": "NASA Johnson Space Center",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Iss069e080312.jpg",
+    "alt": "Archive geographical view of Aden and its port area",
+    "description": "iss069e080312 (Aug. 22, 2023) --- The port city of Aden, Yemen, on the coast of the Gulf of Aden is pictured from the International Space Station as it orbited 261 miles above.",
+    "caption": "Archive Aden geographical illustration. It does not depict a newly reported movement of people or verify current route conditions.",
+    "width": 5568,
+    "height": 3712,
+    "bytes": 3386544,
+    "sha1": "b226c2058908af7895ed60ff760d8802e5197463",
+    "photographedAt": "Taken on 22 August 2023",
+    "query": "Aden Yemen port",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

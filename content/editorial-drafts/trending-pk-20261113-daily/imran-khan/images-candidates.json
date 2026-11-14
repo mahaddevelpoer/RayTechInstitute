@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Imran Khan, portrait.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Imran_Khan%2C_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Imran_Khan%2C_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Imran_Khan,_portrait.jpg",
+    "creator": "Imran Khan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Archive portrait of former Pakistan prime minister Imran Khan",
+    "description": "Official Portrait, Imran Khan, 2021",
+    "caption": "Archive portrait of Imran Khan. It is not a photograph from the November 2026 consultation, a current health image or documentation of release.",
+    "width": 756,
+    "height": 1080,
+    "bytes": 226670,
+    "sha1": "0f006aa58d27898e1ab4dabf7b3ceddf3d15cdb2",
+    "photographedAt": "2021-09-03",
+    "query": "Imran Khan portrait",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Daman-e-Koh, whole city of Islamabad can be seen from here.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Daman-e-Koh%2C_whole_city_of_Islamabad_can_be_seen_from_here.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Daman-e-Koh%2C_whole_city_of_Islamabad_can_be_seen_from_here.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Daman-e-Koh,_whole_city_of_Islamabad_can_be_seen_from_here.jpg",
+    "creator": "Talha Malik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Archive geographical view of the Islamabad area",
+    "description": "Daman-e-Koh, whole city of Islamabad can be seen from here",
+    "caption": "Archive geographical illustration of the Islamabad area. It does not show the court hearing, the reported jail meeting or a release event.",
+    "width": 4288,
+    "height": 2848,
+    "bytes": 8189495,
+    "sha1": "698898a312fbb088a5b418f61af71f142d5ca2ca",
+    "photographedAt": "2014-08-22 14:27:11",
+    "query": "Islamabad city view",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

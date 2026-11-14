@@ -1,0 +1,10 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2247,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-14",
+  "scope": "Primary humanitarian data with reporting periods preserved. No actor-specific responsibility inferred from estimates; no unverified resolution details.",
+  "visualReviewEvidence": "artifacts/pakistan-nov13/batch-08-image-review.png",
+  "localChecks": "validation.json"
+}

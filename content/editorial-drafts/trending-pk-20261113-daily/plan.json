@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "verified-articles-published-five-explicit-verification-holds",
+  "state": "batch-08-newly-verified-yemen-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -704,9 +704,14 @@
     {
       "key": "houthis",
       "query": "houthis",
-      "state": "verification-held",
-      "queries": [],
-      "holdReason": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding."
+      "state": "draft-written",
+      "queries": [
+        "Taiz Yemen city",
+        "Aden Yemen port"
+      ],
+      "title": "Houthis and Yemen: Understanding the UN Displacement Update",
+      "slug": "houthis-yemen-un-displacement-update-november-2026",
+      "holdResolvedOn": "2026-11-14"
     },
     {
       "key": "ziaur-rahman",
@@ -766,9 +771,14 @@
     {
       "key": "imran-khan",
       "query": "imran khan",
-      "state": "verification-held",
-      "queries": [],
-      "holdReason": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health."
+      "state": "draft-written",
+      "queries": [
+        "Imran Khan portrait",
+        "Islamabad High Court building"
+      ],
+      "title": "Imran Khan: Lawyer Meeting, Reported Appeal Date and What Is Confirmed",
+      "slug": "imran-khan-lawyer-meeting-appeals-november-2026",
+      "holdResolvedOn": "2026-11-14"
     },
     {
       "key": "psl",
@@ -1490,6 +1500,17 @@
       "revision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
       "workflowRun": "43589267029",
       "liveVerifiedAt": "2026-11-14T11:23:50.883Z"
+    },
+    {
+      "number": 8,
+      "keys": [
+        "houthis",
+        "imran-khan"
+      ],
+      "expectedSize": 2,
+      "state": "local-verified-unpublished",
+      "explicitUserAuthorization": "User instructed continuation and publication of completed verified editorial work. Fresh primary UNHCR report and UN briefing now establish a distinct dated humanitarian angle.",
+      "validationFile": "batch-08-validation.json"
     }
   ],
   "excludedGroups": [
