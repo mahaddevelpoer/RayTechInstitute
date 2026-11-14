@@ -1,8 +1,8 @@
 # Pakistan 13 November editorial queue
 
-- 41 new articles are published and live verified. Latest completed release: two articles, 4,335 body words, 84 tags and four unique licensed images.
-- All 41 queue pages passed exact-revision live verification for source 7b2d5ae5aa9adedafd4cea45f23f4d6913133c30, workflow 43592390996.
-- Sixteen groups retain reviewed existing/overlapping coverage and are not duplicated.
-- The owner confirmed Ziaur Rahman Sharifi. His 2,078-word article is locally verified and awaiting publication.
-- Two remaining verification holds: Class 10 official syllabus notification and the original attributable Jemima statement/report.
-- Earlier queues are unchanged. See final-groups-review.json and batch evidence.
+- 42 new articles published and live verified.
+- Latest release: owner-confirmed Ziaur Rahman Sharifi, 2,078 body words, 42 tags, two unique licensed images.
+- All 42 queue pages passed live verification for revision 6d3073e1ed15b483ce0afcce9ff3478103a31f38, successful workflow 43593804486.
+- This insert preserved all 577 prior records; catalog now 578.
+- Sixteen groups have reviewed existing/overlapping coverage. Two remain held for source verification: Grade 10 official syllabus notice and the original attributable Jemima statement/report.
+- No verified unpublished drafts remain. Earlier queues are unchanged.

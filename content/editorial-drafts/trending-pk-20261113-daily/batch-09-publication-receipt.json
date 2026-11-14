@@ -1,0 +1,13 @@
+{
+  "state": "published-live-verified",
+  "inserted": 1,
+  "verified": 1,
+  "existingArticlesPreserved": 577,
+  "articles": [
+    "ziaur-rahman-sharifi-afghanistan-bowling-guide"
+  ],
+  "sourceRevision": "6d3073e1ed15b483ce0afcce9ff3478103a31f38",
+  "workflowRun": "43593804486",
+  "liveVerification": "batch-09-live-verification.json",
+  "workflowEvidence": "batch-09-workflow-result.json"
+}

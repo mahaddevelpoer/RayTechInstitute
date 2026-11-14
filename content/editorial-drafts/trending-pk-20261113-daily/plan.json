@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-09-confirmed-identity-drafting",
+  "state": "batch-09-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -716,7 +716,7 @@
     {
       "key": "ziaur-rahman",
       "query": "ziaur rahman",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Ziaur Rahman Sharifi cricket",
         "Sharjah Cricket Stadium"
@@ -1313,8 +1313,9 @@
       "row": 74,
       "query": "ziaur rahman",
       "group": "ziaur-rahman",
-      "state": "local-verified-unpublished",
-      "reason": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
+      "state": "published-live-verified",
+      "reason": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess.",
+      "slug": "ziaur-rahman-sharifi-afghanistan-bowling-guide"
     },
     {
       "row": 75,
@@ -1528,9 +1529,12 @@
         "ziaur-rahman"
       ],
       "expectedSize": 1,
-      "state": "drafting",
+      "state": "published-live-verified",
       "explicitUserAuthorization": "Owner confirmed Afghan cricketer Sharifi and instructed completion/publication. Article uses ICC player identity and dated ACB reporting, without invented live scores.",
-      "validationFile": "batch-09-validation.json"
+      "validationFile": "batch-09-validation.json",
+      "revision": "6d3073e1ed15b483ce0afcce9ff3478103a31f38",
+      "workflowRun": "43593804486",
+      "liveVerifiedAt": "2026-11-14T12:20:16.719Z"
     }
   ],
   "excludedGroups": [

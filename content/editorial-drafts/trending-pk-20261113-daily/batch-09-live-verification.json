@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-14T12:20:16.719Z",
+  "expectedRevision": "6d3073e1ed15b483ce0afcce9ff3478103a31f38",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T12:16:10.889Z",
+    "revision": "6d3073e1ed15b483ce0afcce9ff3478103a31f38",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 689,
+    "sitemapSha256": "15eb09c7aa39e16c7b4e3aaf9217f1abf7adbd25c9ff78676dfc32986c4a1cdc",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43593804486"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "ziaur-rahman",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/ziaur-rahman-sharifi-afghanistan-bowling-guide/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/ziaur-rahman-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/ziaur-rahman-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

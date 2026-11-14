@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2078,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
   "scope": "Owner-confirmed Afghan identity, official ICC role and dated ACB contribution. No live second-Test figure, guessed age or mixed Akbar wickets.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/batch-09-image-review.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/ziaur-rahman-sharifi-afghanistan-bowling-guide/",
+  "liveVerifiedAt": "2026-11-14T12:20:16.719Z",
+  "releaseRevision": "6d3073e1ed15b483ce0afcce9ff3478103a31f38",
+  "workflowRun": "43593804486"
 }

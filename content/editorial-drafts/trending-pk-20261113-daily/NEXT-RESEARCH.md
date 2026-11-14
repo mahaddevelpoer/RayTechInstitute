@@ -1,6 +1,6 @@
 # Remaining verification work
 
-Complete the locally verified Sharifi release first. The owner confirmed the Afghan cricketer identity. Houthis/Yemen and Imran Khan articles are now published and live verified; do not leave their former hold reasons in place.
+Sharifi, Houthis/Yemen and Imran Khan articles are published and live verified. Only the two source-verification holds below remain.
 
 ## Class 10 smart syllabus 2027
 

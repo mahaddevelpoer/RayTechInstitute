@@ -10,3 +10,7 @@ The profile avoids an unverified present age from cached tournament data, ongoin
 The 2,078-word body has 42 distinct tags, checked metadata and two globally unique licensed archive illustrations. Visual review confirmed a Sharjah city view and a cricket-ball image; neither is labelled as a portrait, personal kit or the actual Test. No independently verified player portrait was found. The shared validator passed against a fresh 577-record catalogue baseline.
 
 Publication requires exact readback, preservation checks, one static release and exact-revision live checks. This note alone is not publication evidence.
+
+## Completed publication
+
+Exact database readback confirmed, preserving 577 prior articles. Workflow 43593804486 succeeded for revision 6d3073e1ed15b483ce0afcce9ff3478103a31f38; all 42 queue articles passed live checks.

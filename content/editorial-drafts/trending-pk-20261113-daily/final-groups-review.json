@@ -2,12 +2,12 @@
   "checkedOn": "2026-11-14",
   "sourceCsv": "trending_PK_1d_20261113-1451.csv",
   "existingCatalogCount": 568,
-  "scope": "Every remaining group reviewed. Seven verified new articles form one combined release; sixteen existing/overlapping intents are not duplicated; five unverifiable claims remain explicitly held.",
+  "scope": "All groups reviewed: 42 new articles published, 16 existing/overlapping groups covered, two source-verification holds.",
   "publicationAuthorized": true,
-  "newArticlesPublishedThisReview": 9,
+  "newArticlesPublishedThisReview": 10,
   "groupsReviewed": 28,
   "existingCoverage": 16,
-  "remainingResearchOrDrafting": 1,
+  "remainingResearchOrDrafting": 2,
   "groups": [
     {
       "key": "icc",
@@ -203,10 +203,12 @@
     {
       "key": "ziaur-rahman",
       "query": "ziaur rahman",
-      "status": "local-verified-unpublished",
+      "status": "published-live-verified",
       "sources": [],
       "note": "Identity confirmed; official-source player article validated and awaiting release.",
-      "identityConfirmedByOwner": "Afghan cricketer Sharifi"
+      "identityConfirmedByOwner": "Afghan cricketer Sharifi",
+      "slug": "ziaur-rahman-sharifi-afghanistan-bowling-guide",
+      "liveUrl": "https://raytechinstitute.com/blogs/ziaur-rahman-sharifi-afghanistan-bowling-guide/"
     },
     {
       "key": "uzma-khan-noreen-niazi-released",
@@ -259,10 +261,10 @@
   "relatedExistingCoverage": 2,
   "verifiedNewArticles": 10,
   "verificationHeld": 2,
-  "releaseStatus": "batch-08-live-batch-09-local-verified",
+  "releaseStatus": "published-live-verified",
   "sourceRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
   "workflowRun": "43589267029",
-  "newArticlesInThisCsvPublished": 41,
+  "newArticlesInThisCsvPublished": 42,
   "remainingWriting": 0,
-  "latestCompletedWorkflow": "43592390996"
+  "latestCompletedWorkflow": "43593804486"
 }
