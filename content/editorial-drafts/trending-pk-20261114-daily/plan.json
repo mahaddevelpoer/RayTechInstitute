@@ -23,8 +23,9 @@
       "rows": [
         2
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "japan-brazil-3-2-november-2026-singapore-goals-result"
     },
     {
       "key": "argentina-vs-uruguay",
@@ -1218,6 +1219,16 @@
       "revision": "55e2090e7e714ccfe60460c40c12f171aebe1e08",
       "workflowRun": "43604866888",
       "liveVerifiedAt": "2026-11-14T14:33:11.390Z"
+    },
+    {
+      "validationFile": "batch-03-validation.json",
+      "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
+      "state": "local-verified-unpublished",
+      "keys": [
+        "japan-vs-brazil"
+      ],
+      "expectedSize": 1,
+      "number": 3
     }
   ],
   "oldQueueSnapshot": []
