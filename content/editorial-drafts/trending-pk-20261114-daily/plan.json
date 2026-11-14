@@ -5,7 +5,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-05-published-next-research-pending",
+  "state": "batch-06-published-next-research-pending",
   "groups": [
     {
       "key": "pakistan-india-u19-final",
@@ -712,7 +712,7 @@
       "rows": [
         59
       ],
-      "state": "local-draft",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "fbr-electronic-scrutiny-rule-38b-tax-returns-2026"
     },
@@ -1165,7 +1165,7 @@
       "query": "fbr electronic scrutiny tax returns",
       "group": "fbr-electronic-scrutiny-tax-returns",
       "slug": "fbr-electronic-scrutiny-rule-38b-tax-returns-2026",
-      "state": "local-draft"
+      "state": "published-live-verified"
     },
     {
       "row": 60,
@@ -1265,12 +1265,15 @@
     {
       "validationFile": "batch-06-validation.json",
       "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
-      "state": "local-draft",
+      "state": "published-live-verified",
       "keys": [
         "fbr-electronic-scrutiny-tax-returns"
       ],
       "expectedSize": 1,
-      "number": 6
+      "number": 6,
+      "revision": "81f494722f6d9f99535800cdd1799f325d654500",
+      "workflowRun": "43613825916",
+      "liveVerifiedAt": "2026-11-14T16:12:18.768Z"
     }
   ],
   "oldQueueSnapshot": []

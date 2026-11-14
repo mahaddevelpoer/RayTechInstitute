@@ -2,8 +2,12 @@
   "scope": "Official FBR SRO 2098(I)/2026, FBR SRO index, IRIS FAQ and fraudulent SMS warning; two licensed archive photos visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2269,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/fbr-electronic-scrutiny-rule-38b-tax-returns-2026/",
+  "liveVerifiedAt": "2026-11-14T16:12:18.768Z",
+  "releaseRevision": "81f494722f6d9f99535800cdd1799f325d654500",
+  "workflowRun": "43613825916"
 }
