@@ -1,0 +1,84 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 21364,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 558,
+  "results": [
+    {
+      "key": "alfaaz-alan-walker",
+      "slug": "alfaaz-alan-walker-relight-release-credits-guide",
+      "words": 2054,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "finn-allen",
+      "slug": "finn-allen-dunedin-137-opening-batting-guide",
+      "words": 2139,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "naruto",
+      "slug": "naruto-beginner-watch-order-shippuden-boruto-guide",
+      "words": 2096,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "michael-bracewell",
+      "slug": "michael-bracewell-hyderabad-140-odi-chase-guide",
+      "words": 2159,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mohammed-siraj",
+      "slug": "mohammed-siraj-asia-cup-six-wickets-bowling-guide",
+      "words": 2131,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "joe-root",
+      "slug": "joe-root-lords-ten-thousand-test-batting-guide",
+      "words": 2129,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "aryna-sabalenka",
+      "slug": "aryna-sabalenka-australian-open-tennis-scoring-guide",
+      "words": 2085,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "mm-somaya",
+      "slug": "mm-somaya-olympic-hockey-gold-career-record-guide",
+      "words": 2275,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "will-jacks",
+      "slug": "will-jacks-england-batting-bowling-role-guide",
+      "words": 2167,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "barcelona-vs-arsenal",
+      "slug": "barcelona-arsenal-women-draw-november-12-2026",
+      "words": 2129,
+      "tags": 42,
+      "images": 2
+    }
+  ],
+  "expectedArticles": 10,
+  "writtenArticles": 10,
+  "imageVisualReview": "all twenty images inspected in two contact sheets",
+  "productionWrites": 0,
+  "hosting": "not yet released"
+}

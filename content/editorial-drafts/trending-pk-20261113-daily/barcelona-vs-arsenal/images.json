@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Camp Nou - FC Barcelona - Barcelona.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/barcelona-vs-arsenal-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Camp_Nou_-_FC_Barcelona_-_Barcelona.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Camp_Nou_-_FC_Barcelona_-_Barcelona.jpg",
+    "creator": "JaflaumS05",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Archive Camp Nou stadium view in Barcelona",
+    "description": "Camp Nou, Stadium of F.C. Barcelona.",
+    "caption": "Archive Camp Nou stadium illustration. This does not document the renovated venue’s appearance or the crowd at the November 2026 women’s match.",
+    "width": 500,
+    "height": 375,
+    "bytes": 35286,
+    "sha1": "f83922fc5707d06f46c399eb727adcdf470ba603",
+    "photographedAt": "2022-04-04 12:10:21",
+    "query": "Camp Nou stadium",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Arsenal wolfsburg.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/barcelona-vs-arsenal-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Arsenal_wolfsburg.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Arsenal_wolfsburg.jpg",
+    "creator": "Evmoon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "Archive Arsenal Women match against Wolfsburg at the Emirates",
+    "description": "Arsenal Women v Wolfsburg Women at a sold-out Emirates stadium",
+    "caption": "Archive Arsenal Women versus Wolfsburg at the Emirates. It provides team context, not a photograph from the Barcelona draw.",
+    "width": 500,
+    "height": 228,
+    "bytes": 31086,
+    "sha1": "9ef959bfc5b2d40211113b273050f88648f53de5",
+    "photographedAt": "2024-12-28 16:39:01",
+    "query": "\"Arsenal women\" football",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

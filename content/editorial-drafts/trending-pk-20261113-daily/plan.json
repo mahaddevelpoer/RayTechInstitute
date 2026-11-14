@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-05-published-next-research-pending",
+  "state": "batch-06-research-and-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -162,8 +162,13 @@
     {
       "key": "alfaaz-alan-walker",
       "query": "alfaaz alan walker",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Alan Walker\" concert",
+        "\"Lahore Fort\""
+      ],
+      "title": "Alfaaz (Alan Walker Relight): Release, Credits and the New Version Explained",
+      "slug": "alfaaz-alan-walker-relight-release-credits-guide"
     },
     {
       "key": "kuldeep-yadav",
@@ -280,8 +285,13 @@
     {
       "key": "finn-allen",
       "query": "finn allen",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Finn Allen\" cricket",
+        "\"University Oval\" Dunedin"
+      ],
+      "title": "Finn Allen: Dunedin 137, Opening Batting and T20 Scorecard Skills",
+      "slug": "finn-allen-dunedin-137-opening-batting-guide"
     },
     {
       "key": "pak-vs-ind-u19-final",
@@ -308,8 +318,13 @@
     {
       "key": "naruto",
       "query": "naruto",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Naruto\" exhibition",
+        "\"manga\" bookstore Japan"
+      ],
+      "title": "Naruto for Beginners: Watch Order, Shippuden, Boruto and Legal Access",
+      "slug": "naruto-beginner-watch-order-shippuden-boruto-guide"
     },
     {
       "key": "gemini-4-hydrogen",
@@ -384,8 +399,13 @@
     {
       "key": "michael-bracewell",
       "query": "michael bracewell",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Michael Bracewell\" cricket",
+        "\"Hyderabad\" cricket stadium"
+      ],
+      "title": "Michael Bracewell: Hyderabad 140 and the Challenge of an ODI Chase",
+      "slug": "michael-bracewell-hyderabad-140-odi-chase-guide"
     },
     {
       "key": "michael-carrick",
@@ -413,14 +433,24 @@
     {
       "key": "mohammed-siraj",
       "query": "mohammed siraj",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Mohammed Siraj\"",
+        "\"R Premadasa\" stadium"
+      ],
+      "title": "Mohammed Siraj: Asia Cup 6/21 and a Guide to Reading Pace Bowling",
+      "slug": "mohammed-siraj-asia-cup-six-wickets-bowling-guide"
     },
     {
       "key": "joe-root",
       "query": "joe root",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Joe Root\" cricket",
+        "\"Lord’s\" cricket ground"
+      ],
+      "title": "Joe Root: The Lord’s 10,000-Run Milestone and Test Batting Explained",
+      "slug": "joe-root-lords-ten-thousand-test-batting-guide"
     },
     {
       "key": "zimbabwe-national-cricket-team",
@@ -451,8 +481,13 @@
     {
       "key": "aryna-sabalenka",
       "query": "aryna sabalenka",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Aryna Sabalenka\" tennis",
+        "\"Rod Laver Arena\" tennis"
+      ],
+      "title": "Aryna Sabalenka: Australian Open Title Defence and Tennis Scoring Explained",
+      "slug": "aryna-sabalenka-australian-open-tennis-scoring-guide"
     },
     {
       "key": "rahmat-shah-icc-top-10-batter",
@@ -539,8 +574,13 @@
     {
       "key": "mm-somaya",
       "query": "mm somaya",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"M M Somaya\" hockey",
+        "\"field hockey\" India"
+      ],
+      "title": "M. M. Somaya: Olympic Hockey Gold, Captaincy and Historical Records Explained",
+      "slug": "mm-somaya-olympic-hockey-gold-career-record-guide"
     },
     {
       "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
@@ -563,14 +603,24 @@
     {
       "key": "will-jacks",
       "query": "will jacks",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Will Jacks\" cricket",
+        "\"The Oval\" cricket ground"
+      ],
+      "title": "Will Jacks: England Profile, Batting Roles and Bowling Statistics Explained",
+      "slug": "will-jacks-england-batting-bowling-role-guide"
     },
     {
       "key": "barcelona-vs-arsenal",
       "query": "barcelona vs arsenal",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "\"Barcelona women\" football",
+        "\"Arsenal women\" football"
+      ],
+      "title": "Barcelona Women 1–1 Arsenal: Goals, Revised Date and Match Context",
+      "slug": "barcelona-arsenal-women-draw-november-12-2026"
     },
     {
       "key": "pete-hegseth",
@@ -1289,6 +1339,25 @@
       "revision": "ae05532e315142fd1696c292e6983436845859f6",
       "workflowRun": "43580810649",
       "liveVerifiedAt": "2026-11-14T09:36:55.612Z"
+    },
+    {
+      "number": 6,
+      "keys": [
+        "finn-allen",
+        "michael-bracewell",
+        "mohammed-siraj",
+        "joe-root",
+        "aryna-sabalenka",
+        "naruto",
+        "will-jacks",
+        "alfaaz-alan-walker",
+        "mm-somaya",
+        "barcelona-vs-arsenal"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": "Continue ten complete articles together, then publish after checks under standing editorial approval.",
+      "state": "drafts-images-reviewed",
+      "validationFile": "batch-06-validation.json"
     }
   ],
   "excludedGroups": [

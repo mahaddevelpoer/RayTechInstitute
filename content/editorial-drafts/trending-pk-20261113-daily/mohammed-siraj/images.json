@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Mohammed Siraj.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/mohammed-siraj-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mohammed_Siraj.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohammed_Siraj.jpg",
+    "creator": "Anand Anil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Mohammed Siraj at a public cricket and anti-drug campaign in 2017",
+    "description": "Indian Cricketer Mohammed Siraj at the anti-drug campaign 'Say Yes to Cricket, No to Drugs' on 7 November 2017.",
+    "caption": "Archive: Mohammed Siraj at a public campaign on 7 November 2017. This is not a photograph from the 2023 Asia Cup final.",
+    "width": 330,
+    "height": 440,
+    "bytes": 11908,
+    "sha1": "58c27c2ae15896f4437f49e52aabe1d66a1dd8b7",
+    "photographedAt": "2017-11-06 15:56:52",
+    "query": "\"Mohammed Siraj\"",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:The clouds roll in.jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/mohammed-siraj-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_clouds_roll_in.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:The_clouds_roll_in.jpg",
+    "creator": "James Harris",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "Archive rain clouds over cricket in Colombo during December 2014",
+    "description": "Storms rolling in during the Sri Lanka - England One Day International, Colombo. December 2014. Rain failed to come to England's rescue",
+    "caption": "Archive Colombo cricket photograph from the Sri Lanka–England ODI in December 2014. Venue context only, not the conditions during the 2023 final.",
+    "width": 500,
+    "height": 331,
+    "bytes": 17460,
+    "sha1": "c81ae798c79ec87fa765c2e42d185cc6afcea718",
+    "photographedAt": "2014-12-16 14:36:59",
+    "query": "\"R Premadasa\" stadium",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

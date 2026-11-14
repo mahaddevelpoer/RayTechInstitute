@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:4 20 Will Jacks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/4_20_Will_Jacks.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/4_20_Will_Jacks.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:4_20_Will_Jacks.jpg",
+    "creator": "Dave Morton",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:4_20_Will_Jacks.jpg",
+    "alt": "Will Jacks bowling in an archive cricket photograph",
+    "description": "On at pavilion End, with Kishore switching to Trafalgar Square.",
+    "caption": "Archive photograph of Will Jacks from July 2025. It is not a photograph of his 2022 Rawalpindi Test debut.",
+    "width": 1842,
+    "height": 2322,
+    "bytes": 703870,
+    "sha1": "b30751e88a20f840d61bae42a92502dae7b8414c",
+    "photographedAt": "2025-07-25 13:45:25",
+    "query": "\"Will Jacks\" cricket",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:The Oval cricket ground from the air - geograph.org.uk - 6077075.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Oval_cricket_ground_from_the_air_-_geograph.org.uk_-_6077075.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Oval_cricket_ground_from_the_air_-_geograph.org.uk_-_6077075.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Oval_cricket_ground_from_the_air_-_geograph.org.uk_-_6077075.jpg",
+    "creator": "The Oval cricket ground from the air by Thomas Nugent",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "Archive aerial view of The Oval cricket ground",
+    "description": "The Oval cricket ground from the air",
+    "caption": "Archive aerial illustration of The Oval. It provides cricket-ground context and does not depict the Rawalpindi debut.",
+    "width": 1024,
+    "height": 768,
+    "bytes": 817659,
+    "sha1": "14cd5d7f2e9b9c45a5fbfb118dd742b3962256c8",
+    "photographedAt": "2019-02-28",
+    "query": "\"The Oval\" cricket ground",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

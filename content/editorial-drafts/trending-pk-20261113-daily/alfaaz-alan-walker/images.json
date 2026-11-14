@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Alan Walker (001216).jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/alfaaz-alan-walker-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Alan_Walker_%28001216%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Alan_Walker_(001216).jpg",
+    "creator": "Tore Sætre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Alan Walker performing at Stavernfestivalen in July 2016",
+    "description": "Alan Walker at the minor stage during Stavernfestivalen in Stavern on 08. July 2016. Lineup: Alan Olav Walker (electronic dance musician)",
+    "caption": "Archive: Alan Walker performing at Stavernfestivalen in July 2016. This is not the Alfaaz single cover or a photograph of its recording.",
+    "width": 500,
+    "height": 364,
+    "bytes": 37840,
+    "sha1": "e1869d7979c0b49c2c275f763aa4984015e3dace",
+    "photographedAt": "2016-07-08 22:12:16",
+    "query": "\"Alan Walker\" concert",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Baradari at Lahore Fort - Diwan-i-Khas (Lahore Fort).jpg",
+    "url": "/images/editorial/trending-pk-20261113-daily/alfaaz-alan-walker-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Baradari_at_Lahore_Fort_-_Diwan-i-Khas_%28Lahore_Fort%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Baradari_at_Lahore_Fort_-_Diwan-i-Khas_(Lahore_Fort).jpg",
+    "creator": "Jugni",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "alt": "Archive architectural view inside Lahore Fort",
+    "description": "baradari at Lahore Fort",
+    "caption": "Archive Lahore Fort architecture, used for geographical context. This image does not establish where any particular music-video scene was filmed.",
+    "width": 500,
+    "height": 375,
+    "bytes": 32478,
+    "sha1": "181b800f460856ac4b96af5ce47d4f640a240879",
+    "photographedAt": "2011-10-09",
+    "query": "\"Lahore Fort\"",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

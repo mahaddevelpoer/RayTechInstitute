@@ -12,5 +12,6 @@ This daily CSV is active; earlier pending queues remain tracked separately and u
 - 4 input rows already have relevant published articles.
 - 16 generic rows are skipped for insufficient context.
 - 38 topic groups remain incomplete, subject to further research.
+- Batch 6: ten drafts locally verified, 21,364 body words, 420 tags and twenty visually reviewed unique licensed images. Hosting publication evidence is pending.
 - Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed. Latest workflow: 43580810649.
 - See batch evidence files and NEXT-RESEARCH.md.
