@@ -1,0 +1,251 @@
+{
+  "checkedOn": "2026-11-14",
+  "sourceCsv": "trending_PK_1d_20261113-1451.csv",
+  "existingCatalogCount": 568,
+  "scope": "Every remaining group reviewed. Seven verified new articles form one combined release; sixteen existing/overlapping intents are not duplicated; five unverifiable claims remain explicitly held.",
+  "publicationAuthorized": true,
+  "newArticlesPublishedThisReview": 0,
+  "groupsReviewed": 28,
+  "existingCoverage": 16,
+  "remainingResearchOrDrafting": 0,
+  "groups": [
+    {
+      "key": "icc",
+      "query": "icc",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "icc-rankings-rank-rating-team-player-tables-explained",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "petrol-price",
+      "query": "petrol price",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "pakistan-petrol-diesel-prices-12-november-2026-pso",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "bruno-fernandes",
+      "query": "bruno fernandes",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "bruno-fernandes-career-creative-midfield-guide",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "class-10-smart-syllabus-2027",
+      "query": "class 10 smart syllabus 2027",
+      "status": "verification-held",
+      "sources": [
+        "https://pectaa.edu.pk/"
+      ],
+      "note": "No official Grade 10 smart-syllabus notification was verified. Grade 9 or Grade 11 documents cannot establish it."
+    },
+    {
+      "key": "michael-carrick",
+      "query": "michael carrick",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "michael-carrick-playing-career-midfield-guide",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "zimbabwe-national-cricket-team",
+      "query": "zimbabwe national cricket team",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "detangle-comb-for-hair-growth",
+      "query": "detangle comb for hair growth",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "detangle-electric-comb-hair-growth-mouse-study-explained",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "rahmat-shah-icc-top-10-batter",
+      "query": "rahmat shah icc top 10 batter",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "rahmat-shah-seventh-test-batting-rankings-november-2026",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "cameron-green",
+      "query": "cameron green",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "cameron-green-career-batting-bowling-role-stats-guide",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "afg-vs-zim",
+      "query": "afg vs zim",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "tim-seifert",
+      "query": "tim seifert",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "tim-seifert-wicketkeeping-batting-study-guide",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "johnny-depp",
+      "query": "johnny depp",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://www.boxofficemojo.com/calendar/2026-11-09/",
+        "https://filmexpos.com/wp-content/uploads/2025/12/CA25_PJ-ALL.pdf"
+      ],
+      "note": "Ebenezer scheduled 13 November 2026. Verify current studio release before saying locally available. A site branding itself official is not independently proof of ownership; no film review without viewing.",
+      "slug": "johnny-depp-ebenezer-release-dickens-reading-guide"
+    },
+    {
+      "key": "spain-national-football-team",
+      "query": "spain national football team",
+      "status": "related-coverage-no-distinct-new-event",
+      "sources": [
+        "https://raytechinstitute.com/blogs/czechia-spain-nations-league-result-november-12-2026/"
+      ],
+      "note": "Initial potential match to train-crash article was a false positive. The actual completed Czechia match is now covered; determine whether the CSV needs anything distinct before writing a generic duplicate.",
+      "existingSlug": "czechia-spain-nations-league-result-november-12-2026"
+    },
+    {
+      "key": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
+      "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://www.pcb.com.pk/icc-womens-emerging-nations-trophy-2026/match/36975.html",
+        "https://www.pcb.com.pk/press-release-detail/pakistan-squad-announced-for-icc-women-s-emerging-nations-trophy.html"
+      ],
+      "note": "PCB indexed result confirms Pakistan eight-wicket win on 12 November. Web open returned 403; do not treat Reddit totals as primary confirmation. Verify complete scorecard and dated group table before drafting standings.",
+      "slug": "pakistan-bangladesh-women-result-group-b-november-2026"
+    },
+    {
+      "key": "arshdeep-singh",
+      "query": "arshdeep singh",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "hardik-pandya-punjab-kings-arshdeep-mumbai-ipl-2027-trade",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
+      "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/icc-women-s-emerging-nations-trophy-day-2-wrap-x2546",
+        "https://www.icc-cricket.com/media-releases/sri-lanka-pakistan-maintain-winning-starts-on-day-2-of-icc-women-s-emerging-nations-trophy-2026"
+      ],
+      "note": "ICC confirms Sri Lanka four-wicket win, 11 balls remaining, Ajman 13 November. Reject third-party six-wicket version; read full primary report for batting details.",
+      "slug": "scotland-sri-lanka-women-result-november-13-2026"
+    },
+    {
+      "key": "visionquest",
+      "query": "visionquest",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "visionquest-finale-episode-eight-release-context-2026",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "pete-hegseth",
+      "query": "pete hegseth",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://clerk.house.gov/Votes/2026317?Page=1",
+        "https://apnews.com/article/cd59fd7ae20c6f80b51f57305fb0a7a0",
+        "https://www.dvidshub.net/video/1029354/hegseth-holds-press-conference"
+      ],
+      "note": "Distinguish tabled impeachment motion from impeachment or conviction. Arlington award reporting is separate. Allegations remain attributed; no unsupported intent claims.",
+      "slug": "pete-hegseth-arlington-sentinel-award-context"
+    },
+    {
+      "key": "jemima-goldsmith",
+      "query": "jemima goldsmith",
+      "status": "verification-held",
+      "sources": [],
+      "note": "A specific new event and original attributable statement were not verified. Personal allegations in snippets are insufficient."
+    },
+    {
+      "key": "topic-069",
+      "query": "پاکستان قومی کرکٹ ٹیم",
+      "status": "related-coverage-no-distinct-new-event",
+      "sources": [],
+      "note": "CSV gives only Pakistan national cricket team in Urdu. Do not silently substitute U19 or Women for senior men.",
+      "existingSlug": "pakistan-sri-lanka-rawalpindi-test-day-three-venue-update-2026"
+    },
+    {
+      "key": "ghana-vs-somalia",
+      "query": "ghana vs somalia",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://www.ghanafa.org/scintillating-black-stars-beat-somalia-in-sekondi",
+        "https://gna.org.gh/2026/11/black-stars-revive-afcon-hopes-with-comfortable-win-over-somalia/"
+      ],
+      "note": "Ghana 2–0 Somalia, 12 November 2026. No invented current qualification.",
+      "slug": "ghana-somalia-result-november-12-2026"
+    },
+    {
+      "key": "houthis",
+      "query": "houthis",
+      "status": "verification-held",
+      "sources": [
+        "https://www.securitycouncilreport.org/monthly-forecast/2026-11/yemen-92.php",
+        "https://digitallibrary.un.org/record/4132265?ln=en"
+      ],
+      "note": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding."
+    },
+    {
+      "key": "ziaur-rahman",
+      "query": "ziaur rahman",
+      "status": "verification-held",
+      "sources": [],
+      "note": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
+    },
+    {
+      "key": "uzma-khan-noreen-niazi-released",
+      "query": "uzma khan noreen niazi released",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://news.johnwarburton.net/story.php?article_id=16286957"
+      ],
+      "note": "Indexed AFP report attributes release and withdrawal of detention order to counsel. Detention release is not acquittal. Seek original wire/court or directly attributable source before publishing.",
+      "slug": "uzma-khan-noreen-niazi-release-old-video-fact-check"
+    },
+    {
+      "key": "live-cricket-match-u19-asia-cup",
+      "query": "live cricket match u19 asia cup",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "pakistan-india-u19-asia-cup-final-november-14-2026-preview",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    },
+    {
+      "key": "dr-congo-vs-sierra-leone",
+      "query": "dr congo vs sierra leone",
+      "status": "local-verified-awaiting-combined-release",
+      "sources": [
+        "https://www.cafonline.com/afcon2025/news/totalenergies-caf-afcon-2027-qualifiers-dr-congo-extend-perfect-run-as-guinea-bissau-and-zimbabwe-held-to-draws/",
+        "https://www.cafonline.com/afcon2025/news/crucial-matchdays-3-and-4-to-shape-totalenergies-caf-afcon-pamoja-2027-qualification-race"
+      ],
+      "note": "CAF confirms 3–1, not the 3–0 shown on some third-party lists. Wissa 4, Moutoussamy 35, Kayembe 58, Bekoe 83; nine points after three; return 17 November.",
+      "slug": "dr-congo-sierra-leone-result-november-12-2026"
+    },
+    {
+      "key": "imran-khan",
+      "query": "imran khan",
+      "status": "verification-held",
+      "sources": [],
+      "note": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health."
+    },
+    {
+      "key": "psl",
+      "query": "psl",
+      "status": "existing-coverage-reviewed",
+      "existingSlug": "hbl-psl-2026-final-zalmi-hardie-scorecard-guide",
+      "note": "Exact published catalogue match. Do not duplicate the same intent; add only a separately verified fresh angle."
+    }
+  ],
+  "exactExistingCoverage": 14,
+  "relatedExistingCoverage": 2,
+  "verifiedNewArticles": 7,
+  "verificationHeld": 5,
+  "releaseStatus": "local-verified-awaiting-combined-release"
+}

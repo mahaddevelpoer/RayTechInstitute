@@ -1,0 +1,21 @@
+{
+  "state": "local-verified-unpublished",
+  "published": false,
+  "words": 2159,
+  "tags": 42,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-14",
+  "scope": "CAF confirms 3–1, correcting incomplete 3–0 lists. Historical completed result separated from 17 November fixture. Fictional table exercises labelled. No unverified qualification or statistical claims.",
+  "checks": [
+    "body word count",
+    "distinct tags",
+    "title and description lengths",
+    "no existing ID or slug",
+    "private credential scan",
+    "no script injection",
+    "two primary sources"
+  ],
+  "releasePolicy": "Hold for one combined final release under latest user instruction.",
+  "visualReviewEvidence": "artifacts/pakistan-nov13/batch-07-image-review-1.png",
+  "localChecks": "validation.json"
+}

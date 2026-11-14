@@ -1,0 +1,58 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 7,
+  "bodyWords": 14693,
+  "uniqueImages": 14,
+  "existingArticlesCompared": 568,
+  "results": [
+    {
+      "key": "johnny-depp",
+      "slug": "johnny-depp-ebenezer-release-dickens-reading-guide",
+      "words": 2037,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
+      "slug": "pakistan-bangladesh-women-result-group-b-november-2026",
+      "words": 2087,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
+      "slug": "scotland-sri-lanka-women-result-november-13-2026",
+      "words": 2151,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "pete-hegseth",
+      "slug": "pete-hegseth-arlington-sentinel-award-context",
+      "words": 2021,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "ghana-vs-somalia",
+      "slug": "ghana-somalia-result-november-12-2026",
+      "words": 2103,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "uzma-khan-noreen-niazi-released",
+      "slug": "uzma-khan-noreen-niazi-release-old-video-fact-check",
+      "words": 2135,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "dr-congo-vs-sierra-leone",
+      "slug": "dr-congo-sierra-leone-result-november-12-2026",
+      "words": 2159,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

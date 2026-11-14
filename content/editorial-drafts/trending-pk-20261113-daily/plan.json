@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-06-published-next-research-pending",
+  "state": "final-review-seven-awaiting-release-five-verification-holds",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -184,7 +184,7 @@
     {
       "key": "icc",
       "query": "icc",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
@@ -203,7 +203,9 @@
           "slug": "icc-womens-champions-trophy-2027-india-dates",
           "title": "ICC Women’s Champions Trophy 2027: India Venues, Dates and Format"
         }
-      ]
+      ],
+      "existingCoverageSlug": "icc-rankings-rank-rating-team-player-tables-explained",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "nadra",
@@ -340,7 +342,7 @@
     {
       "key": "petrol-price",
       "query": "petrol price",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
@@ -355,7 +357,9 @@
           "slug": "pakistan-petrol-diesel-prices-12-november-2026-pso",
           "title": "Pakistan Fuel Prices, 12 November 2026: Petrol, Diesel and Travel Costs"
         }
-      ]
+      ],
+      "existingCoverageSlug": "pakistan-petrol-diesel-prices-12-november-2026-pso",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "turkiye-vs-belgium",
@@ -371,19 +375,21 @@
     {
       "key": "bruno-fernandes",
       "query": "bruno fernandes",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "bruno-fernandes-career-creative-midfield-guide",
           "title": "Bruno Fernandes: United Timeline, Creative Midfield and Passing Risk"
         }
-      ]
+      ],
+      "existingCoverageSlug": "bruno-fernandes-career-creative-midfield-guide",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "class-10-smart-syllabus-2027",
       "query": "class 10 smart syllabus 2027",
-      "state": "needs-research",
+      "state": "verification-held",
       "queries": [],
       "potentialExisting": [
         {
@@ -394,7 +400,8 @@
           "slug": "smart-syllabus-2027-9th-class-10th-class-11th-class-12th-class-all-in-one-pdf",
           "title": "Punjab Smart Syllabus 2026–27 Released: Official PECTAA Notification, 9th & 11th Class PDF Downloads and 2027 Exam Updates"
         }
-      ]
+      ],
+      "holdReason": "No official Grade 10 smart-syllabus notification was verified. Grade 9 or Grade 11 documents cannot establish it."
     },
     {
       "key": "michael-bracewell",
@@ -410,14 +417,16 @@
     {
       "key": "michael-carrick",
       "query": "michael carrick",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "michael-carrick-playing-career-midfield-guide",
           "title": "Michael Carrick: Playing Career, Passing Lanes and Midfield Control"
         }
-      ]
+      ],
+      "existingCoverageSlug": "michael-carrick-playing-career-midfield-guide",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "chinese-yuan",
@@ -455,7 +464,7 @@
     {
       "key": "zimbabwe-national-cricket-team",
       "query": "zimbabwe national cricket team",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
@@ -470,13 +479,17 @@
           "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
           "title": "Zimbabwe vs Afghanistan Test Draw: Sharjah Scores and Next Match"
         }
-      ]
+      ],
+      "existingCoverageSlug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "detangle-comb-for-hair-growth",
       "query": "detangle comb for hair growth",
-      "state": "needs-research",
-      "queries": []
+      "state": "already-covered-reviewed",
+      "queries": [],
+      "existingCoverageSlug": "detangle-electric-comb-hair-growth-mouse-study-explained",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "aryna-sabalenka",
@@ -492,73 +505,93 @@
     {
       "key": "rahmat-shah-icc-top-10-batter",
       "query": "rahmat shah icc top 10 batter",
-      "state": "needs-research",
-      "queries": []
+      "state": "already-covered-reviewed",
+      "queries": [],
+      "existingCoverageSlug": "rahmat-shah-seventh-test-batting-rankings-november-2026",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "cameron-green",
       "query": "cameron green",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "cameron-green-career-batting-bowling-role-stats-guide",
           "title": "Cameron Green: Career, All-Rounder Role and Stats Explained"
         }
-      ]
+      ],
+      "existingCoverageSlug": "cameron-green-career-batting-bowling-role-stats-guide",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "afg-vs-zim",
       "query": "afg vs zim",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "afg-zim-match-day-cricket-checklist",
           "title": "AFG vs ZIM: A Match-Day Cricket Reading Checklist"
         }
-      ]
+      ],
+      "existingCoverageSlug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "tim-seifert",
       "query": "tim seifert",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "tim-seifert-wicketkeeping-batting-study-guide",
           "title": "Tim Seifert: Keeping and Batting Beyond Highlights"
         }
-      ]
+      ],
+      "existingCoverageSlug": "tim-seifert-wicketkeeping-batting-study-guide",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "johnny-depp",
       "query": "johnny depp",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Johnny Depp portrait",
+        "Charles Dickens Museum London"
+      ],
+      "title": "Johnny Depp’s Ebenezer: Release Details and a Dickens Reading Guide",
+      "slug": "johnny-depp-ebenezer-release-dickens-reading-guide"
     },
     {
       "key": "spain-national-football-team",
       "query": "spain national football team",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "spain-train-crash-official-updates-reading-guide",
           "title": "Spain Train Crash: Verified Updates and News Context"
         }
-      ]
+      ],
+      "existingCoverageSlug": "czechia-spain-nations-league-result-november-12-2026",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
       "query": "bangladesh women's national cricket team vs pakistan women's national cricket team standings",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Pakistan women cricket",
+        "Bangladesh women cricket"
+      ],
+      "title": "Pakistan Women Beat Bangladesh: Ajman Result and Group B Standings Guide",
+      "slug": "pakistan-bangladesh-women-result-group-b-november-2026"
     },
     {
       "key": "arshdeep-singh",
       "query": "arshdeep singh",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
@@ -569,7 +602,9 @@
           "slug": "samreen-kaur-arshdeep-singh-engagement-career-context",
           "title": "Samreen Kaur and Arshdeep Singh: Engagement Report and Professional Credits"
         }
-      ]
+      ],
+      "existingCoverageSlug": "hardik-pandya-punjab-kings-arshdeep-mumbai-ipl-2027-trade",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "mm-somaya",
@@ -585,20 +620,27 @@
     {
       "key": "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
       "query": "scotland women's national cricket team vs sri lanka women's national cricket team match scorecard",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Scotland women cricket",
+        "Sri Lanka women cricket"
+      ],
+      "title": "Scotland Women vs Sri Lanka Women: Four-Wicket Result and Scorecard Explained",
+      "slug": "scotland-sri-lanka-women-result-november-13-2026"
     },
     {
       "key": "visionquest",
       "query": "visionquest",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
           "slug": "visionquest-finale-episode-eight-release-context-2026",
           "title": "VisionQuest Finale: Episode Eight, Time Zones and Story Context"
         }
-      ]
+      ],
+      "existingCoverageSlug": "visionquest-finale-episode-eight-release-context-2026",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "will-jacks",
@@ -625,49 +667,69 @@
     {
       "key": "pete-hegseth",
       "query": "pete hegseth",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Tomb Unknown Soldier Arlington",
+        "Arlington sentinel guard"
+      ],
+      "title": "Pete Hegseth and the Arlington Sentinel: Award Reporting and Memorial Context",
+      "slug": "pete-hegseth-arlington-sentinel-award-context"
     },
     {
       "key": "jemima-goldsmith",
       "query": "jemima goldsmith",
-      "state": "needs-research",
-      "queries": []
+      "state": "verification-held",
+      "queries": [],
+      "holdReason": "A specific new event and original attributable statement were not verified. Personal allegations in snippets are insufficient."
     },
     {
       "key": "topic-069",
       "query": "پاکستان قومی کرکٹ ٹیم",
-      "state": "needs-research",
-      "queries": []
+      "state": "already-covered-reviewed",
+      "queries": [],
+      "existingCoverageSlug": "pakistan-sri-lanka-rawalpindi-test-day-three-venue-update-2026",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "ghana-vs-somalia",
       "query": "ghana vs somalia",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Ghana national football",
+        "Sekondi stadium"
+      ],
+      "title": "Ghana 2–0 Somalia: First Qualifying Points, Goals and Return Fixture",
+      "slug": "ghana-somalia-result-november-12-2026"
     },
     {
       "key": "houthis",
       "query": "houthis",
-      "state": "needs-research",
-      "queries": []
+      "state": "verification-held",
+      "queries": [],
+      "holdReason": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding."
     },
     {
       "key": "ziaur-rahman",
       "query": "ziaur rahman",
-      "state": "needs-research",
-      "queries": []
+      "state": "verification-held",
+      "queries": [],
+      "holdReason": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
     },
     {
       "key": "uzma-khan-noreen-niazi-released",
       "query": "uzma khan noreen niazi released",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written",
+      "queries": [
+        "Lahore High Court building",
+        "Lahore skyline"
+      ],
+      "title": "Uzma Khan and Noreen Niazi Release Reports: Why the Viral Video Was Old",
+      "slug": "uzma-khan-noreen-niazi-release-old-video-fact-check"
     },
     {
       "key": "live-cricket-match-u19-asia-cup",
       "query": "live cricket match u19 asia cup",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
@@ -686,24 +748,32 @@
           "slug": "india-afghanistan-u19-asia-cup-semi-final-november-2026",
           "title": "India–Afghanistan U19: Asia Cup Semi-Final Score and Match Context"
         }
-      ]
+      ],
+      "existingCoverageSlug": "pakistan-india-u19-asia-cup-final-november-14-2026-preview",
+      "coverageReviewedOn": "2026-11-14"
     },
     {
       "key": "dr-congo-vs-sierra-leone",
       "query": "dr congo vs sierra leone",
-      "state": "needs-research",
-      "queries": []
+      "state": "draft-written-unpublished",
+      "queries": [
+        "DR Congo football",
+        "Stade des Martyrs Kinshasa"
+      ],
+      "title": "DR Congo 3–1 Sierra Leone: Goals, Group E Points and Return Fixture",
+      "slug": "dr-congo-sierra-leone-result-november-12-2026"
     },
     {
       "key": "imran-khan",
       "query": "imran khan",
-      "state": "needs-research",
-      "queries": []
+      "state": "verification-held",
+      "queries": [],
+      "holdReason": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health."
     },
     {
       "key": "psl",
       "query": "psl",
-      "state": "needs-research",
+      "state": "already-covered-reviewed",
       "queries": [],
       "potentialExisting": [
         {
@@ -718,7 +788,9 @@
           "slug": "thatta-cement-fauji-foundation-pakistan-services-agreement-2026",
           "title": "Thatta Cement and Fauji Foundation: What the PSL Agreement Actually Says"
         }
-      ]
+      ],
+      "existingCoverageSlug": "hbl-psl-2026-final-zalmi-hardie-scorecard-guide",
+      "coverageReviewedOn": "2026-11-14"
     }
   ],
   "rowDisposition": [
@@ -810,7 +882,8 @@
       "row": 13,
       "query": "icc",
       "group": "icc",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "icc-rankings-rank-rating-team-player-tables-explained"
     },
     {
       "row": 14,
@@ -951,7 +1024,8 @@
       "row": 34,
       "query": "petrol price",
       "group": "petrol-price",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "pakistan-petrol-diesel-prices-12-november-2026-pso"
     },
     {
       "row": 35,
@@ -964,7 +1038,8 @@
       "row": 36,
       "query": "bruno fernandes",
       "group": "bruno-fernandes",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "bruno-fernandes-career-creative-midfield-guide"
     },
     {
       "row": 37,
@@ -991,7 +1066,8 @@
       "row": 40,
       "query": "class 10 smart syllabus 2027",
       "group": "class-10-smart-syllabus-2027",
-      "state": "needs-research"
+      "state": "verification-held",
+      "reason": "No official Grade 10 smart-syllabus notification was verified. Grade 9 or Grade 11 documents cannot establish it."
     },
     {
       "row": 41,
@@ -1004,7 +1080,8 @@
       "row": 42,
       "query": "michael carrick",
       "group": "michael-carrick",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "michael-carrick-playing-career-midfield-guide"
     },
     {
       "row": 43,
@@ -1031,13 +1108,15 @@
       "row": 46,
       "query": "zimbabwe national cricket team",
       "group": "zimbabwe-national-cricket-team",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026"
     },
     {
       "row": 47,
       "query": "detangle comb for hair growth",
       "group": "detangle-comb-for-hair-growth",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "detangle-electric-comb-hair-growth-mouse-study-explained"
     },
     {
       "row": 48,
@@ -1062,19 +1141,22 @@
       "row": 51,
       "query": "rahmat shah icc top 10 batter",
       "group": "rahmat-shah-icc-top-10-batter",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "rahmat-shah-seventh-test-batting-rankings-november-2026"
     },
     {
       "row": 52,
       "query": "cameron green",
       "group": "cameron-green",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "cameron-green-career-batting-bowling-role-stats-guide"
     },
     {
       "row": 53,
       "query": "afg vs zim",
       "group": "afg-vs-zim",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "zimbabwe-afghanistan-sharjah-test-draw-november-2026"
     },
     {
       "row": 54,
@@ -1086,7 +1168,8 @@
       "row": 55,
       "query": "tim seifert",
       "group": "tim-seifert",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "tim-seifert-wicketkeeping-batting-study-guide"
     },
     {
       "row": 56,
@@ -1098,7 +1181,8 @@
       "row": 57,
       "query": "spain national football team",
       "group": "spain-national-football-team",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "czechia-spain-nations-league-result-november-12-2026"
     },
     {
       "row": 58,
@@ -1110,7 +1194,8 @@
       "row": 59,
       "query": "arshdeep singh",
       "group": "arshdeep-singh",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "hardik-pandya-punjab-kings-arshdeep-mumbai-ipl-2027-trade"
     },
     {
       "row": 60,
@@ -1129,7 +1214,8 @@
       "row": 62,
       "query": "visionquest",
       "group": "visionquest",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "visionquest-finale-episode-eight-release-context-2026"
     },
     {
       "row": 63,
@@ -1161,7 +1247,8 @@
       "row": 67,
       "query": "jemima goldsmith",
       "group": "jemima-goldsmith",
-      "state": "needs-research"
+      "state": "verification-held",
+      "reason": "A specific new event and original attributable statement were not verified. Personal allegations in snippets are insufficient."
     },
     {
       "row": 68,
@@ -1173,7 +1260,8 @@
       "row": 69,
       "query": "پاکستان قومی کرکٹ ٹیم",
       "group": "topic-069",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "pakistan-sri-lanka-rawalpindi-test-day-three-venue-update-2026"
     },
     {
       "row": 70,
@@ -1191,7 +1279,8 @@
       "row": 72,
       "query": "houthis",
       "group": "houthis",
-      "state": "needs-research"
+      "state": "verification-held",
+      "reason": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding."
     },
     {
       "row": 73,
@@ -1203,7 +1292,8 @@
       "row": 74,
       "query": "ziaur rahman",
       "group": "ziaur-rahman",
-      "state": "needs-research"
+      "state": "verification-held",
+      "reason": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
     },
     {
       "row": 75,
@@ -1215,7 +1305,8 @@
       "row": 76,
       "query": "live cricket match u19 asia cup",
       "group": "live-cricket-match-u19-asia-cup",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "pakistan-india-u19-asia-cup-final-november-14-2026-preview"
     },
     {
       "row": 77,
@@ -1233,7 +1324,8 @@
       "row": 79,
       "query": "imran khan",
       "group": "imran-khan",
-      "state": "needs-research"
+      "state": "verification-held",
+      "reason": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health."
     },
     {
       "row": 80,
@@ -1264,7 +1356,8 @@
       "row": 84,
       "query": "psl",
       "group": "psl",
-      "state": "needs-research"
+      "state": "already-covered",
+      "slug": "hbl-psl-2026-final-zalmi-hardie-scorecard-guide"
     }
   ],
   "releaseBatches": [
@@ -1371,6 +1464,22 @@
       "revision": "34e38d5b4501417d763f78eba4a7b3d522ea5acf",
       "workflowRun": "43584655668",
       "liveVerifiedAt": "2026-11-14T10:29:41.556Z"
+    },
+    {
+      "number": 7,
+      "keys": [
+        "dr-congo-vs-sierra-leone",
+        "ghana-vs-somalia",
+        "bangladesh-women-s-national-cricket-team-vs-pakistan-women-s-national-cricket-team-standings",
+        "scotland-women-s-national-cricket-team-vs-sri-lanka-women-s-national-cricket-team-match-scorecard",
+        "johnny-depp",
+        "pete-hegseth",
+        "uzma-khan-noreen-niazi-released"
+      ],
+      "expectedSize": 7,
+      "state": "local-verified-unpublished",
+      "explicitUserAuthorization": "User instructed all remaining verified work together; publish one combined release after completion. Existing coverage is not duplicated and unverified claims are held.",
+      "validationFile": "batch-07-validation.json"
     }
   ],
   "excludedGroups": [
@@ -1484,5 +1593,7 @@
       "state": "unclear-skipped",
       "queries": []
     }
-  ]
+  ],
+  "finalReleaseInstruction": "User requested all remaining work together on 14 November 2026. Complete all verified new articles, do not duplicate existing coverage, then publish one combined release.",
+  "finalScopeReview": "final-groups-review.json"
 }
