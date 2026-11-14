@@ -61,8 +61,9 @@
       "rows": [
         6
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "pakistan-minerals-investment-forum-2026-outcomes-mous-explained"
     },
     {
       "key": "arjun-rajput",
@@ -1246,6 +1247,16 @@
       "revision": "54c22d1acdbc8f105e716ecc48261d2ecd94ec15",
       "workflowRun": "43606517332",
       "liveVerifiedAt": "2026-11-14T14:52:24.327Z"
+    },
+    {
+      "validationFile": "batch-05-validation.json",
+      "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
+      "state": "local-verified-unpublished",
+      "keys": [
+        "mineral"
+      ],
+      "expectedSize": 1,
+      "number": 5
     }
   ],
   "oldQueueSnapshot": []
