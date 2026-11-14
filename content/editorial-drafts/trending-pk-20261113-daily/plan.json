@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-05-drafting",
+  "state": "batch-05-published-next-research-pending",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -107,7 +107,7 @@
     {
       "key": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
       "query": "czech republic national football team vs spain national football team standings",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Prague\" stadium",
         "\"Spain national football\""
@@ -118,7 +118,7 @@
     {
       "key": "ruturaj-gaikwad",
       "query": "ruturaj gaikwad",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Ruturaj Gaikwad\"",
         "\"Pune\" cricket"
@@ -151,7 +151,7 @@
     {
       "key": "saud-shakeel",
       "query": "saud shakeel",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Saud Shakeel\"",
         "\"Galle\" cricket"
@@ -168,7 +168,7 @@
     {
       "key": "kuldeep-yadav",
       "query": "kuldeep yadav",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Kuldeep Yadav\"",
         "\"cricket\" spin bowling"
@@ -214,7 +214,7 @@
     {
       "key": "tuba-hassan",
       "query": "tuba hassan",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Tuba Hassan\"",
         "\"women cricket\" Pakistan"
@@ -225,7 +225,7 @@
     {
       "key": "jack-edwards",
       "query": "jack edwards",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Jack Edwards\" cricket",
         "\"New South Wales\" cricket"
@@ -236,7 +236,7 @@
     {
       "key": "axar-patel",
       "query": "axar patel",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Axar Patel\"",
         "\"Delhi\" cricket stadium"
@@ -247,7 +247,7 @@
     {
       "key": "james-anderson",
       "query": "james anderson",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"James Anderson\" cricket",
         "\"Lord’s\" cricket"
@@ -258,7 +258,7 @@
     {
       "key": "arda-guler",
       "query": "arda güler",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Arda Güler\"",
         "\"Real Madrid\" training"
@@ -345,7 +345,7 @@
     {
       "key": "turkiye-vs-belgium",
       "query": "türkiye vs belgium",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "\"Kevin De Bruyne\"",
         "\"Gürsel Aksel\""
@@ -704,13 +704,15 @@
       "row": 5,
       "query": "czech republic national football team vs spain national football team standings",
       "group": "czech-republic-national-football-team-vs-spain-national-football-team-standings",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "czechia-spain-nations-league-result-november-12-2026"
     },
     {
       "row": 6,
       "query": "ruturaj gaikwad",
       "group": "ruturaj-gaikwad",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "ruturaj-gaikwad-profile-top-order-batting-guide"
     },
     {
       "row": 7,
@@ -730,7 +732,8 @@
       "row": 9,
       "query": "saud shakeel",
       "group": "saud-shakeel",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "saud-shakeel-galle-208-test-batting-profile-guide"
     },
     {
       "row": 10,
@@ -742,7 +745,8 @@
       "row": 11,
       "query": "kuldeep yadav",
       "group": "kuldeep-yadav",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "kuldeep-yadav-left-arm-wrist-spin-profile-guide"
     },
     {
       "row": 12,
@@ -768,7 +772,8 @@
       "row": 15,
       "query": "tuba hassan",
       "group": "tuba-hassan",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "tuba-hassan-pakistan-leg-spin-debut-profile-guide"
     },
     {
       "row": 16,
@@ -781,7 +786,8 @@
       "row": 17,
       "query": "jack edwards",
       "group": "jack-edwards",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "jack-edwards-australia-all-rounder-profile-guide"
     },
     {
       "row": 18,
@@ -800,7 +806,8 @@
       "row": 20,
       "query": "axar patel",
       "group": "axar-patel",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "axar-patel-orthodox-spin-all-round-role-guide"
     },
     {
       "row": 21,
@@ -818,13 +825,15 @@
       "row": 23,
       "query": "james anderson",
       "group": "james-anderson",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "james-anderson-704-test-wickets-bowling-guide"
     },
     {
       "row": 24,
       "query": "arda güler",
       "group": "arda-guler",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "arda-guler-profile-creative-play-football-guide"
     },
     {
       "row": 25,
@@ -895,7 +904,8 @@
       "row": 35,
       "query": "türkiye vs belgium",
       "group": "turkiye-vs-belgium",
-      "state": "needs-research"
+      "state": "published-live-verified",
+      "slug": "turkiye-belgium-nations-league-result-november-12-2026"
     },
     {
       "row": 36,
@@ -1274,8 +1284,11 @@
       ],
       "expectedSize": 10,
       "explicitUserAuthorization": "User instructed continuation; standing ready-work publication instruction applies to these ten completed verified articles after exact validation and readback.",
-      "state": "drafting",
-      "validationFile": "batch-05-validation.json"
+      "state": "published-live-verified",
+      "validationFile": "batch-05-validation.json",
+      "revision": "ae05532e315142fd1696c292e6983436845859f6",
+      "workflowRun": "43580810649",
+      "liveVerifiedAt": "2026-11-14T09:36:55.612Z"
     }
   ],
   "excludedGroups": [

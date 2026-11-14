@@ -1,0 +1,22 @@
+{
+  "state": "published-live-verified",
+  "inserted": 10,
+  "verified": 10,
+  "existingArticlesPreserved": 548,
+  "articles": [
+    "czechia-spain-nations-league-result-november-12-2026",
+    "ruturaj-gaikwad-profile-top-order-batting-guide",
+    "saud-shakeel-galle-208-test-batting-profile-guide",
+    "kuldeep-yadav-left-arm-wrist-spin-profile-guide",
+    "tuba-hassan-pakistan-leg-spin-debut-profile-guide",
+    "jack-edwards-australia-all-rounder-profile-guide",
+    "axar-patel-orthodox-spin-all-round-role-guide",
+    "james-anderson-704-test-wickets-bowling-guide",
+    "arda-guler-profile-creative-play-football-guide",
+    "turkiye-belgium-nations-league-result-november-12-2026"
+  ],
+  "sourceRevision": "ae05532e315142fd1696c292e6983436845859f6",
+  "workflowRun": "43580810649",
+  "liveVerification": "batch-05-live-verification.json",
+  "workflowEvidence": "batch-05-workflow-result.json"
+}
