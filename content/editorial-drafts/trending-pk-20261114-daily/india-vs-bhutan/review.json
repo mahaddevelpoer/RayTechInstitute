@@ -2,8 +2,12 @@
   "scope": "AIFF and SAFF official semi-final reports; archive images reviewed and labelled.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2145,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/india-bhutan-saff-2026-semi-final-result-goals-var/",
+  "liveVerifiedAt": "2026-11-14T14:33:11.390Z",
+  "releaseRevision": "55e2090e7e714ccfe60460c40c12f171aebe1e08",
+  "workflowRun": "43604866888"
 }

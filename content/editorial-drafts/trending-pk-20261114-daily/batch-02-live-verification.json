@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-14T14:33:11.390Z",
+  "expectedRevision": "55e2090e7e714ccfe60460c40c12f171aebe1e08",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T14:28:46.074Z",
+    "revision": "55e2090e7e714ccfe60460c40c12f171aebe1e08",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 691,
+    "sitemapSha256": "a1147a7e057db2d4315fe6f2c6de7fdd95ca4afbc01ac6608d80fd77249dc2d8",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43604866888"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "india-vs-bhutan",
+      "batch": "20261114-daily",
+      "url": "https://raytechinstitute.com/blogs/india-bhutan-saff-2026-semi-final-result-goals-var/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/india-vs-bhutan-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/india-vs-bhutan-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

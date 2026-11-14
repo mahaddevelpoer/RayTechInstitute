@@ -5,7 +5,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-01-published-next-research-pending",
+  "state": "batch-02-published-next-research-pending",
   "groups": [
     {
       "key": "pakistan-india-u19-final",
@@ -104,7 +104,7 @@
       "rows": [
         12
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "india-bhutan-saff-2026-semi-final-result-goals-var"
     },
@@ -831,8 +831,8 @@
       "row": 12,
       "query": "india vs bhutan",
       "group": "india-vs-bhutan",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "india-bhutan-saff-2026-semi-final-result-goals-var",
+      "state": "published-live-verified"
     },
     {
       "row": 13,
@@ -1209,12 +1209,15 @@
     {
       "validationFile": "batch-02-validation.json",
       "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "keys": [
         "india-vs-bhutan"
       ],
       "expectedSize": 1,
-      "number": 2
+      "number": 2,
+      "revision": "55e2090e7e714ccfe60460c40c12f171aebe1e08",
+      "workflowRun": "43604866888",
+      "liveVerifiedAt": "2026-11-14T14:33:11.390Z"
     }
   ],
   "oldQueueSnapshot": []
