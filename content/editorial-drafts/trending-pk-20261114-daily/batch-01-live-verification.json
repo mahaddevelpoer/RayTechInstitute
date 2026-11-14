@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-14T14:15:48.438Z",
+  "expectedRevision": "ec7cb646a3f82e4fa01a02d0fa33a82ac8ab65ba",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T14:12:25.840Z",
+    "revision": "ec7cb646a3f82e4fa01a02d0fa33a82ac8ab65ba",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 690,
+    "sitemapSha256": "0c2eebcf22a4097e2504d6971763427627113919b3d1e5acba568ba9a024fd28",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43603439701"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "pakistan-india-u19-final",
+      "batch": "20261114-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-india-u19-asia-cup-final-2026-full-scorecard/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/pakistan-india-u19-final-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/pakistan-india-u19-final-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

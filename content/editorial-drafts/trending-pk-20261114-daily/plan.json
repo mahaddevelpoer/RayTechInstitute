@@ -5,13 +5,747 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-01-preparing",
+  "state": "batch-01-published-next-research-pending",
   "groups": [
     {
-      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
       "key": "pakistan-india-u19-final",
-      "state": "local-verified-unpublished",
-      "query": "pakistan u-19 vs india u-19"
+      "query": "pakistan u-19 vs india u-19",
+      "rows": [
+        1,
+        7
+      ],
+      "state": "published-live-verified",
+      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard"
+    },
+    {
+      "key": "japan-vs-brazil",
+      "query": "japan vs brazil",
+      "rows": [
+        2
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "argentina-vs-uruguay",
+      "query": "argentina vs uruguay",
+      "rows": [
+        3
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "abdul-qadir",
+      "query": "abdul qadir",
+      "rows": [
+        4
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "tamasha",
+      "query": "tamasha",
+      "rows": [
+        5
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "mineral",
+      "query": "mineral",
+      "rows": [
+        6
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "arjun-rajput",
+      "query": "arjun rajput",
+      "rows": [
+        8
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rizwanullah",
+      "query": "rizwanullah",
+      "rows": [
+        9
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mohammad-sayyam",
+      "query": "mohammad sayyam",
+      "rows": [
+        10
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "student-of-the-year-after-dark",
+      "query": "student of the year after dark",
+      "rows": [
+        11
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "india-vs-bhutan",
+      "query": "india vs bhutan",
+      "rows": [
+        12
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sharad-kapoor",
+      "query": "sharad kapoor",
+      "rows": [
+        13
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-14",
+      "query": "برق",
+      "rows": [
+        14
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "faa-ground-stop-flights-cancelled",
+      "query": "faa ground stop flights cancelled",
+      "rows": [
+        15
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "grand-theft-auto-online",
+      "query": "grand theft auto online",
+      "rows": [
+        16
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "microsoft-365-outlook-outages",
+      "query": "microsoft 365 outlook outages",
+      "rows": [
+        17
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "karakoram-highway-blocked-containers-snow",
+      "query": "karakoram highway blocked containers snow",
+      "rows": [
+        18
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "serbia-national-football-team-vs-germany-national-football-team-standings",
+      "query": "serbia national football team vs germany national football team standings",
+      "rows": [
+        19
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "Australia National Cricket Team: History, Formats and Scoreboards Explained",
+          "slug": "australia-cricket-team-history-formats-scoreboard-guide"
+        },
+        {
+          "title": "FC Barcelona Explained: Club Origins, La Masia and the Right Team",
+          "slug": "fc-barcelona-club-origins-la-masia-teams-student-guide"
+        },
+        {
+          "title": "ICC Rankings Explained: Rank, Rating and Cricket Tables",
+          "slug": "icc-rankings-rank-rating-team-player-tables-explained"
+        },
+        {
+          "title": "South Africa Cricket Team: The 2026 Test Rise Explained",
+          "slug": "south-africa-cricket-team-2026-test-rise-formats-guide"
+        },
+        {
+          "title": "West Indies Cricket Team: Regional Identity and Records",
+          "slug": "west-indies-cricket-team-explained-learning-guide"
+        },
+        {
+          "title": "Glenn Maxwell Retirement: Australia Career Ends, BBL Continues",
+          "slug": "glenn-maxwell-retirement-international-bbl-2026"
+        },
+        {
+          "title": "Usman Khawaja: International Farewell and His Continuing BBL Role",
+          "slug": "usman-khawaja-international-retirement-bbl-2026"
+        },
+        {
+          "title": "Australia Cricket Team: Formats, Squads and Fixtures",
+          "slug": "australia-cricket-team-formats-fixtures-guide"
+        }
+      ]
+    },
+    {
+      "key": "zakir-naik",
+      "query": "zakir naik",
+      "rows": [
+        20
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "david-warner",
+      "query": "david warner",
+      "rows": [
+        21
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-22",
+      "query": "کرینہ کپور",
+      "rows": [
+        22
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "morocco-national-football-team-vs-niger-national-football-team-standings",
+      "query": "morocco national football team vs niger national football team standings",
+      "rows": [
+        23
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "Australia National Cricket Team: History, Formats and Scoreboards Explained",
+          "slug": "australia-cricket-team-history-formats-scoreboard-guide"
+        },
+        {
+          "title": "FC Barcelona Explained: Club Origins, La Masia and the Right Team",
+          "slug": "fc-barcelona-club-origins-la-masia-teams-student-guide"
+        },
+        {
+          "title": "ICC Rankings Explained: Rank, Rating and Cricket Tables",
+          "slug": "icc-rankings-rank-rating-team-player-tables-explained"
+        },
+        {
+          "title": "South Africa Cricket Team: The 2026 Test Rise Explained",
+          "slug": "south-africa-cricket-team-2026-test-rise-formats-guide"
+        },
+        {
+          "title": "West Indies Cricket Team: Regional Identity and Records",
+          "slug": "west-indies-cricket-team-explained-learning-guide"
+        },
+        {
+          "title": "Glenn Maxwell Retirement: Australia Career Ends, BBL Continues",
+          "slug": "glenn-maxwell-retirement-international-bbl-2026"
+        },
+        {
+          "title": "Usman Khawaja: International Farewell and His Continuing BBL Role",
+          "slug": "usman-khawaja-international-retirement-bbl-2026"
+        },
+        {
+          "title": "Australia Cricket Team: Formats, Squads and Fixtures",
+          "slug": "australia-cricket-team-formats-fixtures-guide"
+        }
+      ]
+    },
+    {
+      "key": "egypt-national-football-team",
+      "query": "egypt national football team",
+      "rows": [
+        24
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-25",
+      "query": "سونے کی قیمت",
+      "rows": [
+        25
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "netherlands-vs-greece",
+      "query": "netherlands vs greece",
+      "rows": [
+        26
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kaviya-maran",
+      "query": "kaviya maran",
+      "rows": [
+        27
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "whatsapp-android-beta-text-messages",
+      "query": "whatsapp android beta text messages",
+      "rows": [
+        28
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "WhatsApp Android Chat Preview: What the November Beta Reports Confirm",
+          "slug": "whatsapp-android-contextual-chat-preview-beta-status"
+        },
+        {
+          "title": "WhatsApp iOS Beta Contacts Tab: Rollout, Privacy and What Changed",
+          "slug": "whatsapp-ios-beta-contacts-tab-rollout-privacy"
+        },
+        {
+          "title": "WhatsApp Android Floating Navigation Bar: Beta Rollout Explained",
+          "slug": "whatsapp-android-floating-navigation-bar-beta-november-2026"
+        },
+        {
+          "title": "WhatsApp View-Once Text on Android: Beta Rollout and Privacy Limits",
+          "slug": "whatsapp-view-once-text-android-beta-rollout-privacy-2026"
+        }
+      ]
+    },
+    {
+      "key": "query-29",
+      "query": "حکومت پنجاب",
+      "rows": [
+        29
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "adelaide-strikers-vs-perth-scorchers",
+      "query": "adelaide strikers vs perth scorchers",
+      "rows": [
+        30
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "Perth Scorchers vs Melbourne Stars: WBBL Result and Devine’s Four Wickets",
+          "slug": "perth-scorchers-melbourne-stars-wbbl-result-november-2026"
+        },
+        {
+          "title": "Perth Scorchers vs Sydney Thunder Women: WBBL Date, Venue and PKT Time",
+          "slug": "perth-scorchers-sydney-thunder-women-november11-2026"
+        }
+      ]
+    },
+    {
+      "key": "acc",
+      "query": "acc",
+      "rows": [
+        31
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "portugal-vs-denmark",
+      "query": "portugal vs denmark",
+      "rows": [
+        32
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "colette-kress-nvidia-interim-ceo",
+      "query": "colette kress nvidia interim ceo",
+      "rows": [
+        33
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "NVIDIA CEO Transition: Jensen Huang Steps Down and Colette Kress Takes Interim Role",
+          "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026"
+        }
+      ]
+    },
+    {
+      "key": "sara-boustany",
+      "query": "sara boustany",
+      "rows": [
+        34
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "toxic",
+      "query": "toxic",
+      "rows": [
+        35
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "czech-republic-national-football-team",
+      "query": "czech republic national football team",
+      "rows": [
+        36
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "miss-universe",
+      "query": "miss universe",
+      "rows": [
+        37
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "africa-cup-of-nations-qualification",
+      "query": "africa cup of nations qualification",
+      "rows": [
+        38
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "electric-vehicle",
+      "query": "electric vehicle",
+      "rows": [
+        39
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "guatemala-vs-canada",
+      "query": "guatemala vs canada",
+      "rows": [
+        40
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "treasury-bill",
+      "query": "treasury bill",
+      "rows": [
+        41
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "portugal-national-football-team",
+      "query": "portugal national football team",
+      "rows": [
+        42
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mohammad-rizwan-nccia-probe-update",
+      "query": "mohammad rizwan nccia probe update",
+      "rows": [
+        43
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "cabo-verde-vs-liberia",
+      "query": "cabo verde vs liberia",
+      "rows": [
+        44
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "south-africa-vs-kenya",
+      "query": "south africa vs kenya",
+      "rows": [
+        45
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "England vs South Africa: What the Sixes Bowl Final Means",
+          "slug": "england-south-africa-hong-kong-sixes-bowl-final-guide"
+        },
+        {
+          "title": "Pat Cummins After South Africa: Captaincy and Test Decisions",
+          "slug": "pat-cummins-south-africa-series-2026-captaincy-decisions"
+        },
+        {
+          "title": "South Africa Cricket Team: The 2026 Test Rise Explained",
+          "slug": "south-africa-cricket-team-2026-test-rise-formats-guide"
+        }
+      ]
+    },
+    {
+      "key": "forex-factory",
+      "query": "forex factory",
+      "rows": [
+        46
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "Forex Factory Calendar: Pakistan Time, Forecasts and Data Reading",
+          "slug": "forex-factory-calendar-pakistan-time-data-guide"
+        }
+      ]
+    },
+    {
+      "key": "portugal",
+      "query": "portugal",
+      "rows": [
+        47
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "turkiye-qatar-bilateral-military-pact",
+      "query": "turkiye qatar bilateral military pact",
+      "rows": [
+        48
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "colombia-vs-chile",
+      "query": "colombia vs chile",
+      "rows": [
+        49
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "pakistan-women-s-national-cricket-team-vs-thailand-women-s-national-cricket-team-standings",
+      "query": "pakistan women's national cricket team vs thailand women's national cricket team standings",
+      "rows": [
+        50
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "Pakistan vs India Under-19 Cricket Rivalry: Historical Context, Statistical Analysis, and Match Dynamics",
+          "slug": "pakistan-vs-india-under-19-cricket-rivalry-analysis"
+        },
+        {
+          "title": "Australia National Cricket Team: History, Formats and Scoreboards Explained",
+          "slug": "australia-cricket-team-history-formats-scoreboard-guide"
+        },
+        {
+          "title": "FC Barcelona Explained: Club Origins, La Masia and the Right Team",
+          "slug": "fc-barcelona-club-origins-la-masia-teams-student-guide"
+        },
+        {
+          "title": "Cricket Fixtures and Live Scores: Read the Right Match",
+          "slug": "cricket-fixtures-live-scores-identification-time-guide"
+        },
+        {
+          "title": "ICC Rankings Explained: Rank, Rating and Cricket Tables",
+          "slug": "icc-rankings-rank-rating-team-player-tables-explained"
+        },
+        {
+          "title": "South Africa Cricket Team: The 2026 Test Rise Explained",
+          "slug": "south-africa-cricket-team-2026-test-rise-formats-guide"
+        },
+        {
+          "title": "Tamasha Live: Cricket Access, App Setup and Buffering Help",
+          "slug": "tamasha-live-cricket-app-access-buffering-data-guide"
+        },
+        {
+          "title": "West Indies Cricket Team: Regional Identity and Records",
+          "slug": "west-indies-cricket-team-explained-learning-guide"
+        }
+      ]
+    },
+    {
+      "key": "ind-u19-vs-uae-u19",
+      "query": "ind u19 vs uae u19",
+      "rows": [
+        51
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "usa",
+      "query": "usa",
+      "rows": [
+        52
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "t10",
+      "query": "t10",
+      "rows": [
+        53
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "bahrain",
+      "query": "bahrain",
+      "rows": [
+        54
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "slovenia-vs-switzerland",
+      "query": "slovenia vs switzerland",
+      "rows": [
+        55
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "grand-theft-auto",
+      "query": "grand theft auto",
+      "rows": [
+        56
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "daayra-movie",
+      "query": "daayra movie",
+      "rows": [
+        57
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "diesel-price-in-pakistan",
+      "query": "diesel price in pakistan",
+      "rows": [
+        58
+      ],
+      "state": "research-pending",
+      "possibleExisting": [
+        {
+          "title": "Why Refineries Can Absorb Higher Petrol Costs in Pakistan",
+          "slug": "pakistan-refinery-costs-petrol-price-pass-through-explained"
+        },
+        {
+          "title": "vivo Y32 5G: Confirmed Features and Pakistan Price Checks",
+          "slug": "vivo-y32-5g-specifications-pakistan-price-checks"
+        },
+        {
+          "title": "Petroleum in Pakistan: Products, Supply and Prices",
+          "slug": "petroleum-pakistan-products-supply-price-guide"
+        },
+        {
+          "title": "Pakistan Petrol Price: Verify the Rate and Date",
+          "slug": "pakistan-petrol-price-notification-reading-guide"
+        },
+        {
+          "title": "Inflation Explained: Prices and Purchasing Power",
+          "slug": "inflation-pakistan-prices-purchasing-power-guide"
+        },
+        {
+          "title": "Gold Prices in Pakistan: Tola, Purity, Quotations and Jewellery Bills",
+          "slug": "pakistan-gold-price-tola-purity-quote-guide"
+        },
+        {
+          "title": "vivo V80 FE: Official Specifications, Memory, Battery and Pakistan Price Check",
+          "slug": "vivo-v80-fe-philippines-specs-pakistan-price-check"
+        },
+        {
+          "title": "Jaecoo J5 BEV Price in Pakistan: Comfort, Premium and Charging Costs",
+          "slug": "jaecoo-j5-bev-price-pakistan-comfort-premium"
+        }
+      ]
+    },
+    {
+      "key": "fbr-electronic-scrutiny-tax-returns",
+      "query": "fbr electronic scrutiny tax returns",
+      "rows": [
+        59
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "cricket-nz",
+      "query": "cricket nz",
+      "rows": [
+        60
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "film",
+      "query": "film",
+      "rows": [
+        61
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "ut-vs-ee",
+      "query": "ut vs ee",
+      "rows": [
+        62
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
+    },
+    {
+      "key": "ghost-soldier",
+      "query": "ghost soldier",
+      "rows": [
+        63
+      ],
+      "state": "context-verification-held",
+      "possibleExisting": []
     }
   ],
   "rowDisposition": [
@@ -20,7 +754,7 @@
       "query": "pakistan u-19 vs india u-19",
       "group": "pakistan-india-u19-final",
       "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
-      "state": "local-verified-unpublished"
+      "state": "published-live-verified"
     },
     {
       "row": 2,
@@ -48,7 +782,7 @@
       "query": "tamasha",
       "group": "tamasha",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 6,
@@ -62,7 +796,7 @@
       "query": "pak vs ind u19 score",
       "group": "pakistan-india-u19-final",
       "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
-      "state": "local-verified-unpublished"
+      "state": "published-live-verified"
     },
     {
       "row": 8,
@@ -109,9 +843,9 @@
     {
       "row": 14,
       "query": "برق",
-      "group": "",
+      "group": "query-14",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 15,
@@ -165,7 +899,7 @@
     {
       "row": 22,
       "query": "کرینہ کپور",
-      "group": "",
+      "group": "query-22",
       "slug": null,
       "state": "research-pending"
     },
@@ -186,7 +920,7 @@
     {
       "row": 25,
       "query": "سونے کی قیمت",
-      "group": "",
+      "group": "query-25",
       "slug": null,
       "state": "research-pending"
     },
@@ -214,9 +948,9 @@
     {
       "row": 29,
       "query": "حکومت پنجاب",
-      "group": "",
+      "group": "query-29",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 30,
@@ -230,7 +964,7 @@
       "query": "acc",
       "group": "acc",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 32,
@@ -258,7 +992,7 @@
       "query": "toxic",
       "group": "toxic",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 36,
@@ -377,21 +1111,21 @@
       "query": "usa",
       "group": "usa",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 53,
       "query": "t10",
       "group": "t10",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 54,
       "query": "bahrain",
       "group": "bahrain",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 55,
@@ -440,33 +1174,37 @@
       "query": "film",
       "group": "film",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 62,
       "query": "ut vs ee",
       "group": "ut-vs-ee",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     },
     {
       "row": 63,
       "query": "ghost soldier",
       "group": "ghost-soldier",
       "slug": null,
-      "state": "research-pending"
+      "state": "context-verification-held"
     }
   ],
   "releaseBatches": [
     {
       "validationFile": "batch-01-validation.json",
       "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; one finished verified article releases first.",
-      "state": "preparing",
+      "state": "published-live-verified",
       "keys": [
         "pakistan-india-u19-final"
       ],
       "expectedSize": 1,
-      "number": 1
+      "number": 1,
+      "revision": "ec7cb646a3f82e4fa01a02d0fa33a82ac8ab65ba",
+      "workflowRun": "43603439701",
+      "liveVerifiedAt": "2026-11-14T14:15:48.438Z"
     }
-  ]
+  ],
+  "oldQueueSnapshot": []
 }

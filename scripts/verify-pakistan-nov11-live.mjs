@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import https from 'node:https';
 const batch=process.argv.find(a=>a.startsWith('--batch='))?.slice(8)||'20261111-daily';
-if(!/^2026111[123]-daily$/.test(batch))throw Error('Unsupported November batch');
+if(!/^2026111[1234]-daily$/.test(batch))throw Error('Unsupported November batch');
 const region=process.argv.find(a=>a.startsWith('--region='))?.slice(9)||'PK';if(!['PK','IN','US'].includes(region))throw Error('Unsupported article region');
 const root=`content/editorial-drafts/trending-${region.toLowerCase()}-${batch}`,origin='https://raytechinstitute.com';
 const useCloudflareResolver=process.argv.includes('--cloudflare-resolver');
