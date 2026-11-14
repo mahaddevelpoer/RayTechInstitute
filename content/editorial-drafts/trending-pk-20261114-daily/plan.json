@@ -712,8 +712,9 @@
       "rows": [
         59
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "local-draft",
+      "possibleExisting": [],
+      "slug": "fbr-electronic-scrutiny-rule-38b-tax-returns-2026"
     },
     {
       "key": "cricket-nz",
@@ -1163,8 +1164,8 @@
       "row": 59,
       "query": "fbr electronic scrutiny tax returns",
       "group": "fbr-electronic-scrutiny-tax-returns",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "fbr-electronic-scrutiny-rule-38b-tax-returns-2026",
+      "state": "local-draft"
     },
     {
       "row": 60,
@@ -1260,6 +1261,16 @@
       "revision": "9d8873e87789e9da05dc1d3d4855e481f051dda3",
       "workflowRun": "43607697278",
       "liveVerifiedAt": "2026-11-14T15:04:22.287Z"
+    },
+    {
+      "validationFile": "batch-06-validation.json",
+      "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
+      "state": "local-draft",
+      "keys": [
+        "fbr-electronic-scrutiny-tax-returns"
+      ],
+      "expectedSize": 1,
+      "number": 6
     }
   ],
   "oldQueueSnapshot": []

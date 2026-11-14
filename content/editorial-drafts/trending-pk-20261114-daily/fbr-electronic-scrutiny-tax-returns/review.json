@@ -1,0 +1,9 @@
+{
+  "scope": "Official FBR SRO 2098(I)/2026, FBR SRO index, IRIS FAQ and fraudulent SMS warning; two licensed archive photos visually reviewed.",
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-14",
+  "published": false,
+  "state": "local-verified-unpublished",
+  "words": 2269,
+  "localChecks": "validation.json"
+}
