@@ -2,8 +2,12 @@
   "scope": "PMIF26 organizer closing page and agenda; Pakistan government opening and commerce releases; contextual archive images reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2097,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-minerals-investment-forum-2026-outcomes-mous-explained/",
+  "liveVerifiedAt": "2026-11-14T15:04:22.287Z",
+  "releaseRevision": "9d8873e87789e9da05dc1d3d4855e481f051dda3",
+  "workflowRun": "43607697278"
 }

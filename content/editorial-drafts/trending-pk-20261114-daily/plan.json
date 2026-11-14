@@ -5,7 +5,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-04-published-next-research-pending",
+  "state": "batch-05-published-next-research-pending",
   "groups": [
     {
       "key": "pakistan-india-u19-final",
@@ -61,7 +61,7 @@
       "rows": [
         6
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "pakistan-minerals-investment-forum-2026-outcomes-mous-explained"
     },
@@ -792,8 +792,8 @@
       "row": 6,
       "query": "mineral",
       "group": "mineral",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "pakistan-minerals-investment-forum-2026-outcomes-mous-explained",
+      "state": "published-live-verified"
     },
     {
       "row": 7,
@@ -1251,12 +1251,15 @@
     {
       "validationFile": "batch-05-validation.json",
       "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "keys": [
         "mineral"
       ],
       "expectedSize": 1,
-      "number": 5
+      "number": 5,
+      "revision": "9d8873e87789e9da05dc1d3d4855e481f051dda3",
+      "workflowRun": "43607697278",
+      "liveVerifiedAt": "2026-11-14T15:04:22.287Z"
     }
   ],
   "oldQueueSnapshot": []

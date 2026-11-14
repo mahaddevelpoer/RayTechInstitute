@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-14T15:04:22.287Z",
+  "expectedRevision": "9d8873e87789e9da05dc1d3d4855e481f051dda3",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T15:01:41.710Z",
+    "revision": "9d8873e87789e9da05dc1d3d4855e481f051dda3",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 694,
+    "sitemapSha256": "70b8073dce5a3a5200beaaa7c1c4e8f24231ee2e9cd47099ffa5873db1359bae",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43607697278"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "mineral",
+      "batch": "20261114-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-minerals-investment-forum-2026-outcomes-mous-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/mineral-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261114-daily/mineral-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
