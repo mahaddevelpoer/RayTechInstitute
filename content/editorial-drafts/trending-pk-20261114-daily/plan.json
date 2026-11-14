@@ -5,7 +5,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-03-published-next-research-pending",
+  "state": "batch-04-published-next-research-pending",
   "groups": [
     {
       "key": "pakistan-india-u19-final",
@@ -33,7 +33,7 @@
       "rows": [
         3
       ],
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "argentina-uruguay-2-1-november-2026-friendly-goals-result"
     },
@@ -770,8 +770,8 @@
       "row": 3,
       "query": "argentina vs uruguay",
       "group": "argentina-vs-uruguay",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "argentina-uruguay-2-1-november-2026-friendly-goals-result",
+      "state": "published-live-verified"
     },
     {
       "row": 4,
@@ -1237,12 +1237,15 @@
     {
       "validationFile": "batch-04-validation.json",
       "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "keys": [
         "argentina-vs-uruguay"
       ],
       "expectedSize": 1,
-      "number": 4
+      "number": 4,
+      "revision": "54c22d1acdbc8f105e716ecc48261d2ecd94ec15",
+      "workflowRun": "43606517332",
+      "liveVerifiedAt": "2026-11-14T14:52:24.327Z"
     }
   ],
   "oldQueueSnapshot": []
