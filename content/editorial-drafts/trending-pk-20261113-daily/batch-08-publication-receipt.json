@@ -1,0 +1,14 @@
+{
+  "state": "published-live-verified",
+  "inserted": 2,
+  "verified": 2,
+  "existingArticlesPreserved": 575,
+  "articles": [
+    "houthis-yemen-un-displacement-update-november-2026",
+    "imran-khan-lawyer-meeting-appeals-november-2026"
+  ],
+  "sourceRevision": "7b2d5ae5aa9adedafd4cea45f23f4d6913133c30",
+  "workflowRun": "43592390996",
+  "liveVerification": "batch-08-live-verification.json",
+  "workflowEvidence": "batch-08-workflow-result.json"
+}

@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-11-14T12:02:43.912Z",
+  "expectedRevision": "7b2d5ae5aa9adedafd4cea45f23f4d6913133c30",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-14T11:58:51.283Z",
+    "revision": "7b2d5ae5aa9adedafd4cea45f23f4d6913133c30",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 688,
+    "sitemapSha256": "8c0f4281cb9a358fab404d64e1222e52ea71eadb774a3e7588e85b2a4eb1f5d8",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43592390996"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "houthis",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/houthis-yemen-un-displacement-update-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/houthis-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/houthis-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "imran-khan",
+      "batch": "20261113-daily",
+      "url": "https://raytechinstitute.com/blogs/imran-khan-lawyer-meeting-appeals-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/imran-khan-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261113-daily/imran-khan-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

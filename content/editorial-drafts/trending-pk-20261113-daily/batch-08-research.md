@@ -26,3 +26,7 @@ Checked 14 November 2026. The owner requested continuation. Two previously held 
 ## Checks
 
 Global image-source uniqueness, decoded WebP dimensions, credits, body word counts, 42 tags per article, title/description lengths, internal links, unique IDs/slugs against the fresh 575-record baseline, heading hierarchy and private-credential scans are checked by the shared batch validator. No local heavy production build, paid service or drafting subagent is used.
+
+## Completed release
+
+Both records saved/read back exactly; 575 prior records preserved. Workflow 43592390996 succeeded for revision 7b2d5ae5aa9adedafd4cea45f23f4d6913133c30. All 41 published queue pages passed live HTML, image, metadata, listing and sitemap checks. The owner then clarified Sharifi, which is prepared separately as batch 9.

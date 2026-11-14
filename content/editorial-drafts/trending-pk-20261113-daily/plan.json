@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-08-newly-verified-yemen-drafting",
+  "state": "batch-09-confirmed-identity-drafting",
   "oldQueueSnapshot": [
     {
       "path": "content/editorial-drafts/trending-us-20261112-daily/plan.json",
@@ -704,7 +704,7 @@
     {
       "key": "houthis",
       "query": "houthis",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Taiz Yemen city",
         "Aden Yemen port"
@@ -716,9 +716,14 @@
     {
       "key": "ziaur-rahman",
       "query": "ziaur rahman",
-      "state": "verification-held",
-      "queries": [],
-      "holdReason": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
+      "state": "draft-written",
+      "queries": [
+        "Ziaur Rahman Sharifi cricket",
+        "Sharjah Cricket Stadium"
+      ],
+      "identityConfirmedByOwner": "Afghan cricketer Ziaur Rahman Sharifi",
+      "title": "Ziaur Rahman Sharifi: Afghanistan Bowler, Identity and Test Cricket Context",
+      "slug": "ziaur-rahman-sharifi-afghanistan-bowling-guide"
     },
     {
       "key": "uzma-khan-noreen-niazi-released",
@@ -771,7 +776,7 @@
     {
       "key": "imran-khan",
       "query": "imran khan",
-      "state": "draft-written",
+      "state": "published-live-verified",
       "queries": [
         "Imran Khan portrait",
         "Islamabad High Court building"
@@ -1294,8 +1299,9 @@
       "row": 72,
       "query": "houthis",
       "group": "houthis",
-      "state": "verification-held",
-      "reason": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding."
+      "state": "published-live-verified",
+      "reason": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding.",
+      "slug": "houthis-yemen-un-displacement-update-november-2026"
     },
     {
       "row": 73,
@@ -1307,7 +1313,7 @@
       "row": 74,
       "query": "ziaur rahman",
       "group": "ziaur-rahman",
-      "state": "verification-held",
+      "state": "local-verified-unpublished",
       "reason": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
     },
     {
@@ -1341,8 +1347,9 @@
       "row": 79,
       "query": "imran khan",
       "group": "imran-khan",
-      "state": "verification-held",
-      "reason": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health."
+      "state": "published-live-verified",
+      "reason": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health.",
+      "slug": "imran-khan-lawyer-meeting-appeals-november-2026"
     },
     {
       "row": 80,
@@ -1508,9 +1515,22 @@
         "imran-khan"
       ],
       "expectedSize": 2,
-      "state": "local-verified-unpublished",
+      "state": "published-live-verified",
       "explicitUserAuthorization": "User instructed continuation and publication of completed verified editorial work. Fresh primary UNHCR report and UN briefing now establish a distinct dated humanitarian angle.",
-      "validationFile": "batch-08-validation.json"
+      "validationFile": "batch-08-validation.json",
+      "revision": "7b2d5ae5aa9adedafd4cea45f23f4d6913133c30",
+      "workflowRun": "43592390996",
+      "liveVerifiedAt": "2026-11-14T12:02:43.912Z"
+    },
+    {
+      "number": 9,
+      "keys": [
+        "ziaur-rahman"
+      ],
+      "expectedSize": 1,
+      "state": "drafting",
+      "explicitUserAuthorization": "Owner confirmed Afghan cricketer Sharifi and instructed completion/publication. Article uses ICC player identity and dated ACB reporting, without invented live scores.",
+      "validationFile": "batch-09-validation.json"
     }
   ],
   "excludedGroups": [

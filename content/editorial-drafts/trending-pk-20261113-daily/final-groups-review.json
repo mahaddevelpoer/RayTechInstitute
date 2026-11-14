@@ -4,10 +4,10 @@
   "existingCatalogCount": 568,
   "scope": "Every remaining group reviewed. Seven verified new articles form one combined release; sixteen existing/overlapping intents are not duplicated; five unverifiable claims remain explicitly held.",
   "publicationAuthorized": true,
-  "newArticlesPublishedThisReview": 7,
+  "newArticlesPublishedThisReview": 9,
   "groupsReviewed": 28,
   "existingCoverage": 16,
-  "remainingResearchOrDrafting": 5,
+  "remainingResearchOrDrafting": 1,
   "groups": [
     {
       "key": "icc",
@@ -191,19 +191,22 @@
     {
       "key": "houthis",
       "query": "houthis",
-      "status": "verification-held",
+      "status": "published-live-verified",
       "sources": [
         "https://www.securitycouncilreport.org/monthly-forecast/2026-11/yemen-92.php",
         "https://digitallibrary.un.org/record/4132265?ln=en"
       ],
-      "note": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding."
+      "note": "The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding.",
+      "slug": "houthis-yemen-un-displacement-update-november-2026",
+      "liveUrl": "https://raytechinstitute.com/blogs/houthis-yemen-un-displacement-update-november-2026/"
     },
     {
       "key": "ziaur-rahman",
       "query": "ziaur rahman",
-      "status": "verification-held",
+      "status": "local-verified-unpublished",
       "sources": [],
-      "note": "The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess."
+      "note": "Identity confirmed; official-source player article validated and awaiting release.",
+      "identityConfirmedByOwner": "Afghan cricketer Sharifi"
     },
     {
       "key": "uzma-khan-noreen-niazi-released",
@@ -238,9 +241,11 @@
     {
       "key": "imran-khan",
       "query": "imran khan",
-      "status": "verification-held",
+      "status": "published-live-verified",
       "sources": [],
-      "note": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health."
+      "note": "No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health.",
+      "slug": "imran-khan-lawyer-meeting-appeals-november-2026",
+      "liveUrl": "https://raytechinstitute.com/blogs/imran-khan-lawyer-meeting-appeals-november-2026/"
     },
     {
       "key": "psl",
@@ -252,11 +257,12 @@
   ],
   "exactExistingCoverage": 14,
   "relatedExistingCoverage": 2,
-  "verifiedNewArticles": 7,
-  "verificationHeld": 5,
-  "releaseStatus": "published-live-verified",
+  "verifiedNewArticles": 10,
+  "verificationHeld": 2,
+  "releaseStatus": "batch-08-live-batch-09-local-verified",
   "sourceRevision": "3f3b64682b92eb090a3aa8e867f6bb1398ddeac9",
   "workflowRun": "43589267029",
-  "newArticlesInThisCsvPublished": 39,
-  "remainingWriting": 0
+  "newArticlesInThisCsvPublished": 41,
+  "remainingWriting": 0,
+  "latestCompletedWorkflow": "43592390996"
 }

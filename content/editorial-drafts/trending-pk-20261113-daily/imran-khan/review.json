@@ -1,10 +1,14 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2088,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-14",
   "scope": "Attributable news reports, not independently authenticated complete court record. No inferred release, medical diagnosis or private negotiation.",
   "visualReviewEvidence": "artifacts/pakistan-nov13/batch-08-image-review.png",
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/imran-khan-lawyer-meeting-appeals-november-2026/",
+  "liveVerifiedAt": "2026-11-14T12:02:43.912Z",
+  "releaseRevision": "7b2d5ae5aa9adedafd4cea45f23f4d6913133c30",
+  "workflowRun": "43592390996"
 }

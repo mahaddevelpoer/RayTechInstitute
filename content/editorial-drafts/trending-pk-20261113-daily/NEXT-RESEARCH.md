@@ -1,27 +1,13 @@
 # Remaining verification work
 
-All seven verified new articles from the final review are published. Do not recreate the 39 new articles or the sixteen existing/overlapping topic intents. All 28 formerly pending groups have been reviewed; five remain held rather than invented.
+Complete the locally verified Sharifi release first. The owner confirmed the Afghan cricketer identity. Houthis/Yemen and Imran Khan articles are now published and live verified; do not leave their former hold reasons in place.
 
-## class 10 smart syllabus 2027
+## Class 10 smart syllabus 2027
 
-No official Grade 10 smart-syllabus notification was verified. Grade 9 or Grade 11 documents cannot establish it.
+The official Curriculum & Compliance page was inspected on 14 November. Its Smart Syllabus section links Grade 9 and Grade 11; Grade 10 textbook links do not establish a Grade 10 ALP notification. Do not fabricate or relabel a PDF.
 
-## jemima goldsmith
+## Jemima Goldsmith
 
-A specific new event and original attributable statement were not verified. Personal allegations in snippets are insufficient.
+Searches returned replicas/aggregators of an allegation report; the original BBC page could not be fetched. Obtain the original attributable statement or reliable original report before publishing new personal allegations. Do not treat a replica as primary evidence.
 
-## houthis
-
-The broad keyword does not identify a verified fresh event. The reviewed UN-distributed government letter contains attributed allegations, not an independent UN finding.
-
-## ziaur rahman
-
-The CSV supplies no identity breakdown. Multiple people share the name; assigning the trend to one would be a guess.
-
-## imran khan
-
-No distinct current event was established from the broad query. The sisters’ release article is not a verified update about his own custody or health.
-
-Only resume a held topic when a distinct event, correct identity or official document can be established. A hold is not a declaration that no such document or event exists. Preserve source dates, avoid personal allegations from snippets, and do not relabel Grade 9/11 PDFs as Grade 10.
-
-Follow the usual 2,000+ body words, 42 distinct tags, two unique licensed images, review, exact readback and live-release checks for any subsequently verified article. No old pending queue is resumed by this report.
+All other groups were reviewed or published. Preserve the 2,000+ body word, 42-tag, two-unique-image and exact live-verification standards for later verified work.
