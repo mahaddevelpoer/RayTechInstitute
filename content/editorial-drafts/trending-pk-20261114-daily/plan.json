@@ -104,8 +104,9 @@
       "rows": [
         12
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "india-bhutan-saff-2026-semi-final-result-goals-var"
     },
     {
       "key": "sharad-kapoor",
@@ -1204,6 +1205,16 @@
       "revision": "ec7cb646a3f82e4fa01a02d0fa33a82ac8ab65ba",
       "workflowRun": "43603439701",
       "liveVerifiedAt": "2026-11-14T14:15:48.438Z"
+    },
+    {
+      "validationFile": "batch-02-validation.json",
+      "explicitUserAuthorization": "Owner instructed all CSV topics to be written and published as completed; this finished verified article releases next.",
+      "state": "local-verified-unpublished",
+      "keys": [
+        "india-vs-bhutan"
+      ],
+      "expectedSize": 1,
+      "number": 2
     }
   ],
   "oldQueueSnapshot": []
