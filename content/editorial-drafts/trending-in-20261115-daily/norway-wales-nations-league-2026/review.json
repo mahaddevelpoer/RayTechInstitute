@@ -2,8 +2,12 @@
   "scope": "UEFA official matchday round-up, match page, results and Italian scorer-minute report; two distinct licensed archive images visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2285,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/norway-wales-3-1-nations-league-2026-result-goals/",
+  "liveVerifiedAt": "2026-11-15T10:26:04.274Z",
+  "releaseRevision": "b33bb2b06db6845736794c125aa1b688a16a3c95",
+  "workflowRun": "43703527177"
 }

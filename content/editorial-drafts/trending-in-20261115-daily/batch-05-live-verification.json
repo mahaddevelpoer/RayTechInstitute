@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T10:26:04.274Z",
+  "expectedRevision": "b33bb2b06db6845736794c125aa1b688a16a3c95",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T10:22:02.956Z",
+    "revision": "b33bb2b06db6845736794c125aa1b688a16a3c95",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 710,
+    "sitemapSha256": "8428370532cf220516058d06c70bdd06f548aae9c6370379bd5f6639f732c820",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43703527177"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "norway-wales-nations-league-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/norway-wales-3-1-nations-league-2026-result-goals/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/norway-wales-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/norway-wales-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

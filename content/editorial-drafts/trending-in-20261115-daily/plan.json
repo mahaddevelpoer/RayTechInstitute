@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-04-published-next-research-pending",
+  "state": "batch-05-published-next-research-pending",
   "groups": [
     {
       "key": "india-vs-new-zealand-1",
@@ -74,7 +74,7 @@
       "rows": [
         7
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "norway-wales-3-1-nations-league-2026-result-goals"
     },
@@ -3300,7 +3300,7 @@
       "query": "norway vs wales",
       "group": "norway-wales-nations-league-2026",
       "slug": "norway-wales-3-1-nations-league-2026-result-goals",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 8,
@@ -5830,12 +5830,15 @@
     {
       "validationFile": "batch-05-validation.json",
       "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "norway-wales-nations-league-2026"
       ],
       "expectedSize": 1,
-      "number": 5
+      "number": 5,
+      "revision": "b33bb2b06db6845736794c125aa1b688a16a3c95",
+      "workflowRun": "43703527177",
+      "liveVerifiedAt": "2026-11-15T10:26:04.274Z"
     }
   ],
   "oldQueueSnapshot": []
