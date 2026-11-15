@@ -88,13 +88,14 @@
       "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result"
     },
     {
-      "key": "england-cricket-team-vs-australia-national-cricket-team-match-scorecard-9",
+      "key": "australia-england-second-odi-2026-scorecard",
       "query": "england cricket team vs australia national cricket team match scorecard",
       "rows": [
         9
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "australia-england-second-odi-2026-355-220-scorecard-result"
     },
     {
       "key": "giri-babu-telugu-actor-2026",
@@ -519,8 +520,11 @@
       "rows": [
         56
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "already-covered",
+      "possibleExisting": [
+        "australia-england-second-odi-2026-355-220-scorecard-result"
+      ],
+      "slug": "australia-england-second-odi-2026-355-220-scorecard-result"
     },
     {
       "key": "query-57",
@@ -3310,9 +3314,9 @@
     {
       "row": 9,
       "query": "england cricket team vs australia national cricket team match scorecard",
-      "group": "england-cricket-team-vs-australia-national-cricket-team-match-scorecard-9",
-      "slug": null,
-      "state": "research-pending"
+      "group": "australia-england-second-odi-2026-scorecard",
+      "slug": "australia-england-second-odi-2026-355-220-scorecard-result",
+      "state": "draft-ready"
     },
     {
       "row": 10,
@@ -3640,8 +3644,8 @@
       "row": 56,
       "query": "tom banton",
       "group": "tom-banton-56",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "australia-england-second-odi-2026-355-220-scorecard-result",
+      "state": "already-covered"
     },
     {
       "row": 57,
@@ -5902,6 +5906,16 @@
       "revision": "3e1e81ac486b2538507cc7eaec23afed2c6e7856",
       "workflowRun": "43711480980",
       "liveVerifiedAt": "2026-11-15T12:05:04.309Z"
+    },
+    {
+      "validationFile": "batch-11-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
+      "state": "review-pending",
+      "keys": [
+        "australia-england-second-odi-2026-scorecard"
+      ],
+      "expectedSize": 1,
+      "number": 11
     }
   ],
   "oldQueueSnapshot": []
