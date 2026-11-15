@@ -1,0 +1,44 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 5,
+  "bodyWords": 11182,
+  "uniqueImages": 10,
+  "existingArticlesCompared": 584,
+  "results": [
+    {
+      "key": "portugal-denmark",
+      "slug": "portugal-denmark-1-4-nations-league-november-2026-result",
+      "words": 2342,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "saff-pakistan-bangladesh",
+      "slug": "pakistan-bangladesh-1-0-saff-semi-final-2026-first-final",
+      "words": 2186,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "faa-ground-stop",
+      "slug": "faa-ground-stop-november-2026-flight-cancellations-explained",
+      "words": 2255,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "khunjerab-snow",
+      "slug": "khunjerab-pass-snow-november-2026-containers-stranded-kkh",
+      "words": 2215,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "nccia-call-centres",
+      "slug": "nccia-154-arrests-islamabad-rawalpindi-call-centres-november-2026",
+      "words": 2184,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

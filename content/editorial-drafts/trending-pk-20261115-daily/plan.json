@@ -1,0 +1,723 @@
+{
+  "date": "2026-11-15",
+  "region": "PK",
+  "sourceCsv": "trending_PK_1d_20261115-1559.csv",
+  "publicationAuthorized": true,
+  "minimumBodyWords": 2000,
+  "batchSize": 5,
+  "state": "batch-01-local-verified-awaiting-image-approval",
+  "groups": [
+    {
+      "key": "portugal-denmark",
+      "query": "portugal national football team vs denmark national football team standings",
+      "rows": [
+        2
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "portugal-denmark-1-4-nations-league-november-2026-result"
+    },
+    {
+      "key": "saff-pakistan-bangladesh",
+      "query": "saff championship / pakistan vs bangladesh football",
+      "rows": [
+        26,
+        50
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "pakistan-bangladesh-1-0-saff-semi-final-2026-first-final"
+    },
+    {
+      "key": "faa-ground-stop",
+      "query": "faa ground stop flights cancelled",
+      "rows": [
+        5
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "faa-ground-stop-november-2026-flight-cancellations-explained"
+    },
+    {
+      "key": "khunjerab-snow",
+      "query": "karakoram highway blocked containers snow",
+      "rows": [
+        51
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "khunjerab-pass-snow-november-2026-containers-stranded-kkh"
+    },
+    {
+      "key": "nccia-call-centres",
+      "query": "national cyber crimes investigation agency",
+      "rows": [
+        17
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "nccia-154-arrests-islamabad-rawalpindi-call-centres-november-2026"
+    },
+    {
+      "key": "japan-vs-brazil-2026-11-15",
+      "query": "japan vs brazil",
+      "rows": [
+        4
+      ],
+      "state": "published-live-verified",
+      "possibleExisting": [],
+      "slug": "japan-brazil-3-2-november-2026-singapore-goals-result"
+    },
+    {
+      "key": "pakistan-india-u19-final-2026-11-15",
+      "query": "pak vs ind u19",
+      "rows": [
+        6
+      ],
+      "state": "published-live-verified",
+      "possibleExisting": [],
+      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard"
+    },
+    {
+      "key": "india-vs-bhutan-2026-11-15",
+      "query": "india vs bhutan",
+      "rows": [
+        44
+      ],
+      "state": "published-live-verified",
+      "possibleExisting": [],
+      "slug": "india-bhutan-saff-2026-semi-final-result-goals-var"
+    },
+    {
+      "key": "colette-kress-nvidia-2026-11-15",
+      "query": "colette kress nvidia interim ceo",
+      "rows": [
+        79
+      ],
+      "state": "published-live-verified",
+      "possibleExisting": [],
+      "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026"
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "india vs new zealand",
+      "group": null,
+      "slug": null,
+      "state": "verification-held"
+    },
+    {
+      "row": 2,
+      "query": "portugal national football team vs denmark national football team standings",
+      "group": "portugal-denmark",
+      "slug": "portugal-denmark-1-4-nations-league-november-2026-result",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 3,
+      "query": "england cricket team vs australia national cricket team match scorecard",
+      "group": null,
+      "slug": null,
+      "state": "verification-held"
+    },
+    {
+      "row": 4,
+      "query": "japan vs brazil",
+      "group": null,
+      "slug": "japan-brazil-3-2-november-2026-singapore-goals-result",
+      "state": "published-live-verified"
+    },
+    {
+      "row": 5,
+      "query": "faa ground stop flights cancelled",
+      "group": "faa-ground-stop",
+      "slug": "faa-ground-stop-november-2026-flight-cancellations-explained",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 6,
+      "query": "pak vs ind u19",
+      "group": null,
+      "slug": "pakistan-india-u19-asia-cup-final-2026-full-scorecard",
+      "state": "published-live-verified"
+    },
+    {
+      "row": 7,
+      "query": "norway vs wales",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 8,
+      "query": "afsar zazai",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 9,
+      "query": "import",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 10,
+      "query": "gorillas",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 11,
+      "query": "microsoft 365 outlook outages",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 12,
+      "query": "yash thakur",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 13,
+      "query": "riley meredith",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 14,
+      "query": "virat kohli",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 15,
+      "query": "rockstar games gta vi",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 16,
+      "query": "lauren boebert",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 17,
+      "query": "national cyber crimes investigation agency",
+      "group": "nccia-call-centres",
+      "slug": "nccia-154-arrests-islamabad-rawalpindi-call-centres-november-2026",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 18,
+      "query": "ufc",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 19,
+      "query": "ruturaj gaikwad",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 20,
+      "query": "musadik malik",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 21,
+      "query": "mohammed siraj",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 22,
+      "query": "cancer",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 23,
+      "query": "shreyas iyer",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 24,
+      "query": "jamaica vs mexico",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 25,
+      "query": "haiti vs usa",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 26,
+      "query": "saff championship",
+      "group": "saff-pakistan-bangladesh",
+      "slug": "pakistan-bangladesh-1-0-saff-semi-final-2026-first-final",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 27,
+      "query": "marco jansen",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 28,
+      "query": "abdul qadir",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 29,
+      "query": "پاکستان ٹیلی کمیونیکیشن اتھارٹی",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 30,
+      "query": "south africa national cricket team",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 31,
+      "query": "sa vs ban",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 32,
+      "query": "portugal fc",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 33,
+      "query": "کرکٹ",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 34,
+      "query": "tamasha",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 35,
+      "query": "ali raza",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 36,
+      "query": "manal chauhan",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 37,
+      "query": "meta",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 38,
+      "query": "india",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 39,
+      "query": "mohammad sayyam",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 40,
+      "query": "video",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 41,
+      "query": "lilo & scratch",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 42,
+      "query": "nico paz",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 43,
+      "query": "بی بی سی",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 44,
+      "query": "india vs bhutan",
+      "group": null,
+      "slug": "india-bhutan-saff-2026-semi-final-result-goals-var",
+      "state": "published-live-verified"
+    },
+    {
+      "row": 45,
+      "query": "chuck schumer",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 46,
+      "query": "governor of khyber pakhtunkhwa",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 47,
+      "query": "gta vi",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 48,
+      "query": "apple homeview",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 49,
+      "query": "abu jani",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 50,
+      "query": "pakistan vs bangladesh football",
+      "group": "saff-pakistan-bangladesh",
+      "slug": "pakistan-bangladesh-1-0-saff-semi-final-2026-first-final",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 51,
+      "query": "karakoram highway blocked containers snow",
+      "group": "khunjerab-snow",
+      "slug": "khunjerab-pass-snow-november-2026-containers-stranded-kkh",
+      "state": "local-verified-unpublished"
+    },
+    {
+      "row": 52,
+      "query": "sweden vs bosnia and herzegovina",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 53,
+      "query": "zakir naik",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 54,
+      "query": "leo koguan",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 55,
+      "query": "daayra movie",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 56,
+      "query": "grand theft auto online",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 57,
+      "query": "al wasl vs al nasr",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 58,
+      "query": "sports",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 59,
+      "query": "btc",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 60,
+      "query": "petrol price today",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 61,
+      "query": "carlos forbs",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 62,
+      "query": "egypt national football team",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 63,
+      "query": "vp",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 64,
+      "query": "england vs japan",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 65,
+      "query": "ramsha khan",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 66,
+      "query": "acc",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 67,
+      "query": "live match",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 68,
+      "query": "cric info",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 69,
+      "query": "icc u19",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 70,
+      "query": "سونے کی قیمت",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 71,
+      "query": "movie box office",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 72,
+      "query": "today match",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 73,
+      "query": "germany national football team",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 74,
+      "query": "adelaide strikers vs perth scorchers",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 75,
+      "query": "captain (cricket)",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 76,
+      "query": "david warner",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 77,
+      "query": "province",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 78,
+      "query": "weather hyderabad",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 79,
+      "query": "colette kress nvidia interim ceo",
+      "group": null,
+      "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026",
+      "state": "published-live-verified"
+    },
+    {
+      "row": 80,
+      "query": "gta vi ps5",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 81,
+      "query": "turkiye qatar bilateral military pact",
+      "group": null,
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 82,
+      "query": "electric vehicle",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 83,
+      "query": "cricbuzz live",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 84,
+      "query": "live",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 85,
+      "query": "espn",
+      "group": null,
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 86,
+      "query": "ind u19 vs uae u19",
+      "group": null,
+      "slug": null,
+      "state": "verification-held"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "validationFile": "batch-01-validation.json",
+      "explicitUserAuthorization": "Owner instructed all CSV topics to be written as full 2,000+ word verified articles and released as completed; this first batch of five finished articles is isolated for review before any push, database insert or workflow dispatch.",
+      "state": "local-verified-unpublished",
+      "keys": [
+        "portugal-denmark",
+        "saff-pakistan-bangladesh",
+        "faa-ground-stop",
+        "khunjerab-snow",
+        "nccia-call-centres"
+      ],
+      "expectedSize": 5,
+      "number": 1
+    }
+  ],
+  "oldQueueSnapshot": []
+}
