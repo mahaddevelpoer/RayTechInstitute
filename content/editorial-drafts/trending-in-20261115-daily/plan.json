@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-10-published-next-research-pending",
+  "state": "batch-11-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -93,7 +93,7 @@
       "rows": [
         9
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "australia-england-second-odi-2026-355-220-scorecard-result"
     },
@@ -3316,7 +3316,7 @@
       "query": "england cricket team vs australia national cricket team match scorecard",
       "group": "australia-england-second-odi-2026-scorecard",
       "slug": "australia-england-second-odi-2026-355-220-scorecard-result",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 10,
@@ -5910,12 +5910,15 @@
     {
       "validationFile": "batch-11-validation.json",
       "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "australia-england-second-odi-2026-scorecard"
       ],
       "expectedSize": 1,
-      "number": 11
+      "number": 11,
+      "revision": "4ab1048754b0116e18c66291496c8eb6c074f1f5",
+      "workflowRun": "43712735990",
+      "liveVerifiedAt": "2026-11-15T12:19:34.627Z"
     }
   ],
   "oldQueueSnapshot": []

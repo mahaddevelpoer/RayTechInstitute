@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T12:19:34.627Z",
+  "expectedRevision": "4ab1048754b0116e18c66291496c8eb6c074f1f5",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T12:16:50.619Z",
+    "revision": "4ab1048754b0116e18c66291496c8eb6c074f1f5",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 716,
+    "sitemapSha256": "aabfe33f7a7b589f59530a041d73a3478db66bf70d1ce8e2cc1bac7bc9ba08d5",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43712735990"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "australia-england-second-odi-2026-scorecard",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/australia-england-second-odi-2026-355-220-scorecard-result/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/australia-england-odi-bat-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/australia-england-odi-ball-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
