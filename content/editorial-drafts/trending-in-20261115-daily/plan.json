@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-05-published-next-research-pending",
+  "state": "batch-06-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -15,7 +15,7 @@
         1,
         4
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result"
     },
@@ -3251,7 +3251,7 @@
       "query": "india vs new zealand",
       "group": "india-new-zealand-fifth-odi-2026",
       "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 2,
@@ -3272,7 +3272,7 @@
       "query": "india national cricket team vs new zealand national cricket team match scorecard",
       "group": "india-new-zealand-fifth-odi-2026",
       "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 5,
@@ -5836,12 +5836,15 @@
     {
       "validationFile": "batch-06-validation.json",
       "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "india-new-zealand-fifth-odi-2026"
       ],
       "expectedSize": 1,
-      "number": 6
+      "number": 6,
+      "revision": "3b1f40e1f580c4e1405c402efc82faa79791e6f3",
+      "workflowRun": "43705501383",
+      "liveVerifiedAt": "2026-11-15T10:49:23.592Z"
     }
   ],
   "oldQueueSnapshot": []

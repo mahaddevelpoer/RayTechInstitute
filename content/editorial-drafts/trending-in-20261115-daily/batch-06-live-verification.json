@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T10:49:23.592Z",
+  "expectedRevision": "3b1f40e1f580c4e1405c402efc82faa79791e6f3",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T10:47:06.012Z",
+    "revision": "3b1f40e1f580c4e1405c402efc82faa79791e6f3",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 711,
+    "sitemapSha256": "b78cdce0ff64fdef12f3bdeabb41753b606e83240b3a14428889e9a6b5c1db17",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43705501383"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "india-new-zealand-fifth-odi-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/india-new-zealand-fifth-odi-2026-209-187-scorecard-result/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/india-new-zealand-fifth-odi-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/india-new-zealand-fifth-odi-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
