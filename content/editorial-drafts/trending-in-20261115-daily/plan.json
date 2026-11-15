@@ -20,13 +20,14 @@
       "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result"
     },
     {
-      "key": "mohit-ulva-2",
+      "key": "mohit-ulva-u19-asia-cup-2026",
       "query": "mohit ulva",
       "rows": [
         2
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "mohit-ulva-u19-asia-cup-2026-last-ball-49-profile"
     },
     {
       "key": "japan-vs-brazil-3",
@@ -3256,9 +3257,9 @@
     {
       "row": 2,
       "query": "mohit ulva",
-      "group": "mohit-ulva-2",
-      "slug": null,
-      "state": "research-pending"
+      "group": "mohit-ulva-u19-asia-cup-2026",
+      "slug": "mohit-ulva-u19-asia-cup-2026-last-ball-49-profile",
+      "state": "draft-ready"
     },
     {
       "row": 3,
@@ -5845,6 +5846,16 @@
       "revision": "3b1f40e1f580c4e1405c402efc82faa79791e6f3",
       "workflowRun": "43705501383",
       "liveVerifiedAt": "2026-11-15T10:49:23.592Z"
+    },
+    {
+      "validationFile": "batch-07-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
+      "state": "review-pending",
+      "keys": [
+        "mohit-ulva-u19-asia-cup-2026"
+      ],
+      "expectedSize": 1,
+      "number": 7
     }
   ],
   "oldQueueSnapshot": []
