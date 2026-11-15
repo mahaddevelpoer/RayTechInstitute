@@ -5,7 +5,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 5,
-  "state": "batch-01-published-next-research-pending",
+  "state": "batch-02-local-verified-images-approved",
   "groups": [
     {
       "key": "portugal-denmark",
@@ -97,6 +97,56 @@
       "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "nvidia-ceo-transition-jensen-huang-colette-kress-november-2026"
+    },
+    {
+      "key": "norway-wales",
+      "query": "norway vs wales",
+      "rows": [
+        7
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "norway-wales-3-1-nations-league-november-2026-result"
+    },
+    {
+      "key": "microsoft-365-outage",
+      "query": "microsoft 365 outlook outages",
+      "rows": [
+        11
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "microsoft-365-outlook-teams-outage-november-2026-explained"
+    },
+    {
+      "key": "musadik-malik-cop31",
+      "query": "musadik malik",
+      "rows": [
+        20
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "musadik-malik-cop31-climate-finance-icesco-2027"
+    },
+    {
+      "key": "sweden-bosnia",
+      "query": "sweden vs bosnia and herzegovina",
+      "rows": [
+        52
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "sweden-bosnia-3-2-nations-league-promotion-november-2026"
+    },
+    {
+      "key": "turkiye-qatar-pact",
+      "query": "turkiye qatar bilateral military pact",
+      "rows": [
+        81
+      ],
+      "state": "local-verified-unpublished",
+      "possibleExisting": [],
+      "slug": "qatar-turkiye-mutual-defence-pact-november-2026-explained"
     }
   ],
   "rowDisposition": [
@@ -145,9 +195,9 @@
     {
       "row": 7,
       "query": "norway vs wales",
-      "group": null,
-      "slug": null,
-      "state": "research-pending"
+      "group": "norway-wales",
+      "slug": "norway-wales-3-1-nations-league-november-2026-result",
+      "state": "local-verified-unpublished"
     },
     {
       "row": 8,
@@ -173,9 +223,9 @@
     {
       "row": 11,
       "query": "microsoft 365 outlook outages",
-      "group": null,
-      "slug": null,
-      "state": "research-pending"
+      "group": "microsoft-365-outage",
+      "slug": "microsoft-365-outlook-teams-outage-november-2026-explained",
+      "state": "local-verified-unpublished"
     },
     {
       "row": 12,
@@ -236,9 +286,9 @@
     {
       "row": 20,
       "query": "musadik malik",
-      "group": null,
-      "slug": null,
-      "state": "research-pending"
+      "group": "musadik-malik-cop31",
+      "slug": "musadik-malik-cop31-climate-finance-icesco-2027",
+      "state": "local-verified-unpublished"
     },
     {
       "row": 21,
@@ -460,9 +510,9 @@
     {
       "row": 52,
       "query": "sweden vs bosnia and herzegovina",
-      "group": null,
-      "slug": null,
-      "state": "research-pending"
+      "group": "sweden-bosnia",
+      "slug": "sweden-bosnia-3-2-nations-league-promotion-november-2026",
+      "state": "local-verified-unpublished"
     },
     {
       "row": 53,
@@ -663,9 +713,9 @@
     {
       "row": 81,
       "query": "turkiye qatar bilateral military pact",
-      "group": null,
-      "slug": null,
-      "state": "research-pending"
+      "group": "turkiye-qatar-pact",
+      "slug": "qatar-turkiye-mutual-defence-pact-november-2026-explained",
+      "state": "local-verified-unpublished"
     },
     {
       "row": 82,
@@ -720,6 +770,20 @@
       "revision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
       "workflowRun": "43678714053",
       "liveVerifiedAt": "2026-11-15T04:59:56.867Z"
+    },
+    {
+      "validationFile": "batch-02-validation.json",
+      "explicitUserAuthorization": "Standing approval of 3 November 2026 authorises publishing complete and verified editorial articles as they become ready; this second batch of five finished articles is isolated for image approval, validation and release.",
+      "state": "local-verified-unpublished",
+      "keys": [
+        "norway-wales",
+        "microsoft-365-outage",
+        "musadik-malik-cop31",
+        "sweden-bosnia",
+        "turkiye-qatar-pact"
+      ],
+      "expectedSize": 5,
+      "number": 2
     }
   ],
   "oldQueueSnapshot": []

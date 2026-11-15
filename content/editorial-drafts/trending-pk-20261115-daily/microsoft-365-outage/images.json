@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/images/editorial/trending-pk-20261115-daily/microsoft-365-outage-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Microsoft_Redmond_Campus_redevelopment_aerial_view,_Sept._2021.jpg",
+    "sha1": "878a8372c2957745b9a1d30c4824671c2672c4c9",
+    "creator": "Atomic Taco",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Aerial view of the Microsoft campus in Redmond, Washington, in September 2021. It is an archive photograph.",
+    "alt": "Aerial view of the Microsoft Redmond campus",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "/images/editorial/trending-pk-20261115-daily/microsoft-365-outage-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Building_92_of_Microsoft_Redmond_Campus_-_panoramio.jpg",
+    "sha1": "c046f258e5414a82789a9c7daaeafaa74ff8eda4",
+    "creator": "Jiaqian AirplaneFan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Building 92 on the Microsoft campus in Redmond. Archive photograph, not linked to the November 2026 outage.",
+    "alt": "Building 92 on the Microsoft Redmond campus",
+    "width": 1040,
+    "height": 780
+  }
+]

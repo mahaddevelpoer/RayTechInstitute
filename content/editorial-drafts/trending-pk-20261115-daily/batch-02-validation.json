@@ -1,0 +1,44 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 5,
+  "bodyWords": 11551,
+  "uniqueImages": 10,
+  "existingArticlesCompared": 589,
+  "results": [
+    {
+      "key": "norway-wales",
+      "slug": "norway-wales-3-1-nations-league-november-2026-result",
+      "words": 2427,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "microsoft-365-outage",
+      "slug": "microsoft-365-outlook-teams-outage-november-2026-explained",
+      "words": 2208,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "musadik-malik-cop31",
+      "slug": "musadik-malik-cop31-climate-finance-icesco-2027",
+      "words": 2507,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "sweden-bosnia",
+      "slug": "sweden-bosnia-3-2-nations-league-promotion-november-2026",
+      "words": 2087,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "turkiye-qatar-pact",
+      "slug": "qatar-turkiye-mutual-defence-pact-november-2026-explained",
+      "words": 2322,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/images/editorial/trending-pk-20261115-daily/norway-wales-cover.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Air_ullevaal_stadion.jpg",
+    "sha1": "aa1d1a205d3456a963af4aaca2a11908ec5f714f",
+    "creator": "GAD",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Aerial photograph of Ullevaal Stadion in Oslo, taken in June 2015. It does not show the November 2026 match.",
+    "alt": "Aerial view of Ullevaal Stadion in Oslo",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "url": "/images/editorial/trending-pk-20261115-daily/norway-wales-inline.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Ullevaal_Stadion_13_oktober_2014.JPG",
+    "sha1": "d4d826a488dbb3d1b4dc0ee617967f736804680c",
+    "creator": "Kjetil Eggen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Archive view of Ullevaal Stadion in October 2014. It is not a photograph of the Norway versus Wales match.",
+    "alt": "Archive view of the Ullevaal Stadion pitch and stands",
+    "width": 1040,
+    "height": 780
+  }
+]
