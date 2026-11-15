@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T04:59:15.584Z",
+  "expectedRevision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T04:56:26.852Z",
+    "revision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 702,
+    "sitemapSha256": "05a3ab0cba7cb1c2b7352306544a5a321dba7ae76d9081d172fff5ce1f236648",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43678714053"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "john-langford-microsoft-ai-frontiers-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/john-langford-leaves-microsoft-ai-frontiers-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/john-langford-microsoft-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/john-langford-microsoft-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

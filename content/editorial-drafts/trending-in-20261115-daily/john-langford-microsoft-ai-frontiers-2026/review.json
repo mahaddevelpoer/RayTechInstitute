@@ -2,8 +2,12 @@
   "scope": "Langford personal post and Microsoft Research AI Frontiers pages; both distinct Unsplash images visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2446,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/john-langford-leaves-microsoft-ai-frontiers-2026/",
+  "liveVerifiedAt": "2026-11-15T04:59:15.584Z",
+  "releaseRevision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+  "workflowRun": "43678714053"
 }

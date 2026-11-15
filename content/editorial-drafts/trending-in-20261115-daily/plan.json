@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-01-published-next-research-pending",
+  "state": "batch-02-published-next-research-pending",
   "groups": [
     {
       "key": "india-vs-new-zealand-1",
@@ -301,7 +301,7 @@
       "rows": [
         32
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "john-langford-leaves-microsoft-ai-frontiers-2026"
     },
@@ -3472,7 +3472,7 @@
       "query": "john langford quits microsoft",
       "group": "john-langford-microsoft-ai-frontiers-2026",
       "slug": "john-langford-leaves-microsoft-ai-frontiers-2026",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 33,
@@ -5788,12 +5788,15 @@
     {
       "validationFile": "batch-02-validation.json",
       "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "john-langford-microsoft-ai-frontiers-2026"
       ],
       "expectedSize": 1,
-      "number": 2
+      "number": 2,
+      "revision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+      "workflowRun": "43678714053",
+      "liveVerifiedAt": "2026-11-15T04:59:15.584Z"
     }
   ],
   "oldQueueSnapshot": []
