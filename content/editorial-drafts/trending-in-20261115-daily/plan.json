@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-11-published-next-research-pending",
+  "state": "batch-12-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -559,7 +559,7 @@
       "rows": [
         60
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "the-terminal-list-season-2-prime-video-episodes-cast-guide-2026"
     },
@@ -3674,7 +3674,7 @@
       "query": "the terminal list prime video",
       "group": "the-terminal-list-season-two-prime-video",
       "slug": "the-terminal-list-season-2-prime-video-episodes-cast-guide-2026",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 61,
@@ -5924,12 +5924,15 @@
     {
       "validationFile": "batch-12-validation.json",
       "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "the-terminal-list-season-two-prime-video"
       ],
       "expectedSize": 1,
-      "number": 12
+      "number": 12,
+      "revision": "b3489f9b1b99a4fc630730ca5b3f778bf8cbad9d",
+      "workflowRun": "43717306888",
+      "liveVerifiedAt": "2026-11-15T17:37:18.041Z"
     }
   ],
   "oldQueueSnapshot": []

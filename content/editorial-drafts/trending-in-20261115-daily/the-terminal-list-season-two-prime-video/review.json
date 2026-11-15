@@ -2,8 +2,12 @@
   "scope": "Amazon season guide, Jack Carr announcement and Prime Video title listing cross-checked; two distinct licensed archive images visually inspected.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2291,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/the-terminal-list-season-2-prime-video-episodes-cast-guide-2026/",
+  "liveVerifiedAt": "2026-11-15T17:37:18.041Z",
+  "releaseRevision": "b3489f9b1b99a4fc630730ca5b3f778bf8cbad9d",
+  "workflowRun": "43717306888"
 }
