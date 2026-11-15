@@ -97,28 +97,21 @@
       "possibleExisting": []
     },
     {
-      "key": "giribabu-10",
+      "key": "giri-babu-telugu-actor-2026",
       "query": "giribabu",
       "rows": [
-        10
+        10,
+        12
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "giri-babu-giribabu-telugu-actor-death-films-tributes-2026"
     },
     {
       "key": "ruturaj-gaikwad-11",
       "query": "ruturaj gaikwad",
       "rows": [
         11
-      ],
-      "state": "research-pending",
-      "possibleExisting": []
-    },
-    {
-      "key": "giri-babu-12",
-      "query": "giri babu",
-      "rows": [
-        12
       ],
       "state": "research-pending",
       "possibleExisting": []
@@ -3321,9 +3314,9 @@
     {
       "row": 10,
       "query": "giribabu",
-      "group": "giribabu-10",
-      "slug": null,
-      "state": "research-pending"
+      "group": "giri-babu-telugu-actor-2026",
+      "slug": "giri-babu-giribabu-telugu-actor-death-films-tributes-2026",
+      "state": "draft-ready"
     },
     {
       "row": 11,
@@ -3335,9 +3328,9 @@
     {
       "row": 12,
       "query": "giri babu",
-      "group": "giri-babu-12",
-      "slug": null,
-      "state": "research-pending"
+      "group": "giri-babu-telugu-actor-2026",
+      "slug": "giri-babu-giribabu-telugu-actor-death-films-tributes-2026",
+      "state": "draft-ready"
     },
     {
       "row": 13,
@@ -5893,6 +5886,16 @@
       "revision": "a9efdf8f52a41ea937e2ca673d93c8f0273d4fc2",
       "workflowRun": "43709512510",
       "liveVerifiedAt": "2026-11-15T11:39:59.992Z"
+    },
+    {
+      "validationFile": "batch-10-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
+      "state": "review-pending",
+      "keys": [
+        "giri-babu-telugu-actor-2026"
+      ],
+      "expectedSize": 1,
+      "number": 10
     }
   ],
   "oldQueueSnapshot": []
