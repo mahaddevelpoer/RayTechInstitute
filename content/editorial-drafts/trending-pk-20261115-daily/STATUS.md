@@ -1,6 +1,17 @@
-# Trending PK 2026-11-15 batch 01 status
+# Pakistan 15 November editorial queue
 
-Local state: verified, unpublished. No push, database insert or workflow dispatch has been made.
+Batch 1 is published and live verified. No unrelated UI, schema or permission changes were made.
+
+## Release record
+
+- Input: 86 rows.
+- Batch 1 published 5 new articles covering rows 2, 5, 17, 26, 50 and 51.
+- Four rows were already covered by existing published articles: rows 4, 6, 44 and 79.
+- Batch 1: 5 articles, 11,182 body words, 210 tags and 10 distinct licensed images.
+- Exact-revision live HTML, image bytes, metadata, listing and sitemap checks passed.
+- Revision: e7861f6779fab4eeebc8e028df36d225ad6c47fe.
+- Workflow: 43678714053 (served by the content-published build for the concurrent John Langford batch).
+- No extra dispatch was made. The serving build started after these database rows were inserted, and exact-revision checks confirmed all five articles were live in it.
 
 ## Articles
 
@@ -22,27 +33,15 @@ Local state: verified, unpublished. No push, database insert or workflow dispatc
 - No em dashes, no H1 in markdown, no script/iframe/embed/object/style tags.
 - Heading nesting, source blocks, image dimensions and WebP format checked.
 - No image sha1 reused elsewhere in editorial drafts.
+- Owner visually approved all ten WebP files on 15 November 2026.
 
-## Gate: owner image approval
+## Remaining rows
 
-`imageVisualReview` is `pending` in every `review.json`. The publisher asserts `passed`, so publication is blocked until the owner visually approves all ten WebP files in `public/images/editorial/trending-pk-20261115-daily/`.
+- 47 rows are research-pending.
+- 3 live-match rows are verification-held: 1, 3 and 86.
+- 26 generic or ambiguous rows are skipped for insufficient context.
+- Published rows: 2, 4, 5, 6, 17, 26, 44, 50, 51 and 79.
 
-Files:
+## Sensitive NCCIA note
 
-- portugal-denmark-cover.webp, portugal-denmark-inline.webp
-- saff-pakistan-bangladesh-cover.webp, saff-pakistan-bangladesh-inline.webp
-- faa-ground-stop-cover.webp, faa-ground-stop-inline.webp
-- khunjerab-snow-cover.webp, khunjerab-snow-inline.webp
-- nccia-call-centres-cover.webp, nccia-call-centres-inline.webp
-
-The NCCIA cover and inline images are Islamabad city views, not raid photographs. Captions and credits say so.
-
-## After approval
-
-1. Set `imageVisualReview` to `passed` in each `review.json` and rerun validation.
-2. Confirm no build is running.
-3. Commit assets and draft records with `[skip ci]`.
-4. Push to `main`.
-5. Run `artifacts/pakistan-nov15-publish.mjs --articles=<five keys> --publish` after creating it from the verified publisher template.
-6. Dispatch exactly one `content-published` workflow.
-7. Verify the live revision, listing, images and sitemap; record the ledger.
+The NCCIA cover and inline images are Islamabad city views, not raid photographs. Captions and credits say so explicitly.

@@ -1,9 +1,13 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "published-live-verified",
+  "published": true,
   "words": 2255,
   "imageVisualReview": "passed",
   "localChecks": "validation.json",
   "sourceCheckedOn": "2026-11-15",
-  "ownerImageApproval": "Owner approved all ten WebP files on 15 November 2026"
+  "ownerImageApproval": "Owner approved all ten WebP files on 15 November 2026",
+  "liveUrl": "https://raytechinstitute.com/blogs/faa-ground-stop-november-2026-flight-cancellations-explained/",
+  "liveVerifiedAt": "2026-11-15T04:59:56.867Z",
+  "releaseRevision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+  "workflowRun": "43678714053"
 }

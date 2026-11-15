@@ -1,0 +1,186 @@
+{
+  "checkedAt": "2026-11-15T04:59:56.867Z",
+  "expectedRevision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T04:56:26.852Z",
+    "revision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 702,
+    "sitemapSha256": "05a3ab0cba7cb1c2b7352306544a5a321dba7ae76d9081d172fff5ce1f236648",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43678714053"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "portugal-denmark",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/portugal-denmark-1-4-nations-league-november-2026-result/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/portugal-denmark-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/portugal-denmark-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "saff-pakistan-bangladesh",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-bangladesh-1-0-saff-semi-final-2026-first-final/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/saff-pakistan-bangladesh-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/saff-pakistan-bangladesh-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "faa-ground-stop",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/faa-ground-stop-november-2026-flight-cancellations-explained/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/faa-ground-stop-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/faa-ground-stop-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "khunjerab-snow",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/khunjerab-pass-snow-november-2026-containers-stranded-kkh/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/khunjerab-snow-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/khunjerab-snow-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "nccia-call-centres",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/nccia-154-arrests-islamabad-rawalpindi-call-centres-november-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/nccia-call-centres-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261115-daily/nccia-call-centres-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
