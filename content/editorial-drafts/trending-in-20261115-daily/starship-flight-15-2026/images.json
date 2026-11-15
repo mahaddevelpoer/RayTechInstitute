@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/starship-flight-15-cover.webp",
+    "source": "https://unsplash.com/photos/rocket-ship-launching-during-daytime-Ptd-iTdrCJM",
+    "sha1": "92a56137412f5e98a7d1171c828b5e0ef937c5dc",
+    "creator": "SpaceX",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "Archive photo of the 2018 Falcon Heavy demonstration launch, not Starship Flight 15.",
+    "alt": "Archive image of a Falcon Heavy rocket launching in daylight",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/starship-flight-15-inline.webp",
+    "source": "https://unsplash.com/photos/twom-white-flying-rockets-during-daytime-MEW1f-yu2KI",
+    "sha1": "2bd9c44f4d0f5ac749ad987a407a1fa7b62fe38d",
+    "creator": "SpaceX",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "Archive photo of Falcon Heavy boosters landing in 2018. It does not show the 2026 Starship flight.",
+    "alt": "Archive image of two Falcon Heavy rocket boosters landing",
+    "width": 960,
+    "height": 640
+  }
+]

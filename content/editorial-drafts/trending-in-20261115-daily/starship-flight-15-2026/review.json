@@ -1,0 +1,9 @@
+{
+  "scope": "SpaceX preflight plan; AP postflight reports; NASA 2026 Artemis programme update; two distinct licensed archive photos visually reviewed.",
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-15",
+  "published": false,
+  "state": "local-verified-unpublished",
+  "words": 2663,
+  "localChecks": "validation.json"
+}

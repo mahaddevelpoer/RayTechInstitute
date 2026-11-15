@@ -414,13 +414,14 @@
       "possibleExisting": []
     },
     {
-      "key": "spacex-starship-launch-45",
+      "key": "starship-flight-15-2026",
       "query": "spacex starship launch",
       "rows": [
         45
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "starship-flight-15-2026-launch-booster-loss-ship-catch"
     },
     {
       "key": "yousri-belgaroui-46",
@@ -3561,9 +3562,9 @@
     {
       "row": 45,
       "query": "spacex starship launch",
-      "group": "spacex-starship-launch-45",
-      "slug": null,
-      "state": "research-pending"
+      "group": "starship-flight-15-2026",
+      "slug": "starship-flight-15-2026-launch-booster-loss-ship-catch",
+      "state": "draft-ready"
     },
     {
       "row": 46,
@@ -5797,6 +5798,16 @@
       "revision": "e7861f6779fab4eeebc8e028df36d225ad6c47fe",
       "workflowRun": "43678714053",
       "liveVerifiedAt": "2026-11-15T04:59:15.584Z"
+    },
+    {
+      "validationFile": "batch-03-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
+      "state": "review-pending",
+      "keys": [
+        "starship-flight-15-2026"
+      ],
+      "expectedSize": 1,
+      "number": 3
     }
   ],
   "oldQueueSnapshot": []
