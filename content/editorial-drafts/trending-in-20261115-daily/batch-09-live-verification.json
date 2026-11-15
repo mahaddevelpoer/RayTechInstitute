@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T11:39:59.992Z",
+  "expectedRevision": "a9efdf8f52a41ea937e2ca673d93c8f0273d4fc2",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T11:37:07.137Z",
+    "revision": "a9efdf8f52a41ea937e2ca673d93c8f0273d4fc2",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 714,
+    "sitemapSha256": "dc30312ffd46e2d767ff4336276cd4e60c0049598f20b0310b25c387a0416ff8",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43709512510"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "riley-meredith-australia-england-odi-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/riley-meredith-australia-england-second-odi-adelaide-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/riley-meredith-cricket-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/riley-meredith-adelaide-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

@@ -2,8 +2,12 @@
   "scope": "ICC, Cricket Australia and ECB official sources; two distinct licensed archive photographs visually checked.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2407,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/riley-meredith-australia-england-second-odi-adelaide-2026/",
+  "liveVerifiedAt": "2026-11-15T11:39:59.992Z",
+  "releaseRevision": "a9efdf8f52a41ea937e2ca673d93c8f0273d4fc2",
+  "workflowRun": "43709512510"
 }

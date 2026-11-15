@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-08-published-next-research-pending",
+  "state": "batch-09-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -156,7 +156,7 @@
       "rows": [
         16
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "riley-meredith-australia-england-second-odi-adelaide-2026"
     },
@@ -3365,7 +3365,7 @@
       "query": "riley meredith",
       "group": "riley-meredith-australia-england-odi-2026",
       "slug": "riley-meredith-australia-england-second-odi-adelaide-2026",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 17,
@@ -5884,12 +5884,15 @@
     {
       "validationFile": "batch-09-validation.json",
       "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "riley-meredith-australia-england-odi-2026"
       ],
       "expectedSize": 1,
-      "number": 9
+      "number": 9,
+      "revision": "a9efdf8f52a41ea937e2ca673d93c8f0273d4fc2",
+      "workflowRun": "43709512510",
+      "liveVerifiedAt": "2026-11-15T11:39:59.992Z"
     }
   ],
   "oldQueueSnapshot": []
