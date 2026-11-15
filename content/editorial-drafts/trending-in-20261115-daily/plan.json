@@ -69,13 +69,14 @@
       "slug": "india-bhutan-saff-2026-semi-final-result-goals-var"
     },
     {
-      "key": "norway-vs-wales-7",
+      "key": "norway-wales-nations-league-2026",
       "query": "norway vs wales",
       "rows": [
         7
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "norway-wales-3-1-nations-league-2026-result-goals"
     },
     {
       "key": "query-8",
@@ -3297,9 +3298,9 @@
     {
       "row": 7,
       "query": "norway vs wales",
-      "group": "norway-vs-wales-7",
-      "slug": null,
-      "state": "research-pending"
+      "group": "norway-wales-nations-league-2026",
+      "slug": "norway-wales-3-1-nations-league-2026-result-goals",
+      "state": "draft-ready"
     },
     {
       "row": 8,
@@ -5825,6 +5826,16 @@
       "revision": "f491503398917f3e3f202a07552e01e427f3550b",
       "workflowRun": "43695853554",
       "liveVerifiedAt": "2026-11-15T08:48:46.280Z"
+    },
+    {
+      "validationFile": "batch-05-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
+      "state": "review-pending",
+      "keys": [
+        "norway-wales-nations-league-2026"
+      ],
+      "expectedSize": 1,
+      "number": 5
     }
   ],
   "oldQueueSnapshot": []

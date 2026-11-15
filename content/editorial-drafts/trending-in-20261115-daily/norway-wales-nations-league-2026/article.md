@@ -1,0 +1,111 @@
+## Norway 3-1 Wales: Nations League result, scorers and Group A4 context
+
+Norway beat Wales 3-1 at Ullevaal Stadion in Oslo on 14 November 2026 in the UEFA Nations League. Antonio Nusa opened the scoring after a goalless first half, substitute Andreas Schjelderup made it 2-0, David Brooks pulled one back for Wales, and Erling Haaland converted a late penalty to settle the match. UEFA's round-up confirms the result and scoring sequence. Its fixtures list places the contest in League A Group 4, with both teams due to complete their league-phase programmes on 17 November. The victory was Norway's first after three consecutive defeats in this run, according to UEFA's later matchday preview.
+
+The result needs careful reading because it reversed the teams' October meeting. Wales had beaten Norway 2-1 in Cardiff on 1 October. A reader seeing those two scores without dates might think one of them is wrong. Both are UEFA-recorded results in different fixtures: Wales won at home in October, and Norway won at home in November. The later 3-1 does not retroactively change the earlier game. It gives Norway three points in the November match and changes the Group A4 picture going into the final round.
+
+![Archive football action illustrating the sport](/images/editorial/trending-in-20261115-daily/norway-wales-inline.webp)
+
+### Match at a glance
+
+| Detail | Verified record |
+| --- | --- |
+| Competition | 2026/27 UEFA Nations League, League A Group 4 |
+| Date | Saturday, 14 November 2026 |
+| Venue | Ullevaal Stadion, Oslo |
+| Result | Norway 3-1 Wales |
+| Norway scorers | Antonio Nusa, Andreas Schjelderup, Erling Haaland penalty |
+| Wales scorer | David Brooks |
+| Earlier meeting | Wales 2-1 Norway, 1 October 2026 |
+| Next league games | Denmark vs Norway; Wales vs Portugal, 17 November |
+
+UEFA's Italian matchday summary provides the scorer minutes: Nusa 59, Schjelderup 68, Brooks 79 and Haaland's penalty near the end, at 88 minutes in match listings. The English round-up describes the same order without putting all four minutes in its short section. We use the minutes to explain how the lead developed, not as a substitute for a full play-by-play. A result page can confirm what happened; it cannot, on its own, reveal every decision by the coaches.
+
+### A goalless first half was not an uneventful match
+
+UEFA reports that Wales had the only first-half shot on target, with Norwegian goalkeeper Egil Selvik parrying a Daniel James attempt. That is a narrow statistical observation. It does not mean Wales monopolized possession, created every dangerous chance, or had complete control. An on-target shot count captures only attempts that would have entered the goal without a save or block. Shots wide, crosses, set pieces and field position require other data. The important point is that the match remained 0-0 at the interval despite Wales recording the half's only on-target attempt in UEFA's summary.
+
+The context made the second half especially important. Both teams entered the game on three points, according to UEFA's match page. Wales had the psychological benefit of the Cardiff win, but Norway had home advantage in Oslo and a lineup including Nusa, Oscar Bobb, Martin Ødegaard and Haaland. Wales started Daniel James, Harry Wilson, Brennan Johnson and Lewis Koumas among its attacking players. These are lineup facts, not a claim that the teams' selection choices caused the final score. Injuries, form and in-game execution also matter, and a list of starters cannot prove the tactical reasoning behind each decision.
+
+There had been snow in Oslo during preparation, UEFA's match coverage notes, and Norwegian federation staff worked to clear the pitch. That is relevant background for the week but should not be inflated into an explanation for either team's performance. The official venue information described the match surface as excellent by game time. Weather can disrupt training, but it would be speculative to assign a specific goal to a few days of altered preparation. Keeping the weather as context preserves the story without making an unsupported causal claim.
+
+### Nusa breaks the deadlock
+
+Antonio Nusa put Norway ahead in the 59th minute, drilling a shot from the edge of the area, according to UEFA. The goal turned a scoreless contest into one where Wales had to respond. It also gave Norway a platform for the game's decisive stretch: nine minutes later the home side doubled its lead. Nusa's finish was the first recorded goal, but the official short report does not supply a detailed chain of every pass before his shot. We therefore describe the documented finish rather than inventing a buildup or a defensive error.
+
+The timing matters. A goal on 59 minutes leaves roughly half an hour plus stoppage time, so it was not a last-minute winner. Wales had time to adjust and eventually did score. Yet Norway's second goal arrived before the Welsh reply, which changed the risk for the visitors. A team trailing by two has to find at least two goals merely to draw; the opponent can use the scoreboard to make different decisions. That is match-state arithmetic, not proof of precisely how Craig Bellamy instructed his players after the opener.
+
+Nusa also contributed to the next Norwegian goal. UEFA says he and Haaland combined to set up substitute Andreas Schjelderup. The goal came in the 68th minute in UEFA's matchday account, taking the score to 2-0. Describing Schjelderup as a substitute matters: he was not among the Norway starters listed on UEFA's match page. It does not mean the replacement was a guaranteed masterstroke or that the same substitution would work in every match. It shows a player introduced during the game scored at a moment when Norway was building an advantage.
+
+### Schjelderup's goal and the response from Wales
+
+At 2-0, Norway had both a lead and room for error, but Wales narrowed the gap. David Brooks scored in the 79th minute, according to UEFA's Italian summary, with a chipped finish described in the English round-up. That made the score 2-1 and created a realistic route back into the match: one more Welsh goal would have levelled it. The official report's English text contains a likely goalkeeper-name error when describing the chip, so this article does not repeat that detail. Brooks scored for Wales; the specific goalkeeper reference in that one sentence is not needed to explain the result.
+
+Wales' goal changed the closing phase without erasing the earlier two-goal Norway lead. It is common to call a 2-1 score “anyone's game,” but such language does not add much. The concrete facts are that Wales had cut the margin to one, time remained, and Norway subsequently won a penalty and scored. A full assessment of whether Wales was close to equalizing would need the chances and actions in those final minutes, not just the final score. UEFA's overview gives the key events, so this article stays with those.
+
+Erling Haaland converted Norway's late penalty to make it 3-1. UEFA calls it his 23rd goal in the Nations League and identifies him as the competition's record scorer. The record is specifically in the Nations League; it is not a claim about all international competitions or his club career. The penalty's significance in this game is simpler than the record: it restored a two-goal lead after Brooks had brought Wales within one. In the outcome, Norway finished with three goals to Wales' one.
+
+### What the score means in Group A4
+
+This was a league-phase fixture, so the 3-1 win awarded Norway three points under the normal football competition system. UEFA's fixtures list shows Norway's earlier A4 results: a 3-2 home win over Denmark, defeats to Portugal twice, and the 2-1 loss to Wales, followed by this 3-1 victory. Wales' list includes the 2-1 home win over Norway and losses to Portugal and Denmark before the Oslo defeat. These dated results explain why the final round still mattered. They are more dependable than an unsourced table screenshot that may have been captured between matches.
+
+Norway's next scheduled game was away to Denmark on 17 November. Wales was due to host Portugal the same day. UEFA described the Denmark trip as crucial for Norway. A win over Wales did not itself finish the group or settle every promotion, relegation or quarterfinal possibility. Group standings can depend on the result of another simultaneous match, goals and formal tiebreak rules. Any statement that Norway had already advanced would need the completed final-round results. As of this article's date, that round remained ahead.
+
+The reverse fixture offers useful context without creating an imaginary aggregate score. Wales' 2-1 October win and Norway's 3-1 November win are separate league-phase matches. Unlike a two-leg knockout tie, they should not automatically be combined to announce “Norway won 4-3 on aggregate.” The tournament's standings use points and tiebreak procedures, not a simple quarterfinal-style aggregate between these two fixtures. Readers sometimes apply the logic of a home-and-away cup tie to a league group. Here that would misstate the competition format.
+
+It is also worth separating group position from match quality. The 3-1 result means Norway took the points on the night. It does not prove the home side dominated every minute. Wales had the first half's only on-target effort in UEFA's report and later scored through Brooks. Norway's attacking quality proved decisive in the second half, but the game's phases had different stories. That is why a chronological report, supported by UEFA's round-up, is more informative than a bare scoreline or a sweeping claim that one team never threatened.
+
+### What can be said about Haaland's role?
+
+Haaland's penalty appears in the official scoring summary, and UEFA says he combined with Nusa in the move that set up Schjelderup. Those are two distinct contributions: one as a scorer and one in the preceding buildup to a teammate's goal. The match illustrates that a prominent striker can influence a result without scoring every team goal. It would be wrong to label this a Haaland hat-trick; Norway's scorers were Nusa, Schjelderup and Haaland. Search trends often center on the best-known player, which can make the shared scoring pattern easy to miss.
+
+His 23rd Nations League goal was a competition record milestone as reported by UEFA. To make a stronger career comparison, one would need a clearly defined dataset and date. A total in one tournament is not directly comparable with a national-team career total or club season. The useful figure for readers here is the competition-specific milestone and its match role. It helps explain why Haaland appears in coverage even though the earlier goals gave Norway the lead.
+
+Nusa and Schjelderup also deserve accurate credit. Nusa scored the opener and was involved in creating the second. Schjelderup scored as a substitute. Brooks made Wales competitive again before the penalty. A fair match summary names all four scorers and the sequence. A headline with only Haaland's name would miss most of the actual scoring story. No unsupported award or “man of the match” label is attached here; readers should consult UEFA if such a formal designation is published.
+
+### The venue and the next match
+
+Ullevaal Stadion in Oslo hosted the fixture. UEFA's match page lists the ground, city and date. A photograph of a football pitch elsewhere in Norway can illustrate the sport and national setting, but cannot stand as documentary evidence of the Oslo match. Likewise, a generic action photograph cannot identify Nusa, Schjelderup or Brooks. The image credits at the end of this article state what the pictures actually show. That visual precision matters because an unrelated image beside a scorecard can easily be misread as a still from the game.
+
+The next Norway fixture against Denmark creates a new question: can Norway convert this home recovery into a result away from Oslo? The next Wales fixture against Portugal poses a different one for Craig Bellamy's side. The official schedule confirms the opponents and date; it does not provide the future scores. Previews should be phrased as upcoming fixtures, never as if the results already exist. If a reader returns after 17 November, UEFA's updated fixtures and results page should be the source for the final group picture.
+
+### Common questions
+
+#### Who won Norway vs Wales on 14 November 2026?
+
+Norway won 3-1 at Ullevaal Stadion in Oslo. UEFA lists the result as a League A Group 4 match in the 2026/27 Nations League.
+
+#### Who scored for Norway?
+
+Antonio Nusa, substitute Andreas Schjelderup and Erling Haaland scored. Haaland's late goal was a penalty and his 23rd in Nations League play, according to UEFA.
+
+#### Who scored for Wales?
+
+David Brooks scored after Norway had gone 2-0 up. His goal reduced the deficit to 2-1 before Haaland's penalty made the final score 3-1.
+
+#### When did the goals happen?
+
+UEFA's matchday coverage places Nusa in the 59th minute, Schjelderup in the 68th, Brooks in the 79th and Haaland's penalty late, recorded as the 88th minute in match listings. All four came after a scoreless first half.
+
+#### Did Wales beat Norway earlier in the season?
+
+Yes. Wales won 2-1 in Cardiff on 1 October. The November match in Oslo was the reverse fixture, and Norway won it 3-1. Both results are in UEFA's 2026/27 fixtures list.
+
+#### Has Norway qualified for the quarterfinals?
+
+The 3-1 victory alone does not settle that question. Norway still had a scheduled final Group A4 fixture away to Denmark on 17 November. Qualification depends on completed group results and official tiebreak rules.
+
+### The accurate summary
+
+After a scoreless first half, Nusa and Schjelderup put Norway two ahead; Brooks briefly made it a one-goal match; Haaland then converted a penalty for 3-1. Wales' earlier Cardiff win remains part of the season's record, while Norway took the points in Oslo. The teams still had their final group games to play. UEFA's official matchday report and fixtures pages support those facts. Anything more precise about tactical causes, final standings or future qualification should wait for fuller evidence and the last round of matches.
+
+## Sources
+
+- [UEFA: Matchday 5 round-up, Norway 3-1 Wales](https://www.uefa.com/uefanationsleague/news/02ab-220e66a3c090-9304054ed1ca-1000--uefa-nations-league-matchday-5-highlights-harry-kane-sends-/)
+- [UEFA: Norway vs Wales match page, lineups and venue](https://www.uefa.com/uefanationsleague/match/2047893--norway-vs-wales/)
+- [UEFA: 2026/27 results by team and upcoming fixtures](https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e7-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-results-by-team/)
+- [UEFA Italian matchday summary with scorer minutes](https://it.uefa.com/uefanationsleague/news/02ab-220e5fe4cf12-c1ec99ac8bc4-1000--riepilogo-quinta-giornata-uefa-nations-league-la-danimarca-b/)
+
+Image credits: Cover by [Tetiana GRY](https://unsplash.com/photos/map-sGj_OmLOQv0); inline by [Leo_Visions](https://unsplash.com/photos/players-leap-for-a-soccer-ball-during-a-match-npy5KuBIu6o). Both are under the [Unsplash License](https://unsplash.com/license), resized and converted to WebP. The cover shows Henningsvær in Norway, not Ullevaal Stadion; the action photo is from another match.
+
+Checked on 15 November 2026. The match is final; Group A4's last round had not yet been played when this article was prepared. The English UEFA round-up appears to misidentify the goalkeeper in one sentence about Brooks, so this account omits that unsupported detail.
