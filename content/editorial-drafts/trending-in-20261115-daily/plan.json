@@ -47,8 +47,11 @@
       "rows": [
         5
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "already-covered",
+      "possibleExisting": [
+        "portugal-denmark-1-4-nations-league-november-2026-result"
+      ],
+      "slug": "portugal-denmark-1-4-nations-league-november-2026-result"
     },
     {
       "key": "india-vs-bhutan-6",
@@ -78,8 +81,11 @@
       "rows": [
         8
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "already-covered",
+      "possibleExisting": [
+        "india-new-zealand-fifth-odi-2026-209-187-scorecard-result"
+      ],
+      "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result"
     },
     {
       "key": "england-cricket-team-vs-australia-national-cricket-team-match-scorecard-9",
@@ -374,13 +380,14 @@
       "possibleExisting": []
     },
     {
-      "key": "haiti-vs-usa-41",
+      "key": "haiti-usa-6-0-nations-league-2026",
       "query": "haiti vs usa",
       "rows": [
         41
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "haiti-usa-6-0-nations-league-2026-goals-first-leg"
     },
     {
       "key": "ananya-birla-42",
@@ -3279,8 +3286,8 @@
       "row": 5,
       "query": "portugal national football team vs denmark national football team standings",
       "group": "portugal-national-football-team-vs-denmark-national-football-team-standings-5",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "portugal-denmark-1-4-nations-league-november-2026-result",
+      "state": "already-covered"
     },
     {
       "row": 6,
@@ -3300,8 +3307,8 @@
       "row": 8,
       "query": "भारत बनाम न्यूजीलैंड",
       "group": "query-8",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result",
+      "state": "already-covered"
     },
     {
       "row": 9,
@@ -3530,9 +3537,9 @@
     {
       "row": 41,
       "query": "haiti vs usa",
-      "group": "haiti-vs-usa-41",
-      "slug": null,
-      "state": "research-pending"
+      "group": "haiti-usa-6-0-nations-league-2026",
+      "slug": "haiti-usa-6-0-nations-league-2026-goals-first-leg",
+      "state": "draft-ready"
     },
     {
       "row": 42,
@@ -5859,6 +5866,16 @@
       "revision": "5faa95f5cae6716e7a98f9c290c3a0055815a114",
       "workflowRun": "43706694910",
       "liveVerifiedAt": "2026-11-15T11:06:09.418Z"
+    },
+    {
+      "validationFile": "batch-08-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing and publishing a larger India CSV batch.",
+      "state": "review-pending",
+      "keys": [
+        "haiti-usa-6-0-nations-league-2026"
+      ],
+      "expectedSize": 1,
+      "number": 8
     }
   ],
   "oldQueueSnapshot": []

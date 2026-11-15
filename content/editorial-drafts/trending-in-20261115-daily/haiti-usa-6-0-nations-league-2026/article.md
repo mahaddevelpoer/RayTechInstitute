@@ -1,0 +1,134 @@
+## Haiti 0-6 USA: Nations League quarterfinal first-leg result
+
+The United States beat Haiti 6-0 in the first leg of their 2026/27 Concacaf Nations League quarterfinal at Nu Stadium in Miami on 14 November 2026. Auston Trusty scored in the first half; Julian Hall, Christian Pulisic twice, Weston McKennie and Folarin Balogun added five after the break. The [Concacaf match report](https://www.concacaf.com/competitions/nations-league/news/usa-defeats-haiti-6-0-in-nations-league-quarterfinal-opener) and [U.S. Soccer’s recap](https://www.ussoccer.com/stories/2026/11/usmnt-vs-haiti-match-recap-highlights-concacaf-nations-league-miami-florida) agree on the six-goal scoreline and the sequence of scorers. The result gives the U.S. a six-goal aggregate lead before the second leg in Cincinnati; it does not by itself complete the two-match tie.
+
+The phrase “Haiti vs USA” can be confusing in this case. Haiti was the designated home team for the first leg, yet the game was played in Miami, in the United States. Concacaf approved an exceptional hosting arrangement after a request from the Haitian federation. That is why an official fixture can list Haiti first while naming an American venue. The location does not reverse the home designation or turn the first leg into the second. This guide explains the venue, goals, score and qualification position with those distinctions intact.
+
+![Archive view of Miami, the city that hosted the first leg](/images/editorial/trending-in-20261115-daily/haiti-usa-six-goals-inline.webp)
+
+### Match at a glance
+
+| Detail | Verified record |
+| --- | --- |
+| Competition | 2026/27 Concacaf Nations League, League A quarterfinal |
+| Tie | First leg, Haiti designated home team |
+| Date | Saturday, 14 November 2026, Miami local date |
+| Venue | Nu Stadium, Miami, Florida |
+| Score | Haiti 0-6 United States |
+| First-half score | Haiti 0-1 United States |
+| Second-half goals | Five by the United States, none by Haiti |
+| USA scorers | Trusty, Hall, Pulisic twice, McKennie, Balogun |
+| Next leg | United States vs Haiti, 17 November, TQL Stadium, Cincinnati |
+| Position after first leg | United States lead 6-0 on aggregate |
+
+U.S. Soccer lists attendance of 21,597 and a 4:30 p.m. Eastern Time kickoff. Concacaf’s results page may display the match under a different calendar date for visitors in other time zones. The local Miami match was on 14 November. For readers in Pakistan or India, the start and finish fell later on the clock, which helps explain why a November 15 search trend points to a match officially dated November 14 in Florida. A search-result date is not a replacement for the competition’s fixture date.
+
+### The six goals in order
+
+| Minute | U.S. scorer | Recorded contribution |
+| --- | --- | --- |
+| 10 | Auston Trusty | Sebastian Berhalter delivered the set piece. |
+| 52 | Julian Hall | Antonee Robinson supplied the ball from the left. |
+| 62 | Christian Pulisic | Penalty kick. |
+| 63 | Christian Pulisic | Alex Freeman assisted the second goal. |
+| 68 | Weston McKennie | Header from Malik Tillman’s corner. |
+| 82 | Folarin Balogun | Tillman supplied the pass. |
+
+Concacaf’s scoring summary records McKennie at 68 minutes; part of the longer U.S. Soccer narrative calls it the 69th minute while its formal scoring table says 68. This page uses the competition summary and the U.S. Soccer scoring table for the minute, rather than treating the narrative’s rounded description as a different goal. The six names account for all six goals because Pulisic scored twice. “Five different scorers” and “six goals” are both correct descriptions of the same match.
+
+### Trusty’s opener did not settle the tie
+
+The United States went ahead in the tenth minute when Trusty met Berhalter’s free-kick delivery. U.S. Soccer describes a low volley from close range and says a VAR check for offside preceded confirmation of the goal. Concacaf calls it a set-piece opening. A goal that early gave the U.S. a lead and changed what Haiti needed from the match, but it did not make the remaining 80 minutes inevitable. Haiti still had time to respond and did create moments before halftime.
+
+U.S. Soccer records a Haiti opportunity for Danley Jean Jacques in the 16th minute. Goalkeeper Diego Kochen made a block. In the 30th, Lenny Joseph carried the ball into the area before Chris Richards tackled him for a corner. Those two episodes are relevant because the final 6-0 could otherwise suggest Haiti never crossed into dangerous areas. The official recap supports a more precise conclusion: Haiti produced chances, but did not score, while the U.S. lead remained 1-0 at halftime.
+
+There was also an American chance for Hall that did not count because of offside, and another shot that Haiti goalkeeper Alexandre Pierre stopped. An offside decision matters to the match narrative but not to the official score. It is not a seventh U.S. goal. The final first-half record remains 1-0. Stating the halftime score guards against reading the six-goal final as a continuous scoring stream from the opening whistle. The decisive separation came after the interval.
+
+### Hall’s goal opens the second half
+
+Julian Hall made it 2-0 in the 52nd minute. The official accounts describe a counterattack, a pass to Antonee Robinson on the left and a ball into Hall, who finished from a central position. This goal mattered in two ways. It doubled the match lead and began the five-goal second half. Haiti now needed to recover from a two-goal deficit in this leg while keeping the two-leg aggregate calculation in view.
+
+U.S. Soccer described Hall as 18 and the youngest player in the starting lineup. It also notes his recent scoring run with the senior national team. These are background details as of the match date, not a prediction about his future. Hall’s contribution should be credited to the specific play: the move began with the U.S. recovering possession, Robinson provided the final ball, and Hall supplied the finish. The official sources do not require an exaggerated claim that one teenager alone created the entire result.
+
+The interval between the second and third goals was ten minutes, from Hall at 52 to Pulisic’s penalty at 62. A team trailing 2-0 can still find a way into a first-leg contest. The next two U.S. goals made that task much harder. Reading the scoring sequence by minute explains the change better than a simple headline saying the U.S. “dominated” from start to finish. It was 1-0 for more than half the match, then 2-0, then 4-0 within a short span.
+
+### Pulisic’s two goals in quick succession
+
+Pulisic scored from the penalty spot in the 62nd minute after being fouled inside the area, according to U.S. Soccer. He then scored again in the 63rd after receiving from Freeman, moving toward goal and striking from outside the box. Concacaf describes the pair as back-to-back goals and a brace. U.S. Soccer says they came 101 seconds apart. The first was a spot kick; the second was an open-play finish. Conflating the two into “two penalties” would be an error.
+
+The rapid brace moved the score from 2-0 to 4-0. In a two-legged knockout tie, each goal also increases the aggregate deficit for the opponent. The result after the first match was not a qualification certificate, but it changed the second leg’s starting arithmetic. Haiti needed to overcome six goals by the time the full 90 minutes in Miami ended. Even after Pulisic’s second, two more U.S. goals were to come, making the return match an unusually steep task for the visitors.
+
+U.S. Soccer’s recap says the brace moved Pulisic to 35 senior international goals and fourth on its all-time men’s scoring list. That is a date-specific federation record. It should not be confused with his club total, his goal count in only the Nations League, or a global ranking across all countries. The precise record is useful to a player-profile search, while the match score is established independently by the six goals in Miami. A reader looking for Pulisic’s total at a later date should check an updated federation record rather than assuming the November number remains current.
+
+### Set piece and late finish complete the six
+
+McKennie headed in Tillman’s corner in the 68th minute. It was the second U.S. goal in the match created directly from a dead-ball situation if Trusty’s free-kick opener is counted alongside the corner. The other goals arose from a counterattack, a penalty and open-play combinations. This variety of scoring routes is visible in the official descriptions. It does not prove that Haiti had a single tactical weakness; that would require a fuller analysis of positioning and defensive decisions across the match.
+
+Balogun, who entered as a substitute, completed the scoring in the 82nd minute after a pass from Tillman. Tillman therefore had two assists in the competition’s post-match data. Concacaf notes that the last U.S. player to record multiple assists in a Nations League match before him was Giovanni Reyna against Jamaica in March 2024. That statistic belongs to this competition, not to every U.S. match in all tournaments. It underscores Tillman’s contribution without making him a scorer in a game where he did not have a goal.
+
+One potential goal for Haiti was ruled out for offside after a VAR check, according to the U.S. Soccer recap. That explains why a viewer remembering a ball in the U.S. net might wonder about the clean sheet. The official result remained 6-0, and Kochen kept the shutout. The disallowed chance is a match event, while the scoreline reflects only valid goals. In the same way, the U.S. had efforts disallowed or saved earlier; neither side’s near misses are part of the six-goal total.
+
+### Why was a Haiti home match played in Miami?
+
+Concacaf formally approved an exceptional arrangement for the Haitian Football Federation. Its announcement says Haiti’s designated home game against the U.S. was originally set for Sabina Park in Kingston, Jamaica, before being moved to Nu Stadium in Miami. Concacaf cited the security situation affecting Haiti and said the arrangement requires separate approval for each match. The decision allowed Haiti’s home-designated fixture to take place in the opponent’s territory, but the designation in the competition schedule remained Haiti versus United States.
+
+That distinction matters when someone compares fixture lists and match reports. The first leg is not a U.S. home leg merely because it happened on U.S. soil. The scheduled second leg is also in the United States, at TQL Stadium in Cincinnati on 17 November. A reader might see two American venues and assume there was a fixture-data mistake. The exceptional-hosting notice resolves the apparent contradiction. It is an administrative and venue decision, not a change to the 6-0 result.
+
+It would be unfair to assume that the venue move alone caused the scoreline. A ground can affect travel, crowd balance and preparation, but the sources here do not quantify those effects. The directly verifiable observations are that Concacaf approved the relocation, the match was played in Miami, and the U.S. won 6-0. Any stronger causal claim would need evidence about the teams’ preparation and match performance that a venue announcement cannot supply.
+
+### What does 6-0 mean for the second leg?
+
+The quarterfinal is a two-leg tie. After the first match, the aggregate score is USA 6, Haiti 0. The teams still have to play again in Cincinnati. If Haiti scored one goal in the return match and the U.S. scored none, the aggregate would become 6-1; the U.S. would still lead. If the U.S. won the second leg too, its aggregate advantage would grow. This basic arithmetic shows why a six-goal first-leg lead is powerful without declaring the tie officially finished before the second match.
+
+Concacaf says the winner advances to the 2026/27 Nations League Finals. The official competition rules govern a tied aggregate and any applicable tiebreak procedure. This article does not invent a qualification scenario from an incomplete match. The safe statement on 15 November is that the United States carries a 6-0 lead into the return. Haiti’s route back requires a remarkable second-leg performance, but the advancement decision belongs to the completed tie and the competition’s rules.
+
+The match was part of League A’s quarterfinal round. It was not the March finals themselves, and it was not a group-stage fixture. Some summaries call every knockout game a “final,” which muddies the format. The quarterfinal first leg is one stage; the second leg decides the tie; the winners proceed to the later finals tournament. This distinction helps readers interpret why another Haiti–USA date appears soon after a six-goal result.
+
+### What the data says about the performance
+
+U.S. Soccer lists 71% possession, ten shots on target and 90% passing accuracy for the Americans. These are its match figures, not a claim that every possession was productive. Possession measures a share of time or ball use, not goals. The five second-half goals are what turned a narrow 1-0 halftime lead into a six-goal final margin. The match also ended with a U.S. clean sheet, so the scoring and defensive records point in the same direction on the scoreboard.
+
+Concacaf’s post-match data highlights Haiti defender Carlens Arcus for 44 touches, 29 successful passes, five recoveries and three clearances, tied in some categories with teammates. Including a Haiti statistic matters because a 0-6 score can erase individual activity from public memory. Arcus’s numbers do not reverse the team result or imply Haiti controlled the match. They show a player’s involvement and defensive work within a difficult game. Statistics should be read at the level they describe: individual activity, team totals and final result each answer a different question.
+
+Concacaf also states this was the U.S. team’s first six-goal match in a Concacaf competition since a 6-0 Gold Cup win over Trinidad and Tobago in 2023. It calls this the largest victory under Mauricio Pochettino to that point, exceeding a 5-0 win over Trinidad and Tobago in June 2025. Those historical comparisons are sourced to the confederation’s release. The score alone cannot establish them; past fixtures must be checked. They provide scale for the result while the six scorers and minutes provide the direct account of what happened on the field.
+
+### Frequently asked questions
+
+#### Who won Haiti vs USA in November 2026?
+
+The United States won the first leg 6-0 at Nu Stadium in Miami on 14 November. Haiti was the designated home side under an exceptional Concacaf venue arrangement. The return leg had not been played when this article was prepared.
+
+#### Who scored in the 6-0 match?
+
+Trusty, Hall, Pulisic twice, McKennie and Balogun scored for the United States. Concacaf and U.S. Soccer list the same six goals. Pulisic was the only player to score more than once.
+
+#### What was the halftime score?
+
+It was 1-0 to the United States after Trusty’s tenth-minute goal. The Americans scored five more after halftime, beginning with Hall in the 52nd minute.
+
+#### Did Pulisic score both goals from penalties?
+
+No. His first goal was a penalty in the 62nd minute. The second, in the 63rd, was an open-play shot assisted by Freeman.
+
+#### Where and when is the second leg?
+
+Concacaf scheduled United States vs Haiti for Tuesday, 17 November 2026, at TQL Stadium in Cincinnati. Check the competition’s fixture page for any later change to the schedule.
+
+#### Why does the first leg say Haiti was at home in Miami?
+
+Concacaf approved a special hosting arrangement for Haiti’s home-designated match. The game moved from its original Kingston plan to Miami, but Haiti retained its first-leg home designation in the fixture.
+
+### Final score and next step
+
+The first leg ended Haiti 0-6 United States. Trusty opened the scoring, Hall doubled the lead, Pulisic scored twice in quick succession, and McKennie and Balogun finished the scoring. The U.S. takes a six-goal aggregate advantage to Cincinnati. That is the verified position after one match. The photographs on this page are licensed archive illustrations of a soccer field and Miami, clearly separate from the official game imagery; the goal sequence and venue details come from Concacaf, U.S. Soccer and the confederation’s venue notice.
+
+## Sources
+
+- [Concacaf: USA defeats Haiti 6-0 in quarterfinal opener](https://www.concacaf.com/competitions/nations-league/news/usa-defeats-haiti-6-0-in-nations-league-quarterfinal-opener)
+- [U.S. Soccer: full match recap and scoring summary](https://www.ussoccer.com/stories/2026/11/usmnt-vs-haiti-match-recap-highlights-concacaf-nations-league-miami-florida)
+- [Concacaf: Haiti home-match hosting arrangement](https://www.concacaf.com/competitions/nations-league/news/concacaf-council-approves-exceptional-hosting-arrangement-for-the-haitian-football-federation)
+- [Concacaf: Nations League fixtures and results](https://www.concacaf.com/competitions/nations-league/matches/index)
+
+Image credits: Cover soccer-field photograph by [Emmanuel Munoz](https://unsplash.com/photos/soccer-field-with-goalposts-under-a-clear-sky-mikfx6N52o0); inline Miami photograph by [Walter Martin](https://unsplash.com/photos/miami-skyline-by-the-water-on-a-sunny-day-q1nNO45iDtY). Both were resized and converted to WebP under the [Unsplash License](https://unsplash.com/license). The field photograph is not from the match, and the city photograph does not show Nu Stadium.
+
+Checked on 15 November 2026. The second leg was still scheduled for 17 November when this article was prepared; no quarterfinal winner is claimed before the tie is complete.
