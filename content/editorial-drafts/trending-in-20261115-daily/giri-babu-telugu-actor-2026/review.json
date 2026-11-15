@@ -2,8 +2,12 @@
   "scope": "Three contemporary Indian news reports compared; conflicting age and film counts identified; two distinct CC BY-SA 4.0 images visually inspected.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2227,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/giri-babu-giribabu-telugu-actor-death-films-tributes-2026/",
+  "liveVerifiedAt": "2026-11-15T12:05:04.309Z",
+  "releaseRevision": "3e1e81ac486b2538507cc7eaec23afed2c6e7856",
+  "workflowRun": "43711480980"
 }

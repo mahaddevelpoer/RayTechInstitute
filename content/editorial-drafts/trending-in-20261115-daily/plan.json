@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-09-published-next-research-pending",
+  "state": "batch-10-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -103,7 +103,7 @@
         10,
         12
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "giri-babu-giribabu-telugu-actor-death-films-tributes-2026"
     },
@@ -140,8 +140,11 @@
       "rows": [
         15
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "already-covered",
+      "possibleExisting": [
+        "ramayana-movie-explained-guide"
+      ],
+      "slug": "ramayana-movie-explained-guide"
     },
     {
       "key": "riley-meredith-australia-england-odi-2026",
@@ -3316,7 +3319,7 @@
       "query": "giribabu",
       "group": "giri-babu-telugu-actor-2026",
       "slug": "giri-babu-giribabu-telugu-actor-death-films-tributes-2026",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 11,
@@ -3330,7 +3333,7 @@
       "query": "giri babu",
       "group": "giri-babu-telugu-actor-2026",
       "slug": "giri-babu-giribabu-telugu-actor-death-films-tributes-2026",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 13,
@@ -3350,8 +3353,8 @@
       "row": 15,
       "query": "ranbir kapoor ramayana movie",
       "group": "ranbir-kapoor-ramayana-movie-15",
-      "slug": null,
-      "state": "research-pending"
+      "slug": "ramayana-movie-explained-guide",
+      "state": "already-covered"
     },
     {
       "row": 16,
@@ -5890,12 +5893,15 @@
     {
       "validationFile": "batch-10-validation.json",
       "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "giri-babu-telugu-actor-2026"
       ],
       "expectedSize": 1,
-      "number": 10
+      "number": 10,
+      "revision": "3e1e81ac486b2538507cc7eaec23afed2c6e7856",
+      "workflowRun": "43711480980",
+      "liveVerifiedAt": "2026-11-15T12:05:04.309Z"
     }
   ],
   "oldQueueSnapshot": []

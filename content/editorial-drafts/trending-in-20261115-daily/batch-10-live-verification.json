@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T12:05:04.309Z",
+  "expectedRevision": "3e1e81ac486b2538507cc7eaec23afed2c6e7856",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T12:02:17.182Z",
+    "revision": "3e1e81ac486b2538507cc7eaec23afed2c6e7856",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 715,
+    "sitemapSha256": "11e07e35fc45cfbba03da09192da4b53d418b9051e875a6f50fa7186cab31471",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43711480980"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "giri-babu-telugu-actor-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/giri-babu-giribabu-telugu-actor-death-films-tributes-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/giri-babu-film-chamber-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/giri-babu-portrait-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
