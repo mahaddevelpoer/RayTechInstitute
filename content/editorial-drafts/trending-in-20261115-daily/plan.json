@@ -1,0 +1,5786 @@
+{
+  "date": "2026-11-15",
+  "region": "IN",
+  "sourceCsv": "trending_IN_1d_20261115-0928.csv",
+  "sourceSha256": "aca19cd71204d54f0307b7702eaa7fd54188c815581404a506df299fc992c721",
+  "publicationAuthorized": true,
+  "minimumBodyWords": 2000,
+  "batchSize": 10,
+  "state": "research-in-progress",
+  "groups": [
+    {
+      "key": "india-vs-new-zealand-1",
+      "query": "india vs new zealand",
+      "rows": [
+        1
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mohit-ulva-2",
+      "query": "mohit ulva",
+      "rows": [
+        2
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "japan-vs-brazil-3",
+      "query": "japan vs brazil",
+      "rows": [
+        3
+      ],
+      "state": "already-covered",
+      "possibleExisting": [
+        "japan-brazil-3-2-november-2026-singapore-goals-result"
+      ],
+      "slug": "japan-brazil-3-2-november-2026-singapore-goals-result"
+    },
+    {
+      "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scor-4",
+      "query": "india national cricket team vs new zealand national cricket team match scorecard",
+      "rows": [
+        4
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "portugal-national-football-team-vs-denmark-national-football-team-standings-5",
+      "query": "portugal national football team vs denmark national football team standings",
+      "rows": [
+        5
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "india-vs-bhutan-6",
+      "query": "india vs bhutan",
+      "rows": [
+        6
+      ],
+      "state": "already-covered",
+      "possibleExisting": [
+        "india-bhutan-saff-2026-semi-final-result-goals-var"
+      ],
+      "slug": "india-bhutan-saff-2026-semi-final-result-goals-var"
+    },
+    {
+      "key": "norway-vs-wales-7",
+      "query": "norway vs wales",
+      "rows": [
+        7
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-8",
+      "query": "भारत बनाम न्यूजीलैंड",
+      "rows": [
+        8
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "england-cricket-team-vs-australia-national-cricket-team-match-scorecard-9",
+      "query": "england cricket team vs australia national cricket team match scorecard",
+      "rows": [
+        9
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "giribabu-10",
+      "query": "giribabu",
+      "rows": [
+        10
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ruturaj-gaikwad-11",
+      "query": "ruturaj gaikwad",
+      "rows": [
+        11
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "giri-babu-12",
+      "query": "giri babu",
+      "rows": [
+        12
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "abdul-qadir-13",
+      "query": "abdul qadir",
+      "rows": [
+        13
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "retirement-14",
+      "query": "retirement",
+      "rows": [
+        14
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ranbir-kapoor-ramayana-movie-15",
+      "query": "ranbir kapoor ramayana movie",
+      "rows": [
+        15
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "riley-meredith-16",
+      "query": "riley meredith",
+      "rows": [
+        16
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "icc-17",
+      "query": "icc",
+      "rows": [
+        17
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rohit-sharma-18",
+      "query": "rohit sharma",
+      "rows": [
+        18
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kerala-lottery-result-karunya-kr-776-19",
+      "query": "kerala lottery result karunya kr 776",
+      "rows": [
+        19
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "harshit-rana-20",
+      "query": "harshit rana",
+      "rows": [
+        20
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "shreyas-iyer-21",
+      "query": "shreyas iyer",
+      "rows": [
+        21
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "khilan-patel-2026-gujarat-odisha-t20",
+      "query": "khilan patel",
+      "rows": [
+        22,
+        354
+      ],
+      "state": "local-draft",
+      "possibleExisting": [],
+      "slug": "khilan-patel-84-off-29-gujarat-odisha-t20-2026"
+    },
+    {
+      "key": "ishan-kishan-23",
+      "query": "ishan kishan",
+      "rows": [
+        23
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ufc-24",
+      "query": "ufc",
+      "rows": [
+        24
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-25",
+      "query": "உணவு",
+      "rows": [
+        25
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "jamaica-vs-mexico-26",
+      "query": "jamaica vs mexico",
+      "rows": [
+        26
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "naman-dhir-27",
+      "query": "naman dhir",
+      "rows": [
+        27
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-28",
+      "query": "திருமணம்",
+      "rows": [
+        28
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-29",
+      "query": "रणबाली",
+      "rows": [
+        29
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-30",
+      "query": "आंधी",
+      "rows": [
+        30
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-31",
+      "query": "सूर्यकुमार यादव",
+      "rows": [
+        31
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "john-langford-quits-microsoft-32",
+      "query": "john langford quits microsoft",
+      "rows": [
+        32
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "michael-bracewell-33",
+      "query": "michael bracewell",
+      "rows": [
+        33
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-34",
+      "query": "வழக்கு",
+      "rows": [
+        34
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-35",
+      "query": "विवाह",
+      "rows": [
+        35
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "afsar-zazai-36",
+      "query": "afsar zazai",
+      "rows": [
+        36
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "15-37",
+      "query": "నవంబర్ 15",
+      "rows": [
+        37
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-38",
+      "query": "ధర",
+      "rows": [
+        38
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "carlos-forbs-39",
+      "query": "carlos forbs",
+      "rows": [
+        39
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "manal-chauhan-40",
+      "query": "manal chauhan",
+      "rows": [
+        40
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "haiti-vs-usa-41",
+      "query": "haiti vs usa",
+      "rows": [
+        41
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ananya-birla-42",
+      "query": "ananya birla",
+      "rows": [
+        42
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rrb-exam-city-intimation-slip-43",
+      "query": "rrb exam city intimation slip",
+      "rows": [
+        43
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-44",
+      "query": "सूर्य",
+      "rows": [
+        44
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "spacex-starship-launch-45",
+      "query": "spacex starship launch",
+      "rows": [
+        45
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "yousri-belgaroui-46",
+      "query": "yousri belgaroui",
+      "rows": [
+        46
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-47",
+      "query": "स्मार्ट टीवी",
+      "rows": [
+        47
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "nyt-strands-hints-48",
+      "query": "nyt strands hints",
+      "rows": [
+        48
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-49",
+      "query": "സുപ്രിയ മേനോന്",
+      "rows": [
+        49
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-50",
+      "query": "कंपनी",
+      "rows": [
+        50
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-51",
+      "query": "फ्लिपकार्ट",
+      "rows": [
+        51
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-52",
+      "query": "মিমি চক্রবর্তী",
+      "rows": [
+        52
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-53",
+      "query": "கொள்ளை",
+      "rows": [
+        53
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-54",
+      "query": "कन्या राशि",
+      "rows": [
+        54
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-55",
+      "query": "மு. க. ஸ்டாலின்",
+      "rows": [
+        55
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "tom-banton-56",
+      "query": "tom banton",
+      "rows": [
+        56
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-57",
+      "query": "రేషన్",
+      "rows": [
+        57
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-58",
+      "query": "சேலம்",
+      "rows": [
+        58
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-59",
+      "query": "झारखंड एकेडमिक काउंसिल",
+      "rows": [
+        59
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "the-terminal-list-prime-video-60",
+      "query": "the terminal list prime video",
+      "rows": [
+        60
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-61",
+      "query": "அமைச்சர்",
+      "rows": [
+        61
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rockstar-games-gta-vi-62",
+      "query": "rockstar games gta vi",
+      "rows": [
+        62
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ladakh-63",
+      "query": "ladakh",
+      "rows": [
+        63
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-64",
+      "query": "दिल्ली सरकार",
+      "rows": [
+        64
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-65",
+      "query": "અમિતાભ બચ્ચન",
+      "rows": [
+        65
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-66",
+      "query": "એશિયા કપ",
+      "rows": [
+        66
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "india-vs-new-zealand-football-67",
+      "query": "india vs new zealand football",
+      "rows": [
+        67
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-68",
+      "query": "వీరేంద్ర సెహ్వాగ్",
+      "rows": [
+        68
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-69",
+      "query": "ब्याज दर",
+      "rows": [
+        69
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-70",
+      "query": "मछली",
+      "rows": [
+        70
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-71",
+      "query": "पुलिस",
+      "rows": [
+        71
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-72",
+      "query": "आर्यवीर सहवाग",
+      "rows": [
+        72
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "anvay-dravid-73",
+      "query": "anvay dravid",
+      "rows": [
+        73
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "dazn-74",
+      "query": "dazn",
+      "rows": [
+        74
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "madhya-pradesh-lokayukta-raid-sharma-75",
+      "query": "madhya pradesh lokayukta raid sharma",
+      "rows": [
+        75
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ind-vs-nz-test-76",
+      "query": "ind vs nz test",
+      "rows": [
+        76
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-77",
+      "query": "रमोला बच्चन",
+      "rows": [
+        77
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-78",
+      "query": "टोयोटा इनोवा हाईक्रॉस",
+      "rows": [
+        78
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "adam-zampa-79",
+      "query": "adam zampa",
+      "rows": [
+        79
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-80",
+      "query": "റിമി ടോമി",
+      "rows": [
+        80
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "england-cricket-team-81",
+      "query": "england cricket team",
+      "rows": [
+        81
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-82",
+      "query": "శరీరం",
+      "rows": [
+        82
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "uros-medic-83",
+      "query": "uroš medić",
+      "rows": [
+        83
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-84",
+      "query": "വില",
+      "rows": [
+        84
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-85",
+      "query": "आईसीसी",
+      "rows": [
+        85
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "heat-vs-pistons-86",
+      "query": "heat vs pistons",
+      "rows": [
+        86
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-87",
+      "query": "अक्षर पटेल",
+      "rows": [
+        87
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-88",
+      "query": "ईशान किशन",
+      "rows": [
+        88
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "timberwolves-vs-bulls-89",
+      "query": "timberwolves vs bulls",
+      "rows": [
+        89
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-90",
+      "query": "తనిష్క్",
+      "rows": [
+        90
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bilal-hasan-91",
+      "query": "bilal hasan",
+      "rows": [
+        91
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "cameron-green-92",
+      "query": "cameron green",
+      "rows": [
+        92
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-93",
+      "query": "இந்தியா - நியூசிலாந்து",
+      "rows": [
+        93
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-94",
+      "query": "வட்டி",
+      "rows": [
+        94
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-95",
+      "query": "പാകിസ്ഥാന്",
+      "rows": [
+        95
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "united-arab-emirates-96",
+      "query": "united arab emirates",
+      "rows": [
+        96
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "chhat-puja-97",
+      "query": "chhat puja",
+      "rows": [
+        97
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mayank-yadav-98",
+      "query": "mayank yadav",
+      "rows": [
+        98
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-99",
+      "query": "हर्षल पटेल",
+      "rows": [
+        99
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-100",
+      "query": "കവര്ച്ച",
+      "rows": [
+        100
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-101",
+      "query": "खेळाडू",
+      "rows": [
+        101
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ind-vs-sl-102",
+      "query": "ind vs sl",
+      "rows": [
+        102
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "eng-aus-103",
+      "query": "eng बनाम aus",
+      "rows": [
+        103
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "faa-ground-stop-flights-cancelled-104",
+      "query": "faa ground stop flights cancelled",
+      "rows": [
+        104
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-105",
+      "query": "ভারত বনাম নিউজিল্যান্ড",
+      "rows": [
+        105
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sam-curran-106",
+      "query": "sam curran",
+      "rows": [
+        106
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sheikh-hasina-107",
+      "query": "sheikh hasina",
+      "rows": [
+        107
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bihar-vs-saurashtra-108",
+      "query": "bihar vs saurashtra",
+      "rows": [
+        108
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-109",
+      "query": "నది",
+      "rows": [
+        109
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-110",
+      "query": "किसान",
+      "rows": [
+        110
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ashvir-singh-johal-111",
+      "query": "ashvir singh johal",
+      "rows": [
+        111
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kraken-112",
+      "query": "kraken",
+      "rows": [
+        112
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "karnataka-vs-bengal-113",
+      "query": "karnataka vs bengal",
+      "rows": [
+        113
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "15-114",
+      "query": "कंपनियों को 15 नवंबर तक फंड जमा करना होगा देरी होने पर जुर्माना लग सकता है",
+      "rows": [
+        114
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-115",
+      "query": "ടൊവിനോ തോമസ്",
+      "rows": [
+        115
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kumamoto-masters-japan-2026-116",
+      "query": "kumamoto masters japan 2026",
+      "rows": [
+        116
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kerala-vs-madhya-pradesh-117",
+      "query": "kerala vs madhya pradesh",
+      "rows": [
+        117
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-118",
+      "query": "१६ नवम्बर",
+      "rows": [
+        118
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "harshal-patel-119",
+      "query": "harshal patel",
+      "rows": [
+        119
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "jaden-smith-120",
+      "query": "jaden smith",
+      "rows": [
+        120
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "liner-121",
+      "query": "liner",
+      "rows": [
+        121
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-122",
+      "query": "कुंभ राशि",
+      "rows": [
+        122
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "group-captain-123",
+      "query": "group captain",
+      "rows": [
+        123
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "vihaan-malhotra-124",
+      "query": "vihaan malhotra",
+      "rows": [
+        124
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sydney-sixers-vs-melbourne-renegades-125",
+      "query": "sydney sixers vs melbourne renegades",
+      "rows": [
+        125
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "cavaliers-vs-mavericks-126",
+      "query": "cavaliers vs mavericks",
+      "rows": [
+        126
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "stephen-thompson-127",
+      "query": "stephen thompson",
+      "rows": [
+        127
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "liam-neeson-128",
+      "query": "liam neeson",
+      "rows": [
+        128
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "chatt-puja-129",
+      "query": "chatt puja",
+      "rows": [
+        129
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "john-doe-film-130",
+      "query": "john doe film",
+      "rows": [
+        130
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-131",
+      "query": "ബോക്സ് ഓഫീസ്",
+      "rows": [
+        131
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-132",
+      "query": "दुल्हन",
+      "rows": [
+        132
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-133",
+      "query": "मैथिली ठाकुर",
+      "rows": [
+        133
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-134",
+      "query": "रेलगाड़ी",
+      "rows": [
+        134
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "nitto-atp-finals-135",
+      "query": "nitto atp finals",
+      "rows": [
+        135
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "chhath-136",
+      "query": "chhath",
+      "rows": [
+        136
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "akash-deep-137",
+      "query": "akash deep",
+      "rows": [
+        137
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rizwanullah-138",
+      "query": "rizwanullah",
+      "rows": [
+        138
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-139",
+      "query": "গ্রেফতার",
+      "rows": [
+        139
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-140",
+      "query": "यमुना एक्सप्रेसवे",
+      "rows": [
+        140
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "15-141",
+      "query": "15",
+      "rows": [
+        141
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-142",
+      "query": "जवाहरलाल नेहरू",
+      "rows": [
+        142
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "20-143",
+      "query": "இருபது20",
+      "rows": [
+        143
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-144",
+      "query": "अधिग्रहण",
+      "rows": [
+        144
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-145",
+      "query": "ಸೂರ್ಯಕುಮಾರ್ ಯಾದವ್",
+      "rows": [
+        145
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sweden-vs-bosnia-and-herzegovina-146",
+      "query": "sweden vs bosnia and herzegovina",
+      "rows": [
+        146
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "dominos-147",
+      "query": "dominos",
+      "rows": [
+        147
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "weather-shimla-148",
+      "query": "weather shimla",
+      "rows": [
+        148
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "niqab-shafiq-149",
+      "query": "niqab shafiq",
+      "rows": [
+        149
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ufc-335-150",
+      "query": "ufc 335",
+      "rows": [
+        150
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ravindra-jadeja-151",
+      "query": "ravindra jadeja",
+      "rows": [
+        151
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-152",
+      "query": "கிரிக்கெட்",
+      "rows": [
+        152
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "alberto-costa-153",
+      "query": "alberto costa",
+      "rows": [
+        153
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "goncalo-ramos-154",
+      "query": "gonçalo ramos",
+      "rows": [
+        154
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-155",
+      "query": "ಬಿ.ಕೆ. ಹರಿಪ್ರಸಾದ್",
+      "rows": [
+        155
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bhavish-aggarwal-156",
+      "query": "bhavish aggarwal",
+      "rows": [
+        156
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-157",
+      "query": "புயல்",
+      "rows": [
+        157
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sayan-ghosh-158",
+      "query": "sayan ghosh",
+      "rows": [
+        158
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-159",
+      "query": "ਮੌਸਮ",
+      "rows": [
+        159
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "weather-delhi-160",
+      "query": "weather delhi",
+      "rows": [
+        160
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-161",
+      "query": "കുവൈറ്റ്",
+      "rows": [
+        161
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "magnus-carlsen-162",
+      "query": "magnus carlsen",
+      "rows": [
+        162
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-163",
+      "query": "वीवो",
+      "rows": [
+        163
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-164",
+      "query": "শালিমার স্টেশন",
+      "rows": [
+        164
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "lieutenant-165",
+      "query": "lieutenant",
+      "rows": [
+        165
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-166",
+      "query": "ભારતીય રાષ્ટ્રીય ક્રિકેટ ટીમ વિ. ન્યુ ઝિલેન્ડ રાષ્ટ્રીય ક્રિકેટ ટીમ મેચનું સ્કોરકાર્ડ",
+      "rows": [
+        166
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "new-toyota-fortuner-spy-shots-argentina-167",
+      "query": "new toyota fortuner spy shots argentina",
+      "rows": [
+        167
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sooraj-barjatya-168",
+      "query": "sooraj barjatya",
+      "rows": [
+        168
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "austria-vs-ireland-169",
+      "query": "austria vs ireland",
+      "rows": [
+        169
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bitcoin-170",
+      "query": "bitcoin",
+      "rows": [
+        170
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-171",
+      "query": "ಟ್ವೆಂಟಿ೨೦",
+      "rows": [
+        171
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-172",
+      "query": "భారత్ వర్సెస్ న్యూజీలాండ్",
+      "rows": [
+        172
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "romania-vs-poland-173",
+      "query": "romania vs poland",
+      "rows": [
+        173
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "urvil-patel-174",
+      "query": "urvil patel",
+      "rows": [
+        174
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "karun-nair-175",
+      "query": "karun nair",
+      "rows": [
+        175
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-176",
+      "query": "திரைப்படத் தயாரிப்பாளர்",
+      "rows": [
+        176
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "saff-championship-177",
+      "query": "saff championship",
+      "rows": [
+        177
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "pelicans-vs-nuggets-178",
+      "query": "pelicans vs nuggets",
+      "rows": [
+        178
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "brazil-football-179",
+      "query": "brazil football",
+      "rows": [
+        179
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-stats-180",
+      "query": "india national cricket team vs new zealand national cricket team stats",
+      "rows": [
+        180
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-181",
+      "query": "ਅੰਮ੍ਰਿਤਪਾਲ ਸਿੰਘ",
+      "rows": [
+        181
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-182",
+      "query": "गुरुग्राम",
+      "rows": [
+        182
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sameer-rizvi-183",
+      "query": "sameer rizvi",
+      "rows": [
+        183
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mukesh-kumar-184",
+      "query": "mukesh kumar",
+      "rows": [
+        184
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sharvari-wagh-185",
+      "query": "sharvari wagh",
+      "rows": [
+        185
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "prabhsimran-singh-186",
+      "query": "prabhsimran singh",
+      "rows": [
+        186
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "al-wasl-vs-al-nasr-187",
+      "query": "al wasl vs al nasr",
+      "rows": [
+        187
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "66-188",
+      "query": "ദേശീയപാത 66",
+      "rows": [
+        188
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "weather-new-delhi-189",
+      "query": "weather new delhi",
+      "rows": [
+        189
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-190",
+      "query": "രാഹുല് ഗാന്ധി",
+      "rows": [
+        190
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "women-s-big-bash-league-191",
+      "query": "women's big bash league",
+      "rows": [
+        191
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "real-madrid-vs-levante-badalona-192",
+      "query": "real madrid vs levante badalona",
+      "rows": [
+        192
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-193",
+      "query": "മൊസാദ്",
+      "rows": [
+        193
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "hussain-sajwani-194",
+      "query": "hussain sajwani",
+      "rows": [
+        194
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-195",
+      "query": "చిత్ర దర్శకుడు",
+      "rows": [
+        195
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-196",
+      "query": "చందమామ",
+      "rows": [
+        196
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ayushmann-khurrana-197",
+      "query": "ayushmann khurrana",
+      "rows": [
+        197
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "vinicius-junior-198",
+      "query": "vinícius júnior",
+      "rows": [
+        198
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "avesh-khan-199",
+      "query": "avesh khan",
+      "rows": [
+        199
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "josh-clarkson-200",
+      "query": "josh clarkson",
+      "rows": [
+        200
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "hunger-games-201",
+      "query": "hunger games",
+      "rows": [
+        201
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "georgia-vs-hungary-202",
+      "query": "georgia vs hungary",
+      "rows": [
+        202
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "vaibhav-sooryavanshi-203",
+      "query": "vaibhav sooryavanshi",
+      "rows": [
+        203
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "weather-agra-204",
+      "query": "weather agra",
+      "rows": [
+        204
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "shahrukh-khan-205",
+      "query": "shahrukh khan",
+      "rows": [
+        205
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-206",
+      "query": "व्यापार",
+      "rows": [
+        206
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-207",
+      "query": "जेन्सेन हुआंग",
+      "rows": [
+        207
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "wta-finals-208",
+      "query": "wta finals",
+      "rows": [
+        208
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "neeraj-chopra-209",
+      "query": "neeraj chopra",
+      "rows": [
+        209
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-210",
+      "query": "बांग्लादेश",
+      "rows": [
+        210
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kar-vs-ben-211",
+      "query": "kar vs ben",
+      "rows": [
+        211
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-212",
+      "query": "భారత జాతీయ క్రికెట్ జట్టు వర్సెస్ న్యూజిలాండ్ జాతీయ క్రికెట్ జట్టు మ్యాచ్ స్కోర్కార్డ్",
+      "rows": [
+        212
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "adelaide-strikers-vs-perth-scorchers-213",
+      "query": "adelaide strikers vs perth scorchers",
+      "rows": [
+        213
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "movie-roles-214",
+      "query": "movie roles",
+      "rows": [
+        214
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "georgia-215",
+      "query": "georgia",
+      "rows": [
+        215
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-216",
+      "query": "संजय दत्त",
+      "rows": [
+        216
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bihar-cricket-team-vs-saurashtra-cricket-team-match-scorecard-217",
+      "query": "bihar cricket team vs saurashtra cricket team match scorecard",
+      "rows": [
+        217
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "keito-nakamura-218",
+      "query": "keito nakamura",
+      "rows": [
+        218
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-219",
+      "query": "कमळी",
+      "rows": [
+        219
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-220",
+      "query": "राहुल गांधी",
+      "rows": [
+        220
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "algeria-vs-togo-221",
+      "query": "algeria vs togo",
+      "rows": [
+        221
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mumbai-vs-hyderabad-mushtaq-ali-trophy-222",
+      "query": "mumbai vs hyderabad mushtaq ali trophy",
+      "rows": [
+        222
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "chelsea-vs-man-city-223",
+      "query": "chelsea vs man city",
+      "rows": [
+        223
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "elina-svitolina-224",
+      "query": "elina svitolina",
+      "rows": [
+        224
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "gold-silver-rate-225",
+      "query": "gold silver rate",
+      "rows": [
+        225
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-226",
+      "query": "গুরনুর ব্রার",
+      "rows": [
+        226
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "mirra-andreeva-227",
+      "query": "mirra andreeva",
+      "rows": [
+        227
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "neem-karoli-baba-228",
+      "query": "neem karoli baba",
+      "rows": [
+        228
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-229",
+      "query": "गोविंदा",
+      "rows": [
+        229
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-230",
+      "query": "ਪੰਜਾਬ",
+      "rows": [
+        230
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "pankaj-tripathi-new-movie-231",
+      "query": "pankaj tripathi new movie",
+      "rows": [
+        231
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "student-of-the-year-after-dark-cast-232",
+      "query": "student of the year after dark cast",
+      "rows": [
+        232
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "neetu-kapoor-233",
+      "query": "neetu kapoor",
+      "rows": [
+        233
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sam-konstas-234",
+      "query": "sam konstas",
+      "rows": [
+        234
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-235",
+      "query": "बहरीन",
+      "rows": [
+        235
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ravi-poojary-236",
+      "query": "ravi poojary",
+      "rows": [
+        236
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "warriors-vs-lions-237",
+      "query": "warriors vs lions",
+      "rows": [
+        237
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "deepak-chahar-238",
+      "query": "deepak chahar",
+      "rows": [
+        238
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-239",
+      "query": "સમાચાર",
+      "rows": [
+        239
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-240",
+      "query": "ಹೆಚ್.ಡಿ.ಕುಮಾರಸ್ವಾಮಿ",
+      "rows": [
+        240
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bigg-boss-20-today-full-episode-241",
+      "query": "bigg boss 20 today full episode",
+      "rows": [
+        241
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "video-games-xbox-playback-242",
+      "query": "video games xbox playback",
+      "rows": [
+        242
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-243",
+      "query": "કેરેટ",
+      "rows": [
+        243
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-244",
+      "query": "ससुर",
+      "rows": [
+        244
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "adelaide-strikers-vs-perth-scorchers-women-match-scorecard-245",
+      "query": "adelaide strikers vs perth scorchers women match scorecard",
+      "rows": [
+        245
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "abu-dhabi-t10-246",
+      "query": "abu dhabi t10",
+      "rows": [
+        246
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "12-12-12-247",
+      "query": "12 12 12",
+      "rows": [
+        247
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-248",
+      "query": "ഗുര്നൂര് ബ്രാര്",
+      "rows": [
+        248
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kosovo-vs-israel-249",
+      "query": "kosovo vs israel",
+      "rows": [
+        249
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "jaydev-unadkat-250",
+      "query": "jaydev unadkat",
+      "rows": [
+        250
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "abhijeet-tomar-251",
+      "query": "abhijeet tomar",
+      "rows": [
+        251
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "chetan-sakariya-252",
+      "query": "chetan sakariya",
+      "rows": [
+        252
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "btc-253",
+      "query": "btc",
+      "rows": [
+        253
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-254",
+      "query": "छात्रवृत्ति",
+      "rows": [
+        254
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bruno-fernandes-255",
+      "query": "bruno fernandes",
+      "rows": [
+        255
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-256",
+      "query": "लारा दत्ता",
+      "rows": [
+        256
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-257",
+      "query": "आदिनाथ कोठारे",
+      "rows": [
+        257
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-258",
+      "query": "ನವೆಂಬರ್",
+      "rows": [
+        258
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "india-pakistan-259",
+      "query": "india pakistan",
+      "rows": [
+        259
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-260",
+      "query": "जनहित याचिका",
+      "rows": [
+        260
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "us-iran-war-261",
+      "query": "us iran war",
+      "rows": [
+        261
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-262",
+      "query": "वकील",
+      "rows": [
+        262
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "marc-cucurella-263",
+      "query": "marc cucurella",
+      "rows": [
+        263
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "charith-asalanka-264",
+      "query": "charith asalanka",
+      "rows": [
+        264
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "raf-265",
+      "query": "raf",
+      "rows": [
+        265
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bouma-film-266",
+      "query": "bouma film",
+      "rows": [
+        266
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-267",
+      "query": "कुलदीप यादव",
+      "rows": [
+        267
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "8th-pay-commission-268",
+      "query": "8th pay commission",
+      "rows": [
+        268
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sbi-clerk-prelims-result-269",
+      "query": "sbi clerk prelims result",
+      "rows": [
+        269
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-270",
+      "query": "ಏಷ್ಯಾ ಕಪ್",
+      "rows": [
+        270
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "amrapali-271",
+      "query": "amrapali",
+      "rows": [
+        271
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bigg-boss-20-272",
+      "query": "bigg boss 20",
+      "rows": [
+        272
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-273",
+      "query": "स्टार्टअप कंपनी",
+      "rows": [
+        273
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "prithvi-shaw-274",
+      "query": "prithvi shaw",
+      "rows": [
+        274
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-275",
+      "query": "ക്രിസ്റ്റ്യാനോ റൊണാള്ഡോ",
+      "rows": [
+        275
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "northern-ireland-vs-ukraine-276",
+      "query": "northern ireland vs ukraine",
+      "rows": [
+        276
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "game-of-thrones-277",
+      "query": "game of thrones",
+      "rows": [
+        277
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "raj-thackeray-278",
+      "query": "raj thackeray",
+      "rows": [
+        278
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "aadhaar-card-279",
+      "query": "aadhaar card",
+      "rows": [
+        279
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ethanol-fuel-280",
+      "query": "ethanol fuel",
+      "rows": [
+        280
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "anukul-roy-281",
+      "query": "anukul roy",
+      "rows": [
+        281
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-282",
+      "query": "రాయితీ",
+      "rows": [
+        282
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kick-283",
+      "query": "kick",
+      "rows": [
+        283
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-284",
+      "query": "மும்பை இந்தியன்ஸ்",
+      "rows": [
+        284
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "super-league-kerala-285",
+      "query": "super league kerala",
+      "rows": [
+        285
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-286",
+      "query": "भारतीय वायुसेना",
+      "rows": [
+        286
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-287",
+      "query": "অভিষেক ব্যানার্জি",
+      "rows": [
+        287
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-288",
+      "query": "কলকাতা হাইকোর্ট",
+      "rows": [
+        288
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-289",
+      "query": "महानदी कोलफील्ड्स",
+      "rows": [
+        289
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kick-stream-290",
+      "query": "kick stream",
+      "rows": [
+        290
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ajitabh-bachchan-291",
+      "query": "ajitabh bachchan",
+      "rows": [
+        291
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-292",
+      "query": "అభిషేక్ శర్మ",
+      "rows": [
+        292
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "service-293",
+      "query": "service",
+      "rows": [
+        293
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "zimbabwe-cricket-294",
+      "query": "zimbabwe cricket",
+      "rows": [
+        294
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "lions-vs-western-province-295",
+      "query": "lions vs western province",
+      "rows": [
+        295
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "man-utd-vs-crystal-palace-296",
+      "query": "man utd vs crystal palace",
+      "rows": [
+        296
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "pink-line-297",
+      "query": "pink line",
+      "rows": [
+        297
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "samay-raina-298",
+      "query": "samay raina",
+      "rows": [
+        298
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "daniel-altmaier-299",
+      "query": "daniel altmaier",
+      "rows": [
+        299
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-300",
+      "query": "সুদ",
+      "rows": [
+        300
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bigg-boss-301",
+      "query": "bigg boss",
+      "rows": [
+        301
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "fatima-sana-302",
+      "query": "fatima sana",
+      "rows": [
+        302
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "diogo-dalot-303",
+      "query": "diogo dalot",
+      "rows": [
+        303
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-304",
+      "query": "സൂര്യകുമാര് യാദവ്",
+      "rows": [
+        304
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "pm-awas-yojana-odisha-305",
+      "query": "pm awas yojana odisha",
+      "rows": [
+        305
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "big-boss-306",
+      "query": "big boss",
+      "rows": [
+        306
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "flavio-nazinho-307",
+      "query": "flávio nazinho",
+      "rows": [
+        307
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-308",
+      "query": "वृश्चिक राशि",
+      "rows": [
+        308
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "antonio-nusa-309",
+      "query": "antonio nusa",
+      "rows": [
+        309
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-310",
+      "query": "வங்கி",
+      "rows": [
+        310
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rocky-311",
+      "query": "rocky",
+      "rows": [
+        311
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-312",
+      "query": "അനിരുദ്ധ് രവിചന്ദര്",
+      "rows": [
+        312
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "uber-313",
+      "query": "uber",
+      "rows": [
+        313
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-314",
+      "query": "పౌల్ట్రీ",
+      "rows": [
+        314
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "estevao-willian-315",
+      "query": "estêvão willian",
+      "rows": [
+        315
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "tamanna-bhatia-316",
+      "query": "tamanna bhatia",
+      "rows": [
+        316
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "irctc-ticket-booking-317",
+      "query": "irctc ticket booking",
+      "rows": [
+        317
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "zee5-318",
+      "query": "zee5",
+      "rows": [
+        318
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-319",
+      "query": "ಸಕ್ಕರೆ ಕಾರ್ಖಾನೆ",
+      "rows": [
+        319
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-320",
+      "query": "मोतीलाल ओसवाल",
+      "rows": [
+        320
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "drishyam-3-ajay-devgn-321",
+      "query": "drishyam 3 ajay devgn",
+      "rows": [
+        321
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "black-clover-episode-7-322",
+      "query": "black clover episode 7",
+      "rows": [
+        322
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "lj-cryer-323",
+      "query": "lj cryer",
+      "rows": [
+        323
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "hindi-song-324",
+      "query": "hindi song",
+      "rows": [
+        324
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "fssai-325",
+      "query": "fssai",
+      "rows": [
+        325
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ranveer-singh-326",
+      "query": "ranveer singh",
+      "rows": [
+        326
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kerala-cricket-team-vs-madhya-pradesh-cricket-team-match-scorecard-327",
+      "query": "kerala cricket team vs madhya pradesh cricket team match scorecard",
+      "rows": [
+        327
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "my-328",
+      "query": "my",
+      "rows": [
+        328
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "soty-after-dark-329",
+      "query": "soty after dark",
+      "rows": [
+        329
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-330",
+      "query": "શુક્ર",
+      "rows": [
+        330
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "morocco-national-football-team-331",
+      "query": "morocco national football team",
+      "rows": [
+        331
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-332",
+      "query": "ఇల్లు ఇల్లాలు పిల్లలు",
+      "rows": [
+        332
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "bengaluru-united-vs-real-kashmir-standings-333",
+      "query": "bengaluru united vs real kashmir standings",
+      "rows": [
+        333
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-334",
+      "query": "വി.ഡി. സതീശന്",
+      "rows": [
+        334
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "interstellar-335",
+      "query": "interstellar",
+      "rows": [
+        335
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-336",
+      "query": "ಲೋಕಾಯುಕ್ತ",
+      "rows": [
+        336
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "om-movie-dhanush-337",
+      "query": "om movie dhanush",
+      "rows": [
+        337
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "delhi-cricket-team-vs-jammu-and-kashmir-cricket-team-match-scorecard-338",
+      "query": "delhi cricket team vs jammu and kashmir cricket team match scorecard",
+      "rows": [
+        338
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "animal-339",
+      "query": "animal",
+      "rows": [
+        339
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "endrick-340",
+      "query": "endrick",
+      "rows": [
+        340
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "taylor-fritz-341",
+      "query": "taylor fritz",
+      "rows": [
+        341
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-342",
+      "query": "ಸೋನಿಯಾ ಗಾಂಧಿ",
+      "rows": [
+        342
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kerala-jackpot-result-343",
+      "query": "kerala jackpot result",
+      "rows": [
+        343
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "ps5-price-344",
+      "query": "ps5 price",
+      "rows": [
+        344
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "kp-345",
+      "query": "kp",
+      "rows": [
+        345
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "tn-vs-rai-346",
+      "query": "tn vs rai",
+      "rows": [
+        346
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "usd-347",
+      "query": "usd",
+      "rows": [
+        347
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-348",
+      "query": "नई दिल्ली",
+      "rows": [
+        348
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "sophie-devine-349",
+      "query": "sophie devine",
+      "rows": [
+        349
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "tata-motors-350",
+      "query": "tata motors",
+      "rows": [
+        350
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-351",
+      "query": "எஸ். பி. வேலுமணி",
+      "rows": [
+        351
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "jewellery-352",
+      "query": "jewellery",
+      "rows": [
+        352
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "anil-kapoor-353",
+      "query": "anil kapoor",
+      "rows": [
+        353
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "virat-singh-355",
+      "query": "virat singh",
+      "rows": [
+        355
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "wedding-356",
+      "query": "wedding",
+      "rows": [
+        356
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-357",
+      "query": "১৪ নভেম্বর",
+      "rows": [
+        357
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "loki-358",
+      "query": "loki",
+      "rows": [
+        358
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "query-359",
+      "query": "अपराध",
+      "rows": [
+        359
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    },
+    {
+      "key": "rockets-vs-jazz-360",
+      "query": "rockets vs jazz",
+      "rows": [
+        360
+      ],
+      "state": "research-pending",
+      "possibleExisting": []
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "india vs new zealand",
+      "group": "india-vs-new-zealand-1",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 2,
+      "query": "mohit ulva",
+      "group": "mohit-ulva-2",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 3,
+      "query": "japan vs brazil",
+      "group": "japan-vs-brazil-3",
+      "slug": "japan-brazil-3-2-november-2026-singapore-goals-result",
+      "state": "already-covered"
+    },
+    {
+      "row": 4,
+      "query": "india national cricket team vs new zealand national cricket team match scorecard",
+      "group": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scor-4",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 5,
+      "query": "portugal national football team vs denmark national football team standings",
+      "group": "portugal-national-football-team-vs-denmark-national-football-team-standings-5",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 6,
+      "query": "india vs bhutan",
+      "group": "india-vs-bhutan-6",
+      "slug": "india-bhutan-saff-2026-semi-final-result-goals-var",
+      "state": "already-covered"
+    },
+    {
+      "row": 7,
+      "query": "norway vs wales",
+      "group": "norway-vs-wales-7",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 8,
+      "query": "भारत बनाम न्यूजीलैंड",
+      "group": "query-8",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 9,
+      "query": "england cricket team vs australia national cricket team match scorecard",
+      "group": "england-cricket-team-vs-australia-national-cricket-team-match-scorecard-9",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 10,
+      "query": "giribabu",
+      "group": "giribabu-10",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 11,
+      "query": "ruturaj gaikwad",
+      "group": "ruturaj-gaikwad-11",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 12,
+      "query": "giri babu",
+      "group": "giri-babu-12",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 13,
+      "query": "abdul qadir",
+      "group": "abdul-qadir-13",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 14,
+      "query": "retirement",
+      "group": "retirement-14",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 15,
+      "query": "ranbir kapoor ramayana movie",
+      "group": "ranbir-kapoor-ramayana-movie-15",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 16,
+      "query": "riley meredith",
+      "group": "riley-meredith-16",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 17,
+      "query": "icc",
+      "group": "icc-17",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 18,
+      "query": "rohit sharma",
+      "group": "rohit-sharma-18",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 19,
+      "query": "kerala lottery result karunya kr 776",
+      "group": "kerala-lottery-result-karunya-kr-776-19",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 20,
+      "query": "harshit rana",
+      "group": "harshit-rana-20",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 21,
+      "query": "shreyas iyer",
+      "group": "shreyas-iyer-21",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 22,
+      "query": "khilan patel",
+      "group": "khilan-patel-2026-gujarat-odisha-t20",
+      "slug": "khilan-patel-84-off-29-gujarat-odisha-t20-2026",
+      "state": "local-draft"
+    },
+    {
+      "row": 23,
+      "query": "ishan kishan",
+      "group": "ishan-kishan-23",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 24,
+      "query": "ufc",
+      "group": "ufc-24",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 25,
+      "query": "உணவு",
+      "group": "query-25",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 26,
+      "query": "jamaica vs mexico",
+      "group": "jamaica-vs-mexico-26",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 27,
+      "query": "naman dhir",
+      "group": "naman-dhir-27",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 28,
+      "query": "திருமணம்",
+      "group": "query-28",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 29,
+      "query": "रणबाली",
+      "group": "query-29",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 30,
+      "query": "आंधी",
+      "group": "query-30",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 31,
+      "query": "सूर्यकुमार यादव",
+      "group": "query-31",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 32,
+      "query": "john langford quits microsoft",
+      "group": "john-langford-quits-microsoft-32",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 33,
+      "query": "michael bracewell",
+      "group": "michael-bracewell-33",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 34,
+      "query": "வழக்கு",
+      "group": "query-34",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 35,
+      "query": "विवाह",
+      "group": "query-35",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 36,
+      "query": "afsar zazai",
+      "group": "afsar-zazai-36",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 37,
+      "query": "నవంబర్ 15",
+      "group": "15-37",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 38,
+      "query": "ధర",
+      "group": "query-38",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 39,
+      "query": "carlos forbs",
+      "group": "carlos-forbs-39",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 40,
+      "query": "manal chauhan",
+      "group": "manal-chauhan-40",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 41,
+      "query": "haiti vs usa",
+      "group": "haiti-vs-usa-41",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 42,
+      "query": "ananya birla",
+      "group": "ananya-birla-42",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 43,
+      "query": "rrb exam city intimation slip",
+      "group": "rrb-exam-city-intimation-slip-43",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 44,
+      "query": "सूर्य",
+      "group": "query-44",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 45,
+      "query": "spacex starship launch",
+      "group": "spacex-starship-launch-45",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 46,
+      "query": "yousri belgaroui",
+      "group": "yousri-belgaroui-46",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 47,
+      "query": "स्मार्ट टीवी",
+      "group": "query-47",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 48,
+      "query": "nyt strands hints",
+      "group": "nyt-strands-hints-48",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 49,
+      "query": "സുപ്രിയ മേനോന്",
+      "group": "query-49",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 50,
+      "query": "कंपनी",
+      "group": "query-50",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 51,
+      "query": "फ्लिपकार्ट",
+      "group": "query-51",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 52,
+      "query": "মিমি চক্রবর্তী",
+      "group": "query-52",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 53,
+      "query": "கொள்ளை",
+      "group": "query-53",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 54,
+      "query": "कन्या राशि",
+      "group": "query-54",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 55,
+      "query": "மு. க. ஸ்டாலின்",
+      "group": "query-55",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 56,
+      "query": "tom banton",
+      "group": "tom-banton-56",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 57,
+      "query": "రేషన్",
+      "group": "query-57",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 58,
+      "query": "சேலம்",
+      "group": "query-58",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 59,
+      "query": "झारखंड एकेडमिक काउंसिल",
+      "group": "query-59",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 60,
+      "query": "the terminal list prime video",
+      "group": "the-terminal-list-prime-video-60",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 61,
+      "query": "அமைச்சர்",
+      "group": "query-61",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 62,
+      "query": "rockstar games gta vi",
+      "group": "rockstar-games-gta-vi-62",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 63,
+      "query": "ladakh",
+      "group": "ladakh-63",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 64,
+      "query": "दिल्ली सरकार",
+      "group": "query-64",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 65,
+      "query": "અમિતાભ બચ્ચન",
+      "group": "query-65",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 66,
+      "query": "એશિયા કપ",
+      "group": "query-66",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 67,
+      "query": "india vs new zealand football",
+      "group": "india-vs-new-zealand-football-67",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 68,
+      "query": "వీరేంద్ర సెహ్వాగ్",
+      "group": "query-68",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 69,
+      "query": "ब्याज दर",
+      "group": "query-69",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 70,
+      "query": "मछली",
+      "group": "query-70",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 71,
+      "query": "पुलिस",
+      "group": "query-71",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 72,
+      "query": "आर्यवीर सहवाग",
+      "group": "query-72",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 73,
+      "query": "anvay dravid",
+      "group": "anvay-dravid-73",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 74,
+      "query": "dazn",
+      "group": "dazn-74",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 75,
+      "query": "madhya pradesh lokayukta raid sharma",
+      "group": "madhya-pradesh-lokayukta-raid-sharma-75",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 76,
+      "query": "ind vs nz test",
+      "group": "ind-vs-nz-test-76",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 77,
+      "query": "रमोला बच्चन",
+      "group": "query-77",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 78,
+      "query": "टोयोटा इनोवा हाईक्रॉस",
+      "group": "query-78",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 79,
+      "query": "adam zampa",
+      "group": "adam-zampa-79",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 80,
+      "query": "റിമി ടോമി",
+      "group": "query-80",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 81,
+      "query": "england cricket team",
+      "group": "england-cricket-team-81",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 82,
+      "query": "శరీరం",
+      "group": "query-82",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 83,
+      "query": "uroš medić",
+      "group": "uros-medic-83",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 84,
+      "query": "വില",
+      "group": "query-84",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 85,
+      "query": "आईसीसी",
+      "group": "query-85",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 86,
+      "query": "heat vs pistons",
+      "group": "heat-vs-pistons-86",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 87,
+      "query": "अक्षर पटेल",
+      "group": "query-87",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 88,
+      "query": "ईशान किशन",
+      "group": "query-88",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 89,
+      "query": "timberwolves vs bulls",
+      "group": "timberwolves-vs-bulls-89",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 90,
+      "query": "తనిష్క్",
+      "group": "query-90",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 91,
+      "query": "bilal hasan",
+      "group": "bilal-hasan-91",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 92,
+      "query": "cameron green",
+      "group": "cameron-green-92",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 93,
+      "query": "இந்தியா - நியூசிலாந்து",
+      "group": "query-93",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 94,
+      "query": "வட்டி",
+      "group": "query-94",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 95,
+      "query": "പാകിസ്ഥാന്",
+      "group": "query-95",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 96,
+      "query": "united arab emirates",
+      "group": "united-arab-emirates-96",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 97,
+      "query": "chhat puja",
+      "group": "chhat-puja-97",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 98,
+      "query": "mayank yadav",
+      "group": "mayank-yadav-98",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 99,
+      "query": "हर्षल पटेल",
+      "group": "query-99",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 100,
+      "query": "കവര്ച്ച",
+      "group": "query-100",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 101,
+      "query": "खेळाडू",
+      "group": "query-101",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 102,
+      "query": "ind vs sl",
+      "group": "ind-vs-sl-102",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 103,
+      "query": "eng बनाम aus",
+      "group": "eng-aus-103",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 104,
+      "query": "faa ground stop flights cancelled",
+      "group": "faa-ground-stop-flights-cancelled-104",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 105,
+      "query": "ভারত বনাম নিউজিল্যান্ড",
+      "group": "query-105",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 106,
+      "query": "sam curran",
+      "group": "sam-curran-106",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 107,
+      "query": "sheikh hasina",
+      "group": "sheikh-hasina-107",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 108,
+      "query": "bihar vs saurashtra",
+      "group": "bihar-vs-saurashtra-108",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 109,
+      "query": "నది",
+      "group": "query-109",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 110,
+      "query": "किसान",
+      "group": "query-110",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 111,
+      "query": "ashvir singh johal",
+      "group": "ashvir-singh-johal-111",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 112,
+      "query": "kraken",
+      "group": "kraken-112",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 113,
+      "query": "karnataka vs bengal",
+      "group": "karnataka-vs-bengal-113",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 114,
+      "query": "कंपनियों को 15 नवंबर तक फंड जमा करना होगा देरी होने पर जुर्माना लग सकता है",
+      "group": "15-114",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 115,
+      "query": "ടൊവിനോ തോമസ്",
+      "group": "query-115",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 116,
+      "query": "kumamoto masters japan 2026",
+      "group": "kumamoto-masters-japan-2026-116",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 117,
+      "query": "kerala vs madhya pradesh",
+      "group": "kerala-vs-madhya-pradesh-117",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 118,
+      "query": "१६ नवम्बर",
+      "group": "query-118",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 119,
+      "query": "harshal patel",
+      "group": "harshal-patel-119",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 120,
+      "query": "jaden smith",
+      "group": "jaden-smith-120",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 121,
+      "query": "liner",
+      "group": "liner-121",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 122,
+      "query": "कुंभ राशि",
+      "group": "query-122",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 123,
+      "query": "group captain",
+      "group": "group-captain-123",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 124,
+      "query": "vihaan malhotra",
+      "group": "vihaan-malhotra-124",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 125,
+      "query": "sydney sixers vs melbourne renegades",
+      "group": "sydney-sixers-vs-melbourne-renegades-125",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 126,
+      "query": "cavaliers vs mavericks",
+      "group": "cavaliers-vs-mavericks-126",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 127,
+      "query": "stephen thompson",
+      "group": "stephen-thompson-127",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 128,
+      "query": "liam neeson",
+      "group": "liam-neeson-128",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 129,
+      "query": "chatt puja",
+      "group": "chatt-puja-129",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 130,
+      "query": "john doe film",
+      "group": "john-doe-film-130",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 131,
+      "query": "ബോക്സ് ഓഫീസ്",
+      "group": "query-131",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 132,
+      "query": "दुल्हन",
+      "group": "query-132",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 133,
+      "query": "मैथिली ठाकुर",
+      "group": "query-133",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 134,
+      "query": "रेलगाड़ी",
+      "group": "query-134",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 135,
+      "query": "nitto atp finals",
+      "group": "nitto-atp-finals-135",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 136,
+      "query": "chhath",
+      "group": "chhath-136",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 137,
+      "query": "akash deep",
+      "group": "akash-deep-137",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 138,
+      "query": "rizwanullah",
+      "group": "rizwanullah-138",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 139,
+      "query": "গ্রেফতার",
+      "group": "query-139",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 140,
+      "query": "यमुना एक्सप्रेसवे",
+      "group": "query-140",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 141,
+      "query": "15",
+      "group": "15-141",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 142,
+      "query": "जवाहरलाल नेहरू",
+      "group": "query-142",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 143,
+      "query": "இருபது20",
+      "group": "20-143",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 144,
+      "query": "अधिग्रहण",
+      "group": "query-144",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 145,
+      "query": "ಸೂರ್ಯಕುಮಾರ್ ಯಾದವ್",
+      "group": "query-145",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 146,
+      "query": "sweden vs bosnia and herzegovina",
+      "group": "sweden-vs-bosnia-and-herzegovina-146",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 147,
+      "query": "dominos",
+      "group": "dominos-147",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 148,
+      "query": "weather shimla",
+      "group": "weather-shimla-148",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 149,
+      "query": "niqab shafiq",
+      "group": "niqab-shafiq-149",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 150,
+      "query": "ufc 335",
+      "group": "ufc-335-150",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 151,
+      "query": "ravindra jadeja",
+      "group": "ravindra-jadeja-151",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 152,
+      "query": "கிரிக்கெட்",
+      "group": "query-152",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 153,
+      "query": "alberto costa",
+      "group": "alberto-costa-153",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 154,
+      "query": "gonçalo ramos",
+      "group": "goncalo-ramos-154",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 155,
+      "query": "ಬಿ.ಕೆ. ಹರಿಪ್ರಸಾದ್",
+      "group": "query-155",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 156,
+      "query": "bhavish aggarwal",
+      "group": "bhavish-aggarwal-156",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 157,
+      "query": "புயல்",
+      "group": "query-157",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 158,
+      "query": "sayan ghosh",
+      "group": "sayan-ghosh-158",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 159,
+      "query": "ਮੌਸਮ",
+      "group": "query-159",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 160,
+      "query": "weather delhi",
+      "group": "weather-delhi-160",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 161,
+      "query": "കുവൈറ്റ്",
+      "group": "query-161",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 162,
+      "query": "magnus carlsen",
+      "group": "magnus-carlsen-162",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 163,
+      "query": "वीवो",
+      "group": "query-163",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 164,
+      "query": "শালিমার স্টেশন",
+      "group": "query-164",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 165,
+      "query": "lieutenant",
+      "group": "lieutenant-165",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 166,
+      "query": "ભારતીય રાષ્ટ્રીય ક્રિકેટ ટીમ વિ. ન્યુ ઝિલેન્ડ રાષ્ટ્રીય ક્રિકેટ ટીમ મેચનું સ્કોરકાર્ડ",
+      "group": "query-166",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 167,
+      "query": "new toyota fortuner spy shots argentina",
+      "group": "new-toyota-fortuner-spy-shots-argentina-167",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 168,
+      "query": "sooraj barjatya",
+      "group": "sooraj-barjatya-168",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 169,
+      "query": "austria vs ireland",
+      "group": "austria-vs-ireland-169",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 170,
+      "query": "bitcoin",
+      "group": "bitcoin-170",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 171,
+      "query": "ಟ್ವೆಂಟಿ೨೦",
+      "group": "query-171",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 172,
+      "query": "భారత్ వర్సెస్ న్యూజీలాండ్",
+      "group": "query-172",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 173,
+      "query": "romania vs poland",
+      "group": "romania-vs-poland-173",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 174,
+      "query": "urvil patel",
+      "group": "urvil-patel-174",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 175,
+      "query": "karun nair",
+      "group": "karun-nair-175",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 176,
+      "query": "திரைப்படத் தயாரிப்பாளர்",
+      "group": "query-176",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 177,
+      "query": "saff championship",
+      "group": "saff-championship-177",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 178,
+      "query": "pelicans vs nuggets",
+      "group": "pelicans-vs-nuggets-178",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 179,
+      "query": "brazil football",
+      "group": "brazil-football-179",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 180,
+      "query": "india national cricket team vs new zealand national cricket team stats",
+      "group": "india-national-cricket-team-vs-new-zealand-national-cricket-team-stats-180",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 181,
+      "query": "ਅੰਮ੍ਰਿਤਪਾਲ ਸਿੰਘ",
+      "group": "query-181",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 182,
+      "query": "गुरुग्राम",
+      "group": "query-182",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 183,
+      "query": "sameer rizvi",
+      "group": "sameer-rizvi-183",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 184,
+      "query": "mukesh kumar",
+      "group": "mukesh-kumar-184",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 185,
+      "query": "sharvari wagh",
+      "group": "sharvari-wagh-185",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 186,
+      "query": "prabhsimran singh",
+      "group": "prabhsimran-singh-186",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 187,
+      "query": "al wasl vs al nasr",
+      "group": "al-wasl-vs-al-nasr-187",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 188,
+      "query": "ദേശീയപാത 66",
+      "group": "66-188",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 189,
+      "query": "weather new delhi",
+      "group": "weather-new-delhi-189",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 190,
+      "query": "രാഹുല് ഗാന്ധി",
+      "group": "query-190",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 191,
+      "query": "women's big bash league",
+      "group": "women-s-big-bash-league-191",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 192,
+      "query": "real madrid vs levante badalona",
+      "group": "real-madrid-vs-levante-badalona-192",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 193,
+      "query": "മൊസാദ്",
+      "group": "query-193",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 194,
+      "query": "hussain sajwani",
+      "group": "hussain-sajwani-194",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 195,
+      "query": "చిత్ర దర్శకుడు",
+      "group": "query-195",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 196,
+      "query": "చందమామ",
+      "group": "query-196",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 197,
+      "query": "ayushmann khurrana",
+      "group": "ayushmann-khurrana-197",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 198,
+      "query": "vinícius júnior",
+      "group": "vinicius-junior-198",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 199,
+      "query": "avesh khan",
+      "group": "avesh-khan-199",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 200,
+      "query": "josh clarkson",
+      "group": "josh-clarkson-200",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 201,
+      "query": "hunger games",
+      "group": "hunger-games-201",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 202,
+      "query": "georgia vs hungary",
+      "group": "georgia-vs-hungary-202",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 203,
+      "query": "vaibhav sooryavanshi",
+      "group": "vaibhav-sooryavanshi-203",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 204,
+      "query": "weather agra",
+      "group": "weather-agra-204",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 205,
+      "query": "shahrukh khan",
+      "group": "shahrukh-khan-205",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 206,
+      "query": "व्यापार",
+      "group": "query-206",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 207,
+      "query": "जेन्सेन हुआंग",
+      "group": "query-207",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 208,
+      "query": "wta finals",
+      "group": "wta-finals-208",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 209,
+      "query": "neeraj chopra",
+      "group": "neeraj-chopra-209",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 210,
+      "query": "बांग्लादेश",
+      "group": "query-210",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 211,
+      "query": "kar vs ben",
+      "group": "kar-vs-ben-211",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 212,
+      "query": "భారత జాతీయ క్రికెట్ జట్టు వర్సెస్ న్యూజిలాండ్ జాతీయ క్రికెట్ జట్టు మ్యాచ్ స్కోర్కార్డ్",
+      "group": "query-212",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 213,
+      "query": "adelaide strikers vs perth scorchers",
+      "group": "adelaide-strikers-vs-perth-scorchers-213",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 214,
+      "query": "movie roles",
+      "group": "movie-roles-214",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 215,
+      "query": "georgia",
+      "group": "georgia-215",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 216,
+      "query": "संजय दत्त",
+      "group": "query-216",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 217,
+      "query": "bihar cricket team vs saurashtra cricket team match scorecard",
+      "group": "bihar-cricket-team-vs-saurashtra-cricket-team-match-scorecard-217",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 218,
+      "query": "keito nakamura",
+      "group": "keito-nakamura-218",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 219,
+      "query": "कमळी",
+      "group": "query-219",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 220,
+      "query": "राहुल गांधी",
+      "group": "query-220",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 221,
+      "query": "algeria vs togo",
+      "group": "algeria-vs-togo-221",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 222,
+      "query": "mumbai vs hyderabad mushtaq ali trophy",
+      "group": "mumbai-vs-hyderabad-mushtaq-ali-trophy-222",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 223,
+      "query": "chelsea vs man city",
+      "group": "chelsea-vs-man-city-223",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 224,
+      "query": "elina svitolina",
+      "group": "elina-svitolina-224",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 225,
+      "query": "gold silver rate",
+      "group": "gold-silver-rate-225",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 226,
+      "query": "গুরনুর ব্রার",
+      "group": "query-226",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 227,
+      "query": "mirra andreeva",
+      "group": "mirra-andreeva-227",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 228,
+      "query": "neem karoli baba",
+      "group": "neem-karoli-baba-228",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 229,
+      "query": "गोविंदा",
+      "group": "query-229",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 230,
+      "query": "ਪੰਜਾਬ",
+      "group": "query-230",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 231,
+      "query": "pankaj tripathi new movie",
+      "group": "pankaj-tripathi-new-movie-231",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 232,
+      "query": "student of the year after dark cast",
+      "group": "student-of-the-year-after-dark-cast-232",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 233,
+      "query": "neetu kapoor",
+      "group": "neetu-kapoor-233",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 234,
+      "query": "sam konstas",
+      "group": "sam-konstas-234",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 235,
+      "query": "बहरीन",
+      "group": "query-235",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 236,
+      "query": "ravi poojary",
+      "group": "ravi-poojary-236",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 237,
+      "query": "warriors vs lions",
+      "group": "warriors-vs-lions-237",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 238,
+      "query": "deepak chahar",
+      "group": "deepak-chahar-238",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 239,
+      "query": "સમાચાર",
+      "group": "query-239",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 240,
+      "query": "ಹೆಚ್.ಡಿ.ಕುಮಾರಸ್ವಾಮಿ",
+      "group": "query-240",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 241,
+      "query": "bigg boss 20 today full episode",
+      "group": "bigg-boss-20-today-full-episode-241",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 242,
+      "query": "video games xbox playback",
+      "group": "video-games-xbox-playback-242",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 243,
+      "query": "કેરેટ",
+      "group": "query-243",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 244,
+      "query": "ससुर",
+      "group": "query-244",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 245,
+      "query": "adelaide strikers vs perth scorchers women match scorecard",
+      "group": "adelaide-strikers-vs-perth-scorchers-women-match-scorecard-245",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 246,
+      "query": "abu dhabi t10",
+      "group": "abu-dhabi-t10-246",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 247,
+      "query": "12 12 12",
+      "group": "12-12-12-247",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 248,
+      "query": "ഗുര്നൂര് ബ്രാര്",
+      "group": "query-248",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 249,
+      "query": "kosovo vs israel",
+      "group": "kosovo-vs-israel-249",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 250,
+      "query": "jaydev unadkat",
+      "group": "jaydev-unadkat-250",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 251,
+      "query": "abhijeet tomar",
+      "group": "abhijeet-tomar-251",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 252,
+      "query": "chetan sakariya",
+      "group": "chetan-sakariya-252",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 253,
+      "query": "btc",
+      "group": "btc-253",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 254,
+      "query": "छात्रवृत्ति",
+      "group": "query-254",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 255,
+      "query": "bruno fernandes",
+      "group": "bruno-fernandes-255",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 256,
+      "query": "लारा दत्ता",
+      "group": "query-256",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 257,
+      "query": "आदिनाथ कोठारे",
+      "group": "query-257",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 258,
+      "query": "ನವೆಂಬರ್",
+      "group": "query-258",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 259,
+      "query": "india pakistan",
+      "group": "india-pakistan-259",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 260,
+      "query": "जनहित याचिका",
+      "group": "query-260",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 261,
+      "query": "us iran war",
+      "group": "us-iran-war-261",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 262,
+      "query": "वकील",
+      "group": "query-262",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 263,
+      "query": "marc cucurella",
+      "group": "marc-cucurella-263",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 264,
+      "query": "charith asalanka",
+      "group": "charith-asalanka-264",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 265,
+      "query": "raf",
+      "group": "raf-265",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 266,
+      "query": "bouma film",
+      "group": "bouma-film-266",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 267,
+      "query": "कुलदीप यादव",
+      "group": "query-267",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 268,
+      "query": "8th pay commission",
+      "group": "8th-pay-commission-268",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 269,
+      "query": "sbi clerk prelims result",
+      "group": "sbi-clerk-prelims-result-269",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 270,
+      "query": "ಏಷ್ಯಾ ಕಪ್",
+      "group": "query-270",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 271,
+      "query": "amrapali",
+      "group": "amrapali-271",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 272,
+      "query": "bigg boss 20",
+      "group": "bigg-boss-20-272",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 273,
+      "query": "स्टार्टअप कंपनी",
+      "group": "query-273",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 274,
+      "query": "prithvi shaw",
+      "group": "prithvi-shaw-274",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 275,
+      "query": "ക്രിസ്റ്റ്യാനോ റൊണാള്ഡോ",
+      "group": "query-275",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 276,
+      "query": "northern ireland vs ukraine",
+      "group": "northern-ireland-vs-ukraine-276",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 277,
+      "query": "game of thrones",
+      "group": "game-of-thrones-277",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 278,
+      "query": "raj thackeray",
+      "group": "raj-thackeray-278",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 279,
+      "query": "aadhaar card",
+      "group": "aadhaar-card-279",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 280,
+      "query": "ethanol fuel",
+      "group": "ethanol-fuel-280",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 281,
+      "query": "anukul roy",
+      "group": "anukul-roy-281",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 282,
+      "query": "రాయితీ",
+      "group": "query-282",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 283,
+      "query": "kick",
+      "group": "kick-283",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 284,
+      "query": "மும்பை இந்தியன்ஸ்",
+      "group": "query-284",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 285,
+      "query": "super league kerala",
+      "group": "super-league-kerala-285",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 286,
+      "query": "भारतीय वायुसेना",
+      "group": "query-286",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 287,
+      "query": "অভিষেক ব্যানার্জি",
+      "group": "query-287",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 288,
+      "query": "কলকাতা হাইকোর্ট",
+      "group": "query-288",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 289,
+      "query": "महानदी कोलफील्ड्स",
+      "group": "query-289",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 290,
+      "query": "kick stream",
+      "group": "kick-stream-290",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 291,
+      "query": "ajitabh bachchan",
+      "group": "ajitabh-bachchan-291",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 292,
+      "query": "అభిషేక్ శర్మ",
+      "group": "query-292",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 293,
+      "query": "service",
+      "group": "service-293",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 294,
+      "query": "zimbabwe cricket",
+      "group": "zimbabwe-cricket-294",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 295,
+      "query": "lions vs western province",
+      "group": "lions-vs-western-province-295",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 296,
+      "query": "man utd vs crystal palace",
+      "group": "man-utd-vs-crystal-palace-296",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 297,
+      "query": "pink line",
+      "group": "pink-line-297",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 298,
+      "query": "samay raina",
+      "group": "samay-raina-298",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 299,
+      "query": "daniel altmaier",
+      "group": "daniel-altmaier-299",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 300,
+      "query": "সুদ",
+      "group": "query-300",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 301,
+      "query": "bigg boss",
+      "group": "bigg-boss-301",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 302,
+      "query": "fatima sana",
+      "group": "fatima-sana-302",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 303,
+      "query": "diogo dalot",
+      "group": "diogo-dalot-303",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 304,
+      "query": "സൂര്യകുമാര് യാദവ്",
+      "group": "query-304",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 305,
+      "query": "pm awas yojana odisha",
+      "group": "pm-awas-yojana-odisha-305",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 306,
+      "query": "big boss",
+      "group": "big-boss-306",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 307,
+      "query": "flávio nazinho",
+      "group": "flavio-nazinho-307",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 308,
+      "query": "वृश्चिक राशि",
+      "group": "query-308",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 309,
+      "query": "antonio nusa",
+      "group": "antonio-nusa-309",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 310,
+      "query": "வங்கி",
+      "group": "query-310",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 311,
+      "query": "rocky",
+      "group": "rocky-311",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 312,
+      "query": "അനിരുദ്ധ് രവിചന്ദര്",
+      "group": "query-312",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 313,
+      "query": "uber",
+      "group": "uber-313",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 314,
+      "query": "పౌల్ట్రీ",
+      "group": "query-314",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 315,
+      "query": "estêvão willian",
+      "group": "estevao-willian-315",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 316,
+      "query": "tamanna bhatia",
+      "group": "tamanna-bhatia-316",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 317,
+      "query": "irctc ticket booking",
+      "group": "irctc-ticket-booking-317",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 318,
+      "query": "zee5",
+      "group": "zee5-318",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 319,
+      "query": "ಸಕ್ಕರೆ ಕಾರ್ಖಾನೆ",
+      "group": "query-319",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 320,
+      "query": "मोतीलाल ओसवाल",
+      "group": "query-320",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 321,
+      "query": "drishyam 3 ajay devgn",
+      "group": "drishyam-3-ajay-devgn-321",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 322,
+      "query": "black clover episode 7",
+      "group": "black-clover-episode-7-322",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 323,
+      "query": "lj cryer",
+      "group": "lj-cryer-323",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 324,
+      "query": "hindi song",
+      "group": "hindi-song-324",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 325,
+      "query": "fssai",
+      "group": "fssai-325",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 326,
+      "query": "ranveer singh",
+      "group": "ranveer-singh-326",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 327,
+      "query": "kerala cricket team vs madhya pradesh cricket team match scorecard",
+      "group": "kerala-cricket-team-vs-madhya-pradesh-cricket-team-match-scorecard-327",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 328,
+      "query": "my",
+      "group": "my-328",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 329,
+      "query": "soty after dark",
+      "group": "soty-after-dark-329",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 330,
+      "query": "શુક્ર",
+      "group": "query-330",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 331,
+      "query": "morocco national football team",
+      "group": "morocco-national-football-team-331",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 332,
+      "query": "ఇల్లు ఇల్లాలు పిల్లలు",
+      "group": "query-332",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 333,
+      "query": "bengaluru united vs real kashmir standings",
+      "group": "bengaluru-united-vs-real-kashmir-standings-333",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 334,
+      "query": "വി.ഡി. സതീശന്",
+      "group": "query-334",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 335,
+      "query": "interstellar",
+      "group": "interstellar-335",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 336,
+      "query": "ಲೋಕಾಯುಕ್ತ",
+      "group": "query-336",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 337,
+      "query": "om movie dhanush",
+      "group": "om-movie-dhanush-337",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 338,
+      "query": "delhi cricket team vs jammu and kashmir cricket team match scorecard",
+      "group": "delhi-cricket-team-vs-jammu-and-kashmir-cricket-team-match-scorecard-338",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 339,
+      "query": "animal",
+      "group": "animal-339",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 340,
+      "query": "endrick",
+      "group": "endrick-340",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 341,
+      "query": "taylor fritz",
+      "group": "taylor-fritz-341",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 342,
+      "query": "ಸೋನಿಯಾ ಗಾಂಧಿ",
+      "group": "query-342",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 343,
+      "query": "kerala jackpot result",
+      "group": "kerala-jackpot-result-343",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 344,
+      "query": "ps5 price",
+      "group": "ps5-price-344",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 345,
+      "query": "kp",
+      "group": "kp-345",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 346,
+      "query": "tn vs rai",
+      "group": "tn-vs-rai-346",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 347,
+      "query": "usd",
+      "group": "usd-347",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 348,
+      "query": "नई दिल्ली",
+      "group": "query-348",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 349,
+      "query": "sophie devine",
+      "group": "sophie-devine-349",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 350,
+      "query": "tata motors",
+      "group": "tata-motors-350",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 351,
+      "query": "எஸ். பி. வேலுமணி",
+      "group": "query-351",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 352,
+      "query": "jewellery",
+      "group": "jewellery-352",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 353,
+      "query": "anil kapoor",
+      "group": "anil-kapoor-353",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 354,
+      "query": "gujarat vs odisha",
+      "group": "khilan-patel-2026-gujarat-odisha-t20",
+      "slug": "khilan-patel-84-off-29-gujarat-odisha-t20-2026",
+      "state": "local-draft"
+    },
+    {
+      "row": 355,
+      "query": "virat singh",
+      "group": "virat-singh-355",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 356,
+      "query": "wedding",
+      "group": "wedding-356",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 357,
+      "query": "১৪ নভেম্বর",
+      "group": "query-357",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 358,
+      "query": "loki",
+      "group": "loki-358",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 359,
+      "query": "अपराध",
+      "group": "query-359",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 360,
+      "query": "rockets vs jazz",
+      "group": "rockets-vs-jazz-360",
+      "slug": null,
+      "state": "research-pending"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "validationFile": "batch-01-validation.json",
+      "explicitUserAuthorization": "Owner requested all clear India CSV topics to be researched and published as completed; this verified article is a completed release.",
+      "state": "local-draft",
+      "keys": [
+        "khilan-patel-2026-gujarat-odisha-t20"
+      ],
+      "expectedSize": 1,
+      "number": 1
+    }
+  ],
+  "oldQueueSnapshot": []
+}
