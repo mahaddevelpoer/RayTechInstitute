@@ -151,13 +151,14 @@
       "possibleExisting": []
     },
     {
-      "key": "riley-meredith-16",
+      "key": "riley-meredith-australia-england-odi-2026",
       "query": "riley meredith",
       "rows": [
         16
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "riley-meredith-australia-england-second-odi-adelaide-2026"
     },
     {
       "key": "icc-17",
@@ -3362,9 +3363,9 @@
     {
       "row": 16,
       "query": "riley meredith",
-      "group": "riley-meredith-16",
-      "slug": null,
-      "state": "research-pending"
+      "group": "riley-meredith-australia-england-odi-2026",
+      "slug": "riley-meredith-australia-england-second-odi-adelaide-2026",
+      "state": "draft-ready"
     },
     {
       "row": 17,
@@ -5879,6 +5880,16 @@
       "revision": "eff0b62aaf9c08ff878b812ad1eebbfa89b34612",
       "workflowRun": "43708271697",
       "liveVerifiedAt": "2026-11-15T11:24:47.131Z"
+    },
+    {
+      "validationFile": "batch-09-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
+      "state": "review-pending",
+      "keys": [
+        "riley-meredith-australia-england-odi-2026"
+      ],
+      "expectedSize": 1,
+      "number": 9
     }
   ],
   "oldQueueSnapshot": []
