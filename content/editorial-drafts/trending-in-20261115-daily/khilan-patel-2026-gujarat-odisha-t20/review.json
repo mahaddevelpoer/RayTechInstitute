@@ -2,8 +2,12 @@
   "scope": "BCCI official match details, score summary and stats page; two distinct licensed archive images visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2351,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/khilan-patel-84-off-29-gujarat-odisha-t20-2026/",
+  "liveVerifiedAt": "2026-11-15T04:43:19.250Z",
+  "releaseRevision": "4ff742949d8629465829163a31ebe32cd77c032d",
+  "workflowRun": "43677637587"
 }

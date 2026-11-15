@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "research-in-progress",
+  "state": "batch-01-published-next-research-pending",
   "groups": [
     {
       "key": "india-vs-new-zealand-1",
@@ -210,7 +210,7 @@
         22,
         354
       ],
-      "state": "local-draft",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "khilan-patel-84-off-29-gujarat-odisha-t20-2026"
     },
@@ -3401,7 +3401,7 @@
       "query": "khilan patel",
       "group": "khilan-patel-2026-gujarat-odisha-t20",
       "slug": "khilan-patel-84-off-29-gujarat-odisha-t20-2026",
-      "state": "local-draft"
+      "state": "published-live-verified"
     },
     {
       "row": 23,
@@ -5725,7 +5725,7 @@
       "query": "gujarat vs odisha",
       "group": "khilan-patel-2026-gujarat-odisha-t20",
       "slug": "khilan-patel-84-off-29-gujarat-odisha-t20-2026",
-      "state": "local-draft"
+      "state": "published-live-verified"
     },
     {
       "row": 355,
@@ -5774,12 +5774,15 @@
     {
       "validationFile": "batch-01-validation.json",
       "explicitUserAuthorization": "Owner requested all clear India CSV topics to be researched and published as completed; this verified article is a completed release.",
-      "state": "local-draft",
+      "state": "published-live-verified",
       "keys": [
         "khilan-patel-2026-gujarat-odisha-t20"
       ],
       "expectedSize": 1,
-      "number": 1
+      "number": 1,
+      "revision": "4ff742949d8629465829163a31ebe32cd77c032d",
+      "workflowRun": "43677637587",
+      "liveVerifiedAt": "2026-11-15T04:43:19.250Z"
     }
   ],
   "oldQueueSnapshot": []

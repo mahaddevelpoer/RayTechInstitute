@@ -43,7 +43,7 @@ const listing=await(await request(origin+'/blogs/')).text();
 const target=process.argv.find(value=>value.startsWith('--article='))?.slice(10);
 const targetsArg=process.argv.find(value=>value.startsWith('--articles='))?.slice(11);
 const targets=targetsArg?new Set(targetsArg.split(',').filter(Boolean)):target?new Set([target]):null;
-const ledger=`artifacts/${region==='US'?'us':'pakistan'}-nov${batch.slice(6,8)}/live-verification.json`;
+const ledger=`artifacts/${region==='US'?'us':region==='IN'?'india':'pakistan'}-nov${batch.slice(6,8)}/live-verification.json`;
 const previous=targets&&fs.existsSync(ledger)?JSON.parse(fs.readFileSync(ledger)).results:[];
 const results=previous.filter(row=>!targets?.has(row.name));
 const unescapeHtml=value=>value.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
