@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T08:48:46.280Z",
+  "expectedRevision": "f491503398917f3e3f202a07552e01e427f3550b",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T08:46:10.674Z",
+    "revision": "f491503398917f3e3f202a07552e01e427f3550b",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 709,
+    "sitemapSha256": "ae55a27b6737b11cda2a4acb31cd24d1fd2b0ff8ad2df639b107c25a298ee5cb",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43695853554"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "jamaica-mexico-nations-league-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/jamaica-mexico-3-2-nations-league-2026-first-leg/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/jamaica-mexico-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/jamaica-mexico-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

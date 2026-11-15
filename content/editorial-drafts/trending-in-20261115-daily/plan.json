@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-03-published-next-research-pending",
+  "state": "batch-04-published-next-research-pending",
   "groups": [
     {
       "key": "india-vs-new-zealand-1",
@@ -247,7 +247,7 @@
       "rows": [
         26
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "jamaica-mexico-3-2-nations-league-2026-first-leg"
     },
@@ -3432,7 +3432,7 @@
       "query": "jamaica vs mexico",
       "group": "jamaica-mexico-nations-league-2026",
       "slug": "jamaica-mexico-3-2-nations-league-2026-first-leg",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 27,
@@ -5816,12 +5816,15 @@
     {
       "validationFile": "batch-04-validation.json",
       "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "jamaica-mexico-nations-league-2026"
       ],
       "expectedSize": 1,
-      "number": 4
+      "number": 4,
+      "revision": "f491503398917f3e3f202a07552e01e427f3550b",
+      "workflowRun": "43695853554",
+      "liveVerifiedAt": "2026-11-15T08:48:46.280Z"
     }
   ],
   "oldQueueSnapshot": []

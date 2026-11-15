@@ -2,8 +2,12 @@
   "scope": "Concacaf official first-leg report, match centre and schedule; two distinct licensed archive images visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2338,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/jamaica-mexico-3-2-nations-league-2026-first-leg/",
+  "liveVerifiedAt": "2026-11-15T08:48:46.280Z",
+  "releaseRevision": "f491503398917f3e3f202a07552e01e427f3550b",
+  "workflowRun": "43695853554"
 }
