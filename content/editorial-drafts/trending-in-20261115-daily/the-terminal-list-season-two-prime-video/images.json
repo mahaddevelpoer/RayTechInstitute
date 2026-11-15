@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/terminal-list-silhouette-cover.webp",
+    "source": "https://unsplash.com/photos/a-person-in-a-military-uniform-looking-out-at-the-sunset-VDx1cZVZyT8",
+    "sha1": "7479b0b56fb41977efad071e7d187bc7d88cd51a",
+    "creator": "Boitumelo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "Archive sunset silhouette photograph. The person shown is not a member of The Terminal List cast.",
+    "alt": "Archive silhouette of a photographer against an orange sunset",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/terminal-list-night-city-inline.webp",
+    "source": "https://unsplash.com/photos/city-skyline-illuminated-at-night-with-dark-foreground-9RxjP8vq0-w",
+    "sha1": "58fa5e8f1618120350cc85786325caaf15ed5613",
+    "creator": "Kevin Reyes",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "Archive night skyline, not a scene from The Terminal List.",
+    "alt": "Night skyline with illuminated buildings and dark foreground",
+    "width": 480,
+    "height": 720
+  }
+]

@@ -554,13 +554,14 @@
       "possibleExisting": []
     },
     {
-      "key": "the-terminal-list-prime-video-60",
+      "key": "the-terminal-list-season-two-prime-video",
       "query": "the terminal list prime video",
       "rows": [
         60
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "the-terminal-list-season-2-prime-video-episodes-cast-guide-2026"
     },
     {
       "key": "query-61",
@@ -3671,9 +3672,9 @@
     {
       "row": 60,
       "query": "the terminal list prime video",
-      "group": "the-terminal-list-prime-video-60",
-      "slug": null,
-      "state": "research-pending"
+      "group": "the-terminal-list-season-two-prime-video",
+      "slug": "the-terminal-list-season-2-prime-video-episodes-cast-guide-2026",
+      "state": "draft-ready"
     },
     {
       "row": 61,
@@ -5919,6 +5920,16 @@
       "revision": "4ab1048754b0116e18c66291496c8eb6c074f1f5",
       "workflowRun": "43712735990",
       "liveVerifiedAt": "2026-11-15T12:19:34.627Z"
+    },
+    {
+      "validationFile": "batch-12-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing India CSV article publication.",
+      "state": "review-pending",
+      "keys": [
+        "the-terminal-list-season-two-prime-video"
+      ],
+      "expectedSize": 1,
+      "number": 12
     }
   ],
   "oldQueueSnapshot": []
