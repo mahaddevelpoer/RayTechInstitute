@@ -2,8 +2,12 @@
   "scope": "SpaceX preflight plan; AP postflight reports; NASA 2026 Artemis programme update; two distinct licensed archive photos visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2663,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/starship-flight-15-2026-launch-booster-loss-ship-catch/",
+  "liveVerifiedAt": "2026-11-15T08:18:15.348Z",
+  "releaseRevision": "e5eb9e4b70fde26dda8c9568e7cc8da12a1aed02",
+  "workflowRun": "43693483246"
 }

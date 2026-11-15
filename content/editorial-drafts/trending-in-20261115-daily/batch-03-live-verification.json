@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T08:18:15.348Z",
+  "expectedRevision": "e5eb9e4b70fde26dda8c9568e7cc8da12a1aed02",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T08:15:45.316Z",
+    "revision": "e5eb9e4b70fde26dda8c9568e7cc8da12a1aed02",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 703,
+    "sitemapSha256": "7fb1f0f5059d549779f9cd8473fc1027aad5f9d7256a180b12b53732632b8d82",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43693483246"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "starship-flight-15-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/starship-flight-15-2026-launch-booster-loss-ship-catch/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/starship-flight-15-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/starship-flight-15-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
