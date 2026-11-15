@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-06-published-next-research-pending",
+  "state": "batch-07-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -25,7 +25,7 @@
       "rows": [
         2
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "mohit-ulva-u19-asia-cup-2026-last-ball-49-profile"
     },
@@ -3259,7 +3259,7 @@
       "query": "mohit ulva",
       "group": "mohit-ulva-u19-asia-cup-2026",
       "slug": "mohit-ulva-u19-asia-cup-2026-last-ball-49-profile",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 3,
@@ -5850,12 +5850,15 @@
     {
       "validationFile": "batch-07-validation.json",
       "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "mohit-ulva-u19-asia-cup-2026"
       ],
       "expectedSize": 1,
-      "number": 7
+      "number": 7,
+      "revision": "5faa95f5cae6716e7a98f9c290c3a0055815a114",
+      "workflowRun": "43706694910",
+      "liveVerifiedAt": "2026-11-15T11:06:09.418Z"
     }
   ],
   "oldQueueSnapshot": []

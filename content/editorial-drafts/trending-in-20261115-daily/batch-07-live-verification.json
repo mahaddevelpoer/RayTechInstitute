@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-15T11:06:09.418Z",
+  "expectedRevision": "5faa95f5cae6716e7a98f9c290c3a0055815a114",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-15T11:03:12.129Z",
+    "revision": "5faa95f5cae6716e7a98f9c290c3a0055815a114",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 712,
+    "sitemapSha256": "aff24f1f462f080ed9c0aaa10c4d85e4fab18785c5b6e3cd75d57cb92ef098a5",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/43706694910"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "mohit-ulva-u19-asia-cup-2026",
+      "batch": "20261115-daily",
+      "url": "https://raytechinstitute.com/blogs/mohit-ulva-u19-asia-cup-2026-last-ball-49-profile/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/mohit-ulva-profile-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-in-20261115-daily/mohit-ulva-profile-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

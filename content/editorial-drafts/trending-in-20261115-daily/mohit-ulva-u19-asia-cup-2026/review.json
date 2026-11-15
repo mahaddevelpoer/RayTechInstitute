@@ -2,8 +2,12 @@
   "scope": "BCCI official squad and final reports; reported Saurashtra call-up clearly separated from confirmed debut; two distinct licensed archive images visually reviewed.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-15",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2543,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/mohit-ulva-u19-asia-cup-2026-last-ball-49-profile/",
+  "liveVerifiedAt": "2026-11-15T11:06:09.418Z",
+  "releaseRevision": "5faa95f5cae6716e7a98f9c290c3a0055815a114",
+  "workflowRun": "43706694910"
 }
