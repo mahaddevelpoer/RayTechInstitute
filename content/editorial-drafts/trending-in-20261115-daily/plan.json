@@ -6,7 +6,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 10,
-  "state": "batch-07-published-next-research-pending",
+  "state": "batch-08-published-next-research-pending",
   "groups": [
     {
       "key": "india-new-zealand-fifth-odi-2026",
@@ -385,7 +385,7 @@
       "rows": [
         41
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "haiti-usa-6-0-nations-league-2026-goals-first-leg"
     },
@@ -3539,7 +3539,7 @@
       "query": "haiti vs usa",
       "group": "haiti-usa-6-0-nations-league-2026",
       "slug": "haiti-usa-6-0-nations-league-2026-goals-first-leg",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 42,
@@ -5870,12 +5870,15 @@
     {
       "validationFile": "batch-08-validation.json",
       "explicitUserAuthorization": "Owner requested continuing and publishing a larger India CSV batch.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "haiti-usa-6-0-nations-league-2026"
       ],
       "expectedSize": 1,
-      "number": 8
+      "number": 8,
+      "revision": "eff0b62aaf9c08ff878b812ad1eebbfa89b34612",
+      "workflowRun": "43708271697",
+      "liveVerifiedAt": "2026-11-15T11:24:47.131Z"
     }
   ],
   "oldQueueSnapshot": []
