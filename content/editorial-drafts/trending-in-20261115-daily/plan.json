@@ -9,13 +9,15 @@
   "state": "batch-05-published-next-research-pending",
   "groups": [
     {
-      "key": "india-vs-new-zealand-1",
+      "key": "india-new-zealand-fifth-odi-2026",
       "query": "india vs new zealand",
       "rows": [
-        1
+        1,
+        4
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result"
     },
     {
       "key": "mohit-ulva-2",
@@ -37,15 +39,6 @@
         "japan-brazil-3-2-november-2026-singapore-goals-result"
       ],
       "slug": "japan-brazil-3-2-november-2026-singapore-goals-result"
-    },
-    {
-      "key": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scor-4",
-      "query": "india national cricket team vs new zealand national cricket team match scorecard",
-      "rows": [
-        4
-      ],
-      "state": "research-pending",
-      "possibleExisting": []
     },
     {
       "key": "portugal-national-football-team-vs-denmark-national-football-team-standings-5",
@@ -3256,9 +3249,9 @@
     {
       "row": 1,
       "query": "india vs new zealand",
-      "group": "india-vs-new-zealand-1",
-      "slug": null,
-      "state": "research-pending"
+      "group": "india-new-zealand-fifth-odi-2026",
+      "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result",
+      "state": "draft-ready"
     },
     {
       "row": 2,
@@ -3277,9 +3270,9 @@
     {
       "row": 4,
       "query": "india national cricket team vs new zealand national cricket team match scorecard",
-      "group": "india-national-cricket-team-vs-new-zealand-national-cricket-team-match-scor-4",
-      "slug": null,
-      "state": "research-pending"
+      "group": "india-new-zealand-fifth-odi-2026",
+      "slug": "india-new-zealand-fifth-odi-2026-209-187-scorecard-result",
+      "state": "draft-ready"
     },
     {
       "row": 5,
@@ -5839,6 +5832,16 @@
       "revision": "b33bb2b06db6845736794c125aa1b688a16a3c95",
       "workflowRun": "43703527177",
       "liveVerifiedAt": "2026-11-15T10:26:04.274Z"
+    },
+    {
+      "validationFile": "batch-06-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
+      "state": "review-pending",
+      "keys": [
+        "india-new-zealand-fifth-odi-2026"
+      ],
+      "expectedSize": 1,
+      "number": 6
     }
   ],
   "oldQueueSnapshot": []
