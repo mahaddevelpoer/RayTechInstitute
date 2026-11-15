@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/john-langford-microsoft-cover.webp",
+    "source": "https://unsplash.com/photos/a-room-filled-with-lots-of-computers-and-desks-cX8P-4Pfqws",
+    "sha1": "5c1688aad3385386ca0613dcb85a3554e2b7847e",
+    "creator": "Zhe ZHANG",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "A computer laboratory in Shenzhen, photographed in 2024. Illustrative archive image; it does not depict Microsoft AI Frontiers or John Langford.",
+    "alt": "Archive photograph of a computer laboratory with rows of workstations",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/john-langford-microsoft-inline.webp",
+    "source": "https://unsplash.com/photos/a-computer-screen-with-a-program-on-it-UjJWhMerJx0",
+    "sha1": "3d19e76dc09f34a9c53805543fc9f1344854b111",
+    "creator": "Uday Awal",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "A programming screen photographed in India in 2021. Illustrative image, not a Microsoft AI Frontiers project.",
+    "alt": "Archive close-up of code on a computer screen",
+    "width": 960,
+    "height": 640
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 1,
+  "bodyWords": 2446,
+  "uniqueImages": 2,
+  "existingArticlesCompared": 585,
+  "results": [
+    {
+      "key": "john-langford-microsoft-ai-frontiers-2026",
+      "slug": "john-langford-leaves-microsoft-ai-frontiers-2026",
+      "words": 2446,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
