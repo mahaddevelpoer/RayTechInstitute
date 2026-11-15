@@ -242,13 +242,14 @@
       "possibleExisting": []
     },
     {
-      "key": "jamaica-vs-mexico-26",
+      "key": "jamaica-mexico-nations-league-2026",
       "query": "jamaica vs mexico",
       "rows": [
         26
       ],
-      "state": "research-pending",
-      "possibleExisting": []
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "jamaica-mexico-3-2-nations-league-2026-first-leg"
     },
     {
       "key": "naman-dhir-27",
@@ -3429,9 +3430,9 @@
     {
       "row": 26,
       "query": "jamaica vs mexico",
-      "group": "jamaica-vs-mexico-26",
-      "slug": null,
-      "state": "research-pending"
+      "group": "jamaica-mexico-nations-league-2026",
+      "slug": "jamaica-mexico-3-2-nations-league-2026-first-leg",
+      "state": "draft-ready"
     },
     {
       "row": 27,
@@ -5811,6 +5812,16 @@
       "revision": "e5eb9e4b70fde26dda8c9568e7cc8da12a1aed02",
       "workflowRun": "43693483246",
       "liveVerifiedAt": "2026-11-15T08:18:15.348Z"
+    },
+    {
+      "validationFile": "batch-04-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing and publishing clear India CSV articles.",
+      "state": "review-pending",
+      "keys": [
+        "jamaica-mexico-nations-league-2026"
+      ],
+      "expectedSize": 1,
+      "number": 4
     }
   ],
   "oldQueueSnapshot": []

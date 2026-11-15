@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/jamaica-mexico-cover.webp",
+    "source": "https://unsplash.com/photos/a-soccer-ball-sitting-on-top-of-a-soccer-field-0yVID9WGvPw",
+    "sha1": "1cc63b0814f8080363c5592b4915615e7c54bce6",
+    "creator": "Braden Wagner",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "Illustrative archive photo of a football on grass; not from Jamaica vs Mexico.",
+    "alt": "Archive photograph of a football on a marked grass field",
+    "width": 960,
+    "height": 639
+  },
+  {
+    "url": "/images/editorial/trending-in-20261115-daily/jamaica-mexico-inline.webp",
+    "source": "https://unsplash.com/photos/a-soccer-field-with-a-row-of-empty-bleachers-m_li8YcYH4I",
+    "sha1": "1cbb0dbb8e15828a0457d314d57cf652173b11ef",
+    "creator": "Chris Kursikowski",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "caption": "Archive photo of a stadium in Monterrey, Mexico; not the 2026 Jamaica vs Mexico match.",
+    "alt": "Archive photograph of a football stadium in Monterrey",
+    "width": 960,
+    "height": 640
+  }
+]
