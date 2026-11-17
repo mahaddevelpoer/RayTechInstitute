@@ -1,0 +1,9 @@
+{
+  "scope": "PCB match scorecard, PCB venue announcement and ICC first-Test and squad reports cross-checked; two licensed archive images visually inspected.",
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-17",
+  "published": false,
+  "state": "local-verified-unpublished",
+  "words": 2113,
+  "localChecks": "validation.json"
+}

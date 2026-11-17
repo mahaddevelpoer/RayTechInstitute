@@ -1,0 +1,908 @@
+{
+  "date": "2026-11-17",
+  "region": "PK",
+  "sourceCsv": "trending_PK_1d_20261117-1518.csv",
+  "publicationAuthorized": true,
+  "minimumBodyWords": 2000,
+  "batchSize": 5,
+  "state": "research-pending",
+  "groups": [
+    {
+      "key": "pakistan-sri-lanka-second-test-2026-11-17",
+      "query": "sri lanka vs pakistan",
+      "rows": [
+        1,
+        28
+      ],
+      "state": "draft-ready",
+      "possibleExisting": [],
+      "slug": "pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context"
+    },
+    {
+      "key": "imran-khan-2",
+      "query": "imran khan",
+      "rows": [
+        2
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "1500-prize-bond-list-16-november-2026-3",
+      "query": "1500 prize bond list 16 november 2026",
+      "rows": [
+        3
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "singapore-vs-brazil-4",
+      "query": "singapore vs brazil",
+      "rows": [
+        4
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "robert-pattinson-5",
+      "query": "robert pattinson",
+      "rows": [
+        5
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "طیارہ-6",
+      "query": "طیارہ",
+      "rows": [
+        6
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "whatsapp-ios-liquid-glass-update-7",
+      "query": "whatsapp ios liquid glass update",
+      "rows": [
+        7
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "germany-national-football-team-vs-netherlands-national-football-team-sta-8",
+      "query": "germany national football team vs netherlands national football team standings",
+      "rows": [
+        8
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "بانڈ-9",
+      "query": "بانڈ",
+      "rows": [
+        9
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "2027-grammys-nominations-10",
+      "query": "2027 grammys nominations",
+      "rows": [
+        10
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "pakistan-national-cricket-team-11",
+      "query": "pakistan national cricket team",
+      "rows": [
+        11
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "usman-nurmagomedov-12",
+      "query": "usman nurmagomedov",
+      "rows": [
+        12
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "temba-bavuma-13",
+      "query": "temba bavuma",
+      "rows": [
+        13
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "gta-vi-2026-release-information",
+      "query": "gta vi",
+      "rows": [
+        14,
+        44,
+        45
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "abbas-araghchi-15",
+      "query": "abbas araghchi",
+      "rows": [
+        15
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "dirty-bomb-16",
+      "query": "dirty bomb",
+      "rows": [
+        16
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "snow-17",
+      "query": "snow",
+      "rows": [
+        17
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "پٹرولیم-18",
+      "query": "پٹرولیم",
+      "rows": [
+        18
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "dinesh-chandimal-19",
+      "query": "dinesh chandimal",
+      "rows": [
+        19
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "houthis-20",
+      "query": "houthis",
+      "rows": [
+        20
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "landfill-21",
+      "query": "landfill",
+      "rows": [
+        21
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "acc-emerging-teams-asia-cup-22",
+      "query": "acc emerging teams asia cup",
+      "rows": [
+        22
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "inflation-23",
+      "query": "inflation",
+      "rows": [
+        23
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "a7-pro-5g-24",
+      "query": "a7 pro 5g",
+      "rows": [
+        24
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "canada-vs-guatemala-25",
+      "query": "canada vs guatemala",
+      "rows": [
+        25
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "شعیب-اختر-26",
+      "query": "شعیب اختر",
+      "rows": [
+        26
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "sikkim-27",
+      "query": "sikkim",
+      "rows": [
+        27
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "usman-khawaja-2020-david-warner-promise-29",
+      "query": "usman khawaja 2020 david warner promise",
+      "rows": [
+        29
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "catherine-princess-of-wales-30",
+      "query": "catherine, princess of wales",
+      "rows": [
+        30
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "switzerland-vs-scotland-31",
+      "query": "switzerland vs scotland",
+      "rows": [
+        31
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "sarfaraz-khan-32",
+      "query": "sarfaraz khan",
+      "rows": [
+        32
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "sudan-vs-senegal-33",
+      "query": "sudan vs senegal",
+      "rows": [
+        33
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "chi-34",
+      "query": "chi",
+      "rows": [
+        34
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "temba-bavuma-35",
+      "query": "temba bavuma",
+      "rows": [
+        35
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "ebenezer-36",
+      "query": "ebenezer",
+      "rows": [
+        36
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "pakistan-u19-37",
+      "query": "pakistan u19",
+      "rows": [
+        37
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "pakistan-national-football-team-38",
+      "query": "pakistan national football team",
+      "rows": [
+        38
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "abu-dhabi-t10-league-2026",
+      "query": "abu dhabi t10 league",
+      "rows": [
+        39,
+        50
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "deportation-40",
+      "query": "deportation",
+      "rows": [
+        40
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "artificial-intelligence-41",
+      "query": "artificial intelligence",
+      "rows": [
+        41
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "benazir-income-support-programme-42",
+      "query": "benazir income support programme",
+      "rows": [
+        42
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "falkland-islands-vs-costa-rica-43",
+      "query": "falkland islands vs costa rica",
+      "rows": [
+        43
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "ee-times-46",
+      "query": "ee times",
+      "rows": [
+        46
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "thanksgiving-2026-47",
+      "query": "thanksgiving 2026",
+      "rows": [
+        47
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "rutba-48",
+      "query": "rutba",
+      "rows": [
+        48
+      ],
+      "state": "unclear-skipped",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "namibia-vs-cameroon-49",
+      "query": "namibia vs cameroon",
+      "rows": [
+        49
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "roadies-rebirth-51",
+      "query": "roadies rebirth",
+      "rows": [
+        51
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "jay-shah-52",
+      "query": "jay shah",
+      "rows": [
+        52
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "carlos-alcaraz-53",
+      "query": "carlos alcaraz",
+      "rows": [
+        53
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    },
+    {
+      "key": "maryam-nawaz-54",
+      "query": "maryam nawaz",
+      "rows": [
+        54
+      ],
+      "state": "research-pending",
+      "possibleExisting": [],
+      "slug": null
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "query": "sri lanka vs pakistan",
+      "group": "pakistan-sri-lanka-second-test-2026-11-17",
+      "slug": "pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context",
+      "state": "draft-ready"
+    },
+    {
+      "row": 2,
+      "query": "imran khan",
+      "group": "imran-khan-2",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 3,
+      "query": "1500 prize bond list 16 november 2026",
+      "group": "1500-prize-bond-list-16-november-2026-3",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 4,
+      "query": "singapore vs brazil",
+      "group": "singapore-vs-brazil-4",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 5,
+      "query": "robert pattinson",
+      "group": "robert-pattinson-5",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 6,
+      "query": "طیارہ",
+      "group": "طیارہ-6",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 7,
+      "query": "whatsapp ios liquid glass update",
+      "group": "whatsapp-ios-liquid-glass-update-7",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 8,
+      "query": "germany national football team vs netherlands national football team standings",
+      "group": "germany-national-football-team-vs-netherlands-national-football-team-sta-8",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 9,
+      "query": "بانڈ",
+      "group": "بانڈ-9",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 10,
+      "query": "2027 grammys nominations",
+      "group": "2027-grammys-nominations-10",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 11,
+      "query": "pakistan national cricket team",
+      "group": "pakistan-national-cricket-team-11",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 12,
+      "query": "usman nurmagomedov",
+      "group": "usman-nurmagomedov-12",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 13,
+      "query": "temba bavuma",
+      "group": "temba-bavuma-13",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 14,
+      "query": "gta vi",
+      "group": "gta-vi-2026-release-information",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 15,
+      "query": "abbas araghchi",
+      "group": "abbas-araghchi-15",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 16,
+      "query": "dirty bomb",
+      "group": "dirty-bomb-16",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 17,
+      "query": "snow",
+      "group": "snow-17",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 18,
+      "query": "پٹرولیم",
+      "group": "پٹرولیم-18",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 19,
+      "query": "dinesh chandimal",
+      "group": "dinesh-chandimal-19",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 20,
+      "query": "houthis",
+      "group": "houthis-20",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 21,
+      "query": "landfill",
+      "group": "landfill-21",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 22,
+      "query": "acc emerging teams asia cup",
+      "group": "acc-emerging-teams-asia-cup-22",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 23,
+      "query": "inflation",
+      "group": "inflation-23",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 24,
+      "query": "a7 pro 5g",
+      "group": "a7-pro-5g-24",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 25,
+      "query": "canada vs guatemala",
+      "group": "canada-vs-guatemala-25",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 26,
+      "query": "شعیب اختر",
+      "group": "شعیب-اختر-26",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 27,
+      "query": "sikkim",
+      "group": "sikkim-27",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 28,
+      "query": "سری لنکا بمقابلہ پاک",
+      "group": "pakistan-sri-lanka-second-test-2026-11-17",
+      "slug": "pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context",
+      "state": "draft-ready"
+    },
+    {
+      "row": 29,
+      "query": "usman khawaja 2020 david warner promise",
+      "group": "usman-khawaja-2020-david-warner-promise-29",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 30,
+      "query": "catherine, princess of wales",
+      "group": "catherine-princess-of-wales-30",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 31,
+      "query": "switzerland vs scotland",
+      "group": "switzerland-vs-scotland-31",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 32,
+      "query": "sarfaraz khan",
+      "group": "sarfaraz-khan-32",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 33,
+      "query": "sudan vs senegal",
+      "group": "sudan-vs-senegal-33",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 34,
+      "query": "chi",
+      "group": "chi-34",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 35,
+      "query": "temba bavuma",
+      "group": "temba-bavuma-35",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 36,
+      "query": "ebenezer",
+      "group": "ebenezer-36",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 37,
+      "query": "pakistan u19",
+      "group": "pakistan-u19-37",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 38,
+      "query": "pakistan national football team",
+      "group": "pakistan-national-football-team-38",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 39,
+      "query": "abu dhabi t10 league",
+      "group": "abu-dhabi-t10-league-2026",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 40,
+      "query": "deportation",
+      "group": "deportation-40",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 41,
+      "query": "artificial intelligence",
+      "group": "artificial-intelligence-41",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 42,
+      "query": "benazir income support programme",
+      "group": "benazir-income-support-programme-42",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 43,
+      "query": "falkland islands vs costa rica",
+      "group": "falkland-islands-vs-costa-rica-43",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 44,
+      "query": "gta 6",
+      "group": "gta-vi-2026-release-information",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 45,
+      "query": "gta 6 release date",
+      "group": "gta-vi-2026-release-information",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 46,
+      "query": "ee times",
+      "group": "ee-times-46",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 47,
+      "query": "thanksgiving 2026",
+      "group": "thanksgiving-2026-47",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 48,
+      "query": "rutba",
+      "group": "rutba-48",
+      "slug": null,
+      "state": "unclear-skipped"
+    },
+    {
+      "row": 49,
+      "query": "namibia vs cameroon",
+      "group": "namibia-vs-cameroon-49",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 50,
+      "query": "abu dhabi t10 cricket league",
+      "group": "abu-dhabi-t10-league-2026",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 51,
+      "query": "roadies rebirth",
+      "group": "roadies-rebirth-51",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 52,
+      "query": "jay shah",
+      "group": "jay-shah-52",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 53,
+      "query": "carlos alcaraz",
+      "group": "carlos-alcaraz-53",
+      "slug": null,
+      "state": "research-pending"
+    },
+    {
+      "row": 54,
+      "query": "maryam nawaz",
+      "group": "maryam-nawaz-54",
+      "slug": null,
+      "state": "research-pending"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "validationFile": "batch-01-validation.json",
+      "explicitUserAuthorization": "Owner requested continuing Pakistan CSV article writing and publishing.",
+      "state": "review-pending",
+      "keys": [
+        "pakistan-sri-lanka-second-test-2026-11-17"
+      ],
+      "expectedSize": 1,
+      "number": 1
+    }
+  ],
+  "oldQueueSnapshot": []
+}
