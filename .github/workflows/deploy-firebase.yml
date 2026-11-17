@@ -37,7 +37,7 @@ concurrency:
 jobs:
   build-and-deploy:
     if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export' && inputs.hosting_target != 'cutover-domain' && inputs.hosting_target != 'finish-redirect'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
@@ -226,7 +226,7 @@ jobs:
 
   finish-redirect:
     if: inputs.hosting_target == 'finish-redirect'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
@@ -249,7 +249,7 @@ jobs:
 
   cutover-domain:
     if: inputs.hosting_target == 'cutover-domain'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
@@ -271,7 +271,7 @@ jobs:
 
   deploy-cloudflare-export:
     if: inputs.hosting_target == 'deploy-cloudflare-export'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 8
     env:
       NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
@@ -311,7 +311,7 @@ jobs:
 
   prepare-dns:
     if: inputs.hosting_target == 'prepare-dns'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v5
@@ -339,7 +339,7 @@ jobs:
 
   review-dns:
     if: inputs.hosting_target == 'review-dns'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v5
@@ -358,7 +358,7 @@ jobs:
 
   verify-cloudflare:
     if: inputs.hosting_target == 'verify-cloudflare'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 8
     env:
       NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
