@@ -5,7 +5,7 @@
   "publicationAuthorized": true,
   "minimumBodyWords": 2000,
   "batchSize": 5,
-  "state": "research-pending",
+  "state": "batch-01-published-next-research-pending",
   "groups": [
     {
       "key": "pakistan-sri-lanka-second-test-2026-11-17",
@@ -14,7 +14,7 @@
         1,
         28
       ],
-      "state": "draft-ready",
+      "state": "published-live-verified",
       "possibleExisting": [],
       "slug": "pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context"
     },
@@ -518,7 +518,7 @@
       "query": "sri lanka vs pakistan",
       "group": "pakistan-sri-lanka-second-test-2026-11-17",
       "slug": "pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 2,
@@ -707,7 +707,7 @@
       "query": "سری لنکا بمقابلہ پاک",
       "group": "pakistan-sri-lanka-second-test-2026-11-17",
       "slug": "pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context",
-      "state": "draft-ready"
+      "state": "published-live-verified"
     },
     {
       "row": 29,
@@ -896,12 +896,15 @@
     {
       "validationFile": "batch-01-validation.json",
       "explicitUserAuthorization": "Owner requested continuing Pakistan CSV article writing and publishing.",
-      "state": "review-pending",
+      "state": "published-live-verified",
       "keys": [
         "pakistan-sri-lanka-second-test-2026-11-17"
       ],
       "expectedSize": 1,
-      "number": 1
+      "number": 1,
+      "revision": "a667f39e7fe0a16b036c3e8dd6063d3035182f5e",
+      "workflowRun": "44762545061",
+      "liveVerifiedAt": "2026-11-20T15:29:50.744Z"
     }
   ],
   "oldQueueSnapshot": []

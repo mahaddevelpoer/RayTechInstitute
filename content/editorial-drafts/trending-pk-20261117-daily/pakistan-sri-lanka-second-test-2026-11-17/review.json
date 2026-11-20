@@ -2,8 +2,12 @@
   "scope": "PCB match scorecard, PCB venue announcement and ICC first-Test and squad reports cross-checked; two licensed archive images visually inspected.",
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-17",
-  "published": false,
-  "state": "local-verified-unpublished",
+  "published": true,
+  "state": "published-live-verified",
   "words": 2113,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context/",
+  "liveVerifiedAt": "2026-11-20T15:29:50.744Z",
+  "releaseRevision": "a667f39e7fe0a16b036c3e8dd6063d3035182f5e",
+  "workflowRun": "44762545061"
 }

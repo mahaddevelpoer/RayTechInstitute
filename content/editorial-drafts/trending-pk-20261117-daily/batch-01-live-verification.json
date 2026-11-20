@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-20T15:29:50.744Z",
+  "expectedRevision": "a667f39e7fe0a16b036c3e8dd6063d3035182f5e",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-20T15:25:43.524Z",
+    "revision": "a667f39e7fe0a16b036c3e8dd6063d3035182f5e",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 718,
+    "sitemapSha256": "9660ab197e08d2ff1c6d8c855e969523634a6ce756847d08b04bc05c4374313c",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/44762545061"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "pakistan-sri-lanka-second-test-2026-11-17",
+      "batch": "20261117-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-sri-lanka-second-test-2026-rawalpindi-live-score-context/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261117-daily/pakistan-sri-lanka-test-cricket-ball-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261117-daily/pakistan-sri-lanka-test-bat-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}
