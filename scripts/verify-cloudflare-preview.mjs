@@ -38,6 +38,9 @@ try{
   try{
   await page.goto(base+'/learn/'+lang.slug+'/'+topic.slug+'/',{waitUntil:'domcontentloaded'});
   const consent=page.getByRole('button',{name:'Decline Optional',exact:true});await consent.waitFor();await consent.click();
+  const showCompiler=page.getByRole('button',{name:'Show compiler',exact:true});
+  if(await showCompiler.isVisible().catch(()=>false))await showCompiler.click();
+  await page.locator('.cm-content').first().waitFor();
   await page.locator('.cm-content').first().fill(code);await page.getByRole('button',{name:'Run',exact:true}).click();
   if(language==='html'||language==='css'){
    const element=await page.getByTitle('Sandboxed page preview',{exact:true}).elementHandle();assert.equal(await element.getAttribute('sandbox'),'');
