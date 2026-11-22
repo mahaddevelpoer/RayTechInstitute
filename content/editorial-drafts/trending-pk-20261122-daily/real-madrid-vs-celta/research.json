@@ -1,0 +1,20 @@
+{
+  "checkedOn": "2026-11-22",
+  "primarySources": [
+    "https://www.realmadrid.com/en-US/news/football/first-team/reports/cronica-real-madrid-celta-j13-liga-21-11-2026",
+    "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/el-real-madrid-celta-se-jugara-el-sabado-21-de-noviembre-a-las-21-00-horas-21-10-2026",
+    "https://www.laliga.com/en-GB/laliga-easports/standing"
+  ],
+  "facts": "Official club report confirms 2–1 comeback, Durán 6, Bellingham 66 and Espí 85; kickoff announcement confirms 21:00 Madrid time on 21 November.",
+  "calculated": {
+    "madridMatchGoalDifference": 1,
+    "celtaMatchGoalDifference": -1,
+    "pointsForVictory": 3
+  },
+  "limitations": [
+    "No frozen current table rank",
+    "Fictional starting points and season goals are labelled",
+    "No unsupported possession or xG numbers",
+    "No claim to have independently watched a full replay"
+  ]
+}

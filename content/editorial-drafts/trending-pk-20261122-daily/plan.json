@@ -47,8 +47,12 @@
         "real madrid match"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Santiago Bernabeu stadium interior",
+        "football pitch goal Spain"
+      ],
+      "slug": "real-madrid-celta-2-1-result-standings-explained-2026"
     },
     {
       "key": "scotland-vs-pakistan",
@@ -112,7 +116,7 @@
       "queriesCovered": [
         "preventive detention"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -172,7 +176,7 @@
       "queriesCovered": [
         "tapmad"
       ],
-      "category": "sports",
+      "category": "technology",
       "state": "research-pending",
       "queries": []
     },
@@ -210,7 +214,7 @@
       "queriesCovered": [
         "lewis pugh"
       ],
-      "category": "sports",
+      "category": "science",
       "state": "research-pending",
       "queries": []
     },
@@ -222,7 +226,7 @@
       "queriesCovered": [
         "honor"
       ],
-      "category": "sports",
+      "category": "technology",
       "state": "research-pending",
       "queries": []
     },
@@ -258,7 +262,7 @@
       "queriesCovered": [
         "aaj shanibar"
       ],
-      "category": "sports",
+      "category": "education",
       "state": "research-pending",
       "queries": []
     },
@@ -282,7 +286,7 @@
       "queriesCovered": [
         "eva yi xie princeton"
       ],
-      "category": "sports",
+      "category": "education",
       "state": "research-pending",
       "queries": []
     },
@@ -306,7 +310,7 @@
       "queriesCovered": [
         "5th circuit proxy voting ruling"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -330,7 +334,7 @@
       "queriesCovered": [
         "ٹرک"
       ],
-      "category": "sports",
+      "category": "technology",
       "state": "research-pending",
       "queries": []
     },
@@ -404,7 +408,7 @@
       "queriesCovered": [
         "malaysia"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -416,7 +420,7 @@
       "queriesCovered": [
         "catherine, princess of wales"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -428,7 +432,7 @@
       "queriesCovered": [
         "air pollution"
       ],
-      "category": "sports",
+      "category": "science",
       "state": "research-pending",
       "queries": []
     },
@@ -466,7 +470,7 @@
       "queriesCovered": [
         "dar e nijaat episode 33"
       ],
-      "category": "sports",
+      "category": "entertainment",
       "state": "research-pending",
       "queries": []
     },
@@ -528,7 +532,7 @@
       "queriesCovered": [
         "musadik malik new delhi sco forum"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -540,7 +544,7 @@
       "queriesCovered": [
         "anirudh ravichander"
       ],
-      "category": "sports",
+      "category": "entertainment",
       "state": "research-pending",
       "queries": []
     },
@@ -552,7 +556,7 @@
       "queriesCovered": [
         "ishaq dar"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -564,7 +568,7 @@
       "queriesCovered": [
         "خیبر پختونخوا"
       ],
-      "category": "sports",
+      "category": "world-affairs",
       "state": "research-pending",
       "queries": []
     },
@@ -576,7 +580,7 @@
       "queriesCovered": [
         "province"
       ],
-      "category": "sports",
+      "category": "education",
       "state": "research-pending",
       "queries": []
     },
@@ -600,7 +604,7 @@
       "queriesCovered": [
         "gta v"
       ],
-      "category": "sports",
+      "category": "technology",
       "state": "research-pending",
       "queries": []
     },
@@ -612,7 +616,7 @@
       "queriesCovered": [
         "ashton kutcher"
       ],
-      "category": "sports",
+      "category": "entertainment",
       "state": "research-pending",
       "queries": []
     },
@@ -636,7 +640,7 @@
       "queriesCovered": [
         "gta vice city"
       ],
-      "category": "sports",
+      "category": "technology",
       "state": "research-pending",
       "queries": []
     },
@@ -696,7 +700,7 @@
       "queriesCovered": [
         "the riemann hypothesis"
       ],
-      "category": "sports",
+      "category": "science",
       "state": "research-pending",
       "queries": []
     },
@@ -792,7 +796,7 @@
       "queriesCovered": [
         "download"
       ],
-      "category": "sports",
+      "category": "technology",
       "state": "research-pending",
       "queries": []
     },
@@ -840,7 +844,7 @@
       "queriesCovered": [
         "wedding"
       ],
-      "category": "sports",
+      "category": "education",
       "state": "research-pending",
       "queries": []
     },
@@ -876,7 +880,7 @@
       "queriesCovered": [
         "the body netflix"
       ],
-      "category": "sports",
+      "category": "entertainment",
       "state": "research-pending",
       "queries": []
     },
@@ -888,7 +892,7 @@
       "queriesCovered": [
         "roadies rebirth"
       ],
-      "category": "sports",
+      "category": "entertainment",
       "state": "research-pending",
       "queries": []
     },
@@ -912,7 +916,7 @@
       "queriesCovered": [
         "fossil fuel"
       ],
-      "category": "sports",
+      "category": "science",
       "state": "research-pending",
       "queries": []
     },
@@ -924,7 +928,7 @@
       "queriesCovered": [
         "salman khan"
       ],
-      "category": "sports",
+      "category": "entertainment",
       "state": "research-pending",
       "queries": []
     }
@@ -1526,6 +1530,17 @@
       "explicitUserAuthorization": true,
       "authorization": "User requested all CSV topics published.",
       "validationFile": "validation-batch-2.json",
+      "state": "local-review"
+    },
+    {
+      "number": 3,
+      "keys": [
+        "real-madrid-vs-celta"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV topics authorised; rows 3, 7 and 33 share this result and standings guide.",
+      "validationFile": "validation-batch-3.json",
       "state": "local-review"
     }
   ],

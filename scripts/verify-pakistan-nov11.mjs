@@ -29,6 +29,7 @@ for(const g of prepared){
  assert.equal(p.slug,g.slug);assert.match(p.slug,/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
  assert.ok(p.seo.title.length>=50&&p.seo.title.length<=60);assert.ok(p.seo.title.endsWith(' | RayTech Institute'));
  assert.ok(p.seo.description.length>=120&&p.seo.description.length<=155);
+ if(root.endsWith('20261122-daily'))for(const key of ['title','description','imageAlt','imageCaption'])assert.ok(p.seo.enabled?.includes(key),g.key+' SEO field disabled: '+key);
  assert.ok(!hasPrivateCredential(JSON.stringify(p)));assert.ok(!/<(?:script|iframe|embed|object|style)\b/i.test(p.content));
  assert.ok(!/^# /m.test(article));assert.ok(!/\u2014/.test(article));assert.equal(article.split('## Sources').length,2);
  let level=1;for(const heading of article.matchAll(/^(#{2,6}) /gm)){assert.ok(heading[1].length<=level+1);level=heading[1].length;}

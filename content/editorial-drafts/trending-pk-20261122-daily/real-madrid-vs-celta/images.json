@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Estadio Santiago Bernabéu interior.jpg",
+    "url": "/images/editorial/trending-pk-20261122-daily/real-madrid-vs-celta-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Estadio_Santiago_Bernab%C3%A9u_interior.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_interior.jpg",
+    "creator": "Sofíaa1999",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Interior of the Santiago Bernabeu stadium",
+    "description": "Interior del Estadio Santiago Bernabéu. Madrid.",
+    "caption": "Illustrative Bernabeu stadium photograph; not the 21 November 2026 Madrid–Celta match.",
+    "width": 1280,
+    "height": 775,
+    "bytes": 216090,
+    "sha1": "d254ce2c87ebd109d89d4aa477c71e4cd5124aba",
+    "photographedAt": "2022-05-03",
+    "query": "Santiago Bernabeu stadium interior",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:SK Dětmarovice v FC Hlučín (26 August 2020, MOL Cup) 06.jpg",
+    "url": "/images/editorial/trending-pk-20261122-daily/real-madrid-vs-celta-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/SK_D%C4%9Btmarovice_v_FC_Hlu%C4%8D%C3%ADn_%2826_August_2020%2C_MOL_Cup%29_06.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:SK_D%C4%9Btmarovice_v_FC_Hlu%C4%8D%C3%ADn_(26_August_2020,_MOL_Cup)_06.jpg",
+    "creator": "Tadeáš Bednarz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Football goal net at a Czech cup fixture in August 2020",
+    "description": "The goal net in an association football match of the first round of Czech Cup (MOL Cup) between the teams of SK Dětmarovice and FC Hlučín (1:6) on 26 August 2020 in Dětmarovice, Karviná District, Moravian-Silesian Region, Czechia",
+    "caption": "Illustrative goal net at a Czech cup fixture in 2020; not Real Madrid vs Celta.",
+    "width": 1280,
+    "height": 853,
+    "bytes": 102410,
+    "sha1": "f7f3698f3ceef66d8d98aa6a5a5bc4e3c1243a80",
+    "photographedAt": "2020-08-26 17:51:51",
+    "query": "football goal net -basketball -geograph",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]
