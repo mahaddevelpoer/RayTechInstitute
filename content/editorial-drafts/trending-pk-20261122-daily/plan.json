@@ -238,12 +238,13 @@
         "honor"
       ],
       "category": "technology",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Honor smartphone device",
         "USB C cable connector"
       ],
-      "slug": "honor-phones-camera-battery-ram-specifications-explained"
+      "slug": "honor-phones-camera-battery-ram-specifications-explained",
+      "evidence": "LIVE-BATCHES-1-7.json"
     },
     {
       "key": "womens-emerging-nations-trophy",
@@ -305,12 +306,13 @@
         "eva yi xie princeton"
       ],
       "category": "education",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Princeton Nassau Hall",
         "neuroscience microscope laboratory"
       ],
-      "slug": "eva-yi-xie-princeton-reports-neuroscience-study-context"
+      "slug": "eva-yi-xie-princeton-reports-neuroscience-study-context",
+      "evidence": "LIVE-BATCHES-1-7.json"
     },
     {
       "key": "international-cricket-council",
@@ -610,12 +612,13 @@
         "province"
       ],
       "category": "education",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Punjab assembly Lahore building",
         "Khyber Pakhtunkhwa assembly building"
       ],
-      "slug": "what-is-a-province-pakistan-federation-districts-guide"
+      "slug": "what-is-a-province-pakistan-federation-districts-guide",
+      "evidence": "LIVE-BATCHES-1-7.json"
     },
     {
       "key": "nitto-atp-finals",
@@ -737,12 +740,13 @@
         "the riemann hypothesis"
       ],
       "category": "education",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Bernhard Riemann portrait",
         "Riemann zeta critical strip"
       ],
-      "slug": "riemann-hypothesis-explained-zeta-zeros-primes-proof"
+      "slug": "riemann-hypothesis-explained-zeta-zeros-primes-proof",
+      "evidence": "LIVE-BATCHES-1-7.json"
     },
     {
       "key": "akash-deep",
@@ -840,12 +844,13 @@
         "download"
       ],
       "category": "technology",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "laptop computer study desk",
         "computer USB storage drive"
       ],
-      "slug": "what-is-download-files-installation-speed-student-guide"
+      "slug": "what-is-download-files-installation-speed-student-guide",
+      "evidence": "LIVE-BATCHES-1-7.json"
     },
     {
       "key": "carlos-alcaraz",
@@ -1109,7 +1114,7 @@
       "trend": "honor",
       "searchVolume": "1k+",
       "key": "honor",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 19,
@@ -1152,7 +1157,7 @@
       "trend": "eva yi xie princeton",
       "searchVolume": "100+",
       "key": "eva-yi-xie-princeton",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 25,
@@ -1350,7 +1355,7 @@
       "trend": "province",
       "searchVolume": "200+",
       "key": "what-is-a-province",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 53,
@@ -1428,7 +1433,7 @@
       "trend": "the riemann hypothesis",
       "searchVolume": "100+",
       "key": "the-riemann-hypothesis",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 64,
@@ -1485,7 +1490,7 @@
       "trend": "download",
       "searchVolume": "1k+",
       "key": "download",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 72,
@@ -1641,7 +1646,9 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV topics authorised; row 63 receives a checked mathematical explainer.",
       "validationFile": "validation-batch-6.json",
-      "state": "database-saved-awaiting-hosting"
+      "state": "live-verified",
+      "artifactRun": 45053090665,
+      "deploymentRun": 45053638876
     },
     {
       "number": 7,
@@ -1655,7 +1662,9 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV topics explicitly authorised by Mahad; four educational guides with sourced claims and reviewed licensed images.",
       "validationFile": "validation-batch-7.json",
-      "state": "database-saved-awaiting-hosting"
+      "state": "live-verified",
+      "artifactRun": 45053090665,
+      "deploymentRun": 45053638876
     }
   ],
   "chapterSeven": {

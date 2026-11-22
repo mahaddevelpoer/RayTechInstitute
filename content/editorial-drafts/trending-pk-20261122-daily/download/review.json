@@ -1,6 +1,6 @@
 {
-  "state": "database-saved-awaiting-hosting",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "imageReviewEvidence": "All eight delivered images inspected together in artifacts/batch-seven-contact.png; image subjects and captions checked individually.",
@@ -10,5 +10,7 @@
     "Illustrations depict note-taking and historical USB storage; no actual download-performance claim."
   ],
   "words": 2083,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveEvidence": "../LIVE-BATCHES-1-7.json",
+  "layoutEvidence": "../LAYOUT-BATCHES-6-7.json"
 }

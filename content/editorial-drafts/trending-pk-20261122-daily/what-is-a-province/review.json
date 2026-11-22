@@ -1,6 +1,6 @@
 {
-  "state": "database-saved-awaiting-hosting",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "imageReviewEvidence": "All eight delivered images inspected together in artifacts/batch-seven-contact.png; image subjects and captions checked individually.",
@@ -10,5 +10,7 @@
     "Cover caption corrected after visual inspection: street scene, not an assertion that the foreground pavilion is the assembly building."
   ],
   "words": 2174,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveEvidence": "../LIVE-BATCHES-1-7.json",
+  "layoutEvidence": "../LAYOUT-BATCHES-6-7.json"
 }
