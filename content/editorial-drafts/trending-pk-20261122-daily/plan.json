@@ -15,7 +15,7 @@
         "pakistan a vs india a"
       ],
       "category": "sports",
-      "state": "research-pending",
+      "state": "live-verified",
       "queries": [
         "cricket ground Harrogate",
         "cricket scoreboard ground"
@@ -59,8 +59,12 @@
         "scotland vs pakistan"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "cricket ground Edinburgh",
+        "cricket bat ball wicket"
+      ],
+      "slug": "pakistan-scotland-women-nine-wicket-win-scorecard-2026"
     },
     {
       "key": "mi-emirates-vs-desert-vipers",
@@ -931,7 +935,7 @@
       "trend": "pakistan a vs india a",
       "searchVolume": "100k+",
       "key": "pakistan-a-india-a",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 2,
@@ -952,7 +956,7 @@
       "trend": "scotland vs pakistan",
       "searchVolume": "10k+",
       "key": "scotland-vs-pakistan",
-      "state": "research-pending"
+      "state": "database-saved-awaiting-hosting"
     },
     {
       "row": 5,
@@ -1511,12 +1515,27 @@
       "explicitUserAuthorization": true,
       "authorization": "User requested all articles and prioritised the Pak vs Ind live scorecard.",
       "validationFile": "validation-batch-1.json",
-      "state": "research-in-progress"
+      "state": "live-verified"
+    },
+    {
+      "number": 2,
+      "keys": [
+        "scotland-vs-pakistan"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested all CSV topics published.",
+      "validationFile": "validation-batch-2.json",
+      "state": "local-review"
     }
   ],
   "chapterSeven": {
-    "state": "pending",
+    "state": "live-verified",
     "sections": 9,
-    "title": "The Internet and the World Wide Web"
+    "title": "The Internet and the World Wide Web",
+    "artifactRun": 45023798376,
+    "deploymentRun": 45024453076,
+    "mcqs": 108,
+    "pdfPages": 42
   }
 }

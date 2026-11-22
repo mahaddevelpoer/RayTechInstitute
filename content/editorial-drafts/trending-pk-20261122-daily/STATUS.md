@@ -1,10 +1,9 @@
 # Pakistan 22 November 2026 and ICT Chapter 7
 
-User approved publication of all CSV topics and requested live-score functionality for Pakistan A vs India A.
+Mahad approved all CSV topics and the Pakistan A–India A live scorecard.
 
-- 82 source rows tracked individually.
-- 75 initial topic groups after seven same-intent alias merges. No row is silently dropped.
-- Pakistan A vs India A is the first release priority.
-- Other articles require research, writing, two licensed images, visual review and live verification.
-- Existing relevant articles will be checked before creating duplicates.
-- ICT Chapter 7 has nine syllabus sections and remains pending while the time-sensitive scorecard article is prepared.
+- All 82 source rows remain tracked in 75 initial groups after seven same-intent aliases.
+- Pakistan A–India A article and score panel are live and verified (batch 1).
+- Scotland–Pakistan Women article: 2,127 body words, 42 tags, two licensed reviewed images; saved and read back with all 608 earlier articles preserved. Hosting release pending (batch 2).
+- ICT Chapter 7 is live: nine syllabus sections, 108 MCQs and a reviewed 42-page PDF. ICT now has all seven chapters and 488 MCQs.
+- Other 73 topic groups remain incomplete. Existing relevant articles need substantive review before being counted as coverage. No unresearched row is marked complete.

@@ -1,5 +1,6 @@
 export interface ReviewedArticleCover { alt: string; caption: string; width: number; height: number; }
 export const REVIEWED_ARTICLE_COVERS: Record<string, ReviewedArticleCover> = {
+  "/images/editorial/trending-pk-20261122-daily/scotland-vs-pakistan-cover.webp": {"alt": "Practice area at Harrogate; illustrative cricket photograph", "caption": "Practice area at Harrogate. Illustrative photograph, not the 22 November Pakistan\u00e2\u20ac\u201cScotland match in Ajman.", "width": 640, "height": 427},
   "/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-cover.webp": {"alt": "Harrogate Cricket Ground", "caption": "Harrogate Cricket Ground. Illustrative cricket photograph; not an image of the 22 November 2026 Doha match.", "width": 1024, "height": 683},
   "/images/editorial/trending-pk-20261030-revised/001-cover.webp": {
     "alt": "Eden Park viewed from Mount Eden in April 2005.",

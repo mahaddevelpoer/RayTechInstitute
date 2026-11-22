@@ -1,0 +1,24 @@
+{
+  "checkedOn": "2026-11-22",
+  "primarySources": [
+    "PCB match report dated 22 November",
+    "PCB scorecard match 37000",
+    "ICC fixture 275646",
+    "MCC cricket laws"
+  ],
+  "reportedFacts": "124/5 in 20 overs; Pakistan 128/1 in 17.1 overs; nine-wicket result; Muneeba 59 from 48; Gull 54 from 43; Kathryn Bryce 53.",
+  "calculations": {
+    "target": 125,
+    "validBalls": 103,
+    "ballsRemaining": 17,
+    "scotlandRate": 6.2,
+    "pakistanRate": 7.456310679611651,
+    "muneebaStrike": 122.91666666666667,
+    "gullStrike": 125.5813953488372
+  },
+  "limitations": [
+    "No invented winning delivery",
+    "No unsupported qualification or current table claim",
+    "No match-photo claim for illustrative licensed images"
+  ]
+}
