@@ -1,0 +1,62 @@
+{
+  "status": "live-verified",
+  "checkedAt": "2026-11-22T10:27:36.834Z",
+  "revision": "5f56ae1e5e393c63ec063ee40cf61adbd85f245b",
+  "pages": [
+    {
+      "path": "/classes/dit-intermediate/",
+      "status": 200,
+      "bytes": 65893
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-computer-science/",
+      "status": 200,
+      "bytes": 81595
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/",
+      "status": 200,
+      "bytes": 57988
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/",
+      "status": 200,
+      "bytes": 47126
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-4-digital-storage/",
+      "status": 200,
+      "bytes": 240423
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/mcqs/?chapter=4",
+      "status": 200,
+      "bytes": 347758
+    }
+  ],
+  "pdfs": [
+    {
+      "path": "/documents/dit/ict/ict-chapter-1-introduction-to-computers.pdf",
+      "bytes": 63434,
+      "sha256": "78fc7a07dc4642f32aa9b1d91d6e750684305999a2359ee21e0a4fb8ec7269e6"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-2-system-unit-components.pdf",
+      "bytes": 67812,
+      "sha256": "e53acd29c6199986a7209752bcb5960347575dbb6ffd12cbc7ab64565b67d032"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-3-input-output-devices.pdf",
+      "bytes": 81143,
+      "sha256": "0d9296d2d1b440e3142547771401596fc8739b70182b08bfc588457600c5e7c4"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-4-digital-storage.pdf",
+      "bytes": 72967,
+      "sha256": "4b9f843a280d688cf499a21f56d04378bf7cf46939dc14261bf3bdb0abf838af"
+    }
+  ],
+  "chapterFourQuestions": 60,
+  "sitemap": true,
+  "diagram": true
+}
