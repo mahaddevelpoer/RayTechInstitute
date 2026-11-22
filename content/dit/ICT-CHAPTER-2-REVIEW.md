@@ -29,3 +29,7 @@ Local verification includes TypeScript, original chapter tests, new chapter cove
 Production artifact run 45003001110 passed all build, catalog, export, browser and security checks on source revision 8c7c2d8354ba03d06350f55c25da65b5bb273863. The release reuses this exact static export for Cloudflare deployment. Source integrity checks normalize line endings so Windows and Linux validate the same teaching content; Chapter 1's public text, MCQs and PDF remain unchanged.
 
 Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45003001110
+
+Cloudflare deployment run 45003431148 succeeded. Custom-domain verification on 22 November 2026 confirmed six public pages return HTTP 200, the Chapter 2 guide is present in the sitemap, page headings/canonical/indexing directives are valid, and deployment metadata matches the tested artifact source revision. The live Chapter 2 PDF exactly matches the reviewed 67,812-byte file; the existing Chapter 1 PDF hash remains unchanged. The component SVG also returns HTTP 200. Evidence: ICT-CHAPTER-2-LIVE-VERIFICATION.json.
+
+Deployment run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45003431148

@@ -1,0 +1,43 @@
+{
+  "status": "live-verified",
+  "checkedAt": "2026-11-22T08:36:36.069Z",
+  "revision": "8c7c2d8354ba03d06350f55c25da65b5bb273863",
+  "pages": [
+    {
+      "path": "/classes/dit-intermediate/",
+      "status": 200,
+      "bytes": 65706
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-computer-science/",
+      "status": 200,
+      "bytes": 81595
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/",
+      "status": 200,
+      "bytes": 52788
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/",
+      "status": 200,
+      "bytes": 43310
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-2-system-unit-components/",
+      "status": 200,
+      "bytes": 229264
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/mcqs/",
+      "status": 200,
+      "bytes": 180557
+    }
+  ],
+  "pdf": {
+    "path": "/documents/dit/ict/ict-chapter-2-system-unit-components.pdf",
+    "bytes": 67812,
+    "sha256": "e53acd29c6199986a7209752bcb5960347575dbb6ffd12cbc7ab64565b67d032"
+  },
+  "sitemap": true
+}
