@@ -1,0 +1,9 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "published": false,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-22",
+  "rejectedImages": "One candidate had inconsistent printed initials; another metadata record named a different person. Final cover uses the exact historical public-domain Riemann portrait source. The finite complex plot is not represented as a proof.",
+  "words": 2208,
+  "localChecks": "validation.json"
+}

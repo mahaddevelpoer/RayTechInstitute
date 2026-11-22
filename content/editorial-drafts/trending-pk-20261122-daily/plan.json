@@ -238,8 +238,12 @@
         "honor"
       ],
       "category": "technology",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Honor smartphone device",
+        "USB C cable connector"
+      ],
+      "slug": "honor-phones-camera-battery-ram-specifications-explained"
     },
     {
       "key": "womens-emerging-nations-trophy",
@@ -301,8 +305,12 @@
         "eva yi xie princeton"
       ],
       "category": "education",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Princeton Nassau Hall",
+        "neuroscience microscope laboratory"
+      ],
+      "slug": "eva-yi-xie-princeton-reports-neuroscience-study-context"
     },
     {
       "key": "international-cricket-council",
@@ -491,7 +499,7 @@
         "dar e nijaat episode 33"
       ],
       "category": "entertainment",
-      "state": "existing-update-saved-awaiting-hosting",
+      "state": "existing-update-live-verified",
       "queries": [],
       "existingArticleSlug": "dar-e-nijaat-cast-story-official-episodes-viewing-guide"
     },
@@ -602,8 +610,12 @@
         "province"
       ],
       "category": "education",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Punjab assembly Lahore building",
+        "Khyber Pakhtunkhwa assembly building"
+      ],
+      "slug": "what-is-a-province-pakistan-federation-districts-guide"
     },
     {
       "key": "nitto-atp-finals",
@@ -724,9 +736,13 @@
       "queriesCovered": [
         "the riemann hypothesis"
       ],
-      "category": "science",
-      "state": "research-pending",
-      "queries": []
+      "category": "education",
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Bernhard Riemann portrait",
+        "Riemann zeta critical strip"
+      ],
+      "slug": "riemann-hypothesis-explained-zeta-zeros-primes-proof"
     },
     {
       "key": "akash-deep",
@@ -824,8 +840,12 @@
         "download"
       ],
       "category": "technology",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "laptop computer study desk",
+        "computer USB storage drive"
+      ],
+      "slug": "what-is-download-files-installation-speed-student-guide"
     },
     {
       "key": "carlos-alcaraz",
@@ -1260,7 +1280,7 @@
       "trend": "dar e nijaat episode 33",
       "searchVolume": "500+",
       "key": "dar-e-nijaat-episode-33",
-      "state": "research-pending"
+      "state": "existing-update-live-verified"
     },
     {
       "row": 43,
@@ -1611,6 +1631,31 @@
       "state": "live-verified",
       "artifactRun": 45028004466,
       "deploymentRun": 45028634873
+    },
+    {
+      "number": 6,
+      "keys": [
+        "the-riemann-hypothesis"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV topics authorised; row 63 receives a checked mathematical explainer.",
+      "validationFile": "validation-batch-6.json",
+      "state": "database-saved-awaiting-hosting"
+    },
+    {
+      "number": 7,
+      "keys": [
+        "honor",
+        "eva-yi-xie-princeton",
+        "what-is-a-province",
+        "download"
+      ],
+      "expectedSize": 4,
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV topics explicitly authorised by Mahad; four educational guides with sourced claims and reviewed licensed images.",
+      "validationFile": "validation-batch-7.json",
+      "state": "database-saved-awaiting-hosting"
     }
   ],
   "chapterSeven": {

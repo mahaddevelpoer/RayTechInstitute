@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Woman sits at a desk with a laptop and writes notes.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Woman_sits_at_a_desk_with_a_laptop_and_writes_notes.jpg/1280px-Woman_sits_at_a_desk_with_a_laptop_and_writes_notes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Woman_sits_at_a_desk_with_a_laptop_and_writes_notes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Woman_sits_at_a_desk_with_a_laptop_and_writes_notes.jpg",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "alt": "A person using a laptop and taking handwritten notes",
+    "description": "A woman is seated at a desk with a laptop open in front of her. She holds a cup of coffee and writes notes on paper. Flowers are in a vase on the table. It is daytime, and the setting is indoors.",
+    "caption": "Laptop and handwritten notes illustrating a computing workflow.",
+    "width": 4032,
+    "height": 6048,
+    "bytes": 8991930,
+    "sha1": "0b328671b780eb59ede0b31238543a4a1358cd03",
+    "photographedAt": "2026-06-07 11:49:46",
+    "query": "laptop desk -NASA -shuttle -Atlantis -geograph",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:Late 2000s Buffalo RUF2 E 4GB USB 2 flash drive made in Taiwan.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Late_2000s_Buffalo_RUF2_E_4GB_USB_2_flash_drive_made_in_Taiwan.jpg/1280px-Late_2000s_Buffalo_RUF2_E_4GB_USB_2_flash_drive_made_in_Taiwan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Late_2000s_Buffalo_RUF2_E_4GB_USB_2_flash_drive_made_in_Taiwan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Late_2000s_Buffalo_RUF2_E_4GB_USB_2_flash_drive_made_in_Taiwan.jpg",
+    "creator": "R. Henrik Nilsson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "A historical Buffalo USB flash drive",
+    "description": "Buffalo RUF2-E 4 GB USB 2.0 flash drive, made in Taiwan, probably dating from the late 2000s. The device has a translucent dark plastic housing through which some of the internal electronic components are visible, and a removable protective cap covering the USB connector. The flash drive is marked \"BUFFALO\", \"USB2.0 Flash Drive\", \"RUF2-E\", \"N32\", \"Z068\", \"Made in Taiwan\", \"FC\", \"CE\" and \"G\". A Phison-branded integrated circuit is visible through the housing. The storage capacity is 4 GB. The device measures approximately 73 × 18 × 8 mm with its cap attached and weighs approximately 9 g. The RUF2-E series was introduced by the Japanese computer peripherals manufacturer Buffalo in June 2006. A contemporary product announcement dated 21 June 2006 lists a 4 GB version of the series, with dimensions of 73 × 18 × 9 mm and a weight of approximately 10 g, closely matching this specimen. The exact manufacturing year of this particular flash drive is unknown.",
+    "caption": "Historical USB flash-drive photograph illustrating persistent storage; no current transfer-speed performance is inferred from the image.",
+    "width": 3908,
+    "height": 1020,
+    "bytes": 761362,
+    "sha1": "8af8c715357d34790525f55e7f7b438372f1ec97",
+    "photographedAt": "2026-10-06",
+    "query": "computer USB storage drive",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-11-22",
+  "sources": [
+    "https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox",
+    "https://support.microsoft.com/en-gb/windows/experience/storage-filemanagement/zip-and-unzip-files",
+    "https://physics.nist.gov/cuu/Units/binary.html",
+    "https://csrc.nist.gov/projects/hash-functions"
+  ],
+  "scope": "Original educational explanation. Hypothetical examples are labelled; no unconfirmed current figures or personal case conclusions are invented.",
+  "checks": [
+    "Mozilla, Microsoft and NIST primary documentation used.",
+    "Decimal 80 MB at 20 Mb/s ideal = 32 seconds; 10485760 bytes = 10 MiB.",
+    "Illustrations depict note-taking and historical USB storage; no actual download-performance claim."
+  ]
+}

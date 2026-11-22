@@ -1,0 +1,14 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "published": false,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-22",
+  "imageReviewEvidence": "All eight delivered images inspected together in artifacts/batch-seven-contact.png; image subjects and captions checked individually.",
+  "factualChecks": [
+    "Official HONOR 600 materials used; no unconfirmed HONOR 700 claims.",
+    "Hypothetical energy 7 Ah x 3.85 V = 26.95 Wh; 20 Wh / 40 W = 0.5 h is not a real charging prediction.",
+    "Historical HONOR 8 photo explicitly separated from HONOR 600."
+  ],
+  "words": 2062,
+  "localChecks": "validation.json"
+}

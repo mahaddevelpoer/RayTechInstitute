@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-11-22",
+  "sources": [
+    "https://www.pbs.gov.pk/gis/",
+    "https://www.pbs.gov.pk/release-of-national-and-provincial-census-reports-of-population-and-housing-census-2023-2/",
+    "https://www.pbs.gov.pk/census/",
+    "https://na.gov.pk/en/downloads.php"
+  ],
+  "scope": "Original educational explanation. Hypothetical examples are labelled; no unconfirmed current figures or personal case conclusions are invented.",
+  "checks": [
+    "PBS official geography and census materials establish four provinces; ICT separately identified.",
+    "Counts compared only with matching year and boundaries; hypothetical rates 10/20000 x 10000 = 5 and 30/100000 x 10000 = 3.",
+    "Cover caption corrected after visual inspection: street scene, not an assertion that the foreground pavilion is the assembly building."
+  ]
+}

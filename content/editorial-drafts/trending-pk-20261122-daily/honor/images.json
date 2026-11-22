@@ -1,0 +1,42 @@
+[
+  {
+    "fileTitle": "File:Honor 8 black - reverse.jpg",
+    "url": "/images/editorial/trending-pk-20261122-daily/honor-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Honor_8_black_-_reverse.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Honor_8_black_-_reverse.jpg",
+    "creator": "Honor",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "alt": "Reverse of a black HONOR 8 smartphone",
+    "description": "Reverse side of the Honor 8 phone",
+    "caption": "Historical HONOR 8 hardware photograph. The specification examples in this guide use separately identified 600-series documents.",
+    "width": 960,
+    "height": 960,
+    "bytes": 11344,
+    "sha1": "bd4c72e893b4e54c3fe4da3e21c082f29086d224",
+    "photographedAt": "2016-07-18 00:18:36",
+    "query": "Honor 8 smartphone",
+    "reviewState": "visually-reviewed-approved",
+    "role": "cover"
+  },
+  {
+    "fileTitle": "File:USB-C-connector-and-cable.png",
+    "url": "/images/editorial/trending-pk-20261122-daily/honor-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/USB-C-connector-and-cable.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:USB-C-connector-and-cable.png",
+    "creator": "Deergirl",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "alt": "USB-C connector and a short cable section",
+    "description": "A black USB Type C connector a short section of its cable.",
+    "caption": "Connector illustration for interpreting shape, data rate and charging capability as separate specifications.",
+    "width": 1074,
+    "height": 960,
+    "bytes": 29864,
+    "sha1": "94501057b1db28de1c7055de39320c758e4982c9",
+    "photographedAt": "2025-11-29",
+    "query": "USB C cable connector",
+    "reviewState": "visually-reviewed-approved",
+    "role": "inline"
+  }
+]

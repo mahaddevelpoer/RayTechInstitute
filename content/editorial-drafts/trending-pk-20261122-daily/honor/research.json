@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-11-22",
+  "sources": [
+    "https://www.honor.com/global/news/honor-600-series-launch/",
+    "https://www.honor.com/global/phones/honor-600/",
+    "https://www.honor.com/global/phones/honor-600/spec/",
+    "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf",
+    "https://developer.android.com/media/optimize/performance/frame-rate"
+  ],
+  "scope": "Original educational explanation. Hypothetical examples are labelled; no unconfirmed current figures or personal case conclusions are invented.",
+  "checks": [
+    "Official HONOR 600 materials used; no unconfirmed HONOR 700 claims.",
+    "Hypothetical energy 7 Ah x 3.85 V = 26.95 Wh; 20 Wh / 40 W = 0.5 h is not a real charging prediction.",
+    "Historical HONOR 8 photo explicitly separated from HONOR 600."
+  ]
+}

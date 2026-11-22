@@ -1,0 +1,37 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 4,
+  "bodyWords": 8479,
+  "uniqueImages": 8,
+  "existingArticlesCompared": 613,
+  "results": [
+    {
+      "key": "honor",
+      "slug": "honor-phones-camera-battery-ram-specifications-explained",
+      "words": 2062,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "eva-yi-xie-princeton",
+      "slug": "eva-yi-xie-princeton-reports-neuroscience-study-context",
+      "words": 2160,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "what-is-a-province",
+      "slug": "what-is-a-province-pakistan-federation-districts-guide",
+      "words": 2174,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "download",
+      "slug": "what-is-download-files-installation-speed-student-guide",
+      "words": 2083,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

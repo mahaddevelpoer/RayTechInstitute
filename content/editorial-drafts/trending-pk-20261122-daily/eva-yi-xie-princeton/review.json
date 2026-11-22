@@ -1,0 +1,14 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "published": false,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-22",
+  "imageReviewEvidence": "All eight delivered images inspected together in artifacts/batch-seven-contact.png; image subjects and captions checked individually.",
+  "factualChecks": [
+    "Dated public reporting from Princeton Alumni Weekly and Daily Princetonian attributed to its sources.",
+    "No independent legal-status conclusion, private identifier or unverified subsequent custody update.",
+    "Neuroscience illustration is identified as University of Tartu, not Xie or her research; 8/10 = 80% is fictional."
+  ],
+  "words": 2160,
+  "localChecks": "validation.json"
+}

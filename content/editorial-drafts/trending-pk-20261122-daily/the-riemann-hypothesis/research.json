@@ -1,0 +1,26 @@
+{
+  "checkedOn": "2026-11-22",
+  "sources": [
+    "https://www.claymath.org/millennium/riemann-hypothesis/",
+    "https://dlmf.nist.gov/25.2",
+    "https://dlmf.nist.gov/25.10",
+    "https://www.claymath.org/collections/riemanns-1859-manuscript/"
+  ],
+  "status": "Clay lists the problem as unsolved; no claimed new proof adopted.",
+  "accuracy": [
+    "Original zeta series restricted to Re(s)>1",
+    "Analytic continuation distinguished from assigning arbitrary divergent sums",
+    "Only nontrivial zeros subject to the critical-line statement",
+    "Example points are not claimed as zeros",
+    "Finite products and sums explicitly partial",
+    "Euler polynomial prime outputs checked for n=0..39; n=40 equals 41 squared",
+    "No unverified latest zero-check record or prize entitlement claimed"
+  ],
+  "calculations": {
+    "threeTermPartialSum": 1.3611111111111112,
+    "twoPrimePartialProduct": 1.5,
+    "polynomialAt40": 1681,
+    "primeCountAt10": 4,
+    "primeCountAt20": 8
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "published": false,
+  "imageVisualReview": "passed",
+  "sourceCheckedOn": "2026-11-22",
+  "imageReviewEvidence": "All eight delivered images inspected together in artifacts/batch-seven-contact.png; image subjects and captions checked individually.",
+  "factualChecks": [
+    "Mozilla, Microsoft and NIST primary documentation used.",
+    "Decimal 80 MB at 20 Mb/s ideal = 32 seconds; 10485760 bytes = 10 MiB.",
+    "Illustrations depict note-taking and historical USB storage; no actual download-performance claim."
+  ],
+  "words": 2083,
+  "localChecks": "validation.json"
+}

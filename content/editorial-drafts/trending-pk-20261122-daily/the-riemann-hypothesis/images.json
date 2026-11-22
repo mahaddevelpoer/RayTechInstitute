@@ -1,0 +1,41 @@
+[
+  {
+    "fileTitle": "File:Georg Friedrich Bernhard Riemann.jpeg",
+    "url": "/images/editorial/trending-pk-20261122-daily/the-riemann-hypothesis-cover.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+    "creator": "Unknown photographer via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Historical portrait of Bernhard Riemann",
+    "caption": "Historical portrait of Bernhard Riemann. Public-domain image via Wikimedia Commons.",
+    "description": "An Image of  en:Georg Friedrich Bernhard Riemann  taken in 1863",
+    "width": 500,
+    "height": 546,
+    "bytes": 51030,
+    "sha1": "6ce62e0a7c81bbcbf6581d2463b88962cc150a1f",
+    "role": "cover",
+    "reviewState": "candidate-needs-visual-review",
+    "query": "Exact historical Riemann portrait, source-verified"
+  },
+  {
+    "fileTitle": "File:Complex zeta.jpg",
+    "url": "/images/editorial/trending-pk-20261122-daily/the-riemann-hypothesis-inline.webp",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Complex_zeta.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Complex_zeta.jpg",
+    "creator": "Jan Homann",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Complex_zeta.jpg",
+    "alt": "Complex visualization associated with the zeta function",
+    "description": "function Zeta[z] in the complex plane (horizontal axis = Re(z) and vertical axis = Im(z))",
+    "caption": "A visualization associated with the zeta function. A plotted image is not a proof of the Riemann hypothesis.",
+    "width": 821,
+    "height": 820,
+    "bytes": 25622,
+    "sha1": "d5200c53183de69ce1585c50cc7adc458e0ec931",
+    "photographedAt": "2007-08-03",
+    "query": "zeta function complex plot",
+    "reviewState": "candidate-needs-visual-review",
+    "role": "inline"
+  }
+]

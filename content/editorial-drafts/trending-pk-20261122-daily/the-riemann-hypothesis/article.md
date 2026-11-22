@@ -1,0 +1,126 @@
+The **Riemann hypothesis** is a precise claim about the zeros of a mathematical function called the Riemann zeta function. It says that every nontrivial zero has real part **one half**. The Clay Mathematics Institute continues to list the problem as **unsolved**, checked on 22 November 2026. A viral claim, a numerical plot or a long manuscript should not be presented as an accepted solution without appropriate mathematical verification.
+
+The statement is short, but its terms need care. What is a complex number? What makes a zero nontrivial? Why does a function involving fractions have anything to do with prime numbers? This guide builds those ideas through worked examples while distinguishing a useful calculation from a proof of an infinite claim.
+
+## What exactly does the Riemann hypothesis say?
+
+Write a complex input as **s = a + b i**, where a and b are real numbers and i squared equals minus one. The real part is a and the imaginary part is b. The hypothesis concerns inputs at which the continued zeta function equals zero, excluding its separately understood trivial zeros.
+
+Its assertion is that every such nontrivial zero satisfies **a = 1/2**. This is the critical-line statement. It does not say that the imaginary part is one half, that every complex number is a zero or that every point on the line is a zero.
+
+| Term | Meaning in this guide |
+|---|---|
+| Complex input | A number with real and imaginary components |
+| Zero | An input where the function's value is zero |
+| Critical strip | The region with real part strictly between zero and one |
+| Critical line | The vertical line with real part one half |
+| Hypothesis | The unproved assertion about all nontrivial zeros |
+
+The word all carries much of the difficulty. A result covering a finite list, however impressive, is not automatically a result covering every zero in an unbounded region. The difference between those claims is central to understanding the problem.
+
+## How should a complex number be pictured?
+
+A complex number can be represented by a point in a plane. Its real part supplies the horizontal coordinate and its imaginary part the vertical coordinate. For example, **3 + 2 i** is represented by horizontal coordinate three and vertical coordinate two. The coordinates play different roles even though both are ordinary real numbers.
+
+The complex numbers **1/2 + 7 i** and **1/2 + 20 i** share the same real part. They therefore lie on the same vertical line, despite having different heights. Merely writing these examples does not assert that either is a zeta zero; they illustrate location only.
+
+By contrast, **2/5 + 7 i** lies to the left of the critical line because two fifths is 0.4, less than 0.5. A point's position can be discussed without knowing the value of the function there. Keeping input location separate from output value avoids a common visual misunderstanding.
+
+For a paper exercise, draw horizontal and vertical axes, mark the lines at real parts zero, one half and one, then place the three example points. Label them as example inputs, not discovered zeros. The drawing teaches the geometry without pretending to prove a statement about the function.
+
+## What is the zeta function in its first familiar region?
+
+For inputs whose real part is greater than one, the zeta function is represented by the infinite series **ζ(s) = 1 + 1/2^s + 1/3^s + 1/4^s + ...**. The domain condition belongs with the formula. Removing it can make a familiar expression appear to justify calculations where that particular series does not converge.
+
+At the ordinary real input s = 2, the first three terms add to **1 + 1/4 + 1/9 = 49/36**, approximately **1.361111**. This is a partial sum, not the complete infinite sum. Further positive terms remain, so these three terms alone do not give the final value.
+
+A learner can add a fourth term, one sixteenth, and see the total increase. That experiment helps explain what a partial sum records. To establish convergence and identify an infinite value, one needs an argument about the limiting process, not merely a screen showing several decimal places.
+
+Notice also what the input does. Changing s changes the powers in the denominators. The function is not one fixed list of reciprocals with an arbitrary symbol attached; it is a rule relating inputs to values within the relevant mathematical construction.
+
+## Why is analytic continuation necessary?
+
+The original series representation applies when the real part of s is greater than one. The nontrivial zeros discussed by the hypothesis lie in another region. Mathematicians therefore use the function's **analytic continuation**, rather than pretending the original series converges everywhere.
+
+Analytic continuation extends an analytic function consistently from a region where it is already defined, subject to the relevant mathematical conditions. It is not permission to assign any desired value to a divergent expression. The construction must preserve the appropriate analytic relationships.
+
+NIST's Digital Library of Mathematical Functions describes zeta as meromorphic, with its only singularity a simple pole at s = 1. A pole is different from a zero. At a zero, the function takes the value zero; at the pole, the ordinary finite analytic value is unavailable.
+
+A useful checking habit is to keep three questions together: which function is being discussed, which representation is being used and where that representation is valid. A proposed argument can fail by moving a series outside its convergence region even when the algebraic manipulation looks familiar.
+
+## Which zeros are called trivial and nontrivial?
+
+The zeros at the negative even integers, such as **minus two, minus four and minus six**, are called trivial zeros. Here trivial is a technical classification, not a judgement that learning their explanation is unimportant. They are excluded from the central critical-line claim.
+
+The other zeros lie in the critical strip, where the real part is strictly between zero and one. The Riemann hypothesis says that all these nontrivial zeros are on the critical line through one half. The strip is a two-dimensional region; the line is a narrower set inside it.
+
+It is therefore misleading to say that all zeta zeros have real part one half without the word nontrivial. The negative even examples already show why the qualification matters. A simplified explanation should preserve the essential distinction rather than simplify away the actual statement.
+
+For a short exercise, classify minus four as a known trivial-zero location and one half plus seven i as an example point on the critical line. The second classification says nothing by itself about whether the function vanishes there. A correct location label is not a certificate of zero status.
+
+## Why does the zeta function connect to prime numbers?
+
+A prime is an integer greater than one with exactly two positive divisors: one and itself. Unique prime factorisation connects the integers in the zeta series with a product involving primes. In the region where the standard Euler product applies, each prime contributes a factor of the form **1 divided by (1 minus p^(-s))**.
+
+At s = 2, using only the factors for two and three gives **(1 - 1/4)^(-1) multiplied by (1 - 1/9)^(-1)**. That is **4/3 multiplied by 9/8**, or **3/2**. It is a finite partial product, not the complete product over all primes.
+
+The example explains the role of the index set. A product over two selected primes and a product over every prime are different mathematical objects. Adding more factors changes the approximation, while the full identity requires the convergence conditions and infinite construction to be respected.
+
+The connection does not mean that a zero is itself a prime number or that its imaginary coordinate directly lists the primes in order. It means the same function has deep relationships with prime distribution. The hypothesis concerns the accuracy of that distribution's description, rather than merely supplying another list of small primes.
+
+## What is meant by the distribution of primes?
+
+Primes begin 2, 3, 5, 7, 11, 13 and continue indefinitely. Their spacing is uneven. A question about distribution asks how they are spread among the integers, including how a count up to a chosen bound compares with a mathematical approximation.
+
+For a small exact example, the primes no larger than ten are 2, 3, 5 and 7, giving a count of four. No larger than twenty, the list adds 11, 13, 17 and 19, giving eight. These are finite counts that can be checked directly; they are not a proof of a general asymptotic formula.
+
+The prime number theorem describes an overall asymptotic pattern. The Riemann hypothesis is connected to more precise control of deviations from an approximation. Average distribution and an error estimate are different kinds of statement, so one should not describe the hypothesis as if mathematicians had previously known nothing about prime counts.
+
+An analogy with measurements can help, provided its limits remain clear. A trend estimate and a bound on its error answer different questions. In number theory, however, the relevant claims require mathematical definitions and proofs, rather than only a graph that appears close to an expected curve.
+
+## Why do many successful checks not prove an infinite claim?
+
+Consider the elementary polynomial **n squared plus n plus 41**. For integers n from zero through 39 it produces primes. At n = 40, however, it gives **1600 + 40 + 41 = 1681 = 41 squared**, which is composite. A persuasive finite pattern can stop immediately after the checked range.
+
+This example is not an argument that the Riemann hypothesis is false. It illustrates the logical gap between checking a range and proving a universal statement. A counterexample in one unrelated sequence does not decide another problem; it shows why the type of evidence matters.
+
+Numerical work on zeta zeros can be highly sophisticated and mathematically rigorous within a specified range. Its value should not be dismissed. The scope of the conclusion should still be stated accurately: a verified finite region is a finite-region result unless an additional argument covers every remaining possibility.
+
+If a headline says a computer checked many zeros, ask what was checked, how completeness in that region was established and what conclusion the authors actually claim. A computation and a proof can support one another without being interchangeable labels.
+
+## What would a counterexample need to establish?
+
+To contradict the hypothesis, one would need a genuine nontrivial zero whose real part is not one half. A coloured pixel near the line, a rounded decimal or a numerical method returning a very small value is not automatically enough to establish that fact.
+
+For a deliberately hypothetical point with real part 0.4, the geometry would place it off the line. One would still need to prove that it is a nontrivial zero of the relevant function. Neither an invented coordinate nor a visually suggestive plot supplies that missing conclusion.
+
+Precision and error control matter because approximate values can differ from exact mathematical statements. A result close to zero may reflect an approximation, rounding or the behaviour of the numerical algorithm. The interpretation depends on what has been certified, not only on how many digits are printed.
+
+The same care applies to alleged proofs. A long file can contain correct intermediate calculations while its final universal step remains unsupported. Review the actual logical transition rather than treating length, technical vocabulary or confidence as a substitute for validity.
+
+## How should a claimed breakthrough be evaluated?
+
+Begin with the exact claim and the complete argument. Does the author claim a proof, a conditional result, a numerical verification or a heuristic explanation? Those are different contributions. A news summary can accidentally collapse them into the single word solved.
+
+Next check the mathematical setting. Are the definitions precise? Are series used within their valid domains? Are limiting operations justified? Is every claimed implication supported? A non-specialist may not be able to settle those questions, but can recognise why expert scrutiny is necessary.
+
+Then examine the public assessment from qualified researchers and appropriate mathematical institutions. A preprint is a way to share work; posting one is not itself proof of acceptance. Likewise, the absence of an immediate response does not certify a result or automatically refute it.
+
+This article's status statement follows the Clay Mathematics Institute's unsolved listing checked on 22 November 2026. It is not based on a trending search phrase. If the mathematical status changes, the evidence should be an accepted argument and reliable expert confirmation, not merely a repeated headline.
+
+## What can a student learn before advanced complex analysis?
+
+Start with prime factorisation, fractions, sequences and the distinction between finite sums and limits. Add the complex-plane representation, then practise reading the real and imaginary components separately. These ideas make the central statement more understandable even before the machinery needed to study it rigorously.
+
+Use the worked calculations here as separate exercises: add the three s = 2 series terms, evaluate the two-prime partial product, count primes up to twenty and check the polynomial at n = 40. Explain what each calculation establishes and what it leaves unresolved.
+
+For a final explanation, write three sentences: the hypothesis concerns nontrivial zeta zeros; the proposed real part is one half; finite numerical checks do not by themselves prove the universal statement. Accurate short explanations are more valuable than impressive terminology used without its conditions.
+
+Our [D.I.T application-software guide](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-6-application-software/) explains why calculations in a spreadsheet still require correct inputs and interpretation. For the Riemann hypothesis, the additional lesson is especially clear: a useful calculation and an accepted mathematical proof have different responsibilities.
+
+## Sources
+
+- [Clay Mathematics Institute: Riemann hypothesis and current unsolved listing](https://www.claymath.org/millennium/riemann-hypothesis/).
+- [NIST DLMF: zeta definition, analytic continuation and product representations](https://dlmf.nist.gov/25.2).
+- [NIST DLMF: zeros, critical strip and critical line](https://dlmf.nist.gov/25.10).
+- [Clay Mathematics Institute: Riemann's 1859 manuscript](https://www.claymath.org/collections/riemanns-1859-manuscript/), for the historical source context.
