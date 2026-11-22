@@ -18,27 +18,35 @@ from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
 chapter = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-if chapter not in (1, 2):
-    raise ValueError('Only reviewed ICT chapters 1 and 2 are supported')
+if chapter not in (1, 2, 3):
+    raise ValueError('Only reviewed ICT chapters 1, 2 and 3 are supported')
 source = ROOT / f'content/dit/ict-chapter-{chapter}.json'
 data = json.loads(source.read_text(encoding='utf-8'))
 dest = ROOT / 'public/documents/dit/ict'
 dest.mkdir(parents=True, exist_ok=True)
-prefix = f'ict-chapter-{chapter}-' + ('introduction-to-computers' if chapter == 1 else 'system-unit-components')
-coverage = f'{chapter}.1 to {chapter}.6'
-diagram_name = 'computer-system-flow.svg' if chapter == 1 else 'system-unit-connections.svg'
+slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices'}
+prefix = f'ict-chapter-{chapter}-' + slugs[chapter]
+topic_count = len(data['topics'])
+question_count = topic_count * 10
+topic_label = {6:'six',8:'eight'}[topic_count]
+coverage = f'{chapter}.1 to {chapter}.{topic_count}'
+diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg'}[chapter]
 questions = []
+if chapter == 3:
+    from random import Random
+    answer_positions = list(range(4)) * (question_count//4)
+    Random(32026).shuffle(answer_positions)
 for topic in data['topics']:
     for raw in topic['questions']:
         question, correct, a, b, c, explanation = raw
         index = len(questions)
-        position = [2,0,3,1,0,2,1,3,2,1,3,0][index % 12]
+        position = (answer_positions[index] if chapter == 3 else [2,0,3,1,0,2,1,3,2,1,3,0][index % 12])
         options = [a,b,c]
         options.insert(position, correct)
         questions.append(dict(id=f'dit-ict-ch{chapter}-q{index+1:02}', classSlug='dit-intermediate',subjectSlug='dit-ict',chapterNumber=chapter,topic=f"{topic['code']} {topic['title']}", question=question, options=options, correctIndex=position, explanation=explanation))
-assert len(questions) == 60
-assert len({q['question'] for q in questions}) == 60
-assert Counter(q['correctIndex'] for q in questions) == {0:15,1:15,2:15,3:15}
+assert len(questions) == question_count
+assert len({q['question'] for q in questions}) == question_count
+assert Counter(q['correctIndex'] for q in questions) == {k:question_count//4 for k in range(4)}
 assert all(len(set(q['options']))==4 for q in questions)
 
 short = [
@@ -64,6 +72,8 @@ long = [
 ('Explain computer applications in the eight sectors named by the syllabus.', [('Education and finance','Learning platforms, quizzes and marks processing support education. Finance systems record transactions, calculate balances and support payments.'),('Government and health care','Government systems manage registrations and services. Health-care systems manage appointments and clinical records and support qualified interpretation.'),('Science and publishing','Scientific computing analyses measurements and models processes. Publishing tools support writing, editing, page layout and distribution.'),('Travel and manufacturing','Travel systems check availability and manage reservations. Manufacturing systems support design, scheduling and machine control.'),('Responsibilities','Use accurate input, protect personal data, maintain backups and apply appropriate human review. Automation can repeat mistakes as readily as correct operations.')])
 ]
 test_indices = [1,3,7,10,12,14,16,19,22,24,27,30,33,36,41,44,48,51,55,59]
+if chapter == 3:
+    test_indices = [1,4,8,10,14,18,21,25,29,32,36,41,45,49,52,56,61,66,72,78]
 test_questions = [questions[i] for i in test_indices]
 practical = [
 ('Identify and classify devices','Observe available devices without opening a powered computer. Record one input device, one output device, one storage device and one communication device. Explain any device with two roles.','A labelled list with correct roles and reasons.'),
@@ -72,7 +82,7 @@ practical = [
 ('Design an algorithm','Write clear ordered steps for calculating the mean of three values. Test your steps with two sets of values and state the expected results.','A finite set of steps with correct input, processing and output.'),
 ('Choose an appropriate computer','Choose a system for a travelling student, a washing-machine controller and a weather-simulation centre. Give reasons based on the task.','Portable personal computer, embedded controller and high-performance computing system, with reasons.')
 ]
-if chapter == 2:
+if chapter >= 2:
     short, long, practical = data['short'], data['long'], data['practical']
 viva = data.get('viva', 'Explain why a touchscreen has two roles. Why does saving matter? How is a program different from an algorithm? Why can automation repeat a mistake? Use the topic notes and solved answers above to check your explanation.')
 extra_sources = data.get('sources', [['IBM explanation of computer hardware', 'https://www.ibm.com/think/topics/hardware'], ['Computer History Museum semiconductor timeline', 'https://www.computerhistory.org/siliconengine/timeline/']])
@@ -85,7 +95,7 @@ def mcq_markdown(q, number, answer=True):
     if answer: result.append(f"**Correct answer: {chr(65+q['correctIndex'])}.** {q['explanation']}")
     return '\n\n'.join(result)
 
-parts=["## Chapter overview and syllabus coverage", f"This original English study guide follows PBTE's two-year D.I.T first-semester ICT Module {chapter}, syllabus sections {coverage}. It includes 60 explained revision MCQs, six topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.", "| Syllabus section | Topic | Revision MCQs |\n|---|---|---|"+'\n'+ '\n'.join(f"| {t['code']} | {t['title']} | 10 |" for t in data['topics']), "## Topic-wise revision MCQs"]
+parts=["## Chapter overview and syllabus coverage", f"This original English study guide follows PBTE's two-year D.I.T first-semester ICT Module {chapter}, syllabus sections {coverage}. It includes {question_count} explained revision MCQs, {topic_label} topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.", "| Syllabus section | Topic | Revision MCQs |\n|---|---|---|"+'\n'+ '\n'.join(f"| {t['code']} | {t['title']} | 10 |" for t in data['topics']), "## Topic-wise revision MCQs"]
 for t_index,t in enumerate(data['topics']):
     parts.append(f"## {t['code']} {t['title']} MCQs")
     parts.extend(mcq_markdown(q,t_index*10+i+1) for i,q in enumerate(questions[t_index*10:(t_index+1)*10]))
@@ -94,16 +104,18 @@ for t in data['topics']:
     parts += [f"## {t['code']} {t['title']}",t['notes'],'### Practical examples','\n'.join('- '+v for v in t['examples']),'### Common mistakes','\n'.join('- '+v for v in t['mistakes']),'### Quick revision','\n'.join('- '+v for v in t['revision'])]
 if chapter == 1:
     parts += ['## Diagrams and comparisons', '![Input processing output and storage diagram](/documents/dit/ict/computer-system-flow.svg)', 'Input supplies data to processing; processing produces output and exchanges data with storage. Communication allows the system to exchange data with other devices.', '| Feature | RAM | SSD or hard drive |\n|---|---|---|\n| Main role | Working memory | Persistent storage |\n| Power removed | Normally loses contents | Retains saved data |\n| Student action | Edit current work | Save a file |', '| Category | Main role | Example |\n|---|---|---|\n| System software | Support computer operation | Operating system, driver |\n| Application software | Support a user task | Word processor, spreadsheet |']
-else:
+elif chapter == 2:
     parts += ['## Diagrams and comparisons', f'![System unit component connections](/documents/dit/ict/{diagram_name})', data['diagramDescription'], '| Type | Main role | Retention |\n|---|---|---|\n| RAM | Working programs and data | Normally volatile |\n| ROM | Read-only or read-mostly information | Non-volatile |\n| Cache | Fast-access copies | Normally volatile |\n| Flash | Rewritable storage and firmware | Non-volatile |\n| Legacy CMOS settings RAM | Small configuration values | Battery-backed |']
     parts += data['comparisons']
+else:
+    parts += ['## Diagrams and comparisons', f'![Input and output device flow](/documents/dit/ict/{diagram_name})', data['diagramDescription']] + data['comparisons']
 parts.append('## Solved short questions')
 parts += [f"### {i+1}. {q}\n\n{a}" for i,(q,a) in enumerate(short)]
 parts.append('## Solved long questions')
 for i,(q,sections) in enumerate(long):
     parts.append(f'### {i+1}. {q}')
     parts += [f'**{h}.** {text}' for h,text in sections]
-parts += ['## Expected practice and past-paper status', 'The questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use all six topic sections for preparation.', '## Practical activities and viva preparation']
+parts += ['## Expected practice and past-paper status', 'The questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use every topic section for preparation.', '## Practical activities and viva preparation']
 for name,steps,result in practical: parts += [f'### {name}',steps,f'**Expected result:** {result}']
 parts += ['### Viva questions', viva, '## Chapter practice test', 'Suggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.']
 parts += [mcq_markdown(q,i+1,False) for i,q in enumerate(test_questions)]
@@ -113,8 +125,10 @@ parts += ['### Long questions']+[f'{i+1}. {long[k][0]}' for i,k in enumerate([1,
 parts += ['## Practice test answer key and explanations']+[f"{i+1}. **{chr(65+q['correctIndex'])}**. {q['explanation']}" for i,q in enumerate(test_questions)]
 parts += ['### Written-answer guidance', 'Short questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.', '## Sources and further study', f"- [PBTE official two-year DIT syllabus, ICT Module {chapter}, page {data['sourcePages']}]({data['syllabusUrl']})"]
 parts += [f'- [{name}]({url})' for name,url in extra_sources]
-if chapter == 2:
+if chapter >= 2:
     parts += ['## Continue your ICT revision', '[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).']
+if chapter == 3:
+    parts.append('[Review Chapter 2 System Unit Components](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-2-system-unit-components/).')
 markdown='\n\n'.join(parts)+'\n'
 (ROOT/f'content/dit/ict-chapter-{chapter}.md').write_text(markdown,encoding='utf-8')
 
@@ -123,7 +137,7 @@ styles=getSampleStyleSheet()
 styles.add(ParagraphStyle(name='BodyGuide',fontName='Helvetica',fontSize=10.5,leading=13.2,spaceAfter=6))
 styles.add(ParagraphStyle(name='OptionGuide',fontName='Helvetica',fontSize=10,leading=13,spaceAfter=2,leftIndent=10))
 styles.add(ParagraphStyle(name='CorrectGuide',parent=styles['OptionGuide'],backColor=colors.HexColor('#e5f3e7')))
-if chapter == 2:
+if chapter >= 2:
     styles['CorrectGuide'].fontName='Helvetica-Bold'
     styles['BodyGuide'].allowWidows=0
     styles['Heading1'].keepWithNext=1
@@ -153,12 +167,12 @@ def canvas_page(canvas,doc):
     canvas.drawString(46,30,f'D.I.T Semester 1 | ICT Chapter {chapter}')
     canvas.drawRightString(566,30,f'Page {doc.page}')
     canvas.restoreState()
-story += [Spacer(1,80),p(data['title'],'Title'),p('D.I.T two-year programme | First semester','Heading2'),p(f'Introduction to ICT | Chapter {chapter}','Heading2'),Spacer(1,20),p('60 explained MCQs, easy topic notes, solved questions, practical activities and a separate chapter practice test.'),p(f'Original English study material aligned to PBTE syllabus sections {coverage}. Practice questions are not verified past-paper questions.'),PageBreak()]
+story += [Spacer(1,80),p(data['title'],'Title'),p('D.I.T two-year programme | First semester','Heading2'),p(f'Introduction to ICT | Chapter {chapter}','Heading2'),Spacer(1,20),p(f'{question_count} explained MCQs, easy topic notes, solved questions, practical activities and a separate chapter practice test.'),p(f'Original English study material aligned to PBTE syllabus sections {coverage}. Practice questions are not verified past-paper questions.'),PageBreak()]
 heading('Chapter overview and topic coverage')
-story += [p('Read each topic, attempt its questions and explain the reason for each answer. Use the separate test after revision. All six syllabus sections below are covered.')]
+story += [p(f'Read each topic, attempt its questions and explain the reason for each answer. Use the separate test after revision. All {topic_label} syllabus sections below are covered.')]
 table=Table([['Section','Topic','MCQs']]+[[t['code'],Paragraph(escape(t['title']),styles['BodyGuide']),'10'] for t in data['topics']],colWidths=[55,380,45],hAlign='LEFT')
 table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),navy),('TEXTCOLOR',(0,0),(-1,0),colors.white),('GRID',(0,0),(-1,-1),.5,colors.HexColor('#d9d9d9')),('VALIGN',(0,0),(-1,-1),'MIDDLE'),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
-story.extend([table,Spacer(1,16),p('The six topic groups each contain ten revision MCQs. Their correct options are shaded light green. The final practice test keeps answers separate.'),PageBreak()])
+story.extend([table,Spacer(1,16),p(f'The {topic_label} topic groups each contain ten revision MCQs. Their correct options are shaded light green. The final practice test keeps answers separate.'),PageBreak()])
 for t_index,t in enumerate(data['topics']):
     heading(f"{t['code']} {t['title']} MCQs")
     for i,q in enumerate(questions[t_index*10:(t_index+1)*10]): add_mcq(q,t_index*10+i+1)
@@ -191,7 +205,13 @@ if chapter == 2:
         d.add(Line(x1,y1,x2,y2,strokeColor=navy))
 story.extend([d,p(data.get('diagramDescription','Input supplies data; processing executes instructions; output presents results. Processing reads saved data from storage and writes results back to storage. Communication exchanges data with other devices.'))])
 for text in data.get('comparisons',['RAM is working memory and is normally volatile. An SSD is persistent storage for saved files.','System software manages or supports computer operation. Application software carries out user tasks.','A mainframe prioritises dependable high-volume transaction work. A supercomputer prioritises very large computational workloads.']):
-    story.append(p(text))
+    if chapter == 3 and text.startswith('|'):
+        rows=[[p(cell.strip()) for cell in line.strip('|').split('|')] for line in text.splitlines() if not re.match(r'^\|[-| ]+\|$',line)]
+        comparison=Table(rows,colWidths=[520/len(rows[0])]*len(rows[0]),repeatRows=1,hAlign='LEFT')
+        comparison.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8effa')),('GRID',(0,0),(-1,-1),.4,colors.HexColor('#94a3b8')),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),6)]))
+        story.append(KeepTogether([comparison,Spacer(1,12)]))
+    else:
+        story.append(p(text))
 story.append(PageBreak())
 heading('Solved short questions')
 for i,(q,a) in enumerate(short):story.extend([p(f'{i+1}. {q}','Heading2'),p(a)])
@@ -202,6 +222,8 @@ for i,(q,sections) in enumerate(long):
 story.append(PageBreak());heading('Practical activities and viva')
 for name,steps,result in practical: story.extend([p(name,'Heading2'),p(steps),p('Expected result: '+result)])
 story += [p('Viva questions','Heading2'),p(viva),p('Past-paper status','Heading2'),p('All questions are authored syllabus-based practice. No supplied past paper was available for verification. No board/year appearance or guaranteed exam prediction is claimed.'),PageBreak()]
+if chapter == 3 and isinstance(story[-1],PageBreak):
+    story.pop()
 heading('Chapter practice test')
 story.append(p('Learning exercise: 20 MCQs, 10 short questions and 3 long questions. This is not a verified official PBTE paper pattern. Some questions revisit the revision bank. Do not consult the following answer key until you have attempted the test.'))
 for i,q in enumerate(test_questions):add_mcq(q,i+1,False)
@@ -216,7 +238,7 @@ story.append(p('Written-answer guidance','Heading2'))
 story.append(p('Short questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Check concepts, examples and diagrams rather than memorising identical wording.'))
 story.append(p('Sources and further study','Heading2'))
 story.append(Paragraph(f'<link href="{escape(data["syllabusUrl"],quote=True)}" color="#1449AD">PBTE official two-year DIT first-semester syllabus, ICT Module {chapter}, page {data["sourcePages"]}</link>',styles['BodyGuide']))
-if chapter == 2:
+if chapter >= 2:
     story.extend(Paragraph(f'<link href="{escape(url,quote=True)}" color="#1449AD">{escape(name)}</link>',styles['BodyGuide']) for name,url in extra_sources)
 else:
     story.extend(p(name+': '+url) for name,url in extra_sources)
@@ -240,7 +262,7 @@ footer=section.footer.paragraphs[0];footer.text=f'D.I.T Semester 1 | ICT Chapter
 field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');footer._p.append(field)
 doc.add_paragraph(data['title'],'Title')
 doc.add_paragraph(f'D.I.T two-year programme | Introduction to ICT | Chapter {chapter}')
-doc.add_paragraph('60 explained MCQs, topic notes, solved questions and a separate practice test.')
+doc.add_paragraph(f'{question_count} explained MCQs, topic notes, solved questions and a separate practice test.')
 doc.add_page_break()
 for line in markdown.splitlines():
     if not line:continue
@@ -266,6 +288,8 @@ if chapter == 2:
     shapes=''.join(f'<rect x="{x}" y="{y}" width="{w}" height="45" rx="4" fill="#e8effa" stroke="#032c68"/><text x="{x+w/2}" y="{y+28}" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#032c68">{label}</text>' for x,y,w,label in boxes)
     lines=''.join(f'<path d="M{x1} {y1}L{x2} {y2}" stroke="#032c68" stroke-width="2"/>' for x1,y1,x2,y2 in [(160,37,230,122),(480,37,410,122),(160,202,230,122),(480,202,410,122),(320,260,320,145)])
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-labelledby="title"><title id="title">Functional system unit component connections</title>{lines}{shapes}</svg>'
+if chapter == 3:
+    svg=svg.replace('Input processing output with storage exchanging data with processing','Input devices supply data; output devices present results; storage retains saved work').replace('>Input</text>','>Input devices</text>').replace('>Output</text>','>Output devices</text>')
 (dest/diagram_name).write_text(svg,encoding='utf-8')
 generated=dict(title=data['title'],content=markdown,questions=questions,pdfBytes=pdf.stat().st_size,pdfSha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),sourceSha256=hashlib.sha256(source.read_text(encoding='utf-8').encode('utf-8')).hexdigest())
 (ROOT/f'content/dit/ict-chapter-{chapter}.generated.json').write_text(json.dumps(generated,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

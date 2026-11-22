@@ -71,7 +71,7 @@ test('semester overview renders all five subjects and links only available chapt
  assert.match(html,/Introduction to ICT/);assert.match(html,/Operating Systems/);assert.match(html,/Introduction to Programming/);
  assert.ok(!/href="[^"]*(?:dit-python|dit-operating-systems)/.test(html));
  assert.match(html,/material not yet published/);assert.match(html,/\/dit-ict\/notes\/\?chapter=1/);
- assert.match(html,/7 syllabus modules; 2 with material/);
+ assert.match(html,/7 syllabus modules; 3 with material/);
  if(before.chapters?.some(c=>c.subjectSlug==='dit-computer-science')){
   assert.match(html,/5 syllabus modules; 5 with material/);assert.match(html,/8 syllabus modules; 7 with material/);
  }

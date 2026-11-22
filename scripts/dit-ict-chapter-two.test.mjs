@@ -21,7 +21,7 @@ test('Chapter 2 covers the six official syllabus sections with checked distinct 
  assert.equal(source.short.length,12);assert.equal(source.long.length,6);assert.equal(source.practical.length,5);
 });
 test('both ICT chapters have isolated questions and preserve the published Chapter 1 pack',()=>{
- const questions=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict');assert.equal(questions.length,120);
+ const questions=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber<=2);assert.equal(questions.length,120);
  assert.deepEqual(questions.filter(q=>q.chapterNumber===1),first.questions);
  assert.deepEqual(questions.filter(q=>q.chapterNumber===2),pack.questions);
  assert.equal(new Set(questions.map(q=>q.id)).size,120);

@@ -1,12 +1,13 @@
 import type { ChapterItem, ClassItem, MCQItem, NoteItem, SubjectItem } from '@/types/educational';
 import pack from '../../content/dit/ict-chapter-1.generated.json';
 import pack2 from '../../content/dit/ict-chapter-2.generated.json';
+import pack3 from '../../content/dit/ict-chapter-3.generated.json';
 
 export const DIT_CLASS_SLUG = 'dit-intermediate';
 export const DIT_ICT_SUBJECT: SubjectItem = {
   id: 'subject-dit-ict', classSlug: DIT_CLASS_SLUG, slug: 'dit-ict',
   title: 'Introduction to ICT', iconName: 'Monitor',
-  description: 'PBTE two-year D.I.T first-semester ICT. Study computer fundamentals and system unit components with chapter notes, topic MCQs and practical revision.',
+  description: 'PBTE two-year D.I.T first-semester ICT. Study computer fundamentals, system unit components and input/output devices with notes, topic MCQs and practical revision.',
 };
 export const DIT_ICT_CHAPTER: ChapterItem = {
   id: 'chapter-dit-ict-1', classSlug: DIT_CLASS_SLUG, subjectSlug: 'dit-ict', chapterNumber: 1,
@@ -39,9 +40,24 @@ export const DIT_ICT_NOTE_TWO: NoteItem = {
   fileSize: `${Math.ceil(pack2.pdfBytes / 1024)} KB`, downloadCount: 0, lastUpdated: '2026-11-22',
   content: pack2.content,
 };
-export const DIT_ICT_CHAPTERS: ChapterItem[] = [DIT_ICT_CHAPTER, DIT_ICT_CHAPTER_TWO];
-export const DIT_ICT_NOTES: NoteItem[] = [DIT_ICT_NOTE, DIT_ICT_NOTE_TWO];
-export const DIT_ICT_ALL_MCQS: MCQItem[] = [...DIT_ICT_MCQS, ...pack2.questions.map(q => ({ ...q, options: q.options as MCQItem['options'] }))];
+export const DIT_ICT_CHAPTER_THREE: ChapterItem = {
+  id: 'chapter-dit-ict-3', classSlug: DIT_CLASS_SLUG, subjectSlug: 'dit-ict', chapterNumber: 3,
+  title: 'Input & Output Devices', isActive: true,
+  description: 'Syllabus sections 3.1 to 3.8: input, keyboards, pointing, touch, capture devices, displays, printers and other output. Notes and 80 explained MCQs.',
+};
+export const DIT_ICT_NOTE_THREE: NoteItem = {
+  id: 'dit-ict-chapter-3-input-output-devices', classSlug: DIT_CLASS_SLUG,
+  subjectSlug: 'dit-ict', chapterNumber: 3, chapterTitle: pack3.title,
+  title: 'Input & Output Devices: ICT Chapter 3 Study Guide',
+  description: 'Revise all eight PBTE ICT Chapter 3 sections with 80 explained MCQs, easy notes, solved questions, device comparisons and practical activities.',
+  pdfUrl: 'https://raytechinstitute.com/documents/dit/ict/ict-chapter-3-input-output-devices.pdf',
+  previewPdfUrl: 'https://raytechinstitute.com/documents/dit/ict/ict-chapter-3-input-output-devices.pdf',
+  fileSize: `${Math.ceil(pack3.pdfBytes / 1024)} KB`, downloadCount: 0, lastUpdated: '2026-11-22',
+  content: pack3.content,
+};
+export const DIT_ICT_CHAPTERS: ChapterItem[] = [DIT_ICT_CHAPTER, DIT_ICT_CHAPTER_TWO, DIT_ICT_CHAPTER_THREE];
+export const DIT_ICT_NOTES: NoteItem[] = [DIT_ICT_NOTE, DIT_ICT_NOTE_TWO, DIT_ICT_NOTE_THREE];
+export const DIT_ICT_ALL_MCQS: MCQItem[] = [...DIT_ICT_MCQS, ...[pack2, pack3].flatMap(chapter => chapter.questions.map(q => ({ ...q, options: q.options as MCQItem['options'] })))];
 
 /** Reviewed source content is merged after each fresh database export. No existing resource IDs change. */
 export function ditClassInformation(item: ClassItem): ClassItem {

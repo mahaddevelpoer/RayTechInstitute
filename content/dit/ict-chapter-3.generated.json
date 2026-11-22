@@ -1,0 +1,1289 @@
+{
+  "title": "Input & Output Devices",
+  "content": "## Chapter overview and syllabus coverage\n\nThis original English study guide follows PBTE's two-year D.I.T first-semester ICT Module 3, syllabus sections 3.1 to 3.8. It includes 80 explained revision MCQs, eight topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.\n\n| Syllabus section | Topic | Revision MCQs |\n|---|---|---|\n| 3.1 | What Is Input? | 10 |\n| 3.2 | Keyboard and Pointing Devices | 10 |\n| 3.3 | Touch Screen, Pen and Stylus | 10 |\n| 3.4 | Other Types of Input | 10 |\n| 3.5 | What Is Output? | 10 |\n| 3.6 | Display Devices: CRT, LCD and LED | 10 |\n| 3.7 | Printers and Large-Format Output | 10 |\n| 3.8 | Other Output Devices | 10 |\n\n## Topic-wise revision MCQs\n\n## 3.1 What Is Input? MCQs\n\n### Q1. Which definition best describes computer input?\n\nA) Only printed results from a printer\n\nB) Only arithmetic performed by the CPU\n\n**C) Data or instructions supplied for processing**\n\nD) Only files erased from a drive\n\n**Correct answer: C.** Input supplies the values or commands on which software operates.\n\n### Q2. Which action supplies data rather than a calculation command?\n\nA) Clicking the Calculate button\n\nB) Selecting the Print command\n\n**C) Typing 72 into a marks field**\n\nD) Choosing Close from a menu\n\n**Correct answer: C.** The typed mark is a value; the other actions request operations.\n\n### Q3. Which example is automatic input?\n\nA) A speaker playing a song\n\n**B) A sensor reporting temperature readings**\n\nC) A printer producing a report\n\nD) A monitor showing a chart\n\n**Correct answer: B.** A sensor supplies measurements without repeated manual entry.\n\n### Q4. What does a validation range check establish for a mark?\n\nA) The value certainly matches the teacher's original mark\n\n**B) The value falls within the permitted limits**\n\nC) The student certainly earned that mark\n\nD) The mark has already been printed\n\n**Correct answer: B.** A range check checks a rule; an incorrect in-range value can still pass.\n\n### Q5. Which method best checks whether 56 was mistakenly entered as 65?\n\nA) Check only that it is between 0 and 100\n\nB) Increase the display brightness\n\nC) Change the printer paper\n\n**D) Compare the entry with the original record**\n\n**Correct answer: D.** Both values pass a typical range check; source comparison can reveal the mistake.\n\n### Q6. Which item is an input device?\n\nA) Loudspeaker\n\nB) Ordinary non-touch monitor\n\n**C) Microphone**\n\nD) Laser printer\n\n**Correct answer: C.** A microphone captures sound for input to the computer.\n\n### Q7. How can continuous sound become digital input?\n\nA) By printing it onto paper first\n\nB) By changing the monitor's refresh rate\n\nC) By turning every sound directly into a verified sentence\n\n**D) By sampling and converting it into numerical values**\n\n**Correct answer: D.** Digital audio represents measured sound using numerical samples.\n\n### Q8. Why can the same keyboard provide data and commands?\n\n**A) Software interprets different key actions for different purposes**\n\nB) Every key always means the same instruction in all programs\n\nC) Keyboards can only enter numbers\n\nD) Commands cannot be entered with keys\n\n**Correct answer: A.** Typing a name supplies data; a shortcut can request an operation.\n\n### Q9. What should guide selection of an input device?\n\nA) Only the device's case colour\n\n**B) Task requirements and the user's access needs**\n\nC) Only the monitor's screen size\n\nD) Only the printer's page count\n\n**Correct answer: B.** The device must suit the data, user and working conditions.\n\n### Q10. Which statement about input accuracy is correct?\n\nA) A computer always detects every false fact\n\nB) Automatic capture never needs review\n\nC) All numeric input is automatically true\n\n**D) Correct processing can still use incorrect input**\n\n**Correct answer: D.** Software can apply rules correctly to inaccurate data and still produce a misleading result.\n\n## 3.2 Keyboard and Pointing Devices MCQs\n\n### Q11. Which keyboard group primarily enters letters and digits?\n\nA) Only the function-key row\n\nB) Only the arrow keys\n\n**C) Alphanumeric keys**\n\nD) Only the modifier keys\n\n**Correct answer: C.** Alphanumeric keys provide the main character-entry area.\n\n### Q12. Which key is commonly used as a modifier in a shortcut?\n\nA) The digit 7\n\nB) The letter B alone\n\n**C) Ctrl**\n\nD) The decimal-point key alone\n\n**Correct answer: C.** Ctrl combines with other keys to request application or system actions.\n\n### Q13. What does dragging with a mouse usually involve?\n\nA) Pressing only the printer's power switch\n\nB) Rotating the monitor stand\n\nC) Typing a whole sentence\n\n**D) Holding a button while moving the pointer**\n\n**Correct answer: D.** Dragging combines pointer movement with a held button.\n\n### Q14. Which pointing device normally stays still while its exposed ball rotates?\n\nA) Conventional mouse\n\nB) Keyboard\n\n**C) Trackball**\n\nD) Scanner\n\n**Correct answer: C.** A trackball senses rotation of its ball without moving the housing around the desk.\n\n### Q15. Which device commonly provides finger-controlled pointing on a laptop?\n\nA) Plotter\n\nB) Projector\n\nC) Thermal printer\n\n**D) Touchpad**\n\n**Correct answer: D.** A touchpad detects finger movement and supported gestures.\n\n### Q16. Which device is especially suited to directional control in a simulation?\n\n**A) Joystick**\n\nB) Flatbed scanner\n\nC) Laser printer\n\nD) Microphone stand\n\n**Correct answer: A.** A joystick reports lever direction or displacement and button actions.\n\n### Q17. How does an optical mouse generally detect movement?\n\nA) By reading a paper ribbon\n\n**B) Using light and an image sensor**\n\nC) By heating thermal paper\n\nD) By detecting spoken sentences\n\n**Correct answer: B.** Optical mice sense surface movement with optical components.\n\n### Q18. What is the usual purpose of a mouse wheel?\n\nA) Permanently save all open files\n\n**B) Scroll through content**\n\nC) Increase the CPU clock frequency\n\nD) Scan a paper document\n\n**Correct answer: B.** A wheel commonly scrolls, although applications may assign other functions.\n\n### Q19. Why should students check a shortcut in the target application?\n\nA) All shortcuts print one page\n\nB) Modifier keys never change an action\n\nC) Every application uses identical commands\n\n**D) Its action can depend on the software and platform**\n\n**Correct answer: D.** Shortcut meanings are context-dependent rather than universal.\n\n### Q20. What does increasing pointer speed normally change?\n\nA) The keyboard's number of physical keys\n\n**B) The mapping between physical movement and pointer movement**\n\nC) The printer's ink chemistry\n\nD) The scanner's paper capacity\n\n**Correct answer: B.** Pointer speed changes control behaviour and does not guarantee improved accuracy.\n\n## 3.3 Touch Screen, Pen and Stylus MCQs\n\n### Q21. Why is a touchscreen classified as both input and output?\n\n**A) Its sensor accepts touch and its display presents information**\n\nB) It always contains a printer and scanner\n\nC) Its battery stores every user file\n\nD) Touch input and displayed output are the same signal\n\n**Correct answer: A.** The combined device performs two distinct roles.\n\n### Q22. Which action is input on a touchscreen?\n\nA) The screen showing a photograph\n\nB) The screen displaying a result\n\n**C) Tapping an on-screen button**\n\nD) The screen lighting a menu label\n\n**Correct answer: C.** A tap supplies a user action; the visible content is output.\n\n### Q23. What is the basic sensing principle of a resistive touchscreen?\n\nA) A toner drum fuses powder onto paper\n\n**B) Pressure brings conductive layers into contact**\n\nC) An electron beam scans phosphor\n\nD) A loudspeaker produces sound waves\n\n**Correct answer: B.** A resistive touch layer detects contact produced by pressure.\n\n### Q24. What does a projected capacitive touchscreen sense?\n\nA) Paper thickness in a printer\n\n**B) Electrical changes near its sensing grid**\n\nC) Toner temperature only\n\nD) The computer's hard-drive speed\n\n**Correct answer: B.** Capacitive sensing responds to changes in electrical coupling.\n\n### Q25. Which claim about a stylus is most accurate?\n\nA) Every stylus works with every screen\n\n**B) Compatibility and supported features vary**\n\nC) All styli support pressure and tilt\n\nD) Every stylus must contain a battery\n\n**Correct answer: B.** Pen technology, screen hardware and software determine what works.\n\n### Q26. What distinguishes a pen display from a screenless pen tablet?\n\n**A) A pen display includes a screen beneath the drawing surface**\n\nB) A pen display can never accept input\n\nC) A screenless tablet always prints drawings\n\nD) A screenless tablet is a thermal printer\n\n**Correct answer: A.** A screenless tablet maps strokes to another display.\n\n### Q27. What enables pressure-sensitive drawing?\n\nA) Increasing speaker volume\n\n**B) A compatible pressure-sensing pen system and supporting application**\n\nC) Installing more printer paper\n\nD) Changing only the desktop wallpaper\n\n**Correct answer: B.** Pressure data must be captured and used by compatible hardware and software.\n\n### Q28. What does touch or pen calibration mainly improve?\n\nA) The number of CPU cores\n\nB) The chemical composition of printer ink\n\n**C) Alignment between sensed positions and screen targets**\n\nD) The capacity of an SSD\n\n**Correct answer: C.** Calibration corrects coordinate alignment rather than creating new hardware features.\n\n### Q29. Why should recognised handwriting be checked?\n\nA) A stylus always proves a person's identity\n\nB) Handwriting input cannot contain digits\n\nC) Recognition guarantees perfect spelling\n\n**D) Recognition software can misinterpret characters**\n\n**Correct answer: D.** Recognition is an interpretation step and may contain errors.\n\n### Q30. Which statement about multi-touch is correct?\n\nA) It is available on every touch-sensitive surface\n\n**B) It requires support in the device and software**\n\nC) It means using two separate printers\n\nD) It removes the need for a display\n\n**Correct answer: B.** Hardware capability and application behaviour determine supported gestures.\n\n## 3.4 Other Types of Input MCQs\n\n### Q31. Which function of a game controller is input?\n\nA) Vibration feedback\n\n**B) A trigger press**\n\nC) A status light shining\n\nD) Sound from its speaker\n\n**Correct answer: B.** The trigger supplies a user action; the other examples are feedback output.\n\n### Q32. Which component captures light in a digital camera?\n\nA) Toner drum\n\nB) Thermal printhead\n\n**C) Image sensor**\n\nD) Speaker cone\n\n**Correct answer: C.** The image sensor converts light into electronic image information.\n\n### Q33. What is the main difference between recording and recognising speech?\n\nA) Recording always produces perfect text\n\nB) Recognition stores only paper pages\n\nC) Both terms mean printing a transcript\n\n**D) Recording captures audio; recognition attempts to interpret words**\n\n**Correct answer: D.** Speech recognition is an additional interpretation process.\n\n### Q34. Which input method is most suited to digitising a paper photograph?\n\nA) Loudspeaker\n\n**B) Scanner**\n\nC) Laser printer\n\nD) Ordinary projector\n\n**Correct answer: B.** A scanner captures the visible content of a physical document or photograph.\n\n### Q35. What is OCR used for?\n\n**A) Recognising characters in image data**\n\nB) Detecting only filled answer bubbles\n\nC) Printing with magnetic ink\n\nD) Projecting a computer screen\n\n**Correct answer: A.** OCR attempts to turn text images into machine-readable characters.\n\n### Q36. What is OMR mainly designed to detect?\n\n**A) Marked positions on a prepared form**\n\nB) The spoken meaning of audio\n\nC) A display's refresh rate\n\nD) A printer's toner level\n\n**Correct answer: A.** OMR reads marked responses rather than recognising arbitrary text characters.\n\n### Q37. Which technology reads suitable characters printed in magnetic ink?\n\nA) OCR as a synonym for all scanning\n\nB) LCD\n\nC) LED backlighting\n\n**D) MICR**\n\n**Correct answer: D.** MICR is magnetic ink character recognition.\n\n### Q38. Why does a barcode reader alone not necessarily provide a product's current price?\n\nA) All barcodes directly contain every shop's current price\n\nB) Barcode readers are output-only\n\nC) The monitor's resolution determines the price\n\n**D) The application usually looks up the captured code in a database**\n\n**Correct answer: D.** The encoded identifier and its associated business information are different things.\n\n### Q39. What is biometric verification?\n\nA) Searching every record without a claimed identity in all cases\n\nB) Printing a fingerprint picture only\n\n**C) Comparing a sample with the claimed person's enrolled reference**\n\nD) Guaranteeing that matching can never be wrong\n\n**Correct answer: C.** Verification checks a claimed identity; identification searches among candidates.\n\n### Q40. Which statement best describes a self-service terminal?\n\nA) Always an input-only keyboard with no output\n\nB) Always a processor chip with no user interface\n\n**C) An endpoint that may combine input and output devices**\n\nD) Always a printer with no data capture\n\n**Correct answer: C.** A terminal can include a reader, controls, display and receipt printer.\n\n## 3.5 What Is Output? MCQs\n\n### Q41. Which definition best describes output?\n\nA) Only values typed into a keyboard\n\nB) Only instructions fetched by the CPU\n\n**C) Results or information delivered by a computer**\n\nD) Only electrical power entering the case\n\n**Correct answer: C.** Output makes a system's results available to a user or another device.\n\n### Q42. Which example is hard copy?\n\nA) A chart displayed on a monitor\n\nB) A spoken notification\n\n**C) A report printed on paper**\n\nD) An unsaved number in a text field\n\n**Correct answer: C.** Hard copy is a physical record such as a printed page.\n\n### Q43. Which example is soft-copy output?\n\n**A) A timetable displayed on a screen**\n\nB) A paper receipt\n\nC) A handwritten register page\n\nD) A blank printer sheet\n\n**Correct answer: A.** A screen presents an electronic version of the result.\n\n### Q44. What can be concluded when a document is visible on a monitor?\n\nA) It has certainly been saved to an SSD\n\nB) It has certainly been printed\n\nC) Its contents must be factually correct\n\n**D) It is being displayed, but saving must be checked separately**\n\n**Correct answer: D.** Display, persistence and correctness are separate properties.\n\n### Q45. Which device primarily produces audio output?\n\nA) Microphone\n\nB) Flatbed scanner\n\n**C) Speaker**\n\nD) Keyboard\n\n**Correct answer: C.** A speaker converts an electrical audio signal into sound.\n\n### Q46. What is the output in a simple marks-calculation workflow?\n\nA) The original keys pressed to enter marks\n\nB) The entered marks before calculation\n\nC) The student's mouse movement alone\n\n**D) The displayed total and grade**\n\n**Correct answer: D.** The total and grade are results of the processing.\n\n### Q47. Which action is distinct from displaying or printing a report?\n\n**A) Saving it to persistent storage**\n\nB) Showing its title on a monitor\n\nC) Playing its completion sound\n\nD) Producing a paper copy\n\n**Correct answer: A.** Saving preserves digital work for later use.\n\n### Q48. What should be checked before printing a confidential result?\n\nA) Only the mouse's colour\n\nB) Only the number of keyboard keys\n\nC) Only the speaker's brand\n\n**D) The intended printer and permitted audience**\n\n**Correct answer: D.** The destination and audience affect privacy on shared equipment.\n\n### Q49. Which output choice can support a user who cannot easily read a screen?\n\nA) Only smaller text\n\nB) Only lower contrast\n\nC) A disabled audio system\n\n**D) Suitable spoken feedback**\n\n**Correct answer: D.** Audio can provide an alternative presentation when appropriate for the user.\n\n### Q50. Why can a sharp monitor still show an incorrect result?\n\nA) Higher resolution automatically validates every fact\n\nB) Monitors change all wrong numbers into correct ones\n\n**C) Output quality does not establish source-data or calculation correctness**\n\nD) Every displayed answer is verified by the screen\n\n**Correct answer: C.** The device presents the supplied result rather than proving it correct.\n\n## 3.6 Display Devices: CRT, LCD and LED MCQs\n\n### Q51. What does a display resolution of 1920 by 1080 describe?\n\n**A) Pixel dimensions**\n\nB) Screen width and height in centimetres\n\nC) Refreshes per minute\n\nD) Number of speakers\n\n**Correct answer: A.** Resolution describes the horizontal and vertical pixel counts.\n\n### Q52. How many pixel positions are in a 1920 by 1080 image?\n\nA) 3,000\n\nB) 192,108\n\n**C) 2,073,600**\n\nD) 2,073\n\n**Correct answer: C.** Multiplying 1920 by 1080 gives 2,073,600 pixel positions.\n\n### Q53. How does a CRT form its image?\n\nA) Ink droplets strike paper\n\n**B) Electron beams excite a phosphor-coated screen**\n\nC) A thermal ribbon transfers wax\n\nD) A keyboard illuminates the glass\n\n**Correct answer: B.** CRT technology uses electron beams and phosphor rather than an LCD light valve.\n\n### Q54. What is the main role of liquid crystals in a typical LCD?\n\nA) Store all user files\n\nB) Produce printer toner\n\n**C) Control the passage of light**\n\nD) Recognise spoken words\n\n**Correct answer: C.** The cells modulate light to form the image.\n\n### Q55. What does LED monitor commonly mean in desktop LCD marketing?\n\n**A) An LCD panel using an LED backlight**\n\nB) A CRT using an ink ribbon\n\nC) A screen with no liquid crystals in every case\n\nD) A display that can only show text\n\n**Correct answer: A.** Many ordinary LED monitors use LCD image formation and LED illumination.\n\n### Q56. Which display specification is measured in hertz?\n\nA) Diagonal size\n\n**B) Refresh rate**\n\nC) Pixel count alone\n\nD) Paper capacity\n\n**Correct answer: B.** Hertz describes updates per second in the supported display mode.\n\n### Q57. How does response time differ from refresh rate?\n\nA) It is always measured in inches\n\n**B) It describes pixel transitions rather than updates per second**\n\nC) It means the same thing as screen resolution\n\nD) It counts keyboard key presses\n\n**Correct answer: B.** Pixel transition time and update frequency describe different behaviours.\n\n### Q58. Can two screens have the same resolution but different physical sizes?\n\nA) No, resolution uniquely determines centimetres\n\nB) Only if both are printers\n\n**C) Yes, their pixel densities can differ**\n\nD) Only if neither can display text\n\n**Correct answer: C.** A fixed pixel count can occupy different physical areas.\n\n### Q59. What can interface scaling help improve?\n\nA) The number of physical pixels in the panel\n\nB) The CPU's core count\n\nC) The chemical brightness of printer toner\n\n**D) Readability of text and controls**\n\n**Correct answer: D.** Scaling changes the apparent interface size, not the panel's physical construction.\n\n### Q60. What is the appropriate student procedure for identifying a CRT?\n\nA) Open the case to touch internal components\n\nB) Remove its tube for routine comparison\n\nC) Disconnect internal high-voltage leads as a class exercise\n\n**D) Observe its external features and label without opening it**\n\n**Correct answer: D.** CRT interiors require qualified servicing because of high-voltage hazards.\n\n## 3.7 Printers and Large-Format Output MCQs\n\n### Q61. Which printer is an example of an impact mechanism?\n\nA) Laser printer\n\nB) Inkjet printer\n\nC) Direct thermal printer\n\n**D) Dot-matrix printer**\n\n**Correct answer: D.** Dot-matrix pins strike an inked ribbon against the paper.\n\n### Q62. What distinguishes non-impact printing?\n\n**A) It does not strike an inked ribbon against paper to form marks**\n\nB) It contains no moving parts at all\n\nC) It can never make any sound\n\nD) It never needs consumables\n\n**Correct answer: A.** The classification describes the marking mechanism rather than silence or motion.\n\n### Q63. What does an inkjet normally deposit?\n\n**A) Droplets of liquid ink**\n\nB) Dry toner as its defining inkjet material\n\nC) Only magnetic characters\n\nD) Only a pencil trace\n\n**Correct answer: A.** Inkjet printing places controlled droplets of liquid ink on the medium.\n\n### Q64. Which material is used in ordinary laser printing?\n\n**A) Toner**\n\nB) Liquid ink droplets as the laser mechanism\n\nC) A typewriter ribbon as the imaging drum\n\nD) Heat-sensitive paper as the only marking material\n\n**Correct answer: A.** Laser printers typically form and fuse a toner image.\n\n### Q65. What happens in the fusing stage of a typical laser printer?\n\nA) Speech becomes searchable text\n\n**B) Toner is bonded to paper using heat and pressure**\n\nC) A pen draws every line mechanically\n\nD) An image sensor captures the printed page\n\n**Correct answer: B.** Fusing fixes the transferred toner to the sheet.\n\n### Q66. What does direct thermal printing require for its marking process?\n\n**A) Suitable heat-sensitive media**\n\nB) A thermal-transfer ribbon in every case\n\nC) A liquid-ink cartridge in every case\n\nD) A dot-matrix impact ribbon in every case\n\n**Correct answer: A.** The printhead darkens the treated medium directly.\n\n### Q67. What distinguishes thermal transfer printing from direct thermal printing?\n\nA) It always uses an electron beam inside a CRT\n\nB) It can never print labels\n\n**C) It uses a heated printhead with a transfer ribbon**\n\nD) It always requires a pen to touch paper\n\n**Correct answer: C.** The ribbon transfers marking material to compatible media.\n\n### Q68. Which description fits a multifunction printer?\n\nA) A device that only displays one page\n\n**B) A unit combining functions such as printing and scanning**\n\nC) A printer with no input capability in every case\n\nD) A joystick with extra buttons\n\n**Correct answer: B.** A multifunction unit can contain both output and input functions.\n\n### Q69. Which statement about plotters and large-format printers is correct?\n\n**A) Traditional plotters may use pens; many modern large-format printers use inkjet**\n\nB) Every modern large-format printer moves a pen\n\nC) Plotters can only produce audio\n\nD) Paper width determines whether a device has a CPU\n\n**Correct answer: A.** Large-format output describes a role and size, not one universal marking mechanism.\n\n### Q70. What does printer DPI measure?\n\nA) Documents permanently indexed\n\nB) Display pixels imported\n\nC) Data packets per interface\n\n**D) Dots per inch**\n\n**Correct answer: D.** DPI describes dot density and is only one contributor to printed quality.\n\n## 3.8 Other Output Devices MCQs\n\n### Q71. What is the primary function of headphones?\n\n**A) Provide individual audio output**\n\nB) Capture sound as their defining playback role\n\nC) Scan paper documents\n\nD) Enter handwritten notes\n\n**Correct answer: A.** Headphones reproduce audio for a listener.\n\n### Q72. Why can a headset be both input and output?\n\n**A) It may combine a microphone with headphones**\n\nB) Every headphone driver scans text\n\nC) Its cable always stores all recordings\n\nD) The microphone only displays sound\n\n**Correct answer: A.** The microphone captures input and the headphones provide output.\n\n### Q73. Which device is most suited to presenting slides to a classroom wall screen?\n\n**A) Multimedia projector**\n\nB) Flatbed scanner\n\nC) Trackball\n\nD) Barcode reader\n\n**Correct answer: A.** A projector presents a visual image on a larger surface.\n\n### Q74. What can make a projected image harder to read?\n\n**A) Excessive ambient light reducing visible contrast**\n\nB) Only the keyboard's letter arrangement\n\nC) Only a barcode's numeric length\n\nD) The number of mouse buttons\n\n**Correct answer: A.** Room lighting can wash out the projected image.\n\n### Q75. What do projector lumens describe?\n\nA) Horizontal and vertical pixel counts\n\nB) The number of input keys\n\nC) The speed of text recognition\n\n**D) Light output**\n\n**Correct answer: D.** Brightness-related light output is distinct from resolution.\n\n### Q76. Which part of an interactive whiteboard system supplies input?\n\nA) The displayed lesson image alone\n\nB) The projected title alone\n\nC) The visible chart alone\n\n**D) Its touch or pen sensing**\n\n**Correct answer: D.** Sensing captures the user's action; displaying the image is output.\n\n### Q77. Do all interactive whiteboards require a separate projector?\n\n**A) No, some interactive systems use a flat-panel display**\n\nB) Yes, no flat-panel system can accept touch\n\nC) Yes, every screen must be a CRT\n\nD) No, because interactive systems never show images\n\n**Correct answer: A.** The display and sensing arrangement depends on the system design.\n\n### Q78. What should be checked before closing an annotated lesson?\n\nA) Only that the board once displayed the text\n\nB) Only that the pen was held correctly\n\n**C) That required annotations have been saved**\n\nD) Only that a speaker produced a sound\n\n**Correct answer: C.** Visible annotations are not proof of a retained file.\n\n### Q79. Which feature can complement an audio lesson for a learner with hearing difficulty?\n\nA) Only increasing volume without considering the learner\n\n**B) Captions or suitable visual information**\n\nC) Disabling all visible text\n\nD) Reducing screen contrast\n\n**Correct answer: B.** Alternative visual presentation can improve access to spoken content.\n\n### Q80. Which practice is appropriate during a projector demonstration?\n\nA) Look directly into the bright lens to check focus\n\n**B) Keep eyes away from the projection lens and follow the manual**\n\nC) Open a hot lamp assembly during class\n\nD) Assume every model has identical service steps\n\n**Correct answer: B.** Use the projected surface to assess the image and follow model-specific handling guidance.\n\n## Easy topic-wise notes\n\n## 3.1 What Is Input?\n\nInput is data or instructions supplied to a computer for processing. It can be a typed name, a mouse action, a photograph, a recorded sound or a measurement from a sensor. An input device captures a physical action or signal and helps represent it in a form the computer can use. The computer then interprets that input through software.\n\nData entry and commands serve different purposes. Typing 45 into a marks field supplies a value. Clicking Calculate instructs the program to perform an action. The same keyboard can enter both data and commands. Input is not restricted to human typing: a temperature sensor can report measurements automatically, and a camera can capture a stream of images.\n\nSome physical signals, such as sound pressure, vary continuously. Digital audio capture includes sampling and conversion into numerical values. A microphone captures sound; software may store the recording, analyse it or attempt to recognise words. Capturing a signal and correctly understanding its meaning are separate operations.\n\nAccurate input matters because correct processing rules can still produce an unsuitable result from incorrect data. Validation checks whether input meets defined rules, such as a mark between 0 and 100. Verification checks it against a source or a second entry. A wrong mark of 65 instead of 56 may pass a range check. Neither validation nor automation proves that every entered fact is true. Select the device by the task, accessibility needs, environment and required accuracy.\n\n### Practical examples\n\n- Entering a student name is text input; pressing Save gives a command.\n- A sensor records room temperature without a person typing each reading.\n- Comparing entered marks with the teacher’s register can reveal a valid-looking error.\n\n### Common mistakes\n\n- Input is not limited to keyboards.\n- Capturing sound does not automatically convert it into correct text.\n- A range check cannot detect every transcription mistake.\n\n### Quick revision\n\n- Input supplies data or instructions.\n- Devices capture actions, images, sound or measurements.\n- Software interprets the captured representation.\n- Data and commands have different roles.\n- Validation checks rules; verification compares with a source.\n- Device choice depends on the intended task.\n\n## 3.2 Keyboard and Pointing Devices\n\nA keyboard enters characters and commands through keys. Common groups include alphanumeric keys, function keys, navigation keys, a numeric keypad and modifier keys such as Shift, Ctrl and Alt. Their exact arrangement varies. Shortcuts depend on the operating system and application; a labelled key does not guarantee one universal action in every program.\n\nA pointing device controls a pointer, selects a location or changes an on-screen object. With a mouse, moving the device normally moves the pointer, a click selects or activates according to context, dragging combines holding a button with movement, and the wheel usually scrolls. Optical mice sense movement using light and a sensor; the ball mechanism belongs to older mechanical designs.\n\nA trackball remains in place while the user rotates its exposed ball. This reduces the need to move the whole device across a desk. A touchpad senses finger movement on a surface, commonly on laptops. Gestures and tap-to-click depend on supported hardware and settings. A joystick reports the direction or displacement of a lever and may include buttons. It is suitable for directional control, for example in simulations, rather than long text entry.\n\nChoose input methods by precision, available space and comfort. Keyboard navigation can be useful when a mouse is unsuitable. Pointer speed settings change how physical movement maps to screen movement; a larger setting is not proof of greater accuracy. Keep wrists comfortable, take appropriate breaks and follow cleaning instructions without spraying liquid into equipment.\n\n### Practical examples\n\n- Use a keyboard to enter a paragraph and a mouse to place the insertion point.\n- Rotate a trackball while its housing stays still.\n- Use a joystick to control direction in a flight simulation.\n\n### Common mistakes\n\n- A trackball moves its ball rather than requiring movement of the whole device.\n- A joystick is not the usual choice for typing an essay.\n- Keyboard shortcuts and touchpad gestures vary by software and settings.\n\n### Quick revision\n\n- Keyboards enter text and commands.\n- Modifiers combine with other keys.\n- A mouse is moved across a surface.\n- A trackball normally stays stationary.\n- A touchpad detects finger movement.\n- A joystick provides directional control.\n\n## 3.3 Touch Screen, Pen and Stylus\n\nA touchscreen combines a display with a touch-sensing layer. The display presents output; the sensor reports touch input. A finger selecting a menu is therefore input, while the visible menu is output. A device can perform both roles without making input and output the same operation.\n\nTouch technologies differ. A resistive touchscreen detects pressure that brings conductive layers into contact. A projected capacitive touchscreen detects electrical changes near its sensing grid. Whether gloves, multiple touches or a particular stylus work depends on the specific implementation. Avoid the rule that every touchscreen responds to every object. Gestures such as tapping, swiping and pinching request different actions only when the application supports them.\n\nA stylus is a pen-shaped input tool. A simple passive capacitive stylus acts much like a finger on compatible screens. A supported active pen and digitiser can supply more information, such as pressure, tilt or button actions. These features depend on the pen, device and application working together. Not every stylus requires a battery, and not every pen works with every tablet. A pen tablet may have no display of its own; it maps pen movement to a separate screen. A pen display includes a screen under the writing surface.\n\nPen input can support drawing, annotation, signatures and handwriting capture. Recognition software may attempt to turn handwriting into text, but it can misread letters. Check the result, especially names and numbers. Calibration or coordinate mapping aligns the reported pen or touch position with the displayed target; it does not add missing pressure hardware. Use only suitable tips and cleaning methods to protect the surface.\n\n### Practical examples\n\n- A student sees a diagram on a touchscreen and taps a label: display output plus touch input.\n- A compatible pen lets a drawing application vary stroke width with pressure.\n- A handwriting tool misreads a roll number; the student checks the recognised text.\n\n### Common mistakes\n\n- A touchscreen has separate input and output functions.\n- Pressure and tilt are supported features, not promises for every stylus.\n- A graphics tablet does not always include its own display.\n\n### Quick revision\n\n- Touch sensors report contact positions.\n- The screen presents visual output.\n- Resistive and capacitive sensing work differently.\n- Stylus compatibility must be checked.\n- Pen tablets and pen displays differ.\n- Handwriting recognition needs review.\n\n## 3.4 Other Types of Input\n\nGame controllers supply actions through buttons, triggers, sticks and sometimes motion sensors. Their vibration function is output, illustrating that one product may contain several input and output components. A digital camera uses an image sensor to capture light as electronic image data. A webcam commonly supplies live video; a camera's megapixel count alone does not determine image quality.\n\nVoice input begins with a microphone and audio capture. Recording preserves sound; speech recognition attempts to turn it into words or commands. Background noise, microphone placement, language and pronunciation can affect the result. Permission to use a microphone or camera should be deliberate, and recordings should be limited to the intended activity.\n\nA scanner captures a document or image. A flatbed supports material on glass; a sheet-fed scanner moves suitable pages through a feeder. Scanning text creates image data. Optical character recognition, or OCR, is a separate interpretation step that can produce searchable or editable text and can make mistakes. Do not confuse OCR with OMR, which detects marked positions on forms, or MICR, which reads characters printed using magnetic ink in suitable systems. A barcode reader captures encoded symbols; an application or database supplies their business meaning.\n\nBiometric systems measure characteristics such as fingerprints, faces or iris patterns. Verification compares a sample with the claimed person's enrolled reference; identification searches for a match among records. Matching is probabilistic and can wrongly match or fail to match. Use authorised demonstrations, protect templates and provide suitable alternatives. A terminal is an access endpoint, for example a checkout or cash-machine interface. It may combine keyboard, reader, screen and printer, so calling the entire terminal input-only is inaccurate.\n\n### Practical examples\n\n- A scanner captures a printed page; OCR then attempts to recognise its words.\n- A checkout reader obtains a product code and the application looks up its price.\n- A controller accepts button input and may provide vibration feedback.\n\n### Common mistakes\n\n- A scanned page is not automatically accurate editable text.\n- Speech recording and speech recognition are different tasks.\n- Biometric matches are not infallible and terminal devices can have both roles.\n\n### Quick revision\n\n- Controllers accept buttons, direction and sometimes motion.\n- Cameras capture images; microphones capture sound.\n- Scanners capture image data.\n- OCR recognises text; OMR detects marks.\n- Biometric matching can make errors.\n- Terminals combine access and interaction functions.\n\n## 3.5 What Is Output?\n\nOutput is the result or information a computer delivers after processing. It can be visible text or images, printed pages, sound, or signals that control another device. An output device makes the computer's result available in a usable form. Output is not limited to paper or to something a person can see.\n\nSoft copy is an electronic presentation, such as a result shown on a monitor. Hard copy is a physical record, commonly a printed page. These terms describe the form of the result rather than whether a file is saved. A document displayed on a monitor may have been saved already or may still be unsaved. Printing the page does not automatically create a saved digital copy.\n\nConsider a marks-processing system. Keyboard input supplies marks. Software validates the values and calculates totals. A monitor shows the report, a printer can produce a paper copy and speakers may signal completion. Saving the report to storage retains it for later use. Input, processing, output and storage are distinct functions within the workflow, even if one physical product performs more than one function.\n\nChoose an output method by audience, detail, privacy, accessibility and cost. A large projector can serve a class, while headphones can provide individual audio. Audio feedback can assist users who cannot easily read a screen. Output quality also depends on the source data and settings: a sharper display cannot correct an incorrect calculation. Preview a result and confirm the destination before sending confidential work to a shared printer or screen.\n\n### Practical examples\n\n- A total shown on a monitor is visual output.\n- A printed timetable is hard copy; a spoken alert is audio output.\n- A teacher previews a result before releasing it to a shared classroom display.\n\n### Common mistakes\n\n- Output is not restricted to printed pages.\n- Seeing a document does not prove that it has been saved.\n- A high-quality output device cannot correct wrong source data.\n\n### Quick revision\n\n- Output presents or delivers results.\n- Visual, printed and audio forms are common.\n- Soft copy is electronic presentation.\n- Hard copy is a physical record.\n- Saving and displaying are separate actions.\n- Choose output for audience and access needs.\n\n## 3.6 Display Devices: CRT, LCD and LED\n\nA display presents text, images and video as visual output. Resolution describes the pixel dimensions, such as 1920 by 1080. This example contains 2,073,600 addressable pixel positions. Diagonal screen size, pixel density and resolution are related but different specifications. Two screens with the same resolution can have different physical sizes and pixel densities.\n\nA cathode-ray tube, or CRT, forms an image by directing electron beams toward a phosphor-coated screen. CRT monitors are bulky compared with flat panels and are included here because the syllabus names the technology. Do not open CRT equipment: stored high voltages require qualified servicing. This is a technology comparison, not a recommendation to purchase obsolete equipment.\n\nA liquid-crystal display, or LCD, controls how light passes through liquid-crystal cells and colour filters. In a typical desktop LCD, a backlight supplies illumination. Many products sold as LED monitors are LCD panels with LED backlights, replacing older fluorescent backlighting. LED backlighting does not mean each LCD pixel is itself a light-emitting diode. OLED and direct-view LED are different display technologies; do not apply the LCD-backlight explanation to every product containing the word LED.\n\nRefresh rate in hertz describes how often the display updates per second under a supported mode. Response time describes pixel transitions and is not the same measurement. A higher refresh rate does not increase the pixel dimensions. Scaling changes the apparent size of interface elements and can improve readability. For selection, examine the task, resolution, comfortable size, brightness, contrast, viewing conditions, connection support and accessibility. A compatible connector and supported signal mode are both needed; a cable's shape alone does not guarantee every resolution and refresh combination.\n\n### Practical examples\n\n- 1920 by 1080 describes pixel dimensions, not centimetres or refresh rate.\n- An LED-backlit LCD uses LEDs for illumination while liquid crystals modulate the light.\n- Increasing interface scaling can make labels easier to read without changing the panel’s physical size.\n\n### Common mistakes\n\n- Screen size, resolution and refresh rate are different properties.\n- A common LED monitor is an LCD with an LED backlight, not necessarily a direct-view LED panel.\n- Never open CRT equipment for a student identification exercise.\n\n### Quick revision\n\n- CRT uses electron beams and phosphor.\n- LCD controls transmitted light.\n- Many LED monitors are LED-backlit LCDs.\n- Resolution counts pixel dimensions.\n- Refresh rate is measured in hertz.\n- Response time and refresh rate differ.\n\n## 3.7 Printers and Large-Format Output\n\nA printer produces hard copy. Impact printers strike a ribbon against paper; a dot-matrix printer uses a pattern of pins. Impact mechanisms can serve suitable multipart forms, though noise and output quality depend on the model. Non-impact printers do not use a striking ribbon mechanism. The classification concerns how marks are made, not whether the machine makes any sound or contains moving parts.\n\nAn inkjet places small droplets of liquid ink on the medium. Different technologies eject the droplets, so heating is not a universal requirement for all inkjets. A laser printer forms an electrostatic image, applies toner, transfers it to paper and normally fuses it using heat and pressure. Toner is not liquid ink. Fusers and other internal components can be hot; use the model's approved handling and maintenance instructions.\n\nDirect thermal printing darkens specially treated heat-sensitive media and does not require an ink ribbon for that process. Thermal transfer printing uses a heated printhead with a ribbon to transfer material to suitable media. These are different thermal methods. Choose receipt or label media by the supported process and intended durability rather than assuming every thermal print lasts equally long.\n\nA multifunction printer combines functions such as printing, scanning and copying. Its print function is output and its scanner is input. Traditional pen plotters draw lines by moving pens. Many modern large-format printers use inkjet technology for drawings, posters and maps; plotter is not a guarantee of a pen mechanism. Compare supported paper size, print resolution in dots per inch, speed under comparable conditions, colour needs, duplex capability and cost per page. Higher advertised DPI alone does not establish overall quality or running cost. Preview, select the correct pages and print one checked copy before a large batch.\n\n### Practical examples\n\n- A dot-matrix printer can produce suitable multipart forms by impact.\n- A laser printer uses toner; an inkjet uses liquid ink.\n- A receipt printer may use direct thermal paper, while a label printer may use thermal transfer ribbon.\n\n### Common mistakes\n\n- Non-impact does not mean silent or without moving parts.\n- Direct thermal and thermal transfer are different methods.\n- A modern device called a plotter is not necessarily a pen plotter.\n\n### Quick revision\n\n- Impact uses a striking ribbon mechanism.\n- Inkjet deposits liquid ink droplets.\n- Laser printing uses toner and an imaging process.\n- Direct thermal uses heat-sensitive media.\n- Thermal transfer uses a ribbon.\n- Select size, quality, speed and running cost for the task.\n\n## 3.8 Other Output Devices\n\nSpeakers and headphones provide audio output by converting electrical signals into sound. Speakers can serve a room; headphones normally serve an individual listener. A microphone performs the reverse role of capturing sound as input. A headset can contain both headphones and a microphone, so classify the component or function named in the question.\n\nAudio suitability depends on clarity, environment and user needs. Start at a comfortable low level, avoid excessive volume and follow the institution's guidance. Headphones reduce sound shared with a room but do not guarantee privacy, and noise cancellation does not mean all external sound is removed. Captions and visual alerts can complement audio for people who cannot readily hear it.\n\nA multimedia projector presents a computer's visual output on a larger surface. The computer supplies image data; the projector forms the projected image. Some models include speakers, networking or touch features, but these are not universal. Readability depends on the projected size, source resolution, focus, ambient light and placement. Lumens describe light output, not pixel dimensions. Do not look into a projection lens or attempt unauthorised lamp servicing.\n\nAn interactive whiteboard system combines a visible display or projected image with touch or pen sensing. The image is output; the sensed writing or touch is input. Some systems use a separate projector; others use a flat-panel interactive display. Software can support annotation, saving and collaboration, depending on the product. Confirm that annotations have actually been saved before ending the activity. Choose a classroom setup by audience size, readable contrast, accessibility, room light, connectivity and maintenance requirements rather than by the largest specification alone.\n\n### Practical examples\n\n- A headset plays a lesson through its headphones and captures answers through its microphone.\n- A projector shows slides to a whole class.\n- A teacher writes on an interactive board; the sensor sends input while the displayed annotation is output.\n\n### Common mistakes\n\n- A microphone is input; speakers and headphones provide output.\n- An interactive whiteboard can combine input and output.\n- Projector brightness, image resolution and focus are different properties.\n\n### Quick revision\n\n- Speakers and headphones produce sound.\n- A headset may include a microphone.\n- Projectors enlarge visual presentation.\n- Room light affects readability.\n- Interactive systems sense touch or pen input.\n- Confirm that annotations are saved.\n\n## Diagrams and comparisons\n\n![Input and output device flow](/documents/dit/ict/input-output-device-flow.svg)\n\nKeyboard, touch and microphone signals enter software for processing. A display, printer or speaker presents output. A touchscreen combines a display with a separate touch sensor; a headset can combine headphones with a microphone. Saving to storage is a separate retention step.\n\n| Function | Direction relative to computer | Example |\n|---|---|---|\n| Input | Data or commands enter | Keyboard, microphone, scanner |\n| Output | Results are presented or delivered | Monitor, speakers, printer |\n| Combined device | Distinct functions in both directions | Touchscreen, headset, multifunction unit |\n\n| Display term | Meaning |\n|---|---|\n| Resolution | Pixel dimensions |\n| Refresh rate | Display updates per second, in Hz |\n| Response time | Pixel transition time |\n| Diagonal size | Physical measurement across the screen |\n\n| Printing method | Main marking mechanism |\n|---|---|\n| Dot matrix | Pins strike a ribbon against paper |\n| Inkjet | Liquid ink droplets |\n| Laser | Electrostatic toner image, normally fused |\n| Direct thermal | Heat-sensitive media |\n| Thermal transfer | Heated printhead and transfer ribbon |\n\n## Solved short questions\n\n### 1. Define input and give two examples.\n\nInput is data or instructions supplied to a computer. Typing a student name supplies text data; selecting Calculate supplies a command. A camera image or sensor measurement is also input.\n\n### 2. Distinguish validation from verification.\n\nValidation checks rules, such as an allowed range. Verification compares entered data with a source or second entry. A wrong mark within the allowed range can pass validation but fail source comparison.\n\n### 3. Compare a mouse and a trackball.\n\nA mouse is normally moved across a surface. A trackball normally stays in place while the user rotates its exposed ball. Both can control a pointer; suitability depends on space, comfort and the task.\n\n### 4. What is a joystick used for?\n\nA joystick reports lever direction or displacement and may include buttons. It is useful for directional control in games and simulations rather than extended text entry.\n\n### 5. Why does a touchscreen have two roles?\n\nThe display presents visual output while the touch sensor accepts positions or gestures as input. These separate functions are combined in one physical product.\n\n### 6. Must every stylus support pressure sensitivity?\n\nNo. Pressure input requires compatible sensing hardware, a supported pen and software that uses the data. A basic stylus may provide only position input.\n\n### 7. How does scanning differ from OCR?\n\nScanning captures a page as image data. OCR attempts to recognise characters in that image and can produce searchable or editable text. Recognition errors must be checked against the source.\n\n### 8. What is biometric verification and one limitation?\n\nIt compares a measured sample with the claimed person’s enrolled reference. A system can wrongly match or fail to match, so it is not an infallible identity test; authorised handling and suitable alternatives matter.\n\n### 9. Distinguish hard copy and soft copy.\n\nHard copy is a physical record such as a printed page. Soft copy is electronic presentation such as a screen report. Neither viewing nor printing alone proves the digital file was saved.\n\n### 10. Explain LCD and the common LED-monitor label.\n\nAn LCD modulates light using liquid crystals. Many desktop LED monitors are LCD panels illuminated by LED backlights. This is different from claiming that every pixel in every LED-labelled product is a direct light-emitting diode.\n\n### 11. Compare impact and non-impact printers.\n\nImpact printers form marks by striking an inked ribbon against paper, as in dot-matrix printing. Non-impact methods include inkjet, laser and thermal printing. Non-impact does not mean silent or without moving parts.\n\n### 12. How does an interactive whiteboard combine input and output?\n\nIts display or projected image provides output, while its touch or pen sensing supplies input. Annotation and saving depend on supported software, and some systems use flat panels instead of separate projectors.\n\n## Solved long questions\n\n### 1. Explain input, processing, output and saving in a marks system.\n\n**Input.** Enter student identifiers and marks through a keyboard or an authorised import. Device capture and factual accuracy are different: a valid-looking number can still be wrong.\n\n**Checks and processing.** Check ranges and required fields, compare entries with the original record and calculate totals using the stated rules. For three marks 50, 60 and 70, the total is 180 and the mean is 60.\n\n**Output.** Show the total and mean on a monitor. A printer can create a hard-copy report and audio can signal completion. Preview the report and confirm its intended audience.\n\n**Retention.** Save the file to an approved persistent location and check that it can be reopened. Displaying or printing alone does not prove a digital copy was saved.\n\n### 2. Compare keyboard, mouse, trackball, touchpad and joystick.\n\n**Keyboard.** Enters characters, numbers and commands. Explain alphanumeric, navigation, function and modifier keys; shortcut actions depend on the application.\n\n**Mouse and trackball.** A mouse normally moves across a surface. A trackball senses the rotation of its ball while its housing remains stationary. Both provide pointing and selection.\n\n**Touchpad and joystick.** A touchpad senses finger movement and supported gestures, often on a laptop. A joystick gives directional or displacement input, useful in simulations.\n\n**Selection.** Choose a keyboard for long text, an appropriate pointing device for selection and a joystick for directional control. Consider accuracy, available space, comfort and accessibility.\n\n### 3. Describe touch, pen, image and voice input with their limitations.\n\n**Touch and pen.** Touchscreens combine display output with touch input. Pen features such as pressure and tilt require compatible devices and software. A screenless tablet differs from a pen display.\n\n**Images and text.** Cameras capture images and scanners capture physical documents. OCR interprets characters in image data; OMR detects marked positions and MICR reads suitable magnetic-ink characters. These are different methods.\n\n**Voice.** A microphone captures sound. Recording stores audio while speech recognition attempts to interpret words. Noise, language and microphone placement can affect recognition.\n\n**Review and permission.** Check recognised names, numbers and commands against their source. Capture images and audio only for authorised purposes, and protect personal information.\n\n### 4. Compare CRT, LCD and common LED-backlit LCD displays.\n\n**CRT.** Electron beams excite phosphor on a screen. The technology is bulky and contains hazardous high-voltage components, so student observation stays external.\n\n**LCD and backlighting.** Liquid crystals control transmitted light. Typical desktop LCDs use backlighting; many LED monitors are LCD panels with LED illumination. OLED and direct-view LED are separate technologies.\n\n**Specifications.** Resolution gives pixel dimensions: 1920 by 1080 equals 2,073,600 pixel positions. Diagonal size and pixel density differ from this count. Refresh rate describes updates per second; response time describes pixel transitions.\n\n**Practical choice.** Consider readability, scaling, viewing conditions, connections and supported modes. The highest single specification does not automatically suit every classroom or user.\n\n### 5. Explain printer types and choose suitable output for three tasks.\n\n**Mechanisms.** Dot-matrix impact printing strikes a ribbon. Inkjet deposits liquid ink droplets. Laser printing uses electrostatic imaging and toner, normally fixed using heat and pressure. Non-impact describes the marking process rather than absence of noise.\n\n**Thermal and combined functions.** Direct thermal darkens treated media; thermal transfer uses a heated printhead and ribbon. A multifunction unit can scan as input and print as output.\n\n**Task examples.** For suitable multipart forms, consider an appropriate impact printer. For text batches, compare a suitable laser device’s quality and running cost. For large drawings or posters, choose a compatible large-format printer. These are task examples rather than universal purchasing rules.\n\n**Checks.** Confirm media size, colour needs, quality, speed conditions, duplex support and cost per page. Traditional pen plotters and modern large-format inkjets do not share one universal mechanism. Preview and test one copy before a batch.\n\n### 6. Plan an accessible classroom output system and explain its data flow.\n\n**Visual presentation.** Use a suitable monitor or projector so the intended audience can read the material. Set focus, placement, readable text and contrast; account for ambient light. Brightness and resolution describe different properties.\n\n**Audio and alternatives.** Use speakers for shared audio or headphones for individual listening. Add captions or visual alerts where needed. A headset’s microphone is input while its headphones are output.\n\n**Interactive work.** Touch or pen sensors capture actions; software processes them and the display shows the annotation. An interactive flat panel can provide this without a separate projector.\n\n**Saving and handling.** Save and reopen required annotations, check permissions before showing student data, keep audio comfortable and follow equipment instructions. Do not look into a projector lens or open CRT or lamp assemblies for class exercises.\n\n## Expected practice and past-paper status\n\nThe questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use every topic section for preparation.\n\n## Practical activities and viva preparation\n\n### Classify a classroom workstation\n\nList available devices without opening equipment. For each, name the exact input or output function. Include a touchscreen, headset or multifunction unit if available; otherwise use a labelled diagram.\n\n**Expected result:** A table with correct component-level roles and at least one explanation of a combined device.\n\n### Compare pointing methods\n\nOn a permitted device, enter a short sentence using the keyboard, select a word with a pointer and move an object with dragging. Compare mouse and touchpad if both are available. Record which action was easiest and why.\n\n**Expected result:** A clear distinction between text entry, selection and dragging, with observations rather than unsupported speed claims.\n\n### Capture and check a page\n\nUse an authorised non-personal sample page. Scan or photograph it, then run an already available approved OCR tool if present. Compare five words and two numbers with the original. Do not upload confidential documents.\n\n**Expected result:** An image file, an optional recognised-text sample and a record of any errors; scanning and OCR are distinguished.\n\n### Inspect display and print settings\n\nRecord the supported display resolution and refresh rate from settings without forcing an unsupported mode. Preview a one-page practice document and check the printer, page range, orientation and paper size. Print only if authorised.\n\n**Expected result:** Correctly labelled pixel dimensions, hertz and print choices; preview is distinguished from printing and saving.\n\n### Trace an interactive lesson\n\nDraw arrows from pen or touch sensing to software and then to the displayed annotation. If equipment is available, annotate a non-personal example, save it and reopen the file. Otherwise explain the workflow on paper.\n\n**Expected result:** Input, processing, output and retention are shown separately, with a saved-file check when demonstrated.\n\n### Viva questions\n\nWhy can a touchscreen and a headset have two roles? How does a trackball differ from a mouse? Why is an OCR result checked against the page? Does LED always describe a direct-view LED panel? How do direct thermal and thermal transfer differ? Why does a projected annotation still need a save-and-reopen check? Use the topic notes and solved answers to check your explanation.\n\n## Chapter practice test\n\nSuggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.\n\n### Q1. Which action supplies data rather than a calculation command?\n\nA) Clicking the Calculate button\n\nB) Selecting the Print command\n\nC) Typing 72 into a marks field\n\nD) Choosing Close from a menu\n\n### Q2. Which method best checks whether 56 was mistakenly entered as 65?\n\nA) Check only that it is between 0 and 100\n\nB) Increase the display brightness\n\nC) Change the printer paper\n\nD) Compare the entry with the original record\n\n### Q3. What should guide selection of an input device?\n\nA) Only the device's case colour\n\nB) Task requirements and the user's access needs\n\nC) Only the monitor's screen size\n\nD) Only the printer's page count\n\n### Q4. Which keyboard group primarily enters letters and digits?\n\nA) Only the function-key row\n\nB) Only the arrow keys\n\nC) Alphanumeric keys\n\nD) Only the modifier keys\n\n### Q5. Which device commonly provides finger-controlled pointing on a laptop?\n\nA) Plotter\n\nB) Projector\n\nC) Thermal printer\n\nD) Touchpad\n\n### Q6. Why should students check a shortcut in the target application?\n\nA) All shortcuts print one page\n\nB) Modifier keys never change an action\n\nC) Every application uses identical commands\n\nD) Its action can depend on the software and platform\n\n### Q7. Which action is input on a touchscreen?\n\nA) The screen showing a photograph\n\nB) The screen displaying a result\n\nC) Tapping an on-screen button\n\nD) The screen lighting a menu label\n\n### Q8. What distinguishes a pen display from a screenless pen tablet?\n\nA) A pen display includes a screen beneath the drawing surface\n\nB) A pen display can never accept input\n\nC) A screenless tablet always prints drawings\n\nD) A screenless tablet is a thermal printer\n\n### Q9. Which statement about multi-touch is correct?\n\nA) It is available on every touch-sensitive surface\n\nB) It requires support in the device and software\n\nC) It means using two separate printers\n\nD) It removes the need for a display\n\n### Q10. What is the main difference between recording and recognising speech?\n\nA) Recording always produces perfect text\n\nB) Recognition stores only paper pages\n\nC) Both terms mean printing a transcript\n\nD) Recording captures audio; recognition attempts to interpret words\n\n### Q11. Which technology reads suitable characters printed in magnetic ink?\n\nA) OCR as a synonym for all scanning\n\nB) LCD\n\nC) LED backlighting\n\nD) MICR\n\n### Q12. Which example is hard copy?\n\nA) A chart displayed on a monitor\n\nB) A spoken notification\n\nC) A report printed on paper\n\nD) An unsaved number in a text field\n\n### Q13. What is the output in a simple marks-calculation workflow?\n\nA) The original keys pressed to enter marks\n\nB) The entered marks before calculation\n\nC) The student's mouse movement alone\n\nD) The displayed total and grade\n\n### Q14. Why can a sharp monitor still show an incorrect result?\n\nA) Higher resolution automatically validates every fact\n\nB) Monitors change all wrong numbers into correct ones\n\nC) Output quality does not establish source-data or calculation correctness\n\nD) Every displayed answer is verified by the screen\n\n### Q15. How does a CRT form its image?\n\nA) Ink droplets strike paper\n\nB) Electron beams excite a phosphor-coated screen\n\nC) A thermal ribbon transfers wax\n\nD) A keyboard illuminates the glass\n\n### Q16. How does response time differ from refresh rate?\n\nA) It is always measured in inches\n\nB) It describes pixel transitions rather than updates per second\n\nC) It means the same thing as screen resolution\n\nD) It counts keyboard key presses\n\n### Q17. What distinguishes non-impact printing?\n\nA) It does not strike an inked ribbon against paper to form marks\n\nB) It contains no moving parts at all\n\nC) It can never make any sound\n\nD) It never needs consumables\n\n### Q18. What distinguishes thermal transfer printing from direct thermal printing?\n\nA) It always uses an electron beam inside a CRT\n\nB) It can never print labels\n\nC) It uses a heated printhead with a transfer ribbon\n\nD) It always requires a pen to touch paper\n\n### Q19. Which device is most suited to presenting slides to a classroom wall screen?\n\nA) Multimedia projector\n\nB) Flatbed scanner\n\nC) Trackball\n\nD) Barcode reader\n\n### Q20. Which feature can complement an audio lesson for a learner with hearing difficulty?\n\nA) Only increasing volume without considering the learner\n\nB) Captions or suitable visual information\n\nC) Disabling all visible text\n\nD) Reducing screen contrast\n\n### Short questions\n\n1. Define input and give two examples.\n\n2. Distinguish validation from verification.\n\n3. What is a joystick used for?\n\n4. Why does a touchscreen have two roles?\n\n5. Must every stylus support pressure sensitivity?\n\n6. How does scanning differ from OCR?\n\n7. What is biometric verification and one limitation?\n\n8. Distinguish hard copy and soft copy.\n\n9. Explain LCD and the common LED-monitor label.\n\n10. Compare impact and non-impact printers.\n\n### Long questions\n\n1. Compare keyboard, mouse, trackball, touchpad and joystick.\n\n2. Compare CRT, LCD and common LED-backlit LCD displays.\n\n3. Plan an accessible classroom output system and explain its data flow.\n\n## Practice test answer key and explanations\n\n1. **C**. The typed mark is a value; the other actions request operations.\n\n2. **D**. Both values pass a typical range check; source comparison can reveal the mistake.\n\n3. **B**. The device must suit the data, user and working conditions.\n\n4. **C**. Alphanumeric keys provide the main character-entry area.\n\n5. **D**. A touchpad detects finger movement and supported gestures.\n\n6. **D**. Shortcut meanings are context-dependent rather than universal.\n\n7. **C**. A tap supplies a user action; the visible content is output.\n\n8. **A**. A screenless tablet maps strokes to another display.\n\n9. **B**. Hardware capability and application behaviour determine supported gestures.\n\n10. **D**. Speech recognition is an additional interpretation process.\n\n11. **D**. MICR is magnetic ink character recognition.\n\n12. **C**. Hard copy is a physical record such as a printed page.\n\n13. **D**. The total and grade are results of the processing.\n\n14. **C**. The device presents the supplied result rather than proving it correct.\n\n15. **B**. CRT technology uses electron beams and phosphor rather than an LCD light valve.\n\n16. **B**. Pixel transition time and update frequency describe different behaviours.\n\n17. **A**. The classification describes the marking mechanism rather than silence or motion.\n\n18. **C**. The ribbon transfers marking material to compatible media.\n\n19. **A**. A projector presents a visual image on a larger surface.\n\n20. **B**. Alternative visual presentation can improve access to spoken content.\n\n### Written-answer guidance\n\nShort questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.\n\n## Sources and further study\n\n- [PBTE official two-year DIT syllabus, ICT Module 3, page 7](https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf)\n\n- [EIZO LED-backlit LCD monitor range](https://www.eizo.com/products/flexscan/)\n\n- [Epson inkjet technology overview](https://corporate.epson/en/technology/overview/printer-inkjet/)\n\n- [Zebra direct thermal and thermal transfer explanation](https://www.zebra.com/us/en/resource-library/faq/difference-between-direct-thermal-and-thermal-transfer-printing.html)\n\n- [Adobe OCR for scanned documents](https://helpx.adobe.com/acrobat/desktop/create-documents/scan-documents-to-pdfs/recognize-text.html)\n\n- [NIST biometric authenticator limitations](https://pages.nist.gov/800-63-4/sp800-63b/authenticators/)\n\n## Continue your ICT revision\n\n[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).\n\n[Review Chapter 2 System Unit Components](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-2-system-unit-components/).\n",
+  "questions": [
+    {
+      "id": "dit-ict-ch3-q01",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Which definition best describes computer input?",
+      "options": [
+        "Only printed results from a printer",
+        "Only arithmetic performed by the CPU",
+        "Data or instructions supplied for processing",
+        "Only files erased from a drive"
+      ],
+      "correctIndex": 2,
+      "explanation": "Input supplies the values or commands on which software operates."
+    },
+    {
+      "id": "dit-ict-ch3-q02",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Which action supplies data rather than a calculation command?",
+      "options": [
+        "Clicking the Calculate button",
+        "Selecting the Print command",
+        "Typing 72 into a marks field",
+        "Choosing Close from a menu"
+      ],
+      "correctIndex": 2,
+      "explanation": "The typed mark is a value; the other actions request operations."
+    },
+    {
+      "id": "dit-ict-ch3-q03",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Which example is automatic input?",
+      "options": [
+        "A speaker playing a song",
+        "A sensor reporting temperature readings",
+        "A printer producing a report",
+        "A monitor showing a chart"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sensor supplies measurements without repeated manual entry."
+    },
+    {
+      "id": "dit-ict-ch3-q04",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "What does a validation range check establish for a mark?",
+      "options": [
+        "The value certainly matches the teacher's original mark",
+        "The value falls within the permitted limits",
+        "The student certainly earned that mark",
+        "The mark has already been printed"
+      ],
+      "correctIndex": 1,
+      "explanation": "A range check checks a rule; an incorrect in-range value can still pass."
+    },
+    {
+      "id": "dit-ict-ch3-q05",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Which method best checks whether 56 was mistakenly entered as 65?",
+      "options": [
+        "Check only that it is between 0 and 100",
+        "Increase the display brightness",
+        "Change the printer paper",
+        "Compare the entry with the original record"
+      ],
+      "correctIndex": 3,
+      "explanation": "Both values pass a typical range check; source comparison can reveal the mistake."
+    },
+    {
+      "id": "dit-ict-ch3-q06",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Which item is an input device?",
+      "options": [
+        "Loudspeaker",
+        "Ordinary non-touch monitor",
+        "Microphone",
+        "Laser printer"
+      ],
+      "correctIndex": 2,
+      "explanation": "A microphone captures sound for input to the computer."
+    },
+    {
+      "id": "dit-ict-ch3-q07",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "How can continuous sound become digital input?",
+      "options": [
+        "By printing it onto paper first",
+        "By changing the monitor's refresh rate",
+        "By turning every sound directly into a verified sentence",
+        "By sampling and converting it into numerical values"
+      ],
+      "correctIndex": 3,
+      "explanation": "Digital audio represents measured sound using numerical samples."
+    },
+    {
+      "id": "dit-ict-ch3-q08",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Why can the same keyboard provide data and commands?",
+      "options": [
+        "Software interprets different key actions for different purposes",
+        "Every key always means the same instruction in all programs",
+        "Keyboards can only enter numbers",
+        "Commands cannot be entered with keys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Typing a name supplies data; a shortcut can request an operation."
+    },
+    {
+      "id": "dit-ict-ch3-q09",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "What should guide selection of an input device?",
+      "options": [
+        "Only the device's case colour",
+        "Task requirements and the user's access needs",
+        "Only the monitor's screen size",
+        "Only the printer's page count"
+      ],
+      "correctIndex": 1,
+      "explanation": "The device must suit the data, user and working conditions."
+    },
+    {
+      "id": "dit-ict-ch3-q10",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.1 What Is Input?",
+      "question": "Which statement about input accuracy is correct?",
+      "options": [
+        "A computer always detects every false fact",
+        "Automatic capture never needs review",
+        "All numeric input is automatically true",
+        "Correct processing can still use incorrect input"
+      ],
+      "correctIndex": 3,
+      "explanation": "Software can apply rules correctly to inaccurate data and still produce a misleading result."
+    },
+    {
+      "id": "dit-ict-ch3-q11",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "Which keyboard group primarily enters letters and digits?",
+      "options": [
+        "Only the function-key row",
+        "Only the arrow keys",
+        "Alphanumeric keys",
+        "Only the modifier keys"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alphanumeric keys provide the main character-entry area."
+    },
+    {
+      "id": "dit-ict-ch3-q12",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "Which key is commonly used as a modifier in a shortcut?",
+      "options": [
+        "The digit 7",
+        "The letter B alone",
+        "Ctrl",
+        "The decimal-point key alone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ctrl combines with other keys to request application or system actions."
+    },
+    {
+      "id": "dit-ict-ch3-q13",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "What does dragging with a mouse usually involve?",
+      "options": [
+        "Pressing only the printer's power switch",
+        "Rotating the monitor stand",
+        "Typing a whole sentence",
+        "Holding a button while moving the pointer"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dragging combines pointer movement with a held button."
+    },
+    {
+      "id": "dit-ict-ch3-q14",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "Which pointing device normally stays still while its exposed ball rotates?",
+      "options": [
+        "Conventional mouse",
+        "Keyboard",
+        "Trackball",
+        "Scanner"
+      ],
+      "correctIndex": 2,
+      "explanation": "A trackball senses rotation of its ball without moving the housing around the desk."
+    },
+    {
+      "id": "dit-ict-ch3-q15",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "Which device commonly provides finger-controlled pointing on a laptop?",
+      "options": [
+        "Plotter",
+        "Projector",
+        "Thermal printer",
+        "Touchpad"
+      ],
+      "correctIndex": 3,
+      "explanation": "A touchpad detects finger movement and supported gestures."
+    },
+    {
+      "id": "dit-ict-ch3-q16",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "Which device is especially suited to directional control in a simulation?",
+      "options": [
+        "Joystick",
+        "Flatbed scanner",
+        "Laser printer",
+        "Microphone stand"
+      ],
+      "correctIndex": 0,
+      "explanation": "A joystick reports lever direction or displacement and button actions."
+    },
+    {
+      "id": "dit-ict-ch3-q17",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "How does an optical mouse generally detect movement?",
+      "options": [
+        "By reading a paper ribbon",
+        "Using light and an image sensor",
+        "By heating thermal paper",
+        "By detecting spoken sentences"
+      ],
+      "correctIndex": 1,
+      "explanation": "Optical mice sense surface movement with optical components."
+    },
+    {
+      "id": "dit-ict-ch3-q18",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "What is the usual purpose of a mouse wheel?",
+      "options": [
+        "Permanently save all open files",
+        "Scroll through content",
+        "Increase the CPU clock frequency",
+        "Scan a paper document"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wheel commonly scrolls, although applications may assign other functions."
+    },
+    {
+      "id": "dit-ict-ch3-q19",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "Why should students check a shortcut in the target application?",
+      "options": [
+        "All shortcuts print one page",
+        "Modifier keys never change an action",
+        "Every application uses identical commands",
+        "Its action can depend on the software and platform"
+      ],
+      "correctIndex": 3,
+      "explanation": "Shortcut meanings are context-dependent rather than universal."
+    },
+    {
+      "id": "dit-ict-ch3-q20",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.2 Keyboard and Pointing Devices",
+      "question": "What does increasing pointer speed normally change?",
+      "options": [
+        "The keyboard's number of physical keys",
+        "The mapping between physical movement and pointer movement",
+        "The printer's ink chemistry",
+        "The scanner's paper capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pointer speed changes control behaviour and does not guarantee improved accuracy."
+    },
+    {
+      "id": "dit-ict-ch3-q21",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "Why is a touchscreen classified as both input and output?",
+      "options": [
+        "Its sensor accepts touch and its display presents information",
+        "It always contains a printer and scanner",
+        "Its battery stores every user file",
+        "Touch input and displayed output are the same signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The combined device performs two distinct roles."
+    },
+    {
+      "id": "dit-ict-ch3-q22",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "Which action is input on a touchscreen?",
+      "options": [
+        "The screen showing a photograph",
+        "The screen displaying a result",
+        "Tapping an on-screen button",
+        "The screen lighting a menu label"
+      ],
+      "correctIndex": 2,
+      "explanation": "A tap supplies a user action; the visible content is output."
+    },
+    {
+      "id": "dit-ict-ch3-q23",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "What is the basic sensing principle of a resistive touchscreen?",
+      "options": [
+        "A toner drum fuses powder onto paper",
+        "Pressure brings conductive layers into contact",
+        "An electron beam scans phosphor",
+        "A loudspeaker produces sound waves"
+      ],
+      "correctIndex": 1,
+      "explanation": "A resistive touch layer detects contact produced by pressure."
+    },
+    {
+      "id": "dit-ict-ch3-q24",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "What does a projected capacitive touchscreen sense?",
+      "options": [
+        "Paper thickness in a printer",
+        "Electrical changes near its sensing grid",
+        "Toner temperature only",
+        "The computer's hard-drive speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capacitive sensing responds to changes in electrical coupling."
+    },
+    {
+      "id": "dit-ict-ch3-q25",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "Which claim about a stylus is most accurate?",
+      "options": [
+        "Every stylus works with every screen",
+        "Compatibility and supported features vary",
+        "All styli support pressure and tilt",
+        "Every stylus must contain a battery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pen technology, screen hardware and software determine what works."
+    },
+    {
+      "id": "dit-ict-ch3-q26",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "What distinguishes a pen display from a screenless pen tablet?",
+      "options": [
+        "A pen display includes a screen beneath the drawing surface",
+        "A pen display can never accept input",
+        "A screenless tablet always prints drawings",
+        "A screenless tablet is a thermal printer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A screenless tablet maps strokes to another display."
+    },
+    {
+      "id": "dit-ict-ch3-q27",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "What enables pressure-sensitive drawing?",
+      "options": [
+        "Increasing speaker volume",
+        "A compatible pressure-sensing pen system and supporting application",
+        "Installing more printer paper",
+        "Changing only the desktop wallpaper"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure data must be captured and used by compatible hardware and software."
+    },
+    {
+      "id": "dit-ict-ch3-q28",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "What does touch or pen calibration mainly improve?",
+      "options": [
+        "The number of CPU cores",
+        "The chemical composition of printer ink",
+        "Alignment between sensed positions and screen targets",
+        "The capacity of an SSD"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calibration corrects coordinate alignment rather than creating new hardware features."
+    },
+    {
+      "id": "dit-ict-ch3-q29",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "Why should recognised handwriting be checked?",
+      "options": [
+        "A stylus always proves a person's identity",
+        "Handwriting input cannot contain digits",
+        "Recognition guarantees perfect spelling",
+        "Recognition software can misinterpret characters"
+      ],
+      "correctIndex": 3,
+      "explanation": "Recognition is an interpretation step and may contain errors."
+    },
+    {
+      "id": "dit-ict-ch3-q30",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.3 Touch Screen, Pen and Stylus",
+      "question": "Which statement about multi-touch is correct?",
+      "options": [
+        "It is available on every touch-sensitive surface",
+        "It requires support in the device and software",
+        "It means using two separate printers",
+        "It removes the need for a display"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hardware capability and application behaviour determine supported gestures."
+    },
+    {
+      "id": "dit-ict-ch3-q31",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "Which function of a game controller is input?",
+      "options": [
+        "Vibration feedback",
+        "A trigger press",
+        "A status light shining",
+        "Sound from its speaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "The trigger supplies a user action; the other examples are feedback output."
+    },
+    {
+      "id": "dit-ict-ch3-q32",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "Which component captures light in a digital camera?",
+      "options": [
+        "Toner drum",
+        "Thermal printhead",
+        "Image sensor",
+        "Speaker cone"
+      ],
+      "correctIndex": 2,
+      "explanation": "The image sensor converts light into electronic image information."
+    },
+    {
+      "id": "dit-ict-ch3-q33",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "What is the main difference between recording and recognising speech?",
+      "options": [
+        "Recording always produces perfect text",
+        "Recognition stores only paper pages",
+        "Both terms mean printing a transcript",
+        "Recording captures audio; recognition attempts to interpret words"
+      ],
+      "correctIndex": 3,
+      "explanation": "Speech recognition is an additional interpretation process."
+    },
+    {
+      "id": "dit-ict-ch3-q34",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "Which input method is most suited to digitising a paper photograph?",
+      "options": [
+        "Loudspeaker",
+        "Scanner",
+        "Laser printer",
+        "Ordinary projector"
+      ],
+      "correctIndex": 1,
+      "explanation": "A scanner captures the visible content of a physical document or photograph."
+    },
+    {
+      "id": "dit-ict-ch3-q35",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "What is OCR used for?",
+      "options": [
+        "Recognising characters in image data",
+        "Detecting only filled answer bubbles",
+        "Printing with magnetic ink",
+        "Projecting a computer screen"
+      ],
+      "correctIndex": 0,
+      "explanation": "OCR attempts to turn text images into machine-readable characters."
+    },
+    {
+      "id": "dit-ict-ch3-q36",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "What is OMR mainly designed to detect?",
+      "options": [
+        "Marked positions on a prepared form",
+        "The spoken meaning of audio",
+        "A display's refresh rate",
+        "A printer's toner level"
+      ],
+      "correctIndex": 0,
+      "explanation": "OMR reads marked responses rather than recognising arbitrary text characters."
+    },
+    {
+      "id": "dit-ict-ch3-q37",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "Which technology reads suitable characters printed in magnetic ink?",
+      "options": [
+        "OCR as a synonym for all scanning",
+        "LCD",
+        "LED backlighting",
+        "MICR"
+      ],
+      "correctIndex": 3,
+      "explanation": "MICR is magnetic ink character recognition."
+    },
+    {
+      "id": "dit-ict-ch3-q38",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "Why does a barcode reader alone not necessarily provide a product's current price?",
+      "options": [
+        "All barcodes directly contain every shop's current price",
+        "Barcode readers are output-only",
+        "The monitor's resolution determines the price",
+        "The application usually looks up the captured code in a database"
+      ],
+      "correctIndex": 3,
+      "explanation": "The encoded identifier and its associated business information are different things."
+    },
+    {
+      "id": "dit-ict-ch3-q39",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "What is biometric verification?",
+      "options": [
+        "Searching every record without a claimed identity in all cases",
+        "Printing a fingerprint picture only",
+        "Comparing a sample with the claimed person's enrolled reference",
+        "Guaranteeing that matching can never be wrong"
+      ],
+      "correctIndex": 2,
+      "explanation": "Verification checks a claimed identity; identification searches among candidates."
+    },
+    {
+      "id": "dit-ict-ch3-q40",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.4 Other Types of Input",
+      "question": "Which statement best describes a self-service terminal?",
+      "options": [
+        "Always an input-only keyboard with no output",
+        "Always a processor chip with no user interface",
+        "An endpoint that may combine input and output devices",
+        "Always a printer with no data capture"
+      ],
+      "correctIndex": 2,
+      "explanation": "A terminal can include a reader, controls, display and receipt printer."
+    },
+    {
+      "id": "dit-ict-ch3-q41",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Which definition best describes output?",
+      "options": [
+        "Only values typed into a keyboard",
+        "Only instructions fetched by the CPU",
+        "Results or information delivered by a computer",
+        "Only electrical power entering the case"
+      ],
+      "correctIndex": 2,
+      "explanation": "Output makes a system's results available to a user or another device."
+    },
+    {
+      "id": "dit-ict-ch3-q42",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Which example is hard copy?",
+      "options": [
+        "A chart displayed on a monitor",
+        "A spoken notification",
+        "A report printed on paper",
+        "An unsaved number in a text field"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hard copy is a physical record such as a printed page."
+    },
+    {
+      "id": "dit-ict-ch3-q43",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Which example is soft-copy output?",
+      "options": [
+        "A timetable displayed on a screen",
+        "A paper receipt",
+        "A handwritten register page",
+        "A blank printer sheet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A screen presents an electronic version of the result."
+    },
+    {
+      "id": "dit-ict-ch3-q44",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "What can be concluded when a document is visible on a monitor?",
+      "options": [
+        "It has certainly been saved to an SSD",
+        "It has certainly been printed",
+        "Its contents must be factually correct",
+        "It is being displayed, but saving must be checked separately"
+      ],
+      "correctIndex": 3,
+      "explanation": "Display, persistence and correctness are separate properties."
+    },
+    {
+      "id": "dit-ict-ch3-q45",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Which device primarily produces audio output?",
+      "options": [
+        "Microphone",
+        "Flatbed scanner",
+        "Speaker",
+        "Keyboard"
+      ],
+      "correctIndex": 2,
+      "explanation": "A speaker converts an electrical audio signal into sound."
+    },
+    {
+      "id": "dit-ict-ch3-q46",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "What is the output in a simple marks-calculation workflow?",
+      "options": [
+        "The original keys pressed to enter marks",
+        "The entered marks before calculation",
+        "The student's mouse movement alone",
+        "The displayed total and grade"
+      ],
+      "correctIndex": 3,
+      "explanation": "The total and grade are results of the processing."
+    },
+    {
+      "id": "dit-ict-ch3-q47",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Which action is distinct from displaying or printing a report?",
+      "options": [
+        "Saving it to persistent storage",
+        "Showing its title on a monitor",
+        "Playing its completion sound",
+        "Producing a paper copy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saving preserves digital work for later use."
+    },
+    {
+      "id": "dit-ict-ch3-q48",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "What should be checked before printing a confidential result?",
+      "options": [
+        "Only the mouse's colour",
+        "Only the number of keyboard keys",
+        "Only the speaker's brand",
+        "The intended printer and permitted audience"
+      ],
+      "correctIndex": 3,
+      "explanation": "The destination and audience affect privacy on shared equipment."
+    },
+    {
+      "id": "dit-ict-ch3-q49",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Which output choice can support a user who cannot easily read a screen?",
+      "options": [
+        "Only smaller text",
+        "Only lower contrast",
+        "A disabled audio system",
+        "Suitable spoken feedback"
+      ],
+      "correctIndex": 3,
+      "explanation": "Audio can provide an alternative presentation when appropriate for the user."
+    },
+    {
+      "id": "dit-ict-ch3-q50",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.5 What Is Output?",
+      "question": "Why can a sharp monitor still show an incorrect result?",
+      "options": [
+        "Higher resolution automatically validates every fact",
+        "Monitors change all wrong numbers into correct ones",
+        "Output quality does not establish source-data or calculation correctness",
+        "Every displayed answer is verified by the screen"
+      ],
+      "correctIndex": 2,
+      "explanation": "The device presents the supplied result rather than proving it correct."
+    },
+    {
+      "id": "dit-ict-ch3-q51",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "What does a display resolution of 1920 by 1080 describe?",
+      "options": [
+        "Pixel dimensions",
+        "Screen width and height in centimetres",
+        "Refreshes per minute",
+        "Number of speakers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resolution describes the horizontal and vertical pixel counts."
+    },
+    {
+      "id": "dit-ict-ch3-q52",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "How many pixel positions are in a 1920 by 1080 image?",
+      "options": [
+        "3,000",
+        "192,108",
+        "2,073,600",
+        "2,073"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiplying 1920 by 1080 gives 2,073,600 pixel positions."
+    },
+    {
+      "id": "dit-ict-ch3-q53",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "How does a CRT form its image?",
+      "options": [
+        "Ink droplets strike paper",
+        "Electron beams excite a phosphor-coated screen",
+        "A thermal ribbon transfers wax",
+        "A keyboard illuminates the glass"
+      ],
+      "correctIndex": 1,
+      "explanation": "CRT technology uses electron beams and phosphor rather than an LCD light valve."
+    },
+    {
+      "id": "dit-ict-ch3-q54",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "What is the main role of liquid crystals in a typical LCD?",
+      "options": [
+        "Store all user files",
+        "Produce printer toner",
+        "Control the passage of light",
+        "Recognise spoken words"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cells modulate light to form the image."
+    },
+    {
+      "id": "dit-ict-ch3-q55",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "What does LED monitor commonly mean in desktop LCD marketing?",
+      "options": [
+        "An LCD panel using an LED backlight",
+        "A CRT using an ink ribbon",
+        "A screen with no liquid crystals in every case",
+        "A display that can only show text"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many ordinary LED monitors use LCD image formation and LED illumination."
+    },
+    {
+      "id": "dit-ict-ch3-q56",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "Which display specification is measured in hertz?",
+      "options": [
+        "Diagonal size",
+        "Refresh rate",
+        "Pixel count alone",
+        "Paper capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hertz describes updates per second in the supported display mode."
+    },
+    {
+      "id": "dit-ict-ch3-q57",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "How does response time differ from refresh rate?",
+      "options": [
+        "It is always measured in inches",
+        "It describes pixel transitions rather than updates per second",
+        "It means the same thing as screen resolution",
+        "It counts keyboard key presses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pixel transition time and update frequency describe different behaviours."
+    },
+    {
+      "id": "dit-ict-ch3-q58",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "Can two screens have the same resolution but different physical sizes?",
+      "options": [
+        "No, resolution uniquely determines centimetres",
+        "Only if both are printers",
+        "Yes, their pixel densities can differ",
+        "Only if neither can display text"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fixed pixel count can occupy different physical areas."
+    },
+    {
+      "id": "dit-ict-ch3-q59",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "What can interface scaling help improve?",
+      "options": [
+        "The number of physical pixels in the panel",
+        "The CPU's core count",
+        "The chemical brightness of printer toner",
+        "Readability of text and controls"
+      ],
+      "correctIndex": 3,
+      "explanation": "Scaling changes the apparent interface size, not the panel's physical construction."
+    },
+    {
+      "id": "dit-ict-ch3-q60",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.6 Display Devices: CRT, LCD and LED",
+      "question": "What is the appropriate student procedure for identifying a CRT?",
+      "options": [
+        "Open the case to touch internal components",
+        "Remove its tube for routine comparison",
+        "Disconnect internal high-voltage leads as a class exercise",
+        "Observe its external features and label without opening it"
+      ],
+      "correctIndex": 3,
+      "explanation": "CRT interiors require qualified servicing because of high-voltage hazards."
+    },
+    {
+      "id": "dit-ict-ch3-q61",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "Which printer is an example of an impact mechanism?",
+      "options": [
+        "Laser printer",
+        "Inkjet printer",
+        "Direct thermal printer",
+        "Dot-matrix printer"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dot-matrix pins strike an inked ribbon against the paper."
+    },
+    {
+      "id": "dit-ict-ch3-q62",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "What distinguishes non-impact printing?",
+      "options": [
+        "It does not strike an inked ribbon against paper to form marks",
+        "It contains no moving parts at all",
+        "It can never make any sound",
+        "It never needs consumables"
+      ],
+      "correctIndex": 0,
+      "explanation": "The classification describes the marking mechanism rather than silence or motion."
+    },
+    {
+      "id": "dit-ict-ch3-q63",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "What does an inkjet normally deposit?",
+      "options": [
+        "Droplets of liquid ink",
+        "Dry toner as its defining inkjet material",
+        "Only magnetic characters",
+        "Only a pencil trace"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inkjet printing places controlled droplets of liquid ink on the medium."
+    },
+    {
+      "id": "dit-ict-ch3-q64",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "Which material is used in ordinary laser printing?",
+      "options": [
+        "Toner",
+        "Liquid ink droplets as the laser mechanism",
+        "A typewriter ribbon as the imaging drum",
+        "Heat-sensitive paper as the only marking material"
+      ],
+      "correctIndex": 0,
+      "explanation": "Laser printers typically form and fuse a toner image."
+    },
+    {
+      "id": "dit-ict-ch3-q65",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "What happens in the fusing stage of a typical laser printer?",
+      "options": [
+        "Speech becomes searchable text",
+        "Toner is bonded to paper using heat and pressure",
+        "A pen draws every line mechanically",
+        "An image sensor captures the printed page"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fusing fixes the transferred toner to the sheet."
+    },
+    {
+      "id": "dit-ict-ch3-q66",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "What does direct thermal printing require for its marking process?",
+      "options": [
+        "Suitable heat-sensitive media",
+        "A thermal-transfer ribbon in every case",
+        "A liquid-ink cartridge in every case",
+        "A dot-matrix impact ribbon in every case"
+      ],
+      "correctIndex": 0,
+      "explanation": "The printhead darkens the treated medium directly."
+    },
+    {
+      "id": "dit-ict-ch3-q67",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "What distinguishes thermal transfer printing from direct thermal printing?",
+      "options": [
+        "It always uses an electron beam inside a CRT",
+        "It can never print labels",
+        "It uses a heated printhead with a transfer ribbon",
+        "It always requires a pen to touch paper"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ribbon transfers marking material to compatible media."
+    },
+    {
+      "id": "dit-ict-ch3-q68",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "Which description fits a multifunction printer?",
+      "options": [
+        "A device that only displays one page",
+        "A unit combining functions such as printing and scanning",
+        "A printer with no input capability in every case",
+        "A joystick with extra buttons"
+      ],
+      "correctIndex": 1,
+      "explanation": "A multifunction unit can contain both output and input functions."
+    },
+    {
+      "id": "dit-ict-ch3-q69",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "Which statement about plotters and large-format printers is correct?",
+      "options": [
+        "Traditional plotters may use pens; many modern large-format printers use inkjet",
+        "Every modern large-format printer moves a pen",
+        "Plotters can only produce audio",
+        "Paper width determines whether a device has a CPU"
+      ],
+      "correctIndex": 0,
+      "explanation": "Large-format output describes a role and size, not one universal marking mechanism."
+    },
+    {
+      "id": "dit-ict-ch3-q70",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.7 Printers and Large-Format Output",
+      "question": "What does printer DPI measure?",
+      "options": [
+        "Documents permanently indexed",
+        "Display pixels imported",
+        "Data packets per interface",
+        "Dots per inch"
+      ],
+      "correctIndex": 3,
+      "explanation": "DPI describes dot density and is only one contributor to printed quality."
+    },
+    {
+      "id": "dit-ict-ch3-q71",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "What is the primary function of headphones?",
+      "options": [
+        "Provide individual audio output",
+        "Capture sound as their defining playback role",
+        "Scan paper documents",
+        "Enter handwritten notes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Headphones reproduce audio for a listener."
+    },
+    {
+      "id": "dit-ict-ch3-q72",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "Why can a headset be both input and output?",
+      "options": [
+        "It may combine a microphone with headphones",
+        "Every headphone driver scans text",
+        "Its cable always stores all recordings",
+        "The microphone only displays sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "The microphone captures input and the headphones provide output."
+    },
+    {
+      "id": "dit-ict-ch3-q73",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "Which device is most suited to presenting slides to a classroom wall screen?",
+      "options": [
+        "Multimedia projector",
+        "Flatbed scanner",
+        "Trackball",
+        "Barcode reader"
+      ],
+      "correctIndex": 0,
+      "explanation": "A projector presents a visual image on a larger surface."
+    },
+    {
+      "id": "dit-ict-ch3-q74",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "What can make a projected image harder to read?",
+      "options": [
+        "Excessive ambient light reducing visible contrast",
+        "Only the keyboard's letter arrangement",
+        "Only a barcode's numeric length",
+        "The number of mouse buttons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Room lighting can wash out the projected image."
+    },
+    {
+      "id": "dit-ict-ch3-q75",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "What do projector lumens describe?",
+      "options": [
+        "Horizontal and vertical pixel counts",
+        "The number of input keys",
+        "The speed of text recognition",
+        "Light output"
+      ],
+      "correctIndex": 3,
+      "explanation": "Brightness-related light output is distinct from resolution."
+    },
+    {
+      "id": "dit-ict-ch3-q76",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "Which part of an interactive whiteboard system supplies input?",
+      "options": [
+        "The displayed lesson image alone",
+        "The projected title alone",
+        "The visible chart alone",
+        "Its touch or pen sensing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sensing captures the user's action; displaying the image is output."
+    },
+    {
+      "id": "dit-ict-ch3-q77",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "Do all interactive whiteboards require a separate projector?",
+      "options": [
+        "No, some interactive systems use a flat-panel display",
+        "Yes, no flat-panel system can accept touch",
+        "Yes, every screen must be a CRT",
+        "No, because interactive systems never show images"
+      ],
+      "correctIndex": 0,
+      "explanation": "The display and sensing arrangement depends on the system design."
+    },
+    {
+      "id": "dit-ict-ch3-q78",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "What should be checked before closing an annotated lesson?",
+      "options": [
+        "Only that the board once displayed the text",
+        "Only that the pen was held correctly",
+        "That required annotations have been saved",
+        "Only that a speaker produced a sound"
+      ],
+      "correctIndex": 2,
+      "explanation": "Visible annotations are not proof of a retained file."
+    },
+    {
+      "id": "dit-ict-ch3-q79",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "Which feature can complement an audio lesson for a learner with hearing difficulty?",
+      "options": [
+        "Only increasing volume without considering the learner",
+        "Captions or suitable visual information",
+        "Disabling all visible text",
+        "Reducing screen contrast"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternative visual presentation can improve access to spoken content."
+    },
+    {
+      "id": "dit-ict-ch3-q80",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 3,
+      "topic": "3.8 Other Output Devices",
+      "question": "Which practice is appropriate during a projector demonstration?",
+      "options": [
+        "Look directly into the bright lens to check focus",
+        "Keep eyes away from the projection lens and follow the manual",
+        "Open a hot lamp assembly during class",
+        "Assume every model has identical service steps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Use the projected surface to assess the image and follow model-specific handling guidance."
+    }
+  ],
+  "pdfBytes": 81143,
+  "pdfSha256": "0d9296d2d1b440e3142547771401596fc8739b70182b08bfc588457600c5e7c4",
+  "sourceSha256": "bdc60df113f6a6d925dfd436ebed88c8353d5592b2ba0fd237def8bd3f543598"
+}

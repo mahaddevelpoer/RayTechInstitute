@@ -70,7 +70,7 @@ jobs:
       - name: Verify reviewed DIT ICT chapter packs
         # Reviewed ICT source packs must keep their chapter identities and PDF bytes.
         if: github.event_name != 'repository_dispatch'
-        run: node --test scripts/dit-ict.test.mjs scripts/dit-ict-chapter-two.test.mjs
+        run: node --test scripts/dit-ict.test.mjs scripts/dit-ict-chapter-two.test.mjs scripts/dit-ict-chapter-three.test.mjs
 
       - name: Verify academic placement validation and migration replay
         if: github.event_name != 'repository_dispatch'
