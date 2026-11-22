@@ -1,0 +1,72 @@
+{
+  "status": "live-verified",
+  "checkedAt": "2026-11-22T11:22:36.400Z",
+  "revision": "309c8456663b7384822f7126da0ea1a8b63ff9f9",
+  "pages": [
+    {
+      "path": "/classes/dit-intermediate/",
+      "status": 200,
+      "bytes": 66014
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-computer-science/",
+      "status": 200,
+      "bytes": 81588
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/",
+      "status": 200,
+      "bytes": 63092
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/",
+      "status": 200,
+      "bytes": 50924
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-6-application-software/",
+      "status": 200,
+      "bytes": 254760
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/mcqs/?chapter=6",
+      "status": 200,
+      "bytes": 502990
+    }
+  ],
+  "pdfs": [
+    {
+      "path": "/documents/dit/ict/ict-chapter-1-introduction-to-computers.pdf",
+      "bytes": 63434,
+      "sha256": "78fc7a07dc4642f32aa9b1d91d6e750684305999a2359ee21e0a4fb8ec7269e6"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-2-system-unit-components.pdf",
+      "bytes": 67812,
+      "sha256": "e53acd29c6199986a7209752bcb5960347575dbb6ffd12cbc7ab64565b67d032"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-3-input-output-devices.pdf",
+      "bytes": 81143,
+      "sha256": "0d9296d2d1b440e3142547771401596fc8739b70182b08bfc588457600c5e7c4"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-4-digital-storage.pdf",
+      "bytes": 72967,
+      "sha256": "4b9f843a280d688cf499a21f56d04378bf7cf46939dc14261bf3bdb0abf838af"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-5-system-software.pdf",
+      "bytes": 76759,
+      "sha256": "6d83c5787e272429e7095a6896b461f4f3f70818d030c698107836f0ad68af82"
+    },
+    {
+      "path": "/documents/dit/ict/ict-chapter-6-application-software.pdf",
+      "bytes": 78526,
+      "sha256": "8c252ed9cb848ca41f33a6ec5d2d57e5dc44897f2d7d313197678b9bee6cac72"
+    }
+  ],
+  "chapterSixQuestions": 60,
+  "sitemap": true,
+  "diagram": true
+}

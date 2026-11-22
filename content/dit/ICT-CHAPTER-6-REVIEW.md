@@ -33,3 +33,11 @@ Production artifact and live verification evidence will be appended after succes
 Artifact run 45016420243 passed the full production build, chapter tests, catalog/export checks, browser checks and release security checks on source revision 309c8456663b7384822f7126da0ea1a8b63ff9f9. Cloudflare publication reuses this exact static export.
 
 Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45016420243
+
+## Live publication verification
+
+Cloudflare deployment run 45016878152 succeeded, including its final preview browser check. Custom-domain verification on 22 November 2026 confirmed six public routes return HTTP 200, the semester overview reports six available ICT modules, and the subject exposes 380 questions. All 60 Chapter 6 questions and accepted answers match the reviewed chapter/topic in public Quiz data. The guide appears in the sitemap. Pages have one h1, canonical metadata and no noindex directive. The diagram returns HTTP 200, and deployment metadata matches tested source revision 309c8456663b7384822f7126da0ea1a8b63ff9f9.
+
+The live 78,526-byte Chapter 6 PDF exactly matches the reviewed file. All five earlier PDFs also match their reviewed hashes. Evidence: ICT-CHAPTER-6-LIVE-VERIFICATION.json.
+
+Deployment run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45016878152
