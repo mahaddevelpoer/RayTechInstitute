@@ -1,9 +1,13 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "scope": "All CSV rows tracked; first time-sensitive article with an attributed third-party score feed.",
   "words": 2226,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "liveUrl": "https://raytechinstitute.com/blogs/pakistan-a-india-a-live-scorecard-rising-stars-2026/",
+  "artifactRun": 45020807495,
+  "deploymentRun": 45022878819,
+  "liveVerification": "LIVE-BATCH-1.json"
 }

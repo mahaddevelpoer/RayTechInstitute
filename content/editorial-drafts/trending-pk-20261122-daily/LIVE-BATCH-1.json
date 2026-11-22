@@ -1,0 +1,68 @@
+{
+  "article": {
+    "checkedAt": "2026-11-22T12:36:01.476Z",
+    "expectedRevision": "0f484ba39079e1577a21ec314d4632caed7d3305",
+    "deployment": {
+      "schema": 1,
+      "builtAt": "2026-11-22T12:13:11.599Z",
+      "revision": "0f484ba39079e1577a21ec314d4632caed7d3305",
+      "siteOrigin": "https://raytechinstitute.com",
+      "indexablePages": 728,
+      "sitemapSha256": "ff155c2f0ba0d7af7dc11f9b3f8ff64e8dfea36539f350de5513fc18f25cee46",
+      "learning": {
+        "courses": 2,
+        "languages": 5,
+        "topics": 24
+      },
+      "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45020807495"
+    },
+    "resolver": "system DNS",
+    "results": [
+      {
+        "name": "pakistan-a-india-a",
+        "batch": "20261122-daily",
+        "url": "https://raytechinstitute.com/blogs/pakistan-a-india-a-live-scorecard-rising-stars-2026/",
+        "status": 200,
+        "listing": true,
+        "sitemap": true,
+        "images": [
+          {
+            "url": "/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-cover.webp",
+            "status": 200,
+            "present": true,
+            "exactBytes": true,
+            "contentType": "image/webp"
+          },
+          {
+            "url": "/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-inline.webp",
+            "status": 200,
+            "present": true,
+            "exactBytes": true,
+            "contentType": "image/webp"
+          }
+        ],
+        "seo": {
+          "title": true,
+          "description": true,
+          "canonical": true,
+          "oneH1": true,
+          "articleSchema": true,
+          "indexable": true
+        },
+        "verified": true
+      }
+    ]
+  },
+  "scorecard": {
+    "checkedAt": "2026-11-22T12:38:44.489Z",
+    "pageStatus": 200,
+    "iframePresent": true,
+    "fallbackPresent": true,
+    "scopedFramePolicy": true,
+    "unrelatedPolicyPreserved": true,
+    "providerStatus": 200,
+    "fixturePresent": true,
+    "providerFrameAllowed": true,
+    "interaction": "Public-site browser reload passed with third-party body stubbed; mobile 360px had no horizontal overflow."
+  }
+}
