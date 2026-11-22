@@ -23,3 +23,9 @@ Both chapters share the existing ICT subject and retain independent chapter numb
 The source generator accepts a chapter number and leaves the existing Chapter 1 output files untouched when generating Chapter 2. The JSON loader used by release checks is retained. CI now explicitly runs both ICT chapter test files before building the fresh publication snapshot.
 
 Local verification includes TypeScript, original chapter tests, new chapter coverage/answer checks, isolation/preservation checks, PDF byte/hash matching, separate practice-answer checks and semester overview rendering. Every page of the PDF is rendered and visually inspected. Full production build and post-publication verification are recorded with the release receipt.
+
+## Verified release
+
+Production artifact run 45003001110 passed all build, catalog, export, browser and security checks on source revision 8c7c2d8354ba03d06350f55c25da65b5bb273863. The release reuses this exact static export for Cloudflare deployment. Source integrity checks normalize line endings so Windows and Linux validate the same teaching content; Chapter 1's public text, MCQs and PDF remain unchanged.
+
+Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45003001110
