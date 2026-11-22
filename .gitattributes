@@ -1,0 +1,2 @@
+# Preserve PDF byte offsets when checking out the authored DIT study guides.
+public/documents/dit/ict/*.pdf binary
