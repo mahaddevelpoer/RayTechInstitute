@@ -33,6 +33,8 @@ The local `src/data/staticOverrides.ts` was refreshed read-only from production 
 
 Mahad explicitly approved publishing this prepared batch on 22 November 2026. Publish the verified export from run 44999241610 through the existing Cloudflare deployment workflow, then verify the custom-domain revision, DIT overview, legacy book hub, ICT notes, MCQs, PDF hash and sitemap. No production database mutations are required for this source-authored batch.
 
+Publication completed successfully through https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/44999675077. Custom-domain verification on 22 November 2026 confirmed six pages return HTTP 200, canonical/indexable metadata, the expected course and chapter content, the exact reviewed PDF SHA-256, the source revision in deployment.json, and the new notes URL in sitemap.xml. See LIVE-VERIFICATION.json for the receipt.
+
 The editable Word draft is under `artifacts/dit-ict/word-draft/`, outside the public folder. Its native layout has not been verified because LibreOffice is unavailable on this Windows runtime. It is not included as a student download. The independently generated PDF has its own visual verification.
 
 Local production build limitation: the existing shared dependencies resolve Next.js across drives and its native SWC binary cannot load. An isolated locked dependency install was attempted but stopped with ENOSPC on C:. The task-created incomplete node_modules directory and failed local build cache were removed and the original shared junction restored; no existing source-project dependency directory was modified. The full production build was instead verified on GitHub as recorded above.

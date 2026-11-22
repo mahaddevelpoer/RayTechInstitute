@@ -1,0 +1,43 @@
+{
+  "status": "live-verified",
+  "checkedAt": "2026-11-22T07:48:45.024Z",
+  "revision": "accb23230a439ec3969f3de80f120fdf42bfae81",
+  "pages": [
+    {
+      "path": "/classes/dit-intermediate/",
+      "status": 200,
+      "bytes": 65611
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-computer-science/",
+      "status": 200,
+      "bytes": 81595
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/",
+      "status": 200,
+      "bytes": 50317
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/",
+      "status": 200,
+      "bytes": 41392
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/",
+      "status": 200,
+      "bytes": 218537
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/mcqs/",
+      "status": 200,
+      "bytes": 113783
+    }
+  ],
+  "pdf": {
+    "path": "/documents/dit/ict/ict-chapter-1-introduction-to-computers.pdf",
+    "bytes": 63434,
+    "sha256": "78fc7a07dc4642f32aa9b1d91d6e750684305999a2359ee21e0a4fb8ec7269e6"
+  },
+  "sitemap": true
+}
