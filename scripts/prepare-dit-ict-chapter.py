@@ -126,6 +126,8 @@ styles.add(ParagraphStyle(name='CorrectGuide',parent=styles['OptionGuide'],backC
 if chapter == 2:
     styles['CorrectGuide'].fontName='Helvetica-Bold'
     styles['BodyGuide'].allowWidows=0
+    styles['Heading1'].keepWithNext=1
+    styles['Heading2'].keepWithNext=1
 styles['Title'].textColor=navy
 styles['Heading1'].textColor=navy
 styles['Heading2'].textColor=navy
