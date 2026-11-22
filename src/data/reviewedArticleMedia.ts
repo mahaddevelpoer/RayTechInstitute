@@ -1,5 +1,6 @@
 export interface ReviewedArticleCover { alt: string; caption: string; width: number; height: number; }
 export const REVIEWED_ARTICLE_COVERS: Record<string, ReviewedArticleCover> = {
+  "/images/editorial/trending-pk-20261122-daily/uae-vs-nepal-cover.webp": {"alt": "Mulpani cricket ground in Nepal", "caption": "Mulpani cricket ground, Nepal. Illustrative photograph; this match was played in Doha, Qatar.", "width": 1277, "height": 960},
   "/images/editorial/trending-pk-20261122-daily/real-madrid-vs-celta-cover.webp": {"alt": "Interior of the Santiago Bernabeu stadium", "caption": "Illustrative Bernabeu stadium photograph; not the 21 November 2026 Madrid\u2013Celta match.", "width": 1280, "height": 775},
   "/images/editorial/trending-pk-20261122-daily/scotland-vs-pakistan-cover.webp": {"alt": "Practice area at Harrogate; illustrative cricket photograph", "caption": "Practice area at Harrogate Cricket Ground. Illustrative photograph, not the 22 November Pakistan-Scotland match in Ajman.", "width": 640, "height": 427},
   "/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-cover.webp": {"alt": "Harrogate Cricket Ground", "caption": "Harrogate Cricket Ground. Illustrative cricket photograph; not an image of the 22 November 2026 Doha match.", "width": 1024, "height": 683},

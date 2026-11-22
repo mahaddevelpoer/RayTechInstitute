@@ -31,8 +31,12 @@
         "uae vs nepal"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Mulpani cricket ground",
+        "Nepal cricket training"
+      ],
+      "slug": "uae-nepal-six-wicket-win-overs-bowling-guide-2026"
     },
     {
       "key": "real-madrid-vs-celta",
@@ -47,7 +51,7 @@
         "real madrid match"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Santiago Bernabeu stadium interior",
         "football pitch goal Spain"
@@ -63,7 +67,7 @@
         "scotland vs pakistan"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "cricket ground Edinburgh",
         "cricket bat ball wicket"
@@ -953,14 +957,14 @@
       "trend": "real madrid vs celta",
       "searchVolume": "20k+",
       "key": "real-madrid-vs-celta",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 4,
       "trend": "scotland vs pakistan",
       "searchVolume": "10k+",
       "key": "scotland-vs-pakistan",
-      "state": "database-saved-awaiting-hosting"
+      "state": "live-verified"
     },
     {
       "row": 5,
@@ -981,7 +985,7 @@
       "trend": "real madrid vs rc celta de vigo standings",
       "searchVolume": "5k+",
       "key": "real-madrid-vs-celta",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 8,
@@ -1163,7 +1167,7 @@
       "trend": "real madrid match",
       "searchVolume": "500+",
       "key": "real-madrid-vs-celta",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 34,
@@ -1519,7 +1523,9 @@
       "explicitUserAuthorization": true,
       "authorization": "User requested all articles and prioritised the Pak vs Ind live scorecard.",
       "validationFile": "validation-batch-1.json",
-      "state": "live-verified"
+      "state": "live-verified",
+      "deploymentRun": 45026548162,
+      "artifactRun": 45025953031
     },
     {
       "number": 2,
@@ -1530,7 +1536,9 @@
       "explicitUserAuthorization": true,
       "authorization": "User requested all CSV topics published.",
       "validationFile": "validation-batch-2.json",
-      "state": "local-review"
+      "state": "live-verified",
+      "deploymentRun": 45026548162,
+      "artifactRun": 45025953031
     },
     {
       "number": 3,
@@ -1541,6 +1549,19 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV topics authorised; rows 3, 7 and 33 share this result and standings guide.",
       "validationFile": "validation-batch-3.json",
+      "state": "live-verified",
+      "deploymentRun": 45026548162,
+      "artifactRun": 45025953031
+    },
+    {
+      "number": 4,
+      "keys": [
+        "uae-vs-nepal"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV topics authorised; UAE–Nepal row 2.",
+      "validationFile": "validation-batch-4.json",
       "state": "local-review"
     }
   ],

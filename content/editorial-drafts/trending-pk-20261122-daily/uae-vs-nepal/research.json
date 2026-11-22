@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-11-22",
+  "sources": [
+    "https://www.emiratescricket.com/news-detail/A4o5pmWZdPYleKgRlQ6v",
+    "https://www.icc-cricket.com/matches/275870/united-arab-emirates-vs-nepal",
+    "https://kathmandupost.com/cricket/2026/11/22/nepal-bounce-back-with-six-wicket-win-over-uae",
+    "https://www.cricketworld.com/cricket/united-arab-emirates-vs-nepal/match/scorecard/100459"
+  ],
+  "verification": "Detailed Cricket World scorecard and Kathmandu Post agree on UAE 121, 39.5 overs; Nepal 123/4 in 22 overs; Nepal by six wickets.",
+  "sourceLimits": [
+    "One other news extract said 122 for UAE; it is not adopted against the detailed scorecard and independent report.",
+    "ECB announcement contains contradictory final dates; no final-date claim is used.",
+    "ICC indexed fixture is used for identity, not its stale countdown."
+  ],
+  "calculated": {
+    "uaeBalls": 239,
+    "nepalBalls": 132,
+    "unusedUaeBalls": 61,
+    "unusedChaseBalls": 168,
+    "uaeRate": 3.0376569037656904,
+    "nepalRate": 5.590909090909091,
+    "initialRequired": 2.44
+  },
+  "fictional": "Ten-over 3/11 bowling example is expressly hypothetical, not an attribution to a current named player."
+}
