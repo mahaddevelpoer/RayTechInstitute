@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-11-22T13:36:17.667Z",
+  "approach": "Reuse substantively relevant educational coverage; preserve original dates and URLs; no duplicate articles or new-match claims.",
+  "results": [
+    {
+      "key": "tapmad",
+      "slug": "tapmad-live-packages-renewal-cancellation-guide-pakistan",
+      "title": "Tapmad Live: Packages, Renewal and Cancellation Checks",
+      "originalPublicationDate": "2026-11-01",
+      "scope": "Dated service-reading guide; does not promise current rights to every match or successful playback.",
+      "primarySource": "https://www.tapmad.com/legal-center/terms",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/tapmad-live-packages-renewal-cancellation-guide-pakistan/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    },
+    {
+      "key": "womens-emerging-nations-trophy",
+      "slug": "womens-emerging-nations-trophy-2026-groups-pakistan",
+      "title": "Women's Emerging Nations Trophy 2026: Teams, Groups and Pakistan Guide",
+      "originalPublicationDate": "2026-11-11",
+      "scope": "2026 tournament format and teams guide; completed current fixtures are checked separately.",
+      "primarySource": "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/all-you-need-to-know-about-women-s-emerging-nations-trophy",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/womens-emerging-nations-trophy-2026-groups-pakistan/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    },
+    {
+      "key": "tom-latham",
+      "slug": "tom-latham-batting-spin-wicketkeeping-guide",
+      "title": "Tom Latham: Left-Handed Batting, Spin and Wicketkeeping Roles",
+      "originalPublicationDate": "2026-11-04",
+      "scope": "Evergreen batting, format and wicketkeeping explanation; no new-match result asserted.",
+      "primarySource": "https://www.canterburycricket.org.nz/teams/canterbury-kings/tom-latham/",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/tom-latham-batting-spin-wicketkeeping-guide/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    },
+    {
+      "key": "air-pollution",
+      "slug": "air-pollution-pm25-aqi-student-guide",
+      "title": "Air Pollution: PM2.5, AQI and Everyday Decisions",
+      "originalPublicationDate": "2026-10-30",
+      "scope": "Educational PM2.5/AQI definitions and source-reading guide; no invented current city reading.",
+      "primarySource": "https://www.who.int/tools/compendium-on-health-and-environment/air-pollution-and-health",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/air-pollution-pm25-aqi-student-guide/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    },
+    {
+      "key": "anshul-kamboj",
+      "slug": "anshul-kamboj-ten-wickets-ranji-record-guide",
+      "title": "Anshul Kamboj: The 10/49 Ranji Innings and Bowling Records Explained",
+      "originalPublicationDate": "2026-11-04",
+      "scope": "Historic 2024 ten-wicket record and bowling-statistic guide; not claimed as a new performance.",
+      "primarySource": "https://images.icc-cricket.com/image/upload/prd/emvbvxl1caegcq6fnunn.pdf",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/anshul-kamboj-ten-wickets-ranji-record-guide/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    },
+    {
+      "key": "women-s-big-bash-league",
+      "slug": "wbbl-2026-27-dates-teams-fixtures-season-guide",
+      "title": "WBBL 2026–27: Dates, Teams and Following the Season from Pakistan",
+      "originalPublicationDate": "2026-11-12",
+      "scope": "WBBL12 season and fixture-reading guide; official schedule reconfirms dates and 43 games.",
+      "primarySource": "https://www.cricket.com.au/news/4529622/wbbl12-schedule-fixture-announced-womens-big-bash-2026-where-are-scorchers-strikers-sixers-heat-renegades-stars-hurricanes-thunder-playing",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/wbbl-2026-27-dates-teams-fixtures-season-guide/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    },
+    {
+      "key": "carlos-alcaraz",
+      "slug": "carlos-alcaraz-tennis-tactics-study-guide",
+      "title": "Carlos Alcaraz: Attack, Defence and Tennis Decisions",
+      "originalPublicationDate": "2026-10-30",
+      "scope": "Evergreen point-analysis guide; no stale ranking or newly invented result.",
+      "primarySource": "https://www.atptour.com/en/news/forehand-drop-shot-success-alcaraz-2023",
+      "checkedOn": "2026-11-22",
+      "url": "https://raytechinstitute.com/blogs/carlos-alcaraz-tennis-tactics-study-guide/",
+      "checks": {
+        "http": true,
+        "canonical": true,
+        "oneH1": true,
+        "indexable": true,
+        "twoCreditedImages": true,
+        "sourcesSection": true
+      },
+      "verified": true
+    }
+  ]
+}
