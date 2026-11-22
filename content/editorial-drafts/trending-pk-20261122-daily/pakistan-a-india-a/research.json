@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-11-22",
+  "facts": [
+    "PCB identifies the 50-over tournament, Qatar, and India A fixture on 22 November.",
+    "PCB tournament listing identifies Group B and West End Park venue."
+  ],
+  "sourceLimitations": [
+    "Some official pages restrict automated full-text retrieval; indexed official extracts identify the fixture.",
+    "The provider owns the live feed; no transient score is hardcoded or represented as official."
+  ],
+  "widget": {
+    "provider": "IPL.com",
+    "documentation": "https://www.ipl.com/widget/",
+    "embed": "https://www.ipl.com/widget/matchlist",
+    "terms": "Public documentation permits embedding without an account or API key. Attribution is preserved.",
+    "checkedHttp": 200,
+    "targetMatchPresent": true
+  },
+  "calculations": {
+    "validBalls12_3": 75,
+    "runRate90In75Balls": 7.2,
+    "required61From48Balls": 7.625,
+    "strikeRate36From30": 120
+  }
+}

@@ -1,0 +1,1522 @@
+{
+  "sourceFile": "C:\\Users\\HP\\Downloads\\trending_PK_1d_20261122-1640.csv",
+  "sourceSha256": "f244d4ca636ca2a56195ba6b3ae5dc27139f333b0122857b08b267d1f70a2340",
+  "inputRows": 82,
+  "publicationAuthorized": true,
+  "authorization": "Mahad explicitly instructed that all trends be published and requested a live scorecard feature for Pakistan A vs India A; ICT Chapter 7 continues as part of the same task.",
+  "scope": "Cover all 82 input rows. Same-match aliases share one substantive article. Research must substantiate every claim; unknown current facts remain unasserted.",
+  "groups": [
+    {
+      "key": "pakistan-a-india-a",
+      "rows": [
+        1
+      ],
+      "queriesCovered": [
+        "pakistan a vs india a"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": [
+        "cricket ground Harrogate",
+        "cricket scoreboard ground"
+      ],
+      "slug": "pakistan-a-india-a-live-scorecard-rising-stars-2026"
+    },
+    {
+      "key": "uae-vs-nepal",
+      "rows": [
+        2
+      ],
+      "queriesCovered": [
+        "uae vs nepal"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "real-madrid-vs-celta",
+      "rows": [
+        3,
+        7,
+        33
+      ],
+      "queriesCovered": [
+        "real madrid vs celta",
+        "real madrid vs rc celta de vigo standings",
+        "real madrid match"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "scotland-vs-pakistan",
+      "rows": [
+        4
+      ],
+      "queriesCovered": [
+        "scotland vs pakistan"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "mi-emirates-vs-desert-vipers",
+      "rows": [
+        5,
+        26
+      ],
+      "queriesCovered": [
+        "mi emirates vs desert vipers",
+        "dv vs mie"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "zimbabwe-vs-ireland",
+      "rows": [
+        6
+      ],
+      "queriesCovered": [
+        "zimbabwe vs ireland"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "sports",
+      "rows": [
+        8
+      ],
+      "queriesCovered": [
+        "sports"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "preventive-detention",
+      "rows": [
+        9
+      ],
+      "queriesCovered": [
+        "preventive detention"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "india-national-cricket-team",
+      "rows": [
+        10
+      ],
+      "queriesCovered": [
+        "india national cricket team"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "inter-miami-vs-columbus",
+      "rows": [
+        11
+      ],
+      "queriesCovered": [
+        "inter miami vs columbus"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "pakistan-national-cricket-team",
+      "rows": [
+        12
+      ],
+      "queriesCovered": [
+        "pakistan national cricket team"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "gulf-giants-vs-sharjah-warriors",
+      "rows": [
+        13
+      ],
+      "queriesCovered": [
+        "gulf giants vs sharjah warriors"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "tapmad",
+      "rows": [
+        14
+      ],
+      "queriesCovered": [
+        "tapmad"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "juventus-vs-venezia",
+      "rows": [
+        15
+      ],
+      "queriesCovered": [
+        "juventus vs venezia"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "today-cricket-match",
+      "rows": [
+        16,
+        19
+      ],
+      "queriesCovered": [
+        "today cricket match",
+        "today match"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "lewis-pugh",
+      "rows": [
+        17
+      ],
+      "queriesCovered": [
+        "lewis pugh"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "honor",
+      "rows": [
+        18
+      ],
+      "queriesCovered": [
+        "honor"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "womens-emerging-nations-trophy",
+      "rows": [
+        20
+      ],
+      "queriesCovered": [
+        "womens emerging nations trophy"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "nikhil-chaudhary-cricketer",
+      "rows": [
+        21
+      ],
+      "queriesCovered": [
+        "nikhil chaudhary cricketer"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "aaj-shanibar",
+      "rows": [
+        22
+      ],
+      "queriesCovered": [
+        "aaj shanibar"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "newcastle-united-f-c-vs-arsenal-f-c-standings",
+      "rows": [
+        23
+      ],
+      "queriesCovered": [
+        "newcastle united f.c. vs arsenal f.c. standings"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "eva-yi-xie-princeton",
+      "rows": [
+        24
+      ],
+      "queriesCovered": [
+        "eva yi xie princeton"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "international-cricket-council",
+      "rows": [
+        25
+      ],
+      "queriesCovered": [
+        "international cricket council"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "5th-circuit-proxy-voting-ruling",
+      "rows": [
+        27
+      ],
+      "queriesCovered": [
+        "5th circuit proxy voting ruling"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "kieron-pollard",
+      "rows": [
+        28
+      ],
+      "queriesCovered": [
+        "kieron pollard"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "truck-loads-and-transport",
+      "rows": [
+        29
+      ],
+      "queriesCovered": [
+        "ٹرک"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "dhruv-jurel",
+      "rows": [
+        30
+      ],
+      "queriesCovered": [
+        "dhruv jurel"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "ogc-nice-vs-psg-standings",
+      "rows": [
+        31,
+        32
+      ],
+      "queriesCovered": [
+        "ogc nice vs psg standings",
+        "nice vs psg"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "tom-latham",
+      "rows": [
+        34
+      ],
+      "queriesCovered": [
+        "tom latham"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "man-city-vs-fulham-f-c-standings",
+      "rows": [
+        35
+      ],
+      "queriesCovered": [
+        "man city vs fulham f.c. standings"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "pcb-central-contract",
+      "rows": [
+        36
+      ],
+      "queriesCovered": [
+        "pcb central contract"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "malaysia",
+      "rows": [
+        37
+      ],
+      "queriesCovered": [
+        "malaysia"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "catherine-princess-of-wales",
+      "rows": [
+        38
+      ],
+      "queriesCovered": [
+        "catherine, princess of wales"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "air-pollution",
+      "rows": [
+        39
+      ],
+      "queriesCovered": [
+        "air pollution"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "chelsea-f-c-vs-leeds-united-f-c-standings",
+      "rows": [
+        40,
+        43
+      ],
+      "queriesCovered": [
+        "chelsea f.c. vs leeds united f.c. standings",
+        "chelsea vs leeds"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "rachin-ravindra",
+      "rows": [
+        41
+      ],
+      "queriesCovered": [
+        "rachin ravindra"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "dar-e-nijaat-episode-33",
+      "rows": [
+        42
+      ],
+      "queriesCovered": [
+        "dar e nijaat episode 33"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "parma-vs-roma",
+      "rows": [
+        44
+      ],
+      "queriesCovered": [
+        "parma vs roma"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "afg-a-vs-ban-a",
+      "rows": [
+        45,
+        55
+      ],
+      "queriesCovered": [
+        "afg a vs ban a",
+        "af-a vs bn-a"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "shimron-hetmyer",
+      "rows": [
+        46
+      ],
+      "queriesCovered": [
+        "shimron hetmyer"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "rising-stars-asia-cup-schedule",
+      "rows": [
+        47
+      ],
+      "queriesCovered": [
+        "rising stars asia cup schedule"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "musadik-malik-new-delhi-sco-forum",
+      "rows": [
+        48
+      ],
+      "queriesCovered": [
+        "musadik malik new delhi sco forum"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "anirudh-ravichander",
+      "rows": [
+        49
+      ],
+      "queriesCovered": [
+        "anirudh ravichander"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "ishaq-dar",
+      "rows": [
+        50
+      ],
+      "queriesCovered": [
+        "ishaq dar"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "khyber-pakhtunkhwa",
+      "rows": [
+        51
+      ],
+      "queriesCovered": [
+        "خیبر پختونخوا"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "what-is-a-province",
+      "rows": [
+        52
+      ],
+      "queriesCovered": [
+        "province"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "nitto-atp-finals",
+      "rows": [
+        53
+      ],
+      "queriesCovered": [
+        "nitto atp finals"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "gta-v",
+      "rows": [
+        54
+      ],
+      "queriesCovered": [
+        "gta v"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "ashton-kutcher",
+      "rows": [
+        56
+      ],
+      "queriesCovered": [
+        "ashton kutcher"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "sevilla-vs-betis",
+      "rows": [
+        57
+      ],
+      "queriesCovered": [
+        "sevilla vs betis"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "gta-vice-city",
+      "rows": [
+        58
+      ],
+      "queriesCovered": [
+        "gta vice city"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "anshul-kamboj",
+      "rows": [
+        59
+      ],
+      "queriesCovered": [
+        "anshul kamboj"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "aston-villa-vs-sunderland",
+      "rows": [
+        60
+      ],
+      "queriesCovered": [
+        "aston villa vs sunderland"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "netherlands-women-sri-lanka-women",
+      "rows": [
+        61
+      ],
+      "queriesCovered": [
+        "netherlands women's national cricket team vs sri lanka women's national cricket team match scorecard"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "como-vs-cagliari",
+      "rows": [
+        62
+      ],
+      "queriesCovered": [
+        "como vs cagliari"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "the-riemann-hypothesis",
+      "rows": [
+        63
+      ],
+      "queriesCovered": [
+        "the riemann hypothesis"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "akash-deep",
+      "rows": [
+        64
+      ],
+      "queriesCovered": [
+        "akash deep"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "ligue-1",
+      "rows": [
+        65
+      ],
+      "queriesCovered": [
+        "ligue 1"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "women-s-big-bash-league",
+      "rows": [
+        66
+      ],
+      "queriesCovered": [
+        "women's big bash league"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "la-liga",
+      "rows": [
+        67
+      ],
+      "queriesCovered": [
+        "la liga"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "jamal-musiala",
+      "rows": [
+        68
+      ],
+      "queriesCovered": [
+        "jamal musiala"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "pakistan-blind-cricket",
+      "rows": [
+        69
+      ],
+      "queriesCovered": [
+        "pakistan blind cricket"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "spurs-vs-ipswich-town",
+      "rows": [
+        70
+      ],
+      "queriesCovered": [
+        "spurs vs ipswich town"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "download",
+      "rows": [
+        71
+      ],
+      "queriesCovered": [
+        "download"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "carlos-alcaraz",
+      "rows": [
+        72
+      ],
+      "queriesCovered": [
+        "carlos alcaraz"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "m-nchengladbach-vs-dortmund",
+      "rows": [
+        73
+      ],
+      "queriesCovered": [
+        "mönchengladbach vs dortmund"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "rayo-vs-valencia",
+      "rows": [
+        74
+      ],
+      "queriesCovered": [
+        "rayo vs valencia"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "wedding",
+      "rows": [
+        75
+      ],
+      "queriesCovered": [
+        "wedding"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "bournemouth-vs-nottm-forest",
+      "rows": [
+        76
+      ],
+      "queriesCovered": [
+        "bournemouth vs nottm forest"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "coventry-vs-palace",
+      "rows": [
+        77
+      ],
+      "queriesCovered": [
+        "coventry vs palace"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "the-body-netflix",
+      "rows": [
+        78
+      ],
+      "queriesCovered": [
+        "the body netflix"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "roadies-rebirth",
+      "rows": [
+        79
+      ],
+      "queriesCovered": [
+        "roadies rebirth"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "england-vs-new-zealand",
+      "rows": [
+        80
+      ],
+      "queriesCovered": [
+        "england vs new zealand"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "fossil-fuel",
+      "rows": [
+        81
+      ],
+      "queriesCovered": [
+        "fossil fuel"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    },
+    {
+      "key": "salman-khan",
+      "rows": [
+        82
+      ],
+      "queriesCovered": [
+        "salman khan"
+      ],
+      "category": "sports",
+      "state": "research-pending",
+      "queries": []
+    }
+  ],
+  "rowDisposition": [
+    {
+      "row": 1,
+      "trend": "pakistan a vs india a",
+      "searchVolume": "100k+",
+      "key": "pakistan-a-india-a",
+      "state": "research-pending"
+    },
+    {
+      "row": 2,
+      "trend": "uae vs nepal",
+      "searchVolume": "10k+",
+      "key": "uae-vs-nepal",
+      "state": "research-pending"
+    },
+    {
+      "row": 3,
+      "trend": "real madrid vs celta",
+      "searchVolume": "20k+",
+      "key": "real-madrid-vs-celta",
+      "state": "research-pending"
+    },
+    {
+      "row": 4,
+      "trend": "scotland vs pakistan",
+      "searchVolume": "10k+",
+      "key": "scotland-vs-pakistan",
+      "state": "research-pending"
+    },
+    {
+      "row": 5,
+      "trend": "mi emirates vs desert vipers",
+      "searchVolume": "20k+",
+      "key": "mi-emirates-vs-desert-vipers",
+      "state": "research-pending"
+    },
+    {
+      "row": 6,
+      "trend": "zimbabwe vs ireland",
+      "searchVolume": "2k+",
+      "key": "zimbabwe-vs-ireland",
+      "state": "research-pending"
+    },
+    {
+      "row": 7,
+      "trend": "real madrid vs rc celta de vigo standings",
+      "searchVolume": "5k+",
+      "key": "real-madrid-vs-celta",
+      "state": "research-pending"
+    },
+    {
+      "row": 8,
+      "trend": "sports",
+      "searchVolume": "2k+",
+      "key": "sports",
+      "state": "research-pending"
+    },
+    {
+      "row": 9,
+      "trend": "preventive detention",
+      "searchVolume": "5k+",
+      "key": "preventive-detention",
+      "state": "research-pending"
+    },
+    {
+      "row": 10,
+      "trend": "india national cricket team",
+      "searchVolume": "2k+",
+      "key": "india-national-cricket-team",
+      "state": "research-pending"
+    },
+    {
+      "row": 11,
+      "trend": "inter miami vs columbus",
+      "searchVolume": "5k+",
+      "key": "inter-miami-vs-columbus",
+      "state": "research-pending"
+    },
+    {
+      "row": 12,
+      "trend": "pakistan national cricket team",
+      "searchVolume": "2k+",
+      "key": "pakistan-national-cricket-team",
+      "state": "research-pending"
+    },
+    {
+      "row": 13,
+      "trend": "gulf giants vs sharjah warriors",
+      "searchVolume": "1k+",
+      "key": "gulf-giants-vs-sharjah-warriors",
+      "state": "research-pending"
+    },
+    {
+      "row": 14,
+      "trend": "tapmad",
+      "searchVolume": "2k+",
+      "key": "tapmad",
+      "state": "research-pending"
+    },
+    {
+      "row": 15,
+      "trend": "juventus vs venezia",
+      "searchVolume": "200+",
+      "key": "juventus-vs-venezia",
+      "state": "research-pending"
+    },
+    {
+      "row": 16,
+      "trend": "today cricket match",
+      "searchVolume": "200+",
+      "key": "today-cricket-match",
+      "state": "research-pending"
+    },
+    {
+      "row": 17,
+      "trend": "lewis pugh",
+      "searchVolume": "200+",
+      "key": "lewis-pugh",
+      "state": "research-pending"
+    },
+    {
+      "row": 18,
+      "trend": "honor",
+      "searchVolume": "1k+",
+      "key": "honor",
+      "state": "research-pending"
+    },
+    {
+      "row": 19,
+      "trend": "today match",
+      "searchVolume": "200+",
+      "key": "today-cricket-match",
+      "state": "research-pending"
+    },
+    {
+      "row": 20,
+      "trend": "womens emerging nations trophy",
+      "searchVolume": "5k+",
+      "key": "womens-emerging-nations-trophy",
+      "state": "research-pending"
+    },
+    {
+      "row": 21,
+      "trend": "nikhil chaudhary cricketer",
+      "searchVolume": "200+",
+      "key": "nikhil-chaudhary-cricketer",
+      "state": "research-pending"
+    },
+    {
+      "row": 22,
+      "trend": "aaj shanibar",
+      "searchVolume": "100+",
+      "key": "aaj-shanibar",
+      "state": "research-pending"
+    },
+    {
+      "row": 23,
+      "trend": "newcastle united f.c. vs arsenal f.c. standings",
+      "searchVolume": "5k+",
+      "key": "newcastle-united-f-c-vs-arsenal-f-c-standings",
+      "state": "research-pending"
+    },
+    {
+      "row": 24,
+      "trend": "eva yi xie princeton",
+      "searchVolume": "100+",
+      "key": "eva-yi-xie-princeton",
+      "state": "research-pending"
+    },
+    {
+      "row": 25,
+      "trend": "international cricket council",
+      "searchVolume": "1k+",
+      "key": "international-cricket-council",
+      "state": "research-pending"
+    },
+    {
+      "row": 26,
+      "trend": "dv vs mie",
+      "searchVolume": "5k+",
+      "key": "mi-emirates-vs-desert-vipers",
+      "state": "research-pending"
+    },
+    {
+      "row": 27,
+      "trend": "5th circuit proxy voting ruling",
+      "searchVolume": "1k+",
+      "key": "5th-circuit-proxy-voting-ruling",
+      "state": "research-pending"
+    },
+    {
+      "row": 28,
+      "trend": "kieron pollard",
+      "searchVolume": "2k+",
+      "key": "kieron-pollard",
+      "state": "research-pending"
+    },
+    {
+      "row": 29,
+      "trend": "ٹرک",
+      "searchVolume": "1k+",
+      "key": "truck-loads-and-transport",
+      "state": "research-pending"
+    },
+    {
+      "row": 30,
+      "trend": "dhruv jurel",
+      "searchVolume": "2k+",
+      "key": "dhruv-jurel",
+      "state": "research-pending"
+    },
+    {
+      "row": 31,
+      "trend": "ogc nice vs psg standings",
+      "searchVolume": "2k+",
+      "key": "ogc-nice-vs-psg-standings",
+      "state": "research-pending"
+    },
+    {
+      "row": 32,
+      "trend": "nice vs psg",
+      "searchVolume": "5k+",
+      "key": "ogc-nice-vs-psg-standings",
+      "state": "research-pending"
+    },
+    {
+      "row": 33,
+      "trend": "real madrid match",
+      "searchVolume": "500+",
+      "key": "real-madrid-vs-celta",
+      "state": "research-pending"
+    },
+    {
+      "row": 34,
+      "trend": "tom latham",
+      "searchVolume": "1k+",
+      "key": "tom-latham",
+      "state": "research-pending"
+    },
+    {
+      "row": 35,
+      "trend": "man city vs fulham f.c. standings",
+      "searchVolume": "2k+",
+      "key": "man-city-vs-fulham-f-c-standings",
+      "state": "research-pending"
+    },
+    {
+      "row": 36,
+      "trend": "pcb central contract",
+      "searchVolume": "2k+",
+      "key": "pcb-central-contract",
+      "state": "research-pending"
+    },
+    {
+      "row": 37,
+      "trend": "malaysia",
+      "searchVolume": "200+",
+      "key": "malaysia",
+      "state": "research-pending"
+    },
+    {
+      "row": 38,
+      "trend": "catherine, princess of wales",
+      "searchVolume": "1k+",
+      "key": "catherine-princess-of-wales",
+      "state": "research-pending"
+    },
+    {
+      "row": 39,
+      "trend": "air pollution",
+      "searchVolume": "100+",
+      "key": "air-pollution",
+      "state": "research-pending"
+    },
+    {
+      "row": 40,
+      "trend": "chelsea f.c. vs leeds united f.c. standings",
+      "searchVolume": "1k+",
+      "key": "chelsea-f-c-vs-leeds-united-f-c-standings",
+      "state": "research-pending"
+    },
+    {
+      "row": 41,
+      "trend": "rachin ravindra",
+      "searchVolume": "500+",
+      "key": "rachin-ravindra",
+      "state": "research-pending"
+    },
+    {
+      "row": 42,
+      "trend": "dar e nijaat episode 33",
+      "searchVolume": "500+",
+      "key": "dar-e-nijaat-episode-33",
+      "state": "research-pending"
+    },
+    {
+      "row": 43,
+      "trend": "chelsea vs leeds",
+      "searchVolume": "2k+",
+      "key": "chelsea-f-c-vs-leeds-united-f-c-standings",
+      "state": "research-pending"
+    },
+    {
+      "row": 44,
+      "trend": "parma vs roma",
+      "searchVolume": "1k+",
+      "key": "parma-vs-roma",
+      "state": "research-pending"
+    },
+    {
+      "row": 45,
+      "trend": "afg a vs ban a",
+      "searchVolume": "2k+",
+      "key": "afg-a-vs-ban-a",
+      "state": "research-pending"
+    },
+    {
+      "row": 46,
+      "trend": "shimron hetmyer",
+      "searchVolume": "1k+",
+      "key": "shimron-hetmyer",
+      "state": "research-pending"
+    },
+    {
+      "row": 47,
+      "trend": "rising stars asia cup schedule",
+      "searchVolume": "500+",
+      "key": "rising-stars-asia-cup-schedule",
+      "state": "research-pending"
+    },
+    {
+      "row": 48,
+      "trend": "musadik malik new delhi sco forum",
+      "searchVolume": "200+",
+      "key": "musadik-malik-new-delhi-sco-forum",
+      "state": "research-pending"
+    },
+    {
+      "row": 49,
+      "trend": "anirudh ravichander",
+      "searchVolume": "100+",
+      "key": "anirudh-ravichander",
+      "state": "research-pending"
+    },
+    {
+      "row": 50,
+      "trend": "ishaq dar",
+      "searchVolume": "100+",
+      "key": "ishaq-dar",
+      "state": "research-pending"
+    },
+    {
+      "row": 51,
+      "trend": "خیبر پختونخوا",
+      "searchVolume": "200+",
+      "key": "khyber-pakhtunkhwa",
+      "state": "research-pending"
+    },
+    {
+      "row": 52,
+      "trend": "province",
+      "searchVolume": "200+",
+      "key": "what-is-a-province",
+      "state": "research-pending"
+    },
+    {
+      "row": 53,
+      "trend": "nitto atp finals",
+      "searchVolume": "100+",
+      "key": "nitto-atp-finals",
+      "state": "research-pending"
+    },
+    {
+      "row": 54,
+      "trend": "gta v",
+      "searchVolume": "200+",
+      "key": "gta-v",
+      "state": "research-pending"
+    },
+    {
+      "row": 55,
+      "trend": "af-a vs bn-a",
+      "searchVolume": "500+",
+      "key": "afg-a-vs-ban-a",
+      "state": "research-pending"
+    },
+    {
+      "row": 56,
+      "trend": "ashton kutcher",
+      "searchVolume": "200+",
+      "key": "ashton-kutcher",
+      "state": "research-pending"
+    },
+    {
+      "row": 57,
+      "trend": "sevilla vs betis",
+      "searchVolume": "500+",
+      "key": "sevilla-vs-betis",
+      "state": "research-pending"
+    },
+    {
+      "row": 58,
+      "trend": "gta vice city",
+      "searchVolume": "500+",
+      "key": "gta-vice-city",
+      "state": "research-pending"
+    },
+    {
+      "row": 59,
+      "trend": "anshul kamboj",
+      "searchVolume": "500+",
+      "key": "anshul-kamboj",
+      "state": "research-pending"
+    },
+    {
+      "row": 60,
+      "trend": "aston villa vs sunderland",
+      "searchVolume": "1k+",
+      "key": "aston-villa-vs-sunderland",
+      "state": "research-pending"
+    },
+    {
+      "row": 61,
+      "trend": "netherlands women's national cricket team vs sri lanka women's national cricket team match scorecard",
+      "searchVolume": "200+",
+      "key": "netherlands-women-sri-lanka-women",
+      "state": "research-pending"
+    },
+    {
+      "row": 62,
+      "trend": "como vs cagliari",
+      "searchVolume": "500+",
+      "key": "como-vs-cagliari",
+      "state": "research-pending"
+    },
+    {
+      "row": 63,
+      "trend": "the riemann hypothesis",
+      "searchVolume": "100+",
+      "key": "the-riemann-hypothesis",
+      "state": "research-pending"
+    },
+    {
+      "row": 64,
+      "trend": "akash deep",
+      "searchVolume": "200+",
+      "key": "akash-deep",
+      "state": "research-pending"
+    },
+    {
+      "row": 65,
+      "trend": "ligue 1",
+      "searchVolume": "200+",
+      "key": "ligue-1",
+      "state": "research-pending"
+    },
+    {
+      "row": 66,
+      "trend": "women's big bash league",
+      "searchVolume": "100+",
+      "key": "women-s-big-bash-league",
+      "state": "research-pending"
+    },
+    {
+      "row": 67,
+      "trend": "la liga",
+      "searchVolume": "1k+",
+      "key": "la-liga",
+      "state": "research-pending"
+    },
+    {
+      "row": 68,
+      "trend": "jamal musiala",
+      "searchVolume": "200+",
+      "key": "jamal-musiala",
+      "state": "research-pending"
+    },
+    {
+      "row": 69,
+      "trend": "pakistan blind cricket",
+      "searchVolume": "200+",
+      "key": "pakistan-blind-cricket",
+      "state": "research-pending"
+    },
+    {
+      "row": 70,
+      "trend": "spurs vs ipswich town",
+      "searchVolume": "500+",
+      "key": "spurs-vs-ipswich-town",
+      "state": "research-pending"
+    },
+    {
+      "row": 71,
+      "trend": "download",
+      "searchVolume": "1k+",
+      "key": "download",
+      "state": "research-pending"
+    },
+    {
+      "row": 72,
+      "trend": "carlos alcaraz",
+      "searchVolume": "500+",
+      "key": "carlos-alcaraz",
+      "state": "research-pending"
+    },
+    {
+      "row": 73,
+      "trend": "mönchengladbach vs dortmund",
+      "searchVolume": "200+",
+      "key": "m-nchengladbach-vs-dortmund",
+      "state": "research-pending"
+    },
+    {
+      "row": 74,
+      "trend": "rayo vs valencia",
+      "searchVolume": "200+",
+      "key": "rayo-vs-valencia",
+      "state": "research-pending"
+    },
+    {
+      "row": 75,
+      "trend": "wedding",
+      "searchVolume": "500+",
+      "key": "wedding",
+      "state": "research-pending"
+    },
+    {
+      "row": 76,
+      "trend": "bournemouth vs nottm forest",
+      "searchVolume": "200+",
+      "key": "bournemouth-vs-nottm-forest",
+      "state": "research-pending"
+    },
+    {
+      "row": 77,
+      "trend": "coventry vs palace",
+      "searchVolume": "200+",
+      "key": "coventry-vs-palace",
+      "state": "research-pending"
+    },
+    {
+      "row": 78,
+      "trend": "the body netflix",
+      "searchVolume": "200+",
+      "key": "the-body-netflix",
+      "state": "research-pending"
+    },
+    {
+      "row": 79,
+      "trend": "roadies rebirth",
+      "searchVolume": "100+",
+      "key": "roadies-rebirth",
+      "state": "research-pending"
+    },
+    {
+      "row": 80,
+      "trend": "england vs new zealand",
+      "searchVolume": "200+",
+      "key": "england-vs-new-zealand",
+      "state": "research-pending"
+    },
+    {
+      "row": 81,
+      "trend": "fossil fuel",
+      "searchVolume": "100+",
+      "key": "fossil-fuel",
+      "state": "research-pending"
+    },
+    {
+      "row": 82,
+      "trend": "salman khan",
+      "searchVolume": "100+",
+      "key": "salman-khan",
+      "state": "research-pending"
+    }
+  ],
+  "releaseBatches": [
+    {
+      "number": 1,
+      "keys": [
+        "pakistan-a-india-a"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "User requested all articles and prioritised the Pak vs Ind live scorecard.",
+      "validationFile": "validation-batch-1.json",
+      "state": "research-in-progress"
+    }
+  ],
+  "chapterSeven": {
+    "state": "pending",
+    "sections": 9,
+    "title": "The Internet and the World Wide Web"
+  }
+}

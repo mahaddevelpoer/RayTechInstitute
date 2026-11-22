@@ -72,6 +72,9 @@ jobs:
         if: github.event_name != 'repository_dispatch'
         run: node --test scripts/dit-ict.test.mjs scripts/dit-ict-chapter-two.test.mjs scripts/dit-ict-chapter-three.test.mjs scripts/dit-ict-chapter-four.test.mjs scripts/dit-ict-chapter-five.test.mjs scripts/dit-ict-chapter-six.test.mjs
 
+      - name: Verify live scorecard boundaries and editorial queue
+        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs
+
       - name: Verify academic placement validation and migration replay
         if: github.event_name != 'repository_dispatch'
         run: node --max-old-space-size=256 --test --test-concurrency=1 scripts/academic-structure.test.mjs scripts/academic-migration.test.mjs && node --max-old-space-size=256 scripts/check-academic-types.mjs
@@ -172,6 +175,11 @@ jobs:
         env:
           VERIFY_BASE_URL: http://127.0.0.1:4178
         run: node --max-old-space-size=384 scripts/verify-resource-pages.mjs
+
+      - name: Verify live cricket article interaction
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node --max-old-space-size=384 scripts/verify-live-cricket-page.mjs
 
       - name: Retain portable verified export for migration
         if: env.HOSTING_TARGET == 'artifact'

@@ -26,6 +26,7 @@ import { AdReservation } from '@/components/AdReservation';
 import { sanitizeUrl } from "@/utils/security";
 import { serializeJsonLd } from "@/utils/seo";
 import { ArticleAttachment } from './ArticleAttachment';
+import { LiveCricketScorecard, PAK_IND_LIVE_ARTICLE } from './LiveCricketScorecard';
 
 interface BlogDetailClientViewProps {
   slug: string;
@@ -291,7 +292,8 @@ export function BlogDetailClientView({
           {copyStatus}
         </span>
       </div>
-      {/* Article Body with Full AI Markdown Support */}
+      {!sourceReview && slug === PAK_IND_LIVE_ARTICLE && <LiveCricketScorecard />}
+      {/* Article body */}
       <div className="bg-white rounded-lg py-2">
         {sourceReview ? (
           <aside className="rounded-lg border border-amber-200 bg-amber-50 p-5 text-sm leading-7 text-amber-950">
