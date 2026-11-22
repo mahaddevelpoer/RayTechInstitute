@@ -13,3 +13,7 @@ All 25 ICT tests passed locally, including each earlier question bank, note text
 ## Reviewed production export
 
 Artifact run 45023798376 passed the complete production build, all source and chapter checks, browser interaction checks, resource-directory checks and release security gates. Source revision: 79c0fed36f363cdaa05235e835dfe467c70ae73e. This exact export will be deployed without rebuilding.
+
+## Live publication verification
+
+Deployment run 45024453076 succeeded on retry after an external dependency download timeout. The successful deployment reused artifact 45023798376 without rebuilding. Custom-domain verification confirmed all six checked routes return HTTP 200; the overview has seven available ICT modules; the subject has 488 questions; all 108 Chapter 7 questions and accepted answers match public Quiz data. The note has one h1, canonical metadata, no noindex directive and a sitemap entry. The diagram and all seven PDFs return 200. The 103,290-byte Chapter 7 PDF and every earlier PDF match their reviewed hashes. Deployment metadata matches 79c0fed36f363cdaa05235e835dfe467c70ae73e. Evidence: ICT-CHAPTER-7-LIVE-VERIFICATION.json.
