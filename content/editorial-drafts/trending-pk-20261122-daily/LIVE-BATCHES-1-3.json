@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-11-22T13:19:06.870Z",
+  "expectedRevision": "da47e9400fc854d6e75539214f3f4a402d98c7c5",
+  "deployment": {
+    "schema": 1,
+    "builtAt": "2026-11-22T13:12:13.695Z",
+    "revision": "da47e9400fc854d6e75539214f3f4a402d98c7c5",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 731,
+    "sitemapSha256": "20fc5b91c36a72a594006927a732d0eaf379438d87c76099f5150cade4d11236",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45025953031"
+  },
+  "resolver": "system DNS",
+  "results": [
+    {
+      "name": "pakistan-a-india-a",
+      "batch": "20261122-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-a-india-a-live-scorecard-rising-stars-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "real-madrid-vs-celta",
+      "batch": "20261122-daily",
+      "url": "https://raytechinstitute.com/blogs/real-madrid-celta-2-1-result-standings-explained-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261122-daily/real-madrid-vs-celta-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261122-daily/real-madrid-vs-celta-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    },
+    {
+      "name": "scotland-vs-pakistan",
+      "batch": "20261122-daily",
+      "url": "https://raytechinstitute.com/blogs/pakistan-scotland-women-nine-wicket-win-scorecard-2026/",
+      "status": 200,
+      "listing": true,
+      "sitemap": true,
+      "images": [
+        {
+          "url": "/images/editorial/trending-pk-20261122-daily/scotland-vs-pakistan-cover.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        },
+        {
+          "url": "/images/editorial/trending-pk-20261122-daily/scotland-vs-pakistan-inline.webp",
+          "status": 200,
+          "present": true,
+          "exactBytes": true,
+          "contentType": "image/webp"
+        }
+      ],
+      "seo": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "oneH1": true,
+        "articleSchema": true,
+        "indexable": true
+      },
+      "verified": true
+    }
+  ]
+}

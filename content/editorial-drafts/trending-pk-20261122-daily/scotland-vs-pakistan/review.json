@@ -1,8 +1,11 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "words": 2127,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "artifactRun": 45025953031,
+  "deploymentRun": 45026548162,
+  "liveVerification": "LIVE-BATCHES-1-3.json"
 }

@@ -1,9 +1,9 @@
 # Pakistan 22 November 2026 and ICT Chapter 7
 
-Mahad approved all CSV topics and the Pakistan A–India A live scorecard.
+All 82 CSV rows remain tracked in 75 groups after seven same-intent alias merges. Mahad authorised all topics.
 
-- All 82 source rows remain tracked in 75 initial groups after seven same-intent aliases.
-- Pakistan A–India A article and score panel are live and verified (batch 1).
-- Scotland–Pakistan Women article: 2,127 body words, 42 tags, two licensed reviewed images; saved and read back with all 608 earlier articles preserved. Hosting release pending (batch 2).
-- ICT Chapter 7 is live: nine syllabus sections, 108 MCQs and a reviewed 42-page PDF. ICT now has all seven chapters and 488 MCQs.
-- Other 73 topic groups remain incomplete. Existing relevant articles need substantive review before being counted as coverage. No unresearched row is marked complete.
+- Live and verified: Pakistan A–India A (with attributed auto-updating score feed), Pakistan–Scotland Women and Real Madrid–Celta. These cover five source rows, including the three Madrid aliases.
+- UAE–Nepal: complete reviewed draft, final publication checks running.
+- Other 71 groups remain incomplete. Existing relevant articles are candidates for review, not automatically counted as completed coverage.
+- ICT Chapter 7 is live: all nine sections, 108 MCQs and a reviewed 42-page PDF. All seven ICT chapters and 488 MCQs are published; earlier question banks and PDFs are preserved.
+- Live evidence is recorded per release. SEO and indexing checks do not establish Google indexing or traffic recovery.
