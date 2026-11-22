@@ -21,7 +21,7 @@ const {STATIC_OVERRIDES:before}=await bundled('src/data/staticOverrides.ts');
 const additions=await bundled('src/data/ditSemesterOne.ts');
 test('release tooling reads the same JSON-backed catalog as the website',async()=>{
  const loaded=await loadTypescript('src/data/staticCatalog.ts');
- assert.equal(loaded.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict').length,60);
+ assert.equal(loaded.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber===1).length,60);
  assert.equal(loaded.INITIAL_NOTES.find(n=>n.id==='dit-ict-chapter-1-introduction-to-computers').content,pack.content);
  assert.equal(JSON.stringify(loaded.INITIAL_CHAPTERS),JSON.stringify(catalog.INITIAL_CHAPTERS));
 });
@@ -41,7 +41,7 @@ test('new resources preserve every existing chapter, note and public MCQ',()=>{
   }
   assert.equal(new Set(list.map(r=>r.id)).size,list.length);
  }
- assert.equal(catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict').length,60);
+ assert.equal(catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber===1).length,60);
  assert.throws(()=>additions.addReviewedResources([{id:'same'}],[{id:'same'}]),/collision/);
 });
 test('course information changes only the target class and legacy subject descriptions',()=>{
@@ -71,7 +71,7 @@ test('semester overview renders all five subjects and links only available chapt
  assert.match(html,/Introduction to ICT/);assert.match(html,/Operating Systems/);assert.match(html,/Introduction to Programming/);
  assert.ok(!/href="[^"]*(?:dit-python|dit-operating-systems)/.test(html));
  assert.match(html,/material not yet published/);assert.match(html,/\/dit-ict\/notes\/\?chapter=1/);
- assert.match(html,/7 syllabus modules; 1 with material/);
+ assert.match(html,/7 syllabus modules; 2 with material/);
  if(before.chapters?.some(c=>c.subjectSlug==='dit-computer-science')){
   assert.match(html,/5 syllabus modules; 5 with material/);assert.match(html,/8 syllabus modules; 7 with material/);
  }

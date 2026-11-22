@@ -1,0 +1,969 @@
+{
+  "title": "System Unit Components",
+  "content": "## Chapter overview and syllabus coverage\n\nThis original English study guide follows PBTE's two-year D.I.T first-semester ICT Module 2, syllabus sections 2.1 to 2.6. It includes 60 explained revision MCQs, six topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.\n\n| Syllabus section | Topic | Revision MCQs |\n|---|---|---|\n| 2.1 | The Motherboard | 10 |\n| 2.2 | Processor and the Machine Cycle | 10 |\n| 2.3 | Memory Bits Bytes and Addressing | 10 |\n| 2.4 | Expansion Slots Adapter Cards and Drive Bays | 10 |\n| 2.5 | Ports and Connectors | 10 |\n| 2.6 | Power Supply | 10 |\n\n## Topic-wise revision MCQs\n\n## 2.1 The Motherboard MCQs\n\n### Q1. What is the primary role of the motherboard?\n\nA) Store every user file permanently\n\nB) Perform every arithmetic operation by itself\n\n**C) Connect the main components of a computer**\n\nD) Supply all mains electricity directly to peripherals\n\n**Correct answer: C.** The board provides connections and interfaces for the system's components.\n\n### Q2. Which item is normally fitted into a supported desktop CPU socket?\n\n**A) Processor**\n\nB) Memory module\n\nC) PCIe network card\n\nD) SATA data cable\n\n**Correct answer: A.** A CPU socket is designed for a compatible processor.\n\n### Q3. Which compatibility check is most appropriate before buying a CPU?\n\nA) Only the colour of the CPU package\n\nB) Only the computer case's brand\n\nC) Only the monitor connector\n\n**D) Motherboard socket, support list and firmware requirements**\n\n**Correct answer: D.** A compatible socket alone may not establish platform and firmware support.\n\n### Q4. What does an address signal identify in a basic computer model?\n\nA) The value of every stored file at once\n\n**B) A memory or device location**\n\nC) The colour of an output pixel only\n\nD) The voltage rating of a power cable\n\n**Correct answer: B.** Addresses select locations while data signals carry values.\n\n### Q5. Which signals coordinate operations such as reads and writes?\n\n**A) Control signals**\n\nB) Only audio signals\n\nC) Only display colour signals\n\nD) Only battery-charge indicators\n\n**Correct answer: A.** Control signals coordinate the use of data and addressed locations.\n\n### Q6. Where is modern PC firmware commonly stored?\n\nA) Only in ordinary unpowered RAM\n\nB) Only inside a printer cartridge\n\n**C) Non-volatile flash memory**\n\nD) Only on a display cable\n\n**Correct answer: C.** Flash retains firmware without power and can support controlled updates.\n\n### Q7. Which statement correctly distinguishes the case from the motherboard?\n\nA) They are always names for the same part\n\n**B) The case houses components; the motherboard connects them**\n\nC) The case executes instructions and the board only displays them\n\nD) The motherboard is an external protective cover\n\n**Correct answer: B.** A case is an enclosure; the board provides electrical interconnections.\n\n### Q8. Why should a board diagram not be treated as the exact layout of every PC?\n\nA) Every motherboard has identical connector positions\n\nB) A motherboard contains no physical components\n\nC) Only the case determines all internal interfaces\n\n**D) Layouts and integrated functions vary by model**\n\n**Correct answer: D.** Manufacturers and platform designs use different arrangements.\n\n### Q9. Which source should identify an unfamiliar motherboard header?\n\nA) An unrelated board's photograph alone\n\nB) The cable colour alone\n\n**C) The exact motherboard model's manual**\n\nD) The connector's apparent size alone\n\n**Correct answer: C.** Model-specific documentation identifies headers and their pin assignments.\n\n### Q10. What does a small motherboard battery commonly maintain?\n\nA) All user files on an SSD\n\n**B) The real-time clock and some legacy settings storage**\n\nC) Every program running in RAM\n\nD) The CPU's operating power during normal work\n\n**Correct answer: B.** The battery has a limited supporting role and is not the system's main power source.\n\n## 2.2 Processor and the Machine Cycle MCQs\n\n### Q11. Which CPU unit performs arithmetic and logical comparisons?\n\nA) Control unit\n\nB) Power supply unit\n\nC) Storage controller\n\n**D) Arithmetic logic unit**\n\n**Correct answer: D.** The ALU carries out arithmetic and logical operations.\n\n### Q12. What is the main role of the control unit?\n\n**A) Coordinate instruction processing**\n\nB) Store all user files permanently\n\nC) Convert mains AC to low-voltage DC\n\nD) Produce printed output\n\n**Correct answer: A.** The control unit coordinates processor operations rather than replacing the ALU or storage.\n\n### Q13. Which step obtains the next instruction?\n\nA) Decode\n\nB) Execute\n\n**C) Fetch**\n\nD) Write back\n\n**Correct answer: C.** Fetch obtains an instruction from the memory hierarchy.\n\n### Q14. Which step determines the operation specified by an instruction?\n\n**A) Decode**\n\nB) Fetch\n\nC) Print\n\nD) Save the whole application\n\n**Correct answer: A.** Decoding identifies the operation and relevant operands.\n\n### Q15. In the simplified cycle, which step performs the requested calculation?\n\nA) Fetch\n\nB) Decode\n\nC) Select a display connector\n\n**D) Execute**\n\n**Correct answer: D.** Execution carries out the operation specified by the decoded instruction.\n\n### Q16. What does write back do when an instruction produces a stored result?\n\nA) Always print the result\n\n**B) Place the result in the required destination**\n\nC) Always overwrite the whole hard drive\n\nD) Always restart the computer\n\n**Correct answer: B.** The destination may be a register or an applicable memory location.\n\n### Q17. What does a 3 GHz processor clock specify?\n\n**A) Three billion clock cycles per second**\n\nB) Exactly three billion complete instructions for every program\n\nC) Three gigabytes of RAM capacity\n\nD) Three processor cores\n\n**Correct answer: A.** Frequency counts cycles per second, not memory capacity or a guaranteed instruction rate.\n\n### Q18. Which statement about the teaching machine-cycle model is correct?\n\nA) It proves that all instructions take exactly one cycle\n\nB) It describes only printer operations\n\n**C) It does not imply every instruction takes exactly four clock cycles**\n\nD) It prevents instructions from overlapping internally\n\n**Correct answer: C.** Modern implementations can overlap operations and use different instruction timings.\n\n### Q19. Which processor comparison is the most informative?\n\nA) Only comparing the GHz numbers of unrelated designs\n\n**B) Relevant workload measurements on compatible comparable systems**\n\nC) Only comparing case sizes\n\nD) Assuming twice the core count always halves every task's time\n\n**Correct answer: B.** Actual workload behaviour depends on several processor and system characteristics.\n\n### Q20. What is a processor register?\n\nA) A permanent folder on an SSD\n\nB) A socket for a monitor cable\n\nC) The main AC input connector\n\n**D) A small fast storage location within the CPU**\n\n**Correct answer: D.** Registers hold values and state close to processor operations.\n\n## 2.3 Memory Bits Bytes and Addressing MCQs\n\n### Q21. How many bits are in one byte?\n\nA) 2\n\nB) 16\n\n**C) 8**\n\nD) 1,024\n\n**Correct answer: C.** A byte contains eight bits.\n\n### Q22. How many bytes are represented by 32 bits?\n\nA) 8\n\n**B) 4**\n\nC) 32\n\nD) 256\n\n**Correct answer: B.** Divide the number of bits by eight: 32 divided by 8 equals 4 bytes.\n\n### Q23. How many bytes are in 1 KiB?\n\nA) 1,000\n\nB) 8\n\nC) 1,048,576\n\n**D) 1,024**\n\n**Correct answer: D.** KiB is the binary prefix for 1,024 bytes; decimal kB means 1,000 bytes.\n\n### Q24. In a byte-addressable model, what does one address select?\n\n**A) One byte location**\n\nB) Always one complete file\n\nC) Always one application\n\nD) A CPU clock frequency\n\n**Correct answer: A.** The addressing unit is one byte in the stated model.\n\n### Q25. How many distinct locations can eight address bits identify if every combination is usable?\n\nA) 8\n\nB) 16\n\n**C) 256**\n\nD) 64\n\n**Correct answer: C.** Eight address bits provide 2 to the power 8, or 256, combinations.\n\n### Q26. Which type normally provides volatile main working memory?\n\n**A) RAM**\n\nB) Flash storage\n\nC) Read-only memory\n\nD) An SSD's persistent file storage\n\n**Correct answer: A.** Ordinary main RAM needs power to retain its contents.\n\n### Q27. What is the main purpose of cache memory?\n\nA) Replace all persistent storage\n\nB) Keep all user files permanently without power\n\nC) Increase the physical size of every file\n\n**D) Reduce average access time by keeping useful copies near processing**\n\n**Correct answer: D.** Cache holds copies that can be accessed more quickly than fetching them from a slower level.\n\n### Q28. Which type is electrically rewritable and retains data without continuous power?\n\nA) Ordinary main RAM\n\n**B) Flash memory**\n\nC) A volatile processor register\n\nD) An unpowered ordinary cache\n\n**Correct answer: B.** Flash is non-volatile and supports controlled electrical rewriting.\n\n### Q29. What does legacy PC CMOS settings memory usually refer to?\n\n**A) Small battery-backed RAM for configuration settings**\n\nB) The complete operating-system installation\n\nC) All files on an SSD\n\nD) A display's video memory only\n\n**Correct answer: A.** In older designs, a battery maintains small configuration RAM and the clock.\n\n### Q30. Which introductory memory category describes read-only or read-mostly non-volatile information?\n\nA) Ordinary main RAM\n\nB) A volatile CPU cache\n\n**C) ROM**\n\nD) A volatile processor register\n\n**Correct answer: C.** ROM is read-only or read-mostly non-volatile memory; RAM and ordinary processor working storage are volatile.\n\n## 2.4 Expansion Slots Adapter Cards and Drive Bays MCQs\n\n### Q31. What is an expansion slot used for?\n\nA) Mount every storage drive without any electrical connection\n\n**B) Connect a compatible expansion card to the motherboard**\n\nC) Attach a case side panel\n\nD) Store BIOS settings in a battery\n\n**Correct answer: B.** An expansion slot provides a supported electrical interface for a card.\n\n### Q32. Which adapter is intended to add a wired network interface?\n\nA) Graphics adapter\n\nB) Audio adapter\n\nC) Storage-only mounting bracket\n\n**D) Ethernet network adapter**\n\n**Correct answer: D.** A network adapter provides the required networking interface.\n\n### Q33. What is a drive bay primarily?\n\nA) A processor instruction register\n\nB) A display signal standard\n\n**C) A physical mounting space for a suitable drive**\n\nD) A memory address bus\n\n**Correct answer: C.** The bay supports installation in the case; data and power interfaces are separate considerations.\n\n### Q34. Which statement about PCIe slot appearance is correct?\n\nA) All slots of equal length always have identical electrical configurations\n\n**B) Physical length does not always establish the wired lane count**\n\nC) PCIe and legacy PCI are the same connector\n\nD) A slot's colour alone proves supported bandwidth\n\n**Correct answer: B.** Boards can wire or share slots differently; consult the manual.\n\n### Q35. Which function can a graphics adapter provide?\n\nA) Mains AC distribution to the building\n\nB) Only permanent backup of all user files\n\nC) Only keyboard-language selection\n\n**D) Graphics processing and display outputs**\n\n**Correct answer: D.** Graphics adapters support image processing and display connections.\n\n### Q36. Why might a computer not need a separate sound card?\n\n**A) It may already provide integrated audio**\n\nB) All computers operate without audio hardware\n\nC) A power cable always processes audio\n\nD) The CPU socket accepts audio plugs directly\n\n**Correct answer: A.** Audio functions can be integrated rather than supplied on an add-in card.\n\n### Q37. What must be checked besides a drive's physical mounting space?\n\nA) Only its label colour\n\nB) Only whether it is heavier than the old drive\n\n**C) Compatible data and power connections where required**\n\nD) Only the number of desktop icons\n\n**Correct answer: C.** A mounted drive still needs appropriate connections and system support.\n\n### Q38. Which device may mount directly on a compatible motherboard connector?\n\n**A) M.2 SSD**\n\nB) External display projector\n\nC) Standard 3.5-inch desktop hard drive in every case\n\nD) USB keyboard\n\n**Correct answer: A.** An M.2 SSD can be secured directly on the motherboard's supported connector.\n\n### Q39. Which statement about M.2 is most accurate?\n\nA) Every M.2 device is necessarily NVMe storage\n\nB) Every M.2 device uses a front optical bay\n\nC) M.2 is a type of mains power supply\n\n**D) The form factor alone does not guarantee one storage protocol**\n\n**Correct answer: D.** Supported protocols and keying depend on both the module and the system.\n\n### Q40. What is the correct approach when a card does not fit its intended slot?\n\nA) Force it until the connector bends\n\n**B) Stop and check compatibility and orientation**\n\nC) Insert it while the computer is powered\n\nD) Cut an edge from the connector\n\n**Correct answer: B.** A mismatch or obstruction should be investigated rather than overcome by force.\n\n## 2.5 Ports and Connectors MCQs\n\n### Q41. Which statement best distinguishes a connector from a protocol?\n\n**A) A connector is physical; a protocol defines communication rules**\n\nB) They always mean the same thing\n\nC) A protocol is the metal plug only\n\nD) Connector colour completely defines the communication rules\n\n**Correct answer: A.** Physical shape and communication behaviour are different properties.\n\n### Q42. What does a USB-C connector alone guarantee?\n\nA) The fastest USB data rate on every cable\n\nB) Video output on every port\n\n**C) A connector form, not one universal data speed or charging capability**\n\nD) Identical power capability on every device\n\n**Correct answer: C.** Actual USB-C functions depend on the participating port, cable and device.\n\n### Q43. Which interface is associated with analogue video?\n\nA) HDMI\n\n**B) VGA**\n\nC) Ethernet\n\nD) FireWire\n\n**Correct answer: B.** VGA is an analogue video interface.\n\n### Q44. Which interface commonly carries digital video and supported digital audio?\n\nA) VGA alone\n\nB) An ordinary microphone-input connector\n\nC) A standard Ethernet socket used only for networking\n\n**D) HDMI**\n\n**Correct answer: D.** HDMI supports digital display signals and audio on compatible equipment.\n\n### Q45. Why might a simple plug-shape adapter fail between VGA and HDMI?\n\nA) The two signals are necessarily identical\n\nB) A passive adapter always converts every video mode\n\n**C) Analogue and digital signal conversion may require active electronics**\n\nD) Changing the cable colour performs conversion\n\n**Correct answer: C.** Changing connector shape is not the same as converting the signal format.\n\n### Q46. What should identify whether an audio socket is microphone input or headphone output?\n\nA) Only the computer's clock speed\n\n**B) Its labels and device documentation**\n\nC) Only the USB cable's length\n\nD) Only the installed RAM capacity\n\n**Correct answer: B.** Audio ports can serve different roles and need correct identification.\n\n### Q47. Which connector is commonly called RJ-45 in PC networking?\n\nA) The VGA display connector\n\nB) A processor socket\n\nC) The mains AC plug\n\n**D) The common eight-position copper Ethernet connector**\n\n**Correct answer: D.** The term is commonly used for the modular connector on copper Ethernet leads.\n\n### Q48. Which standard is associated with FireWire?\n\n**A) IEEE 1394**\n\nB) HDMI\n\nC) VGA\n\nD) The ATX power specification\n\n**Correct answer: A.** FireWire is associated with IEEE 1394, not USB or display-only interfaces.\n\n### Q49. What should be checked before expecting video output through USB-C?\n\nA) Only that both plugs are reversible\n\nB) Only that the cable charges another device\n\n**C) Support in the computer port, cable and display connection**\n\nD) Only that the connector is smaller than USB-A\n\n**Correct answer: C.** The necessary video capability must be supported across the connection.\n\n### Q50. What should a student do if a connector requires unusual force?\n\n**A) Stop and check the type and orientation**\n\nB) Push until the socket bends\n\nC) Connect it to any larger-looking socket\n\nD) Ignore the device manual\n\n**Correct answer: A.** Correctly matched connectors should be handled gently and according to documentation.\n\n## 2.6 Power Supply MCQs\n\n### Q51. What does a desktop PSU primarily do?\n\nA) Execute application instructions\n\nB) Store BIOS configuration values\n\nC) Convert analogue video to HDMI\n\n**D) Convert mains AC into regulated DC outputs**\n\n**Correct answer: D.** The PSU provides suitable electrical power for computer components.\n\n### Q52. What does a 500 W PSU rating normally describe?\n\nA) A guarantee of constant 500 W consumption\n\n**B) Its specified output capability under rated conditions**\n\nC) A 500 GHz processor frequency\n\nD) 500 bytes of working memory\n\n**Correct answer: B.** The capacity rating is not a statement that the computer always consumes that amount.\n\n### Q53. Which measurement describes the ratio of useful output power to input power?\n\n**A) Efficiency**\n\nB) Processor frequency\n\nC) Memory address width\n\nD) File capacity\n\n**Correct answer: A.** Efficiency concerns how much input power becomes useful output.\n\n### Q54. Which statement about modular PSU cables is correct?\n\nA) Any cable that physically fits is universally safe\n\nB) All brands use identical PSU-side pin assignments\n\n**C) Use cables approved for the exact PSU model**\n\nD) Cable colour proves electrical compatibility\n\n**Correct answer: C.** Different modular PSU models can use different wiring even when connectors look similar.\n\n### Q55. Which device can provide temporary backup power during a mains outage?\n\nA) Ordinary CPU cache\n\n**B) UPS**\n\nC) An unpowered motherboard\n\nD) A passive HDMI adapter\n\n**Correct answer: B.** A UPS provides stored-energy backup; the internal PSU has a different role.\n\n### Q56. Why should PSU ventilation remain clear?\n\nA) To increase the number of CPU cores\n\nB) To save files permanently without storage\n\nC) To convert USB into Ethernet\n\n**D) To support cooling and reliable operation**\n\n**Correct answer: D.** Ventilation helps remove heat generated during power conversion.\n\n### Q57. What is the correct student response to a suspected internal PSU fault?\n\nA) Open the PSU enclosure immediately\n\nB) Probe its mains circuitry during operation\n\n**C) Stop using the equipment and refer it to qualified service**\n\nD) Insert a metal tool through its fan grille\n\n**Correct answer: C.** PSU internals can contain hazardous voltages and stored energy.\n\n### Q58. Why is unplugging not permission to open a PSU enclosure?\n\nA) It guarantees immediate removal of all stored energy\n\n**B) Stored energy may remain hazardous**\n\nC) It converts every internal component to harmless plastic\n\nD) It turns the PSU into a low-voltage battery only\n\n**Correct answer: B.** Internal capacitors can retain hazardous energy after disconnection.\n\n### Q59. Which check is needed when selecting a PSU for an upgrade?\n\nA) Only the number of desktop icons\n\nB) Only the monitor's screen size\n\nC) Only the motherboard's colour\n\n**D) Adequate capacity and the correct supported connectors**\n\n**Correct answer: D.** The PSU must support the system's electrical and connector requirements.\n\n### Q60. Which statement distinguishes a PSU from a surge protector?\n\n**A) They serve different roles; surge protection is not automatically battery backup**\n\nB) Every surge protector replaces the internal PSU\n\nC) Every PSU provides hours of backup during an outage\n\nD) Both are types of processor memory\n\n**Correct answer: A.** Power conversion, surge protection and backup power are separate functions.\n\n## Easy topic-wise notes\n\n## 2.1 The Motherboard\n\nThe motherboard is the main printed circuit board that connects the principal components of a computer. It provides electrical connections, mounting locations and communication pathways for components such as the processor, memory and expansion devices. A case holds the system; the motherboard connects its parts. Neither the case nor the motherboard alone is the complete computer.\n\nA typical desktop motherboard contains a processor socket or a soldered processor, memory slots, expansion slots, storage connectors, power connectors and interfaces for external devices. The exact arrangement depends on the model. A socket accepts a compatible processor; a memory slot accepts a supported memory module. A physically similar connector is not sufficient evidence that two components are compatible. Processor support can depend on socket, chipset, firmware and power design, while memory support depends on generation, module type and capacity limits.\n\nBuses and interconnects carry data, addresses and control signals between components. In an introductory model, data signals carry values, address signals identify a location and control signals coordinate operations. Modern systems use several specialised links rather than one universal shared bus. A chipset supports platform functions; some functions once placed in separate chipset components are now integrated into processors. Board diagrams should therefore be treated as functional illustrations rather than exact layouts for every PC.\n\nFirmware initialises hardware and starts the boot process. Legacy systems are often discussed using the term BIOS; many modern PCs use UEFI firmware. The firmware program is commonly stored in rewritable non-volatile flash. Settings storage is separate from the program itself. A small battery can maintain the real-time clock and, in older designs, battery-backed configuration memory. Consult the exact manufacturer's manual before identifying a connector, buying a component or attempting an installation.\n\n### Practical examples\n\n- A technician checks the motherboard support list before selecting a replacement processor.\n- RAM modules fit supported memory slots; a PCIe network card uses an expansion slot.\n- A motherboard manual identifies the correct front-panel and power connectors.\n\n### Common mistakes\n\n- The motherboard is not the CPU: it connects the CPU with other components.\n- Do not force a connector or assume that physical fit proves full compatibility.\n- Firmware code and configuration settings are not the same thing.\n\n### Quick revision\n\n- The motherboard is the main circuit board.\n- It connects processing, memory, expansion and storage interfaces.\n- Sockets and slots must match supported components.\n- Data, address and control signals have different roles.\n- Modern firmware is commonly stored in flash.\n- Use the exact model's manual for physical identification.\n\n## 2.2 Processor and the Machine Cycle\n\nThe processor, or central processing unit, executes program instructions. Its arithmetic logic unit performs arithmetic operations and logical comparisons. Its control unit coordinates instruction processing, while registers provide very small, fast working locations inside the processor. These are functional explanations; the detailed internal organisation differs across processor designs.\n\nA simplified machine cycle is fetch, decode, execute and store or write back. During fetch, the processor obtains the next instruction from the memory hierarchy. Decode determines the required operation and its operands. Execute performs the requested work, which may involve arithmetic, a comparison, a transfer or a change in program flow. Write back places an applicable result in a register or memory location. Not every instruction writes a result to main memory, and modern processors can overlap the work of several instructions. The model is a teaching sequence, not a claim that every instruction always takes four clock cycles.\n\nThe system clock provides timing for processor operations. Frequency is measured in hertz, or cycles per second. One gigahertz is one billion cycles per second. A clock cycle is not the same as a complete instruction: an instruction may involve several operations, and modern processors can process parts of multiple instructions concurrently.\n\nWhen comparing PC processors, examine the workload, architecture, core and thread counts, cache, clock behaviour, power requirements, cooling and platform compatibility. A higher GHz number alone does not prove that a processor is faster for every task. A newer design with a lower clock frequency can perform more useful work for a particular workload. Several cores help only when the software and workload can use them effectively. Compare relevant measurements under comparable conditions rather than using one specification as a universal speed score.\n\n### Practical examples\n\n- For an addition instruction, the processor obtains the instruction, determines that addition is needed, calculates the result and places it in the required destination.\n- A 3 GHz clock describes three billion clock cycles per second, not necessarily three billion completed instructions.\n- A video-encoding workload may benefit from more usable cores; another task may depend more heavily on single-thread performance.\n\n### Common mistakes\n\n- The ALU and control unit have different roles.\n- Do not equate one clock cycle with one complete instruction.\n- The highest clock speed or core count does not guarantee the best result in every application.\n\n### Quick revision\n\n- The CPU executes instructions.\n- The ALU performs arithmetic and logical operations.\n- The control unit coordinates operations.\n- Use fetch, decode, execute and write back as a simplified sequence.\n- GHz measures billions of clock cycles per second.\n- Compare processors using the relevant workload and compatible platform.\n\n## 2.3 Memory Bits Bytes and Addressing\n\nMemory stores values and instructions used by a computer. A bit is a binary digit with two possible values, normally written as 0 and 1. A byte contains eight bits. Capacity describes how much can be stored; transfer rate describes how much data can move per unit of time. Uppercase B commonly means bytes and lowercase b means bits. Always check the stated units before calculating.\n\nIn common decimal storage notation, 1 kB is 1,000 bytes and 1 MB is 1,000,000 bytes. Binary prefixes remove ambiguity: 1 KiB is 1,024 bytes and 1 MiB is 1,048,576 bytes. An exam question or textbook may use KB informally for a binary quantity. State the convention being used instead of silently mixing decimal and binary values. For example, 16 bits equal 2 bytes, and 2 KiB equal 2,048 bytes.\n\nMemory addressing identifies locations. In a byte-addressable teaching model, each address selects one byte. If there are n independent address bits and all combinations are usable, there are 2 to the power n distinct addresses. Thus eight address bits identify 256 locations, which hold 256 bytes in a byte-addressable model. This is not a claim that an 8-bit data value always represents a 256-byte memory capacity. Address width, data width and available memory are different ideas.\n\nRAM provides working memory and ordinary main RAM is volatile. ROM describes read-only or read-mostly non-volatile memory in introductory classifications; it is not simply another name for RAM that has been saved. Cache keeps copies of frequently needed instructions or data close to processing and is typically smaller and faster than main RAM. Cache reduces average access time, but it does not replace main memory or permanent file storage.\n\nFlash is electrically rewritable non-volatile memory used in devices such as USB storage, SSDs and firmware chips. CMOS is a semiconductor technology; the phrase CMOS memory traditionally refers to small battery-backed RAM used for configuration settings. That legacy memory is not inherently non-volatile merely because a battery supports it. Modern systems may store settings in non-volatile memory. Distinguish firmware code, configuration settings, the real-time clock and the battery rather than treating them as one object.\n\n### Practical examples\n\n- A file of 16 bytes contains 128 bits, excluding any separate metadata or transmission overhead.\n- An idealised byte-addressable memory with 10 address bits has 1,024 addressable byte locations.\n- RAM holds a document while it is edited; saving writes a persistent copy to storage, while cache supports faster access during processing.\n\n### Common mistakes\n\n- Do not confuse bits with bytes or capacity with data rate.\n- Use 1,024 for KiB and state any informal KB convention.\n- CMOS technology, a battery, firmware and stored settings are different concepts.\n- A larger cache does not make a CPU universally faster for every task.\n\n### Quick revision\n\n- One byte equals eight bits.\n- KiB and MiB are explicit binary units.\n- Addresses identify locations, not the values held there.\n- Ordinary main RAM is volatile.\n- ROM and flash retain information without continuous power.\n- Cache normally holds copies for fast access.\n- Legacy CMOS settings RAM is kept alive by a battery.\n\n## 2.4 Expansion Slots Adapter Cards and Drive Bays\n\nAn expansion slot is a motherboard interface used to connect a compatible expansion card. An adapter card adds or extends a function such as networking, graphics or sound. A drive bay is a mounting space in a computer case for a suitable drive. The expansion slot provides an electrical connection, while the bay primarily provides a physical location.\n\nPCI Express, commonly abbreviated PCIe, is a widely used expansion interface. Cards and slots can have different physical sizes and lane configurations. A longer-looking slot does not by itself prove how many lanes are electrically connected. Check the motherboard manual for supported configurations, sharing restrictions and compatibility. Older computers may contain legacy PCI or AGP interfaces; these names are not interchangeable with PCIe.\n\nA graphics card can provide graphics processing and display outputs. A network adapter provides a network interface, and a sound card supports audio functions. Many computers already integrate these functions on the motherboard or processor, so a separate card is not always required. The monitor's cable connects to an external display port, not directly to a bare internal expansion slot.\n\nA traditional desktop case may provide 3.5-inch or 2.5-inch drive mounting positions and, on some designs, 5.25-inch bays for optical drives. Storage also needs compatible data and power connections where applicable. Some M.2 devices mount directly on a supported motherboard connector and do not use a conventional drive bay. M.2 describes a form factor and connector family; it does not guarantee that every device uses the same storage protocol. Plan upgrades by checking the case, motherboard, interface, power and clearance together. Practical identification can use diagrams or a disconnected training system under supervision; never force a card or work inside a powered computer.\n\n### Practical examples\n\n- A compatible PCIe Wi-Fi card adds wireless networking to a desktop.\n- A 2.5-inch SATA SSD needs a suitable mounting position plus compatible data and power connections.\n- A motherboard-mounted M.2 SSD does not need a conventional front-access drive bay.\n\n### Common mistakes\n\n- A drive bay is not an expansion slot.\n- Integrated networking does not require an extra network card merely to exist.\n- M.2 does not by itself identify the storage protocol.\n- Mechanical fit alone is not a complete compatibility check.\n\n### Quick revision\n\n- Slots connect cards electrically.\n- Adapter cards add or extend functions.\n- Drive bays mount compatible devices in the case.\n- PCIe is distinct from legacy PCI and AGP.\n- Check lanes, clearance, power and motherboard support.\n- Some storage devices mount directly on the motherboard.\n\n## 2.5 Ports and Connectors\n\nA port is an interface through which a system communicates with a device or network. A connector is the physical plug or socket used for a connection. A protocol or interface specification defines how communication works. Connector shape, data rate, video capability and supported power are related but separate properties.\n\nUSB connects many peripherals and storage devices and can also provide power. Type-A and Type-C describe connector families. A reversible USB-C connector does not guarantee one particular data speed, video mode or charging capability. The device, port and cable must support the required function. Check their specifications instead of assuming that every cable with the same shape behaves identically.\n\nVGA carries analogue video and does not carry normal HDMI-style digital audio. HDMI carries digital video and can carry digital audio when the connected equipment and cable support the intended mode. A passive change of plug shape does not universally convert analogue video into digital video. Some conversions require active electronics. Choose the correct source output and display input.\n\nAudio connectors may provide headphone or speaker output, microphone input or a combined headset connection. Labels and documentation identify their purpose; colour coding alone is not reliable on every device. A common copper Ethernet connection uses an eight-position modular connector often called RJ-45 in PC networking. A similar-looking telephone connector should not be forced into a network socket.\n\nFireWire is the common name associated with IEEE 1394, a legacy high-speed peripheral interface used by some cameras, audio equipment and computers. It is not simply a different spelling of USB. The PBTE syllabus includes older interfaces, so recognise their purpose without assuming they are present on every current computer. Identify the port, select a compatible cable and connect gently; if a plug needs force, stop and check the type and orientation.\n\n### Practical examples\n\n- An HDMI connection can carry a laptop's picture and sound to a compatible display.\n- Two USB-C cables can look similar while supporting different data rates or power capabilities.\n- An Ethernet cable connects a supported network port; a headphone lead connects an appropriate audio port.\n\n### Common mistakes\n\n- USB-C connector shape is not a promise of one data rate or charging level.\n- VGA is analogue video; HDMI is digital video with audio support.\n- A plug-shape adapter does not always perform signal conversion.\n- FireWire and USB are different interface families.\n\n### Quick revision\n\n- Separate the physical connector from its supported functions.\n- USB supports peripheral connections and applicable power functions.\n- USB-C capabilities depend on port, device and cable.\n- VGA carries analogue video.\n- HDMI carries digital video and supported audio.\n- Identify audio and network connectors by purpose and documentation.\n- FireWire corresponds to IEEE 1394.\n\n## 2.6 Power Supply\n\nA desktop power supply unit converts incoming mains alternating current into regulated direct-current outputs used by the computer. It supplies electrical power, not program instructions or permanent data storage. The motherboard, processor, drives and some expansion cards have particular power requirements. A laptop often uses an external power adapter and internal power-management circuitry, so its arrangement differs from a standard desktop PSU.\n\nA typical desktop system can use a motherboard main power connector, a separate processor power connector and additional power connections for drives or graphics hardware. Connector standards and arrangements vary. CPU and graphics power leads must not be treated as interchangeable merely because their plugs appear similar. Modular PSU cables are not universally interchangeable across brands or models; a connector that fits the PSU end can still have a different pin assignment. Use manufacturer-approved cables for the exact unit.\n\nThe watt rating describes a specified output capability under the unit's rated conditions. A 500 W label does not mean the computer continuously consumes 500 W, and watts are not a processor clock-speed measurement. Select adequate capacity for the actual system, required connectors, expected loads and manufacturer guidance. Efficiency compares useful output power with input power: some input energy is lost, mainly as heat. Efficiency is not the same as output capacity, and no PSU should be described as perfectly efficient.\n\nCooling and protection support reliable operation. Blocked ventilation or a damaged cable can create faults. A UPS is different from a PSU: a UPS can provide temporary backup power during a mains interruption, while the PSU supplies regulated power to internal components. A surge protector has a different role again and is not automatically a battery backup.\n\nFor student practical work, identify a PSU from labels, diagrams or a disconnected training system under qualified supervision. Shut down and disconnect mains power before any permitted internal work, and follow the equipment manual and anti-static procedure. Do not open a PSU enclosure: hazardous stored energy may remain after unplugging. Do not probe mains circuitry, insert objects through ventilation openings or attempt electrical repair as a classroom exercise.\n\n### Practical examples\n\n- A desktop PSU supplies the motherboard and drives with their required DC outputs.\n- A machine with a 500 W PSU may draw much less power during a light workload.\n- A UPS can keep a computer operating briefly during an outage, but does not replace its internal PSU.\n\n### Common mistakes\n\n- A PSU watt rating is not constant system consumption.\n- CPU and graphics power connectors or modular cables are not universally interchangeable.\n- A PSU and a UPS are different devices.\n- Unplugging does not make opening a PSU safe.\n\n### Quick revision\n\n- A desktop PSU converts mains AC to regulated DC outputs.\n- Check power capability and the exact supported connectors.\n- Use only approved modular cables for the specific PSU.\n- Capacity and efficiency are different measurements.\n- A UPS supplies backup power; a PSU powers internal components.\n- Keep ventilation clear and use supervised identification tasks.\n- Never open the PSU enclosure as a student exercise.\n\n## Diagrams and comparisons\n\n![System unit component connections](/documents/dit/ict/system-unit-connections.svg)\n\nThe motherboard provides supported connections for the processor, RAM, expansion cards and storage interfaces. The PSU supplies power; external ports connect peripherals. Positions shown are functional, not a universal physical layout.\n\n| Type | Main role | Retention |\n|---|---|---|\n| RAM | Working programs and data | Normally volatile |\n| ROM | Read-only or read-mostly information | Non-volatile |\n| Cache | Fast-access copies | Normally volatile |\n| Flash | Rewritable storage and firmware | Non-volatile |\n| Legacy CMOS settings RAM | Small configuration values | Battery-backed |\n\nRAM is volatile working memory; flash retains data without continuous power; cache normally keeps fast-access copies.\n\nAn expansion slot connects a card electrically; a drive bay mounts a drive physically.\n\nUSB-C shape does not establish every capability. VGA is analogue video, while HDMI carries digital video and supported audio.\n\nA PSU provides regulated power to internal components; a UPS provides temporary backup power.\n\n## Solved short questions\n\n### 1. Define a motherboard.\n\nThe motherboard is the main printed circuit board that connects and supports the principal computer components and their interfaces.\n\n### 2. Distinguish the ALU from the control unit.\n\nThe ALU performs arithmetic and logical operations. The control unit coordinates instruction processing and the required operations.\n\n### 3. Name the simplified machine-cycle stages.\n\nFetch obtains the instruction, decode identifies the operation, execute performs it and write back stores an applicable result. This does not imply exactly four clock cycles for every instruction.\n\n### 4. What does GHz measure?\n\nGigahertz measures billions of clock cycles per second. It is not a guarantee of an equal number of completed instructions or a universal performance score.\n\n### 5. Convert 24 bits to bytes and 2 KiB to bytes.\n\n24 divided by 8 equals 3 bytes. Two KiB equal 2 times 1,024, or 2,048 bytes. State the prefix convention used.\n\n### 6. Explain byte-addressable memory.\n\nIn a byte-addressable model, each memory address selects one byte location. If n address bits provide every usable combination, they identify 2 to the power n locations.\n\n### 7. Distinguish RAM from flash.\n\nOrdinary main RAM provides volatile working memory. Flash is electrically rewritable non-volatile memory used for persistent storage and firmware.\n\n### 8. Explain the legacy term CMOS memory.\n\nIt commonly refers to small battery-backed RAM used for configuration settings. CMOS itself is a semiconductor technology; firmware code, clock circuitry and settings must be distinguished.\n\n### 9. Distinguish an expansion slot from a drive bay.\n\nAn expansion slot is an electrical interface for a compatible card. A drive bay is a physical mounting position for a drive, which still needs its appropriate connections.\n\n### 10. Why does USB-C shape not establish every capability?\n\nUSB-C specifies a connector family. Data speed, video functions and power support depend on the port, device, cable and their supported specifications.\n\n### 11. Distinguish VGA from HDMI.\n\nVGA is an analogue video interface. HDMI carries digital video and supported digital audio. A change of plug shape does not always provide signal conversion.\n\n### 12. Distinguish a PSU from a UPS.\n\nA desktop PSU converts mains AC into regulated DC for internal components. A UPS can supply temporary backup power during a mains interruption; it does not replace the internal PSU.\n\n## Solved long questions\n\n### 1. Explain the motherboard and its major connections.\n\n**Definition.** The motherboard is the main circuit board, not the complete case or the processor alone.\n\n**Connections.** It provides supported connections for the processor, memory, expansion cards, storage interfaces, power and external peripherals. Their layout depends on the model.\n\n**Communication.** Data signals carry values, address signals identify locations and control signals coordinate operations. Modern systems use several specialised interconnects.\n\n**Compatibility.** Check the exact manual, socket, memory support, firmware requirements, power and clearance. A component's appearance or mechanical fit alone is not proof of compatibility.\n\n### 2. Explain processor operation and compare processor performance sensibly.\n\n**Functional units.** The ALU performs arithmetic and logical operations. The control unit coordinates instruction processing, and registers hold fast working values and state.\n\n**Machine cycle.** Use fetch, decode, execute and write back to describe the basic process. For an addition, obtain and interpret the instruction, perform the addition and place the result in the required destination.\n\n**Timing.** The clock provides timing, measured in cycles per second. GHz means billions of cycles per second, not necessarily an equal number of completed instructions.\n\n**Comparison.** Consider architecture, core and thread counts, cache, workload, power and cooling. Use comparable workload measurements and check motherboard compatibility; one high specification does not establish the best processor for every task.\n\n### 3. Explain memory units and compare RAM ROM cache flash and CMOS settings memory.\n\n**Units and addresses.** One byte is eight bits. KiB means 1,024 bytes. In a byte-addressable model, n independent usable address bits identify 2 to the power n byte locations.\n\n**RAM and ROM.** Ordinary main RAM is volatile working memory. ROM is an introductory category for read-only or read-mostly non-volatile memory.\n\n**Cache and flash.** Cache holds useful copies for fast access near processing. Flash is rewritable non-volatile memory used for persistent storage and firmware.\n\n**CMOS terminology.** CMOS is a technology. The legacy term CMOS memory often means battery-backed settings RAM. Do not equate a battery with firmware storage or treat battery-backed RAM as inherently non-volatile.\n\n**Worked example.** 16 bytes contain 128 bits. Ten address bits identify 1,024 locations when all combinations are usable; that is 1 KiB in the stated byte-addressable model.\n\n### 4. Explain expansion slots adapter cards and drive bays.\n\n**Expansion.** A slot supplies a compatible electrical interface for an adapter card. Graphics, network and audio cards add functions that may also be integrated.\n\n**Interfaces.** PCIe is distinct from legacy PCI and AGP. Check supported lane configuration rather than judging electrical capability solely by slot length.\n\n**Mounting.** A drive bay supports a physical drive. Suitable data, power and mounting connections are still needed. An M.2 device may mount directly on the motherboard.\n\n**Upgrade checks.** Use the exact board and case documentation to check interface, keying, clearance, power and compatibility. Do not force a card or work inside a powered machine.\n\n### 5. Compare the ports listed in the syllabus.\n\n**USB.** USB supports peripherals, data and applicable power functions. Type-C shape alone does not establish data speed, video or charging capability.\n\n**Displays.** VGA carries analogue video. HDMI supports digital video and applicable audio. Analogue/digital conversion can require active electronics.\n\n**Audio and networking.** Audio ports serve defined input/output roles. Common copper Ethernet uses the eight-position modular connector often called RJ-45. Check labels and documentation.\n\n**FireWire and matching.** FireWire is associated with IEEE 1394. Match device, port and cable without force; older syllabus interfaces are not present on every current PC.\n\n### 6. Explain the power supply and appropriate student precautions.\n\n**Function.** A desktop PSU converts mains AC into regulated DC outputs used by internal components. A laptop can use an external adapter and internal power-management circuitry.\n\n**Selection.** Check rated capability, supported connectors, expected load and manufacturer guidance. A watt rating is not constant consumption. Efficiency compares useful output power with input power.\n\n**Connections.** Use the correct CPU, motherboard, drive and graphics connections as specified. Modular cables are not universally interchangeable across PSU models.\n\n**Backup and safety.** A UPS supplies temporary backup and is different from a PSU. Keep ventilation clear. Use supervised identification on a disconnected training system; never open a PSU enclosure because stored energy can remain hazardous.\n\n## Expected practice and past-paper status\n\nThe questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use all six topic sections for preparation.\n\n## Practical activities and viva preparation\n\n### Label a motherboard diagram\n\nUse the exact manufacturer's diagram or an unplugged training system under supervision. Identify the CPU location, RAM slots, expansion slots, storage connectors and power connections.\n\n**Expected result:** A labelled diagram with five correct component roles; no powered internal work.\n\n### Trace an instruction\n\nWrite fetch, decode, execute and write back for an instruction that adds two values. State where the result is placed and why the model does not guarantee four clock cycles.\n\n**Expected result:** A correctly ordered trace distinguishing a clock cycle from a complete instruction.\n\n### Calculate units and addresses\n\nConvert 40 bits to bytes, 4 KiB to bytes and calculate the locations identified by 10 address bits in an idealised byte-addressable system.\n\n**Expected result:** 5 bytes, 4,096 bytes and 1,024 byte locations respectively.\n\n### Compare compatible processors\n\nUse two manufacturer specification sheets and a motherboard support list. Record architecture or generation, clock behaviour, cores, cache, power and supported platform. State a workload before choosing.\n\n**Expected result:** A justified comparison that does not rank every workload by GHz alone.\n\n### Identify connections safely\n\nUse labelled pictures or the external connectors of a switched-off device. Distinguish USB, HDMI, VGA where present, audio and Ethernet. Read a PSU label without opening its enclosure.\n\n**Expected result:** Correct interface roles and a distinction between watt capacity, conversion and backup power.\n\n### Viva questions\n\nWhy is the motherboard different from the processor? Is one clock cycle always one instruction? Why are KiB and kB different? Does USB-C guarantee video? Why must a PSU enclosure remain closed?\n\n## Chapter practice test\n\nSuggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.\n\n### Q1. Which item is normally fitted into a supported desktop CPU socket?\n\nA) Processor\n\nB) Memory module\n\nC) PCIe network card\n\nD) SATA data cable\n\n### Q2. What does an address signal identify in a basic computer model?\n\nA) The value of every stored file at once\n\nB) A memory or device location\n\nC) The colour of an output pixel only\n\nD) The voltage rating of a power cable\n\n### Q3. Why should a board diagram not be treated as the exact layout of every PC?\n\nA) Every motherboard has identical connector positions\n\nB) A motherboard contains no physical components\n\nC) Only the case determines all internal interfaces\n\nD) Layouts and integrated functions vary by model\n\n### Q4. Which CPU unit performs arithmetic and logical comparisons?\n\nA) Control unit\n\nB) Power supply unit\n\nC) Storage controller\n\nD) Arithmetic logic unit\n\n### Q5. Which step obtains the next instruction?\n\nA) Decode\n\nB) Execute\n\nC) Fetch\n\nD) Write back\n\n### Q6. In the simplified cycle, which step performs the requested calculation?\n\nA) Fetch\n\nB) Decode\n\nC) Select a display connector\n\nD) Execute\n\n### Q7. What does a 3 GHz processor clock specify?\n\nA) Three billion clock cycles per second\n\nB) Exactly three billion complete instructions for every program\n\nC) Three gigabytes of RAM capacity\n\nD) Three processor cores\n\n### Q8. What is a processor register?\n\nA) A permanent folder on an SSD\n\nB) A socket for a monitor cable\n\nC) The main AC input connector\n\nD) A small fast storage location within the CPU\n\n### Q9. How many bytes are in 1 KiB?\n\nA) 1,000\n\nB) 8\n\nC) 1,048,576\n\nD) 1,024\n\n### Q10. How many distinct locations can eight address bits identify if every combination is usable?\n\nA) 8\n\nB) 16\n\nC) 256\n\nD) 64\n\n### Q11. Which type is electrically rewritable and retains data without continuous power?\n\nA) Ordinary main RAM\n\nB) Flash memory\n\nC) A volatile processor register\n\nD) An unpowered ordinary cache\n\n### Q12. What is an expansion slot used for?\n\nA) Mount every storage drive without any electrical connection\n\nB) Connect a compatible expansion card to the motherboard\n\nC) Attach a case side panel\n\nD) Store BIOS settings in a battery\n\n### Q13. Which statement about PCIe slot appearance is correct?\n\nA) All slots of equal length always have identical electrical configurations\n\nB) Physical length does not always establish the wired lane count\n\nC) PCIe and legacy PCI are the same connector\n\nD) A slot's colour alone proves supported bandwidth\n\n### Q14. What must be checked besides a drive's physical mounting space?\n\nA) Only its label colour\n\nB) Only whether it is heavier than the old drive\n\nC) Compatible data and power connections where required\n\nD) Only the number of desktop icons\n\n### Q15. What does a USB-C connector alone guarantee?\n\nA) The fastest USB data rate on every cable\n\nB) Video output on every port\n\nC) A connector form, not one universal data speed or charging capability\n\nD) Identical power capability on every device\n\n### Q16. Why might a simple plug-shape adapter fail between VGA and HDMI?\n\nA) The two signals are necessarily identical\n\nB) A passive adapter always converts every video mode\n\nC) Analogue and digital signal conversion may require active electronics\n\nD) Changing the cable colour performs conversion\n\n### Q17. What should be checked before expecting video output through USB-C?\n\nA) Only that both plugs are reversible\n\nB) Only that the cable charges another device\n\nC) Support in the computer port, cable and display connection\n\nD) Only that the connector is smaller than USB-A\n\n### Q18. What does a 500 W PSU rating normally describe?\n\nA) A guarantee of constant 500 W consumption\n\nB) Its specified output capability under rated conditions\n\nC) A 500 GHz processor frequency\n\nD) 500 bytes of working memory\n\n### Q19. Why should PSU ventilation remain clear?\n\nA) To increase the number of CPU cores\n\nB) To save files permanently without storage\n\nC) To convert USB into Ethernet\n\nD) To support cooling and reliable operation\n\n### Q20. Which statement distinguishes a PSU from a surge protector?\n\nA) They serve different roles; surge protection is not automatically battery backup\n\nB) Every surge protector replaces the internal PSU\n\nC) Every PSU provides hours of backup during an outage\n\nD) Both are types of processor memory\n\n### Short questions\n\n1. Define a motherboard.\n\n2. Distinguish the ALU from the control unit.\n\n3. What does GHz measure?\n\n4. Convert 24 bits to bytes and 2 KiB to bytes.\n\n5. Explain byte-addressable memory.\n\n6. Distinguish RAM from flash.\n\n7. Explain the legacy term CMOS memory.\n\n8. Distinguish an expansion slot from a drive bay.\n\n9. Why does USB-C shape not establish every capability?\n\n10. Distinguish VGA from HDMI.\n\n### Long questions\n\n1. Explain processor operation and compare processor performance sensibly.\n\n2. Explain expansion slots adapter cards and drive bays.\n\n3. Explain the power supply and appropriate student precautions.\n\n## Practice test answer key and explanations\n\n1. **A**. A CPU socket is designed for a compatible processor.\n\n2. **B**. Addresses select locations while data signals carry values.\n\n3. **D**. Manufacturers and platform designs use different arrangements.\n\n4. **D**. The ALU carries out arithmetic and logical operations.\n\n5. **C**. Fetch obtains an instruction from the memory hierarchy.\n\n6. **D**. Execution carries out the operation specified by the decoded instruction.\n\n7. **A**. Frequency counts cycles per second, not memory capacity or a guaranteed instruction rate.\n\n8. **D**. Registers hold values and state close to processor operations.\n\n9. **D**. KiB is the binary prefix for 1,024 bytes; decimal kB means 1,000 bytes.\n\n10. **C**. Eight address bits provide 2 to the power 8, or 256, combinations.\n\n11. **B**. Flash is non-volatile and supports controlled electrical rewriting.\n\n12. **B**. An expansion slot provides a supported electrical interface for a card.\n\n13. **B**. Boards can wire or share slots differently; consult the manual.\n\n14. **C**. A mounted drive still needs appropriate connections and system support.\n\n15. **C**. Actual USB-C functions depend on the participating port, cable and device.\n\n16. **C**. Changing connector shape is not the same as converting the signal format.\n\n17. **C**. The necessary video capability must be supported across the connection.\n\n18. **B**. The capacity rating is not a statement that the computer always consumes that amount.\n\n19. **D**. Ventilation helps remove heat generated during power conversion.\n\n20. **A**. Power conversion, surge protection and backup power are separate functions.\n\n### Written-answer guidance\n\nShort questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.\n\n## Sources and further study\n\n- [PBTE official two-year DIT syllabus, ICT Module 2, page 7](https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf)\n\n- [Intel CPU clock speed and performance](https://www.intel.com/content/www/us/en/gaming/resources/cpu-clock-speed.html)\n\n- [USB-IF Type-C connector and capability guidance](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf)\n\n- [NIST binary prefixes and bit/byte units](https://physics.nist.gov/cuu/Units/binary.html)\n\n- [Micron memory and persistent storage](https://www.micron.com/about/micron-glossary/data-storage)\n\n- [Corsair modular PSU cable compatibility](https://www.corsair.com/ww/en/explorer/diy-builder/power-supply-units/are-psu-cables-universal/)\n\n- [Dell CMOS battery and settings behaviour](https://www.dell.com/support/kbdoc/en-us/000202232/battery-will-enter-storage-mode-after-computer-is-powered-off-for-1-to-3-weeks)\n\n## Continue your ICT revision\n\n[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).\n",
+  "questions": [
+    {
+      "id": "dit-ict-ch2-q01",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "What is the primary role of the motherboard?",
+      "options": [
+        "Store every user file permanently",
+        "Perform every arithmetic operation by itself",
+        "Connect the main components of a computer",
+        "Supply all mains electricity directly to peripherals"
+      ],
+      "correctIndex": 2,
+      "explanation": "The board provides connections and interfaces for the system's components."
+    },
+    {
+      "id": "dit-ict-ch2-q02",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Which item is normally fitted into a supported desktop CPU socket?",
+      "options": [
+        "Processor",
+        "Memory module",
+        "PCIe network card",
+        "SATA data cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "A CPU socket is designed for a compatible processor."
+    },
+    {
+      "id": "dit-ict-ch2-q03",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Which compatibility check is most appropriate before buying a CPU?",
+      "options": [
+        "Only the colour of the CPU package",
+        "Only the computer case's brand",
+        "Only the monitor connector",
+        "Motherboard socket, support list and firmware requirements"
+      ],
+      "correctIndex": 3,
+      "explanation": "A compatible socket alone may not establish platform and firmware support."
+    },
+    {
+      "id": "dit-ict-ch2-q04",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "What does an address signal identify in a basic computer model?",
+      "options": [
+        "The value of every stored file at once",
+        "A memory or device location",
+        "The colour of an output pixel only",
+        "The voltage rating of a power cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Addresses select locations while data signals carry values."
+    },
+    {
+      "id": "dit-ict-ch2-q05",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Which signals coordinate operations such as reads and writes?",
+      "options": [
+        "Control signals",
+        "Only audio signals",
+        "Only display colour signals",
+        "Only battery-charge indicators"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control signals coordinate the use of data and addressed locations."
+    },
+    {
+      "id": "dit-ict-ch2-q06",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Where is modern PC firmware commonly stored?",
+      "options": [
+        "Only in ordinary unpowered RAM",
+        "Only inside a printer cartridge",
+        "Non-volatile flash memory",
+        "Only on a display cable"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flash retains firmware without power and can support controlled updates."
+    },
+    {
+      "id": "dit-ict-ch2-q07",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Which statement correctly distinguishes the case from the motherboard?",
+      "options": [
+        "They are always names for the same part",
+        "The case houses components; the motherboard connects them",
+        "The case executes instructions and the board only displays them",
+        "The motherboard is an external protective cover"
+      ],
+      "correctIndex": 1,
+      "explanation": "A case is an enclosure; the board provides electrical interconnections."
+    },
+    {
+      "id": "dit-ict-ch2-q08",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Why should a board diagram not be treated as the exact layout of every PC?",
+      "options": [
+        "Every motherboard has identical connector positions",
+        "A motherboard contains no physical components",
+        "Only the case determines all internal interfaces",
+        "Layouts and integrated functions vary by model"
+      ],
+      "correctIndex": 3,
+      "explanation": "Manufacturers and platform designs use different arrangements."
+    },
+    {
+      "id": "dit-ict-ch2-q09",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "Which source should identify an unfamiliar motherboard header?",
+      "options": [
+        "An unrelated board's photograph alone",
+        "The cable colour alone",
+        "The exact motherboard model's manual",
+        "The connector's apparent size alone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Model-specific documentation identifies headers and their pin assignments."
+    },
+    {
+      "id": "dit-ict-ch2-q10",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.1 The Motherboard",
+      "question": "What does a small motherboard battery commonly maintain?",
+      "options": [
+        "All user files on an SSD",
+        "The real-time clock and some legacy settings storage",
+        "Every program running in RAM",
+        "The CPU's operating power during normal work"
+      ],
+      "correctIndex": 1,
+      "explanation": "The battery has a limited supporting role and is not the system's main power source."
+    },
+    {
+      "id": "dit-ict-ch2-q11",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "Which CPU unit performs arithmetic and logical comparisons?",
+      "options": [
+        "Control unit",
+        "Power supply unit",
+        "Storage controller",
+        "Arithmetic logic unit"
+      ],
+      "correctIndex": 3,
+      "explanation": "The ALU carries out arithmetic and logical operations."
+    },
+    {
+      "id": "dit-ict-ch2-q12",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "What is the main role of the control unit?",
+      "options": [
+        "Coordinate instruction processing",
+        "Store all user files permanently",
+        "Convert mains AC to low-voltage DC",
+        "Produce printed output"
+      ],
+      "correctIndex": 0,
+      "explanation": "The control unit coordinates processor operations rather than replacing the ALU or storage."
+    },
+    {
+      "id": "dit-ict-ch2-q13",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "Which step obtains the next instruction?",
+      "options": [
+        "Decode",
+        "Execute",
+        "Fetch",
+        "Write back"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fetch obtains an instruction from the memory hierarchy."
+    },
+    {
+      "id": "dit-ict-ch2-q14",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "Which step determines the operation specified by an instruction?",
+      "options": [
+        "Decode",
+        "Fetch",
+        "Print",
+        "Save the whole application"
+      ],
+      "correctIndex": 0,
+      "explanation": "Decoding identifies the operation and relevant operands."
+    },
+    {
+      "id": "dit-ict-ch2-q15",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "In the simplified cycle, which step performs the requested calculation?",
+      "options": [
+        "Fetch",
+        "Decode",
+        "Select a display connector",
+        "Execute"
+      ],
+      "correctIndex": 3,
+      "explanation": "Execution carries out the operation specified by the decoded instruction."
+    },
+    {
+      "id": "dit-ict-ch2-q16",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "What does write back do when an instruction produces a stored result?",
+      "options": [
+        "Always print the result",
+        "Place the result in the required destination",
+        "Always overwrite the whole hard drive",
+        "Always restart the computer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The destination may be a register or an applicable memory location."
+    },
+    {
+      "id": "dit-ict-ch2-q17",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "What does a 3 GHz processor clock specify?",
+      "options": [
+        "Three billion clock cycles per second",
+        "Exactly three billion complete instructions for every program",
+        "Three gigabytes of RAM capacity",
+        "Three processor cores"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency counts cycles per second, not memory capacity or a guaranteed instruction rate."
+    },
+    {
+      "id": "dit-ict-ch2-q18",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "Which statement about the teaching machine-cycle model is correct?",
+      "options": [
+        "It proves that all instructions take exactly one cycle",
+        "It describes only printer operations",
+        "It does not imply every instruction takes exactly four clock cycles",
+        "It prevents instructions from overlapping internally"
+      ],
+      "correctIndex": 2,
+      "explanation": "Modern implementations can overlap operations and use different instruction timings."
+    },
+    {
+      "id": "dit-ict-ch2-q19",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "Which processor comparison is the most informative?",
+      "options": [
+        "Only comparing the GHz numbers of unrelated designs",
+        "Relevant workload measurements on compatible comparable systems",
+        "Only comparing case sizes",
+        "Assuming twice the core count always halves every task's time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Actual workload behaviour depends on several processor and system characteristics."
+    },
+    {
+      "id": "dit-ict-ch2-q20",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.2 Processor and the Machine Cycle",
+      "question": "What is a processor register?",
+      "options": [
+        "A permanent folder on an SSD",
+        "A socket for a monitor cable",
+        "The main AC input connector",
+        "A small fast storage location within the CPU"
+      ],
+      "correctIndex": 3,
+      "explanation": "Registers hold values and state close to processor operations."
+    },
+    {
+      "id": "dit-ict-ch2-q21",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "How many bits are in one byte?",
+      "options": [
+        "2",
+        "16",
+        "8",
+        "1,024"
+      ],
+      "correctIndex": 2,
+      "explanation": "A byte contains eight bits."
+    },
+    {
+      "id": "dit-ict-ch2-q22",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "How many bytes are represented by 32 bits?",
+      "options": [
+        "8",
+        "4",
+        "32",
+        "256"
+      ],
+      "correctIndex": 1,
+      "explanation": "Divide the number of bits by eight: 32 divided by 8 equals 4 bytes."
+    },
+    {
+      "id": "dit-ict-ch2-q23",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "How many bytes are in 1 KiB?",
+      "options": [
+        "1,000",
+        "8",
+        "1,048,576",
+        "1,024"
+      ],
+      "correctIndex": 3,
+      "explanation": "KiB is the binary prefix for 1,024 bytes; decimal kB means 1,000 bytes."
+    },
+    {
+      "id": "dit-ict-ch2-q24",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "In a byte-addressable model, what does one address select?",
+      "options": [
+        "One byte location",
+        "Always one complete file",
+        "Always one application",
+        "A CPU clock frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The addressing unit is one byte in the stated model."
+    },
+    {
+      "id": "dit-ict-ch2-q25",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "How many distinct locations can eight address bits identify if every combination is usable?",
+      "options": [
+        "8",
+        "16",
+        "256",
+        "64"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eight address bits provide 2 to the power 8, or 256, combinations."
+    },
+    {
+      "id": "dit-ict-ch2-q26",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "Which type normally provides volatile main working memory?",
+      "options": [
+        "RAM",
+        "Flash storage",
+        "Read-only memory",
+        "An SSD's persistent file storage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ordinary main RAM needs power to retain its contents."
+    },
+    {
+      "id": "dit-ict-ch2-q27",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "What is the main purpose of cache memory?",
+      "options": [
+        "Replace all persistent storage",
+        "Keep all user files permanently without power",
+        "Increase the physical size of every file",
+        "Reduce average access time by keeping useful copies near processing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cache holds copies that can be accessed more quickly than fetching them from a slower level."
+    },
+    {
+      "id": "dit-ict-ch2-q28",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "Which type is electrically rewritable and retains data without continuous power?",
+      "options": [
+        "Ordinary main RAM",
+        "Flash memory",
+        "A volatile processor register",
+        "An unpowered ordinary cache"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flash is non-volatile and supports controlled electrical rewriting."
+    },
+    {
+      "id": "dit-ict-ch2-q29",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "What does legacy PC CMOS settings memory usually refer to?",
+      "options": [
+        "Small battery-backed RAM for configuration settings",
+        "The complete operating-system installation",
+        "All files on an SSD",
+        "A display's video memory only"
+      ],
+      "correctIndex": 0,
+      "explanation": "In older designs, a battery maintains small configuration RAM and the clock."
+    },
+    {
+      "id": "dit-ict-ch2-q30",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.3 Memory Bits Bytes and Addressing",
+      "question": "Which introductory memory category describes read-only or read-mostly non-volatile information?",
+      "options": [
+        "Ordinary main RAM",
+        "A volatile CPU cache",
+        "ROM",
+        "A volatile processor register"
+      ],
+      "correctIndex": 2,
+      "explanation": "ROM is read-only or read-mostly non-volatile memory; RAM and ordinary processor working storage are volatile."
+    },
+    {
+      "id": "dit-ict-ch2-q31",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "What is an expansion slot used for?",
+      "options": [
+        "Mount every storage drive without any electrical connection",
+        "Connect a compatible expansion card to the motherboard",
+        "Attach a case side panel",
+        "Store BIOS settings in a battery"
+      ],
+      "correctIndex": 1,
+      "explanation": "An expansion slot provides a supported electrical interface for a card."
+    },
+    {
+      "id": "dit-ict-ch2-q32",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "Which adapter is intended to add a wired network interface?",
+      "options": [
+        "Graphics adapter",
+        "Audio adapter",
+        "Storage-only mounting bracket",
+        "Ethernet network adapter"
+      ],
+      "correctIndex": 3,
+      "explanation": "A network adapter provides the required networking interface."
+    },
+    {
+      "id": "dit-ict-ch2-q33",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "What is a drive bay primarily?",
+      "options": [
+        "A processor instruction register",
+        "A display signal standard",
+        "A physical mounting space for a suitable drive",
+        "A memory address bus"
+      ],
+      "correctIndex": 2,
+      "explanation": "The bay supports installation in the case; data and power interfaces are separate considerations."
+    },
+    {
+      "id": "dit-ict-ch2-q34",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "Which statement about PCIe slot appearance is correct?",
+      "options": [
+        "All slots of equal length always have identical electrical configurations",
+        "Physical length does not always establish the wired lane count",
+        "PCIe and legacy PCI are the same connector",
+        "A slot's colour alone proves supported bandwidth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Boards can wire or share slots differently; consult the manual."
+    },
+    {
+      "id": "dit-ict-ch2-q35",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "Which function can a graphics adapter provide?",
+      "options": [
+        "Mains AC distribution to the building",
+        "Only permanent backup of all user files",
+        "Only keyboard-language selection",
+        "Graphics processing and display outputs"
+      ],
+      "correctIndex": 3,
+      "explanation": "Graphics adapters support image processing and display connections."
+    },
+    {
+      "id": "dit-ict-ch2-q36",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "Why might a computer not need a separate sound card?",
+      "options": [
+        "It may already provide integrated audio",
+        "All computers operate without audio hardware",
+        "A power cable always processes audio",
+        "The CPU socket accepts audio plugs directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Audio functions can be integrated rather than supplied on an add-in card."
+    },
+    {
+      "id": "dit-ict-ch2-q37",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "What must be checked besides a drive's physical mounting space?",
+      "options": [
+        "Only its label colour",
+        "Only whether it is heavier than the old drive",
+        "Compatible data and power connections where required",
+        "Only the number of desktop icons"
+      ],
+      "correctIndex": 2,
+      "explanation": "A mounted drive still needs appropriate connections and system support."
+    },
+    {
+      "id": "dit-ict-ch2-q38",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "Which device may mount directly on a compatible motherboard connector?",
+      "options": [
+        "M.2 SSD",
+        "External display projector",
+        "Standard 3.5-inch desktop hard drive in every case",
+        "USB keyboard"
+      ],
+      "correctIndex": 0,
+      "explanation": "An M.2 SSD can be secured directly on the motherboard's supported connector."
+    },
+    {
+      "id": "dit-ict-ch2-q39",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "Which statement about M.2 is most accurate?",
+      "options": [
+        "Every M.2 device is necessarily NVMe storage",
+        "Every M.2 device uses a front optical bay",
+        "M.2 is a type of mains power supply",
+        "The form factor alone does not guarantee one storage protocol"
+      ],
+      "correctIndex": 3,
+      "explanation": "Supported protocols and keying depend on both the module and the system."
+    },
+    {
+      "id": "dit-ict-ch2-q40",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.4 Expansion Slots Adapter Cards and Drive Bays",
+      "question": "What is the correct approach when a card does not fit its intended slot?",
+      "options": [
+        "Force it until the connector bends",
+        "Stop and check compatibility and orientation",
+        "Insert it while the computer is powered",
+        "Cut an edge from the connector"
+      ],
+      "correctIndex": 1,
+      "explanation": "A mismatch or obstruction should be investigated rather than overcome by force."
+    },
+    {
+      "id": "dit-ict-ch2-q41",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "Which statement best distinguishes a connector from a protocol?",
+      "options": [
+        "A connector is physical; a protocol defines communication rules",
+        "They always mean the same thing",
+        "A protocol is the metal plug only",
+        "Connector colour completely defines the communication rules"
+      ],
+      "correctIndex": 0,
+      "explanation": "Physical shape and communication behaviour are different properties."
+    },
+    {
+      "id": "dit-ict-ch2-q42",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "What does a USB-C connector alone guarantee?",
+      "options": [
+        "The fastest USB data rate on every cable",
+        "Video output on every port",
+        "A connector form, not one universal data speed or charging capability",
+        "Identical power capability on every device"
+      ],
+      "correctIndex": 2,
+      "explanation": "Actual USB-C functions depend on the participating port, cable and device."
+    },
+    {
+      "id": "dit-ict-ch2-q43",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "Which interface is associated with analogue video?",
+      "options": [
+        "HDMI",
+        "VGA",
+        "Ethernet",
+        "FireWire"
+      ],
+      "correctIndex": 1,
+      "explanation": "VGA is an analogue video interface."
+    },
+    {
+      "id": "dit-ict-ch2-q44",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "Which interface commonly carries digital video and supported digital audio?",
+      "options": [
+        "VGA alone",
+        "An ordinary microphone-input connector",
+        "A standard Ethernet socket used only for networking",
+        "HDMI"
+      ],
+      "correctIndex": 3,
+      "explanation": "HDMI supports digital display signals and audio on compatible equipment."
+    },
+    {
+      "id": "dit-ict-ch2-q45",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "Why might a simple plug-shape adapter fail between VGA and HDMI?",
+      "options": [
+        "The two signals are necessarily identical",
+        "A passive adapter always converts every video mode",
+        "Analogue and digital signal conversion may require active electronics",
+        "Changing the cable colour performs conversion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Changing connector shape is not the same as converting the signal format."
+    },
+    {
+      "id": "dit-ict-ch2-q46",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "What should identify whether an audio socket is microphone input or headphone output?",
+      "options": [
+        "Only the computer's clock speed",
+        "Its labels and device documentation",
+        "Only the USB cable's length",
+        "Only the installed RAM capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio ports can serve different roles and need correct identification."
+    },
+    {
+      "id": "dit-ict-ch2-q47",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "Which connector is commonly called RJ-45 in PC networking?",
+      "options": [
+        "The VGA display connector",
+        "A processor socket",
+        "The mains AC plug",
+        "The common eight-position copper Ethernet connector"
+      ],
+      "correctIndex": 3,
+      "explanation": "The term is commonly used for the modular connector on copper Ethernet leads."
+    },
+    {
+      "id": "dit-ict-ch2-q48",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "Which standard is associated with FireWire?",
+      "options": [
+        "IEEE 1394",
+        "HDMI",
+        "VGA",
+        "The ATX power specification"
+      ],
+      "correctIndex": 0,
+      "explanation": "FireWire is associated with IEEE 1394, not USB or display-only interfaces."
+    },
+    {
+      "id": "dit-ict-ch2-q49",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "What should be checked before expecting video output through USB-C?",
+      "options": [
+        "Only that both plugs are reversible",
+        "Only that the cable charges another device",
+        "Support in the computer port, cable and display connection",
+        "Only that the connector is smaller than USB-A"
+      ],
+      "correctIndex": 2,
+      "explanation": "The necessary video capability must be supported across the connection."
+    },
+    {
+      "id": "dit-ict-ch2-q50",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.5 Ports and Connectors",
+      "question": "What should a student do if a connector requires unusual force?",
+      "options": [
+        "Stop and check the type and orientation",
+        "Push until the socket bends",
+        "Connect it to any larger-looking socket",
+        "Ignore the device manual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correctly matched connectors should be handled gently and according to documentation."
+    },
+    {
+      "id": "dit-ict-ch2-q51",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "What does a desktop PSU primarily do?",
+      "options": [
+        "Execute application instructions",
+        "Store BIOS configuration values",
+        "Convert analogue video to HDMI",
+        "Convert mains AC into regulated DC outputs"
+      ],
+      "correctIndex": 3,
+      "explanation": "The PSU provides suitable electrical power for computer components."
+    },
+    {
+      "id": "dit-ict-ch2-q52",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "What does a 500 W PSU rating normally describe?",
+      "options": [
+        "A guarantee of constant 500 W consumption",
+        "Its specified output capability under rated conditions",
+        "A 500 GHz processor frequency",
+        "500 bytes of working memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capacity rating is not a statement that the computer always consumes that amount."
+    },
+    {
+      "id": "dit-ict-ch2-q53",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Which measurement describes the ratio of useful output power to input power?",
+      "options": [
+        "Efficiency",
+        "Processor frequency",
+        "Memory address width",
+        "File capacity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency concerns how much input power becomes useful output."
+    },
+    {
+      "id": "dit-ict-ch2-q54",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Which statement about modular PSU cables is correct?",
+      "options": [
+        "Any cable that physically fits is universally safe",
+        "All brands use identical PSU-side pin assignments",
+        "Use cables approved for the exact PSU model",
+        "Cable colour proves electrical compatibility"
+      ],
+      "correctIndex": 2,
+      "explanation": "Different modular PSU models can use different wiring even when connectors look similar."
+    },
+    {
+      "id": "dit-ict-ch2-q55",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Which device can provide temporary backup power during a mains outage?",
+      "options": [
+        "Ordinary CPU cache",
+        "UPS",
+        "An unpowered motherboard",
+        "A passive HDMI adapter"
+      ],
+      "correctIndex": 1,
+      "explanation": "A UPS provides stored-energy backup; the internal PSU has a different role."
+    },
+    {
+      "id": "dit-ict-ch2-q56",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Why should PSU ventilation remain clear?",
+      "options": [
+        "To increase the number of CPU cores",
+        "To save files permanently without storage",
+        "To convert USB into Ethernet",
+        "To support cooling and reliable operation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ventilation helps remove heat generated during power conversion."
+    },
+    {
+      "id": "dit-ict-ch2-q57",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "What is the correct student response to a suspected internal PSU fault?",
+      "options": [
+        "Open the PSU enclosure immediately",
+        "Probe its mains circuitry during operation",
+        "Stop using the equipment and refer it to qualified service",
+        "Insert a metal tool through its fan grille"
+      ],
+      "correctIndex": 2,
+      "explanation": "PSU internals can contain hazardous voltages and stored energy."
+    },
+    {
+      "id": "dit-ict-ch2-q58",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Why is unplugging not permission to open a PSU enclosure?",
+      "options": [
+        "It guarantees immediate removal of all stored energy",
+        "Stored energy may remain hazardous",
+        "It converts every internal component to harmless plastic",
+        "It turns the PSU into a low-voltage battery only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Internal capacitors can retain hazardous energy after disconnection."
+    },
+    {
+      "id": "dit-ict-ch2-q59",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Which check is needed when selecting a PSU for an upgrade?",
+      "options": [
+        "Only the number of desktop icons",
+        "Only the monitor's screen size",
+        "Only the motherboard's colour",
+        "Adequate capacity and the correct supported connectors"
+      ],
+      "correctIndex": 3,
+      "explanation": "The PSU must support the system's electrical and connector requirements."
+    },
+    {
+      "id": "dit-ict-ch2-q60",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 2,
+      "topic": "2.6 Power Supply",
+      "question": "Which statement distinguishes a PSU from a surge protector?",
+      "options": [
+        "They serve different roles; surge protection is not automatically battery backup",
+        "Every surge protector replaces the internal PSU",
+        "Every PSU provides hours of backup during an outage",
+        "Both are types of processor memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power conversion, surge protection and backup power are separate functions."
+    }
+  ],
+  "pdfBytes": 67784,
+  "pdfSha256": "f155eb9933b17924501b4a28f6e771a754322c3185dad60276f0fef8fd970eee",
+  "sourceSha256": "7c8550bee182d1f1c5f5fb6a5a1acaba6b4b81dfc0ced2dcfec1097429d74ebb"
+}
