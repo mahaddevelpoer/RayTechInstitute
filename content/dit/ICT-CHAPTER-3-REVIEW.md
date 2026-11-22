@@ -21,3 +21,9 @@ Chapter 3 has a separate stable chapter number, question IDs, note URL, diagram 
 Local checks: all 13 chapter tests pass, strict TypeScript passes, source/PDF hashes match, original chapter preservation checks pass, and the complete 36-page PDF was rendered and visually reviewed. Revision answers are bold with green shading; test answers are unmarked until the separate key. Tables stay together, headings follow the next content, and source links remain clickable. The editable Word draft is kept outside public files because native Word rendering is unavailable.
 
 Production artifact and live verification evidence will be appended after successful publication. A passing release does not establish search indexing or traffic recovery.
+
+## Verified production artifact
+
+Artifact run 45008858240 passed the complete production build, chapter tests, catalog/export checks, browser checks and release security checks on source revision 6a25b899d8e81e3003c290ff6136c4b28bd023d4. Cloudflare publication reuses this exact static export.
+
+Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45008858240
