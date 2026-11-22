@@ -9,3 +9,7 @@ Accuracy review distinguishes local Wi-Fi from Internet access, Internet from we
 References include PBTE, MDN, OpenSSH, NIST, CISA, FTC, W3C, ACM, NCCIA and HSE. All 42 PDF pages were rendered and visually reviewed in eleven contact sheets: no clipped text, broken MCQ blocks, answer leakage in the test, overlapping tables or footer collisions. Correct revision options are bold and green. The editable Word draft remains outside public assets pending native layout review.
 
 All 25 ICT tests passed locally, including each earlier question bank, note text and exact PDF hash. Seven separate chapter IDs and banks now total 488 ICT MCQs. Production build and live verification are pending.
+
+## Reviewed production export
+
+Artifact run 45023798376 passed the complete production build, all source and chapter checks, browser interaction checks, resource-directory checks and release security gates. Source revision: 79c0fed36f363cdaa05235e835dfe467c70ae73e. This exact export will be deployed without rebuilding.
