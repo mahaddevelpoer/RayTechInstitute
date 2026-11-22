@@ -56,7 +56,7 @@ test('roadmap separates theory and practical modules without inventing completed
  assert.equal(catalog.INITIAL_SUBJECTS.filter(s=>['dit-python','dit-operating-systems'].includes(s.slug)).length,0);
 });
 test('PDF and web guide use the same checked source and practice answers remain separate',async()=>{
- const sourceBytes=await fs.readFile('content/dit/ict-chapter-1.json');assert.equal(createHash('sha256').update(sourceBytes).digest('hex'),pack.sourceSha256);
+ const sourceBytes=await fs.readFile('content/dit/ict-chapter-1.json');assert.equal(createHash('sha256').update(sourceBytes.toString('utf8').replace(/\r\n/g,'\n')).digest('hex'),pack.sourceSha256);
  const pdf=await fs.readFile('public/documents/dit/ict/ict-chapter-1-introduction-to-computers.pdf');assert.equal(pdf.subarray(0,5).toString(),'%PDF-');assert.equal(pdf.length,pack.pdfBytes);assert.equal(createHash('sha256').update(pdf).digest('hex'),pack.pdfSha256);
  const testSection=pack.content.split('## Chapter practice test')[1].split('## Practice test answer key')[0];
  assert.equal((testSection.match(/^### Q\d+\./gm)||[]).length,20);assert.ok(!testSection.includes('Correct answer:'));assert.ok(!/\*\*[A-D]\)/.test(testSection));

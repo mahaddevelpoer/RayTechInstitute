@@ -29,7 +29,7 @@ test('both ICT chapters have isolated questions and preserve the published Chapt
  assert.equal(catalog.INITIAL_NOTES.find(n=>n.id==='dit-ict-chapter-2-system-unit-components').chapterNumber,2);
 });
 test('Chapter 2 web and PDF use the current reviewed source and keep practice answers separate',async()=>{
- const bytes=await fs.readFile('content/dit/ict-chapter-2.json');assert.equal(createHash('sha256').update(bytes).digest('hex'),pack.sourceSha256);
+ const bytes=await fs.readFile('content/dit/ict-chapter-2.json');assert.equal(createHash('sha256').update(bytes.toString('utf8').replace(/\r\n/g,'\n')).digest('hex'),pack.sourceSha256);
  const pdf=await fs.readFile('public/documents/dit/ict/ict-chapter-2-system-unit-components.pdf');assert.equal(pdf.subarray(0,5).toString(),'%PDF-');assert.equal(pdf.length,pack.pdfBytes);assert.equal(createHash('sha256').update(pdf).digest('hex'),pack.pdfSha256);
  const section=pack.content.split('## Chapter practice test')[1].split('## Practice test answer key')[0];
  assert.equal((section.match(/^### Q\d+\./gm)||[]).length,20);assert.ok(!section.includes('Correct answer:'));assert.ok(!/\*\*[A-D]\)/.test(section));

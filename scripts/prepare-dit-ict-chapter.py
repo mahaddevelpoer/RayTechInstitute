@@ -267,6 +267,6 @@ if chapter == 2:
     lines=''.join(f'<path d="M{x1} {y1}L{x2} {y2}" stroke="#032c68" stroke-width="2"/>' for x1,y1,x2,y2 in [(160,37,230,122),(480,37,410,122),(160,202,230,122),(480,202,410,122),(320,260,320,145)])
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-labelledby="title"><title id="title">Functional system unit component connections</title>{lines}{shapes}</svg>'
 (dest/diagram_name).write_text(svg,encoding='utf-8')
-generated=dict(title=data['title'],content=markdown,questions=questions,pdfBytes=pdf.stat().st_size,pdfSha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),sourceSha256=hashlib.sha256(source.read_bytes()).hexdigest())
+generated=dict(title=data['title'],content=markdown,questions=questions,pdfBytes=pdf.stat().st_size,pdfSha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),sourceSha256=hashlib.sha256(source.read_text(encoding='utf-8').encode('utf-8')).hexdigest())
 (ROOT/f'content/dit/ict-chapter-{chapter}.generated.json').write_text(json.dumps(generated,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 print(json.dumps({'questions':len(questions),'topics':len(data['topics']),'words':len(markdown.split()),'shortAnswers':len(short),'longAnswers':len(long),'practiceMCQs':len(test_questions),'pdfBytes':pdf.stat().st_size,'productionWrites':0}))
