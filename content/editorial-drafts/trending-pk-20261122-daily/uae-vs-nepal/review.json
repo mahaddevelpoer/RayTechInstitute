@@ -1,9 +1,12 @@
 {
-  "state": "database-saved-awaiting-hosting",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "rejectedImage": "An earlier portrait candidate carried an editorial watermark and was replaced with a licensed stadium photograph before publication.",
   "words": 2162,
-  "localChecks": "validation.json"
+  "localChecks": "validation.json",
+  "artifactRun": 45028004466,
+  "deploymentRun": 45028634873,
+  "liveVerification": "LIVE-BATCHES-1-5.json"
 }

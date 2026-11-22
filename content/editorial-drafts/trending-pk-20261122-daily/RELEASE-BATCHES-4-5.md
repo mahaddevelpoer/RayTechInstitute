@@ -7,3 +7,5 @@ Artifact run 45028004466 passed all source/build/export and browser checks, incl
 - MI Emirates–Desert Vipers: 2,139 body words, 42 tags and two licensed reviewed photographs. Club reporting and the match record establish the 52-run result. Derived calculations and fictional examples are labelled.
 - Insertions and read-back preserved all 611 earlier rows before the final article was added. Both articles await hosting verification.
 - Earlier failed UAE run 45027051116 is not used for deployment. This reviewed export contains both articles and the corrected readiness check.
+
+Deployment 45028634873 succeeded. All five new articles are verified on the custom domain: HTTP 200, listing/sitemap, exact image bytes, custom SEO title/description, canonical, one h1 and indexability. Deployment metadata matches the reviewed source. Evidence: LIVE-BATCHES-1-5.json.
