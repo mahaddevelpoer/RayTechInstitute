@@ -27,3 +27,9 @@ Chapter 6 has separate chapter/question IDs, note URL, SVG and PDF. ICT now cont
 The generator supports topic-specific question counts and displays accurate coverage tables rather than assuming uniform groups. All 22 chapter tests and strict TypeScript pass locally. Every page of the 33-page PDF was rendered and visually reviewed, including balanced answer placement, bold/green revision answers, unmarked test options, tables, complete long answers, diagram, reference links and chapter footers. The editable Word draft stays outside public files because native Word layout verification is unavailable.
 
 Production artifact and live verification evidence will be appended after successful publication. Passing release checks does not establish search indexing or traffic recovery.
+
+## Verified production artifact
+
+Artifact run 45016420243 passed the full production build, chapter tests, catalog/export checks, browser checks and release security checks on source revision 309c8456663b7384822f7126da0ea1a8b63ff9f9. Cloudflare publication reuses this exact static export.
+
+Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45016420243
