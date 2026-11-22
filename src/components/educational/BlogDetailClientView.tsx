@@ -236,7 +236,7 @@ export function BlogDetailClientView({
           loading="eager"
           decoding="async"
           fetchPriority="high"
-          className="w-full h-full object-cover"
+          className={`w-full h-full ${reviewedCover?.fit === 'contain' ? 'object-contain' : 'object-cover'}`}
           onError={(event) => {
             event.currentTarget.onerror = null;
             event.currentTarget.src = fallbackImage;

@@ -128,7 +128,7 @@ export function BlogsClientView() {
                   alt={REVIEWED_ARTICLE_COVERS[post.featuredImage]?.alt || post.title}
                   width={800}
                   height={450}
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full ${REVIEWED_ARTICLE_COVERS[post.featuredImage]?.fit === 'contain' ? 'object-contain' : 'object-cover'}`}
                   loading="lazy"
                   onError={(event) => {
                     event.currentTarget.onerror = null;

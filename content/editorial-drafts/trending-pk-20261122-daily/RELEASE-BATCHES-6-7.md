@@ -7,3 +7,5 @@ Primary-source checks and worked calculations are recorded beside each draft. Th
 Database insertion read-back verified one Riemann article while preserving 612 rows, then four further guides while preserving 613 rows. Public hosting and verification remain pending. Existing live Dar-e-Nijaat and scorecard improvements remain included.
 
 Source revision: e042aa016db731edbc0efdfcaa9a4b64677f16e6. Artifact run 45051972193 passed all build, source, academic, resource-directory and browser gates. The reviewed cloudflare-static-export artifact ID is 14765604317. Deployment must reuse this export.
+
+Deployment 45052592731 succeeded. All ten new articles returned successful public verification for metadata, sitemap, canonical, schema and exact image bytes. Dar-e-Nijaat and the scorecard link were preserved. Ten desktop/mobile checks found no overflow. Screenshot review additionally found that the generic landscape frame cropped the Riemann portrait and phone image. A scoped `contain` option is being applied to these five reviewed covers in article and listing views; existing covers retain their default presentation. Final layout verification is pending that correction.
