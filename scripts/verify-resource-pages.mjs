@@ -43,7 +43,11 @@ try{
  const {STATIC_OVERRIDES}=await loadTypescript('src/data/staticOverrides.ts');const ditBank=(STATIC_OVERRIDES.mcqs||[]).filter(q=>q.id.startsWith('dit-cn-ch1-'));
  if(ditBank.length){
   assert.equal(ditBank.length,80);await page.goto(base+'/classes/dit-intermediate/dit-computer-science/mcqs/',{waitUntil:'domcontentloaded'});
+  // Chapter cards are present in SSR. Wait for hydration before sending a click,
+  // then wait for the resulting topic view before checking its exact contents.
+  await page.waitForFunction(()=>{const toggle=document.querySelector('.site-header button[aria-label^="Switch to"]');return toggle&&!toggle.disabled;});
   await page.getByRole('button',{name:/Chapter 1: Basic Terminologies/}).click();
+  await page.getByRole('heading',{name:'Choose a topic',exact:true}).waitFor();
   assert.equal(await page.locator('.mcq-topic-grid>button').count(),8,'Chapter 1 must offer all eight source topics');
   await page.locator('.mcq-topic-grid>button').first().click();assert.match(await page.locator('.mcq-page').innerText(),/Question 1 \/ 10/);
   await page.getByRole('button',{name:'Change topic',exact:true}).click();await page.getByRole('button',{name:'Mixed chapter practice (80 MCQs)',exact:true}).click();assert.equal(await page.locator('.mcq-page button[aria-pressed]').count(),4);

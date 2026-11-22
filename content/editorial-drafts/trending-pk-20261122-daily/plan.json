@@ -85,8 +85,12 @@
         "dv vs mie"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Dubai international cricket stadium",
+        "white cricket ball pitch -geograph"
+      ],
+      "slug": "mi-emirates-desert-vipers-52-run-win-t20-phases-2026"
     },
     {
       "key": "zimbabwe-vs-ireland",
@@ -1562,6 +1566,17 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV topics authorised; UAE–Nepal row 2.",
       "validationFile": "validation-batch-4.json",
+      "state": "artifact-blocked-browser-readiness"
+    },
+    {
+      "number": 5,
+      "keys": [
+        "mi-emirates-vs-desert-vipers"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV topics authorised; MI Emirates–Desert Vipers rows 5 and 26 share one article.",
+      "validationFile": "validation-batch-5.json",
       "state": "local-review"
     }
   ],

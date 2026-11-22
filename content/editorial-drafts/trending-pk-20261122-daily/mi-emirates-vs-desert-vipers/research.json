@@ -1,0 +1,30 @@
+{
+  "checkedOn": "2026-11-22",
+  "sources": [
+    "https://www.thedesertvipers.com/news/desert-vipers-mi-emirates-season-5-opener-2026",
+    "https://www.ilt20.ae/news/dp-world-ilt20-dubai-workforce-csr-cricket-event",
+    "https://www.arnnewscentre.ae/en/news/sports/jordan-zahoor-star-as-mi-emirates-avenge-defeat-to-defending-champions-desert-vipers/",
+    "https://www.wisden.com/match/41f950c4-53b1-4aa0-b7ad-de0779483ef6"
+  ],
+  "reported": "174/8 in 20; 122 all out in 19.1; 52-run margin; Perera 58 from 40; Jordan 4/19; 37 runs and six wickets in final six overs.",
+  "calculations": {
+    "margin": 52,
+    "target": 175,
+    "balls": 115,
+    "miRate": 8.7,
+    "vipersRate": 6.3652173913043475,
+    "initialRequired": 8.75,
+    "earlyRuns": 137,
+    "earlyRate": 9.785714285714286,
+    "lateRate": 6.166666666666667,
+    "pereraStrike": 145.0,
+    "pereraShare": 0.3333333333333333,
+    "jordanSpellAverage": 4.75
+  },
+  "limits": [
+    "No unverified current season rank",
+    "No exact bowler over count inferred from wicket/run figures; three-over example is explicitly hypothetical",
+    "No independently watched match claim",
+    "Illustrative licensed images are not represented as match photographs"
+  ]
+}
