@@ -1,0 +1,1737 @@
+{
+  "title": "The Internet and the World Wide Web",
+  "content": "## Chapter overview and syllabus coverage\n\nThis original English study guide follows PBTE's two-year D.I.T first-semester ICT Module 7, syllabus sections 7.1 to 7.9. It includes 108 explained revision MCQs, nine topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.\n\n| Syllabus section | Topic | Revision MCQs |\n|---|---|---|\n| 7.1 | Networks, Internet Access and Addresses | 12 |\n| 7.2 | The World Wide Web and Web Publishing | 12 |\n| 7.3 | E-Commerce | 12 |\n| 7.4 | Other Internet Services | 12 |\n| 7.5 | Computer Security and Malware | 12 |\n| 7.6 | Information Privacy | 12 |\n| 7.7 | Computer Ethics | 12 |\n| 7.8 | Cybercrimes and Responsible Reporting | 12 |\n| 7.9 | Health Concerns and Comfortable Computer Use | 12 |\n\n## Topic-wise revision MCQs\n\n## 7.1 Networks, Internet Access and Addresses MCQs\n\n### Q1. What is the Internet?\n\nA) Only one classroom's printer cable\n\nB) Only the physical monitor on a desk\n\n**C) A global interconnection of networks**\n\nD) Only a single social-media website\n\n**Correct answer: C.** The Internet connects many networks rather than being one application or local link.\n\n### Q2. Does a Wi-Fi connection alone prove external Internet access?\n\n**A) No, the router connection can work while external access fails**\n\nB) Yes, every connected router guarantees all websites work\n\nC) Yes, Wi-Fi creates every paid access service automatically\n\nD) No, because Wi-Fi can never carry Internet traffic\n\n**Correct answer: A.** Local connectivity and the external service path are separate requirements.\n\n### Q3. What is the role of an ISP?\n\nA) Only organise desktop icons\n\n**B) Provide an Internet access service**\n\nC) Only supply a word-processing font\n\nD) Only increase CPU register size\n\n**Correct answer: B.** An ISP supplies the connectivity service through supported access methods.\n\n### Q4. Which is an example of an Internet access method?\n\n**A) Fibre or mobile-network access**\n\nB) Only a printer's paper setting\n\nC) Only a screen-saver animation\n\nD) Only a keyboard shortcut\n\n**Correct answer: A.** Different access technologies provide links to a provider network.\n\n### Q5. What does a router primarily do?\n\nA) Guarantee every document is truthful\n\nB) Act only as a camera lens\n\nC) Replace all application software\n\n**D) Forward traffic between networks**\n\n**Correct answer: D.** Routing selects and forwards traffic through the network path.\n\n### Q6. Which statement about a combined home-network device is accurate?\n\nA) Every hardware function has an identical technical meaning\n\nB) A router and a text editor are always the same component\n\n**C) One product can combine routing and wireless access functions**\n\nD) A Wi-Fi label proves all modem types are included\n\n**Correct answer: C.** Physical products can combine distinct networking roles.\n\n### Q7. How can Internet data travel?\n\n**A) In packets through a sequence of network links and routers**\n\nB) Only as one physical paper sheet\n\nC) Only through the same unchanging route for every packet\n\nD) Only by a user retyping every byte at each router\n\n**Correct answer: A.** Packet communication allows networks to carry data across multiple links.\n\n### Q8. Which statement about delivery reliability is correct?\n\n**A) It depends on protocols and application design**\n\nB) Every Internet packet has an identical guaranteed arrival time\n\nC) All transport protocols behave exactly like TCP\n\nD) No application can ever recover from a lost packet\n\n**Correct answer: A.** Different protocols provide different delivery and recovery properties.\n\n### Q9. What does an IP address help identify?\n\nA) Only a person's legal identity\n\n**B) An interface for IP communication within its scope**\n\nC) Only a file's font\n\nD) Only a printer's ink colour\n\n**Correct answer: B.** An IP address is a network addressing value, not a universal identity certificate.\n\n### Q10. What is a main purpose of DNS?\n\nA) Convert every image to a printed page\n\n**B) Resolve names to relevant records, including address records**\n\nC) Supply electrical power to an ISP\n\nD) Guarantee a website's claims are true\n\n**Correct answer: B.** DNS supports naming and lookup rather than verifying every site's content.\n\n### Q11. What does latency describe?\n\n**A) Communication delay**\n\nB) Only the total storage capacity of an SSD\n\nC) Only a network cable's colour\n\nD) The number of words in a document\n\n**Correct answer: A.** Latency measures delay and differs from transfer throughput.\n\n### Q12. Before overhead, what is 100 megabits per second expressed in megabytes per second?\n\nA) 100 MB/s\n\nB) 800 MB/s\n\n**C) 12.5 MB/s**\n\nD) 0.125 MB/s\n\n**Correct answer: C.** Eight bits make one byte, so the stated rate is divided by eight.\n\n## 7.2 The World Wide Web and Web Publishing MCQs\n\n### Q13. How does the Web relate to the Internet?\n\nA) It is universally the same thing as every Internet service\n\nB) It means only the physical network adapter\n\nC) It excludes all browsers\n\n**D) It is a major linked-resource system using Internet connectivity**\n\n**Correct answer: D.** The Web is one use of the broader Internet infrastructure.\n\n### Q14. What is the role of a browser?\n\nA) Guarantee all search results are correct\n\nB) Act as every site's author\n\nC) Replace every network service provider\n\n**D) Retrieve and present web resources**\n\n**Correct answer: D.** Browsers provide an environment for accessing and displaying resources.\n\n### Q15. How does a search engine differ from a browser?\n\nA) They are always identical names for the same software\n\nB) A search engine is only a keyboard device\n\nC) A browser cannot access a search service\n\n**D) It helps locate indexed material rather than being the general browsing program**\n\n**Correct answer: D.** The browser can access many services, including search engines.\n\n### Q16. Which URL component identifies the service name in a simple web address?\n\nA) Only the displayed link colour\n\n**B) Host**\n\nC) Only the paragraph heading\n\nD) Only the file's printed title\n\n**Correct answer: B.** The host is an address component distinct from scheme, path and other parts.\n\n### Q17. What does a URL path commonly identify?\n\n**A) A resource location within the named service**\n\nB) The user's automatic legal identity\n\nC) The physical length of a network cable\n\nD) The screen's refresh frequency\n\n**Correct answer: A.** A path helps select the requested resource within the service.\n\n### Q18. Does a link's visible text prove its destination?\n\nA) Yes, every label is independently verified by the browser\n\n**B) No, the destination address should be inspected where relevant**\n\nC) Yes, any familiar word guarantees a trusted login page\n\nD) No, because links can never contain text\n\n**Correct answer: B.** Displayed text and the linked URL can differ.\n\n### Q19. What does refreshing a web page fail to guarantee?\n\nA) That the browser can request a resource\n\nB) That a page has an address\n\n**C) That every upstream source has instantly produced new data**\n\nD) That servers can return content\n\n**Correct answer: C.** Caching and source update timing affect what a refreshed page displays.\n\n### Q20. What is an appropriate search-result check?\n\n**A) Open the source and review its date, evidence and purpose**\n\nB) Assume the first result is always an official authority\n\nC) Use the snippet alone for every deadline\n\nD) Treat every advertisement as a verified public notice\n\n**Correct answer: A.** Search ranking is not a substitute for evaluating the underlying source.\n\n### Q21. Which classification of websites is sensible?\n\n**A) Sites can combine educational, commercial or other purposes**\n\nB) Every site has exactly one possible function forever\n\nC) A site with pictures can never be educational\n\nD) Every community post is an official regulation\n\n**Correct answer: A.** Categories describe purpose and can overlap.\n\n### Q22. What does HTTPS alone not establish?\n\nA) That the service uses a web address\n\nB) That encrypted transport can be used\n\nC) That a browser can make a request\n\n**D) The truth of every claim on a page**\n\n**Correct answer: D.** Transport security and factual reliability are separate questions.\n\n### Q23. How does a local preview differ from publishing?\n\n**A) A preview is not necessarily available to the intended external audience**\n\nB) Every local file is automatically public worldwide\n\nC) Previewing always creates a hosting account\n\nD) Publishing never needs any verification\n\n**Correct answer: A.** Public availability requires the supported delivery and access configuration.\n\n### Q24. What should follow a web publishing change?\n\nA) Assume all content is correct because an upload started\n\n**B) Verify the delivered page, links and intended access**\n\nC) Expose private records to test publicity\n\nD) Remove all source attribution automatically\n\n**Correct answer: B.** A successful change needs checks of actual output and permitted content.\n\n## 7.3 E-Commerce MCQs\n\n### Q25. What is e-commerce?\n\n**A) Electronic support for buying, selling and related transactions**\n\nB) Only changing a computer's wallpaper\n\nC) Only an offline printed product label\n\nD) Only a processor's instruction cycle\n\n**Correct answer: A.** E-commerce concerns electronic transaction workflows.\n\n### Q26. Which example is B2C?\n\nA) A business purchasing supplies from another business\n\nB) Only two servers exchanging clock signals\n\nC) Only a printer producing a test page\n\n**D) A retailer selling an item to an individual customer**\n\n**Correct answer: D.** B2C describes business-to-consumer transactions.\n\n### Q27. Which example is B2B?\n\nA) Only a student viewing a personal photograph\n\n**B) One business buying supplies from another business**\n\nC) Only a keyboard typing a search term\n\nD) Only two unrelated display pixels\n\n**Correct answer: B.** B2B describes transactions between businesses.\n\n### Q28. What can C2C describe?\n\n**A) Individuals selling to other individuals through a marketplace**\n\nB) Only the CPU contacting its cache\n\nC) Only a government publishing a timetable\n\nD) Only a school setting a password policy\n\n**Correct answer: A.** C2C describes a consumer-to-consumer relationship.\n\n### Q29. Does a marketplace necessarily manufacture every listed item?\n\nA) Yes, every platform makes every product itself\n\nB) Yes, the logo proves all items have one manufacturer\n\nC) No, because marketplaces cannot support orders\n\n**D) No, the platform and seller roles need checking**\n\n**Correct answer: D.** A marketplace can connect sellers and buyers without making every product.\n\n### Q30. In the stated example, what is 1,000 plus 150 delivery minus a 100 discount?\n\n**A) 1,050**\n\nB) 1,250\n\nC) 950\n\nD) 850\n\n**Correct answer: A.** The fictional total is 1,050, assuming no additional charges.\n\n### Q31. What should a buyer compare at checkout?\n\nA) Only the largest crossed-out number\n\n**B) The complete payable amount and relevant conditions**\n\nC) Only the page's background colour\n\nD) Only the number of advertisement images\n\n**Correct answer: B.** Fees, valid discounts and conditions can change the actual total.\n\n### Q32. Does paid order status always mean delivered?\n\nA) Yes, payment physically transports the goods\n\nB) Yes, every confirmation means delivery is complete\n\n**C) No, payment and fulfilment are different stages**\n\nD) No, because electronic orders can never be delivered\n\n**Correct answer: C.** A transaction has distinct ordering, payment and delivery events.\n\n### Q33. Which request should be treated cautiously?\n\nA) A fictional classroom worksheet with no personal data\n\nB) A saved public product description\n\nC) A printed list of comparison criteria\n\n**D) An unsolicited message asking for a password or one-time code**\n\n**Correct answer: D.** Credential and code requests can be part of a deceptive transaction attempt.\n\n### Q34. Does HTTPS alone prove an unfamiliar shop is trustworthy?\n\n**A) No, seller identity and terms still need review**\n\nB) Yes, all product claims are independently guaranteed\n\nC) Yes, every refund request must automatically succeed\n\nD) No, because websites cannot encrypt connections\n\n**Correct answer: A.** Transport protection is different from seller reliability.\n\n### Q35. Which record can help track an order?\n\nA) Only the mouse's serial number\n\n**B) The relevant order reference and permitted transaction details**\n\nC) Only the monitor's refresh rate\n\nD) Only an unrelated desktop icon\n\n**Correct answer: B.** Order information provides context when checking status or seeking verified support.\n\n### Q36. What is appropriate for a classroom e-commerce demonstration?\n\n**A) A fictional checkout with no real payment or private data**\n\nB) Submitting another person's card details\n\nC) Publishing a real account password\n\nD) Making an unapproved purchase to test a banner\n\n**Correct answer: A.** A model can teach the workflow without exposing data or creating a transaction.\n\n## 7.4 Other Internet Services MCQs\n\n### Q37. Which is an email function?\n\n**A) Sending addressed messages with supported attachments**\n\nB) Only controlling a CPU clock\n\nC) Only turning a pixel on\n\nD) Only formatting an SSD\n\n**Correct answer: A.** Email supports messages between addressed recipients.\n\n### Q38. Does sending an email prove it was read?\n\nA) Yes, every recipient reads immediately\n\nB) Yes, all mail servers require a spoken reply\n\nC) No, because email cannot carry text\n\n**D) No, sending and reading are different events**\n\n**Correct answer: D.** Message status must not be confused with recipient attention.\n\n### Q39. What does Cc normally expose to recipients?\n\nA) Only the sender's processor temperature\n\nB) Only the password hash\n\n**C) The listed copied recipients**\n\nD) Only a printer queue\n\n**Correct answer: C.** Visible recipient fields can reveal addresses.\n\n### Q40. What is an attachment?\n\nA) Only the email application's icon\n\nB) Only the recipient's monitor\n\nC) Only a network cable\n\n**D) A file included with a message**\n\n**Correct answer: D.** Attachments and shared-file links have different delivery and permission behaviour.\n\n### Q41. What does instant messaging support?\n\nA) Only permanent hardware repair\n\nB) Only disk partition formatting\n\n**C) Conversational exchanges through a messaging service**\n\nD) Only offline paper binding\n\n**Correct answer: C.** Messaging services organise exchanges and can support groups and media.\n\n### Q42. What does VoIP carry?\n\nA) Only printed invoices by road\n\nB) Only physical video discs\n\n**C) Voice communication using IP networks**\n\nD) Only computer case screws\n\n**Correct answer: C.** VoIP describes voice communication over IP-based networks.\n\n### Q43. Which item should be reviewed before screen sharing?\n\n**A) The visible window and intended audience**\n\nB) Only the keyboard's purchase date\n\nC) Only the case colour\n\nD) Only a wallpaper's filename\n\n**Correct answer: A.** Screen sharing can expose unrelated or private information.\n\n### Q44. Does traditional FTP itself encrypt credentials and contents?\n\nA) Yes, every FTP session is automatically encrypted\n\nB) Yes, encryption is supplied by the filename\n\nC) No, because FTP cannot transfer files\n\n**D) No, encrypted protection requires an appropriate supported alternative or extension**\n\n**Correct answer: D.** Traditional FTP should not be assumed to provide encrypted protection.\n\n### Q45. What is SFTP?\n\nA) A synonym for every ordinary FTP session\n\nB) Only a screenshot file type\n\nC) Only a social-media button\n\n**D) A distinct SSH-based file-transfer protocol**\n\n**Correct answer: D.** SFTP uses SSH and is not the same protocol as traditional FTP.\n\n### Q46. Does a public download permit modifying the remote server?\n\nA) Yes, any visible file grants administrator access\n\nB) Yes, a download always includes write permission\n\nC) No, because files cannot be downloaded\n\n**D) No, access rights and permitted uses remain separate**\n\n**Correct answer: D.** Reading a public resource does not grant remote write authority.\n\n### Q47. Does deleting one social post guarantee all copies disappear?\n\nA) Yes, every device erases all copies immediately\n\nB) Yes, deletion controls every archive\n\n**C) No, recipients may retain copies or screenshots**\n\nD) No, because posts cannot ever be deleted\n\n**Correct answer: C.** Distribution can create copies beyond the original account's control.\n\n### Q48. Which classroom messaging activity is appropriate?\n\nA) Publishing classmates' private phone numbers\n\nB) Sending unsolicited messages to strangers\n\n**C) A fictional exchange using non-sensitive data**\n\nD) Sharing an account password publicly\n\n**Correct answer: C.** A model can teach communication choices without exposing real people.\n\n## 7.5 Computer Security and Malware MCQs\n\n### Q49. What does confidentiality concern?\n\n**A) Preventing unauthorised disclosure**\n\nB) Only increasing screen brightness\n\nC) Only sorting keyboard keys\n\nD) Only making a file longer\n\n**Correct answer: A.** Confidentiality concerns who can access or learn information.\n\n### Q50. What does integrity concern?\n\nA) Only a fan's speed\n\nB) Only monitor size\n\nC) Only decorative colours\n\n**D) Protection against improper alteration**\n\n**Correct answer: D.** Integrity concerns the correctness and authorised state of information.\n\n### Q51. What does availability concern?\n\nA) Only the number of fonts\n\n**B) Usable access when required under the system's intended conditions**\n\nC) Only a mouse's weight\n\nD) Only a desktop theme\n\n**Correct answer: B.** Availability is a security objective concerning access to systems and data.\n\n### Q52. What is a vulnerability?\n\nA) Every successful backup\n\nB) Every authorised update\n\nC) Only an account's public nickname\n\n**D) A weakness that may be exploited**\n\n**Correct answer: D.** Weaknesses can expose a system to threats.\n\n### Q53. What distinguishes a computer virus in the basic model?\n\nA) It always replaces a monitor physically\n\nB) It is every unsolicited advertisement\n\n**C) It infects suitable host material**\n\nD) It is any slow application\n\n**Correct answer: C.** A virus depends on an infection mechanism involving a host.\n\n### Q54. What can a worm do?\n\nA) Only change the desk position\n\nB) Only print a paper form\n\nC) Only improve every network connection\n\n**D) Propagate between systems without the same host-file infection requirement**\n\n**Correct answer: D.** Worm behaviour includes self-propagation across systems.\n\n### Q55. What describes a Trojan?\n\nA) Every encrypted backup\n\n**B) Malicious behaviour concealed behind a useful or legitimate appearance**\n\nC) Every approved printer driver\n\nD) Only a hardware cable fault\n\n**Correct answer: B.** Deceptive presentation can induce a user to run malicious code.\n\n### Q56. Must phishing install malware to cause harm?\n\nA) Yes, stolen passwords require a virus file\n\nB) Yes, every false website is harmless without installation\n\nC) No, because messages cannot deceive people\n\n**D) No, it can deceive a user into giving information**\n\n**Correct answer: D.** Credential theft can occur through a deceptive request or page.\n\n### Q57. Which is a layered safeguard?\n\nA) Disabling every update permanently\n\nB) Using one password for all accounts\n\n**C) Updates, access controls, MFA and checked backups together**\n\nD) Running unknown files to see their effect\n\n**Correct answer: C.** Multiple safeguards address different failure paths.\n\n### Q58. Does MFA remove every need to review sign-in requests?\n\nA) Yes, every approval request is safe\n\n**B) No, deceptive prompts and other threats still matter**\n\nC) Yes, passwords can then be published\n\nD) No, because MFA cannot add protection\n\n**Correct answer: B.** MFA is an additional layer, not universal immunity.\n\n### Q59. What makes a backup operationally useful?\n\nA) Only its filename includes backup\n\nB) Only its icon is green\n\nC) Only it is stored beside the original\n\n**D) Required data can be restored from it**\n\n**Correct answer: D.** Recoverability needs checking rather than assuming a copy is sufficient.\n\n### Q60. What is a suitable response to a suspicious attachment at school?\n\nA) Execute it on every classroom computer\n\nB) Forward it to all friends\n\n**C) Stop interacting and report through authorised support**\n\nD) Publish staff passwords to ask for help\n\n**Correct answer: C.** Follow incident procedures without spreading the suspected threat.\n\n## 7.6 Information Privacy MCQs\n\n### Q61. What is a central information-privacy question?\n\n**A) How personal information is collected, used and shared**\n\nB) Only how bright the display is\n\nC) Only which processor brand is installed\n\nD) Only how fast a fan rotates\n\n**Correct answer: A.** Privacy addresses appropriate handling of information relating to people.\n\n### Q62. Are security and privacy identical?\n\n**A) No, secure storage alone does not justify every collection or use**\n\nB) Yes, every encrypted database is automatically appropriate\n\nC) Yes, privacy only means antivirus installation\n\nD) No, because privacy never concerns information\n\n**Correct answer: A.** Security safeguards and appropriate personal-data use are related but distinct.\n\n### Q63. What is data minimisation?\n\nA) Collecting all available personal details by default\n\n**B) Limiting data to what is appropriate for a stated purpose**\n\nC) Publishing every account field\n\nD) Keeping unnecessary copies indefinitely\n\n**Correct answer: B.** Collecting fewer unnecessary details reduces avoidable exposure.\n\n### Q64. Which dataset suits a public classroom demonstration?\n\n**A) Fictional records with only needed fields**\n\nB) Real students' identity numbers\n\nC) Unredacted family contact lists\n\nD) A private staff payroll\n\n**Correct answer: A.** Fictional minimal data can teach the task without disclosing real records.\n\n### Q65. What should be checked before sharing a document link?\n\nA) Only the document icon\n\n**B) Audience and view or edit permissions**\n\nC) Only the browser's theme\n\nD) Only the monitor size\n\n**Correct answer: B.** Link access can extend beyond the intended audience if roles are wrong.\n\n### Q66. Can comments in a document disclose information?\n\nA) No, only the first visible heading can disclose data\n\nB) No, comments are always automatically public-safe\n\n**C) Yes, review comments and other included material**\n\nD) Yes, but only when printed in red\n\n**Correct answer: C.** Content outside the main body can still contain private details.\n\n### Q67. Does removing a name always make a record unidentifiable?\n\nA) Yes, every remaining field is automatically anonymous\n\nB) Yes, photographs cannot identify anyone\n\n**C) No, other details may reveal the person**\n\nD) No, because names can never be removed\n\n**Correct answer: C.** Identification can arise from combinations of remaining information.\n\n### Q68. Are all cookies malware?\n\nA) Yes, every cookie is an executable virus\n\nB) Yes, a website cannot use cookies for sessions\n\nC) No, because browsers cannot store data\n\n**D) No, cookies have different uses and properties**\n\n**Correct answer: D.** Cookies should be assessed by their actual purpose and handling.\n\n### Q69. Does private browsing provide universal anonymity?\n\nA) Yes, websites cannot receive any requests\n\n**B) No, it does not hide activity from every external party**\n\nC) Yes, network operators cannot observe any activity\n\nD) No, because it permanently publishes all history\n\n**Correct answer: B.** Private mode has a limited browser-session scope.\n\n### Q70. What should a privacy setting be understood through?\n\nA) Only its colour\n\nB) Only the length of its label\n\n**C) Its supported scope and limitations**\n\nD) A guarantee that all tracking everywhere stops\n\n**Correct answer: C.** Settings cannot be assumed to control every service or observer.\n\n### Q71. Does permission for one use automatically permit every future use?\n\n**A) No, review the proposed purpose and permission**\n\nB) Yes, permission is unlimited forever\n\nC) Yes, a photograph has no audience restrictions\n\nD) No, because permission can never be given\n\n**Correct answer: A.** Permission should match the intended use and relevant requirements.\n\n### Q72. What should follow an accidental private-data disclosure?\n\nA) Copy it into more public groups\n\nB) Ignore every institutional procedure\n\nC) Ask classmates to repost it\n\n**D) Report it through the approved responsible channel**\n\n**Correct answer: D.** Timely authorised handling can limit further exposure.\n\n## 7.7 Computer Ethics MCQs\n\n### Q73. What does computer ethics address?\n\nA) Only the speed of a graphics card\n\n**B) Responsible decisions and effects of computing**\n\nC) Only installing decorative fonts\n\nD) Only counting physical cables\n\n**Correct answer: B.** Ethics considers responsibilities and effects on people.\n\n### Q74. Does technical possibility alone justify an action?\n\nA) Yes, any reachable account may be used\n\nB) Yes, software capability overrides all rules\n\n**C) No, permission and consequences still matter**\n\nD) No, because computers cannot perform actions\n\n**Correct answer: C.** Capability is not a complete ethical justification.\n\n### Q75. Which is honest academic conduct?\n\nA) Claim every copied solution as original\n\nB) Invent test results\n\n**C) Identify permitted source material and describe one's own contribution accurately**\n\nD) Remove all source credits to look original\n\n**Correct answer: C.** Honesty requires accurate representation of work and evidence.\n\n### Q76. Does attribution automatically permit every use of an image?\n\nA) Yes, a creator's name removes every restriction\n\nB) Yes, all online photographs are public domain\n\n**C) No, permission or licence conditions also need checking**\n\nD) No, because creators can never permit reuse\n\n**Correct answer: C.** Credit and permission are different requirements.\n\n### Q77. What does publicly accessible code imply?\n\nA) It is automatically unrestricted for every purpose\n\n**B) It can be viewed, while reuse rights still need review**\n\nC) It always has no author\n\nD) It can never have a licence\n\n**Correct answer: B.** Access alone does not settle reuse conditions.\n\n### Q78. What should a student do after finding an exposed private folder?\n\nA) Copy all records to a public group\n\n**B) Report it responsibly without exploring unrelated contents**\n\nC) Assume exposure grants permission\n\nD) Try other users' passwords\n\n**Correct answer: B.** Responsible reporting respects access boundaries.\n\n### Q79. Which design improves an error message's accessibility?\n\nA) Colour alone with no explanation\n\nB) An unexplained disappearing icon\n\n**C) A meaningful text explanation as well as colour**\n\nD) A warning visible only after guessing a shortcut\n\n**Correct answer: C.** Multiple clear cues help users interpret the problem.\n\n### Q80. Does automation remove responsibility for unfair outcomes?\n\n**A) No, data and design still need review**\n\nB) Yes, all automated decisions are inherently fair\n\nC) Yes, a computer cannot repeat a bias\n\nD) No, because software cannot support decisions\n\n**Correct answer: A.** Human choices affect data, rules and use of the result.\n\n### Q81. Which test record is ethical?\n\nA) A fabricated success screenshot\n\nB) A hidden deletion of every failed case\n\n**C) The actual observed failure and its conditions**\n\nD) A claim of universal success after no test\n\n**Correct answer: C.** Accurate records support review and correction.\n\n### Q82. What should follow discovery of an error in a published result?\n\nA) Keep the false claim to protect appearances\n\nB) Blame an unrelated user without evidence\n\nC) Invent supporting measurements\n\n**D) Correct the record and explain the relevant limitation**\n\n**Correct answer: D.** Accountability includes correcting known errors.\n\n### Q83. Which communication respects others?\n\nA) Publishing threats to win an argument\n\n**B) A clear disagreement without harassment or impersonation**\n\nC) Pretending to be another student\n\nD) Exposing private details as a joke\n\n**Correct answer: B.** Respectful participation avoids misleading and harmful conduct.\n\n### Q84. What should a project record include?\n\nA) Only promotional claims\n\nB) Only the developer's favourite colour\n\n**C) Permitted sources, real test outcomes and limitations**\n\nD) Only invented user feedback\n\n**Correct answer: C.** A useful record allows others to assess both work and constraints.\n\n## 7.8 Cybercrimes and Responsible Reporting MCQs\n\n### Q85. Which is a cybercrime example for introductory study?\n\nA) Opening one's own permitted practice file\n\nB) Writing an original classroom report\n\n**C) Unauthorised access to another person's system**\n\nD) Changing one's own permitted wallpaper\n\n**Correct answer: C.** Unauthorised digital acts can fall within cybercrime law depending on facts and provisions.\n\n### Q86. Does every suspected incident prove a named person's guilt?\n\n**A) No, legal findings require appropriate evidence and process**\n\nB) Yes, an online rumour settles the case\n\nC) Yes, one unverified screenshot proves every allegation\n\nD) No, because digital evidence can never matter\n\n**Correct answer: A.** Observations and allegations must be distinguished from legal conclusions.\n\n### Q87. Where should current Pakistani reporting information be checked?\n\nA) Only an old forwarded image\n\nB) Only an anonymous comment\n\n**C) Current official Pakistani sources**\n\nD) Only a fictional exercise sheet\n\n**Correct answer: C.** Official information is the appropriate starting point for current procedures.\n\n### Q88. Does permission to read a sample folder necessarily allow deletion?\n\nA) Yes, all access always means full control\n\nB) Yes, reading automatically grants administrator rights\n\nC) No, because folders cannot be read\n\n**D) No, permitted actions have a defined scope**\n\n**Correct answer: D.** Authorisation should specify the allowed resources and actions.\n\n### Q89. Which setting suits a classroom security exercise?\n\nA) An unrelated public server without permission\n\n**B) An approved environment with explicit scope**\n\nC) A classmate's private account\n\nD) A random shop's payment system\n\n**Correct answer: B.** Prepared authorised environments support learning within agreed boundaries.\n\n### Q90. What is identity misuse in a digital context?\n\nA) Accurately identifying oneself in a permitted task\n\n**B) Using another person's identity improperly for a deceptive purpose**\n\nC) Writing fictional names in a worksheet\n\nD) Changing a sample document title\n\n**Correct answer: B.** Identity misuse concerns an improper use of someone else's identifying information.\n\n### Q91. How should an unexpected payment request be verified?\n\nA) Through only the suspicious message's new number\n\nB) By replying with a password\n\nC) By sending money before checking\n\n**D) Through an independently known legitimate contact**\n\n**Correct answer: D.** An independent channel reduces reliance on the potentially deceptive request.\n\n### Q92. Which detail may help document an incident?\n\nA) Invented claims about a suspect\n\nB) Unrelated classmates' passwords\n\nC) A fabricated receipt\n\n**D) Relevant timestamps and message or transaction references**\n\n**Correct answer: D.** Relevant factual records can support authorised investigation.\n\n### Q93. Should original incident evidence be edited to look more convincing?\n\nA) Yes, change figures to strengthen the story\n\n**B) No, preserve it accurately and record context**\n\nC) Yes, remove every uncertainty\n\nD) No, because context is never useful\n\n**Correct answer: B.** Alteration can damage the reliability of evidence.\n\n### Q94. What is responsible institutional reporting?\n\nA) Publish private records to a public forum\n\nB) Threaten a suspected person\n\nC) Run unapproved attacks in response\n\n**D) Notify the authorised contact through the approved procedure**\n\n**Correct answer: D.** The responsible process supports investigation while limiting additional harm.\n\n### Q95. Why avoid fixed penalty claims from old social posts?\n\nA) Every online penalty chart is automatically official\n\n**B) Law and procedures may have changed or been misrepresented**\n\nC) Legal rules never change\n\nD) All offences have one identical penalty\n\n**Correct answer: B.** Current primary sources are needed for actual legal information.\n\n### Q96. What should a factual report distinguish?\n\nA) Only assumptions presented as certainty\n\nB) Only rumours copied repeatedly\n\nC) Only personal insults\n\n**D) Observed facts, uncertainty and actions already taken**\n\n**Correct answer: D.** Clear distinctions help a reviewer assess what is actually known.\n\n## 7.9 Health Concerns and Comfortable Computer Use MCQs\n\n### Q97. What should a workstation review consider?\n\n**A) The person, equipment, environment and task together**\n\nB) Only the brand logo\n\nC) Only the wallpaper\n\nD) Only the number of stickers\n\n**Correct answer: A.** Comfort and risk depend on the overall arrangement and use.\n\n### Q98. Which adjustment can reduce unnecessary leaning to read?\n\nA) Making every letter smaller\n\nB) Moving the mouse farther away\n\nC) Hiding all document headings\n\n**D) An appropriate text size and readable display arrangement**\n\n**Correct answer: D.** Readable content can reduce the need for an awkward viewing position.\n\n### Q99. What can glare interfere with?\n\nA) Only the number of stored files\n\n**B) Comfortable viewing of the display**\n\nC) Only a password's length\n\nD) Only a CPU instruction format\n\n**Correct answer: B.** Lighting and reflections can affect display comfort and readability.\n\n### Q100. Where should a pointing device be arranged?\n\n**A) Within comfortable reach for the task**\n\nB) As far away as the cable allows\n\nC) On an unstable edge by default\n\nD) Behind the monitor in every case\n\n**Correct answer: A.** Avoiding sustained awkward reach is a useful workstation principle.\n\n### Q101. Is one fixed posture a universal solution for every user?\n\nA) Yes, everyone has identical body dimensions\n\n**B) No, fit and variation matter**\n\nC) Yes, movement is always harmful\n\nD) No, because workstation arrangement never matters\n\n**Correct answer: B.** Users and tasks differ, and prolonged static positioning can be uncomfortable.\n\n### Q102. What is a useful work-routine principle?\n\nA) Avoid every change of position\n\nB) Continue through all persistent pain\n\n**C) Vary tasks and include appropriate breaks or changes of activity**\n\nD) Replace every break with the same awkward phone posture\n\n**Correct answer: C.** Variation can reduce prolonged exposure to the same demands.\n\n### Q103. Does switching to a phone always provide a useful change from screen work?\n\n**A) No, it can repeat similar visual and postural demands**\n\nB) Yes, all phone use automatically rests every muscle\n\nC) Yes, a smaller screen eliminates strain\n\nD) No, because phones have no screens\n\n**Correct answer: A.** The actual activity and posture determine whether demands have changed.\n\n### Q104. Why can extended laptop work require adaptation?\n\n**A) The attached screen and keyboard constrain their independent positions**\n\nB) Laptops never contain keyboards\n\nC) Every laptop must be held in the air\n\nD) Laptops cannot display text\n\n**Correct answer: A.** Combined components can make arranging both viewing and input more difficult.\n\n### Q105. What is appropriate for cables across a walkway?\n\nA) Leave them because software is working\n\nB) Pull live electrical equipment apart\n\n**C) Report or arrange them safely through approved procedures**\n\nD) Cover them with loose papers\n\n**Correct answer: C.** Physical workstation safety includes avoiding trip hazards.\n\n### Q106. Should a student open powered equipment to improve comfort?\n\nA) Yes, every discomfort requires opening the PSU\n\nB) Yes, any cable can be repaired while powered\n\n**C) No, use authorised maintenance and adjustment procedures**\n\nD) No, because chairs cannot be adjusted\n\n**Correct answer: C.** Comfort reviews do not justify unsafe electrical or hardware work.\n\n### Q107. What should persistent pain or visual problems prompt?\n\nA) A guaranteed diagnosis from a worksheet\n\n**B) Appropriate reporting and qualified health advice**\n\nC) Ignoring every symptom indefinitely\n\nD) An unverified online cure as certainty\n\n**Correct answer: B.** Persistent symptoms need appropriate individual assessment.\n\n### Q108. How should the cited UK workstation guidance be used here?\n\nA) As proof of identical legal rights in every country\n\n**B) As practical learning guidance without claiming its laws apply in Pakistan**\n\nC) As a diagnosis of every student's condition\n\nD) As a substitute for all individual assessment\n\n**Correct answer: B.** Practical principles and jurisdiction-specific legal duties must be distinguished.\n\n## Easy topic-wise notes\n\n## 7.1 Networks, Internet Access and Addresses\n\nA computer network connects devices so they can exchange data and use permitted resources. A classroom local network can connect computers with a printer or file service. The Internet is a global interconnection of networks using shared communication protocols. A local Wi-Fi connection and a working Internet connection are different things: a device can be connected to a router while the external service is unavailable.\n\nAn Internet service provider, or ISP, supplies an access service. Connection methods can include fibre, cable, DSL, mobile networks or satellite. Required equipment and practical performance depend on the service and installation. A router forwards traffic between networks; a wireless access point supplies a supported wireless connection. One product can combine functions, but router, access point and modem do not mean the same function in every installation.\n\nData is carried in organised units such as packets. Different links and routers can participate in delivery. Packets need not all follow an identical path or arrive at exactly the same time. Reliability, ordering and recovery depend on the protocols and application. TCP can provide an ordered reliable byte stream, while other Internet traffic can use different transport designs. Do not describe every Internet service as having one universal delivery behaviour.\n\nAn IP address identifies an interface for Internet Protocol communication within its applicable scope. IPv4 and IPv6 use different address formats and sizes. A domain name provides a human-readable name, and DNS resolves relevant names to records, which can include IP addresses. A name is not necessarily permanently tied to one server or address. An entire web address can also contain a scheme, path and other components beyond the host name.\n\nUpload sends data from the user's side toward a remote service; download receives it. Bandwidth or advertised link rate is different from the actual speed of one transfer, and latency describes delay rather than capacity. Bits and bytes also differ: eight bits make one byte. A nominal 100 megabits per second corresponds arithmetically to 12.5 megabytes per second before overhead and other limitations. This is a unit-conversion example, not a guaranteed service speed.\n\nFor a connection problem, first distinguish device-to-network access, external connectivity, name resolution and the particular service being requested. A website being unavailable does not prove the whole Internet is down. Use permitted observations and support procedures rather than changing unrelated settings or attempting access to other users' systems.\n\n### Practical examples\n\n- A laptop reaches a local printer while an ISP outage prevents external browsing.\n- A familiar domain name can resolve to different supported addresses as a service changes its infrastructure.\n- A 100 Mb/s label uses bits; 12.5 MB/s is only its simple theoretical byte-rate equivalent before overhead.\n\n### Common mistakes\n\n- Connected to Wi-Fi does not automatically mean connected to the Internet.\n- DNS resolves names and records, not every full URL as one indivisible address.\n- Advertised rate, actual throughput and latency are different properties.\n\n### Quick revision\n\n- Networks connect devices; the Internet connects networks.\n- ISPs provide access through different service methods.\n- Routers forward network traffic.\n- Packets and transport protocols support data delivery.\n- Domain names, DNS and IP addresses have distinct roles.\n- Distinguish bits, bytes, throughput and delay.\n\n## 7.2 The World Wide Web and Web Publishing\n\nThe World Wide Web is a system of linked resources commonly accessed using web technologies over the Internet. The Internet supplies network connectivity; the Web is one major use of it. Email, file transfer and other services show why the two terms are not interchangeable. A browser retrieves and presents web resources. A search engine helps locate indexed material and is a service reached through a browser or other interface.\n\nA URL identifies a resource using a structured address. In a simplified HTTPS example, the scheme names the access method, the host identifies the service name, and a path identifies a resource within it. Query parameters can supply additional request information and a fragment can identify a position or target within a document. A domain name is only one part of many URLs. Similar-looking names can belong to different services, so inspect the actual host rather than trusting a familiar word anywhere in the address.\n\nNavigation can use links, menus, back/forward controls, bookmarks and direct address entry. A link's visible text is not proof of its destination. Web pages can change, redirect or become unavailable. Refresh requests an updated representation according to browser, server and caching behaviour; it does not guarantee that every upstream data source has already updated.\n\nSearch queries can combine specific terms, names and context. The first result is not automatically the most authoritative source, and a snippet can be incomplete or old. Distinguish advertisements from other results where labelled, open the relevant page and compare its author, date, evidence and purpose. Official notices are preferable for official deadlines; a discussion post may describe an experience without establishing a general rule.\n\nWebsites can serve educational, commercial, government, news, entertainment, reference or community purposes. A single site can combine several functions. A domain suffix alone does not prove that every page is correct or current. HTTPS supports transport protection to the named service; it does not certify every statement made on the site. Browser security indicators and source evaluation answer different questions.\n\nWeb publishing makes prepared content available to its intended audience through a web service. A workflow includes planning, creating content, checking accessibility and links, placing files or records on the supported hosting system, and verifying the published result. A local preview is not automatically a public publication. Updating a page also requires checking the delivered version, source attribution, permissions for reused material and any private information that should not be exposed.\n\n### Practical examples\n\n- A browser opens a board notice; a search engine result helps locate it but is not itself the board notice.\n- A student checks the host and destination before following an unfamiliar login link.\n- A publisher verifies the public page after upload rather than treating a local preview as publication.\n\n### Common mistakes\n\n- The Web is not the entire Internet.\n- A browser and a search engine have different roles.\n- HTTPS and a familiar-looking domain suffix do not verify every page statement.\n\n### Quick revision\n\n- The Web provides linked resources.\n- Browsers present resources; search services help find them.\n- URLs have meaningful components.\n- Link text and destination can differ.\n- Evaluate source, context and date.\n- Publishing requires checking the delivered page.\n\n## 7.3 E-Commerce\n\nElectronic commerce uses electronic systems to support the buying and selling of goods or services and related transactions. A website or app can display a catalogue, accept an order, arrange payment and provide fulfilment information. Browsing a product page, placing an order, paying and receiving the item are different stages. A confirmation message may identify a stage without proving every later obligation has been completed.\n\nBusiness-to-consumer, or B2C, describes a business selling to an individual consumer. Business-to-business, or B2B, concerns transactions between businesses. Consumer-to-consumer, or C2C, can describe individual sellers and buyers using a marketplace. A platform's role must be checked: it may operate a marketplace rather than manufacture or personally fulfil every listed product. Names and logos alone do not establish the identity or reliability of a particular seller.\n\nCompare the complete transaction rather than one headline price. Quantity, delivery charge, taxes or other applicable charges, discounts and conditions can affect the final amount. In a fictional exercise, an item amount of 1,000 plus delivery of 150 minus a valid discount of 100 gives 1,050. The example assumes no other charges. Real terms require current verification rather than a universal formula for every checkout.\n\nPayment can use supported methods such as an approved card service, transfer or cash-on-delivery arrangement, depending on the seller and service. A payment method does not itself guarantee product quality or the outcome of a dispute. Verify the intended payment destination through a trusted path and do not disclose passwords, card secrets or one-time codes in response to unsolicited messages. HTTPS alone is not proof that an unfamiliar shop is trustworthy.\n\nBefore a purchase, inspect the seller, product description, total amount, delivery terms and return/refund conditions. A review can be useful evidence but may be incomplete, biased or fabricated. Retain the relevant order reference and permitted transaction records. Handle addresses and other personal information carefully. A classroom exercise should use fictional data and a paper checkout rather than submitting a real payment or opening an unneeded account.\n\nE-commerce can support access and convenience, but it also depends on connectivity, inventory, fulfilment and support. An order status such as placed, paid, shipped or delivered describes different events. Read the service's definitions and seek help through its verified support route when needed. This lesson explains transaction concepts and checking habits rather than promising that any platform, payment method or offer is risk-free.\n\n### Practical examples\n\n- A retailer sells a notebook to a student through an online catalogue: a B2C example.\n- A fictional checkout totals 1,000 plus 150 delivery minus a valid 100 discount, giving 1,050 before any other stated charge.\n- A buyer checks the seller and order terms rather than relying only on an attractive discount banner.\n\n### Common mistakes\n\n- A product listing, a paid order and delivered goods are different states.\n- A marketplace is not necessarily the manufacturer or fulfiller of every listing.\n- A secure connection is not a guarantee about the seller or product.\n\n### Quick revision\n\n- E-commerce supports electronic transactions.\n- B2C, B2B and C2C describe participant relationships.\n- Check the complete payable amount.\n- Verify the intended payment destination.\n- Retain relevant order records.\n- Use fictional data for classroom checkout exercises.\n\n## 7.4 Other Internet Services\n\nThe web is one Internet-based service family. Email, messaging, voice calls and file transfer use Internet connectivity for different purposes. A browser can provide an interface to several of them, but the interface does not make all their underlying functions identical. Select a service by the communication need, supported features, recipients and data sensitivity.\n\nEmail supports addressed messages and attachments. To, Cc and Bcc have different recipient-display roles. Review recipients before sending, and do not assume that Bcc prevents someone from forwarding the contents. An attachment is a file included with a message; a shared-file link points to material managed elsewhere and may require permission. Sending a message does not prove it has been read or that a requested action is complete.\n\nInstant messaging supports conversational exchanges, sometimes with groups and media. Presence indicators and read receipts depend on the service and settings; they are not universal guarantees about a person's attention. Voice over Internet Protocol, or VoIP, carries voice communications using IP networks. Video conferencing adds visual participation and can include screen sharing. Audio, video and screen content can disclose different information, so check the active source and audience before sharing.\n\nFTP is a file-transfer protocol. Traditional FTP does not itself protect credentials and contents with encryption. SFTP is a distinct SSH-based transfer protocol; it is not simply another spelling of FTP. Secure transfer choices depend on the supported service and policy. A public download being accessible does not grant permission to upload, modify or redistribute its contents.\n\nSocial media supports publication and interaction through accounts, feeds, groups or communities. A post's visible audience, redistribution and persistence deserve review. Deletion from one account does not guarantee removal of copies or screenshots. For a class activity, use fictional messages or an already approved account, and record the service choice without contacting strangers or sharing personal information.\n\n### Practical examples\n\n- An email attachment travels with a message; a restricted drive link may still deny the recipient access.\n- A class presenter shares one intended window after checking that private tabs are hidden.\n- A service administrator chooses an approved encrypted file-transfer method rather than assuming every FTP connection is encrypted.\n\n### Common mistakes\n\n- Email delivery and reading are different events.\n- SFTP and FTP are different protocols.\n- A private-looking social post can still be copied by a recipient.\n\n### Quick revision\n\n- Email supports addressed messages.\n- Messaging supports conversations.\n- VoIP carries voice over IP networks.\n- Conferencing can expose camera, microphone and shared-screen content.\n- Traditional FTP lacks built-in encrypted protection.\n- Check audience, permissions and permitted reuse.\n\n## 7.5 Computer Security and Malware\n\nComputer security protects systems and information against threats affecting confidentiality, integrity and availability. A threat is a potential cause of harm; a vulnerability is a weakness that can be exploited. An attack is an attempt to cause an unauthorised outcome. A fault or outage should be investigated rather than automatically labelled a deliberate attack.\n\nMalware is malicious software or code. A virus spreads by infecting a host file or other suitable host material. A worm can propagate between systems without needing that same host-file mechanism. A Trojan presents itself as useful or legitimate to induce execution while concealing malicious behaviour. These descriptions concern behaviour; modern incidents can combine several techniques. A suspicious filename alone is not a reliable diagnosis.\n\nRansomware can deny access or be combined with theft and extortion. Phishing uses deceptive communications to obtain information or induce unsafe actions. A phishing message does not have to contain malware: a false sign-in page can steal credentials. Recognisable branding, urgent wording and a familiar sender display name do not independently prove authenticity. Check requests through a known, independently obtained channel.\n\nUse layered safeguards: supported updates, trustworthy sources, access control, strong unique passwords, supported multi-factor authentication, protective tools and checked backups. MFA adds a factor beyond a password, but users must still review prompts and resist deceptive requests. A backup is useful only when the required information can actually be recovered. A continuously connected writable copy can be affected by the same incident.\n\nIf a suspected incident occurs, follow the institution's reporting procedure, stop the risky interaction and seek authorised support. Preserve relevant observations without forwarding malicious files to classmates. Do not experiment by executing a suspicious attachment or attacking an external system. Recovery can require credential changes, isolation, investigation and restoration under authorised guidance. No single product or habit makes a computer immune to all threats.\n\n### Practical examples\n\n- A false email asks a student to sign in at an unrelated address; the student checks the request through the known school contact.\n- A Trojan-labelled example describes deceptive installation, not a laboratory instruction to run unknown software.\n- An administrator tests restoring a permitted sample from a retained backup.\n\n### Common mistakes\n\n- Phishing can steal information without installing malware.\n- A Trojan and a virus describe different behaviours.\n- Antivirus software and backups are useful layers, not absolute guarantees.\n\n### Quick revision\n\n- Confidentiality limits disclosure.\n- Integrity protects against improper changes.\n- Availability concerns usable access.\n- Distinguish threats, weaknesses and attacks.\n- Use layered safeguards and verified recovery.\n- Report suspected incidents through authorised channels.\n\n## 7.6 Information Privacy\n\nInformation privacy concerns appropriate collection, use, access, sharing and retention of information relating to people. Security and privacy overlap but are not interchangeable. A service might securely store a large amount of unnecessary personal data; protection against intrusion does not by itself establish that the collection and use are appropriate.\n\nStart with purpose. Identify what information is needed for a particular task, who needs it and how long it should be retained. Data minimisation means limiting collection and processing to what is appropriate for that purpose. A classroom marks exercise can usually use fictional names or identifiers rather than real addresses, identity numbers or family details. Avoid copying private data into public demonstration files.\n\nReview permissions before sharing. View, comment and edit roles may grant different powers, and an unrestricted link can reach people beyond the intended recipients. Check document contents as well as the sharing setting: names in comments, tracked changes, images or metadata may disclose information. Removing a person's name does not always prevent identification when other details remain sufficiently revealing.\n\nBrowsers and online services can store cookies, local data and account history for different functions. Cookies are not all the same, and not every cookie is malware. A privacy setting changes supported behaviour within its stated scope; it is not a promise that no party can observe activity. Private browsing mainly limits certain records retained in that browser session and does not make a user anonymous to every website, employer or network operator.\n\nBefore publishing another person's photograph or details, check the permission, purpose and applicable institutional requirements. Consent should be meaningful and relevant to the proposed use; one permission does not automatically authorise every later use. If accidental disclosure occurs, notify the responsible person through the approved procedure. Privacy protection is a continuing practice across collection, use, sharing and deletion, not one checkbox at account creation.\n\n### Practical examples\n\n- A practice registration form uses fictional learners and collects only fields necessary for the exercise.\n- A teacher checks that a class document link is limited to the intended group.\n- A screenshot is reviewed for names and account details before inclusion in a public lesson.\n\n### Common mistakes\n\n- Private browsing is not universal anonymity.\n- Removing names alone may leave identifying combinations of details.\n- A secure database can still contain data collected for an inappropriate purpose.\n\n### Quick revision\n\n- Identify the purpose before collecting data.\n- Minimise unnecessary personal details.\n- Review roles, content and recipients.\n- Check retention and deletion requirements.\n- Privacy settings have defined limits.\n- Use fictional data for public classroom examples.\n\n## 7.7 Computer Ethics\n\nComputer ethics concerns responsible choices in designing, using and managing computing systems. A technically possible action is not automatically appropriate. Consider affected people, foreseeable harm, honesty, fairness, privacy and professional responsibility. Legal requirements and institutional rules matter, while ethical judgement can also require care where a rule does not describe every detail.\n\nHonesty includes representing work and evidence accurately. Do not claim that a copied solution is your original work, invent a research result or alter a screenshot to imply a test succeeded. When using another person's text, images, code or data, check the permission or licence and provide the required attribution. Giving credit alone does not automatically supply permission for every use. Openly available material is not necessarily free of copyright or other restrictions.\n\nRespect authorised access. Being able to guess a password or reach an exposed folder does not mean permission has been granted. Use only the systems, accounts and data within the agreed task. Report an apparent weakness through the responsible channel rather than exploring other people's files. Curiosity should be expressed through approved exercises and deliberately prepared training environments.\n\nFairness and accessibility matter in ordinary classroom software too. A colour-only warning can be difficult for some users to interpret; meaningful labels and sufficient contrast can help. Evaluate systems using relevant evidence rather than assumptions about users. A decision aid may reproduce problems in its data or design, so human responsibility is not removed by calling the output automated.\n\nIn a class project, document the source of assets, actual test results, permitted data and limitations. If an error is found, acknowledge it and correct the record. Respectful online communication avoids harassment, impersonation and misleading presentation. Good computing practice combines useful results with care for the people who create, use or are affected by those results.\n\n### Practical examples\n\n- A student cites a permitted image and follows its licence conditions.\n- A developer records that one browser test failed instead of hiding the result.\n- A form displays a text explanation beside an error colour so more users can understand it.\n\n### Common mistakes\n\n- Publicly accessible does not mean unrestricted reuse.\n- Attribution alone does not always provide permission.\n- Technical ability is different from authorised access.\n\n### Quick revision\n\n- Consider harm and affected people.\n- Represent work and test evidence honestly.\n- Respect access boundaries and licences.\n- Design for fair and accessible use.\n- Document limitations and correct errors.\n- Communicate respectfully.\n\n## 7.8 Cybercrimes and Responsible Reporting\n\nCybercrime broadly concerns unlawful acts involving computers, networks or digital information. Examples studied in introductory computing include unauthorised access, digital fraud, identity misuse and unlawful interference with data or services. Whether a specific incident satisfies a legal offence depends on the applicable law and facts. A class note is not a legal determination about a particular person.\n\nPakistan has electronic-crime legislation and official investigation and reporting arrangements. Requirements and institutions can change, so consult current official Pakistani sources for an actual complaint. Do not rely on an old social-media screenshot for legal provisions, penalties or complaint contacts. This chapter teaches recognition and responsible handling rather than memorising potentially outdated punishment amounts.\n\nAuthorisation has scope. Permission to read a sample folder does not necessarily allow deletion, publication or access to another account. A classroom security exercise should define the systems, actions and time allowed. Activities outside that scope require proper authorisation. Do not test guessed passwords or exploit a public website as a practice task.\n\nDigital fraud can involve impersonation, false payment requests or fabricated offers. Verify unexpected requests using contact details obtained independently from a known source. Do not send money, credentials or one-time codes merely because a message creates urgency. Preserve relevant message text, dates, account identifiers and transaction references when appropriate, without editing the original evidence or redistributing private material publicly.\n\nFor an incident in an institution, notify the responsible authorised contact and follow its process. For an actual suspected offence, use the current official reporting route and suitable professional advice where needed. Keep allegations factual: record what was observed, what remains uncertain and what has already been done. Publicly accusing an identified person based only on a rumour can cause further harm. Training should use fictional scenarios and approved environments, with no malicious files or real victims.\n\n### Practical examples\n\n- A lab permission allows reading one sample dataset, not deleting other folders.\n- A fictional payment request is checked through the organisation’s independently known contact.\n- A student records the time and relevant message reference, then follows the institution’s reporting procedure.\n\n### Common mistakes\n\n- Knowing a password does not automatically establish permission to use the account.\n- An old penalty chart may not describe current law.\n- A classroom suspicion is not a legal finding of guilt.\n\n### Quick revision\n\n- Cybercrime examples concern unlawful digital acts.\n- Legal conclusions depend on law and facts.\n- Authorisation has a defined scope.\n- Verify requests independently.\n- Preserve relevant evidence responsibly.\n- Use current official reporting information.\n\n## 7.9 Health Concerns and Comfortable Computer Use\n\nComputer use involves the person, workstation, task and work routine. Poorly arranged equipment or long periods in an uncomfortable position can contribute to discomfort, fatigue and eye strain. A useful classroom review considers the whole setup rather than claiming that one accessory prevents every problem.\n\nArrange the screen so the task can be read comfortably without prolonged awkward neck positioning. Adjust text size, viewing arrangement and lighting to reduce unnecessary leaning and glare. Position the keyboard and pointing device so they can be used without sustained reaching or an awkward wrist position. A suitable chair and supported working position should fit the user and task; people and equipment differ, so one fixed measurement is not a universal solution.\n\nVary tasks and include suitable breaks or changes of activity rather than maintaining one static position for a long period. A break from keyboard work is less useful if it simply repeats the same uncomfortable posture and intense near-screen activity on another device. Local school or workplace arrangements should support an appropriate routine. The cited UK guidance supplies practical workstation principles; its legal provisions are not presented as Pakistani legal entitlements.\n\nLaptops combine the screen and keyboard, which can make extended comfortable positioning harder. Where available and appropriate, a separate keyboard, pointing device or supported display arrangement can help adapt the workstation. Avoid balancing equipment in an unstable position or blocking its ventilation. Keep walkways clear of cables and follow authorised electrical-safety and maintenance arrangements; students should not open powered equipment to solve a comfort issue.\n\nReport persistent pain, visual problems or other concerning symptoms to an appropriate responsible person and seek qualified health advice when needed. Do not diagnose a condition from a class exercise or promise that a particular posture will cure it. The learning goal is to identify avoidable strain, improve the working arrangement and ask for suitable support, while treating individual needs respectfully.\n\n### Practical examples\n\n- A learner increases text size rather than leaning forward to read small letters.\n- A classroom review identifies screen glare, a distant mouse and a cable across a walkway.\n- A laptop user plans an appropriate supported setup for longer tasks using available approved equipment.\n\n### Common mistakes\n\n- One rigid posture is not a universal cure.\n- A move to another screen may repeat the same strain.\n- A classroom checklist cannot diagnose persistent symptoms.\n\n### Quick revision\n\n- Review person, workstation and task together.\n- Improve readable text, lighting and equipment position.\n- Avoid prolonged awkward reaching and static positions.\n- Vary activities and use suitable breaks.\n- Keep equipment stable and walkways clear.\n- Seek qualified advice for persistent problems.\n\n## Diagrams and comparisons\n\n![Internet infrastructure and web resource request flow](/documents/dit/ict/internet-web-request-flow.svg)\n\nA learner’s device reaches a router and an ISP through a local access link. Internet networks carry the request to the destination web service and return the response. DNS assists name resolution; it is not the same as the entire web service. The diagram simplifies real network paths and does not imply that all packets use one fixed route.\n\n| Concept | Main role | Important distinction |\n|---|---|---|\n| Internet | Interconnected networks | Infrastructure for multiple services |\n| Web | Linked resources and web services | One service family using the Internet |\n| Browser | Client for web resources | Different from a search engine |\n| Search engine | Indexing and query service | Results require source assessment |\n| DNS | Name-to-record resolution | Not the entire URL or web server |\n\n| Service | Typical purpose | Review point |\n|---|---|---|\n| Email | Addressed messages | Recipients, attachments and permissions |\n| Messaging | Conversation | Group audience and service settings |\n| VoIP / conference | Voice and visual communication | Active sources and shared-screen privacy |\n| File transfer | Move files | Supported protection and access rights |\n| Social media | Publication and interaction | Audience, reuse and persistence |\n\n| Responsibility | Question to ask |\n|---|---|\n| Security | Is access and data protected against threats? |\n| Privacy | Is collection, use and sharing appropriate? |\n| Ethics | Is the action honest, fair and responsible? |\n| Authorisation | Are these resources and actions permitted? |\n| Health and comfort | Does the arrangement and routine suit the task and person? |\n\n## Solved short questions\n\n### 1. Distinguish the Internet and the World Wide Web.\n\nThe Internet is an interconnection of networks. The web is a system of linked resources accessed using web technologies over that infrastructure. Email and other services can also use the Internet.\n\n### 2. Distinguish an ISP, router and access point.\n\nAn ISP provides an access service. A router forwards traffic between networks, while an access point provides a supported wireless connection. One device can combine roles without making their functions identical.\n\n### 3. How do an IP address, domain name and URL differ?\n\nAn IP address supports network addressing. A domain name is a human-readable name resolved through DNS records. A URL identifies a resource using components such as scheme, host and path; it is more than just a domain name.\n\n### 4. Distinguish a browser and a search engine.\n\nA browser retrieves and presents web resources. A search engine indexes resources and answers queries through a service often opened in a browser. A result snippet is not a substitute for checking the source page.\n\n### 5. What does web publishing involve?\n\nPrepare permitted material, organise resources, test links and accessibility, then place the checked resources in the intended public hosting environment. Verify the public result. A local preview is not proof of a successful publication.\n\n### 6. Compare B2C, B2B and C2C transactions.\n\nB2C connects a business seller with an individual consumer. B2B describes transactions between businesses. C2C concerns individuals trading with other individuals, often through a marketplace. A platform and its listed seller may have different roles.\n\n### 7. Compare email, messaging and VoIP.\n\nEmail supports addressed messages and attachments. Messaging supports conversational exchanges. VoIP carries voice over IP networks; conferencing can add video and screen sharing. Choose by the task and review audience and privacy.\n\n### 8. Distinguish a virus, worm and Trojan.\n\nA virus infects host material. A worm can propagate between systems without the same host-file requirement. A Trojan conceals malicious behaviour behind a useful or legitimate appearance. An incident can combine behaviours.\n\n### 9. How do security and information privacy differ?\n\nSecurity safeguards confidentiality, integrity and availability. Privacy also asks whether personal information is appropriately collected, used, shared and retained. Secure storage alone does not justify collecting unnecessary information.\n\n### 10. Give two computing-ethics responsibilities.\n\nRepresent sources and test results honestly, and respect the scope of authorised access. Also review licences and required credits, protect personal data and consider accessibility and foreseeable harm.\n\n### 11. How should a suspected digital offence be documented?\n\nRecord relevant observed facts, times and references without altering original evidence or spreading private material. Separate uncertainty from conclusions, follow institutional procedures and consult current official reporting information for an actual complaint.\n\n### 12. What can improve comfortable computer use?\n\nReview readable display position, lighting, keyboard and pointing-device reach, supported seating and task variation. Keep equipment stable and cables out of walkways. Persistent symptoms require appropriate reporting and qualified advice rather than a classroom diagnosis.\n\n## Solved long questions\n\n### 1. Explain how a learner reaches a web resource through an Internet connection.\n\n**Access.** A device connects through a permitted local link and access service. A router forwards traffic between networks; a wireless connection to the router alone does not prove external connectivity. The ISP supplies the relevant external access service.\n\n**Addressing.** A URL supplies the resource address, including a scheme, host and possible path. DNS resolves relevant names to records such as addresses. Names and network addresses have different roles and may change independently.\n\n**Communication.** Requests and responses travel through links and routers in packets. Protocols determine delivery behaviour; not every service has identical reliability or timing. Throughput, latency and advertised capacity measure different properties.\n\n**Review.** The browser presents the response. Check the actual domain, source and context; successful loading and HTTPS do not independently establish that claims are true. Diagnose local access, external connectivity and service failure separately.\n\n### 2. Describe a responsible search and web-publication workflow.\n\n**Find and assess.** Use focused terms and inspect the actual source, date and supporting context. Compare relevant reliable sources rather than treating a popular result as proven. A browser is the client; the search engine is a separate service.\n\n**Prepare.** Write accurate original material and obtain permission for reused assets. Organise headings and navigation, use meaningful links and provide useful text alternatives where appropriate. Avoid publishing private classroom records.\n\n**Test and publish.** Check local content, links and the intended reading experience. Use the authorised hosting process, then open the public address. A working local preview does not prove that all resources reached the server.\n\n**Maintain.** Verify that the public material and links work, correct known errors and update relevant information. Keep a suitable source copy. Publishing and reviewing are continuing responsibilities rather than a one-time upload.\n\n### 3. Explain e-commerce and suitable checks for an online transaction.\n\n**Relationships.** B2C describes business-to-consumer sales, B2B business transactions and C2C individual-to-individual trading. A marketplace can connect independent sellers and buyers; identify which party supplies the goods and handles the relevant obligation.\n\n**Workflow.** A typical model includes selection, checkout, payment, fulfilment and support. These are different events: paid does not necessarily mean delivered. Record the relevant order reference and check actual status rather than relying on a decorative confirmation.\n\n**Cost and conditions.** Compare the complete payable amount, delivery, valid discounts and applicable conditions. In the fictional example, 1,000 plus 150 delivery minus a 100 discount equals 1,050 before any other stated charge.\n\n**Safety.** Review the seller and request independently. HTTPS protects the connection but does not guarantee a shop is trustworthy. Do not disclose passwords or one-time codes in response to an unsolicited request. Classroom demonstrations should use fictional payments and data.\n\n### 4. Compare Internet communication and file-transfer services.\n\n**Messages.** Email supports addressed messages and attachments; recipient fields and sharing links need review. Instant messaging supports conversational exchanges, sometimes with groups. A delivery or presence indicator is not universal proof that a person read or understood the content.\n\n**Real-time communication.** VoIP carries voice using IP networks. Video conferencing can add camera and screen sharing. Check the intended microphone, camera, window and audience; close or hide unrelated private content before sharing.\n\n**Files.** FTP transfers files but traditional FTP does not itself encrypt credentials and contents. SFTP is a distinct SSH-based protocol. Use the transfer method approved and supported for the data and destination; public read access does not grant write authority.\n\n**Publication.** Social media supports posts and interactions with differing audiences. Review privacy and reuse before posting. Removing the original does not guarantee erasing recipients’ copies. Select the service by purpose, permissions and supported features.\n\n### 5. Describe layered security, privacy and responsible incident handling.\n\n**Threats.** Malware includes behaviours such as host infection, self-propagation and deceptive installation. Phishing may steal credentials without installing software. An outage alone is not proof of a deliberate attack; observations require investigation.\n\n**Safeguards.** Use supported updates, trustworthy sources, limited access, unique passwords, supported MFA and checked recoverable backups. No one layer guarantees immunity. Review unexpected requests through independently known channels and do not run unknown files as experiments.\n\n**Privacy and ethics.** Collect appropriate minimal data, review audiences and retention, and use fictional records for public demonstrations. Respect licences, honest reporting and authorised scope. Secure storage does not independently justify an unnecessary collection or disclosure.\n\n**Response.** Stop risky interaction and follow authorised support procedures. Preserve relevant facts without alteration or public redistribution. Legal conclusions depend on applicable law and facts; use current official Pakistani information for actual reporting rather than an old social-media penalty chart.\n\n### 6. Plan a responsible and comfortable classroom computing session.\n\n**Prepare.** Choose a permitted service and use fictional or authorised information. Define access scope and expected output. Check source permissions and the intended audience before collecting or publishing anything.\n\n**Arrange.** Review screen readability and glare, input-device reach, seating, equipment stability and clear walkways. Adapt available equipment to the person and task rather than imposing one rigid arrangement on everyone. Do not open powered equipment.\n\n**Work.** Vary tasks and use appropriate breaks or changes of activity. Check recipients and screen-sharing content. Record actual test results and any limitations honestly, and correct known errors instead of fabricating success.\n\n**Review and seek support.** Save the required output, confirm sharing permissions and retain useful source work. Report security concerns through the authorised route. Persistent pain or visual problems need appropriate qualified advice; a classroom checklist does not diagnose or guarantee a cure.\n\n## Expected practice and past-paper status\n\nThe questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use every topic section for preparation.\n\n## Practical activities and viva preparation\n\n### Map a permitted connection\n\nDraw a classroom device, local access link, router, ISP and a public web service. Label the URL, DNS and IP roles. Explain how local Wi-Fi can remain connected during an external-service outage. Do not change network settings.\n\n**Expected result:** A labelled conceptual diagram distinguishing local access, Internet infrastructure and web resources.\n\n### Assess and plan a web page\n\nUse two public permitted sources for a non-sensitive topic. Record their authorship, dates and evidence; plan a page with headings, descriptive links and a permitted image credit. If no publishing environment is authorised, keep the work as a local or paper plan.\n\n**Expected result:** A source assessment and publishing checklist with local testing and public verification as separate stages.\n\n### Model a purchase and service choice\n\nOn paper, classify fictional B2C, B2B and C2C examples. Calculate a 1,000 item plus 150 delivery minus a valid 100 discount. Choose email, messaging, VoIP or a file-transfer service for three stated classroom tasks and justify each.\n\n**Expected result:** A total of 1,050 under the stated assumptions, correct transaction roles and reasoned service choices.\n\n### Review a fictional suspicious request\n\nUse a teacher-written fictional payment or sign-in request with no active malicious links. List warning signs, an independently known verification route, relevant evidence and the authorised reporting contact. Do not send messages, pay money or execute files.\n\n**Expected result:** A response plan separating observation from allegation and respecting privacy and access scope.\n\n### Audit privacy and workstation comfort\n\nInspect a fictional shared-document scenario and an available workstation. Identify unnecessary personal fields, wrong sharing roles, readability, glare, reaching, stability and cable issues. Suggest permitted adjustments and task variation; do not diagnose anyone or open equipment.\n\n**Expected result:** A practical checklist covering appropriate data use, intended audience, comfortable work and escalation of persistent concerns.\n\n### Viva questions\n\nHow can Wi-Fi work while Internet access fails? Is the web the entire Internet? How do a URL and domain name differ? Does HTTPS prove a claim true? When should email, VoIP or file transfer be chosen? How do virus, worm and Trojan behaviours differ? Can secure data collection still be inappropriate? Does a guessed password establish permission? Why check current official reporting information? How can workstation arrangement and task variation help? Check the topic notes and solved answers for explanations.\n\n## Chapter practice test\n\nSuggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.\n\n### Q1. What is the Internet?\n\nA) Only one classroom's printer cable\n\nB) Only the physical monitor on a desk\n\nC) A global interconnection of networks\n\nD) Only a single social-media website\n\n### Q2. What does a router primarily do?\n\nA) Guarantee every document is truthful\n\nB) Act only as a camera lens\n\nC) Replace all application software\n\nD) Forward traffic between networks\n\n### Q3. What does an IP address help identify?\n\nA) Only a person's legal identity\n\nB) An interface for IP communication within its scope\n\nC) Only a file's font\n\nD) Only a printer's ink colour\n\n### Q4. How does the Web relate to the Internet?\n\nA) It is universally the same thing as every Internet service\n\nB) It means only the physical network adapter\n\nC) It excludes all browsers\n\nD) It is a major linked-resource system using Internet connectivity\n\n### Q5. Does a link's visible text prove its destination?\n\nA) Yes, every label is independently verified by the browser\n\nB) No, the destination address should be inspected where relevant\n\nC) Yes, any familiar word guarantees a trusted login page\n\nD) No, because links can never contain text\n\n### Q6. How does a local preview differ from publishing?\n\nA) A preview is not necessarily available to the intended external audience\n\nB) Every local file is automatically public worldwide\n\nC) Previewing always creates a hosting account\n\nD) Publishing never needs any verification\n\n### Q7. What is e-commerce?\n\nA) Electronic support for buying, selling and related transactions\n\nB) Only changing a computer's wallpaper\n\nC) Only an offline printed product label\n\nD) Only a processor's instruction cycle\n\n### Q8. What should a buyer compare at checkout?\n\nA) Only the largest crossed-out number\n\nB) The complete payable amount and relevant conditions\n\nC) Only the page's background colour\n\nD) Only the number of advertisement images\n\n### Q9. Which is an email function?\n\nA) Sending addressed messages with supported attachments\n\nB) Only controlling a CPU clock\n\nC) Only turning a pixel on\n\nD) Only formatting an SSD\n\n### Q10. Which item should be reviewed before screen sharing?\n\nA) The visible window and intended audience\n\nB) Only the keyboard's purchase date\n\nC) Only the case colour\n\nD) Only a wallpaper's filename\n\n### Q11. What does confidentiality concern?\n\nA) Preventing unauthorised disclosure\n\nB) Only increasing screen brightness\n\nC) Only sorting keyboard keys\n\nD) Only making a file longer\n\n### Q12. What describes a Trojan?\n\nA) Every encrypted backup\n\nB) Malicious behaviour concealed behind a useful or legitimate appearance\n\nC) Every approved printer driver\n\nD) Only a hardware cable fault\n\n### Q13. What is a central information-privacy question?\n\nA) How personal information is collected, used and shared\n\nB) Only how bright the display is\n\nC) Only which processor brand is installed\n\nD) Only how fast a fan rotates\n\n### Q14. Does removing a name always make a record unidentifiable?\n\nA) Yes, every remaining field is automatically anonymous\n\nB) Yes, photographs cannot identify anyone\n\nC) No, other details may reveal the person\n\nD) No, because names can never be removed\n\n### Q15. What does computer ethics address?\n\nA) Only the speed of a graphics card\n\nB) Responsible decisions and effects of computing\n\nC) Only installing decorative fonts\n\nD) Only counting physical cables\n\n### Q16. Which design improves an error message's accessibility?\n\nA) Colour alone with no explanation\n\nB) An unexplained disappearing icon\n\nC) A meaningful text explanation as well as colour\n\nD) A warning visible only after guessing a shortcut\n\n### Q17. Which is a cybercrime example for introductory study?\n\nA) Opening one's own permitted practice file\n\nB) Writing an original classroom report\n\nC) Unauthorised access to another person's system\n\nD) Changing one's own permitted wallpaper\n\n### Q18. How should an unexpected payment request be verified?\n\nA) Through only the suspicious message's new number\n\nB) By replying with a password\n\nC) By sending money before checking\n\nD) Through an independently known legitimate contact\n\n### Q19. What should a workstation review consider?\n\nA) The person, equipment, environment and task together\n\nB) Only the brand logo\n\nC) Only the wallpaper\n\nD) Only the number of stickers\n\n### Q20. What is appropriate for cables across a walkway?\n\nA) Leave them because software is working\n\nB) Pull live electrical equipment apart\n\nC) Report or arrange them safely through approved procedures\n\nD) Cover them with loose papers\n\n### Short questions\n\n1. Distinguish the Internet and the World Wide Web.\n\n2. Distinguish an ISP, router and access point.\n\n3. Distinguish a browser and a search engine.\n\n4. What does web publishing involve?\n\n5. Compare B2C, B2B and C2C transactions.\n\n6. Compare email, messaging and VoIP.\n\n7. Distinguish a virus, worm and Trojan.\n\n8. How do security and information privacy differ?\n\n9. Give two computing-ethics responsibilities.\n\n10. How should a suspected digital offence be documented?\n\n### Long questions\n\n1. Describe a responsible search and web-publication workflow.\n\n2. Compare Internet communication and file-transfer services.\n\n3. Plan a responsible and comfortable classroom computing session.\n\n## Practice test answer key and explanations\n\n1. **C**. The Internet connects many networks rather than being one application or local link.\n\n2. **D**. Routing selects and forwards traffic through the network path.\n\n3. **B**. An IP address is a network addressing value, not a universal identity certificate.\n\n4. **D**. The Web is one use of the broader Internet infrastructure.\n\n5. **B**. Displayed text and the linked URL can differ.\n\n6. **A**. Public availability requires the supported delivery and access configuration.\n\n7. **A**. E-commerce concerns electronic transaction workflows.\n\n8. **B**. Fees, valid discounts and conditions can change the actual total.\n\n9. **A**. Email supports messages between addressed recipients.\n\n10. **A**. Screen sharing can expose unrelated or private information.\n\n11. **A**. Confidentiality concerns who can access or learn information.\n\n12. **B**. Deceptive presentation can induce a user to run malicious code.\n\n13. **A**. Privacy addresses appropriate handling of information relating to people.\n\n14. **C**. Identification can arise from combinations of remaining information.\n\n15. **B**. Ethics considers responsibilities and effects on people.\n\n16. **C**. Multiple clear cues help users interpret the problem.\n\n17. **C**. Unauthorised digital acts can fall within cybercrime law depending on facts and provisions.\n\n18. **D**. An independent channel reduces reliance on the potentially deceptive request.\n\n19. **A**. Comfort and risk depend on the overall arrangement and use.\n\n20. **C**. Physical workstation safety includes avoiding trip hazards.\n\n### Written-answer guidance\n\nShort questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.\n\n## Sources and further study\n\n- [PBTE official two-year DIT syllabus, ICT Module 7, page 9](https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf)\n\n- [MDN: how the Internet works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work)\n\n- [MDN: how the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works)\n\n- [OpenSSH: SFTP manual](https://man.openbsd.org/sftp)\n\n- [NIST malware glossary](https://csrc.nist.gov/glossary/term/malware)\n\n- [CISA: four online safety habits](https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf)\n\n- [FTC: recognise and avoid phishing](https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams)\n\n- [W3C privacy principles](https://www.w3.org/TR/privacy-principles/)\n\n- [ACM code of ethics](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-booklet.pdf)\n\n- [NCCIA official laws information; check current official procedures for actual cases](https://www.nccia.gov.pk/laws.php)\n\n- [HSE display-screen equipment guidance; practical principles, not a statement of Pakistani law](https://www.hse.gov.uk/msd/dse/)\n\n## Continue your ICT revision\n\n[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).\n\n[Review Chapter 6 Application Software](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-6-application-software/).\n",
+  "questions": [
+    {
+      "id": "dit-ict-ch7-q01",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "What is the Internet?",
+      "options": [
+        "Only one classroom's printer cable",
+        "Only the physical monitor on a desk",
+        "A global interconnection of networks",
+        "Only a single social-media website"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Internet connects many networks rather than being one application or local link."
+    },
+    {
+      "id": "dit-ict-ch7-q02",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "Does a Wi-Fi connection alone prove external Internet access?",
+      "options": [
+        "No, the router connection can work while external access fails",
+        "Yes, every connected router guarantees all websites work",
+        "Yes, Wi-Fi creates every paid access service automatically",
+        "No, because Wi-Fi can never carry Internet traffic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Local connectivity and the external service path are separate requirements."
+    },
+    {
+      "id": "dit-ict-ch7-q03",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "What is the role of an ISP?",
+      "options": [
+        "Only organise desktop icons",
+        "Provide an Internet access service",
+        "Only supply a word-processing font",
+        "Only increase CPU register size"
+      ],
+      "correctIndex": 1,
+      "explanation": "An ISP supplies the connectivity service through supported access methods."
+    },
+    {
+      "id": "dit-ict-ch7-q04",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "Which is an example of an Internet access method?",
+      "options": [
+        "Fibre or mobile-network access",
+        "Only a printer's paper setting",
+        "Only a screen-saver animation",
+        "Only a keyboard shortcut"
+      ],
+      "correctIndex": 0,
+      "explanation": "Different access technologies provide links to a provider network."
+    },
+    {
+      "id": "dit-ict-ch7-q05",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "What does a router primarily do?",
+      "options": [
+        "Guarantee every document is truthful",
+        "Act only as a camera lens",
+        "Replace all application software",
+        "Forward traffic between networks"
+      ],
+      "correctIndex": 3,
+      "explanation": "Routing selects and forwards traffic through the network path."
+    },
+    {
+      "id": "dit-ict-ch7-q06",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "Which statement about a combined home-network device is accurate?",
+      "options": [
+        "Every hardware function has an identical technical meaning",
+        "A router and a text editor are always the same component",
+        "One product can combine routing and wireless access functions",
+        "A Wi-Fi label proves all modem types are included"
+      ],
+      "correctIndex": 2,
+      "explanation": "Physical products can combine distinct networking roles."
+    },
+    {
+      "id": "dit-ict-ch7-q07",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "How can Internet data travel?",
+      "options": [
+        "In packets through a sequence of network links and routers",
+        "Only as one physical paper sheet",
+        "Only through the same unchanging route for every packet",
+        "Only by a user retyping every byte at each router"
+      ],
+      "correctIndex": 0,
+      "explanation": "Packet communication allows networks to carry data across multiple links."
+    },
+    {
+      "id": "dit-ict-ch7-q08",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "Which statement about delivery reliability is correct?",
+      "options": [
+        "It depends on protocols and application design",
+        "Every Internet packet has an identical guaranteed arrival time",
+        "All transport protocols behave exactly like TCP",
+        "No application can ever recover from a lost packet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Different protocols provide different delivery and recovery properties."
+    },
+    {
+      "id": "dit-ict-ch7-q09",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "What does an IP address help identify?",
+      "options": [
+        "Only a person's legal identity",
+        "An interface for IP communication within its scope",
+        "Only a file's font",
+        "Only a printer's ink colour"
+      ],
+      "correctIndex": 1,
+      "explanation": "An IP address is a network addressing value, not a universal identity certificate."
+    },
+    {
+      "id": "dit-ict-ch7-q10",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "What is a main purpose of DNS?",
+      "options": [
+        "Convert every image to a printed page",
+        "Resolve names to relevant records, including address records",
+        "Supply electrical power to an ISP",
+        "Guarantee a website's claims are true"
+      ],
+      "correctIndex": 1,
+      "explanation": "DNS supports naming and lookup rather than verifying every site's content."
+    },
+    {
+      "id": "dit-ict-ch7-q11",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "What does latency describe?",
+      "options": [
+        "Communication delay",
+        "Only the total storage capacity of an SSD",
+        "Only a network cable's colour",
+        "The number of words in a document"
+      ],
+      "correctIndex": 0,
+      "explanation": "Latency measures delay and differs from transfer throughput."
+    },
+    {
+      "id": "dit-ict-ch7-q12",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.1 Networks, Internet Access and Addresses",
+      "question": "Before overhead, what is 100 megabits per second expressed in megabytes per second?",
+      "options": [
+        "100 MB/s",
+        "800 MB/s",
+        "12.5 MB/s",
+        "0.125 MB/s"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eight bits make one byte, so the stated rate is divided by eight."
+    },
+    {
+      "id": "dit-ict-ch7-q13",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "How does the Web relate to the Internet?",
+      "options": [
+        "It is universally the same thing as every Internet service",
+        "It means only the physical network adapter",
+        "It excludes all browsers",
+        "It is a major linked-resource system using Internet connectivity"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Web is one use of the broader Internet infrastructure."
+    },
+    {
+      "id": "dit-ict-ch7-q14",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "What is the role of a browser?",
+      "options": [
+        "Guarantee all search results are correct",
+        "Act as every site's author",
+        "Replace every network service provider",
+        "Retrieve and present web resources"
+      ],
+      "correctIndex": 3,
+      "explanation": "Browsers provide an environment for accessing and displaying resources."
+    },
+    {
+      "id": "dit-ict-ch7-q15",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "How does a search engine differ from a browser?",
+      "options": [
+        "They are always identical names for the same software",
+        "A search engine is only a keyboard device",
+        "A browser cannot access a search service",
+        "It helps locate indexed material rather than being the general browsing program"
+      ],
+      "correctIndex": 3,
+      "explanation": "The browser can access many services, including search engines."
+    },
+    {
+      "id": "dit-ict-ch7-q16",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "Which URL component identifies the service name in a simple web address?",
+      "options": [
+        "Only the displayed link colour",
+        "Host",
+        "Only the paragraph heading",
+        "Only the file's printed title"
+      ],
+      "correctIndex": 1,
+      "explanation": "The host is an address component distinct from scheme, path and other parts."
+    },
+    {
+      "id": "dit-ict-ch7-q17",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "What does a URL path commonly identify?",
+      "options": [
+        "A resource location within the named service",
+        "The user's automatic legal identity",
+        "The physical length of a network cable",
+        "The screen's refresh frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "A path helps select the requested resource within the service."
+    },
+    {
+      "id": "dit-ict-ch7-q18",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "Does a link's visible text prove its destination?",
+      "options": [
+        "Yes, every label is independently verified by the browser",
+        "No, the destination address should be inspected where relevant",
+        "Yes, any familiar word guarantees a trusted login page",
+        "No, because links can never contain text"
+      ],
+      "correctIndex": 1,
+      "explanation": "Displayed text and the linked URL can differ."
+    },
+    {
+      "id": "dit-ict-ch7-q19",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "What does refreshing a web page fail to guarantee?",
+      "options": [
+        "That the browser can request a resource",
+        "That a page has an address",
+        "That every upstream source has instantly produced new data",
+        "That servers can return content"
+      ],
+      "correctIndex": 2,
+      "explanation": "Caching and source update timing affect what a refreshed page displays."
+    },
+    {
+      "id": "dit-ict-ch7-q20",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "What is an appropriate search-result check?",
+      "options": [
+        "Open the source and review its date, evidence and purpose",
+        "Assume the first result is always an official authority",
+        "Use the snippet alone for every deadline",
+        "Treat every advertisement as a verified public notice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Search ranking is not a substitute for evaluating the underlying source."
+    },
+    {
+      "id": "dit-ict-ch7-q21",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "Which classification of websites is sensible?",
+      "options": [
+        "Sites can combine educational, commercial or other purposes",
+        "Every site has exactly one possible function forever",
+        "A site with pictures can never be educational",
+        "Every community post is an official regulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Categories describe purpose and can overlap."
+    },
+    {
+      "id": "dit-ict-ch7-q22",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "What does HTTPS alone not establish?",
+      "options": [
+        "That the service uses a web address",
+        "That encrypted transport can be used",
+        "That a browser can make a request",
+        "The truth of every claim on a page"
+      ],
+      "correctIndex": 3,
+      "explanation": "Transport security and factual reliability are separate questions."
+    },
+    {
+      "id": "dit-ict-ch7-q23",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "How does a local preview differ from publishing?",
+      "options": [
+        "A preview is not necessarily available to the intended external audience",
+        "Every local file is automatically public worldwide",
+        "Previewing always creates a hosting account",
+        "Publishing never needs any verification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Public availability requires the supported delivery and access configuration."
+    },
+    {
+      "id": "dit-ict-ch7-q24",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.2 The World Wide Web and Web Publishing",
+      "question": "What should follow a web publishing change?",
+      "options": [
+        "Assume all content is correct because an upload started",
+        "Verify the delivered page, links and intended access",
+        "Expose private records to test publicity",
+        "Remove all source attribution automatically"
+      ],
+      "correctIndex": 1,
+      "explanation": "A successful change needs checks of actual output and permitted content."
+    },
+    {
+      "id": "dit-ict-ch7-q25",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "What is e-commerce?",
+      "options": [
+        "Electronic support for buying, selling and related transactions",
+        "Only changing a computer's wallpaper",
+        "Only an offline printed product label",
+        "Only a processor's instruction cycle"
+      ],
+      "correctIndex": 0,
+      "explanation": "E-commerce concerns electronic transaction workflows."
+    },
+    {
+      "id": "dit-ict-ch7-q26",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Which example is B2C?",
+      "options": [
+        "A business purchasing supplies from another business",
+        "Only two servers exchanging clock signals",
+        "Only a printer producing a test page",
+        "A retailer selling an item to an individual customer"
+      ],
+      "correctIndex": 3,
+      "explanation": "B2C describes business-to-consumer transactions."
+    },
+    {
+      "id": "dit-ict-ch7-q27",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Which example is B2B?",
+      "options": [
+        "Only a student viewing a personal photograph",
+        "One business buying supplies from another business",
+        "Only a keyboard typing a search term",
+        "Only two unrelated display pixels"
+      ],
+      "correctIndex": 1,
+      "explanation": "B2B describes transactions between businesses."
+    },
+    {
+      "id": "dit-ict-ch7-q28",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "What can C2C describe?",
+      "options": [
+        "Individuals selling to other individuals through a marketplace",
+        "Only the CPU contacting its cache",
+        "Only a government publishing a timetable",
+        "Only a school setting a password policy"
+      ],
+      "correctIndex": 0,
+      "explanation": "C2C describes a consumer-to-consumer relationship."
+    },
+    {
+      "id": "dit-ict-ch7-q29",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Does a marketplace necessarily manufacture every listed item?",
+      "options": [
+        "Yes, every platform makes every product itself",
+        "Yes, the logo proves all items have one manufacturer",
+        "No, because marketplaces cannot support orders",
+        "No, the platform and seller roles need checking"
+      ],
+      "correctIndex": 3,
+      "explanation": "A marketplace can connect sellers and buyers without making every product."
+    },
+    {
+      "id": "dit-ict-ch7-q30",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "In the stated example, what is 1,000 plus 150 delivery minus a 100 discount?",
+      "options": [
+        "1,050",
+        "1,250",
+        "950",
+        "850"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fictional total is 1,050, assuming no additional charges."
+    },
+    {
+      "id": "dit-ict-ch7-q31",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "What should a buyer compare at checkout?",
+      "options": [
+        "Only the largest crossed-out number",
+        "The complete payable amount and relevant conditions",
+        "Only the page's background colour",
+        "Only the number of advertisement images"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fees, valid discounts and conditions can change the actual total."
+    },
+    {
+      "id": "dit-ict-ch7-q32",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Does paid order status always mean delivered?",
+      "options": [
+        "Yes, payment physically transports the goods",
+        "Yes, every confirmation means delivery is complete",
+        "No, payment and fulfilment are different stages",
+        "No, because electronic orders can never be delivered"
+      ],
+      "correctIndex": 2,
+      "explanation": "A transaction has distinct ordering, payment and delivery events."
+    },
+    {
+      "id": "dit-ict-ch7-q33",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Which request should be treated cautiously?",
+      "options": [
+        "A fictional classroom worksheet with no personal data",
+        "A saved public product description",
+        "A printed list of comparison criteria",
+        "An unsolicited message asking for a password or one-time code"
+      ],
+      "correctIndex": 3,
+      "explanation": "Credential and code requests can be part of a deceptive transaction attempt."
+    },
+    {
+      "id": "dit-ict-ch7-q34",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Does HTTPS alone prove an unfamiliar shop is trustworthy?",
+      "options": [
+        "No, seller identity and terms still need review",
+        "Yes, all product claims are independently guaranteed",
+        "Yes, every refund request must automatically succeed",
+        "No, because websites cannot encrypt connections"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transport protection is different from seller reliability."
+    },
+    {
+      "id": "dit-ict-ch7-q35",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "Which record can help track an order?",
+      "options": [
+        "Only the mouse's serial number",
+        "The relevant order reference and permitted transaction details",
+        "Only the monitor's refresh rate",
+        "Only an unrelated desktop icon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Order information provides context when checking status or seeking verified support."
+    },
+    {
+      "id": "dit-ict-ch7-q36",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.3 E-Commerce",
+      "question": "What is appropriate for a classroom e-commerce demonstration?",
+      "options": [
+        "A fictional checkout with no real payment or private data",
+        "Submitting another person's card details",
+        "Publishing a real account password",
+        "Making an unapproved purchase to test a banner"
+      ],
+      "correctIndex": 0,
+      "explanation": "A model can teach the workflow without exposing data or creating a transaction."
+    },
+    {
+      "id": "dit-ict-ch7-q37",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Which is an email function?",
+      "options": [
+        "Sending addressed messages with supported attachments",
+        "Only controlling a CPU clock",
+        "Only turning a pixel on",
+        "Only formatting an SSD"
+      ],
+      "correctIndex": 0,
+      "explanation": "Email supports messages between addressed recipients."
+    },
+    {
+      "id": "dit-ict-ch7-q38",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Does sending an email prove it was read?",
+      "options": [
+        "Yes, every recipient reads immediately",
+        "Yes, all mail servers require a spoken reply",
+        "No, because email cannot carry text",
+        "No, sending and reading are different events"
+      ],
+      "correctIndex": 3,
+      "explanation": "Message status must not be confused with recipient attention."
+    },
+    {
+      "id": "dit-ict-ch7-q39",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "What does Cc normally expose to recipients?",
+      "options": [
+        "Only the sender's processor temperature",
+        "Only the password hash",
+        "The listed copied recipients",
+        "Only a printer queue"
+      ],
+      "correctIndex": 2,
+      "explanation": "Visible recipient fields can reveal addresses."
+    },
+    {
+      "id": "dit-ict-ch7-q40",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "What is an attachment?",
+      "options": [
+        "Only the email application's icon",
+        "Only the recipient's monitor",
+        "Only a network cable",
+        "A file included with a message"
+      ],
+      "correctIndex": 3,
+      "explanation": "Attachments and shared-file links have different delivery and permission behaviour."
+    },
+    {
+      "id": "dit-ict-ch7-q41",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "What does instant messaging support?",
+      "options": [
+        "Only permanent hardware repair",
+        "Only disk partition formatting",
+        "Conversational exchanges through a messaging service",
+        "Only offline paper binding"
+      ],
+      "correctIndex": 2,
+      "explanation": "Messaging services organise exchanges and can support groups and media."
+    },
+    {
+      "id": "dit-ict-ch7-q42",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "What does VoIP carry?",
+      "options": [
+        "Only printed invoices by road",
+        "Only physical video discs",
+        "Voice communication using IP networks",
+        "Only computer case screws"
+      ],
+      "correctIndex": 2,
+      "explanation": "VoIP describes voice communication over IP-based networks."
+    },
+    {
+      "id": "dit-ict-ch7-q43",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Which item should be reviewed before screen sharing?",
+      "options": [
+        "The visible window and intended audience",
+        "Only the keyboard's purchase date",
+        "Only the case colour",
+        "Only a wallpaper's filename"
+      ],
+      "correctIndex": 0,
+      "explanation": "Screen sharing can expose unrelated or private information."
+    },
+    {
+      "id": "dit-ict-ch7-q44",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Does traditional FTP itself encrypt credentials and contents?",
+      "options": [
+        "Yes, every FTP session is automatically encrypted",
+        "Yes, encryption is supplied by the filename",
+        "No, because FTP cannot transfer files",
+        "No, encrypted protection requires an appropriate supported alternative or extension"
+      ],
+      "correctIndex": 3,
+      "explanation": "Traditional FTP should not be assumed to provide encrypted protection."
+    },
+    {
+      "id": "dit-ict-ch7-q45",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "What is SFTP?",
+      "options": [
+        "A synonym for every ordinary FTP session",
+        "Only a screenshot file type",
+        "Only a social-media button",
+        "A distinct SSH-based file-transfer protocol"
+      ],
+      "correctIndex": 3,
+      "explanation": "SFTP uses SSH and is not the same protocol as traditional FTP."
+    },
+    {
+      "id": "dit-ict-ch7-q46",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Does a public download permit modifying the remote server?",
+      "options": [
+        "Yes, any visible file grants administrator access",
+        "Yes, a download always includes write permission",
+        "No, because files cannot be downloaded",
+        "No, access rights and permitted uses remain separate"
+      ],
+      "correctIndex": 3,
+      "explanation": "Reading a public resource does not grant remote write authority."
+    },
+    {
+      "id": "dit-ict-ch7-q47",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Does deleting one social post guarantee all copies disappear?",
+      "options": [
+        "Yes, every device erases all copies immediately",
+        "Yes, deletion controls every archive",
+        "No, recipients may retain copies or screenshots",
+        "No, because posts cannot ever be deleted"
+      ],
+      "correctIndex": 2,
+      "explanation": "Distribution can create copies beyond the original account's control."
+    },
+    {
+      "id": "dit-ict-ch7-q48",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.4 Other Internet Services",
+      "question": "Which classroom messaging activity is appropriate?",
+      "options": [
+        "Publishing classmates' private phone numbers",
+        "Sending unsolicited messages to strangers",
+        "A fictional exchange using non-sensitive data",
+        "Sharing an account password publicly"
+      ],
+      "correctIndex": 2,
+      "explanation": "A model can teach communication choices without exposing real people."
+    },
+    {
+      "id": "dit-ict-ch7-q49",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What does confidentiality concern?",
+      "options": [
+        "Preventing unauthorised disclosure",
+        "Only increasing screen brightness",
+        "Only sorting keyboard keys",
+        "Only making a file longer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Confidentiality concerns who can access or learn information."
+    },
+    {
+      "id": "dit-ict-ch7-q50",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What does integrity concern?",
+      "options": [
+        "Only a fan's speed",
+        "Only monitor size",
+        "Only decorative colours",
+        "Protection against improper alteration"
+      ],
+      "correctIndex": 3,
+      "explanation": "Integrity concerns the correctness and authorised state of information."
+    },
+    {
+      "id": "dit-ict-ch7-q51",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What does availability concern?",
+      "options": [
+        "Only the number of fonts",
+        "Usable access when required under the system's intended conditions",
+        "Only a mouse's weight",
+        "Only a desktop theme"
+      ],
+      "correctIndex": 1,
+      "explanation": "Availability is a security objective concerning access to systems and data."
+    },
+    {
+      "id": "dit-ict-ch7-q52",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What is a vulnerability?",
+      "options": [
+        "Every successful backup",
+        "Every authorised update",
+        "Only an account's public nickname",
+        "A weakness that may be exploited"
+      ],
+      "correctIndex": 3,
+      "explanation": "Weaknesses can expose a system to threats."
+    },
+    {
+      "id": "dit-ict-ch7-q53",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What distinguishes a computer virus in the basic model?",
+      "options": [
+        "It always replaces a monitor physically",
+        "It is every unsolicited advertisement",
+        "It infects suitable host material",
+        "It is any slow application"
+      ],
+      "correctIndex": 2,
+      "explanation": "A virus depends on an infection mechanism involving a host."
+    },
+    {
+      "id": "dit-ict-ch7-q54",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What can a worm do?",
+      "options": [
+        "Only change the desk position",
+        "Only print a paper form",
+        "Only improve every network connection",
+        "Propagate between systems without the same host-file infection requirement"
+      ],
+      "correctIndex": 3,
+      "explanation": "Worm behaviour includes self-propagation across systems."
+    },
+    {
+      "id": "dit-ict-ch7-q55",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What describes a Trojan?",
+      "options": [
+        "Every encrypted backup",
+        "Malicious behaviour concealed behind a useful or legitimate appearance",
+        "Every approved printer driver",
+        "Only a hardware cable fault"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deceptive presentation can induce a user to run malicious code."
+    },
+    {
+      "id": "dit-ict-ch7-q56",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "Must phishing install malware to cause harm?",
+      "options": [
+        "Yes, stolen passwords require a virus file",
+        "Yes, every false website is harmless without installation",
+        "No, because messages cannot deceive people",
+        "No, it can deceive a user into giving information"
+      ],
+      "correctIndex": 3,
+      "explanation": "Credential theft can occur through a deceptive request or page."
+    },
+    {
+      "id": "dit-ict-ch7-q57",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "Which is a layered safeguard?",
+      "options": [
+        "Disabling every update permanently",
+        "Using one password for all accounts",
+        "Updates, access controls, MFA and checked backups together",
+        "Running unknown files to see their effect"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiple safeguards address different failure paths."
+    },
+    {
+      "id": "dit-ict-ch7-q58",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "Does MFA remove every need to review sign-in requests?",
+      "options": [
+        "Yes, every approval request is safe",
+        "No, deceptive prompts and other threats still matter",
+        "Yes, passwords can then be published",
+        "No, because MFA cannot add protection"
+      ],
+      "correctIndex": 1,
+      "explanation": "MFA is an additional layer, not universal immunity."
+    },
+    {
+      "id": "dit-ict-ch7-q59",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What makes a backup operationally useful?",
+      "options": [
+        "Only its filename includes backup",
+        "Only its icon is green",
+        "Only it is stored beside the original",
+        "Required data can be restored from it"
+      ],
+      "correctIndex": 3,
+      "explanation": "Recoverability needs checking rather than assuming a copy is sufficient."
+    },
+    {
+      "id": "dit-ict-ch7-q60",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.5 Computer Security and Malware",
+      "question": "What is a suitable response to a suspicious attachment at school?",
+      "options": [
+        "Execute it on every classroom computer",
+        "Forward it to all friends",
+        "Stop interacting and report through authorised support",
+        "Publish staff passwords to ask for help"
+      ],
+      "correctIndex": 2,
+      "explanation": "Follow incident procedures without spreading the suspected threat."
+    },
+    {
+      "id": "dit-ict-ch7-q61",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "What is a central information-privacy question?",
+      "options": [
+        "How personal information is collected, used and shared",
+        "Only how bright the display is",
+        "Only which processor brand is installed",
+        "Only how fast a fan rotates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Privacy addresses appropriate handling of information relating to people."
+    },
+    {
+      "id": "dit-ict-ch7-q62",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Are security and privacy identical?",
+      "options": [
+        "No, secure storage alone does not justify every collection or use",
+        "Yes, every encrypted database is automatically appropriate",
+        "Yes, privacy only means antivirus installation",
+        "No, because privacy never concerns information"
+      ],
+      "correctIndex": 0,
+      "explanation": "Security safeguards and appropriate personal-data use are related but distinct."
+    },
+    {
+      "id": "dit-ict-ch7-q63",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "What is data minimisation?",
+      "options": [
+        "Collecting all available personal details by default",
+        "Limiting data to what is appropriate for a stated purpose",
+        "Publishing every account field",
+        "Keeping unnecessary copies indefinitely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Collecting fewer unnecessary details reduces avoidable exposure."
+    },
+    {
+      "id": "dit-ict-ch7-q64",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Which dataset suits a public classroom demonstration?",
+      "options": [
+        "Fictional records with only needed fields",
+        "Real students' identity numbers",
+        "Unredacted family contact lists",
+        "A private staff payroll"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fictional minimal data can teach the task without disclosing real records."
+    },
+    {
+      "id": "dit-ict-ch7-q65",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "What should be checked before sharing a document link?",
+      "options": [
+        "Only the document icon",
+        "Audience and view or edit permissions",
+        "Only the browser's theme",
+        "Only the monitor size"
+      ],
+      "correctIndex": 1,
+      "explanation": "Link access can extend beyond the intended audience if roles are wrong."
+    },
+    {
+      "id": "dit-ict-ch7-q66",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Can comments in a document disclose information?",
+      "options": [
+        "No, only the first visible heading can disclose data",
+        "No, comments are always automatically public-safe",
+        "Yes, review comments and other included material",
+        "Yes, but only when printed in red"
+      ],
+      "correctIndex": 2,
+      "explanation": "Content outside the main body can still contain private details."
+    },
+    {
+      "id": "dit-ict-ch7-q67",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Does removing a name always make a record unidentifiable?",
+      "options": [
+        "Yes, every remaining field is automatically anonymous",
+        "Yes, photographs cannot identify anyone",
+        "No, other details may reveal the person",
+        "No, because names can never be removed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Identification can arise from combinations of remaining information."
+    },
+    {
+      "id": "dit-ict-ch7-q68",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Are all cookies malware?",
+      "options": [
+        "Yes, every cookie is an executable virus",
+        "Yes, a website cannot use cookies for sessions",
+        "No, because browsers cannot store data",
+        "No, cookies have different uses and properties"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cookies should be assessed by their actual purpose and handling."
+    },
+    {
+      "id": "dit-ict-ch7-q69",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Does private browsing provide universal anonymity?",
+      "options": [
+        "Yes, websites cannot receive any requests",
+        "No, it does not hide activity from every external party",
+        "Yes, network operators cannot observe any activity",
+        "No, because it permanently publishes all history"
+      ],
+      "correctIndex": 1,
+      "explanation": "Private mode has a limited browser-session scope."
+    },
+    {
+      "id": "dit-ict-ch7-q70",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "What should a privacy setting be understood through?",
+      "options": [
+        "Only its colour",
+        "Only the length of its label",
+        "Its supported scope and limitations",
+        "A guarantee that all tracking everywhere stops"
+      ],
+      "correctIndex": 2,
+      "explanation": "Settings cannot be assumed to control every service or observer."
+    },
+    {
+      "id": "dit-ict-ch7-q71",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "Does permission for one use automatically permit every future use?",
+      "options": [
+        "No, review the proposed purpose and permission",
+        "Yes, permission is unlimited forever",
+        "Yes, a photograph has no audience restrictions",
+        "No, because permission can never be given"
+      ],
+      "correctIndex": 0,
+      "explanation": "Permission should match the intended use and relevant requirements."
+    },
+    {
+      "id": "dit-ict-ch7-q72",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.6 Information Privacy",
+      "question": "What should follow an accidental private-data disclosure?",
+      "options": [
+        "Copy it into more public groups",
+        "Ignore every institutional procedure",
+        "Ask classmates to repost it",
+        "Report it through the approved responsible channel"
+      ],
+      "correctIndex": 3,
+      "explanation": "Timely authorised handling can limit further exposure."
+    },
+    {
+      "id": "dit-ict-ch7-q73",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "What does computer ethics address?",
+      "options": [
+        "Only the speed of a graphics card",
+        "Responsible decisions and effects of computing",
+        "Only installing decorative fonts",
+        "Only counting physical cables"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ethics considers responsibilities and effects on people."
+    },
+    {
+      "id": "dit-ict-ch7-q74",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Does technical possibility alone justify an action?",
+      "options": [
+        "Yes, any reachable account may be used",
+        "Yes, software capability overrides all rules",
+        "No, permission and consequences still matter",
+        "No, because computers cannot perform actions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Capability is not a complete ethical justification."
+    },
+    {
+      "id": "dit-ict-ch7-q75",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Which is honest academic conduct?",
+      "options": [
+        "Claim every copied solution as original",
+        "Invent test results",
+        "Identify permitted source material and describe one's own contribution accurately",
+        "Remove all source credits to look original"
+      ],
+      "correctIndex": 2,
+      "explanation": "Honesty requires accurate representation of work and evidence."
+    },
+    {
+      "id": "dit-ict-ch7-q76",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Does attribution automatically permit every use of an image?",
+      "options": [
+        "Yes, a creator's name removes every restriction",
+        "Yes, all online photographs are public domain",
+        "No, permission or licence conditions also need checking",
+        "No, because creators can never permit reuse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Credit and permission are different requirements."
+    },
+    {
+      "id": "dit-ict-ch7-q77",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "What does publicly accessible code imply?",
+      "options": [
+        "It is automatically unrestricted for every purpose",
+        "It can be viewed, while reuse rights still need review",
+        "It always has no author",
+        "It can never have a licence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Access alone does not settle reuse conditions."
+    },
+    {
+      "id": "dit-ict-ch7-q78",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "What should a student do after finding an exposed private folder?",
+      "options": [
+        "Copy all records to a public group",
+        "Report it responsibly without exploring unrelated contents",
+        "Assume exposure grants permission",
+        "Try other users' passwords"
+      ],
+      "correctIndex": 1,
+      "explanation": "Responsible reporting respects access boundaries."
+    },
+    {
+      "id": "dit-ict-ch7-q79",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Which design improves an error message's accessibility?",
+      "options": [
+        "Colour alone with no explanation",
+        "An unexplained disappearing icon",
+        "A meaningful text explanation as well as colour",
+        "A warning visible only after guessing a shortcut"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiple clear cues help users interpret the problem."
+    },
+    {
+      "id": "dit-ict-ch7-q80",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Does automation remove responsibility for unfair outcomes?",
+      "options": [
+        "No, data and design still need review",
+        "Yes, all automated decisions are inherently fair",
+        "Yes, a computer cannot repeat a bias",
+        "No, because software cannot support decisions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human choices affect data, rules and use of the result."
+    },
+    {
+      "id": "dit-ict-ch7-q81",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Which test record is ethical?",
+      "options": [
+        "A fabricated success screenshot",
+        "A hidden deletion of every failed case",
+        "The actual observed failure and its conditions",
+        "A claim of universal success after no test"
+      ],
+      "correctIndex": 2,
+      "explanation": "Accurate records support review and correction."
+    },
+    {
+      "id": "dit-ict-ch7-q82",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "What should follow discovery of an error in a published result?",
+      "options": [
+        "Keep the false claim to protect appearances",
+        "Blame an unrelated user without evidence",
+        "Invent supporting measurements",
+        "Correct the record and explain the relevant limitation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Accountability includes correcting known errors."
+    },
+    {
+      "id": "dit-ict-ch7-q83",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "Which communication respects others?",
+      "options": [
+        "Publishing threats to win an argument",
+        "A clear disagreement without harassment or impersonation",
+        "Pretending to be another student",
+        "Exposing private details as a joke"
+      ],
+      "correctIndex": 1,
+      "explanation": "Respectful participation avoids misleading and harmful conduct."
+    },
+    {
+      "id": "dit-ict-ch7-q84",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.7 Computer Ethics",
+      "question": "What should a project record include?",
+      "options": [
+        "Only promotional claims",
+        "Only the developer's favourite colour",
+        "Permitted sources, real test outcomes and limitations",
+        "Only invented user feedback"
+      ],
+      "correctIndex": 2,
+      "explanation": "A useful record allows others to assess both work and constraints."
+    },
+    {
+      "id": "dit-ict-ch7-q85",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Which is a cybercrime example for introductory study?",
+      "options": [
+        "Opening one's own permitted practice file",
+        "Writing an original classroom report",
+        "Unauthorised access to another person's system",
+        "Changing one's own permitted wallpaper"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unauthorised digital acts can fall within cybercrime law depending on facts and provisions."
+    },
+    {
+      "id": "dit-ict-ch7-q86",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Does every suspected incident prove a named person's guilt?",
+      "options": [
+        "No, legal findings require appropriate evidence and process",
+        "Yes, an online rumour settles the case",
+        "Yes, one unverified screenshot proves every allegation",
+        "No, because digital evidence can never matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Observations and allegations must be distinguished from legal conclusions."
+    },
+    {
+      "id": "dit-ict-ch7-q87",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Where should current Pakistani reporting information be checked?",
+      "options": [
+        "Only an old forwarded image",
+        "Only an anonymous comment",
+        "Current official Pakistani sources",
+        "Only a fictional exercise sheet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Official information is the appropriate starting point for current procedures."
+    },
+    {
+      "id": "dit-ict-ch7-q88",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Does permission to read a sample folder necessarily allow deletion?",
+      "options": [
+        "Yes, all access always means full control",
+        "Yes, reading automatically grants administrator rights",
+        "No, because folders cannot be read",
+        "No, permitted actions have a defined scope"
+      ],
+      "correctIndex": 3,
+      "explanation": "Authorisation should specify the allowed resources and actions."
+    },
+    {
+      "id": "dit-ict-ch7-q89",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Which setting suits a classroom security exercise?",
+      "options": [
+        "An unrelated public server without permission",
+        "An approved environment with explicit scope",
+        "A classmate's private account",
+        "A random shop's payment system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prepared authorised environments support learning within agreed boundaries."
+    },
+    {
+      "id": "dit-ict-ch7-q90",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "What is identity misuse in a digital context?",
+      "options": [
+        "Accurately identifying oneself in a permitted task",
+        "Using another person's identity improperly for a deceptive purpose",
+        "Writing fictional names in a worksheet",
+        "Changing a sample document title"
+      ],
+      "correctIndex": 1,
+      "explanation": "Identity misuse concerns an improper use of someone else's identifying information."
+    },
+    {
+      "id": "dit-ict-ch7-q91",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "How should an unexpected payment request be verified?",
+      "options": [
+        "Through only the suspicious message's new number",
+        "By replying with a password",
+        "By sending money before checking",
+        "Through an independently known legitimate contact"
+      ],
+      "correctIndex": 3,
+      "explanation": "An independent channel reduces reliance on the potentially deceptive request."
+    },
+    {
+      "id": "dit-ict-ch7-q92",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Which detail may help document an incident?",
+      "options": [
+        "Invented claims about a suspect",
+        "Unrelated classmates' passwords",
+        "A fabricated receipt",
+        "Relevant timestamps and message or transaction references"
+      ],
+      "correctIndex": 3,
+      "explanation": "Relevant factual records can support authorised investigation."
+    },
+    {
+      "id": "dit-ict-ch7-q93",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Should original incident evidence be edited to look more convincing?",
+      "options": [
+        "Yes, change figures to strengthen the story",
+        "No, preserve it accurately and record context",
+        "Yes, remove every uncertainty",
+        "No, because context is never useful"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alteration can damage the reliability of evidence."
+    },
+    {
+      "id": "dit-ict-ch7-q94",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "What is responsible institutional reporting?",
+      "options": [
+        "Publish private records to a public forum",
+        "Threaten a suspected person",
+        "Run unapproved attacks in response",
+        "Notify the authorised contact through the approved procedure"
+      ],
+      "correctIndex": 3,
+      "explanation": "The responsible process supports investigation while limiting additional harm."
+    },
+    {
+      "id": "dit-ict-ch7-q95",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "Why avoid fixed penalty claims from old social posts?",
+      "options": [
+        "Every online penalty chart is automatically official",
+        "Law and procedures may have changed or been misrepresented",
+        "Legal rules never change",
+        "All offences have one identical penalty"
+      ],
+      "correctIndex": 1,
+      "explanation": "Current primary sources are needed for actual legal information."
+    },
+    {
+      "id": "dit-ict-ch7-q96",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.8 Cybercrimes and Responsible Reporting",
+      "question": "What should a factual report distinguish?",
+      "options": [
+        "Only assumptions presented as certainty",
+        "Only rumours copied repeatedly",
+        "Only personal insults",
+        "Observed facts, uncertainty and actions already taken"
+      ],
+      "correctIndex": 3,
+      "explanation": "Clear distinctions help a reviewer assess what is actually known."
+    },
+    {
+      "id": "dit-ict-ch7-q97",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "What should a workstation review consider?",
+      "options": [
+        "The person, equipment, environment and task together",
+        "Only the brand logo",
+        "Only the wallpaper",
+        "Only the number of stickers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Comfort and risk depend on the overall arrangement and use."
+    },
+    {
+      "id": "dit-ict-ch7-q98",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "Which adjustment can reduce unnecessary leaning to read?",
+      "options": [
+        "Making every letter smaller",
+        "Moving the mouse farther away",
+        "Hiding all document headings",
+        "An appropriate text size and readable display arrangement"
+      ],
+      "correctIndex": 3,
+      "explanation": "Readable content can reduce the need for an awkward viewing position."
+    },
+    {
+      "id": "dit-ict-ch7-q99",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "What can glare interfere with?",
+      "options": [
+        "Only the number of stored files",
+        "Comfortable viewing of the display",
+        "Only a password's length",
+        "Only a CPU instruction format"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lighting and reflections can affect display comfort and readability."
+    },
+    {
+      "id": "dit-ict-ch7-q100",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "Where should a pointing device be arranged?",
+      "options": [
+        "Within comfortable reach for the task",
+        "As far away as the cable allows",
+        "On an unstable edge by default",
+        "Behind the monitor in every case"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avoiding sustained awkward reach is a useful workstation principle."
+    },
+    {
+      "id": "dit-ict-ch7-q101",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "Is one fixed posture a universal solution for every user?",
+      "options": [
+        "Yes, everyone has identical body dimensions",
+        "No, fit and variation matter",
+        "Yes, movement is always harmful",
+        "No, because workstation arrangement never matters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Users and tasks differ, and prolonged static positioning can be uncomfortable."
+    },
+    {
+      "id": "dit-ict-ch7-q102",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "What is a useful work-routine principle?",
+      "options": [
+        "Avoid every change of position",
+        "Continue through all persistent pain",
+        "Vary tasks and include appropriate breaks or changes of activity",
+        "Replace every break with the same awkward phone posture"
+      ],
+      "correctIndex": 2,
+      "explanation": "Variation can reduce prolonged exposure to the same demands."
+    },
+    {
+      "id": "dit-ict-ch7-q103",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "Does switching to a phone always provide a useful change from screen work?",
+      "options": [
+        "No, it can repeat similar visual and postural demands",
+        "Yes, all phone use automatically rests every muscle",
+        "Yes, a smaller screen eliminates strain",
+        "No, because phones have no screens"
+      ],
+      "correctIndex": 0,
+      "explanation": "The actual activity and posture determine whether demands have changed."
+    },
+    {
+      "id": "dit-ict-ch7-q104",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "Why can extended laptop work require adaptation?",
+      "options": [
+        "The attached screen and keyboard constrain their independent positions",
+        "Laptops never contain keyboards",
+        "Every laptop must be held in the air",
+        "Laptops cannot display text"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combined components can make arranging both viewing and input more difficult."
+    },
+    {
+      "id": "dit-ict-ch7-q105",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "What is appropriate for cables across a walkway?",
+      "options": [
+        "Leave them because software is working",
+        "Pull live electrical equipment apart",
+        "Report or arrange them safely through approved procedures",
+        "Cover them with loose papers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Physical workstation safety includes avoiding trip hazards."
+    },
+    {
+      "id": "dit-ict-ch7-q106",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "Should a student open powered equipment to improve comfort?",
+      "options": [
+        "Yes, every discomfort requires opening the PSU",
+        "Yes, any cable can be repaired while powered",
+        "No, use authorised maintenance and adjustment procedures",
+        "No, because chairs cannot be adjusted"
+      ],
+      "correctIndex": 2,
+      "explanation": "Comfort reviews do not justify unsafe electrical or hardware work."
+    },
+    {
+      "id": "dit-ict-ch7-q107",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "What should persistent pain or visual problems prompt?",
+      "options": [
+        "A guaranteed diagnosis from a worksheet",
+        "Appropriate reporting and qualified health advice",
+        "Ignoring every symptom indefinitely",
+        "An unverified online cure as certainty"
+      ],
+      "correctIndex": 1,
+      "explanation": "Persistent symptoms need appropriate individual assessment."
+    },
+    {
+      "id": "dit-ict-ch7-q108",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 7,
+      "topic": "7.9 Health Concerns and Comfortable Computer Use",
+      "question": "How should the cited UK workstation guidance be used here?",
+      "options": [
+        "As proof of identical legal rights in every country",
+        "As practical learning guidance without claiming its laws apply in Pakistan",
+        "As a diagnosis of every student's condition",
+        "As a substitute for all individual assessment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Practical principles and jurisdiction-specific legal duties must be distinguished."
+    }
+  ],
+  "pdfBytes": 103290,
+  "pdfSha256": "7af1480bdedadda7c205d6ff079617a1cd95818c53ab75005ec950f1eddbd270",
+  "sourceSha256": "c2a60f78ed4db68f828dd5a0716cd3316f6ce8d237771aae96cbca31dac080b1"
+}

@@ -18,20 +18,20 @@ from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
 chapter = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-if chapter not in (1, 2, 3, 4, 5, 6):
-    raise ValueError('Only reviewed ICT chapters 1, 2, 3, 4, 5 and 6 are supported')
+if chapter not in (1, 2, 3, 4, 5, 6, 7):
+    raise ValueError('Only reviewed ICT chapters 1 through 7 are supported')
 source = ROOT / f'content/dit/ict-chapter-{chapter}.json'
 data = json.loads(source.read_text(encoding='utf-8'))
 dest = ROOT / 'public/documents/dit/ict'
 dest.mkdir(parents=True, exist_ok=True)
-slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices',4:'digital-storage',5:'system-software',6:'application-software'}
+slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices',4:'digital-storage',5:'system-software',6:'application-software',7:'the-internet-and-world-wide-web'}
 prefix = f'ict-chapter-{chapter}-' + slugs[chapter]
 topic_count = len(data['topics'])
 question_count = sum(len(t['questions']) for t in data['topics'])
 topic_offsets = [sum(len(t['questions']) for t in data['topics'][:i]) for i in range(topic_count)]
-topic_label = {5:'five',6:'six',8:'eight'}[topic_count]
+topic_label = {5:'five',6:'six',8:'eight',9:'nine'}[topic_count]
 coverage = f'{chapter}.1 to {chapter}.{topic_count}'
-diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg',4:'storage-recovery-copies.svg',5:'system-software-layers.svg',6:'application-workflow.svg'}[chapter]
+diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg',4:'storage-recovery-copies.svg',5:'system-software-layers.svg',6:'application-workflow.svg',7:'internet-web-request-flow.svg'}[chapter]
 questions = []
 if chapter >= 3:
     from random import Random
@@ -79,6 +79,8 @@ if chapter in (4,5):
     test_indices = [1,5,7,10,12,15,18,23,24,28,31,34,36,40,43,47,48,51,54,59]
 if chapter == 6:
     test_indices = [1,3,6,9,10,12,16,19,20,24,29,34,35,39,44,49,50,53,56,59]
+if chapter == 7:
+    test_indices = [0,4,8,12,17,22,24,30,36,42,48,54,60,66,72,78,84,90,96,104]
 test_questions = [questions[i] for i in test_indices]
 practical = [
 ('Identify and classify devices','Observe available devices without opening a powered computer. Record one input device, one output device, one storage device and one communication device. Explain any device with two roles.','A labelled list with correct roles and reasons.'),
@@ -140,6 +142,8 @@ if chapter == 5:
     parts.append('[Review Chapter 4 Digital Storage](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-4-digital-storage/).')
 if chapter == 6:
     parts.append('[Review Chapter 5 System Software](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-5-system-software/).')
+if chapter == 7:
+    parts.append('[Review Chapter 6 Application Software](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-6-application-software/).')
 markdown='\n\n'.join(parts)+'\n'
 (ROOT/f'content/dit/ict-chapter-{chapter}.md').write_text(markdown,encoding='utf-8')
 
@@ -238,6 +242,14 @@ if chapter == 6:
     for x in [108,233,358]:
         d.add(Line(x,82,x+14,82,strokeColor=navy));d.add(Polygon([x+14,82,x+8,86,x+8,78],fillColor=navy))
     d.add(String(240,20,'Retain the editable source and required assets',textAnchor='middle',fontSize=10,fillColor=navy))
+if chapter == 7:
+    d=Drawing(480,155)
+    for x,label in [(0,'DEVICE'),(125,'ROUTER'),(250,'ISP / INTERNET'),(375,'WEB SERVICE')]:
+        d.add(Rect(x,65,105,45,fillColor=colors.HexColor('#e8effa'),strokeColor=navy))
+        d.add(String(x+52.5,83,label,textAnchor='middle',fontSize=9,fillColor=navy))
+    for x in [108,233,358]:
+        d.add(Line(x,87,x+14,87,strokeColor=navy));d.add(Polygon([x+14,87,x+8,91,x+8,83],fillColor=navy))
+    d.add(String(240,32,'DNS assists name resolution; responses return through networks',textAnchor='middle',fontSize=9,fillColor=navy))
 story.extend([d,p(data.get('diagramDescription','Input supplies data; processing executes instructions; output presents results. Processing reads saved data from storage and writes results back to storage. Communication exchanges data with other devices.'))])
 for text in data.get('comparisons',['RAM is working memory and is normally volatile. An SSD is persistent storage for saved files.','System software manages or supports computer operation. Application software carries out user tasks.','A mainframe prioritises dependable high-volume transaction work. A supercomputer prioritises very large computational workloads.']):
     if chapter >= 3 and text.startswith('|'):
@@ -253,7 +265,7 @@ for i,(q,a) in enumerate(short):story.extend([p(f'{i+1}. {q}','Heading2'),p(a)])
 heading('Solved long questions')
 for i,(q,sections) in enumerate(long):
     answer=[p(f'{i+1}. {q}','Heading2')]+[p(h+': '+text) for h,text in sections]
-    if chapter in (4,5,6):
+    if chapter in (4,5,6,7):
         story.append(KeepTogether(answer))
     else:
         story.extend(answer)
@@ -274,7 +286,7 @@ story.append(PageBreak());heading('Practice test answer key')
 for i,q in enumerate(test_questions):story.append(p(f"{i+1}. {chr(65+q['correctIndex'])}. {q['explanation']}"))
 story.append(p('Written-answer guidance','Heading2'))
 story.append(p('Short questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Check concepts, examples and diagrams rather than memorising identical wording.'))
-if chapter in (4,5,6):
+if chapter in (4,5,6,7):
     story.append(PageBreak())
 story.append(p('Sources and further study','Heading2'))
 story.append(Paragraph(f'<link href="{escape(data["syllabusUrl"],quote=True)}" color="#1449AD">PBTE official two-year DIT first-semester syllabus, ICT Module {chapter}, page {data["sourcePages"]}</link>',styles['BodyGuide']))
@@ -307,7 +319,7 @@ doc.add_page_break()
 for line in markdown.splitlines():
     if not line:continue
     if line.startswith('!['):
-        doc.add_paragraph(data['diagramDescription'] if chapter in (4,5,6) else 'Motherboard connections: processor, RAM, expansion and storage interfaces. PSU supplies power.' if chapter == 2 else 'INPUT -> PROCESSING -> OUTPUT\n                    STORAGE exchanges data with PROCESSING')
+        doc.add_paragraph(data['diagramDescription'] if chapter in (4,5,6,7) else 'Motherboard connections: processor, RAM, expansion and storage interfaces. PSU supplies power.' if chapter == 2 else 'INPUT -> PROCESSING -> OUTPUT\n                    STORAGE exchanges data with PROCESSING')
     elif line.startswith('|'):
         if re.match(r'^\|[-| ]+\|$',line):continue
         doc.add_paragraph(line.strip('|').replace('|','  |  '))
@@ -344,6 +356,11 @@ if chapter == 6:
     shapes=''.join(f'<rect x="{x}" y="25" width="140" height="50" rx="4" fill="#e8effa" stroke="#032c68"/><text x="{x+70}" y="56" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#032c68">{label}</text>' for x,label in boxes)
     paths=''.join(f'<path d="M{x} 50h14" stroke="#032c68" stroke-width="2"/><path d="M{x+14} 50l-6 -4v8Z" fill="#032c68"/>' for x in [153,313,473])
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 135" width="640" height="135" role="img" aria-labelledby="title desc"><title id="title">Checked application workflow</title><desc id="desc">Choose and edit, save an editable source, export if needed, verify and share. Retain source files and required assets.</desc>{shapes}{paths}<text x="320" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#032c68">Keep the source and verify the delivery copy</text></svg>'
+if chapter == 7:
+    boxes=[(10,'Device'),(170,'Router'),(330,'ISP / Internet'),(490,'Web service')]
+    shapes=''.join(f'<rect x="{x}" y="25" width="140" height="50" rx="4" fill="#e8effa" stroke="#032c68"/><text x="{x+70}" y="56" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#032c68">{label}</text>' for x,label in boxes)
+    paths=''.join(f'<path d="M{x} 50h14" stroke="#032c68" stroke-width="2"/><path d="M{x+14} 50l-6 -4v8Z" fill="#032c68"/>' for x in [153,313,473])
+    svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 135" width="640" height="135" role="img" aria-labelledby="title desc"><title id="title">Internet infrastructure and web resource request</title><desc id="desc">A device reaches a router, ISP and Internet networks to contact a web service. DNS assists name resolution. Responses return through networks; actual paths vary.</desc>{shapes}{paths}<text x="320" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#032c68">DNS assists name resolution; responses return through networks</text></svg>'
 (dest/diagram_name).write_text(svg,encoding='utf-8')
 generated=dict(title=data['title'],content=markdown,questions=questions,pdfBytes=pdf.stat().st_size,pdfSha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),sourceSha256=hashlib.sha256(source.read_text(encoding='utf-8').encode('utf-8')).hexdigest())
 (ROOT/f'content/dit/ict-chapter-{chapter}.generated.json').write_text(json.dumps(generated,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
