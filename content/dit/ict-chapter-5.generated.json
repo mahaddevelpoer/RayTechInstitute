@@ -1,0 +1,969 @@
+{
+  "title": "System Software",
+  "content": "## Chapter overview and syllabus coverage\n\nThis original English study guide follows PBTE's two-year D.I.T first-semester ICT Module 5, syllabus sections 5.1 to 5.5. It includes 60 explained revision MCQs, five topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.\n\n| Syllabus section | Topic | Revision MCQs |\n|---|---|---|\n| 5.1 | Operating Systems and System Software | 12 |\n| 5.2 | Functions of an Operating System | 12 |\n| 5.3 | Operating System Types: Windows and Linux | 12 |\n| 5.4 | Operating System Utility Programs | 12 |\n| 5.5 | Personal Computer Maintenance | 12 |\n\n## Topic-wise revision MCQs\n\n## 5.1 Operating Systems and System Software MCQs\n\n### Q1. What is the main purpose of an operating system?\n\nA) Create every essay without an application\n\nB) Replace all physical hardware\n\nC) Act only as a printer's paper tray\n\n**D) Manage resources and provide services for programs and users**\n\n**Correct answer: D.** An OS coordinates resources and supplies common services.\n\n### Q2. Which item is an example of system software?\n\n**A) Device driver**\n\nB) A student's essay file\n\nC) A printed timetable\n\nD) A spreadsheet's entered marks\n\n**Correct answer: A.** Drivers support computer operation and device communication.\n\n### Q3. What is the kernel?\n\nA) Every icon on the desktop collectively\n\nB) Only the keyboard's plastic case\n\nC) A saved word-processing document\n\n**D) The central OS component responsible for core system work**\n\n**Correct answer: D.** The kernel performs core resource-management and protected operations.\n\n### Q4. Which statement about GUI and CLI is correct?\n\nA) Every OS must support exactly one interface style\n\nB) CLI means a computer has no operating system\n\nC) GUI means all commands are automatically safe\n\n**D) An OS can support both graphical and command-line interaction**\n\n**Correct answer: D.** GUI and CLI are interface styles rather than mutually exclusive OS categories.\n\n### Q5. What does a shell provide?\n\nA) Only permanent backup media\n\n**B) A way to interact with the system**\n\nC) Only electrical power conversion\n\nD) A substitute for every device driver\n\n**Correct answer: B.** Shells expose an interaction environment, which can be textual or graphical.\n\n### Q6. How does a process differ from a stored program?\n\nA) A process is always a paper copy of source code\n\nB) A program is always executing even when never opened\n\n**C) A process is an executing instance with state and resources**\n\nD) The words always mean a physical memory chip\n\n**Correct answer: C.** A stored program and its running instance are related but distinct concepts.\n\n### Q7. What is the role of a device driver?\n\nA) Supply mains power through a wall socket\n\n**B) Participate in communication between the OS and a device**\n\nC) Store every user password on paper\n\nD) Guarantee every application is compatible forever\n\n**Correct answer: B.** Drivers are software components supporting device communication.\n\n### Q8. Does connecting a printer cable prove the printer is ready for all tasks?\n\n**A) No, suitable drivers, settings and access may still be needed**\n\nB) Yes, every cable supplies every required driver\n\nC) Yes, the OS never participates in printing\n\nD) No, because printers cannot be controlled by software\n\n**Correct answer: A.** A physical connection is only one requirement of a functioning device setup.\n\n### Q9. Which sequence represents a simplified general-purpose startup model?\n\nA) Word processor, printer paper, firmware and keyboard paint\n\n**B) Firmware, bootloader, OS kernel and required services**\n\nC) Only the desktop wallpaper before all hardware starts\n\nD) Only antivirus followed by a deleted file\n\n**Correct answer: B.** Startup stages differ by platform, but firmware and OS loading have distinct roles.\n\n### Q10. Which statement distinguishes firmware from the OS?\n\nA) They are universally identical names for the same program\n\nB) The OS is always the same thing as a monitor cable\n\n**C) Firmware supports platform startup; the OS manages ongoing system operation**\n\nD) Firmware means all user documents\n\n**Correct answer: C.** The roles overlap in support functions but are not interchangeable concepts.\n\n### Q11. What does an administrator privilege represent?\n\nA) Proof that every chosen action is correct\n\nB) A guarantee that software contains no faults\n\n**C) Authority to perform certain restricted operations**\n\nD) A type of optical disc capacity\n\n**Correct answer: C.** Permission grants capability, not automatic correctness or suitability.\n\n### Q12. Where is a general-purpose OS commonly installed?\n\nA) Only inside a keyboard key\n\n**B) On persistent storage with components loaded into memory as needed**\n\nC) Always entirely in immutable ROM\n\nD) Only on printed paper\n\n**Correct answer: B.** Installed system files persist, while running components use memory.\n\n## 5.2 Functions of an Operating System MCQs\n\n### Q13. Which is the appropriate routine shutdown approach?\n\nA) Pull mains power during every file write\n\nB) Assume unsaved documents are automatically backed up\n\nC) Remove the storage device while the OS is working\n\n**D) Save work and use the supported shutdown process**\n\n**Correct answer: D.** Orderly shutdown gives the system a chance to handle pending work.\n\n### Q14. Which OS function makes windows, menus or a command shell available?\n\nA) Increasing the physical number of CPU cores\n\nB) Replacing all storage hardware\n\n**C) Providing a user interface**\n\nD) Printing every password\n\n**Correct answer: C.** The interface lets users request and observe system operations.\n\n### Q15. Which function includes starting and tracking executing programs?\n\n**A) Process management**\n\nB) Only paper sorting\n\nC) Only changing a monitor's stand\n\nD) Only copying the case label\n\n**Correct answer: A.** The OS tracks running instances and their associated resources.\n\n### Q16. What does memory management help do?\n\n**A) Allocate memory and support separation between processes**\n\nB) Make every disk byte as fast as physical RAM\n\nC) Remove the need for saved files\n\nD) Guarantee unlimited address space on every device\n\n**Correct answer: A.** Memory management controls allocation, address spaces and protection.\n\n### Q17. What does the CPU scheduler choose?\n\n**A) Which runnable work receives processor time**\n\nB) The colour of every keyboard key\n\nC) The amount of toner in a printer\n\nD) Which cable supplies mains electricity\n\n**Correct answer: A.** Scheduling coordinates the use of processor time among eligible tasks.\n\n### Q18. Which OS activity supports a newly connected device?\n\nA) Only renaming the desktop wallpaper\n\n**B) Using suitable drivers and device settings**\n\nC) Only deleting random system files\n\nD) Only enlarging the printer paper tray\n\n**Correct answer: B.** Drivers and configuration help the OS use supported hardware.\n\n### Q19. Why can a correctly configured computer still fail to reach the Internet?\n\nA) An OS setting guarantees every outside service works\n\n**B) The connection or an external network service may be unavailable**\n\nC) A network cable always includes an active Internet subscription\n\nD) Internet access never needs addressing or name resolution\n\n**Correct answer: B.** Connectivity depends on the device and the relevant network/provider path.\n\n### Q20. What does a high CPU reading by itself establish?\n\nA) The computer definitely has malware\n\nB) The hard drive is certainly physically broken\n\nC) Every application must be deleted\n\n**D) Processor activity is high, but its cause needs investigation**\n\n**Correct answer: D.** Monitoring reports evidence and does not alone identify one cause.\n\n### Q21. Which function controls folders, file properties and supported access rights?\n\nA) Only image projection\n\nB) Only CPU cooling\n\n**C) File management**\n\nD) Only audio amplification\n\n**Correct answer: C.** File services organise stored resources and their access.\n\n### Q22. What should be checked after an automatic update is offered?\n\nA) Only that a download notification once appeared\n\nB) Only that the update setting is enabled\n\n**C) Installation status and any required restart**\n\nD) Only that the computer has a large monitor\n\n**Correct answer: C.** Automation being enabled is not evidence that every installation completed.\n\n### Q23. Which activity is an example of authorised network administration?\n\nA) Publish every account password to all users\n\nB) Disable all access checks on every computer\n\nC) Assume every user must have administrator rights\n\n**D) Configure a shared resource for permitted users**\n\n**Correct answer: D.** Network administration includes controlled services and sharing.\n\n### Q24. How does authorisation differ from authentication?\n\nA) Authorisation always means typing a filename\n\n**B) Authorisation determines permitted actions; authentication checks a claimed identity**\n\nC) Authentication is the same as granting every privilege\n\nD) They are both names for formatting an SSD\n\n**Correct answer: B.** Identity checking and deciding allowed operations are different security functions.\n\n## 5.3 Operating System Types: Windows and Linux MCQs\n\n### Q25. What does a stand-alone or desktop OS primarily support?\n\n**A) Local user computing tasks**\n\nB) Only a computer forbidden from using a network\n\nC) Only a magnetic tape cartridge\n\nD) Only the electrical power supply\n\n**Correct answer: A.** Desktop describes a primary role rather than a ban on networking.\n\n### Q26. Can a desktop OS connect to a network?\n\nA) No, stand-alone always means no networking hardware can work\n\n**B) Yes, if supported and suitably configured**\n\nC) Only if it stops being an OS\n\nD) Only through a printer's ink cartridge\n\n**Correct answer: B.** Desktop systems commonly access network resources.\n\n### Q27. What is a server OS mainly configured to do?\n\nA) Only display a single local wallpaper\n\nB) Only measure the computer case\n\nC) Replace all user accounts with one public password\n\n**D) Provide services to client systems**\n\n**Correct answer: D.** Server roles include controlled shared services and remote administration.\n\n### Q28. Which is an example of a server service?\n\n**A) Providing an authorised shared file resource**\n\nB) The height of the monitor stand\n\nC) The colour of the power button\n\nD) The physical weight of an empty case\n\n**Correct answer: A.** A file service supplies resources to permitted clients.\n\n### Q29. Does a server without a permanently attached monitor necessarily lack an OS?\n\nA) Yes, all operating systems require an attached monitor at all times\n\nB) Yes, a screen is the kernel\n\nC) No, because servers can never run any software\n\n**D) No, it may be administered remotely or through other interfaces**\n\n**Correct answer: D.** A physical display is not a universal prerequisite for an OS to operate.\n\n### Q30. What is an embedded OS associated with?\n\n**A) A specialised computing role inside a larger product**\n\nB) Only a document stored in a folder\n\nC) Only an optical disc label\n\nD) Only a desktop application window\n\n**Correct answer: A.** Embedded systems support functions within products or equipment.\n\n### Q31. What is central to a real-time system?\n\nA) Having the highest average GHz in every comparison\n\nB) Always displaying the current clock in large text\n\nC) Running only one brand of keyboard\n\n**D) Meeting the relevant response deadlines**\n\n**Correct answer: D.** Real-time concerns timing requirements, not a universal speed contest.\n\n### Q32. Which statement about Windows support is correct?\n\nA) Every historical release receives ordinary updates forever\n\n**B) Support depends on the particular release and edition**\n\nC) The Windows name alone guarantees current security support\n\nD) All editions contain every server feature\n\n**Correct answer: B.** Lifecycle and feature support are version-specific.\n\n### Q33. What does a Linux distribution usually combine?\n\nA) Only an empty hard-drive enclosure\n\nB) Only a proprietary printer cable\n\n**C) The Linux kernel with selected system tools and other components**\n\nD) Every Windows application without adaptation\n\n**Correct answer: C.** A distribution assembles a usable system around the kernel.\n\n### Q34. Which statement about Linux interaction is accurate?\n\nA) It can only ever use a command line\n\n**B) It can offer a graphical desktop and a command shell**\n\nC) It cannot run on servers\n\nD) Its kernel is identical to every desktop icon\n\n**Correct answer: B.** Linux-based systems support different interfaces and roles.\n\n### Q35. Does an application for one OS automatically run on every other OS?\n\nA) Yes, matching window colours guarantees compatibility\n\nB) Yes, changing the filename extension is always enough\n\n**C) No, compatibility depends on the application and execution environment**\n\nD) No, because no software can ever be ported\n\n**Correct answer: C.** Platform requirements and supported compatibility methods must be checked.\n\n### Q36. What is a sensible OS selection basis?\n\nA) Only the computer case's colour\n\nB) Only a screenshot of the wallpaper\n\nC) Only the number of desktop icons\n\n**D) Required applications, devices, maintenance and user needs**\n\n**Correct answer: D.** Selection should fit the real workload, support and access requirements.\n\n## 5.4 Operating System Utility Programs MCQs\n\n### Q37. What is a file manager used for?\n\nA) Guarantee all files are backed up automatically\n\nB) Replace every device driver\n\n**C) Browse and manage permitted files and folders**\n\nD) Supply electrical power to storage\n\n**Correct answer: C.** A file manager provides file and folder operations subject to access rights.\n\n### Q38. Why might a search utility not find a file that exists?\n\nA) Search always proves every missing result was deleted\n\n**B) Search scope, indexing or access permissions may exclude it**\n\nC) A filename always reveals the contents perfectly\n\nD) Every search automatically scans all private locations\n\n**Correct answer: B.** Search results depend on the configured scope and accessible indexed or scanned content.\n\n### Q39. What is the appropriate way to remove an installed application?\n\nA) Delete only its desktop shortcut and assume removal\n\nB) Rename its icon to removed\n\n**C) Use its supported uninstall procedure**\n\nD) Delete unrelated system folders\n\n**Correct answer: C.** Uninstallers handle supported application removal; shortcut deletion normally does not.\n\n### Q40. Which pair correctly matches viewing utilities with their tasks?\n\nA) Image viewer for disk formatting; media player for firewall rules\n\nB) Both always replace every file backup\n\n**C) Image viewer for pictures; media player for supported audio/video**\n\nD) Both automatically convert malware into safe files\n\n**Correct answer: C.** Viewing and playback are distinct utility functions with format support requirements.\n\n### Q41. What should be reviewed before disk cleanup?\n\nA) Only the monitor's brightness\n\nB) Only the keyboard's font\n\n**C) The selected categories and whether their contents are still needed**\n\nD) Only the colour of a storage icon\n\n**Correct answer: C.** Cleanup removes selected data and can affect files the user still wants.\n\n### Q42. Which statement about drive optimisation is accurate?\n\n**A) HDD defragmentation and supported SSD TRIM/retrim have different roles**\n\nB) Every SSD needs forced HDD-style defragmentation every hour\n\nC) Optimisation always means formatting all files away\n\nD) TRIM creates a full independent backup\n\n**Correct answer: A.** Maintenance should match the storage technology and supported OS behaviour.\n\n### Q43. What provides evidence that a file backup is usable?\n\nA) Only look at the backup program's logo\n\n**B) Restore a sample separately and verify its contents**\n\nC) Only turn on a screen saver\n\nD) Only compress the source and discard all copies\n\n**Correct answer: B.** Recovery must be tested within the backup's actual scope.\n\n### Q44. Does a screen saver alone guarantee that a returning user must authenticate?\n\nA) Yes, every moving picture locks every account\n\n**B) No, locking and sign-in requirements need appropriate configuration**\n\nC) Yes, any blank screen encrypts all files\n\nD) No, because operating systems cannot support locking\n\n**Correct answer: B.** Idle display behaviour and access control are separate functions.\n\n### Q45. What is a firewall's main role?\n\n**A) Apply rules to network traffic**\n\nB) Guarantee every local file contains no malware\n\nC) Replace all account permissions\n\nD) Restore deleted documents from any time\n\n**Correct answer: A.** A firewall controls traffic rather than solving every security or recovery problem.\n\n### Q46. Which distinction between spyware and adware is appropriate?\n\nA) Every advertisement is necessarily spyware\n\nB) Spyware is a form of optical disc\n\nC) Adware is always a backup utility\n\n**D) Spyware covertly gathers information; adware displays advertising and may be unwanted**\n\n**Correct answer: D.** Classify behaviour and consent rather than using an advertisement as proof of all malware types.\n\n### Q47. What does lossless file compression promise when correctly performed and decoded?\n\n**A) Recovery of the original bytes**\n\nB) A smaller size for every possible file\n\nC) Automatic encryption of every archive\n\nD) An independent off-site backup\n\n**Correct answer: A.** Lossless coding preserves exact content but compression savings depend on the input.\n\n### Q48. What does disc-burning software require for an optical recording task?\n\n**A) Compatible writable media and a supported writer**\n\nB) Only any CD-only reader\n\nC) Only a larger desktop icon\n\nD) Only an image viewer with no recording hardware\n\n**Correct answer: A.** Software cannot add missing optical writing capability to unsupported hardware.\n\n## 5.5 Personal Computer Maintenance MCQs\n\n### Q49. Which is an example of preventive maintenance?\n\nA) Delete every file whenever a task feels slow\n\n**B) Maintain supported updates and checked backups**\n\nC) Disable all security controls permanently\n\nD) Open a powered electrical assembly for curiosity\n\n**Correct answer: B.** Preventive maintenance reduces foreseeable problems through appropriate care.\n\n### Q50. What should be recorded when investigating a fault?\n\nA) Every user's password in a public note\n\nB) Only the case's colour\n\nC) An assumed cause without checking evidence\n\n**D) The symptom, timing and relevant observations**\n\n**Correct answer: D.** A useful record separates the observed problem from a hypothesis about its cause.\n\n### Q51. What should be protected before a potentially disruptive change?\n\nA) Only the desktop wallpaper\n\nB) Only the printer's empty paper tray\n\nC) Only the application's icon size\n\n**D) Current work and important recoverable copies**\n\n**Correct answer: D.** Saving and verified recovery reduce the impact of an unsuccessful change.\n\n### Q52. Which source is appropriate for a device driver update?\n\nA) An unrelated advertisement promising universal repairs\n\nB) Any file with driver in its filename\n\n**C) The supported OS or trusted device/vendor channel for the actual model**\n\nD) A random download chosen only by its colourful logo\n\n**Correct answer: C.** Drivers must match the hardware and supported platform requirements.\n\n### Q53. What is appropriate during a supported system update?\n\n**A) Maintain suitable power and allow the documented process to finish**\n\nB) Interrupt power whenever a progress number pauses briefly\n\nC) Remove storage during installation\n\nD) Assume all update stages finish when download starts\n\n**Correct answer: A.** Updates can require time, installation steps and a planned restart.\n\n### Q54. What should happen before removing files during cleanup?\n\n**A) Identify what will be removed and whether it is still needed**\n\nB) Assume every large file is unwanted\n\nC) Delete unknown system folders first\n\nD) Skip all review because a utility is installed\n\n**Correct answer: A.** Removal choices can affect user work, system operation or recovery options.\n\n### Q55. What makes troubleshooting results easier to interpret?\n\nA) Change every setting simultaneously without notes\n\nB) Treat every slowdown as proof of the same fault\n\nC) Install every advertised repair program\n\n**D) Change one relevant factor at a time where practical and retest**\n\n**Correct answer: D.** Controlled changes and repeat observations help relate an action to an outcome.\n\n### Q56. Does temporary improvement after a restart prove the underlying cause?\n\nA) Yes, it proves the storage drive is physically damaged\n\nB) Yes, it proves there was malware\n\n**C) No, further evidence may still be needed**\n\nD) Yes, every fault is permanently fixed\n\n**Correct answer: C.** A restart can change system state without establishing one specific cause.\n\n### Q57. Which is suitable physical maintenance?\n\n**A) Follow the equipment manual and keep ventilation clear**\n\nB) Spray liquid directly into openings\n\nC) Open a power supply for a basic identification lesson\n\nD) Cover cooling vents to stop dust entry during use\n\n**Correct answer: A.** Physical care must suit the exact equipment and avoid creating damage or hazards.\n\n### Q58. How should a reported malware detection be handled?\n\nA) Automatically delete unrelated files at random\n\n**B) Follow the institution's response process and review relevant evidence**\n\nC) Disable protection on every computer forever\n\nD) Publish private files to request public guesses\n\n**Correct answer: B.** A controlled response is more appropriate than indiscriminate destructive changes.\n\n### Q59. What confirms a recovered practice file is useful?\n\nA) Its filename alone looks familiar\n\nB) The backup icon has a green colour\n\nC) Its folder is visible without opening anything\n\n**D) It opens and its contents match the required source**\n\n**Correct answer: D.** Recovery checks need readable, correct contents rather than only an indicator.\n\n### Q60. What should a maintenance note include after a change?\n\nA) An unsupported promise of permanent perfect performance\n\nB) Only the tool's marketing slogan\n\n**C) The action, observed result and any remaining issue**\n\nD) Every account's secret credentials\n\n**Correct answer: C.** A record should describe evidence and limits of the actual work.\n\n## Easy topic-wise notes\n\n## 5.1 Operating Systems and System Software\n\nSystem software manages or supports the operation of a computer. Its main examples include operating systems, device drivers and utilities. An operating system, or OS, manages resources and provides services that programs and users can request. A word processor helps create a document; the operating system supplies services for memory, files, devices and controlled execution.\n\nThe kernel is the central part of an operating system responsible for core resource management and protected operations. It is not the entire visible desktop. A shell provides a way to interact with the system; it can be command-based or graphical. A graphical user interface, or GUI, uses visual controls such as windows, icons and menus. A command-line interface, or CLI, accepts textual commands. One OS can support both interfaces. Appearance alone does not identify every internal part of the system.\n\nA program is a stored set of instructions; a process is an executing instance with state and resources. Opening the same application twice may create multiple processes, depending on the application design. A device driver participates in communication between the operating system and a device. The OS may already include a suitable driver, or a supported vendor package may be required. A printer connected to a port is not proof that the correct driver, settings and permissions are available.\n\nFirmware and the OS have different roles. In a simplified startup model, firmware performs initial platform work, a bootloader loads the operating-system kernel, and the system starts required services and a user environment. The exact sequence varies by platform. Modern general-purpose operating systems are commonly installed on persistent storage and load required components into memory during operation. An OS is not simply another name for BIOS or UEFI, and it is not necessarily stored entirely in read-only memory.\n\nOperating systems enforce boundaries between accounts and programs, but the strength of those boundaries depends on design and configuration. Standard accounts normally have fewer administrative powers than administrator accounts. Privilege is authority to perform an operation, not proof that the requested operation is sensible. Select compatible software and drivers, use supported versions and obtain changes from trustworthy sources. Names, desktop layouts and menu paths can vary between versions without changing the basic roles described here.\n\n### Practical examples\n\n- A word processor requests an OS file service when a student saves a document.\n- A system may offer both a graphical file manager and a command shell.\n- A supported printer driver lets the OS communicate with a particular printer or device class.\n\n### Common mistakes\n\n- The kernel is not the entire desktop or every installed application.\n- A driver is software, not the cable connecting a device.\n- Firmware, bootloader and operating system are different parts of startup.\n\n### Quick revision\n\n- System software supports computer operation.\n- The OS manages resources and offers services.\n- The kernel carries out core system work.\n- GUI and CLI are interface styles.\n- A process is an executing program instance.\n- Drivers support OS-device communication.\n\n## 5.2 Functions of an Operating System\n\nStarting and shutting down are coordinated system operations. During startup, required OS components and services become available. During a normal shutdown, the system closes or stops work and handles pending operations according to its design. Save documents first and allow supported update or shutdown operations to finish. Turning off power is not a routine substitute for an orderly shutdown.\n\nThe OS provides a user interface and manages programs. It creates and tracks processes, supplies execution services and helps control their access to resources. The scheduler chooses runnable work for processor time. A single CPU core can alternate among tasks, making progress on several activities over time; it does not execute every instruction of every task simultaneously. Multiple cores can execute work in parallel when the software and conditions permit.\n\nMemory management tracks and allocates memory and supports protection between processes. Virtual memory gives a process an address-space abstraction; operating systems may use storage-backed paging as part of their memory management. A paging file does not become equally fast physical RAM, and not every virtual-memory page must be on disk. Excessive paging can affect responsiveness. Managing memory and scheduling CPU time are related resource functions but not the same operation.\n\nDevice configuration uses drivers and settings to communicate with hardware. Network services support communication, while reaching the Internet also requires a working connection, addressing, name resolution and the relevant network/provider service. An OS setting alone cannot create a paid Internet connection or repair every external outage. File management organises files and directories, records properties and enforces supported access permissions. A displayed shortcut is a reference, not necessarily the file's full contents.\n\nPerformance monitoring reports observations such as CPU activity, memory use, storage activity and network traffic. A high reading can be normal during demanding work; one graph alone does not prove malware or hardware failure. Automatic updating can help maintain supported system components, but successful download, installation and any required restart are separate states. Review status and follow the organisation's update policy rather than assuming enabled automation guarantees completion.\n\nNetwork control includes authorised sharing, user access and service configuration. Security administration includes authentication, permissions, account privileges and security settings. Authentication checks a claimed identity; authorisation decides what that identity may do. The OS supports these controls, but users still need appropriate permissions, sound configuration and recoverable copies. Security, networking, file management and updates support one another without making any single feature a guarantee against every problem.\n\n### Practical examples\n\n- The scheduler shares processor time between a lesson player and a document editor.\n- A file permission allows students to read a handout while limiting who can change it.\n- A performance graph shows high CPU use during a video export; the workload explains the reading.\n\n### Common mistakes\n\n- Multitasking does not mean every task runs at the exact same instant on one core.\n- Disk-backed paging is not the same thing as adding equally fast RAM.\n- A downloaded update or enabled automatic setting does not prove successful installation.\n\n### Quick revision\n\n- Startup and shutdown coordinate system work.\n- The OS manages processes and CPU scheduling.\n- Memory management allocates and protects resources.\n- Drivers and network services support connectivity.\n- Monitoring provides evidence to interpret.\n- Authentication and authorisation have different roles.\n\n## 5.3 Operating System Types: Windows and Linux\n\nOperating systems can be grouped by intended role. A stand-alone or desktop OS supports a computer's local user tasks, such as editing documents and using applications. Stand-alone does not mean the system cannot join a network. A desktop can still access shared resources or provide limited sharing. The category describes a main role rather than isolation from all other devices.\n\nA server OS is configured to provide services to clients, such as shared files, authentication, application hosting or printing. Server operation often emphasises availability, access control, remote administration and service management. A server may be administered through a CLI or a GUI, locally or remotely. The absence of a monitor does not mean an operating system is absent. One machine can perform several roles, and capabilities depend on the edition and configuration.\n\nAn embedded OS operates within a larger product or specialised device. Examples can include an industrial controller, a network appliance or a smart device. Some embedded systems require predictable responses under time constraints. A real-time system aims to meet relevant timing deadlines; real-time does not simply mean the highest average processing speed. Not every embedded product has the same requirements or uses an identical OS.\n\nWindows is an operating-system family with different products, releases and editions. Features, supported hardware, application compatibility and update/support lifecycle depend on the exact version. Do not assume that every historical Windows release still receives ordinary security support. For actual maintenance, check the official lifecycle and the institution's approved configuration instead of relying only on the familiar product name.\n\nLinux is the name of a kernel and is also commonly used to describe complete operating systems built around it. A Linux distribution combines the kernel with selected tools, libraries, package management and often a desktop environment. Ubuntu is one example of a distribution, with desktop and server uses. Linux systems are not limited to a CLI, and open-source components do not imply that every accompanying product or support service has identical licensing or no cost.\n\nSelect an OS by required applications, device support, security/update maintenance, user accessibility, administration and relevant licensing. A program made for one OS is not automatically compatible with another, even if both systems show similar icons. Web applications, compatibility layers and virtual machines can provide different approaches, but none proves universal compatibility. The categories desktop, server and embedded can overlap in capabilities; use the stated workload and configuration to explain your classification.\n\n### Practical examples\n\n- A network-connected classroom desktop remains a desktop system when local student work is its main role.\n- A Linux-based server can provide files without a permanently attached monitor.\n- An embedded controller with timing deadlines is evaluated by meeting those deadlines, not by a desktop-style speed ranking.\n\n### Common mistakes\n\n- Stand-alone does not mean incapable of networking.\n- Linux systems can provide graphical desktops as well as command shells.\n- Server, desktop and embedded describe roles; they are not determined only by cabinet size.\n\n### Quick revision\n\n- Desktop systems support local user work.\n- Servers provide services to clients.\n- Embedded systems operate within larger products.\n- Real-time concerns timing requirements.\n- Windows has version-specific features and support.\n- A Linux distribution includes a kernel and additional components.\n\n## 5.4 Operating System Utility Programs\n\nUtilities perform supporting tasks such as file handling, inspection, recovery and security management. Some are included with an OS while others are installed separately. The syllabus groups several familiar tools here; this grouping does not mean every platform bundles the same tool or classifies every media application identically. Learn each function rather than assuming a name proves inclusion.\n\nA file manager browses folders and performs permitted file operations. A search utility locates matching items within its search scope; indexing and permissions can affect results. An uninstaller uses the supported removal process for an installed program. Deleting a shortcut normally removes a reference rather than uninstalling the application. An image viewer displays pictures, while a media player presents supported audio or video. A file extension is a naming clue, not a guarantee of content or decoder compatibility.\n\nDisk cleanup tools identify selected files or categories for removal to reclaim storage. Review the categories: a downloads folder or recycle bin can contain work still needed. Do not confuse deletion with backup. HDD defragmentation can reorganise fragmented file extents to reduce avoidable mechanical seeking. SSDs have a different access mechanism; supported optimisation can include TRIM or retrim, which informs storage about unused ranges. Use the OS's appropriate supported maintenance rather than forcing repeated HDD-style defragmentation on an SSD. Optimisation is not the same as formatting a drive.\n\nBackup utilities create recoverable copies according to their scope and retention settings. Restore utilities recover saved content. A system-settings recovery feature may have a different scope from a personal-file backup; inspect what is included. Test a sample restore to another location. A screen saver changes or blanks the idle display and is not automatically a security lock. Requiring authentication on return is a separate setting. Display sleep and screen-saver animation also do not necessarily use the same amount of power.\n\nA firewall applies rules to network traffic. Antivirus or anti-malware tools detect and respond to suspected malicious software using supported methods and updates. A firewall is not a substitute for scanning, and a clean scan is not proof of perfect safety. Spyware aims to collect information covertly or without appropriate consent. Adware displays advertising and can be unwanted or bundled; classify the actual behaviour rather than assuming every advertisement is malware. Use trusted tools and review detections under the relevant policy.\n\nFile compression reduces size where the data allows. A lossless archive can restore the original bytes; it does not guarantee that every file becomes much smaller. Already compressed media may gain little. Compression is not encryption or backup. Disc-burning software records supported data to compatible optical media using a suitable writer; a reader is not automatically a burner. Finish recording and verify the intended files. Always distinguish viewing, copying, compressing, protecting and restoring instead of treating every utility as a universal repair tool.\n\n### Practical examples\n\n- Search within a permitted folder for a known practice filename, then check its path and contents.\n- An uninstaller removes an application through its supported process; deleting its desktop shortcut does not do the same job.\n- A backup utility recovers a sample file separately, while a firewall applies network-traffic rules.\n\n### Common mistakes\n\n- Cleanup can delete needed files if categories are not reviewed.\n- A screen saver is not automatically a lock, and compression is not encryption.\n- HDD defragmentation and supported SSD optimisation are different operations.\n\n### Quick revision\n\n- File managers and search utilities locate and organise resources.\n- Use a supported uninstaller for application removal.\n- Review cleanup choices before deletion.\n- Use storage-appropriate optimisation.\n- Backup and restore must be checked by scope and recovery.\n- Firewall, anti-malware and compression have distinct jobs.\n\n## 5.5 Personal Computer Maintenance\n\nPersonal computer maintenance is planned care that helps keep equipment usable, supported and recoverable. Preventive work includes appropriate updates, verified backups, sensible storage management and physical care. Corrective work investigates a reported fault and addresses its cause. Neither a cleaner application nor one security scan can promise that every computer will remain fast or fault-free.\n\nBegin with observation and protection of work. Record the symptom, when it began, affected applications and any error text without exposing passwords or private content. Save current work and confirm important recovery copies before a change that could affect files or configuration. Check simple causes such as a loose external connection, low free storage, unavailable network service or an application-specific problem. Do not infer one universal cause from a single slow response.\n\nUse a supported update channel for the OS and approved software. Driver updates should match the actual device and platform. Read relevant instructions, maintain suitable power during an update and allow completion; required restarts should be planned after saving work. Firmware updates are model-specific changes and are not casual classroom experiments. Untrusted driver-updater advertisements or a program claiming thousands of urgent faults are not evidence that their proposed changes are needed.\n\nInspect storage usage and identify the owner and purpose of data before cleanup. Keep adequate working space, but do not delete unknown system folders to meet an arbitrary target. Review startup items and background workloads only within authorised settings. Use performance observations to form a hypothesis, change one relevant factor at a time where practical, and retest the original task. A restart may clear a temporary condition, but improvement after restarting is not a diagnosis of every underlying cause.\n\nFor physical care, follow the exact equipment instructions. Shut down and disconnect power as directed before permitted cleaning. Keep ventilation openings clear, use suitable cleaning materials and avoid liquid entering equipment. Do not open a power supply, CRT or other high-voltage assembly. Internal work and battery servicing require the appropriate skills and product procedures; an external classroom inspection does not require disassembly.\n\nProtect accounts, keep appropriate security controls active and use trusted software sources. If a tool reports a threat, preserve relevant evidence and follow the institution's response process rather than indiscriminately deleting files or disabling protection. Test restored samples and confirm required access, media and keys. Document the change, observed result and remaining issue. A good maintenance record states what was checked and measured instead of asserting that a single action guarantees complete security or a permanent speed increase.\n\n### Practical examples\n\n- A student records a slow-save symptom, checks free storage and compares the same task after an approved change.\n- A teacher saves work and schedules a required update restart outside the lesson.\n- A permitted external cleaning task follows the manufacturer’s power and cleaning instructions without opening electrical assemblies.\n\n### Common mistakes\n\n- Do not delete unknown system files or disable protection as a general speed fix.\n- High resource use or an alarming advertisement is not a diagnosis by itself.\n- A successful copy notification is weaker evidence than a checked restoration.\n\n### Quick revision\n\n- Maintenance includes prevention and fault investigation.\n- Record symptoms and protect work first.\n- Use supported update and driver sources.\n- Review storage choices and permissions.\n- Follow product-specific cleaning instructions.\n- Retest and document the actual outcome.\n\n## Diagrams and comparisons\n\n![Simplified operating-system services between user programs and hardware](/documents/dit/ict/system-software-layers.svg)\n\nUsers interact through an application or shell. Requests reach operating-system services, with the kernel managing core resources and drivers supporting device communication. Hardware supplies processing, memory, storage and devices. This is a simplified functional diagram: interface components and drivers can run in different execution contexts depending on the OS design.\n\n| Component | Main role | Example distinction |\n|---|---|---|\n| Application | Perform a user task | Word processor edits a document |\n| Shell/interface | Let users interact | GUI or command environment |\n| OS/kernel services | Manage core resources and requests | Processes, memory, files and access |\n| Driver | Support device communication | Printer or network-device support |\n| Hardware | Execute, store and exchange signals | CPU, RAM, storage, peripherals |\n\n| OS role | Typical purpose | Important qualification |\n|---|---|---|\n| Desktop/stand-alone | Local user applications | Can still use a network |\n| Server | Services for clients | Can be managed locally or remotely |\n| Embedded | Specialised function within a product | Timing and interface needs vary |\n\n| Utility | Main task | Not equivalent to |\n|---|---|---|\n| Firewall | Network traffic rules | A complete malware scan |\n| Anti-malware | Detect/respond to suspected malicious software | A guarantee of perfect safety |\n| Cleanup | Remove selected unneeded items | A backup |\n| Compression | Encode content with possible size reduction | Encryption or an independent copy |\n| Backup/restore | Retain and recover selected data | Every possible settings rollback feature |\n| Screen saver | Change an idle display | Automatic account locking in every configuration |\n\n## Solved short questions\n\n### 1. Define system software and name three examples.\n\nSystem software manages or supports computer operation. Examples include an operating system, a device driver and a supporting utility. A word processor is normally application software for a user task.\n\n### 2. Distinguish kernel and shell.\n\nThe kernel performs core OS resource-management and protected operations. A shell provides an interaction environment, which can be textual or graphical. Neither term means every installed application.\n\n### 3. Distinguish a program from a process.\n\nA program is a stored set of instructions. A process is an executing instance with state and resources. Multiple instances may use the same stored program, depending on the application design.\n\n### 4. Explain the role of a device driver.\n\nA driver participates in communication between the operating system and a device. It must be suitable for the device and platform. A physical connection alone does not establish driver or configuration readiness.\n\n### 5. How does CPU scheduling support multitasking?\n\nThe scheduler allocates processor time to runnable work. A single core can alternate among tasks; multiple cores can execute some work in parallel. Multitasking does not imply all instructions run at the same instant.\n\n### 6. Why is virtual memory not simply extra equally fast RAM?\n\nVirtual memory provides an address-space abstraction, and paging may use persistent storage. Storage-backed access has different performance from physical RAM. Not every virtual-memory page is necessarily on disk.\n\n### 7. Compare desktop, server and embedded OS roles.\n\nDesktop systems support local user tasks, servers supply services to clients, and embedded systems operate within larger products. Capabilities overlap, so role and configuration matter more than cabinet size.\n\n### 8. What is a Linux distribution?\n\nIt combines the Linux kernel with selected tools, libraries and other components, often including package management and a desktop environment. Linux-based systems can provide GUI and CLI interaction.\n\n### 9. Distinguish firewall and anti-malware software.\n\nA firewall applies rules to network traffic. Anti-malware tools detect and respond to suspected malicious software. Their functions complement one another; neither guarantees perfect protection or replaces recoverable copies.\n\n### 10. Compare HDD defragmentation and SSD optimisation.\n\nHDD defragmentation reorganises fragments to reduce avoidable seeking. Supported SSD optimisation can include TRIM/retrim for unused ranges. Use storage-appropriate OS maintenance rather than forcing repeated HDD-style defragmentation on an SSD.\n\n### 11. How do backup and restore utilities differ?\n\nBackup creates retained recoverable data within a defined scope and policy. Restore recovers that data. Verify a sample in a separate location and check what the selected feature actually includes.\n\n### 12. State a sound maintenance sequence.\n\nRecord the symptom, save and protect work, check simple causes, make an authorised relevant change, retest the original task and document the result. Use supported sources and model-specific handling instructions.\n\n## Solved long questions\n\n### 1. Explain operating-system structure and startup using a saved document example.\n\n**Core roles.** The OS manages resources and supplies services. Its kernel handles core system work. A shell provides interaction through a command environment or graphical interface. An application performs the document-editing task.\n\n**Running work.** The stored application program can create a running process. The OS tracks execution and resources, manages memory and uses drivers for supported devices. The document contents are user data rather than the OS itself.\n\n**Startup.** In a simplified model, firmware performs initial platform work, a bootloader loads the kernel, and services and a user environment start. Platform details vary. Firmware and the OS are not the same program.\n\n**Saving and closing.** The application requests file services to save work to persistent storage. Before normal shutdown, save documents and allow supported operations to complete. A visible document or closed window alone does not prove a recoverable copy exists.\n\n### 2. Describe the operating-system functions named in the syllabus.\n\n**Startup and interaction.** Coordinate startup and shutdown and offer a user interface. Start and manage program instances and expose services for user work.\n\n**Resource coordination.** Allocate and protect memory, schedule runnable work for CPU time and configure supported devices through drivers and settings. Virtual memory and CPU scheduling address different resources.\n\n**Files, connections and monitoring.** Organise files and permissions, support network/Internet communication and report resource activity. Reaching the Internet also depends on the external connection and relevant services. Interpret performance observations in context.\n\n**Updates, networks and security.** Apply supported update policy, configure authorised network services and administer accounts and access controls. Check completed installation and required restarts. Authentication checks a claimed identity; authorisation determines permitted actions.\n\n### 3. Compare desktop, server and embedded systems and discuss Windows/Linux selection.\n\n**Roles.** Desktop systems support local applications and can still use networks. Server systems provide services to clients. Embedded systems support functions inside a larger product. Some embedded workloads have timing deadlines.\n\n**Windows.** The Windows family has different products, releases and editions. Features, device support, application compatibility and lifecycle must be checked for the actual version. A familiar brand does not prove continuing security support.\n\n**Linux.** A distribution combines the Linux kernel with selected system components. A desktop environment and command shell can both be available. Ubuntu is one example used for desktop and server roles.\n\n**Selection.** Check the required workload, applications, device support, accessibility, administration, licences and maintenance. A similar desktop appearance is not proof that every application runs unchanged across platforms.\n\n### 4. Explain the utility programs listed by the syllabus and distinguish their functions.\n\n**Files and presentation.** A file manager organises files; search locates matches within scope. An uninstaller removes supported applications. An image viewer presents pictures and a media player presents supported audio/video. Deleting a shortcut is not normally uninstalling.\n\n**Storage and recovery.** Cleanup removes selected items and needs review. HDD defragmentation differs from supported SSD TRIM/retrim. Backup retains recoverable data and restore retrieves it. Check scope and test a sample.\n\n**Security and idle display.** A firewall applies network rules. Anti-malware tools handle suspected malicious software; spyware and unwanted adware have relevant behaviours. A screen saver changes an idle display, while locking and return authentication need their own configuration.\n\n**Packaging and recording.** Lossless compression can recover original bytes, but size savings depend on input and compression does not itself provide encryption or independent backup. Disc burning needs compatible writable media, a supported writer and completed verified recording.\n\n### 5. Develop a controlled plan for investigating a slow classroom computer.\n\n**Observe and protect.** Record when the slowdown occurs, which task is affected and relevant messages without exposing secrets. Save work and confirm important recovery copies. Ask whether the issue affects one application or the whole system.\n\n**Check evidence.** Observe resource activity and storage availability, relevant external connections and the network path. A high CPU value alone does not establish malware. Identify a plausible cause before changing settings.\n\n**Act within scope.** Use approved updates and appropriate settings. Review cleanup categories and application removal before acting. Do not delete unknown system folders, install untrusted repair tools or disable protection as a general fix.\n\n**Retest and record.** Where practical, change one relevant factor, repeat the same task and record the outcome. Escalate hardware or persistent faults through the proper support process. Temporary improvement is useful evidence rather than proof of a universal diagnosis.\n\n### 6. Design an ongoing maintenance and recovery routine for a student workstation.\n\n**Supported software.** Maintain the approved OS and applications through supported channels. Match drivers to devices, plan required restarts and follow model-specific firmware guidance. Preserve appropriate security settings.\n\n**Files and recovery.** Save work in the intended location, keep suitable separate recovery copies and review retention. Test restoration to another location and open the recovered sample. A settings rollback feature may not cover personal documents.\n\n**Physical care and access.** Follow the equipment maker’s cleaning and power instructions, keep ventilation clear and leave high-voltage assemblies closed. Lock the workstation when away and use appropriate account privileges and sharing permissions.\n\n**Record and adapt.** Record performed checks, dates, observed results and unresolved problems. Adjust the routine to actual equipment, workload and institutional policy. No single cleaner, scan or maintenance action guarantees permanent performance or perfect security.\n\n## Expected practice and past-paper status\n\nThe questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use every topic section for preparation.\n\n## Practical activities and viva preparation\n\n### Identify OS, interface and device information\n\nOn a permitted computer, use existing read-only system information and settings to record the OS name/version, an available GUI or CLI, and one identified device/driver entry. Hide personal identifiers in any shared record. Do not install, uninstall or replace anything.\n\n**Expected result:** A labelled distinction between OS, interface and driver, with uncertain details recorded honestly.\n\n### Observe processes and resource activity\n\nOpen the supported performance/process viewer on a permitted device. Observe CPU and memory activity during an already available non-sensitive application task. Record two observations without ending system processes or changing priorities.\n\n**Expected result:** A description of running work and resource use that does not treat one high reading as proof of malware.\n\n### Find and compress a practice file\n\nCreate a non-sensitive text sample in an approved practice folder. Find it using the file manager/search. If built-in lossless archive tools are available, make an archive, extract to a separate folder and compare the recovered contents. Retain the source.\n\n**Expected result:** Correct paths, a readable recovered sample and a distinction between search, compression, encryption and backup.\n\n### Review maintenance settings without changing them\n\nObserve existing update, storage-optimisation, security and screen-lock information where your account permits. Note which device is HDD/SSD if documented, what actions would need authorisation and whether a restart is shown as required. Do not delete files, disable protection or force optimisation.\n\n**Expected result:** A review table that separates observation from proposed changes and distinguishes optimisation, cleanup and lock settings.\n\n### Demonstrate a checked recovery and document it\n\nUsing only a non-sensitive sample and approved locations, retain the original, make a separate recovery copy, restore or copy back to a different practice folder and compare contents. If a backup utility is already authorised, identify its scope; otherwise model the backup/restore plan on paper.\n\n**Expected result:** A maintenance note with symptom or purpose, source/destination, observed result and limitations; no destructive deletion is required.\n\n### Viva questions\n\nHow do kernel and shell differ? Why is a process different from a stored program? Can a desktop use a network and a server use a GUI? Why is a paging file not equally fast RAM? How do a firewall and anti-malware tool differ? Why are SSD optimisation, cleanup, compression and backup separate tasks? What evidence shows that maintenance or recovery helped? Use the notes and solved answers to check your explanation.\n\n## Chapter practice test\n\nSuggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.\n\n### Q1. Which item is an example of system software?\n\nA) Device driver\n\nB) A student's essay file\n\nC) A printed timetable\n\nD) A spreadsheet's entered marks\n\n### Q2. How does a process differ from a stored program?\n\nA) A process is always a paper copy of source code\n\nB) A program is always executing even when never opened\n\nC) A process is an executing instance with state and resources\n\nD) The words always mean a physical memory chip\n\n### Q3. Does connecting a printer cable prove the printer is ready for all tasks?\n\nA) No, suitable drivers, settings and access may still be needed\n\nB) Yes, every cable supplies every required driver\n\nC) Yes, the OS never participates in printing\n\nD) No, because printers cannot be controlled by software\n\n### Q4. What does an administrator privilege represent?\n\nA) Proof that every chosen action is correct\n\nB) A guarantee that software contains no faults\n\nC) Authority to perform certain restricted operations\n\nD) A type of optical disc capacity\n\n### Q5. Which is the appropriate routine shutdown approach?\n\nA) Pull mains power during every file write\n\nB) Assume unsaved documents are automatically backed up\n\nC) Remove the storage device while the OS is working\n\nD) Save work and use the supported shutdown process\n\n### Q6. What does memory management help do?\n\nA) Allocate memory and support separation between processes\n\nB) Make every disk byte as fast as physical RAM\n\nC) Remove the need for saved files\n\nD) Guarantee unlimited address space on every device\n\n### Q7. Why can a correctly configured computer still fail to reach the Internet?\n\nA) An OS setting guarantees every outside service works\n\nB) The connection or an external network service may be unavailable\n\nC) A network cable always includes an active Internet subscription\n\nD) Internet access never needs addressing or name resolution\n\n### Q8. How does authorisation differ from authentication?\n\nA) Authorisation always means typing a filename\n\nB) Authorisation determines permitted actions; authentication checks a claimed identity\n\nC) Authentication is the same as granting every privilege\n\nD) They are both names for formatting an SSD\n\n### Q9. What does a stand-alone or desktop OS primarily support?\n\nA) Local user computing tasks\n\nB) Only a computer forbidden from using a network\n\nC) Only a magnetic tape cartridge\n\nD) Only the electrical power supply\n\n### Q10. Does a server without a permanently attached monitor necessarily lack an OS?\n\nA) Yes, all operating systems require an attached monitor at all times\n\nB) Yes, a screen is the kernel\n\nC) No, because servers can never run any software\n\nD) No, it may be administered remotely or through other interfaces\n\n### Q11. Which statement about Windows support is correct?\n\nA) Every historical release receives ordinary updates forever\n\nB) Support depends on the particular release and edition\n\nC) The Windows name alone guarantees current security support\n\nD) All editions contain every server feature\n\n### Q12. Does an application for one OS automatically run on every other OS?\n\nA) Yes, matching window colours guarantees compatibility\n\nB) Yes, changing the filename extension is always enough\n\nC) No, compatibility depends on the application and execution environment\n\nD) No, because no software can ever be ported\n\n### Q13. What is a file manager used for?\n\nA) Guarantee all files are backed up automatically\n\nB) Replace every device driver\n\nC) Browse and manage permitted files and folders\n\nD) Supply electrical power to storage\n\n### Q14. What should be reviewed before disk cleanup?\n\nA) Only the monitor's brightness\n\nB) Only the keyboard's font\n\nC) The selected categories and whether their contents are still needed\n\nD) Only the colour of a storage icon\n\n### Q15. Does a screen saver alone guarantee that a returning user must authenticate?\n\nA) Yes, every moving picture locks every account\n\nB) No, locking and sign-in requirements need appropriate configuration\n\nC) Yes, any blank screen encrypts all files\n\nD) No, because operating systems cannot support locking\n\n### Q16. What does disc-burning software require for an optical recording task?\n\nA) Compatible writable media and a supported writer\n\nB) Only any CD-only reader\n\nC) Only a larger desktop icon\n\nD) Only an image viewer with no recording hardware\n\n### Q17. Which is an example of preventive maintenance?\n\nA) Delete every file whenever a task feels slow\n\nB) Maintain supported updates and checked backups\n\nC) Disable all security controls permanently\n\nD) Open a powered electrical assembly for curiosity\n\n### Q18. Which source is appropriate for a device driver update?\n\nA) An unrelated advertisement promising universal repairs\n\nB) Any file with driver in its filename\n\nC) The supported OS or trusted device/vendor channel for the actual model\n\nD) A random download chosen only by its colourful logo\n\n### Q19. What makes troubleshooting results easier to interpret?\n\nA) Change every setting simultaneously without notes\n\nB) Treat every slowdown as proof of the same fault\n\nC) Install every advertised repair program\n\nD) Change one relevant factor at a time where practical and retest\n\n### Q20. What should a maintenance note include after a change?\n\nA) An unsupported promise of permanent perfect performance\n\nB) Only the tool's marketing slogan\n\nC) The action, observed result and any remaining issue\n\nD) Every account's secret credentials\n\n### Short questions\n\n1. Define system software and name three examples.\n\n2. Distinguish kernel and shell.\n\n3. Explain the role of a device driver.\n\n4. How does CPU scheduling support multitasking?\n\n5. Why is virtual memory not simply extra equally fast RAM?\n\n6. Compare desktop, server and embedded OS roles.\n\n7. What is a Linux distribution?\n\n8. Distinguish firewall and anti-malware software.\n\n9. Compare HDD defragmentation and SSD optimisation.\n\n10. How do backup and restore utilities differ?\n\n### Long questions\n\n1. Describe the operating-system functions named in the syllabus.\n\n2. Explain the utility programs listed by the syllabus and distinguish their functions.\n\n3. Design an ongoing maintenance and recovery routine for a student workstation.\n\n## Practice test answer key and explanations\n\n1. **A**. Drivers support computer operation and device communication.\n\n2. **C**. A stored program and its running instance are related but distinct concepts.\n\n3. **A**. A physical connection is only one requirement of a functioning device setup.\n\n4. **C**. Permission grants capability, not automatic correctness or suitability.\n\n5. **D**. Orderly shutdown gives the system a chance to handle pending work.\n\n6. **A**. Memory management controls allocation, address spaces and protection.\n\n7. **B**. Connectivity depends on the device and the relevant network/provider path.\n\n8. **B**. Identity checking and deciding allowed operations are different security functions.\n\n9. **A**. Desktop describes a primary role rather than a ban on networking.\n\n10. **D**. A physical display is not a universal prerequisite for an OS to operate.\n\n11. **B**. Lifecycle and feature support are version-specific.\n\n12. **C**. Platform requirements and supported compatibility methods must be checked.\n\n13. **C**. A file manager provides file and folder operations subject to access rights.\n\n14. **C**. Cleanup removes selected data and can affect files the user still wants.\n\n15. **B**. Idle display behaviour and access control are separate functions.\n\n16. **A**. Software cannot add missing optical writing capability to unsupported hardware.\n\n17. **B**. Preventive maintenance reduces foreseeable problems through appropriate care.\n\n18. **C**. Drivers must match the hardware and supported platform requirements.\n\n19. **D**. Controlled changes and repeat observations help relate an action to an outcome.\n\n20. **C**. A record should describe evidence and limits of the actual work.\n\n### Written-answer guidance\n\nShort questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.\n\n## Sources and further study\n\n- [PBTE official two-year DIT syllabus, ICT Module 5, page 8](https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf)\n\n- [Microsoft explanation of device drivers](https://learn.microsoft.com/windows-hardware/drivers/gettingstarted/what-is-a-driver-)\n\n- [Microsoft virtual address spaces](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/virtual-address-spaces)\n\n- [Linux kernel documentation](https://docs.kernel.org/)\n\n- [Ubuntu Desktop](https://ubuntu.com/desktop)\n\n- [Ubuntu Server documentation](https://documentation.ubuntu.com/server/)\n\n- [Microsoft uninstalling applications](https://support.microsoft.com/en-us/windows/apps/uninstall-or-remove-apps-and-programs-in-windows)\n\n- [Microsoft storage settings](https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/storage-settings-in-windows)\n\n- [Microsoft storage optimisation guidance](https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows)\n\n- [Microsoft storage-specific optimisation operations](https://learn.microsoft.com/en-us/powershell/module/storage/optimize-volume?view=windowsserver2025-ps)\n\n- [Microsoft security app settings](https://support.microsoft.com/en-us/windows/security/windows-security/windows-security-app-settings)\n\n- [Microsoft securing and locking devices](https://support.microsoft.com/en-us/windows/security/securing-your-device)\n\n- [Microsoft backup, restore and recovery scopes](https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows)\n\n- [IBM operating-system overview](https://www.ibm.com/think/topics/operating-systems)\n\n## Continue your ICT revision\n\n[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).\n\n[Review Chapter 4 Digital Storage](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-4-digital-storage/).\n",
+  "questions": [
+    {
+      "id": "dit-ict-ch5-q01",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "What is the main purpose of an operating system?",
+      "options": [
+        "Create every essay without an application",
+        "Replace all physical hardware",
+        "Act only as a printer's paper tray",
+        "Manage resources and provide services for programs and users"
+      ],
+      "correctIndex": 3,
+      "explanation": "An OS coordinates resources and supplies common services."
+    },
+    {
+      "id": "dit-ict-ch5-q02",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "Which item is an example of system software?",
+      "options": [
+        "Device driver",
+        "A student's essay file",
+        "A printed timetable",
+        "A spreadsheet's entered marks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drivers support computer operation and device communication."
+    },
+    {
+      "id": "dit-ict-ch5-q03",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "What is the kernel?",
+      "options": [
+        "Every icon on the desktop collectively",
+        "Only the keyboard's plastic case",
+        "A saved word-processing document",
+        "The central OS component responsible for core system work"
+      ],
+      "correctIndex": 3,
+      "explanation": "The kernel performs core resource-management and protected operations."
+    },
+    {
+      "id": "dit-ict-ch5-q04",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "Which statement about GUI and CLI is correct?",
+      "options": [
+        "Every OS must support exactly one interface style",
+        "CLI means a computer has no operating system",
+        "GUI means all commands are automatically safe",
+        "An OS can support both graphical and command-line interaction"
+      ],
+      "correctIndex": 3,
+      "explanation": "GUI and CLI are interface styles rather than mutually exclusive OS categories."
+    },
+    {
+      "id": "dit-ict-ch5-q05",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "What does a shell provide?",
+      "options": [
+        "Only permanent backup media",
+        "A way to interact with the system",
+        "Only electrical power conversion",
+        "A substitute for every device driver"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shells expose an interaction environment, which can be textual or graphical."
+    },
+    {
+      "id": "dit-ict-ch5-q06",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "How does a process differ from a stored program?",
+      "options": [
+        "A process is always a paper copy of source code",
+        "A program is always executing even when never opened",
+        "A process is an executing instance with state and resources",
+        "The words always mean a physical memory chip"
+      ],
+      "correctIndex": 2,
+      "explanation": "A stored program and its running instance are related but distinct concepts."
+    },
+    {
+      "id": "dit-ict-ch5-q07",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "What is the role of a device driver?",
+      "options": [
+        "Supply mains power through a wall socket",
+        "Participate in communication between the OS and a device",
+        "Store every user password on paper",
+        "Guarantee every application is compatible forever"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drivers are software components supporting device communication."
+    },
+    {
+      "id": "dit-ict-ch5-q08",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "Does connecting a printer cable prove the printer is ready for all tasks?",
+      "options": [
+        "No, suitable drivers, settings and access may still be needed",
+        "Yes, every cable supplies every required driver",
+        "Yes, the OS never participates in printing",
+        "No, because printers cannot be controlled by software"
+      ],
+      "correctIndex": 0,
+      "explanation": "A physical connection is only one requirement of a functioning device setup."
+    },
+    {
+      "id": "dit-ict-ch5-q09",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "Which sequence represents a simplified general-purpose startup model?",
+      "options": [
+        "Word processor, printer paper, firmware and keyboard paint",
+        "Firmware, bootloader, OS kernel and required services",
+        "Only the desktop wallpaper before all hardware starts",
+        "Only antivirus followed by a deleted file"
+      ],
+      "correctIndex": 1,
+      "explanation": "Startup stages differ by platform, but firmware and OS loading have distinct roles."
+    },
+    {
+      "id": "dit-ict-ch5-q10",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "Which statement distinguishes firmware from the OS?",
+      "options": [
+        "They are universally identical names for the same program",
+        "The OS is always the same thing as a monitor cable",
+        "Firmware supports platform startup; the OS manages ongoing system operation",
+        "Firmware means all user documents"
+      ],
+      "correctIndex": 2,
+      "explanation": "The roles overlap in support functions but are not interchangeable concepts."
+    },
+    {
+      "id": "dit-ict-ch5-q11",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "What does an administrator privilege represent?",
+      "options": [
+        "Proof that every chosen action is correct",
+        "A guarantee that software contains no faults",
+        "Authority to perform certain restricted operations",
+        "A type of optical disc capacity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Permission grants capability, not automatic correctness or suitability."
+    },
+    {
+      "id": "dit-ict-ch5-q12",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.1 Operating Systems and System Software",
+      "question": "Where is a general-purpose OS commonly installed?",
+      "options": [
+        "Only inside a keyboard key",
+        "On persistent storage with components loaded into memory as needed",
+        "Always entirely in immutable ROM",
+        "Only on printed paper"
+      ],
+      "correctIndex": 1,
+      "explanation": "Installed system files persist, while running components use memory."
+    },
+    {
+      "id": "dit-ict-ch5-q13",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Which is the appropriate routine shutdown approach?",
+      "options": [
+        "Pull mains power during every file write",
+        "Assume unsaved documents are automatically backed up",
+        "Remove the storage device while the OS is working",
+        "Save work and use the supported shutdown process"
+      ],
+      "correctIndex": 3,
+      "explanation": "Orderly shutdown gives the system a chance to handle pending work."
+    },
+    {
+      "id": "dit-ict-ch5-q14",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Which OS function makes windows, menus or a command shell available?",
+      "options": [
+        "Increasing the physical number of CPU cores",
+        "Replacing all storage hardware",
+        "Providing a user interface",
+        "Printing every password"
+      ],
+      "correctIndex": 2,
+      "explanation": "The interface lets users request and observe system operations."
+    },
+    {
+      "id": "dit-ict-ch5-q15",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Which function includes starting and tracking executing programs?",
+      "options": [
+        "Process management",
+        "Only paper sorting",
+        "Only changing a monitor's stand",
+        "Only copying the case label"
+      ],
+      "correctIndex": 0,
+      "explanation": "The OS tracks running instances and their associated resources."
+    },
+    {
+      "id": "dit-ict-ch5-q16",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "What does memory management help do?",
+      "options": [
+        "Allocate memory and support separation between processes",
+        "Make every disk byte as fast as physical RAM",
+        "Remove the need for saved files",
+        "Guarantee unlimited address space on every device"
+      ],
+      "correctIndex": 0,
+      "explanation": "Memory management controls allocation, address spaces and protection."
+    },
+    {
+      "id": "dit-ict-ch5-q17",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "What does the CPU scheduler choose?",
+      "options": [
+        "Which runnable work receives processor time",
+        "The colour of every keyboard key",
+        "The amount of toner in a printer",
+        "Which cable supplies mains electricity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scheduling coordinates the use of processor time among eligible tasks."
+    },
+    {
+      "id": "dit-ict-ch5-q18",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Which OS activity supports a newly connected device?",
+      "options": [
+        "Only renaming the desktop wallpaper",
+        "Using suitable drivers and device settings",
+        "Only deleting random system files",
+        "Only enlarging the printer paper tray"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drivers and configuration help the OS use supported hardware."
+    },
+    {
+      "id": "dit-ict-ch5-q19",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Why can a correctly configured computer still fail to reach the Internet?",
+      "options": [
+        "An OS setting guarantees every outside service works",
+        "The connection or an external network service may be unavailable",
+        "A network cable always includes an active Internet subscription",
+        "Internet access never needs addressing or name resolution"
+      ],
+      "correctIndex": 1,
+      "explanation": "Connectivity depends on the device and the relevant network/provider path."
+    },
+    {
+      "id": "dit-ict-ch5-q20",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "What does a high CPU reading by itself establish?",
+      "options": [
+        "The computer definitely has malware",
+        "The hard drive is certainly physically broken",
+        "Every application must be deleted",
+        "Processor activity is high, but its cause needs investigation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Monitoring reports evidence and does not alone identify one cause."
+    },
+    {
+      "id": "dit-ict-ch5-q21",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Which function controls folders, file properties and supported access rights?",
+      "options": [
+        "Only image projection",
+        "Only CPU cooling",
+        "File management",
+        "Only audio amplification"
+      ],
+      "correctIndex": 2,
+      "explanation": "File services organise stored resources and their access."
+    },
+    {
+      "id": "dit-ict-ch5-q22",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "What should be checked after an automatic update is offered?",
+      "options": [
+        "Only that a download notification once appeared",
+        "Only that the update setting is enabled",
+        "Installation status and any required restart",
+        "Only that the computer has a large monitor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Automation being enabled is not evidence that every installation completed."
+    },
+    {
+      "id": "dit-ict-ch5-q23",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "Which activity is an example of authorised network administration?",
+      "options": [
+        "Publish every account password to all users",
+        "Disable all access checks on every computer",
+        "Assume every user must have administrator rights",
+        "Configure a shared resource for permitted users"
+      ],
+      "correctIndex": 3,
+      "explanation": "Network administration includes controlled services and sharing."
+    },
+    {
+      "id": "dit-ict-ch5-q24",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.2 Functions of an Operating System",
+      "question": "How does authorisation differ from authentication?",
+      "options": [
+        "Authorisation always means typing a filename",
+        "Authorisation determines permitted actions; authentication checks a claimed identity",
+        "Authentication is the same as granting every privilege",
+        "They are both names for formatting an SSD"
+      ],
+      "correctIndex": 1,
+      "explanation": "Identity checking and deciding allowed operations are different security functions."
+    },
+    {
+      "id": "dit-ict-ch5-q25",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "What does a stand-alone or desktop OS primarily support?",
+      "options": [
+        "Local user computing tasks",
+        "Only a computer forbidden from using a network",
+        "Only a magnetic tape cartridge",
+        "Only the electrical power supply"
+      ],
+      "correctIndex": 0,
+      "explanation": "Desktop describes a primary role rather than a ban on networking."
+    },
+    {
+      "id": "dit-ict-ch5-q26",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "Can a desktop OS connect to a network?",
+      "options": [
+        "No, stand-alone always means no networking hardware can work",
+        "Yes, if supported and suitably configured",
+        "Only if it stops being an OS",
+        "Only through a printer's ink cartridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Desktop systems commonly access network resources."
+    },
+    {
+      "id": "dit-ict-ch5-q27",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "What is a server OS mainly configured to do?",
+      "options": [
+        "Only display a single local wallpaper",
+        "Only measure the computer case",
+        "Replace all user accounts with one public password",
+        "Provide services to client systems"
+      ],
+      "correctIndex": 3,
+      "explanation": "Server roles include controlled shared services and remote administration."
+    },
+    {
+      "id": "dit-ict-ch5-q28",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "Which is an example of a server service?",
+      "options": [
+        "Providing an authorised shared file resource",
+        "The height of the monitor stand",
+        "The colour of the power button",
+        "The physical weight of an empty case"
+      ],
+      "correctIndex": 0,
+      "explanation": "A file service supplies resources to permitted clients."
+    },
+    {
+      "id": "dit-ict-ch5-q29",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "Does a server without a permanently attached monitor necessarily lack an OS?",
+      "options": [
+        "Yes, all operating systems require an attached monitor at all times",
+        "Yes, a screen is the kernel",
+        "No, because servers can never run any software",
+        "No, it may be administered remotely or through other interfaces"
+      ],
+      "correctIndex": 3,
+      "explanation": "A physical display is not a universal prerequisite for an OS to operate."
+    },
+    {
+      "id": "dit-ict-ch5-q30",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "What is an embedded OS associated with?",
+      "options": [
+        "A specialised computing role inside a larger product",
+        "Only a document stored in a folder",
+        "Only an optical disc label",
+        "Only a desktop application window"
+      ],
+      "correctIndex": 0,
+      "explanation": "Embedded systems support functions within products or equipment."
+    },
+    {
+      "id": "dit-ict-ch5-q31",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "What is central to a real-time system?",
+      "options": [
+        "Having the highest average GHz in every comparison",
+        "Always displaying the current clock in large text",
+        "Running only one brand of keyboard",
+        "Meeting the relevant response deadlines"
+      ],
+      "correctIndex": 3,
+      "explanation": "Real-time concerns timing requirements, not a universal speed contest."
+    },
+    {
+      "id": "dit-ict-ch5-q32",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "Which statement about Windows support is correct?",
+      "options": [
+        "Every historical release receives ordinary updates forever",
+        "Support depends on the particular release and edition",
+        "The Windows name alone guarantees current security support",
+        "All editions contain every server feature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lifecycle and feature support are version-specific."
+    },
+    {
+      "id": "dit-ict-ch5-q33",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "What does a Linux distribution usually combine?",
+      "options": [
+        "Only an empty hard-drive enclosure",
+        "Only a proprietary printer cable",
+        "The Linux kernel with selected system tools and other components",
+        "Every Windows application without adaptation"
+      ],
+      "correctIndex": 2,
+      "explanation": "A distribution assembles a usable system around the kernel."
+    },
+    {
+      "id": "dit-ict-ch5-q34",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "Which statement about Linux interaction is accurate?",
+      "options": [
+        "It can only ever use a command line",
+        "It can offer a graphical desktop and a command shell",
+        "It cannot run on servers",
+        "Its kernel is identical to every desktop icon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linux-based systems support different interfaces and roles."
+    },
+    {
+      "id": "dit-ict-ch5-q35",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "Does an application for one OS automatically run on every other OS?",
+      "options": [
+        "Yes, matching window colours guarantees compatibility",
+        "Yes, changing the filename extension is always enough",
+        "No, compatibility depends on the application and execution environment",
+        "No, because no software can ever be ported"
+      ],
+      "correctIndex": 2,
+      "explanation": "Platform requirements and supported compatibility methods must be checked."
+    },
+    {
+      "id": "dit-ict-ch5-q36",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.3 Operating System Types: Windows and Linux",
+      "question": "What is a sensible OS selection basis?",
+      "options": [
+        "Only the computer case's colour",
+        "Only a screenshot of the wallpaper",
+        "Only the number of desktop icons",
+        "Required applications, devices, maintenance and user needs"
+      ],
+      "correctIndex": 3,
+      "explanation": "Selection should fit the real workload, support and access requirements."
+    },
+    {
+      "id": "dit-ict-ch5-q37",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What is a file manager used for?",
+      "options": [
+        "Guarantee all files are backed up automatically",
+        "Replace every device driver",
+        "Browse and manage permitted files and folders",
+        "Supply electrical power to storage"
+      ],
+      "correctIndex": 2,
+      "explanation": "A file manager provides file and folder operations subject to access rights."
+    },
+    {
+      "id": "dit-ict-ch5-q38",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "Why might a search utility not find a file that exists?",
+      "options": [
+        "Search always proves every missing result was deleted",
+        "Search scope, indexing or access permissions may exclude it",
+        "A filename always reveals the contents perfectly",
+        "Every search automatically scans all private locations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Search results depend on the configured scope and accessible indexed or scanned content."
+    },
+    {
+      "id": "dit-ict-ch5-q39",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What is the appropriate way to remove an installed application?",
+      "options": [
+        "Delete only its desktop shortcut and assume removal",
+        "Rename its icon to removed",
+        "Use its supported uninstall procedure",
+        "Delete unrelated system folders"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uninstallers handle supported application removal; shortcut deletion normally does not."
+    },
+    {
+      "id": "dit-ict-ch5-q40",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "Which pair correctly matches viewing utilities with their tasks?",
+      "options": [
+        "Image viewer for disk formatting; media player for firewall rules",
+        "Both always replace every file backup",
+        "Image viewer for pictures; media player for supported audio/video",
+        "Both automatically convert malware into safe files"
+      ],
+      "correctIndex": 2,
+      "explanation": "Viewing and playback are distinct utility functions with format support requirements."
+    },
+    {
+      "id": "dit-ict-ch5-q41",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What should be reviewed before disk cleanup?",
+      "options": [
+        "Only the monitor's brightness",
+        "Only the keyboard's font",
+        "The selected categories and whether their contents are still needed",
+        "Only the colour of a storage icon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cleanup removes selected data and can affect files the user still wants."
+    },
+    {
+      "id": "dit-ict-ch5-q42",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "Which statement about drive optimisation is accurate?",
+      "options": [
+        "HDD defragmentation and supported SSD TRIM/retrim have different roles",
+        "Every SSD needs forced HDD-style defragmentation every hour",
+        "Optimisation always means formatting all files away",
+        "TRIM creates a full independent backup"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maintenance should match the storage technology and supported OS behaviour."
+    },
+    {
+      "id": "dit-ict-ch5-q43",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What provides evidence that a file backup is usable?",
+      "options": [
+        "Only look at the backup program's logo",
+        "Restore a sample separately and verify its contents",
+        "Only turn on a screen saver",
+        "Only compress the source and discard all copies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recovery must be tested within the backup's actual scope."
+    },
+    {
+      "id": "dit-ict-ch5-q44",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "Does a screen saver alone guarantee that a returning user must authenticate?",
+      "options": [
+        "Yes, every moving picture locks every account",
+        "No, locking and sign-in requirements need appropriate configuration",
+        "Yes, any blank screen encrypts all files",
+        "No, because operating systems cannot support locking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Idle display behaviour and access control are separate functions."
+    },
+    {
+      "id": "dit-ict-ch5-q45",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What is a firewall's main role?",
+      "options": [
+        "Apply rules to network traffic",
+        "Guarantee every local file contains no malware",
+        "Replace all account permissions",
+        "Restore deleted documents from any time"
+      ],
+      "correctIndex": 0,
+      "explanation": "A firewall controls traffic rather than solving every security or recovery problem."
+    },
+    {
+      "id": "dit-ict-ch5-q46",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "Which distinction between spyware and adware is appropriate?",
+      "options": [
+        "Every advertisement is necessarily spyware",
+        "Spyware is a form of optical disc",
+        "Adware is always a backup utility",
+        "Spyware covertly gathers information; adware displays advertising and may be unwanted"
+      ],
+      "correctIndex": 3,
+      "explanation": "Classify behaviour and consent rather than using an advertisement as proof of all malware types."
+    },
+    {
+      "id": "dit-ict-ch5-q47",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What does lossless file compression promise when correctly performed and decoded?",
+      "options": [
+        "Recovery of the original bytes",
+        "A smaller size for every possible file",
+        "Automatic encryption of every archive",
+        "An independent off-site backup"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lossless coding preserves exact content but compression savings depend on the input."
+    },
+    {
+      "id": "dit-ict-ch5-q48",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.4 Operating System Utility Programs",
+      "question": "What does disc-burning software require for an optical recording task?",
+      "options": [
+        "Compatible writable media and a supported writer",
+        "Only any CD-only reader",
+        "Only a larger desktop icon",
+        "Only an image viewer with no recording hardware"
+      ],
+      "correctIndex": 0,
+      "explanation": "Software cannot add missing optical writing capability to unsupported hardware."
+    },
+    {
+      "id": "dit-ict-ch5-q49",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "Which is an example of preventive maintenance?",
+      "options": [
+        "Delete every file whenever a task feels slow",
+        "Maintain supported updates and checked backups",
+        "Disable all security controls permanently",
+        "Open a powered electrical assembly for curiosity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Preventive maintenance reduces foreseeable problems through appropriate care."
+    },
+    {
+      "id": "dit-ict-ch5-q50",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What should be recorded when investigating a fault?",
+      "options": [
+        "Every user's password in a public note",
+        "Only the case's colour",
+        "An assumed cause without checking evidence",
+        "The symptom, timing and relevant observations"
+      ],
+      "correctIndex": 3,
+      "explanation": "A useful record separates the observed problem from a hypothesis about its cause."
+    },
+    {
+      "id": "dit-ict-ch5-q51",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What should be protected before a potentially disruptive change?",
+      "options": [
+        "Only the desktop wallpaper",
+        "Only the printer's empty paper tray",
+        "Only the application's icon size",
+        "Current work and important recoverable copies"
+      ],
+      "correctIndex": 3,
+      "explanation": "Saving and verified recovery reduce the impact of an unsuccessful change."
+    },
+    {
+      "id": "dit-ict-ch5-q52",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "Which source is appropriate for a device driver update?",
+      "options": [
+        "An unrelated advertisement promising universal repairs",
+        "Any file with driver in its filename",
+        "The supported OS or trusted device/vendor channel for the actual model",
+        "A random download chosen only by its colourful logo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Drivers must match the hardware and supported platform requirements."
+    },
+    {
+      "id": "dit-ict-ch5-q53",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What is appropriate during a supported system update?",
+      "options": [
+        "Maintain suitable power and allow the documented process to finish",
+        "Interrupt power whenever a progress number pauses briefly",
+        "Remove storage during installation",
+        "Assume all update stages finish when download starts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Updates can require time, installation steps and a planned restart."
+    },
+    {
+      "id": "dit-ict-ch5-q54",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What should happen before removing files during cleanup?",
+      "options": [
+        "Identify what will be removed and whether it is still needed",
+        "Assume every large file is unwanted",
+        "Delete unknown system folders first",
+        "Skip all review because a utility is installed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Removal choices can affect user work, system operation or recovery options."
+    },
+    {
+      "id": "dit-ict-ch5-q55",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What makes troubleshooting results easier to interpret?",
+      "options": [
+        "Change every setting simultaneously without notes",
+        "Treat every slowdown as proof of the same fault",
+        "Install every advertised repair program",
+        "Change one relevant factor at a time where practical and retest"
+      ],
+      "correctIndex": 3,
+      "explanation": "Controlled changes and repeat observations help relate an action to an outcome."
+    },
+    {
+      "id": "dit-ict-ch5-q56",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "Does temporary improvement after a restart prove the underlying cause?",
+      "options": [
+        "Yes, it proves the storage drive is physically damaged",
+        "Yes, it proves there was malware",
+        "No, further evidence may still be needed",
+        "Yes, every fault is permanently fixed"
+      ],
+      "correctIndex": 2,
+      "explanation": "A restart can change system state without establishing one specific cause."
+    },
+    {
+      "id": "dit-ict-ch5-q57",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "Which is suitable physical maintenance?",
+      "options": [
+        "Follow the equipment manual and keep ventilation clear",
+        "Spray liquid directly into openings",
+        "Open a power supply for a basic identification lesson",
+        "Cover cooling vents to stop dust entry during use"
+      ],
+      "correctIndex": 0,
+      "explanation": "Physical care must suit the exact equipment and avoid creating damage or hazards."
+    },
+    {
+      "id": "dit-ict-ch5-q58",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "How should a reported malware detection be handled?",
+      "options": [
+        "Automatically delete unrelated files at random",
+        "Follow the institution's response process and review relevant evidence",
+        "Disable protection on every computer forever",
+        "Publish private files to request public guesses"
+      ],
+      "correctIndex": 1,
+      "explanation": "A controlled response is more appropriate than indiscriminate destructive changes."
+    },
+    {
+      "id": "dit-ict-ch5-q59",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What confirms a recovered practice file is useful?",
+      "options": [
+        "Its filename alone looks familiar",
+        "The backup icon has a green colour",
+        "Its folder is visible without opening anything",
+        "It opens and its contents match the required source"
+      ],
+      "correctIndex": 3,
+      "explanation": "Recovery checks need readable, correct contents rather than only an indicator."
+    },
+    {
+      "id": "dit-ict-ch5-q60",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 5,
+      "topic": "5.5 Personal Computer Maintenance",
+      "question": "What should a maintenance note include after a change?",
+      "options": [
+        "An unsupported promise of permanent perfect performance",
+        "Only the tool's marketing slogan",
+        "The action, observed result and any remaining issue",
+        "Every account's secret credentials"
+      ],
+      "correctIndex": 2,
+      "explanation": "A record should describe evidence and limits of the actual work."
+    }
+  ],
+  "pdfBytes": 76759,
+  "pdfSha256": "6d83c5787e272429e7095a6896b461f4f3f70818d030c698107836f0ad68af82",
+  "sourceSha256": "ac0ebf8b27c751589c84d74b216a74a9b825095f8c709a34536c8f1454e85ecd"
+}

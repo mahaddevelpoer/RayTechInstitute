@@ -33,7 +33,7 @@ test('Digital Storage covers all five PBTE sections with twelve checked question
 });
 
 test('four ICT chapters keep isolated banks and preserve all three earlier public guides',async()=>{
- const all=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict');assert.equal(all.length,260);assert.equal(new Set(all.map(q=>q.id)).size,260);
+ const all=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber<=4);assert.equal(all.length,260);assert.equal(new Set(all.map(q=>q.id)).size,260);
  assert.deepEqual(all.filter(q=>q.chapterNumber===4),pack.questions);
  const slugs=['introduction-to-computers','system-unit-components','input-output-devices'];
  for(const n of [1,2,3]){
@@ -44,7 +44,7 @@ test('four ICT chapters keep isolated banks and preserve all three earlier publi
  }
  const note=catalog.INITIAL_NOTES.find(n=>n.id==='dit-ict-chapter-4-digital-storage');assert.equal(note.content,pack.content);assert.equal(note.chapterNumber,4);
  assert.match(note.pdfUrl,/ict-chapter-4-digital-storage\.pdf$/);
- assert.deepEqual(catalog.INITIAL_CHAPTERS.filter(c=>c.subjectSlug==='dit-ict').map(c=>c.chapterNumber),[1,2,3,4]);
+ assert.deepEqual(catalog.INITIAL_CHAPTERS.filter(c=>c.subjectSlug==='dit-ict'&&c.chapterNumber<=4).map(c=>c.chapterNumber),[1,2,3,4]);
 });
 
 test('web/PDF match reviewed source and practice covers every section without revealing answers',async()=>{

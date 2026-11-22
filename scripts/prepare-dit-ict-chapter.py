@@ -18,20 +18,20 @@ from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
 chapter = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-if chapter not in (1, 2, 3, 4):
-    raise ValueError('Only reviewed ICT chapters 1, 2, 3 and 4 are supported')
+if chapter not in (1, 2, 3, 4, 5):
+    raise ValueError('Only reviewed ICT chapters 1, 2, 3, 4 and 5 are supported')
 source = ROOT / f'content/dit/ict-chapter-{chapter}.json'
 data = json.loads(source.read_text(encoding='utf-8'))
 dest = ROOT / 'public/documents/dit/ict'
 dest.mkdir(parents=True, exist_ok=True)
-slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices',4:'digital-storage'}
+slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices',4:'digital-storage',5:'system-software'}
 prefix = f'ict-chapter-{chapter}-' + slugs[chapter]
 topic_count = len(data['topics'])
 question_count = sum(len(t['questions']) for t in data['topics'])
 topic_offsets = [sum(len(t['questions']) for t in data['topics'][:i]) for i in range(topic_count)]
 topic_label = {5:'five',6:'six',8:'eight'}[topic_count]
 coverage = f'{chapter}.1 to {chapter}.{topic_count}'
-diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg',4:'storage-recovery-copies.svg'}[chapter]
+diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg',4:'storage-recovery-copies.svg',5:'system-software-layers.svg'}[chapter]
 questions = []
 if chapter >= 3:
     from random import Random
@@ -75,7 +75,7 @@ long = [
 test_indices = [1,3,7,10,12,14,16,19,22,24,27,30,33,36,41,44,48,51,55,59]
 if chapter == 3:
     test_indices = [1,4,8,10,14,18,21,25,29,32,36,41,45,49,52,56,61,66,72,78]
-if chapter == 4:
+if chapter in (4,5):
     test_indices = [1,5,7,10,12,15,18,23,24,28,31,34,36,40,43,47,48,51,54,59]
 test_questions = [questions[i] for i in test_indices]
 practical = [
@@ -134,6 +134,8 @@ if chapter == 3:
     parts.append('[Review Chapter 2 System Unit Components](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-2-system-unit-components/).')
 if chapter == 4:
     parts.append('[Review Chapter 3 Input and Output Devices](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-3-input-output-devices/).')
+if chapter == 5:
+    parts.append('[Review Chapter 4 Digital Storage](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-4-digital-storage/).')
 markdown='\n\n'.join(parts)+'\n'
 (ROOT/f'content/dit/ict-chapter-{chapter}.md').write_text(markdown,encoding='utf-8')
 
@@ -216,6 +218,14 @@ if chapter == 4:
     for x in [125,305]:
         d.add(Line(x,92,x+45,92,strokeColor=navy));d.add(Polygon([x+45,92,x+38,96,x+38,88],fillColor=navy))
     d.add(String(240,25,'Checked copies with suitable separation',textAnchor='middle',fontSize=10,fillColor=navy))
+if chapter == 5:
+    d=Drawing(480,245)
+    for y,label in [(195,'USER PROGRAMS AND SHELL'),(135,'OS / KERNEL SERVICES'),(75,'DEVICE COMMUNICATION / DRIVERS'),(15,'HARDWARE RESOURCES')]:
+        d.add(Rect(60,y,360,35,fillColor=colors.HexColor('#e8effa'),strokeColor=navy))
+        d.add(String(240,y+13,label,textAnchor='middle',fontSize=10,fillColor=navy))
+    for y in [195,135,75]:
+        d.add(Line(235,y,235,y-25,strokeColor=navy));d.add(Polygon([235,y-25,231,y-18,239,y-18],fillColor=navy))
+        d.add(Line(245,y-25,245,y,strokeColor=navy));d.add(Polygon([245,y,241,y-7,249,y-7],fillColor=navy))
 story.extend([d,p(data.get('diagramDescription','Input supplies data; processing executes instructions; output presents results. Processing reads saved data from storage and writes results back to storage. Communication exchanges data with other devices.'))])
 for text in data.get('comparisons',['RAM is working memory and is normally volatile. An SSD is persistent storage for saved files.','System software manages or supports computer operation. Application software carries out user tasks.','A mainframe prioritises dependable high-volume transaction work. A supercomputer prioritises very large computational workloads.']):
     if chapter >= 3 and text.startswith('|'):
@@ -231,7 +241,7 @@ for i,(q,a) in enumerate(short):story.extend([p(f'{i+1}. {q}','Heading2'),p(a)])
 heading('Solved long questions')
 for i,(q,sections) in enumerate(long):
     answer=[p(f'{i+1}. {q}','Heading2')]+[p(h+': '+text) for h,text in sections]
-    if chapter == 4:
+    if chapter in (4,5):
         story.append(KeepTogether(answer))
     else:
         story.extend(answer)
@@ -252,7 +262,7 @@ story.append(PageBreak());heading('Practice test answer key')
 for i,q in enumerate(test_questions):story.append(p(f"{i+1}. {chr(65+q['correctIndex'])}. {q['explanation']}"))
 story.append(p('Written-answer guidance','Heading2'))
 story.append(p('Short questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Check concepts, examples and diagrams rather than memorising identical wording.'))
-if chapter == 4:
+if chapter in (4,5):
     story.append(PageBreak())
 story.append(p('Sources and further study','Heading2'))
 story.append(Paragraph(f'<link href="{escape(data["syllabusUrl"],quote=True)}" color="#1449AD">PBTE official two-year DIT first-semester syllabus, ICT Module {chapter}, page {data["sourcePages"]}</link>',styles['BodyGuide']))
@@ -285,7 +295,7 @@ doc.add_page_break()
 for line in markdown.splitlines():
     if not line:continue
     if line.startswith('!['):
-        doc.add_paragraph(data['diagramDescription'] if chapter == 4 else 'Motherboard connections: processor, RAM, expansion and storage interfaces. PSU supplies power.' if chapter == 2 else 'INPUT -> PROCESSING -> OUTPUT\n                    STORAGE exchanges data with PROCESSING')
+        doc.add_paragraph(data['diagramDescription'] if chapter in (4,5) else 'Motherboard connections: processor, RAM, expansion and storage interfaces. PSU supplies power.' if chapter == 2 else 'INPUT -> PROCESSING -> OUTPUT\n                    STORAGE exchanges data with PROCESSING')
     elif line.startswith('|'):
         if re.match(r'^\|[-| ]+\|$',line):continue
         doc.add_paragraph(line.strip('|').replace('|','  |  '))
@@ -312,6 +322,11 @@ if chapter == 4:
     boxes=[(10,'Working copy'),(235,'Recovery copy'),(460,'Off-site copy')]
     shapes=''.join(f'<rect x="{x}" y="30" width="170" height="60" rx="4" fill="#e8effa" stroke="#032c68"/><text x="{x+85}" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#032c68">{label}</text>' for x,label in boxes)
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" width="640" height="150" role="img" aria-labelledby="title desc"><title id="title">Checked storage copies with suitable separation</title><desc id="desc">Working copy, separate recovery copy and off-site copy. Arrows represent checked copying, not automatic sync or RAID.</desc>{shapes}<path d="M180 60H228M405 60H453" stroke="#032c68" stroke-width="2"/><path d="M228 60L220 55V65ZM453 60L445 55V65Z" fill="#032c68"/><text x="320" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#032c68">Verify contents and test restoration</text></svg>'
+if chapter == 5:
+    boxes=[(15,'User programs and shell'),(85,'OS / kernel services'),(155,'Device communication / drivers'),(225,'Hardware resources')]
+    shapes=''.join(f'<rect x="90" y="{y}" width="460" height="45" rx="4" fill="#e8effa" stroke="#032c68"/><text x="320" y="{y+28}" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#032c68">{label}</text>' for y,label in boxes)
+    paths=''.join(f'<path d="M310 {y}v25M330 {y+25}v-25" stroke="#032c68" stroke-width="2"/><path d="M310 {y+25}l-4 -7h8ZM330 {y}l-4 7h8Z" fill="#032c68"/>' for y in [60,130,200])
+    svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 290" width="640" height="290" role="img" aria-labelledby="title desc"><title id="title">Simplified operating system service relationships</title><desc id="desc">Users interact through programs or a shell. Operating system and kernel services manage resources, with drivers supporting device communication. Hardware supplies computing resources. Execution contexts vary by OS.</desc>{shapes}{paths}</svg>'
 (dest/diagram_name).write_text(svg,encoding='utf-8')
 generated=dict(title=data['title'],content=markdown,questions=questions,pdfBytes=pdf.stat().st_size,pdfSha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),sourceSha256=hashlib.sha256(source.read_text(encoding='utf-8').encode('utf-8')).hexdigest())
 (ROOT/f'content/dit/ict-chapter-{chapter}.generated.json').write_text(json.dumps(generated,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

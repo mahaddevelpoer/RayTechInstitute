@@ -3,12 +3,13 @@ import pack from '../../content/dit/ict-chapter-1.generated.json';
 import pack2 from '../../content/dit/ict-chapter-2.generated.json';
 import pack3 from '../../content/dit/ict-chapter-3.generated.json';
 import pack4 from '../../content/dit/ict-chapter-4.generated.json';
+import pack5 from '../../content/dit/ict-chapter-5.generated.json';
 
 export const DIT_CLASS_SLUG = 'dit-intermediate';
 export const DIT_ICT_SUBJECT: SubjectItem = {
   id: 'subject-dit-ict', classSlug: DIT_CLASS_SLUG, slug: 'dit-ict',
   title: 'Introduction to ICT', iconName: 'Monitor',
-  description: 'PBTE two-year D.I.T first-semester ICT. Study computer fundamentals, system units, input/output and digital storage with notes, topic MCQs and practical revision.',
+  description: 'PBTE two-year D.I.T first-semester ICT: computer fundamentals, system units, input/output, storage and system software. Notes, MCQs and practical revision.',
 };
 export const DIT_ICT_CHAPTER: ChapterItem = {
   id: 'chapter-dit-ict-1', classSlug: DIT_CLASS_SLUG, subjectSlug: 'dit-ict', chapterNumber: 1,
@@ -71,9 +72,24 @@ export const DIT_ICT_NOTE_FOUR: NoteItem = {
   fileSize: `${Math.ceil(pack4.pdfBytes / 1024)} KB`, downloadCount: 0, lastUpdated: '2026-11-22',
   content: pack4.content,
 };
-export const DIT_ICT_CHAPTERS: ChapterItem[] = [DIT_ICT_CHAPTER, DIT_ICT_CHAPTER_TWO, DIT_ICT_CHAPTER_THREE, DIT_ICT_CHAPTER_FOUR];
-export const DIT_ICT_NOTES: NoteItem[] = [DIT_ICT_NOTE, DIT_ICT_NOTE_TWO, DIT_ICT_NOTE_THREE, DIT_ICT_NOTE_FOUR];
-export const DIT_ICT_ALL_MCQS: MCQItem[] = [...DIT_ICT_MCQS, ...[pack2, pack3, pack4].flatMap(chapter => chapter.questions.map(q => ({ ...q, options: q.options as MCQItem['options'] })))];
+export const DIT_ICT_CHAPTER_FIVE: ChapterItem = {
+  id: 'chapter-dit-ict-5', classSlug: DIT_CLASS_SLUG, subjectSlug: 'dit-ict', chapterNumber: 5,
+  title: 'System Software', isActive: true,
+  description: 'Syllabus sections 5.1 to 5.5: operating systems, OS functions and types, utilities and PC maintenance. Notes, 60 explained MCQs and practical revision.',
+};
+export const DIT_ICT_NOTE_FIVE: NoteItem = {
+  id: 'dit-ict-chapter-5-system-software', classSlug: DIT_CLASS_SLUG,
+  subjectSlug: 'dit-ict', chapterNumber: 5, chapterTitle: pack5.title,
+  title: 'System Software: ICT Chapter 5 Study Guide',
+  description: 'Revise PBTE ICT Chapter 5 with 60 explained MCQs, OS functions, Windows/Linux roles, utilities, solved questions and PC maintenance practice.',
+  pdfUrl: 'https://raytechinstitute.com/documents/dit/ict/ict-chapter-5-system-software.pdf',
+  previewPdfUrl: 'https://raytechinstitute.com/documents/dit/ict/ict-chapter-5-system-software.pdf',
+  fileSize: `${Math.ceil(pack5.pdfBytes / 1024)} KB`, downloadCount: 0, lastUpdated: '2026-11-22',
+  content: pack5.content,
+};
+export const DIT_ICT_CHAPTERS: ChapterItem[] = [DIT_ICT_CHAPTER, DIT_ICT_CHAPTER_TWO, DIT_ICT_CHAPTER_THREE, DIT_ICT_CHAPTER_FOUR, DIT_ICT_CHAPTER_FIVE];
+export const DIT_ICT_NOTES: NoteItem[] = [DIT_ICT_NOTE, DIT_ICT_NOTE_TWO, DIT_ICT_NOTE_THREE, DIT_ICT_NOTE_FOUR, DIT_ICT_NOTE_FIVE];
+export const DIT_ICT_ALL_MCQS: MCQItem[] = [...DIT_ICT_MCQS, ...[pack2, pack3, pack4, pack5].flatMap(chapter => chapter.questions.map(q => ({ ...q, options: q.options as MCQItem['options'] })))];
 
 /** Reviewed source content is merged after each fresh database export. No existing resource IDs change. */
 export function ditClassInformation(item: ClassItem): ClassItem {
