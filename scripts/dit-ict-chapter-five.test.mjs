@@ -32,7 +32,7 @@ test('System Software covers five syllabus sections with twelve explained questi
 });
 
 test('five independent ICT banks preserve all four earlier guides and total 320 questions',async()=>{
- const all=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict');assert.equal(all.length,320);assert.equal(new Set(all.map(q=>q.id)).size,320);
+ const all=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber<=5);assert.equal(all.length,320);assert.equal(new Set(all.map(q=>q.id)).size,320);
  assert.deepEqual(all.filter(q=>q.chapterNumber===5),pack.questions);
  const slugs=['introduction-to-computers','system-unit-components','input-output-devices','digital-storage'];
  for(const n of [1,2,3,4]){
@@ -43,7 +43,7 @@ test('five independent ICT banks preserve all four earlier guides and total 320 
  }
  const note=catalog.INITIAL_NOTES.find(n=>n.id==='dit-ict-chapter-5-system-software');assert.equal(note.content,pack.content);assert.equal(note.chapterNumber,5);
  assert.match(note.pdfUrl,/ict-chapter-5-system-software\.pdf$/);
- assert.deepEqual(catalog.INITIAL_CHAPTERS.filter(c=>c.subjectSlug==='dit-ict').map(c=>c.chapterNumber),[1,2,3,4,5]);
+ assert.deepEqual(catalog.INITIAL_CHAPTERS.filter(c=>c.subjectSlug==='dit-ict'&&c.chapterNumber<=5).map(c=>c.chapterNumber),[1,2,3,4,5]);
 });
 
 test('reviewed sources match web/PDF and a separate practice test covers all five sections',async()=>{
