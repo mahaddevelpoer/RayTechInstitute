@@ -1,0 +1,635 @@
+{
+  "title": "Introduction to Computers",
+  "subject": "Introduction to ICT",
+  "syllabusUrl": "https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf",
+  "sourcePages": "7",
+  "topics": [
+    {
+      "code": "1.1",
+      "title": "History and Evolution of Computers",
+      "notes": "A computer is a programmable electronic device that accepts data, processes it according to instructions, produces results and can store data and results. Data are raw facts, such as a student's marks. Information is data interpreted in context, such as the student's total and grade. Computers are fast and consistent, but the usefulness of their results depends on suitable instructions and accurate input.\n\nEarly calculating aids supported arithmetic. Mechanical calculating machines used moving parts; later electromechanical machines used electrical switching and mechanical movement. Electronic computers replaced much of that movement with electronic components. The stored-program idea places program instructions in memory, allowing a machine to carry out different tasks by loading different programs. This is different from rebuilding hardware for each task.\n\nA common teaching model groups electronic computers into generations. First-generation machines used vacuum tubes; second-generation machines used transistors; third-generation machines used integrated circuits. Fourth-generation systems are associated with microprocessors, which put a processor on an integrated circuit. These categories overlap historically. Fifth-generation descriptions often discuss AI and advanced processing, but there is no single component or universal starting date defining every such machine.\n\nSmaller components generally reduced size and power requirements while improving reliability and making computers more widely available. Modern systems combine hardware, software, storage and communication. A phone, ATM and desktop can all perform computing even though their cases and intended tasks differ. An AI feature is software functionality, not proof that the device belongs to an entirely separate hardware generation.",
+      "examples": [
+        "A school computer can prepare a timetable and later calculate fees by running different programs.",
+        "A room-sized early electronic computer and a modern laptop differ greatly in size, components and practical use."
+      ],
+      "mistakes": [
+        "Do not confuse a transistor with a vacuum tube or an integrated circuit with a complete computer.",
+        "Do not assume older generations stopped existing on one exact date."
+      ],
+      "revision": [
+        "Data become information when interpreted in context.",
+        "Programs are instructions; a stored-program computer keeps instructions in memory.",
+        "Remember the sequence vacuum tubes, transistors, integrated circuits, microprocessors.",
+        "Technology generations are broad teaching categories.",
+        "Accuracy requires valid data and suitable instructions."
+      ],
+      "questions": [
+        [
+          "What does a computer process according to program instructions?",
+          "Data",
+          "Only final output, without any input",
+          "Only instructions written on paper",
+          "Only a program licence",
+          "Data are the facts and symbols on which instructions operate."
+        ],
+        [
+          "Which example best represents information rather than an isolated raw value?",
+          "A report showing a student's total and grade",
+          "The number 42 without context",
+          "An unlabelled symbol",
+          "An unlabelled list of numbers",
+          "The report gives processed values meaning in a student context."
+        ],
+        [
+          "Which component is associated with first-generation electronic computers?",
+          "Vacuum tubes",
+          "Transistors",
+          "Integrated circuits",
+          "Microprocessors",
+          "Vacuum tubes were a defining electronic component in this teaching classification."
+        ],
+        [
+          "What largely replaced vacuum tubes in second-generation computers?",
+          "Transistors",
+          "Microprocessors",
+          "Integrated circuits",
+          "Mechanical relays",
+          "Transistors offered smaller, more reliable electronic switching."
+        ],
+        [
+          "Which technology is associated with third-generation computers?",
+          "Integrated circuits",
+          "Vacuum tubes",
+          "Discrete transistors",
+          "Mechanical calculating gears",
+          "Integrated circuits combined electronic components on chips."
+        ],
+        [
+          "What is a microprocessor?",
+          "A processor implemented on an integrated circuit",
+          "A complete computer including all peripherals",
+          "A persistent file-storage device",
+          "An application for editing documents",
+          "The term refers to processor circuitry on an integrated circuit."
+        ],
+        [
+          "What is the main benefit of the stored-program concept?",
+          "Different programs can change the tasks performed",
+          "Programs must be rebuilt as physical wiring for every task",
+          "Only one fixed task can ever be performed",
+          "Instructions cannot be changed after manufacture",
+          "Instructions stored in memory let the same general-purpose machine run different tasks."
+        ],
+        [
+          "Why can incorrect input produce an incorrect result?",
+          "Processing does not automatically make the input facts correct",
+          "A computer automatically verifies every real-world fact",
+          "Any executed program must use a correct method",
+          "Saving a result automatically corrects its input",
+          "A correct operation on unsuitable or false data can still produce a misleading result."
+        ],
+        [
+          "Which statement about computer generations is most accurate?",
+          "They are broad categories with overlapping developments",
+          "Each generation has an exact universal starting date",
+          "Case size alone determines the generation",
+          "Only the installed operating system determines the generation",
+          "Historical technology changes are gradual and do not fit exact universal boundaries."
+        ],
+        [
+          "Which change helped make computers smaller and more widely available?",
+          "Miniaturisation of electronic components",
+          "Increasing the size of each switching component",
+          "Using mechanical movement for every operation",
+          "Removing the ability to store programs",
+          "Smaller components enabled more compact and affordable systems."
+        ]
+      ]
+    },
+    {
+      "code": "1.2",
+      "title": "Hardware Components",
+      "notes": "Hardware consists of the physical parts of a computer system. A useful way to classify hardware is by its role: input, output, system unit, storage and communication. The same device can have more than one role. A touchscreen displays results and accepts touches, so it serves both input and output functions.\n\nInput devices send data or commands into the computer. A keyboard enters text, a mouse controls a pointer, a scanner captures a document and a microphone captures sound. Output devices present results: monitors display images, printers produce hard copy and speakers produce sound. Input and output describe the direction and purpose of data flow, not the physical size of a device.\n\nThe system unit houses major internal components such as the motherboard, processor, memory and internal storage. The processor executes instructions; its arithmetic logic unit performs arithmetic and logical operations, while its control unit coordinates instruction execution. RAM temporarily holds programs and data in use. RAM is normally volatile, so unsaved work can be lost when power is removed. An SSD or hard drive provides longer-term storage. The system unit is not simply another name for the CPU: the CPU is one component within it.\n\nCommunication devices support data exchange. A network interface connects a device to a network; a router forwards traffic between networks. Wi-Fi hardware provides wireless networking. Internet access also depends on an appropriate network and provider service. A useful system diagram shows input feeding processing, results moving to output, and storage exchanging data with processing. These are functional roles; modern systems perform many operations concurrently.",
+      "examples": [
+        "A barcode scanner inputs a product code; software finds its price; a printer outputs the receipt.",
+        "A laptop saves a document on its SSD after editing it in memory.",
+        "A webcam supplies video input while speakers play the remote participant's voice."
+      ],
+      "mistakes": [
+        "The CPU is not the whole system unit.",
+        "RAM is not a replacement for saving a file to persistent storage.",
+        "A touchscreen has both input and output roles."
+      ],
+      "revision": [
+        "Hardware is physical equipment.",
+        "Input captures data; output presents results.",
+        "The processor executes instructions.",
+        "RAM normally loses its contents when power is removed.",
+        "Storage keeps saved data for later use.",
+        "Communication hardware enables data exchange."
+      ],
+      "questions": [
+        [
+          "Which item is an input device?",
+          "Keyboard",
+          "Speaker",
+          "Printer",
+          "Projector",
+          "A keyboard sends key presses into the computer."
+        ],
+        [
+          "Which item normally produces hard-copy output?",
+          "Printer",
+          "Microphone",
+          "Mouse",
+          "Scanner",
+          "A printer produces physical printed output."
+        ],
+        [
+          "Which device commonly has both input and output roles?",
+          "Touchscreen",
+          "Ordinary speaker",
+          "Ordinary keyboard",
+          "Non-touch monitor",
+          "A touchscreen displays information and detects touch input."
+        ],
+        [
+          "Which statement correctly relates the CPU to the system unit?",
+          "The CPU is a component within the system unit",
+          "The CPU and system unit always mean exactly the same assembly",
+          "The CPU is an external input device",
+          "The system unit consists only of the processor",
+          "The system unit houses several internal components, including the processor."
+        ],
+        [
+          "Which processor component performs arithmetic and logical comparisons?",
+          "Arithmetic logic unit",
+          "Control unit",
+          "Main memory",
+          "Storage controller",
+          "The ALU carries out arithmetic and logical operations."
+        ],
+        [
+          "What is the primary role of RAM during normal operation?",
+          "Hold programs and data currently in use",
+          "Retain all files permanently without power",
+          "Route packets between networks",
+          "Translate only printed output into input",
+          "RAM is working memory used by running programs."
+        ],
+        [
+          "What normally happens to RAM contents when power is removed?",
+          "They are lost",
+          "They remain permanently like saved SSD files",
+          "They are automatically copied to an SSD",
+          "They become part of the installed application",
+          "Ordinary RAM is volatile; saving to persistent storage is a separate operation."
+        ],
+        [
+          "Which device provides persistent storage?",
+          "Solid-state drive",
+          "Ordinary RAM",
+          "Processor cache",
+          "A keyboard input buffer",
+          "An SSD retains saved data without continuous power."
+        ],
+        [
+          "What is a router primarily used for?",
+          "Forwarding data between networks",
+          "Connect only the display to the processor",
+          "Execute every application instruction",
+          "Store working variables as main memory",
+          "Routers connect networks and forward network traffic."
+        ],
+        [
+          "Which device captures sound as input?",
+          "Microphone",
+          "Speaker",
+          "Printer",
+          "Projector",
+          "A microphone converts sound into an input signal."
+        ]
+      ]
+    },
+    {
+      "code": "1.3",
+      "title": "Computer Software and Running Programs",
+      "notes": "Software is the collection of programs and associated data that directs a computer's work. Hardware supplies physical capability; software supplies instructions. The main introductory distinction is between system software and application software. System software manages hardware or supports the operation of other programs. Application software helps users perform tasks such as writing, calculating, drawing or communicating.\n\nAn operating system is system software that manages resources and offers services and interfaces to programs and users. Device drivers help the operating system communicate with particular hardware. A word processor and spreadsheet are application software. Classification depends on purpose, not on whether a program is paid, free, downloaded or stored on a disc.\n\nInstalling software prepares it for use on a system. Installation may copy files, configure settings and register components. Running software starts execution; a program stored on a drive is not necessarily running. Some programs run without a conventional installer, and web applications can be accessed through a browser. The operating system loads required code and data into memory and schedules processing.\n\nBefore installation, check the operating system, supported processor architecture, memory and storage requirements. Obtain software from a trustworthy publisher or official store, review permissions and follow licence terms. Updates may fix defects and security issues. Downloading a file is not the same as installing it, and closing an application is not the same as uninstalling it. Uninstalling removes the program through its supported removal process; deleting one shortcut usually does not remove the installed program.",
+      "examples": [
+        "Windows manages the computer while a word processor creates a letter.",
+        "A printer driver supports communication with a printer.",
+        "A browser can open a web-based spreadsheet without installing that spreadsheet as a desktop application."
+      ],
+      "mistakes": [
+        "Free software is not automatically system software.",
+        "Deleting a shortcut does not normally uninstall its program.",
+        "Downloading, installing and running are different actions."
+      ],
+      "revision": [
+        "Software directs hardware.",
+        "Operating systems and drivers are examples of system software.",
+        "Applications support user tasks.",
+        "Installation prepares software; execution runs its instructions.",
+        "Check compatibility, publisher, permissions and licence.",
+        "Use supported update and uninstall procedures."
+      ],
+      "questions": [
+        [
+          "Which is an example of system software?",
+          "Operating system",
+          "Word processor",
+          "Spreadsheet application",
+          "Presentation application",
+          "An operating system manages resources and supports programs."
+        ],
+        [
+          "Which is an example of application software?",
+          "Word processor",
+          "Operating system",
+          "Printer driver",
+          "Hardware-management utility",
+          "A word processor helps a user create and edit documents."
+        ],
+        [
+          "What is the purpose of a device driver?",
+          "Help the operating system communicate with hardware",
+          "Replace the operating system entirely",
+          "Act as a physical cable between two networks",
+          "Store every document permanently",
+          "Drivers support the operation of specific hardware devices."
+        ],
+        [
+          "What does installing software generally mean?",
+          "Preparing and configuring it for use",
+          "Closing the program window",
+          "Transferring an installer file without running it",
+          "Removing the application through its uninstaller",
+          "Installation places and configures required software components."
+        ],
+        [
+          "What does running a program mean?",
+          "Executing its instructions",
+          "Only downloading its installer",
+          "Only reading its filename",
+          "Deleting its desktop shortcut",
+          "A running program is being executed, rather than merely stored."
+        ],
+        [
+          "Which action usually removes only a link to a program?",
+          "Deleting its desktop shortcut",
+          "Using its supported uninstaller",
+          "Removing it through installed-app settings",
+          "Following its official removal procedure",
+          "A shortcut points to a program and is not usually the complete installed program."
+        ],
+        [
+          "What should be checked before installing a desktop program?",
+          "Operating system and hardware requirements",
+          "Only the program icon and window colour",
+          "Only the download filename",
+          "Only whether a shortcut already exists",
+          "The program must be compatible with the system and its available resources."
+        ],
+        [
+          "Where is the safest starting point for obtaining a program?",
+          "Its official publisher or a trusted official store",
+          "An unsolicited executable attachment",
+          "A random cracked-software link",
+          "A page promising to bypass all licences",
+          "Trusted distribution reduces the risk of tampered installers."
+        ],
+        [
+          "Why should supported software updates be reviewed and installed?",
+          "They can fix defects and security vulnerabilities",
+          "They guarantee compatibility with every future device",
+          "They eliminate the need to save work",
+          "They guarantee that no future error can occur",
+          "Updates can improve software reliability and security, but do not guarantee perfection."
+        ],
+        [
+          "Which statement about web applications is correct?",
+          "Many can be used through a browser",
+          "Every one requires a separate desktop installer",
+          "They cannot use any local device resources",
+          "They are physical components inside the system unit",
+          "A browser provides access to many web applications."
+        ]
+      ]
+    },
+    {
+      "code": "1.4",
+      "title": "Programs and Software Development",
+      "notes": "A program is a set of instructions expressed in a form that a computer can execute, directly or through translation. Software development is the organised process of creating and maintaining software to meet a need. A useful program begins with a clear problem rather than with random code. Requirements state what a solution should do and any important constraints.\n\nAn algorithm is a finite, ordered set of clear steps for solving a problem. It can be expressed in ordinary language, pseudocode or a flowchart before a programming language is chosen. For example, to find the mean of three marks, obtain the marks, add them, divide the sum by three and display the result. Input, processing and output should be identifiable. The algorithm must also consider unsuitable input when the real task requires it.\n\nA simplified development cycle is requirements, design, implementation, testing, release and maintenance. Developers often revisit these stages rather than following them once in a rigid line. Implementation turns a design into code. Testing compares actual behaviour with expected behaviour using carefully chosen cases. Debugging investigates and corrects the causes of faults. Documentation explains usage, design or maintenance so that others can work with the software.\n\nA syntax error breaks language rules. A runtime error occurs while a program executes, such as an attempted invalid operation. A logical error produces unsuitable behaviour even if the program runs. A compiler translates code before execution in common compiled workflows; an interpreter executes code through an interpreting runtime. Real systems can combine approaches. Testing gives evidence of behaviour for the cases examined; it does not prove that every possible input is correct.",
+      "examples": [
+        "A fee calculator needs requirements for fee amounts, discounts and invalid entries before code is written.",
+        "Testing an average calculator with 10, 20 and 30 should produce 20.",
+        "Correcting division by the wrong count fixes a logical error."
+      ],
+      "mistakes": [
+        "An algorithm is not restricted to one programming language.",
+        "A program that runs without crashing can still give a wrong answer.",
+        "Testing and debugging are related but different activities."
+      ],
+      "revision": [
+        "Start with a clear problem and requirements.",
+        "An algorithm describes ordered solution steps.",
+        "Implementation turns a design into code.",
+        "Testing compares actual and expected results.",
+        "Debugging finds and fixes faults.",
+        "Maintenance continues after release."
+      ],
+      "questions": [
+        [
+          "What is a computer program?",
+          "A set of instructions for a computer",
+          "Only the data entered by a user",
+          "A physical processing component",
+          "Only a program installation shortcut",
+          "Programs specify operations for the computer to perform."
+        ],
+        [
+          "What is the purpose of software requirements?",
+          "State what the solution must do",
+          "Describe only the visual appearance of the editor",
+          "Replace the need to evaluate program behaviour",
+          "List only the developer's preferred hardware brands",
+          "Requirements describe needed behaviour and relevant constraints."
+        ],
+        [
+          "What is an algorithm?",
+          "A finite ordered set of clear problem-solving steps",
+          "A sequence with no definite stopping condition",
+          "Instructions that must be written in Python",
+          "A list of hardware with no processing steps",
+          "An algorithm describes a method and is not limited to one language."
+        ],
+        [
+          "Which action belongs primarily to implementation?",
+          "Writing code from a design",
+          "Deciding what users need before design",
+          "Comparing actual outputs with expected results",
+          "Updating user instructions after release",
+          "Implementation translates the solution design into working code."
+        ],
+        [
+          "What does testing compare?",
+          "Actual behaviour with expected behaviour",
+          "Only whether a program starts without crashing",
+          "Only the appearance of the program icon",
+          "Only whether code has been saved to a file",
+          "A test has an expected outcome against which the observed result is checked."
+        ],
+        [
+          "What is debugging?",
+          "Investigating and correcting faults",
+          "Writing requirements without investigating failures",
+          "Running tests without examining any failures",
+          "Changing random code without checking the cause",
+          "Debugging identifies causes of faults and changes the program to correct them."
+        ],
+        [
+          "A program adds three marks but divides by two to calculate their mean. What is the main error?",
+          "Logical error",
+          "Syntax error that prevents all execution",
+          "Hardware input failure",
+          "A correct method for finding the mean of three values",
+          "The program uses the wrong method even if it executes successfully."
+        ],
+        [
+          "What is a syntax error?",
+          "A violation of programming-language grammar",
+          "A wrong method that still follows language grammar",
+          "An error caused only by disconnected hardware",
+          "Any requirement change after release",
+          "Syntax rules define how valid program statements are written."
+        ],
+        [
+          "Why is maintenance needed after release?",
+          "Requirements and defects can require later changes",
+          "Software requirements can never change",
+          "A successful first run proves every future case",
+          "Users never report defects after release",
+          "Software needs ongoing correction and adaptation."
+        ],
+        [
+          "What is the mean of the test inputs 10, 20 and 30?",
+          "20",
+          "60",
+          "30",
+          "10",
+          "Their sum is 60 and the count is three, so the mean is 20."
+        ]
+      ]
+    },
+    {
+      "code": "1.5",
+      "title": "Computer Types",
+      "notes": "Computers can be classified by their purpose, portability, scale and role. Categories can overlap. A laptop is both a personal computer and a mobile computing device. A server describes a service-providing role and does not always describe a particular case shape. Classify the device in its context instead of assuming that one label excludes all others.\n\nA personal computer is intended for individual use. A desktop normally stays at a workstation and often has separate peripherals. Laptops, tablets and smartphones support mobile computing. An embedded computer is built into a larger product to control or monitor functions, such as a washing machine controller or a vehicle control unit. Embedded systems are often designed for a limited set of tasks rather than unrestricted desktop use.\n\nA game console is a computing system designed primarily for games and related media services. A server supplies services or resources to other devices, called clients. A file server shares files; a web server responds to web requests. A thin client relies substantially on a server for applications or processing, although the exact division varies. It should not be defined as a computer containing no processor or memory.\n\nMainframes are designed for dependable, high-volume processing and many concurrent transactions or users. Supercomputers focus on very large computational workloads, often using extensive parallel processing. Banking transactions are a common mainframe example; weather modelling is a common supercomputing example. Real deployments vary and organisations can use several categories together. Choose a system by workload, reliability, mobility and cost rather than by physical size alone.",
+      "examples": [
+        "A student laptop is personal and portable.",
+        "A washing machine uses an embedded controller.",
+        "A bank may use a mainframe for transaction processing while a research centre uses a supercomputer for simulations."
+      ],
+      "mistakes": [
+        "A laptop can belong to more than one category.",
+        "A thin client still has hardware and some local processing.",
+        "Server refers to a role, not merely a large cabinet."
+      ],
+      "revision": [
+        "Personal computers support individual work.",
+        "Mobile devices support portable use.",
+        "Embedded computers control functions within products.",
+        "Servers provide services to clients.",
+        "Thin clients depend substantially on servers.",
+        "Mainframes and supercomputers target different workload priorities."
+      ],
+      "questions": [
+        [
+          "Which category best describes a computer intended primarily for one user's general tasks?",
+          "Personal computer",
+          "Embedded appliance controller",
+          "Multi-user transaction mainframe",
+          "Dedicated high-performance simulation system",
+          "Personal computers support individual computing tasks."
+        ],
+        [
+          "Which example is normally a mobile computing device?",
+          "Laptop",
+          "A fixed desktop workstation",
+          "A rack-mounted server",
+          "A fixed embedded industrial controller",
+          "A laptop is designed for portable computing."
+        ],
+        [
+          "Which example best represents an embedded computer?",
+          "Controller inside a washing machine",
+          "A general-purpose desktop used for many applications",
+          "A personal laptop used for study and games",
+          "A web server used by many remote clients",
+          "The controller is built into a larger product for specific functions."
+        ],
+        [
+          "What is the main role of a server?",
+          "Provide services or resources to clients",
+          "Always perform only an individual user's offline tasks",
+          "Provide only permanent local storage without services",
+          "Replace all client devices and their interfaces",
+          "Servers respond to client needs such as file access or web requests."
+        ],
+        [
+          "What distinguishes a thin-client setup?",
+          "Substantial dependence on server resources",
+          "Complete absence of any processor",
+          "No need for any software",
+          "Inability to display any output",
+          "Thin clients retain local hardware but rely substantially on servers."
+        ],
+        [
+          "Which workload is commonly associated with mainframes?",
+          "Large volumes of reliable business transactions",
+          "Only a single user's document-editing workload",
+          "Primarily portable personal computing",
+          "Primarily built-in appliance control",
+          "Mainframes are commonly used for dependable high-volume transaction processing."
+        ],
+        [
+          "Which workload is commonly associated with supercomputers?",
+          "Large-scale weather simulations",
+          "Only high-volume business transaction recording",
+          "Primarily portable personal document editing",
+          "Primarily single-appliance control",
+          "Scientific simulations can require extensive parallel computation."
+        ],
+        [
+          "Which statement correctly classifies a laptop?",
+          "It can be both a personal computer and a mobile device",
+          "It must belong to only one classification category",
+          "It is classified as a server regardless of its role",
+          "It must be an embedded computer because it has a battery",
+          "Classification categories describe different attributes and can overlap."
+        ],
+        [
+          "What is a game console primarily designed for?",
+          "Games and related media functions",
+          "High-volume bank transaction processing",
+          "Scientific weather simulation",
+          "Serving shared business files to office clients",
+          "Consoles are specialised computing systems focused on gaming."
+        ],
+        [
+          "Which factor should guide computer selection most directly?",
+          "The workload and required capabilities",
+          "Case dimensions without considering tasks",
+          "Processor name without considering other requirements",
+          "The newest advertising label regardless of workload",
+          "A suitable system meets the user's task, mobility and reliability needs."
+        ]
+      ]
+    },
+    {
+      "code": "1.6",
+      "title": "Computer Applications",
+      "notes": "Computer applications are the ways computing is used to solve practical problems. The PBTE outline names education, finance, government, health care, science, publishing, travel and manufacturing. In every case, identify the input, processing, output and storage instead of merely memorising an industry name. People remain responsible for checking that systems are appropriate and results are used correctly.\n\nIn education, learning systems distribute resources, quizzes check understanding and spreadsheets organise marks. In finance, systems record transactions, calculate balances and support payment services. Government systems manage records and services such as applications and registrations. Access control, audit records and accurate identification matter because these systems handle important personal and financial information.\n\nHealth-care systems manage appointments, patient records and diagnostic information. Computing can support clinicians, but an automated result is not a substitute for qualified interpretation. Scientific computing analyses measurements, simulates processes and visualises results. Good conclusions still depend on valid methods and reliable data. Publishing combines writing, editing, page design and digital distribution; software supports production without guaranteeing that the text is true.\n\nTravel systems search availability, make reservations and calculate routes. A reservation must remain consistent as different customers book simultaneously. Manufacturing uses computer-aided design, production scheduling and computer-controlled machinery. Sensors provide input and controllers direct operations. Across all sectors, privacy, security, backups, staff training and human oversight are practical requirements. Automation can reduce repetitive work, but can also repeat an error quickly if the instructions or input are wrong.",
+      "examples": [
+        "A school spreadsheet calculates totals from entered marks and stores the results.",
+        "A travel booking system checks available seats before confirming a reservation.",
+        "A factory sensor sends measurements to a controller that adjusts a production process."
+      ],
+      "mistakes": [
+        "Automation does not guarantee that data or decisions are correct.",
+        "A computer-generated medical result still needs appropriate professional interpretation.",
+        "Collecting personal data does not remove the responsibility to protect it."
+      ],
+      "revision": [
+        "Describe the actual task performed in each sector.",
+        "Identify input, processing, output and storage.",
+        "Protect personal and financial information.",
+        "Use human review for consequential results.",
+        "Backups and training support reliable use.",
+        "Automation can repeat both correct operations and mistakes."
+      ],
+      "questions": [
+        [
+          "Which use belongs primarily to education?",
+          "Providing chapter quizzes through a learning system",
+          "Controlling a milling machine",
+          "Booking an airline seat",
+          "Recording a bank transfer",
+          "Chapter quizzes support learning and assessment."
+        ],
+        [
+          "Which use belongs primarily to finance?",
+          "Recording payments and calculating account balances",
+          "Preparing a magazine page layout",
+          "Simulating a weather system",
+          "Controlling a classroom projector only",
+          "Financial systems process transactions and balances."
+        ],
+        [
+          "Which is an example of government computing?",
+          "Processing a citizen's registration application",
+          "Processing a private company's payroll",
+          "Editing a publisher's magazine layout",
+          "Controlling a factory production line",
+          "Registration processing is a public-service records task."
+        ],
+        [
+          "Which statement about health-care computing is appropriate?",
+          "It can support clinicians who interpret results",
+          "It guarantees every diagnosis is correct",
+          "It removes the need to protect patient data",
+          "It makes all professional review unnecessary",
+          "Computer systems support care but do not remove professional responsibility."
+        ],
+        [
+          "Which use belongs primarily to scientific computing?",
+          "Analysing measurements and running simulations",
+          "Only setting a document margin",
+          "Only reserving a hotel room",
+          "Only recording a retail receipt",
+          "Science uses computation to study data and model phenomena."
+        ],
+        [
+          "Which activity belongs to publishing?",
+          "Editing text and arranging page layouts",
+          "Assigning an IP address only",
+          "Crimping a network cable",
+          "Replacing a CPU fan",
+          "Publishing tools support preparation and distribution of content."
+        ],
+        [
+          "What should a travel booking system check before confirming a seat?",
+          "Current availability",
+          "Only the originally advertised seat count",
+          "Only the previously printed timetable",
+          "Only the customer's preferred display language",
+          "Reservations must reflect available capacity."
+        ],
+        [
+          "Which use belongs primarily to manufacturing?",
+          "Controlling machinery using sensor input",
+          "Producing a student's revision timetable",
+          "Managing passenger seat reservations",
+          "Laying out a digital newspaper page",
+          "Manufacturing systems can use sensor measurements to control production."
+        ],
+        [
+          "Why is access control important in a student or patient records system?",
+          "It limits access to authorised users",
+          "It permits everyone to change every record",
+          "It replaces the need to make backups",
+          "It guarantees that all entered values are correct",
+          "Sensitive records should be accessible only to appropriate users."
+        ],
+        [
+          "What is a risk of automating a task with incorrect instructions?",
+          "The system can repeat the mistake quickly",
+          "The instructions automatically become correct",
+          "All stored records become independently verified",
+          "Input validation becomes unnecessary",
+          "Automation repeats defined operations, including faulty ones."
+        ]
+      ]
+    }
+  ]
+}

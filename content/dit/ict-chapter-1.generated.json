@@ -1,0 +1,969 @@
+{
+  "title": "Introduction to Computers",
+  "content": "## Chapter overview and syllabus coverage\n\nThis original English study guide follows PBTE's two-year D.I.T first-semester ICT Module 1, syllabus sections 1.1 to 1.6. It includes 60 explained revision MCQs, six topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.\n\n| Syllabus section | Topic | Revision MCQs |\n|---|---|---|\n| 1.1 | History and Evolution of Computers | 10 |\n| 1.2 | Hardware Components | 10 |\n| 1.3 | Computer Software and Running Programs | 10 |\n| 1.4 | Programs and Software Development | 10 |\n| 1.5 | Computer Types | 10 |\n| 1.6 | Computer Applications | 10 |\n\n## Topic-wise revision MCQs\n\n## 1.1 History and Evolution of Computers MCQs\n\n### Q1. What does a computer process according to program instructions?\n\nA) Only final output, without any input\n\nB) Only instructions written on paper\n\n**C) Data**\n\nD) Only a program licence\n\n**Correct answer: C.** Data are the facts and symbols on which instructions operate.\n\n### Q2. Which example best represents information rather than an isolated raw value?\n\n**A) A report showing a student's total and grade**\n\nB) The number 42 without context\n\nC) An unlabelled symbol\n\nD) An unlabelled list of numbers\n\n**Correct answer: A.** The report gives processed values meaning in a student context.\n\n### Q3. Which component is associated with first-generation electronic computers?\n\nA) Transistors\n\nB) Integrated circuits\n\nC) Microprocessors\n\n**D) Vacuum tubes**\n\n**Correct answer: D.** Vacuum tubes were a defining electronic component in this teaching classification.\n\n### Q4. What largely replaced vacuum tubes in second-generation computers?\n\nA) Microprocessors\n\n**B) Transistors**\n\nC) Integrated circuits\n\nD) Mechanical relays\n\n**Correct answer: B.** Transistors offered smaller, more reliable electronic switching.\n\n### Q5. Which technology is associated with third-generation computers?\n\n**A) Integrated circuits**\n\nB) Vacuum tubes\n\nC) Discrete transistors\n\nD) Mechanical calculating gears\n\n**Correct answer: A.** Integrated circuits combined electronic components on chips.\n\n### Q6. What is a microprocessor?\n\nA) A complete computer including all peripherals\n\nB) A persistent file-storage device\n\n**C) A processor implemented on an integrated circuit**\n\nD) An application for editing documents\n\n**Correct answer: C.** The term refers to processor circuitry on an integrated circuit.\n\n### Q7. What is the main benefit of the stored-program concept?\n\nA) Programs must be rebuilt as physical wiring for every task\n\n**B) Different programs can change the tasks performed**\n\nC) Only one fixed task can ever be performed\n\nD) Instructions cannot be changed after manufacture\n\n**Correct answer: B.** Instructions stored in memory let the same general-purpose machine run different tasks.\n\n### Q8. Why can incorrect input produce an incorrect result?\n\nA) A computer automatically verifies every real-world fact\n\nB) Any executed program must use a correct method\n\nC) Saving a result automatically corrects its input\n\n**D) Processing does not automatically make the input facts correct**\n\n**Correct answer: D.** A correct operation on unsuitable or false data can still produce a misleading result.\n\n### Q9. Which statement about computer generations is most accurate?\n\nA) Each generation has an exact universal starting date\n\nB) Case size alone determines the generation\n\n**C) They are broad categories with overlapping developments**\n\nD) Only the installed operating system determines the generation\n\n**Correct answer: C.** Historical technology changes are gradual and do not fit exact universal boundaries.\n\n### Q10. Which change helped make computers smaller and more widely available?\n\nA) Increasing the size of each switching component\n\n**B) Miniaturisation of electronic components**\n\nC) Using mechanical movement for every operation\n\nD) Removing the ability to store programs\n\n**Correct answer: B.** Smaller components enabled more compact and affordable systems.\n\n## 1.2 Hardware Components MCQs\n\n### Q11. Which item is an input device?\n\nA) Speaker\n\nB) Printer\n\nC) Projector\n\n**D) Keyboard**\n\n**Correct answer: D.** A keyboard sends key presses into the computer.\n\n### Q12. Which item normally produces hard-copy output?\n\n**A) Printer**\n\nB) Microphone\n\nC) Mouse\n\nD) Scanner\n\n**Correct answer: A.** A printer produces physical printed output.\n\n### Q13. Which device commonly has both input and output roles?\n\nA) Ordinary speaker\n\nB) Ordinary keyboard\n\n**C) Touchscreen**\n\nD) Non-touch monitor\n\n**Correct answer: C.** A touchscreen displays information and detects touch input.\n\n### Q14. Which statement correctly relates the CPU to the system unit?\n\n**A) The CPU is a component within the system unit**\n\nB) The CPU and system unit always mean exactly the same assembly\n\nC) The CPU is an external input device\n\nD) The system unit consists only of the processor\n\n**Correct answer: A.** The system unit houses several internal components, including the processor.\n\n### Q15. Which processor component performs arithmetic and logical comparisons?\n\nA) Control unit\n\nB) Main memory\n\nC) Storage controller\n\n**D) Arithmetic logic unit**\n\n**Correct answer: D.** The ALU carries out arithmetic and logical operations.\n\n### Q16. What is the primary role of RAM during normal operation?\n\nA) Retain all files permanently without power\n\n**B) Hold programs and data currently in use**\n\nC) Route packets between networks\n\nD) Translate only printed output into input\n\n**Correct answer: B.** RAM is working memory used by running programs.\n\n### Q17. What normally happens to RAM contents when power is removed?\n\n**A) They are lost**\n\nB) They remain permanently like saved SSD files\n\nC) They are automatically copied to an SSD\n\nD) They become part of the installed application\n\n**Correct answer: A.** Ordinary RAM is volatile; saving to persistent storage is a separate operation.\n\n### Q18. Which device provides persistent storage?\n\nA) Ordinary RAM\n\nB) Processor cache\n\n**C) Solid-state drive**\n\nD) A keyboard input buffer\n\n**Correct answer: C.** An SSD retains saved data without continuous power.\n\n### Q19. What is a router primarily used for?\n\nA) Connect only the display to the processor\n\n**B) Forwarding data between networks**\n\nC) Execute every application instruction\n\nD) Store working variables as main memory\n\n**Correct answer: B.** Routers connect networks and forward network traffic.\n\n### Q20. Which device captures sound as input?\n\nA) Speaker\n\nB) Printer\n\nC) Projector\n\n**D) Microphone**\n\n**Correct answer: D.** A microphone converts sound into an input signal.\n\n## 1.3 Computer Software and Running Programs MCQs\n\n### Q21. Which is an example of system software?\n\nA) Word processor\n\nB) Spreadsheet application\n\n**C) Operating system**\n\nD) Presentation application\n\n**Correct answer: C.** An operating system manages resources and supports programs.\n\n### Q22. Which is an example of application software?\n\nA) Operating system\n\n**B) Word processor**\n\nC) Printer driver\n\nD) Hardware-management utility\n\n**Correct answer: B.** A word processor helps a user create and edit documents.\n\n### Q23. What is the purpose of a device driver?\n\nA) Replace the operating system entirely\n\nB) Act as a physical cable between two networks\n\nC) Store every document permanently\n\n**D) Help the operating system communicate with hardware**\n\n**Correct answer: D.** Drivers support the operation of specific hardware devices.\n\n### Q24. What does installing software generally mean?\n\n**A) Preparing and configuring it for use**\n\nB) Closing the program window\n\nC) Transferring an installer file without running it\n\nD) Removing the application through its uninstaller\n\n**Correct answer: A.** Installation places and configures required software components.\n\n### Q25. What does running a program mean?\n\nA) Only downloading its installer\n\nB) Only reading its filename\n\n**C) Executing its instructions**\n\nD) Deleting its desktop shortcut\n\n**Correct answer: C.** A running program is being executed, rather than merely stored.\n\n### Q26. Which action usually removes only a link to a program?\n\n**A) Deleting its desktop shortcut**\n\nB) Using its supported uninstaller\n\nC) Removing it through installed-app settings\n\nD) Following its official removal procedure\n\n**Correct answer: A.** A shortcut points to a program and is not usually the complete installed program.\n\n### Q27. What should be checked before installing a desktop program?\n\nA) Only the program icon and window colour\n\nB) Only the download filename\n\nC) Only whether a shortcut already exists\n\n**D) Operating system and hardware requirements**\n\n**Correct answer: D.** The program must be compatible with the system and its available resources.\n\n### Q28. Where is the safest starting point for obtaining a program?\n\nA) An unsolicited executable attachment\n\n**B) Its official publisher or a trusted official store**\n\nC) A random cracked-software link\n\nD) A page promising to bypass all licences\n\n**Correct answer: B.** Trusted distribution reduces the risk of tampered installers.\n\n### Q29. Why should supported software updates be reviewed and installed?\n\n**A) They can fix defects and security vulnerabilities**\n\nB) They guarantee compatibility with every future device\n\nC) They eliminate the need to save work\n\nD) They guarantee that no future error can occur\n\n**Correct answer: A.** Updates can improve software reliability and security, but do not guarantee perfection.\n\n### Q30. Which statement about web applications is correct?\n\nA) Every one requires a separate desktop installer\n\nB) They cannot use any local device resources\n\n**C) Many can be used through a browser**\n\nD) They are physical components inside the system unit\n\n**Correct answer: C.** A browser provides access to many web applications.\n\n## 1.4 Programs and Software Development MCQs\n\n### Q31. What is a computer program?\n\nA) Only the data entered by a user\n\n**B) A set of instructions for a computer**\n\nC) A physical processing component\n\nD) Only a program installation shortcut\n\n**Correct answer: B.** Programs specify operations for the computer to perform.\n\n### Q32. What is the purpose of software requirements?\n\nA) Describe only the visual appearance of the editor\n\nB) Replace the need to evaluate program behaviour\n\nC) List only the developer's preferred hardware brands\n\n**D) State what the solution must do**\n\n**Correct answer: D.** Requirements describe needed behaviour and relevant constraints.\n\n### Q33. What is an algorithm?\n\nA) A sequence with no definite stopping condition\n\nB) Instructions that must be written in Python\n\n**C) A finite ordered set of clear problem-solving steps**\n\nD) A list of hardware with no processing steps\n\n**Correct answer: C.** An algorithm describes a method and is not limited to one language.\n\n### Q34. Which action belongs primarily to implementation?\n\nA) Deciding what users need before design\n\n**B) Writing code from a design**\n\nC) Comparing actual outputs with expected results\n\nD) Updating user instructions after release\n\n**Correct answer: B.** Implementation translates the solution design into working code.\n\n### Q35. What does testing compare?\n\nA) Only whether a program starts without crashing\n\nB) Only the appearance of the program icon\n\nC) Only whether code has been saved to a file\n\n**D) Actual behaviour with expected behaviour**\n\n**Correct answer: D.** A test has an expected outcome against which the observed result is checked.\n\n### Q36. What is debugging?\n\n**A) Investigating and correcting faults**\n\nB) Writing requirements without investigating failures\n\nC) Running tests without examining any failures\n\nD) Changing random code without checking the cause\n\n**Correct answer: A.** Debugging identifies causes of faults and changes the program to correct them.\n\n### Q37. A program adds three marks but divides by two to calculate their mean. What is the main error?\n\nA) Syntax error that prevents all execution\n\nB) Hardware input failure\n\n**C) Logical error**\n\nD) A correct method for finding the mean of three values\n\n**Correct answer: C.** The program uses the wrong method even if it executes successfully.\n\n### Q38. What is a syntax error?\n\n**A) A violation of programming-language grammar**\n\nB) A wrong method that still follows language grammar\n\nC) An error caused only by disconnected hardware\n\nD) Any requirement change after release\n\n**Correct answer: A.** Syntax rules define how valid program statements are written.\n\n### Q39. Why is maintenance needed after release?\n\nA) Software requirements can never change\n\nB) A successful first run proves every future case\n\nC) Users never report defects after release\n\n**D) Requirements and defects can require later changes**\n\n**Correct answer: D.** Software needs ongoing correction and adaptation.\n\n### Q40. What is the mean of the test inputs 10, 20 and 30?\n\nA) 60\n\n**B) 20**\n\nC) 30\n\nD) 10\n\n**Correct answer: B.** Their sum is 60 and the count is three, so the mean is 20.\n\n## 1.5 Computer Types MCQs\n\n### Q41. Which category best describes a computer intended primarily for one user's general tasks?\n\n**A) Personal computer**\n\nB) Embedded appliance controller\n\nC) Multi-user transaction mainframe\n\nD) Dedicated high-performance simulation system\n\n**Correct answer: A.** Personal computers support individual computing tasks.\n\n### Q42. Which example is normally a mobile computing device?\n\nA) A fixed desktop workstation\n\nB) A rack-mounted server\n\n**C) Laptop**\n\nD) A fixed embedded industrial controller\n\n**Correct answer: C.** A laptop is designed for portable computing.\n\n### Q43. Which example best represents an embedded computer?\n\nA) A general-purpose desktop used for many applications\n\n**B) Controller inside a washing machine**\n\nC) A personal laptop used for study and games\n\nD) A web server used by many remote clients\n\n**Correct answer: B.** The controller is built into a larger product for specific functions.\n\n### Q44. What is the main role of a server?\n\nA) Always perform only an individual user's offline tasks\n\nB) Provide only permanent local storage without services\n\nC) Replace all client devices and their interfaces\n\n**D) Provide services or resources to clients**\n\n**Correct answer: D.** Servers respond to client needs such as file access or web requests.\n\n### Q45. What distinguishes a thin-client setup?\n\nA) Complete absence of any processor\n\nB) No need for any software\n\n**C) Substantial dependence on server resources**\n\nD) Inability to display any output\n\n**Correct answer: C.** Thin clients retain local hardware but rely substantially on servers.\n\n### Q46. Which workload is commonly associated with mainframes?\n\nA) Only a single user's document-editing workload\n\n**B) Large volumes of reliable business transactions**\n\nC) Primarily portable personal computing\n\nD) Primarily built-in appliance control\n\n**Correct answer: B.** Mainframes are commonly used for dependable high-volume transaction processing.\n\n### Q47. Which workload is commonly associated with supercomputers?\n\nA) Only high-volume business transaction recording\n\nB) Primarily portable personal document editing\n\nC) Primarily single-appliance control\n\n**D) Large-scale weather simulations**\n\n**Correct answer: D.** Scientific simulations can require extensive parallel computation.\n\n### Q48. Which statement correctly classifies a laptop?\n\n**A) It can be both a personal computer and a mobile device**\n\nB) It must belong to only one classification category\n\nC) It is classified as a server regardless of its role\n\nD) It must be an embedded computer because it has a battery\n\n**Correct answer: A.** Classification categories describe different attributes and can overlap.\n\n### Q49. What is a game console primarily designed for?\n\nA) High-volume bank transaction processing\n\nB) Scientific weather simulation\n\n**C) Games and related media functions**\n\nD) Serving shared business files to office clients\n\n**Correct answer: C.** Consoles are specialised computing systems focused on gaming.\n\n### Q50. Which factor should guide computer selection most directly?\n\n**A) The workload and required capabilities**\n\nB) Case dimensions without considering tasks\n\nC) Processor name without considering other requirements\n\nD) The newest advertising label regardless of workload\n\n**Correct answer: A.** A suitable system meets the user's task, mobility and reliability needs.\n\n## 1.6 Computer Applications MCQs\n\n### Q51. Which use belongs primarily to education?\n\nA) Controlling a milling machine\n\nB) Booking an airline seat\n\nC) Recording a bank transfer\n\n**D) Providing chapter quizzes through a learning system**\n\n**Correct answer: D.** Chapter quizzes support learning and assessment.\n\n### Q52. Which use belongs primarily to finance?\n\nA) Preparing a magazine page layout\n\n**B) Recording payments and calculating account balances**\n\nC) Simulating a weather system\n\nD) Controlling a classroom projector only\n\n**Correct answer: B.** Financial systems process transactions and balances.\n\n### Q53. Which is an example of government computing?\n\n**A) Processing a citizen's registration application**\n\nB) Processing a private company's payroll\n\nC) Editing a publisher's magazine layout\n\nD) Controlling a factory production line\n\n**Correct answer: A.** Registration processing is a public-service records task.\n\n### Q54. Which statement about health-care computing is appropriate?\n\nA) It guarantees every diagnosis is correct\n\nB) It removes the need to protect patient data\n\n**C) It can support clinicians who interpret results**\n\nD) It makes all professional review unnecessary\n\n**Correct answer: C.** Computer systems support care but do not remove professional responsibility.\n\n### Q55. Which use belongs primarily to scientific computing?\n\nA) Only setting a document margin\n\n**B) Analysing measurements and running simulations**\n\nC) Only reserving a hotel room\n\nD) Only recording a retail receipt\n\n**Correct answer: B.** Science uses computation to study data and model phenomena.\n\n### Q56. Which activity belongs to publishing?\n\nA) Assigning an IP address only\n\nB) Crimping a network cable\n\nC) Replacing a CPU fan\n\n**D) Editing text and arranging page layouts**\n\n**Correct answer: D.** Publishing tools support preparation and distribution of content.\n\n### Q57. What should a travel booking system check before confirming a seat?\n\nA) Only the originally advertised seat count\n\nB) Only the previously printed timetable\n\n**C) Current availability**\n\nD) Only the customer's preferred display language\n\n**Correct answer: C.** Reservations must reflect available capacity.\n\n### Q58. Which use belongs primarily to manufacturing?\n\nA) Producing a student's revision timetable\n\n**B) Controlling machinery using sensor input**\n\nC) Managing passenger seat reservations\n\nD) Laying out a digital newspaper page\n\n**Correct answer: B.** Manufacturing systems can use sensor measurements to control production.\n\n### Q59. Why is access control important in a student or patient records system?\n\nA) It permits everyone to change every record\n\nB) It replaces the need to make backups\n\nC) It guarantees that all entered values are correct\n\n**D) It limits access to authorised users**\n\n**Correct answer: D.** Sensitive records should be accessible only to appropriate users.\n\n### Q60. What is a risk of automating a task with incorrect instructions?\n\n**A) The system can repeat the mistake quickly**\n\nB) The instructions automatically become correct\n\nC) All stored records become independently verified\n\nD) Input validation becomes unnecessary\n\n**Correct answer: A.** Automation repeats defined operations, including faulty ones.\n\n## Easy topic-wise notes\n\n## 1.1 History and Evolution of Computers\n\nA computer is a programmable electronic device that accepts data, processes it according to instructions, produces results and can store data and results. Data are raw facts, such as a student's marks. Information is data interpreted in context, such as the student's total and grade. Computers are fast and consistent, but the usefulness of their results depends on suitable instructions and accurate input.\n\nEarly calculating aids supported arithmetic. Mechanical calculating machines used moving parts; later electromechanical machines used electrical switching and mechanical movement. Electronic computers replaced much of that movement with electronic components. The stored-program idea places program instructions in memory, allowing a machine to carry out different tasks by loading different programs. This is different from rebuilding hardware for each task.\n\nA common teaching model groups electronic computers into generations. First-generation machines used vacuum tubes; second-generation machines used transistors; third-generation machines used integrated circuits. Fourth-generation systems are associated with microprocessors, which put a processor on an integrated circuit. These categories overlap historically. Fifth-generation descriptions often discuss AI and advanced processing, but there is no single component or universal starting date defining every such machine.\n\nSmaller components generally reduced size and power requirements while improving reliability and making computers more widely available. Modern systems combine hardware, software, storage and communication. A phone, ATM and desktop can all perform computing even though their cases and intended tasks differ. An AI feature is software functionality, not proof that the device belongs to an entirely separate hardware generation.\n\n### Practical examples\n\n- A school computer can prepare a timetable and later calculate fees by running different programs.\n- A room-sized early electronic computer and a modern laptop differ greatly in size, components and practical use.\n\n### Common mistakes\n\n- Do not confuse a transistor with a vacuum tube or an integrated circuit with a complete computer.\n- Do not assume older generations stopped existing on one exact date.\n\n### Quick revision\n\n- Data become information when interpreted in context.\n- Programs are instructions; a stored-program computer keeps instructions in memory.\n- Remember the sequence vacuum tubes, transistors, integrated circuits, microprocessors.\n- Technology generations are broad teaching categories.\n- Accuracy requires valid data and suitable instructions.\n\n## 1.2 Hardware Components\n\nHardware consists of the physical parts of a computer system. A useful way to classify hardware is by its role: input, output, system unit, storage and communication. The same device can have more than one role. A touchscreen displays results and accepts touches, so it serves both input and output functions.\n\nInput devices send data or commands into the computer. A keyboard enters text, a mouse controls a pointer, a scanner captures a document and a microphone captures sound. Output devices present results: monitors display images, printers produce hard copy and speakers produce sound. Input and output describe the direction and purpose of data flow, not the physical size of a device.\n\nThe system unit houses major internal components such as the motherboard, processor, memory and internal storage. The processor executes instructions; its arithmetic logic unit performs arithmetic and logical operations, while its control unit coordinates instruction execution. RAM temporarily holds programs and data in use. RAM is normally volatile, so unsaved work can be lost when power is removed. An SSD or hard drive provides longer-term storage. The system unit is not simply another name for the CPU: the CPU is one component within it.\n\nCommunication devices support data exchange. A network interface connects a device to a network; a router forwards traffic between networks. Wi-Fi hardware provides wireless networking. Internet access also depends on an appropriate network and provider service. A useful system diagram shows input feeding processing, results moving to output, and storage exchanging data with processing. These are functional roles; modern systems perform many operations concurrently.\n\n### Practical examples\n\n- A barcode scanner inputs a product code; software finds its price; a printer outputs the receipt.\n- A laptop saves a document on its SSD after editing it in memory.\n- A webcam supplies video input while speakers play the remote participant's voice.\n\n### Common mistakes\n\n- The CPU is not the whole system unit.\n- RAM is not a replacement for saving a file to persistent storage.\n- A touchscreen has both input and output roles.\n\n### Quick revision\n\n- Hardware is physical equipment.\n- Input captures data; output presents results.\n- The processor executes instructions.\n- RAM normally loses its contents when power is removed.\n- Storage keeps saved data for later use.\n- Communication hardware enables data exchange.\n\n## 1.3 Computer Software and Running Programs\n\nSoftware is the collection of programs and associated data that directs a computer's work. Hardware supplies physical capability; software supplies instructions. The main introductory distinction is between system software and application software. System software manages hardware or supports the operation of other programs. Application software helps users perform tasks such as writing, calculating, drawing or communicating.\n\nAn operating system is system software that manages resources and offers services and interfaces to programs and users. Device drivers help the operating system communicate with particular hardware. A word processor and spreadsheet are application software. Classification depends on purpose, not on whether a program is paid, free, downloaded or stored on a disc.\n\nInstalling software prepares it for use on a system. Installation may copy files, configure settings and register components. Running software starts execution; a program stored on a drive is not necessarily running. Some programs run without a conventional installer, and web applications can be accessed through a browser. The operating system loads required code and data into memory and schedules processing.\n\nBefore installation, check the operating system, supported processor architecture, memory and storage requirements. Obtain software from a trustworthy publisher or official store, review permissions and follow licence terms. Updates may fix defects and security issues. Downloading a file is not the same as installing it, and closing an application is not the same as uninstalling it. Uninstalling removes the program through its supported removal process; deleting one shortcut usually does not remove the installed program.\n\n### Practical examples\n\n- Windows manages the computer while a word processor creates a letter.\n- A printer driver supports communication with a printer.\n- A browser can open a web-based spreadsheet without installing that spreadsheet as a desktop application.\n\n### Common mistakes\n\n- Free software is not automatically system software.\n- Deleting a shortcut does not normally uninstall its program.\n- Downloading, installing and running are different actions.\n\n### Quick revision\n\n- Software directs hardware.\n- Operating systems and drivers are examples of system software.\n- Applications support user tasks.\n- Installation prepares software; execution runs its instructions.\n- Check compatibility, publisher, permissions and licence.\n- Use supported update and uninstall procedures.\n\n## 1.4 Programs and Software Development\n\nA program is a set of instructions expressed in a form that a computer can execute, directly or through translation. Software development is the organised process of creating and maintaining software to meet a need. A useful program begins with a clear problem rather than with random code. Requirements state what a solution should do and any important constraints.\n\nAn algorithm is a finite, ordered set of clear steps for solving a problem. It can be expressed in ordinary language, pseudocode or a flowchart before a programming language is chosen. For example, to find the mean of three marks, obtain the marks, add them, divide the sum by three and display the result. Input, processing and output should be identifiable. The algorithm must also consider unsuitable input when the real task requires it.\n\nA simplified development cycle is requirements, design, implementation, testing, release and maintenance. Developers often revisit these stages rather than following them once in a rigid line. Implementation turns a design into code. Testing compares actual behaviour with expected behaviour using carefully chosen cases. Debugging investigates and corrects the causes of faults. Documentation explains usage, design or maintenance so that others can work with the software.\n\nA syntax error breaks language rules. A runtime error occurs while a program executes, such as an attempted invalid operation. A logical error produces unsuitable behaviour even if the program runs. A compiler translates code before execution in common compiled workflows; an interpreter executes code through an interpreting runtime. Real systems can combine approaches. Testing gives evidence of behaviour for the cases examined; it does not prove that every possible input is correct.\n\n### Practical examples\n\n- A fee calculator needs requirements for fee amounts, discounts and invalid entries before code is written.\n- Testing an average calculator with 10, 20 and 30 should produce 20.\n- Correcting division by the wrong count fixes a logical error.\n\n### Common mistakes\n\n- An algorithm is not restricted to one programming language.\n- A program that runs without crashing can still give a wrong answer.\n- Testing and debugging are related but different activities.\n\n### Quick revision\n\n- Start with a clear problem and requirements.\n- An algorithm describes ordered solution steps.\n- Implementation turns a design into code.\n- Testing compares actual and expected results.\n- Debugging finds and fixes faults.\n- Maintenance continues after release.\n\n## 1.5 Computer Types\n\nComputers can be classified by their purpose, portability, scale and role. Categories can overlap. A laptop is both a personal computer and a mobile computing device. A server describes a service-providing role and does not always describe a particular case shape. Classify the device in its context instead of assuming that one label excludes all others.\n\nA personal computer is intended for individual use. A desktop normally stays at a workstation and often has separate peripherals. Laptops, tablets and smartphones support mobile computing. An embedded computer is built into a larger product to control or monitor functions, such as a washing machine controller or a vehicle control unit. Embedded systems are often designed for a limited set of tasks rather than unrestricted desktop use.\n\nA game console is a computing system designed primarily for games and related media services. A server supplies services or resources to other devices, called clients. A file server shares files; a web server responds to web requests. A thin client relies substantially on a server for applications or processing, although the exact division varies. It should not be defined as a computer containing no processor or memory.\n\nMainframes are designed for dependable, high-volume processing and many concurrent transactions or users. Supercomputers focus on very large computational workloads, often using extensive parallel processing. Banking transactions are a common mainframe example; weather modelling is a common supercomputing example. Real deployments vary and organisations can use several categories together. Choose a system by workload, reliability, mobility and cost rather than by physical size alone.\n\n### Practical examples\n\n- A student laptop is personal and portable.\n- A washing machine uses an embedded controller.\n- A bank may use a mainframe for transaction processing while a research centre uses a supercomputer for simulations.\n\n### Common mistakes\n\n- A laptop can belong to more than one category.\n- A thin client still has hardware and some local processing.\n- Server refers to a role, not merely a large cabinet.\n\n### Quick revision\n\n- Personal computers support individual work.\n- Mobile devices support portable use.\n- Embedded computers control functions within products.\n- Servers provide services to clients.\n- Thin clients depend substantially on servers.\n- Mainframes and supercomputers target different workload priorities.\n\n## 1.6 Computer Applications\n\nComputer applications are the ways computing is used to solve practical problems. The PBTE outline names education, finance, government, health care, science, publishing, travel and manufacturing. In every case, identify the input, processing, output and storage instead of merely memorising an industry name. People remain responsible for checking that systems are appropriate and results are used correctly.\n\nIn education, learning systems distribute resources, quizzes check understanding and spreadsheets organise marks. In finance, systems record transactions, calculate balances and support payment services. Government systems manage records and services such as applications and registrations. Access control, audit records and accurate identification matter because these systems handle important personal and financial information.\n\nHealth-care systems manage appointments, patient records and diagnostic information. Computing can support clinicians, but an automated result is not a substitute for qualified interpretation. Scientific computing analyses measurements, simulates processes and visualises results. Good conclusions still depend on valid methods and reliable data. Publishing combines writing, editing, page design and digital distribution; software supports production without guaranteeing that the text is true.\n\nTravel systems search availability, make reservations and calculate routes. A reservation must remain consistent as different customers book simultaneously. Manufacturing uses computer-aided design, production scheduling and computer-controlled machinery. Sensors provide input and controllers direct operations. Across all sectors, privacy, security, backups, staff training and human oversight are practical requirements. Automation can reduce repetitive work, but can also repeat an error quickly if the instructions or input are wrong.\n\n### Practical examples\n\n- A school spreadsheet calculates totals from entered marks and stores the results.\n- A travel booking system checks available seats before confirming a reservation.\n- A factory sensor sends measurements to a controller that adjusts a production process.\n\n### Common mistakes\n\n- Automation does not guarantee that data or decisions are correct.\n- A computer-generated medical result still needs appropriate professional interpretation.\n- Collecting personal data does not remove the responsibility to protect it.\n\n### Quick revision\n\n- Describe the actual task performed in each sector.\n- Identify input, processing, output and storage.\n- Protect personal and financial information.\n- Use human review for consequential results.\n- Backups and training support reliable use.\n- Automation can repeat both correct operations and mistakes.\n\n## Diagrams and comparisons\n\n![Input processing output and storage diagram](/documents/dit/ict/computer-system-flow.svg)\n\nInput supplies data to processing; processing produces output and exchanges data with storage. Communication allows the system to exchange data with other devices.\n\n| Feature | RAM | SSD or hard drive |\n|---|---|---|\n| Main role | Working memory | Persistent storage |\n| Power removed | Normally loses contents | Retains saved data |\n| Student action | Edit current work | Save a file |\n\n| Category | Main role | Example |\n|---|---|---|\n| System software | Support computer operation | Operating system, driver |\n| Application software | Support a user task | Word processor, spreadsheet |\n\n## Solved short questions\n\n### 1. Define a computer.\n\nA computer is a programmable electronic device that accepts data, processes it according to instructions, produces results and can store data and results.\n\n### 2. Distinguish data from information.\n\nData are raw facts or symbols. Information is data interpreted in a useful context. Individual marks are data; a labelled report of a total and grade is information.\n\n### 3. State the stored-program concept.\n\nProgram instructions are stored in memory. A general-purpose machine can perform different tasks by loading different programs instead of rebuilding its hardware.\n\n### 4. List the main hardware roles.\n\nInput captures data, processing executes instructions, output presents results, storage retains saved data and communication exchanges data with other devices.\n\n### 5. How do RAM and an SSD differ?\n\nRAM normally holds working programs and data temporarily and is volatile. An SSD retains saved files when power is removed. Save important work to persistent storage.\n\n### 6. Why is a touchscreen both input and output?\n\nIts display presents visual output while its touch sensor accepts the user's input. A device can perform multiple roles.\n\n### 7. Distinguish system software from application software.\n\nSystem software manages or supports computer operation, as an operating system or driver does. Application software supports user tasks, such as writing documents or editing images.\n\n### 8. Distinguish downloading, installation and execution.\n\nDownloading transfers files. Installation prepares and configures software for use. Execution runs the program instructions. These are different operations.\n\n### 9. Define an algorithm.\n\nAn algorithm is a finite ordered set of clear steps for solving a problem. It can be described before choosing a programming language.\n\n### 10. Distinguish testing from debugging.\n\nTesting compares observed behaviour with expected results. Debugging investigates a fault's cause and corrects it. A fix should then be tested again.\n\n### 11. What is an embedded computer?\n\nIt is a computer built into a larger product to control or monitor particular functions, such as the controller inside a washing machine.\n\n### 12. Give two computer applications and one responsibility in each.\n\nA school system calculates grades and must use accurate marks. A patient-records system stores clinical information and must limit access to authorised users.\n\n## Solved long questions\n\n### 1. Explain the evolution of electronic computing.\n\n**Early methods.** Calculating aids and mechanical devices supported arithmetic before electronic machines. Electromechanical machines combined electrical switching with mechanical movement.\n\n**Electronic developments.** The common generation model associates vacuum tubes with the first generation, transistors with the second and integrated circuits with the third. Microprocessors are associated with the fourth. Dates and developments overlap.\n\n**Stored programs and modern use.** Storing instructions in memory makes different tasks possible on the same general-purpose hardware. Smaller components helped make personal and mobile systems practical. AI-oriented fifth-generation descriptions are broad, not a universal hardware test.\n\n**Example.** A modern school computer can run both document-editing and accounting applications by using different programs.\n\n### 2. Explain input, processing, output, storage and communication using a school result system.\n\n**Input.** A teacher enters marks using a keyboard. The program checks the permitted range and identifies each student.\n\n**Processing.** The processor executes instructions that add marks, calculate percentages and apply the stated grade rules. RAM holds data and program state during this work.\n\n**Output and storage.** A monitor shows the result and a printer can produce a report. Saving the file on an SSD provides persistent storage; merely viewing the report does not save it.\n\n**Communication and responsibility.** A network can transfer approved results to an authorised office. Incorrect marks or grade rules can produce incorrect results, so the teacher must review them.\n\n### 3. Compare system software and application software and explain safe installation.\n\n**System software.** An operating system manages resources and supports applications. Drivers help it communicate with specific hardware. These functions support operation of the computer.\n\n**Application software.** Word processors, spreadsheets and image editors help users carry out specific tasks. A program's price or download method does not determine its category.\n\n**Installation and use.** Check compatibility, available resources, licence and publisher. Obtain a trustworthy installer, review permissions and follow its instructions. Start the program to run it; use its supported uninstaller to remove it.\n\n**Maintenance.** Review updates, keep important files backed up and avoid untrusted installers. Deleting a shortcut normally removes a link rather than the application.\n\n### 4. Describe a simple software-development process for an average calculator.\n\n**Requirements and design.** State the number of marks, allowed range and required output. Design steps to obtain three values, add them, divide by three and display the mean.\n\n**Implementation.** Write code expressing the design. Use meaningful variable names and clear input and output. Reject or handle unsuitable input according to the requirements.\n\n**Testing and debugging.** For 10, 20 and 30, expect 20. Compare the observed result. If the code divides by two, investigate and fix that logical error. Test again after the change.\n\n**Release and maintenance.** Provide instructions, release the checked program and maintain it when requirements change or faults are found. Passing a few tests does not prove every possible case correct.\n\n### 5. Compare personal, embedded, server, mainframe and supercomputer systems.\n\n**Individual and embedded use.** A personal computer supports an individual's work. Desktops are generally stationary; laptops are portable. Embedded computers control functions inside products.\n\n**Services.** Servers provide resources to clients. Thin clients rely substantially on servers but still contain hardware and perform some local work.\n\n**Large workloads.** Mainframes emphasise dependable high-volume transaction processing. Supercomputers emphasise very large computational workloads such as scientific simulations.\n\n**Selection.** Categories overlap. Select by workload, mobility, reliability and cost rather than by cabinet size or product name alone.\n\n### 6. Explain computer applications in the eight sectors named by the syllabus.\n\n**Education and finance.** Learning platforms, quizzes and marks processing support education. Finance systems record transactions, calculate balances and support payments.\n\n**Government and health care.** Government systems manage registrations and services. Health-care systems manage appointments and clinical records and support qualified interpretation.\n\n**Science and publishing.** Scientific computing analyses measurements and models processes. Publishing tools support writing, editing, page layout and distribution.\n\n**Travel and manufacturing.** Travel systems check availability and manage reservations. Manufacturing systems support design, scheduling and machine control.\n\n**Responsibilities.** Use accurate input, protect personal data, maintain backups and apply appropriate human review. Automation can repeat mistakes as readily as correct operations.\n\n## Expected practice and past-paper status\n\nThe questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use all six topic sections for preparation.\n\n## Practical activities and viva preparation\n\n### Identify and classify devices\n\nObserve available devices without opening a powered computer. Record one input device, one output device, one storage device and one communication device. Explain any device with two roles.\n\n**Expected result:** A labelled list with correct roles and reasons.\n\n### Trace a marks calculation\n\nUse three sample marks: 10, 20 and 30. Write the input, addition, division by three and displayed result. Save the explanation as a file.\n\n**Expected result:** Mean 20; distinguish working memory from the saved file.\n\n### Classify installed software\n\nInspect the names of applications already available on a permitted device. Identify its operating system and two applications. Do not install unknown software.\n\n**Expected result:** A correct system/application distinction and an explanation of each task.\n\n### Design an algorithm\n\nWrite clear ordered steps for calculating the mean of three values. Test your steps with two sets of values and state the expected results.\n\n**Expected result:** A finite set of steps with correct input, processing and output.\n\n### Choose an appropriate computer\n\nChoose a system for a travelling student, a washing-machine controller and a weather-simulation centre. Give reasons based on the task.\n\n**Expected result:** Portable personal computer, embedded controller and high-performance computing system, with reasons.\n\n### Viva questions\n\nExplain why a touchscreen has two roles. Why does saving matter? How is a program different from an algorithm? Why can automation repeat a mistake? Use the topic notes and solved answers above to check your explanation.\n\n## Chapter practice test\n\nSuggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.\n\n### Q1. Which example best represents information rather than an isolated raw value?\n\nA) A report showing a student's total and grade\n\nB) The number 42 without context\n\nC) An unlabelled symbol\n\nD) An unlabelled list of numbers\n\n### Q2. What largely replaced vacuum tubes in second-generation computers?\n\nA) Microprocessors\n\nB) Transistors\n\nC) Integrated circuits\n\nD) Mechanical relays\n\n### Q3. Why can incorrect input produce an incorrect result?\n\nA) A computer automatically verifies every real-world fact\n\nB) Any executed program must use a correct method\n\nC) Saving a result automatically corrects its input\n\nD) Processing does not automatically make the input facts correct\n\n### Q4. Which item is an input device?\n\nA) Speaker\n\nB) Printer\n\nC) Projector\n\nD) Keyboard\n\n### Q5. Which device commonly has both input and output roles?\n\nA) Ordinary speaker\n\nB) Ordinary keyboard\n\nC) Touchscreen\n\nD) Non-touch monitor\n\n### Q6. Which processor component performs arithmetic and logical comparisons?\n\nA) Control unit\n\nB) Main memory\n\nC) Storage controller\n\nD) Arithmetic logic unit\n\n### Q7. What normally happens to RAM contents when power is removed?\n\nA) They are lost\n\nB) They remain permanently like saved SSD files\n\nC) They are automatically copied to an SSD\n\nD) They become part of the installed application\n\n### Q8. Which device captures sound as input?\n\nA) Speaker\n\nB) Printer\n\nC) Projector\n\nD) Microphone\n\n### Q9. What is the purpose of a device driver?\n\nA) Replace the operating system entirely\n\nB) Act as a physical cable between two networks\n\nC) Store every document permanently\n\nD) Help the operating system communicate with hardware\n\n### Q10. What does running a program mean?\n\nA) Only downloading its installer\n\nB) Only reading its filename\n\nC) Executing its instructions\n\nD) Deleting its desktop shortcut\n\n### Q11. Where is the safest starting point for obtaining a program?\n\nA) An unsolicited executable attachment\n\nB) Its official publisher or a trusted official store\n\nC) A random cracked-software link\n\nD) A page promising to bypass all licences\n\n### Q12. What is a computer program?\n\nA) Only the data entered by a user\n\nB) A set of instructions for a computer\n\nC) A physical processing component\n\nD) Only a program installation shortcut\n\n### Q13. Which action belongs primarily to implementation?\n\nA) Deciding what users need before design\n\nB) Writing code from a design\n\nC) Comparing actual outputs with expected results\n\nD) Updating user instructions after release\n\n### Q14. A program adds three marks but divides by two to calculate their mean. What is the main error?\n\nA) Syntax error that prevents all execution\n\nB) Hardware input failure\n\nC) Logical error\n\nD) A correct method for finding the mean of three values\n\n### Q15. Which example is normally a mobile computing device?\n\nA) A fixed desktop workstation\n\nB) A rack-mounted server\n\nC) Laptop\n\nD) A fixed embedded industrial controller\n\n### Q16. What distinguishes a thin-client setup?\n\nA) Complete absence of any processor\n\nB) No need for any software\n\nC) Substantial dependence on server resources\n\nD) Inability to display any output\n\n### Q17. What is a game console primarily designed for?\n\nA) High-volume bank transaction processing\n\nB) Scientific weather simulation\n\nC) Games and related media functions\n\nD) Serving shared business files to office clients\n\n### Q18. Which use belongs primarily to finance?\n\nA) Preparing a magazine page layout\n\nB) Recording payments and calculating account balances\n\nC) Simulating a weather system\n\nD) Controlling a classroom projector only\n\n### Q19. Which activity belongs to publishing?\n\nA) Assigning an IP address only\n\nB) Crimping a network cable\n\nC) Replacing a CPU fan\n\nD) Editing text and arranging page layouts\n\n### Q20. What is a risk of automating a task with incorrect instructions?\n\nA) The system can repeat the mistake quickly\n\nB) The instructions automatically become correct\n\nC) All stored records become independently verified\n\nD) Input validation becomes unnecessary\n\n### Short questions\n\n1. Define a computer.\n\n2. Distinguish data from information.\n\n3. List the main hardware roles.\n\n4. How do RAM and an SSD differ?\n\n5. Why is a touchscreen both input and output?\n\n6. Distinguish system software from application software.\n\n7. Distinguish downloading, installation and execution.\n\n8. Define an algorithm.\n\n9. Distinguish testing from debugging.\n\n10. What is an embedded computer?\n\n### Long questions\n\n1. Explain input, processing, output, storage and communication using a school result system.\n\n2. Describe a simple software-development process for an average calculator.\n\n3. Explain computer applications in the eight sectors named by the syllabus.\n\n## Practice test answer key and explanations\n\n1. **A**. The report gives processed values meaning in a student context.\n\n2. **B**. Transistors offered smaller, more reliable electronic switching.\n\n3. **D**. A correct operation on unsuitable or false data can still produce a misleading result.\n\n4. **D**. A keyboard sends key presses into the computer.\n\n5. **C**. A touchscreen displays information and detects touch input.\n\n6. **D**. The ALU carries out arithmetic and logical operations.\n\n7. **A**. Ordinary RAM is volatile; saving to persistent storage is a separate operation.\n\n8. **D**. A microphone converts sound into an input signal.\n\n9. **D**. Drivers support the operation of specific hardware devices.\n\n10. **C**. A running program is being executed, rather than merely stored.\n\n11. **B**. Trusted distribution reduces the risk of tampered installers.\n\n12. **B**. Programs specify operations for the computer to perform.\n\n13. **B**. Implementation translates the solution design into working code.\n\n14. **C**. The program uses the wrong method even if it executes successfully.\n\n15. **C**. A laptop is designed for portable computing.\n\n16. **C**. Thin clients retain local hardware but rely substantially on servers.\n\n17. **C**. Consoles are specialised computing systems focused on gaming.\n\n18. **B**. Financial systems process transactions and balances.\n\n19. **D**. Publishing tools support preparation and distribution of content.\n\n20. **A**. Automation repeats defined operations, including faulty ones.\n\n### Written-answer guidance\n\nShort questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.\n\n## Sources and further study\n\n- [PBTE official two-year DIT syllabus, ICT Module 1, page 7](https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf)\n\n- [IBM explanation of computer hardware](https://www.ibm.com/think/topics/hardware)\n\n- [Computer History Museum semiconductor timeline](https://www.computerhistory.org/siliconengine/timeline/)\n",
+  "questions": [
+    {
+      "id": "dit-ict-ch1-q01",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "What does a computer process according to program instructions?",
+      "options": [
+        "Only final output, without any input",
+        "Only instructions written on paper",
+        "Data",
+        "Only a program licence"
+      ],
+      "correctIndex": 2,
+      "explanation": "Data are the facts and symbols on which instructions operate."
+    },
+    {
+      "id": "dit-ict-ch1-q02",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "Which example best represents information rather than an isolated raw value?",
+      "options": [
+        "A report showing a student's total and grade",
+        "The number 42 without context",
+        "An unlabelled symbol",
+        "An unlabelled list of numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The report gives processed values meaning in a student context."
+    },
+    {
+      "id": "dit-ict-ch1-q03",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "Which component is associated with first-generation electronic computers?",
+      "options": [
+        "Transistors",
+        "Integrated circuits",
+        "Microprocessors",
+        "Vacuum tubes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vacuum tubes were a defining electronic component in this teaching classification."
+    },
+    {
+      "id": "dit-ict-ch1-q04",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "What largely replaced vacuum tubes in second-generation computers?",
+      "options": [
+        "Microprocessors",
+        "Transistors",
+        "Integrated circuits",
+        "Mechanical relays"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transistors offered smaller, more reliable electronic switching."
+    },
+    {
+      "id": "dit-ict-ch1-q05",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "Which technology is associated with third-generation computers?",
+      "options": [
+        "Integrated circuits",
+        "Vacuum tubes",
+        "Discrete transistors",
+        "Mechanical calculating gears"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrated circuits combined electronic components on chips."
+    },
+    {
+      "id": "dit-ict-ch1-q06",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "What is a microprocessor?",
+      "options": [
+        "A complete computer including all peripherals",
+        "A persistent file-storage device",
+        "A processor implemented on an integrated circuit",
+        "An application for editing documents"
+      ],
+      "correctIndex": 2,
+      "explanation": "The term refers to processor circuitry on an integrated circuit."
+    },
+    {
+      "id": "dit-ict-ch1-q07",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "What is the main benefit of the stored-program concept?",
+      "options": [
+        "Programs must be rebuilt as physical wiring for every task",
+        "Different programs can change the tasks performed",
+        "Only one fixed task can ever be performed",
+        "Instructions cannot be changed after manufacture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Instructions stored in memory let the same general-purpose machine run different tasks."
+    },
+    {
+      "id": "dit-ict-ch1-q08",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "Why can incorrect input produce an incorrect result?",
+      "options": [
+        "A computer automatically verifies every real-world fact",
+        "Any executed program must use a correct method",
+        "Saving a result automatically corrects its input",
+        "Processing does not automatically make the input facts correct"
+      ],
+      "correctIndex": 3,
+      "explanation": "A correct operation on unsuitable or false data can still produce a misleading result."
+    },
+    {
+      "id": "dit-ict-ch1-q09",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "Which statement about computer generations is most accurate?",
+      "options": [
+        "Each generation has an exact universal starting date",
+        "Case size alone determines the generation",
+        "They are broad categories with overlapping developments",
+        "Only the installed operating system determines the generation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Historical technology changes are gradual and do not fit exact universal boundaries."
+    },
+    {
+      "id": "dit-ict-ch1-q10",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.1 History and Evolution of Computers",
+      "question": "Which change helped make computers smaller and more widely available?",
+      "options": [
+        "Increasing the size of each switching component",
+        "Miniaturisation of electronic components",
+        "Using mechanical movement for every operation",
+        "Removing the ability to store programs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smaller components enabled more compact and affordable systems."
+    },
+    {
+      "id": "dit-ict-ch1-q11",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which item is an input device?",
+      "options": [
+        "Speaker",
+        "Printer",
+        "Projector",
+        "Keyboard"
+      ],
+      "correctIndex": 3,
+      "explanation": "A keyboard sends key presses into the computer."
+    },
+    {
+      "id": "dit-ict-ch1-q12",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which item normally produces hard-copy output?",
+      "options": [
+        "Printer",
+        "Microphone",
+        "Mouse",
+        "Scanner"
+      ],
+      "correctIndex": 0,
+      "explanation": "A printer produces physical printed output."
+    },
+    {
+      "id": "dit-ict-ch1-q13",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which device commonly has both input and output roles?",
+      "options": [
+        "Ordinary speaker",
+        "Ordinary keyboard",
+        "Touchscreen",
+        "Non-touch monitor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A touchscreen displays information and detects touch input."
+    },
+    {
+      "id": "dit-ict-ch1-q14",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which statement correctly relates the CPU to the system unit?",
+      "options": [
+        "The CPU is a component within the system unit",
+        "The CPU and system unit always mean exactly the same assembly",
+        "The CPU is an external input device",
+        "The system unit consists only of the processor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The system unit houses several internal components, including the processor."
+    },
+    {
+      "id": "dit-ict-ch1-q15",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which processor component performs arithmetic and logical comparisons?",
+      "options": [
+        "Control unit",
+        "Main memory",
+        "Storage controller",
+        "Arithmetic logic unit"
+      ],
+      "correctIndex": 3,
+      "explanation": "The ALU carries out arithmetic and logical operations."
+    },
+    {
+      "id": "dit-ict-ch1-q16",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "What is the primary role of RAM during normal operation?",
+      "options": [
+        "Retain all files permanently without power",
+        "Hold programs and data currently in use",
+        "Route packets between networks",
+        "Translate only printed output into input"
+      ],
+      "correctIndex": 1,
+      "explanation": "RAM is working memory used by running programs."
+    },
+    {
+      "id": "dit-ict-ch1-q17",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "What normally happens to RAM contents when power is removed?",
+      "options": [
+        "They are lost",
+        "They remain permanently like saved SSD files",
+        "They are automatically copied to an SSD",
+        "They become part of the installed application"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ordinary RAM is volatile; saving to persistent storage is a separate operation."
+    },
+    {
+      "id": "dit-ict-ch1-q18",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which device provides persistent storage?",
+      "options": [
+        "Ordinary RAM",
+        "Processor cache",
+        "Solid-state drive",
+        "A keyboard input buffer"
+      ],
+      "correctIndex": 2,
+      "explanation": "An SSD retains saved data without continuous power."
+    },
+    {
+      "id": "dit-ict-ch1-q19",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "What is a router primarily used for?",
+      "options": [
+        "Connect only the display to the processor",
+        "Forwarding data between networks",
+        "Execute every application instruction",
+        "Store working variables as main memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Routers connect networks and forward network traffic."
+    },
+    {
+      "id": "dit-ict-ch1-q20",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.2 Hardware Components",
+      "question": "Which device captures sound as input?",
+      "options": [
+        "Speaker",
+        "Printer",
+        "Projector",
+        "Microphone"
+      ],
+      "correctIndex": 3,
+      "explanation": "A microphone converts sound into an input signal."
+    },
+    {
+      "id": "dit-ict-ch1-q21",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "Which is an example of system software?",
+      "options": [
+        "Word processor",
+        "Spreadsheet application",
+        "Operating system",
+        "Presentation application"
+      ],
+      "correctIndex": 2,
+      "explanation": "An operating system manages resources and supports programs."
+    },
+    {
+      "id": "dit-ict-ch1-q22",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "Which is an example of application software?",
+      "options": [
+        "Operating system",
+        "Word processor",
+        "Printer driver",
+        "Hardware-management utility"
+      ],
+      "correctIndex": 1,
+      "explanation": "A word processor helps a user create and edit documents."
+    },
+    {
+      "id": "dit-ict-ch1-q23",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "What is the purpose of a device driver?",
+      "options": [
+        "Replace the operating system entirely",
+        "Act as a physical cable between two networks",
+        "Store every document permanently",
+        "Help the operating system communicate with hardware"
+      ],
+      "correctIndex": 3,
+      "explanation": "Drivers support the operation of specific hardware devices."
+    },
+    {
+      "id": "dit-ict-ch1-q24",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "What does installing software generally mean?",
+      "options": [
+        "Preparing and configuring it for use",
+        "Closing the program window",
+        "Transferring an installer file without running it",
+        "Removing the application through its uninstaller"
+      ],
+      "correctIndex": 0,
+      "explanation": "Installation places and configures required software components."
+    },
+    {
+      "id": "dit-ict-ch1-q25",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "What does running a program mean?",
+      "options": [
+        "Only downloading its installer",
+        "Only reading its filename",
+        "Executing its instructions",
+        "Deleting its desktop shortcut"
+      ],
+      "correctIndex": 2,
+      "explanation": "A running program is being executed, rather than merely stored."
+    },
+    {
+      "id": "dit-ict-ch1-q26",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "Which action usually removes only a link to a program?",
+      "options": [
+        "Deleting its desktop shortcut",
+        "Using its supported uninstaller",
+        "Removing it through installed-app settings",
+        "Following its official removal procedure"
+      ],
+      "correctIndex": 0,
+      "explanation": "A shortcut points to a program and is not usually the complete installed program."
+    },
+    {
+      "id": "dit-ict-ch1-q27",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "What should be checked before installing a desktop program?",
+      "options": [
+        "Only the program icon and window colour",
+        "Only the download filename",
+        "Only whether a shortcut already exists",
+        "Operating system and hardware requirements"
+      ],
+      "correctIndex": 3,
+      "explanation": "The program must be compatible with the system and its available resources."
+    },
+    {
+      "id": "dit-ict-ch1-q28",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "Where is the safest starting point for obtaining a program?",
+      "options": [
+        "An unsolicited executable attachment",
+        "Its official publisher or a trusted official store",
+        "A random cracked-software link",
+        "A page promising to bypass all licences"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trusted distribution reduces the risk of tampered installers."
+    },
+    {
+      "id": "dit-ict-ch1-q29",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "Why should supported software updates be reviewed and installed?",
+      "options": [
+        "They can fix defects and security vulnerabilities",
+        "They guarantee compatibility with every future device",
+        "They eliminate the need to save work",
+        "They guarantee that no future error can occur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Updates can improve software reliability and security, but do not guarantee perfection."
+    },
+    {
+      "id": "dit-ict-ch1-q30",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.3 Computer Software and Running Programs",
+      "question": "Which statement about web applications is correct?",
+      "options": [
+        "Every one requires a separate desktop installer",
+        "They cannot use any local device resources",
+        "Many can be used through a browser",
+        "They are physical components inside the system unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "A browser provides access to many web applications."
+    },
+    {
+      "id": "dit-ict-ch1-q31",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What is a computer program?",
+      "options": [
+        "Only the data entered by a user",
+        "A set of instructions for a computer",
+        "A physical processing component",
+        "Only a program installation shortcut"
+      ],
+      "correctIndex": 1,
+      "explanation": "Programs specify operations for the computer to perform."
+    },
+    {
+      "id": "dit-ict-ch1-q32",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What is the purpose of software requirements?",
+      "options": [
+        "Describe only the visual appearance of the editor",
+        "Replace the need to evaluate program behaviour",
+        "List only the developer's preferred hardware brands",
+        "State what the solution must do"
+      ],
+      "correctIndex": 3,
+      "explanation": "Requirements describe needed behaviour and relevant constraints."
+    },
+    {
+      "id": "dit-ict-ch1-q33",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What is an algorithm?",
+      "options": [
+        "A sequence with no definite stopping condition",
+        "Instructions that must be written in Python",
+        "A finite ordered set of clear problem-solving steps",
+        "A list of hardware with no processing steps"
+      ],
+      "correctIndex": 2,
+      "explanation": "An algorithm describes a method and is not limited to one language."
+    },
+    {
+      "id": "dit-ict-ch1-q34",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "Which action belongs primarily to implementation?",
+      "options": [
+        "Deciding what users need before design",
+        "Writing code from a design",
+        "Comparing actual outputs with expected results",
+        "Updating user instructions after release"
+      ],
+      "correctIndex": 1,
+      "explanation": "Implementation translates the solution design into working code."
+    },
+    {
+      "id": "dit-ict-ch1-q35",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What does testing compare?",
+      "options": [
+        "Only whether a program starts without crashing",
+        "Only the appearance of the program icon",
+        "Only whether code has been saved to a file",
+        "Actual behaviour with expected behaviour"
+      ],
+      "correctIndex": 3,
+      "explanation": "A test has an expected outcome against which the observed result is checked."
+    },
+    {
+      "id": "dit-ict-ch1-q36",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What is debugging?",
+      "options": [
+        "Investigating and correcting faults",
+        "Writing requirements without investigating failures",
+        "Running tests without examining any failures",
+        "Changing random code without checking the cause"
+      ],
+      "correctIndex": 0,
+      "explanation": "Debugging identifies causes of faults and changes the program to correct them."
+    },
+    {
+      "id": "dit-ict-ch1-q37",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "A program adds three marks but divides by two to calculate their mean. What is the main error?",
+      "options": [
+        "Syntax error that prevents all execution",
+        "Hardware input failure",
+        "Logical error",
+        "A correct method for finding the mean of three values"
+      ],
+      "correctIndex": 2,
+      "explanation": "The program uses the wrong method even if it executes successfully."
+    },
+    {
+      "id": "dit-ict-ch1-q38",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What is a syntax error?",
+      "options": [
+        "A violation of programming-language grammar",
+        "A wrong method that still follows language grammar",
+        "An error caused only by disconnected hardware",
+        "Any requirement change after release"
+      ],
+      "correctIndex": 0,
+      "explanation": "Syntax rules define how valid program statements are written."
+    },
+    {
+      "id": "dit-ict-ch1-q39",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "Why is maintenance needed after release?",
+      "options": [
+        "Software requirements can never change",
+        "A successful first run proves every future case",
+        "Users never report defects after release",
+        "Requirements and defects can require later changes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Software needs ongoing correction and adaptation."
+    },
+    {
+      "id": "dit-ict-ch1-q40",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.4 Programs and Software Development",
+      "question": "What is the mean of the test inputs 10, 20 and 30?",
+      "options": [
+        "60",
+        "20",
+        "30",
+        "10"
+      ],
+      "correctIndex": 1,
+      "explanation": "Their sum is 60 and the count is three, so the mean is 20."
+    },
+    {
+      "id": "dit-ict-ch1-q41",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which category best describes a computer intended primarily for one user's general tasks?",
+      "options": [
+        "Personal computer",
+        "Embedded appliance controller",
+        "Multi-user transaction mainframe",
+        "Dedicated high-performance simulation system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Personal computers support individual computing tasks."
+    },
+    {
+      "id": "dit-ict-ch1-q42",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which example is normally a mobile computing device?",
+      "options": [
+        "A fixed desktop workstation",
+        "A rack-mounted server",
+        "Laptop",
+        "A fixed embedded industrial controller"
+      ],
+      "correctIndex": 2,
+      "explanation": "A laptop is designed for portable computing."
+    },
+    {
+      "id": "dit-ict-ch1-q43",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which example best represents an embedded computer?",
+      "options": [
+        "A general-purpose desktop used for many applications",
+        "Controller inside a washing machine",
+        "A personal laptop used for study and games",
+        "A web server used by many remote clients"
+      ],
+      "correctIndex": 1,
+      "explanation": "The controller is built into a larger product for specific functions."
+    },
+    {
+      "id": "dit-ict-ch1-q44",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "What is the main role of a server?",
+      "options": [
+        "Always perform only an individual user's offline tasks",
+        "Provide only permanent local storage without services",
+        "Replace all client devices and their interfaces",
+        "Provide services or resources to clients"
+      ],
+      "correctIndex": 3,
+      "explanation": "Servers respond to client needs such as file access or web requests."
+    },
+    {
+      "id": "dit-ict-ch1-q45",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "What distinguishes a thin-client setup?",
+      "options": [
+        "Complete absence of any processor",
+        "No need for any software",
+        "Substantial dependence on server resources",
+        "Inability to display any output"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thin clients retain local hardware but rely substantially on servers."
+    },
+    {
+      "id": "dit-ict-ch1-q46",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which workload is commonly associated with mainframes?",
+      "options": [
+        "Only a single user's document-editing workload",
+        "Large volumes of reliable business transactions",
+        "Primarily portable personal computing",
+        "Primarily built-in appliance control"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mainframes are commonly used for dependable high-volume transaction processing."
+    },
+    {
+      "id": "dit-ict-ch1-q47",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which workload is commonly associated with supercomputers?",
+      "options": [
+        "Only high-volume business transaction recording",
+        "Primarily portable personal document editing",
+        "Primarily single-appliance control",
+        "Large-scale weather simulations"
+      ],
+      "correctIndex": 3,
+      "explanation": "Scientific simulations can require extensive parallel computation."
+    },
+    {
+      "id": "dit-ict-ch1-q48",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which statement correctly classifies a laptop?",
+      "options": [
+        "It can be both a personal computer and a mobile device",
+        "It must belong to only one classification category",
+        "It is classified as a server regardless of its role",
+        "It must be an embedded computer because it has a battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classification categories describe different attributes and can overlap."
+    },
+    {
+      "id": "dit-ict-ch1-q49",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "What is a game console primarily designed for?",
+      "options": [
+        "High-volume bank transaction processing",
+        "Scientific weather simulation",
+        "Games and related media functions",
+        "Serving shared business files to office clients"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consoles are specialised computing systems focused on gaming."
+    },
+    {
+      "id": "dit-ict-ch1-q50",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.5 Computer Types",
+      "question": "Which factor should guide computer selection most directly?",
+      "options": [
+        "The workload and required capabilities",
+        "Case dimensions without considering tasks",
+        "Processor name without considering other requirements",
+        "The newest advertising label regardless of workload"
+      ],
+      "correctIndex": 0,
+      "explanation": "A suitable system meets the user's task, mobility and reliability needs."
+    },
+    {
+      "id": "dit-ict-ch1-q51",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which use belongs primarily to education?",
+      "options": [
+        "Controlling a milling machine",
+        "Booking an airline seat",
+        "Recording a bank transfer",
+        "Providing chapter quizzes through a learning system"
+      ],
+      "correctIndex": 3,
+      "explanation": "Chapter quizzes support learning and assessment."
+    },
+    {
+      "id": "dit-ict-ch1-q52",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which use belongs primarily to finance?",
+      "options": [
+        "Preparing a magazine page layout",
+        "Recording payments and calculating account balances",
+        "Simulating a weather system",
+        "Controlling a classroom projector only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Financial systems process transactions and balances."
+    },
+    {
+      "id": "dit-ict-ch1-q53",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which is an example of government computing?",
+      "options": [
+        "Processing a citizen's registration application",
+        "Processing a private company's payroll",
+        "Editing a publisher's magazine layout",
+        "Controlling a factory production line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registration processing is a public-service records task."
+    },
+    {
+      "id": "dit-ict-ch1-q54",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which statement about health-care computing is appropriate?",
+      "options": [
+        "It guarantees every diagnosis is correct",
+        "It removes the need to protect patient data",
+        "It can support clinicians who interpret results",
+        "It makes all professional review unnecessary"
+      ],
+      "correctIndex": 2,
+      "explanation": "Computer systems support care but do not remove professional responsibility."
+    },
+    {
+      "id": "dit-ict-ch1-q55",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which use belongs primarily to scientific computing?",
+      "options": [
+        "Only setting a document margin",
+        "Analysing measurements and running simulations",
+        "Only reserving a hotel room",
+        "Only recording a retail receipt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Science uses computation to study data and model phenomena."
+    },
+    {
+      "id": "dit-ict-ch1-q56",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which activity belongs to publishing?",
+      "options": [
+        "Assigning an IP address only",
+        "Crimping a network cable",
+        "Replacing a CPU fan",
+        "Editing text and arranging page layouts"
+      ],
+      "correctIndex": 3,
+      "explanation": "Publishing tools support preparation and distribution of content."
+    },
+    {
+      "id": "dit-ict-ch1-q57",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "What should a travel booking system check before confirming a seat?",
+      "options": [
+        "Only the originally advertised seat count",
+        "Only the previously printed timetable",
+        "Current availability",
+        "Only the customer's preferred display language"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reservations must reflect available capacity."
+    },
+    {
+      "id": "dit-ict-ch1-q58",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Which use belongs primarily to manufacturing?",
+      "options": [
+        "Producing a student's revision timetable",
+        "Controlling machinery using sensor input",
+        "Managing passenger seat reservations",
+        "Laying out a digital newspaper page"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manufacturing systems can use sensor measurements to control production."
+    },
+    {
+      "id": "dit-ict-ch1-q59",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "Why is access control important in a student or patient records system?",
+      "options": [
+        "It permits everyone to change every record",
+        "It replaces the need to make backups",
+        "It guarantees that all entered values are correct",
+        "It limits access to authorised users"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sensitive records should be accessible only to appropriate users."
+    },
+    {
+      "id": "dit-ict-ch1-q60",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 1,
+      "topic": "1.6 Computer Applications",
+      "question": "What is a risk of automating a task with incorrect instructions?",
+      "options": [
+        "The system can repeat the mistake quickly",
+        "The instructions automatically become correct",
+        "All stored records become independently verified",
+        "Input validation becomes unnecessary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Automation repeats defined operations, including faulty ones."
+    }
+  ],
+  "pdfBytes": 63434,
+  "pdfSha256": "78fc7a07dc4642f32aa9b1d91d6e750684305999a2359ee21e0a4fb8ec7269e6",
+  "sourceSha256": "0f7649b0e94d83b1e93ac2b9257c7da63424c2850abebb6302e210e286041307"
+}

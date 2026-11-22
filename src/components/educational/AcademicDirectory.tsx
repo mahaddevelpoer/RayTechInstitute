@@ -7,12 +7,14 @@ import type { ClassItem, SubjectItem, ChapterItem } from '@/types/educational';
 import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_CHAPTERS } from '@/data/staticCatalog';
 import { chapterDisplayLabel } from '@/utils/chapter-books';
 import { serializeJsonLd } from '@/utils/seo';
+import { DitSemesterOverview } from './DitSemesterOverview';
 
 export function SubjectDirectory({grade,subjects,jsonLd}:{grade:ClassItem;subjects:SubjectItem[];jsonLd:unknown}){
  return <div className="academic-page"><Header/><main id="main-content" className="page-main" tabIndex={-1}>
   <script type="application/ld+json" dangerouslySetInnerHTML={{__html:serializeJsonLd(jsonLd)}}/>
   <nav className="breadcrumb"><Link prefetch={false} href="/classes/">Classes</Link><span>/</span><span>{grade.title}</span></nav>
   <div className="directory-intro"><p className="directory-kicker">{grade.programTitle && grade.semesterNumber ? `${grade.programTitle} / Semester ${grade.semesterNumber}` : grade.numericGrade>=1&&grade.numericGrade<=12?'Class '+grade.numericGrade:'Study resources'}</p><h1>Choose your subject</h1><p>{grade.description}</p></div>
+  {grade.slug === 'dit-intermediate' && <DitSemesterOverview/>}
   <div className="subject-directory">{subjects.map(s=><section className="subject-directory-item" key={s.id}><div className="directory-icon"><BookOpen size={25}/></div><div><h2><Link prefetch={false} href={`/classes/${grade.slug}/${s.slug}/`}>{s.title}</Link></h2><p>{s.description}</p><div className="resource-quick-links"><Link prefetch={false} href={`/classes/${grade.slug}/${s.slug}/notes/`}>Notes</Link><Link prefetch={false} href={`/classes/${grade.slug}/${s.slug}/mcqs/`}>Chapter tests</Link><Link prefetch={false} href={`/classes/${grade.slug}/${s.slug}/past-papers/`}>Past papers</Link>{subjectSyllabus(grade.numericGrade,s.title) && <Link prefetch={false} href={syllabusPath(subjectSyllabus(grade.numericGrade,s.title)!)}>Smart syllabus</Link>}</div></div><Link prefetch={false} className="directory-open" href={`/classes/${grade.slug}/${s.slug}/`} aria-label={`Open ${s.title}`}><ArrowRight size={21}/></Link></section>)}</div>
   {!subjects.length&&<div className="directory-empty"><BookOpen/><h2>No subjects published yet</h2><p>Choose another class while its subject resources are prepared.</p><Link prefetch={false} className="learn-button" href="/classes/">All classes</Link></div>}
  </main><Footer/></div>;

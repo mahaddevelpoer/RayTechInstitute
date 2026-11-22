@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf",
+  "subjects": [
+    {"title":"Introduction to ICT","slug":"dit-ict","modules":["Introduction to Computers","System Unit Components","Input & Output Devices","Digital Storage","System Software","Application Software","The Internet and the World Wide Web"]},
+    {"title":"Introduction to MS Office","book":"MS Office","slug":"dit-computer-science","modules":["Introduction to Office Automation Software","Microsoft Word","Microsoft Excel","Microsoft PowerPoint","Microsoft Access"]},
+    {"title":"Computer Networks","book":"Computer Networking","slug":"dit-computer-science","modules":["Basic Terminologies","Topology","Networking Devices","Transmission Media","Network Models","IP Addresses","Protocols","Practical Portion"]},
+    {"title":"Operating Systems","slug":"dit-operating-systems","modules":["Overview of an Operating System","Functions of an Operating System","Processes","Introduction to Windows 10","Network Connectivity","Windows Server 2019/2016"]},
+    {"title":"Introduction to Programming","slug":"dit-python","modules":["Introduction to Programming","Getting Started with Python","Variables & Operators","Strings","Lists","Conditional Statements","Loops","Functions","Working with Graphics"]}
+  ]
+}
