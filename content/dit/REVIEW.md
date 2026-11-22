@@ -23,16 +23,18 @@ Run `python scripts/prepare-dit-ict-chapter.py` with the bundled Python runtime 
 
 Use `node --test scripts/dit-ict.test.mjs scripts/dit-mcqs.test.mjs` for the new content and existing quiz checks. The legacy SQL import test requires LF line endings inside its multiline SQL literals; Git CRLF conversion changes those strings and can cause its guard to fail.
 
-Final local verification: TypeScript strict check passed. The combined ICT, existing DIT MCQ and legacy import suite passed 14 of 14 tests. All 30 pages of the PDF were rendered and visually inspected. The new semester overview was server-rendered and its five subjects, resource counts and available-only links checked. A full Next.js production build remains unverified for the environment reasons below; the tests do not substitute for it.
+Final local verification: TypeScript strict check passed. The combined ICT, existing DIT MCQ and legacy import suite passed 14 of 14 tests. All 30 pages of the PDF were rendered and visually inspected. The new semester overview was server-rendered and its five subjects, resource counts and available-only links checked. The release catalog JSON loader correction passed a further 20-test suite including academic placement and existing book navigation.
+
+Production verification completed successfully on GitHub run https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/44999241610 at source revision accb23230a439ec3969f3de80f120fdf42bfae81. This run passed the repository checks, fresh database catalog export, full Next.js production build, SEO and secret checks, exported link audit, academic navigation, and desktop/mobile browser controls. Its retained verified export is the publication input.
 
 The local `src/data/staticOverrides.ts` was refreshed read-only from production for preservation tests. It is a generated snapshot, not part of this authored source batch; the existing production build regenerates it from the database.
 
 ## Publication and unfinished work
 
-This batch is local until current changes receive the publication approval required by AGENTS.md. No database records, deployment branches or publishing workflows have been changed.
+Mahad explicitly approved publishing this prepared batch on 22 November 2026. Publish the verified export from run 44999241610 through the existing Cloudflare deployment workflow, then verify the custom-domain revision, DIT overview, legacy book hub, ICT notes, MCQs, PDF hash and sitemap. No production database mutations are required for this source-authored batch.
 
 The editable Word draft is under `artifacts/dit-ict/word-draft/`, outside the public folder. Its native layout has not been verified because LibreOffice is unavailable on this Windows runtime. It is not included as a student download. The independently generated PDF has its own visual verification.
 
-Local production build limitation: the existing shared dependencies resolve Next.js across drives and its native SWC binary cannot load. An isolated locked dependency install was attempted but stopped with ENOSPC on C:. The task-created incomplete node_modules directory was removed and the original shared junction restored; no existing source-project dependency directory was modified. A complete build remains required before deployment.
+Local production build limitation: the existing shared dependencies resolve Next.js across drives and its native SWC binary cannot load. An isolated locked dependency install was attempted but stopped with ENOSPC on C:. The task-created incomplete node_modules directory and failed local build cache were removed and the original shared junction restored; no existing source-project dependency directory was modified. The full production build was instead verified on GitHub as recorded above.
 
 Operating Systems, Python, ICT Chapters 2-7 and the networking practical module still require their own complete content batches. Existing MS Office and Networking chapter headings are not a certification that every theory/practical topic is covered.
