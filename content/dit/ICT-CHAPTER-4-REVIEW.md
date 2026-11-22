@@ -23,3 +23,9 @@ The generator now counts questions per topic so the new five-section chapter can
 Local validation: all 16 chapter tests pass and strict TypeScript passes. After final PDF pagination changes, all three Chapter 4 tests pass again. The complete 30-page PDF was rendered and visually inspected, including MCQ answer shading, unmarked test options, tables, complete long answers, source links and footer labels. The editable Word draft remains outside the public directory because native Word layout verification is unavailable.
 
 Production artifact and live publication evidence will be appended after verification. Release success does not establish search indexing or traffic recovery.
+
+## Verified production artifact
+
+Artifact run 45011670826 passed the full production build, chapter tests, catalog/export checks, browser checks and release security checks on source revision 5f56ae1e5e393c63ec063ee40cf61adbd85f245b. Cloudflare publication reuses this exact static export.
+
+Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45011670826
