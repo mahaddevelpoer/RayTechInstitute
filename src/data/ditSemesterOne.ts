@@ -2,12 +2,13 @@ import type { ChapterItem, ClassItem, MCQItem, NoteItem, SubjectItem } from '@/t
 import pack from '../../content/dit/ict-chapter-1.generated.json';
 import pack2 from '../../content/dit/ict-chapter-2.generated.json';
 import pack3 from '../../content/dit/ict-chapter-3.generated.json';
+import pack4 from '../../content/dit/ict-chapter-4.generated.json';
 
 export const DIT_CLASS_SLUG = 'dit-intermediate';
 export const DIT_ICT_SUBJECT: SubjectItem = {
   id: 'subject-dit-ict', classSlug: DIT_CLASS_SLUG, slug: 'dit-ict',
   title: 'Introduction to ICT', iconName: 'Monitor',
-  description: 'PBTE two-year D.I.T first-semester ICT. Study computer fundamentals, system unit components and input/output devices with notes, topic MCQs and practical revision.',
+  description: 'PBTE two-year D.I.T first-semester ICT. Study computer fundamentals, system units, input/output and digital storage with notes, topic MCQs and practical revision.',
 };
 export const DIT_ICT_CHAPTER: ChapterItem = {
   id: 'chapter-dit-ict-1', classSlug: DIT_CLASS_SLUG, subjectSlug: 'dit-ict', chapterNumber: 1,
@@ -55,9 +56,24 @@ export const DIT_ICT_NOTE_THREE: NoteItem = {
   fileSize: `${Math.ceil(pack3.pdfBytes / 1024)} KB`, downloadCount: 0, lastUpdated: '2026-11-22',
   content: pack3.content,
 };
-export const DIT_ICT_CHAPTERS: ChapterItem[] = [DIT_ICT_CHAPTER, DIT_ICT_CHAPTER_TWO, DIT_ICT_CHAPTER_THREE];
-export const DIT_ICT_NOTES: NoteItem[] = [DIT_ICT_NOTE, DIT_ICT_NOTE_TWO, DIT_ICT_NOTE_THREE];
-export const DIT_ICT_ALL_MCQS: MCQItem[] = [...DIT_ICT_MCQS, ...[pack2, pack3].flatMap(chapter => chapter.questions.map(q => ({ ...q, options: q.options as MCQItem['options'] })))];
+export const DIT_ICT_CHAPTER_FOUR: ChapterItem = {
+  id: 'chapter-dit-ict-4', classSlug: DIT_CLASS_SLUG, subjectSlug: 'dit-ict', chapterNumber: 4,
+  title: 'Digital Storage', isActive: true,
+  description: 'Syllabus sections 4.1 to 4.5: HDDs, RAID/NAS, flash, optical discs, tape and cloud storage. Notes, 60 explained MCQs and recovery practice.',
+};
+export const DIT_ICT_NOTE_FOUR: NoteItem = {
+  id: 'dit-ict-chapter-4-digital-storage', classSlug: DIT_CLASS_SLUG,
+  subjectSlug: 'dit-ict', chapterNumber: 4, chapterTitle: pack4.title,
+  title: 'Digital Storage: ICT Chapter 4 Study Guide',
+  description: 'Revise all five PBTE ICT Chapter 4 sections with 60 explained MCQs, solved questions, storage comparisons, backup and restore activities.',
+  pdfUrl: 'https://raytechinstitute.com/documents/dit/ict/ict-chapter-4-digital-storage.pdf',
+  previewPdfUrl: 'https://raytechinstitute.com/documents/dit/ict/ict-chapter-4-digital-storage.pdf',
+  fileSize: `${Math.ceil(pack4.pdfBytes / 1024)} KB`, downloadCount: 0, lastUpdated: '2026-11-22',
+  content: pack4.content,
+};
+export const DIT_ICT_CHAPTERS: ChapterItem[] = [DIT_ICT_CHAPTER, DIT_ICT_CHAPTER_TWO, DIT_ICT_CHAPTER_THREE, DIT_ICT_CHAPTER_FOUR];
+export const DIT_ICT_NOTES: NoteItem[] = [DIT_ICT_NOTE, DIT_ICT_NOTE_TWO, DIT_ICT_NOTE_THREE, DIT_ICT_NOTE_FOUR];
+export const DIT_ICT_ALL_MCQS: MCQItem[] = [...DIT_ICT_MCQS, ...[pack2, pack3, pack4].flatMap(chapter => chapter.questions.map(q => ({ ...q, options: q.options as MCQItem['options'] })))];
 
 /** Reviewed source content is merged after each fresh database export. No existing resource IDs change. */
 export function ditClassInformation(item: ClassItem): ClassItem {

@@ -1,0 +1,969 @@
+{
+  "title": "Digital Storage",
+  "content": "## Chapter overview and syllabus coverage\n\nThis original English study guide follows PBTE's two-year D.I.T first-semester ICT Module 4, syllabus sections 4.1 to 4.5. It includes 60 explained revision MCQs, five topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.\n\n| Syllabus section | Topic | Revision MCQs |\n|---|---|---|\n| 4.1 | Hard Disks, RAID and NAS | 12 |\n| 4.2 | Flash Storage and Solid-State Drives | 12 |\n| 4.3 | Optical Storage: CDs, DVDs and Blu-ray | 12 |\n| 4.4 | Magnetic Tape Storage | 12 |\n| 4.5 | Cloud Storage and Recoverable Copies | 12 |\n\n## Topic-wise revision MCQs\n\n## 4.1 Hard Disks, RAID and NAS MCQs\n\n### Q1. What is the recording principle of an HDD?\n\n**A) Magnetic recording on rotating platters**\n\nB) Only laser-written optical marks\n\nC) Only charge stored in NAND flash cells\n\nD) Only temporary values in CPU registers\n\n**Correct answer: A.** An HDD uses magnetic surfaces and moving mechanical components.\n\n### Q2. What does non-volatile storage mean?\n\nA) It cannot ever suffer data loss\n\n**B) It normally retains saved data without power**\n\nC) It must be faster than every RAM module\n\nD) It needs continuous power to retain all saved bits\n\n**Correct answer: B.** Non-volatile describes retention without power, not immunity to failure.\n\n### Q3. What does HDD RPM measure?\n\nA) Files restored per month\n\n**B) Platter revolutions per minute**\n\nC) Bytes transferred per second\n\nD) Number of network users\n\n**Correct answer: B.** RPM describes rotational speed rather than capacity or transfer throughput.\n\n### Q4. What does seek time primarily involve in an HDD?\n\nA) Uploading a file to a cloud account\n\nB) Changing a screen's brightness\n\nC) Printing a folder listing\n\n**D) Positioning the read/write heads**\n\n**Correct answer: D.** The heads must move to a suitable recording location before access.\n\n### Q5. Which statement best distinguishes an internal and external HDD?\n\nA) Every external HDD stores only optical marks\n\n**B) They can use the same magnetic principle but differ in placement and connection**\n\nC) Every internal HDD is volatile RAM\n\nD) An external enclosure guarantees a faster drive\n\n**Correct answer: B.** An enclosure and external interface do not change the underlying recording principle.\n\n### Q6. Which RAID level stripes data without redundancy?\n\nA) RAID 1\n\nB) RAID 5\n\nC) Every RAID level always mirrors all data\n\n**D) RAID 0**\n\n**Correct answer: D.** RAID 0 distributes data but supplies no redundant copy or parity protection.\n\n### Q7. What is the defining idea of a simple RAID 1 arrangement?\n\nA) Striping without any redundancy\n\n**B) Mirroring data across drives**\n\nC) Using only a single optical disc\n\nD) Converting HDDs into RAM\n\n**Correct answer: B.** RAID 1 maintains mirrored data rather than adding the capacities as independent space.\n\n### Q8. Before overhead, what is the usable capacity of two equal 1 TB drives in a simple RAID 1 mirror?\n\nA) About 2 TB\n\nB) About 4 TB\n\n**C) About 1 TB**\n\nD) Exactly zero bytes\n\n**Correct answer: C.** The second drive holds a mirror, so the pair does not provide 2 TB of unique data space.\n\n### Q9. What is the minimum drive count for an ordinary RAID 5 array?\n\nA) One\n\nB) Two\n\n**C) Three**\n\nD) Only ten\n\n**Correct answer: C.** RAID 5 needs at least three drives for striping with distributed parity.\n\n### Q10. Why is RAID not a substitute for backup?\n\n**A) Deletion or corruption can affect the array's live data**\n\nB) Every RAID array is stored on paper\n\nC) RAID always prevents every malware action\n\nD) RAID creates an offline historical copy automatically\n\n**Correct answer: A.** Drive redundancy addresses selected failures and does not preserve every earlier file state.\n\n### Q11. What does NAS primarily provide?\n\nA) Only a new magnetic recording material\n\nB) Only CPU register storage\n\n**C) File access to storage over a network**\n\nD) Only a particular RAID level\n\n**Correct answer: C.** NAS is a network file-serving role and can use different supported drives or arrays.\n\n### Q12. Which equality correctly uses a binary capacity prefix?\n\nA) 1 GB equals exactly 1,073,741,824 bytes under SI\n\n**B) 1 GiB equals 1,073,741,824 bytes**\n\nC) 1 GiB equals exactly 1,000 bytes\n\nD) 1 GB always equals 1 GiB\n\n**Correct answer: B.** GiB uses a power of two while GB uses the decimal SI multiplier.\n\n## 4.2 Flash Storage and Solid-State Drives MCQs\n\n### Q13. Which property describes flash memory?\n\nA) A magnetic tape that must always be rewound\n\nB) A phosphor-coated display surface\n\nC) A volatile register inside every keyboard\n\n**D) Electrically rewritable non-volatile storage**\n\n**Correct answer: D.** Flash can retain data without power and can be electrically rewritten.\n\n### Q14. Which mechanical components are absent from a typical flash SSD?\n\nA) All electronic controllers\n\nB) All electrical connectors\n\n**C) Spinning platters and moving recording heads**\n\nD) All storage chips\n\n**Correct answer: C.** SSDs use electronic storage rather than an HDD's moving recording mechanism.\n\n### Q15. What is a storage controller's role in an SSD?\n\n**A) Manage access to the flash chips**\n\nB) Project every saved file onto a wall\n\nC) Replace every operating system function\n\nD) Guarantee unlimited write endurance\n\n**Correct answer: A.** The controller coordinates reads, writes and flash-management functions.\n\n### Q16. What is the purpose of wear levelling?\n\nA) Spin an SSD's platters faster\n\n**B) Spread writes across flash locations**\n\nC) Increase a monitor's pixel count\n\nD) Turn a USB cable into a backup\n\n**Correct answer: B.** Distributing writes helps avoid concentrating wear on the same cells.\n\n### Q17. Which statement about SSD reliability is correct?\n\nA) No moving parts guarantees permanent data retention\n\nB) Every SSD has unlimited program/erase cycles\n\n**C) An SSD can fail and still needs suitable backups**\n\nD) An SSD automatically makes an independent offline copy\n\n**Correct answer: C.** Electronic storage has failure and endurance limits despite lacking moving heads.\n\n### Q18. What does M.2 primarily describe?\n\nA) A universal guarantee of NVMe support\n\n**B) A physical form factor**\n\nC) A cloud subscription type\n\nD) A type of magnetic tape reel\n\n**Correct answer: B.** M.2 devices can use different supported interfaces and functions.\n\n### Q19. Which pair can describe different M.2 SSD interfaces or access technologies?\n\nA) CRT and LCD\n\nB) Inkjet and laser\n\n**C) SATA and PCIe/NVMe**\n\nD) OCR and OMR\n\n**Correct answer: C.** M.2 SSDs are not universally the same interface or protocol.\n\n### Q20. What should be checked before using an SD-family memory card?\n\nA) Only the card's printed colour\n\nB) Only the keyboard layout\n\n**C) The host's supported capacity family and speed requirements**\n\nD) Only the monitor's refresh rate\n\n**Correct answer: C.** The host must support the card's relevant format and recording requirements.\n\n### Q21. What does a passive microSD-to-SD adapter normally change?\n\nA) The host's firmware compatibility automatically\n\nB) The card's stored bytes into unlimited capacity\n\nC) The card's flash into magnetic tape\n\n**D) The card's physical presentation to the slot**\n\n**Correct answer: D.** A passive adapter does not by itself add missing host support or storage capacity.\n\n### Q22. Which statement about USB-C storage is accurate?\n\nA) Every USB-C storage device has identical performance\n\n**B) Connector shape alone does not guarantee transfer speed**\n\nC) USB-C always means an optical disc\n\nD) USB-C storage cannot contain flash\n\n**Correct answer: B.** Device, port, cable and supported modes affect performance.\n\n### Q23. What is an appropriate step before disconnecting removable storage?\n\nA) Remove it in the middle of every write\n\nB) Assume a progress window proves all writes are complete\n\n**C) Finish writes and use the supported removal procedure**\n\nD) Format it immediately after every saved file\n\n**Correct answer: C.** Pending writes must be handled correctly to reduce corruption risk.\n\n### Q24. Which statement correctly describes ExpressCard?\n\nA) A universal synonym for NAND flash\n\nB) A guarantee that every module stores user files\n\nC) A modern cloud protocol used by every SSD\n\n**D) A legacy expansion format whose modules can have different functions**\n\n**Correct answer: D.** ExpressCard modules can provide storage-related or other expansion functions.\n\n## 4.3 Optical Storage: CDs, DVDs and Blu-ray MCQs\n\n### Q25. How is an optical disc normally read?\n\nA) By moving magnetic HDD heads over its surface\n\n**B) With a laser and reflected-light detection**\n\nC) By measuring a keyboard's key pressure\n\nD) By reading only volatile RAM cells\n\n**Correct answer: B.** Optical storage uses light to detect recorded information.\n\n### Q26. Which is a common labelled capacity for a data CD?\n\nA) 25 GB for every CD\n\n**B) 700 MB**\n\nC) 1 TB for every CD\n\nD) Exactly 4.7 TB\n\n**Correct answer: B.** A common data CD is labelled 700 MB, though formats and uses differ.\n\n### Q27. Which is a common labelled capacity for a single-layer DVD?\n\nA) 700 GB\n\nB) 25 TB\n\n**C) 4.7 GB**\n\nD) Exactly 1 GiB in every case\n\n**Correct answer: C.** 4.7 GB is a common single-layer DVD example rather than every DVD's capacity.\n\n### Q28. Which is a common labelled capacity for a single-layer Blu-ray Disc?\n\nA) 700 MB in every case\n\nB) 4.7 MB\n\n**C) 25 GB**\n\nD) Exactly 500 GB for every format\n\n**Correct answer: C.** A common single-layer Blu-ray has 25 GB labelled capacity; variants differ.\n\n### Q29. What does ROM identify in CD-ROM?\n\nA) Repeatedly erasable optical media in every case\n\nB) A USB connector standard\n\nC) A type of live RAM cache\n\n**D) Read-only memory media**\n\n**Correct answer: D.** A CD-ROM is intended to be read rather than user-rewritten.\n\n### Q30. What is the main distinction between CD-R and CD-RW?\n\nA) CD-R is magnetic and CD-RW is a microphone\n\nB) CD-RW cannot contain data files\n\n**C) CD-R is write-once recordable; CD-RW supports rewriting**\n\nD) CD-R always holds exactly one file\n\n**Correct answer: C.** Recordable and rewritable describe different permitted recording behaviour.\n\n### Q31. What does BD-RE indicate?\n\nA) A magnetic tape drive\n\nB) A read-only HDD partition\n\nC) A RAM expansion socket\n\n**D) Rewritable Blu-ray media**\n\n**Correct answer: D.** BD-RE is a rewritable Blu-ray designation.\n\n### Q32. Why must a drive's write support be checked separately from read support?\n\nA) Every reader automatically writes all disc families\n\nB) Writing always requires no hardware\n\n**C) A device able to read a format may not be able to record it**\n\nD) A disc tray guarantees universal writing support\n\n**Correct answer: C.** Reading and recording are distinct hardware capabilities.\n\n### Q33. Why can Blu-ray support higher recording density than DVD in its format?\n\nA) It stores data only as magnetic tape\n\n**B) It uses a shorter-wavelength blue-violet laser with an appropriate optical design**\n\nC) It replaces all optical reading with keyboard input\n\nD) It guarantees unlimited layers on every disc\n\n**Correct answer: B.** The format's optical design supports denser recording, not unlimited capacity.\n\n### Q34. Can a CD-only drive be assumed to read Blu-ray discs?\n\n**A) No, it needs support for the Blu-ray format**\n\nB) Yes, all discs with a centre hole are interchangeable\n\nC) Yes, changing the filename always adds support\n\nD) Yes, because the disc capacity is irrelevant to drive design\n\n**Correct answer: A.** Similar physical appearance does not establish optical-format compatibility.\n\n### Q35. What should follow writing important files to a disc?\n\nA) Assume the tray closing proves every file is correct\n\nB) Discard every other copy immediately\n\nC) Scratch the data surface to label it\n\n**D) Verify the recorded files using a compatible reader**\n\n**Correct answer: D.** Verification checks that the completed recording can actually be read.\n\n### Q36. Which statement about write-once optical media is accurate?\n\n**A) It can contain multiple files without being repeatedly erasable**\n\nB) It can hold exactly one file in all cases\n\nC) It behaves identically to rewritable flash\n\nD) It can always be erased and rewritten indefinitely\n\n**Correct answer: A.** Write-once describes recording areas, not a universal one-file limit.\n\n## 4.4 Magnetic Tape Storage MCQs\n\n### Q37. What physical medium does magnetic tape use?\n\n**A) A flexible strip with a magnetic recording layer**\n\nB) Only a liquid-crystal display panel\n\nC) Only a silicon CPU register\n\nD) Only a pressed optical disc\n\n**Correct answer: A.** Tape records magnetic information along a flexible medium.\n\n### Q38. What is needed to read a tape cartridge?\n\nA) Only an ordinary CD-only reader\n\n**B) A compatible tape drive**\n\nC) Only a projector\n\nD) Only an SD-to-microSD adapter\n\n**Correct answer: B.** The drive and media format must support one another.\n\n### Q39. What is the main access characteristic of tape?\n\n**A) Physical sequential positioning along the medium**\n\nB) Instant electronic access to every position without movement\n\nC) Random keyboard selection of every magnetic cell\n\nD) Optical reading using a Blu-ray laser\n\n**Correct answer: A.** Tape must move to reach recording positions.\n\n### Q40. What can an index provide for tape files?\n\nA) Elimination of all mechanical tape movement\n\nB) Unlimited physical capacity\n\nC) Compatibility with every tape drive\n\n**D) A way to identify their recorded locations**\n\n**Correct answer: D.** An index helps locate data logically while physical positioning remains necessary.\n\n### Q41. Which statement about tape performance is most accurate?\n\nA) Sequential access proves all transfers are always slow\n\n**B) It can stream large continuous transfers efficiently after positioning**\n\nC) It has no mounting or positioning latency\n\nD) Every tape product has identical throughput\n\n**Correct answer: B.** Latency and sustained streaming throughput are different performance measures.\n\n### Q42. What does access latency describe in a tape restore?\n\n**A) Delay before the requested data can begin to be delivered**\n\nB) Only the total number of bytes on the label\n\nC) Only the file's extension\n\nD) The computer monitor's refresh interval\n\n**Correct answer: A.** Preparation, mounting and positioning can contribute to restore delay.\n\n### Q43. What is the role of a tape library's robotic mechanism?\n\nA) Turn every cartridge into flash memory\n\nB) Remove the need for a data catalogue\n\nC) Read every tape without any drive\n\n**D) Move cartridges between storage locations and drives**\n\n**Correct answer: D.** A library can automate media handling in a managed system.\n\n### Q44. Why should native and compressed tape capacities be distinguished?\n\n**A) Compression benefit depends on the data**\n\nB) Every file compresses to exactly zero bytes\n\nC) Compressed capacity is always fully available for all inputs\n\nD) Native capacity counts only the cartridge's physical weight\n\n**Correct answer: A.** Advertised compressed capacity relies on assumptions about compressibility.\n\n### Q45. Which data may offer limited additional lossless compression?\n\nA) Highly repetitive uncompressed text in every comparison\n\nB) A long file of identical characters\n\nC) A list containing the same phrase repeatedly\n\n**D) Already compressed video**\n\n**Correct answer: D.** Previously compressed content may have little redundancy left for another compressor.\n\n### Q46. What distinguishes an archive's primary purpose from a recovery backup?\n\n**A) Long-term retention for reference under a plan**\n\nB) Guaranteeing every application runs from tape\n\nC) Replacing every file system with RAM\n\nD) Making temporary unsaved edits only\n\n**Correct answer: A.** Archives focus on retained reference information; backups focus on recoverability after loss.\n\n### Q47. Why might an encrypted tape remain unrecoverable even if its surface is readable?\n\n**A) The required encryption key is unavailable**\n\nB) A label automatically decrypts all recordings\n\nC) Every tape drive bypasses encryption\n\nD) Offline cartridges never use keys\n\n**Correct answer: A.** Readable media alone is insufficient when necessary keys or compatible software are missing.\n\n### Q48. Which check provides stronger evidence of backup usability than a copy log alone?\n\n**A) Restore sample files and verify their contents**\n\nB) Only count the cartridge labels\n\nC) Only check the screen's wallpaper\n\nD) Only print the word successful\n\n**Correct answer: A.** A restore exercise tests whether retained data can actually be recovered.\n\n## 4.5 Cloud Storage and Recoverable Copies MCQs\n\n### Q49. Where is cloud-stored data ultimately held?\n\nA) In an environment requiring no hardware at all\n\n**B) On physical storage operated as part of a remote service**\n\nC) Only inside every user's keyboard\n\nD) Only as light permanently travelling through a cable\n\n**Correct answer: B.** Cloud describes a service model rather than absence of physical infrastructure.\n\n### Q50. What does uploading mean?\n\nA) Obtaining a local copy from the service\n\nB) Printing every remote file\n\n**C) Transferring data from the local side to the service**\n\nD) Erasing every version of a document\n\n**Correct answer: C.** Upload sends data to the remote service; download transfers it back.\n\n### Q51. What does downloading mean?\n\nA) Sending a local file to the service\n\nB) Increasing the monitor resolution\n\n**C) Obtaining data from the service on the local side**\n\nD) Mirroring two HDDs inside one case\n\n**Correct answer: C.** Download obtains data from the remote service.\n\n### Q52. What risk can arise from deleting a file in a synchronised folder?\n\nA) Sync guarantees an immutable permanent copy automatically\n\nB) The deletion can never affect the cloud copy\n\n**C) The deletion may propagate to other synced locations**\n\nD) Every other device is automatically an offline archive\n\n**Correct answer: C.** Sync follows changes according to its behaviour, which can include deletions.\n\n### Q53. Which feature may help recover an earlier cloud file state when supported?\n\nA) Only a larger screen\n\nB) Only a different keyboard\n\nC) Only changing the file's icon\n\n**D) Version history with suitable retention**\n\n**Correct answer: D.** Recovery depends on the service's versioning and retention configuration.\n\n### Q54. What does an online-only placeholder fail to prove?\n\nA) That a filename exists in the interface\n\nB) That the service has a file listing\n\nC) That the user has seen an icon\n\n**D) That the complete file is available without a connection**\n\n**Correct answer: D.** A placeholder can represent a remote file whose contents still require downloading.\n\n### Q55. What should be checked before relying on offline access?\n\n**A) A supported local copy is available and opens offline**\n\nB) Only that a filename appears in a folder\n\nC) Only that a sharing link exists\n\nD) Only that the monitor is powered\n\n**Correct answer: A.** Offline availability requires actual locally accessible contents.\n\n### Q56. Which sharing choice best fits a read-only class handout for named students?\n\nA) Publish unrestricted editing access to everyone\n\n**B) Grant the intended recipients viewer access**\n\nC) Send the owner's account password to the whole class\n\nD) Disable all account protection\n\n**Correct answer: B.** Recipient and role restrictions align access with the intended task.\n\n### Q57. Why is encryption alone insufficient for safe cloud use?\n\n**A) Permissions, account access and recovery still need management**\n\nB) Encryption makes incorrect permissions irrelevant\n\nC) Encryption guarantees every deleted file remains forever\n\nD) Encrypted files never require keys\n\n**Correct answer: A.** Encryption addresses selected protection needs rather than every operational risk.\n\n### Q58. Which statement describes shared responsibility?\n\nA) The user never needs to manage sharing permissions\n\nB) The provider's hardware removes all need for user authentication\n\nC) Only the keyboard manufacturer controls recovery\n\n**D) The provider and customer each manage relevant parts of the system**\n\n**Correct answer: D.** The provider operates service infrastructure while customers manage their use and configuration.\n\n### Q59. Why should a guide avoid promising a permanent free storage quota?\n\nA) Every cloud account has unlimited free capacity\n\nB) Quotas are a physical property of every keyboard\n\nC) All providers have identical unchanging plans\n\n**D) Service plans and limits can change**\n\n**Correct answer: D.** Plan-specific capacity and terms require current verification.\n\n### Q60. What is a meaningful restore check for an important document?\n\n**A) Recover a copy, open it and compare its contents**\n\nB) Only look at an upload icon\n\nC) Only rename the original file\n\nD) Only check the provider's logo\n\n**Correct answer: A.** A restore check tests the required recovery behaviour rather than assuming success.\n\n## Easy topic-wise notes\n\n## 4.1 Hard Disks, RAID and NAS\n\nA hard disk drive, or HDD, retains data magnetically on rotating platters. Read/write heads access locations on the recording surfaces. It is non-volatile storage: saved data normally remains when power is removed. This differs from ordinary working RAM, which normally loses its contents without power. A drive is the physical device; a partition is a logical division of storage, and a file system organises files within a formatted volume.\n\nImportant characteristics include capacity, interface, access time, transfer performance, physical size, power requirements and suitability for the workload. RPM means revolutions per minute of the platters. Seek time involves positioning the heads; rotational delay involves waiting for the desired location to rotate into position. A higher RPM or larger cache alone does not establish the fastest drive for every workload. Small scattered requests and large continuous transfers place different demands on storage. The interface's advertised limit is not a guarantee of the drive's actual transfer rate.\n\nAn internal drive is installed inside a computer. An external HDD normally uses an enclosure and a connection such as USB; the enclosure may need separate power. Internal/external describes placement and connection, not a different recording principle. Handle HDDs carefully, especially during operation, and never open the sealed recording assembly for a classroom identification task.\n\nRAID means redundant array of independent disks. RAID 0 stripes data without redundancy. RAID 1 mirrors copies across drives. RAID 5 combines striping with distributed parity and needs at least three drives; its ordinary single-parity design can tolerate one drive failure, not every kind of data loss. For two equal 1 TB drives, a simple RAID 1 mirror has about 1 TB usable capacity before formatting and other overhead. RAID is not a backup: deletion, malware or a common failure can affect the array's data.\n\nNetwork-attached storage, or NAS, offers file access across a network. A NAS can use HDDs, SSDs and supported RAID arrangements, but NAS describes network file service, while RAID describes drive organisation. Shared folders need appropriate permissions and backups. Capacity labels also require care: 1 GB is 1,000,000,000 bytes, while 1 GiB is 1,073,741,824 bytes. The same byte quantity has different decimal and binary numbers; file-system overhead can reduce usable space further.\n\n### Practical examples\n\n- Two equal 1 TB drives in a simple RAID 1 mirror provide about 1 TB usable capacity before overhead.\n- A school NAS shares approved study files with authorised users over its network.\n- An external USB HDD still stores data magnetically, even though its connection differs from an internal drive.\n\n### Common mistakes\n\n- RAID 0 does not provide drive-failure redundancy.\n- RAID and NAS are different concepts, and neither automatically provides an independent backup.\n- Capacity, transfer rate and access latency are different measurements.\n\n### Quick revision\n\n- HDDs use magnetic recording on rotating platters.\n- Saved HDD data normally survives loss of power.\n- RPM describes platter rotation.\n- RAID 0 stripes; RAID 1 mirrors; RAID 5 uses distributed parity.\n- NAS provides network file access.\n- GB and GiB use different multipliers.\n\n## 4.2 Flash Storage and Solid-State Drives\n\nFlash memory is electrically rewritable non-volatile storage. Common examples include solid-state drives, memory cards and USB flash drives. Unlike an HDD, a typical flash SSD has no spinning platters or moving recording heads. It can access small scattered data with much lower mechanical delay, but actual performance depends on the device, controller, interface, workload, temperature and available resources. No single maximum speed describes every SSD or every transfer.\n\nAn SSD combines storage chips with a controller and supporting firmware. Flash has limited program/erase endurance, so controllers use techniques such as wear levelling and error correction. Wear levelling spreads writes rather than repeatedly concentrating them on a few cells. Endurance ratings describe specified conditions; they are not guarantees that data will remain readable forever. SSDs can fail, and important files still need verified backups. An SSD is not ordinary RAM merely because both use electronic components.\n\nForm factor, interface and protocol are different. A 2.5-inch SSD can use SATA; an M.2 SSD can use SATA or PCIe with NVMe, depending on the model. M.2 describes a physical format rather than a promise that the device uses NVMe. Check the system's supported size, connector keying, interface and firmware requirements. A USB-C connector shape similarly does not guarantee one storage transfer speed. The slowest relevant part of the connection can limit a copy.\n\nMemory cards include SD-family products used in cameras and other devices. Physical fit alone does not prove that the host supports every capacity family, file system or speed requirement. A passive microSD-to-SD adapter changes the physical presentation; it does not automatically make an incompatible host support every card. A USB flash drive combines flash storage with a USB interface and is useful for permitted file transfer. Use the operating system's supported removal procedure and wait for writes to finish before disconnecting removable storage.\n\nThe syllabus also names ExpressCard modules, a legacy notebook expansion format. Some modules provide flash-based storage or card-reading functions; others provide interfaces such as USB. ExpressCard is not a synonym for flash memory, and not every module stores files. Identify the actual function and model compatibility rather than treating every card-shaped device as a storage drive.\n\n### Practical examples\n\n- An M.2 SATA SSD must be matched with a slot supporting its interface, not selected by shape alone.\n- A camera may require a supported SD capacity family and recording speed class.\n- A legacy ExpressCard reader accepts supported memory cards; the reader and removable card have different roles.\n\n### Common mistakes\n\n- An SSD is persistent storage rather than working RAM.\n- M.2 does not mean NVMe in every case.\n- No moving parts does not mean unlimited endurance or guaranteed data survival.\n\n### Quick revision\n\n- Flash is rewritable and non-volatile.\n- SSDs do not use rotating magnetic platters.\n- Controllers manage flash access and endurance.\n- Form factor, interface and protocol differ.\n- Memory card and host support must match.\n- ExpressCard describes expansion hardware, not one universal storage medium.\n\n## 4.3 Optical Storage: CDs, DVDs and Blu-ray\n\nOptical storage uses a laser to read information from a disc. The drive detects differences in reflected light from the recording structure. A pressed read-only disc and a user-recordable disc do not necessarily form their marks by the same manufacturing process. The useful introductory distinction is optical reading rather than magnetic HDD recording or electronic flash storage.\n\nCD, DVD and Blu-ray are different optical families with different supported formats and capacities. A common data CD is labelled 700 MB, a common single-layer DVD 4.7 GB, and a common single-layer Blu-ray Disc 25 GB. These are typical examples, not capacities of every disc. Dual-layer and other variants have different capacities; a common dual-layer Blu-ray is 50 GB. Actual available file space depends on the format and overhead. CD audio duration and data-file capacity are also different ways of describing use.\n\nROM indicates read-only media. An R designation commonly identifies recordable media intended for writing once rather than repeatedly erasing and rewriting the same recording areas. Some recordable sessions can be appended where the format and software allow it; write-once does not mean exactly one file. RW and BD-RE describe rewritable formats. Compatibility is specific: DVD-R and DVD+R are distinct formats, and a drive must support the intended disc family and write operation. A reader is not automatically a writer.\n\nBlu-ray uses a shorter-wavelength blue-violet laser than the red laser used for DVD, helping support higher recording density in the format. A CD-only drive cannot read Blu-ray media. A Blu-ray drive may support earlier families, but read and write support should be checked in the exact model's specifications rather than assumed from the appearance of the tray.\n\nBurning a disc means recording data with supported hardware and software. Merely copying a filename into a preparation window may not complete the write. Finish the recording as required, verify the contents and test the intended reading device. Handle discs by the edges or centre opening, protect their surfaces and store them appropriately. Scratches, heat, unsuitable storage and incompatible drives can make data inaccessible. Optical discs are not permanent guarantees of preservation; retain other copies and plan migration while compatible readers remain available.\n\n### Practical examples\n\n- A 25 GB single-layer Blu-ray has a larger labelled capacity than a common 4.7 GB single-layer DVD.\n- A CD-R can hold several files, but it is not a repeatedly erasable CD-RW.\n- After writing a practice disc, reopen its files on a compatible reader to check the result.\n\n### Common mistakes\n\n- Typical capacity examples do not describe every layer count or variant.\n- A disc reader is not automatically a compatible disc writer.\n- A write-once disc is not limited to one file, and rewritable media do not promise infinite reuse.\n\n### Quick revision\n\n- Optical drives read using a laser.\n- CD, DVD and Blu-ray are different families.\n- Capacity depends on format and layers.\n- ROM is read-only; R is recordable.\n- RW and BD-RE are rewritable designations.\n- Check drive support and verify recorded files.\n\n## 4.4 Magnetic Tape Storage\n\nMagnetic tape stores data as magnetic recordings on a long flexible strip contained in a reel or cartridge. A compatible tape drive reads and writes the medium. A tape cartridge and its drive are different objects, just as an optical disc differs from its reader. Tape is non-volatile and is used in managed backup and archive systems, including large collections of data.\n\nTape is fundamentally a sequential-access medium. Reaching a distant recording position requires physical movement along the tape. A tape index or catalogue can identify which file and location are needed, but it does not remove the mechanical positioning step. This differs from an HDD's direct block access or an SSD's electronic access. Tape can provide substantial sustained throughput when reading or writing long continuous streams, so sequential access does not mean that every tape operation has low transfer throughput.\n\nAccess latency and transfer rate must be distinguished. Latency includes preparation, mounting a cartridge if necessary, and positioning. Transfer rate describes how much data moves per unit time once streaming. A large restore can therefore have a preparation delay followed by efficient continuous reading. A workload that repeatedly requests scattered small files may be unsuitable even where an advertised streaming speed is high.\n\nA tape library can automate cartridge storage and movement using robotic mechanisms. A catalogue tracks the files, media and required locations. Compatibility depends on the drive generation, cartridge format and supported read/write combinations; do not assume that every tape drive reads every old or new cartridge. If a product advertises compressed capacity, the actual benefit depends on the data. Already compressed video or encrypted data may not shrink as much as highly repetitive text.\n\nBackup is a recoverable copy for restoration after loss or damage; an archive retains selected information for longer-term reference under a retention plan. A tape can serve either role according to how it is managed. Offline media can reduce exposure to online incidents when properly separated and controlled, but physical loss, unreadable media or missing encryption keys can still prevent recovery. Label cartridges, control access, follow storage guidance, keep compatible equipment available and test restores. Do not treat a successful copy log as a substitute for checking recoverability.\n\n### Practical examples\n\n- A backup operator identifies a cartridge in the catalogue, mounts it and restores selected files.\n- A large archive restore can stream quickly after the tape reaches the required position.\n- Two advertised capacities may describe native and assumed compressed capacity rather than two physical cartridges.\n\n### Common mistakes\n\n- Sequential access and low streaming throughput are not the same claim.\n- A tape index locates records logically but does not eliminate physical positioning.\n- Offline storage still needs protection, readable media and restore testing.\n\n### Quick revision\n\n- Tape records data magnetically on a flexible strip.\n- A compatible drive accesses a cartridge.\n- Positioning is sequential and mechanical.\n- Latency differs from sustained transfer rate.\n- Native and compressed capacities differ.\n- Backups and archives require management and restore checks.\n\n## 4.5 Cloud Storage and Recoverable Copies\n\nCloud storage keeps data on remotely managed storage systems accessed through a network service. The files still reside on physical hardware; cloud does not mean data exists without servers or storage media. A service can provide access through a website, application or API, and its permissions, retention features and limits depend on the service and account configuration.\n\nUploading transfers data to the service; downloading obtains a local copy. Synchronisation keeps selected locations aligned by propagating changes. A deletion in a synced folder can also be propagated to the service and other devices. Cloud backup can preserve recoverable versions according to a defined policy, but simple sync is not automatically an independent historical backup. Version history, recycle bins and retention can help recovery when supported and correctly configured; their availability and duration must be checked rather than assumed.\n\nCloud access depends on connectivity, account access and service availability. Some applications make selected files available offline by storing local copies. A placeholder or a filename visible in a folder does not prove that the full file is downloaded. Test the service's supported offline mode with a non-sensitive sample when access without a connection is required. Changes may need to synchronise when connectivity returns.\n\nUse individual authorised accounts, strong authentication and suitable sharing permissions. Viewer and editor roles have different powers. A public link can expose information beyond the intended class; confirm recipients and access requirements. Encryption helps protect data under stated conditions, but it is not a substitute for sound permissions or recoverability. Shared responsibility means the provider operates parts of the service while the user or institution still manages account access, allowed data and appropriate configuration.\n\nPlan storage by capacity, transfer needs, privacy, restore time and retention, not just the size of a free quota. Charges, quotas and features can change, so no specific free allocation or permanent price is promised here. Important work can use multiple copies with suitable separation, including an off-site copy; copies must be checked and protected. A restore test that opens the recovered file and compares its contents is more useful than merely seeing an upload icon. Do not delete original work until its retention and recovery requirements are satisfied.\n\n### Practical examples\n\n- A student uploads a non-sensitive practice file, downloads a copy and opens it to verify its contents.\n- A teacher shares a resource with named viewers rather than exposing it through an unrestricted public link.\n- An offline-ready file contains a local copy, while an online-only placeholder may need a connection.\n\n### Common mistakes\n\n- Cloud storage still uses physical storage hardware.\n- Sync can propagate deletions and is not automatically an independent backup.\n- Visible filenames and a completed-looking icon do not prove offline availability or successful restoration.\n\n### Quick revision\n\n- Cloud storage is accessed through a network service.\n- Upload and download have opposite directions.\n- Sync propagates changes, including some deletions.\n- Offline access requires suitable local availability.\n- Permissions and account access must be managed.\n- Check retention and test restoration.\n\n## Diagrams and comparisons\n\n![Working storage and checked recovery copies](/documents/dit/ict/storage-recovery-copies.svg)\n\nThe working project is saved on local storage. A separate recovery copy is made to another permitted device. An off-site copy adds location separation, for example through an appropriately managed cloud service. The arrows represent checked copying, not automatic sync or RAID. Real recovery requires readable contents and the necessary access, software and keys.\n\n| Storage type | Main recording/access idea | Suitable learning example |\n|---|---|---|\n| HDD | Magnetic rotating platters | Retained local files |\n| Flash SSD/card/USB | Electronic non-volatile cells | Fast access or portable files |\n| Optical disc | Laser reads recorded information | Compatible recorded distribution copy |\n| Magnetic tape | Magnetic strip with sequential positioning | Managed large backup or archive |\n| Cloud storage | Remote storage service over a network | Controlled off-site access and copies |\n\n| Term | What it describes | What it does not guarantee |\n|---|---|---|\n| RAID | Organisation across drives | Historical or independent backup |\n| NAS | Network file access | A particular RAID level |\n| Sync | Propagating selected changes | Protection from propagated deletion |\n| Backup | Recoverable retained copy | Success without a restore check |\n\n| Labelled example | Capacity convention |\n|---|---|\n| 1 GB | 1,000,000,000 bytes |\n| 1 GiB | 1,073,741,824 bytes |\n| Two equal 1 TB RAID 1 drives | About 1 TB unique capacity before overhead |\n| Single-layer DVD / Blu-ray examples | 4.7 GB / 25 GB; other variants differ |\n\n## Solved short questions\n\n### 1. Define digital storage and distinguish it from ordinary RAM.\n\nDigital storage retains files and other data for later use. HDDs, flash drives and optical media normally retain saved data without power. Ordinary working RAM is normally volatile and holds current programs and data.\n\n### 2. Name three HDD performance characteristics.\n\nAccess latency, sustained transfer rate and suitability for the request pattern matter. RPM describes platter rotation, but RPM alone does not prove overall performance. Capacity measures amount stored rather than access speed.\n\n### 3. Distinguish an internal and an external HDD.\n\nAn internal drive is installed inside the computer; an external drive normally uses an enclosure and external connection. Both can use magnetic platters. The connection, enclosure and drive each affect practical use.\n\n### 4. Compare RAID 0 and RAID 1.\n\nRAID 0 stripes data without redundancy. RAID 1 mirrors data across drives. Two equal 1 TB drives in a simple mirror provide about 1 TB usable capacity before overhead. Neither arrangement replaces an independent recovery copy.\n\n### 5. What is NAS and how does it differ from RAID?\n\nNAS provides file access over a network. RAID organises multiple drives. A NAS can use a supported RAID arrangement, but network file service and drive organisation are separate concepts.\n\n### 6. Why is M.2 not a synonym for NVMe?\n\nM.2 is a physical form factor. M.2 SSDs can use SATA or PCIe/NVMe according to the device and host support. Compatibility needs more than a similar connector shape.\n\n### 7. What are wear levelling and one SSD limitation?\n\nWear levelling distributes writes across flash locations. Flash has finite program/erase endurance and an SSD can fail, so wear management does not remove the need for backups.\n\n### 8. Distinguish recordable and rewritable optical media.\n\nRecordable R media are intended for write-once recording areas, while RW or BD-RE media support rewriting. A recordable disc can hold multiple files; the drive must support the format and intended write operation.\n\n### 9. Explain sequential access in tape storage.\n\nTape must move physically along the medium to reach a recording position. An index can identify a location but does not remove positioning. Streaming throughput after positioning differs from the initial access delay.\n\n### 10. Distinguish native and compressed tape capacity.\n\nNative capacity is specified without relying on compression savings. Compressed capacity assumes compressible data. Already compressed or encrypted input may obtain little additional reduction, so the larger number is not guaranteed for every dataset.\n\n### 11. How do cloud sync and backup differ?\n\nSync propagates changes between selected locations, potentially including deletions. A backup preserves recoverable data under a retention policy. Sync, version history and an independent backup must be evaluated by actual recovery behaviour.\n\n### 12. How can a backup be checked?\n\nRestore a permitted sample to a separate location, open it and compare its contents with the source. Also confirm that required media, credentials, software and encryption keys remain available. A successful copy log alone is incomplete evidence.\n\n## Solved long questions\n\n### 1. Explain HDD operation, characteristics and internal/external use.\n\n**Recording.** Data is represented magnetically on rotating platters and accessed by read/write heads. Saved data normally remains without power. Do not confuse a physical drive with its partitions or file system.\n\n**Performance.** Head positioning and rotational delay contribute to access latency. Transfer rate measures data moved over time. RPM, interface limits and cache are relevant but do not alone establish performance for every workload.\n\n**Placement.** Internal drives are installed within the system. An external enclosure provides an external connection and may require its own power. The enclosure does not turn the recording medium into flash or optical storage.\n\n**Capacity and care.** Use clear units: 1 GB is 1,000,000,000 bytes and 1 GiB is 1,073,741,824 bytes. Overhead affects usable space. Handle drives according to the manual, keep independent recovery copies and leave the sealed recording assembly unopened.\n\n### 2. Compare RAID, NAS and an independent backup for a school.\n\n**Drive organisation.** RAID 0 stripes without redundancy. RAID 1 mirrors. RAID 5 uses distributed parity and needs at least three drives. These examples address selected drive-level behaviour, not every cause of data loss.\n\n**Network service.** A NAS provides shared file access over a network. It can contain supported HDDs or SSDs and may use RAID. Folder permissions determine who can read or change resources.\n\n**Recovery copy.** A separate backup retains recoverable work according to a plan. Live deletion or corruption can affect an array and can also propagate through sync, so availability mechanisms must not be confused with historical recovery.\n\n**School example.** Place approved class files in a permission-controlled shared folder, maintain separate recoverable copies and test restoration. Verify which failure each measure addresses instead of assuming the presence of RAID guarantees every file is safe.\n\n### 3. Describe flash devices and the compatibility checks needed before use.\n\n**Technology.** Flash is electrically rewritable and non-volatile. A typical SSD uses chips and a controller without spinning platters. Wear levelling and error correction support management, but endurance and reliability remain limited.\n\n**SSD formats.** 2.5-inch and M.2 describe physical formats. SATA, PCIe and NVMe describe different interface or access aspects. Check the exact host and drive specifications rather than equating M.2 with NVMe.\n\n**Cards and USB.** SD-family cards must match host support for their family, capacity and required performance. USB drive speed depends on the device and connection path. A passive card adapter changes physical presentation rather than adding every missing capability.\n\n**Legacy expansion and handling.** ExpressCard is a legacy notebook expansion format with storage-related and other modules. Identify the function first. Finish writes and use supported removal procedures for removable media; keep verified recovery copies.\n\n### 4. Compare CD, DVD and Blu-ray and explain a checked recording workflow.\n\n**Optical reading.** A compatible drive uses a laser to detect recorded optical information. Blu-ray uses blue-violet light with an optical design supporting denser recording than DVD.\n\n**Typical capacities.** Common labelled examples are a 700 MB data CD, a 4.7 GB single-layer DVD and a 25 GB single-layer Blu-ray. Layers and variants change capacity; these examples do not describe every disc.\n\n**Recording types.** ROM is read-only. R media are write-once recordable; RW or BD-RE support rewriting. Several files can be stored on a recordable disc. Reading a format and writing it require separately supported capabilities.\n\n**Workflow.** Choose suitable media and a compatible writer, select non-sensitive practice files, complete recording with supported software and verify the finished files on the intended reader. Protect surfaces and retain other copies; no disc is a guarantee of permanent preservation.\n\n### 5. Explain magnetic tape performance and its backup/archive role.\n\n**Medium and access.** A drive reads a magnetic flexible strip in a cartridge. Physical sequential positioning is needed even where an index identifies a file location. A compatible cartridge and drive must be available.\n\n**Performance.** Mounting and positioning can delay first access; sustained streaming rate measures transfer after positioning. Large continuous workloads and scattered small-file requests have different demands.\n\n**Capacity and purpose.** Native capacity does not depend on compression savings. Compressed capacity depends on input characteristics. Backups support recovery; archives retain selected information under a longer-term reference plan.\n\n**Recoverability.** Track media and locations, protect required keys, follow handling guidance and test restores. A properly separated offline cartridge can reduce exposure to online incidents, but loss, damage, incompatibility or unavailable keys can still prevent recovery.\n\n### 6. Design a recoverable storage workflow for a student project.\n\n**Working copy.** Save current work in an approved local location and use meaningful filenames. Ordinary unsaved RAM contents are not a retained project copy. Match available storage and performance to the task.\n\n**Additional copies.** Maintain suitable separate copies, including a copy away from the same physical location where appropriate. A mirror or live sync alone does not preserve every earlier state. Specify what is retained and for how long.\n\n**Cloud use.** Use an authorised account and suitable viewer/editor permissions. Check upload completion, offline-file availability when needed and the actual version/retention policy. The service uses physical infrastructure and still needs customer-side access management.\n\n**Restore test.** Recover a non-sensitive sample to a separate location, open it and compare contents. Record the media, software, account and keys needed for recovery. Preserve the original until the required copies and recovery checks are complete.\n\n## Expected practice and past-paper status\n\nThe questions in this guide are original syllabus-based practice. No supplied past paper was available for verification. No board/year appearance, frequency claim or guaranteed exam question is asserted. Use every topic section for preparation.\n\n## Practical activities and viva preparation\n\n### Inventory storage without changing it\n\nOn a permitted device, observe storage information in system settings. Record each visible device or volume, its reported capacity and unit, and whether the technology is known from the model documentation. Do not initialise, format, partition or open a drive.\n\n**Expected result:** A labelled table that distinguishes a device from a volume and states unknown technology honestly.\n\n### Calculate units and mirrored capacity\n\nOn paper, compare 1 GB with 1 GiB. Then calculate the usable unique-data capacity before overhead for two equal 1 TB drives in a simple RAID 1 mirror. Explain why this is not an independent backup.\n\n**Expected result:** Correct byte multipliers and about 1 TB mirrored usable capacity, with a recovery limitation.\n\n### Copy and reopen a practice file\n\nCreate a non-sensitive sample in an approved practice folder. Copy it to a second permitted storage location, wait for completion and open the copy. Compare text and file size; use supported removal for removable media. Retain the original.\n\n**Expected result:** A readable matching copy and a record of source/destination; two folders on one drive are not claimed to protect against failure of that drive.\n\n### Classify optical and tape labels\n\nUsing labels, photographs or manuals, identify CD/DVD/Blu-ray families, ROM/R/RW/RE markings where relevant, and a tape cartridge with its required drive. State typical versus model-specific capacity and native versus compressed tape capacity.\n\n**Expected result:** A comparison that does not assume every drive reads or writes every medium; no equipment disassembly is required.\n\n### Plan and demonstrate recovery\n\nDraw a project storage plan with working copy, separate recoverable copy and an appropriately separated location. If an approved account is already available, upload only a non-sensitive sample, download it separately and compare contents. Otherwise complete the same recovery demonstration between permitted local locations and explain the cloud steps on paper. Do not change subscriptions or expose private files.\n\n**Expected result:** A checked restored sample, named dependencies and suitable sharing/retention choices; sync alone is not presented as a complete backup.\n\n### Viva questions\n\nWhy does a drive retain data when ordinary RAM loses it? How does access latency differ from transfer rate? Why are RAID, NAS, sync and backup different? Does M.2 always mean NVMe? Can a CD reader write Blu-ray? Why can tape stream efficiently despite sequential positioning? How would you prove that a project file is actually recoverable? Use the topic notes and solved answers to check your explanation.\n\n## Chapter practice test\n\nSuggested practice format: 20 MCQs, 10 short questions and 3 long questions. This is a learning exercise, not an official PBTE paper pattern. Attempt it before reading the key. Some MCQs revisit the revision bank to check retention.\n\n### Q1. What does non-volatile storage mean?\n\nA) It cannot ever suffer data loss\n\nB) It normally retains saved data without power\n\nC) It must be faster than every RAM module\n\nD) It needs continuous power to retain all saved bits\n\n### Q2. Which RAID level stripes data without redundancy?\n\nA) RAID 1\n\nB) RAID 5\n\nC) Every RAID level always mirrors all data\n\nD) RAID 0\n\n### Q3. Before overhead, what is the usable capacity of two equal 1 TB drives in a simple RAID 1 mirror?\n\nA) About 2 TB\n\nB) About 4 TB\n\nC) About 1 TB\n\nD) Exactly zero bytes\n\n### Q4. What does NAS primarily provide?\n\nA) Only a new magnetic recording material\n\nB) Only CPU register storage\n\nC) File access to storage over a network\n\nD) Only a particular RAID level\n\n### Q5. Which property describes flash memory?\n\nA) A magnetic tape that must always be rewound\n\nB) A phosphor-coated display surface\n\nC) A volatile register inside every keyboard\n\nD) Electrically rewritable non-volatile storage\n\n### Q6. What is the purpose of wear levelling?\n\nA) Spin an SSD's platters faster\n\nB) Spread writes across flash locations\n\nC) Increase a monitor's pixel count\n\nD) Turn a USB cable into a backup\n\n### Q7. Which pair can describe different M.2 SSD interfaces or access technologies?\n\nA) CRT and LCD\n\nB) Inkjet and laser\n\nC) SATA and PCIe/NVMe\n\nD) OCR and OMR\n\n### Q8. Which statement correctly describes ExpressCard?\n\nA) A universal synonym for NAND flash\n\nB) A guarantee that every module stores user files\n\nC) A modern cloud protocol used by every SSD\n\nD) A legacy expansion format whose modules can have different functions\n\n### Q9. How is an optical disc normally read?\n\nA) By moving magnetic HDD heads over its surface\n\nB) With a laser and reflected-light detection\n\nC) By measuring a keyboard's key pressure\n\nD) By reading only volatile RAM cells\n\n### Q10. What does ROM identify in CD-ROM?\n\nA) Repeatedly erasable optical media in every case\n\nB) A USB connector standard\n\nC) A type of live RAM cache\n\nD) Read-only memory media\n\n### Q11. Why must a drive's write support be checked separately from read support?\n\nA) Every reader automatically writes all disc families\n\nB) Writing always requires no hardware\n\nC) A device able to read a format may not be able to record it\n\nD) A disc tray guarantees universal writing support\n\n### Q12. What should follow writing important files to a disc?\n\nA) Assume the tray closing proves every file is correct\n\nB) Discard every other copy immediately\n\nC) Scratch the data surface to label it\n\nD) Verify the recorded files using a compatible reader\n\n### Q13. What physical medium does magnetic tape use?\n\nA) A flexible strip with a magnetic recording layer\n\nB) Only a liquid-crystal display panel\n\nC) Only a silicon CPU register\n\nD) Only a pressed optical disc\n\n### Q14. Which statement about tape performance is most accurate?\n\nA) Sequential access proves all transfers are always slow\n\nB) It can stream large continuous transfers efficiently after positioning\n\nC) It has no mounting or positioning latency\n\nD) Every tape product has identical throughput\n\n### Q15. Why should native and compressed tape capacities be distinguished?\n\nA) Compression benefit depends on the data\n\nB) Every file compresses to exactly zero bytes\n\nC) Compressed capacity is always fully available for all inputs\n\nD) Native capacity counts only the cartridge's physical weight\n\n### Q16. Which check provides stronger evidence of backup usability than a copy log alone?\n\nA) Restore sample files and verify their contents\n\nB) Only count the cartridge labels\n\nC) Only check the screen's wallpaper\n\nD) Only print the word successful\n\n### Q17. Where is cloud-stored data ultimately held?\n\nA) In an environment requiring no hardware at all\n\nB) On physical storage operated as part of a remote service\n\nC) Only inside every user's keyboard\n\nD) Only as light permanently travelling through a cable\n\n### Q18. What risk can arise from deleting a file in a synchronised folder?\n\nA) Sync guarantees an immutable permanent copy automatically\n\nB) The deletion can never affect the cloud copy\n\nC) The deletion may propagate to other synced locations\n\nD) Every other device is automatically an offline archive\n\n### Q19. What should be checked before relying on offline access?\n\nA) A supported local copy is available and opens offline\n\nB) Only that a filename appears in a folder\n\nC) Only that a sharing link exists\n\nD) Only that the monitor is powered\n\n### Q20. What is a meaningful restore check for an important document?\n\nA) Recover a copy, open it and compare its contents\n\nB) Only look at an upload icon\n\nC) Only rename the original file\n\nD) Only check the provider's logo\n\n### Short questions\n\n1. Define digital storage and distinguish it from ordinary RAM.\n\n2. Name three HDD performance characteristics.\n\n3. Compare RAID 0 and RAID 1.\n\n4. What is NAS and how does it differ from RAID?\n\n5. Why is M.2 not a synonym for NVMe?\n\n6. What are wear levelling and one SSD limitation?\n\n7. Distinguish recordable and rewritable optical media.\n\n8. Explain sequential access in tape storage.\n\n9. Distinguish native and compressed tape capacity.\n\n10. How do cloud sync and backup differ?\n\n### Long questions\n\n1. Compare RAID, NAS and an independent backup for a school.\n\n2. Compare CD, DVD and Blu-ray and explain a checked recording workflow.\n\n3. Design a recoverable storage workflow for a student project.\n\n## Practice test answer key and explanations\n\n1. **B**. Non-volatile describes retention without power, not immunity to failure.\n\n2. **D**. RAID 0 distributes data but supplies no redundant copy or parity protection.\n\n3. **C**. The second drive holds a mirror, so the pair does not provide 2 TB of unique data space.\n\n4. **C**. NAS is a network file-serving role and can use different supported drives or arrays.\n\n5. **D**. Flash can retain data without power and can be electrically rewritten.\n\n6. **B**. Distributing writes helps avoid concentrating wear on the same cells.\n\n7. **C**. M.2 SSDs are not universally the same interface or protocol.\n\n8. **D**. ExpressCard modules can provide storage-related or other expansion functions.\n\n9. **B**. Optical storage uses light to detect recorded information.\n\n10. **D**. A CD-ROM is intended to be read rather than user-rewritten.\n\n11. **C**. Reading and recording are distinct hardware capabilities.\n\n12. **D**. Verification checks that the completed recording can actually be read.\n\n13. **A**. Tape records magnetic information along a flexible medium.\n\n14. **B**. Latency and sustained streaming throughput are different performance measures.\n\n15. **A**. Advertised compressed capacity relies on assumptions about compressibility.\n\n16. **A**. A restore exercise tests whether retained data can actually be recovered.\n\n17. **B**. Cloud describes a service model rather than absence of physical infrastructure.\n\n18. **C**. Sync follows changes according to its behaviour, which can include deletions.\n\n19. **A**. Offline availability requires actual locally accessible contents.\n\n20. **A**. A restore check tests the required recovery behaviour rather than assuming success.\n\n### Written-answer guidance\n\nShort questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Award credit for correct concepts, clear terminology, relevant examples and labelled diagrams; do not require identical wording.\n\n## Sources and further study\n\n- [PBTE official two-year DIT syllabus, ICT Module 4, page 8](https://www.pbte.edu.pk/Academics/textbooks/2026/DIT/Syllabus%20of%20DIT%2002%20year/1.%20Course%20Content%20DIT%201st%20Semester%20First%20year.pdf)\n\n- [Seagate HDD performance and RPM](https://www.seagate.com/blog/choosing-high-performance-storage-is-not-about-rpm-anymore-master-ti/)\n\n- [IBM RAID levels and backup distinction](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-raid-levels)\n\n- [Dell RAID level specifications](https://www.dell.com/support/kbdoc/en-us/000128635/dell-servers-what-are-the-raid-levels-and-their-specifications)\n\n- [IBM network-attached storage](https://www.ibm.com/think/topics/network-attached-storage)\n\n- [Kingston SATA and M.2 SSD questions](https://www.kingston.com/en/ssd/ssd-faq)\n\n- [Sonnet legacy ExpressCard products](https://www.sonnettech.com/Product/legacyproducts/index.html)\n\n- [Panasonic Blu-ray media formats](https://docs.connect.panasonic.com/blu-ray_disc/)\n\n- [IBM tape access performance considerations](https://www.ibm.com/docs/en/storage-archive-le/2.4.6?topic=tips-performance-considerations)\n\n- [Microsoft behaviour of synced files](https://support.microsoft.com/en-gb/sharepoint/sync/work-with-synced-files-in-file-explorer)\n\n- [NIST decimal and binary prefixes](https://physics.nist.gov/cuu/Units/binary.html)\n\n- [Kingston flash memory guide](https://media.kingston.com/pdfs/MKF_283.2_Flash_Memory_Guide_EN.pdf)\n\n- [Viking Technology NAND wear levelling application note](https://www.vikingtechnology.com/wp-content/uploads/2021/03/AN0027_WearLeveling_RevB.pdf)\n\n- [IBM tape compression assumptions](https://www.ibm.com/docs/en/7m1sde?topic=feature-lto-features)\n\n## Continue your ICT revision\n\n[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).\n\n[Review Chapter 3 Input and Output Devices](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-3-input-output-devices/).\n",
+  "questions": [
+    {
+      "id": "dit-ict-ch4-q01",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What is the recording principle of an HDD?",
+      "options": [
+        "Magnetic recording on rotating platters",
+        "Only laser-written optical marks",
+        "Only charge stored in NAND flash cells",
+        "Only temporary values in CPU registers"
+      ],
+      "correctIndex": 0,
+      "explanation": "An HDD uses magnetic surfaces and moving mechanical components."
+    },
+    {
+      "id": "dit-ict-ch4-q02",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What does non-volatile storage mean?",
+      "options": [
+        "It cannot ever suffer data loss",
+        "It normally retains saved data without power",
+        "It must be faster than every RAM module",
+        "It needs continuous power to retain all saved bits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Non-volatile describes retention without power, not immunity to failure."
+    },
+    {
+      "id": "dit-ict-ch4-q03",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What does HDD RPM measure?",
+      "options": [
+        "Files restored per month",
+        "Platter revolutions per minute",
+        "Bytes transferred per second",
+        "Number of network users"
+      ],
+      "correctIndex": 1,
+      "explanation": "RPM describes rotational speed rather than capacity or transfer throughput."
+    },
+    {
+      "id": "dit-ict-ch4-q04",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What does seek time primarily involve in an HDD?",
+      "options": [
+        "Uploading a file to a cloud account",
+        "Changing a screen's brightness",
+        "Printing a folder listing",
+        "Positioning the read/write heads"
+      ],
+      "correctIndex": 3,
+      "explanation": "The heads must move to a suitable recording location before access."
+    },
+    {
+      "id": "dit-ict-ch4-q05",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "Which statement best distinguishes an internal and external HDD?",
+      "options": [
+        "Every external HDD stores only optical marks",
+        "They can use the same magnetic principle but differ in placement and connection",
+        "Every internal HDD is volatile RAM",
+        "An external enclosure guarantees a faster drive"
+      ],
+      "correctIndex": 1,
+      "explanation": "An enclosure and external interface do not change the underlying recording principle."
+    },
+    {
+      "id": "dit-ict-ch4-q06",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "Which RAID level stripes data without redundancy?",
+      "options": [
+        "RAID 1",
+        "RAID 5",
+        "Every RAID level always mirrors all data",
+        "RAID 0"
+      ],
+      "correctIndex": 3,
+      "explanation": "RAID 0 distributes data but supplies no redundant copy or parity protection."
+    },
+    {
+      "id": "dit-ict-ch4-q07",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What is the defining idea of a simple RAID 1 arrangement?",
+      "options": [
+        "Striping without any redundancy",
+        "Mirroring data across drives",
+        "Using only a single optical disc",
+        "Converting HDDs into RAM"
+      ],
+      "correctIndex": 1,
+      "explanation": "RAID 1 maintains mirrored data rather than adding the capacities as independent space."
+    },
+    {
+      "id": "dit-ict-ch4-q08",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "Before overhead, what is the usable capacity of two equal 1 TB drives in a simple RAID 1 mirror?",
+      "options": [
+        "About 2 TB",
+        "About 4 TB",
+        "About 1 TB",
+        "Exactly zero bytes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The second drive holds a mirror, so the pair does not provide 2 TB of unique data space."
+    },
+    {
+      "id": "dit-ict-ch4-q09",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What is the minimum drive count for an ordinary RAID 5 array?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Only ten"
+      ],
+      "correctIndex": 2,
+      "explanation": "RAID 5 needs at least three drives for striping with distributed parity."
+    },
+    {
+      "id": "dit-ict-ch4-q10",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "Why is RAID not a substitute for backup?",
+      "options": [
+        "Deletion or corruption can affect the array's live data",
+        "Every RAID array is stored on paper",
+        "RAID always prevents every malware action",
+        "RAID creates an offline historical copy automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drive redundancy addresses selected failures and does not preserve every earlier file state."
+    },
+    {
+      "id": "dit-ict-ch4-q11",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "What does NAS primarily provide?",
+      "options": [
+        "Only a new magnetic recording material",
+        "Only CPU register storage",
+        "File access to storage over a network",
+        "Only a particular RAID level"
+      ],
+      "correctIndex": 2,
+      "explanation": "NAS is a network file-serving role and can use different supported drives or arrays."
+    },
+    {
+      "id": "dit-ict-ch4-q12",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.1 Hard Disks, RAID and NAS",
+      "question": "Which equality correctly uses a binary capacity prefix?",
+      "options": [
+        "1 GB equals exactly 1,073,741,824 bytes under SI",
+        "1 GiB equals 1,073,741,824 bytes",
+        "1 GiB equals exactly 1,000 bytes",
+        "1 GB always equals 1 GiB"
+      ],
+      "correctIndex": 1,
+      "explanation": "GiB uses a power of two while GB uses the decimal SI multiplier."
+    },
+    {
+      "id": "dit-ict-ch4-q13",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "Which property describes flash memory?",
+      "options": [
+        "A magnetic tape that must always be rewound",
+        "A phosphor-coated display surface",
+        "A volatile register inside every keyboard",
+        "Electrically rewritable non-volatile storage"
+      ],
+      "correctIndex": 3,
+      "explanation": "Flash can retain data without power and can be electrically rewritten."
+    },
+    {
+      "id": "dit-ict-ch4-q14",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "Which mechanical components are absent from a typical flash SSD?",
+      "options": [
+        "All electronic controllers",
+        "All electrical connectors",
+        "Spinning platters and moving recording heads",
+        "All storage chips"
+      ],
+      "correctIndex": 2,
+      "explanation": "SSDs use electronic storage rather than an HDD's moving recording mechanism."
+    },
+    {
+      "id": "dit-ict-ch4-q15",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "What is a storage controller's role in an SSD?",
+      "options": [
+        "Manage access to the flash chips",
+        "Project every saved file onto a wall",
+        "Replace every operating system function",
+        "Guarantee unlimited write endurance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The controller coordinates reads, writes and flash-management functions."
+    },
+    {
+      "id": "dit-ict-ch4-q16",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "What is the purpose of wear levelling?",
+      "options": [
+        "Spin an SSD's platters faster",
+        "Spread writes across flash locations",
+        "Increase a monitor's pixel count",
+        "Turn a USB cable into a backup"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distributing writes helps avoid concentrating wear on the same cells."
+    },
+    {
+      "id": "dit-ict-ch4-q17",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "Which statement about SSD reliability is correct?",
+      "options": [
+        "No moving parts guarantees permanent data retention",
+        "Every SSD has unlimited program/erase cycles",
+        "An SSD can fail and still needs suitable backups",
+        "An SSD automatically makes an independent offline copy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electronic storage has failure and endurance limits despite lacking moving heads."
+    },
+    {
+      "id": "dit-ict-ch4-q18",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "What does M.2 primarily describe?",
+      "options": [
+        "A universal guarantee of NVMe support",
+        "A physical form factor",
+        "A cloud subscription type",
+        "A type of magnetic tape reel"
+      ],
+      "correctIndex": 1,
+      "explanation": "M.2 devices can use different supported interfaces and functions."
+    },
+    {
+      "id": "dit-ict-ch4-q19",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "Which pair can describe different M.2 SSD interfaces or access technologies?",
+      "options": [
+        "CRT and LCD",
+        "Inkjet and laser",
+        "SATA and PCIe/NVMe",
+        "OCR and OMR"
+      ],
+      "correctIndex": 2,
+      "explanation": "M.2 SSDs are not universally the same interface or protocol."
+    },
+    {
+      "id": "dit-ict-ch4-q20",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "What should be checked before using an SD-family memory card?",
+      "options": [
+        "Only the card's printed colour",
+        "Only the keyboard layout",
+        "The host's supported capacity family and speed requirements",
+        "Only the monitor's refresh rate"
+      ],
+      "correctIndex": 2,
+      "explanation": "The host must support the card's relevant format and recording requirements."
+    },
+    {
+      "id": "dit-ict-ch4-q21",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "What does a passive microSD-to-SD adapter normally change?",
+      "options": [
+        "The host's firmware compatibility automatically",
+        "The card's stored bytes into unlimited capacity",
+        "The card's flash into magnetic tape",
+        "The card's physical presentation to the slot"
+      ],
+      "correctIndex": 3,
+      "explanation": "A passive adapter does not by itself add missing host support or storage capacity."
+    },
+    {
+      "id": "dit-ict-ch4-q22",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "Which statement about USB-C storage is accurate?",
+      "options": [
+        "Every USB-C storage device has identical performance",
+        "Connector shape alone does not guarantee transfer speed",
+        "USB-C always means an optical disc",
+        "USB-C storage cannot contain flash"
+      ],
+      "correctIndex": 1,
+      "explanation": "Device, port, cable and supported modes affect performance."
+    },
+    {
+      "id": "dit-ict-ch4-q23",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "What is an appropriate step before disconnecting removable storage?",
+      "options": [
+        "Remove it in the middle of every write",
+        "Assume a progress window proves all writes are complete",
+        "Finish writes and use the supported removal procedure",
+        "Format it immediately after every saved file"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pending writes must be handled correctly to reduce corruption risk."
+    },
+    {
+      "id": "dit-ict-ch4-q24",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.2 Flash Storage and Solid-State Drives",
+      "question": "Which statement correctly describes ExpressCard?",
+      "options": [
+        "A universal synonym for NAND flash",
+        "A guarantee that every module stores user files",
+        "A modern cloud protocol used by every SSD",
+        "A legacy expansion format whose modules can have different functions"
+      ],
+      "correctIndex": 3,
+      "explanation": "ExpressCard modules can provide storage-related or other expansion functions."
+    },
+    {
+      "id": "dit-ict-ch4-q25",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "How is an optical disc normally read?",
+      "options": [
+        "By moving magnetic HDD heads over its surface",
+        "With a laser and reflected-light detection",
+        "By measuring a keyboard's key pressure",
+        "By reading only volatile RAM cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Optical storage uses light to detect recorded information."
+    },
+    {
+      "id": "dit-ict-ch4-q26",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Which is a common labelled capacity for a data CD?",
+      "options": [
+        "25 GB for every CD",
+        "700 MB",
+        "1 TB for every CD",
+        "Exactly 4.7 TB"
+      ],
+      "correctIndex": 1,
+      "explanation": "A common data CD is labelled 700 MB, though formats and uses differ."
+    },
+    {
+      "id": "dit-ict-ch4-q27",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Which is a common labelled capacity for a single-layer DVD?",
+      "options": [
+        "700 GB",
+        "25 TB",
+        "4.7 GB",
+        "Exactly 1 GiB in every case"
+      ],
+      "correctIndex": 2,
+      "explanation": "4.7 GB is a common single-layer DVD example rather than every DVD's capacity."
+    },
+    {
+      "id": "dit-ict-ch4-q28",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Which is a common labelled capacity for a single-layer Blu-ray Disc?",
+      "options": [
+        "700 MB in every case",
+        "4.7 MB",
+        "25 GB",
+        "Exactly 500 GB for every format"
+      ],
+      "correctIndex": 2,
+      "explanation": "A common single-layer Blu-ray has 25 GB labelled capacity; variants differ."
+    },
+    {
+      "id": "dit-ict-ch4-q29",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "What does ROM identify in CD-ROM?",
+      "options": [
+        "Repeatedly erasable optical media in every case",
+        "A USB connector standard",
+        "A type of live RAM cache",
+        "Read-only memory media"
+      ],
+      "correctIndex": 3,
+      "explanation": "A CD-ROM is intended to be read rather than user-rewritten."
+    },
+    {
+      "id": "dit-ict-ch4-q30",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "What is the main distinction between CD-R and CD-RW?",
+      "options": [
+        "CD-R is magnetic and CD-RW is a microphone",
+        "CD-RW cannot contain data files",
+        "CD-R is write-once recordable; CD-RW supports rewriting",
+        "CD-R always holds exactly one file"
+      ],
+      "correctIndex": 2,
+      "explanation": "Recordable and rewritable describe different permitted recording behaviour."
+    },
+    {
+      "id": "dit-ict-ch4-q31",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "What does BD-RE indicate?",
+      "options": [
+        "A magnetic tape drive",
+        "A read-only HDD partition",
+        "A RAM expansion socket",
+        "Rewritable Blu-ray media"
+      ],
+      "correctIndex": 3,
+      "explanation": "BD-RE is a rewritable Blu-ray designation."
+    },
+    {
+      "id": "dit-ict-ch4-q32",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Why must a drive's write support be checked separately from read support?",
+      "options": [
+        "Every reader automatically writes all disc families",
+        "Writing always requires no hardware",
+        "A device able to read a format may not be able to record it",
+        "A disc tray guarantees universal writing support"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reading and recording are distinct hardware capabilities."
+    },
+    {
+      "id": "dit-ict-ch4-q33",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Why can Blu-ray support higher recording density than DVD in its format?",
+      "options": [
+        "It stores data only as magnetic tape",
+        "It uses a shorter-wavelength blue-violet laser with an appropriate optical design",
+        "It replaces all optical reading with keyboard input",
+        "It guarantees unlimited layers on every disc"
+      ],
+      "correctIndex": 1,
+      "explanation": "The format's optical design supports denser recording, not unlimited capacity."
+    },
+    {
+      "id": "dit-ict-ch4-q34",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Can a CD-only drive be assumed to read Blu-ray discs?",
+      "options": [
+        "No, it needs support for the Blu-ray format",
+        "Yes, all discs with a centre hole are interchangeable",
+        "Yes, changing the filename always adds support",
+        "Yes, because the disc capacity is irrelevant to drive design"
+      ],
+      "correctIndex": 0,
+      "explanation": "Similar physical appearance does not establish optical-format compatibility."
+    },
+    {
+      "id": "dit-ict-ch4-q35",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "What should follow writing important files to a disc?",
+      "options": [
+        "Assume the tray closing proves every file is correct",
+        "Discard every other copy immediately",
+        "Scratch the data surface to label it",
+        "Verify the recorded files using a compatible reader"
+      ],
+      "correctIndex": 3,
+      "explanation": "Verification checks that the completed recording can actually be read."
+    },
+    {
+      "id": "dit-ict-ch4-q36",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.3 Optical Storage: CDs, DVDs and Blu-ray",
+      "question": "Which statement about write-once optical media is accurate?",
+      "options": [
+        "It can contain multiple files without being repeatedly erasable",
+        "It can hold exactly one file in all cases",
+        "It behaves identically to rewritable flash",
+        "It can always be erased and rewritten indefinitely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Write-once describes recording areas, not a universal one-file limit."
+    },
+    {
+      "id": "dit-ict-ch4-q37",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What physical medium does magnetic tape use?",
+      "options": [
+        "A flexible strip with a magnetic recording layer",
+        "Only a liquid-crystal display panel",
+        "Only a silicon CPU register",
+        "Only a pressed optical disc"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tape records magnetic information along a flexible medium."
+    },
+    {
+      "id": "dit-ict-ch4-q38",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What is needed to read a tape cartridge?",
+      "options": [
+        "Only an ordinary CD-only reader",
+        "A compatible tape drive",
+        "Only a projector",
+        "Only an SD-to-microSD adapter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The drive and media format must support one another."
+    },
+    {
+      "id": "dit-ict-ch4-q39",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What is the main access characteristic of tape?",
+      "options": [
+        "Physical sequential positioning along the medium",
+        "Instant electronic access to every position without movement",
+        "Random keyboard selection of every magnetic cell",
+        "Optical reading using a Blu-ray laser"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tape must move to reach recording positions."
+    },
+    {
+      "id": "dit-ict-ch4-q40",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What can an index provide for tape files?",
+      "options": [
+        "Elimination of all mechanical tape movement",
+        "Unlimited physical capacity",
+        "Compatibility with every tape drive",
+        "A way to identify their recorded locations"
+      ],
+      "correctIndex": 3,
+      "explanation": "An index helps locate data logically while physical positioning remains necessary."
+    },
+    {
+      "id": "dit-ict-ch4-q41",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "Which statement about tape performance is most accurate?",
+      "options": [
+        "Sequential access proves all transfers are always slow",
+        "It can stream large continuous transfers efficiently after positioning",
+        "It has no mounting or positioning latency",
+        "Every tape product has identical throughput"
+      ],
+      "correctIndex": 1,
+      "explanation": "Latency and sustained streaming throughput are different performance measures."
+    },
+    {
+      "id": "dit-ict-ch4-q42",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What does access latency describe in a tape restore?",
+      "options": [
+        "Delay before the requested data can begin to be delivered",
+        "Only the total number of bytes on the label",
+        "Only the file's extension",
+        "The computer monitor's refresh interval"
+      ],
+      "correctIndex": 0,
+      "explanation": "Preparation, mounting and positioning can contribute to restore delay."
+    },
+    {
+      "id": "dit-ict-ch4-q43",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What is the role of a tape library's robotic mechanism?",
+      "options": [
+        "Turn every cartridge into flash memory",
+        "Remove the need for a data catalogue",
+        "Read every tape without any drive",
+        "Move cartridges between storage locations and drives"
+      ],
+      "correctIndex": 3,
+      "explanation": "A library can automate media handling in a managed system."
+    },
+    {
+      "id": "dit-ict-ch4-q44",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "Why should native and compressed tape capacities be distinguished?",
+      "options": [
+        "Compression benefit depends on the data",
+        "Every file compresses to exactly zero bytes",
+        "Compressed capacity is always fully available for all inputs",
+        "Native capacity counts only the cartridge's physical weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Advertised compressed capacity relies on assumptions about compressibility."
+    },
+    {
+      "id": "dit-ict-ch4-q45",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "Which data may offer limited additional lossless compression?",
+      "options": [
+        "Highly repetitive uncompressed text in every comparison",
+        "A long file of identical characters",
+        "A list containing the same phrase repeatedly",
+        "Already compressed video"
+      ],
+      "correctIndex": 3,
+      "explanation": "Previously compressed content may have little redundancy left for another compressor."
+    },
+    {
+      "id": "dit-ict-ch4-q46",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "What distinguishes an archive's primary purpose from a recovery backup?",
+      "options": [
+        "Long-term retention for reference under a plan",
+        "Guaranteeing every application runs from tape",
+        "Replacing every file system with RAM",
+        "Making temporary unsaved edits only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Archives focus on retained reference information; backups focus on recoverability after loss."
+    },
+    {
+      "id": "dit-ict-ch4-q47",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "Why might an encrypted tape remain unrecoverable even if its surface is readable?",
+      "options": [
+        "The required encryption key is unavailable",
+        "A label automatically decrypts all recordings",
+        "Every tape drive bypasses encryption",
+        "Offline cartridges never use keys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Readable media alone is insufficient when necessary keys or compatible software are missing."
+    },
+    {
+      "id": "dit-ict-ch4-q48",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.4 Magnetic Tape Storage",
+      "question": "Which check provides stronger evidence of backup usability than a copy log alone?",
+      "options": [
+        "Restore sample files and verify their contents",
+        "Only count the cartridge labels",
+        "Only check the screen's wallpaper",
+        "Only print the word successful"
+      ],
+      "correctIndex": 0,
+      "explanation": "A restore exercise tests whether retained data can actually be recovered."
+    },
+    {
+      "id": "dit-ict-ch4-q49",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "Where is cloud-stored data ultimately held?",
+      "options": [
+        "In an environment requiring no hardware at all",
+        "On physical storage operated as part of a remote service",
+        "Only inside every user's keyboard",
+        "Only as light permanently travelling through a cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cloud describes a service model rather than absence of physical infrastructure."
+    },
+    {
+      "id": "dit-ict-ch4-q50",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "What does uploading mean?",
+      "options": [
+        "Obtaining a local copy from the service",
+        "Printing every remote file",
+        "Transferring data from the local side to the service",
+        "Erasing every version of a document"
+      ],
+      "correctIndex": 2,
+      "explanation": "Upload sends data to the remote service; download transfers it back."
+    },
+    {
+      "id": "dit-ict-ch4-q51",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "What does downloading mean?",
+      "options": [
+        "Sending a local file to the service",
+        "Increasing the monitor resolution",
+        "Obtaining data from the service on the local side",
+        "Mirroring two HDDs inside one case"
+      ],
+      "correctIndex": 2,
+      "explanation": "Download obtains data from the remote service."
+    },
+    {
+      "id": "dit-ict-ch4-q52",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "What risk can arise from deleting a file in a synchronised folder?",
+      "options": [
+        "Sync guarantees an immutable permanent copy automatically",
+        "The deletion can never affect the cloud copy",
+        "The deletion may propagate to other synced locations",
+        "Every other device is automatically an offline archive"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sync follows changes according to its behaviour, which can include deletions."
+    },
+    {
+      "id": "dit-ict-ch4-q53",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "Which feature may help recover an earlier cloud file state when supported?",
+      "options": [
+        "Only a larger screen",
+        "Only a different keyboard",
+        "Only changing the file's icon",
+        "Version history with suitable retention"
+      ],
+      "correctIndex": 3,
+      "explanation": "Recovery depends on the service's versioning and retention configuration."
+    },
+    {
+      "id": "dit-ict-ch4-q54",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "What does an online-only placeholder fail to prove?",
+      "options": [
+        "That a filename exists in the interface",
+        "That the service has a file listing",
+        "That the user has seen an icon",
+        "That the complete file is available without a connection"
+      ],
+      "correctIndex": 3,
+      "explanation": "A placeholder can represent a remote file whose contents still require downloading."
+    },
+    {
+      "id": "dit-ict-ch4-q55",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "What should be checked before relying on offline access?",
+      "options": [
+        "A supported local copy is available and opens offline",
+        "Only that a filename appears in a folder",
+        "Only that a sharing link exists",
+        "Only that the monitor is powered"
+      ],
+      "correctIndex": 0,
+      "explanation": "Offline availability requires actual locally accessible contents."
+    },
+    {
+      "id": "dit-ict-ch4-q56",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "Which sharing choice best fits a read-only class handout for named students?",
+      "options": [
+        "Publish unrestricted editing access to everyone",
+        "Grant the intended recipients viewer access",
+        "Send the owner's account password to the whole class",
+        "Disable all account protection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recipient and role restrictions align access with the intended task."
+    },
+    {
+      "id": "dit-ict-ch4-q57",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "Why is encryption alone insufficient for safe cloud use?",
+      "options": [
+        "Permissions, account access and recovery still need management",
+        "Encryption makes incorrect permissions irrelevant",
+        "Encryption guarantees every deleted file remains forever",
+        "Encrypted files never require keys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Encryption addresses selected protection needs rather than every operational risk."
+    },
+    {
+      "id": "dit-ict-ch4-q58",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "Which statement describes shared responsibility?",
+      "options": [
+        "The user never needs to manage sharing permissions",
+        "The provider's hardware removes all need for user authentication",
+        "Only the keyboard manufacturer controls recovery",
+        "The provider and customer each manage relevant parts of the system"
+      ],
+      "correctIndex": 3,
+      "explanation": "The provider operates service infrastructure while customers manage their use and configuration."
+    },
+    {
+      "id": "dit-ict-ch4-q59",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "Why should a guide avoid promising a permanent free storage quota?",
+      "options": [
+        "Every cloud account has unlimited free capacity",
+        "Quotas are a physical property of every keyboard",
+        "All providers have identical unchanging plans",
+        "Service plans and limits can change"
+      ],
+      "correctIndex": 3,
+      "explanation": "Plan-specific capacity and terms require current verification."
+    },
+    {
+      "id": "dit-ict-ch4-q60",
+      "classSlug": "dit-intermediate",
+      "subjectSlug": "dit-ict",
+      "chapterNumber": 4,
+      "topic": "4.5 Cloud Storage and Recoverable Copies",
+      "question": "What is a meaningful restore check for an important document?",
+      "options": [
+        "Recover a copy, open it and compare its contents",
+        "Only look at an upload icon",
+        "Only rename the original file",
+        "Only check the provider's logo"
+      ],
+      "correctIndex": 0,
+      "explanation": "A restore check tests the required recovery behaviour rather than assuming success."
+    }
+  ],
+  "pdfBytes": 72967,
+  "pdfSha256": "4b9f843a280d688cf499a21f56d04378bf7cf46939dc14261bf3bdb0abf838af",
+  "sourceSha256": "3ef44237191ecc22681ff0862d8e9d95925bd11530d14f942d9d5fc3ccb8738c"
+}

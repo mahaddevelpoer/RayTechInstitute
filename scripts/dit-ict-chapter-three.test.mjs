@@ -29,7 +29,7 @@ test('Chapter 3 covers all eight PBTE sections with 80 distinct explained questi
 });
 
 test('all three chapters remain isolated and the two published packs remain intact',async()=>{
- const all=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict');assert.equal(all.length,200);assert.equal(new Set(all.map(q=>q.id)).size,200);
+ const all=catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber<=3);assert.equal(all.length,200);assert.equal(new Set(all.map(q=>q.id)).size,200);
  assert.deepEqual(all.filter(q=>q.chapterNumber===3),pack.questions);
  for(const n of [1,2]){
   const prior=await read(`content/dit/ict-chapter-${n}.generated.json`);
@@ -40,7 +40,7 @@ test('all three chapters remain isolated and the two published packs remain inta
  }
  const note=catalog.INITIAL_NOTES.find(n=>n.id==='dit-ict-chapter-3-input-output-devices');assert.equal(note.content,pack.content);assert.equal(note.chapterNumber,3);
  assert.match(note.pdfUrl,/ict-chapter-3-input-output-devices\.pdf$/);
- assert.deepEqual(catalog.INITIAL_CHAPTERS.filter(c=>c.subjectSlug==='dit-ict').map(c=>c.chapterNumber),[1,2,3]);
+ assert.deepEqual(catalog.INITIAL_CHAPTERS.filter(c=>c.subjectSlug==='dit-ict'&&c.chapterNumber<=3).map(c=>c.chapterNumber),[1,2,3]);
 });
 
 test('reviewed web/PDF sources match and the practice test samples all eight sections',async()=>{

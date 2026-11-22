@@ -18,29 +18,30 @@ from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
 chapter = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-if chapter not in (1, 2, 3):
-    raise ValueError('Only reviewed ICT chapters 1, 2 and 3 are supported')
+if chapter not in (1, 2, 3, 4):
+    raise ValueError('Only reviewed ICT chapters 1, 2, 3 and 4 are supported')
 source = ROOT / f'content/dit/ict-chapter-{chapter}.json'
 data = json.loads(source.read_text(encoding='utf-8'))
 dest = ROOT / 'public/documents/dit/ict'
 dest.mkdir(parents=True, exist_ok=True)
-slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices'}
+slugs = {1:'introduction-to-computers',2:'system-unit-components',3:'input-output-devices',4:'digital-storage'}
 prefix = f'ict-chapter-{chapter}-' + slugs[chapter]
 topic_count = len(data['topics'])
-question_count = topic_count * 10
-topic_label = {6:'six',8:'eight'}[topic_count]
+question_count = sum(len(t['questions']) for t in data['topics'])
+topic_offsets = [sum(len(t['questions']) for t in data['topics'][:i]) for i in range(topic_count)]
+topic_label = {5:'five',6:'six',8:'eight'}[topic_count]
 coverage = f'{chapter}.1 to {chapter}.{topic_count}'
-diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg'}[chapter]
+diagram_name = {1:'computer-system-flow.svg',2:'system-unit-connections.svg',3:'input-output-device-flow.svg',4:'storage-recovery-copies.svg'}[chapter]
 questions = []
-if chapter == 3:
+if chapter >= 3:
     from random import Random
     answer_positions = list(range(4)) * (question_count//4)
-    Random(32026).shuffle(answer_positions)
+    Random(chapter*10000+2026).shuffle(answer_positions)
 for topic in data['topics']:
     for raw in topic['questions']:
         question, correct, a, b, c, explanation = raw
         index = len(questions)
-        position = (answer_positions[index] if chapter == 3 else [2,0,3,1,0,2,1,3,2,1,3,0][index % 12])
+        position = (answer_positions[index] if chapter >= 3 else [2,0,3,1,0,2,1,3,2,1,3,0][index % 12])
         options = [a,b,c]
         options.insert(position, correct)
         questions.append(dict(id=f'dit-ict-ch{chapter}-q{index+1:02}', classSlug='dit-intermediate',subjectSlug='dit-ict',chapterNumber=chapter,topic=f"{topic['code']} {topic['title']}", question=question, options=options, correctIndex=position, explanation=explanation))
@@ -74,6 +75,8 @@ long = [
 test_indices = [1,3,7,10,12,14,16,19,22,24,27,30,33,36,41,44,48,51,55,59]
 if chapter == 3:
     test_indices = [1,4,8,10,14,18,21,25,29,32,36,41,45,49,52,56,61,66,72,78]
+if chapter == 4:
+    test_indices = [1,5,7,10,12,15,18,23,24,28,31,34,36,40,43,47,48,51,54,59]
 test_questions = [questions[i] for i in test_indices]
 practical = [
 ('Identify and classify devices','Observe available devices without opening a powered computer. Record one input device, one output device, one storage device and one communication device. Explain any device with two roles.','A labelled list with correct roles and reasons.'),
@@ -95,10 +98,10 @@ def mcq_markdown(q, number, answer=True):
     if answer: result.append(f"**Correct answer: {chr(65+q['correctIndex'])}.** {q['explanation']}")
     return '\n\n'.join(result)
 
-parts=["## Chapter overview and syllabus coverage", f"This original English study guide follows PBTE's two-year D.I.T first-semester ICT Module {chapter}, syllabus sections {coverage}. It includes {question_count} explained revision MCQs, {topic_label} topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.", "| Syllabus section | Topic | Revision MCQs |\n|---|---|---|"+'\n'+ '\n'.join(f"| {t['code']} | {t['title']} | 10 |" for t in data['topics']), "## Topic-wise revision MCQs"]
+parts=["## Chapter overview and syllabus coverage", f"This original English study guide follows PBTE's two-year D.I.T first-semester ICT Module {chapter}, syllabus sections {coverage}. It includes {question_count} explained revision MCQs, {topic_label} topic guides and a separate practice test. These are authored practice questions, not verified past-paper questions.", "| Syllabus section | Topic | Revision MCQs |\n|---|---|---|"+'\n'+ '\n'.join(f"| {t['code']} | {t['title']} | {len(t['questions'])} |" for t in data['topics']), "## Topic-wise revision MCQs"]
 for t_index,t in enumerate(data['topics']):
     parts.append(f"## {t['code']} {t['title']} MCQs")
-    parts.extend(mcq_markdown(q,t_index*10+i+1) for i,q in enumerate(questions[t_index*10:(t_index+1)*10]))
+    parts.extend(mcq_markdown(q,topic_offsets[t_index]+i+1) for i,q in enumerate(questions[topic_offsets[t_index]:topic_offsets[t_index]+len(t['questions'])]))
 parts.append('## Easy topic-wise notes')
 for t in data['topics']:
     parts += [f"## {t['code']} {t['title']}",t['notes'],'### Practical examples','\n'.join('- '+v for v in t['examples']),'### Common mistakes','\n'.join('- '+v for v in t['mistakes']),'### Quick revision','\n'.join('- '+v for v in t['revision'])]
@@ -108,7 +111,7 @@ elif chapter == 2:
     parts += ['## Diagrams and comparisons', f'![System unit component connections](/documents/dit/ict/{diagram_name})', data['diagramDescription'], '| Type | Main role | Retention |\n|---|---|---|\n| RAM | Working programs and data | Normally volatile |\n| ROM | Read-only or read-mostly information | Non-volatile |\n| Cache | Fast-access copies | Normally volatile |\n| Flash | Rewritable storage and firmware | Non-volatile |\n| Legacy CMOS settings RAM | Small configuration values | Battery-backed |']
     parts += data['comparisons']
 else:
-    parts += ['## Diagrams and comparisons', f'![Input and output device flow](/documents/dit/ict/{diagram_name})', data['diagramDescription']] + data['comparisons']
+    parts += ['## Diagrams and comparisons', f'![{data.get("diagramAlt","Input and output device flow")}](/documents/dit/ict/{diagram_name})', data['diagramDescription']] + data['comparisons']
 parts.append('## Solved short questions')
 parts += [f"### {i+1}. {q}\n\n{a}" for i,(q,a) in enumerate(short)]
 parts.append('## Solved long questions')
@@ -129,6 +132,8 @@ if chapter >= 2:
     parts += ['## Continue your ICT revision', '[Review Chapter 1 Introduction to Computers](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/). Find available chapters and topic tests on the [ICT subject page](/classes/dit-intermediate/dit-ict/).']
 if chapter == 3:
     parts.append('[Review Chapter 2 System Unit Components](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-2-system-unit-components/).')
+if chapter == 4:
+    parts.append('[Review Chapter 3 Input and Output Devices](/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-3-input-output-devices/).')
 markdown='\n\n'.join(parts)+'\n'
 (ROOT/f'content/dit/ict-chapter-{chapter}.md').write_text(markdown,encoding='utf-8')
 
@@ -170,12 +175,12 @@ def canvas_page(canvas,doc):
 story += [Spacer(1,80),p(data['title'],'Title'),p('D.I.T two-year programme | First semester','Heading2'),p(f'Introduction to ICT | Chapter {chapter}','Heading2'),Spacer(1,20),p(f'{question_count} explained MCQs, easy topic notes, solved questions, practical activities and a separate chapter practice test.'),p(f'Original English study material aligned to PBTE syllabus sections {coverage}. Practice questions are not verified past-paper questions.'),PageBreak()]
 heading('Chapter overview and topic coverage')
 story += [p(f'Read each topic, attempt its questions and explain the reason for each answer. Use the separate test after revision. All {topic_label} syllabus sections below are covered.')]
-table=Table([['Section','Topic','MCQs']]+[[t['code'],Paragraph(escape(t['title']),styles['BodyGuide']),'10'] for t in data['topics']],colWidths=[55,380,45],hAlign='LEFT')
+table=Table([['Section','Topic','MCQs']]+[[t['code'],Paragraph(escape(t['title']),styles['BodyGuide']),str(len(t['questions']))] for t in data['topics']],colWidths=[55,380,45],hAlign='LEFT')
 table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),navy),('TEXTCOLOR',(0,0),(-1,0),colors.white),('GRID',(0,0),(-1,-1),.5,colors.HexColor('#d9d9d9')),('VALIGN',(0,0),(-1,-1),'MIDDLE'),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
-story.extend([table,Spacer(1,16),p(f'The {topic_label} topic groups each contain ten revision MCQs. Their correct options are shaded light green. The final practice test keeps answers separate.'),PageBreak()])
+story.extend([table,Spacer(1,16),p(f'The {topic_label} topic groups each contain {len(data["topics"][0]["questions"])} revision MCQs. Their correct options are shaded light green. The final practice test keeps answers separate.'),PageBreak()])
 for t_index,t in enumerate(data['topics']):
     heading(f"{t['code']} {t['title']} MCQs")
-    for i,q in enumerate(questions[t_index*10:(t_index+1)*10]): add_mcq(q,t_index*10+i+1)
+    for i,q in enumerate(questions[topic_offsets[t_index]:topic_offsets[t_index]+len(t['questions'])]): add_mcq(q,topic_offsets[t_index]+i+1)
     story.append(PageBreak())
 for t in data['topics']:
     heading(f"{t['code']} {t['title']} Notes")
@@ -203,9 +208,17 @@ if chapter == 2:
         d.add(String(x+w/2,y+13,label,textAnchor='middle',fontSize=10,fillColor=navy))
     for x1,y1,x2,y2 in [(120,177,170,108),(360,177,310,108),(120,82,170,108),(360,82,310,108),(240,35,240,90)]:
         d.add(Line(x1,y1,x2,y2,strokeColor=navy))
+if chapter == 4:
+    d=Drawing(480,155)
+    for x,label in [(0,'WORKING COPY'),(180,'RECOVERY COPY'),(360,'OFF-SITE COPY')]:
+        d.add(Rect(x,70,120,45,fillColor=colors.HexColor('#e8effa'),strokeColor=navy))
+        d.add(String(x+60,88,label,textAnchor='middle',fontSize=9,fillColor=navy))
+    for x in [125,305]:
+        d.add(Line(x,92,x+45,92,strokeColor=navy));d.add(Polygon([x+45,92,x+38,96,x+38,88],fillColor=navy))
+    d.add(String(240,25,'Checked copies with suitable separation',textAnchor='middle',fontSize=10,fillColor=navy))
 story.extend([d,p(data.get('diagramDescription','Input supplies data; processing executes instructions; output presents results. Processing reads saved data from storage and writes results back to storage. Communication exchanges data with other devices.'))])
 for text in data.get('comparisons',['RAM is working memory and is normally volatile. An SSD is persistent storage for saved files.','System software manages or supports computer operation. Application software carries out user tasks.','A mainframe prioritises dependable high-volume transaction work. A supercomputer prioritises very large computational workloads.']):
-    if chapter == 3 and text.startswith('|'):
+    if chapter >= 3 and text.startswith('|'):
         rows=[[p(cell.strip()) for cell in line.strip('|').split('|')] for line in text.splitlines() if not re.match(r'^\|[-| ]+\|$',line)]
         comparison=Table(rows,colWidths=[520/len(rows[0])]*len(rows[0]),repeatRows=1,hAlign='LEFT')
         comparison.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8effa')),('GRID',(0,0),(-1,-1),.4,colors.HexColor('#94a3b8')),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),6)]))
@@ -217,12 +230,15 @@ heading('Solved short questions')
 for i,(q,a) in enumerate(short):story.extend([p(f'{i+1}. {q}','Heading2'),p(a)])
 heading('Solved long questions')
 for i,(q,sections) in enumerate(long):
-    story.append(p(f'{i+1}. {q}','Heading2'))
-    for h,text in sections: story.append(p(h+': '+text))
+    answer=[p(f'{i+1}. {q}','Heading2')]+[p(h+': '+text) for h,text in sections]
+    if chapter == 4:
+        story.append(KeepTogether(answer))
+    else:
+        story.extend(answer)
 story.append(PageBreak());heading('Practical activities and viva')
 for name,steps,result in practical: story.extend([p(name,'Heading2'),p(steps),p('Expected result: '+result)])
 story += [p('Viva questions','Heading2'),p(viva),p('Past-paper status','Heading2'),p('All questions are authored syllabus-based practice. No supplied past paper was available for verification. No board/year appearance or guaranteed exam prediction is claimed.'),PageBreak()]
-if chapter == 3 and isinstance(story[-1],PageBreak):
+if chapter >= 3 and isinstance(story[-1],PageBreak):
     story.pop()
 heading('Chapter practice test')
 story.append(p('Learning exercise: 20 MCQs, 10 short questions and 3 long questions. This is not a verified official PBTE paper pattern. Some questions revisit the revision bank. Do not consult the following answer key until you have attempted the test.'))
@@ -236,6 +252,8 @@ story.append(PageBreak());heading('Practice test answer key')
 for i,q in enumerate(test_questions):story.append(p(f"{i+1}. {chr(65+q['correctIndex'])}. {q['explanation']}"))
 story.append(p('Written-answer guidance','Heading2'))
 story.append(p('Short questions correspond to solved short answers 1, 2, 4, 5, 6, 7, 8, 9, 10 and 11. Long questions correspond to solved long answers 2, 4 and 6. Check concepts, examples and diagrams rather than memorising identical wording.'))
+if chapter == 4:
+    story.append(PageBreak())
 story.append(p('Sources and further study','Heading2'))
 story.append(Paragraph(f'<link href="{escape(data["syllabusUrl"],quote=True)}" color="#1449AD">PBTE official two-year DIT first-semester syllabus, ICT Module {chapter}, page {data["sourcePages"]}</link>',styles['BodyGuide']))
 if chapter >= 2:
@@ -267,7 +285,7 @@ doc.add_page_break()
 for line in markdown.splitlines():
     if not line:continue
     if line.startswith('!['):
-        doc.add_paragraph('Motherboard connections: processor, RAM, expansion and storage interfaces. PSU supplies power.' if chapter == 2 else 'INPUT -> PROCESSING -> OUTPUT\n                    STORAGE exchanges data with PROCESSING')
+        doc.add_paragraph(data['diagramDescription'] if chapter == 4 else 'Motherboard connections: processor, RAM, expansion and storage interfaces. PSU supplies power.' if chapter == 2 else 'INPUT -> PROCESSING -> OUTPUT\n                    STORAGE exchanges data with PROCESSING')
     elif line.startswith('|'):
         if re.match(r'^\|[-| ]+\|$',line):continue
         doc.add_paragraph(line.strip('|').replace('|','  |  '))
@@ -290,6 +308,10 @@ if chapter == 2:
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-labelledby="title"><title id="title">Functional system unit component connections</title>{lines}{shapes}</svg>'
 if chapter == 3:
     svg=svg.replace('Input processing output with storage exchanging data with processing','Input devices supply data; output devices present results; storage retains saved work').replace('>Input</text>','>Input devices</text>').replace('>Output</text>','>Output devices</text>')
+if chapter == 4:
+    boxes=[(10,'Working copy'),(235,'Recovery copy'),(460,'Off-site copy')]
+    shapes=''.join(f'<rect x="{x}" y="30" width="170" height="60" rx="4" fill="#e8effa" stroke="#032c68"/><text x="{x+85}" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#032c68">{label}</text>' for x,label in boxes)
+    svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" width="640" height="150" role="img" aria-labelledby="title desc"><title id="title">Checked storage copies with suitable separation</title><desc id="desc">Working copy, separate recovery copy and off-site copy. Arrows represent checked copying, not automatic sync or RAID.</desc>{shapes}<path d="M180 60H228M405 60H453" stroke="#032c68" stroke-width="2"/><path d="M228 60L220 55V65ZM453 60L445 55V65Z" fill="#032c68"/><text x="320" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#032c68">Verify contents and test restoration</text></svg>'
 (dest/diagram_name).write_text(svg,encoding='utf-8')
 generated=dict(title=data['title'],content=markdown,questions=questions,pdfBytes=pdf.stat().st_size,pdfSha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),sourceSha256=hashlib.sha256(source.read_text(encoding='utf-8').encode('utf-8')).hexdigest())
 (ROOT/f'content/dit/ict-chapter-{chapter}.generated.json').write_text(json.dumps(generated,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
