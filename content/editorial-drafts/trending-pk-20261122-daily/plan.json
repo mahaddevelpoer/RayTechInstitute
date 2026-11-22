@@ -31,7 +31,7 @@
         "uae vs nepal"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Mulpani cricket ground",
         "Nepal cricket training"
@@ -85,7 +85,7 @@
         "dv vs mie"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Dubai international cricket stadium",
         "white cricket ball pitch -geograph"
@@ -185,8 +185,11 @@
         "tapmad"
       ],
       "category": "technology",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "tapmad-live-packages-renewal-cancellation-guide-pakistan",
+      "existingCoverageScope": "Dated service-reading guide; does not promise current rights to every match or successful playback.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "juventus-vs-venezia",
@@ -247,8 +250,11 @@
         "womens emerging nations trophy"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "womens-emerging-nations-trophy-2026-groups-pakistan",
+      "existingCoverageScope": "2026 tournament format and teams guide; completed current fixtures are checked separately.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "nikhil-chaudhary-cricketer",
@@ -381,8 +387,11 @@
         "tom latham"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "tom-latham-batting-spin-wicketkeeping-guide",
+      "existingCoverageScope": "Evergreen batting, format and wicketkeeping explanation; no new-match result asserted.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "man-city-vs-fulham-f-c-standings",
@@ -441,8 +450,11 @@
         "air pollution"
       ],
       "category": "science",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "air-pollution-pm25-aqi-student-guide",
+      "existingCoverageScope": "Educational PM2.5/AQI definitions and source-reading guide; no invented current city reading.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "chelsea-f-c-vs-leeds-united-f-c-standings",
@@ -479,8 +491,9 @@
         "dar e nijaat episode 33"
       ],
       "category": "entertainment",
-      "state": "research-pending",
-      "queries": []
+      "state": "existing-update-saved-awaiting-hosting",
+      "queries": [],
+      "existingArticleSlug": "dar-e-nijaat-cast-story-official-episodes-viewing-guide"
     },
     {
       "key": "parma-vs-roma",
@@ -661,8 +674,11 @@
         "anshul kamboj"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "anshul-kamboj-ten-wickets-ranji-record-guide",
+      "existingCoverageScope": "Historic 2024 ten-wicket record and bowling-statistic guide; not claimed as a new performance.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "aston-villa-vs-sunderland",
@@ -745,8 +761,11 @@
         "women's big bash league"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "wbbl-2026-27-dates-teams-fixtures-season-guide",
+      "existingCoverageScope": "WBBL12 season and fixture-reading guide; official schedule reconfirms dates and 43 games.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "la-liga",
@@ -817,8 +836,11 @@
         "carlos alcaraz"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "already-live-reviewed",
+      "queries": [],
+      "existingArticleSlug": "carlos-alcaraz-tennis-tactics-study-guide",
+      "existingCoverageScope": "Evergreen point-analysis guide; no stale ranking or newly invented result.",
+      "coverageEvidence": "EXISTING-COVERAGE-VERIFICATION.json"
     },
     {
       "key": "m-nchengladbach-vs-dortmund",
@@ -954,7 +976,7 @@
       "trend": "uae vs nepal",
       "searchVolume": "10k+",
       "key": "uae-vs-nepal",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 3,
@@ -975,7 +997,7 @@
       "trend": "mi emirates vs desert vipers",
       "searchVolume": "20k+",
       "key": "mi-emirates-vs-desert-vipers",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 6,
@@ -1038,7 +1060,8 @@
       "trend": "tapmad",
       "searchVolume": "2k+",
       "key": "tapmad",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "tapmad-live-packages-renewal-cancellation-guide-pakistan"
     },
     {
       "row": 15,
@@ -1080,7 +1103,8 @@
       "trend": "womens emerging nations trophy",
       "searchVolume": "5k+",
       "key": "womens-emerging-nations-trophy",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "womens-emerging-nations-trophy-2026-groups-pakistan"
     },
     {
       "row": 21,
@@ -1122,7 +1146,7 @@
       "trend": "dv vs mie",
       "searchVolume": "5k+",
       "key": "mi-emirates-vs-desert-vipers",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 27,
@@ -1178,7 +1202,8 @@
       "trend": "tom latham",
       "searchVolume": "1k+",
       "key": "tom-latham",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "tom-latham-batting-spin-wicketkeeping-guide"
     },
     {
       "row": 35,
@@ -1213,7 +1238,8 @@
       "trend": "air pollution",
       "searchVolume": "100+",
       "key": "air-pollution",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "air-pollution-pm25-aqi-student-guide"
     },
     {
       "row": 40,
@@ -1353,7 +1379,8 @@
       "trend": "anshul kamboj",
       "searchVolume": "500+",
       "key": "anshul-kamboj",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "anshul-kamboj-ten-wickets-ranji-record-guide"
     },
     {
       "row": 60,
@@ -1402,7 +1429,8 @@
       "trend": "women's big bash league",
       "searchVolume": "100+",
       "key": "women-s-big-bash-league",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "wbbl-2026-27-dates-teams-fixtures-season-guide"
     },
     {
       "row": 67,
@@ -1444,7 +1472,8 @@
       "trend": "carlos alcaraz",
       "searchVolume": "500+",
       "key": "carlos-alcaraz",
-      "state": "research-pending"
+      "state": "already-live-reviewed",
+      "existingArticleSlug": "carlos-alcaraz-tennis-tactics-study-guide"
     },
     {
       "row": 73,
@@ -1528,8 +1557,8 @@
       "authorization": "User requested all articles and prioritised the Pak vs Ind live scorecard.",
       "validationFile": "validation-batch-1.json",
       "state": "live-verified",
-      "deploymentRun": 45026548162,
-      "artifactRun": 45025953031
+      "deploymentRun": 45028634873,
+      "artifactRun": 45028004466
     },
     {
       "number": 2,
@@ -1541,8 +1570,8 @@
       "authorization": "User requested all CSV topics published.",
       "validationFile": "validation-batch-2.json",
       "state": "live-verified",
-      "deploymentRun": 45026548162,
-      "artifactRun": 45025953031
+      "deploymentRun": 45028634873,
+      "artifactRun": 45028004466
     },
     {
       "number": 3,
@@ -1554,8 +1583,8 @@
       "authorization": "All CSV topics authorised; rows 3, 7 and 33 share this result and standings guide.",
       "validationFile": "validation-batch-3.json",
       "state": "live-verified",
-      "deploymentRun": 45026548162,
-      "artifactRun": 45025953031
+      "deploymentRun": 45028634873,
+      "artifactRun": 45028004466
     },
     {
       "number": 4,
@@ -1566,7 +1595,9 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV topics authorised; UAE–Nepal row 2.",
       "validationFile": "validation-batch-4.json",
-      "state": "artifact-blocked-browser-readiness"
+      "state": "live-verified",
+      "artifactRun": 45028004466,
+      "deploymentRun": 45028634873
     },
     {
       "number": 5,
@@ -1577,7 +1608,9 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV topics authorised; MI Emirates–Desert Vipers rows 5 and 26 share one article.",
       "validationFile": "validation-batch-5.json",
-      "state": "local-review"
+      "state": "live-verified",
+      "artifactRun": 45028004466,
+      "deploymentRun": 45028634873
     }
   ],
   "chapterSeven": {
@@ -1588,5 +1621,21 @@
     "deploymentRun": 45024453076,
     "mcqs": 108,
     "pdfPages": 42
-  }
+  },
+  "existingUpdates": [
+    {
+      "key": "dar-e-nijaat-episode-33",
+      "slug": "dar-e-nijaat-cast-story-official-episodes-viewing-guide",
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV topics authorised for publication; update existing guide to cover the specifically requested Episode 33 row.",
+      "fields": [
+        "title",
+        "excerpt",
+        "content",
+        "read_time",
+        "tags",
+        "seo"
+      ]
+    }
+  ]
 }

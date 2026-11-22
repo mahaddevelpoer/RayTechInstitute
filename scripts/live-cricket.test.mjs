@@ -16,6 +16,7 @@ test('score panel preserves provider attribution, sandbox and a match-specific f
  assert.match(html,/sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"/);
  assert.match(html,/height="560"/);assert.match(html,/supplied by IPL.com and can be delayed/);
  assert.match(html,/india-a-vs-pakistan-a-100460\/live/);assert.match(html,/Reload scores/);
+ assert.ok(html.indexOf('Open full match scorecard')<html.indexOf('<iframe'),'The specific match is accessible before the mixed-fixture feed');
  assert.ok(!/allow-top-navigation|allow-forms|autoplay=/.test(html));
 });
 

@@ -1,0 +1,7 @@
+# Episode 33 update and direct scorecard access
+
+The existing Dar-e-Nijaat guide now identifies ARY Digital's official Episode 33 listing, checked 22 November 2026, and adds a sourced viewing-literacy exercise. It does not invent a scene-by-scene recap. The original URL, 12 November publication date and both credited images are preserved. Only title, excerpt, content, reading time, tags and SEO were changed in a scoped database patch. Read-back verified the exact updated fields and preservation of all 612 rows. The complete article remains over 2,000 words with 42 distinct tags. Custom SEO fields are enabled.
+
+The Pakistan A–India A component now places its specific-match fallback above the mixed-fixture iframe, next to reload. The note identifies the actual IND-A / PAK-A labels and Live/Result tabs. The real provider iframe was separately rendered and visually reviewed; it includes the target row among other fixtures. No transient score is copied into the article. The provider, sandbox, route-scoped CSP and iframe dimensions are unchanged. Both scorecard boundary tests passed locally. Full CI/browser validation and publication remain pending.
+
+Seven existing educational guides were substantively matched to corresponding broad CSV topics and publicly verified. They retain their original publication dates and are recorded as existing coverage, not new articles. All other uncompleted rows remain visible in plan.json.
