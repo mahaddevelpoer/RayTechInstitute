@@ -25,3 +25,9 @@ Chapter 5 has independent chapter/question IDs, note URL, SVG and PDF. ICT now c
 All 19 chapter tests and strict TypeScript pass locally. Every page of the 31-page PDF was rendered and visually reviewed: headings, options, bold/green revision answers, unmarked practice questions, table wrapping, complete long answers, diagram, source links and chapter footers. The editable Word draft remains outside public files because native Word layout verification is unavailable.
 
 Production artifact and live verification evidence will be appended after publication. Passing release checks does not establish search indexing or traffic recovery.
+
+## Verified production artifact
+
+Artifact run 45013825419 passed the full production build, chapter tests, catalog/export checks, browser checks and release security checks on source revision c1bd4d798c69638efd6e2c4c4671d10b66cce1a9. Cloudflare publication reuses this exact static export.
+
+Artifact run: https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45013825419
