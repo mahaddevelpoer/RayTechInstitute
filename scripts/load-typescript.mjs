@@ -6,11 +6,15 @@ import ts from 'typescript';
 // Deno entry points or requiring a separate duplicated JavaScript implementation.
 export async function moduleUrl(file) {
   const absolute = path.resolve(file);
+  if (absolute.endsWith('.json')) {
+    const value = JSON.parse(await fs.readFile(absolute, 'utf8'));
+    return `data:text/javascript;base64,${Buffer.from(`export default ${JSON.stringify(value)};`).toString('base64')}`;
+  }
   let code = ts.transpileModule(await fs.readFile(absolute, 'utf8'), {
     compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 },
   }).outputText;
   for (const match of [...code.matchAll(/from\s+['"](\.[^'"]+)['"]/g)]) {
-    const relative = match[1].endsWith('.ts') ? match[1] : `${match[1]}.ts`;
+    const relative = /\.(?:ts|json)$/.test(match[1]) ? match[1] : `${match[1]}.ts`;
     const url = await moduleUrl(path.resolve(path.dirname(absolute), relative));
     code = code.replace(match[0], `from '${url}'`);
   }

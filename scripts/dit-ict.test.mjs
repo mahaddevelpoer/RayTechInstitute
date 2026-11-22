@@ -7,6 +7,7 @@ import {createHash} from 'node:crypto';
 import {build} from 'esbuild';
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
+import {loadTypescript} from './load-typescript.mjs';
 const require=createRequire(import.meta.url);
 const pack=JSON.parse(await fs.readFile('content/dit/ict-chapter-1.generated.json','utf8'));
 const source=JSON.parse(await fs.readFile('content/dit/ict-chapter-1.json','utf8'));
@@ -18,6 +19,12 @@ async function bundled(entry){
 const catalog=await bundled('src/data/staticCatalog.ts');
 const {STATIC_OVERRIDES:before}=await bundled('src/data/staticOverrides.ts');
 const additions=await bundled('src/data/ditSemesterOne.ts');
+test('release tooling reads the same JSON-backed catalog as the website',async()=>{
+ const loaded=await loadTypescript('src/data/staticCatalog.ts');
+ assert.equal(loaded.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict').length,60);
+ assert.equal(loaded.INITIAL_NOTES.find(n=>n.id==='dit-ict-chapter-1-introduction-to-computers').content,pack.content);
+ assert.equal(JSON.stringify(loaded.INITIAL_CHAPTERS),JSON.stringify(catalog.INITIAL_CHAPTERS));
+});
 test('all six syllabus sections have ten unique questions with four options and balanced keys',()=>{
  assert.deepEqual(source.topics.map(t=>t.code),['1.1','1.2','1.3','1.4','1.5','1.6']);
  assert.equal(pack.questions.length,60);assert.equal(new Set(pack.questions.map(q=>q.question)).size,60);
