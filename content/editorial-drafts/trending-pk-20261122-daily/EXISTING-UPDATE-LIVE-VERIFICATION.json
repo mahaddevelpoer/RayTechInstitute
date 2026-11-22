@@ -1,0 +1,27 @@
+{
+  "state": "live-verified",
+  "checkedAt": "2026-11-22T14:05:04.436Z",
+  "url": "https://raytechinstitute.com/blogs/dar-e-nijaat-cast-story-official-episodes-viewing-guide/",
+  "originalPublicationDatePreserved": "2026-11-12",
+  "customSeo": true,
+  "oneH1": true,
+  "indexable": true,
+  "sitemap": true,
+  "episode33OfficialLink": true,
+  "images": [
+    {
+      "path": "/images/editorial/trending-pk-20261112-daily/dar-e-nijaat-cover.webp",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/images/editorial/trending-pk-20261112-daily/dar-e-nijaat-inline.webp",
+      "status": 200,
+      "exactBytes": true
+    }
+  ],
+  "specificScorecardBeforeFeed": true,
+  "revision": "5bf1ada5827f221dffcd3a12f5635f0e21c421e0",
+  "artifactRun": 45029449934,
+  "deploymentRun": 45030584229
+}

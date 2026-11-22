@@ -1,10 +1,13 @@
 {
-  "state": "reviewed-existing-article-update",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "originalDatePreserved": "2026-11-12",
   "existingSlugPreserved": "dar-e-nijaat-cast-story-official-episodes-viewing-guide",
   "sourceCheckedOn": "2026-11-22",
   "imagePolicy": "Both existing credited images and their captions retained; no image presented as an Episode 33 still.",
   "source": "https://arydigital.tv/drama/dar-e-nijaat/episode-33/",
-  "scope": "Official listing plus educational viewing exercise; no invented episode recap."
+  "scope": "Official listing plus educational viewing exercise; no invented episode recap.",
+  "liveVerification": "EXISTING-UPDATE-LIVE-VERIFICATION.json",
+  "artifactRun": 45029449934,
+  "deploymentRun": 45030584229
 }
