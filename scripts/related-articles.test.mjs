@@ -17,3 +17,8 @@ test('recommendations have a bounded payload and stable order',()=>{
  const a=post('a',['fractions','ratios']);
  assert.deepEqual(relatedArticles(a,['e','d','c','b'].map(id=>post(id,a.tags))).map(p=>p.slug),['b','c','d']);
 });
+test('shared editorial-method tags cannot connect unrelated subject matter',()=>{
+ const a=post('a',['source verification','reading guide'],{title:'Subscription payments and cancellation'});
+ const b=post('b',a.tags,{title:'Operating system update preparation'});
+ assert.deepEqual(relatedArticles(a,[b]),[]);
+});
