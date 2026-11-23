@@ -113,8 +113,13 @@
         "sports"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "athletics running track stadium",
+        "basketball indoor court"
+      ],
+      "releaseBatch": 11,
+      "slug": "sports-scores-rules-statistics-student-guide"
     },
     {
       "key": "preventive-detention",
@@ -137,8 +142,13 @@
         "india national cricket team"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "India cricket team 2011",
+        "Wankhede stadium Mumbai"
+      ],
+      "releaseBatch": 11,
+      "slug": "india-national-cricket-team-squads-fixtures-guide"
     },
     {
       "key": "inter-miami-vs-columbus",
@@ -161,8 +171,13 @@
         "pakistan national cricket team"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Pakistan cricket team 2017",
+        "Rawalpindi cricket stadium"
+      ],
+      "releaseBatch": 11,
+      "slug": "pakistan-national-cricket-team-squads-scorecards-guide"
     },
     {
       "key": "gulf-giants-vs-sharjah-warriors",
@@ -323,8 +338,13 @@
         "international cricket council"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "ICC academy Dubai cricket",
+        "cricket umpire signals"
+      ],
+      "releaseBatch": 11,
+      "slug": "international-cricket-council-role-rules-student-guide"
     },
     {
       "key": "5th-circuit-proxy-voting-ruling",
@@ -429,8 +449,13 @@
         "pcb central contract"
       ],
       "category": "sports",
-      "state": "draft-written-awaiting-metadata-images-and-validation",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Gaddafi Stadium Lahore cricket",
+        "Pakistan cricket training ground"
+      ],
+      "releaseBatch": 11,
+      "slug": "pcb-central-contracts-2026-38-players-formats-guide"
     },
     {
       "key": "malaysia",
@@ -441,8 +466,13 @@
         "malaysia"
       ],
       "category": "world-affairs",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Petronas Towers Kuala Lumpur",
+        "Sarawak river Kuching"
+      ],
+      "releaseBatch": 11,
+      "slug": "malaysia-states-regions-population-data-student-guide"
     },
     {
       "key": "catherine-princess-of-wales",
@@ -557,8 +587,13 @@
         "rising stars asia cup schedule"
       ],
       "category": "sports",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "West End Park cricket stadium Doha",
+        "Doha city skyline"
+      ],
+      "releaseBatch": 11,
+      "slug": "rising-stars-asia-cup-2026-schedule-pakistan-time-guide"
     },
     {
       "key": "musadik-malik-new-delhi-sco-forum",
@@ -605,8 +640,13 @@
         "خیبر پختونخوا"
       ],
       "category": "world-affairs",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Peshawar Museum building",
+        "Khyber Pakhtunkhwa mountain landscape"
+      ],
+      "releaseBatch": 11,
+      "slug": "khyber-pakhtunkhwa-peshawar-census-map-guide"
     },
     {
       "key": "what-is-a-province",
@@ -646,8 +686,13 @@
         "gta v"
       ],
       "category": "technology",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "gaming controller computer desk",
+        "computer gaming keyboard"
+      ],
+      "releaseBatch": 11,
+      "slug": "gta-v-enhanced-legacy-story-mode-pc-guide"
     },
     {
       "key": "ashton-kutcher",
@@ -682,8 +727,13 @@
         "gta vice city"
       ],
       "category": "technology",
-      "state": "research-pending",
-      "queries": []
+      "state": "database-saved-awaiting-hosting",
+      "queries": [
+        "Ocean Drive Miami Art Deco",
+        "video game controller vintage"
+      ],
+      "releaseBatch": 11,
+      "slug": "gta-vice-city-original-definitive-edition-study-guide"
     },
     {
       "key": "anshul-kamboj",
@@ -1718,6 +1768,26 @@
       "state": "live-verified",
       "artifactRun": 45121963254,
       "deploymentRun": 45122680751
+    },
+    {
+      "number": 11,
+      "keys": [
+        "pcb-central-contract",
+        "malaysia",
+        "khyber-pakhtunkhwa",
+        "sports",
+        "international-cricket-council",
+        "pakistan-national-cricket-team",
+        "india-national-cricket-team",
+        "rising-stars-asia-cup-schedule",
+        "gta-v",
+        "gta-vice-city"
+      ],
+      "expectedSize": 10,
+      "explicitUserAuthorization": true,
+      "authorization": "Mahad explicitly requested ten articles together on 23 November 2026. All CSV topics already authorised. Publish only the complete reviewed ten-article batch.",
+      "validationFile": "validation-batch-11.json",
+      "state": "database-saved-awaiting-hosting"
     }
   ],
   "chapterSeven": {

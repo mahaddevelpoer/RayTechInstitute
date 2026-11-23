@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.icc-cricket.com/about/index",
+    "https://www.icc-cricket.com/about/members/about-our-members",
+    "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions",
+    "https://www.icc-cricket.com/news/key-changes-across-formats-with-new-icc-playing-conditions",
+    "https://lawsofcricket.lords.org/laws-of-cricket"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "ICC role, national boards and applicable conditions distinguished.",
+    "Conflicting dated member counts not adopted as a current total. October 2026 transition scope attributed to official notice."
+  ]
+}

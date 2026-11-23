@@ -1,0 +1,14 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://governor.kp.gov.pk/node/774",
+    "https://www.pbs.gov.pk/gis/",
+    "https://www.pbs.gov.pk/census/",
+    "https://www.pbs.gov.pk/release-of-national-and-provincial-census-reports-of-population-and-housing-census-2023-2/"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "PBS GIS counts: 331+79=410 charges; 2307+470=2777 circles; 24988+3885=28873 blocks.",
+    "Urban-block share approximately 13.46 percent is explicitly not a population share; no conflicting population totals combined."
+  ]
+}

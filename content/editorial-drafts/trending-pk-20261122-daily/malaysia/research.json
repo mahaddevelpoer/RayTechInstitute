@@ -1,0 +1,14 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.malaysia.gov.my/en/government/kenali-malaysia/lokasi",
+    "https://rai.malaysia.gov.my/visit",
+    "https://www.dosm.gov.my/uploads/publications/20221012101107.pdf",
+    "https://open.dosm.gov.my/data-catalogue/population_dun"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "Thirteen states and three federal territories distinguished from sixteen combined units.",
+    "OpenDOSM DUN coverage excludes territories; population unit is thousands. Hypothetical 1.25 thousand = 1250 persons."
+  ]
+}

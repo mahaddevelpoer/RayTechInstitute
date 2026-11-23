@@ -1,0 +1,12 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.pcb.com.pk/press-release-detail/pcb-announces-central-contracts-for-38-men-s-cricketers.html",
+    "https://www.pcb.com.pk/news-detail/hasan-nawaz-s-all-round-performance-leads-pakistan-shaheens-to-emphatic-win-over-india-a-.html"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "Official groups counted as 2+4+6+7+19=38. Development share 19/38=50 percent.",
+    "Contracts distinguished from squad and playing eleven; no salary amounts invented."
+  ]
+}

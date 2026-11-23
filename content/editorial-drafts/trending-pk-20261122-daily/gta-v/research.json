@@ -1,0 +1,14 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.rockstargames.com/newswire/article/7551a7k917554a/free-upgrade-for-grand-theft-auto-v-on-pc-now-available",
+    "https://support.rockstargames.com/articles/259ZyI1It8EACcCuOk5u4z/migrating-your-online-profile-from-gtav-legacy-to-gtav-enhanced-on-pc",
+    "https://support.rockstargames.com/articles/5nZFytrCwgWMVOXUnzqFDt/grand-theft-auto-online-required-to-play-grand-theft-auto-v-story-mode",
+    "https://www.rockstargames.com/gta-v"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "Rockstar Enhanced/Legacy PC distinction and migration limits attributed to identified sources.",
+    "No invented current price, benchmark or requirements. Fictional 24 decimal GB at 40 Mb/s = 4800 s = 80 min."
+  ]
+}

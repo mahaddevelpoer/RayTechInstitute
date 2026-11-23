@@ -1,0 +1,14 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.bcci.tv/about",
+    "https://www.icc-cricket.com/about/members/associate/board-of-control-for-cricket-in-india?appview=true",
+    "https://www.icc-cricket.com/news/the-three-formats-of-cricket",
+    "https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "BCCI 1928, Test debut 1932 and Ranji 1934 tied to official histories.",
+    "India A and franchise matches not relabelled senior internationals. Fictional timezone conversion handles next-day date."
+  ]
+}

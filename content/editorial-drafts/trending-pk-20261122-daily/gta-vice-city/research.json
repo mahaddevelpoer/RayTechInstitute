@@ -1,0 +1,13 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.rockstargames.com/games/vicecity",
+    "https://store.rockstargames.com/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition",
+    "https://media.rockstargames.com/rockstargames-newsite/img/manuals/en_us/GTATrilogy_GTAVC_PS2_Manual_M01.pdf"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "Original 2002 product distinguished from November 2021 collection; platform-specific manual not treated as universal controls.",
+    "Real-world neon photo not a game still. Photograph license corrected to CC BY-SA 4.0 with full requested attribution; object public-domain status not substituted."
+  ]
+}

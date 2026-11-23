@@ -1,0 +1,9 @@
+{
+  "state": "database-saved-awaiting-hosting",
+  "published": false,
+  "imageVisualReview": "passed",
+  "imageReviewEvidence": "Both contact sheets artifacts/ten-article-images-1.png and ten-article-images-2.png inspected. Subjects and image scope checked; no current-event or game-screenshot identity inferred.",
+  "words": 2109,
+  "localChecks": "../validation-batch-11.json",
+  "sourceCheckedOn": "2026-11-23"
+}

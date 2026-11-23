@@ -1,0 +1,13 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.theifab.com/laws/latest/the-duration-of-the-match/",
+    "https://www.lords.org/getmedia/a4ef9f77-2a25-4f5b-a286-4601f08e6334/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29_5.pdf",
+    "https://www.icc-cricket.com/news/the-three-formats-of-cricket"
+  ],
+  "scope": "Source-backed topic explanation and clearly labelled original classroom exercises; no invented current results, prices or personal status.",
+  "checks": [
+    "Hypothetical 12.4 overs = 76 valid balls; 95*6/76=7.5 runs per over.",
+    "League points assumptions explicitly fictional; clock and score contexts retained."
+  ]
+}
