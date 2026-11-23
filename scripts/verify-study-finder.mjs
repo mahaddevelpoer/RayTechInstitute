@@ -5,8 +5,9 @@ const origin=process.env.VERIFY_BASE_URL||'http://127.0.0.1:4178';
 const navigation=JSON.parse(await fs.readFile('src/data/studyNavigation.json','utf8'));
 const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||undefined,headless:true});
 const results=[];
+let page;
 try{
- const page=await browser.newPage();const errors=[];page.on('pageerror',error=>errors.push(error.message));
+ page=await browser.newPage();const errors=[];page.on('pageerror',error=>errors.push(error.message));
  await fs.mkdir('artifacts/study-finder-review',{recursive:true});
  const html=await(await fetch(origin+'/classes/')).text();
  for(const s of navigation.directory.filter(s=>s.notes+s.mcqs+s.papers>0))assert.ok(html.includes(`/classes/${s.classSlug}/${s.slug}/`),'Subject must be reachable without JavaScript: '+s.id);
@@ -41,4 +42,7 @@ try{
  }
  assert.deepEqual(errors,[]);await fs.writeFile('artifacts/study-finder-review/results.json',JSON.stringify({results,crawlableSubjects:true,pageErrors:errors},null,2));
  console.log('[study-finder] Crawlable subject links, class/topic search, deep resource links and homepage GET search passed in four responsive/theme combinations.');
+}catch(error){
+ if(page){await fs.mkdir('artifacts/study-finder-review',{recursive:true});await page.screenshot({path:'artifacts/study-finder-review/failure.png'}).catch(()=>{});await fs.writeFile('artifacts/study-finder-review/failure.json',JSON.stringify({url:page.url(),error:error.message,filters:await page.locator('.study-finder').innerText().catch(()=>''),results:await page.locator('.study-result').count()},null,2));}
+ throw error;
 }finally{await browser.close();}

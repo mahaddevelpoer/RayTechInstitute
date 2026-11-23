@@ -41,7 +41,7 @@ export const hasStudyResources = (subject: StudySubject, resource: StudyResource
 function normalize(text: string) {return text.normalize('NFKC').replace(/\bD\.?I\.?T\.?\b/gi,'DIT').toLowerCase().replace(/[.\-_/]/g, ' ').replace(/\s+/g, ' ').trim();}
 export function matchesStudySearch(subject: StudySubject, query: string) {
   const terms = normalize(query.slice(0,180)).split(' ').filter(Boolean);
-  const text = normalize([subject.classTitle, subject.program,subject.grade, subject.title,subject.description,
+  const text = normalize([subject.classTitle, subject.program,subject.grade, subject.title,
     ...subject.chapters.flatMap(c => [c.title,c.label,...c.topics])].join(' '));
   return terms.every(term => text.includes(term));
 }

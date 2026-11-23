@@ -26,6 +26,7 @@ test('subjects in inactive classes, duplicates and unknown parents cannot become
 test('class and topic searches select relevant chapters without exposing quiz answers',()=>{
  const ict={id:'dit/ict',classSlug:'dit-intermediate',classTitle:'D.I.T (2-Year)',grade:13,program:'',slug:'dit-ict',title:'Introduction to ICT',description:'',notes:2,mcqs:2,papers:0,chapters:[{number:1,title:'Computer Networks',label:'Chapter 1: Computer Networks',topics:['Network topology'],notes:1,mcqs:1},{number:2,title:'Microsoft Office',label:'Chapter 2: Microsoft Office',topics:['Spreadsheets'],notes:1,mcqs:1}]};
  assert.equal(matchesStudySearch(ict,'DIT ICT'),true);assert.equal(matchesStudySearch(ict,'not-a-real-topic-915324'),false);
+ assert.equal(matchesStudySearch({...ict,title:'Computer Science',description:'Introduction to ICT has its own subject page.'},'DIT ICT'),false,'Cross-references in descriptions must not turn another subject into an ICT search hit');
  const networking=ict;assert.equal(matchesStudySearch(networking,'network topology'),true);
  const matches=matchingStudyChapters(networking,'network topology');assert.equal(matches.length,1);assert.equal(matches[0].number,1);
  assert.equal(matchesStudySearch(ict,'<script>alert(1)</script>'),false);
