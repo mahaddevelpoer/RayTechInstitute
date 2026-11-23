@@ -3,6 +3,8 @@
   "sourceSha256": "f244d4ca636ca2a56195ba6b3ae5dc27139f333b0122857b08b267d1f70a2340",
   "inputRows": 82,
   "publicationAuthorized": true,
+  "preferredPublicationBatchSize": 10,
+  "batchSizeRequestedOn": "2026-11-23",
   "authorization": "Mahad explicitly instructed that all trends be published and requested a live scorecard feature for Pakistan A vs India A; ICT Chapter 7 continues as part of the same task.",
   "scope": "Cover all 82 input rows. Same-match aliases share one substantive article. Research must substantiate every claim; unknown current facts remain unasserted.",
   "groups": [
@@ -113,13 +115,14 @@
         "sports"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "athletics running track stadium",
         "basketball indoor court"
       ],
       "releaseBatch": 11,
-      "slug": "sports-scores-rules-statistics-student-guide"
+      "slug": "sports-scores-rules-statistics-student-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "preventive-detention",
@@ -142,13 +145,14 @@
         "india national cricket team"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "India cricket team 2011",
         "Wankhede stadium Mumbai"
       ],
       "releaseBatch": 11,
-      "slug": "india-national-cricket-team-squads-fixtures-guide"
+      "slug": "india-national-cricket-team-squads-fixtures-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "inter-miami-vs-columbus",
@@ -171,13 +175,14 @@
         "pakistan national cricket team"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Pakistan cricket team 2017",
         "Rawalpindi cricket stadium"
       ],
       "releaseBatch": 11,
-      "slug": "pakistan-national-cricket-team-squads-scorecards-guide"
+      "slug": "pakistan-national-cricket-team-squads-scorecards-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "gulf-giants-vs-sharjah-warriors",
@@ -338,13 +343,14 @@
         "international cricket council"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "ICC academy Dubai cricket",
         "cricket umpire signals"
       ],
       "releaseBatch": 11,
-      "slug": "international-cricket-council-role-rules-student-guide"
+      "slug": "international-cricket-council-role-rules-student-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "5th-circuit-proxy-voting-ruling",
@@ -449,13 +455,14 @@
         "pcb central contract"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Gaddafi Stadium Lahore cricket",
         "Pakistan cricket training ground"
       ],
       "releaseBatch": 11,
-      "slug": "pcb-central-contracts-2026-38-players-formats-guide"
+      "slug": "pcb-central-contracts-2026-38-players-formats-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "malaysia",
@@ -466,13 +473,14 @@
         "malaysia"
       ],
       "category": "world-affairs",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Petronas Towers Kuala Lumpur",
         "Sarawak river Kuching"
       ],
       "releaseBatch": 11,
-      "slug": "malaysia-states-regions-population-data-student-guide"
+      "slug": "malaysia-states-regions-population-data-student-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "catherine-princess-of-wales",
@@ -587,13 +595,14 @@
         "rising stars asia cup schedule"
       ],
       "category": "sports",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "West End Park cricket stadium Doha",
         "Doha city skyline"
       ],
       "releaseBatch": 11,
-      "slug": "rising-stars-asia-cup-2026-schedule-pakistan-time-guide"
+      "slug": "rising-stars-asia-cup-2026-schedule-pakistan-time-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "musadik-malik-new-delhi-sco-forum",
@@ -640,13 +649,14 @@
         "خیبر پختونخوا"
       ],
       "category": "world-affairs",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Peshawar Museum building",
         "Khyber Pakhtunkhwa mountain landscape"
       ],
       "releaseBatch": 11,
-      "slug": "khyber-pakhtunkhwa-peshawar-census-map-guide"
+      "slug": "khyber-pakhtunkhwa-peshawar-census-map-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "what-is-a-province",
@@ -686,13 +696,14 @@
         "gta v"
       ],
       "category": "technology",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "gaming controller computer desk",
         "computer gaming keyboard"
       ],
       "releaseBatch": 11,
-      "slug": "gta-v-enhanced-legacy-story-mode-pc-guide"
+      "slug": "gta-v-enhanced-legacy-story-mode-pc-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "ashton-kutcher",
@@ -727,13 +738,14 @@
         "gta vice city"
       ],
       "category": "technology",
-      "state": "database-saved-awaiting-hosting",
+      "state": "live-verified",
       "queries": [
         "Ocean Drive Miami Art Deco",
         "video game controller vintage"
       ],
       "releaseBatch": 11,
-      "slug": "gta-vice-city-original-definitive-edition-study-guide"
+      "slug": "gta-vice-city-original-definitive-edition-study-guide",
+      "evidence": "LIVE-BATCHES-1-11.json"
     },
     {
       "key": "anshul-kamboj",
@@ -1107,7 +1119,7 @@
       "trend": "sports",
       "searchVolume": "2k+",
       "key": "sports",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 9,
@@ -1121,7 +1133,7 @@
       "trend": "india national cricket team",
       "searchVolume": "2k+",
       "key": "india-national-cricket-team",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 11,
@@ -1135,7 +1147,7 @@
       "trend": "pakistan national cricket team",
       "searchVolume": "2k+",
       "key": "pakistan-national-cricket-team",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 13,
@@ -1228,7 +1240,7 @@
       "trend": "international cricket council",
       "searchVolume": "1k+",
       "key": "international-cricket-council",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 26,
@@ -1306,14 +1318,14 @@
       "trend": "pcb central contract",
       "searchVolume": "2k+",
       "key": "pcb-central-contract",
-      "state": "draft-written-awaiting-metadata-images-and-validation"
+      "state": "live-verified"
     },
     {
       "row": 37,
       "trend": "malaysia",
       "searchVolume": "200+",
       "key": "malaysia",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 38,
@@ -1384,7 +1396,7 @@
       "trend": "rising stars asia cup schedule",
       "searchVolume": "500+",
       "key": "rising-stars-asia-cup-schedule",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 48,
@@ -1412,7 +1424,7 @@
       "trend": "خیبر پختونخوا",
       "searchVolume": "200+",
       "key": "khyber-pakhtunkhwa",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 52,
@@ -1433,7 +1445,7 @@
       "trend": "gta v",
       "searchVolume": "200+",
       "key": "gta-v",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 55,
@@ -1461,7 +1473,7 @@
       "trend": "gta vice city",
       "searchVolume": "500+",
       "key": "gta-vice-city",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 59,
@@ -1787,7 +1799,10 @@
       "explicitUserAuthorization": true,
       "authorization": "Mahad explicitly requested ten articles together on 23 November 2026. All CSV topics already authorised. Publish only the complete reviewed ten-article batch.",
       "validationFile": "validation-batch-11.json",
-      "state": "database-saved-awaiting-hosting"
+      "state": "live-verified",
+      "artifactRun": 45126641521,
+      "deploymentRun": 45127471810,
+      "sourceRevision": "cd1cada54bb01593b7832410d8d5244054e7711a"
     }
   ],
   "chapterSeven": {

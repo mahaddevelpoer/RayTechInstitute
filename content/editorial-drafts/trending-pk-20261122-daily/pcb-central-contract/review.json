@@ -1,6 +1,6 @@
 {
-  "state": "database-saved-awaiting-hosting",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "sourceCheckedOn": "2026-11-23",
   "source": "https://www.pcb.com.pk/press-release-detail/pcb-announces-central-contracts-for-38-men-s-cricketers.html",
   "checks": [
@@ -12,5 +12,7 @@
   "imageVisualReview": "passed",
   "imageReviewEvidence": "Both contact sheets artifacts/ten-article-images-1.png and ten-article-images-2.png inspected. Subjects and image scope checked; no current-event or game-screenshot identity inferred.",
   "words": 2001,
-  "localChecks": "../validation-batch-11.json"
+  "localChecks": "../validation-batch-11.json",
+  "liveEvidence": "../LIVE-BATCHES-1-11.json",
+  "layoutEvidence": "../LAYOUT-BATCH-11.json"
 }
