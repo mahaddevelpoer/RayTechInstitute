@@ -936,8 +936,12 @@
         "the body netflix"
       ],
       "category": "entertainment",
-      "state": "research-pending",
-      "queries": []
+      "state": "draft-ready-awaiting-batch-validation",
+      "queries": [
+        "cinema projector film",
+        "clapperboard film camera"
+      ],
+      "slug": "the-body-netflix-cast-premise-media-study-guide"
     },
     {
       "key": "roadies-rebirth",
@@ -1665,6 +1669,17 @@
       "state": "live-verified",
       "artifactRun": 45053090665,
       "deploymentRun": 45053638876
+    },
+    {
+      "number": 8,
+      "keys": [
+        "the-body-netflix"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "All trends authorised; user reiterated writing and publication priority on 23 November.",
+      "validationFile": "validation-batch-8.json",
+      "state": "local-review"
     }
   ],
   "chapterSeven": {

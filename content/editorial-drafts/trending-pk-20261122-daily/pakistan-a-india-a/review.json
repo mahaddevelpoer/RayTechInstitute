@@ -1,6 +1,6 @@
 {
-  "state": "reviewed-existing-article-update",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "scope": "All CSV rows tracked; first time-sensitive article with an attributed third-party score feed.",
@@ -11,5 +11,6 @@
   "deploymentRun": 45022878819,
   "liveVerification": "LIVE-BATCH-1.json",
   "resultSource": "https://www.pcb.com.pk/news-detail/hasan-nawaz-s-all-round-performance-leads-pakistan-shaheens-to-emphatic-win-over-india-a-.html",
-  "resultCheckedOn": "2026-11-23"
+  "resultCheckedOn": "2026-11-23",
+  "resultEvidence": "../PAK-IND-RESULT-LIVE.json"
 }

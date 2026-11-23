@@ -1,0 +1,16 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 1,
+  "bodyWords": 2167,
+  "uniqueImages": 2,
+  "existingArticlesCompared": 617,
+  "results": [
+    {
+      "key": "the-body-netflix",
+      "slug": "the-body-netflix-cast-premise-media-study-guide",
+      "words": 2167,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
