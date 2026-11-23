@@ -28,7 +28,7 @@ export function StudyFinder({classSlug = ''}: {classSlug?: string}) {
   const groups = navigation.classes.filter(c=>(!grade || c.slug===grade) && matches.some(s=>s.classSlug===c.slug));
   const reset = () => {setQuery('');setGrade(classSlug);setResource('all');};
   return <section id="find-resources" className="study-finder" aria-labelledby={id+'-title'}>
-    <header><h2 id={id+'-title'}>Find your class, subject or topic</h2><p>Search published study material, then go straight to the notes or practice you need.</p></header>
+    <div className="study-finder-intro"><h2 id={id+'-title'}>Find your class, subject or topic</h2><p>Search published study material, then go straight to the notes or practice you need.</p></div>
     <form action="/classes/" method="get" role="search" className="study-finder-form" onSubmit={e=>e.preventDefault()}>
       <div className="study-finder-query"><label htmlFor={id+'-query'}>Subject or topic</label><input id={id+'-query'} type="search" name="q" maxLength={180} value={query} onChange={e=>setQuery(e.target.value)} placeholder="Try ICT, networking, algebra or a chapter title"/></div>
       <div><label htmlFor={id+'-class'}>Class or program</label><select id={id+'-class'} name="class" value={grade} onChange={e=>setGrade(e.target.value)} disabled={!!classSlug}><option value="">All classes</option>{navigation.classes.filter(c=>navigation.directory.some(s=>s.classSlug===c.slug)).map(c=><option key={c.slug} value={c.slug}>{c.title}</option>)}</select></div>
