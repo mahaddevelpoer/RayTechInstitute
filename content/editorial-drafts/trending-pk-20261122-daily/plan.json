@@ -1690,6 +1690,20 @@
         "tags",
         "seo"
       ]
+    },
+    {
+      "key": "pakistan-a-india-a",
+      "slug": "pakistan-a-india-a-live-scorecard-rising-stars-2026",
+      "explicitUserAuthorization": true,
+      "authorization": "Mahad requested confirmed Pakistan victory coverage on 23 November.",
+      "fields": [
+        "title",
+        "excerpt",
+        "content",
+        "read_time",
+        "tags",
+        "seo"
+      ]
     }
   ]
 }

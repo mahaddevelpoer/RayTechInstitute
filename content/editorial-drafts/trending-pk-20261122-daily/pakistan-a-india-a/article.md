@@ -1,4 +1,29 @@
-Pakistan Shaheens face India A in Group B of the 50-over ACC Men's Asia Cup Rising Stars on 22 November 2026. PCB's tournament fixture page identifies West End Park International Cricket Stadium, Doha, as the venue. Use the live-score panel on this page for the provider's changing match information, and the guide below to understand what its figures mean.
+**Pakistan Shaheens beat India A by 48 runs in Doha on 22 November 2026.** PCB's official report records Pakistan at 313 all out in 49.2 overs and India A at 265 all out in 49.1 overs. Hasan Nawaz was player of the match after scoring 79 and taking 3/45. This is the completed A-team match result, checked on 23 November, rather than a senior international result.
+
+## Pakistan A vs India A: confirmed result
+
+| Item | Confirmed record |
+|---|---|
+| Competition | ACC Men's Asia Cup Rising Stars, Group B |
+| Venue | West End Park International Cricket Stadium, Doha |
+| Pakistan Shaheens | 313 all out, 49.2 overs |
+| India A | 265 all out, 49.1 overs |
+| Winning margin | Pakistan Shaheens by 48 runs |
+| Player of the match | Hasan Nawaz |
+
+PCB also records Maaz Sadaqat's 59, Farhan Yousaf's 56 and Ali Raza's 3/56. Tilak Varma scored 100 for India A. The original match-centre link remains available below for the full bowling, batting and dismissal record.
+
+## Why is the winning margin 48 runs, but the target 314?
+
+These figures answer different questions. Subtracting India's completed total from Pakistan's gives **313 − 265 = 48**, the winning margin. A successful chase would require one more than Pakistan's total: **313 + 1 = 314**. The distance from 265 to the winning target is therefore 49, which must not be substituted for the official 48-run margin.
+
+Overs notation also needs care. Pakistan's 49.2 represents 49 complete six-ball overs plus two legal balls, or **296 legal balls**. India's 49.1 represents **295 legal balls**. They are not decimal quantities of 49.2 and 49.1 overs. A numerical comparison should convert the notation before calculating a rate.
+
+## What does Hasan Nawaz's all-round contribution show?
+
+Batting runs and bowling wickets are separate contributions. His 79 belongs to Pakistan's team total; his three wickets belong to India's innings. Combining them into one invented performance percentage would discard their units and context. The player-of-the-match award is an identified official outcome, while an explanation of its significance should state which contributions it is discussing.
+
+A useful student exercise is to make two columns, batting and bowling, and place each figure in the correct column. Then write one sentence describing the innings total and another describing the winning margin. This keeps individual performance, team outcome and arithmetic separate.
 
 ## Where can you find the Pakistan A vs India A live scorecard?
 
@@ -6,11 +31,11 @@ The score panel above uses IPL.com's publicly offered cricket widget. It contain
 
 Updates can be delayed or temporarily unavailable. Reloading the panel requests it again; it does not make a delayed upstream feed instantaneous. If the panel cannot load, use the direct match link and compare the competition, teams and date. A score without those identifiers can easily belong to another India-Pakistan game.
 
-This article deliberately does not freeze an innings total into its opening paragraph. A printed number would become an old snapshot as play continues. The educational examples below are explicitly fictional and are not reports of runs, wickets, players or targets in the Doha match. The distinction lets the page remain useful while the source handles changing scores.
+The match is complete. Use the result above for the confirmed outcome and the provider match centre for its archived scorecard. The later numerical teaching examples remain fictional and are not additional events from this match.
 
 ## What has the official schedule confirmed?
 
-PCB's 3 November squad announcement describes a 50-over tournament in Qatar and schedules Shaheens against India A on 22 November. Its tournament fixture listing places the teams together in Group B at West End Park. Those details establish which event to look for; they do not establish a live total, the confirmed playing eleven or a final result.
+PCB's 3 November squad announcement describes a 50-over tournament in Qatar and schedules Shaheens against India A on 22 November. Its tournament fixture listing places the teams together in Group B at West End Park. Those schedule details identify the event; the completed result above is established separately by PCB’s match report.
 
 Check the match centre for the latest state before describing an innings as under way, completed or delayed. A scheduled start, an actual first ball and a provider's displayed update time are different timestamps. A fixture page may remain visible long after the event, while a live card changes into a result card.
 
@@ -45,6 +70,10 @@ For an original fictional example, suppose a team has **90 runs after 12.3 overs
 A short burst of scoring can change an early rate substantially because the denominator is still small. Later, the same number of additional runs has a smaller effect on the cumulative rate. Compare the over and the sample size rather than reading one rapidly changing number as a stable description of the entire match.
 
 For student revision, explain the numerator, denominator and unit before using the formula. Here the numerator is team runs, the denominator is time measured in valid-ball equivalents and the reported unit is runs per over. That habit transfers to percentages, speeds and other classroom ratios.
+
+![Thatched scoreboard at Wormsley cricket ground](/images/editorial/trending-pk-20261122-daily/pakistan-a-india-a-inline.webp)
+
+*Thatched scoreboard at Wormsley cricket ground. Illustrative cricket photograph; not an image of the 22 November 2026 Doha match.*
 
 ## What is the difference between a target and a required run rate?
 
@@ -106,9 +135,14 @@ For more foundational computing practice, visit our [D.I.T ICT notes](/classes/d
 
 ## Sources
 
+- [PCB: official Pakistan Shaheens–India A match report, checked 23 November 2026](https://www.pcb.com.pk/news-detail/hasan-nawaz-s-all-round-performance-leads-pakistan-shaheens-to-emphatic-win-over-india-a-.html).
+
 - [PCB: Pakistan Shaheens squad and 50-over tournament schedule, 3 November 2026](https://www.pcb.com.pk/press-release-detail/pakistan-shaheens-squad-announced-for-50-over-acc-men-s-asia-cup-rising-stars-2026-.html).
 - [PCB: ACC Men's Asia Cup Rising Stars tournament fixtures](https://www.pcb.com.pk/tournament-reports.php?action=tournament_matches&sort_by=date_start&sort_order=asc&tournament_id=1481).
 - [BCCI: India A vs Pakistan Shaheens match details, 22 November 2026](https://www.bcci.tv/matches/df694319-6cfe-4fbe-9528-730ae1b3fec4/india-a-vs-pakistan-shaheens/match-details).
 - [IPL.com: match-specific third-party scorecard](https://www.ipl.com/matches/acc-mens-asia-cup-rising-stars-130297/india-a-vs-pakistan-a-100460/live) and [public widget documentation](https://www.ipl.com/widget/).
 - [MCC: Laws of Cricket, 2022 edition](https://www.lords.org/getmedia/56b51c67-3e94-440e-8d05-05a24e34a4e3/Laws-Of-Cricket-3rd-Edition-2022.pdf), for foundational scoring terminology. Competition playing conditions and subsequent applicable changes take precedence.
 - [ICC: explanation of the result and net-run-rate provisions](https://www.icc-cricket.com/news/mens-odi-match-clause-16-the-result). Use the current competition's conditions for its official table.
+
+
+Image credits: cover: Harrogate Cricket Ground by DS Pugh, [source](https://commons.wikimedia.org/wiki/File:Harrogate_Cricket_Ground_-_geograph.org.uk_-_6204551.jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). Resized and converted to WebP. inline: Thatched scoreboard at Wormsley cricket ground by Mark Percy, [source](https://commons.wikimedia.org/wiki/File:Thatched_scoreboard_at_Wormsley_cricket_ground_-_geograph.org.uk_-_6259193.jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). Resized and converted to WebP.

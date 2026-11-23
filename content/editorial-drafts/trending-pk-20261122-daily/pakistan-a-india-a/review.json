@@ -1,6 +1,6 @@
 {
-  "state": "live-verified",
-  "published": true,
+  "state": "reviewed-existing-article-update",
+  "published": false,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-22",
   "scope": "All CSV rows tracked; first time-sensitive article with an attributed third-party score feed.",
@@ -9,5 +9,7 @@
   "liveUrl": "https://raytechinstitute.com/blogs/pakistan-a-india-a-live-scorecard-rising-stars-2026/",
   "artifactRun": 45020807495,
   "deploymentRun": 45022878819,
-  "liveVerification": "LIVE-BATCH-1.json"
+  "liveVerification": "LIVE-BATCH-1.json",
+  "resultSource": "https://www.pcb.com.pk/news-detail/hasan-nawaz-s-all-round-performance-leads-pakistan-shaheens-to-emphatic-win-over-india-a-.html",
+  "resultCheckedOn": "2026-11-23"
 }
