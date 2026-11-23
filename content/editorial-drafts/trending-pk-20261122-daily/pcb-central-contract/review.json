@@ -1,0 +1,8 @@
+{
+  "state": "draft-written-awaiting-metadata-images-and-validation",
+  "published": false,
+  "sourceCheckedOn": "2026-11-23",
+  "source": "https://www.pcb.com.pk/press-release-detail/pcb-announces-central-contracts-for-38-men-s-cricketers.html",
+  "checks": ["Group counts 2+4+6+7+19=38", "Development share 19/38=50 percent", "Format memberships and distinct people kept separate", "No invented salaries or guaranteed selections"],
+  "imageVisualReview": "pending"
+}

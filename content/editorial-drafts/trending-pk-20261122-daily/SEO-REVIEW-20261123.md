@@ -9,3 +9,5 @@ Social image metadata now honours the authored image-alt setting, consistent wit
 Fifth Circuit article: 2,101 validated body words, 42 tags, two visually reviewed licensed images, primary court opinion and constitutional text. Scoped insertion preserved 618 existing records. Hosting verification pending.
 
 Google guidance consulted: https://developers.google.com/search/docs/fundamentals/seo-starter-guide and https://developers.google.com/search/docs/essentials/spam-policies. These changes improve navigation and descriptive metadata; they do not establish indexing, rankings or AdSense approval. Remaining article writing and manual old-content reviews remain incomplete.
+
+Final source c7a480c79ff85ee9a497b2a8d516e6673cc53926 includes Fifth Circuit and Fossil Fuel guides. Artifact run 45121963254 passed all build, source and browser gates. Run 45121260352 failed the older TypeScript-target compatibility check and was not deployed; the helper was corrected and locally typechecked. Run 45121575956 was superseded to include both articles in one release. Reuse the final reviewed export; public hosting verification pending.
