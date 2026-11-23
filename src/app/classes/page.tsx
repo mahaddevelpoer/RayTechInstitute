@@ -13,7 +13,7 @@ import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 export const metadata: Metadata = {
   title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
   description:
-    "Search by class, subject or topic to find published notes, chapter MCQs and past papers. Browse DIT, 11th-class resources and programming courses.",
+    "Search by class, subject or topic to find published notes, chapter MCQs and past papers. Browse school, diploma and programming study resources.",
   alternates: {
     canonical: siteUrl("/classes/"),
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     images: [DEFAULT_SOCIAL_IMAGE],
     title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
     description:
-      "Search by class, subject or topic to find published notes, chapter MCQs and past papers. Browse DIT, 11th-class resources and programming courses.",
+      "Search by class, subject or topic to find published notes, chapter MCQs and past papers. Browse school, diploma and programming study resources.",
     url: siteUrl("/classes/"),
     type: "website",
   },
