@@ -1,0 +1,17 @@
+{
+  "checkedOn": "2026-11-23",
+  "sources": [
+    "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+    "https://www.eia.gov/energyexplained/units-and-calculators/",
+    "https://www.eia.gov/energyexplained/energy-and-the-environment/greenhouse-gases.php",
+    "https://www.eia.gov/energyexplained/electricity/electricity-in-the-us.php"
+  ],
+  "scope": "Definitions and original hypothetical classroom calculations; no invented Pakistani prices, national mix or performance measurements.",
+  "calculations": [
+    "2 kW x 3 h = 6 kWh",
+    "35/100 = 35 percent",
+    "40-35 = 5 percentage points",
+    "5 MW x 4 h = 20 MWh",
+    "20/10 = 2 versus 30/30 = 1 intensity units"
+  ]
+}

@@ -1,5 +1,6 @@
 export interface ReviewedArticleCover { alt: string; caption: string; width: number; height: number; fit?: 'contain'; }
 export const REVIEWED_ARTICLE_COVERS: Record<string, ReviewedArticleCover> = {
+  "/images/editorial/trending-pk-20261122-daily/fossil-fuel-cover.webp": {"alt": "Bituminous Coal", "caption": "Bituminous coal sample, illustrating a solid fossil fuel.", "width": 1280, "height": 853, "fit": "contain"},
   "/images/editorial/trending-pk-20261122-daily/5th-circuit-proxy-voting-ruling-cover.webp": {alt: "John Minor Wisdom U.S. Courthouse in New Orleans", caption: "John Minor Wisdom U.S. Courthouse in New Orleans. Architectural illustration; the linked opinion is the source for the ruling.", width: 1280, height: 960, fit: 'contain'},
   "/images/editorial/trending-pk-20261122-daily/the-body-netflix-cover.webp": {"alt": "Historical domestic film projector", "caption": "Historical domestic film projector, illustrating cinema technology. Not equipment from The Body production.", "width": 500, "height": 333, "fit": "contain"},
   "/images/editorial/trending-pk-20261122-daily/honor-cover.webp": {"fit": "contain", "alt": "Reverse of a black HONOR 8 smartphone", "caption": "Historical HONOR 8 hardware photograph. The specification examples in this guide use separately identified 600-series documents.", "width": 960, "height": 960},

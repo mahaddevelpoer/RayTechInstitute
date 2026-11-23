@@ -980,8 +980,12 @@
         "fossil fuel"
       ],
       "category": "science",
-      "state": "research-pending",
-      "queries": []
+      "state": "draft-written-awaiting-images",
+      "queries": [
+        "bituminous coal sample",
+        "natural gas power plant"
+      ],
+      "slug": "what-are-fossil-fuels-coal-oil-gas-energy-guide"
     },
     {
       "key": "salman-khan",
@@ -1696,6 +1700,17 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV articles authorised. Dated primary-opinion explanation.",
       "validationFile": "validation-batch-9.json",
+      "state": "local-review"
+    },
+    {
+      "number": 10,
+      "keys": [
+        "fossil-fuel"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "Mahad reiterated completing all pending articles with substantive SEO on 23 November.",
+      "validationFile": "validation-batch-10.json",
       "state": "local-review"
     }
   ],

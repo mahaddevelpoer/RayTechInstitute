@@ -1,0 +1,16 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 1,
+  "bodyWords": 2167,
+  "uniqueImages": 2,
+  "existingArticlesCompared": 619,
+  "results": [
+    {
+      "key": "fossil-fuel",
+      "slug": "what-are-fossil-fuels-coal-oil-gas-energy-guide",
+      "words": 2167,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}
