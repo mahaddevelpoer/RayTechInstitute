@@ -1,0 +1,46 @@
+{
+  "revision": "c7a480c79ff85ee9a497b2a8d516e6673cc53926",
+  "checkedAt": "2026-11-23T06:16:16.096Z",
+  "oldArticleLinks": true,
+  "authoredSocialImageAlt": true,
+  "unsafeNoindexPreserved": true,
+  "unsafeRecommendationsExcluded": true,
+  "checks": [
+    {
+      "slug": "punjab-grade-11-biology-smart-syllabus-2027",
+      "width": 1280,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "slug": "punjab-grade-11-biology-smart-syllabus-2027",
+      "width": 360,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "slug": "fifth-circuit-proxy-presence-ruling-quorum-explained",
+      "width": 1280,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "slug": "fifth-circuit-proxy-presence-ruling-quorum-explained",
+      "width": 360,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "slug": "what-are-fossil-fuels-coal-oil-gas-energy-guide",
+      "width": 1280,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "slug": "what-are-fossil-fuels-coal-oil-gas-energy-guide",
+      "width": 360,
+      "noOverflow": true,
+      "oneH1": true
+    }
+  ]
+}
