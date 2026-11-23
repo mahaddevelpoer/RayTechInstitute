@@ -9,3 +9,5 @@ All ten use primary match records and original educational explanation. Coventry
 Database insertion, artifact build, hosting deployment and public verification are tracked below as they complete. Until public checks pass, this file does not claim the articles are live.
 
 Database insertion saved and read-back verified all ten new records while preserving all 630 existing records. Receipt: PUBLICATION-RECEIPT-BATCH-12.json. Hosting verification remains pending.
+
+Reviewed source: 1d0adca0bdf848d5aa10ab6d528ef7204ca0d08e. Artifact run 45131426636 passed all required source, static build, export and browser gates. Deploy this same checked export for the complete ten-article batch; public verification remains pending.
