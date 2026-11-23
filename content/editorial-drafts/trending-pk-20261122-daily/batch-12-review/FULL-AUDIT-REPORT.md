@@ -15,3 +15,7 @@ Scope: ten new articles only, checked 23 November 2026. This is an article revie
 Public HTTP status, listing and sitemap presence, rendered canonical, single h1, BlogPosting output, exact public image bytes and desktop/mobile layout require the released artifact. Complete those checks before marking articles live verified.
 
 Google indexing, ranking recovery, real-user Core Web Vitals and AdSense approval are not established by these checks. No such outcome is claimed.
+
+## Confirmed release passes
+
+Artifact 45131426636 passed required source, academic/resource, static build and browser checks. Deployment 45132172160 served the same reviewed source revision. All previously unknown release checks above are now confirmed passed: 33 article routes, 66 exact image-byte comparisons and twenty new-batch desktop/mobile layout observations. The twenty layout screenshots were visually inspected. Search indexing, rankings, field performance and AdSense outcomes remain unmeasured.

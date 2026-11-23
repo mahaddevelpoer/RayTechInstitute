@@ -11,3 +11,5 @@ Database insertion, artifact build, hosting deployment and public verification a
 Database insertion saved and read-back verified all ten new records while preserving all 630 existing records. Receipt: PUBLICATION-RECEIPT-BATCH-12.json. Hosting verification remains pending.
 
 Reviewed source: 1d0adca0bdf848d5aa10ab6d528ef7204ca0d08e. Artifact run 45131426636 passed all required source, static build, export and browser gates. Deploy this same checked export for the complete ten-article batch; public verification remains pending.
+
+Source 1d0adca0bdf848d5aa10ab6d528ef7204ca0d08e passed artifact run 45131426636. The same export was deployed by run 45132172160. All 33 new queue articles passed public HTTP, listing, sitemap, custom metadata, canonical, single h1, BlogPosting and exact image-byte checks. All ten batch routes passed twenty desktop/mobile checks. All twenty screenshots were visually inspected. Evidence: LIVE-BATCHES-1-12.json, LAYOUT-BATCH-12.json and PUBLISHED-BATCH-12.md.

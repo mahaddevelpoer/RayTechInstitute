@@ -1,9 +1,11 @@
 {
-  "state": "local-verified-unpublished",
-  "published": false,
+  "state": "live-verified",
+  "published": true,
   "imageVisualReview": "passed",
   "sourceCheckedOn": "2026-11-23",
   "imageReviewEvidence": "Both batch12-article-images contact sheets visually inspected: twenty distinct real photographs. Historical dates, home/away venue scope, seats, museum display and fence view identified accurately. Public-domain Sunderland and Gladbach photos checked against original Commons author releases.",
   "words": 2106,
-  "localChecks": "validation.json"
+  "localChecks": "../validation-batch-12.json",
+  "liveEvidence": "../LIVE-BATCHES-1-12.json",
+  "layoutEvidence": "../LAYOUT-BATCH-12.json"
 }
