@@ -40,10 +40,12 @@ export function buildStudyDirectory(catalog: StudyCatalog): StudySubject[] {
 export const hasStudyResources = (subject: StudySubject, resource: StudyResource = 'all') => resource === 'all' ? subject.notes+subject.mcqs+subject.papers > 0 : subject[resource] > 0;
 function normalize(text: string) {return text.normalize('NFKC').replace(/\bD\.?I\.?T\.?\b/gi,'DIT').toLowerCase().replace(/[.\-_/]/g, ' ').replace(/\s+/g, ' ').trim();}
 export function matchesStudySearch(subject: StudySubject, query: string) {
-  const terms = normalize(query.slice(0,180)).split(' ').filter(Boolean);
+  const words = (text: string) => normalize(text).match(new RegExp('[\\p{L}\\p{N}]+','gu')) || [];
+  const terms = words(query.slice(0,180));
   const text = normalize([subject.classTitle, subject.program,subject.grade, subject.title,
     ...subject.chapters.flatMap(c => [c.title,c.label,...c.topics])].join(' '));
-  return terms.every(term => text.includes(term));
+  const indexed = words(text);
+  return terms.every(term => indexed.some(word => word.startsWith(term)));
 }
 export function matchingStudyChapters(subject: StudySubject, query: string) {
   return subject.chapters.filter(chapter => matchesStudySearch({...subject,chapters:[chapter]},query));

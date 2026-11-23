@@ -27,6 +27,8 @@ test('class and topic searches select relevant chapters without exposing quiz an
  const ict={id:'dit/ict',classSlug:'dit-intermediate',classTitle:'D.I.T (2-Year)',grade:13,program:'',slug:'dit-ict',title:'Introduction to ICT',description:'',notes:2,mcqs:2,papers:0,chapters:[{number:1,title:'Computer Networks',label:'Chapter 1: Computer Networks',topics:['Network topology'],notes:1,mcqs:1},{number:2,title:'Microsoft Office',label:'Chapter 2: Microsoft Office',topics:['Spreadsheets'],notes:1,mcqs:1}]};
  assert.equal(matchesStudySearch(ict,'DIT ICT'),true);assert.equal(matchesStudySearch(ict,'not-a-real-topic-915324'),false);
  assert.equal(matchesStudySearch({...ict,title:'Computer Science',description:'Introduction to ICT has its own subject page.'},'DIT ICT'),false,'Cross-references in descriptions must not turn another subject into an ICT search hit');
+ assert.equal(matchesStudySearch({...ict,title:'Computer Science',chapters:[{...ict.chapters[0],title:'PowerPoint',label:'MS Office Chapter 4',topics:['Shapes and Picture Formatting']}]},'DIT ICT'),false,'ICT must not match the middle of Picture');
+ if(directory.some(s=>s.slug==='dit-ict'))assert.deepEqual(directory.filter(s=>matchesStudySearch(s,'DIT ICT')).map(s=>s.slug),['dit-ict']);
  const networking=ict;assert.equal(matchesStudySearch(networking,'network topology'),true);
  const matches=matchingStudyChapters(networking,'network topology');assert.equal(matches.length,1);assert.equal(matches[0].number,1);
  assert.equal(matchesStudySearch(ict,'<script>alert(1)</script>'),false);
