@@ -1,0 +1,98 @@
+{
+  "componentPreview": true,
+  "notNextReleaseMeasurement": true,
+  "measurements": [
+    {
+      "width": 375,
+      "overflow": 0,
+      "footerBackground": "rgb(248, 250, 252)",
+      "footerColors": [
+        "rgb(27, 79, 155)",
+        "rgb(27, 79, 155)"
+      ],
+      "footerContrast": [
+        7.607602631068847,
+        7.607602631068847
+      ],
+      "buttonContrast": 7.959650560919853,
+      "dark": false
+    },
+    {
+      "width": 375,
+      "overflow": 0,
+      "footerBackground": "rgb(32, 32, 32)",
+      "footerColors": [
+        "rgb(147, 197, 253)",
+        "rgb(147, 197, 253)"
+      ],
+      "footerContrast": [
+        9.035370084396902,
+        9.035370084396902
+      ],
+      "buttonContrast": 5.168555560022562,
+      "dark": true
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "footerBackground": "rgb(248, 250, 252)",
+      "footerColors": [
+        "rgb(27, 79, 155)",
+        "rgb(27, 79, 155)"
+      ],
+      "footerContrast": [
+        7.607602631068847,
+        7.607602631068847
+      ],
+      "buttonContrast": 7.959650560919853,
+      "dark": false
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "footerBackground": "rgb(32, 32, 32)",
+      "footerColors": [
+        "rgb(147, 197, 253)",
+        "rgb(147, 197, 253)"
+      ],
+      "footerContrast": [
+        9.035370084396902,
+        9.035370084396902
+      ],
+      "buttonContrast": 5.168555560022562,
+      "dark": true
+    },
+    {
+      "width": 1280,
+      "overflow": 0,
+      "footerBackground": "rgb(248, 250, 252)",
+      "footerColors": [
+        "rgb(27, 79, 155)",
+        "rgb(27, 79, 155)"
+      ],
+      "footerContrast": [
+        7.607602631068847,
+        7.607602631068847
+      ],
+      "buttonContrast": 7.959650560919853,
+      "dark": false
+    },
+    {
+      "width": 1280,
+      "overflow": 0,
+      "footerBackground": "rgb(32, 32, 32)",
+      "footerColors": [
+        "rgb(147, 197, 253)",
+        "rgb(147, 197, 253)"
+      ],
+      "footerContrast": [
+        9.035370084396902,
+        9.035370084396902
+      ],
+      "buttonContrast": 5.168555560022562,
+      "dark": true
+    }
+  ],
+  "unwantedServiceRequests": 0,
+  "pageErrors": []
+}

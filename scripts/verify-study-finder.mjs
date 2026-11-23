@@ -34,6 +34,7 @@ try{
   await finder.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/study-finder-review/classes-${width}-${dark?'dark':'light'}.png`});
   const link=finder.locator('a[href="/classes/dit-intermediate/dit-ict/mcqs/?chapter=7"]');assert.equal(await link.count(),1);
   await page.goto(origin+'/',{waitUntil:'domcontentloaded'});await page.locator('.study-quick-find').getByLabel('What are you studying?',{exact:true}).fill('DIT ICT');
+  await page.waitForFunction(()=>Array.from(document.querySelectorAll('.home-hero-copy,.home-course-preview')).every(node=>Number(getComputedStyle(node).opacity)>.99));
   await page.screenshot({path:`artifacts/study-finder-review/home-${width}-${dark?'dark':'light'}.png`});
   await Promise.all([page.waitForURL('**/classes/?q=DIT+ICT'),page.locator('.study-quick-find').getByRole('button',{name:'Find resources',exact:true}).click()]);
   await page.waitForFunction(()=>document.querySelector('.study-finder input')?.value==='DIT ICT');

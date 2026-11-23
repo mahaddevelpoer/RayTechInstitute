@@ -1,0 +1,33 @@
+{
+  "scope": "Read-only zero-row Data API checks using already-public browser anon credential. No service credentials or user rows requested.",
+  "results": [
+    {
+      "table": "classes",
+      "role": "public-anon",
+      "operation": "SELECT limit 0",
+      "status": 401,
+      "emptyArray": false
+    },
+    {
+      "table": "blogs",
+      "role": "public-anon",
+      "operation": "SELECT limit 0",
+      "status": 401,
+      "emptyArray": false
+    },
+    {
+      "table": "learning_topics",
+      "role": "public-anon",
+      "operation": "SELECT limit 0",
+      "status": 401,
+      "emptyArray": false
+    },
+    {
+      "table": "notification_subscribers",
+      "role": "public-anon",
+      "operation": "SELECT limit 0",
+      "status": 200,
+      "emptyArray": true
+    }
+  ]
+}

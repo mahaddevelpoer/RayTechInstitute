@@ -26,3 +26,9 @@ Content work requiring real source material: fill missing chapter notes, reviewe
 Measurement: use Search Console impressions, clicks, CTR and query/page reports after recrawling. Exact search volume remains unverified. The 1,000-row spreadsheet mentioned in the source report is not available locally.
 
 Deferred: external backlink acquisition and new board landing pages without board-specific content. Existing slugs are preserved.
+
+## Final verification: 23 November 2026
+
+Artifact run [45179813818](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45179813818) succeeded for application source f449c9f8615a5b5b7197266e8ed976942b5f8a67. All required source, private-progress rules, export, SEO and browser gates passed. New finder checks passed at 360px and 1366px in both themes with crawlable subject links, class/topic filtering, homepage GET navigation, one h1 and no overflow/page errors. Four actual exported class-directory screenshots were visually reviewed. Four additional home-component screenshots were recaptured after existing intro animations settled and visually reviewed; these are labelled component previews. The screenshot-capture helper now explicitly waits for that settled state; application code is unchanged after the verified artifact. Production and complete development lockfile audits both report zero known advisories after the additional selector-parser patch.
+
+Website and secure-dispatch are still NOT deployed. Current non-editorial publication requires the approval stated in AGENTS.md. Reviewed screenshots and machine-readable checks are under docs/reviews/student-access-20261123/. Earlier external verification limitations and manual legacy-content reviews remain open; no indexing, ranking, field-speed or invulnerability claim is made.

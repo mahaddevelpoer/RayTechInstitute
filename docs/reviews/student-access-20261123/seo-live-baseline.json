@@ -1,0 +1,925 @@
+{
+  "checkedAt": "2026-11-23T11:07:59.845Z",
+  "scope": "Bounded representative raw HTML technical SEO and discoverability audit, not a full-site crawl or a ranking diagnosis.",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/",
+      "title": "Study Notes &amp; Programming Courses | RayTech Institute",
+      "titleLength": 53,
+      "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+      "descriptionLength": 139,
+      "bytes": 163668,
+      "textWords": 6816,
+      "canonical": "https://raytechinstitute.com/",
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "h1": [
+        "Learn the concept.Then write the code."
+      ],
+      "academicLinks": [
+        "/classes/11th-class/",
+        "/classes/11th-class/computer-science/notes/",
+        "/classes/11th-class/computer-science/mcqs/",
+        "/classes/11th-class/computer-science/past-papers/",
+        "/classes/11th-class/mathematics/notes/",
+        "/classes/11th-class/mathematics/mcqs/",
+        "/classes/11th-class/mathematics/past-papers/",
+        "/classes/11th-class/physics/notes/",
+        "/classes/11th-class/physics/mcqs/",
+        "/classes/11th-class/physics/past-papers/",
+        "/classes/dit-intermediate/",
+        "/classes/dit-intermediate/dit-computer-science/notes/",
+        "/classes/dit-intermediate/dit-computer-science/mcqs/",
+        "/classes/dit-intermediate/dit-computer-science/past-papers/",
+        "/classes/dit-intermediate/dit-ict/notes/",
+        "/classes/dit-intermediate/dit-ict/mcqs/",
+        "/classes/dit-intermediate/dit-ict/past-papers/",
+        "/classes/12th-class/",
+        "/classes/12th-class/chemistry/notes/",
+        "/classes/12th-class/chemistry/mcqs/",
+        "/classes/12th-class/chemistry/past-papers/",
+        "/classes/12th-class/computer-science/notes/",
+        "/classes/12th-class/computer-science/mcqs/",
+        "/classes/12th-class/computer-science/past-papers/",
+        "/classes/12th-class/physics/notes/",
+        "/classes/12th-class/physics/mcqs/",
+        "/classes/12th-class/physics/past-papers/",
+        "/classes/python-class/",
+        "/classes/",
+        "/classes/11th-class/computer-science/",
+        "/classes/11th-class/mathematics/",
+        "/classes/11th-class/physics/",
+        "/classes/12th-class/chemistry/",
+        "/classes/12th-class/computer-science/",
+        "/classes/12th-class/physics/",
+        "/classes/dit-intermediate/dit-computer-science/",
+        "/classes/dit-intermediate/dit-ict/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/classes/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/classes/",
+      "title": "Class Study Notes, MCQs and Past Papers | RayTech Institute",
+      "titleLength": 59,
+      "description": "Choose your class and subject to find notes, chapter-wise MCQs and past papers. Browse available study resources and programming courses.",
+      "descriptionLength": 137,
+      "bytes": 44193,
+      "textWords": 232,
+      "canonical": "https://raytechinstitute.com/classes/",
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "h1": [
+        "What would you like to study?"
+      ],
+      "academicLinks": [
+        "/classes/11th-class/",
+        "/classes/12th-class/",
+        "/classes/python-class/",
+        "/classes/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://raytechinstitute.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Academic Classes",
+              "item": "https://raytechinstitute.com/classes/"
+            }
+          ]
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/classes/dit-intermediate/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "title": "D.I.T (2-Year) Semester 1 Study Resources &amp; Notes | RayTech Institute",
+      "titleLength": 69,
+      "description": "D.I.T (2-Year) Semester 1 study resources: Choose a subject to browse available notes, chapter MCQs and past papers. Check each resource before using it for revision.",
+      "descriptionLength": 166,
+      "bytes": 66130,
+      "textWords": 546,
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "robots": [
+        "index, follow"
+      ],
+      "h1": [
+        "Choose your subject"
+      ],
+      "academicLinks": [
+        "/classes/",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=1",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=2",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=3",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=4",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=5",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=6",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=7",
+        "/classes/dit-intermediate/dit-ict/",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=2",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=3",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=11",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=5",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=12",
+        "/classes/dit-intermediate/dit-computer-science/",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=1",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=4",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=6",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=7",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=8",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=9",
+        "/classes/dit-intermediate/dit-computer-science/notes/?chapter=10",
+        "/classes/dit-intermediate/dit-computer-science/notes/",
+        "/classes/dit-intermediate/dit-computer-science/mcqs/",
+        "/classes/dit-intermediate/dit-computer-science/past-papers/",
+        "/classes/dit-intermediate/dit-ict/notes/",
+        "/classes/dit-intermediate/dit-ict/mcqs/",
+        "/classes/dit-intermediate/dit-ict/past-papers/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://raytechinstitute.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Classes",
+              "item": "https://raytechinstitute.com/classes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "D.I.T (2-Year)",
+              "item": "https://raytechinstitute.com/classes/dit-intermediate/"
+            }
+          ]
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/",
+      "title": "D.I.T Introduction to ICT Study Material | RayTech Institute",
+      "titleLength": 60,
+      "description": "D.I.T Introduction to ICT: Browse available chapter notes, topic MCQs and past papers. Read resource details and choose what you need for revision.",
+      "descriptionLength": 147,
+      "bytes": 65819,
+      "textWords": 506,
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/",
+      "robots": [
+        "index, follow"
+      ],
+      "h1": [
+        "Introduction to ICT"
+      ],
+      "academicLinks": [
+        "/classes/",
+        "/classes/dit-intermediate/",
+        "/classes/dit-intermediate/dit-ict/",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=1",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=1",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=2",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=2",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=3",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=3",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=4",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=4",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=5",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=5",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=6",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=6",
+        "/classes/dit-intermediate/dit-ict/notes/?chapter=7",
+        "/classes/dit-intermediate/dit-ict/mcqs/?chapter=7",
+        "/classes/dit-intermediate/dit-ict/notes/",
+        "/classes/dit-intermediate/dit-ict/mcqs/",
+        "/classes/dit-intermediate/dit-ict/past-papers/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://raytechinstitute.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Classes",
+              "item": "https://raytechinstitute.com/classes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "D.I.T (2-Year)",
+              "item": "https://raytechinstitute.com/classes/dit-intermediate/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Introduction to ICT",
+              "item": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/"
+            }
+          ]
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/",
+      "title": "D.I.T The Internet and the World Wide Web Ch 7 Notes PDF | RayTech Institute",
+      "titleLength": 76,
+      "description": "D.I.T The Internet and the World Wide Web Chapter 7 notes PDF: Study all nine PBTE ICT Chapter 7 sections with 108 explained MCQs, Internet and web…",
+      "descriptionLength": 148,
+      "bytes": 327768,
+      "textWords": 12933,
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/",
+      "robots": [
+        "index, follow"
+      ],
+      "h1": [
+        "Internet and World Wide Web: ICT Chapter 7 Study Guide"
+      ],
+      "academicLinks": [
+        "/classes/dit-intermediate/dit-ict/notes/",
+        "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/",
+        "/classes/dit-intermediate/dit-ict/",
+        "/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-6-application-software/",
+        "/classes/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LearningResource",
+              "@id": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/#resource",
+              "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/",
+              "name": "Internet and World Wide Web: ICT Chapter 7 Study Guide",
+              "description": "Study all nine PBTE ICT Chapter 7 sections with 108 explained MCQs, Internet and web notes, responsible computing, solved questions and practical tasks.",
+              "educationalLevel": "D.I.T (2-Year)",
+              "learningResourceType": "Study notes",
+              "inLanguage": [
+                "en"
+              ],
+              "isAccessibleForFree": true,
+              "keywords": [
+                "D.I.T Introduction to ICT",
+                "Introduction to ICT MCQs",
+                "Introduction to ICT notes PDF",
+                "The Internet and the World Wide Web",
+                "7.1 Networks, Internet Access and Addresses",
+                "7.2 The World Wide Web and Web Publishing",
+                "7.3 E-Commerce",
+                "7.4 Other Internet Services",
+                "7.5 Computer Security and Malware",
+                "7.6 Information Privacy",
+                "7.7 Computer Ethics",
+                "7.8 Cybercrimes and Responsible Reporting",
+                "7.9 Health Concerns and Comfortable Computer Use"
+              ],
+              "about": [
+                {
+                  "@type": "Thing",
+                  "name": "Introduction to ICT"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "The Internet and the World Wide Web"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.1 Networks, Internet Access and Addresses"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.2 The World Wide Web and Web Publishing"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.3 E-Commerce"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.4 Other Internet Services"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.5 Computer Security and Malware"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.6 Information Privacy"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.7 Computer Ethics"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.8 Cybercrimes and Responsible Reporting"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "7.9 Health Concerns and Comfortable Computer Use"
+                }
+              ],
+              "publisher": {
+                "@type": "Organization",
+                "name": "RayTech Institute",
+                "url": "https://raytechinstitute.com"
+              },
+              "dateModified": "2026-11-22",
+              "associatedMedia": {
+                "@type": "MediaObject",
+                "contentUrl": "https://raytechinstitute.com/documents/dit/ict/ict-chapter-7-the-internet-and-world-wide-web.pdf",
+                "encodingFormat": "application/pdf"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/#breadcrumbs",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://raytechinstitute.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Classes",
+                  "item": "https://raytechinstitute.com/classes/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "D.I.T (2-Year)",
+                  "item": "https://raytechinstitute.com/classes/dit-intermediate/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Introduction to ICT",
+                  "item": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Notes",
+                  "item": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "name": "Internet and World Wide Web: ICT Chapter 7 Study Guide",
+                  "item": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/classes/12th-class/chemistry/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/classes/12th-class/chemistry/",
+      "title": "12th Class Chemistry Study Material | RayTech Institute",
+      "titleLength": 55,
+      "description": "12th Class Chemistry: Browse available chapter notes, topic MCQs and past papers. Read resource details and choose what you need for revision.",
+      "descriptionLength": 142,
+      "bytes": 46541,
+      "textWords": 256,
+      "canonical": "https://raytechinstitute.com/classes/12th-class/chemistry/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "h1": [
+        "Chemistry"
+      ],
+      "academicLinks": [
+        "/classes/",
+        "/classes/12th-class/",
+        "/classes/12th-class/chemistry/notes/",
+        "/classes/12th-class/chemistry/mcqs/",
+        "/classes/12th-class/chemistry/past-papers/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://raytechinstitute.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Classes",
+              "item": "https://raytechinstitute.com/classes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "12th Class (2nd Year HSSC-II)",
+              "item": "https://raytechinstitute.com/classes/12th-class/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Chemistry",
+              "item": "https://raytechinstitute.com/classes/12th-class/chemistry/"
+            }
+          ]
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/classes/12th-class/chemistry/notes/",
+      "status": 200,
+      "finalUrl": "https://raytechinstitute.com/classes/12th-class/chemistry/notes/",
+      "title": "12th Chemistry Notes PDF | RayTech Institute",
+      "titleLength": 44,
+      "description": "12th Class Chemistry notes: Browse available chapter notes and PDF revision resources. Check the document details and use its preview before downloading.",
+      "descriptionLength": 153,
+      "bytes": 39648,
+      "textWords": 208,
+      "canonical": "https://raytechinstitute.com/classes/12th-class/chemistry/notes/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "h1": [
+        "12th Class (2nd Year HSSC-II) Chemistry Chapter Notes"
+      ],
+      "academicLinks": [
+        "/classes/",
+        "/classes/12th-class/",
+        "/classes/12th-class/chemistry/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://raytechinstitute.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "12th Class (2nd Year HSSC-II)",
+              "item": "https://raytechinstitute.com/classes/12th-class/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Chemistry Notes",
+              "item": "https://raytechinstitute.com/classes/12th-class/chemistry/notes/"
+            }
+          ]
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    },
+    {
+      "path": "/this-page-does-not-exist-audit-20261123/",
+      "status": 404,
+      "finalUrl": "https://raytechinstitute.com/this-page-does-not-exist-audit-20261123/",
+      "title": "Page Not Found | RayTech Institute",
+      "titleLength": 34,
+      "description": "This page could not be found. Continue to programming courses, class resources or the RayTech Institute homepage.",
+      "descriptionLength": 113,
+      "bytes": 21188,
+      "textWords": 65,
+      "canonical": "https://raytechinstitute.com/",
+      "robots": [
+        "noindex",
+        "noindex, follow"
+      ],
+      "h1": [
+        "We could not find this page."
+      ],
+      "academicLinks": [
+        "/classes/"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RayTech Institute",
+          "url": "https://raytechinstitute.com/",
+          "description": "Find class-wise study notes, subject MCQs, past papers, results and programming courses. Choose your class and explore available resources.",
+          "inLanguage": "en-PK",
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "RayTech Institute",
+            "url": "https://www.youtube.com/@RaytechInstitute",
+            "logo": "https://raytechinstitute.com/android-chrome-192x192.png"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "RayTech Institute",
+          "alternateName": "@RaytechInstitute",
+          "description": "A growing digital archive of computer science education, programming fundamentals, practical development and guided learning.",
+          "url": "https://raytechinstitute.com/",
+          "logo": "https://raytechinstitute.com/android-chrome-192x192.png",
+          "sameAs": [
+            "https://www.youtube.com/@RaytechInstitute"
+          ],
+          "knowsAbout": [
+            "Computer Science Fundamentals",
+            "Python Programming",
+            "C & C++ Architecture",
+            "Software Development Life Cycle",
+            "HTML & Web Development",
+            "Modern Development Environments (VS Code, CLion)",
+            "Class-wise Subjects & Examination Resources"
+          ],
+          "areaServed": "Pakistan"
+        }
+      ],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; media-src 'self' blob:; script-src https://challenges.cloudflare.com 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com https://apis.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src https://raytech-competition.raytech-institute-archive.workers.dev https://competition.raytechinstitute.com https://challenges.cloudflare.com 'self' blob: wss://generativelanguage.googleapis.com https://*.supabase.co https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com https://firebaselogging.googleapis.com https://www.googleapis.com https://*.googleapis.com https://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://challenges.cloudflare.com 'self' https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com https://docs.google.com https://raytechinstitute.firebaseapp.com; worker-src 'self' blob:; upgrade-insecure-requests",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+        "x-robots-tag": null
+      }
+    }
+  ],
+  "robots": {
+    "status": 200,
+    "text": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blogs/post/\nSitemap: https://raytechinstitute.com/sitemap.xml\n"
+  },
+  "sitemap": {
+    "status": 200,
+    "total": 761,
+    "unique": 761,
+    "hosts": [
+      "raytechinstitute.com"
+    ],
+    "privateUrls": [],
+    "emptyChemistryUrls": []
+  },
+  "pagespeed": {
+    "status": 429,
+    "measurement": "unavailable"
+  },
+  "skillScriptLimits": "robots_checker.py, security_headers.py and pagespeed.py each attempted once; bundled Python lacks requests. Direct Node TLS/HTTP checks used as fallback. JSON-LD skill validator run separately; its top-level @type warning for @graph is a helper limitation, not invalid JSON-LD."
+}

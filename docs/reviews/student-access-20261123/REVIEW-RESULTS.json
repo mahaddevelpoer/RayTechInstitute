@@ -1,0 +1,49 @@
+{
+  "checkedOn": "2026-11-23",
+  "state": "ready-for-owner-review-not-deployed",
+  "sourceRevision": "f449c9f8615a5b5b7197266e8ed976942b5f8a67",
+  "artifactRun": 45179813818,
+  "artifactConclusion": "success",
+  "allRequiredSourceExportAndBrowserGates": "passed",
+  "applicationTypecheck": "passed",
+  "focusedSecurityAndSeoSuite": {
+    "tests": 34,
+    "passed": 34
+  },
+  "focusedResourceSuite": {
+    "tests": 21,
+    "passed": 21
+  },
+  "multiclassSuite": {
+    "tests": 7,
+    "passed": 7
+  },
+  "newDirectoryTests": {
+    "tests": 5,
+    "passed": 5
+  },
+  "dependencyAudit": {
+    "productionKnownAdvisories": 0,
+    "completeLockfileKnownAdvisories": 0
+  },
+  "exportFinderViewports": [
+    360,
+    1366
+  ],
+  "exportFinderThemes": [
+    "light",
+    "dark"
+  ],
+  "screenshotsReviewed": {
+    "exportedClassDirectory": 4,
+    "settledHomeComponents": 4
+  },
+  "googleFieldMetrics": "unavailable; anonymous PSI returned 429",
+  "productionChanged": false,
+  "releaseRequirements": [
+    "Owner approval under repository AGENTS.md for the current non-editorial changes",
+    "Deploy reviewed website artifact 45179813818",
+    "Deploy secure-dispatch function separately",
+    "Verify actual public website and auth rejection boundaries after deployment"
+  ]
+}
