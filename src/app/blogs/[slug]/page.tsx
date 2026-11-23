@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import { INITIAL_BLOGS } from "@/data/staticCatalog";
 import { BlogDetailClientView } from "@/components/educational/BlogDetailClientView";
 import { buildSeoTitle } from "@/utils/seo";
+import { relatedArticles } from '@/utils/related-articles';
 import { REVIEWED_ARTICLE_COVERS, REVIEWED_ARTICLE_KEYWORDS } from '@/data/reviewedArticleMedia';
 
 export function generateStaticParams() {
@@ -71,7 +72,7 @@ export async function generateMetadata({
             : enabled("socialImage")&&post.seo?.socialImage&&/^https:\/\//.test(post.seo.socialImage)?post.seo.socialImage:post.featuredImage,
           width: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.width || 1200,
           height: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.height || 630,
-          alt: REVIEWED_ARTICLE_COVERS[post.featuredImage]?.alt || post.title,
+          alt: enabled('imageAlt') && post.seo?.imageAlt ? post.seo.imageAlt : REVIEWED_ARTICLE_COVERS[post.featuredImage]?.alt || post.title,
         },
       ],
       type: "article",
@@ -100,6 +101,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
           initialPost={initialPost}
           coverMetadata={REVIEWED_ARTICLE_COVERS[initialPost.featuredImage]}
           seoKeywords={REVIEWED_ARTICLE_KEYWORDS[initialPost.id]}
+          relatedPosts={relatedArticles(initialPost, INITIAL_BLOGS)}
         />
       </main>
 

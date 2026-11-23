@@ -33,6 +33,7 @@ interface BlogDetailClientViewProps {
   initialPost?: BlogPostItem;
   coverMetadata?: ReviewedArticleCover;
   seoKeywords?: string[];
+  relatedPosts?: { title: string; slug: string }[];
 }
 
 export function BlogDetailClientView({
@@ -40,6 +41,7 @@ export function BlogDetailClientView({
   initialPost,
   coverMetadata,
   seoKeywords,
+  relatedPosts = [],
 }: BlogDetailClientViewProps) {
   const post = initialPost || null;
   const [copyStatus, setCopyStatus] = useState("");
@@ -353,6 +355,7 @@ export function BlogDetailClientView({
       </p>
       {post.seo?.enabled?.includes('sources')&&post.seo.sources&&!/^#{1,6}\s+Sources\s*$/mi.test(post.content)&&<section className="mt-8 text-sm"><h2 className="font-semibold">Sources</h2><ul>{post.seo.sources.split('\n').filter(url=>/^https:\/\//.test(url.trim())).map(url=><li key={url}><a href={sanitizeUrl(url.trim())} target="_blank" rel="noopener noreferrer">Source</a></li>)}</ul></section>}
       {post.seo?.enabled?.includes('internalLinks')&&post.seo.internalLinks&&<nav aria-label="Related pages" className="mt-6"><h2 className="font-semibold">Related reading</h2>{post.seo.internalLinks.split('\n').filter(url=>url.startsWith('/')&&!url.startsWith('//')).map(url=><p key={url}><Link href={url.trim()}>{url.trim()}</Link></p>)}</nav>}
+      {relatedPosts.length > 0 && <nav aria-label="More on this topic" className="mt-8 rounded-md border border-slate-200 bg-slate-50 p-5"><h2 className="font-semibold">More on this topic</h2><ul className="mt-3 space-y-3">{relatedPosts.map(article => <li key={article.slug}><Link className="font-medium text-navy-800 underline underline-offset-4" href={`/blogs/${article.slug}/`}>{article.title}</Link></li>)}</ul></nav>}
       {/* Tags */}
       <div className="mt-8 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div className="flex flex-wrap gap-1.5">

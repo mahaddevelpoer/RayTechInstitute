@@ -73,7 +73,7 @@ jobs:
         run: node --test scripts/dit-ict.test.mjs scripts/dit-ict-chapter-two.test.mjs scripts/dit-ict-chapter-three.test.mjs scripts/dit-ict-chapter-four.test.mjs scripts/dit-ict-chapter-five.test.mjs scripts/dit-ict-chapter-six.test.mjs scripts/dit-ict-chapter-seven.test.mjs
 
       - name: Verify live scorecard boundaries and editorial queue
-        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs
+        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs scripts/related-articles.test.mjs
 
       - name: Verify academic placement validation and migration replay
         if: github.event_name != 'repository_dispatch'
