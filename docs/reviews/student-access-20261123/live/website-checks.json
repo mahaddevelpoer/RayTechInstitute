@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-23T13:57:05.990Z",
+  "sourceRevision": "f449c9f8615a5b5b7197266e8ed976942b5f8a67",
+  "manifest": {
+    "schema": 1,
+    "builtAt": "2026-11-23T13:05:01.579Z",
+    "revision": "f449c9f8615a5b5b7197266e8ed976942b5f8a67",
+    "siteOrigin": "https://raytechinstitute.com",
+    "indexablePages": 761,
+    "sitemapSha256": "b444674e82cc6fca281fc2431af82928331b67dbe80c28ebd8d31186d44ac272",
+    "learning": {
+      "courses": 2,
+      "languages": 5,
+      "topics": 24
+    },
+    "workflowUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45179813818"
+  },
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "oneH1": true,
+      "selfCanonical": true
+    },
+    {
+      "route": "/classes/",
+      "status": 200,
+      "oneH1": true,
+      "selfCanonical": true
+    },
+    {
+      "route": "/classes/dit-intermediate/",
+      "status": 200,
+      "oneH1": true,
+      "selfCanonical": true
+    },
+    {
+      "route": "/classes/dit-intermediate/dit-ict/",
+      "status": 200,
+      "oneH1": true,
+      "selfCanonical": true
+    },
+    {
+      "route": "/classes/dit-intermediate/dit-ict/mcqs/",
+      "status": 200,
+      "oneH1": true,
+      "selfCanonical": true
+    }
+  ]
+}

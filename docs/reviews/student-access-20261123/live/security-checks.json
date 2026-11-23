@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-11-23T13:57:02.377Z",
+  "scope": "Seven small non-mutating boundary checks; no user credentials, account brute force or content writes.",
+  "results": [
+    {
+      "check": "preflight",
+      "status": 200,
+      "expectedStatus": 200,
+      "passed": true,
+      "allowedOrigin": true
+    },
+    {
+      "check": "unsupported-method",
+      "status": 405,
+      "expectedStatus": 405,
+      "passed": true,
+      "allowedOrigin": true
+    },
+    {
+      "check": "non-json-media",
+      "status": 415,
+      "expectedStatus": 415,
+      "passed": true,
+      "allowedOrigin": true
+    },
+    {
+      "check": "malformed-json",
+      "status": 400,
+      "expectedStatus": 400,
+      "passed": true,
+      "allowedOrigin": true
+    },
+    {
+      "check": "array-payload",
+      "status": 400,
+      "expectedStatus": 400,
+      "passed": true,
+      "allowedOrigin": true
+    },
+    {
+      "check": "unauthenticated-admin",
+      "status": 401,
+      "expectedStatus": 401,
+      "passed": true,
+      "allowedOrigin": true
+    },
+    {
+      "check": "invalid-admin-token",
+      "status": 401,
+      "expectedStatus": 401,
+      "passed": true,
+      "allowedOrigin": true
+    }
+  ]
+}

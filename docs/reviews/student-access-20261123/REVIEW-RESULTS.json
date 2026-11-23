@@ -1,6 +1,6 @@
 {
   "checkedOn": "2026-11-23",
-  "state": "ready-for-owner-review-not-deployed",
+  "state": "published-live-verified",
   "sourceRevision": "f449c9f8615a5b5b7197266e8ed976942b5f8a67",
   "artifactRun": 45179813818,
   "artifactConclusion": "success",
@@ -39,11 +39,22 @@
     "settledHomeComponents": 4
   },
   "googleFieldMetrics": "unavailable; anonymous PSI returned 429",
-  "productionChanged": false,
-  "releaseRequirements": [
-    "Owner approval under repository AGENTS.md for the current non-editorial changes",
-    "Deploy reviewed website artifact 45179813818",
-    "Deploy secure-dispatch function separately",
-    "Verify actual public website and auth rejection boundaries after deployment"
+  "productionChanged": true,
+  "releaseRequirements": [],
+  "approvedBy": "Mahad: publish changes",
+  "websiteDeploymentRun": 45188356495,
+  "liveSourceRevision": "f449c9f8615a5b5b7197266e8ed976942b5f8a67",
+  "secureDispatchVersion": 63,
+  "liveVerification": {
+    "httpPages": 5,
+    "apiBoundaryChecks": 7,
+    "browserThemeViewportCombinations": 4,
+    "pageErrors": 0
+  },
+  "releaseCompleted": [
+    "Explicit owner approval received",
+    "Reviewed website artifact 45179813818 deployed by run 45188356495",
+    "secure-dispatch upgraded from active v62 to active v63",
+    "Public HTTP, canonical, browser journeys and non-mutating API boundary checks passed"
   ]
 }

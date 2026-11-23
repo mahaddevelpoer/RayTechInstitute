@@ -1,0 +1,47 @@
+{
+  "origin": "https://raytechinstitute.com",
+  "results": [
+    {
+      "width": 360,
+      "dark": false,
+      "search": true,
+      "classFilter": true,
+      "topicFilter": true,
+      "queryLink": true,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "width": 360,
+      "dark": true,
+      "search": true,
+      "classFilter": true,
+      "topicFilter": true,
+      "queryLink": true,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "width": 1366,
+      "dark": false,
+      "search": true,
+      "classFilter": true,
+      "topicFilter": true,
+      "queryLink": true,
+      "noOverflow": true,
+      "oneH1": true
+    },
+    {
+      "width": 1366,
+      "dark": true,
+      "search": true,
+      "classFilter": true,
+      "topicFilter": true,
+      "queryLink": true,
+      "noOverflow": true,
+      "oneH1": true
+    }
+  ],
+  "crawlableSubjects": true,
+  "pageErrors": []
+}

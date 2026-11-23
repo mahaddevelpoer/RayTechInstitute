@@ -1,0 +1,21 @@
+{
+  "approvedBy": "Mahad: publish changes",
+  "checkedAt": "2026-11-23T13:54:01.511Z",
+  "function": "secure-dispatch",
+  "sourceRevision": "f449c9f8615a5b5b7197266e8ed976942b5f8a67",
+  "before": {
+    "name": "secure-dispatch",
+    "slug": "secure-dispatch",
+    "status": "ACTIVE",
+    "version": 62,
+    "updatedAt": 1793727052220
+  },
+  "after": {
+    "name": "secure-dispatch",
+    "slug": "secure-dispatch",
+    "status": "ACTIVE",
+    "version": 63,
+    "updatedAt": 1795442039436
+  },
+  "state": "deployed-live-verified"
+}

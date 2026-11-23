@@ -1,6 +1,6 @@
 # Student access and security review: 23 November 2026
 
-Status: implementation and focused local checks completed; complete export/browser verification pending. No production website, function, database policy or content mutation has been made for this change.
+Status: approved by Mahad, published and live verified on 23 November 2026. Website export and secure-dispatch function are both deployed. No database policies or content records were changed.
 
 ## Student journeys
 
@@ -36,3 +36,9 @@ Search Console indexing, selected canonicals, manual actions and traffic causes 
 Artifact run [45179813818](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45179813818) succeeded for application source f449c9f8615a5b5b7197266e8ed976942b5f8a67. All required source, private-progress rules, export, SEO and browser gates passed. New finder checks passed at 360px and 1366px in both themes with crawlable subject links, class/topic filtering, homepage GET navigation, one h1 and no overflow/page errors. Four actual exported class-directory screenshots were visually reviewed. Four additional home-component screenshots were recaptured after existing intro animations settled and visually reviewed; these are labelled component previews. The screenshot-capture helper now explicitly waits for that settled state; application code is unchanged after the verified artifact. Production and complete development lockfile audits both report zero known advisories after the additional selector-parser patch.
 
 Website and secure-dispatch are still NOT deployed. Current non-editorial publication requires the approval stated in AGENTS.md. Reviewed screenshots and machine-readable checks are under docs/reviews/student-access-20261123/. Earlier external verification limitations and manual legacy-content reviews remain open; no indexing, ranking, field-speed or invulnerability claim is made.
+
+## Published and live verified: 23 November 2026
+
+Mahad explicitly approved: publish changes. Website deployment [45188356495](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45188356495) succeeded using the already verified artifact 45179813818. Live deployment.json confirms application source f449c9f8615a5b5b7197266e8ed976942b5f8a67. secure-dispatch was separately upgraded from active v62 to active v63. Five public routes returned 200 with one h1 and self-canonicals. Seven small non-mutating live API checks passed for preflight, method/media validation, malformed/array payloads and unauthenticated/invalid-token denial. Public homepage-to-directory search, class/topic filtering, chapter links and no-overflow checks passed at 360px and 1366px in both themes with zero page errors. Live evidence and screenshots: docs/reviews/student-access-20261123/live/.
+
+Earlier not-deployed statements above describe the pre-approval review stage and are superseded by this release record. External MFA/durable-throttling/live-policy inventory and Search Console/field-metric limitations remain open; publication does not establish indexing, rankings or invulnerability.
