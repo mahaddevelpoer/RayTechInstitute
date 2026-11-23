@@ -1,0 +1,79 @@
+{
+  "state": "local-verified-unpublished",
+  "articles": 10,
+  "bodyWords": 20811,
+  "uniqueImages": 20,
+  "existingArticlesCompared": 630,
+  "results": [
+    {
+      "key": "newcastle-united-f-c-vs-arsenal-f-c-standings",
+      "slug": "newcastle-arsenal-2-2-result-comebacks-points-2026",
+      "words": 2125,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "man-city-vs-fulham-f-c-standings",
+      "slug": "man-city-fulham-1-1-possession-shots-points-2026",
+      "words": 2090,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "chelsea-f-c-vs-leeds-united-f-c-standings",
+      "slug": "chelsea-leeds-1-4-scorers-margin-points-2026",
+      "words": 2093,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "sevilla-vs-betis",
+      "slug": "sevilla-betis-1-1-added-time-equaliser-guide-2026",
+      "words": 2051,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "aston-villa-vs-sunderland",
+      "slug": "aston-villa-sunderland-0-0-shots-saves-guide-2026",
+      "words": 2061,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "spurs-vs-ipswich-town",
+      "slug": "spurs-ipswich-2-0-williams-barnett-goals-assists-2026",
+      "words": 2085,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "m-nchengladbach-vs-dortmund",
+      "slug": "gladbach-dortmund-0-1-nmecha-table-checks-2026",
+      "words": 2106,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "rayo-vs-valencia",
+      "slug": "rayo-valencia-0-1-copete-score-order-guide-2026",
+      "words": 2024,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "bournemouth-vs-nottm-forest",
+      "slug": "bournemouth-forest-2-0-halves-clean-sheet-guide-2026",
+      "words": 2083,
+      "tags": 42,
+      "images": 2
+    },
+    {
+      "key": "coventry-vs-palace",
+      "slug": "coventry-palace-3-2-own-goals-attribution-guide-2026",
+      "words": 2093,
+      "tags": 42,
+      "images": 2
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+Manchester City and Fulham drew 1–1 at the Etihad Stadium on 21 November 2026. City’s official match records list Rodrigo Muniz’s opener and Elliot Anderson’s equaliser. Each side received one league point. The fixture is particularly useful for understanding why possession, shots on target, disallowed goals and the final result belong in different columns.
+
+This guide was checked on 23 November 2026. It explains the completed senior men’s Premier League fixture and its statistical meaning. Current league rank requires a current competition table; it cannot be recovered from this score alone. The illustrative photographs are venue images, not pictures of the two scoring incidents.
+
+## What was the Manchester City vs Fulham result?
+
+The final score was Manchester City 1, Fulham 1. Muniz scored in the 16th minute and Anderson equalised in the 57th. The City report also records an Erling Haaland effort that was disallowed for a foul involving goalkeeper Bernd Leno. A disallowed effort does not increase the official score, regardless of how prominently a report discusses the decision.
+
+City’s match centre lists possession at 58% to 42% and shots on target at three to four, in home–away order. Those figures describe different aspects of the game. Greater possession does not mean more shots on target, and neither measurement automatically determines who wins. Here, the clubs finished with the same number of awarded goals.
+
+The report and match centre are linked below so readers can distinguish narrative commentary from the recorded result. This article uses the stated numbers for original calculations and questions. It does not recreate a live feed, claim access to tracking data or infer a full tactical explanation from a small set of match statistics.
+
+## Why does a disallowed goal stay outside the score?
+
+The scoreboard counts awarded goals. A ball entering the net may be followed by an officiating decision that prevents it counting. A reader should therefore wait for the recorded decision and final match state before updating a result. Mixing the initial incident with the confirmed outcome produces a score that the official record does not support.
+
+Create two separate fields in a classroom event log: incident description and official effect. The first can say that an effort reached the net; the second can say no goal if that was the final decision. Keeping both fields preserves what happened in the sequence without confusing an observed action with its effect on the competition record.
+
+A report may strongly disagree with an officiating decision. That is an assessment, not a replacement result. If a writer wishes to discuss the disagreement, attribution matters: identify whose view is being expressed and which incident it concerns. The published match still ended 1–1. A hypothetical alternative score must never appear as the actual result.
+
+This distinction has applications outside sport. A provisional examination mark and a final moderated mark can differ. Both may belong in a documented process, but the official result uses the approved value. Learning to label provisional information is more useful than erasing it or treating every stage as equally final.
+
+## How do possession percentages work in this example?
+
+The listed 58% and 42% add to 100%. Their difference is 16 percentage points. That calculation compares shares of the same whole. Saying City had 16% more possession would be less precise because a relative percentage increase uses Fulham’s 42 as its denominator, producing a different value. Percentage points and percentage change are not interchangeable expressions.
+
+If a classroom model imagines 100 equal possession units, City receives 58 and Fulham 42. This is an explanatory model, not a claim that the provider measured exactly 100 actions or minutes. The underlying methodology may use time, event classification or another defined process. A reported share should not be converted into exact clock time without checking that methodology.
+
+It is also unsafe to multiply 58% by 90 minutes and label the answer City’s actual time on the ball. Football includes stoppages and different statistical definitions of possession. A simplified calculation can teach percentages if it is explicitly a model, but presenting it as measured match data would add information that the source never supplied.
+
+Ask a student to explain the difference in plain language. A suitable answer is that City had the larger reported possession share, but the number alone does not say where that possession occurred or how threatening it was. The explanation respects the statistic’s scope without dismissing it as useless merely because it did not predict the winner.
+
+## What can shots on target tell us?
+
+The match centre lists three City shots on target and four for Fulham. Together they make seven. City’s share of that combined on-target count is three divided by seven, about 42.9%; Fulham’s is four divided by seven, about 57.1%. These are calculations from the listed counts, not additional statistics supplied by the clubs.
+
+Notice that the side with the larger possession share had the smaller on-target count. This is a useful counterexample to the claim that possession and shooting opportunity always move together. It does not prove that possession is irrelevant across football, because one match is too small a sample to establish such a general conclusion.
+
+Do not silently replace shots on target with all shots. An off-target attempt, a blocked effort and an effort hitting the frame of the goal may be classified differently by a provider. Before adding categories, confirm that they are mutually exclusive and collectively cover the total being calculated. Otherwise, an apparently simple sum can double-count some attempts or omit others.
+
+The phrase shot quality introduces another measurement problem. A long-range effort that is easy to save and a close-range chance can both appear in the on-target count. The count describes whether attempts met a category definition, not whether every attempt carried equal scoring difficulty. A detailed chance-quality claim needs a checked method and supporting event data.
+
+## Can we calculate a finishing percentage?
+
+Using only the stated goals and on-target counts, City’s one goal divided by three on-target attempts is about 33.3%, while Fulham’s one divided by four is 25%. Label these as goals per listed shot on target for this match. Do not shorten the label to an undefined efficiency rating or describe it as a season-long finishing record.
+
+The denominator changes the question. Goals divided by all attempts would produce a different measure from goals divided by shots on target. Both might be useful, but they cannot be compared fairly if one club’s value uses one denominator and the other club’s value uses another. Always write the formula before comparing the percentages.
+
+Small counts make percentages unstable. If City had scored one more goal from the same three listed on-target attempts, the calculated fraction would become two-thirds. That is a large percentage movement generated by a single event. The hypothetical does not change the real result; it demonstrates why one-match percentages need modest interpretation.
+
+A classroom extension is to compare fictional samples of one goal from three attempts and ten goals from thirty attempts. The percentage is the same, but the evidence volume differs. Ask which statement can be supported with more confidence and why. The lesson concerns sample size, not a prediction about either team’s next fixture.
+
+## How does 1–1 affect points and goal difference?
+
+Each club records one more game played, one more draw and one additional point. Each adds one goal for and one against. The match contribution to goal difference is zero for each club. Those updates follow directly from the result, while the clubs’ total points and rank require the records they held before the fixture.
+
+Imagine a fictional table row with nine games played, four wins, three draws and two defeats. Adding a draw makes ten games played and four draws, while wins and defeats stay unchanged. With three points for each win and one for each draw, its total moves from 15 to 16. This is a worked example, not City’s or Fulham’s actual row.
+
+Check the row by adding wins, draws and defeats. Before the update, four plus three plus two equals nine. Afterwards, four plus four plus two equals ten. This consistency check catches accidental edits such as increasing games played without recording a result, or adding a point while also marking the same match as a defeat.
+
+Goal difference deserves its own check. If a club started with 20 goals for and 12 against, the updated totals would be 21 and 13. Both differences are plus eight. The fact that the cumulative difference stays constant does not mean the goals fields should remain unchanged. A draw adds scoring information even when its net difference is zero.
+
+## What should a standings search show clearly?
+
+A useful page should identify whether it contains a dated match result or a live table. Readers searching Manchester City vs Fulham standings may want either the impact of the match or the clubs’ present positions. This page answers the first question with checked arithmetic and links to official records rather than presenting a static article as a live ranking service.
+
+When checking a table elsewhere, note the season, competition, update time and games played. A cup fixture or another season’s head-to-head result cannot update the current Premier League row. A correct score attached to the wrong competition creates a wrong table calculation, which is why the fixture identifier matters as much as the numbers.
+
+Search snippets can also lag behind a page. Open the actual source and inspect the status rather than relying on a preview that may still show scheduled or half time. For a completed match, a full-time label and an official report provide stronger context than a pre-match predicted score. Predictions should never be imported into a results spreadsheet.
+
+If two sources differ, check whether one was captured before an update. Preserve the source link and the time of review, then compare the same fields. A disputed shot count does not necessarily imply that the final score is disputed. Resolve differences field by field instead of declaring one entire source correct and the other entirely wrong.
+
+## A practical comparison exercise
+
+Give students four cards: 58% possession, three shots on target, one awarded goal and one league point. Ask them to place each under a different heading. Possession is a share, shots on target a count, goals the scoring outcome and league points the competition reward. They are related, but they are not interchangeable units.
+
+Next, ask which card proves that City won. None does, and the final 1–1 score confirms a draw. Ask which card alone proves that Fulham defended well throughout the whole match. Again, none does. A defensive assessment needs context about chances, errors and actions over time, not a single number selected after the result.
+
+Finally, have students write a two-sentence summary containing the result and one carefully labelled statistical comparison. A sound answer says the game ended level and City had more reported possession while Fulham had more listed shots on target. It avoids a causal claim that the limited dataset cannot establish. That is concise reporting with a clear boundary between data and interpretation.
+
+Our [sports statistics guide](/blogs/sports-scores-rules-statistics-student-guide/) explains further examples of denominators and score reading. Use it alongside this fixture to practise choosing the right unit before comparing numbers, especially when an eye-catching percentage appears to contradict the scoreboard.
+
+## How can a chart mislead even when its numbers are correct?
+
+Suppose a student places the possession percentages and on-target counts in one bar chart using a shared vertical axis. The values 58, 42, three and four are individually accurate, but their units differ. The chart would visually compare a percentage share with an event count, encouraging a conclusion that the larger bars represent more of the same thing.
+
+A better design uses separate panels with explicit labels. One panel shows possession shares on a percentage scale; another shows on-target attempts as counts. The result can appear in a separate score box. This makes the relationship available for discussion without implying that 58 percentage units are directly comparable to four shots.
+
+The chart title should identify the fixture and date, while a note identifies the club match centre as the statistical source. If a calculated fraction is added, mark it as an author calculation and show the denominator. A reader should be able to distinguish a copied source value from a derived one without guessing.
+
+This is a useful rule for all student visualisations: first decide what each number measures, then choose a display that preserves those meanings. Attractive colours and large labels cannot repair a comparison built from incompatible units.
+
+## Sources
+
+- [Manchester City: Fulham match report, 21 November 2026](https://www.mancity.com/news/mens/manchester-city-v-fulham-premier-league-21-nov-match-report-63930859)
+- [Manchester City: official match centre and statistics](https://www.mancity.com/matchday/fixtures/mens/2026/premier-league/man-city-v-fulham-21-nov-2026)
