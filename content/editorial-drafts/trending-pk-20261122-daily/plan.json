@@ -335,12 +335,13 @@
         "5th circuit proxy voting ruling"
       ],
       "category": "world-affairs",
-      "state": "local-verified-unpublished",
+      "state": "live-verified",
       "queries": [
         "John Minor Wisdom courthouse New Orleans",
         "United States Constitution parchment"
       ],
-      "slug": "fifth-circuit-proxy-presence-ruling-quorum-explained"
+      "slug": "fifth-circuit-proxy-presence-ruling-quorum-explained",
+      "evidence": "LIVE-BATCHES-1-10.json"
     },
     {
       "key": "kieron-pollard",
@@ -428,7 +429,7 @@
         "pcb central contract"
       ],
       "category": "sports",
-      "state": "research-pending",
+      "state": "draft-written-awaiting-metadata-images-and-validation",
       "queries": []
     },
     {
@@ -980,12 +981,13 @@
         "fossil fuel"
       ],
       "category": "science",
-      "state": "draft-written-awaiting-images",
+      "state": "live-verified",
       "queries": [
         "bituminous coal sample",
         "natural gas power plant"
       ],
-      "slug": "what-are-fossil-fuels-coal-oil-gas-energy-guide"
+      "slug": "what-are-fossil-fuels-coal-oil-gas-energy-guide",
+      "evidence": "LIVE-BATCHES-1-10.json"
     },
     {
       "key": "salman-khan",
@@ -1190,7 +1192,7 @@
       "trend": "5th circuit proxy voting ruling",
       "searchVolume": "1k+",
       "key": "5th-circuit-proxy-voting-ruling",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 28,
@@ -1254,7 +1256,7 @@
       "trend": "pcb central contract",
       "searchVolume": "2k+",
       "key": "pcb-central-contract",
-      "state": "research-pending"
+      "state": "draft-written-awaiting-metadata-images-and-validation"
     },
     {
       "row": 37,
@@ -1573,7 +1575,7 @@
       "trend": "fossil fuel",
       "searchVolume": "100+",
       "key": "fossil-fuel",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 82,
@@ -1700,7 +1702,9 @@
       "explicitUserAuthorization": true,
       "authorization": "All CSV articles authorised. Dated primary-opinion explanation.",
       "validationFile": "validation-batch-9.json",
-      "state": "local-review"
+      "state": "live-verified",
+      "artifactRun": 45121963254,
+      "deploymentRun": 45122680751
     },
     {
       "number": 10,
@@ -1711,7 +1715,9 @@
       "explicitUserAuthorization": true,
       "authorization": "Mahad reiterated completing all pending articles with substantive SEO on 23 November.",
       "validationFile": "validation-batch-10.json",
-      "state": "local-review"
+      "state": "live-verified",
+      "artifactRun": 45121963254,
+      "deploymentRun": 45122680751
     }
   ],
   "chapterSeven": {
