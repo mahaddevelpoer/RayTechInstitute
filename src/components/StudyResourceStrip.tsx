@@ -2,10 +2,10 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import Link from 'next/link';
 import { Pause, Play } from 'lucide-react';
-import { INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_GAZETTES } from '@/data/staticCatalog';
-import { buildStudyLinks, type StudyLink } from '@/utils/study-links';
+import navigation from '@/data/studyNavigation.json';
+import type { StudyLink } from '@/utils/study-links';
 
-const catalogLinks = buildStudyLinks(INITIAL_CLASSES, INITIAL_SUBJECTS, INITIAL_GAZETTES);
+const catalogLinks = navigation.links;
 export function StudyResourceStrip({ links = catalogLinks }: { links?: StudyLink[] }) {
   const viewport = useRef<HTMLDivElement>(null);
   const group = useRef<HTMLDivElement>(null);

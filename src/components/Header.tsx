@@ -3,7 +3,7 @@
 import React, { useMemo, useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { channelData } from "@/data/channel";
-import { INITIAL_CLASSES, INITIAL_SUBJECTS } from "@/data/staticCatalog";
+import studyNavigation from '@/data/studyNavigation.json';
 import {
   ArrowUpRight,
   BookOpen,
@@ -24,6 +24,7 @@ import { ThemeToggle } from '@/hooks/useTheme';
 import { useHeaderVisibility } from '@/hooks/useHeaderVisibility';
 
 type MenuKey = "classes" | "notes" | "mcqs" | "results" | "blogs";
+const {classes: INITIAL_CLASSES, subjects: INITIAL_SUBJECTS} = studyNavigation;
 
 const categoryItems: Array<{
   key: MenuKey;

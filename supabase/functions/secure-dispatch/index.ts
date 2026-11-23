@@ -12,6 +12,7 @@ import { studentReviewKey } from '../_shared/student-review-config.ts';
 import { writeEducationalContent, readEducationalCatalog } from '../_shared/content-mutations.ts';
 import { GAZETTE_LENGTH_GUIDANCE, validateGazetteDraft } from '../_shared/gazette-draft.ts';
 import { resolveClassTitle } from '../_shared/class-context.ts';
+import { DispatchRequestError, readDispatchRequest } from '../_shared/dispatch-request.ts';
 
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://raytechinstitute.web.app',
@@ -62,7 +63,24 @@ async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?:
   const idToken = authorization.startsWith('Bearer ') ? authorization.slice(7).trim() : '';
   const webApiKey = Deno.env.get('FIREBASE_WEB_API_KEY');
   if (!webApiKey) return { ok: false, status: 503, error: 'Administrator authentication is not configured.' };
-  if (!idToken) return { ok: false, status: 401, error: 'Sign in with an administrator account.' };
+  const deny = () => ({ ok: false, status: 401, error: 'Invalid or expired administrator session.' });
+  if (!idToken || idToken.length > 12000) return deny();
+  let claims;
+  try {
+    const parts = idToken.split('.');
+    if (parts.length !== 3 || !parts.every(Boolean)) return deny();
+    const payload = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+    claims = JSON.parse(atob(payload.padEnd(Math.ceil(payload.length / 4) * 4, '=')));
+  } catch { return deny(); }
+  const projectId = Deno.env.get('FIREBASE_PROJECT_ID') || 'raytechinstitute';
+  const seconds = Math.floor(Date.now() / 1000);
+  // Claims are preliminary only. The exact token must still pass Google's lookup.
+  if (!claims || typeof claims.sub !== 'string' || !claims.sub || claims.sub.length > 128
+    || claims.aud !== projectId || claims.iss !== `https://securetoken.google.com/${projectId}`
+    || !Number.isSafeInteger(claims.exp) || claims.exp <= seconds
+    || !Number.isSafeInteger(claims.iat) || claims.iat > seconds
+    || !Number.isSafeInteger(claims.auth_time) || claims.auth_time > seconds
+    || !claims.firebase?.sign_in_provider || claims.firebase.sign_in_provider === 'anonymous') return deny();
 
   try {
     const response = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${encodeURIComponent(webApiKey)}`, {
@@ -79,6 +97,8 @@ async function verifyFirebaseAdmin(req: Request): Promise<{ ok: boolean; email?:
     if (!user || user.disabled || user.emailVerified !== true) {
       return { ok: false, status: 403, error: 'A verified administrator account is required.' };
     }
+    if (user.localId !== claims.sub || (user.validSince != null
+      && (!/^\d+$/.test(String(user.validSince)) || Number(user.validSince) > claims.auth_time))) return deny();
     const email = String(user.email || '').toLowerCase();
     const allowlist = (Deno.env.get('ADMIN_EMAILS') || '')
       .split(',')
@@ -557,16 +577,17 @@ serve(async (req) => {
       data = { ...data, error: 'The service could not complete this request. Your existing content is unchanged. Check service health or retry shortly.' };
     return new Response(JSON.stringify(data), {
       status,
-      headers: { ...getCorsHeaders(req), "Content-Type": "application/json", "Cache-Control": "no-store" },
+      headers: { ...getCorsHeaders(req), "Content-Type": "application/json", "Cache-Control": "no-store", ...(status === 405 ? { Allow: 'POST, OPTIONS' } : {}) },
     });
   };
 
   try {
-    let body: any = {};
-    try {
-      body = await req.json();
-    } catch {
-      return respond({ success: false, error: "Invalid JSON in request body." });
+    let body: any;
+    try { body = await readDispatchRequest(req); }
+    catch (error) {
+      return error instanceof DispatchRequestError
+        ? respond({ success: false, error: error.message }, error.status)
+        : respond({ success: false, error: 'The JSON request could not be read.' }, 400);
     }
 
     const { action, payload = {} } = body;

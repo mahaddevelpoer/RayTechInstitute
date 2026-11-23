@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BookOpen, ArrowRight } from "lucide-react";
-import { INITIAL_CLASSES, INITIAL_SUBJECTS } from "@/data/staticCatalog";
+import navigation from '@/data/studyNavigation.json';
+const {classes: INITIAL_CLASSES, subjects: INITIAL_SUBJECTS} = navigation;
 
 export function TheWork() {
   return (
@@ -24,14 +25,14 @@ export function TheWork() {
                 {INITIAL_SUBJECTS.filter((s) => s.classSlug === c.slug).map(
                   (subject) => (
                     <li key={subject.id}>
-                      <Link
+                      {subject.notes+subject.mcqs+subject.papers>0?<Link
                         className="flex min-h-12 items-center justify-between gap-3 border-b border-slate-100 py-3 text-sm font-semibold text-navy-700"
                         href={`/classes/${c.slug}/${subject.slug}/`}
                         aria-label={`${c.title}: ${subject.title} study resources`}
                       >
                         {subject.title}
                         <ArrowRight className="h-4 w-4" />
-                      </Link>
+                      </Link>:<span className="flex min-h-12 items-center justify-between gap-3 py-3 text-sm text-slate-600">{subject.title}<span>Not published yet</span></span>}
                     </li>
                   ),
                 )}

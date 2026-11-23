@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, GraduationCap, Code2, BookOpen, ArrowLeft } from 'lucide-react';
 import type { ClassItem, SubjectItem } from '@/types/educational';
 import { academicGroups, programSubjectChoices } from '@/utils/academic-structure';
+import {StudyFinder} from './StudyFinder';
 
 interface StudyTrack { id: string; slug: string; title: string; description: string }
 export function ClassesClientView({classes, subjects, courses, languages}: {classes: ClassItem[]; subjects: SubjectItem[]; courses: StudyTrack[]; languages: StudyTrack[]}) {
@@ -16,6 +17,7 @@ export function ClassesClientView({classes, subjects, courses, languages}: {clas
     <nav className="breadcrumb" aria-label="Breadcrumb"><Link prefetch={false} href="/">Home</Link><span>/</span><span>Study directory</span></nav>
     {view !== 'home' && <button className="study-back" onClick={() => open(program ? 'academic' : 'home')}><ArrowLeft size={18}/>Back to {program ? 'academic programs' : 'study areas'}</button>}
     <div className="directory-intro"><h1 id="study-directory-title" tabIndex={-1}>{title}</h1><p>Choose a study area, open its subjects and work through the learning resources at your own pace.</p></div>
+    {view === 'home' && <StudyFinder/>}
     {view === 'home' && <div className="study-family-grid">
       <section className="study-family-card"><div className="study-family-icon"><GraduationCap size={30}/></div><h2>Academic Programs</h2><p>Class and semester-based subjects, notes, chapter tests and past papers.</p><div className="study-child-list">{programs.map(p => <button key={p.title} onClick={() => open(`program:${p.title}`)}>{p.title}<ArrowRight size={18}/></button>)}{schoolClasses.map(c => <Link prefetch={false} key={c.id} href={`/classes/${c.slug}/`}>{c.title}<ArrowRight size={18}/></Link>)}</div><span className="study-card-prompt" aria-hidden="true">Explore academic programs<ArrowRight size={18}/></span><button type="button" className="study-card-hit" aria-label="Explore academic programs" onClick={() => open('academic')} /></section>
       <section className="study-family-card"><div className="study-family-icon"><Code2 size={30}/></div><h2>Programming Courses</h2><p>Learn a language through guided lessons, code practice and topic tests.</p><div className="study-child-list">{courses.map(c => <Link prefetch={false} key={c.id} href={`/courses/${c.slug}/`}>{c.title}<ArrowRight size={18}/></Link>)}</div><span className="study-card-prompt" aria-hidden="true">Explore programming courses<ArrowRight size={18}/></span><button type="button" className="study-card-hit" aria-label="Explore programming courses" onClick={() => open('programming')} /></section>

@@ -1,3 +1,35 @@
+# Website discovery and security audit: 23 November 2026
+
+Scope: homepage, class/subject/chapter discovery, representative academic resource routes, public crawl controls, application authentication/request boundaries and production dependencies. Source review and bounded read-only live checks were combined with local regression tests. This is not a destructive penetration test or a ranking assessment. Overall rating: confirmed improvements prepared; full export verification and production release pending. A numeric SEO score is not assigned because field performance and Search Console evidence are unavailable.
+
+## Findings and implemented fixes
+
+| Area | Severity | Confidence | Finding and evidence | Fix |
+|---|---|---|---|---|
+| Discovery | Warning | Confirmed | DIT subjects were behind client-state buttons in ClassesClientView; class-directory raw HTML lacked their anchors. | Added an initially rendered published-resource finder with ordinary subject/chapter links and class/topic filters. |
+| Resource availability | Warning | Confirmed | AcademicDirectory generated notes, MCQ and past-paper links even when the matching count was zero. | Per-type availability is derived from the published catalogue; unavailable resources are clearly labelled. |
+| Page identity | Warning | Confirmed | Every class h1 said Choose your subject; DIT search metadata exceeded repository length targets. | Class-specific headings, concise DIT class/ICT-note metadata; original routes and content titles preserved. |
+| Data delivery | Warning | Confirmed | Several public home components and video player imported staticCatalog, pulling the global publication snapshot into the initial source graph. | Generated compact navigation, video-only questions and academic-only resource exports. Initial home diagnostic fell from about 3.64 MB to 93 KB gzip. This is not a field speed score. |
+| Structured data | Info | Confirmed | WebSite publisher used a YouTube URL while organisation used the website URL. | Shared website organisation @id/url; retained YouTube under sameAs. |
+| Admin access | Warning | Confirmed | secure-dispatch omitted explicit validSince token-revocation checking. | Project/expiry/UID/provider checks plus exact-token Google lookup and revocation-boundary enforcement. |
+| Request work | Warning | Confirmed | secure-dispatch parsed an unbounded pre-authentication JSON body. | POST/JSON gates, streamed 2 MB limit, eight-second upload bound and safe status responses; preflight preserved. |
+| Dependencies | Warning | Confirmed | Lockfile audit reported vulnerable Next and re2js releases. | Patched supported versions; follow-up production lockfile audit reports zero known advisories. |
+
+## Healthy controls preserved
+
+Eight representative live pages were checked. The live sitemap contained 761 unique apex URLs with public routes and no sampled admin/empty Chemistry entries. Checked DIT pages returned 200 with self-canonicals, one h1 and parseable JSON-LD. Empty Chemistry resources remained noindex; a missing route returned a real 404 and noindex. Tested private configuration/git/package paths returned 404. Public/admin pages supplied HSTS, framing, nosniff, referrer, permissions and CSP headers; unauthenticated admin verification returned 401.
+
+Local tests covered administrator verification, actual request-handler rejection, SQL role isolation and atomic quotas, practice frame isolation, bilingual quiz behaviour and preservation of the seven ICT banks/PDFs. Complete export/browser gates and screenshots must pass before release readiness is reported.
+
+## Unknowns and follow-ups
+
+- No general live crawl/index blocker was confirmed. Public eligibility does not establish Google indexing or explain the reported traffic loss. Search Console evidence remains required.
+- Anonymous PageSpeed returned 429; measured field LCP/INP/CLS remain unknown. Python skill helpers lacked requests; bounded Node HTTP checks supplied fallback evidence. A schema helper warning about the @graph envelope was a false positive; typed graph nodes parsed correctly.
+- Durable trusted notification throttling, Firebase console MFA/API restrictions and complete live RLS policy inventory remain unverified or external work. CSP retains inline hydration support; its presence is not evidence of a demonstrated XSS exploit.
+- Findings are implemented locally. The non-editorial website changes and secure-dispatch function are not deployed. See docs/student-access-security-20261123.md and ACTION-PLAN.md for validation and release boundaries.
+
+## Earlier focused review retained below
+
 # Focused keyword implementation review
 
 ## 30 October 2026 follow-up

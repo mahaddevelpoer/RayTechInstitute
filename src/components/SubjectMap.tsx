@@ -4,7 +4,8 @@ import React from 'react';
 import { Lecture } from '@/types';
 import { BookOpen, Terminal, Layers } from 'lucide-react';
 import Link from 'next/link';
-import { INITIAL_CLASSES } from '@/data/staticCatalog';
+import navigation from '@/data/studyNavigation.json';
+const INITIAL_CLASSES = navigation.classes;
 
 interface SubjectMapProps {
   lectures?: Lecture[];

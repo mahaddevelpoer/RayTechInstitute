@@ -7,7 +7,7 @@ import {
   INITIAL_NOTES,
   INITIAL_SUBJECTS,
   INITIAL_CHAPTERS,
-} from "@/data/staticCatalog";
+} from "@/data/academicResourceSnapshot";
 import { PdfResourceActions } from "./PdfResourceActions";
 import { chapterDisplayLabel, chapterPlacement, usesChapterBooks } from '@/utils/chapter-books';
 import type { ChapterItem, NoteItem } from '@/types/educational';

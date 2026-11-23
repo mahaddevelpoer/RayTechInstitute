@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SubjectDirectory } from "@/components/educational/AcademicDirectory";
 import { INITIAL_CLASSES, INITIAL_SUBJECTS } from "@/data/staticCatalog";
-import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { buildSeoTitle } from "@/utils/seo";
 
 export function generateStaticParams() {
   return staticExportParams(
@@ -30,20 +30,20 @@ export async function generateMetadata({
   const currentClass = INITIAL_CLASSES.find((c) => c.slug === classSlug);
   if (!currentClass) return withSocialMetadata({});
   const className = currentClass.programTitle && currentClass.semesterNumber
-    ? `${currentClass.programTitle} Semester ${currentClass.semesterNumber}`
+    ? `${currentClass.programTitle.replace(/\s*\([^)]*\)/g,'').replace(/D\.?I\.?T\.?/i,'DIT')} Semester ${currentClass.semesterNumber}`
     : currentClass.title.replace(/\s*\([^)]*\)/, "");
-  const description = buildDocumentDescription('Choose a subject to browse available notes, chapter MCQs and past papers. Check each resource before using it for revision.', `${className} study resources`);
+  const description = `Find ${className} notes, chapter MCQs and study PDFs. Choose a subject, check available resources and practise each topic at your own pace.`;
 
   return withSocialMetadata({
     robots: {index: INITIAL_SUBJECTS.some(subject=>subject.classSlug===classSlug), follow:true},
-    title: buildSeoTitle(`${className} Study Resources & Notes`),
+    title: buildSeoTitle(`${className} Notes and Subject MCQs`),
     description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/`),
     },
     openGraph: {
       images: [DEFAULT_SOCIAL_IMAGE],
-    title: buildSeoTitle(`${className} Study Resources & Notes`),
+    title: buildSeoTitle(`${className} Notes and Subject MCQs`),
       description,
       url: siteUrl(`/classes/${classSlug}/`),
       type: "website",

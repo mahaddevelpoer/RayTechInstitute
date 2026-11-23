@@ -161,6 +161,19 @@ jobs:
           VERIFY_BASE_URL: http://127.0.0.1:4178
         run: node --test scripts/codi-audio-evidence.test.mjs && node --max-old-space-size=384 scripts/verify-prepared-audio.mjs
 
+      - name: Verify crawlable study search, resource availability and mobile navigation
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node --max-old-space-size=384 scripts/verify-study-finder.mjs
+
+      - name: Retain student navigation review screenshots
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: student-navigation-review
+          path: artifacts/study-finder-review/
+          if-no-files-found: ignore
+
       - name: Verify learning panels and saved speech sources
         env:
           VERIFY_BASE_URL: http://127.0.0.1:4178

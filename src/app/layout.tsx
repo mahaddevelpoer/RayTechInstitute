@@ -101,8 +101,9 @@ export default function RootLayout({
     inLanguage: "en-PK",
     publisher: {
       "@type": "EducationalOrganization",
+      "@id": siteUrl('/#organization'),
       name: channelData.name,
-      url: channelData.youtubeUrl,
+      url: siteUrl('/'),
       logo: siteUrl("/android-chrome-192x192.png"),
     },
   };
@@ -110,6 +111,7 @@ export default function RootLayout({
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
+    "@id": siteUrl('/#organization'),
     name: channelData.name,
     alternateName: channelData.handle,
     description: channelData.statement,

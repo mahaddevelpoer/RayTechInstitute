@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { INITIAL_VIDEO_MCQS } from '@/data/staticCatalog';
+import { INITIAL_VIDEO_MCQS } from '@/data/videoQuestionSnapshot';
 import { VideoInteractiveMCQ } from '@/types/educational';
 import { Play, CheckCircle2, XCircle, Award, ArrowRight, HelpCircle } from 'lucide-react';
 import { sanitizeUrl } from '@/utils/security';

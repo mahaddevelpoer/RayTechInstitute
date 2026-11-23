@@ -56,7 +56,7 @@ test('published notes with a missing chapter stay discoverable; foreign subject 
 
 function componentSource(notes){return component(source,{
  'next/link':{default:({children,...props})=>React.createElement('a',props,children)},
- '@/data/staticCatalog':{INITIAL_CLASSES:[{slug:context.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:context.classSlug,slug:context.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:chapters,INITIAL_NOTES:notes},
+ '@/data/academicResourceSnapshot':{INITIAL_CLASSES:[{slug:context.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:context.classSlug,slug:context.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:chapters,INITIAL_NOTES:notes},
  '@/utils/chapter-books':books,'./BookNotesDirectory':{BookNotesDirectory},
  './PdfResourceActions':{PdfResourceActions:({pdfUrl,detailHref})=>React.createElement('a',{href:pdfUrl,'data-detail-href':detailHref},'Open PDF')},
 });}

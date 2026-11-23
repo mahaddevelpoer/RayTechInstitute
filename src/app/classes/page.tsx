@@ -13,7 +13,7 @@ import { serializeJsonLd, buildSeoTitle } from "@/utils/seo";
 export const metadata: Metadata = {
   title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
   description:
-    "Choose your class and subject to find notes, chapter-wise MCQs and past papers. Browse available study resources and programming courses.",
+    "Search by class, subject or topic to find published notes, chapter MCQs and past papers. Browse DIT, 11th-class resources and programming courses.",
   alternates: {
     canonical: siteUrl("/classes/"),
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     images: [DEFAULT_SOCIAL_IMAGE],
     title: buildSeoTitle("Class Study Notes, MCQs and Past Papers"),
     description:
-      "Choose your class and subject to find notes, chapter-wise MCQs and past papers. Browse available study resources and programming courses.",
+      "Search by class, subject or topic to find published notes, chapter MCQs and past papers. Browse DIT, 11th-class resources and programming courses.",
     url: siteUrl("/classes/"),
     type: "website",
   },
@@ -60,7 +60,7 @@ export default function ClassesIndexPage() {
 
         <Link href="/smart-syllabus/" className="mb-6 inline-flex min-h-12 items-center rounded-md border border-blue-200 px-4 font-semibold">Smart syllabus: subject PDFs and exam guidance</Link>
         <ClassesClientView
-          classes={INITIAL_CLASSES.filter(item => item.isActive)}
+          classes={INITIAL_CLASSES.filter(item => item.isActive && INITIAL_SUBJECTS.some(subject => subject.classSlug === item.slug))}
           subjects={INITIAL_SUBJECTS}
           courses={LEARNING_COURSES.filter(item => item.state === 'published').map(({id,slug,title,description}) => ({id,slug,title,description}))}
           languages={LEARNING_LANGUAGES.filter(item => item.state === 'published').map(({id,slug,title,description}) => ({id,slug,title,description}))}

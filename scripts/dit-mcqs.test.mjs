@@ -56,7 +56,7 @@ test('all eight topics stay separate, retry keeps its topic and mixed practice s
  const {MCQClientView}=component(await fs.readFile('src/components/educational/MCQClientView.tsx','utf8'),{
   'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},
   '@/utils/topic-freshness':freshness,'@/utils/chapter-books':chapterBooks,'./BookChapterPicker':{BookChapterPicker},
-  '@/data/educationalStore':{EducationalStore:{getMCQs:(c,s)=>{assert.equal(c,bank.classSlug);assert.equal(s,bank.subjectSlug);return rows;}},INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'chapter-1',classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1,title:bank.chapterTitle,isActive:true}]}
+  '@/data/academicResourceSnapshot':{INITIAL_MCQS:rows,INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'chapter-1',classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1,title:bank.chapterTitle,isActive:true}]}
  });
  const root=createRoot(document.getElementById('root'));const click=async node=>act(async()=>node.click());
  const button=label=>[...document.querySelectorAll('button')].find(b=>b.textContent.trim()===label);
@@ -98,7 +98,7 @@ test('Office has its own chapter and six ten-question quizzes; gold expires with
  const rows=[...bank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:1})),...officeBank.questions.map(q=>({...q,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,chapterNumber:officeBank.chapterNumber,createdAt:new Date(now).toISOString()}))];
  const {MCQClientView}=component(await fs.readFile('src/components/educational/MCQClientView.tsx','utf8'),{
   'next/link':{default:({children,...p})=>React.createElement('a',p,children)},'./BilingualText':{BilingualText},'@/utils/topic-freshness':freshness,'@/utils/chapter-books':chapterBooks,'./BookChapterPicker':{BookChapterPicker},
-  '@/data/educationalStore':{EducationalStore:{getMCQs:()=>rows},INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'dit-chapter-1',chapterNumber:1,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:bank.chapterTitle,isActive:true},{id:officeBank.chapterId,chapterNumber:officeBank.chapterNumber,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:officeBank.chapterTitle,isActive:true}]},
+  '@/data/academicResourceSnapshot':{INITIAL_MCQS:rows,INITIAL_CLASSES:[{slug:bank.classSlug,title:'D.I.T'}],INITIAL_SUBJECTS:[{classSlug:bank.classSlug,slug:bank.subjectSlug,title:'Computer Science'}],INITIAL_CHAPTERS:[{id:'dit-chapter-1',chapterNumber:1,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:bank.chapterTitle,isActive:true},{id:officeBank.chapterId,chapterNumber:officeBank.chapterNumber,classSlug:bank.classSlug,subjectSlug:bank.subjectSlug,title:officeBank.chapterTitle,isActive:true}]},
  });
  const root=createRoot(document.getElementById('root'));const click=async node=>act(async()=>node.click());
  const button=label=>[...document.querySelectorAll('button')].find(b=>b.textContent.trim()===label);

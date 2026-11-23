@@ -1,3 +1,14 @@
+# Website improvement action plan: 23 November 2026
+
+1. Complete: expose real class/subject/chapter links, searchable topic labels and resource-type availability. Preserve original URLs, resource IDs, PDF files and empty/private-page indexing safeguards. High impact, medium effort.
+2. Complete locally: separate public navigation and academic directory data from complete article/admin catalogues. Guard the initial home graph against reintroducing the global snapshot. High impact, medium effort.
+3. Complete locally: harden secure-dispatch request parsing and administrator revocation checks; patch Next/re2js advisories. Focused authentication, request, SQL isolation and resource regressions passed. High impact, medium effort.
+4. Next: run the complete clean-checkout artifact build and all browser gates, inspect the new mobile/desktop light/dark screenshots and record the exact source revision. This build must not deploy production. High impact, medium effort.
+5. After a concrete reviewed artifact exists, obtain approval required by AGENTS.md for these current non-editorial changes. Release the reviewed website export and secure-dispatch function separately, then verify actual public pages and rejection boundaries. High impact, low effort after tests.
+6. External follow-ups: configure trusted durable notification throttling and verify Firebase console controls/live RLS policies. Search Console inspection and a fresh available PageSpeed/CrUX measurement are needed to assess indexing and field performance; no rank or hack-free guarantee is claimed. Impact varies, account-side evidence required.
+
+## Earlier report-driven plan retained below
+
 # Report-driven SEO action plan
 
 ## 30 October 2026 status

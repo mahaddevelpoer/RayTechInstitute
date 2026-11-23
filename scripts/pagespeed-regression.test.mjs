@@ -34,7 +34,7 @@ test('public homepage initial bundle excludes authentication, analytics, databas
   }
   visit(entry);
   const inputs = [...initial].flatMap(file => Object.keys(outputs[file].inputs));
-  for (const forbidden of [/@firebase\/auth\//, /@firebase\/analytics\//, /@supabase\//, /src\/lib\/learning\/admin\.ts/, /educationalStore\.ts/, /LectureModal\.tsx/, /PythonCompiler\.tsx/]) {
+  for (const forbidden of [/@firebase\/auth\//, /@firebase\/analytics\//, /@supabase\//, /src\/lib\/learning\/admin\.ts/, /educationalStore\.ts/, /staticOverrides\.ts/, /ditSemesterOne\.ts/, /LectureModal\.tsx/, /PythonCompiler\.tsx/]) {
     assert.ok(!inputs.some(file => forbidden.test(file.replaceAll('\\', '/'))), `Unexpected initial dependency: ${forbidden}`);
   }
   assert.ok(Object.values(outputs).some(output => output.entryPoint?.endsWith('LectureModal.tsx')), 'Lecture modal remains available in a deferred chunk');
@@ -43,6 +43,7 @@ test('public homepage initial bundle excludes authentication, analytics, databas
     return sum + gzipSync(output.contents).length;
   }, 0);
   console.log(`Homepage source graph: ${initial.size} initial files, ${gzipBytes} gzip JS bytes (esbuild diagnostic, not Next release size).`);
+  assert.ok(gzipBytes < 450000, 'The public homepage must not download publication text or question banks.');
 });
 
 test('consent is in initial HTML, rejects safely, custom analytics defaults off and acceptance initializes once', async () => {
@@ -174,7 +175,7 @@ test('deferred admin store does not break public video question checkpoints', as
     flushSync(()=>createRoot(document.getElementById('root')).render(<InteractiveVideoPlayer videoId="abcdefghijk" title="Test lecture"/>));`},
     bundle:true,platform:'browser',format:'iife',write:false,jsx:'automatic',define:{'process.env.NODE_ENV':'"production"','process.env':'{}'},
     plugins:[{name:'video-checkpoint-fixture',setup(bundler){
-      bundler.onResolve({filter:/^@\/data\/staticCatalog$/},()=>({path:'catalog',namespace:'fixture'}));
+      bundler.onResolve({filter:/^@\/data\/videoQuestionSnapshot$/},()=>({path:'catalog',namespace:'fixture'}));
       bundler.onResolve({filter:/^@\/lib\/learning\/youtube-player$/},()=>({path:'youtube',namespace:'fixture'}));
       bundler.onLoad({filter:/.*/,namespace:'fixture'},args=>({contents:args.path==='catalog'
         ? `export const INITIAL_VIDEO_MCQS=[{id:'checkpoint',videoId:'abcdefghijk',timestampSeconds:5,timestampFormatted:'00:05',topic:'Variables',question:'Which value is assigned?',options:['One','Two','Three','Four'],correctIndex:1,explanation:'Two is assigned.'}];`

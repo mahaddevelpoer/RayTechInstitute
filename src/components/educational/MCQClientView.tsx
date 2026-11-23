@@ -13,11 +13,11 @@ import {
   XCircle,
 } from "lucide-react";
 import {
-  EducationalStore,
+  INITIAL_MCQS,
   INITIAL_CHAPTERS,
   INITIAL_CLASSES,
   INITIAL_SUBJECTS,
-} from "@/data/educationalStore";
+} from "@/data/academicResourceSnapshot";
 import { MCQItem } from "@/types/educational";
 import { BilingualText } from './BilingualText';
 import { isRecentTopic, nextTopicExpiry } from '@/utils/topic-freshness';
@@ -70,7 +70,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   subjectSlug,
 }) => {
   const [mcqs, setMCQs] = useState<MCQItem[]>(() =>
-    EducationalStore.getMCQs(classSlug, subjectSlug),
+    INITIAL_MCQS.filter(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug),
   );
   const [quiz, setQuiz] = useState<QuizQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
@@ -87,7 +87,7 @@ export const MCQClientView: React.FC<MCQClientViewProps> = ({
   );
 
   useEffect(() => {
-    const nextMCQs = EducationalStore.getMCQs(classSlug, subjectSlug);
+    const nextMCQs = INITIAL_MCQS.filter(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
     setMCQs(nextMCQs);
     setQuiz([]);
     setStarted(false);

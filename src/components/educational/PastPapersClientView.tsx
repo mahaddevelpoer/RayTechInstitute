@@ -3,10 +3,10 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import {
-  EducationalStore,
+  INITIAL_PAST_PAPERS,
   INITIAL_SUBJECTS,
   INITIAL_CLASSES,
-} from "@/data/educationalStore";
+} from "@/data/academicResourceSnapshot";
 import { PastPaperItem } from "@/types/educational";
 import {
   FileCode,
@@ -27,7 +27,7 @@ export const PastPapersClientView: React.FC<PastPapersClientViewProps> = ({
   subjectSlug,
 }) => {
   const [pastPapers, setPastPapers] = useState<PastPaperItem[]>(() =>
-    EducationalStore.getPastPapers(classSlug, subjectSlug),
+    INITIAL_PAST_PAPERS.filter(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug),
   );
   const [selectedBoard, setSelectedBoard] = useState<string>("all");
 
@@ -37,7 +37,7 @@ export const PastPapersClientView: React.FC<PastPapersClientViewProps> = ({
   );
 
   useEffect(() => {
-    setPastPapers(EducationalStore.getPastPapers(classSlug, subjectSlug));
+    setPastPapers(INITIAL_PAST_PAPERS.filter(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug));
   }, [classSlug, subjectSlug]);
 
   const boards = Array.from(new Set(pastPapers.map((p) => p.board)));

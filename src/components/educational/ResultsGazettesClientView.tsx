@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { INITIAL_GAZETTES, INITIAL_CLASSES } from "@/data/staticCatalog";
+import { INITIAL_GAZETTES, INITIAL_CLASSES } from "@/data/academicResourceSnapshot";
 import { BOARDS } from "@/data/boards";
 import { BoardDirectory } from "./BoardDirectory";
 import { PdfResourceActions } from "./PdfResourceActions";
