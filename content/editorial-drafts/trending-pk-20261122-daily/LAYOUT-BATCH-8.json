@@ -1,0 +1,20 @@
+[
+  {
+    "key": "the-body-netflix",
+    "width": 1280,
+    "status": 200,
+    "oneH1": true,
+    "noHorizontalOverflow": true,
+    "coverDecoded": true,
+    "completeCoverSubject": true
+  },
+  {
+    "key": "the-body-netflix",
+    "width": 360,
+    "status": 200,
+    "oneH1": true,
+    "noHorizontalOverflow": true,
+    "coverDecoded": true,
+    "completeCoverSubject": true
+  }
+]

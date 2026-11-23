@@ -335,8 +335,12 @@
         "5th circuit proxy voting ruling"
       ],
       "category": "world-affairs",
-      "state": "research-pending",
-      "queries": []
+      "state": "local-verified-unpublished",
+      "queries": [
+        "John Minor Wisdom courthouse New Orleans",
+        "United States Constitution parchment"
+      ],
+      "slug": "fifth-circuit-proxy-presence-ruling-quorum-explained"
     },
     {
       "key": "kieron-pollard",
@@ -936,7 +940,7 @@
         "the body netflix"
       ],
       "category": "entertainment",
-      "state": "draft-ready-awaiting-batch-validation",
+      "state": "live-verified",
       "queries": [
         "cinema projector film",
         "clapperboard film camera"
@@ -1544,7 +1548,7 @@
       "trend": "the body netflix",
       "searchVolume": "200+",
       "key": "the-body-netflix",
-      "state": "research-pending"
+      "state": "live-verified"
     },
     {
       "row": 79,
@@ -1679,6 +1683,19 @@
       "explicitUserAuthorization": true,
       "authorization": "All trends authorised; user reiterated writing and publication priority on 23 November.",
       "validationFile": "validation-batch-8.json",
+      "state": "live-verified",
+      "artifactRun": 45119721648,
+      "deploymentRun": 45120386832
+    },
+    {
+      "number": 9,
+      "keys": [
+        "5th-circuit-proxy-voting-ruling"
+      ],
+      "expectedSize": 1,
+      "explicitUserAuthorization": true,
+      "authorization": "All CSV articles authorised. Dated primary-opinion explanation.",
+      "validationFile": "validation-batch-9.json",
       "state": "local-review"
     }
   ],

@@ -2,10 +2,12 @@
 
 All 82 source rows are tracked in 75 initial groups after seven same-intent alias merges. All topics are authorised.
 
-- Ten new articles are live and verified, covering 13 source rows: Pakistan A–India A, Pakistan–Scotland Women, Real Madrid–Celta, UAE–Nepal, MI Emirates–Desert Vipers, Riemann, HONOR, Princeton reporting, provinces and downloads.
+- Eleven new articles are live and verified, covering 14 source rows: Pakistan A–India A, Pakistan–Scotland Women, Real Madrid–Celta, UAE–Nepal, MI Emirates–Desert Vipers, Riemann, HONOR, Princeton reporting, provinces, downloads and The Body.
 - Seven relevant existing guides are live and reviewed: Tapmad, Women's Emerging Nations Trophy, Tom Latham, air pollution, Anshul Kamboj, WBBL and Carlos Alcaraz. Original dates and URLs are preserved; these are not counted as seven new posts.
 - The existing Dar-e-Nijaat guide was updated and verified for Episode 33 with its original date and images preserved.
-- Total verified coverage is 18 groups / 21 source rows. The remaining 57 groups / 61 rows are incomplete; research notes do not count as publication.
+- Total verified coverage is 19 groups / 22 source rows. The remaining 56 groups / 60 rows are incomplete; research notes do not count as publication.
 - Pakistan A–India A includes a provider-owned updating fixture feed, reload control and a specific match link above the feed. Provider latency and mixed-fixture scope are labelled.
 - ICT is complete: seven chapters, 488 MCQs. Chapter 7 has nine sections, 108 MCQs and a reviewed 42-page PDF. Earlier PDFs and question banks are preserved.
 - Publication evidence is recorded per release. Indexability does not establish Google indexing or traffic recovery.
+
+23 November: Pakistan–India article now leads with the confirmed 48-run result and educational calculations; live verified. Fifth Circuit article has 2,101 validated body words, 42 tags and two reviewed licensed images; ready locally, not published. All remaining articles are still outstanding. New classes deferred at Mahad’s request until articles are handled.
