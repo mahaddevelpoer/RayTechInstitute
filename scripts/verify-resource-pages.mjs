@@ -65,7 +65,10 @@ try{
    await page.getByRole('button',{name:index===79?'View Result':'Next',exact:true}).click();
   }
   assert.match(await page.locator('.mcq-page').innerText(),/Your score:\s*80\s*\/\s*80/);console.log('[dit-quiz] All 80 bilingual source questions scored correctly after shuffling; answers stayed hidden until the result. Desktop/mobile RTL layout passed.');
-  const note=(STATIC_OVERRIDES.notes||[]).find(n=>n.id==='dit-cn-chapter-1-basic-terminologies-mcq-notes');assert.ok(note,'Chapter 1 PDF note is published');
+  // Use the completed public record, including its upgraded title and PDF,
+  // rather than the earlier database revision of this preserved note identity.
+  const {INITIAL_NOTES}=await loadTypescript('src/data/staticCatalog.ts');
+  const note=INITIAL_NOTES.find(n=>n.id==='dit-cn-chapter-1-basic-terminologies-mcq-notes');assert.ok(note,'Chapter 1 PDF note is published');
   const notesPath='/classes/dit-intermediate/dit-computer-science/notes/';const detailPath=notesPath+note.id+'/';
   await page.goto(base+notesPath,{waitUntil:'domcontentloaded'});await Promise.all([page.waitForURL(base+detailPath),page.waitForResponse(response=>response.request().isNavigationRequest()&&response.request().resourceType()==='document'&&new URL(response.url()).pathname===detailPath&&response.status()===200),page.getByRole('link',{name:note.title,exact:true}).click()]);await page.getByRole('heading',{name:note.title,level:1,exact:true}).waitFor();assert.equal(new URL(page.url()).pathname,detailPath);
   assert.equal(await page.locator('h1').innerText(),note.title);assert.doesNotMatch(await page.locator('body').innerText(),/Unpublished preview|Preview only/i);
