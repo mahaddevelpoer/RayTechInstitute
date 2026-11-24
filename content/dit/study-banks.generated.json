@@ -7,7 +7,7 @@
     "chapters": 7,
     "bytes": 1649092,
     "sha256": "2da52f075e5e9867c13a3aafb93391df13d82d49def9196c7ec5db96674bab7a",
-    "questionSha256": "3585279724ad9dc6ad8cb9bdc1ff636b22c0971181d14a56847a3d736c4522b1",
+    "questionSha256": "ada555328e404bd419eaea1b104df4b779f56cfea8dc52b70c46d773b1cb5ace",
     "snapshotDate": "2026-11-24",
     "pages": 122
   },
@@ -19,7 +19,7 @@
     "chapters": 5,
     "bytes": 3077852,
     "sha256": "eb0ad9de14888b7efb0a1102f7a2ff00f3634ff1edfcf79dd6fb050986b2fb14",
-    "questionSha256": "96c2d62eeaacf75272b555b3489d5c63ad203cbb99e59a7d08f3578ecd7108b1",
+    "questionSha256": "9c0bc28af891b64817a808f94e3fb9779f98e2cbea4744744d8db4fdd15ca8e5",
     "snapshotDate": "2026-11-24",
     "pages": 197
   },
@@ -31,7 +31,7 @@
     "chapters": 7,
     "bytes": 4657242,
     "sha256": "0134730df399b67ca407cab1f8834b0891f475cd9aa0dffb55bda833f17382d1",
-    "questionSha256": "6a2f47fe16995600f95bfec193d2120813c0b8add776a758cb55ed0b66216a3d",
+    "questionSha256": "4dead93e8e1c93d972360cd8eaee380b443282ea6320de9d7bfad24036f22ce1",
     "snapshotDate": "2026-11-24",
     "pages": 291
   }

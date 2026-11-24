@@ -4,6 +4,7 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {createHash} from 'node:crypto';
 import {chromium} from 'playwright';
+import {questionFingerprint} from './dit-bank-integrity.mjs';
 const {banks}=JSON.parse(await fs.readFile('artifacts/dit-study-20261124/bank-source.json','utf8'));
 const dir=path.resolve('artifacts/dit-study-20261124');
 const out=path.resolve('public/documents/dit/mcq-banks');
@@ -29,7 +30,7 @@ try {
   await page.pdf({path:file,preferCSSPageSize:true,printBackground:true,tagged:true,outline:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:`<div style="font:8px Arial;width:100%;padding:0 17mm;color:#475569;display:flex;justify-content:space-between"><span>raytechinstitute.com | ${esc(bank.title)} | 24 Nov 2026</span><span>Page <span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`});
   await page.close();
   const bytes=await fs.readFile(file);
-  manifest.push({id:bank.id,title:bank.title,url:'/documents/dit/mcq-banks/'+filename,questions:questions.length,chapters:bank.modules.length,bytes:bytes.length,sha256:hash(bytes),questionSha256:hash(JSON.stringify(questions)),snapshotDate:'2026-11-24'});
+  manifest.push({id:bank.id,title:bank.title,url:'/documents/dit/mcq-banks/'+filename,questions:questions.length,chapters:bank.modules.length,bytes:bytes.length,sha256:hash(bytes),questionSha256:questionFingerprint(questions),snapshotDate:'2026-11-24'});
   console.log(`${bank.id}: ${questions.length} questions printed with bilingual shaping.`);
  }
 } finally {await browser.close();}

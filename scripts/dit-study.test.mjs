@@ -8,6 +8,7 @@ import {build} from 'esbuild';
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {JSDOM} from 'jsdom';
+import {questionFingerprint} from './dit-bank-integrity.mjs';
 const require=createRequire(import.meta.url);
 const result=await build({stdin:{contents:`export * from './src/data/academicResourceSnapshot'; export * from './src/utils/dit-study'; export * from './src/components/educational/DitSemesterOverview';`,resolveDir:process.cwd(),loader:'tsx'},bundle:true,write:false,platform:'node',format:'cjs',jsx:'automatic',external:['react','react-dom','react/jsx-runtime'],plugins:[{name:'link',setup(b){b.onResolve({filter:/^next\/link$/},()=>({path:'link',namespace:'stub'}));b.onLoad({filter:/.*/,namespace:'stub'},()=>({loader:'jsx',contents:'import React from "react"; export default function Link({prefetch,children,...props}) {return <a {...props}>{children}</a>}'}));}}]});
 const module={exports:{}};vm.runInNewContext(result.outputFiles[0].text,{module,exports:module.exports,require,console,URL});
@@ -47,13 +48,21 @@ test('download banks match every current published question and PDF bytes',async
   const subject=subjects.find(s=>s.id===bank.id);
   const questions=subject.modules.flatMap(m=>m.mcqs);
   assert.equal(bank.questions,questions.length);
-  assert.equal(bank.questionSha256,hash(JSON.stringify(questions)),'Catalog changed: rebuild and review the MCQ bank');
+  assert.equal(bank.questionSha256,questionFingerprint(questions),'Catalog changed: rebuild and review the MCQ bank');
   const bytes=await fs.readFile('public'+bank.url);
   assert.equal(bytes.subarray(0,5).toString(),'%PDF-');
   assert.equal(bank.sha256,hash(bytes));assert.equal(bank.bytes,bytes.length);
   assert.ok(bank.pages>0);
  }
  assert.equal(banks.reduce((n,b)=>n+b.questions,0),1688);
+});
+
+test('bank fingerprints detect answer changes but ignore unprinted metadata and property order',()=>{
+ const original={id:'q',classSlug:'dit-intermediate',subjectSlug:'dit-ict',chapterNumber:1,question:'Which value?',options:['A','B','C','D'],correctIndex:1,explanation:'B is correct.'};
+ const reordered=Object.fromEntries(Object.entries({...original,createdAt:'another-date'}).reverse());
+ assert.equal(questionFingerprint([original]),questionFingerprint([reordered]));
+ assert.notEqual(questionFingerprint([original]),questionFingerprint([{...original,correctIndex:0}]));
+ assert.notEqual(questionFingerprint([original]),questionFingerprint([{...original,options:['B','A','C','D']}]));
 });
 
 test('hub exposes the full available chapter journey and all PDF downloads in server HTML',async()=>{
