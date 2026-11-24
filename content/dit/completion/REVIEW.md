@@ -33,6 +33,16 @@ These are original study guides, not official PBTE textbooks, authenticated past
 - Python verification executed 76 checks, including the 29 solutions, input/boundary examples and a real pandas/openpyxl Excel write/read round trip. Five Turtle exercises use headless geometry traces; native Tk windows were not run.
 - Component browser checks passed at 360px and 1366px in light and dark modes, with no horizontal overflow or page errors, nine Python module links and a real PDF download hash check.
 - TypeScript checks passed. Focused curriculum, legacy identity, bank integrity, navigation and existing MCQ tests passed after updating the expected ICT guide count for its additional workbook.
-- Full production artifact build and exported-page browser verification: pending the current source commit's CI run. Publication remains approval-gated by the root `AGENTS.md`.
+- Full production artifact build and every release gate passed in [GitHub Actions run 45423200956](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45423200956), application revision `a866af34a9b826c6b07751429a7ccc248c80927f`. The artifact-only run did not deploy or mutate production content.
+- Exported-page browser verification passed all four viewport/theme combinations: 36 guide links, five subjects, five complete study-book downloads, no horizontal overflow and no page errors. Actual exported bytes matched all five MCQ banks, all five complete books and the Python ZIP. The new Python chapter filter opened four topics and a four-option question; the new process guide included its diagram. The workbook's search title is distinct from ICT Chapter 5.
+- Wider source/security/Firestore, old ICT preservation, SEO, internal-link, navigation/search, all 80 existing Networking questions, all 60 original Office questions and resource-page browser checks passed. A passing export verifies the authored release, not search rankings or physical lab execution.
+
+## Review and publication
+
+The batch remains unpublished. Root `AGENTS.md` requires explicit approval of the current changes before deployment. After approval, deploy the already verified `cloudflare-static-export` artifact from run `45423200956`, then verify the custom-domain deployment revision, all guide routes and downloads. Do not rebuild or republish an earlier incomplete run.
+
+The intermediate runs exposed a duplicate workbook title and two legacy browser expectations (ICT guide count and a guide's old database title). These were corrected without disabling any release gate. All final checks passed together.
+
+Saved evidence: [build receipt](../../../docs/reviews/dit-completion-20261124/build-receipt.json), [export browser checks](../../../docs/reviews/dit-completion-20261124/browser-checks.json), [mobile hub](../../../docs/reviews/dit-completion-20261124/mobile-study-hub.png) and [desktop downloads](../../../docs/reviews/dit-completion-20261124/desktop-office-downloads.png).
 
 Generated evidence: `generated.json`, `pdf-manifest.json`, `study-books.generated.json`, `practical-download.generated.json` and `program-verification.generated.json`. Local rendering, code execution and component screenshots are retained under `D:/raytech-dit-completion/qa` and the ignored `artifacts/dit-study-20261124/preview` directory.
