@@ -1,6 +1,6 @@
 # DIT resource access and printable question banks
 
-Prepared locally on 24 November 2026. This batch is not deployed.
+Prepared and production-build verified on 24 November 2026. This batch is not deployed.
 
 ## Student-facing changes
 
@@ -52,4 +52,14 @@ Printing currently uses the installed Microsoft Edge browser. Python verificatio
 - Complete the networking practical module and check practical coverage within existing theory chapters.
 - Obtain and authenticate board/year/session-specific past papers before publishing them as past papers.
 - Review all legacy Office/Networking theory coverage and source attribution; a bank of MCQs alone is not a complete textbook.
-- Full static production build/export verification remains required before an approved live release. No new release, ad spend, AdSense integration, paid downloads or cash-prize competition has been activated.
+- The verified static export is ready for a separately approved live release. No new release, ad spend, AdSense integration, paid downloads or cash-prize competition has been activated.
+
+## Final production verification
+
+GitHub artifact-mode run [45378208971](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45378208971) succeeded for source revision d4604ed6b4beb7ede28ed4e39e26f41686f868de. It installed locked dependencies, passed the repository source/security/SEO/Firestore/ICT/practice gates, refreshed the live catalog read-only, built the complete Next export, checked exported links and bank fingerprints, and passed the required browser journeys. Artifact mode retained a reviewable export without publishing either live site.
+
+The actual exported DIT page passed four 360px/1366px light/dark journeys with one h1, five subject sections, 19 direct chapter guides, the preserved self-canonical, no overflow and no page errors. All three exported bank responses matched their reviewed PDF SHA-256 values. The Microsoft Word link resolves to its existing note and its practice URL uses stored chapter 3 while the display correctly says MS Office Chapter 2.
+
+The first export check's dark screenshots were captured before theme hydration settled. The verifier was corrected to wait for the enabled theme control, dismiss optional-cookie consent and choose the theme through the actual button. The final run above passed the corrected check. Final exported screenshots were visually reviewed, including actual dark layouts; they and checks.json are retained under docs/reviews/dit-study-20261124/. Earlier component previews and the first run are superseded for release verification.
+
+The source UI/PDF batch is on codex/dit-study-hub-20261124. The large pre-existing generated src/data/staticOverrides.ts working-tree change and SEO Python cache remain excluded. The next publication must use the verified cloudflare-static-export artifact from run 45378208971, after Mahad explicitly approves this current batch as required by AGENTS.md. Missing curriculum content listed above is not part of a completion claim.

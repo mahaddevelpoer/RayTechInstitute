@@ -1,0 +1,41 @@
+{
+  "kind": "actual Next production export",
+  "results": [
+    {
+      "width": 360,
+      "theme": "light",
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "notes": 19,
+      "subjects": 5,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "notes": 19,
+      "subjects": 5,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1366,
+      "theme": "light",
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "notes": 19,
+      "subjects": 5,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "canonical": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "notes": 19,
+      "subjects": 5,
+      "overflow": false,
+      "pageErrors": []
+    }
+  ]
+}
