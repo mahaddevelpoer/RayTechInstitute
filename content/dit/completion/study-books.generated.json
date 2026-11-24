@@ -1,0 +1,350 @@
+[
+  {
+    "id": "dit-ict",
+    "title": "Introduction to ICT",
+    "url": "/documents/dit/books/dit-ict-study-book.pdf",
+    "chapters": 7,
+    "guides": 8,
+    "pages": 252,
+    "bytes": 700332,
+    "sha256": "9d6e7a0f94c06e8f35506b52768ed6a6fc918cf93de22d1e3d0d17b5b1da31d0",
+    "sources": [
+      {
+        "title": "Introduction to Computers: ICT Chapter 1 Study Guide",
+        "module": 1,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-1-introduction-to-computers.pdf",
+        "pages": 30,
+        "sha256": "78fc7a07dc4642f32aa9b1d91d6e750684305999a2359ee21e0a4fb8ec7269e6"
+      },
+      {
+        "title": "System Unit Components: ICT Chapter 2 Study Guide",
+        "module": 2,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-2-system-unit-components.pdf",
+        "pages": 30,
+        "sha256": "e53acd29c6199986a7209752bcb5960347575dbb6ffd12cbc7ab64565b67d032"
+      },
+      {
+        "title": "Input & Output Devices: ICT Chapter 3 Study Guide",
+        "module": 3,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-3-input-output-devices.pdf",
+        "pages": 36,
+        "sha256": "0d9296d2d1b440e3142547771401596fc8739b70182b08bfc588457600c5e7c4"
+      },
+      {
+        "title": "Digital Storage: ICT Chapter 4 Study Guide",
+        "module": 4,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-4-digital-storage.pdf",
+        "pages": 30,
+        "sha256": "4b9f843a280d688cf499a21f56d04378bf7cf46939dc14261bf3bdb0abf838af"
+      },
+      {
+        "title": "System Software: ICT Chapter 5 Study Guide",
+        "module": 5,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-5-system-software.pdf",
+        "pages": 31,
+        "sha256": "6d83c5787e272429e7095a6896b461f4f3f70818d030c698107836f0ad68af82"
+      },
+      {
+        "title": "Application Software: ICT Chapter 6 Study Guide",
+        "module": 6,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-6-application-software.pdf",
+        "pages": 33,
+        "sha256": "8c252ed9cb848ca41f33a6ec5d2d57e5dc44897f2d7d313197678b9bee6cac72"
+      },
+      {
+        "title": "Internet and World Wide Web: ICT Chapter 7 Study Guide",
+        "module": 7,
+        "extra": false,
+        "url": "/documents/dit/ict/ict-chapter-7-the-internet-and-world-wide-web.pdf",
+        "pages": 42,
+        "sha256": "7af1480bdedadda7c205d6ff079617a1cd95818c53ab75005ec950f1eddbd270"
+      },
+      {
+        "title": "ICT Practical Workbook: DIT Practical Workbook",
+        "module": 5,
+        "extra": true,
+        "url": "/documents/dit/complete/ict-practical-study-guide.pdf",
+        "pages": 19,
+        "sha256": "00e88822fcf2249fa41276b44c9bb4080d2ac35a8edc99d9cc337bca998f2274"
+      }
+    ]
+  },
+  {
+    "id": "ms-office",
+    "title": "Introduction to MS Office",
+    "url": "/documents/dit/books/ms-office-study-book.pdf",
+    "chapters": 5,
+    "guides": 5,
+    "pages": 89,
+    "bytes": 821566,
+    "sha256": "003fbdc84959518564613ad6fcc25685602e68924a2f7e592ffdff9f9dcc997f",
+    "sources": [
+      {
+        "title": "Introduction to Office Automation Software: DIT Study Guide",
+        "module": 1,
+        "extra": false,
+        "url": "/documents/dit/complete/office-1-study-guide.pdf",
+        "pages": 16,
+        "sha256": "1043557e12cfcb91231ea9cbd36a92074d714c137863722ff1ec896e5a3626b8"
+      },
+      {
+        "title": "Microsoft Word: DIT Study Guide",
+        "module": 2,
+        "extra": false,
+        "url": "/documents/dit/complete/office-2-study-guide.pdf",
+        "pages": 18,
+        "sha256": "9f2c3d10be59bda740fbcf66d8dbf5b06b1197c7c7d080d7ab9b4976f5a04b13"
+      },
+      {
+        "title": "Microsoft Excel: DIT Study Guide",
+        "module": 3,
+        "extra": false,
+        "url": "/documents/dit/complete/office-3-study-guide.pdf",
+        "pages": 19,
+        "sha256": "83b24758e09315df0fd2e67b2ff569c7142a29300a0eae0060fa35b0c232c843"
+      },
+      {
+        "title": "Microsoft PowerPoint: DIT Study Guide",
+        "module": 4,
+        "extra": false,
+        "url": "/documents/dit/complete/office-4-study-guide.pdf",
+        "pages": 17,
+        "sha256": "f2dc235a4c7c222a1f3d34913cdcc1a270dc95de2eca3937d609de38382fbeb8"
+      },
+      {
+        "title": "Microsoft Access: DIT Study Guide",
+        "module": 5,
+        "extra": false,
+        "url": "/documents/dit/complete/office-5-study-guide.pdf",
+        "pages": 18,
+        "sha256": "2b247a817443358fb739f5164e1dfb128a6dc4f64caec6fb24155a69fb3c27e6"
+      }
+    ]
+  },
+  {
+    "id": "computer-networks",
+    "title": "Computer Networks",
+    "url": "/documents/dit/books/computer-networks-study-book.pdf",
+    "chapters": 8,
+    "guides": 8,
+    "pages": 134,
+    "bytes": 1255234,
+    "sha256": "dc972e024619759442878898420b7da01abf3866cb45ba319f6c134b603373bc",
+    "sources": [
+      {
+        "title": "Basic Terminologies: DIT Study Guide",
+        "module": 1,
+        "extra": false,
+        "url": "/documents/dit/complete/network-1-study-guide.pdf",
+        "pages": 16,
+        "sha256": "d58a5990c719880ec4542e992f359a8bfe6974cd826ab6feab831f7a745ba990"
+      },
+      {
+        "title": "Network Topology: DIT Study Guide",
+        "module": 2,
+        "extra": false,
+        "url": "/documents/dit/complete/network-2-study-guide.pdf",
+        "pages": 15,
+        "sha256": "546d259d6e34bff75ed8cb2043aa1003c4816352a899e87bf631b48ca5ec286f"
+      },
+      {
+        "title": "Networking Devices: DIT Study Guide",
+        "module": 3,
+        "extra": false,
+        "url": "/documents/dit/complete/network-3-study-guide.pdf",
+        "pages": 16,
+        "sha256": "60014393db5b4c408e830c9f848da604779e0b7af418563f2cd90a32bf8aec5f"
+      },
+      {
+        "title": "Transmission Media: DIT Study Guide",
+        "module": 4,
+        "extra": false,
+        "url": "/documents/dit/complete/network-4-study-guide.pdf",
+        "pages": 17,
+        "sha256": "023746916b4465badd8f5c0fc81db78b38720b48de8f344dcbbdb56ae03d8a10"
+      },
+      {
+        "title": "Network Models: DIT Study Guide",
+        "module": 5,
+        "extra": false,
+        "url": "/documents/dit/complete/network-5-study-guide.pdf",
+        "pages": 18,
+        "sha256": "b26b99327b38da4ed41b1112a67c78cd20b2bdc6c12e0738b8c6d71364d1605f"
+      },
+      {
+        "title": "IP Addresses: DIT Study Guide",
+        "module": 6,
+        "extra": false,
+        "url": "/documents/dit/complete/network-6-study-guide.pdf",
+        "pages": 16,
+        "sha256": "8c1f738b1e1680b31a38383e196d642e5776c96ed2ce928df30bf4c829f756a4"
+      },
+      {
+        "title": "Protocols: DIT Study Guide",
+        "module": 7,
+        "extra": false,
+        "url": "/documents/dit/complete/network-7-study-guide.pdf",
+        "pages": 17,
+        "sha256": "18c83ed84375e1128169bf4a332458fa9b7076770b79e215496280a8c68f45e3"
+      },
+      {
+        "title": "Networking Practical Workbook: DIT Study Guide",
+        "module": 8,
+        "extra": false,
+        "url": "/documents/dit/complete/network-8-study-guide.pdf",
+        "pages": 18,
+        "sha256": "8a35d59a7fa4a34f2e8dda71e0cda8ab06f50bbc49d135a2d79b02957ddf1ba2"
+      }
+    ]
+  },
+  {
+    "id": "dit-operating-systems",
+    "title": "Operating Systems",
+    "url": "/documents/dit/books/dit-operating-systems-study-book.pdf",
+    "chapters": 6,
+    "guides": 6,
+    "pages": 84,
+    "bytes": 784491,
+    "sha256": "05ea843f6bc48ff43f1301549fa7ba0967ab773491ef9bac104b912e218cc5f7",
+    "sources": [
+      {
+        "title": "Overview of an Operating System: DIT Study Guide",
+        "module": 1,
+        "extra": false,
+        "url": "/documents/dit/complete/os-1-study-guide.pdf",
+        "pages": 12,
+        "sha256": "518f6d7b35960fb8cf3c97f7778a740dc96ad23409f0738dabaac52befa868f7"
+      },
+      {
+        "title": "Functions of an Operating System: DIT Study Guide",
+        "module": 2,
+        "extra": false,
+        "url": "/documents/dit/complete/os-2-study-guide.pdf",
+        "pages": 13,
+        "sha256": "c5b3226a928d536867260a0e7eaf1ab077a4671bd6f078e57f84d96b80bcd8f6"
+      },
+      {
+        "title": "Processes: DIT Study Guide",
+        "module": 3,
+        "extra": false,
+        "url": "/documents/dit/complete/os-3-study-guide.pdf",
+        "pages": 13,
+        "sha256": "cde9f08b4b061e69ca950f45b4394094306be4c41ac4b1d43b7d1c45b4f1c96d"
+      },
+      {
+        "title": "Introduction to Windows 10: DIT Study Guide",
+        "module": 4,
+        "extra": false,
+        "url": "/documents/dit/complete/os-4-study-guide.pdf",
+        "pages": 18,
+        "sha256": "8f7695ac89df026695e3395406c4196a77c5aecf9fb1bd464b61c9f6b5e1b524"
+      },
+      {
+        "title": "Network Connectivity: DIT Study Guide",
+        "module": 5,
+        "extra": false,
+        "url": "/documents/dit/complete/os-5-study-guide.pdf",
+        "pages": 13,
+        "sha256": "6c535fc989a963cafc183b901a5bfeedbfd7c71e8d340cae1e4740b8c2364368"
+      },
+      {
+        "title": "Windows Server 2019/2016: DIT Study Guide",
+        "module": 6,
+        "extra": false,
+        "url": "/documents/dit/complete/os-6-study-guide.pdf",
+        "pages": 14,
+        "sha256": "6f9ba971491199c8c64418c56628c1a8208ff049e231116705a5bfba8a8d99af"
+      }
+    ]
+  },
+  {
+    "id": "dit-python",
+    "title": "Introduction to Programming",
+    "url": "/documents/dit/books/dit-python-study-book.pdf",
+    "chapters": 9,
+    "guides": 9,
+    "pages": 127,
+    "bytes": 1235746,
+    "sha256": "da1323b6cda4a5035c38a444b5e235d55c4dd2b2ea05f3a813e28a3151db5915",
+    "sources": [
+      {
+        "title": "Introduction to Programming: DIT Study Guide",
+        "module": 1,
+        "extra": false,
+        "url": "/documents/dit/complete/python-1-study-guide.pdf",
+        "pages": 12,
+        "sha256": "ce6dc2b45cc76651da51186b1f9d36b938cbf00726a5b4aa771de660f35bf667"
+      },
+      {
+        "title": "Getting Started with Python: DIT Study Guide",
+        "module": 2,
+        "extra": false,
+        "url": "/documents/dit/complete/python-2-study-guide.pdf",
+        "pages": 13,
+        "sha256": "fa37da574a6fa3b7fb4cb9aa0c73036109778a2a3fac6ce4ab7fd022c4bd25db"
+      },
+      {
+        "title": "Variables and Operators: DIT Study Guide",
+        "module": 3,
+        "extra": false,
+        "url": "/documents/dit/complete/python-3-study-guide.pdf",
+        "pages": 14,
+        "sha256": "4845b534a97f8b15007c01660c3aeba0dc27e64f577d98e629a5900492b8088f"
+      },
+      {
+        "title": "Strings: DIT Study Guide",
+        "module": 4,
+        "extra": false,
+        "url": "/documents/dit/complete/python-4-study-guide.pdf",
+        "pages": 13,
+        "sha256": "98b5ac8affddf7b2ccfbeb23ca56ac8d2621867c877007826e138e6ef2f2624f"
+      },
+      {
+        "title": "Lists: DIT Study Guide",
+        "module": 5,
+        "extra": false,
+        "url": "/documents/dit/complete/python-5-study-guide.pdf",
+        "pages": 15,
+        "sha256": "d92eed7ce91f5711753c526a7348416ba65fb2059b5845df7ce863b4718270a9"
+      },
+      {
+        "title": "Conditional Statements: DIT Study Guide",
+        "module": 6,
+        "extra": false,
+        "url": "/documents/dit/complete/python-6-study-guide.pdf",
+        "pages": 14,
+        "sha256": "208878e09763c488269830cfbbcb388166376c944fe6a959cada697527b26773"
+      },
+      {
+        "title": "Loops: DIT Study Guide",
+        "module": 7,
+        "extra": false,
+        "url": "/documents/dit/complete/python-7-study-guide.pdf",
+        "pages": 15,
+        "sha256": "a800c46b02c84f5a7d7cfdefcab01929b68781653c720c08c43f62984dc8cbcb"
+      },
+      {
+        "title": "Functions: DIT Study Guide",
+        "module": 8,
+        "extra": false,
+        "url": "/documents/dit/complete/python-8-study-guide.pdf",
+        "pages": 14,
+        "sha256": "648713ac5940a9fab4c2259eb7f718ef94225031467c9b32f3756bc8a628187b"
+      },
+      {
+        "title": "Working with Graphics and Excel Files: DIT Study Guide",
+        "module": 9,
+        "extra": false,
+        "url": "/documents/dit/complete/python-9-study-guide.pdf",
+        "pages": 16,
+        "sha256": "29eb461c4eb63aa2b653fe5ef1f65eea90ebe150f35d2233454f749d4fe0f364"
+      }
+    ]
+  }
+]

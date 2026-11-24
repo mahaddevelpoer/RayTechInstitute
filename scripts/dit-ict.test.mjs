@@ -19,6 +19,7 @@ async function bundled(entry){
 const catalog=await bundled('src/data/staticCatalog.ts');
 const {STATIC_OVERRIDES:before}=await bundled('src/data/staticOverrides.ts');
 const additions=await bundled('src/data/ditSemesterOne.ts');
+const completion=await bundled('src/data/ditCompletion.ts');
 test('release tooling reads the same JSON-backed catalog as the website',async()=>{
  const loaded=await loadTypescript('src/data/staticCatalog.ts');
  assert.equal(loaded.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber===1).length,60);
@@ -37,7 +38,8 @@ test('new resources preserve every existing chapter, note and public MCQ',()=>{
  for(const [key,list] of [['chapters',catalog.INITIAL_CHAPTERS],['notes',catalog.INITIAL_NOTES],['mcqs',catalog.INITIAL_MCQS]]){
   for(const old of before[key]||[]){
    if(key==='mcqs'&&['mcq-1791959684546-sn62b','mcq-1791959685116-xidgz','mcq-1791959685379-8st80','mcq-1791959685663-b8b3q','mcq-1791959685796-p9mf4'].includes(old.id))continue;
-   assert.equal(JSON.stringify(list.find(r=>r.id===old.id)),JSON.stringify(old));
+   const expected=key==='notes'?completion.completeDitNote(old):old;
+   assert.equal(JSON.stringify(list.find(r=>r.id===old.id)),JSON.stringify(expected));
   }
   assert.equal(new Set(list.map(r=>r.id)).size,list.length);
  }
@@ -53,7 +55,7 @@ test('course information changes only the target class and legacy subject descri
 test('roadmap separates theory and practical modules without inventing completed resources',()=>{
  assert.deepEqual(syllabus.subjects.map(s=>s.modules.length),[7,5,8,6,9]);assert.equal(syllabus.subjects.reduce((n,s)=>n+s.modules.length,0),35);
  assert.equal(syllabus.subjects[2].modules[7],'Practical Portion');
- assert.equal(catalog.INITIAL_SUBJECTS.filter(s=>['dit-python','dit-operating-systems'].includes(s.slug)).length,0);
+ assert.equal(catalog.INITIAL_SUBJECTS.filter(s=>['dit-python','dit-operating-systems'].includes(s.slug)).length,2);
 });
 test('PDF and web guide use the same checked source and practice answers remain separate',async()=>{
  const sourceBytes=await fs.readFile('content/dit/ict-chapter-1.json');assert.equal(createHash('sha256').update(sourceBytes.toString('utf8').replace(/\r\n/g,'\n')).digest('hex'),pack.sourceSha256);
@@ -69,10 +71,15 @@ test('semester overview renders all five subjects and links only available chapt
  assert.equal((html.match(/<summary/g)||[]).length,5);
  assert.match(html,/500 marks/);assert.match(html,/75 theory and 25 practical/);
  assert.match(html,/Introduction to ICT/);assert.match(html,/Operating Systems/);assert.match(html,/Introduction to Programming/);
- assert.ok(!/href="\/classes\/[^"]*(?:dit-python|dit-operating-systems)/.test(html));
- assert.match(html,/material not yet published/);assert.match(html,/\/dit-ict\/notes\/dit-ict-chapter-1-introduction-to-computers\//);
+ assert.match(html,/\/classes\/dit-intermediate\/dit-python\/notes\//);
+ const snapshot=await bundled('src/data/academicResourceSnapshot.ts');
+ const {buildDitStudySubjects}=await bundled('src/utils/dit-study.ts');
+ const subjects=buildDitStudySubjects({chapters:snapshot.INITIAL_CHAPTERS,notes:snapshot.INITIAL_NOTES,mcqs:snapshot.INITIAL_MCQS,papers:snapshot.INITIAL_PAST_PAPERS});
+ assert.ok(html.includes(`${subjects.reduce((n,s)=>n+s.available,0)} of 35 syllabus modules`));
+ assert.match(html,/6 syllabus modules; 6 with material/);assert.match(html,/9 syllabus modules; 9 with material/);
+ assert.match(html,/\/dit-ict\/notes\/dit-ict-chapter-1-introduction-to-computers\//);
  assert.match(html,/7 syllabus modules; 7 with material/);
- if(before.chapters?.some(c=>c.subjectSlug==='dit-computer-science')){
-  assert.match(html,/5 syllabus modules; 5 with material/);assert.match(html,/8 syllabus modules; 7 with material/);
+ if(subjects[1].available===5&&subjects[2].available===8){
+  assert.match(html,/5 syllabus modules; 5 with material/);assert.match(html,/8 syllabus modules; 8 with material/);
  }
 });

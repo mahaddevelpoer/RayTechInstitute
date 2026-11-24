@@ -131,7 +131,7 @@ export function ditClassInformation(item: ClassItem): ClassItem {
 }
 export function ditSubjectInformation(item: SubjectItem): SubjectItem {
   if (item.classSlug !== DIT_CLASS_SLUG || item.slug !== 'dit-computer-science') return item;
-  return { ...item, description: 'Existing first-semester MS Office and Computer Networks resources. Choose the matching book and chapter below. Introduction to ICT has its own subject page; Operating Systems and Python modules are shown in the semester syllabus overview.' };
+  return { ...item, title: 'MS Office and Computer Networks', description: 'PBTE DIT first-semester MS Office and Computer Networks study guides, chapter practice and practical workbooks. Choose the named book and chapter below.' };
 }
 export function addReviewedResources<T extends { id: string }>(existing: T[], additions: T[]): T[] {
   const ids = new Set(existing.map(item => item.id));

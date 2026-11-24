@@ -5,8 +5,8 @@
     "url": "/documents/dit/mcq-banks/dit-ict-mcq-bank.pdf",
     "questions": 488,
     "chapters": 7,
-    "bytes": 1649092,
-    "sha256": "2da52f075e5e9867c13a3aafb93391df13d82d49def9196c7ec5db96674bab7a",
+    "bytes": 1649023,
+    "sha256": "8a2088e26d7bde5d1adee43a1dddf1771ee972db3be1adf7caadf7e0efe04090",
     "questionSha256": "ada555328e404bd419eaea1b104df4b779f56cfea8dc52b70c46d773b1cb5ace",
     "snapshotDate": "2026-11-24",
     "pages": 122
@@ -17,8 +17,8 @@
     "url": "/documents/dit/mcq-banks/ms-office-mcq-bank.pdf",
     "questions": 490,
     "chapters": 5,
-    "bytes": 3077852,
-    "sha256": "eb0ad9de14888b7efb0a1102f7a2ff00f3634ff1edfcf79dd6fb050986b2fb14",
+    "bytes": 3077771,
+    "sha256": "8510bba44badcbf17763bfa6bcbea122fb418a18adc9bd58b572bb22b035a5d4",
     "questionSha256": "9c0bc28af891b64817a808f94e3fb9779f98e2cbea4744744d8db4fdd15ca8e5",
     "snapshotDate": "2026-11-24",
     "pages": 197
@@ -27,12 +27,36 @@
     "id": "computer-networks",
     "title": "Computer Networks",
     "url": "/documents/dit/mcq-banks/computer-networks-mcq-bank.pdf",
-    "questions": 710,
-    "chapters": 7,
-    "bytes": 4657242,
-    "sha256": "0134730df399b67ca407cab1f8834b0891f475cd9aa0dffb55bda833f17382d1",
-    "questionSha256": "4dead93e8e1c93d972360cd8eaee380b443282ea6320de9d7bfad24036f22ce1",
+    "questions": 740,
+    "chapters": 8,
+    "bytes": 4757315,
+    "sha256": "2aff29e34cbd76ddd4ab6dcb2363f326a3091976605f50cd9a0b74f3c7cd8934",
+    "questionSha256": "ddf631bd757d00e5d45ba9e914d4ca33a69b56eb337cf126c85ba3565f080ab1",
     "snapshotDate": "2026-11-24",
-    "pages": 291
+    "pages": 299
+  },
+  {
+    "id": "dit-operating-systems",
+    "title": "Operating Systems",
+    "url": "/documents/dit/mcq-banks/dit-operating-systems-mcq-bank.pdf",
+    "questions": 132,
+    "chapters": 6,
+    "bytes": 505871,
+    "sha256": "185fd93f60f3a9ee0244bd47a2fcade9fef201e5c67426a111d933459f173467",
+    "questionSha256": "b93feeb41f5d4be44e0be2ddcc490121319f0e3a04af7036fa1933b41a167db8",
+    "snapshotDate": "2026-11-24",
+    "pages": 39
+  },
+  {
+    "id": "dit-python",
+    "title": "Introduction to Programming",
+    "url": "/documents/dit/mcq-banks/dit-python-mcq-bank.pdf",
+    "questions": 188,
+    "chapters": 9,
+    "bytes": 670669,
+    "sha256": "596e261df207b00f2c1c19a8c7b9290a48d7141ca2ef1c036162fda01d439fb9",
+    "questionSha256": "e9961922978341f757ff85a607d8b1526593c231c55d086dea394cdfad4de5d7",
+    "snapshotDate": "2026-11-24",
+    "pages": 56
   }
 ]

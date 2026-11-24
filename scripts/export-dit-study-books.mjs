@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import vm from 'node:vm';
+import {build} from 'esbuild';
+const compiled=await build({stdin:{contents:`export * from './src/data/academicResourceSnapshot';export * from './src/utils/dit-study';`,resolveDir:process.cwd(),loader:'ts'},bundle:true,write:false,platform:'node',format:'cjs',logLevel:'silent'});
+const context={module:{exports:{}},URL};context.exports=context.module.exports;vm.runInNewContext(compiled.outputFiles[0].text,context);
+const data=context.module.exports;
+const subjects=data.buildDitStudySubjects({chapters:data.INITIAL_CHAPTERS,notes:data.INITIAL_NOTES,mcqs:data.INITIAL_MCQS,papers:data.INITIAL_PAST_PAPERS});
+const books=subjects.map(subject=>({id:subject.id,title:subject.title,chapters:subject.modules.length,guides:subject.modules.flatMap(module=>module.notes.map(note=>({title:note.title,module:module.number,extra:note.id==='dit-ict-practical-workbook',url:new URL(note.pdf).pathname}))).sort((a,b)=>Number(a.extra)-Number(b.extra)||a.module-b.module)}));
+if(books.some(book=>book.guides.length<book.chapters))throw Error('A book has a missing chapter guide');
+const qa=path.resolve(process.env.DIT_COMPLETION_QA||'D:/raytech-dit-completion/qa');await fs.mkdir(qa,{recursive:true});
+await fs.writeFile(path.join(qa,'book-sources.json'),JSON.stringify(books,null,2));console.log(books.map(book=>({id:book.id,chapters:book.chapters,guides:book.guides.length})));

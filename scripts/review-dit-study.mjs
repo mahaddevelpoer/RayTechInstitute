@@ -26,8 +26,8 @@ const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,'http://127.0.0.1:4194');
   if(url.pathname==='/'){res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','X-Robots-Tag':'noindex,nofollow'}).end(html);return;}
   const file=path.resolve(root,'.'+decodeURIComponent(url.pathname));
-  if(!file.startsWith(root+path.sep)||!url.pathname.startsWith('/documents/')||!file.endsWith('.pdf')){res.writeHead(404).end();return;}
-  res.writeHead(200,{'Content-Type':'application/pdf','X-Content-Type-Options':'nosniff'}).end(await fs.readFile(file));
+  if(!file.startsWith(root+path.sep)||!url.pathname.startsWith('/documents/')||!['.pdf','.zip'].includes(path.extname(file))){res.writeHead(404).end();return;}
+  res.writeHead(200,{'Content-Type':file.endsWith('.zip')?'application/zip':'application/pdf','X-Content-Type-Options':'nosniff'}).end(await fs.readFile(file));
  }catch{res.writeHead(404).end();}
 });
 await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(4194,'127.0.0.1',resolve)});
@@ -44,12 +44,14 @@ try{
   // Inline source citation is prose, not a task button.
   if(small.some(label=>!label.includes('official PBTE')))throw Error('Small task link: '+small.join(', '));
   await page.screenshot({path:path.join(dir,`${width}-${theme}-top.png`)});
-  for(const id of ['dit-ict','ms-office','computer-networks']){
+  for(const id of ['dit-ict','ms-office','computer-networks','dit-operating-systems','dit-python']){
    await page.locator(`#dit-subject-${id}`).scrollIntoViewIfNeeded();
    await page.screenshot({path:path.join(dir,`${width}-${theme}-${id}.png`)});
   }
-  const unavailable=page.locator('#dit-subject-dit-python');await unavailable.locator('summary').click();
-  if(await unavailable.locator('li').count()!==9||await unavailable.locator('a').count()!==0)throw Error('Unpublished Python module links');
+  const python=page.locator('#dit-subject-dit-python');
+  if(await python.locator('li').count()!==9||await python.locator('a[data-dit-note]').count()!==9)throw Error('Python guide/module count');
+  await python.locator('summary').click();if(await python.getAttribute('open')!==null)throw Error('Subject section did not close');
+  await python.locator('summary').click();if(await python.getAttribute('open')===null)throw Error('Subject section did not reopen');
   const downloadPromise=page.waitForEvent('download');await page.getByRole('link',{name:'Download Introduction to ICT MCQ bank PDF',exact:true}).click();
   const download=await downloadPromise;const saved=path.join(dir,`${width}-${theme}-download.pdf`);await download.saveAs(saved);
   const banks=JSON.parse(await fs.readFile('content/dit/study-banks.generated.json','utf8'));

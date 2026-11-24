@@ -14,8 +14,8 @@ const doc=new JSDOM(await response.text()).window.document;
 const canonical=doc.querySelector('link[rel="canonical"]')?.href;
 if(canonical!==base+'/classes/dit-intermediate/'||doc.querySelectorAll('h1').length!==1)throw Error('Class canonical or heading mismatch');
 if(/noindex/i.test(doc.querySelector('meta[name="robots"]')?.content||''))throw Error('DIT page is unexpectedly noindex');
-const hrefs=Array.from(doc.querySelectorAll('a[aria-label^="Read "]'),a=>a.getAttribute('href'));
-if(hrefs.length!==19||new Set(hrefs).size!==19)throw Error('Direct chapter-guide count changed');
+const hrefs=Array.from(doc.querySelectorAll('a[data-dit-note]'),a=>a.getAttribute('href'));
+if(hrefs.length!==36||new Set(hrefs).size!==36)throw Error('Direct chapter-guide count changed');
 const chapters=[];
 for(let offset=0;offset<hrefs.length;offset+=4){
  const batch=await Promise.all(hrefs.slice(offset,offset+4).map(async href=>{

@@ -14,7 +14,7 @@ test('every published resource remains reachable and counts retain the class/sub
   if(type!=='papers')assert.ok(subject.chapters.some(c=>c.number===record.chapterNumber&&c[type]>0),record.id);
  }
  for(const subject of directory)for(const type of ['notes','mcqs','papers'])assert.equal(subject[type],input[type].filter(r=>r.classSlug===subject.classSlug&&r.subjectSlug===subject.slug).length);
- const ict=directory.find(s=>s.slug==='dit-ict');if(ict){assert.equal(ict.mcqs,488);assert.equal(ict.notes,7);assert.equal(ict.chapters.length,7);}
+ const ict=directory.find(s=>s.slug==='dit-ict');if(ict){assert.equal(ict.mcqs,488);assert.equal(ict.notes,8);assert.equal(ict.chapters.length,7);}
  assert.equal(catalog.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict').length,488,'Reviewed ICT bank remains intact even in a seed-only checkout');
 });
 

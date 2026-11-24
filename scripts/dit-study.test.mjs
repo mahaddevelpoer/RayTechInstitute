@@ -19,8 +19,8 @@ const banks=JSON.parse(await fs.readFile('content/dit/study-banks.generated.json
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 
 test('DIT book positions resolve to the correct stored resources without crossing books',()=>{
- assert.deepEqual(Array.from(subjects,s=>s.available),[7,5,7,0,0]);
- assert.deepEqual(Array.from(subjects,s=>s.mcqCount),[488,490,710,0,0]);
+ assert.deepEqual(Array.from(subjects,s=>s.available),[7,5,8,6,9]);
+ assert.deepEqual(Array.from(subjects,s=>s.mcqCount),[488,490,740,132,188]);
  const office=subjects.find(s=>s.id==='ms-office');
  const word=office.modules[1];
  assert.equal(word.chapter.chapterNumber,3);
@@ -29,7 +29,7 @@ test('DIT book positions resolve to the correct stored resources without crossin
  assert.equal(office.modules[2].chapter.chapterNumber,11);
  const networking=subjects.find(s=>s.id==='computer-networks');
  assert.equal(networking.modules[5].chapter.chapterNumber,9);
- assert.equal(networking.modules[7].available,false);
+ assert.equal(networking.modules[7].available,true);assert.equal(networking.modules[7].chapter.chapterNumber,13);
  assert.equal(subjects.filter(s=>s.available===0).some(s=>s.modules.some(m=>m.practiceHref||m.notes.length)),false);
 });
 
@@ -54,7 +54,7 @@ test('download banks match every current published question and PDF bytes',async
   assert.equal(bank.sha256,hash(bytes));assert.equal(bank.bytes,bytes.length);
   assert.ok(bank.pages>0);
  }
- assert.equal(banks.reduce((n,b)=>n+b.questions,0),1688);
+ assert.equal(banks.reduce((n,b)=>n+b.questions,0),2038);
 });
 
 test('bank fingerprints detect answer changes but ignore unprinted metadata and property order',()=>{
@@ -68,13 +68,15 @@ test('bank fingerprints detect answer changes but ignore unprinted metadata and 
 test('hub exposes the full available chapter journey and all PDF downloads in server HTML',async()=>{
  const doc=new JSDOM(renderToStaticMarkup(React.createElement(c.DitSemesterOverview))).window.document;
  assert.equal(doc.querySelectorAll('details').length,5);
- assert.equal(doc.querySelectorAll('details[open]').length,3);
- assert.equal(doc.querySelectorAll('a[download][href*="mcq-banks"]').length,3);
- assert.equal(doc.querySelectorAll('a[aria-label^="Read "]').length,19);
- assert.equal(doc.querySelectorAll('a[aria-label^="Practise "]').length,19);
- assert.match(doc.body.textContent,/19 of 35 syllabus modules/);
+ assert.equal(doc.querySelectorAll('details[open]').length,5);
+ assert.equal(doc.querySelectorAll('a[download][href*="mcq-banks"]').length,5);
+ assert.equal(doc.querySelectorAll('a[download][href*="/books/"]').length,5);
+ assert.equal(doc.querySelectorAll('a[data-dit-note]').length,36);
+ assert.equal(doc.querySelectorAll('a[aria-label^="Practise "]').length,35);
+ assert.match(doc.body.textContent,/35 of 35 syllabus modules/);
  for(const a of doc.querySelectorAll('nav a'))assert.ok(doc.querySelector(a.getAttribute('href')));
  for(const a of doc.querySelectorAll('a[href^="/documents/"]'))await fs.access('public'+a.getAttribute('href'));
- assert.equal(doc.querySelectorAll('a[href*="dit-python/"],a[href*="dit-operating-systems/"]').length,0);
+ assert.equal(doc.querySelectorAll('a[data-dit-note][href*="dit-python/"]').length,9);
+ assert.equal(doc.querySelectorAll('a[data-dit-note][href*="dit-operating-systems/"]').length,6);
  assert.equal(doc.querySelectorAll('script[type="application/ld+json"]').length,0);
 });

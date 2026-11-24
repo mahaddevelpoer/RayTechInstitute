@@ -1,0 +1,205 @@
+{
+  "os-1": {
+    "url": "/documents/dit/complete/os-1-study-guide.pdf",
+    "bytes": 196477,
+    "sha256": "518f6d7b35960fb8cf3c97f7778a740dc96ad23409f0738dabaac52befa868f7",
+    "contentSha256": "c6c3da01362998df6f0af2c005359cc8eef07fe4fecd77532edc0e4b464e0232",
+    "pages": 12
+  },
+  "os-2": {
+    "url": "/documents/dit/complete/os-2-study-guide.pdf",
+    "bytes": 192252,
+    "sha256": "c5b3226a928d536867260a0e7eaf1ab077a4671bd6f078e57f84d96b80bcd8f6",
+    "contentSha256": "b4153bbf137dad43a586d88c7d43b7dd703b6e54162bf8ec9ba4bcfab98289a9",
+    "pages": 13
+  },
+  "os-3": {
+    "url": "/documents/dit/complete/os-3-study-guide.pdf",
+    "bytes": 195359,
+    "sha256": "cde9f08b4b061e69ca950f45b4394094306be4c41ac4b1d43b7d1c45b4f1c96d",
+    "contentSha256": "f6efd567b937e202f167c1af487adac94aa2a23f6866cdd8d0e8aebdfecb4765",
+    "pages": 13
+  },
+  "os-4": {
+    "url": "/documents/dit/complete/os-4-study-guide.pdf",
+    "bytes": 258235,
+    "sha256": "8f7695ac89df026695e3395406c4196a77c5aecf9fb1bd464b61c9f6b5e1b524",
+    "contentSha256": "a3f5dd03b0ed4c21c0a0c9dd123880493c475f36f90f12197f7dfe0f917aa324",
+    "pages": 18
+  },
+  "os-5": {
+    "url": "/documents/dit/complete/os-5-study-guide.pdf",
+    "bytes": 198492,
+    "sha256": "6c535fc989a963cafc183b901a5bfeedbfd7c71e8d340cae1e4740b8c2364368",
+    "contentSha256": "ff1b3610d46a507e71b86dc7f66dc98b7a127ba2e24930ca3b633e37d147994e",
+    "pages": 13
+  },
+  "os-6": {
+    "url": "/documents/dit/complete/os-6-study-guide.pdf",
+    "bytes": 210441,
+    "sha256": "6f9ba971491199c8c64418c56628c1a8208ff049e231116705a5bfba8a8d99af",
+    "contentSha256": "a12456c7cce5f51fb066f8955e5f6b9a1350b9b64d73aab9f4e0eff77a0691a1",
+    "pages": 14
+  },
+  "python-1": {
+    "url": "/documents/dit/complete/python-1-study-guide.pdf",
+    "bytes": 186098,
+    "sha256": "ce6dc2b45cc76651da51186b1f9d36b938cbf00726a5b4aa771de660f35bf667",
+    "contentSha256": "b12ad2a3e7df48879778c4fcf0db534bce88449ca6e56c459dda68512e749e61",
+    "pages": 12
+  },
+  "python-2": {
+    "url": "/documents/dit/complete/python-2-study-guide.pdf",
+    "bytes": 206508,
+    "sha256": "fa37da574a6fa3b7fb4cb9aa0c73036109778a2a3fac6ce4ab7fd022c4bd25db",
+    "contentSha256": "4da61661eac82ae19ac31eda53fa4c81f8e959b5b7c4de22ad0d72fc45164418",
+    "pages": 13
+  },
+  "python-3": {
+    "url": "/documents/dit/complete/python-3-study-guide.pdf",
+    "bytes": 216843,
+    "sha256": "4845b534a97f8b15007c01660c3aeba0dc27e64f577d98e629a5900492b8088f",
+    "contentSha256": "5a2453b7fa652912b40f6e85c083749508dffa2cbae2ce9c4195786a4009260f",
+    "pages": 14
+  },
+  "python-4": {
+    "url": "/documents/dit/complete/python-4-study-guide.pdf",
+    "bytes": 209241,
+    "sha256": "98b5ac8affddf7b2ccfbeb23ca56ac8d2621867c877007826e138e6ef2f2624f",
+    "contentSha256": "6c48be9180a8b92b39ba6106ef3314f9c3214ce5101614a952ded69b9fc78fdd",
+    "pages": 13
+  },
+  "python-5": {
+    "url": "/documents/dit/complete/python-5-study-guide.pdf",
+    "bytes": 226682,
+    "sha256": "d92eed7ce91f5711753c526a7348416ba65fb2059b5845df7ce863b4718270a9",
+    "contentSha256": "35f8005b135954723bd35f3f292ce02348586fa217738e32e91c1ecdd354860b",
+    "pages": 15
+  },
+  "python-6": {
+    "url": "/documents/dit/complete/python-6-study-guide.pdf",
+    "bytes": 217915,
+    "sha256": "208878e09763c488269830cfbbcb388166376c944fe6a959cada697527b26773",
+    "contentSha256": "622b832248fc2ac9c85bd5fdd4f065c708791c95efbf4e687721d6fe9a85efd1",
+    "pages": 14
+  },
+  "python-7": {
+    "url": "/documents/dit/complete/python-7-study-guide.pdf",
+    "bytes": 220504,
+    "sha256": "a800c46b02c84f5a7d7cfdefcab01929b68781653c720c08c43f62984dc8cbcb",
+    "contentSha256": "8abdf862f2dac95c9e0796305cecb52e478ff76cca84e6557f9965a453a23081",
+    "pages": 15
+  },
+  "python-8": {
+    "url": "/documents/dit/complete/python-8-study-guide.pdf",
+    "bytes": 213751,
+    "sha256": "648713ac5940a9fab4c2259eb7f718ef94225031467c9b32f3756bc8a628187b",
+    "contentSha256": "f0834003dff0ac80e96d63db4502cae6f99c2dc3b017b5bb5ace4f8a5204af61",
+    "pages": 14
+  },
+  "python-9": {
+    "url": "/documents/dit/complete/python-9-study-guide.pdf",
+    "bytes": 252038,
+    "sha256": "29eb461c4eb63aa2b653fe5ef1f65eea90ebe150f35d2233454f749d4fe0f364",
+    "contentSha256": "145ff0427509d167f69962a7865db3c529c8578ad8f38000ba8e61b1a745489e",
+    "pages": 16
+  },
+  "office-1": {
+    "url": "/documents/dit/complete/office-1-study-guide.pdf",
+    "bytes": 227747,
+    "sha256": "1043557e12cfcb91231ea9cbd36a92074d714c137863722ff1ec896e5a3626b8",
+    "contentSha256": "386aeaaaae8ff8c708ac8881e6fcd13496b7aab20f020f68710217dbf8a2edc5",
+    "pages": 16
+  },
+  "office-2": {
+    "url": "/documents/dit/complete/office-2-study-guide.pdf",
+    "bytes": 245178,
+    "sha256": "9f2c3d10be59bda740fbcf66d8dbf5b06b1197c7c7d080d7ab9b4976f5a04b13",
+    "contentSha256": "1805a4609d5f68cdfc9190ebd4bd70c75c87bad15919aa1abeeda9a2f678bf3d",
+    "pages": 18
+  },
+  "office-3": {
+    "url": "/documents/dit/complete/office-3-study-guide.pdf",
+    "bytes": 265072,
+    "sha256": "83b24758e09315df0fd2e67b2ff569c7142a29300a0eae0060fa35b0c232c843",
+    "contentSha256": "52df99b949d85d41479511b8f4a0683d4d00ee018c67a99a09d1b96477a275d1",
+    "pages": 19
+  },
+  "office-4": {
+    "url": "/documents/dit/complete/office-4-study-guide.pdf",
+    "bytes": 235482,
+    "sha256": "f2dc235a4c7c222a1f3d34913cdcc1a270dc95de2eca3937d609de38382fbeb8",
+    "contentSha256": "52bcffe968fcf6e7f4e49e58014eada2af2d23defc1c10de2b08ea4ae1541382",
+    "pages": 17
+  },
+  "office-5": {
+    "url": "/documents/dit/complete/office-5-study-guide.pdf",
+    "bytes": 255146,
+    "sha256": "2b247a817443358fb739f5164e1dfb128a6dc4f64caec6fb24155a69fb3c27e6",
+    "contentSha256": "5a8c1de5ea90ebe2541c3fbabda55d2f32a88a18f41a17425dcbaade1a7bb976",
+    "pages": 18
+  },
+  "network-1": {
+    "url": "/documents/dit/complete/network-1-study-guide.pdf",
+    "bytes": 232204,
+    "sha256": "d58a5990c719880ec4542e992f359a8bfe6974cd826ab6feab831f7a745ba990",
+    "contentSha256": "733480e3fccc1865cd0fe8cad3a8aecd64a81e3cd6ede1f0342c3524f255493c",
+    "pages": 16
+  },
+  "network-2": {
+    "url": "/documents/dit/complete/network-2-study-guide.pdf",
+    "bytes": 219347,
+    "sha256": "546d259d6e34bff75ed8cb2043aa1003c4816352a899e87bf631b48ca5ec286f",
+    "contentSha256": "fb36d58b951cebb2b012b36401dd2f4616e067c23f19c46569c77cab8669bb79",
+    "pages": 15
+  },
+  "network-3": {
+    "url": "/documents/dit/complete/network-3-study-guide.pdf",
+    "bytes": 223929,
+    "sha256": "60014393db5b4c408e830c9f848da604779e0b7af418563f2cd90a32bf8aec5f",
+    "contentSha256": "0964712f9d6d8da40e806ef5fad68a8acd46b0816be4f2e4614cd07b9a2df044",
+    "pages": 16
+  },
+  "network-4": {
+    "url": "/documents/dit/complete/network-4-study-guide.pdf",
+    "bytes": 232287,
+    "sha256": "023746916b4465badd8f5c0fc81db78b38720b48de8f344dcbbdb56ae03d8a10",
+    "contentSha256": "3db2330b448c52a8b7e57ddff2e1042a8d53ddd6e31b35533aad859b08978fdf",
+    "pages": 17
+  },
+  "network-5": {
+    "url": "/documents/dit/complete/network-5-study-guide.pdf",
+    "bytes": 240914,
+    "sha256": "b26b99327b38da4ed41b1112a67c78cd20b2bdc6c12e0738b8c6d71364d1605f",
+    "contentSha256": "b6486dd1a1982c5dc488890719b66387ed9ba643fa8e000d8045c0bce2e37489",
+    "pages": 18
+  },
+  "network-6": {
+    "url": "/documents/dit/complete/network-6-study-guide.pdf",
+    "bytes": 218380,
+    "sha256": "8c1f738b1e1680b31a38383e196d642e5776c96ed2ce928df30bf4c829f756a4",
+    "contentSha256": "d87562511c700fe46c84dc00057e4c009afcfc2324009694be78cfd45b0b3fa2",
+    "pages": 16
+  },
+  "network-7": {
+    "url": "/documents/dit/complete/network-7-study-guide.pdf",
+    "bytes": 226896,
+    "sha256": "18c83ed84375e1128169bf4a332458fa9b7076770b79e215496280a8c68f45e3",
+    "contentSha256": "5091448aa7d1c4f5b79d8e9a1f602db6172124b72058137cd141c25bdf4bb743",
+    "pages": 17
+  },
+  "network-8": {
+    "url": "/documents/dit/complete/network-8-study-guide.pdf",
+    "bytes": 269001,
+    "sha256": "8a35d59a7fa4a34f2e8dda71e0cda8ab06f50bbc49d135a2d79b02957ddf1ba2",
+    "contentSha256": "b24d5ca9b7bf4fff0f54af7799c3a1150d587fe3f80fa92207f586cd5b835472",
+    "pages": 18
+  },
+  "ict-practical": {
+    "url": "/documents/dit/complete/ict-practical-study-guide.pdf",
+    "bytes": 288044,
+    "sha256": "00e88822fcf2249fa41276b44c9bb4080d2ac35a8edc99d9cc337bca998f2274",
+    "contentSha256": "4da2bdfe6dd1ab4d4fb39bdf236e0b6798b81e24a37fdc649fa15861c6891deb",
+    "pages": 19
+  }
+}

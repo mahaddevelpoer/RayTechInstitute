@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import syllabus from '../../../content/dit/semester-one.json';
 import banks from '../../../content/dit/study-banks.generated.json';
+import books from '../../../content/dit/completion/study-books.generated.json';
+import practicalDownload from '../../../content/dit/completion/practical-download.generated.json';
 import { INITIAL_CHAPTERS, INITIAL_MCQS, INITIAL_NOTES, INITIAL_PAST_PAPERS } from '@/data/academicResourceSnapshot';
 import { buildDitStudySubjects } from '@/utils/dit-study';
 
@@ -15,13 +17,23 @@ export function DitSemesterOverview() {
     <p className="mt-3 text-base leading-7 text-slate-700">Choose a subject to read chapter notes, practise MCQs or download PDFs for offline revision.</p>
     <nav aria-label="Jump to a DIT subject" className="mt-4 grid grid-cols-2 gap-3 sm:flex sm:flex-wrap">{subjects.map(subject => <a key={subject.id} className={linkStyle} aria-label={`Jump to ${subject.title}`} href={`#dit-subject-${subject.id}`}>{shortNames[subject.id]}</a>)}</nav>
     <div className="mt-5 rounded-lg border border-slate-200 bg-slate-50 p-4 text-base leading-7 text-slate-700">
-      <p><strong>{available} of {total} syllabus modules have published material.</strong> Check each module below for notes, MCQs and PDFs. A listed resource does not certify complete theory or practical coverage.</p>
+      <p><strong>{available} of {total} syllabus modules have study material.</strong> Read the mapped topics, check your answers and complete the practical work in the stated lab environment. Study books are original revision guides, not official PBTE textbooks.</p>
     </div>
     <div className="mt-5 space-y-5">{subjects.map(subject => {
       const bank = banks.find(item => item.id === subject.id);
+      const book = books.find(item => item.id === subject.id);
       return <details id={`dit-subject-${subject.id}`} key={subject.id} className="scroll-mt-24 rounded-lg border border-slate-200 bg-white p-4" open={subject.available > 0}>
         <summary className="min-h-12 cursor-pointer text-lg font-semibold text-navy-900">{subject.title} <span className="text-base font-normal text-slate-600">({subject.modules.length} syllabus modules; {subject.available} with material)</span></summary>
         <p className="mt-2 text-base leading-7 text-slate-700">{subject.noteCount} chapter guides and {subject.mcqCount} practice MCQs available.</p>
+        {book && <div className="mt-4 rounded-md border border-slate-200 bg-slate-50 p-4">
+          <h3 className="text-base font-bold text-navy-900">Subject study book</h3>
+          <p className="mt-2 text-base leading-7 text-slate-700">All {book.chapters} syllabus modules, with topic notes, solved answers and practical instructions. {book.pages} pages, {Math.ceil(book.bytes / 1024)} KB. Use the PDF contents and bookmarks to find a chapter.</p>
+          <div className="mt-3 flex flex-wrap gap-3">
+            <a className={linkStyle} href={book.url} target="_blank" rel="noopener noreferrer" aria-label={`Preview ${subject.title} study book PDF`}>Preview study book</a>
+            <a className={linkStyle} href={book.url} download aria-label={`Download ${subject.title} study book PDF`}>Download study book</a>
+            {subject.slug === 'dit-python' && <a className={linkStyle} href={practicalDownload.url} download>Download 29 Python practical solutions</a>}
+          </div>
+        </div>}
         {bank && <div className="mt-4 rounded-md border border-slate-200 bg-slate-50 p-4">
           <h3 className="text-base font-bold text-navy-900">Printable MCQ bank with answer explanations</h3>
           <p className="mt-2 text-base leading-7 text-slate-700">{bank.questions} questions across {bank.chapters} chapters; {bank.pages} pages, {Math.ceil(bank.bytes / 1024)} KB. Answers follow each chapter so you can attempt the questions first. Snapshot: 24 November 2026.</p>
@@ -35,9 +47,9 @@ export function DitSemesterOverview() {
           {module.available ? <>
             <p className="mt-1 text-base leading-7 text-slate-600">{module.notes.length} {module.notes.length === 1 ? 'guide' : 'guides'}; {module.mcqs.length} practice MCQs.</p>
             <div className="mt-2 flex flex-wrap gap-3">
-              {module.notes.map(note => <Link prefetch={false} key={note.id} className={linkStyle} href={note.href} aria-label={`Read ${module.title} notes`}>Read notes{module.notes.length > 1 ? `: ${note.title}` : ''}</Link>)}
+              {module.notes.map(note => <Link prefetch={false} data-dit-note key={note.id} className={linkStyle} href={note.href} aria-label={`Read ${module.title} ${note.id === 'dit-ict-practical-workbook' ? 'practical workbook' : 'notes'}`}>{note.id === 'dit-ict-practical-workbook' ? 'Read practical workbook' : 'Read notes'}</Link>)}
               {module.practiceHref && <Link prefetch={false} className={linkStyle} href={module.practiceHref} aria-label={`Practise ${module.title} MCQs`}>Practise MCQs</Link>}
-              {module.notes.filter(note => note.pdf).map(note => <a key={note.id} className={linkStyle} href={note.hosted ? new URL(note.pdf).pathname : note.pdf} {...(note.hosted ? {download:true} : {target:'_blank',rel:'noopener noreferrer'})} aria-label={`${note.hosted ? 'Download' : 'Open'} ${module.title} PDF`}>{note.hosted ? 'Download PDF' : 'Open PDF on Google Drive'}{module.notes.length > 1 ? `: ${note.title}` : ''}</a>)}
+              {module.notes.filter(note => note.pdf).map(note => <a key={note.id} className={linkStyle} href={note.hosted ? new URL(note.pdf).pathname : note.pdf} {...(note.hosted ? {download:true} : {target:'_blank',rel:'noopener noreferrer'})} aria-label={`${note.hosted ? 'Download' : 'Open'} ${module.title} ${note.id === 'dit-ict-practical-workbook' ? 'practical workbook ' : ''}PDF`}>{note.id === 'dit-ict-practical-workbook' ? 'Download practical workbook' : note.hosted ? 'Download PDF' : 'Open PDF'}</a>)}
             </div>
           </> : <p className="mt-2 text-base leading-7 text-slate-600">Study material not yet published for this module.</p>}
         </li>)}</ol>
@@ -51,7 +63,7 @@ export function DitSemesterOverview() {
         <li>Select Read notes for the online guide or Practise MCQs for the interactive chapter test.</li>
         <li>Select Download PDF to save a chapter, or Download MCQ bank for a printable subject question bank. Older Google Drive documents open in Drive; use its download control if the owner permits it.</li>
       </ol>
-      <p className="mt-3">Networking Module 8 and Operating Systems Modules 4 to 6 cover practical work. Their inclusion in the syllabus does not mean that practical material is already available. Verified board past papers are not yet published for this semester.</p>
+      <p className="mt-3">Use the ICT practical workbook, Office lab tasks, Networking Module 8, Operating Systems lab modules and Python solutions alongside the theory. Physical/configuration tasks need the instructor-authorised lab. Turtle/Tk and Excel-file programs require the stated desktop environment. Verified board past papers are a separate resource.</p>
       <p className="mt-3">Five technical subjects carry 500 marks in total: 75 theory and 25 practical marks per subject. Library Activities is listed separately without examination marks.</p>
       <p className="mt-3"><a href={syllabus.sourceUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-navy-700 underline">Read the official PBTE two-year D.I.T syllabus</a>. This course outline defines the topics; it is not a complete textbook. These resources are revision material, not verified board past papers.</p>
     </aside>

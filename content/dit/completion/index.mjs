@@ -1,0 +1,12 @@
+import osTheory from './os-theory.mjs';
+import osPractical from './os-practical.mjs';
+import pythonFoundations from './python-foundations.mjs';
+import pythonData from './python-data.mjs';
+import pythonControl from './python-control.mjs';
+import pythonGraphics from './python-graphics.mjs';
+import office from './office.mjs';
+import networkA from './network-theory-a.mjs';
+import networkB from './network-theory-b.mjs';
+import networkPractical from './network-practical.mjs';
+import ictPractical from './ict-practical.mjs';
+export const completionModules=[...osTheory,...osPractical,...pythonFoundations,...pythonData,...pythonControl,...pythonGraphics,...office,...networkA,...networkB,...networkPractical,...ictPractical];
