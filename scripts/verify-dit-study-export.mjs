@@ -39,6 +39,9 @@ try{
    if(createHash('sha256').update(await result.body()).digest('hex')!==bank.sha256)throw Error('Exported bank hash mismatch: '+bank.id);
   }
   if(width===360&&theme==='light'){
+   const workbook=await context.request.get(base+'/classes/dit-intermediate/dit-ict/notes/dit-ict-practical-workbook/');
+   const workbookHtml=await workbook.text();
+   if(!workbook.ok()||!workbookHtml.includes('<title>DIT ICT Practical Workbook &amp; Lab PDF | RayTech Institute</title>'))throw Error('ICT workbook must have its own resource title');
    await page.goto(base+'/classes/dit-intermediate/dit-python/mcqs/?chapter=1',{waitUntil:'domcontentloaded'});
    await page.locator('.mcq-topic-grid>button').first().waitFor();
    if(await page.locator('.mcq-topic-grid>button').count()!==4)throw Error('New Python topic filters did not resolve chapter 1');

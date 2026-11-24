@@ -55,7 +55,9 @@ export async function generateMetadata({
   const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
   const sourceChapter = resolveChapterForResource({ ...note, title: note.chapterTitle }, INITIAL_CHAPTERS);
   const displayChapterNumber = chapterPlacement(sourceChapter)?.number || note.chapterNumber;
-  const title = classSlug === 'dit-intermediate' && subjectSlug === 'dit-ict'
+  const title = note.id === 'dit-ict-practical-workbook'
+    ? buildSeoTitle('DIT ICT Practical Workbook & Lab PDF')
+    : classSlug === 'dit-intermediate' && subjectSlug === 'dit-ict'
     ? buildSeoTitle(`DIT ICT Chapter ${displayChapterNumber} Notes PDF & MCQs`)
     : buildSeoTitle(`${className} ${note.chapterTitle} Ch ${displayChapterNumber} Notes PDF`);
   const fullDescription = buildDocumentDescription(note.description || '', `${className} ${note.chapterTitle} Chapter ${displayChapterNumber} notes PDF`);
