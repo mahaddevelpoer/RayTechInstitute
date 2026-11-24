@@ -29,7 +29,7 @@ try{
   await finder.getByRole('button',{name:'Clear filters',exact:true}).click();
   await finder.getByLabel('Subject or topic',{exact:true}).fill('D.I.T ICT');
   await page.waitForFunction(()=>document.querySelectorAll('.study-result').length===1);
-  assert.ok((await finder.innerText()).includes('488 MCQs'));assert.ok((await finder.innerText()).includes('7 notes & PDFs'));
+  assert.ok((await finder.innerText()).includes('488 MCQs'));assert.ok((await finder.innerText()).includes('8 notes & PDFs'));
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
   await finder.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/study-finder-review/classes-${width}-${dark?'dark':'light'}.png`});
   const link=finder.locator('a[href="/classes/dit-intermediate/dit-ict/mcqs/?chapter=7"]');assert.equal(await link.count(),1);
