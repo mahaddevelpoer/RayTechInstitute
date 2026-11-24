@@ -14,7 +14,7 @@ const source=JSON.parse(await fs.readFile('content/dit/ict-chapter-1.json','utf8
 const syllabus=JSON.parse(await fs.readFile('content/dit/semester-one.json','utf8'));
 async function bundled(entry){
  const compiled=await build({entryPoints:[entry],bundle:true,write:false,platform:'node',format:'cjs',jsx:'automatic',logLevel:'silent',external:['react','react-dom','react/jsx-runtime'],plugins:[{name:'test-link',setup(b){b.onResolve({filter:/^next\/link$/},()=>({path:'link',namespace:'test'}));b.onLoad({filter:/.*/,namespace:'test'},()=>({loader:'jsx',contents:'import React from "react"; export default function Link({prefetch,children,...props}) { return <a {...props}>{children}</a>; }'}));}}]});
- const module={exports:{}};vm.runInNewContext(compiled.outputFiles[0].text,{module,exports:module.exports,require,console});return module.exports;
+ const module={exports:{}};vm.runInNewContext(compiled.outputFiles[0].text,{module,exports:module.exports,require,console,URL});return module.exports;
 }
 const catalog=await bundled('src/data/staticCatalog.ts');
 const {STATIC_OVERRIDES:before}=await bundled('src/data/staticOverrides.ts');
@@ -69,8 +69,8 @@ test('semester overview renders all five subjects and links only available chapt
  assert.equal((html.match(/<summary/g)||[]).length,5);
  assert.match(html,/500 marks/);assert.match(html,/75 theory and 25 practical/);
  assert.match(html,/Introduction to ICT/);assert.match(html,/Operating Systems/);assert.match(html,/Introduction to Programming/);
- assert.ok(!/href="[^"]*(?:dit-python|dit-operating-systems)/.test(html));
- assert.match(html,/material not yet published/);assert.match(html,/\/dit-ict\/notes\/\?chapter=1/);
+ assert.ok(!/href="\/classes\/[^"]*(?:dit-python|dit-operating-systems)/.test(html));
+ assert.match(html,/material not yet published/);assert.match(html,/\/dit-ict\/notes\/dit-ict-chapter-1-introduction-to-computers\//);
  assert.match(html,/7 syllabus modules; 7 with material/);
  if(before.chapters?.some(c=>c.subjectSlug==='dit-computer-science')){
   assert.match(html,/5 syllabus modules; 5 with material/);assert.match(html,/8 syllabus modules; 7 with material/);

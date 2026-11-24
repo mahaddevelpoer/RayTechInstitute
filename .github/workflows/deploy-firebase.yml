@@ -128,6 +128,9 @@ jobs:
       - name: Block incomplete or mismatched exports
         run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs scripts/hosted-documents.test.mjs
 
+      - name: Verify printed DIT banks against the exported academic catalog
+        run: node --test scripts/dit-study.test.mjs
+
       - name: Prepare static Cloudflare routing and security headers
         if: env.HOSTING_TARGET != 'firebase'
         run: node --test scripts/cloudflare-export.test.mjs && node scripts/prepare-cloudflare-export.mjs
@@ -165,6 +168,19 @@ jobs:
         env:
           VERIFY_BASE_URL: http://127.0.0.1:4178
         run: node --max-old-space-size=384 scripts/verify-study-finder.mjs
+
+      - name: Verify DIT chapter access and printable bank downloads
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node scripts/verify-dit-study-export.mjs
+
+      - name: Retain DIT study export screenshots
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: dit-study-review
+          path: artifacts/dit-study-export/
+          if-no-files-found: ignore
 
       - name: Retain student navigation review screenshots
         if: ${{ !cancelled() }}
