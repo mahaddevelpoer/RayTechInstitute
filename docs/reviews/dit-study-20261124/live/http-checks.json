@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-11-24T11:26:42.238Z",
+  "base": "https://raytechinstitute.com",
+  "revision": "d4604ed6b4beb7ede28ed4e39e26f41686f868de",
+  "buildWorkflow": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45378208971",
+  "classPage": {
+    "status": 200,
+    "canonical": "https://raytechinstitute.com/classes/dit-intermediate/",
+    "h1": 1,
+    "indexable": true
+  },
+  "chapters": [
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-1-introduction-to-computers/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-2-system-unit-components/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-3-input-output-devices/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-4-digital-storage/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-5-system-software/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-6-application-software/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-ict/notes/dit-ict-chapter-7-the-internet-and-world-wide-web/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/note-1793112803271/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/note-1793115340417/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-excel-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-ms-office-chapter-3-powerpoint-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-access-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-cn-chapter-1-basic-terminologies-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-cn-chapter-2-network-topology-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-networking-devices-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-transmission-media-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-network-models-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-ip-addresses-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-nov11-protocols-mcq-notes/",
+      "status": 200,
+      "canonical": true
+    }
+  ],
+  "banks": [
+    {
+      "url": "https://raytechinstitute.com/documents/dit/mcq-banks/dit-ict-mcq-bank.pdf",
+      "status": 200,
+      "bytes": 1649092,
+      "sha256": "2da52f075e5e9867c13a3aafb93391df13d82d49def9196c7ec5db96674bab7a",
+      "questions": 488
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/dit/mcq-banks/ms-office-mcq-bank.pdf",
+      "status": 200,
+      "bytes": 3077852,
+      "sha256": "eb0ad9de14888b7efb0a1102f7a2ff00f3634ff1edfcf79dd6fb050986b2fb14",
+      "questions": 490
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/dit/mcq-banks/computer-networks-mcq-bank.pdf",
+      "status": 200,
+      "bytes": 4657242,
+      "sha256": "0134730df399b67ca407cab1f8834b0891f475cd9aa0dffb55bda833f17382d1",
+      "questions": 710
+    }
+  ]
+}

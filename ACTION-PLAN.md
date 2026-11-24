@@ -1,3 +1,9 @@
+# DIT access and printable banks: 24 November 2026
+
+Published and live verified: subject-wise access to 19 existing DIT chapters, direct notes/practice/document links and three printable banks containing 1,688 existing questions. Verified artifact run 45378208971 was published by approved deployment run 45383681515. All 19 live guide canonicals, all three PDF hashes and four responsive/theme journeys passed. Details: content/dit/STUDY-HUB-REVIEW-20261124.md and docs/reviews/dit-study-20261124/live/.
+
+Next curriculum work remains: six Operating Systems modules, nine Python modules, the Networking practical module, legacy theory/source coverage review and authenticated past papers. Availability remains 19 of 35 modules; this release does not claim full DIT completion. Ads, AdSense, paid downloads and prize activation remain separate.
+
 # Website improvement action plan: 23 November 2026
 
 1. Complete: expose real class/subject/chapter links, searchable topic labels and resource-type availability. Preserve original URLs, resource IDs, PDF files and empty/private-page indexing safeguards. High impact, medium effort.

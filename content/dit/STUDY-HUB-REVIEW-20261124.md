@@ -1,6 +1,6 @@
 # DIT resource access and printable question banks
 
-Prepared and production-build verified on 24 November 2026. This batch is not deployed.
+Published and live verified on 24 November 2026.
 
 ## Student-facing changes
 
@@ -52,7 +52,7 @@ Printing currently uses the installed Microsoft Edge browser. Python verificatio
 - Complete the networking practical module and check practical coverage within existing theory chapters.
 - Obtain and authenticate board/year/session-specific past papers before publishing them as past papers.
 - Review all legacy Office/Networking theory coverage and source attribution; a bank of MCQs alone is not a complete textbook.
-- The verified static export is ready for a separately approved live release. No new release, ad spend, AdSense integration, paid downloads or cash-prize competition has been activated.
+- The approved resource-access/PDF batch is published. Ad spend, AdSense integration, paid downloads and cash-prize competition activation remain separate work.
 
 ## Final production verification
 
@@ -62,4 +62,12 @@ The actual exported DIT page passed four 360px/1366px light/dark journeys with o
 
 The first export check's dark screenshots were captured before theme hydration settled. The verifier was corrected to wait for the enabled theme control, dismiss optional-cookie consent and choose the theme through the actual button. The final run above passed the corrected check. Final exported screenshots were visually reviewed, including actual dark layouts; they and checks.json are retained under docs/reviews/dit-study-20261124/. Earlier component previews and the first run are superseded for release verification.
 
-The source UI/PDF batch is on codex/dit-study-hub-20261124. The large pre-existing generated src/data/staticOverrides.ts working-tree change and SEO Python cache remain excluded. The next publication must use the verified cloudflare-static-export artifact from run 45378208971, after Mahad explicitly approves this current batch as required by AGENTS.md. Missing curriculum content listed above is not part of a completion claim.
+The reviewed UI/PDF source is d4604ed6b4beb7ede28ed4e39e26f41686f868de. The large pre-existing generated src/data/staticOverrides.ts working-tree change and SEO Python cache remain excluded. Missing curriculum content listed above is not part of a completion claim.
+
+## Approved publication and live checks
+
+Mahad replied "continue" to the explicit request to publish this reviewed batch on 24 November 2026. Deployment run [45383681515](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45383681515) succeeded using the exact verified cloudflare-static-export artifact from run 45378208971. The custom-domain deployment.json confirms source revision d4604ed6b4beb7ede28ed4e39e26f41686f868de and the reviewed build workflow URL.
+
+The live [DIT class page](https://raytechinstitute.com/classes/dit-intermediate/) returns HTTP 200 with one h1, the correct self-canonical and indexable metadata. All 19 direct chapter guides returned HTTP 200 with their expected self-canonicals. All three live banks returned application/pdf, matching the reviewed file sizes and SHA-256 values: 488 ICT questions, 490 MS Office questions and 710 Networking questions.
+
+Four additional live browser journeys passed at 360px/1366px in light/dark mode, including the corrected theme interaction, five subject sections, chapter navigation and PDF integrity checks, with no horizontal overflow or page errors. Representative live screenshots were visually reviewed. Durable live evidence is under docs/reviews/dit-study-20261124/live/. This verifies the published resource batch, not search ranking or full DIT syllabus completion.
