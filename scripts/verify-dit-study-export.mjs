@@ -13,8 +13,12 @@ try{
   page.on('pageerror',e=>errors.push(e.message));
   const response=await page.goto(`${base}/classes/dit-intermediate/`,{waitUntil:'domcontentloaded'});
   if(!response?.ok())throw Error('DIT export did not load');
-  await page.evaluate(t=>document.documentElement.classList.toggle('dark',t==='dark'),theme);
-  await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(500);
+  await page.waitForFunction(()=>{const button=document.querySelector('.site-header button[aria-label^="Switch to"]');return button&&!button.disabled;});
+  const decline=page.getByRole('button',{name:'Decline Optional',exact:true});if(await decline.isVisible())await decline.click();
+  const toggle=page.getByRole('button',{name:theme==='dark'?'Switch to dark theme':'Switch to light theme',exact:true});
+  if(await toggle.count())await toggle.click();
+  await page.waitForFunction(t=>document.documentElement.classList.contains('dark')===(t==='dark'),theme);
+  await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(300);
   if(await page.locator('h1').count()!==1||await page.locator('details[id^="dit-subject-"]').count()!==5)throw Error('DIT heading or subjects mismatch');
   if(await page.getByRole('link',{name:/^Read .* notes$/}).count()!==19)throw Error('Missing direct chapter guides');
   if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error(`DIT overflow at ${width} ${theme}`);
