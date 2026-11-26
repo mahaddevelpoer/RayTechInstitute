@@ -280,7 +280,8 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Read the reviewed application revision
-        run: echo "EXPECTED_REVISION=$(node -p \"require('./docs/reviews/dit-completion-20261124/build-receipt.json').headSha\")" >> "$GITHUB_ENV"
+        run: |
+          node -e "const fs = require('node:fs'); const receipt = require('./docs/reviews/dit-completion-20261124/build-receipt.json'); fs.appendFileSync(process.env.GITHUB_ENV, 'EXPECTED_REVISION=' + receipt.headSha + '\n');"
       - run: npx playwright install chromium
       - name: Verify custom-domain guide pages, sitemap and every study download
         run: node scripts/verify-live-dit-release.mjs
