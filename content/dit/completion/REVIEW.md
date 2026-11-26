@@ -1,6 +1,6 @@
 # DIT first-semester completion review
 
-Prepared 24 November 2026. This batch is staged for review, not published.
+Prepared 24 November 2026. Published and live verified on 26 November 2026 after Mahad approved publication by replying "continue" to the explicit publication question.
 
 ## Scope
 
@@ -39,7 +39,11 @@ These are original study guides, not official PBTE textbooks, authenticated past
 
 ## Review and publication
 
-The batch remains unpublished. Root `AGENTS.md` requires explicit approval of the current changes before deployment. After approval, deploy the already verified `cloudflare-static-export` artifact from run `45423200956`, then verify the custom-domain deployment revision, all guide routes and downloads. Do not rebuild or republish an earlier incomplete run.
+The approved batch is published. [Deployment run 45783596180](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45783596180) deployed the exact previously verified artifact from run `45423200956`. The custom domain serves application revision `a866af34a9b826c6b07751429a7ccc248c80927f`; no new content rebuild was substituted.
+
+[Read-only live verification run 45790669475](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45790669475) passed on the custom domain: all 36 guide routes, their canonical URLs, one H1 and indexability, all guide sitemap entries, and 47 download hashes. Those downloads comprise 36 chapter/workbook PDFs, five complete study books, five MCQ banks and the Python ZIP. All four mobile/desktop and light/dark browser journeys passed, including the new Python quiz. The local HTTP verification passed too; transient local browser connection resets were resolved by independently checking from the isolated runner. No test assertion was disabled.
+
+Live evidence: [HTTP and download checks](../../../docs/reviews/dit-completion-20261124/live/http-checks.json), [browser checks](../../../docs/reviews/dit-completion-20261124/live/browser-checks.json), [mobile hub](../../../docs/reviews/dit-completion-20261124/live/mobile-study-hub.png), [desktop downloads](../../../docs/reviews/dit-completion-20261124/live/desktop-office-downloads.png) and [mobile Python quiz](../../../docs/reviews/dit-completion-20261124/live/mobile-python-quiz.png).
 
 The intermediate runs exposed a duplicate workbook title and two legacy browser expectations (ICT guide count and a guide's old database title). These were corrected without disabling any release gate. All final checks passed together.
 

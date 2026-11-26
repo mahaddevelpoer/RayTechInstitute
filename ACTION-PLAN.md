@@ -1,3 +1,11 @@
+# DIT first semester completed and published: 26 November 2026
+
+Current status: all 35 first-semester modules have material across five syllabus subjects, with 36 web guides, five complete study books (686 pages), five printable MCQ banks (2,038 questions) and 29 Python practical solutions plus an additional Excel example. Twelve existing Office/Networking guides were expanded while retaining their identities and original PDF access.
+
+Mahad approved the complete batch. Deployment run 45783596180 published the verified artifact from build 45423200956, application revision a866af34a9b826c6b07751429a7ccc248c80927f. Read-only live verification run 45790669475 passed all 36 guide routes/canonicals/sitemap entries, all 47 download hashes, and four mobile/desktop/theme journeys. Evidence: content/dit/completion/REVIEW.md and docs/reviews/dit-completion-20261124/live/.
+
+This completes the supplied first-semester course-outline material. Authenticated past papers, later semesters/new classes, advertising and AdSense remain separate work. The following dated sections describe earlier releases.
+
 # DIT access and printable banks: 24 November 2026
 
 Published and live verified: subject-wise access to 19 existing DIT chapters, direct notes/practice/document links and three printable banks containing 1,688 existing questions. Verified artifact run 45378208971 was published by approved deployment run 45383681515. All 19 live guide canonicals, all three PDF hashes and four responsive/theme journeys passed. Details: content/dit/STUDY-HUB-REVIEW-20261124.md and docs/reviews/dit-study-20261124/live/.
