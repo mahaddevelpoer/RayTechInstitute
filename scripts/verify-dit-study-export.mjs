@@ -7,13 +7,19 @@ const banks=JSON.parse(await fs.readFile('content/dit/study-banks.generated.json
 const books=JSON.parse(await fs.readFile('content/dit/completion/study-books.generated.json','utf8'));
 const practicalZip=JSON.parse(await fs.readFile('content/dit/completion/practical-download.generated.json','utf8'));
 const directory=path.resolve('artifacts/dit-study-export');await fs.mkdir(directory,{recursive:true});
-const browser=await chromium.launch({...(process.platform==='win32'?{channel:'msedge'}:{}),headless:true});
+const browser=await chromium.launch({...(process.platform==='win32'?{channel:'msedge'}:{}),headless:true,args:['--disable-quic']});
 const results=[];
+async function navigate(page,url){
+ for(let attempt=0;attempt<3;attempt++){
+  try{return await page.goto(url,{waitUntil:'domcontentloaded'});}
+  catch(error){if(attempt===2||!/ERR_(?:CONNECTION_RESET|QUIC_PROTOCOL_ERROR|NETWORK_CHANGED)/.test(error.message))throw error;}
+ }
+}
 try{
  for(const width of [360,1366])for(const theme of ['light','dark']){
   const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
-  const response=await page.goto(`${base}/classes/dit-intermediate/`,{waitUntil:'domcontentloaded'});
+  const response=await navigate(page,`${base}/classes/dit-intermediate/`);
   if(!response?.ok())throw Error('DIT export did not load');
   await page.waitForFunction(()=>{const button=document.querySelector('.site-header button[aria-label^="Switch to"]');return button&&!button.disabled;});
   const decline=page.getByRole('button',{name:'Decline Optional',exact:true});if(await decline.isVisible())await decline.click();
@@ -35,18 +41,20 @@ try{
   const practiceHref=await page.getByRole('link',{name:'Practise Microsoft Word MCQs',exact:true}).getAttribute('href');
   if(new URL(practiceHref,base).searchParams.get('chapter')!=='3')throw Error('Display chapter number leaked into stored resource URL');
   if(width===360&&theme==='light')for(const bank of [...banks,...books,practicalZip]){
-   const result=await context.request.get(base+bank.url);if(!result.ok())throw Error('Exported bank missing: '+bank.id);
+   const result=await context.request.get(base+bank.url,{maxRetries:3,timeout:60000});if(!result.ok())throw Error('Exported bank missing: '+bank.id);
    if(createHash('sha256').update(await result.body()).digest('hex')!==bank.sha256)throw Error('Exported bank hash mismatch: '+bank.id);
   }
   if(width===360&&theme==='light'){
    const workbook=await context.request.get(base+'/classes/dit-intermediate/dit-ict/notes/dit-ict-practical-workbook/');
    const workbookHtml=await workbook.text();
    if(!workbook.ok()||!workbookHtml.includes('<title>DIT ICT Practical Workbook &amp; Lab PDF | RayTech Institute</title>'))throw Error('ICT workbook must have its own resource title');
-   await page.goto(base+'/classes/dit-intermediate/dit-python/mcqs/?chapter=1',{waitUntil:'domcontentloaded'});
+   await navigate(page,base+'/classes/dit-intermediate/dit-python/mcqs/?chapter=1');
    await page.locator('.mcq-topic-grid>button').first().waitFor();
    if(await page.locator('.mcq-topic-grid>button').count()!==4)throw Error('New Python topic filters did not resolve chapter 1');
    await page.locator('.mcq-topic-grid>button').first().click();await page.locator('button[aria-pressed]').first().waitFor();
    if(await page.locator('button[aria-pressed]').count()!==4)throw Error('New Python quiz question did not start');
+   await page.locator('.mcq-page h2').scrollIntoViewIfNeeded();
+   if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('New Python quiz overflows on mobile');
    await page.screenshot({path:path.join(directory,'new-python-quiz.png')});
    const os=await context.request.get(base+'/classes/dit-intermediate/dit-operating-systems/notes/dit-complete-os-3-study-guide/');
    if(!os.ok()||!(await os.text()).includes('process-states.svg'))throw Error('New process guide/diagram missing from export');
