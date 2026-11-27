@@ -1,0 +1,78 @@
+{
+  "base": "http://127.0.0.1:49466",
+  "fixture": true,
+  "checks": [
+    {
+      "route": "/classes/11th-class/computer-science/notes/widget-test/",
+      "width": 360,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/blogs/new-reviewed-education/",
+      "width": 360,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/index.html",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/blogs/noor-ahmad-explained-learning-guide/",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/about/",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/classes/11th-class/computer-science/notes/widget-test/",
+      "width": 1366,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/blogs/new-reviewed-education/",
+      "width": 1366,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/",
+      "width": 1366,
+      "excluded": true
+    },
+    {
+      "route": "/index.html",
+      "width": 1366,
+      "excluded": true
+    },
+    {
+      "route": "/blogs/noor-ahmad-explained-learning-guide/",
+      "width": 1366,
+      "excluded": true
+    },
+    {
+      "route": "/about/",
+      "width": 1366,
+      "excluded": true
+    }
+  ]
+}

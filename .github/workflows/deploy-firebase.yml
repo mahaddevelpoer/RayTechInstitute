@@ -78,7 +78,7 @@ jobs:
         run: node --test scripts/dit-ict.test.mjs scripts/dit-ict-chapter-two.test.mjs scripts/dit-ict-chapter-three.test.mjs scripts/dit-ict-chapter-four.test.mjs scripts/dit-ict-chapter-five.test.mjs scripts/dit-ict-chapter-six.test.mjs scripts/dit-ict-chapter-seven.test.mjs
 
       - name: Verify live scorecard boundaries and editorial queue
-        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs scripts/related-articles.test.mjs scripts/article-indexing.test.mjs scripts/educational-cleanup.test.mjs
+        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs scripts/related-articles.test.mjs scripts/article-indexing.test.mjs scripts/educational-cleanup.test.mjs scripts/preferred-source.test.mjs
 
       - name: Verify academic placement validation and migration replay
         if: github.event_name != 'repository_dispatch'
@@ -234,6 +234,19 @@ jobs:
         env:
           VERIFY_BASE_URL: http://127.0.0.1:4178
         run: node --max-old-space-size=384 scripts/verify-resource-pages.mjs
+
+      - name: Verify Google's official preferred-source widget and exclusions
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node scripts/verify-preferred-source.mjs
+
+      - name: Retain official preferred-source widget evidence
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: preferred-source-review
+          path: artifacts/preferred-source/
+          if-no-files-found: ignore
 
       - name: Verify educational summaries and tables on mobile and desktop
         env:

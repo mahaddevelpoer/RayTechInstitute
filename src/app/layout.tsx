@@ -1,3 +1,4 @@
+import { GooglePreferredSource } from '@/components/GooglePreferredSource';
 import { siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -163,6 +164,7 @@ export default function RootLayout({
             Skip to content
           </a>
           {children}
+          <GooglePreferredSource />
           {/* Global Compiler Mount (Unmounted on /blogs/*, /updates/*, /admin/*) */}
           <CompilerMount />
           {/* Functional Real Cookie Consent Banner */}
