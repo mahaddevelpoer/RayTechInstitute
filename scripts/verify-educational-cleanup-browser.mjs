@@ -11,7 +11,7 @@ const checks=[];
 try{
  for(const width of [360,1366])for(const dark of [false,true]){
   const page=await browser.newPage({viewport:{width,height:900}});const errors=[];page.on('pageerror',error=>errors.push(error.message));
-  for(const [name,route] of [['note','/classes/11th-class/computer-science/notes/class11-nov12-chapter-5-study-guide/'],['python',`/learn/python/${topic.slug}/`]]){
+  for(const [name,route] of [['note','/classes/11th-class/computer-science/notes/class11-alp2027-chapter-5-study-guide/'],['python',`/learn/python/${topic.slug}/`]]){
    await page.goto(base+route,{waitUntil:'domcontentloaded'});
    const decline=page.getByRole('button',{name:'Decline Optional',exact:true});if(await decline.isVisible())await decline.click();
    await page.waitForFunction(()=>{const button=document.querySelector('.site-header button[aria-label^="Switch to"]');return button&&!button.disabled;});
