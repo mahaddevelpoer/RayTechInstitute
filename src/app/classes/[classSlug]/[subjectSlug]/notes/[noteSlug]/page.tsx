@@ -66,7 +66,7 @@ export async function generateMetadata({
   const limitedDescription = fullDescription.slice(0, 154);
   const wordBoundary = limitedDescription.replace(/\s+\S*$/, '');
   const description = fullDescription.length > 155
-    ? (wordBoundary.length >= 120 ? wordBoundary : limitedDescription) + 'â€¦'
+    ? (wordBoundary.length >= 120 ? wordBoundary : limitedDescription) + '\u2026'
     : fullDescription;
   return withSocialMetadata({
     title,
