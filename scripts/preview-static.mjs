@@ -2,10 +2,12 @@
 import http from "node:http";
 import fs from "node:fs/promises";
 import path from "node:path";
+import {matchDocumentRedirect} from './static-document-redirects.mjs';
 const root = path.resolve("out");
 const previewPort = Number(process.env.PORT || 4173);
 if (!Number.isInteger(previewPort) || previewPort < 1024 || previewPort > 65535) throw new Error('Choose a valid unprivileged preview PORT.');
 const config = JSON.parse(await fs.readFile("firebase.json", "utf8"));
+const redirects=await fs.readFile(path.join(root,'_redirects'),'utf8').catch(()=>'');
 function headersFor(route) {
   return Object.assign({}, ...config.hosting.headers
     .filter(rule => rule.source && path.posix.matchesGlob(route, rule.source))
@@ -33,9 +35,10 @@ const mime = {
 http
   .createServer(async (req, res) => {
     try {
-      const route = decodeURIComponent(
-        new URL(req.url, "http://127.0.0.1").pathname,
-      );
+      const requested=new URL(req.url,"http://127.0.0.1");
+      const redirect=matchDocumentRedirect(requested.pathname,requested.search,redirects);
+      if(redirect){res.writeHead(redirect.status,{Location:redirect.location}).end();return;}
+      const route = decodeURIComponent(requested.pathname);
       let file = path.resolve(root, "." + route);
       if (!file.startsWith(root + path.sep) && file !== root) {
         res.writeHead(403).end();

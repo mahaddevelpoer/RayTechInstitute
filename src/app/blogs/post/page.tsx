@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState, Suspense } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
@@ -19,7 +19,6 @@ const STATIC_BLOG_SLUGS = [
 
 function BlogPostContent() {
   const searchParams = useSearchParams();
-  const router = useRouter();
   const slug = searchParams.get("slug") ?? "";
 
   const [post, setPost] = useState<BlogPostItem | null>(null);
@@ -28,13 +27,13 @@ function BlogPostContent() {
 
   useEffect(() => {
     if (!slug) {
-      router.replace("/blogs");
+      window.location.replace("/blogs/");
       return;
     }
 
     // If it's one of the static pre-rendered slugs, redirect to the proper page
     if (STATIC_BLOG_SLUGS.includes(slug)) {
-      router.replace(`/blogs/${slug}`);
+      window.location.replace(`/blogs/${slug}/`);
       return;
     }
 
@@ -60,7 +59,7 @@ function BlogPostContent() {
     }
 
     load();
-  }, [slug, router]);
+  }, [slug]);
 
   if (loading) {
     return (

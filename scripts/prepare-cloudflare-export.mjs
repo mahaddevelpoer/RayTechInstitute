@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {staticDocumentRedirects} from './static-document-redirects.mjs';
 
 export function expandFirebasePath(source) {
  const match=source.match(/\{([^{}]*)\}/);
@@ -47,6 +48,8 @@ export async function prepareCloudflareExport(root='out') {
  const files=[];
  async function walk(dir){for(const entry of await fs.readdir(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isSymbolicLink())throw Error('Export must not contain symbolic links');if(entry.isDirectory())await walk(file);else if(entry.isFile())files.push({path:path.relative(directory,file).replaceAll(path.sep,'/'),bytes:(await fs.stat(file)).size});}}
  await walk(directory);
+ const redirects=staticDocumentRedirects(files.map(f=>f.path),await fs.readFile(path.join(directory,'_redirects'),'utf8').catch(()=>''));
+ await fs.writeFile(path.join(directory,'_redirects'),redirects);
  const oversized=files.filter(file=>file.bytes>25*1024*1024);
  if(oversized.length)throw Error('Pages asset size limit exceeded: '+oversized.map(f=>f.path).join(', '));
  if(files.length>20000)throw Error('Pages export exceeds 20,000 files');
