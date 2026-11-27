@@ -7,3 +7,5 @@
 5. Generate llms.txt from published academic records and verify each link resolves in the static export. Optional discoverability aid; no Google ranking claim.
 6. Run focused tests, full isolated artifact build and responsive browser verification. Then seek publication approval for this specific structural/schema change under AGENTS.md. Do not deploy yet.
 7. Search Console follow-up is incomplete because Chrome disconnected before the initiated request result could be verified. Preserve current noindex and crawling access. Reconnect for a live test if further Console work is requested.
+
+Status: items 1-5 implemented and validated. Item 6 checks completed successfully in artifact run 45964031864; only publication approval remains. Item 7 remains an external browser-access follow-up.

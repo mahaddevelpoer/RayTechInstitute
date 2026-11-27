@@ -32,3 +32,7 @@ Sources:
 ## Unknowns
 
 No ranking improvement, AI citation placement, Search Console removal, real-user INP/LCP/CLS or verified faculty review is established by source changes. Final release QA and approval are recorded separately.
+
+## Final verified implementation
+
+Confirmed by successful artifact build 45964031864: one homepage H1, one group with 18 unique shortcuts, 29 clean lecture cards, 47 note and two past-paper summaries with LearningResource data, 20 Python lesson summaries, seven Course schemas and 35 existing llms.txt links. All 639 legacy article noindex rules passed. Codi prepared playback, native navigation, academic PDFs and eight responsive summary scenarios passed. Screenshots are in export/. Build target was artifact only; no website deployment was performed. Chrome remains disconnected, so no further Search Console outcome is claimed.

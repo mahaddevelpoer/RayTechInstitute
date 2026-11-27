@@ -1,0 +1,27 @@
+{
+  "headSha": "cbfe2f808e0e8fb0efd82734d5200d93c63b5513",
+  "artifactRun": 45964031864,
+  "status": "success",
+  "hostingTarget": "artifact",
+  "deployment": "not performed; current structural release awaits explicit publication approval",
+  "checks": {
+    "homeH1": 1,
+    "shortcutGroups": 1,
+    "shortcutLinks": 18,
+    "cleanLectureCards": 29,
+    "notes": 47,
+    "papers": 2,
+    "pythonLessons": 20,
+    "courseSchemas": 7,
+    "llmsLinks": 35
+  },
+  "browserScenarios": 8,
+  "visualReview": [
+    "note mobile light/dark",
+    "Python mobile light",
+    "Python desktop dark"
+  ],
+  "preservedArticleNoindex": 639,
+  "audioPlayback": "passed; Codi sentence buttons preserved",
+  "gsc": "Initiated one Noor Ahmad request; outcome unverified after Chrome disconnected"
+}
