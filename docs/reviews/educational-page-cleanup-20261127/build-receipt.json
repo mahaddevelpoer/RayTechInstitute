@@ -3,7 +3,13 @@
   "artifactRun": 45964031864,
   "status": "success",
   "hostingTarget": "artifact",
-  "deployment": "not performed; current structural release awaits explicit publication approval",
+  "deployment": {
+    "status": "success",
+    "run": 45969257902,
+    "combinedArtifactRun": 45967899465,
+    "sourceRevision": "cb72aa1703129c0ad5dd61433fbfab43045e0371",
+    "liveVerificationRun": 45969543983
+  },
   "checks": {
     "homeH1": 1,
     "shortcutGroups": 1,

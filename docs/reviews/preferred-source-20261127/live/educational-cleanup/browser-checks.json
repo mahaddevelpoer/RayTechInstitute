@@ -1,0 +1,58 @@
+[
+  {
+    "name": "note",
+    "width": 360,
+    "dark": false,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "python",
+    "width": 360,
+    "dark": false,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "note",
+    "width": 360,
+    "dark": true,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "python",
+    "width": 360,
+    "dark": true,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "note",
+    "width": 1366,
+    "dark": false,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "python",
+    "width": 1366,
+    "dark": false,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "note",
+    "width": 1366,
+    "dark": true,
+    "summaryVisible": true,
+    "overflow": false
+  },
+  {
+    "name": "python",
+    "width": 1366,
+    "dark": true,
+    "summaryVisible": true,
+    "overflow": false
+  }
+]

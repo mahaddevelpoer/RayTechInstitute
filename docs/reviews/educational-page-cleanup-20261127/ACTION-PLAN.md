@@ -9,3 +9,5 @@
 7. Search Console follow-up is incomplete because Chrome disconnected before the initiated request result could be verified. Preserve current noindex and crawling access. Reconnect for a live test if further Console work is requested.
 
 Status: items 1-5 implemented and validated. Item 6 checks completed successfully in artifact run 45964031864; only publication approval remains. Item 7 remains an external browser-access follow-up.
+
+Publication update, 27 November 2026: user approved this cleanup together with the official Google widget. Combined artifact 45967899465 deployed successfully in run 45969257902; live verification 45969543983 passed. Source revision: cb72aa1703129c0ad5dd61433fbfab43045e0371. Current live reports/screenshots: ../preferred-source-20261127/live/. Earlier not-deployed statements describe the original review stage. Search Console recrawl-request outcome remains unconfirmed and is separate from this successful website release.

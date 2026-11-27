@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-27T08:57:13.125Z",
+  "base": "https://raytechinstitute.com",
+  "revision": "cb72aa1703129c0ad5dd61433fbfab43045e0371",
+  "homeH1": 1,
+  "uniqueShortcuts": 18,
+  "cleanLectureCards": 29,
+  "googleCsp": true,
+  "llms": true,
+  "noteSummaryAndRecordedDate": true,
+  "legacyPayloadRedirect": 302,
+  "chapter5PdfHash": true,
+  "legacyArticleNoindex": 639
+}

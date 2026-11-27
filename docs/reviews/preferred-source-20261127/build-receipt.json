@@ -12,5 +12,15 @@
     "official-360-0.png: note title and Google button",
     "official-1366-8.png: Python directory title and Google button"
   ],
-  "deployment": "not performed; current combined cleanup/widget batch awaits publication approval"
+  "deployment": {
+    "run": 45969257902,
+    "status": "success",
+    "artifactRun": 45967899465
+  },
+  "userApproval": "yes, 2026-11-27: publish widget together with pending cleanup",
+  "liveVerification": {
+    "run": 45969543983,
+    "status": "success",
+    "domain": "https://raytechinstitute.com"
+  }
 }
