@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-11-27T06:05:50.639Z",
+  "revision": "b7b0be61576bed793b4a7c23ced4b61ba36610b1",
+  "build": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45948264204",
+  "pages": [
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/",
+      "status": 200,
+      "title": "11th Computer Science ALP 2027 Guide | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-1-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 1 SDLC Notes & MCQs PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-2-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 2 Python Notes & MCQs PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-3-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 3 Algorithms Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-chapter-4-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 4 Structures Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-chapter-5-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 5 Data Analytics Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-chapter-6-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 6 Emerging Tech Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-chapter-7-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 7 Ethics & Safety Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-chapter-8-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 8 Digital Literacy Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-chapter-9-study-guide/",
+      "status": 200,
+      "title": "11th CS Ch 9 Entrepreneurship Notes PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/note-1792667992687/",
+      "status": 200,
+      "title": "11th CS SDLC Attendance Project PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-alp2027-model-paper-solutions/",
+      "status": 200,
+      "title": "11th CS Model Paper 2027 Solved PDF | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/past-papers/class11-legacy-lahore-2024/",
+      "status": 200,
+      "title": "11th CS Lahore 2024 Paper Guide | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/past-papers/class11-legacy-gujranwala-2024/",
+      "status": 200,
+      "title": "11th CS Gujranwala 2024 Paper Guide | RayTech Institute",
+      "canonical": true,
+      "indexable": true,
+      "sitemap": true
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-1.pdf",
+      "status": 200,
+      "bytes": 411135,
+      "sha256": "b2a723171f6c9387cc3d6b6bcc043746f72482ffe0296adc3aa56b38ce1b66c9"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-2.pdf",
+      "status": 200,
+      "bytes": 468603,
+      "sha256": "63332950ba44c9a3d778adc7f4de87b718dda849df6d4b8e6f0d983219caa951"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-3.pdf",
+      "status": 200,
+      "bytes": 478998,
+      "sha256": "3ca296393a2664516a3dfb701a2c46df2671c1e9bffb62098554d4ca5f80970b"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-4.pdf",
+      "status": 200,
+      "bytes": 255399,
+      "sha256": "6ba7f51fc27c7e90ad98c7bf5bcb67af8e27636a5f85bd99e71e36cc55aa9aa0"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-5.pdf",
+      "status": 200,
+      "bytes": 255599,
+      "sha256": "e0dc524a61c082be32edd1134a85eb91809da1fbc559882d5d551ef64d4b8711"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-6.pdf",
+      "status": 200,
+      "bytes": 245753,
+      "sha256": "9aa56079f9ffaee47e7b145e49ffa715a64609585c118a2b4b16995e1c6d8f08"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-7.pdf",
+      "status": 200,
+      "bytes": 241620,
+      "sha256": "8a48a3df06813e44d17e94fa9c662f8c45cd72fe53ee6b6c8446d3b1139d4f17"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-8.pdf",
+      "status": 200,
+      "bytes": 258002,
+      "sha256": "ca09bdd67c5db65274cbbf0ca7e4a0ed51255b86f6794d631cb99507eed2e268"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-9.pdf",
+      "status": 200,
+      "bytes": 250621,
+      "sha256": "2419902eebc4a60c39842b4062521f25043ddf66fbaa100e8262bc86caec0005"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/sdlc-worked-project.pdf",
+      "status": 200,
+      "bytes": 76588,
+      "sha256": "97e09eb757726a7382d374a1eb5aa60e93afd221a6070864c632a64fb7409e6d"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/model-paper-solutions.pdf",
+      "status": 200,
+      "bytes": 241612,
+      "sha256": "d20d7a4911153664343740d19ed9042bd3ddcbe403dede0ef9145dc834f1d0f5"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/lahore-2024-legacy-companion.pdf",
+      "status": 200,
+      "bytes": 94722,
+      "sha256": "282c3a3d666c22ee3c5b24d749fa15cdd73bbdf2bfa20f053df87ac47eaacd1e"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/gujranwala-2024-legacy-companion.pdf",
+      "status": 200,
+      "bytes": 97310,
+      "sha256": "c0cb37c03cc2019792096899bdfb55fb84e25dbe6083db573aa45b6f7740367a"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/complete-study-book.pdf",
+      "status": 200,
+      "bytes": 2360334,
+      "sha256": "b6e26d157983ca562275bcb08a8c18e00fd3d2ecb47970fe39095f719276b484"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/computer-2027/400-mcq-bank.pdf",
+      "status": 200,
+      "bytes": 1554896,
+      "sha256": "01579336c394f4aa11b2a378cc70129b73cf4b8dca2ae998e15fdb91160b03dc"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/nov12/chapter-1.pdf",
+      "status": 200,
+      "bytes": 411135,
+      "sha256": "b2a723171f6c9387cc3d6b6bcc043746f72482ffe0296adc3aa56b38ce1b66c9"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/nov12/chapter-2.pdf",
+      "status": 200,
+      "bytes": 468603,
+      "sha256": "63332950ba44c9a3d778adc7f4de87b718dda849df6d4b8e6f0d983219caa951"
+    },
+    {
+      "url": "https://raytechinstitute.com/documents/class11/nov12/chapter-3.pdf",
+      "status": 200,
+      "bytes": 478998,
+      "sha256": "3ca296393a2664516a3dfb701a2c46df2671c1e9bffb62098554d4ca5f80970b"
+    }
+  ],
+  "dit": {
+    "guides": 36,
+    "modules": 35
+  },
+  "published": true
+}

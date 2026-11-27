@@ -1,11 +1,11 @@
 {
-  "status": "verified-awaiting-current-batch-publication-approval",
+  "status": "published-and-live-verified",
   "date": "2026-11-27",
   "headSha": "b7b0be61576bed793b4a7c23ced4b61ba36610b1",
   "runId": 45948264204,
   "runUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45948264204",
   "hostingTarget": "artifact",
-  "published": false,
+  "published": true,
   "productionDatabaseWrites": 0,
   "counts": {
     "chapters": 9,
@@ -398,5 +398,11 @@
     }
   ],
   "unchangedSourceSyllabusMatchesUserAlpPages43to51": true,
-  "notes": "The archive companions index Group I only; unmatched legacy-course answers are not invented. Original supplied PDFs remain unchanged. Existing three public chapter PDF URLs serve retained-only guides."
+  "notes": "The archive companions index Group I only; unmatched legacy-course answers are not invented. Original supplied PDFs remain unchanged. Existing three public chapter PDF URLs serve retained-only guides.",
+  "approval": "Mahad replied continue to the explicit current-batch publish question.",
+  "deploymentRunId": 45949131789,
+  "liveVerificationRunId": 45949592826,
+  "liveCheckedAt": "2026-11-27T06:05:50.639Z",
+  "liveBase": "https://raytechinstitute.com",
+  "liveEvidence": "docs/reviews/class11-computer-20261127/live/"
 }

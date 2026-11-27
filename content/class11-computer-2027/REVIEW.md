@@ -1,6 +1,6 @@
 # Class 11 Computer Science: ALP 2027 preparation
 
-Prepared for Mahad on 27 November 2026. Status: complete and verified against the production export. Not published. Current-batch publication approval is still required by the repository root AGENTS.md.
+Prepared for Mahad on 27 November 2026. Status: published and live verified. Mahad approved this batch by replying continue to the explicit publication question. Deployment run 45949131789 published the verified artifact from build 45948264204, application revision b7b0be61576bed793b4a7c23ced4b61ba36610b1. Read-only live verification run 45949592826 passed 14 page canonicals/indexability/sitemap entries, all 18 PDF links (15 unique files plus three preserved aliases), nine chapter quizzes and eight width/theme journeys. DIT retains its 36 guide links and 35-module coverage. Evidence: docs/reviews/class11-computer-20261127/live/.
 
 ## What changes
 
@@ -23,6 +23,6 @@ Textbook errors are explained rather than memorised: the search MCQ with only so
 
 Local TypeScript check passed. Curriculum, old import identity, catalog preservation and DIT completion checks passed. The production artifact workflow runs the complete existing release suite, metadata/link/security gates, DIT preservation and Class 11 routes/downloads/quizzes at 360,768,1366,1920 widths in light and dark themes. Successful artifact-only build: [45948264204](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45948264204), application revision b7b0be61576bed793b4a7c23ced4b61ba36610b1. Full existing release checks passed, including all eight Class 11 width/theme journeys, nine quizzes, 11 unique note pages, two legacy pages, 15 PDF hashes and literal Python special-name rendering. Receipt and reviewed screenshots: docs/reviews/class11-computer-20261127/. A successful build does not prove Google indexing or rankings.
 
-## Publication boundary
+## Publication record
 
-Changes are isolated on `codex/11th-computer-book-alp`. A feature-branch push and artifact-only workflow do not change the live website. Do not push main, dispatch a deployment, or mutate production data without explicit approval for this batch. Preserve the pre-existing uncommitted `src/data/staticOverrides.ts` snapshot and SEO Python cache; neither belongs in this commit. The completed DIT release remains separately documented in `content/dit/completion/REVIEW.md`.
+Changes are isolated on `codex/11th-computer-book-alp`. The approved export is now live. No production database records were changed. Future unrelated batches require their own approval. Preserve the pre-existing uncommitted `src/data/staticOverrides.ts` snapshot and SEO Python cache; neither belongs in this commit. The completed DIT release remains separately documented in `content/dit/completion/REVIEW.md`.

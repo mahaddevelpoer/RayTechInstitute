@@ -1,0 +1,65 @@
+{
+  "kind": "actual production export",
+  "notes": 11,
+  "mcqs": 400,
+  "legacyPapers": 2,
+  "pdfs": 15,
+  "checks": [
+    {
+      "width": 360,
+      "theme": "light",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1366,
+      "theme": "light",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1920,
+      "theme": "light",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "width": 1920,
+      "theme": "dark",
+      "chapters": 9,
+      "overflow": false,
+      "pageErrors": []
+    }
+  ]
+}
