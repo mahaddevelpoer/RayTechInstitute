@@ -1,4 +1,6 @@
 'use client';
+import { StudySummary } from '@/components/StudySummary';
+import { LessonReference } from './LessonReference';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { BookOpen, Code2, List, X, ArrowLeft, ArrowRight, PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, ChevronUp, ChevronDown } from 'lucide-react';
@@ -53,12 +55,13 @@ export function LearningWorkspace({ language, topic, topics, mode = 'lesson', le
       <article ref={lessonPane} className="learning-lesson" tabIndex={0} aria-label="Lesson content">
         <nav className="mb-6 text-xs" aria-label="Breadcrumb"><Link href="/courses/">Courses</Link><span className="px-2">/</span><Link href={`/learn/${language.slug}/`}>{language.title}</Link></nav>
         <h1 className="mb-4 text-3xl font-bold tracking-tight">{mode==='lesson'?<CodiSentences text={topic.title}/>:topic.title}{mode === 'quiz' ? ': topic test' : mode === 'assignment' ? ': assignment' : ''}</h1>
+        {mode === 'lesson' && <div className="lesson-opening"><StudySummary summary={topic.summary} version={topic.version} /></div>}
         <div className="learning-practice-invite" data-codi-ignore><Code2 size={24}/><div><strong>Learn it, then run it</strong><p>This lesson includes a working {language.title} compiler. Your lesson stays here while you practise.</p><button className="learn-button" onClick={()=>{setPracticeOpen(true);setMobilePanel('practice');requestAnimationFrame(()=>practicePane.current?.focus());}}>Open compiler</button></div></div>
         <TopicProgressPanel topic={topic} />
         <nav aria-label="Topic activities" className="mb-6 flex flex-wrap gap-2"><Link className="learn-button" aria-current={mode === 'lesson' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/`}>Lesson</Link><Link className="learn-button" aria-current={mode === 'quiz' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/quiz/`}>Topic test</Link><Link className="learn-button" aria-current={mode === 'assignment' ? 'page' : undefined} href={`/learn/${language.slug}/${topic.slug}/assignment/`}>Assignment</Link></nav>
         {mode === 'quiz' ? <TopicQuiz topic={topic} languageSlug={language.slug} /> : mode === 'assignment' ? <TopicAssignment topic={topic} languageSlug={language.slug} /> : <>
           {!!topic.videoIds.length && <section className="lesson-attached-videos mb-8" aria-label="Teaching videos"><h2 className="mb-4 text-xl font-semibold">Watch this lesson</h2>{topic.videoIds.map(id => <LessonVideo key={id} videoId={id} title={topic.title} />)}</section>}
-          <div className="lesson-opening"><p className="lesson-teaching-label" data-codi-ignore>In this lesson</p><p><CodiSentences text={topic.summary}/></p></div>
+          <LessonReference topicId={topic.id} />
         <section className="learning-objectives"><h2 className="mb-2 text-base font-semibold"><CodiSentences text="What you will learn"/></h2><ul className="list-disc space-y-1 pl-5 text-sm">{topic.objectives.map(objective => <li key={objective}><CodiSentences text={objective}/></li>)}</ul></section>
         {lessonBlocks ? <InteractiveLesson key={`${topic.id}@${topic.version}`} blocks={lessonBlocks} language={language.runtime} onTryCode={tryCode} /> : <MarkdownRenderer key={`${topic.id}@${topic.version}`} content={topic.content} practiceLanguage={language.runtime} onTryCode={tryCode} narration teaching />}
         <AdReservation placement="lesson" />

@@ -28,16 +28,16 @@ try{
  await page.goto(base+'/learn/python/',{waitUntil:'domcontentloaded'});assert.equal(await page.locator('.topic-directory>li').count(),LEARNING_TOPICS.filter(t=>t.languageId==='python').length);
  for(const topic of LEARNING_TOPICS.filter(t=>t.videoIds.length)){
   const language=LEARNING_LANGUAGES.find(l=>l.id===topic.languageId);await page.goto(`${base}/learn/${language.slug}/${topic.slug}/`,{waitUntil:'domcontentloaded'});await page.locator('.lesson-attached-videos').waitFor();assert.equal(await page.locator('.lesson-attached-videos .lesson-video').count(),topic.videoIds.length);
-  assert.equal(await page.evaluate(()=>!!(document.querySelector('.lesson-attached-videos').compareDocumentPosition(document.querySelector('.lesson-opening'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
+  assert.equal(await page.evaluate(()=>!!(document.querySelector('.lesson-opening').compareDocumentPosition(document.querySelector('.lesson-attached-videos'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
  }
  await page.goto(base+'/',{waitUntil:'domcontentloaded'});await page.setViewportSize({width:1366,height:900});
- const strip=page.getByRole('navigation',{name:'Class study shortcuts',exact:true});await page.waitForFunction(()=>document.querySelector('.study-resource-strip')?.dataset.ready==='true');
+ const strip=page.getByRole('navigation',{name:'Class study shortcuts',exact:true});
  assert.doesNotMatch(await page.locator('.site-header').innerText(),/11th|12th|1st year|2nd year/i);
- const track=strip.locator('.study-strip-track');await page.mouse.move(1,899);const initial=await track.evaluate(e=>getComputedStyle(e).transform);await page.waitForTimeout(250);assert.notEqual(await track.evaluate(e=>getComputedStyle(e).transform),initial,'study links move without user input');
- await strip.hover();assert.equal(await track.evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
- await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).click();await page.mouse.move(1,899);const paused=await track.evaluate(e=>getComputedStyle(e).transform);await page.waitForTimeout(150);assert.equal(await track.evaluate(e=>getComputedStyle(e).transform),paused);
- await strip.getByRole('button',{name:'Resume study links scrolling',exact:true}).click();await page.mouse.move(1,899);await page.waitForTimeout(150);assert.equal(await track.evaluate(e=>getComputedStyle(e).animationPlayState),'running');
- await strip.getByRole('button',{name:'Pause study links scrolling',exact:true}).focus();await page.keyboard.press('Shift+Tab');await page.waitForFunction(()=>{const nav=document.querySelector('.study-resource-strip');const target=document.activeElement;const a=target.getBoundingClientRect(),b=nav.getBoundingClientRect();return nav.dataset.manual==='true'&&a.left>=b.left&&a.right<=b.right+1;});assert.equal(await strip.getAttribute('data-manual'),'true');
+ assert.equal(await strip.locator('.study-strip-group').count(),1);
+ const shortcutUrls=await strip.locator('a').evaluateAll(links=>links.map(link=>link.getAttribute('href')));
+ assert.equal(new Set(shortcutUrls).size,shortcutUrls.length,'each shortcut has one DOM link');
+ assert.equal(await strip.locator('.study-strip-track').evaluate(e=>getComputedStyle(e).animationName),'none');
+ await strip.locator('a').last().focus();
  const focused=await page.locator(':focus').boundingBox();const bounds=await strip.boundingBox();assert.ok(focused.x>=bounds.x&&focused.x+focused.width<=bounds.x+bounds.width+1,'keyboard focus remains visible');
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'/',{waitUntil:'domcontentloaded'});assert.equal(await page.locator('.study-strip-track').evaluate(e=>getComputedStyle(e).animationName),'none');
  const {STATIC_OVERRIDES}=await loadTypescript('src/data/staticOverrides.ts');const ditBank=(STATIC_OVERRIDES.mcqs||[]).filter(q=>q.id.startsWith('dit-cn-ch1-'));

@@ -1,3 +1,4 @@
+import { paperStructuredData } from '@/utils/study-resource-seo';
 import { withSocialMetadata } from '@/utils/social-metadata';
 import { class11PaperSeo } from '@/data/class11Computer2027';
 import { staticExportParams } from "@/utils/staticExport";
@@ -13,7 +14,7 @@ import {
   INITIAL_SUBJECTS,
   INITIAL_PAST_PAPERS,
 } from "@/data/staticCatalog";
-import { buildSeoTitle, buildDocumentDescription } from "@/utils/seo";
+import { buildSeoTitle, buildDocumentDescription, serializeJsonLd } from "@/utils/seo";
 
 const slug = (value: string) =>
   value
@@ -96,18 +97,20 @@ export default async function PastPaperDetailPage({
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
   );
   if (!paper || !currentClass || !currentSubject) notFound();
+  const title=class11PaperSeo(paper.id) ? `${paper.board} ${paper.year}: Legacy Computer Paper Study Guide` : `${currentSubject.title} ${paper.session} Past Paper`;
+  const description=paper.description || `${currentSubject.title} past-paper resource for ${currentClass.title}. Check the board, session and syllabus before using it for revision.`;
+  const canonical=siteUrl(`/classes/${classSlug}/${subjectSlug}/past-papers/${paperSlug}/`);
+
   return (
     <div className="flex min-h-screen flex-col bg-white text-slate-800">
       <Header />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:serializeJsonLd(paperStructuredData(paper,title,description,currentClass.title,currentSubject.title,canonical))}} />
       <PdfDetailClientView
         backHref={`/classes/${classSlug}/${subjectSlug}/past-papers/`}
         backLabel="Back to past papers"
         eyebrow={`${paper!.board} · ${paper!.year}`}
-        title={class11PaperSeo(paper.id) ? `${paper.board} ${paper.year}: Legacy Computer Paper Study Guide` : `${currentSubject!.title} ${paper!.session} Past Paper`}
-        description={
-          paper!.description ||
-          `Official ${currentSubject!.title} past paper for ${currentClass!.title}, including the board pattern and questions students should practise.`
-        }
+        title={title}
+        description={description}
         content={paper!.content}
         pdfUrl={paper!.pdfUrl}
         metadata={[

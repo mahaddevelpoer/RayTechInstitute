@@ -1,5 +1,6 @@
 "use client";
 
+import { StudySummary } from '@/components/StudySummary';
 import { useState } from "react";
 import { documentLinks } from "@/utils/documents";
 import { ArrowLeft, Download, ExternalLink, FileText } from "lucide-react";
@@ -15,6 +16,7 @@ interface PdfDetailClientViewProps {
   pdfUrl?: string;
   previewPdfUrl?: string;
   metadata: string[];
+  lastUpdated?: string;
 }
 
 export function PdfDetailClientView({
@@ -27,6 +29,7 @@ export function PdfDetailClientView({
   pdfUrl,
   previewPdfUrl,
   metadata,
+  lastUpdated,
 }: PdfDetailClientViewProps) {
   const {
     href: safePdfUrl,
@@ -57,9 +60,7 @@ export function PdfDetailClientView({
           <h1 className="text-3xl font-bold leading-tight text-navy-950 sm:text-4xl">
             {title}
           </h1>
-          <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-            {description}
-          </p>
+          <StudySummary summary={description} lastUpdated={lastUpdated} />
           <div className="mt-6 flex flex-wrap gap-2">
             {metadata.map((item) => (
               <span

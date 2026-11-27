@@ -1,0 +1,72 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "h1": [
+      "Learn the concept.Then write the code."
+    ],
+    "studyGroups": 2,
+    "studyLinks": 36,
+    "legacyDomainText": 3,
+    "robots": [
+      "index, follow",
+      "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+    ]
+  },
+  {
+    "route": "/blogs/noor-ahmad-explained-learning-guide/",
+    "status": 200,
+    "h1": [
+      "Noor Ahmad: Five Wickets and Cricket Figures Explained"
+    ],
+    "studyGroups": 0,
+    "studyLinks": 0,
+    "legacyDomainText": 0,
+    "robots": [
+      "noindex, follow",
+      "noindex, follow"
+    ]
+  },
+  {
+    "route": "/blogs/jisoo-solo-releases-music-credits-guide/",
+    "status": 200,
+    "h1": [
+      "Jisoo: BLACKPINK, Solo Releases and Understanding Music Credits"
+    ],
+    "studyGroups": 0,
+    "studyLinks": 0,
+    "legacyDomainText": 0,
+    "robots": [
+      "noindex, follow",
+      "noindex, follow"
+    ]
+  },
+  {
+    "route": "/blogs/ssgc-bill-payment-complaint-service-guide/",
+    "status": 200,
+    "h1": [
+      "SSGC Bill Guide: Duplicate Bills, Payment Records and Complaints"
+    ],
+    "studyGroups": 0,
+    "studyLinks": 0,
+    "legacyDomainText": 0,
+    "robots": [
+      "noindex, follow",
+      "noindex, follow"
+    ]
+  },
+  {
+    "route": "/blogs/thunderstorm-science-imd-nowcast-lightning-guide/",
+    "status": 200,
+    "h1": [
+      "Thunderstorms Explained: IMD Nowcasts, Weather Maps and Lightning Safety"
+    ],
+    "studyGroups": 0,
+    "studyLinks": 0,
+    "legacyDomainText": 0,
+    "robots": [
+      "noindex, follow",
+      "noindex, follow"
+    ]
+  }
+]

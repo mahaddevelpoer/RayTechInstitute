@@ -19,6 +19,7 @@ test('independent panel toggles retain compiler state and examples reopen the co
  const mocks={
   'next/link':{__esModule:true,default:({children,...props})=>React.createElement('a',props,children)},
   '@/components/Header':{Header:stub},
+  '@/components/StudySummary':{StudySummary:stub}, './LessonReference':{LessonReference:stub},
   '@/components/MarkdownRenderer':{MarkdownRenderer:({onTryCode})=>React.createElement('button',{onClick:()=>onTryCode('example')},'Try example')},
   '@/components/AdReservation':{AdReservation:stub},
   './InteractiveLesson':{InteractiveLesson:stub},'./CodiReader':{CodiReader:stub},'./CodiSentences':{CodiSentences:({text})=>text},

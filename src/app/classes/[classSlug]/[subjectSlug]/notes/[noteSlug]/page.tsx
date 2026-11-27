@@ -119,6 +119,7 @@ export default async function NoteDetailPage({
         eyebrow={chapterDisplayLabel(sourceChapter)}
         title={note!.title}
         description={note!.description}
+        lastUpdated={note.lastUpdated}
         content={note!.content}
         pdfUrl={note!.pdfUrl}
         previewPdfUrl={note!.previewPdfUrl}

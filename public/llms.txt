@@ -1,0 +1,48 @@
+# RayTech Institute
+
+> Class notes, chapter MCQs, past papers and programming lessons for students.
+
+This is a curated resource directory. Check each page for its class, syllabus, sources and update date. Class 11 Computer Science resources distinguish the Punjab ALP 2027 examination scope from legacy papers.
+
+## Class resources
+- [Browse all classes](https://raytechinstitute.com/classes/)
+- [Class 11 Computer Science](https://raytechinstitute.com/classes/11th-class/computer-science/)
+- [Class 11 Computer Science notes](https://raytechinstitute.com/classes/11th-class/computer-science/notes/)
+- [Chapter 1: Introduction to Software Development - ALP 2027 Notes](https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-1-study-guide/)
+- [Chapter 2: Python Programming - ALP 2027 Notes](https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-2-study-guide/)
+- [Chapter 3: Algorithms and Problem Solving - ALP 2027 Notes](https://raytechinstitute.com/classes/11th-class/computer-science/notes/class11-nov12-chapter-3-study-guide/)
+
+## DIT
+- [DIT subjects and study resources](https://raytechinstitute.com/classes/dit-intermediate/)
+- [Basic Terminologies: DIT Study Guide](https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-cn-chapter-1-basic-terminologies-mcq-notes/)
+- [Network Topology: DIT Study Guide](https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-cn-chapter-2-network-topology-mcq-notes/)
+- [Microsoft PowerPoint: DIT Study Guide](https://raytechinstitute.com/classes/dit-intermediate/dit-computer-science/notes/dit-ms-office-chapter-3-powerpoint-mcq-notes/)
+
+## Programming
+- [Programming courses](https://raytechinstitute.com/courses/)
+- [Python lessons](https://raytechinstitute.com/learn/python/)
+- [Python Values, Names and Output](https://raytechinstitute.com/learn/python/values-names-and-output/)
+- [Python Types and Explicit Conversion](https://raytechinstitute.com/learn/python/types-and-explicit-conversion/)
+- [Python Strings, Indexing and Slicing](https://raytechinstitute.com/learn/python/strings-indexing-and-slicing/)
+- [Python Operators and Comparisons](https://raytechinstitute.com/learn/python/operators-and-comparisons/)
+- [Python Conditions and Indentation](https://raytechinstitute.com/learn/python/conditions-and-indentation/)
+- [Python Loops and Range](https://raytechinstitute.com/learn/python/loops-and-range/)
+- [Python Lists and Mutation](https://raytechinstitute.com/learn/python/lists-and-mutation/)
+- [Python Tuples and Unpacking](https://raytechinstitute.com/learn/python/tuples-and-unpacking/)
+- [Python Dictionaries and Key Lookup](https://raytechinstitute.com/learn/python/dictionaries-and-key-lookup/)
+- [Python Sets and Membership](https://raytechinstitute.com/learn/python/sets-and-membership/)
+- [Python Functions and Return Values](https://raytechinstitute.com/learn/python/functions-and-return-values/)
+- [Python Parameters, Defaults and Scope](https://raytechinstitute.com/learn/python/parameters-defaults-and-scope/)
+- [Python Comprehensions](https://raytechinstitute.com/learn/python/comprehensions/)
+- [Python Exceptions and Recovery](https://raytechinstitute.com/learn/python/exceptions-and-recovery/)
+- [Python Modules and Imports](https://raytechinstitute.com/learn/python/modules-and-imports/)
+- [Practical Python Standard-Library Tools](https://raytechinstitute.com/learn/python/standard-library-tools/)
+- [Python JSON and Bounded File Handling](https://raytechinstitute.com/learn/python/json-and-bounded-files/)
+- [Python Classes and Instances](https://raytechinstitute.com/learn/python/classes-and-instances/)
+- [Python Tests and Debugging](https://raytechinstitute.com/learn/python/tests-and-debugging/)
+- [Python Project: Build a Revision Planner](https://raytechinstitute.com/learn/python/revision-planner-project/)
+
+## Site information
+- [About RayTech Institute](https://raytechinstitute.com/about/)
+- [Privacy policy](https://raytechinstitute.com/privacy-policy/)
+- [Sitemap](https://raytechinstitute.com/sitemap.xml)

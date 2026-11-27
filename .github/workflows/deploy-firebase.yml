@@ -78,7 +78,7 @@ jobs:
         run: node --test scripts/dit-ict.test.mjs scripts/dit-ict-chapter-two.test.mjs scripts/dit-ict-chapter-three.test.mjs scripts/dit-ict-chapter-four.test.mjs scripts/dit-ict-chapter-five.test.mjs scripts/dit-ict-chapter-six.test.mjs scripts/dit-ict-chapter-seven.test.mjs
 
       - name: Verify live scorecard boundaries and editorial queue
-        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs scripts/related-articles.test.mjs scripts/article-indexing.test.mjs
+        run: node --test scripts/live-cricket.test.mjs scripts/editorial-daily-queue.test.mjs scripts/related-articles.test.mjs scripts/article-indexing.test.mjs scripts/educational-cleanup.test.mjs
 
       - name: Verify academic placement validation and migration replay
         if: github.event_name != 'repository_dispatch'
@@ -131,7 +131,7 @@ jobs:
         run: npm run build
 
       - name: Block incomplete or mismatched exports
-        run: node scripts/verify-article-indexing.mjs && node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs scripts/hosted-documents.test.mjs
+        run: node scripts/verify-article-indexing.mjs && node scripts/verify-educational-cleanup.mjs && node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs scripts/hosted-documents.test.mjs
 
       - name: Verify printed DIT banks against the exported academic catalog
         run: node --test scripts/dit-study.test.mjs scripts/dit-completion.test.mjs scripts/class11-computer-2027.test.mjs scripts/static-navigation.test.mjs
@@ -234,6 +234,19 @@ jobs:
         env:
           VERIFY_BASE_URL: http://127.0.0.1:4178
         run: node --max-old-space-size=384 scripts/verify-resource-pages.mjs
+
+      - name: Verify educational summaries and tables on mobile and desktop
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node scripts/verify-educational-cleanup-browser.mjs
+
+      - name: Retain educational cleanup review
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: educational-cleanup-review
+          path: artifacts/educational-cleanup/
+          if-no-files-found: ignore
 
       - name: Verify live cricket article interaction
         env:

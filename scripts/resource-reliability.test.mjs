@@ -46,6 +46,6 @@ test('direct PDFs receive a fixed-host preview and homepages never masquerade as
  const doc=documentLinks('https://board.test/gazette.pdf?year=2026');const viewer=new URL(doc.embed);assert.equal(viewer.hostname,'docs.google.com');assert.equal(viewer.searchParams.get('url'),doc.href);assert.equal(documentLinks('https://board.test/').embed,'');
 });
 test('lesson navigation resets activities and resource filters by actual topic/subject identity',async()=>{
- const workspace=await fs.readFile('src/components/learning/LearningWorkspace.tsx','utf8');assert.match(workspace,/<InteractiveLesson key=\{`\$\{topic.id\}@\$\{topic.version\}`\}/);assert.ok(workspace.indexOf('Watch this lesson')<workspace.indexOf('text={topic.summary}'));
+ const workspace=await fs.readFile('src/components/learning/LearningWorkspace.tsx','utf8');assert.match(workspace,/<InteractiveLesson key=\{`\$\{topic.id\}@\$\{topic.version\}`\}/);assert.ok(workspace.indexOf('summary={topic.summary}')<workspace.indexOf('Watch this lesson'));assert.ok(workspace.indexOf('Watch this lesson')<workspace.indexOf('<InteractiveLesson key='));
  for(const page of ['notes','past-papers','mcqs'])assert.match(await fs.readFile(`src/app/classes/[classSlug]/[subjectSlug]/${page}/page.tsx`,'utf8'),/key=\{`\$\{classSlug\}\/\$\{subjectSlug\}`\}/);
 });

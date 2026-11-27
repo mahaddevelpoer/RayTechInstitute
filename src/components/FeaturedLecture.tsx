@@ -1,5 +1,6 @@
 "use client";
 
+import { lectureSummary } from '@/utils/lecture-summary';
 import React from "react";
 import { Lecture } from "@/types";
 import { lecturesData } from "@/data/lectures";
@@ -71,13 +72,8 @@ export const FeaturedLecture: React.FC<FeaturedLectureProps> = ({
                   {featured.title}
                 </h3>
 
-                <p className="text-slate-600 text-xs leading-relaxed mb-4">
-                  {featured.description
-                    .split(/\\n|\n/)
-                    .find((line) => line.trim().length > 30)
-                    ?.replace(/[*#]/g, "")
-                    .slice(0, 300) ||
-                    "Watch this lecture and practise the examples with your textbook."}
+                <p className="text-slate-600 text-xs leading-relaxed line-clamp-2 mb-4">
+                  {lectureSummary(featured)}
                 </p>
 
                 {featured.tags && featured.tags.length > 0 && (

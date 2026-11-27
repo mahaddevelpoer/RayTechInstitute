@@ -1,4 +1,4 @@
-import type { NoteItem } from '@/types/educational';
+import type { NoteItem, PastPaperItem } from '@/types/educational';
 
 export function studyResourceKeywords(classTitle: string, subjectTitle: string, topics: string[] = []) {
   const className = classTitle.replace(/\s*\([^)]*\)/, '').trim();
@@ -28,5 +28,13 @@ export function noteStructuredData(note: NoteItem, classTitle: string, subjectTi
         [subjectTitle, subjectPath], ['Notes', `${subjectPath}notes/`], [note.title, new URL(canonical).pathname],
       ].map(([name, pathname], index) => ({ '@type': 'ListItem', position: index + 1, name, item: new URL(pathname, origin).href })),
     }],
+  };
+}
+
+export function paperStructuredData(paper: PastPaperItem, title: string, description: string, classTitle: string, subjectTitle: string, canonical: string) {
+  return {'@context':'https://schema.org','@type':'LearningResource','@id':canonical+'#resource',url:canonical,
+    name:title,description,educationalLevel:classTitle,about:subjectTitle,learningResourceType:'Past-paper study companion',
+    isAccessibleForFree:true,publisher:{'@type':'Organization',name:'RayTech Institute',url:new URL(canonical).origin},
+    ...(paper.pdfUrl ? {associatedMedia:{'@type':'MediaObject',contentUrl:paper.pdfUrl,encodingFormat:'application/pdf'}} : {}),
   };
 }

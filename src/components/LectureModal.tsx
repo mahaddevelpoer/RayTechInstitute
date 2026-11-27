@@ -1,5 +1,6 @@
 'use client';
 
+import { canonicalLectureText } from '@/utils/lecture-summary';
 import React, { useEffect } from 'react';
 import { Lecture } from '@/types';
 import { InteractiveVideoPlayer } from './InteractiveVideoPlayer';
@@ -123,7 +124,7 @@ export const LectureModal: React.FC<LectureModalProps> = ({
               {lecture.title}
             </h2>
             <div className="text-xs sm:text-sm text-slate-600 leading-relaxed whitespace-pre-line">
-              {lecture.description}
+              {canonicalLectureText(lecture.description)}
             </div>
           </div>
 

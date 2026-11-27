@@ -50,12 +50,12 @@ test('short and long new class/subject labels cannot break MCQ search metadata',
   assert.ok(description.length>0&&!description.includes('…'));
  }
 });
-test('strip animation does not reset the hover and explicit pause state through a shorthand',async()=>{
+test('study shortcuts use one native scrollable group without duplicated animation copies',async()=>{
  const css=await fs.readFile('src/app/home.css','utf8');
- const animation=css.match(/\.study-resource-strip\[data-ready="true"\]\[data-manual="false"\] \.study-strip-track \{([^}]+)\}/)?.[1]||'';
- assert.match(animation,/animation-name:study-links-scroll/);assert.doesNotMatch(animation,/\banimation\s*:/);
- assert.match(css,/data-paused="true"[^}]+animation-play-state:paused/);
- assert.match(css,/prefers-reduced-motion:reduce/);
+ assert.match(css,/study-strip-viewport[^}]+overflow-x:auto/);
+ assert.doesNotMatch(css,/study-links-scroll|study-distance|study-duration/);
+ const source=await fs.readFile('src/components/StudyResourceStrip.tsx','utf8');
+ assert.doesNotMatch(source,/geometry\.copies|aria-hidden|tabIndex=\{-1\}/);
 });
 test('admin launcher renders validated class/subject links and clear empty guidance',async()=>{
  const require=createRequire(import.meta.url),module={exports:{}};
