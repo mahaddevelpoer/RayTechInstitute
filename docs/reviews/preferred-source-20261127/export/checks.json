@@ -1,0 +1,94 @@
+{
+  "base": "http://127.0.0.1:4178",
+  "fixture": false,
+  "checks": [
+    {
+      "route": "/classes/11th-class/computer-science/notes/class11-alp2027-chapter-5-study-guide/",
+      "width": 360,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/learn/python/",
+      "width": 360,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/classes/11th-class/computer-science/past-papers/",
+      "width": 360,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/index.html",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/blogs/noor-ahmad-explained-learning-guide/",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/about/",
+      "width": 360,
+      "excluded": true
+    },
+    {
+      "route": "/classes/11th-class/computer-science/notes/class11-alp2027-chapter-5-study-guide/",
+      "width": 1366,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/learn/python/",
+      "width": 1366,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/classes/11th-class/computer-science/past-papers/",
+      "width": 1366,
+      "officialShadowButton": true,
+      "scriptCount": 1,
+      "containerCount": 1,
+      "belowH1": true
+    },
+    {
+      "route": "/",
+      "width": 1366,
+      "excluded": true
+    },
+    {
+      "route": "/index.html",
+      "width": 1366,
+      "excluded": true
+    },
+    {
+      "route": "/blogs/noor-ahmad-explained-learning-guide/",
+      "width": 1366,
+      "excluded": true
+    },
+    {
+      "route": "/about/",
+      "width": 1366,
+      "excluded": true
+    }
+  ]
+}

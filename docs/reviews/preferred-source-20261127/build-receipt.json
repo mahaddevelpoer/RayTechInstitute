@@ -1,0 +1,16 @@
+{
+  "sourceRevision": "cb72aa1703129c0ad5dd61433fbfab43045e0371",
+  "artifactRun": 45967899465,
+  "status": "success",
+  "hostingTarget": "artifact",
+  "appBrowserScenarios": 14,
+  "positiveScenarios": 6,
+  "exclusionScenarios": 8,
+  "fixtureScenarios": 12,
+  "fullBuild": "passed all source, metadata, academic, audio, native navigation, layout and widget checks",
+  "visualReview": [
+    "official-360-0.png: note title and Google button",
+    "official-1366-8.png: Python directory title and Google button"
+  ],
+  "deployment": "not performed; current combined cleanup/widget batch awaits publication approval"
+}
