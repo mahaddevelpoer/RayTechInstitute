@@ -13,7 +13,7 @@ try{
   const payloads=[],navigations=[];
   await context.route('**/index.txt*',async route=>{
    if(!route.request().isNavigationRequest()){
-    payloads.push(route.request().url());await route.fulfill({status:503,contentType:'text/plain',body:'Deliberately unavailable page data for navigation regression testing.'});
+    payloads.push(route.request().url());await route.abort('failed');
    }else await route.continue();
   });
   page.on('request',r=>{if(r.isNavigationRequest()&&r.frame()===page.mainFrame())navigations.push({url:r.url(),at:Date.now()});});
@@ -29,8 +29,8 @@ try{
    results.push({reproduced:true,url:page.url(),failedPayloadRequests:payloads});
   }else{
    await page.waitForURL(u=>u.pathname===notes&&u.searchParams.get('chapter')==='5');
-   await page.getByLabel('Chapter',{exact:true}).waitFor();await page.waitForFunction(()=>document.querySelector('select')?.value==='5');
-   assert.equal(await page.getByLabel('Chapter',{exact:true}).inputValue(),'5');
+   await page.locator('main select').waitFor();await page.waitForFunction(()=>document.querySelector('main select')?.value==='5');
+   assert.equal(await page.locator('main select').inputValue(),'5');
    assert.equal(await page.locator('main article.edu-card').count(),1);
    assert.match(await page.locator('main article.edu-card h2').innerText(),/Data Analytics/);
    assert.equal(payloads.length,0,'A page click must not wait for an RSC request');
@@ -39,7 +39,7 @@ try{
    await page.screenshot({path:dir+`/${width}-${theme}-chapter5.png`});
    await page.goBack({waitUntil:'domcontentloaded'});await page.waitForURL(base+hub);
    await page.locator(`a[href="${notes}?chapter=2"]`).last().click();await page.waitForURL(u=>u.pathname===notes&&u.searchParams.get('chapter')==='2');
-   await page.waitForFunction(()=>document.querySelector('select')?.value==='2');assert.equal(await page.getByLabel('Chapter',{exact:true}).inputValue(),'2');
+   await page.waitForFunction(()=>document.querySelector('main select')?.value==='2');assert.equal(await page.locator('main select').inputValue(),'2');
    await go(page,base+notes+'index.txt?chapter=5');
    assert.equal(new URL(page.url()).pathname,notes);assert.equal(new URL(page.url()).searchParams.get('chapter'),'5');
    await page.waitForFunction(()=>document.querySelector('select')?.value==='5');

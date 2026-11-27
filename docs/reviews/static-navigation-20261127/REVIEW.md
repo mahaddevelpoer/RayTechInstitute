@@ -2,7 +2,7 @@
 
 Status: prepared locally; production export/browser verification pending. Not deployed. This batch needs its own explicit publication approval under the root AGENTS.md.
 
-The reported URL `/classes/11th-class/computer-science/notes/index.txt?chapter=5` currently returns HTTP 200 `text/plain`, containing Next.js navigation data rather than a page. The clean notes URL returns HTML. The installed Next 15 static-export router appends `index.txt` to its data requests and falls back to navigating to that data URL when a request fails or its build ID differs. The framework accepts text/plain in export mode, so the MIME type alone is not the diagnosis. A failed data request or a stale client is a plausible trigger; the user's particular network failure cannot be reconstructed retrospectively.
+The reported URL `/classes/11th-class/computer-science/notes/index.txt?chapter=5` currently returns HTTP 200 `text/plain`, containing Next.js navigation data rather than a page. The clean notes URL returns HTML. Next 15's static-export router appends `index.txt` to its data requests. Its network/decoding exception handler returns that raw data URL as a document-navigation fallback. The ordinary non-200 and build-mismatch branches already normalise the path; a simulated HTTP 503 correctly returned to HTML, so the regression uses a connection failure to exercise the separate exception branch. The framework accepts text/plain in export mode, so the MIME type alone is not the diagnosis. The user's particular connection failure cannot be reconstructed retrospectively.
 
 ## Repair
 
