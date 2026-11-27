@@ -310,13 +310,18 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install chromium
+      - name: Verify live revision and query-preserving redirects
+        if: inputs.navigation_mode != 'baseline'
+        run: node scripts/verify-live-static-navigation.mjs
       - name: Read-only navigation regression check
         run: node scripts/verify-static-navigation.mjs --${{ inputs.navigation_mode || 'fixed' }}
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
           name: static-navigation-live
-          path: artifacts/static-navigation/
+          path: |
+            artifacts/static-navigation/
+            artifacts/static-navigation-live-http/
           if-no-files-found: ignore
 
   verify-class11-live:
