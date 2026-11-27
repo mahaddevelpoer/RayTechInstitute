@@ -1,5 +1,7 @@
 "use client";
 
+import { hasEducationReview, isLegacyArticle } from "@/utils/article-indexing";
+
 import {
   ClassItem,
   SubjectItem,
@@ -575,6 +577,7 @@ export const EducationalStore = {
   async saveBlog(item: BlogPostItem): Promise<void> {
     const list = this.getBlogs();
     const idx = list.findIndex((b) => b.id === item.id || b.slug === item.slug);
+    if (idx < 0 && !isLegacyArticle(item) && !hasEducationReview(item)) throw new Error("New articles require a reviewed education scope, educational category and HTTPS source.");
     if (idx >= 0) list[idx] = item;
     else list.push(item);
     saveToStorage(STORAGE_KEYS.BLOGS, list);

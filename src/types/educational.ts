@@ -95,6 +95,7 @@ export interface GazetteItem {
 export type BlogCategory = 'date-sheets' | 'admissions' | 'career-guides' | 'general' | 'sports' | 'technology' | 'science' | 'economy' | 'world-affairs' | 'entertainment' | 'education';
 
 export interface ArticleSeo {
+ educationScope?: "pakistan-education" | "global-education";
  enabled?: string[];
  title?:string;description?:string;imageAlt?:string;imageCaption?:string;
  socialTitle?:string;socialDescription?:string;socialImage?:string;authorUrl?:string;

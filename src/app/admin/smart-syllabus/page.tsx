@@ -37,7 +37,7 @@ export default function SyllabusAdmin() {
       author: old?.author || 'RayTech Institute', datePublished: old?.datePublished || new Date().toISOString(),
       readTime: `${Math.max(1, Math.ceil(draft.content.split(/\s+/).length / 200))} min read`,
       tags: syllabusTags(draft.grade, draft.subject, draft.year, old?.tags), actionButtonText: 'Download subject smart syllabus PDF', actionButtonUrl: draft.pdf,
-      seo: { ...old?.seo, title: draft.title.trim(), description: draft.excerpt.trim(), socialTitle: draft.title.trim(), socialDescription: draft.excerpt.trim(), imageAlt: draft.title.trim(), enabled: Array.from(new Set([...(old?.seo?.enabled || []), 'sources', 'internalLinks'])), sources: draft.source, internalLinks: `${syllabusPath(draft)}\n/smart-syllabus/` } };
+      seo: { ...old?.seo, educationScope: 'pakistan-education', title: draft.title.trim(), description: draft.excerpt.trim(), socialTitle: draft.title.trim(), socialDescription: draft.excerpt.trim(), imageAlt: draft.title.trim(), enabled: Array.from(new Set([...(old?.seo?.enabled || []), 'sources', 'internalLinks'])), sources: draft.source, internalLinks: `${syllabusPath(draft)}\n/smart-syllabus/` } };
     mutation.current = true; setBusy(true);
     try { await EducationalStore.saveBlog(post); await refresh(); setDraft(empty); setMessage('Saved. The automatic static release will update the article, resource page, subject links and sitemap.'); }
     catch { setFailed(true); setMessage('Save could not be confirmed. Refresh the list before retrying; your text is still here.'); }

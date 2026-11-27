@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { BlogsClientView } from "@/components/educational/BlogsClientView";
 import { INITIAL_BLOGS } from "@/data/staticCatalog";
 import { serializeJsonLd } from "@/utils/seo";
-import { needsSourceReview } from '@/utils/editorial';
+import { articleCanIndex } from '@/utils/article-indexing';
 
 export const metadata: Metadata = {
   title: "Date Sheets, Admissions & Academic Updates | RayTech",
@@ -33,7 +33,7 @@ export default function BlogsIndexPage() {
     name: "RayTech Educational Portal : News, Date Sheets & Admission Updates",
     description:
       "Educational updates with source links, examination notices, admissions information and study guidance.",
-    blogPost: INITIAL_BLOGS.filter(b => !needsSourceReview(b.content)).map((b) => ({
+    blogPost: INITIAL_BLOGS.filter(articleCanIndex).map((b) => ({
       "@type": "BlogPosting",
       headline: b.title,
       description: b.excerpt,

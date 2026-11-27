@@ -98,3 +98,7 @@ These rules are the **ABSOLUTE TOP PRIORITY** across the entire workspace. Every
 Whenever performing an SEO audit:
 - Generate `FULL-AUDIT-REPORT.md` (detailed findings with evidence and confidence levels: Confirmed / Likely / Hypothesis).
 - Generate `ACTION-PLAN.md` (prioritized fixes by impact and effort).
+
+## Article scope and indexing, 27 November 2026
+
+Follow `content/editorial-policy/README.md`. Mahad requires all existing articles noindex and new articles only about Pakistan education or international educational updates. New reviewed educational articles may index. Do not resume historical broad trend queues.

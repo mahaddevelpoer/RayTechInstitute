@@ -3,6 +3,7 @@ import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import React from "react";
 import { notFound } from "next/navigation";
+import { articleCanIndex } from "@/utils/article-indexing";
 import { needsSourceReview } from "@/utils/editorial";
 import { Metadata } from "next";
 import { Header } from "@/components/Header";
@@ -51,9 +52,7 @@ export async function generateMetadata({
     : enabled('description')&&post.seo?.description?post.seo.description:post.excerpt;
 
   return withSocialMetadata({
-    robots: needsSourceReview(post.content)
-      ? { index: false, follow: true }
-      : undefined,
+    robots: { index: articleCanIndex(post), follow: true, googleBot: { index: articleCanIndex(post), follow: true } },
     title: seoTitle,
     description: seoDescription,
     keywords: REVIEWED_ARTICLE_KEYWORDS[post.id] || post.tags,

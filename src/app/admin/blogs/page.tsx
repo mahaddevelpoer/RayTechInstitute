@@ -2,6 +2,7 @@
 
 import {ArticleSeoEditor} from '@/components/admin/ArticleSeoEditor';
 import type {ArticleSeo} from '@/types/educational';
+import { isLegacyArticle, isEducationCategory, hasEducationReview } from '@/utils/article-indexing';
 import {BLOG_CATEGORIES} from '@/data/blogCategories';
 import React, { useState, useEffect } from "react";
 import {
@@ -121,6 +122,7 @@ export default function AdminBlogsPage() {
             : undefined,
       };
 
+      if (!isLegacyArticle(blogItem) && !hasEducationReview(blogItem)) throw new Error("New articles must cover Pakistan education or global education updates. Select the education scope and add a checked HTTPS source in SEO settings.");
       await EducationalStore.saveBlog(blogItem);
       setBlogs(EducationalStore.getBlogs());
       resetForm();
@@ -218,7 +220,7 @@ export default function AdminBlogsPage() {
               topic: aiTopic.trim(),
               category: aiCategory,
               targetAudience: aiAudience.trim(),
-              userNotes: aiUserNotes.trim(),
+              userNotes: "EDUCATION-ONLY POLICY: Write only about Pakistan education or international education updates. Refuse unrelated sports, politics, entertainment or general trends, even if framed as how/why/who. Use supplied official sources and distinguish confirmed notices from expectations. " + aiUserNotes.trim(),
               referenceLinks: aiReferenceLinks.trim(),
             },
           },
@@ -411,7 +413,7 @@ export default function AdminBlogsPage() {
                     }
                     className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                   >
-                    {BLOG_CATEGORIES.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}
+                    {BLOG_CATEGORIES.filter(item => isEducationCategory(item.id)).map(item=><option key={item.id} value={item.id}>{item.label}</option>)}
                   </select>
                 </div>
 
@@ -572,6 +574,14 @@ export default function AdminBlogsPage() {
           </div>
 
           <form onSubmit={handleSaveBlog} className="space-y-4 text-xs">
+            <p className="rounded-md border border-slate-300 p-3 text-slate-700">New articles: Pakistan education or international educational updates only. Review the facts and source links before saving. Existing articles remain noindex after edits.</p>
+            <label className="block font-semibold">Reviewed education scope
+              <select value={seo.educationScope || ''} onChange={e => setSeo({...seo, educationScope: (e.target.value || undefined) as ArticleSeo['educationScope']})} className="block min-h-12 w-full rounded-md border border-slate-300 p-2">
+                <option value="">Select after reviewing the article and sources</option>
+                <option value="pakistan-education">Pakistan education</option>
+                <option value="global-education">International education update</option>
+              </select>
+            </label>
             <div>
               <label className="block font-semibold text-slate-700 mb-1">
                 Article Title
@@ -620,7 +630,7 @@ export default function AdminBlogsPage() {
                   onChange={(e) => setCategory(e.target.value as BlogCategory)}
                   className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded text-slate-900 focus:border-navy-600 focus:bg-white focus:outline-none"
                 >
-                  {BLOG_CATEGORIES.map(item=><option key={item.id} value={item.id}>{item.label}</option>)}
+                  {BLOG_CATEGORIES.filter(item => isEducationCategory(item.id) || (editingId && item.id === category)).map(item=><option key={item.id} value={item.id}>{item.label}</option>)}
                 </select>
               </div>
             </div>
