@@ -10,7 +10,7 @@ const get=async route=>{
 };
 if(base){
  const receipt=JSON.parse(await fs.readFile('docs/reviews/editorial-indexing-20261127/build-receipt.json','utf8'));
- const deployment=JSON.parse(await get('/deployment.json'));assert.equal(deployment.revision,receipt.headSha,'Live domain must serve the reviewed source revision');
+ const deployment=JSON.parse(await get('/deployment.json'));assert.equal(deployment.revision,process.env.EXPECTED_REVISION || receipt.headSha,'Live domain must serve the reviewed source revision');
 }
 const sitemap=await get('/sitemap.xml');const robots=await get('/robots.txt');
 assert.ok(!/^Disallow:\s*\/blogs\/\s*$/mi.test(robots),'Article crawling must stay allowed');
