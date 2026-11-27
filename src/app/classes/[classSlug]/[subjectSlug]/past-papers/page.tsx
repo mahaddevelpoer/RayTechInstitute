@@ -39,7 +39,7 @@ export async function generateMetadata({
   if (!currentClass || !currentSubject) return withSocialMetadata({});
   const hasResources = INITIAL_PAST_PAPERS.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
-  const description = buildDocumentDescription('Browse published past-paper PDFs and check the board, year and examination session. Open the resource details before revising.', `${className} ${currentSubject.title} past papers`);
+  const description = classSlug==='11th-class' && subjectSlug==='computer-science' ? 'Compare Lahore and Gujranwala 2024 old-course papers with the new Class 11 Computer Science book. Read topic indexes and supported answers.' : buildDocumentDescription('Browse published past-paper PDFs and check the board, year and examination session. Open the resource details before revising.', `${className} ${currentSubject.title} past papers`);
 
   return withSocialMetadata({
     title: buildResourceSeoTitle(className, currentSubject.title, "Past Papers"),

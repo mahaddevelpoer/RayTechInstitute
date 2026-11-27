@@ -41,7 +41,7 @@ const seo=['SDLC','Python','Algorithms','Structures','Data Analytics','Emerging 
 function addNote({id,key,chapter,title,chapterTitle,description,content,seoTitle}){
  const old=legacy.notes.find(n=>n.id===id),url='https://raytechinstitute.com'+pdfBase+key+'.pdf';
  const note={...(old||{}),id,classSlug:'11th-class',subjectSlug:'computer-science',chapterNumber:chapter,chapterTitle,title,description,content,pdfUrl:url,previewPdfUrl:url,actionButtonUrl:url,actionButtonText:'Download ALP Study PDF',downloadCount:old?.downloadCount||0,lastUpdated:'2026-11-27',...(pdfs[key]?{fileSize:Math.ceil(pdfs[key].bytes/1024)+' KB'}:{})};
- generated.notes.push(note);generated.noteSeo[id]=seoTitle;
+ generated.notes.push(note);generated.noteSeo[id]=chapter<=2&&key.startsWith('chapter-')?seoTitle.replace('Notes PDF','Notes & MCQs PDF'):seoTitle;
  generated.documents.push({key,title,content,contentSha256:hash(content),kind:'note',id});
 }
 for(const c of chapters){

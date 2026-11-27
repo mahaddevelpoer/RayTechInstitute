@@ -41,20 +41,20 @@ export async function generateMetadata({
   );
   if (!currentClass || !currentSubject) return withSocialMetadata({});
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
-  const description = buildDocumentDescription('Browse available chapter notes, topic MCQs and past papers. Read resource details and choose what you need for revision.', `${className} ${currentSubject.title}`);
+  const reviewedComputer = classSlug==='11th-class' && subjectSlug==='computer-science';
+  const title = buildSeoTitle(reviewedComputer ? '11th Computer Science ALP 2027 Guide' : `${className} ${currentSubject.title} Study Material`);
+  const description = reviewedComputer ? 'Study all nine Class 11 Computer Science chapters with ALP 2027 notes, 400 practice MCQs, solved exercises and model-paper answers.' : buildDocumentDescription('Browse available chapter notes, topic MCQs and past papers. Read resource details and choose what you need for revision.', `${className} ${currentSubject.title}`);
 
   return withSocialMetadata({
     robots: {index: [...INITIAL_NOTES,...INITIAL_MCQS,...INITIAL_PAST_PAPERS].some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug), follow:true},
-    title: buildSeoTitle(`${className} ${currentSubject.title} Study Material`),
+    title,
     description,
     alternates: {
       canonical: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
     },
     openGraph: {
       images: [DEFAULT_SOCIAL_IMAGE],
-      title: buildSeoTitle(
-        `${className} ${currentSubject.title} Study Material`,
-      ),
+      title,
       description,
       url: siteUrl(`/classes/${classSlug}/${subjectSlug}/`),
       type: "website",

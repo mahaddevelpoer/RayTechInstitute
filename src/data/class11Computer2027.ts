@@ -26,6 +26,10 @@ export function completeClass11Chapter(c:ChapterItem):ChapterItem {
 export function class11NoteSeo(id:string):string|undefined {
  return (data.noteSeo as Record<string,string>)[id];
 }
+export function class11PaperSeo(id:string):{title:string;description:string}|undefined {
+ const p=CLASS11_COMPUTER_PAPERS.find(p=>p.id===id);if(!p)return undefined;
+ return {title:`11th CS ${p.board.replace('BISE ','')} ${p.year} Paper Guide`,description:`Read the ${p.board} ${p.year} old-course topic index, compare it with the new Class 11 book and check supported answers. Original scan linked.`};
+}
 export function appendClass11Resources<T extends {id:string}>(existing:T[],reviewed:T[]):T[]{
  const ids=new Set(existing.map(r=>r.id));return [...existing,...reviewed.filter(r=>!ids.has(r.id))];
 }

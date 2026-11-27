@@ -1,4 +1,5 @@
 import { withSocialMetadata } from '@/utils/social-metadata';
+import { class11PaperSeo } from '@/data/class11Computer2027';
 import { staticExportParams } from "@/utils/staticExport";
 import { siteUrl } from "@/lib/site";
 import { DEFAULT_SOCIAL_IMAGE } from '@/data/social';
@@ -51,10 +52,9 @@ export async function generateMetadata({
     (item) => item.classSlug === classSlug && item.slug === subjectSlug,
   );
   if (!paper || !currentSubject) return withSocialMetadata({});
-  const title = buildSeoTitle(
-    `${currentSubject.title} ${paper.year} Past Paper PDF`,
-  );
-  const description = buildDocumentDescription(paper.description || '', `${paper.board} ${paper.year} ${currentSubject.title} past paper PDF`);
+  const reviewed = class11PaperSeo(paper.id);
+  const title = buildSeoTitle(reviewed?.title || `${currentSubject.title} ${paper.year} Past Paper PDF`);
+  const description = reviewed?.description || buildDocumentDescription(paper.description || '', `${paper.board} ${paper.year} ${currentSubject.title} past paper PDF`);
   return withSocialMetadata({
     title,
     description,
@@ -103,7 +103,7 @@ export default async function PastPaperDetailPage({
         backHref={`/classes/${classSlug}/${subjectSlug}/past-papers/`}
         backLabel="Back to past papers"
         eyebrow={`${paper!.board} · ${paper!.year}`}
-        title={`${currentSubject!.title} ${paper!.session} Past Paper`}
+        title={class11PaperSeo(paper.id) ? `${paper.board} ${paper.year}: Legacy Computer Paper Study Guide` : `${currentSubject!.title} ${paper!.session} Past Paper`}
         description={
           paper!.description ||
           `Official ${currentSubject!.title} past paper for ${currentClass!.title}, including the board pattern and questions students should practise.`

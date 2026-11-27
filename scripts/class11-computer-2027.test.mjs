@@ -66,6 +66,8 @@ test('model paper has 15 objective, 27 short and five long book-supported soluti
 });
 test('legacy papers label source attribution, Group I coverage and unsupported answers',()=>{
  assert.equal(data.papers.length,2);for(const p of data.papers){assert.match(p.content,/OLD-COURSE/);assert.match(p.content,/not been independently authenticated/);assert.match(p.content,/Group I only/);assert.match(p.content,/outside the supplied new-book answer set/);assert.match(p.content,/ustad360.com/);}
+ const titles=data.papers.map(p=>catalog.class11PaperSeo(p.id).title);assert.equal(new Set(titles).size,2);
+ for(const p of data.papers){const seo=catalog.class11PaperSeo(p.id);assert.ok((seo.title+' | RayTech Institute').length>=50&&(seo.title+' | RayTech Institute').length<=60);assert.ok(seo.description.length>=120&&seo.description.length<=155);assert.ok(seo.title.includes(p.board.replace('BISE ','')));}
 });
 test('executed Python proof matches the authored code and every stated test case',async()=>{
  const proof=await read('program-verification.json');assert.equal(proof.programs,16);assert.equal(proof.executions,18);

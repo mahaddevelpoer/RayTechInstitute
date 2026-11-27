@@ -39,7 +39,7 @@ export async function generateMetadata({
   if (!currentClass || !currentSubject) return withSocialMetadata({});
   const hasResources = INITIAL_NOTES.some(item=>item.classSlug===classSlug&&item.subjectSlug===subjectSlug);
   const className = currentClass.title.replace(/\s*\([^)]*\)/, "");
-  const description = buildDocumentDescription('Browse available chapter notes and PDF revision resources. Check the document details and use its preview before downloading.', `${className} ${currentSubject.title} notes`);
+  const description = classSlug==='11th-class' && subjectSlug==='computer-science' ? 'Browse all nine ALP 2027 chapter guides, solved exercises, a worked SDLC project and model-paper answers for Punjab Class 11 Computer Science.' : buildDocumentDescription('Browse available chapter notes and PDF revision resources. Check the document details and use its preview before downloading.', `${className} ${currentSubject.title} notes`);
 
   return withSocialMetadata({
     title: buildResourceSeoTitle(className, currentSubject.title, "Notes PDF"),
