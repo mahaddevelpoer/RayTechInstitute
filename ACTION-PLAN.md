@@ -1,3 +1,7 @@
+# Static navigation fault fixed in verified preview: 27 November 2026
+
+Ready for current-batch publication approval: native HTML document links remove the RSC navigation dependency; exact exported-payload redirects recover index.txt URLs while retaining chapter queries. Baseline run 45954126248 reproduced the reported failure. Artifact run 45954130912 passed the complete release suite, four width/theme journeys, browser back, malformed-URL recovery and JavaScript-disabled navigation. Existing Class 11 and DIT content checks passed. Not deployed. Evidence: docs/reviews/static-navigation-20261127/REVIEW.md and build-receipt.json.
+
 # Class 11 Computer Science ALP 2027 published: 27 November 2026
 
 Published and live verified: nine chapter guides, 400 retained-topic MCQs, all 47 current model-paper answers, a worked SDLC project and two clearly labelled legacy-paper companions. Fifteen new PDFs include a 190-page study book and 107-page MCQ bank. Forty excluded questions are withheld. Artifact-only production verification passed in run 45948264204 at application revision b7b0be61576bed793b4a7c23ced4b61ba36610b1; all eight responsive/theme journeys, nine quizzes and 15 PDF hashes passed. Mahad approved publication. Deployment 45949131789 and live verification 45949592826 succeeded: 14 page routes, 18 PDF links, nine quizzes and eight width/theme journeys. Live evidence: docs/reviews/class11-computer-20261127/live/. Evidence: content/class11-computer-2027/REVIEW.md.

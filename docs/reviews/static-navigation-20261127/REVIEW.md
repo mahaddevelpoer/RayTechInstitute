@@ -1,6 +1,6 @@
 # Static navigation repair: 27 November 2026
 
-Status: prepared locally; production export/browser verification pending. Not deployed. This batch needs its own explicit publication approval under the root AGENTS.md.
+Status: complete and verified against the production export. Not deployed. This batch needs its own explicit publication approval under the root AGENTS.md.
 
 The reported URL `/classes/11th-class/computer-science/notes/index.txt?chapter=5` currently returns HTTP 200 `text/plain`, containing Next.js navigation data rather than a page. The clean notes URL returns HTML. Next 15's static-export router appends `index.txt` to its data requests. Its network/decoding exception handler returns that raw data URL as a document-navigation fallback. The ordinary non-200 and build-mismatch branches already normalise the path; a simulated HTTP 503 correctly returned to HTML, so the regression uses a connection failure to exercise the separate exception branch. The framework accepts text/plain in export mode, so the MIME type alone is not the diagnosis. The user's particular connection failure cannot be reconstructed retrospectively.
 
@@ -15,6 +15,6 @@ The reported URL `/classes/11th-class/computer-science/notes/index.txt?chapter=5
 
 Unit checks cover the production alias, native anchors and URL objects, omitted router-only props, exact redirects and query preservation. Browser checks deliberately make page-data requests unavailable, click Chapter 5 and Chapter 2, check the selected chapter, exercise browser back, open the reported malformed URL, and test links with JavaScript disabled. Mobile/desktop light and dark journeys record navigation request start time. A separate read-only baseline reproduces the old failure with a failed page-data request. Source checks, full export checks and current DIT/Class 11 preservation gates remain enabled.
 
-Evidence and run receipts will be attached after verification. Removing the application-level wait does not remove a visitor's network latency or prove any Google ranking change.
+Baseline run 45954126248 reproduced the exact reported URL after an aborted page-data fetch. Successful artifact-only run 45954130912, source a27a02b3cc624f14814c5452a717c7f0572c4c41, passed the full release suite and the new navigation scenarios. Four width/theme journeys issued zero page-data requests, started native document navigation in 33-48ms in the CI browser, retained Chapter 5 and Chapter 2 selections, passed browser back, and recovered the direct malformed URL with its query intact. The JavaScript-disabled link check also passed. These timings measure request dispatch, not total page load or a visitor's connection. See build-receipt.json, baseline.json, checks.json and reviewed screenshots. Removing the application-level wait does not remove a visitor's network latency or prove any Google ranking change.
 
 Primary references: installed Next.js `fetch-server-response.js`, [Cloudflare static redirects](https://developers.cloudflare.com/pages/configuration/redirects/), and [Cloudflare serving pages](https://developers.cloudflare.com/pages/configuration/serving-pages/).

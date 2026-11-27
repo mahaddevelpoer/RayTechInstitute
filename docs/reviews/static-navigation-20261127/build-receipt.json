@@ -1,0 +1,283 @@
+{
+  "status": "verified-awaiting-current-batch-publication-approval",
+  "published": false,
+  "headSha": "a27a02b3cc624f14814c5452a717c7f0572c4c41",
+  "runId": 45954130912,
+  "runUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45954130912",
+  "hostingTarget": "artifact",
+  "exportArtifact": {
+    "digest": "sha256:04a0ab18e3eba32f6963c027e2602e347ffd925a0e0216916c78614654682560",
+    "expired": false,
+    "expires_at": "2026-11-30T06:54:48Z",
+    "id": 15177948414,
+    "name": "cloudflare-static-export",
+    "size_in_bytes": 259991150
+  },
+  "baselineRunId": 45954126248,
+  "baseline": {
+    "base": "https://raytechinstitute.com",
+    "mode": "baseline fault reproduction",
+    "results": [
+      {
+        "reproduced": true,
+        "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=5",
+        "failedPayloadRequests": [
+          "https://raytechinstitute.com/index.txt?_rsc=sYR0td0KVHTivL_n",
+          "https://raytechinstitute.com/admin/login/index.txt?_rsc=sYR0td0KVHTivL_n",
+          "https://raytechinstitute.com/privacy-policy/index.txt?_rsc=sYR0td0KVHTivL_n",
+          "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=5&_rsc=rPE-qadDwiowDdd6"
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "base": "http://127.0.0.1:4178",
+    "mode": "fixed navigation with unavailable page-data service",
+    "results": [
+      {
+        "width": 360,
+        "theme": "light",
+        "chapter": 5,
+        "failedPayloadRequests": 0,
+        "documentNavigationStartedMs": 33,
+        "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+      },
+      {
+        "width": 360,
+        "theme": "dark",
+        "chapter": 5,
+        "failedPayloadRequests": 0,
+        "documentNavigationStartedMs": 48,
+        "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+      },
+      {
+        "width": 1366,
+        "theme": "light",
+        "chapter": 5,
+        "failedPayloadRequests": 0,
+        "documentNavigationStartedMs": 41,
+        "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+      },
+      {
+        "width": 1366,
+        "theme": "dark",
+        "chapter": 5,
+        "failedPayloadRequests": 0,
+        "documentNavigationStartedMs": 42,
+        "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+      },
+      {
+        "javaScript": false,
+        "documentNavigation": true,
+        "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "name": "Set up job",
+      "conclusion": "success"
+    },
+    {
+      "name": "Checkout repository",
+      "conclusion": "success"
+    },
+    {
+      "name": "Use Node.js 24 LTS",
+      "conclusion": "success"
+    },
+    {
+      "name": "Install dependencies",
+      "conclusion": "success"
+    },
+    {
+      "name": "Validate source and catalog behaviour",
+      "conclusion": "success"
+    },
+    {
+      "name": "Use Java 21 for local Firestore rules tests",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify reviewed DIT ICT chapter packs",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify live scorecard boundaries and editorial queue",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify academic placement validation and migration replay",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify private competition scoring and access controls",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify SEO metadata, schema, public assets and crawlable links",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify public page bundle, cookie consent and accessibility regressions",
+      "conclusion": "success"
+    },
+    {
+      "name": "Restore the tested headless browser",
+      "conclusion": "success"
+    },
+    {
+      "name": "Install browser on GitHub for sentence interaction checks",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify sentence hover, layout and original teaching controls",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify private student progress rules",
+      "conclusion": "success"
+    },
+    {
+      "name": "Validate changed content before a content-only release",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "Build static catalog and website",
+      "conclusion": "success"
+    },
+    {
+      "name": "Block incomplete or mismatched exports",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify printed DIT banks against the exported academic catalog",
+      "conclusion": "success"
+    },
+    {
+      "name": "Prepare static Cloudflare routing and security headers",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain release manifest for diagnosis",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify academic cards against the exported website before publishing",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain academic navigation screenshots",
+      "conclusion": "success"
+    },
+    {
+      "name": "Start isolated export preview on GitHub",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify ready MP3 plays on desktop and mobile without an AI call",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify native clicks and recovery of payload URLs",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/upload-artifact@v4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify crawlable study search, resource availability and mobile navigation",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify DIT chapter access and printable bank downloads",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain DIT study export screenshots",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify Class 11 ALP 2027 student routes and downloads",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain Class 11 curriculum review screenshots",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain student navigation review screenshots",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify learning panels and saved speech sources",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify learning controls",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify all redesigned resource directories and video placement",
+      "conclusion": "success"
+    },
+    {
+      "name": "Verify live cricket article interaction",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain portable verified export for migration",
+      "conclusion": "success"
+    },
+    {
+      "name": "Upload portable verified export",
+      "conclusion": "success"
+    },
+    {
+      "name": "Deploy to Firebase Hosting live channel",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "Verify deployed pages match this exact export",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "Deploy verified export to Cloudflare Pages",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "Verify Cloudflare static delivery and compiler isolation",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "Retain learning presentation screenshots",
+      "conclusion": "success"
+    },
+    {
+      "name": "Retain resource page screenshots",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Restore the tested headless browser",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Use Java 21 for local Firestore rules tests",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Use Node.js 24 LTS",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Checkout repository",
+      "conclusion": "success"
+    },
+    {
+      "name": "Complete job",
+      "conclusion": "success"
+    }
+  ],
+  "productionWrites": 0
+}

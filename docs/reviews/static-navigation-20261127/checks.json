@@ -1,0 +1,43 @@
+{
+  "base": "http://127.0.0.1:4178",
+  "mode": "fixed navigation with unavailable page-data service",
+  "results": [
+    {
+      "width": 360,
+      "theme": "light",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 33,
+      "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 48,
+      "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "width": 1366,
+      "theme": "light",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 41,
+      "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 42,
+      "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "javaScript": false,
+      "documentNavigation": true,
+      "url": "http://127.0.0.1:4178/classes/11th-class/computer-science/notes/?chapter=5"
+    }
+  ]
+}

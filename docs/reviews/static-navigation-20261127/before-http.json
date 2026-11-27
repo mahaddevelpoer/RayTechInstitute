@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-27T06:48:20.136Z",
+  "results": [
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "location": null,
+      "elapsedMs": 5198,
+      "bytes": 60704,
+      "isHtml": true
+    },
+    {
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=5",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "location": null,
+      "elapsedMs": 4884,
+      "bytes": 13116,
+      "isHtml": false
+    }
+  ]
+}

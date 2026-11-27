@@ -1,0 +1,16 @@
+{
+  "base": "https://raytechinstitute.com",
+  "mode": "baseline fault reproduction",
+  "results": [
+    {
+      "reproduced": true,
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=5",
+      "failedPayloadRequests": [
+        "https://raytechinstitute.com/index.txt?_rsc=sYR0td0KVHTivL_n",
+        "https://raytechinstitute.com/admin/login/index.txt?_rsc=sYR0td0KVHTivL_n",
+        "https://raytechinstitute.com/privacy-policy/index.txt?_rsc=sYR0td0KVHTivL_n",
+        "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=5&_rsc=rPE-qadDwiowDdd6"
+      ]
+    }
+  ]
+}
