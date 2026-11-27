@@ -16,8 +16,14 @@ const font=(await fs.readFile('public/fonts/noto-naskh-arabic/NotoNaskhArabic.tt
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const browser=await chromium.launch({channel:process.env.CLASS11_BROWSER||'msedge',headless:true,args:['--renderer-process-limit=1','--disable-gpu']});
 const manifest={};
+const previous=JSON.parse(await fs.readFile(root+'/pdf-manifest.json','utf8').catch(()=>'{}'));
 try{
  for(const d of data.documents){
+  const saved=previous[d.key];
+  if(process.argv.includes('--changed')&&saved?.contentSha256===d.contentSha256&&saved.sourceSha256===data.sourceSha256){
+   const bytes=await fs.readFile(path.join(dir,d.key+'.pdf'));
+   if(createHash('sha256').update(bytes).digest('hex')===saved.sha256){manifest[d.key]=saved;continue;}
+  }
   const rendered=renderToStaticMarkup(React.createElement(Markdown,{remarkPlugins:[gfm]},d.content));
   const body=rendered.replace(/(<h3[^>]*>[\s\S]*?)(?=<h[123][ >]|$)/g,'<section class="answer-block">$1</section>');
   const html=`<!doctype html><html lang="en"><meta charset="utf-8"><title>${esc(d.title)}</title><style>

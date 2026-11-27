@@ -14,13 +14,15 @@ render=qa/'rendered';render.mkdir(exist_ok=True,parents=True)
 def job(d):
  key=d['key'];pdf=Path('public/documents/class11/computer-2027')/(key+'.pdf')
  reader=PdfReader(pdf);pages=len(reader.pages)
+ manifest[key]['pages']=pages
  if (poppler/'pdftotext.exe').exists():
   subprocess.run([str(poppler/'pdftotext.exe'),'-enc','UTF-8',str(pdf),str(qa/(key+'.txt'))],check=True,capture_output=True)
- elif not (qa/(key+'.txt')).exists():
+ elif not (qa/(key+'.txt')).exists() or (qa/(key+'.txt')).stat().st_mtime < pdf.stat().st_mtime:
   (qa/(key+'.txt')).write_text('\n'.join(p.extract_text() or '' for p in reader.pages),encoding='utf-8')
  text=(qa/(key+'.txt')).read_text(encoding='utf-8')
  assert '\ufffd' not in text,key
  if key=='400-mcq-bank':assert len(re.findall(r'Q\d+\.',text))==400
+ if key in ['chapter-2','complete-study-book','400-mcq-bank']:assert '__name__' in text and '__main__' in text,key
  subprocess.run([str(poppler/'pdftoppm.exe'),'-scale-to','420','-png',str(pdf),str(render/key)],check=True,capture_output=True)
  images=sorted(render.glob(key+'-*.png'))
  assert len(images)==pages,(key,len(images),pages)
@@ -32,4 +34,5 @@ def job(d):
  return {'key':key,'pages':pages,'rendered':len(images),'missingGlyphs':0}
 with ThreadPoolExecutor(max_workers=3) as pool:results=list(pool.map(job,data['documents']))
 (qa/'pdf-visual-review.json').write_text(json.dumps(results,indent=2)+'\n',encoding='utf-8')
+(root/'pdf-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(results));print('All pages rendered:',sum(r['pages'] for r in results))

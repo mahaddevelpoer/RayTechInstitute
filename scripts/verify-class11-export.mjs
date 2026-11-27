@@ -45,6 +45,8 @@ try{
    await page.goto(base+route+'/notes/class11-alp2027-model-paper-solutions/',{waitUntil:'domcontentloaded'});
    assert.equal(await page.locator('h1').count(),1);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'model answer overflow');
    await page.screenshot({path:path.join(dir,'360-model-answers.png')});
+   await page.goto(base+route+'/notes/class11-nov12-chapter-2-study-guide/',{waitUntil:'domcontentloaded'});
+   assert.equal(await page.getByRole('heading',{name:/Q62.*__name__.*__main__/}).count(),1,'Python special names lost during Markdown rendering');
   }
   assert.deepEqual(errors,[]);checks.push({width,theme,chapters:9,overflow:false,pageErrors:errors});await context.close();
  }

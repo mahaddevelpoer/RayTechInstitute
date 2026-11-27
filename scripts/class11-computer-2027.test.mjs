@@ -41,6 +41,7 @@ test('400 practice questions preserve 220 approved legacy answers and withhold 4
  for(const q of data.mcqs){assert.equal(new Set(q.options).size,4);assert.ok(q.options.every(v=>typeof v==='string'&&v.length));assert.match(q.explanation,/Source: supplied book, printed pages/);assert.ok(!/Supplementary: excluded/.test(q.topic));positions[q.correctIndex]++;}
  assert.deepEqual(positions,[100,100,100,100]);assert.ok(data.mcqs.some((q,i)=>q.correctIndex!==i%4));
  assert.equal(catalog.INITIAL_MCQS.filter(target).length,400);
+ assert.ok(data.notes[1].content.includes('`__name__` == "`__main__`"'),'Python special names must survive Markdown rendering');
 });
 test('only explicitly reviewed saved identities change; all other resources are preserved',()=>{
  for(const [key,list,transform] of [['notes',catalog.INITIAL_NOTES,catalog.completeClass11Note],['chapters',catalog.INITIAL_CHAPTERS,catalog.completeClass11Chapter],['mcqs',catalog.INITIAL_MCQS,catalog.completeClass11Mcq]]){

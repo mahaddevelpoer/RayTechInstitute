@@ -7,9 +7,9 @@
     "pages": 28
   },
   "chapter-2": {
-    "bytes": 466455,
-    "sha256": "fad9423ea2967c3c13063dee9bcac03aa8ebb116f49ac4fcb863b3c14d6efbd1",
-    "contentSha256": "c7b5975ebd90e711608f23bd3e8e83f92cf1dce8d92d5b9c5765b8e50bb56620",
+    "bytes": 468603,
+    "sha256": "63332950ba44c9a3d778adc7f4de87b718dda849df6d4b8e6f0d983219caa951",
+    "contentSha256": "f09e4c2f729de6aa51a5c6868c4ea295f25ebfa942a19074aefe7ccbdfd6910c",
     "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
     "pages": 34
   },
@@ -91,16 +91,16 @@
     "pages": 4
   },
   "complete-study-book": {
-    "bytes": 2358188,
-    "sha256": "f5982c3af8a419b6baa1f95567f43a2e4f0db529efb828454c2b7baff36b5743",
-    "contentSha256": "c221c2f4c4d6a56a4c18dc1af29f0ba2602d2435b28311c2866bd2f967b16863",
+    "bytes": 2360334,
+    "sha256": "b6e26d157983ca562275bcb08a8c18e00fd3d2ecb47970fe39095f719276b484",
+    "contentSha256": "82adad3ee1f3c3b6dba0d1e7bdb6cd0acdd9583361e0b5969210587cfd51cdd8",
     "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
     "pages": 190
   },
   "400-mcq-bank": {
-    "bytes": 1552751,
-    "sha256": "9690eab43ea29d108bbad9faca26b1fd4ab10b47cbc2618caac307c6363e54a4",
-    "contentSha256": "fc609297f19657f7b099ae8555f80be328e01adac0fc8eeea8cfcc6d883b6085",
+    "bytes": 1554896,
+    "sha256": "01579336c394f4aa11b2a378cc70129b73cf4b8dca2ae998e15fdb91160b03dc",
+    "contentSha256": "82430a9abe8d1659d7e7c4a39f552b327c34a4a720a1a78c0b15eef57d55a3e4",
     "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
     "questionsSha256": "f4888eb14e467e254e1f0ce78475f23e35796016073838143b8e92d5564eaf8e",
     "pages": 107
