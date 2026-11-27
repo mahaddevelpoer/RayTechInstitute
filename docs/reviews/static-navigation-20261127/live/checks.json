@@ -1,0 +1,43 @@
+{
+  "base": "https://raytechinstitute.com",
+  "mode": "fixed navigation with unavailable page-data service",
+  "results": [
+    {
+      "width": 360,
+      "theme": "light",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 38,
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 38,
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "width": 1366,
+      "theme": "light",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 38,
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "width": 1366,
+      "theme": "dark",
+      "chapter": 5,
+      "failedPayloadRequests": 0,
+      "documentNavigationStartedMs": 36,
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5"
+    },
+    {
+      "javaScript": false,
+      "documentNavigation": true,
+      "url": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5"
+    }
+  ]
+}

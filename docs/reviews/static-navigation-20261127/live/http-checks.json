@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-27T07:03:48.350Z",
+  "revision": "a27a02b3cc624f14814c5452a717c7f0572c4c41",
+  "base": "https://raytechinstitute.com",
+  "redirects": [
+    {
+      "from": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=5",
+      "to": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=5",
+      "status": 302,
+      "html": true
+    },
+    {
+      "from": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/index.txt?chapter=2&q=python",
+      "to": "https://raytechinstitute.com/classes/11th-class/computer-science/notes/?chapter=2&q=python",
+      "status": 302,
+      "html": true
+    },
+    {
+      "from": "https://raytechinstitute.com/index.txt",
+      "to": "https://raytechinstitute.com/",
+      "status": 302,
+      "html": true
+    },
+    {
+      "from": "https://raytechinstitute.com/classes/dit-intermediate/index.txt",
+      "to": "https://raytechinstitute.com/classes/dit-intermediate/",
+      "status": 302,
+      "html": true
+    }
+  ],
+  "unknownRoute": 404,
+  "robots": true,
+  "chapter5PdfHash": true,
+  "ditGuides": 36
+}

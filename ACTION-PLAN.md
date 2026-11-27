@@ -1,6 +1,6 @@
-# Static navigation fault fixed in verified preview: 27 November 2026
+# Static navigation repair published: 27 November 2026
 
-Ready for current-batch publication approval: native HTML document links remove the RSC navigation dependency; exact exported-payload redirects recover index.txt URLs while retaining chapter queries. Baseline run 45954126248 reproduced the reported failure. Artifact run 45954130912 passed the complete release suite, four width/theme journeys, browser back, malformed-URL recovery and JavaScript-disabled navigation. Existing Class 11 and DIT content checks passed. Not deployed. Evidence: docs/reviews/static-navigation-20261127/REVIEW.md and build-receipt.json.
+Published and live verified: native HTML document links remove the RSC navigation dependency; exact exported-payload redirects recover index.txt URLs while retaining chapter queries. Baseline run 45954126248 reproduced the reported failure. Artifact run 45954130912 passed the complete release suite, four width/theme journeys, browser back, malformed-URL recovery and JavaScript-disabled navigation. Existing Class 11 and DIT content checks passed. Mahad approved publication. Deployment 45955361979 and custom-domain verification 45955792843 succeeded: exact broken-URL recovery, preserved chapter/search queries, four width/theme journeys, browser back and JavaScript-disabled links. Live evidence: docs/reviews/static-navigation-20261127/live/. Evidence: docs/reviews/static-navigation-20261127/REVIEW.md and build-receipt.json.
 
 # Class 11 Computer Science ALP 2027 published: 27 November 2026
 

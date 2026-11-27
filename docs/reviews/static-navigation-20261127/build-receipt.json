@@ -1,6 +1,6 @@
 {
-  "status": "verified-awaiting-current-batch-publication-approval",
-  "published": false,
+  "status": "published-and-live-verified",
+  "published": true,
   "headSha": "a27a02b3cc624f14814c5452a717c7f0572c4c41",
   "runId": 45954130912,
   "runUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45954130912",
@@ -279,5 +279,10 @@
       "conclusion": "success"
     }
   ],
-  "productionWrites": 0
+  "productionWrites": 0,
+  "approval": "Mahad explicitly said: accha publish kro.",
+  "deploymentRunId": 45955361979,
+  "liveVerificationRunId": 45955792843,
+  "liveCheckedAt": "2026-11-27T07:03:48.350Z",
+  "liveEvidence": "docs/reviews/static-navigation-20261127/live/"
 }
