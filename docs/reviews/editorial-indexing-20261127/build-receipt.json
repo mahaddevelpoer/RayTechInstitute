@@ -5,5 +5,8 @@
   "earlierSuccessfulBuild": 45958447235,
   "verifiedLegacyArticles": 639,
   "academicSamples": 4,
-  "legacyEndpointNoindex": true
+  "legacyEndpointNoindex": true,
+  "deploymentRun": 45960116394,
+  "liveVerificationRun": 45960334684,
+  "liveStatus": "success"
 }
