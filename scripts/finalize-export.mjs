@@ -65,7 +65,7 @@ await fs.writeFile(path.join(root, 'deployment.json'), JSON.stringify({
 }, null, 2));
 await fs.writeFile(
   path.join(root, "robots.txt"),
-  `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blogs/post/\nSitemap: ${origin}/sitemap.xml\n`,
+  `User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: ${origin}/sitemap.xml\n`,
 );
 console.log(
   `[export] Sitemap includes exactly ${unique.length} indexable exported pages. No fabricated modification dates.`,

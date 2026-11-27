@@ -8,9 +8,14 @@ const get=async route=>{
   const res=await fetch(base+route,{signal:AbortSignal.timeout(45000)});assert.equal(res.status,200,route);assert.ok(!/\bindex\b/i.test((res.headers.get('x-robots-tag')||'').replace(/noindex/gi,'')),'Conflicting header');return await res.text();
  }catch(error){if(attempt===2)throw error;}
 };
+if(base){
+ const receipt=JSON.parse(await fs.readFile('docs/reviews/editorial-indexing-20261127/build-receipt.json','utf8'));
+ const deployment=JSON.parse(await get('/deployment.json'));assert.equal(deployment.revision,receipt.headSha,'Live domain must serve the reviewed source revision');
+}
 const sitemap=await get('/sitemap.xml');const robots=await get('/robots.txt');
 assert.ok(!/^Disallow:\s*\/blogs\/\s*$/mi.test(robots),'Article crawling must stay allowed');
 const routes=base?legacy.map(a=>'/blogs/'+a.slug+'/'): (await fs.readdir('out/blogs',{withFileTypes:true})).filter(e=>e.isDirectory()&&e.name!=='post').map(e=>'/blogs/'+e.name+'/');
+const legacyHtml=await get('/blogs/post/');assert.match(legacyHtml,/<meta[^>]*name="robots"[^>]*content="[^"]*noindex/i,'Legacy article route must be noindex');
 const unique=[...new Set(routes)];let checked=0;
 // Frozen historical routes removed before this release need not be recreated.
 const missing=[];
