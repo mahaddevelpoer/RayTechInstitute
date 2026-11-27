@@ -10,10 +10,14 @@ const route='/classes/11th-class/computer-science';
 const dir='artifacts/class11-computer-review';await fs.mkdir(dir,{recursive:true});
 const browser=await chromium.launch({...(process.platform==='win32'?{channel:'msedge'}:{}),headless:true,args:['--disable-quic']});
 const checks=[];
+async function navigate(page,url){
+ for(let attempt=0;attempt<3;attempt++)try{return await page.goto(url,{waitUntil:'domcontentloaded'});}
+ catch(error){if(attempt===2||!/ERR_(?:CONNECTION_RESET|QUIC_PROTOCOL_ERROR|NETWORK_CHANGED)/.test(error.message))throw error;}
+}
 try{
  for(const width of [360,768,1366,1920])for(const theme of ['light','dark']){
   const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
-  const response=await page.goto(base+route+'/',{waitUntil:'domcontentloaded'});assert.ok(response.ok());
+  const response=await navigate(page,base+route+'/');assert.ok(response.ok());
   await page.waitForFunction(()=>{const b=document.querySelector('.site-header button[aria-label^="Switch to"]');return b&&!b.disabled;});
   const decline=page.getByRole('button',{name:'Decline Optional',exact:true});if(await decline.isVisible())await decline.click();
   const toggle=page.getByRole('button',{name:`Switch to ${theme} theme`,exact:true});if(await toggle.count())await toggle.click();
@@ -26,26 +30,26 @@ try{
   if(width===360&&theme==='light'){
    const titles=[];
    for(const note of data.notes){
-    const url=route+'/notes/'+note.id+'/';const r=await context.request.get(base+url);assert.ok(r.ok(),url);const html=await r.text();
+    const url=route+'/notes/'+note.id+'/';const r=await context.request.get(base+url,{maxRetries:3});assert.ok(r.ok(),url);const html=await r.text();
     assert.ok(html.includes('https://raytechinstitute.com'+url));assert.ok(html.includes('ALP'));assert.ok(!html.includes('cssaspirants.pk'));
     const title=html.match(/<title>(.*?)<\/title>/)[1];assert.ok(!titles.includes(title),'duplicate note title');titles.push(title);
    }
-   for(const paper of data.papers){const r=await context.request.get(base+route+'/past-papers/'+paper.id+'/');assert.ok(r.ok());assert.match(await r.text(),/OLD-COURSE/);}
+   for(const paper of data.papers){const r=await context.request.get(base+route+'/past-papers/'+paper.id+'/',{maxRetries:3});assert.ok(r.ok());assert.match(await r.text(),/OLD-COURSE/);}
    for(const [key,pdf] of Object.entries(pdfs)){
-    const r=await context.request.get(base+'/documents/class11/computer-2027/'+key+'.pdf');assert.ok(r.ok(),key);assert.equal(createHash('sha256').update(await r.body()).digest('hex'),pdf.sha256);
+    const r=await context.request.get(base+'/documents/class11/computer-2027/'+key+'.pdf',{maxRetries:3});assert.ok(r.ok(),key);assert.equal(createHash('sha256').update(await r.body()).digest('hex'),pdf.sha256);
    }
    for(const chapter of [1,2,3,4,5,6,7,8,9]){
-    await page.goto(base+route+'/mcqs/?chapter='+chapter,{waitUntil:'domcontentloaded'});await page.locator('.mcq-topic-grid>button').first().waitFor();
+    await navigate(page,base+route+'/mcqs/?chapter='+chapter);await page.locator('.mcq-topic-grid>button').first().waitFor();
     const text=await page.locator('.mcq-topic-grid').innerText();assert.ok(!/Supplementary|excluded in 2027|Graphical Representation|Object-Oriented|Advanced Python/.test(text));
     await page.getByRole('button',{name:/Mixed chapter practice/}).click();await page.locator('button[aria-pressed]').first().waitFor();assert.equal(await page.locator('button[aria-pressed]').count(),4);
     await page.locator('button[aria-pressed]').first().click();
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'quiz overflow chapter '+chapter);
    }
    await page.screenshot({path:path.join(dir,'360-chapter9-quiz.png')});
-   await page.goto(base+route+'/notes/class11-alp2027-model-paper-solutions/',{waitUntil:'domcontentloaded'});
+   await navigate(page,base+route+'/notes/class11-alp2027-model-paper-solutions/');
    assert.equal(await page.locator('h1').count(),1);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'model answer overflow');
    await page.screenshot({path:path.join(dir,'360-model-answers.png')});
-   await page.goto(base+route+'/notes/class11-nov12-chapter-2-study-guide/',{waitUntil:'domcontentloaded'});
+   await navigate(page,base+route+'/notes/class11-nov12-chapter-2-study-guide/');
    assert.equal(await page.getByRole('heading',{name:/Q62.*__name__.*__main__/}).count(),1,'Python special names lost during Markdown rendering');
   }
   assert.deepEqual(errors,[]);checks.push({width,theme,chapters:9,overflow:false,pageErrors:errors});await context.close();

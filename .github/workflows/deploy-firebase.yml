@@ -8,7 +8,7 @@ on:
       hosting_target:
         description: 'Hosting destination; artifact builds do not change either live site'
         type: choice
-        options: [firebase, cloudflare, artifact, verify-cloudflare, verify-dit-live, review-dns, prepare-dns, deploy-cloudflare-export, cutover-domain, finish-redirect]
+        options: [firebase, cloudflare, artifact, verify-cloudflare, verify-dit-live, verify-class11-live, review-dns, prepare-dns, deploy-cloudflare-export, cutover-domain, finish-redirect]
         default: firebase
       export_run_id:
         description: 'Successful artifact-mode run to verify without rebuilding'
@@ -36,7 +36,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'verify-dit-live' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export' && inputs.hosting_target != 'cutover-domain' && inputs.hosting_target != 'finish-redirect'
+    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'verify-dit-live' && inputs.hosting_target != 'verify-class11-live' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export' && inputs.hosting_target != 'cutover-domain' && inputs.hosting_target != 'finish-redirect'
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
@@ -277,6 +277,33 @@ jobs:
         with:
           name: resource-pages
           path: artifacts/resource-pages/*.png
+          if-no-files-found: ignore
+
+  verify-class11-live:
+    if: inputs.hosting_target == 'verify-class11-live'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      VERIFY_BASE_URL: https://raytechinstitute.com
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install chromium
+      - name: Verify approved custom-domain pages, sitemap and PDF hashes
+        run: node scripts/verify-live-class11-release.mjs
+      - name: Verify live Class 11 quizzes and responsive themes
+        run: node scripts/verify-class11-export.mjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: class11-computer-live
+          path: |
+            artifacts/class11-computer-live/
+            artifacts/class11-computer-review/
           if-no-files-found: ignore
 
   verify-dit-live:
