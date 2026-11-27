@@ -1,0 +1,402 @@
+{
+  "status": "verified-awaiting-current-batch-publication-approval",
+  "date": "2026-11-27",
+  "headSha": "b7b0be61576bed793b4a7c23ced4b61ba36610b1",
+  "runId": 45948264204,
+  "runUrl": "https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45948264204",
+  "hostingTarget": "artifact",
+  "published": false,
+  "productionDatabaseWrites": 0,
+  "counts": {
+    "chapters": 9,
+    "notes": 11,
+    "mcqs": 400,
+    "excludedMcqsWithheld": 40,
+    "legacyPaperCompanions": 2,
+    "modelAnswers": 47,
+    "pdfs": 15,
+    "pdfPagesIncludingRepeatedContent": 519,
+    "executedPrograms": 16,
+    "programRuns": 18
+  },
+  "browserVerification": {
+    "kind": "actual production export",
+    "notes": 11,
+    "mcqs": 400,
+    "legacyPapers": 2,
+    "pdfs": 15,
+    "checks": [
+      {
+        "width": 360,
+        "theme": "light",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 360,
+        "theme": "dark",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 768,
+        "theme": "light",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 768,
+        "theme": "dark",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 1366,
+        "theme": "light",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 1366,
+        "theme": "dark",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 1920,
+        "theme": "light",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "width": 1920,
+        "theme": "dark",
+        "chapters": 9,
+        "overflow": false,
+        "pageErrors": []
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "digest": "sha256:ac206468e0c36d1993b513ac3c4af9a9c8328455750f0574f7c05c93ce0d4e41",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15176340817,
+      "name": "academic-cards",
+      "size_in_bytes": 334906
+    },
+    {
+      "digest": "sha256:acea594c6e3a628242f6f6eda6cacb600cff8fc0cbac35152020f2eab91ef72e",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15175613215,
+      "name": "class11-computer-review",
+      "size_in_bytes": 1027346
+    },
+    {
+      "digest": "sha256:5a03852b8ac8910decb13b82dce08549ab7f5ec3bbab57888af82f78ba1be5c3",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15175289167,
+      "name": "resource-pages",
+      "size_in_bytes": 1136707
+    },
+    {
+      "digest": "sha256:d7e82d9c20975fb8a5ca24ea93a5c376a2559a8f71154119d9b3e8a6faba666a",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15175282795,
+      "name": "dit-study-review",
+      "size_in_bytes": 890204
+    },
+    {
+      "digest": "sha256:9b3fd024a19ae652c9152e7f369e9fd9ed4cc30e74724e9c92a623a19c32c063",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15175219516,
+      "name": "learning-presentation",
+      "size_in_bytes": 417175
+    },
+    {
+      "digest": "sha256:bcfbcaa8d46e146b6ba6a2b6d98dee1952400316a85f39f3b6b2f2b548888288",
+      "expired": false,
+      "expires_at": "2026-11-30T05:57:25Z",
+      "id": 15175214776,
+      "name": "cloudflare-static-export",
+      "size_in_bytes": 260114881
+    },
+    {
+      "digest": "sha256:e055895933a3f77a3a4c20219c700ac2e18f2060d0e9e0128c54188ffb957abe",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15175209703,
+      "name": "student-navigation-review",
+      "size_in_bytes": 960650
+    },
+    {
+      "digest": "sha256:5f75a3d9e3c0e792f2b1807fd474d5ffa7323eeff2c59b9a0eaa8d0b266da04e",
+      "expired": false,
+      "expires_at": "2027-02-25T05:51:24Z",
+      "id": 15175209558,
+      "name": "release-manifest",
+      "size_in_bytes": 19704123
+    }
+  ],
+  "steps": [
+    {
+      "conclusion": "success",
+      "name": "Set up job",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Checkout repository",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Use Node.js 24 LTS",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Install dependencies",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Validate source and catalog behaviour",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Use Java 21 for local Firestore rules tests",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify reviewed DIT ICT chapter packs",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify live scorecard boundaries and editorial queue",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify academic placement validation and migration replay",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify private competition scoring and access controls",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify SEO metadata, schema, public assets and crawlable links",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify public page bundle, cookie consent and accessibility regressions",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Restore the tested headless browser",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Install browser on GitHub for sentence interaction checks",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify sentence hover, layout and original teaching controls",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify private student progress rules",
+      "status": "completed"
+    },
+    {
+      "conclusion": "skipped",
+      "name": "Validate changed content before a content-only release",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Build static catalog and website",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Block incomplete or mismatched exports",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify printed DIT banks against the exported academic catalog",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Prepare static Cloudflare routing and security headers",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain release manifest for diagnosis",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify academic cards against the exported website before publishing",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain academic navigation screenshots",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Start isolated export preview on GitHub",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify ready MP3 plays on desktop and mobile without an AI call",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify crawlable study search, resource availability and mobile navigation",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify DIT chapter access and printable bank downloads",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain DIT study export screenshots",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify Class 11 ALP 2027 student routes and downloads",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain Class 11 curriculum review screenshots",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain student navigation review screenshots",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify learning panels and saved speech sources",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify learning controls",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify all redesigned resource directories and video placement",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify live cricket article interaction",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain portable verified export for migration",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Upload portable verified export",
+      "status": "completed"
+    },
+    {
+      "conclusion": "skipped",
+      "name": "Deploy to Firebase Hosting live channel",
+      "status": "completed"
+    },
+    {
+      "conclusion": "skipped",
+      "name": "Verify deployed pages match this exact export",
+      "status": "completed"
+    },
+    {
+      "conclusion": "skipped",
+      "name": "Deploy verified export to Cloudflare Pages",
+      "status": "completed"
+    },
+    {
+      "conclusion": "skipped",
+      "name": "Verify Cloudflare static delivery and compiler isolation",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain learning presentation screenshots",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Retain resource page screenshots",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Post Restore the tested headless browser",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Post Use Java 21 for local Firestore rules tests",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Post Use Node.js 24 LTS",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Post Checkout repository",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Complete job",
+      "status": "completed"
+    }
+  ],
+  "unchangedSourceSyllabusMatchesUserAlpPages43to51": true,
+  "notes": "The archive companions index Group I only; unmatched legacy-course answers are not invented. Original supplied PDFs remain unchanged. Existing three public chapter PDF URLs serve retained-only guides."
+}

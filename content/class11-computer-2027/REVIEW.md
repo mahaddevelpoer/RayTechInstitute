@@ -1,6 +1,6 @@
 # Class 11 Computer Science: ALP 2027 preparation
 
-Prepared for Mahad on 27 November 2026. Status: locally prepared and verified; production artifact verification pending. Not published. Current-batch publication approval is still required by the repository root AGENTS.md.
+Prepared for Mahad on 27 November 2026. Status: complete and verified against the production export. Not published. Current-batch publication approval is still required by the repository root AGENTS.md.
 
 ## What changes
 
@@ -17,11 +17,11 @@ Prepared for Mahad on 27 November 2026. Status: locally prepared and verified; p
 
 `source-manifest.json` identifies the two user-provided PDFs and downloaded archive scans by byte hash. `exclusions.json` is the visually reviewed ALP selection, notification PDF pages 43-44; paper structure pages 45-46; model pages 47-51. Printed book page n is PDF page n+3. The image-based book was OCRed and visually checked, rather than trusting its unusable selectable text.
 
-Textbook errors are explained rather than memorised: the search MCQ with only sorting choices; ambiguous multi-answer Chapter 7 items; inconsistent population standard-deviation approximations; ambiguous stacked expressions in Chapter 2; incorrect printed Python comments and insertion output. The original supplied PDFs remain unchanged. The full textbook is not rehosted.
+Textbook errors are explained rather than memorised: the search MCQ with only sorting choices; ambiguous multi-answer Chapter 7 items; inconsistent population standard-deviation approximations; ambiguous stacked expressions in Chapter 2; incorrect printed Python comments and insertion output. The existing website syllabus PDF exactly matches the supplied notification pages 43-51. The original supplied PDFs remain unchanged. The full textbook is not rehosted.
 
 `legacy-audit.json` records the original website input. `program-verification.json` records 16 actually executed programs and 18 passing executions, including numeric boundary inputs, absent search targets, traversal order and population statistics. `pdf-manifest.json` ties every PDF to its source/content and byte hashes. All 519 pages were rendered; contact sheets for every document and high-resolution Urdu/code samples were visually inspected. Text extraction found 400 bank prompts and no replacement glyphs or blank pages. Local QA is in `D:/raytech-11cs-20261127/output/`.
 
-Local TypeScript check passed. Curriculum, old import identity, catalog preservation and DIT completion checks passed. The production artifact workflow runs the complete existing release suite, metadata/link/security gates, DIT preservation and Class 11 routes/downloads/quizzes at 360,768,1366,1920 widths in light and dark themes. Build evidence will be recorded separately once that run finishes. A successful build does not prove Google indexing or rankings.
+Local TypeScript check passed. Curriculum, old import identity, catalog preservation and DIT completion checks passed. The production artifact workflow runs the complete existing release suite, metadata/link/security gates, DIT preservation and Class 11 routes/downloads/quizzes at 360,768,1366,1920 widths in light and dark themes. Successful artifact-only build: [45948264204](https://github.com/mahaddevelpoer/RayTechInstitute/actions/runs/45948264204), application revision b7b0be61576bed793b4a7c23ced4b61ba36610b1. Full existing release checks passed, including all eight Class 11 width/theme journeys, nine quizzes, 11 unique note pages, two legacy pages, 15 PDF hashes and literal Python special-name rendering. Receipt and reviewed screenshots: docs/reviews/class11-computer-20261127/. A successful build does not prove Google indexing or rankings.
 
 ## Publication boundary
 
