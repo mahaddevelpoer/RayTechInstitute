@@ -1,0 +1,92 @@
+[
+  {
+    "key": "chapter-1",
+    "pages": 28,
+    "minPageChars": 411,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-2",
+    "pages": 34,
+    "minPageChars": 232,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-3",
+    "pages": 34,
+    "minPageChars": 608,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-4",
+    "pages": 16,
+    "minPageChars": 760,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-5",
+    "pages": 16,
+    "minPageChars": 776,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-6",
+    "pages": 16,
+    "minPageChars": 1055,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-7",
+    "pages": 16,
+    "minPageChars": 411,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-8",
+    "pages": 17,
+    "minPageChars": 907,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "chapter-9",
+    "pages": 17,
+    "minPageChars": 937,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "sdlc-worked-project",
+    "pages": 3,
+    "minPageChars": 1061,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "model-paper-solutions",
+    "pages": 18,
+    "minPageChars": 232,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "lahore-2024-legacy-companion",
+    "pages": 3,
+    "minPageChars": 732,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "gujranwala-2024-legacy-companion",
+    "pages": 4,
+    "minPageChars": 409,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "complete-study-book",
+    "pages": 190,
+    "minPageChars": 233,
+    "missingGlyphs": 0
+  },
+  {
+    "key": "400-mcq-bank",
+    "pages": 107,
+    "minPageChars": 508,
+    "missingGlyphs": 0
+  }
+]

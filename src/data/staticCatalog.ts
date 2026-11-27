@@ -12,6 +12,7 @@ import { STATIC_OVERRIDES } from './staticOverrides';
 import type { ChapterItem } from '@/types/educational';
 import { addReviewedResources, ditClassInformation, ditSubjectInformation, DIT_ICT_SUBJECT, DIT_ICT_CHAPTERS, DIT_ICT_ALL_MCQS, DIT_ICT_NOTES } from './ditSemesterOne';
 import { completeDitNote, DIT_COMPLETION_SUBJECTS, DIT_COMPLETION_CHAPTERS, DIT_COMPLETION_NOTES, DIT_COMPLETION_MCQS } from './ditCompletion';
+import {appendClass11Resources,completeClass11Note,completeClass11Mcq,completeClass11Chapter,CLASS11_COMPUTER_CHAPTERS,CLASS11_COMPUTER_NOTES,CLASS11_COMPUTER_MCQS,CLASS11_COMPUTER_PAPERS,CLASS11_EXCLUDED_MCQS} from './class11Computer2027';
 
 const derivedSeedChapters = SEED_MCQS.reduce<Record<string, { id: string; classSlug: string; subjectSlug: string; chapterNumber: number; title: string; isActive: boolean }>>((result, mcq) => {
   const key = `${mcq.classSlug}:${mcq.subjectSlug}:${mcq.chapterNumber}`;
@@ -30,16 +31,16 @@ const derivedSeedChapters = SEED_MCQS.reduce<Record<string, { id: string; classS
 
 export const INITIAL_CLASSES = (STATIC_OVERRIDES.classes ?? SEED_CLASSES).map(ditClassInformation);
 export const INITIAL_SUBJECTS = addReviewedResources((STATIC_OVERRIDES.subjects ?? SEED_SUBJECTS).map(ditSubjectInformation), [DIT_ICT_SUBJECT, ...DIT_COMPLETION_SUBJECTS]);
-export const INITIAL_NOTES = addReviewedResources((STATIC_OVERRIDES.notes ?? SEED_NOTES).map(completeDitNote), [...DIT_ICT_NOTES, ...DIT_COMPLETION_NOTES]);
+export const INITIAL_NOTES = appendClass11Resources(addReviewedResources((STATIC_OVERRIDES.notes ?? SEED_NOTES).map(completeDitNote).map(completeClass11Note), [...DIT_ICT_NOTES, ...DIT_COMPLETION_NOTES]),CLASS11_COMPUTER_NOTES);
 // These five computer-fundamentals records were published under SDLC Chapter 1.
 // Keep the saved records intact; withhold them from public quizzes until their
 // textbook/edition and chapter association have been reviewed by an editor.
 const CHAPTER_REVIEW_PENDING = new Set(['mcq-1791959684546-sn62b','mcq-1791959685116-xidgz','mcq-1791959685379-8st80','mcq-1791959685663-b8b3q','mcq-1791959685796-p9mf4']);
-export const INITIAL_MCQS = addReviewedResources((STATIC_OVERRIDES.mcqs ?? SEED_MCQS).filter(item=>!CHAPTER_REVIEW_PENDING.has(item.id)), [...DIT_ICT_ALL_MCQS, ...DIT_COMPLETION_MCQS]);
-export const INITIAL_PAST_PAPERS = STATIC_OVERRIDES.pastPapers ?? SEED_PAST_PAPERS;
+export const INITIAL_MCQS = appendClass11Resources(addReviewedResources((STATIC_OVERRIDES.mcqs ?? SEED_MCQS).filter(item=>!CHAPTER_REVIEW_PENDING.has(item.id)&&!CLASS11_EXCLUDED_MCQS.has(item.id)).map(completeClass11Mcq), [...DIT_ICT_ALL_MCQS, ...DIT_COMPLETION_MCQS]),CLASS11_COMPUTER_MCQS);
+export const INITIAL_PAST_PAPERS = appendClass11Resources(STATIC_OVERRIDES.pastPapers ?? SEED_PAST_PAPERS,CLASS11_COMPUTER_PAPERS);
 export const INITIAL_GAZETTES = STATIC_OVERRIDES.gazettes ?? SEED_GAZETTES;
 // Identical 8-November duplicate retained in the database for editorial history.
 // Its public URL redirects permanently to the original article in public/_redirects.
 export const INITIAL_BLOGS = (STATIC_OVERRIDES.blogs ?? SEED_BLOGS).filter(post => post.id !== 'blog-1794137592576');
 export const INITIAL_VIDEO_MCQS = STATIC_OVERRIDES.videoMcqs ?? SEED_VIDEO_MCQS;
-export const INITIAL_CHAPTERS = addReviewedResources<ChapterItem>(STATIC_OVERRIDES.chapters ?? Object.values(derivedSeedChapters), [...DIT_ICT_CHAPTERS, ...DIT_COMPLETION_CHAPTERS]);
+export const INITIAL_CHAPTERS = appendClass11Resources(addReviewedResources<ChapterItem>((STATIC_OVERRIDES.chapters ?? Object.values(derivedSeedChapters)).map(completeClass11Chapter), [...DIT_ICT_CHAPTERS, ...DIT_COMPLETION_CHAPTERS]),CLASS11_COMPUTER_CHAPTERS);

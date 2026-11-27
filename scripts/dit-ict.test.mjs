@@ -20,6 +20,7 @@ const catalog=await bundled('src/data/staticCatalog.ts');
 const {STATIC_OVERRIDES:before}=await bundled('src/data/staticOverrides.ts');
 const additions=await bundled('src/data/ditSemesterOne.ts');
 const completion=await bundled('src/data/ditCompletion.ts');
+const class11=await bundled('src/data/class11Computer2027.ts');
 test('release tooling reads the same JSON-backed catalog as the website',async()=>{
  const loaded=await loadTypescript('src/data/staticCatalog.ts');
  assert.equal(loaded.INITIAL_MCQS.filter(q=>q.subjectSlug==='dit-ict'&&q.chapterNumber===1).length,60);
@@ -38,7 +39,8 @@ test('new resources preserve every existing chapter, note and public MCQ',()=>{
  for(const [key,list] of [['chapters',catalog.INITIAL_CHAPTERS],['notes',catalog.INITIAL_NOTES],['mcqs',catalog.INITIAL_MCQS]]){
   for(const old of before[key]||[]){
    if(key==='mcqs'&&['mcq-1791959684546-sn62b','mcq-1791959685116-xidgz','mcq-1791959685379-8st80','mcq-1791959685663-b8b3q','mcq-1791959685796-p9mf4'].includes(old.id))continue;
-   const expected=key==='notes'?completion.completeDitNote(old):old;
+   if(key==='mcqs'&&class11.CLASS11_EXCLUDED_MCQS.has(old.id)){assert.ok(!list.some(r=>r.id===old.id));continue;}
+   const expected=key==='notes'?class11.completeClass11Note(completion.completeDitNote(old)):key==='mcqs'?class11.completeClass11Mcq(old):class11.completeClass11Chapter(old);
    assert.equal(JSON.stringify(list.find(r=>r.id===old.id)),JSON.stringify(expected));
   }
   assert.equal(new Set(list.map(r=>r.id)).size,list.length);

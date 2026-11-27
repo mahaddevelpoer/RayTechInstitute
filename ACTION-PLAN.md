@@ -1,3 +1,7 @@
+# Class 11 Computer Science ALP 2027: 27 November 2026
+
+Prepared locally: nine chapter guides, 400 retained-topic MCQs, all 47 current model-paper answers, a worked SDLC project and two clearly labelled legacy-paper companions. Fifteen new PDFs include a 190-page study book and 107-page MCQ bank. Forty excluded questions are withheld. Artifact-only production verification is the remaining release check; explicit current-batch approval is required before publication. Evidence: content/class11-computer-2027/REVIEW.md.
+
 # DIT first semester completed and published: 26 November 2026
 
 Current status: all 35 first-semester modules have material across five syllabus subjects, with 36 web guides, five complete study books (686 pages), five printable MCQ banks (2,038 questions) and 29 Python practical solutions plus an additional Excel example. Twelve existing Office/Networking guides were expanded while retaining their identities and original PDF access.

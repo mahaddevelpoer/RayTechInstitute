@@ -129,7 +129,7 @@ jobs:
         run: node scripts/verify-static-release.mjs && node --max-old-space-size=512 scripts/audit-export-links.mjs && node --test scripts/codi-audio-pipeline.test.mjs scripts/hosted-documents.test.mjs
 
       - name: Verify printed DIT banks against the exported academic catalog
-        run: node --test scripts/dit-study.test.mjs scripts/dit-completion.test.mjs
+        run: node --test scripts/dit-study.test.mjs scripts/dit-completion.test.mjs scripts/class11-computer-2027.test.mjs
 
       - name: Prepare static Cloudflare routing and security headers
         if: env.HOSTING_TARGET != 'firebase'
@@ -180,6 +180,19 @@ jobs:
         with:
           name: dit-study-review
           path: artifacts/dit-study-export/
+          if-no-files-found: ignore
+
+      - name: Verify Class 11 ALP 2027 student routes and downloads
+        env:
+          VERIFY_BASE_URL: http://127.0.0.1:4178
+        run: node scripts/verify-class11-export.mjs
+
+      - name: Retain Class 11 curriculum review screenshots
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: class11-computer-review
+          path: artifacts/class11-computer-review/
           if-no-files-found: ignore
 
       - name: Retain student navigation review screenshots

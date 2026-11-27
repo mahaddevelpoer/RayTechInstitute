@@ -1,3 +1,4 @@
+import {class11NoteSeo} from '@/data/class11Computer2027';
 import { withSocialMetadata } from '@/utils/social-metadata';
 import { chapterDisplayLabel, chapterPlacement, resolveChapterForResource } from '@/utils/chapter-books';
 import { staticExportParams } from "@/utils/staticExport";
@@ -55,7 +56,8 @@ export async function generateMetadata({
   const className = currentClass?.title.replace(/\s*\([^)]*\)/, '').trim() || classSlug;
   const sourceChapter = resolveChapterForResource({ ...note, title: note.chapterTitle }, INITIAL_CHAPTERS);
   const displayChapterNumber = chapterPlacement(sourceChapter)?.number || note.chapterNumber;
-  const title = note.id === 'dit-ict-practical-workbook'
+  const reviewedTitle = class11NoteSeo(note.id);
+  const title = reviewedTitle ? buildSeoTitle(reviewedTitle) : note.id === 'dit-ict-practical-workbook'
     ? buildSeoTitle('DIT ICT Practical Workbook & Lab PDF')
     : classSlug === 'dit-intermediate' && subjectSlug === 'dit-ict'
     ? buildSeoTitle(`DIT ICT Chapter ${displayChapterNumber} Notes PDF & MCQs`)
@@ -64,7 +66,7 @@ export async function generateMetadata({
   const limitedDescription = fullDescription.slice(0, 154);
   const wordBoundary = limitedDescription.replace(/\s+\S*$/, '');
   const description = fullDescription.length > 155
-    ? (wordBoundary.length >= 120 ? wordBoundary : limitedDescription) + '…'
+    ? (wordBoundary.length >= 120 ? wordBoundary : limitedDescription) + 'â€¦'
     : fullDescription;
   return withSocialMetadata({
     title,

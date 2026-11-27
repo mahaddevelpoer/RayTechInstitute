@@ -1,0 +1,55 @@
+{
+  "reviewDate": "2026-11-27",
+  "sources": [
+    {
+      "key": "textbook",
+      "filename": "11th Class Computer Science Punjab Board New Syllabus Full Book PDF.pdf",
+      "bytes": 17823455,
+      "sha256": "f933e48f183141654b90c92d3dce39be480575fc9c6d8791d5f7ecbda26afc05",
+      "pages": 144,
+      "providedByUser": true
+    },
+    {
+      "key": "alp",
+      "filename": "ALP-Notification-Grade-11_Redacted_Redacted.pdf",
+      "bytes": 8855415,
+      "sha256": "91f28a56579b34d73c60277400f5357fca3ac35db852d34bb4d14961d5bae417",
+      "pages": 71,
+      "providedByUser": true
+    },
+    {
+      "key": "lahore-2024",
+      "filename": "paper-LHR-2024.pdf",
+      "bytes": 2943512,
+      "sha256": "281656b98bb5f56f7aca7f3f54ab6f0c46452800c1ccb7c4aee524f074eaba52",
+      "pages": 4,
+      "providedByUser": false
+    },
+    {
+      "key": "gujranwala-2024",
+      "filename": "paper-GUJ-2024.pdf",
+      "bytes": 2479177,
+      "sha256": "ea42a5e742055251d8166c85fa7045514ea3ca089691549030e99ac2a9e61fbf",
+      "pages": 4,
+      "providedByUser": false
+    }
+  ],
+  "textbookPrintedPageOffset": 3,
+  "alpComputerExclusionsPdfPages": [
+    43,
+    44
+  ],
+  "alpPaperStructurePdfPages": [
+    45,
+    46
+  ],
+  "alpModelPaperPdfPages": [
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "originalInputPdfsModified": false,
+  "archiveAttribution": "Unverified board attribution; original archive scans linked, not rehosted. Group I topic summaries only."
+}

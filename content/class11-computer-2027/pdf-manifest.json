@@ -1,0 +1,108 @@
+{
+  "chapter-1": {
+    "bytes": 411135,
+    "sha256": "b2a723171f6c9387cc3d6b6bcc043746f72482ffe0296adc3aa56b38ce1b66c9",
+    "contentSha256": "626723a6f013be539de3e27ff41a825a73d1ae0493fda3535cff0c0a10c9aead",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 28
+  },
+  "chapter-2": {
+    "bytes": 466455,
+    "sha256": "fad9423ea2967c3c13063dee9bcac03aa8ebb116f49ac4fcb863b3c14d6efbd1",
+    "contentSha256": "c7b5975ebd90e711608f23bd3e8e83f92cf1dce8d92d5b9c5765b8e50bb56620",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 34
+  },
+  "chapter-3": {
+    "bytes": 478998,
+    "sha256": "3ca296393a2664516a3dfb701a2c46df2671c1e9bffb62098554d4ca5f80970b",
+    "contentSha256": "9219a339eed760642783a29eda5c2e33b2e3d5f2a7b1a9e1f902b4d6c6c7b187",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 34
+  },
+  "chapter-4": {
+    "bytes": 255399,
+    "sha256": "6ba7f51fc27c7e90ad98c7bf5bcb67af8e27636a5f85bd99e71e36cc55aa9aa0",
+    "contentSha256": "58c53ac8fd22386b9441fb56834e21155f890c6565b6a2cf8b4de46c3c90bf96",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 16
+  },
+  "chapter-5": {
+    "bytes": 255599,
+    "sha256": "e0dc524a61c082be32edd1134a85eb91809da1fbc559882d5d551ef64d4b8711",
+    "contentSha256": "01230a7754f5011a90b75e9cbd89e819648328563c7ad2fb95ffab07a094d922",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 16
+  },
+  "chapter-6": {
+    "bytes": 245753,
+    "sha256": "9aa56079f9ffaee47e7b145e49ffa715a64609585c118a2b4b16995e1c6d8f08",
+    "contentSha256": "4bc591a065fd2ae13c5f6a4f89db945d2cabdb93345f5a753ea3639654ec74d5",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 16
+  },
+  "chapter-7": {
+    "bytes": 241620,
+    "sha256": "8a48a3df06813e44d17e94fa9c662f8c45cd72fe53ee6b6c8446d3b1139d4f17",
+    "contentSha256": "8d77c1877fb2e645b549a9cdb3b2ba962df94b286a81d3241137389ad7388602",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 16
+  },
+  "chapter-8": {
+    "bytes": 258002,
+    "sha256": "ca09bdd67c5db65274cbbf0ca7e4a0ed51255b86f6794d631cb99507eed2e268",
+    "contentSha256": "d8b124ce7abb922b0d917c4d2a06b5f3907da0c4c70220ee34f1b2b7bea235d1",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 17
+  },
+  "chapter-9": {
+    "bytes": 250621,
+    "sha256": "2419902eebc4a60c39842b4062521f25043ddf66fbaa100e8262bc86caec0005",
+    "contentSha256": "483c4c508f24c5b0d3e65ffa9fc9f8d43380a933c3e030af3d2f03fdf2362580",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 17
+  },
+  "sdlc-worked-project": {
+    "bytes": 76588,
+    "sha256": "97e09eb757726a7382d374a1eb5aa60e93afd221a6070864c632a64fb7409e6d",
+    "contentSha256": "236a1773d78b41f67f3a11de84225122074c33da380c423061a049d9acbd24b5",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 3
+  },
+  "model-paper-solutions": {
+    "bytes": 241612,
+    "sha256": "d20d7a4911153664343740d19ed9042bd3ddcbe403dede0ef9145dc834f1d0f5",
+    "contentSha256": "caa7d108919bab7d8d6ce8cff16285b4a87ae2e080d4edc82c69c018e305d4c0",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 18
+  },
+  "lahore-2024-legacy-companion": {
+    "bytes": 94722,
+    "sha256": "282c3a3d666c22ee3c5b24d749fa15cdd73bbdf2bfa20f053df87ac47eaacd1e",
+    "contentSha256": "ec71c28a1c7a4acc543e8dbf09ba7ca368e9c5ac05eca0d7356f30234e8694c3",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 3
+  },
+  "gujranwala-2024-legacy-companion": {
+    "bytes": 97310,
+    "sha256": "c0cb37c03cc2019792096899bdfb55fb84e25dbe6083db573aa45b6f7740367a",
+    "contentSha256": "26f80c309b1390054438565f2455f8041e17bffd2fb5b529f17fb4bfc3fbe5fb",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 4
+  },
+  "complete-study-book": {
+    "bytes": 2358188,
+    "sha256": "f5982c3af8a419b6baa1f95567f43a2e4f0db529efb828454c2b7baff36b5743",
+    "contentSha256": "c221c2f4c4d6a56a4c18dc1af29f0ba2602d2435b28311c2866bd2f967b16863",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "pages": 190
+  },
+  "400-mcq-bank": {
+    "bytes": 1552751,
+    "sha256": "9690eab43ea29d108bbad9faca26b1fd4ab10b47cbc2618caac307c6363e54a4",
+    "contentSha256": "fc609297f19657f7b099ae8555f80be328e01adac0fc8eeea8cfcc6d883b6085",
+    "sourceSha256": "86157c83aadfcc92491e2e8216b5778c18dd0d15651536e0b72ee2d6ee77f47f",
+    "questionsSha256": "f4888eb14e467e254e1f0ce78475f23e35796016073838143b8e92d5564eaf8e",
+    "pages": 107
+  }
+}

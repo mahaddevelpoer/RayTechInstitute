@@ -1,0 +1,74 @@
+{
+  "examYear": 2027,
+  "mcqs": 400,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction to Software Development",
+      "noteId": "class11-nov12-chapter-1-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-1.pdf"
+    },
+    {
+      "number": 2,
+      "title": "Python Programming",
+      "noteId": "class11-nov12-chapter-2-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-2.pdf"
+    },
+    {
+      "number": 3,
+      "title": "Algorithms and Problem Solving",
+      "noteId": "class11-nov12-chapter-3-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-3.pdf"
+    },
+    {
+      "number": 4,
+      "title": "Computational Structures",
+      "noteId": "class11-alp2027-chapter-4-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-4.pdf"
+    },
+    {
+      "number": 5,
+      "title": "Data Analytics",
+      "noteId": "class11-alp2027-chapter-5-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-5.pdf"
+    },
+    {
+      "number": 6,
+      "title": "Emerging Technologies",
+      "noteId": "class11-alp2027-chapter-6-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-6.pdf"
+    },
+    {
+      "number": 7,
+      "title": "Legal and Ethical Aspects of Computing System",
+      "noteId": "class11-alp2027-chapter-7-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-7.pdf"
+    },
+    {
+      "number": 8,
+      "title": "Online Research and Digital Literacy",
+      "noteId": "class11-alp2027-chapter-8-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-8.pdf"
+    },
+    {
+      "number": 9,
+      "title": "Entrepreneurship in Digital Age",
+      "noteId": "class11-alp2027-chapter-9-study-guide",
+      "pdf": "https://raytechinstitute.com/documents/class11/computer-2027/chapter-9.pdf"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Complete study book",
+      "url": "/documents/class11/computer-2027/complete-study-book.pdf"
+    },
+    {
+      "title": "400 explained MCQs",
+      "url": "/documents/class11/computer-2027/400-mcq-bank.pdf"
+    },
+    {
+      "title": "Solved 2027 model paper",
+      "url": "/documents/class11/computer-2027/model-paper-solutions.pdf"
+    }
+  ]
+}

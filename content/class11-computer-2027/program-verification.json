@@ -1,0 +1,150 @@
+{
+  "programs": 16,
+  "executions": 18,
+  "results": [
+    {
+      "id": "operators",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "e80f75532d942322d86ceb57fafb380b6fbc4866394531bea9da915fa11506fa",
+      "stdout": "13 7 30\n3 1 1000\n30\n",
+      "passed": true
+    },
+    {
+      "id": "default-parameter",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "acca6316984c9cdb490777067d2676066a8fe9bc4ef85b7762bdfad242f824e7",
+      "stdout": "Hello, Student!\nHello, Ali!\n",
+      "passed": true
+    },
+    {
+      "id": "lists-and-slices",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "7d857cc564c62233b47ac32bc7779fc57fccea3b07a9424ab8f2ebc5b23c7004",
+      "stdout": "30\n[20, 30, 40]\n[40, 50]\n[10, 15, 20, 30, 40, 50]\n",
+      "passed": true
+    },
+    {
+      "id": "expression-parts",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "219a8d843adc00cf337442479f02114282a0e20d24c5900b0bf17772de916571",
+      "stdout": "0.44444444444444464\n34.8125\n11\n",
+      "passed": true
+    },
+    {
+      "id": "positive-negative-zero",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "cb243a76d1066a978165d8866abafda60fdeae8617837bec34d90cb760f05f84",
+      "stdout": "Positive\n",
+      "passed": true
+    },
+    {
+      "id": "positive-negative-zero",
+      "chapter": 2,
+      "case": 2,
+      "codeSha256": "cb243a76d1066a978165d8866abafda60fdeae8617837bec34d90cb760f05f84",
+      "stdout": "Negative\n",
+      "passed": true
+    },
+    {
+      "id": "positive-negative-zero",
+      "chapter": 2,
+      "case": 3,
+      "codeSha256": "cb243a76d1066a978165d8866abafda60fdeae8617837bec34d90cb760f05f84",
+      "stdout": "Zero\n",
+      "passed": true
+    },
+    {
+      "id": "odd-numbers",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "ee41244931fcb9a4d8b2bd3a880eaea9d7f42b039653886ff757a18f1b8982a6",
+      "stdout": "1\n3\n5\n7\n9\n11\n13\n15\n17\n19\n21\n23\n25\n27\n29\n31\n33\n35\n37\n39\n41\n43\n45\n47\n49\n51\n53\n55\n57\n59\n61\n63\n65\n67\n69\n71\n73\n75\n77\n79\n81\n83\n85\n87\n89\n91\n93\n95\n97\n99\nCount: 50\n",
+      "passed": true
+    },
+    {
+      "id": "modular-main",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "fdfc32c7d7250e2e8802283a1d9611be97cee2030e62f9575484dc64b9ac55be",
+      "stdout": "20\n",
+      "passed": true
+    },
+    {
+      "id": "bubble-sort",
+      "chapter": 3,
+      "case": 1,
+      "codeSha256": "d7926e469f1fa13bc3c2a115d24ed93d0e48a0b574aadc4933b0e8ad886fe5e3",
+      "stdout": "[2, 3, 4, 5, 8]\n[]\n[1, 2, 2]\n",
+      "passed": true
+    },
+    {
+      "id": "linear-binary-search",
+      "chapter": 3,
+      "case": 1,
+      "codeSha256": "8732e7ce59e1f82046c9b03c168b14ba074c999e6b64325a98e9c27262cead1e",
+      "stdout": "5 5\n-1 -1\n-1\n",
+      "passed": true
+    },
+    {
+      "id": "bfs-dfs",
+      "chapter": 3,
+      "case": 1,
+      "codeSha256": "47cf9e0734397714e17fbf42877a1cac85cbdbd0ab8cb7e620fef28d90596526",
+      "stdout": "['A', 'B', 'C', 'D']\n['A', 'B', 'D', 'C']\n",
+      "passed": true
+    },
+    {
+      "id": "list-operations",
+      "chapter": 4,
+      "case": 1,
+      "codeSha256": "5b572b81f4868f661ab60be6bb4fd84fefeda5a2f87015811afa3c31d3cf1c31",
+      "stdout": "['Read', 'Revise', 'Write']\nRead\nTrue\n['Revise', 'Write', 'Submit']\n",
+      "passed": true
+    },
+    {
+      "id": "stack",
+      "chapter": 4,
+      "case": 1,
+      "codeSha256": "818dc6a4ee93737c9f795eab353a3046b491b9e8d107beb515bb699dd4de0fde",
+      "stdout": "Book B\nBook B\n['Book A']\nBook A\nEmpty: True\n",
+      "passed": true
+    },
+    {
+      "id": "queue",
+      "chapter": 4,
+      "case": 1,
+      "codeSha256": "0fe80bf37a1e2107b9d832f8dac00ae67f2aea969ca0147bab69669d910e7931",
+      "stdout": "Ali\nSara\nHina\nEmpty: True\n",
+      "passed": true
+    },
+    {
+      "id": "central-tendency",
+      "chapter": 5,
+      "case": 1,
+      "codeSha256": "4d62de49f852b5d7548f35293e35dd59f031b1e799c8977d6aa39bbaaf633fa1",
+      "stdout": "4\n4.0\n[4]\n65.0\n",
+      "passed": true
+    },
+    {
+      "id": "population-spread",
+      "chapter": 5,
+      "case": 1,
+      "codeSha256": "63ab268ebeb30baee3163a7ed43892cfaf5bf7523155e9afb01222945e49c8f5",
+      "stdout": "Mean: 54.80\nVariance: 12.56\nSD: 3.5440\nMean: 59.00\nVariance: 454.00\nSD: 21.3073\n",
+      "passed": true
+    },
+    {
+      "id": "model-if-else",
+      "chapter": 2,
+      "case": 1,
+      "codeSha256": "cc6c9c1da1b7db209b2132c9850aa2f504d72baecd1c600cdf8b1c2077efe7f6",
+      "stdout": "Positive\n",
+      "passed": true
+    }
+  ]
+}

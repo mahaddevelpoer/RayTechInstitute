@@ -1,0 +1,21 @@
+{
+  "academicSession": "2026-27",
+  "examYear": 2027,
+  "notification": "PECTAA/C&C Unit/2026/1239",
+  "notificationDate": "2026-11-06",
+  "notificationPdfPages": [43, 44],
+  "textbookPdfPageOffset": 3,
+  "chapters": [
+    {"number":1,"title":"Introduction to Software Development","printedPages":[1,19],"excludedSections":["1.5"],"excludedPrintedPages":[[9,13]],"excludedExercise":{"mcqs":[7],"short":[5,6],"long":[1,3,4]}},
+    {"number":2,"title":"Python Programming","printedPages":[20,40],"excludedSections":["2.8","2.9","2.10"],"excludedPrintedPages":[[35,38]],"excludedExercise":{"mcqs":[6],"short":[5,8],"longParts":{"1":["a","c"]}}},
+    {"number":3,"title":"Algorithms and Problem Solving","printedPages":[41,55],"excludedSections":["3.3.3"],"excludedPrintedPages":[[45,46]],"excludedExercise":{"mcqs":[2,3,4],"short":[],"long":[1]}},
+    {"number":4,"title":"Computational Structures","printedPages":[56,66],"excludedSections":[],"excludedPrintedPages":[],"excludedExercise":{}},
+    {"number":5,"title":"Data Analytics","printedPages":[67,85],"excludedSections":["5.3","5.4.1.5"],"excludedPrintedPages":[[74,79],[82,82]],"excludedExercise":{"mcqs":[1,4,5,7,8],"short":[1,2],"long":[1,2]}},
+    {"number":6,"title":"Emerging Technologies","printedPages":[86,100],"excludedSections":["6.4","6.5"],"excludedPrintedPages":[[92,97]],"excludedExercise":{"mcqs":[3,5,8],"short":[1,2],"long":[4]}},
+    {"number":7,"title":"Legal and Ethical Aspects of Computing System","printedPages":[101,114],"excludedSections":["7.3"],"excludedPrintedPages":[[106,108]],"excludedExercise":{"mcqs":[5],"short":[3],"long":[2]}},
+    {"number":8,"title":"Online Research and Digital Literacy","printedPages":[115,124],"excludedSections":[],"excludedPrintedPages":[],"excludedExercise":{}},
+    {"number":9,"title":"Entrepreneurship in Digital Age","printedPages":[125,140],"excludedSections":["9.5"],"excludedPrintedPages":[[133,135]],"excludedExercise":{"mcqs":[8],"short":[7],"long":[]}}
+  ],
+  "paper":{"marks":75,"objectiveMarks":15,"subjectiveMarks":60,"totalMinutes":150,"objectiveMinutes":20,"subjectiveMinutes":130,"mcqsByChapter":[3,1,1,1,2,1,2,2,2],"shortGroups":[{"chapters":[1,2,8],"offered":[4,3,2],"attempt":6},{"chapters":[3,6,7],"offered":[3,4,2],"attempt":6},{"chapters":[4,5,9],"offered":[3,3,3],"attempt":6}],"longQuestionChapters":[2,3,4,5,7],"longOffered":5,"longAttempt":3,"marksPerLong":8},
+  "notes":["Page ranges locate the excluded topic, not a blanket deletion of every retained topic sharing that page.","The broad model-paper phrase entire content is read with the explicit exclusions on PDF pages 43-44.","Exercise exclusions are independent of topic exclusions; retained theory may still require notes even where its numbered exercise question is removed."]
+}
