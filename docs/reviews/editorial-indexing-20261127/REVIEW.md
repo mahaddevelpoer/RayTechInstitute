@@ -8,6 +8,6 @@ Future indexing requires an educational category, editor-declared Pakistan/globa
 
 Academic resource routes retain their indexing. No article records, PDFs, credentials, billing settings or database schema are changed. Existing unrelated staticOverrides.ts and Python cache changes are excluded.
 
-Validation: focused indexing tests and 28 metadata/notes/syllabus tests passed. Local typecheck passed before final metadata adjustment; rerun and full isolated CI build required. Local lint detects a pre-existing em dash in the uncommitted production snapshot; clean-source CI supplies the release lint result.
+Validation: focused indexing tests and 28 metadata/notes/syllabus tests passed. Final local typecheck passed. Final isolated artifact build 45959320276 passed every source, export, browser, academic resource and download check. Its HTML check confirmed all 639 article pages noindex/follow and excluded from the sitemap, the legacy endpoint noindex, and four academic samples still indexable. Local lint detects a pre-existing em dash in the uncommitted production snapshot; clean-source CI supplies the release lint result.
 
 Publishing scope: the current request explicitly applies noindex on the website; standing editorial publication approval covers the static release for these article metadata changes. No new articles are being written or published in this release.
