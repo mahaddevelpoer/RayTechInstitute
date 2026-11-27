@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { isArchivedArticleHref } from "@/utils/article-visibility";
 import { articleSections } from "@/utils/editorial";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -110,6 +111,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
           ),
           a: ({ href, children }) => {
             const safeHref = sanitizeUrl(href);
+            if (isArchivedArticleHref(safeHref)) return <span>{children}</span>;
             const isExternal = /^https?:\/\//i.test(safeHref);
             return (
               <a

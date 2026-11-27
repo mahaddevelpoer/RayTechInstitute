@@ -1,3 +1,4 @@
+import { articleCanIndex } from '@/utils/article-indexing';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -56,11 +57,11 @@ export default async function SubjectSmartSyllabus({ params }: Props) {
       <p className="my-4">{item.post.excerpt}</p>
       {item.grade === 11 && item.subject === 'islamiat' && item.year === 2027 && <p className="my-4 rounded-md border border-amber-400 p-4"><strong>Year note needs clarification:</strong> the section heading says 2026-27, but its footer says 2025-26. Ask your school or board to confirm this conflicting note before finalising your exam plan.</p>}
       <ArticleAttachment url={pdf} label={`Grade ${item.grade} ${name} smart syllabus ${item.year}`}/>
-      <section className="my-6 rounded-lg border border-[var(--border)] p-5">
+      {articleCanIndex(item.post) && <section className="my-6 rounded-lg border border-[var(--border)] p-5">
         <h2 className="mb-3 text-xl font-bold">Read the subject guide</h2>
         <p>Check the explained syllabus changes, preparation advice and common questions before marking your textbook.</p>
         <Link className="inline-flex min-h-12 items-center font-semibold underline" href={`/blogs/${item.post.slug}/`}>Read the {name} syllabus article</Link>
-      </section>
+      </section>}
       <h2 className="my-5 text-xl font-bold">Which document am I downloading?</h2>
       <p>{item.pages && item.sourcePages ? `This subject-only PDF contains ${item.pages} pages, extracted from pages ${item.sourcePages[0]} to ${item.sourcePages[1]} of the official Grade ${item.grade} booklet. It includes the subject instructions and accompanying assessment material. ` : 'The attached document is the syllabus selected by the editor for this grade and subject. '}
       This resource is separate from class notes and past papers. Follow the detailed inclusion and exclusion wording in the document; a deleted exercise question does not automatically delete the whole chapter.</p>

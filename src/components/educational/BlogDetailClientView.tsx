@@ -1,5 +1,6 @@
 "use client";
 
+import {isArchivedArticleHref} from '@/utils/article-visibility';
 import {blogCategoryLabel} from '@/data/blogCategories';
 import type { ReviewedArticleCover } from '@/data/reviewedArticleMedia';
 import { siteUrl } from "@/lib/site";
@@ -69,6 +70,11 @@ export function BlogDetailClientView({
   }
 
   const sourceReview = needsSourceReview(post.content);
+  const sourceHrefs = post.seo?.enabled?.includes('sources') ? (post.seo.sources || '').split('\n').map(url=>url.trim()).filter(url=>/^https:\/\//.test(url)&&!isArchivedArticleHref(url)) : [];
+  const internalHrefs = post.seo?.enabled?.includes('internalLinks') ? (post.seo.internalLinks || '').split('\n').map(url=>url.trim()).filter(url=>url.startsWith('/')&&!url.startsWith('//')&&!isArchivedArticleHref(url)) : [];
+  const visibleRelated = relatedPosts.filter(article=>!isArchivedArticleHref(`/blogs/${article.slug}/`));
+  const actionHref = sanitizeUrl(post.actionButtonUrl);
+  const actionVisible = post.actionButtonText && actionHref && !isArchivedArticleHref(actionHref);
   const reviewedCover = coverMetadata;
   const sections = sourceReview ? [] : articleSections(post.content);
   const jsonLd = {
@@ -197,7 +203,7 @@ export function BlogDetailClientView({
       </div>
 
       {/* Optional Admin Action / Download Button (Top Bar) */}
-      {post.actionButtonText && sanitizeUrl(post.actionButtonUrl) && (
+      {actionVisible && (
         <div className="mb-6 p-4 bg-emerald-50 border border-emerald-200 rounded-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm">
           <div>
             <div className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
@@ -320,7 +326,7 @@ export function BlogDetailClientView({
 
       <AdReservation placement="article" />
       {/* Optional Admin Action / Download Button (Bottom CTA) */}
-      {post.actionButtonText && sanitizeUrl(post.actionButtonUrl) && (
+      {actionVisible && (
         <div className="mt-8 p-5 bg-navy-50 border border-navy-200 rounded-md flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h4 className="text-sm font-bold text-navy-900">
@@ -353,9 +359,9 @@ export function BlogDetailClientView({
         </Link>{" "}
         with the article URL and original source.
       </p>
-      {post.seo?.enabled?.includes('sources')&&post.seo.sources&&!/^#{1,6}\s+Sources\s*$/mi.test(post.content)&&<section className="mt-8 text-sm"><h2 className="font-semibold">Sources</h2><ul>{post.seo.sources.split('\n').filter(url=>/^https:\/\//.test(url.trim())).map(url=><li key={url}><a href={sanitizeUrl(url.trim())} target="_blank" rel="noopener noreferrer">Source</a></li>)}</ul></section>}
-      {post.seo?.enabled?.includes('internalLinks')&&post.seo.internalLinks&&<nav aria-label="Related pages" className="mt-6"><h2 className="font-semibold">Related reading</h2>{post.seo.internalLinks.split('\n').filter(url=>url.startsWith('/')&&!url.startsWith('//')).map(url=><p key={url}><Link href={url.trim()}>{url.trim()}</Link></p>)}</nav>}
-      {relatedPosts.length > 0 && <nav aria-label="More on this topic" className="mt-8 rounded-md border border-slate-200 bg-slate-50 p-5"><h2 className="font-semibold">More on this topic</h2><ul className="mt-3 space-y-3">{relatedPosts.map(article => <li key={article.slug}><Link className="font-medium text-navy-800 underline underline-offset-4" href={`/blogs/${article.slug}/`}>{article.title}</Link></li>)}</ul></nav>}
+      {sourceHrefs.length > 0 &&!/^#{1,6}\s+Sources\s*$/mi.test(post.content)&&<section className="mt-8 text-sm"><h2 className="font-semibold">Sources</h2><ul>{sourceHrefs.map(url=><li key={url}><a href={sanitizeUrl(url.trim())} target="_blank" rel="noopener noreferrer">Source</a></li>)}</ul></section>}
+      {internalHrefs.length > 0 &&<nav aria-label="Related pages" className="mt-6"><h2 className="font-semibold">Related reading</h2>{internalHrefs.map(url=><p key={url}><Link href={url.trim()}>{url.trim()}</Link></p>)}</nav>}
+      {visibleRelated.length > 0 && <nav aria-label="More on this topic" className="mt-8 rounded-md border border-slate-200 bg-slate-50 p-5"><h2 className="font-semibold">More on this topic</h2><ul className="mt-3 space-y-3">{visibleRelated.map(article => <li key={article.slug}><Link className="font-medium text-navy-800 underline underline-offset-4" href={`/blogs/${article.slug}/`}>{article.title}</Link></li>)}</ul></nav>}
       {/* Tags */}
       <div className="mt-8 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div className="flex flex-wrap gap-1.5">

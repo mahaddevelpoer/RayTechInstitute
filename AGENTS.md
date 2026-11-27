@@ -102,3 +102,5 @@ Whenever performing an SEO audit:
 ## Article scope and indexing, 27 November 2026
 
 Follow `content/editorial-policy/README.md`. Mahad requires all existing articles noindex and new articles only about Pakistan education or international educational updates. New reviewed educational articles may index. Do not resume historical broad trend queues.
+
+Existing frozen legacy articles must remain unlisted from public navigation, search, related articles and internal links. Preserve their records and direct URL pages. Academic PDF/resource routes and admin management remain available.

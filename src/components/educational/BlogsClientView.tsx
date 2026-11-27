@@ -1,5 +1,7 @@
 "use client";
 
+import {discoverableArticles} from '@/utils/article-visibility';
+import {isEducationCategory} from '@/utils/article-indexing';
 import {BLOG_CATEGORIES} from '@/data/blogCategories';
 import { REVIEWED_ARTICLE_COVERS } from '@/data/reviewedArticleMedia';
 import React, { useState, useEffect } from "react";
@@ -14,13 +16,13 @@ export function BlogsClientView() {
   const fallbackImage = "/android-chrome-512x512.png";
   // 1. Instant 0ms Static First Render (Zero DB wait, Zero flicker)
   const [blogs, setBlogs] = useState<BlogPostItem[]>(() =>
-    EducationalStore.getBlogs(),
+    discoverableArticles(EducationalStore.getBlogs()),
   );
   const [query, setQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
   useEffect(() => {
-    setBlogs(EducationalStore.getBlogs());
+    setBlogs(discoverableArticles(EducationalStore.getBlogs()));
   }, []);
 
   const filteredBlogs = blogs
@@ -36,12 +38,12 @@ export function BlogsClientView() {
     )
     .sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 
-  const categories = [{id:'all',label:'All Updates'},{id:'results',label:'Results'},...BLOG_CATEGORIES];
+  const categories = [{id:'all',label:'All Updates'},{id:'results',label:'Results'},...BLOG_CATEGORIES.filter(category => isEducationCategory(category.id))];
 
   // Every published blog is generated at its own slug URL during the build.
   // Keeping one route for all posts prevents newly added articles from being
   // sent to the editor/preview page (`/blogs/post`) by mistake.
-  const getBlogHref = (slug: string) => `/blogs/${encodeURIComponent(slug)}`;
+  const getBlogHref = (slug: string) => `/blogs/${encodeURIComponent(slug)}/`;
 
   return (
     <>
@@ -58,8 +60,8 @@ export function BlogsClientView() {
           Educational News &amp; Updates
         </h1>
         <p className="text-slate-600 text-sm">
-          Study updates, admission guidance, and clear explainers on science,
-          technology, sport and current affairs for Pakistani learners.
+          Education updates from Pakistan, admission and examination guidance,
+          and educational developments from around the world.
         </p>
       </div>
 
@@ -94,7 +96,11 @@ export function BlogsClientView() {
       <p className="mb-4 text-sm text-slate-600" role="status">
         {filteredBlogs.length} matching updates
       </p>
-      {!filteredBlogs.length && (
+      {!blogs.length && <div className="my-6 rounded-lg border border-slate-200 p-6">
+        <p className="mb-3">New educational updates will appear here.</p>
+        <Link href="/classes/" className="inline-flex min-h-12 items-center font-semibold text-navy-700 underline">Browse class resources</Link>
+      </div>}
+      {!!blogs.length && !filteredBlogs.length && (
         <div className="my-6 rounded-lg border border-slate-200 p-6">
           <p className="mb-3">No articles match this selection.</p>
           <button

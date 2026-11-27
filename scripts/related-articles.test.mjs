@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {loadTypescript} from './load-typescript.mjs';
 const {relatedArticles}=await loadTypescript('src/utils/related-articles.ts');
-const post=(id,tags,extra={})=>({id,slug:id,title:tags.join(' '),category:'education',content:'Reviewed explanation.',tags,...extra});
+const post=(id,tags,extra={})=>({id,slug:id,title:tags.join(' '),category:'education',content:'Reviewed explanation.',seo:{educationScope:'pakistan-education',sources:'https://www.pbte.edu.pk/'},tags,...extra});
 test('shared precise topics rank ahead of weaker matches, without self links or duplicates',()=>{
  const a=post('a',['fractions','ratios','proportions']);
  const b=post('b',['fractions','ratios']);const c=post('c',['fractions','ratios','proportions']);

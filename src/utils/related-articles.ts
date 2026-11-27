@@ -1,5 +1,5 @@
 import type { BlogPostItem } from '@/types/educational';
-import { needsSourceReview } from './editorial';
+import { articleCanIndex } from './article-indexing';
 
 const broadTags = new Set(['education', 'news', 'students', 'student guide', 'pakistan', '2026', 'study guide', 'educational guide', 'latest updates']);
 const topicTags = (tags: string[]) => new Set(tags.map(tag => tag.trim().toLowerCase()).filter(tag => tag && !broadTags.has(tag)));
@@ -7,12 +7,12 @@ const broadWords = new Set(['guide', 'reading', 'study', 'student', 'students', 
 const words = (text: string) => new Set((text.toLowerCase().match(new RegExp('[\\p{L}\\p{N}]+', 'gu')) || []).filter(word => word.length > 2 && !broadWords.has(word)));
 
 export function relatedArticles(post: BlogPostItem, articles: BlogPostItem[]) {
-  if (needsSourceReview(post.content)) return [];
+  if (!articleCanIndex(post)) return [];
   const tags = topicTags(post.tags);
   const subject = words(post.title + ' ' + (post.excerpt || ''));
   const seen = new Set<string>();
   return articles.flatMap(candidate => {
-    if (candidate.id === post.id || candidate.slug === post.slug || seen.has(candidate.slug) || candidate.category !== post.category || needsSourceReview(candidate.content)) return [];
+    if (candidate.id === post.id || candidate.slug === post.slug || seen.has(candidate.slug) || candidate.category !== post.category || !articleCanIndex(candidate)) return [];
     seen.add(candidate.slug);
     const shared = Array.from(topicTags(candidate.tags)).filter(tag => tags.has(tag));
     const candidateSubject = words(candidate.title + ' ' + (candidate.excerpt || ''));
