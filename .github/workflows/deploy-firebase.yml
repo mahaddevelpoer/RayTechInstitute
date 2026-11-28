@@ -8,7 +8,7 @@ on:
       hosting_target:
         description: 'Hosting destination; artifact builds do not change either live site'
         type: choice
-        options: [firebase, cloudflare, artifact, verify-cloudflare, verify-dit-live, verify-class11-live, verify-navigation-live, verify-articles-live, verify-educational-live, review-dns, prepare-dns, deploy-cloudflare-export, cutover-domain, finish-redirect]
+        options: [firebase, cloudflare, artifact, verify-cloudflare, verify-dit-live, verify-class11-live, verify-navigation-live, verify-articles-live, verify-educational-live, verify-unlisting-live, review-dns, prepare-dns, deploy-cloudflare-export, cutover-domain, finish-redirect]
         default: firebase
       export_run_id:
         description: 'Successful artifact-mode run to verify without rebuilding'
@@ -41,7 +41,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'verify-dit-live' && inputs.hosting_target != 'verify-class11-live' && inputs.hosting_target != 'verify-navigation-live' && inputs.hosting_target != 'verify-articles-live' && inputs.hosting_target != 'verify-educational-live' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export' && inputs.hosting_target != 'cutover-domain' && inputs.hosting_target != 'finish-redirect'
+    if: inputs.hosting_target != 'verify-cloudflare' && inputs.hosting_target != 'verify-dit-live' && inputs.hosting_target != 'verify-class11-live' && inputs.hosting_target != 'verify-navigation-live' && inputs.hosting_target != 'verify-articles-live' && inputs.hosting_target != 'verify-educational-live' && inputs.hosting_target != 'verify-unlisting-live' && inputs.hosting_target != 'review-dns' && inputs.hosting_target != 'prepare-dns' && inputs.hosting_target != 'deploy-cloudflare-export' && inputs.hosting_target != 'cutover-domain' && inputs.hosting_target != 'finish-redirect'
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
@@ -646,3 +646,32 @@ jobs:
             artifacts/article-indexing/
             artifacts/preferred-source/
             artifacts/educational-cleanup/
+
+  verify-unlisting-live:
+    if: inputs.hosting_target == 'verify-unlisting-live'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      VERIFY_BASE_URL: https://raytechinstitute.com
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install chromium
+      - name: Verify exact revision, every direct archive page and public navigation links
+        run: node scripts/verify-live-unlisted-articles.mjs
+      - name: Verify live listing search, category filters, old cache and direct visits
+        run: node scripts/verify-unlisted-articles-browser.mjs
+      - name: Verify official Google widget still respects archive exclusions
+        run: node scripts/verify-preferred-source.mjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: article-unlisting-live
+          path: |
+            artifacts/article-unlisting-live/
+            artifacts/article-unlisting/
+            artifacts/preferred-source/
