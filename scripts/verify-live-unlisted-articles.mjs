@@ -14,7 +14,7 @@ const routes=new Set([...archivedRoutes,'/blogs/','/blogs/post/','/']);
 for(const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)){const url=new URL(match[1]);assert.equal(url.origin,base);routes.add(url.pathname+url.search);}
 const queue=[...routes];let checked=0,archived=0;const violations=[];
 async function worker(){while(queue.length){const route=queue.shift();const {response,text}=await get(route);assert.equal(response.status,200,route);assert.match(response.headers.get('content-type')||'',/text\/html/,route);
- for(const match of text.matchAll(/<a\b[^>]*\bhref="([^"]*)"/gi)){const href=match[1].replaceAll('&amp;','&');let absolute;try{absolute=new URL(href,base+route).href;}catch{continue;}if(isArchivedArticleHref(absolute))violations.push({route,href});}
+ for(const match of text.matchAll(/<a\b[^>]*\bhref="([^"]*)"/gi)){const href=match[1].replaceAll('&amp;','&');if(!href||href.startsWith('#'))continue;let absolute;try{absolute=new URL(href,base+route).href;}catch{continue;}if(isArchivedArticleHref(absolute))violations.push({route,href});}
  if(archivedRoutes.has(route)){assert.match(text,/<meta[^>]*name="robots"[^>]*content="[^"]*noindex/i,route);assert.match(text,/<h1\b/,route);archived++;}checked++;
 }}
 await Promise.all(Array.from({length:6},worker));assert.equal(archived,archive.length);assert.equal(violations.length,0,'Live public archive links: '+JSON.stringify(violations.slice(0,20)));
