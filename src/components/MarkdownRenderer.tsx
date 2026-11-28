@@ -15,6 +15,7 @@ interface MarkdownRendererProps {
   onTryCode?: (code: string) => void;
   narration?: boolean;
   teaching?: boolean;
+  nofollowLinks?: string[];
 }
 
 export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
@@ -23,6 +24,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
   onTryCode,
   narration = false,
   teaching = false,
+  nofollowLinks = [],
 }) => {
   const sections = articleSections(content);
   const headingId = (line?: number) =>
@@ -117,7 +119,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
               <a
                 href={safeHref || undefined}
                 target={isExternal ? "_blank" : undefined}
-                rel={isExternal ? "noopener noreferrer" : undefined}
+                rel={isExternal ? `${nofollowLinks.includes(safeHref) ? "nofollow " : ""}noopener noreferrer` : undefined}
                 className="text-navy-600 hover:text-navy-800 font-semibold underline underline-offset-2 transition-colors"
               >
                 {children}

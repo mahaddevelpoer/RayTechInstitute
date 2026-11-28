@@ -13,6 +13,14 @@ const deployment=JSON.parse((await get('/deployment.json')).bytes);assert.equal(
 const article=await get(route);assert.equal(article.response.status,200);const document=new JSDOM(article.bytes.toString(),{url:base+route}).window.document;
 assert.equal(document.querySelectorAll('h1').length,1);assert.equal(document.querySelector('h1').textContent.trim(),post.title);assert.ok(!/noindex/i.test(document.querySelector('meta[name="robots"]')?.content||''));assert.equal(document.querySelector('link[rel="canonical"]').href,base+route);assert.equal(document.querySelector('meta[name="description"]').content,post.seo.description);assert.ok(document.body.textContent.includes(post.excerpt));assert.ok(document.querySelectorAll('table').length>=2);
 for(const url of post.seo.sources.split('\n'))assert.ok([...document.querySelectorAll('a[href]')].some(a=>a.href===url));
+const copy=document.querySelector('.markdown-article');assert.ok(copy);
+const headings=[...copy.querySelectorAll('h2')];
+assert.ok(headings.some(h=>h.textContent==='Scholarship highlights / quick facts'));
+const faq=headings.find(h=>h.textContent==='Frequently asked questions');assert.ok(faq);
+let questions=0;for(let next=faq.nextElementSibling;next&&next.tagName!=='H2';next=next.nextElementSibling)if(next.tagName==='H3')questions++;
+assert.equal(questions,4);
+for(const url of post.seo.sources.split('\n')){const link=[...copy.querySelectorAll('a[href]')].find(a=>a.href===url);assert.ok(link);assert.equal(link.target,'_blank');assert.ok(link.relList.contains('nofollow'));assert.ok(link.relList.contains('noopener'));}
+for(const path of ['/classes/','/classes/11th-class/','/classes/11th-class/computer-science/']){const link=[...copy.querySelectorAll('a[href]')].find(a=>a.pathname===path);assert.ok(link);assert.ok(!link.textContent.startsWith('/'));}
 const image=await get(post.featuredImage);assert.equal(image.response.status,200);assert.match(image.response.headers.get('content-type')||'',/image\/png/);assert.equal(createHash('sha256').update(image.bytes).digest('hex'),createHash('sha256').update(await fs.readFile('public'+post.featuredImage)).digest('hex'));
 const listing=new JSDOM((await get('/blogs/')).bytes.toString(),{url:base+'/blogs/'}).window.document;assert.ok([...listing.querySelectorAll('a[href]')].some(a=>a.pathname===route));assert.equal([...listing.querySelectorAll('a[href]')].filter(a=>isArchivedArticleHref(a.href)).length,0);assert.ok((await get('/sitemap.xml')).bytes.includes(Buffer.from(base+route)));
 const dir='artifacts/education-news-live';await fs.mkdir(dir,{recursive:true});const browser=await chromium.launch({...(process.platform==='win32'?{channel:'msedge'}:{}),headless:true});const views=[];

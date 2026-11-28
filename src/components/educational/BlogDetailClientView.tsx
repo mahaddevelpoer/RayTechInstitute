@@ -320,7 +320,7 @@ export function BlogDetailClientView({
             </Link>
           </aside>
         ) : (
-          <MarkdownRenderer content={post.content} />
+          <MarkdownRenderer content={post.content} nofollowLinks={sourceHrefs} />
         )}
       </div>
 

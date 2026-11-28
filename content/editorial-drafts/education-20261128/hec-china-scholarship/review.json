@@ -44,5 +44,14 @@
     ],
     "finding": "ICT chapter guides place MCQs before easy notes and solved Q&A; other sampled guides introduce theory first",
     "academicContentChanged": false
+  },
+  "improvements": {
+    "checkedOn": "2026-11-28",
+    "quickFacts": true,
+    "faqs": 4,
+    "relatedReading": "Three descriptive Markdown anchors replace the raw-path footer for this article",
+    "sources": "Existing clickable anchors retained; editor-declared source URLs receive nofollow noopener noreferrer and target=_blank",
+    "facts": "HEC announcement, eligibility, how-to-apply and required-documents pages rechecked. No universal IELTS waiver or eligibility for incomplete qualifications claimed.",
+    "schema": "Visible FAQ content only; no FAQPage markup or ranking guarantees"
   }
 }

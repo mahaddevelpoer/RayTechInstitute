@@ -4,6 +4,18 @@ HEC currently lists the Chinese Government Scholarship Programme for 2027-28 wit
 
 **Source check: 28 November 2026.** This guide reports the current HEC pages; it does not claim that the programme was announced today. If an official instruction changes, follow the updated HEC notice.
 
+## Scholarship highlights / quick facts
+
+| Detail | HEC China Scholarship 2027-28 |
+| --- | --- |
+| Host country | China; Chinese Government Scholarship through CSC |
+| Nominating agency in Pakistan | HEC Pakistan; Type A, agency number 5861 |
+| Total seats | 61: bachelor's 25, master's 21, PhD 15 |
+| Required HEC test | USAT for bachelor's; HAT for master's/PhD; minimum 50 out of 100, with an accepted result date |
+| Additional undergraduate test | CSCA is also required; confirm the subjects with the target university |
+| HEC portal deadline | 5 January 2027, 4:00 PM PKT (Pakistan time) |
+| Application portals | Both HEC and CSC submissions are mandatory |
+
 ## Which study levels and applicants are covered?
 
 The seat distribution and the education/age conditions below come from HEC's announcement and eligibility page. An age limit alone does not establish eligibility: academic completion, nationality, language and university requirements also matter.
@@ -61,6 +73,30 @@ This tracker is a study/planning aid, not an additional HEC requirement. Use cle
 Begin with the eligibility and test checks, because they determine whether collecting the remaining material is useful for this cycle. Then prepare the requested evidence and complete each portal's submission steps. Leave time to correct unreadable scans, mismatched details or an unfinished form.
 
 Before closing the application, check the official announcement again and verify that the portal status shows a completed submission. HEC nomination is a selection stage; submitting a form is not a scholarship award.
+
+## Frequently asked questions
+
+### Can 2nd-year students apply for HEC China Scholarship 2027-28?
+
+Only if they have completed the required qualification by the closing date and meet the other conditions. HEC excludes applicants with incomplete degrees at that date. For bachelor's applications, the requirement is completed 12-year education or an equivalent qualification. Being enrolled in 2nd year alone does not establish eligibility.
+
+### Is IELTS mandatory for CSC scholarship applications through HEC?
+
+Check the language requirement of your chosen university and programme. HEC lists IELTS, TOEFL or HSK evidence where applicable; it does not state one universal IELTS rule for every applicant. Do not assume that an English-medium certificate automatically replaces a required language test. Consult the university's official admission instructions.
+
+### What is the minimum USAT or HAT score?
+
+HEC states a minimum of 50 out of 100: USAT for bachelor's applicants and HAT for master's/PhD applicants. Your result must also fall within the accepted dates for this cycle. Meeting this threshold allows further consideration; it does not guarantee nomination or an award. Undergraduate applicants must also meet the CSCA requirement.
+
+### Do I need to submit both the HEC and CSC applications?
+
+Yes. HEC requires both portals for this route. Use Type A and agency number 5861 for the CSC application, following HEC's instructions. Check that both applications are submitted and retain the acknowledgements. The 5 January 2027, 4:00 PM PKT deadline shown here is for HEC's portal.
+
+## Related reading
+
+- [Browse classes and study resources](/classes/)
+- [11th Class subjects and study resources](/classes/11th-class/)
+- [11th Class Computer Science notes and MCQs](/classes/11th-class/computer-science/)
 
 ## Sources
 
