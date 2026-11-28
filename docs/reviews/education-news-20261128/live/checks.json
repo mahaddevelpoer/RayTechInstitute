@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-28T06:26:29.058Z",
+  "revision": "62afb5ee0749c7e58467d849e7d4a6b515cb35a8",
+  "url": "https://raytechinstitute.com/blogs/hec-china-scholarship-2027-28-deadline-application-guide/",
+  "status": 200,
+  "indexable": true,
+  "inPublicEducationalListing": true,
+  "inSitemap": true,
+  "sourceLinks": true,
+  "coverHash": true,
+  "legacyArticlesStillUnlisted": true,
+  "views": [
+    {
+      "width": 360,
+      "officialGoogleWidget": true,
+      "belowH1": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1366,
+      "officialGoogleWidget": true,
+      "belowH1": true,
+      "noHorizontalOverflow": true
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 {
   "savedAt": "2026-11-28T06:08:38.391Z",
-  "state": "database-saved-awaiting-static-release",
+  "state": "published-and-live-verified",
   "id": "education-20261128-hec-china-scholarship-2027-28",
   "slug": "hec-china-scholarship-2027-28-deadline-application-guide",
   "inserted": true,
   "preservedExistingArticles": 640,
   "sourceReview": "passed",
-  "standingEditorialApproval": true
+  "standingEditorialApproval": true,
+  "deploymentRun": 46116357785,
+  "liveVerificationRun": 46116555613,
+  "liveVerifiedAt": "2026-11-28T06:26:29.058Z"
 }
