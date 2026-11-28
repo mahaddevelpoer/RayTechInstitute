@@ -1,0 +1,23 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {learningProject,readLearningServiceKey} from './learning-cli-access.mjs';
+import {fetchCatalogRows} from './catalog-fetch.mjs';
+import {loadTypescript} from './load-typescript.mjs';
+import {hasPrivateCredential} from './private-credential-patterns.mjs';
+const root='content/editorial-drafts/education-20261128/hec-china-scholarship';
+const post=JSON.parse(await fs.readFile(root+'/post.json','utf8'));
+const review=JSON.parse(await fs.readFile(root+'/review.json','utf8'));
+const {articleCanIndex}=await loadTypescript('src/utils/article-indexing.ts');
+assert.equal(review.status,'passed');assert.equal(articleCanIndex(post),true);assert.equal(hasPrivateCredential(JSON.stringify(post)),false);await fs.access('public'+post.featuredImage);
+const row={id:post.id,title:post.title,slug:post.slug,category:post.category,excerpt:post.excerpt,content:post.content,featured_image:post.featuredImage,author:post.author,date_published:post.datePublished,read_time:post.readTime,tags:post.tags,seo:post.seo,action_button_text:post.actionButtonText,action_button_url:post.actionButtonUrl};
+const base='https://'+learningProject+'.supabase.co',key=readLearningServiceKey();
+const before=await fetchCatalogRows(base,key,'blogs');const existing=before.find(p=>p.id===row.id||p.slug===row.slug);
+if(existing)for(const [field,value] of Object.entries(row))assert.deepEqual(existing[field],value,'Existing content differs; no overwrite allowed: '+field);
+console.log(JSON.stringify({reviewed:1,existingArticles:before.length,insert:!existing,publish:process.argv.includes('--publish')}));
+if(!process.argv.includes('--publish'))process.exit(0);
+await fs.mkdir('artifacts/education-news-20261128',{recursive:true});await fs.writeFile('artifacts/education-news-20261128/before.json',JSON.stringify(before));
+if(!existing){const response=await fetch(base+'/rest/v1/blogs',{method:'POST',headers:{apikey:key,Authorization:'Bearer '+key,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify([row]),signal:AbortSignal.timeout(45000)});assert.ok(response.ok,'Insert failed: HTTP '+response.status);}
+const after=await fetchCatalogRows(base,key,'blogs');const saved=after.find(p=>p.id===row.id);for(const [field,value] of Object.entries(row))assert.deepEqual(saved?.[field],value,'Read-back mismatch: '+field);
+for(const old of before)assert.deepEqual(after.find(p=>p.id===old.id),old,'Unrelated record changed: '+old.id);
+const receipt={savedAt:new Date().toISOString(),state:'database-saved-awaiting-static-release',id:row.id,slug:row.slug,inserted:!existing,preservedExistingArticles:before.length,sourceReview:review.status,standingEditorialApproval:true};
+await fs.writeFile('artifacts/education-news-20261128/publication-receipt.json',JSON.stringify(receipt,null,2)+'\n');console.log(JSON.stringify(receipt));

@@ -1,0 +1,48 @@
+{
+  "checkedOn": "2026-11-28",
+  "scope": "Pakistan education; currently listed HEC scholarship update",
+  "officialSources": [
+    "https://www.hec.gov.pk/english/HECAnnouncements/Pages/CGS.aspx",
+    "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/Eligibility-Criteria.aspx",
+    "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/How-to-Apply.aspx",
+    "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/Required-Documents.aspx",
+    "https://www.hec.gov.pk/english/services/students/etc/Pages/Announcements.aspx"
+  ],
+  "factsChecked": [
+    "61 places: 25 bachelors, 21 masters, 15 PhD",
+    "HEC portal deadline 2027-01-05 16:00 Pakistan time",
+    "both HEC and CSC submissions required; saved is not submitted",
+    "Type A, agency 5861",
+    "undergraduate USAT, graduate HAT, minimum 50/100; accepted windows must be checked",
+    "CSCA requirement for undergraduate applicants",
+    "qualification and age requirements; later-stage document checklist"
+  ],
+  "dateCautions": [
+    "No claim that HEC published the notice today",
+    "November test-registration wording is not described as currently open",
+    "No invented test date or registration extension",
+    "No guaranteed nomination, admission or funding award"
+  ],
+  "originalContent": true,
+  "image": "self-authored factual summary graphic; no HEC seal, photograph or implied endorsement",
+  "publicationAuthorization": "Standing editorial publication approval in AGENTS.md; user requested a latest educational-news article",
+  "status": "passed",
+  "verifiedOn": "2026-11-28",
+  "imageVisualReview": "passed: original 1200x630 factual card inspected",
+  "sourceVerification": "Official HEC announcement, eligibility, application and document pages fetched and read; no invented announcement date or test extension",
+  "summaryWords": 41,
+  "notesCheck": {
+    "totalDitGuides": 36,
+    "withSolvedShortQuestions": 36,
+    "withSolvedLongQuestions": 36,
+    "liveSamplesChecked": [
+      "ICT chapter 1",
+      "Networking basic terminologies",
+      "Microsoft Word",
+      "OS overview",
+      "Programming introduction"
+    ],
+    "finding": "ICT chapter guides place MCQs before easy notes and solved Q&A; other sampled guides introduce theory first",
+    "academicContentChanged": false
+  }
+}
