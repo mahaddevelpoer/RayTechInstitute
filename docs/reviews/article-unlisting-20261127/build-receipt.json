@@ -8,5 +8,15 @@
   "publicArchiveAnchors": 0,
   "browserScenarios": 8,
   "reviewedOn": "2026-11-28",
-  "deployment": "not performed; requires approval for this specific unlisting change"
+  "deployment": {
+    "run": 46113135016,
+    "status": "success",
+    "approvedByUser": "kr do publish, 28 November 2026",
+    "artifactRun": 45971572375
+  },
+  "liveVerification": {
+    "run": 46113366110,
+    "status": "success",
+    "domain": "https://raytechinstitute.com"
+  }
 }
