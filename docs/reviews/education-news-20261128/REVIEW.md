@@ -1,0 +1,9 @@
+# Education update and DIT inspection
+
+Checked 28 November 2026. User requested student-friendly DIT notes and a current education-news article, then asked first to inspect whether existing DIT notes contain Q&A.
+
+DIT inspection: all 36 first-semester guides have both Solved short questions and Solved long questions. Five live pages (ICT 1, basic Networking, Word, OS 1 and Programming 1) returned HTTP 200 with both sections in rendered article text. Examples include computer definition/evolution, communication components/page-request explanation, editing versus formatting/bilingual assignment, OS/application distinction/document-saving explanation and average-program inputs/algorithm. ICT guides place a substantial MCQ section before easy notes and solved Q&A. No academic records, notes or PDFs were changed or duplicated while clarifying the request.
+
+Article: HEC Chinese Government Scholarship 2027-28, current official announcement checked directly. Accurate HEC deadline, 61 places, level/age/qualification table, USAT/HAT/CSCA distinction, two-portal submission and stage-aware document checklist. Past November test-registration wording is not described as open. No claim of a same-day HEC announcement, guaranteed award, invented test schedule or fake faculty review. First summary has 41 words, metadata title 59 characters including brand and description 142 characters. Cover is an original factual graphic, visually inspected, with no official seal or implied endorsement.
+
+Publication is covered by standing editorial approval in AGENTS.md and the user's current article request. The insert-only publication script validates the reviewed educational scope and refuses conflicting existing records. One new record was inserted/read back; all previous 640 records were compared and preserved. Hosting and live verification follow the isolated artifact build. No unrelated academic/UI change is bundled.
