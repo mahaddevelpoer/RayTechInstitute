@@ -1,0 +1,297 @@
+{
+  "checkedOn": "2026-11-28",
+  "publishedGuides": 36,
+  "solvedShortQuestions": 258,
+  "solvedLongQuestions": 121,
+  "emptyAnswerSections": [],
+  "notes": [
+    {
+      "id": "dit-cn-chapter-1-basic-terminologies-mcq-notes",
+      "title": "Basic Terminologies: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 532,
+      "longAnswerText": 912
+    },
+    {
+      "id": "dit-cn-chapter-2-network-topology-mcq-notes",
+      "title": "Network Topology: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 441,
+      "longAnswerText": 874
+    },
+    {
+      "id": "dit-ms-office-chapter-3-powerpoint-mcq-notes",
+      "title": "Microsoft PowerPoint: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 609,
+      "longAnswerText": 1434
+    },
+    {
+      "id": "dit-nov11-access-mcq-notes",
+      "title": "Microsoft Access: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 622,
+      "longAnswerText": 1594
+    },
+    {
+      "id": "dit-nov11-excel-mcq-notes",
+      "title": "Microsoft Excel: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 645,
+      "longAnswerText": 1649
+    },
+    {
+      "id": "dit-nov11-ip-addresses-mcq-notes",
+      "title": "IP Addresses: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 455,
+      "longAnswerText": 962
+    },
+    {
+      "id": "dit-nov11-network-models-mcq-notes",
+      "title": "Network Models: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 473,
+      "longAnswerText": 935
+    },
+    {
+      "id": "dit-nov11-networking-devices-mcq-notes",
+      "title": "Networking Devices: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 588,
+      "longAnswerText": 891
+    },
+    {
+      "id": "dit-nov11-protocols-mcq-notes",
+      "title": "Protocols: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 540,
+      "longAnswerText": 1012
+    },
+    {
+      "id": "dit-nov11-transmission-media-mcq-notes",
+      "title": "Transmission Media: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 495,
+      "longAnswerText": 994
+    },
+    {
+      "id": "note-1793112803271",
+      "title": "Introduction to Office Automation Software: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 642,
+      "longAnswerText": 1483
+    },
+    {
+      "id": "note-1793115340417",
+      "title": "Microsoft Word: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 568,
+      "longAnswerText": 1444
+    },
+    {
+      "id": "dit-ict-chapter-1-introduction-to-computers",
+      "title": "Introduction to Computers: ICT Chapter 1 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 1885,
+      "longAnswerText": 4628
+    },
+    {
+      "id": "dit-ict-chapter-2-system-unit-components",
+      "title": "System Unit Components: ICT Chapter 2 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 1934,
+      "longAnswerText": 4508
+    },
+    {
+      "id": "dit-ict-chapter-3-input-output-devices",
+      "title": "Input & Output Devices: ICT Chapter 3 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 2365,
+      "longAnswerText": 5010
+    },
+    {
+      "id": "dit-ict-chapter-4-digital-storage",
+      "title": "Digital Storage: ICT Chapter 4 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 2626,
+      "longAnswerText": 5696
+    },
+    {
+      "id": "dit-ict-chapter-5-system-software",
+      "title": "System Software: ICT Chapter 5 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 2570,
+      "longAnswerText": 5901
+    },
+    {
+      "id": "dit-ict-chapter-6-application-software",
+      "title": "Application Software: ICT Chapter 6 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 2705,
+      "longAnswerText": 5634
+    },
+    {
+      "id": "dit-ict-chapter-7-the-internet-and-world-wide-web",
+      "title": "Internet and World Wide Web: ICT Chapter 7 Study Guide",
+      "shortQuestions": 12,
+      "longQuestions": 6,
+      "shortAnswerText": 2813,
+      "longAnswerText": 6244
+    },
+    {
+      "id": "dit-complete-os-1-study-guide",
+      "title": "Overview of an Operating System: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 932,
+      "longAnswerText": 1713
+    },
+    {
+      "id": "dit-complete-os-2-study-guide",
+      "title": "Functions of an Operating System: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 818,
+      "longAnswerText": 1593
+    },
+    {
+      "id": "dit-complete-os-3-study-guide",
+      "title": "Processes: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 798,
+      "longAnswerText": 1577
+    },
+    {
+      "id": "dit-complete-os-4-study-guide",
+      "title": "Introduction to Windows 10: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 910,
+      "longAnswerText": 1781
+    },
+    {
+      "id": "dit-complete-os-5-study-guide",
+      "title": "Network Connectivity: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 872,
+      "longAnswerText": 1645
+    },
+    {
+      "id": "dit-complete-os-6-study-guide",
+      "title": "Windows Server 2019/2016: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 842,
+      "longAnswerText": 1672
+    },
+    {
+      "id": "dit-complete-python-1-study-guide",
+      "title": "Introduction to Programming: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 901,
+      "longAnswerText": 1538
+    },
+    {
+      "id": "dit-complete-python-2-study-guide",
+      "title": "Getting Started with Python: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 861,
+      "longAnswerText": 1440
+    },
+    {
+      "id": "dit-complete-python-3-study-guide",
+      "title": "Variables and Operators: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 741,
+      "longAnswerText": 1530
+    },
+    {
+      "id": "dit-complete-python-4-study-guide",
+      "title": "Strings: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 846,
+      "longAnswerText": 1599
+    },
+    {
+      "id": "dit-complete-python-5-study-guide",
+      "title": "Lists: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 682,
+      "longAnswerText": 1377
+    },
+    {
+      "id": "dit-complete-python-6-study-guide",
+      "title": "Conditional Statements: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 636,
+      "longAnswerText": 1276
+    },
+    {
+      "id": "dit-complete-python-7-study-guide",
+      "title": "Loops: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 663,
+      "longAnswerText": 1395
+    },
+    {
+      "id": "dit-complete-python-8-study-guide",
+      "title": "Functions: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 571,
+      "longAnswerText": 1551
+    },
+    {
+      "id": "dit-complete-python-9-study-guide",
+      "title": "Working with Graphics and Excel Files: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 624,
+      "longAnswerText": 1509
+    },
+    {
+      "id": "dit-complete-network-8-study-guide",
+      "title": "Networking Practical Workbook: DIT Study Guide",
+      "shortQuestions": 6,
+      "longQuestions": 3,
+      "shortAnswerText": 894,
+      "longAnswerText": 1552
+    },
+    {
+      "id": "dit-ict-practical-workbook",
+      "title": "ICT Practical Workbook: DIT Practical Workbook",
+      "shortQuestions": 6,
+      "longQuestions": 2,
+      "shortAnswerText": 741,
+      "longAnswerText": 1026
+    }
+  ]
+}

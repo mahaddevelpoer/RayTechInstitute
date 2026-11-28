@@ -1,3 +1,4 @@
+import {checkArticleRobots} from './article-robots-check.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const legacy=JSON.parse(await fs.readFile('content/editorial-policy/legacy-noindex.json','utf8')).articles;
@@ -20,8 +21,7 @@ const unique=[...new Set(routes)];let checked=0;
 // Frozen historical routes removed before this release need not be recreated.
 const missing=[];
 async function worker(){while(unique.length){const route=unique.shift();let html;try{html=await get(route);}catch(error){if(!base&&error.code==='ENOENT')continue;throw error;}
- assert.ok(!/<meta[^>]*name="googlebot"[^>]*content="[^"]*(?<!no)\bindex\b/i.test(html),route+' contradictory googlebot');
- const noindex=/<meta[^>]*name="robots"[^>]*content="[^"]*noindex[^"]*"/i.test(html);
+ const noindex=checkArticleRobots(html,route);
  if(base||legacy.some(a=>route==='/blogs/'+a.slug+'/')){assert.ok(noindex,route+' requires server-rendered noindex');assert.match(html,/<meta[^>]*name="robots"[^>]*content="[^"]*\bfollow\b/i,route);assert.ok(!sitemap.includes('<loc>https://raytechinstitute.com'+route+'</loc>'),route+' must leave sitemap');checked++;}
 }}
 await Promise.all(Array.from({length:6},worker));assert.ok(checked>=638,'Expected all existing articles checked');

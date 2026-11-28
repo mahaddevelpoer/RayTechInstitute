@@ -1,3 +1,4 @@
+import {checkArticleRobots} from './article-robots-check.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -21,4 +22,10 @@ test('new reviewed Pakistan and world educational articles can index',()=>{
 test('unreviewed, unsourced and out-of-scope future content cannot index',()=>{
  for(const value of [{...post,category:'sports'},{...post,seo:{}},{...post,seo:{...post.seo,sources:'http://example.com'}},{...post,seo:{...post.seo,sources:'https://user:pass@example.com'}},{...post,content:'I certify the result.'}])assert.equal(articleCanIndex(value),false);
  assert.equal(hasEducationReview({...post,category:'entertainment'}),false);
+});
+
+test('export gate allows new indexed education while rejecting conflicting archive robot directives',()=>{
+ assert.equal(checkArticleRobots('<meta name="robots" content="index, follow"><meta name="googlebot" content="index, follow">','/blogs/new-education/'),false);
+ assert.equal(checkArticleRobots('<meta name="robots" content="noindex, follow"><meta name="googlebot" content="noindex, follow">','/blogs/archive/'),true);
+ assert.throws(()=>checkArticleRobots('<meta name="robots" content="noindex, follow"><meta name="googlebot" content="index, follow">','/blogs/archive/'),/contradictory googlebot/);
 });
