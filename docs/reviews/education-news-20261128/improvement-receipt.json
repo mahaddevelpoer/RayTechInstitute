@@ -1,6 +1,6 @@
 {
   "savedAt": "2026-11-28T07:00:55.849Z",
-  "state": "database-updated-awaiting-static-release",
+  "state": "published-and-live-verified",
   "id": "education-20261128-hec-china-scholarship-2027-28",
   "updatedFields": [
     "content",
@@ -8,5 +8,10 @@
     "read_time"
   ],
   "preservedOtherArticles": 640,
-  "standingEditorialApproval": true
+  "standingEditorialApproval": true,
+  "artifactRun": 46119271119,
+  "deploymentRun": 46119959162,
+  "liveVerificationRun": 46120120275,
+  "sourceRevision": "fc15959ad987e27be09d20d07f634733b6b99072",
+  "liveVerifiedAt": "2026-11-28T07:13:18.583Z"
 }
